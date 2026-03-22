@@ -1,0 +1,34 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+
+# Temp / logs
+*.log
+*.tmp
+*.bak
+temp/
+tmp/
+cache/
+scratch/
+
+# Exports
+exports/tmp/
+
+# Archives
+*.zip
