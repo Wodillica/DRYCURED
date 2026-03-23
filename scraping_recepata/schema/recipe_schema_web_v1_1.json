@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DRYCURED Web Recipe Schema v1.1",
+  "type": "object",
+  "required": [
+    "recipe_id",
+    "source_url",
+    "source_domain",
+    "source_type",
+    "fetched_at",
+    "language_detected",
+    "raw_title",
+    "parser_used",
+    "confidence_score"
+  ],
+  "properties": {
+    "recipe_id": { "type": "string" },
+    "source_url": { "type": "string" },
+    "source_domain": { "type": "string" },
+    "source_type": { "type": "string" },
+    "fetched_at": { "type": "string" },
+    "parser_used": { "type": "string" },
+    "parser_fallback_level": { "type": "integer" },
+    "language_detected": { "type": "string" },
+    "country_guess": { "type": "string" },
+    "region_guess": { "type": "string" },
+    "raw_title": { "type": "string" },
+    "original_name": { "type": "string" },
+    "normalized_name": { "type": "string" },
+    "product_type": { "type": "string" },
+    "raw_ingredients": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "raw_instructions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "process_keywords": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "casing_type": { "type": "string" },
+    "garlic_mode": { "type": "string" },
+    "smoking": { "type": "string" },
+    "drying": { "type": "string" },
+    "maturation": { "type": "string" },
+    "confidence_score": { "type": "number" },
+    "extraction_quality": { "type": "string" },
+    "dedupe_signature": { "type": "string" },
+    "duplicate_status": { "type": "string" },
+    "editorial_status": { "type": "string" },
+    "technical_reference": { "type": "boolean" },
+    "legal_notes": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}
