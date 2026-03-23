@@ -1,0 +1,21 @@
+country,region,language_group,source_type,domain_or_url,priority,notes
+Croatia,Balkan,hr,portal,finirecepti.net,medium,opći receptni portal
+Croatia,Balkan,hr,portal,coolinarika.com,high,velika baza recepata i komentara
+Croatia,Balkan,hr,portal,agroklub.com,medium,mogući tehnološki i tradicijski članci
+Bosnia and Herzegovina,Balkan,bs/hr/sr,portal,klix.ba,low,povremeni receptni članci
+Serbia,Balkan,sr,portal,recepti.com,medium,opći receptni portal
+Serbia,Balkan,sr,portal,stvarukusa.mondo.rs,medium,recepti i članci
+Slovenia,Balkan,sl,portal,okusno.je,medium,recepti i kulinarski sadržaj
+Montenegro,Balkan,sr/hr,portal,cdm.me,low,povremeni članci
+North Macedonia,Balkan,mk,portal,moirecepti.mk,medium,receptni portal
+Italy,Europe,it,portal,giallozafferano.it,medium,velik receptni portal
+Italy,Europe,it,portal,cucchiaio.it,medium,receptni portal
+Spain,Europe,es,portal,recetasderechupete.com,medium,receptni portal
+Spain,Europe,es,portal,directoalpaladar.com,medium,kulinarski portal
+Hungary,Europe,hu,portal,mindmegette.hu,medium,receptni portal
+Austria,Europe,de,portal,ichkoche.at,medium,receptni portal
+Germany,Europe,de,portal,chefkoch.de,high,vrlo velik receptni portal
+Poland,Europe,pl,portal,kwestiasmaku.com,medium,receptni portal
+United Kingdom,Europe,en,forum,reddit.com,low,samo ciljano i oprezno po temama
+Global,Europe,en,reference,wikipedia.org,low,samo za nazivlja i regionalne tragove
+Global,Europe,multi,producer,slowfood.com,medium,mogući tradicijski i regionalni opisi
