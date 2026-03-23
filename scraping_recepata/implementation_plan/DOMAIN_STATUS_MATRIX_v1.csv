@@ -1,0 +1,20 @@
+domain,status,source_class,priority,notes
+coolinarika.com,allowed_test,A,high,velik receptni portal i dobar kandidat za prvi batch
+chefkoch.de,allowed_test,A,high,velik receptni portal s potencijalno dobrim markupom
+slowfood.com,allowed_test,A,high,referentni tradicijski i regionalni sadržaj
+finirecepti.net,allowed_test,B,medium,opći receptni portal za testiranje
+agroklub.com,allowed_review,B,medium,moguć tehnološki sadržaj ali treba procjenu po URL-ovima
+stvarukusa.mondo.rs,allowed_test,B,medium,receptni portal za testiranje
+okusno.je,allowed_test,B,medium,slovenski portal za testiranje
+moirecepti.mk,allowed_test,B,medium,makedonski receptni portal za testiranje
+giallozafferano.it,allowed_test,B,medium,velik talijanski portal
+directoalpaladar.com,allowed_test,B,medium,španjolski kulinarski portal
+mindmegette.hu,allowed_test,B,medium,mađarski receptni portal
+kwestiasmaku.com,allowed_test,B,medium,poljski receptni portal
+reddit.com,blocked_review,D,low,samo ciljano i tek nakon posebne odluke
+wikipedia.org,low_value,C,low,koristiti samo za nazivlja i regionalne tragove
+klix.ba,low_value,C,low,povremeni članci ali nije primarni receptni izvor
+cdm.me,low_value,D,low,nizak prioritet za receptni sustav
+recepti.com,allowed_review,B,medium,provjeriti kvalitetu i strukturu prije širenja
+ichkoche.at,allowed_review,B,medium,provjeriti stabilnost i strukturu prije širenja
+cucchiaio.it,allowed_review,B,medium,provjeriti kvalitetu ekstrakcije prije širenja
