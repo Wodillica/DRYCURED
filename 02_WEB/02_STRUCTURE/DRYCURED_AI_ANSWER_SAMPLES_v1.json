@@ -1,0 +1,1229 @@
+[
+  {
+    "query": "Zašto se proizvod prebrzo suši?",
+    "mode": "problem",
+    "answer_status": "controlled_composition_v1",
+    "confirmed_from_book": [
+      "chap08-dimljenje-susenje-zrenje-faze-difuzije-vlage-section",
+      "chap08-dimljenje-susenje-zrenje-greska-1-tvrda-kora-case-hardening-section",
+      "chap14-kontrola-kvalitete-i-sigurnost-table-8"
+    ],
+    "inferred_from_book_context": [
+      "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+      "chap08-dimljenje-susenje-zrenje-preporuceni-rezimi-section"
+    ],
+    "insufficient_evidence": false,
+    "evidence_channels": {
+      "problem_evidence": [
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-faze-difuzije-vlage-section",
+          "channel": "problem_evidence",
+          "claim_status": "confirmed_from_book",
+          "object_type": "problem",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Faze difuzije vlage",
+          "title_or_caption": "Faze difuzije vlage",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [],
+          "confidence_basis": [
+            "strong_section_or_visual_match"
+          ],
+          "extraction_confidence": 0.86,
+          "concise_summary": "Nagle promjene RH i prejak zrak mogu stvoriti fenomen case--hardeninga: tvrda i presuha kora izvana, uz zaostajanje vlage u jezgri."
+        },
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-1-tvrda-kora-case-hardening-section",
+          "channel": "problem_evidence",
+          "claim_status": "confirmed_from_book",
+          "object_type": "problem",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Greška 1: Tvrda kora (case--hardening)",
+          "title_or_caption": "Greška 1: Tvrda kora (case--hardening)",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [],
+          "confidence_basis": [
+            "strong_section_or_visual_match"
+          ],
+          "extraction_confidence": 0.86,
+          "concise_summary": "Uzrok: preniska RH, previsoka T, prejak zrak. Rješenje: povisiti RH u kratkom periodu, smanjiti ventilaciju i stabilizirati režim prije nego kora “zaključa” jezgru."
+        }
+      ],
+      "theory_evidence": [
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+          "channel": "theory_evidence",
+          "claim_status": "inferred_from_book_context",
+          "object_type": "process_phase",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+          "title_or_caption": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "inf:p08_i05"
+          ],
+          "confidence_basis": [
+            "strong_section_or_visual_match",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.86,
+          "concise_summary": "Sušenje je najduža faza procesa i uključuje istodobno: Zato se sušenje ne vodi “jednom brojkom”, nego stabilnim režimom u kojem se brzina gubitka vode namjerno usporava čim proizvod dobije stabilnu površinu."
+        },
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-preporuceni-rezimi-section",
+          "channel": "theory_evidence",
+          "claim_status": "inferred_from_book_context",
+          "object_type": "theory_block",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Preporučeni režimi",
+          "title_or_caption": "Preporučeni režimi",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "fig:p08_s02"
+          ],
+          "confidence_basis": [
+            "heuristic_section_classification",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.8,
+          "concise_summary": "Trajne kobasice (34--46 mm) T = 10--14 ; RH = 80--88%; cilj 35--45\\,% gubitka mase."
+        }
+      ],
+      "visual_support": [
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-6",
+          "channel": "visual_support",
+          "claim_status": "confirmed_from_book",
+          "object_type": "infographic",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": null,
+          "title_or_caption": "Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode.",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "inf:p08_i05"
+          ],
+          "confidence_basis": [
+            "high_confidence_structure_match",
+            "caption_or_visual_signal",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.97,
+          "concise_summary": "[!htbp] type=infografika assets/infografike/pog08/p08_i05 Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode. inf:p08_i05"
+        },
+        {
+          "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-table-8",
+          "channel": "visual_support",
+          "claim_status": "confirmed_from_book",
+          "object_type": "table",
+          "chapter_title": "Kontrola kvalitete, greške i rješenja",
+          "section_title": null,
+          "title_or_caption": "Matrica: greška $$ uzrok $$ dijagnoza $$ rješenje $$ prevencija",
+          "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+          "source_labels": [
+            "tab:p14_matrica_greske"
+          ],
+          "confidence_basis": [
+            "high_confidence_structure_match",
+            "caption_or_visual_signal",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.97,
+          "concise_summary": "[p!] 4pt 1.08 Matrica: greška $$ uzrok $$ dijagnoza $$ rješenje $$ prevencija tab:p14_matrica_greske tabularx@% >X >X >X >X >X @ Greška & Uzrok & Dijagnoza & Rješenje & Prevencija \\\\ Tvrda kora, mekana jezgra (case ha..."
+        }
+      ]
+    },
+    "short_answer": "Knjiga problem prebrzog sušenja veže uz prenisku relativnu vlagu, prejak protok zraka i režim koji je brži od sposobnosti jezgre da ravnomjerno otpušta vodu.",
+    "likely_causes": [
+      "Preniska RH u ranoj fazi sušenja.",
+      "Prejak ili preizravan protok zraka.",
+      "Previsoka temperatura koja ubrzava površinsko isušivanje."
+    ],
+    "recommended_corrections": [
+      "Privremeno povisiti RH i smanjiti ventilaciju da se režim stabilizira.",
+      "Uspostaviti mirniji početak sušenja bez agresivnog isušivanja površine.",
+      "Pratiti preporučene režime gubitka mase i ne žuriti s padom vlage."
+    ],
+    "relevant_warnings": [],
+    "detailed_explanation": null,
+    "process_context": "Supporting procesni kontekst dolazi iz blokova o sušenju kao upravljanju vodom, zrakom i vremenom te iz preporučenih režima RH/T.",
+    "related_book_sections": [
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Faze difuzije vlage",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-faze-difuzije-vlage-section",
+        "object_type": "problem"
+      },
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Greška 1: Tvrda kora (case--hardening)",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-1-tvrda-kora-case-hardening-section",
+        "object_type": "problem"
+      },
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+        "object_type": "process_phase"
+      },
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Preporučeni režimi",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-preporuceni-rezimi-section",
+        "object_type": "theory_block"
+      }
+    ],
+    "related_tables": [
+      {
+        "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-table-8",
+        "object_type": "table",
+        "title_or_caption": "Matrica: greška $$ uzrok $$ dijagnoza $$ rješenje $$ prevencija",
+        "source_labels": [
+          "tab:p14_matrica_greske"
+        ],
+        "chapter_title": "Kontrola kvalitete, greške i rješenja"
+      }
+    ],
+    "related_infographics": [
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-6",
+        "object_type": "infographic",
+        "title_or_caption": "Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode.",
+        "source_labels": [
+          "inf:p08_i05"
+        ],
+        "chapter_title": "Dimljenje, sušenje i zrenje"
+      }
+    ],
+    "related_tools": [],
+    "confidence_basis": {
+      "evidence_strength": "strong_confirmed_problem_pack",
+      "primary_object_count": 2,
+      "supporting_object_count": 2,
+      "visual_object_count": 2,
+      "notes": [
+        "Postoji izravan problem object o difuziji vlage i case-hardeningu.",
+        "Postoji dijagnostičko-rješenjska tablica koja potvrđuje uzrok i korekciju.",
+        "Process support je dovoljno jak, ali ostaje supporting context."
+      ]
+    },
+    "source_evidence": [
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-faze-difuzije-vlage-section",
+        "channel": "problem_evidence",
+        "claim_status": "confirmed_from_book",
+        "object_type": "problem",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Faze difuzije vlage",
+        "title_or_caption": "Faze difuzije vlage",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [],
+        "confidence_basis": [
+          "strong_section_or_visual_match"
+        ],
+        "extraction_confidence": 0.86,
+        "concise_summary": "Nagle promjene RH i prejak zrak mogu stvoriti fenomen case--hardeninga: tvrda i presuha kora izvana, uz zaostajanje vlage u jezgri."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-1-tvrda-kora-case-hardening-section",
+        "channel": "problem_evidence",
+        "claim_status": "confirmed_from_book",
+        "object_type": "problem",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Greška 1: Tvrda kora (case--hardening)",
+        "title_or_caption": "Greška 1: Tvrda kora (case--hardening)",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [],
+        "confidence_basis": [
+          "strong_section_or_visual_match"
+        ],
+        "extraction_confidence": 0.86,
+        "concise_summary": "Uzrok: preniska RH, previsoka T, prejak zrak. Rješenje: povisiti RH u kratkom periodu, smanjiti ventilaciju i stabilizirati režim prije nego kora “zaključa” jezgru."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+        "channel": "theory_evidence",
+        "claim_status": "inferred_from_book_context",
+        "object_type": "process_phase",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+        "title_or_caption": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "inf:p08_i05"
+        ],
+        "confidence_basis": [
+          "strong_section_or_visual_match",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.86,
+        "concise_summary": "Sušenje je najduža faza procesa i uključuje istodobno: Zato se sušenje ne vodi “jednom brojkom”, nego stabilnim režimom u kojem se brzina gubitka vode namjerno usporava čim proizvod dobije stabilnu površinu."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-preporuceni-rezimi-section",
+        "channel": "theory_evidence",
+        "claim_status": "inferred_from_book_context",
+        "object_type": "theory_block",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Preporučeni režimi",
+        "title_or_caption": "Preporučeni režimi",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "fig:p08_s02"
+        ],
+        "confidence_basis": [
+          "heuristic_section_classification",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.8,
+        "concise_summary": "Trajne kobasice (34--46 mm) T = 10--14 ; RH = 80--88%; cilj 35--45\\,% gubitka mase."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-6",
+        "channel": "visual_support",
+        "claim_status": "confirmed_from_book",
+        "object_type": "infographic",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": null,
+        "title_or_caption": "Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode.",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "inf:p08_i05"
+        ],
+        "confidence_basis": [
+          "high_confidence_structure_match",
+          "caption_or_visual_signal",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.97,
+        "concise_summary": "[!htbp] type=infografika assets/infografike/pog08/p08_i05 Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode. inf:p08_i05"
+      },
+      {
+        "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-table-8",
+        "channel": "visual_support",
+        "claim_status": "confirmed_from_book",
+        "object_type": "table",
+        "chapter_title": "Kontrola kvalitete, greške i rješenja",
+        "section_title": null,
+        "title_or_caption": "Matrica: greška $$ uzrok $$ dijagnoza $$ rješenje $$ prevencija",
+        "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+        "source_labels": [
+          "tab:p14_matrica_greske"
+        ],
+        "confidence_basis": [
+          "high_confidence_structure_match",
+          "caption_or_visual_signal",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.97,
+        "concise_summary": "[p!] 4pt 1.08 Matrica: greška $$ uzrok $$ dijagnoza $$ rješenje $$ prevencija tab:p14_matrica_greske tabularx@% >X >X >X >X >X @ Greška & Uzrok & Dijagnoza & Rješenje & Prevencija \\\\ Tvrda kora, mekana jezgra (case ha..."
+      }
+    ]
+  },
+  {
+    "query": "Što uzrokuje neugodan miris?",
+    "mode": "problem",
+    "answer_status": "controlled_composition_v1",
+    "confirmed_from_book": [
+      "chap08-dimljenje-susenje-zrenje-greska-4-neugodan-nasla-eni-ili-kiseli-miris-section",
+      "chap14-kontrola-kvalitete-i-sigurnost-table-7"
+    ],
+    "inferred_from_book_context": [
+      "chap14-kontrola-kvalitete-i-sigurnost-faza-fermentacije-srce-procesa-section",
+      "chap08-dimljenje-susenje-zrenje-greske-pri-susenju-i-zrenju-uzroci-i-rjesenja-section"
+    ],
+    "insufficient_evidence": false,
+    "evidence_channels": {
+      "problem_evidence": [
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-4-neugodan-nasla-eni-ili-kiseli-miris-section",
+          "channel": "problem_evidence",
+          "claim_status": "confirmed_from_book",
+          "object_type": "problem",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Greška 4: Neugodan „naslađeni” ili kiseli miris",
+          "title_or_caption": "Greška 4: Neugodan „naslađeni” ili kiseli miris",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [],
+          "confidence_basis": [
+            "strong_section_or_visual_match"
+          ],
+          "extraction_confidence": 0.86,
+          "concise_summary": "Uzrok: anaerobni džepovi, loše punjenje ili nestabilna fermentacija. Rješenje: vratiti fokus na punjenje i ranije faze; u ovoj fazi pomaže mirna ventilacija i stabilna RH, bez šok-terapije."
+        },
+        {
+          "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-table-7",
+          "channel": "problem_evidence",
+          "claim_status": "confirmed_from_book",
+          "object_type": "table",
+          "chapter_title": "Kontrola kvalitete, greške i rješenja",
+          "section_title": null,
+          "title_or_caption": "Najčešći defekti suhomesnatih proizvoda (znakovi i dijagnoza)",
+          "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+          "source_labels": [
+            "tab:p14_defekti"
+          ],
+          "confidence_basis": [
+            "high_confidence_structure_match",
+            "caption_or_visual_signal",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.97,
+          "concise_summary": "[!htbp] Najčešći defekti suhomesnatih proizvoda (znakovi i dijagnoza) tab:p14_defekti tabularx@% >X >X >X >X @ Defekt & Vizualni znakovi & Miris / tekstura & Dijagnoza / uzrok \\\\ Siva boja presjeka & Blijedo sivo-smeđ..."
+        }
+      ],
+      "theory_evidence": [
+        {
+          "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-faza-fermentacije-srce-procesa-section",
+          "channel": "theory_evidence",
+          "claim_status": "inferred_from_book_context",
+          "object_type": "cause",
+          "chapter_title": "Kontrola kvalitete, greške i rješenja",
+          "section_title": "Faza fermentacije -- srce procesa",
+          "title_or_caption": "Faza fermentacije -- srce procesa",
+          "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+          "source_labels": [],
+          "confidence_basis": [
+            "heuristic_section_classification"
+          ],
+          "extraction_confidence": 0.8,
+          "concise_summary": "Fermentacija je faza u kojoj se sirova smjesa počinje pretvarati u stabilniji, sigurniji i prepoznatljivo aromatičan proizvod."
+        },
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-greske-pri-susenju-i-zrenju-uzroci-i-rjesenja-section",
+          "channel": "theory_evidence",
+          "claim_status": "inferred_from_book_context",
+          "object_type": "problem",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Greške pri sušenju i zrenju – uzroci i rješenja",
+          "title_or_caption": "Greške pri sušenju i zrenju – uzroci i rješenja",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "inf:p08_i07"
+          ],
+          "confidence_basis": [
+            "strong_section_or_visual_match",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.86,
+          "concise_summary": "Greške u ovoj fazi rijetko nastaju “preko noći”: najčešće su posljedica režima koji je bio prebrz, previše suh, previše vlažan ili nestabilan kroz nekoliko dana."
+        }
+      ],
+      "visual_support": [
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-10",
+          "channel": "visual_support",
+          "claim_status": "confirmed_from_book",
+          "object_type": "infographic",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": null,
+          "title_or_caption": "Greške pri sušenju i zrenju: uzrok i korekcija (praktični servisni priručnik).",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "inf:p08_i07"
+          ],
+          "confidence_basis": [
+            "high_confidence_structure_match",
+            "caption_or_visual_signal",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.97,
+          "concise_summary": "[!htbp] type=infografika assets/infografike/pog08/p08_i07 Greške pri sušenju i zrenju: uzrok i korekcija (praktični servisni priručnik). inf:p08_i07"
+        }
+      ]
+    },
+    "short_answer": "U sample corpusu neugodan miris je vezan uz anaerobne džepove, loše punjenje ili nestabilnu fermentaciju, uz potrebu da se kasnija faza ne liječi šok-korekcijama.",
+    "likely_causes": [
+      "Anaerobni džepovi zbog lošeg punjenja.",
+      "Nestabilna ili pregruba fermentacija.",
+      "Opći nestabilan režim sušenja i zrenja koji pojačava defekt umjesto da ga smiri."
+    ],
+    "recommended_corrections": [
+      "Vratiti fokus na punjenje i rane faze procesa.",
+      "Držati mirnu ventilaciju i stabilnu RH umjesto agresivnih korekcija.",
+      "Provjeriti znakove iz dijagnostičke tablice prije daljnjeg spašavanja proizvoda."
+    ],
+    "relevant_warnings": [],
+    "detailed_explanation": null,
+    "process_context": "Fermentacija i rana stabilizacija smjese ostaju ključni supporting context za razumijevanje neugodnog mirisa.",
+    "related_book_sections": [
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Greška 4: Neugodan „naslađeni” ili kiseli miris",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-4-neugodan-nasla-eni-ili-kiseli-miris-section",
+        "object_type": "problem"
+      },
+      {
+        "chapter_title": "Kontrola kvalitete, greške i rješenja",
+        "section_title": null,
+        "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-table-7",
+        "object_type": "table"
+      },
+      {
+        "chapter_title": "Kontrola kvalitete, greške i rješenja",
+        "section_title": "Faza fermentacije -- srce procesa",
+        "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-faza-fermentacije-srce-procesa-section",
+        "object_type": "cause"
+      },
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Greške pri sušenju i zrenju – uzroci i rješenja",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-greske-pri-susenju-i-zrenju-uzroci-i-rjesenja-section",
+        "object_type": "problem"
+      }
+    ],
+    "related_tables": [],
+    "related_infographics": [
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-10",
+        "object_type": "infographic",
+        "title_or_caption": "Greške pri sušenju i zrenju: uzrok i korekcija (praktični servisni priručnik).",
+        "source_labels": [
+          "inf:p08_i07"
+        ],
+        "chapter_title": "Dimljenje, sušenje i zrenje"
+      }
+    ],
+    "related_tools": [],
+    "confidence_basis": {
+      "evidence_strength": "moderate_confirmed_problem_pack",
+      "primary_object_count": 2,
+      "supporting_object_count": 2,
+      "visual_object_count": 1,
+      "notes": [
+        "Postoji izravni problem object za neugodan miris.",
+        "Tablica defekata potvrđuje dijagnostičku logiku, ali nema zaseban warning object baš za ovaj simptom.",
+        "Process context je koristan, ali dio uzročne veze ostaje na inferenciji iz šireg konteksta fermentacije."
+      ]
+    },
+    "source_evidence": [
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-4-neugodan-nasla-eni-ili-kiseli-miris-section",
+        "channel": "problem_evidence",
+        "claim_status": "confirmed_from_book",
+        "object_type": "problem",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Greška 4: Neugodan „naslađeni” ili kiseli miris",
+        "title_or_caption": "Greška 4: Neugodan „naslađeni” ili kiseli miris",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [],
+        "confidence_basis": [
+          "strong_section_or_visual_match"
+        ],
+        "extraction_confidence": 0.86,
+        "concise_summary": "Uzrok: anaerobni džepovi, loše punjenje ili nestabilna fermentacija. Rješenje: vratiti fokus na punjenje i ranije faze; u ovoj fazi pomaže mirna ventilacija i stabilna RH, bez šok-terapije."
+      },
+      {
+        "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-table-7",
+        "channel": "problem_evidence",
+        "claim_status": "confirmed_from_book",
+        "object_type": "table",
+        "chapter_title": "Kontrola kvalitete, greške i rješenja",
+        "section_title": null,
+        "title_or_caption": "Najčešći defekti suhomesnatih proizvoda (znakovi i dijagnoza)",
+        "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+        "source_labels": [
+          "tab:p14_defekti"
+        ],
+        "confidence_basis": [
+          "high_confidence_structure_match",
+          "caption_or_visual_signal",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.97,
+        "concise_summary": "[!htbp] Najčešći defekti suhomesnatih proizvoda (znakovi i dijagnoza) tab:p14_defekti tabularx@% >X >X >X >X @ Defekt & Vizualni znakovi & Miris / tekstura & Dijagnoza / uzrok \\\\ Siva boja presjeka & Blijedo sivo-smeđ..."
+      },
+      {
+        "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-faza-fermentacije-srce-procesa-section",
+        "channel": "theory_evidence",
+        "claim_status": "inferred_from_book_context",
+        "object_type": "cause",
+        "chapter_title": "Kontrola kvalitete, greške i rješenja",
+        "section_title": "Faza fermentacije -- srce procesa",
+        "title_or_caption": "Faza fermentacije -- srce procesa",
+        "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+        "source_labels": [],
+        "confidence_basis": [
+          "heuristic_section_classification"
+        ],
+        "extraction_confidence": 0.8,
+        "concise_summary": "Fermentacija je faza u kojoj se sirova smjesa počinje pretvarati u stabilniji, sigurniji i prepoznatljivo aromatičan proizvod."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-greske-pri-susenju-i-zrenju-uzroci-i-rjesenja-section",
+        "channel": "theory_evidence",
+        "claim_status": "inferred_from_book_context",
+        "object_type": "problem",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Greške pri sušenju i zrenju – uzroci i rješenja",
+        "title_or_caption": "Greške pri sušenju i zrenju – uzroci i rješenja",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "inf:p08_i07"
+        ],
+        "confidence_basis": [
+          "strong_section_or_visual_match",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.86,
+        "concise_summary": "Greške u ovoj fazi rijetko nastaju “preko noći”: najčešće su posljedica režima koji je bio prebrz, previše suh, previše vlažan ili nestabilan kroz nekoliko dana."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-10",
+        "channel": "visual_support",
+        "claim_status": "confirmed_from_book",
+        "object_type": "infographic",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": null,
+        "title_or_caption": "Greške pri sušenju i zrenju: uzrok i korekcija (praktični servisni priručnik).",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "inf:p08_i07"
+        ],
+        "confidence_basis": [
+          "high_confidence_structure_match",
+          "caption_or_visual_signal",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.97,
+        "concise_summary": "[!htbp] type=infografika assets/infografike/pog08/p08_i07 Greške pri sušenju i zrenju: uzrok i korekcija (praktični servisni priručnik). inf:p08_i07"
+      }
+    ]
+  },
+  {
+    "query": "Objasni ulogu vlage u sušenju.",
+    "mode": "theory",
+    "answer_status": "controlled_composition_v1",
+    "confirmed_from_book": [
+      "chap08-dimljenje-susenje-zrenje-fizikalna-osnova-procesa-section",
+      "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+      "chap08-dimljenje-susenje-zrenje-preporuceni-rezimi-section"
+    ],
+    "inferred_from_book_context": [
+      "chap10-klimatski-i-mikrolokalni-uvjeti-relativna-vlaznost-zraka-rh-section"
+    ],
+    "insufficient_evidence": false,
+    "evidence_channels": {
+      "problem_evidence": [],
+      "theory_evidence": [
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-fizikalna-osnova-procesa-section",
+          "channel": "theory_evidence",
+          "claim_status": "confirmed_from_book",
+          "object_type": "process_phase",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Fizikalna osnova procesa",
+          "title_or_caption": "Fizikalna osnova procesa",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [],
+          "confidence_basis": [
+            "strong_section_or_visual_match"
+          ],
+          "extraction_confidence": 0.86,
+          "concise_summary": "Sušenje i početno zrenje u svojoj su srži procesi prijenosa mase: voda izlazi iz proizvoda jer je parcijalni tlak vodene pare u proizvodu veći nego u zraku."
+        },
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+          "channel": "theory_evidence",
+          "claim_status": "confirmed_from_book",
+          "object_type": "process_phase",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+          "title_or_caption": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "inf:p08_i05"
+          ],
+          "confidence_basis": [
+            "strong_section_or_visual_match",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.86,
+          "concise_summary": "Sušenje je najduža faza procesa i uključuje istodobno: Zato se sušenje ne vodi “jednom brojkom”, nego stabilnim režimom u kojem se brzina gubitka vode namjerno usporava čim proizvod dobije stabilnu površinu."
+        },
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-preporuceni-rezimi-section",
+          "channel": "theory_evidence",
+          "claim_status": "confirmed_from_book",
+          "object_type": "theory_block",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Preporučeni režimi",
+          "title_or_caption": "Preporučeni režimi",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "fig:p08_s02"
+          ],
+          "confidence_basis": [
+            "heuristic_section_classification",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.8,
+          "concise_summary": "Trajne kobasice (34--46 mm) T = 10--14 ; RH = 80--88%; cilj 35--45\\,% gubitka mase."
+        },
+        {
+          "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-relativna-vlaznost-zraka-rh-section",
+          "channel": "theory_evidence",
+          "claim_status": "inferred_from_book_context",
+          "object_type": "theory_block",
+          "chapter_title": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+          "section_title": "Relativna vlažnost zraka (RH)",
+          "title_or_caption": "Relativna vlažnost zraka (RH)",
+          "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+          "source_labels": [
+            "sec:10_rh",
+            "fig:p10_s06",
+            "fig:p10_s05"
+          ],
+          "confidence_basis": [
+            "heuristic_section_classification",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.8,
+          "concise_summary": "sec:10_rh"
+        }
+      ],
+      "visual_support": [
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-6",
+          "channel": "visual_support",
+          "claim_status": "confirmed_from_book",
+          "object_type": "infographic",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": null,
+          "title_or_caption": "Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode.",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "inf:p08_i05"
+          ],
+          "confidence_basis": [
+            "high_confidence_structure_match",
+            "caption_or_visual_signal",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.97,
+          "concise_summary": "[!htbp] type=infografika assets/infografike/pog08/p08_i05 Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode. inf:p08_i05"
+        },
+        {
+          "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-infographic-2",
+          "channel": "visual_support",
+          "claim_status": "confirmed_from_book",
+          "object_type": "infographic",
+          "chapter_title": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+          "section_title": null,
+          "title_or_caption": "„Zlatna zona” zrenja: temperatura, relativna vlažnost, strujanje i tlak — rasponi, rizici i brze korekcije.",
+          "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+          "source_labels": [
+            "inf:p10_i01"
+          ],
+          "confidence_basis": [
+            "high_confidence_structure_match",
+            "caption_or_visual_signal",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.97,
+          "concise_summary": "[!htbp] type=infografika assets/infografike/pog10/p10_i01 „Zlatna zona” zrenja: temperatura, relativna vlažnost, strujanje i tlak — rasponi, rizici i brze korekcije. inf:p10_i01"
+        }
+      ]
+    },
+    "short_answer": "Uloga vlage u sušenju je kontrolirati tempo izlaska vode iz proizvoda tako da površina ne pobjegne ispred jezgre.",
+    "likely_causes": [],
+    "recommended_corrections": [],
+    "relevant_warnings": [],
+    "detailed_explanation": "Potvrđeni blokovi iz knjige opisuju sušenje kao prijenos mase u kojem RH i zrak određuju brzinu gubitka vode. Kad je režim stabilan, voda izlazi postupno iz jezgre prema površini; kad RH padne prenaglo ili zrak postane prejak, površina se zatvara i nastaje tehnološki defekt. Preporučeni režimi zato služe kao operativni okvir, a ne kao ukrasni brojčani dodatak.",
+    "process_context": "Procesni kontekst povezuje fizikalnu osnovu sušenja, tri dimenzije sušenja i preporučene RH/T režime.",
+    "related_book_sections": [
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Fizikalna osnova procesa",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-fizikalna-osnova-procesa-section",
+        "object_type": "process_phase"
+      },
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+        "object_type": "process_phase"
+      },
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Preporučeni režimi",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-preporuceni-rezimi-section",
+        "object_type": "theory_block"
+      },
+      {
+        "chapter_title": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+        "section_title": "Relativna vlažnost zraka (RH)",
+        "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-relativna-vlaznost-zraka-rh-section",
+        "object_type": "theory_block"
+      }
+    ],
+    "related_tables": [],
+    "related_infographics": [
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-6",
+        "object_type": "infographic",
+        "title_or_caption": "Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode.",
+        "source_labels": [
+          "inf:p08_i05"
+        ],
+        "chapter_title": "Dimljenje, sušenje i zrenje"
+      },
+      {
+        "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-infographic-2",
+        "object_type": "infographic",
+        "title_or_caption": "„Zlatna zona” zrenja: temperatura, relativna vlažnost, strujanje i tlak — rasponi, rizici i brze korekcije.",
+        "source_labels": [
+          "inf:p10_i01"
+        ],
+        "chapter_title": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja"
+      }
+    ],
+    "related_tools": [],
+    "confidence_basis": {
+      "evidence_strength": "strong_confirmed_theory_pack",
+      "primary_object_count": 2,
+      "supporting_object_count": 2,
+      "visual_object_count": 2,
+      "notes": [
+        "Postoje dva jaka theory/process anchor objekta i jedan operativni režimski blok.",
+        "Infografike služe kao pomoćni vizualni support, ne kao glavni dokaz.",
+        "Mikroklimatski RH blok je koristan supporting context i zato ostaje inferred support."
+      ]
+    },
+    "source_evidence": [
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-fizikalna-osnova-procesa-section",
+        "channel": "theory_evidence",
+        "claim_status": "confirmed_from_book",
+        "object_type": "process_phase",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Fizikalna osnova procesa",
+        "title_or_caption": "Fizikalna osnova procesa",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [],
+        "confidence_basis": [
+          "strong_section_or_visual_match"
+        ],
+        "extraction_confidence": 0.86,
+        "concise_summary": "Sušenje i početno zrenje u svojoj su srži procesi prijenosa mase: voda izlazi iz proizvoda jer je parcijalni tlak vodene pare u proizvodu veći nego u zraku."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+        "channel": "theory_evidence",
+        "claim_status": "confirmed_from_book",
+        "object_type": "process_phase",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+        "title_or_caption": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "inf:p08_i05"
+        ],
+        "confidence_basis": [
+          "strong_section_or_visual_match",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.86,
+        "concise_summary": "Sušenje je najduža faza procesa i uključuje istodobno: Zato se sušenje ne vodi “jednom brojkom”, nego stabilnim režimom u kojem se brzina gubitka vode namjerno usporava čim proizvod dobije stabilnu površinu."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-preporuceni-rezimi-section",
+        "channel": "theory_evidence",
+        "claim_status": "confirmed_from_book",
+        "object_type": "theory_block",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Preporučeni režimi",
+        "title_or_caption": "Preporučeni režimi",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "fig:p08_s02"
+        ],
+        "confidence_basis": [
+          "heuristic_section_classification",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.8,
+        "concise_summary": "Trajne kobasice (34--46 mm) T = 10--14 ; RH = 80--88%; cilj 35--45\\,% gubitka mase."
+      },
+      {
+        "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-relativna-vlaznost-zraka-rh-section",
+        "channel": "theory_evidence",
+        "claim_status": "inferred_from_book_context",
+        "object_type": "theory_block",
+        "chapter_title": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+        "section_title": "Relativna vlažnost zraka (RH)",
+        "title_or_caption": "Relativna vlažnost zraka (RH)",
+        "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+        "source_labels": [
+          "sec:10_rh",
+          "fig:p10_s06",
+          "fig:p10_s05"
+        ],
+        "confidence_basis": [
+          "heuristic_section_classification",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.8,
+        "concise_summary": "sec:10_rh"
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-6",
+        "channel": "visual_support",
+        "claim_status": "confirmed_from_book",
+        "object_type": "infographic",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": null,
+        "title_or_caption": "Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode.",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "inf:p08_i05"
+        ],
+        "confidence_basis": [
+          "high_confidence_structure_match",
+          "caption_or_visual_signal",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.97,
+        "concise_summary": "[!htbp] type=infografika assets/infografike/pog08/p08_i05 Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode. inf:p08_i05"
+      },
+      {
+        "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-infographic-2",
+        "channel": "visual_support",
+        "claim_status": "confirmed_from_book",
+        "object_type": "infographic",
+        "chapter_title": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+        "section_title": null,
+        "title_or_caption": "„Zlatna zona” zrenja: temperatura, relativna vlažnost, strujanje i tlak — rasponi, rizici i brze korekcije.",
+        "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+        "source_labels": [
+          "inf:p10_i01"
+        ],
+        "confidence_basis": [
+          "high_confidence_structure_match",
+          "caption_or_visual_signal",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.97,
+        "concise_summary": "[!htbp] type=infografika assets/infografike/pog10/p10_i01 „Zlatna zona” zrenja: temperatura, relativna vlažnost, strujanje i tlak — rasponi, rizici i brze korekcije. inf:p10_i01"
+      }
+    ]
+  },
+  {
+    "query": "Koja je razlika između sušenja i dimljenja?",
+    "mode": "theory",
+    "answer_status": "controlled_composition_v1",
+    "confirmed_from_book": [
+      "chap08-dimljenje-susenje-zrenje-uvod-gdje-zavrsava-tehnologija-a-pocinje-priroda-section",
+      "chap08-dimljenje-susenje-zrenje-faza-dimljenja-zastita-aroma-i-identitet-section",
+      "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section"
+    ],
+    "inferred_from_book_context": [
+      "chap08-dimljenje-susenje-zrenje-vrste-dimljenja-section"
+    ],
+    "insufficient_evidence": false,
+    "evidence_channels": {
+      "problem_evidence": [],
+      "theory_evidence": [
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-uvod-gdje-zavrsava-tehnologija-a-pocinje-priroda-section",
+          "channel": "theory_evidence",
+          "claim_status": "confirmed_from_book",
+          "object_type": "cause",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Uvod: gdje završava tehnologija, a počinje priroda",
+          "title_or_caption": "Uvod: gdje završava tehnologija, a počinje priroda",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "fig:p08_s01",
+            "inf:p08_i01",
+            "inf:p08_i02"
+          ],
+          "confidence_basis": [
+            "heuristic_section_classification",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.8,
+          "concise_summary": "Ako su tehnološki procesi temeljni okvir, a mikrobiologija objašnjenje “zašto”, onda se u dimljenju, sušenju i zrenju vidi kako se teorija pretvara u prepoznatljiv proizvod."
+        },
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-faza-dimljenja-zastita-aroma-i-identitet-section",
+          "channel": "theory_evidence",
+          "claim_status": "confirmed_from_book",
+          "object_type": "process_phase",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Faza dimljenja – zaštita, aroma i identitet",
+          "title_or_caption": "Faza dimljenja – zaštita, aroma i identitet",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [],
+          "confidence_basis": [
+            "strong_section_or_visual_match"
+          ],
+          "extraction_confidence": 0.86,
+          "concise_summary": "Dimljenje djeluje na četiri razine: U praktičnom smislu, dimljenje je “tanka linija”: dovoljno dima da površina dobije zaštitu i karakter, ali bez taloženja katrana, gorčine i zatvaranja pora."
+        },
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+          "channel": "theory_evidence",
+          "claim_status": "confirmed_from_book",
+          "object_type": "process_phase",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+          "title_or_caption": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "inf:p08_i05"
+          ],
+          "confidence_basis": [
+            "strong_section_or_visual_match",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.86,
+          "concise_summary": "Sušenje je najduža faza procesa i uključuje istodobno: Zato se sušenje ne vodi “jednom brojkom”, nego stabilnim režimom u kojem se brzina gubitka vode namjerno usporava čim proizvod dobije stabilnu površinu."
+        },
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-vrste-dimljenja-section",
+          "channel": "theory_evidence",
+          "claim_status": "inferred_from_book_context",
+          "object_type": "process_phase",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": "Vrste dimljenja",
+          "title_or_caption": "Vrste dimljenja",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "inf:p08_i03"
+          ],
+          "confidence_basis": [
+            "strong_section_or_visual_match",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.86,
+          "concise_summary": "Hladno dimljenje (18--25 ) Najčešći izbor za kulen, pancetu i trajne kobasice, jer se meso ne “kuha”, nego postupno prima aromu, uz blago površinsko isušivanje."
+        }
+      ],
+      "visual_support": [
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-2",
+          "channel": "visual_support",
+          "claim_status": "confirmed_from_book",
+          "object_type": "infographic",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": null,
+          "title_or_caption": "Faze dimljenja, sušenja i zrenja.",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "inf:p08_i01"
+          ],
+          "confidence_basis": [
+            "high_confidence_structure_match",
+            "caption_or_visual_signal",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.97,
+          "concise_summary": "[!htbp] type=infografika assets/infografike/pog08/p08_i01 Faze dimljenja, sušenja i zrenja. inf:p08_i01"
+        },
+        {
+          "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-4",
+          "channel": "visual_support",
+          "claim_status": "confirmed_from_book",
+          "object_type": "infographic",
+          "chapter_title": "Dimljenje, sušenje i zrenje",
+          "section_title": null,
+          "title_or_caption": "Vrste dimljenja prema temperaturi procesa.",
+          "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+          "source_labels": [
+            "inf:p08_i03"
+          ],
+          "confidence_basis": [
+            "high_confidence_structure_match",
+            "caption_or_visual_signal",
+            "source_label_present"
+          ],
+          "extraction_confidence": 0.97,
+          "concise_summary": "[!htbp] type=infografika assets/infografike/pog08/p08_i03 Vrste dimljenja prema temperaturi procesa. inf:p08_i03"
+        }
+      ]
+    },
+    "short_answer": "U sample corpusu dimljenje prvenstveno daje zaštitu i aromatski identitet površini, dok sušenje prvenstveno upravlja vodom i sigurnosnom stabilizacijom proizvoda.",
+    "likely_causes": [],
+    "recommended_corrections": [],
+    "relevant_warnings": [
+      "Dimljenje ne smije postati agresivno do razine katrana, gorčine ili zatvaranja pora."
+    ],
+    "detailed_explanation": "Uvodni blok i zasebne sekcije o dimljenju i sušenju jasno razdvajaju dvije funkcije. Dimljenje djeluje na površinu kroz zaštitu, boju i aromu, uz rizik da pretjerani dim zatvori pore ili donese gorčinu. Sušenje je dulji režim upravljanja vodom, zrakom i vremenom koji uspostavlja sigurnosnu granicu kroz kontrolirani gubitak vode. Oba procesa surađuju, ali nisu zamjenjiva.",
+    "process_context": "Process context proizlazi iz uvodnog objašnjenja povezanih režima te iz posebnih sekcija za dimljenje i sušenje.",
+    "related_book_sections": [
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Uvod: gdje završava tehnologija, a počinje priroda",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-uvod-gdje-zavrsava-tehnologija-a-pocinje-priroda-section",
+        "object_type": "cause"
+      },
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Faza dimljenja – zaštita, aroma i identitet",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-faza-dimljenja-zastita-aroma-i-identitet-section",
+        "object_type": "process_phase"
+      },
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+        "object_type": "process_phase"
+      },
+      {
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Vrste dimljenja",
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-vrste-dimljenja-section",
+        "object_type": "process_phase"
+      }
+    ],
+    "related_tables": [],
+    "related_infographics": [
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-2",
+        "object_type": "infographic",
+        "title_or_caption": "Faze dimljenja, sušenja i zrenja.",
+        "source_labels": [
+          "inf:p08_i01"
+        ],
+        "chapter_title": "Dimljenje, sušenje i zrenje"
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-4",
+        "object_type": "infographic",
+        "title_or_caption": "Vrste dimljenja prema temperaturi procesa.",
+        "source_labels": [
+          "inf:p08_i03"
+        ],
+        "chapter_title": "Dimljenje, sušenje i zrenje"
+      }
+    ],
+    "related_tools": [],
+    "confidence_basis": {
+      "evidence_strength": "strong_confirmed_theory_pack",
+      "primary_object_count": 3,
+      "supporting_object_count": 1,
+      "visual_object_count": 2,
+      "notes": [
+        "Postoje odvojeni confirmed section anchori za oba procesa.",
+        "Vrste dimljenja ostaju supporting context jer nadopunjuju, ali ne nose glavnu definicijsku razliku.",
+        "Vizuali pojašnjavaju faze i vrste dimljenja, ali nisu glavni dokaz razlike."
+      ]
+    },
+    "source_evidence": [
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-uvod-gdje-zavrsava-tehnologija-a-pocinje-priroda-section",
+        "channel": "theory_evidence",
+        "claim_status": "confirmed_from_book",
+        "object_type": "cause",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Uvod: gdje završava tehnologija, a počinje priroda",
+        "title_or_caption": "Uvod: gdje završava tehnologija, a počinje priroda",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "fig:p08_s01",
+          "inf:p08_i01",
+          "inf:p08_i02"
+        ],
+        "confidence_basis": [
+          "heuristic_section_classification",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.8,
+        "concise_summary": "Ako su tehnološki procesi temeljni okvir, a mikrobiologija objašnjenje “zašto”, onda se u dimljenju, sušenju i zrenju vidi kako se teorija pretvara u prepoznatljiv proizvod."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-faza-dimljenja-zastita-aroma-i-identitet-section",
+        "channel": "theory_evidence",
+        "claim_status": "confirmed_from_book",
+        "object_type": "process_phase",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Faza dimljenja – zaštita, aroma i identitet",
+        "title_or_caption": "Faza dimljenja – zaštita, aroma i identitet",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [],
+        "confidence_basis": [
+          "strong_section_or_visual_match"
+        ],
+        "extraction_confidence": 0.86,
+        "concise_summary": "Dimljenje djeluje na četiri razine: U praktičnom smislu, dimljenje je “tanka linija”: dovoljno dima da površina dobije zaštitu i karakter, ali bez taloženja katrana, gorčine i zatvaranja pora."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+        "channel": "theory_evidence",
+        "claim_status": "confirmed_from_book",
+        "object_type": "process_phase",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+        "title_or_caption": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "inf:p08_i05"
+        ],
+        "confidence_basis": [
+          "strong_section_or_visual_match",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.86,
+        "concise_summary": "Sušenje je najduža faza procesa i uključuje istodobno: Zato se sušenje ne vodi “jednom brojkom”, nego stabilnim režimom u kojem se brzina gubitka vode namjerno usporava čim proizvod dobije stabilnu površinu."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-vrste-dimljenja-section",
+        "channel": "theory_evidence",
+        "claim_status": "inferred_from_book_context",
+        "object_type": "process_phase",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": "Vrste dimljenja",
+        "title_or_caption": "Vrste dimljenja",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "inf:p08_i03"
+        ],
+        "confidence_basis": [
+          "strong_section_or_visual_match",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.86,
+        "concise_summary": "Hladno dimljenje (18--25 ) Najčešći izbor za kulen, pancetu i trajne kobasice, jer se meso ne “kuha”, nego postupno prima aromu, uz blago površinsko isušivanje."
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-2",
+        "channel": "visual_support",
+        "claim_status": "confirmed_from_book",
+        "object_type": "infographic",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": null,
+        "title_or_caption": "Faze dimljenja, sušenja i zrenja.",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "inf:p08_i01"
+        ],
+        "confidence_basis": [
+          "high_confidence_structure_match",
+          "caption_or_visual_signal",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.97,
+        "concise_summary": "[!htbp] type=infografika assets/infografike/pog08/p08_i01 Faze dimljenja, sušenja i zrenja. inf:p08_i01"
+      },
+      {
+        "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-4",
+        "channel": "visual_support",
+        "claim_status": "confirmed_from_book",
+        "object_type": "infographic",
+        "chapter_title": "Dimljenje, sušenje i zrenje",
+        "section_title": null,
+        "title_or_caption": "Vrste dimljenja prema temperaturi procesa.",
+        "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+        "source_labels": [
+          "inf:p08_i03"
+        ],
+        "confidence_basis": [
+          "high_confidence_structure_match",
+          "caption_or_visual_signal",
+          "source_label_present"
+        ],
+        "extraction_confidence": 0.97,
+        "concise_summary": "[!htbp] type=infografika assets/infografike/pog08/p08_i03 Vrste dimljenja prema temperaturi procesa. inf:p08_i03"
+      }
+    ]
+  }
+]

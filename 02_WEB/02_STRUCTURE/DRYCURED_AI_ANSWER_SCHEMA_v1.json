@@ -1,0 +1,48 @@
+{
+  "schema_name": "drycured_ai_answer_v1",
+  "version": "v1",
+  "required_top_level_fields": [
+    "query",
+    "mode",
+    "answer_status",
+    "confirmed_from_book",
+    "inferred_from_book_context",
+    "insufficient_evidence",
+    "evidence_channels",
+    "short_answer",
+    "related_book_sections",
+    "confidence_basis",
+    "source_evidence"
+  ],
+  "mode_specific_fields": {
+    "problem": [
+      "likely_causes",
+      "recommended_corrections",
+      "relevant_warnings",
+      "process_context",
+      "related_tables",
+      "related_infographics"
+    ],
+    "theory": [
+      "detailed_explanation",
+      "process_context",
+      "relevant_warnings",
+      "related_tables",
+      "related_infographics"
+    ]
+  },
+  "claim_statuses": [
+    "confirmed_from_book",
+    "inferred_from_book_context",
+    "insufficient_evidence"
+  ],
+  "evidence_channels": [
+    "problem_evidence",
+    "theory_evidence",
+    "visual_support"
+  ],
+  "answer_modes": [
+    "problem",
+    "theory"
+  ]
+}
