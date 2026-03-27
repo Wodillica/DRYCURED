@@ -1,0 +1,298 @@
+[
+  {
+    "file_path": "main.tex",
+    "parent_file": null,
+    "include_type": "entry",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\main.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "config/style.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\config\\style.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "frontmatter/cover_front.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\frontmatter\\cover_front.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "frontmatter/titlepage.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\frontmatter\\titlepage.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "frontmatter/predgovor.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\frontmatter\\predgovor.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "frontmatter/rijec_citatelju.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\frontmatter\\rijec_citatelju.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap01_uvod.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap01_uvod.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap02_povijest.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap02_povijest.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap03_meso_i_osnovni_pojmovi.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap03_meso_i_osnovni_pojmovi.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap04_sirovine_i_pomocni_sastojci.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap04_sirovine_i_pomocni_sastojci.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap05_pasmine_i_meso_masnotost.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap05_pasmine_i_meso_masnotost.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap06_tehnoloski_procesi.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap06_tehnoloski_procesi.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap07_fermentacija_i_mikrobiologija.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap07_fermentacija_i_mikrobiologija.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap08_dimljenje_susenje_zrenje.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap11_zdravstveni aspek_suhomesnatih_proizvoda.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap11_zdravstveni aspek_suhomesnatih_proizvoda.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap12_kultura_tradicija_i_identitet_suhomesnatih_proizvoda.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap12_kultura_tradicija_i_identitet_suhomesnatih_proizvoda.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap13_oprema_alati_i_suvremene_diy_varijante.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap13_oprema_alati_i_suvremene_diy_varijante.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap15_cuvanje_pakiraje_i_logistika.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap15_cuvanje_pakiraje_i_logistika.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap16_prezentacija_distribucija_trziste.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap16_prezentacija_distribucija_trziste.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap17_standardizirane_recepture_i_sheme.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap17_standardizirane_recepture_i_sheme.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap18_kulturni_aspekti_i_turizam.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap18_kulturni_aspekti_i_turizam.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap19_Standardi_i_oznake_izvornosti_(PDO, PGI, TSG).tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap19_Standardi_i_oznake_izvornosti_(PDO, PGI, TSG).tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap20_regionalni_stilovi.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap20_regionalni_stilovi.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap21_male_tajne_velikih_majstora.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap21_male_tajne_velikih_majstora.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap22_sigurnost_hrane_i_higijena.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap22_sigurnost_hrane_i_higijena.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap23_ekonomski_i_trzisni_aspekti.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap23_ekonomski_i_trzisni_aspekti.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap24_digitalno_doba_tradicija.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap24_digitalno_doba_tradicija.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "chapters/chap25_zaključak_budućnost_tradicije_i_čovijek_u_središtu_procesa.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\chapters\\chap25_zaključak_budućnost_tradicije_i_čovijek_u_središtu_procesa.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "backmatter/rjecnik_pojmova.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\backmatter\\rjecnik_pojmova.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "backmatter/bibliografija.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\backmatter\\bibliografija.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "backmatter/o_autoru.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\backmatter\\o_autoru.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "backmatter/kolofon.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\backmatter\\kolofon.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "backmatter/zavrsna_stranica.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\backmatter\\zavrsna_stranica.tex",
+    "exists": true,
+    "status": "active"
+  },
+  {
+    "file_path": "backmatter/cover_back.tex",
+    "parent_file": "main.tex",
+    "include_type": "input",
+    "resolved_path": "D:\\drycured.com_prijevod\\01_IZVOR\\backmatter\\cover_back.tex",
+    "exists": true,
+    "status": "active"
+  }
+]

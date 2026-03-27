@@ -1,0 +1,3110 @@
+[
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-uvod-gdje-zavrsava-tehnologija-a-pocinje-priroda-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Uvod: gdje završava tehnologija, a počinje priroda",
+    "object_type": "cause",
+    "title_or_caption": "Uvod: gdje završava tehnologija, a počinje priroda",
+    "source_text": "Ako su tehnološki procesi temeljni okvir, a mikrobiologija objašnjenje “zašto”, onda se u dimljenju, sušenju i zrenju vidi kako se teorija pretvara u prepoznatljiv proizvod. U ovoj završnoj fazi razlika između “osušenog” i zrelog postaje jasna: miris se zaokružuje, tekstura postaje stabilna, boja se učvršćuje, a trajnost prelazi iz slučajne u predvidljivu.\n\nDimljenje, sušenje i zrenje nisu tri odvojena postupka, nego povezani režimi upravljanja vodom, kisikom i vremenom. Dim dodatno štiti površinu i gradi aromatski identitet, sušenje uspostavlja sigurnosnu granicu kroz smanjenje dostupne vode, a zrenje polako pretvara proteine i mast u složen senzorski profil koji se ne može “ubrzati” bez cijene.",
+    "labels": [
+      "fig:p08_s01",
+      "inf:p08_i01",
+      "inf:p08_i02"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-uvod-gdje-zavrsava-tehnologija-a-pocinje-priroda-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Uvod: gdje završava tehnologija, a počinje priroda",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Pravi suhomesnati proizvod nastaje kada meso, sol, mikroflora i vrijeme postignu ravnotežu – a čovjek im samo nježno usmjerava ritam.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-fizikalna-osnova-procesa-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Fizikalna osnova procesa",
+    "object_type": "process_phase",
+    "title_or_caption": "Fizikalna osnova procesa",
+    "source_text": "Sušenje i početno zrenje u svojoj su srži procesi prijenosa mase: voda izlazi iz proizvoda jer je parcijalni tlak vodene pare u proizvodu veći nego u zraku. Brzina tog prijenosa u praksi najviše ovisi o tri parametra:\n\nUz njih djeluju i “skriveni” parametri koje proizvođač ne mora računati na papiru, ali ih mora razumjeti u ponašanju proizvoda:",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-faze-difuzije-vlage-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Faze difuzije vlage",
+    "object_type": "problem",
+    "title_or_caption": "Faze difuzije vlage",
+    "source_text": "Nagle promjene RH i prejak zrak mogu stvoriti fenomen case--hardeninga: tvrda i presuha kora izvana, uz zaostajanje vlage u jezgri. Takav defekt je teško ispraviti jer kora postaje barijera daljnjoj difuziji; zato je naglasak na prevenciji i ranom prepoznavanju (pravovremeno smanjenje ventilacije, kratko podizanje RH i stabilizacija režima).",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-faza-dimljenja-zastita-aroma-i-identitet-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Faza dimljenja – zaštita, aroma i identitet",
+    "object_type": "process_phase",
+    "title_or_caption": "Faza dimljenja – zaštita, aroma i identitet",
+    "source_text": "Dimljenje djeluje na četiri razine:\n\nU praktičnom smislu, dimljenje je “tanka linija”: dovoljno dima da površina dobije zaštitu i karakter, ali bez taloženja katrana, gorčine i zatvaranja pora.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-kemijski-sastav-dima-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Kemijski sastav dima",
+    "object_type": "theory_block",
+    "title_or_caption": "Kemijski sastav dima",
+    "source_text": "Tinjanje drveta stvara složen koktel spojeva; za proizvod su najvažniji:",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-vrste-dimljenja-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Vrste dimljenja",
+    "object_type": "process_phase",
+    "title_or_caption": "Vrste dimljenja",
+    "source_text": "Hladno dimljenje (18--25 ) Najčešći izbor za kulen, pancetu i trajne kobasice, jer se meso ne “kuha”, nego postupno prima aromu, uz blago površinsko isušivanje.\n\nMlako dimljenje (25--35 ) Tipično za hladnije krajeve i prijelazne režime, uz stroži oprez da se ne prijeđe granica na kojoj površina počinje gubiti elastičnost ili se previše zatvara.\n\nToplo dimljenje (35--50 ) Namijenjeno polutrajnim i toplinski obrađenim proizvodima; nije standard za tradicionalne trajne suhomesnate proizvode.",
+    "labels": [
+      "inf:p08_i03"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-vrste-drva-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Vrste drva",
+    "object_type": "theory_block",
+    "title_or_caption": "Vrste drva",
+    "source_text": "Bukva (neutralniji dim), hrast (toplija, punija nota), maslina (izražen intenzitet), loza (lagan dim), voćke (aromatičnost), kesten (rijedak ali cijenjen), borovina (samo uz oprez zbog smole i gorčine).",
+    "labels": [
+      "inf:p08_i04"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-vrste-drva-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Vrste drva",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Prava pušnica ne smije gorjeti – mora disati. Dim treba teći, a ne udarati.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-susenje-kontrola-vode-zraka-i-vremena-u-tri-dimenzije-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+    "object_type": "process_phase",
+    "title_or_caption": "Sušenje – kontrola vode, zraka i vremena u tri dimenzije",
+    "source_text": "Sušenje je najduža faza procesa i uključuje istodobno:\n\nZato se sušenje ne vodi “jednom brojkom”, nego stabilnim režimom u kojem se brzina gubitka vode namjerno usporava čim proizvod dobije stabilnu površinu.",
+    "labels": [
+      "inf:p08_i05"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-preporuceni-rezimi-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Preporučeni režimi",
+    "object_type": "theory_block",
+    "title_or_caption": "Preporučeni režimi",
+    "source_text": "Trajne kobasice (34--46 mm) T = 10--14 ; RH = 80--88%; cilj 35--45\\,% gubitka mase.\n\nKulen (45--65 mm) T = 10--13 ; RH = 82--90%; cilj 30--40\\,%.\n\nPancete i slanine T = 8--14 ; RH = 75--85%.\n\nPršuti T = 10--16 ; RH = 70--82%.",
+    "labels": [
+      "fig:p08_s02"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-zrenje-enzimatska-i-mikrobioloska-transformacija-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Zrenje – enzimatska i mikrobiološka transformacija",
+    "object_type": "process_phase",
+    "title_or_caption": "Zrenje – enzimatska i mikrobiološka transformacija",
+    "source_text": "Zrenje je proces u kojem se razvija aroma, tekstura i identitet proizvoda. Za razliku od sušenja, gdje dominira gubitak vode, u zrenju dominiraju sporije biokemijske promjene koje se događaju unutar stabiliziranog proizvoda.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-proteoliza-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Proteoliza",
+    "object_type": "theory_block",
+    "title_or_caption": "Proteoliza",
+    "source_text": "Katepsini, kalpaini i peptidaze stvaraju aminokiseline i peptide koji doprinose umamiju, slatkim i orašastim notama, te postupno omekšavaju i “zaokružuju” teksturu presjeka.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-lipoliza-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Lipoliza",
+    "object_type": "theory_block",
+    "title_or_caption": "Lipoliza",
+    "source_text": "Slobodne masne kiseline, esteri, aldehidi i ketoni oblikuju profil zrele masti: mliječno--orašaste nijanse, puninu i “mirnoću” arome, uz rizik užeglosti ako su temperatura, svjetlo i kisik nekontrolirani.",
+    "labels": [
+      "inf:p08_i06"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-lipoliza-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Lipoliza",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Vrijeme je najskuplji začin. Ono određuje dubinu svakog okusa.“",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-utjecaj-mikroflore-tijekom-zrenja-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Utjecaj mikroflore tijekom zrenja",
+    "object_type": "theory_block",
+    "title_or_caption": "Utjecaj mikroflore tijekom zrenja",
+    "source_text": "U dobro vođenom procesu dominiraju mikroorganizmi koji stabiliziraju proizvod i doprinose aromi, primjerice:\n\nPlemenita plijesan usporava prebrzo isparavanje, štiti površinu i sudjeluje u razvoju zrelije arome, ali je korisna samo kad su RH i ventilacija stabilni te kad nema kondenzacije i “mokrih” zona.",
+    "labels": [
+      "fig:p08_s03"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-utjecaj-mikroflore-tijekom-zrenja-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Utjecaj mikroflore tijekom zrenja",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Kada vidiš pravilnu bijelu plijesan, znaš da sušionica živi.“",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greske-pri-susenju-i-zrenju-uzroci-i-rjesenja-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greške pri sušenju i zrenju – uzroci i rješenja",
+    "object_type": "problem",
+    "title_or_caption": "Greške pri sušenju i zrenju – uzroci i rješenja",
+    "source_text": "Greške u ovoj fazi rijetko nastaju “preko noći”: najčešće su posljedica režima koji je bio prebrz, previše suh, previše vlažan ili nestabilan kroz nekoliko dana. Zato je najbolja korekcija ona koja vraća proces u stabilan ritam, bez naglih skokova temperature, vlage ili ventilacije.",
+    "labels": [
+      "inf:p08_i07"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-1-tvrda-kora-case-hardening-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 1: Tvrda kora (case--hardening)",
+    "object_type": "problem",
+    "title_or_caption": "Greška 1: Tvrda kora (case--hardening)",
+    "source_text": "Uzrok: preniska RH, previsoka T, prejak zrak. Rješenje: povisiti RH u kratkom periodu, smanjiti ventilaciju i stabilizirati režim prije nego kora “zaključa” jezgru.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-2-ljepljiva-povrsina-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 2: Ljepljiva površina",
+    "object_type": "problem",
+    "title_or_caption": "Greška 2: Ljepljiva površina",
+    "source_text": "Uzrok: previsoka RH, stojan zrak i/ili kondenzacija. Rješenje: tihi protok zraka, razmak proizvoda i uklanjanje izvora kondenzacije; ne rješavati “propuhom”.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-3-nezeljena-plijesan-crna-zuta-tamno-zelena-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 3: Neželjena plijesan (crna, žuta, tamno zelena)",
+    "object_type": "problem",
+    "title_or_caption": "Greška 3: Neželjena plijesan (crna, žuta, tamno zelena)",
+    "source_text": "Uzrok: loša ventilacija i preduga vlažna faza. Rješenje: mehaničko uklanjanje, brisanje blagom slanom otopinom i korekcija mikroklime (uzrok je uvijek u režimu).",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-4-neugodan-nasla-eni-ili-kiseli-miris-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 4: Neugodan „naslađeni” ili kiseli miris",
+    "object_type": "problem",
+    "title_or_caption": "Greška 4: Neugodan „naslađeni” ili kiseli miris",
+    "source_text": "Uzrok: anaerobni džepovi, loše punjenje ili nestabilna fermentacija. Rješenje: vratiti fokus na punjenje i ranije faze; u ovoj fazi pomaže mirna ventilacija i stabilna RH, bez šok-terapije.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-5-crvena-jezgra-u-kulenu-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 5: „Crvena jezgra” u kulenu",
+    "object_type": "problem",
+    "title_or_caption": "Greška 5: „Crvena jezgra” u kulenu",
+    "source_text": "Uzrok: presporo sušenje ili prerano zatvaranje površine. Rješenje: blago povećati ventilaciju u 2.--3. tjednu, uz kontrolu RH da se ne izazove kora.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-6-prejaka-dimna-nota-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 6: Prejaka dimna nota",
+    "object_type": "problem",
+    "title_or_caption": "Greška 6: Prejaka dimna nota",
+    "source_text": "Uzrok: preintenzivan dim ili predugi ciklusi. Rješenje: skratiti cikluse, povećati pauze s čistim zrakom; birati bukvu kao bazu, hrast kao akcent.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-7-uzeglost-masti-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 7: Užeglost masti",
+    "object_type": "problem",
+    "title_or_caption": "Greška 7: Užeglost masti",
+    "source_text": "Uzrok: toplina, svjetlost i kisik. Rješenje: tamna i hladnija sušionica, stabilna temperatura i zaštita od UV-a; kvalitetna mast je početna pretpostavka.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-8-pukotine-na-povrsini-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 8: Pukotine na površini",
+    "object_type": "problem",
+    "title_or_caption": "Greška 8: Pukotine na površini",
+    "source_text": "Uzrok: prebrzo sušenje i preniska RH u ranoj fazi. Rješenje: povisiti RH i usporiti zrak; pukotine su znak da je režim bio “brži od mesa”.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-9-tamni-rubovi-u-kobasicama-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 9: Tamni rubovi u kobasicama",
+    "object_type": "problem",
+    "title_or_caption": "Greška 9: Tamni rubovi u kobasicama",
+    "source_text": "Uzrok: oksidacija i/ili prebrzo površinsko isušivanje. Rješenje: stabilizirati RH i zaštititi od svjetla; provjeriti i režim dimljenja (prejak dim može pogoršati rub).",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-10-sivilo-povrsine-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 10: „Sivilo” površine",
+    "object_type": "problem",
+    "title_or_caption": "Greška 10: „Sivilo” površine",
+    "source_text": "Uzrok: previsoka RH bez ventilacije i slab “život” površinske mikroflore. Rješenje: uvesti tihi protok zraka i rasteretiti gustoću vješanja.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-11-vlazna-jezgra-u-prsutu-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 11: Vlažna jezgra u pršutu",
+    "object_type": "problem",
+    "title_or_caption": "Greška 11: Vlažna jezgra u pršutu",
+    "source_text": "Uzrok: neravnomjerna equalizacija soli i/ili prebrzo zatvaranje površine. Rješenje: vraćanje na sporiji režim i duže izjednačavanje; kod većih komada ključ je strpljenje i stabilnost.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-greska-12-slomljena-struktura-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Greška 12: Slomljena struktura",
+    "object_type": "problem",
+    "title_or_caption": "Greška 12: Slomljena struktura",
+    "source_text": "Uzrok: premalo masti + agresivno sušenje ili oscilacije temperature. Rješenje: usporiti režim i osigurati stabilnost; struktura je “otvorena knjiga” početne recepture i režima.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-posebnosti-po-vrstama-proizvoda-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Posebnosti po vrstama proizvoda",
+    "object_type": "theory_block",
+    "title_or_caption": "Posebnosti po vrstama proizvoda",
+    "source_text": "Svaka kategorija suhomesnatih proizvoda zahtijeva vlastitu dinamiku sušenja i zrenja. Razlike u promjeru, vrsti mesa, udjelu masti, začinima, vrsti omota i regionalnoj mikroklimi toliko su velike da se proces u praksi vodi po proizvodu, a ne po jednoj univerzalnoj tablici.\n\nU ovom potpoglavlju analiziraju se kulen, trajne kobasice, pancete, slanine i pršuti — pet najvažnijih stilova u europskoj tradiciji.",
+    "labels": [
+      "inf:p08_i08"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-trajne-kobasice-najosjetljiviji-proizvod-susenja-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Trajne kobasice – najosjetljiviji proizvod sušenja",
+    "object_type": "problem",
+    "title_or_caption": "Trajne kobasice – najosjetljiviji proizvod sušenja",
+    "source_text": "Trajne kobasice karakterizira velik omjer površine i volumena, pa brže reagiraju na promjene režima nego veliki komadi. Upravo zato najbrže “otkrivaju” pogreške: u punjenju, miješanju, fermentaciji i ranoj mikroklimi.\n\nKljučne značajke\n\nTehnološka logika trajnih kobasica Nakon punjenja kobasica ima raspodjelu soli i vode u cijelom presjeku, ali površina je najtanji sloj i zato najslabija točka. Zbog toga:\n\nAromatski profil zrenja",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-trajne-kobasice-najosjetljiviji-proizvod-susenja-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Trajne kobasice – najosjetljiviji proizvod sušenja",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Kobasica je najbrži učenik i najstroži profesor — odmah pokaže sve greške.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-kulen-najdublja-transformacija-mesa-i-paprike-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Kulen – najdublja transformacija mesa i paprike",
+    "object_type": "theory_block",
+    "title_or_caption": "Kulen – najdublja transformacija mesa i paprike",
+    "source_text": "Kulen je tehnološki jedan od najzahtjevnijih stilova: veliki promjer, gusta struktura, visok udio paprike i dugačak period zrenja traže režim koji je precizan, ali ne agresivan.\n\nSpecifičnosti kulena\n\nMinimalno preporučeno vrijeme zrenja 90 do 180 dana; za vrhunski slavonski stil često 150--240 dana.\n\nAroma",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-kulen-najdublja-transformacija-mesa-i-paprike-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Kulen – najdublja transformacija mesa i paprike",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Kulen nema sredinu — on je ili vrhunski ili nikakav.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-pancete-i-slanine-ravni-komadi-s-vlastitom-dinamikom-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Pancete i slanine – ravni komadi s vlastitom dinamikom",
+    "object_type": "cause",
+    "title_or_caption": "Pancete i slanine – ravni komadi s vlastitom dinamikom",
+    "source_text": "Pancete i slanine imaju kombinaciju tankog mišićnog sloja i debljeg masnog tkiva, uz veliku površinu i brži početni gubitak vode. Masno tkivo štiti proizvod, ali je osjetljivo na toplinu, svjetlost i oksidaciju.\n\nZašto su osjetljive\n\nIdealna dinamika\n\nRazlike među regijama",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-pancete-i-slanine-ravni-komadi-s-vlastitom-dinamikom-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Pancete i slanine – ravni komadi s vlastitom dinamikom",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Najbolja panceta je ona koja zrije sporo, bez žurbe i bez propuha.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-prsuti-simfonija-sporog-zrenja-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Pršuti – simfonija sporog zrenja",
+    "object_type": "theory_block",
+    "title_or_caption": "Pršuti – simfonija sporog zrenja",
+    "source_text": "Pršut je proizvod dugog ciklusa: nijedan drugi stil ne traži toliko vremena i tako miran režim. Trajanje zrenja često je 12 do 36 mjeseci, ovisno o stilu, mikroklimi i ciljanoj “dubini” arome.\n\nŠto se događa tijekom godina zrenja?\n\nRegionalne razlike",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-prsuti-simfonija-sporog-zrenja-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Pršuti – simfonija sporog zrenja",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Pršut nije hrana — pršut je vrijeme koje se može rezati.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-kontrola-i-mjerenje-procesa-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Kontrola i mjerenje procesa",
+    "object_type": "theory_block",
+    "title_or_caption": "Kontrola i mjerenje procesa",
+    "source_text": "Kontrola procesa čini razliku između sretnog rezultata i profesionalno ponovljive kvalitete. U praksi je najvažnije pratiti ono što “ne laže”: stabilnost mikroklime i gubitak mase.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-mjesecna-mjerenja-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Mjesečna mjerenja",
+    "object_type": "theory_block",
+    "title_or_caption": "Mjesečna mjerenja",
+    "source_text": "Tumačenje mršavljenja proizvoda Gubitak mase otkriva sve:\n\nDnevnik šarži Svaka šarža treba imati:",
+    "labels": [
+      "inf:p08_i09"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-mjesecna-mjerenja-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Mjesečna mjerenja",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Majstor koji ne vodi dnevnik — uči svaki put ispočetka.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-susionice-i-njihova-konstrukcija-prostor-kao-drugi-majstor-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Sušionice i njihova konstrukcija – prostor kao drugi majstor",
+    "object_type": "theory_block",
+    "title_or_caption": "Sušionice i njihova konstrukcija – prostor kao drugi majstor",
+    "source_text": "Sušionica je prostor u kojem nastaje karakter proizvoda. Zidovi, strop, pod, otvori, raspored i mikroflora nisu dekor nego funkcionalni dio procesa: oni određuju gdje će nastati mrtve zone, gdje će se skupljati kondenzacija i koliko će režim biti stabilan.",
+    "labels": [
+      "inf:p08_i10"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-tradicionalne-susionice-arhitektura-europe-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Tradicionalne sušionice – arhitektura Europe",
+    "object_type": "theory_block",
+    "title_or_caption": "Tradicionalne sušionice – arhitektura Europe",
+    "source_text": "Slavonija i Panonija Drvene grede, glineni ili cigleni zidovi, prirodni otvori i blage dnevne oscilacije vlage.\n\nDalmacija Kamen i drvo, često veća nadmorska visina i snažan utjecaj bure.\n\nAlpski krajevi Hladni tavani s prirodnom cirkulacijom i visokom stabilnošću temperature.\n\n0.35",
+    "labels": [
+      "fig:p08_s04"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-materijali-koji-disu-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Materijali koji „dišu“",
+    "object_type": "theory_block",
+    "title_or_caption": "Materijali koji „dišu“",
+    "source_text": "Zidovi koji upijaju i otpuštaju vlagu (cigla, kamen, drvo, vapno) djeluju kao prirodni “amortizer” i pomažu stabilizirati RH bez ekstremnih skokova.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-protok-zraka-najvazniji-parametar-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Protok zraka – najvažniji parametar",
+    "object_type": "cause",
+    "title_or_caption": "Protok zraka – najvažniji parametar",
+    "source_text": "Idealno strujanje:\n\nNajgori oblik je turbulentno strujanje, jer uzrokuje neravnomjernu boju, pukotine, lošu mikrofloru i presušenje površine.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-mrtve-zone-najveci-neprijatelj-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Mrtve zone – najveći neprijatelj",
+    "object_type": "correction",
+    "title_or_caption": "Mrtve zone – najveći neprijatelj",
+    "source_text": "Mrtve zone su dijelovi gdje zrak ne cirkulira. Simptomi:\n\nRješenja:",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-moderni-sustavi-kako-oponasaju-tradiciju-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Moderni sustavi – kako oponašaju tradiciju",
+    "object_type": "theory_block",
+    "title_or_caption": "Moderni sustavi – kako oponašaju tradiciju",
+    "source_text": "U suvremenim komorama koristi se:",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-moderni-sustavi-kako-oponasaju-tradiciju-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Moderni sustavi – kako oponašaju tradiciju",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Sušionica nije komora — sušionica je živo biće.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-klimatski-uvjeti-i-regionalni-utjecaji-na-zrenje-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Klimatski uvjeti i regionalni utjecaji na zrenje",
+    "object_type": "process_phase",
+    "title_or_caption": "Klimatski uvjeti i regionalni utjecaji na zrenje",
+    "source_text": "Klima oblikuje okus proizvoda jednako snažno kao sol i dim, jer definira ritam sušenja i stabilnost mikroflore. Europska tradicija sušenja često se promatra kroz tri klimatske “škole”.",
+    "labels": [
+      "inf:p08_i11"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-alpska-skola-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Alpska škola",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Proizvod nosi miris kraja — a kraj je ritam vremena, vjetra i zidova.“",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-zakljucak-poglavlja-section",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Zaključak poglavlja",
+    "object_type": "correction",
+    "title_or_caption": "Zaključak poglavlja",
+    "source_text": "Dimljenje, sušenje i zrenje nisu puki tehnološki postupci, nego faza u kojoj se stabilnost pretvara u kvalitetu, a kvaliteta u prepoznatljiv identitet proizvoda. Uspjeh se oslanja na četiri elementa koji se uvijek zbrajaju:\n\nNajbolji proizvodi nastaju kada se poštuju sva četiri elementa, a režim se vodi mirno: bez panike, bez ekstremnih korekcija i bez pokušaja da se vrijeme “prevari”.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-zakljucak-poglavlja-majstorskaNapomena-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": "Zaključak poglavlja",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Zrenje je tiha umjetnost. Dim je potpis majstora. A klima — potpis kraja.“",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-figure_reference-1",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Tradicionalna pušnica u radu.",
+    "source_text": "[!htbp] assets/slike/pog08/p08_s01 Tradicionalna pušnica u radu. fig:p08_s01",
+    "labels": [
+      "fig:p08_s01"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-2",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Faze dimljenja, sušenja i zrenja.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog08/p08_i01 Faze dimljenja, sušenja i zrenja. inf:p08_i01",
+    "labels": [
+      "inf:p08_i01"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-3",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Fizikalna osnova sušenja: jezgra, srednji sloj i površina.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog08/p08_i02 Fizikalna osnova sušenja: jezgra, srednji sloj i površina. inf:p08_i02",
+    "labels": [
+      "inf:p08_i02"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-4",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Vrste dimljenja prema temperaturi procesa.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog08/p08_i03 Vrste dimljenja prema temperaturi procesa. inf:p08_i03",
+    "labels": [
+      "inf:p08_i03"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-5",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Drvo i dim: ključne skupine spojeva i njihov utjecaj na aromu.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog08/p08_i04 Drvo i dim: ključne skupine spojeva i njihov utjecaj na aromu. inf:p08_i04",
+    "labels": [
+      "inf:p08_i04"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-6",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog08/p08_i05 Sušenje u tri dimenzije: jezgra, srednji sloj i površina; rizik case--hardeninga i idealna krivulja gubitka vode. inf:p08_i05",
+    "labels": [
+      "inf:p08_i05"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-figure_reference-7",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Presjek sušenog proizvoda: vidljiva razlika jezgra–rub.",
+    "source_text": "[!htbp] assets/slike/pog08/p08_s02 Presjek sušenog proizvoda: vidljiva razlika jezgra–rub. fig:p08_s02",
+    "labels": [
+      "fig:p08_s02"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-8",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Zrenje: proteoliza i lipoliza, uloga mikroflore i učinak vremena na aromu.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog08/p08_i06 Zrenje: proteoliza i lipoliza, uloga mikroflore i učinak vremena na aromu. inf:p08_i06",
+    "labels": [
+      "inf:p08_i06"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-figure_reference-9",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Zrenje u punom tijeku: plijesan, tekstura i patina vremena.",
+    "source_text": "[!htbp] assets/slike/pog08/p08_s03 Zrenje u punom tijeku: plijesan, tekstura i patina vremena. fig:p08_s03",
+    "labels": [
+      "fig:p08_s03"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-10",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Greške pri sušenju i zrenju: uzrok i korekcija (praktični servisni priručnik).",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog08/p08_i07 Greške pri sušenju i zrenju: uzrok i korekcija (praktični servisni priručnik). inf:p08_i07",
+    "labels": [
+      "inf:p08_i07"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-11",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Posebnosti po vrstama proizvoda: jedan proizvod $$ jedan režim.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog08/p08_i08 Posebnosti po vrstama proizvoda: jedan proizvod $$ jedan režim. inf:p08_i08",
+    "labels": [
+      "inf:p08_i08"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-12",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Kontrola i mjerenja: temperatura, RH, gubitak mase i orijentacijski $a_w$.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog08/p08_i09 Kontrola i mjerenja: temperatura, RH, gubitak mase i orijentacijski $a_w$. inf:p08_i09",
+    "labels": [
+      "inf:p08_i09"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-13",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Sušionica kao sustav: ulaz/izlaz zraka, mrtve zone te tople i hladne točke.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog08/p08_i10 Sušionica kao sustav: ulaz/izlaz zraka, mrtve zone te tople i hladne točke. inf:p08_i10",
+    "labels": [
+      "inf:p08_i10"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-figure_reference-14",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Arhitektura tradicionalnih sušionica: kamen, drvo i zrak.",
+    "source_text": "[!htbp] -0.45 assets/slike/pog08/p08_s04 Arhitektura tradicionalnih sušionica: kamen, drvo i zrak. fig:p08_s04",
+    "labels": [
+      "fig:p08_s04"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap08-dimljenje-susenje-zrenje-infographic-15",
+    "source_file": "chapters/chap08_dimljenje_susenje_zrenje.tex",
+    "chapter": "Dimljenje, sušenje i zrenje",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Klimatske škole Europe: mediteranska, panonska i alpska – tipični uvjeti i proizvodi.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog08/p08_i11 Klimatske škole Europe: mediteranska, panonska i alpska – tipični uvjeti i proizvodi. inf:p08_i11",
+    "labels": [
+      "inf:p08_i11"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-uvod-prostor-kao-sastojak-proizvoda-section",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Uvod – prostor kao sastojak proizvoda",
+    "object_type": "correction",
+    "title_or_caption": "Uvod – prostor kao sastojak proizvoda",
+    "source_text": "sec:9_1_uvod\n\nSušionica nije samo prostor u kojem meso visi — ona je mikrokozmos u kojem se istodobno odvijaju fizika prijenosa vlage, kemija oksidacije i razgradnje, mikrobiologija površine te „tihi” rad vremena. Zato sušionicu treba promatrati kao sastojak proizvoda: ona određuje ritam sušenja, profil arome i stabilnost procesa jednako snažno kao sol, dim i kvaliteta sirovine.\n\nKroz stoljeća su se oblik, materijali i položaj sušionica razvijali u skladu s klimom, topografijom i stilovima proizvoda. U planinskim predjelima sušionice su bile masivne i zatvorenije, s postupnim izlazom dima i vlage kroz krovne otvore; uz more su bile prozračnije i otvorenije prema vjetru; u kontinentalnim krajevima često su nastajala kombinirana rješenja — poluotvorene pušnice s blagim dimom i stalnom, ali mirnom ventilacijom.\n\nDanas se uz senzore i automatizirane komore sušionica često pretvara u tehnološki sustav. Međutim, bit ostaje ista: uskladiti zrak, vlagu i vrijeme tako da meso sazrijeva sporo, predvidljivo i sigurno, bez ekstremâ (propuh, kondenzacija, nagle oscilacije) koji „lome” teksturu i aromu.",
+    "labels": [
+      "sec:9_1_uvod",
+      "infog:9_1_presjek_kamene_susionice"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-tradicionalne-susionice-duh-stoljeca-section",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Tradicionalne sušionice – duh stoljeća",
+    "object_type": "process_phase",
+    "title_or_caption": "Tradicionalne sušionice – duh stoljeća",
+    "source_text": "sec:9_2_tradicionalne\n\nNajstarije sušionice bile su sastavni dio kuće, staje ili tavana. Gradile su se od kamena, drva i opeke (često i nepečene), uz otvore koji su omogućavali prirodno strujanje zraka. Takvi prostori nisu držali jednu vrijednost temperature ili vlage — oni su održavali ritam koji je s vremenom postao predvidljiv: blage dnevno--noćne promjene, spora izmjena zraka i mikroflora prostora koja se stabilizirala upravo zato što se prostor nije stalno „resetirao”.\n\nDim iz ognjišta dizao se kroz prostor i obavijao meso na gredama. U optimalnom režimu dim nije „udarao”, nego je prolazio: blagi, plavkasti tok, s pauzama i provjetravanjem. Time se dobivalo sporo sušenje, uredna površina, stabilna aroma i prepoznatljiv regionalni potpis.",
+    "labels": [
+      "sec:9_2_tradicionalne"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-kljucne-znacajke-tradicionalnih-susionica-zanimljivost-1",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Ključne značajke tradicionalnih sušionica",
+    "object_type": "theory_block",
+    "title_or_caption": "zanimljivost",
+    "source_text": "„U dijelu Dalmacije dim prolazi uz kamene ploče i masivne zidove koji se zagriju i nakon gašenja vatre još dugo otpuštaju blagu toplinu. Time se dobiva rijetka kombinacija: stabilna temperatura, miran zrak i postupno sušenje — bez ‘kuhanja’ površine.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment zanimljivost preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-arhitektura-i-materijali-section",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Arhitektura i materijali",
+    "object_type": "theory_block",
+    "title_or_caption": "Arhitektura i materijali",
+    "source_text": "sec:9_3_arhitektura_materijali\n\nU praksi materijal ne određuje samo kako sušionica izgleda, nego kako se ponaša: hoće li stvarati hladne mostove i kondenzaciju, hoće li držati stabilnu mikroklimu, koliko je lako održavati higijenu te koliko je prostor sposoban ublažiti vanjske promjene vremena.",
+    "labels": [
+      "sec:9_3_arhitektura_materijali",
+      "tab:9_1_materijali",
+      "fig:9_1_unutrasnjost_tradicionalne_susionice"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: napomenaBlok, majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-arhitektura-i-materijali-napomenaBlok-1",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Arhitektura i materijali",
+    "object_type": "theory_block",
+    "title_or_caption": "napomenaBlok",
+    "source_text": "„Materijal izravno utječe na regulaciju vlage, temperaturu, mikroklimu i dugoročnu stabilnost prostora. U praksi je često presudnija izvedba (izolacija, uklanjanje hladnih mostova, kontrola kondenzacije) nego sama ‘etiketa’ materijala.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment napomenaBlok preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-arhitektura-i-materijali-majstorskaNapomena-2",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Arhitektura i materijali",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Kad gradiš sušionicu, zidovi moraju ‘disati’ — a još više moraju biti topli. Hladan zid je tiha tvornica kondenzacije.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-suvremene-komore-mikroklima-pod-kontrolom-section",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Suvremene komore – mikroklima pod kontrolom",
+    "object_type": "process_phase",
+    "title_or_caption": "Suvremene komore – mikroklima pod kontrolom",
+    "source_text": "sec:9_4_suvremene_komore\n\nSuvremene komore za sušenje projektirane su kao zatvoreni sustavi s aktivnom regulacijom temperature, relativne vlage i strujanja zraka. Senzori mjere stanje u komori, a automatika upravlja ovlaživanjem/odvlaživanjem, ventilacijom te po potrebi grijanjem i hlađenjem. Takav pristup posebno je koristan kada je cilj ponovljivost i proizvodnja izvan sezonskih „prozora” tradicionalnih uvjeta.",
+    "labels": [
+      "sec:9_4_suvremene_komore"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-ogranicenja-section",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Ograničenja",
+    "object_type": "theory_block",
+    "title_or_caption": "Ograničenja",
+    "source_text": "Napredniji sustavi danas mogu simulirati prirodne cikluse (dnevno--noćne promjene, ritam ventilacije, „meke” krivulje RH), čime se dobiva stabilnost bez gubitka karaktera — ali samo ako se parametri postave s razumijevanjem proizvoda, a ne kao jedan program za sve.",
+    "labels": [
+      "infog:9_2_suvremeni_sustav_klime"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: prakticniSavjet."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-ogranicenja-prakticniSavjet-1",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Ograničenja",
+    "object_type": "theory_block",
+    "title_or_caption": "prakticniSavjet",
+    "source_text": "„Za male proizvođače i povremene serije često je isplativije pametno adaptirati postojeći prostor (izolacija + kontrola kondenzacije + tihi protok zraka) nego odmah ulaziti u skupu komoru.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment prakticniSavjet preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-hibridne-susionice-spoj-tradicije-i-znanosti-section",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Hibridne sušionice – spoj tradicije i znanosti",
+    "object_type": "theory_block",
+    "title_or_caption": "Hibridne sušionice – spoj tradicije i znanosti",
+    "source_text": "sec:9_5_hibridne\n\nHibridne sušionice spajaju prirodnu arhitekturu (kamen, drvo, opeka) s diskretnom elektroničkom kontrolom mikroklime. Ideja nije zamijeniti tradiciju, nego joj dodati stabilnost kada klima postane rizična (nagla suša, kondenzacija, topli valovi, dugi periodi visoke vlage). U takvom režimu prostor zadržava svoj karakter, a tehnologija radi samo kad je to potrebno.",
+    "labels": [
+      "sec:9_5_hibridne"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-primjer-hibridne-susionice-section",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Primjer hibridne sušionice",
+    "object_type": "process_phase",
+    "title_or_caption": "Primjer hibridne sušionice",
+    "source_text": "Kameni zidovi debljine 40--50 cm, drveni strop, ali s ugrađenim senzorima temperature i relativne vlage koji upravljaju otvaranjem prozorčića i tihom ventilacijom. Dim se pali ručno, a sustav služi kao upozorenje: kada su uvjeti blizu „granice” (kondenzacija ili presušenje), majstor dobije signal da promijeni ritam.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-primjer-hibridne-susionice-majstorskaNapomena-1",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Primjer hibridne sušionice",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Tehnologija treba služiti tradiciji — ne obratno. Dobra sušionica traži pomoć u ekstremima, a ne da joj netko preuzme zanat.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-kucne-i-diy-susionice-section",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Kućne i DIY sušionice",
+    "object_type": "correction",
+    "title_or_caption": "Kućne i DIY sušionice",
+    "source_text": "sec:9_6_kucne_diy\n\nKućne sušionice postale su popularne među entuzijastima koji žele reproducirati stabilne uvjete u manjem volumenu. U osnovi, DIY rješenja pokušavaju postići tri stvari: stabilnu temperaturu, kontroliranu vlagu i tihu, posrednu cirkulaciju zraka. Najveća razlika u odnosu na velike sušionice je mala toplinska masa i veća osjetljivost na otvaranje vrata, promjene u prostoru i raspored proizvoda.\n\nNajčešća rješenja uključuju:",
+    "labels": [
+      "sec:9_6_kucne_diy"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-osnovni-elementi-diy-susionice-upozorenjeBlok-1",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Osnovni elementi DIY sušionice",
+    "object_type": "warning",
+    "title_or_caption": "upozorenjeBlok",
+    "source_text": "„U prostoru gdje meso zrije prednost imaju inertni i lako perivi materijali (inox, staklo, kvalitetno obrađeno drvo). Izbjegavati površine i premaze koji mogu ispuštati mirise, te nekvalitetne plastike koje s vremenom postaju izvor neugodnih aroma.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.98,
+    "notes": [
+      "Custom environment upozorenjeBlok preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-osnovni-elementi-diy-susionice-prakticniSavjet-2",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Osnovni elementi DIY sušionice",
+    "object_type": "theory_block",
+    "title_or_caption": "prakticniSavjet",
+    "source_text": "„Za prve pokušaje najpametnije je raditi manje kalibre (promjer do približno 45 mm): brže reagiraju na korekcije i lakše je držati proces pod kontrolom.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment prakticniSavjet preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-ekoloski-i-energetski-aspekti-section",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Ekološki i energetski aspekti",
+    "object_type": "theory_block",
+    "title_or_caption": "Ekološki i energetski aspekti",
+    "source_text": "sec:9_7_ekoloski_energetski\n\nOdržive sušionice ponovno dobivaju na važnosti. Umjesto oslanjanja isključivo na električnu energiju, naglasak se vraća na pasivnu arhitekturu, prirodnu ventilaciju, pametno korištenje toplinske mase i biomasu. U mnogim krajevima ponovno se grade pasivne pušnice orijentirane prema dominantnim vjetrovima — ne kao nostalgija, nego kao logičan odgovor na trošak energije i želju za stabilnim „živim” prostorom.",
+    "labels": [
+      "sec:9_7_ekoloski_energetski"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-primjeri-modernih-ekoloskih-rjesenja-zanimljivost-1",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Primjeri modernih ekoloških rješenja",
+    "object_type": "theory_block",
+    "title_or_caption": "zanimljivost",
+    "source_text": "„U dijelu Hercegovine prozorčići sušionica često su orijentirani prema dominantnom vjetru kako bi se postigla prirodna izmjena zraka. Kad je ritam prostora dobar, ventilator postaje suvišan — a sušenje ostaje mirno.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment zanimljivost preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-primjeri-modernih-ekoloskih-rjesenja-ekonomskaAnaliza-2",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Primjeri modernih ekoloških rješenja",
+    "object_type": "theory_block",
+    "title_or_caption": "ekonomskaAnaliza",
+    "source_text": "„Pasivna sušionica može znatno smanjiti potrošnju energije u odnosu na potpuno klimatiziranu komoru, ali zauzvrat traži iskustvo, praćenje i razumijevanje mikroklime. U praksi se trošak često ‘plaća’ vremenom i prisutnošću majstora.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment ekonomskaAnaliza preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-usporedna-tablica-tradicionalno-nasuprot-suvremenom-section",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Usporedna tablica – tradicionalno nasuprot suvremenom",
+    "object_type": "theory_block",
+    "title_or_caption": "Usporedna tablica – tradicionalno nasuprot suvremenom",
+    "source_text": "sec:9_8_usporedna_tablica",
+    "labels": [
+      "sec:9_8_usporedna_tablica",
+      "tab:9_2_trad_suvremene"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: napomenaBlok, majstorskaNapomena."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-usporedna-tablica-tradicionalno-nasuprot-suvremenom-napomenaBlok-1",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Usporedna tablica – tradicionalno nasuprot suvremenom",
+    "object_type": "theory_block",
+    "title_or_caption": "napomenaBlok",
+    "source_text": "„Tradicionalne i suvremene sušionice predstavljaju dva pristupa s različitim snagama. U praksi se najbolji rezultat često dobiva hibridnim rješenjima: autentičan prostor uz diskretnu kontrolu kritičnih parametara.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment napomenaBlok preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-usporedna-tablica-tradicionalno-nasuprot-suvremenom-majstorskaNapomena-2",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Usporedna tablica – tradicionalno nasuprot suvremenom",
+    "object_type": "theory_block",
+    "title_or_caption": "majstorskaNapomena",
+    "source_text": "„Tradicionalna sušionica je kao stari majstor: sporo uči, ali kad nauči, radi mirno i dosljedno. Suvremena komora je kao precizan instrument: odlična, ali traži kalibraciju i dobru ruku.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment majstorskaNapomena preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-zakljucak-poglavlja-section",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Zaključak poglavlja",
+    "object_type": "theory_block",
+    "title_or_caption": "Zaključak poglavlja",
+    "source_text": "sec:9_9_zakljucak\n\nSušionica je srce svakog suhomesnatog proizvoda — prostor u kojem se „zaključavaju” miris, tekstura i karakter. Bez obzira na to je li građena od kamena i dima ili od čelika i senzora, njezina je uloga ista: stvoriti uvjete u kojima vrijeme može odraditi svoj posao bez prisile i bez šokova.\n\nStvarna vrijednost ne leži u razini tehnologije, nego u razumijevanju ravnoteže između prirode i kontrole. Najuspješniji proizvođači često biraju hibridni put: poštuju tradiciju i mikroklimu prostora, ali uvode stabilizaciju tamo gdje je proces najranjiviji (kondenzacija, propuh, nagle oscilacije).\n\nU konačnici, nije presudno gradiš li od kamena ili od čelika — presudno je razumiješ li što mesu treba: mir, vlagu, zrak i vrijeme.",
+    "labels": [
+      "sec:9_9_zakljucak"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "Custom environments split out separately: zakljucnaMisao."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-zakljucak-poglavlja-zakljucnaMisao-1",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": "Zaključak poglavlja",
+    "object_type": "theory_block",
+    "title_or_caption": "zakljucnaMisao",
+    "source_text": "„U sušionici vlada tišina — jedini zvuk koji čuješ jest kako vrijeme polako radi.”",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.91,
+    "notes": [
+      "Custom environment zakljucnaMisao preserved as a first-class extraction unit."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-infographic-1",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Presjek tradicionalne kamene sušionice: ulaz zraka pri dnu, mirno kruženje kroz zonu vješanja i izlaz kroz gornje otvore. Ispravna putanja smanjuje kondenzaciju i stabilizira sušenje bez direktnog „propuhivanja” proizvoda.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog09/p09_i01 Presjek tradicionalne kamene sušionice: ulaz zraka pri dnu, mirno kruženje kroz zonu vješanja i izlaz kroz gornje otvore. Ispravna putanja smanjuje kondenzaciju i stabilizira sušenje bez direktnog „propuhivanja” proizvoda. infog:9_1_presjek_kamene_susionice",
+    "labels": [
+      "infog:9_1_presjek_kamene_susionice"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-table-2",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": null,
+    "object_type": "table",
+    "title_or_caption": "Usporedba materijala za gradnju sušionica (orijentacijski)",
+    "source_text": "[htbp] Usporedba materijala za gradnju sušionica (orijentacijski) tab:9_1_materijali 1.15 tabularp0.18 p0.28 p0.28 p0.18 Materijal & Prednosti & Ograničenja & Tipična primjena \\\\ Kamen (prirodni) & Regulacija vlage, trajnost, toplinska masa, „mirna” mikroklima & Skupa i zahtjevna gradnja; sporiji odziv na promjene & Tradicionalne pušnice; planinski i primorski stilovi \\\\ Drvo (hrast, bukva) & „Diše”, ublažava oscilacije; ugodna mikroklima; jednostavna adaptacija & Traži održavanje; osjetljivo na trajnu vlagu i lošu ventilaciju & Unutarnje obloge; tavani; hibridne sušionice \\\\ Nepečena cigla & Porozna; dobra difuzija pare; povoljna & Traži zaštitu od kapilarne vlage; ograničena trajnost & Ruralne sušionice; starije gospodarske zgrade \\\\ Pečena opeka & Trajna; dobra toplinska masa; relativno jednostavna gradnja & Potrebna dobra žbuka/obrada; bez toga kondenzacija može rasti & Zidovi sušionica; kombinacije s drvom \\\\ Beton & Trajan; brz za izgradnju; lako izolirati & Ne „diše”; hladni mostovi i kondenzacija bez dobre izolacije & Moderne komore (uz pravilnu izolaciju i ventilaciju) \\\\ Inox / čelik & Visoka higijena; lako čišćenje; standardizacija & Ne regulira vlagu; „hladan” prostor bez aktivne kontrole mikroklime & Profesionalne komore i industrijska proizvodnja \\\\ Stiropor / PVC & Toplinska izolacija; jeftino i lagano & Ne „diše”; mirisi i problematična dugoročna mikroklima & Nije preporučljivo kao primarna unutarnja obloga \\\\ tabular",
+    "labels": [
+      "tab:9_1_materijali"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected from table environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-figure_reference-3",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Unutrašnjost tradicionalne kamene sušionice s drvenim gredama i patinom dima: prostor prirodno smiruje temperaturu i vlagu, a stabilna površinska mikroflora doprinosi prepoznatljivom karakteru proizvoda.",
+    "source_text": "[!htbp] assets/slike/pog09/p09_s01 Unutrašnjost tradicionalne kamene sušionice s drvenim gredama i patinom dima: prostor prirodno smiruje temperaturu i vlagu, a stabilna površinska mikroflora doprinosi prepoznatljivom karakteru proizvoda. fig:9_1_unutrasnjost_tradicionalne_susionice",
+    "labels": [
+      "fig:9_1_unutrasnjost_tradicionalne_susionice"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-infographic-4",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Suvremena komora kao zatvoreni sustav: senzori mjere temperaturu i relativnu vlažnost, a automatika upravlja ventilacijom te ovlaživanjem/odvlaživanjem. Cilj je stabilna mikroklima i ponovljiv rezultat kroz cijeli proces.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog09/p09_i02 Suvremena komora kao zatvoreni sustav: senzori mjere temperaturu i relativnu vlažnost, a automatika upravlja ventilacijom te ovlaživanjem/odvlaživanjem. Cilj je stabilna mikroklima i ponovljiv rezultat kroz cijeli proces. infog:9_2_suvremeni_sustav_klime",
+    "labels": [
+      "infog:9_2_suvremeni_sustav_klime"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-figure_reference-5",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Primjer DIY kućne komore: zrak kruži blago i posredno, bez direktnog puhanja u proizvode. Senzori se postavljaju u zonu proizvoda, ali ne uz hladne stijenke, kako bi očitanja bila reprezentativna i proces ujednačen.",
+    "source_text": "[!htbp] assets/slike/pog09/p09_s02 Primjer DIY kućne komore: zrak kruži blago i posredno, bez direktnog puhanja u proizvode. Senzori se postavljaju u zonu proizvoda, ali ne uz hladne stijenke, kako bi očitanja bila reprezentativna i proces ujednačen. fig:9_2_diy_komora",
+    "labels": [
+      "fig:9_2_diy_komora"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-infographic-6",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Najčešće pogreške u DIY komori: direktan mlaz zraka u proizvod (presušenje i „suha kora”), mrtvi kutovi bez izmjene zraka (plijesan) te hladne stijenke uz slabu ventilaciju (kondenzacija). Rješenje je spora, posredna cirkulacija i stabilna mikroklima bez oscilacija.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog09/p09_i03 Najčešće pogreške u DIY komori: direktan mlaz zraka u proizvod (presušenje i „suha kora”), mrtvi kutovi bez izmjene zraka (plijesan) te hladne stijenke uz slabu ventilaciju (kondenzacija). Rješenje je spora, posredna cirkulacija i stabilna mikroklima bez oscilacija. infog:9_3_pogreske_crvene_zone",
+    "labels": [
+      "infog:9_3_pogreske_crvene_zone"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-infographic-7",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Usporedba potrošnje: pasivna sušionica troši najmanje, hibridna umjereno (regulacija radi po potrebi), a potpuno klimatizirana komora najviše. Energetska cijena raste s ponovljivošću procesa i mogućnošću proizvodnje kroz cijelu godinu.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog09/p09_i06 Usporedba potrošnje: pasivna sušionica troši najmanje, hibridna umjereno (regulacija radi po potrebi), a potpuno klimatizirana komora najviše. Energetska cijena raste s ponovljivošću procesa i mogućnošću proizvodnje kroz cijelu godinu. infog:9_6_energetska_usporedba",
+    "labels": [
+      "infog:9_6_energetska_usporedba"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap09-tradicionalne-i-suvremene-tehnike-table-8",
+    "source_file": "chapters/chap09_tradicionalne_i_suvremene_tehnike.tex",
+    "chapter": "TRADICIONALNE I SUVREMENE\\ SUŠIONICE",
+    "section": null,
+    "object_type": "table",
+    "title_or_caption": "Usporedba tradicionalnih sušionica i suvremenih komora (orijentacijski)",
+    "source_text": "[htbp] Usporedba tradicionalnih sušionica i suvremenih komora (orijentacijski) tab:9_2_trad_suvremene 1.15 tabularp0.26 p0.32 p0.32 Značajka & Tradicionalna sušionica & Suvremena komora \\\\ Materijali & Kamen, drvo, opeka & Izolirani paneli, čelik/inox, tehnička oprema \\\\ Kontrola temperature & Prirodna, ovisna o klimi i toplinskoj masi & Aktivna, precizna (ovisno o sustavu) \\\\ Kontrola vlage & Pasivna (materijali „dišu”) & Aktivna (ovlaživači/odvlaživači + senzori) \\\\ Ventilacija & Prirodna (otvori, vjetar, dim) & Mehanička (ventilatori, upravljanje protokom) \\\\ Mikroflora & Specifična za prostor, s vremenom stabilnija & Kontrolirana; često neutralnija bez „patine prostora” \\\\ Energija & Minimalna do umjerena & Električna energija (ventilacija, klima, ovlaživanje) \\\\ Ponovljivost & Varira s sezonom i vremenom & Visoka uz pravilno podešavanje i održavanje \\\\ Autentičnost okusa & Visoka (regionalni potpis) & Umjerena do visoka (ovisno o režimu i vođenju) \\\\ Rizik od grešaka & Umjeren do viši bez iskustva & Niži uz ispravnu automatiku, ali ovisan o opremi \\\\ tabular",
+    "labels": [
+      "tab:9_2_trad_suvremene"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected from table environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-uvod-klima-kao-tihi-majstor-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Uvod – klima kao tihi majstor",
+    "object_type": "process_phase",
+    "title_or_caption": "Uvod – klima kao tihi majstor",
+    "source_text": "tocsectionUvod – klima kao tihi majstor sec:10_uvod\n\nKlima je najstariji tehnološki partner u svijetu suhomesnatih proizvoda. Prije nego što su se koristili instrumenti za mjerenje temperature i vlažnosti, odluke su se donosile promatranjem ponašanja zraka: njegove vlage, mirisa, „težine” i kretanja. Taj nevidljivi sloj okoliša postao je ključan faktor u razvoju europske suhomesnate tradicije jer je određivao kada se nešto smije započeti, kako se proces vodi i koliko prostor može oprostiti pogrešku.\n\nU tradicionalnim prostorima zrenja zrak nije samo medij u kojem proizvod boravi, nego aktivni sudionik procesa. On određuje brzinu fermentacije, intenzitet sušenja i razvoj mikroflore, a time neposredno oblikuje aromu, boju, teksturu i stabilnost. Drugim riječima: recept je plan, ali klima je ritam po kojem plan postaje stvarnost.",
+    "labels": [
+      "sec:10_uvod",
+      "fig:p10_s02"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-klimatski-parametri-i-njihov-utjecaj-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Klimatski parametri i njihov utjecaj",
+    "object_type": "correction",
+    "title_or_caption": "Klimatski parametri i njihov utjecaj",
+    "source_text": "sec:10_parametri\n\nU praksi, „klima prostora” svodi se na nekoliko mjerljivih parametara, ali njihov učinak nije linearan: isti broj može biti dobar ili loš ovisno o fazi procesa, kalibru proizvoda i stanju površine. Najvažnije je razumjeti odnose: temperatura određuje brzinu biokemije i mikrobiologije, relativna vlažnost određuje tempo gubitka vode, a strujanje zraka određuje hoće li taj gubitak biti ravnomjeran ili agresivan. U tradicionalnim sušionicama ti se parametri ne ponašaju kao tri odvojena kotačića, nego kao jedan sustav: promijeniš li jedan, druga dva se gotovo uvijek „pomaknu” s njim (npr.\\ porast temperature bez korekcije RH često ubrza sušenje površine i promijeni mikrofloru). Zato se proces vodi načelom stabilnosti i malih korekcija: cilj nije stalno „ganjati ideal”, nego održavati predvidljiv ritam u kojem proizvod mirno prelazi iz faze u fazu.",
+    "labels": [
+      "sec:10_parametri",
+      "inf:p10_i01"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-temperatura-zraka-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Temperatura zraka",
+    "object_type": "theory_block",
+    "title_or_caption": "Temperatura zraka",
+    "source_text": "sec:10_temperatura",
+    "labels": [
+      "sec:10_temperatura"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-relativna-vlaznost-zraka-rh-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Relativna vlažnost zraka (RH)",
+    "object_type": "theory_block",
+    "title_or_caption": "Relativna vlažnost zraka (RH)",
+    "source_text": "sec:10_rh",
+    "labels": [
+      "sec:10_rh",
+      "fig:p10_s06",
+      "fig:p10_s05"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-strujanje-zraka-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Strujanje zraka",
+    "object_type": "theory_block",
+    "title_or_caption": "Strujanje zraka",
+    "source_text": "sec:10_strujanje",
+    "labels": [
+      "sec:10_strujanje",
+      "fig:p10_s03"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-tlak-zraka-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Tlak zraka",
+    "object_type": "theory_block",
+    "title_or_caption": "Tlak zraka",
+    "source_text": "sec:10_tlak",
+    "labels": [
+      "sec:10_tlak"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-mikroklima-prostora-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Mikroklima prostora",
+    "object_type": "theory_block",
+    "title_or_caption": "Mikroklima prostora",
+    "source_text": "sec:10_mikroklima\n\nMikroklima je „unutarnja klima” prostora: kombinacija materijala, geometrije, položaja otvora, toplinskih mostova i navika korištenja. Dva prostora na istoj lokaciji mogu imati potpuno različito ponašanje ovisno o tome kondenzira li zid, gdje se stvara mrtva zona i kako se zrak kreće oko proizvoda.",
+    "labels": [
+      "sec:10_mikroklima"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-klimatske-zone-europe-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Klimatske zone Europe",
+    "object_type": "process_phase",
+    "title_or_caption": "Klimatske zone Europe",
+    "source_text": "sec:10_klimatske_zone\n\nEuropa je iznimno klimatski raznolik kontinent; u relativno malom prostoru smjenjuju se atlantska vlažnost, kontinentalna suhoća, alpska hladnoća i mediteranska toplina. Ta raznolikost izravno se preslikava na stilove zrenja: negdje dominira sporo sušenje bez naglašene kiselosti, negdje fermentacija pod zaštitom plemenite plijesni, a negdje kombinacija dima, vjetra i sezonskih oscilacija.",
+    "labels": [
+      "sec:10_klimatske_zone",
+      "inf:p10_i04"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-godisnja-doba-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Godišnja doba",
+    "object_type": "theory_block",
+    "title_or_caption": "Godišnja doba",
+    "source_text": "sec:10_godisnja_doba\n\nGodišnja doba djeluju kao prirodni metronom: ne određuju samo uvjete, nego i to kada je prostor siguran, koliko brzo se smije sušiti i koliko stabilno mikroflora može raditi bez rizika.",
+    "labels": [
+      "sec:10_godisnja_doba",
+      "inf:p10_i02"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-zima-kraljica-zrenja-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Zima — kraljica zrenja",
+    "object_type": "problem",
+    "title_or_caption": "Zima — kraljica zrenja",
+    "source_text": "Niske temperature inhibiraju patogene, a suši zrak omogućuje polagano, ali sigurno sušenje. Fermentacija je stabilnija, a proces ide bez naglih skokova kiselosti i bez velikih oscilacija površinske suhoće. Tipični rizici su prehladan prostor (fermentacija stane) ili previsoka vlaga (površinski problemi), pa korekcije trebaju biti mirne: izolacija, uklanjanje propuha i kontrola kondenzacije.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-jesen-sezona-velikih-komada-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Jesen — sezona velikih komada",
+    "object_type": "theory_block",
+    "title_or_caption": "Jesen — sezona velikih komada",
+    "source_text": "Jesen je prirodan početak ciklusa za pršute, plećke i pancete: dovoljno je hladno za sigurnost, a dovoljno mirno da se sol ravnomjerno rasporedi bez presušivanja rubova. Rizik je naglo isušivanje pri prvom jačem vjetru; zato su ključni zaklon i stabilna RH u prvom dijelu ciklusa.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-proljece-najzahtjevnija-provjera-stabilnosti-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Proljeće — najzahtjevnija provjera stabilnosti",
+    "object_type": "problem",
+    "title_or_caption": "Proljeće — najzahtjevnija provjera stabilnosti",
+    "source_text": "Vlaga raste, temperature skaču, a kondenzacija postaje realan problem. Ako je proizvod do tada dobro stabiliziran, proljeće može doprinijeti bogatijim aromama; ako nije, problemi se mogu pojaviti naglo (sluz, neželjene plijesni, „podrumski” mirisi). U praksi pomažu tiha ventilacija i smanjenje hladnih mostova.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-ljeto-dovrsavanje-ili-mirovanje-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Ljeto — dovršavanje ili mirovanje",
+    "object_type": "process_phase",
+    "title_or_caption": "Ljeto — dovršavanje ili mirovanje",
+    "source_text": "U mnogim tradicionalnim režimima ljeto je faza „mirovanja”: rizici rastu brže od koristi. U mediteranskim regijama, uz dobru zaštitu od direktnog pregrijavanja, ljeto može dovršiti masnije pršute i zaokružiti aromu masti, ali samo ako se izbjegne ustajali zrak i prebrzo zatvaranje površine.\n\n6mm",
+    "labels": [
+      "fig:p10_s08_zima_metronom"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-zakljucak-poglavlja-section",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": "Zaključak poglavlja",
+    "object_type": "process_phase",
+    "title_or_caption": "Zaključak poglavlja",
+    "source_text": "sec:10_zakljucak\n\nKlimatski i mikroklimatski uvjeti temelj su svakog tradicionalnog suhomesnatog proizvoda. Bez obzira na recept, dozu soli ili trajanje zrenja, upravo zrak — njegova vlažnost, temperatura, strujanje i stabilnost — određuje konačan karakter. Svaka europska regija razvila je vlastiti stil ne zato što su ljudi imali različite ideje, nego zato što je svaka klima nametnula svoje zakonitosti i mogućnosti.\n\nU sjevernijim krajevima prevladavaju čisti, hladniji profili bez agresivne fermentacije; u atlantskoj i zapadnoeuropskoj zoni aroma se razvija pod stabilnijom površinskom mikroflorom; u srednjoj Europi dominiraju precizni, stabilni režimi; dok u južnoj Europi suhi vjetrovi i mediteranski ritmovi stvaraju pršute s dubokom aromom masti. Balkan, kao dinamična zona, često kombinira fermentaciju, dim i sezonske oscilacije u proizvode snažnog identiteta.\n\nGodišnja doba pritom djeluju kao prirodni metronom: zima postavlja temelje, jesen daje sigurnost velikim komadima, proljeće testira stabilnost, a ljeto dovršava procese ili ih zaustavlja. Razumijevanje klime zato nije samo tehnički detalj, nego ključ majstorskog odlučivanja: omogućuje predviđanje ponašanja proizvoda, rano prepoznavanje rizika i očuvanje autentičnosti stila koji pripada mjestu i prostoru u kojem nastaje.",
+    "labels": [
+      "sec:10_zakljucak"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-figure_reference-1",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Praćenje temperature i relativne vlažnosti u prostoru zrenja: mali instrument, velika razlika u stabilnosti procesa.",
+    "source_text": "[!htbp] assets/slike/pog10/p10_s02 Praćenje temperature i relativne vlažnosti u prostoru zrenja: mali instrument, velika razlika u stabilnosti procesa. fig:p10_s02",
+    "labels": [
+      "fig:p10_s02"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-infographic-2",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "„Zlatna zona” zrenja: temperatura, relativna vlažnost, strujanje i tlak — rasponi, rizici i brze korekcije.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog10/p10_i01 „Zlatna zona” zrenja: temperatura, relativna vlažnost, strujanje i tlak — rasponi, rizici i brze korekcije. inf:p10_i01",
+    "labels": [
+      "inf:p10_i01"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-figure_reference-3",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Kondenzacija na hladnoj površini: znak previsoke vlage ili preslabe izmjene zraka u prostoru zrenja.",
+    "source_text": "[!htbp] assets/slike/pog10/p10_s06 Kondenzacija na hladnoj površini: znak previsoke vlage ili preslabe izmjene zraka u prostoru zrenja. fig:p10_s06",
+    "labels": [
+      "fig:p10_s06"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-figure_reference-4",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Problem: suha kora (case--hardening",
+    "source_text": "[!htbp] assets/slike/pog10/p10_s05 Problem: suha kora (case--hardening) — presjek pokazuje zarobljenu vlagu u sredini zbog prebrzog isušivanja površine. fig:p10_s05",
+    "labels": [
+      "fig:p10_s05"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-figure_reference-5",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Mjerenje strujanja zraka u zoni proizvoda: mali pomak u protoku često rješava velike probleme u sušenju.",
+    "source_text": "[!htbp] assets/slike/pog10/p10_s03 Mjerenje strujanja zraka u zoni proizvoda: mali pomak u protoku često rješava velike probleme u sušenju. fig:p10_s03",
+    "labels": [
+      "fig:p10_s03"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-infographic-6",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Mikroklima prostora: materijali, konstrukcija i orijentacija kao pasivni sustav kontrole vlage, temperature i strujanja.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog10/p10_i03 Mikroklima prostora: materijali, konstrukcija i orijentacija kao pasivni sustav kontrole vlage, temperature i strujanja. inf:p10_i03",
+    "labels": [
+      "inf:p10_i03"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-figure_reference-7",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Zaštićena ekspozicija prema vjetru: bura djeluje posredno, kroz kontrolirane otvore i zaklon, bez direktnog udara na proizvod.",
+    "source_text": "[!htbp] assets/slike/pog10/p10_s07 Zaštićena ekspozicija prema vjetru: bura djeluje posredno, kroz kontrolirane otvore i zaklon, bez direktnog udara na proizvod. fig:p10_s07",
+    "labels": [
+      "fig:p10_s07"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-figure_reference-8",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Porozna površina starog zida: dugotrajna upotreba i stabilna mikroklima stvaraju prepoznatljiv mikrobiološki „potpis” prostora.",
+    "source_text": "[!htbp] assets/slike/pog10/p10_s01 Porozna površina starog zida: dugotrajna upotreba i stabilna mikroklima stvaraju prepoznatljiv mikrobiološki „potpis” prostora. fig:p10_s01",
+    "labels": [
+      "fig:p10_s01"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-infographic-9",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Klimatske zone Europe: kako temperatura, vlaga i vjetrovi stvaraju različite stilove zrenja i aromatske profile.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog10/p10_i04 Klimatske zone Europe: kako temperatura, vlaga i vjetrovi stvaraju različite stilove zrenja i aromatske profile. inf:p10_i04",
+    "labels": [
+      "inf:p10_i04"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-infographic-10",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Godišnja doba kao metronom zrenja: zima stabilizira, jesen pokreće velike komade, proljeće testira, ljeto dovršava ili zaustavlja proces.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog10/p10_i02 Godišnja doba kao metronom zrenja: zima stabilizira, jesen pokreće velike komade, proljeće testira, ljeto dovršava ili zaustavlja proces. inf:p10_i02",
+    "labels": [
+      "inf:p10_i02"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap10-klimatski-i-mikrolokalni-uvjeti-figure_reference-11",
+    "source_file": "chapters/chap10_klimatski_i_mikrolokalni_uvjeti.tex",
+    "chapter": "Klimatski i mikroklimatski uvjeti u tradicionalnim zrenja",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Godišnja doba kao metronom zrenja: zima u tradicionalnom prostoru osigurava stabilan ritam i prirodnu kontrolu procesa.",
+    "source_text": "[!htbp] assets/slike/pog10/p10_s08 Godišnja doba kao metronom zrenja: zima u tradicionalnom prostoru osigurava stabilan ritam i prirodnu kontrolu procesa. fig:p10_s08_zima_metronom",
+    "labels": [
+      "fig:p10_s08_zima_metronom"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-uvod-zasto-je-kontrola-kvalitete-vise-od-rutine-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Uvod -- zašto je kontrola kvalitete više od rutine",
+    "object_type": "problem",
+    "title_or_caption": "Uvod -- zašto je kontrola kvalitete više od rutine",
+    "source_text": "Kontrola kvalitete nije samo bilježenje podataka, nego način da se proces razumije dok još traje. U proizvodnji suhomesnatih proizvoda ona povezuje opažanje, iskustvo i mjerenje: ono što vidiš na površini, osjetiš pod prstima ili prepoznaš u mirisu mora imati potvrdu u temperaturi, relativnoj vlazi, pH-vrijednosti, gubitku mase i ritmu zrenja.\n\nIskusni majstori mnogo toga prepoznaju \"na oko\", ali pouzdan rezultat ne smije ovisiti samo o dojmu. Kontrola zato znači prepoznati kada je promjena normalan dio procesa, a kada je prvi znak odstupanja koje kasnije može postati kvar, defekt ili sigurnosni problem.\n\nU suhomesnatoj tradiciji dobra kontrola ne svodi se na traženje pogrešaka, nego na razumijevanje ponašanja proizvoda u svakoj fazi. Svaka promjena boje, mirisa, teksture ili površine nosi informaciju, ali tek u kombinaciji s pravilno očitanim uvjetima daje jasnu sliku što se u proizvodu doista događa.\n\nnapomena\\\\ \"Ne postoji loša šarža -- postoji samo ona iz koje nisi ništa naučio.\"",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-kako-se-cuva-red-u-procesu-kontrola-po-fazama-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Kako se čuva red u procesu -- kontrola po fazama",
+    "object_type": "problem",
+    "title_or_caption": "Kako se čuva red u procesu -- kontrola po fazama",
+    "source_text": "Svaka faza izrade, od soljenja do zrenja, ima svoje tipične rizike i znakove koje treba na vrijeme prepoznati. Uspjeh ne ovisi o sreći, nego o sposobnosti da se proces čita po fazama: kada je meso dovoljno ohlađeno, kada sol ravnomjerno djeluje, kada fermentacija napreduje očekivanim ritmom, kada dim postaje pretežak i kada sušenje više ne pomaže nego počinje štetiti.\n\nRazlika između prosječnog i vrhunskog proizvoda često nastaje upravo u tim nijansama. Zato kontrola po fazama nije birokracija, nego praktičan sustav ranog otkrivanja problema i pravodobne korekcije.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-sto-mjerim-kada-i-koja-je-reakcija-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Što mjerim, kada i koja je reakcija",
+    "object_type": "correction",
+    "title_or_caption": "Što mjerim, kada i koja je reakcija",
+    "source_text": "Da kontrola ne ostane \"u glavi\", korisno je imati jednostavan obrazac: indikator $$ brza provjera $$ korekcija. Ne mijenjaš proces svaki sat, nego reagiraš samo kad indikator pokaže da nešto ide u krivom smjeru.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-faza-soljenja-temelj-svega-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Faza soljenja -- temelj svega",
+    "object_type": "problem",
+    "title_or_caption": "Faza soljenja -- temelj svega",
+    "source_text": "Soljenje je prva velika točka kontrole jer određuje sigurnost, početnu stabilnost i buduću ravnotežu okusa. Ako se u toj fazi pogriješi, kasnije faze više ne ispravljaju uzrok, nego samo prikrivaju posljedice.\n\nTemperatura mesa i prostora treba ostati u hladnom režimu, približno 2--5 , a radna higijena mora biti besprijekorna. Kod suhog soljenja treba pratiti ravnomjernost raspodjele soli i kontakt svih površina, dok kod salamurenja salamura mora ostati čista, bistra i bez stranih mirisa. Mutna tekućina, sluzavost ili kiselkast miris upućuju na problem higijene, temperature ili predugo zadržavanje u nepovoljnim uvjetima.\n\nU ovoj fazi vrijedi jednostavno pravilo: hladnoća, čistoća i ravnomjernost važniji su od brzine. Sol ne oprašta toplinu, a loša početna disciplina kasnije se gotovo uvijek vrati kao skuplji problem.\n\nnapomena\\\\ \"Ako sol prođe ravnomjerno, i okus će biti pošten.\"",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-faza-fermentacije-srce-procesa-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Faza fermentacije -- srce procesa",
+    "object_type": "cause",
+    "title_or_caption": "Faza fermentacije -- srce procesa",
+    "source_text": "Fermentacija je faza u kojoj se sirova smjesa počinje pretvarati u stabilniji, sigurniji i prepoznatljivo aromatičan proizvod. U toj fazi oblikuju se kiselost, početna boja, miris i dio teksture koji će snažno utjecati na završni karakter proizvoda.\n\nTemperatura se kod fermentiranih kobasičarskih proizvoda najčešće drži u toplijem režimu, približno oko 20--24 , uz visoku relativnu vlagu, često oko 90--95 %. Ako je zrak presuh, površina se prerano zatvara i stvara se kora; ako je vlaga previsoka i zrak miruje, raste rizik neželjenih površinskih pojava i nestabilne fermentacije.\n\nAko pH ne pada očekivanim ritmom, fermentacija nije dobro \"uhvatila korak\". Uzrok može biti previsoka početna količina soli, premalo fermentabilnog šećera, neaktivna ili neodgovarajuća starter kultura, preniska temperatura ili preslaba početna dinamika procesa. Upravo zato ovu fazu treba pratiti i osjetilima i instrumentima: miris, boja i ponašanje površine često rano upozore da se proces udaljava od željenog smjera.\n\nnapomena\\\\ \"Fermentacija ne trpi nervozu -- sve radi svojim tempom, a ne tvojim.\"",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-faza-dimljenja-kad-miris-postaje-potpis-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Faza dimljenja -- kad miris postaje potpis",
+    "object_type": "cause",
+    "title_or_caption": "Faza dimljenja -- kad miris postaje potpis",
+    "source_text": "Dimljenje nije samo dodavanje arome, nego i tehnološki zahvat koji utječe na površinu, boju, miris i djelomičnu stabilizaciju proizvoda. Upravo zato kvaliteta dima često vrijedi više od same količine dima.\n\nPrejak ili pregust dim može opteretiti proizvod gorčinom, čađom i grubim mirisom, dok preslab ili prekratak ciklus ne daje dovoljno karaktera ni površinske zaštite. Drvo mora biti suho, vatra mirna, a zrak u sustavu dovoljno pokretan da dim ostane čist i protočan.\n\nAko se pojavi gorčina, uzrok je najčešće nečist dim: vlažno drvo, loše tinjanje, manjak zraka ili predugo izlaganje. Ako boja izostaje ili je neujednačena, treba provjeriti temperaturu, režim loženja, udaljenost izvora dima i trajanje ciklusa. Bukva je standardni izbor, a vrste poput graba, trešnje ili loze mogu dati drukčiji, ali i dalje plemenit aromatski profil.\n\nnapomena\\\\ \"Bolje pet dana laganog dima nego jedan dan gušenja.\"",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-faza-susenja-i-zrenja-igra-strpljenja-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Faza sušenja i zrenja -- igra strpljenja",
+    "object_type": "process_phase",
+    "title_or_caption": "Faza sušenja i zrenja -- igra strpljenja",
+    "source_text": "Sušenje i zrenje faze su u kojima se više ne može nadoknaditi ono što je ranije propušteno, nego se prethodno dobro vođen proces mora stabilno privesti kraju. U toj fazi zrak, vrijeme i prostor doista preuzimaju glavnu ulogu, ali to ne znači da je majstor pasivan -- naprotiv, sada mora pažljivije čitati sporije znakove procesa.\n\nAko je strujanje zraka prejako, vanjski sloj se prebrzo osuši, a vlaga ostaje zarobljena u jezgri; ako je relativna vlaga previsoka i ventilacija preslaba, povećava se rizik površinske plijesni, sluzavosti i neujednačenog zrenja. Stabilan režim najčešće se kreće oko 12--15 i približno 75--85 % relativne vlage, ali stvarni cilj nije samo pogoditi broj, nego održati miran i ponovljiv okoliš.\n\nUpravo zato u ovoj fazi veliku vrijednost imaju redovito vaganje, vizualna kontrola površine, provjera elastičnosti i bilježenje ponašanja komore kroz vrijeme. Strpljenje ovdje nije pasivnost, nego kontrolirani ritam bez naglih intervencija.\n\nNapomena: Ova kontrolna lista predstavlja minimalni operativni standard. U praksi je svaki proizvođač prilagođava vrsti proizvoda, kalibru, mikroklimi prostora i vlastitom režimu rada, ali osnovni princip ostaje isti: odstupanje se najprije mora prepoznati, a tek potom korigirati.\n\nnapomena\\\\ \"Sporije znači sigurnije -- brzo sušenje je najveći neprijatelj kvalitete.\"",
+    "labels": [
+      "tab:p14_kontrolna_lista_faze"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-greske-koje-se-ponavljaju-i-kako-ih-majstori-ispravljaju-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Greške koje se ponavljaju -- i kako ih majstori ispravljaju",
+    "object_type": "problem",
+    "title_or_caption": "Greške koje se ponavljaju -- i kako ih majstori ispravljaju",
+    "source_text": "Greške nisu sramota, nego najvrjedniji izvor učenja ako se prepoznaju na vrijeme i pravilno protumače. Kobasice se mogu napuhnuti ili ostati šuplje, kulen može ispucati, a panceta ili pršut mogu izgubiti boju, aromu ili ravnotežu teksture.\n\nNi jedan od tih problema ne nastaje slučajno. Svaki ima svoj uzrok, svoje rane znakove i barem jednu mjeru kojom se proces može ispraviti ili ubuduće spriječiti. Zato dobra praksa nije panična reakcija, nego promatranje, bilježenje i pravodobna korekcija.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-brza-trijaza-u-60-sekundi-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Brza trijaža u 60 sekundi",
+    "object_type": "problem",
+    "title_or_caption": "Brza trijaža u 60 sekundi",
+    "source_text": "Kad vidiš problem, najvažnije je ne \"popravljati na slijepo\". Ovaj kratki redoslijed spašava vrijeme i šaržu:",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-kobasice-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Kobasice",
+    "object_type": "problem",
+    "title_or_caption": "Kobasice",
+    "source_text": "Kod kobasica se problemi najčešće vide rano, ali se često pogrešno tumače. Šupljine u presjeku najčešće znače da je u smjesi ostao zrak ili da punjenje nije bilo dovoljno čvrsto i ujednačeno. Zato smjesu treba dobro povezati, puniti kompaktno, po potrebi probosti veće mjehuriće i ostaviti da se masa stabilizira prije ulaska u zahtjevnije faze procesa.\n\nKiselkast okus najčešće upućuje na previsoku temperaturu fermentacije, previše dostupnog šećera ili predugo zadržavanje u toploj fazi. Siva ili blijeda boja presjeka obično znači slabu fermentaciju, nepovoljan režim procesa ili zakašnjelu reakciju na odstupanje temperature i vlage. U praksi je važno promatrati te znakove zajedno, a ne pojedinačno: šupljine, kiselost i promjena boje često su povezani s istom osnovnom pogreškom u vođenju procesa.\n\nnapomena\\\\ \"Ako boja nije ujednačena, fermentacija nije pričala istim jezikom s mesom.\"",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-kulen-i-debele-kobasice-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Kulen i debele kobasice",
+    "object_type": "cause",
+    "title_or_caption": "Kulen i debele kobasice",
+    "source_text": "Kod debelih proizvoda sve ide sporije, a upravo u toj sporosti leži i njihova osjetljivost i njihova kvaliteta. Deblji kalibar traži više vremena za ravnotežu između površine i jezgre, pa svaka prebrza intervencija ostavlja vidljiv trag.\n\nAko se pojave pukotine na kori, uzrok je najčešće prejak zrak ili prerani pad relativne vlage. Ako je presjek taman, suh i bez sjaja, riječ je o oksidacijskom opterećenju ili o loše vođenom prijelazu između fermentacije, dimljenja i sušenja. U takvim slučajevima rješenje nije nagla korekcija, nego finiji režim: sporiji početak sušenja, stabilniji uvjeti, dulja equalizacija i više strpljenja između faza.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-panceta-slanina-prsut-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Panceta, slanina, pršut",
+    "object_type": "problem",
+    "title_or_caption": "Panceta, slanina, pršut",
+    "source_text": "Kod komadnih proizvoda problemi se najčešće razvijaju sporije, ali zato znaju ostati neprimijećeni sve dok ne postanu ozbiljni. Svjetlo polako žuti mast i mijenja aromu, toplina ubrzava oksidaciju, a preniska relativna vlaga i prejak zrak stvaraju tvrde rubove i neujednačeno zrenje.\n\nPršut, panceta i slanina traže miran, taman i stabilan okoliš. Mast treba ostati bijela, čista i mirisna, a rubovi ne smiju postati staklasti i pretvrdi. Ako rubovi počnu otvrdnjavati, uzrok je najčešće prejaka ventilacija ili preniska relativna vlaga u početku procesa, pa treba usporiti isušivanje i dati proizvodu vremena da se vlaga ravnomjernije rasporedi.\n\nnapomena\\\\ \"Pršut ne voli žurbu ni buku -- samo strpljenje i hladan zrak.\"",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-osjetila-instrumenti-koje-ne-kupujes-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Osjetila -- instrumenti koje ne kupuješ",
+    "object_type": "problem",
+    "title_or_caption": "Osjetila -- instrumenti koje ne kupuješ",
+    "source_text": "Senzorska kontrola nije improvizacija, nego vještina koja se gradi iskustvom i usporedbom. Boja, miris, okus i tekstura često upozore na problem prije nego što ga instrumenti potvrde, ali samo ako ih promatraš sustavno, a ne usputno.\n\nBoja treba odgovarati tipu proizvoda: kobasice su najčešće bordo do tamnocrvene, dok pršut traži ružičasto-crven ton i čistu, blistavu mast. Miris mora biti blag, čist i dimno-mesni, bez oštrih, trulih, buđavih ili agresivno kiselih tonova. Okus treba biti pun i skladan, bez gorčine, metalnog dojma ili prljavog dima. Tekstura mora ostati elastična i suha, ali ne lomljiva; spužvasta, kašasta ili neujednačena struktura često upućuje na problem fermentacije, miješanja ili sušenja.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-trening-nosa-i-oka-mala-metoda-za-pocetnike-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Trening nosa i oka -- mala metoda za početnike",
+    "object_type": "theory_block",
+    "title_or_caption": "Trening nosa i oka -- mala metoda za početnike",
+    "source_text": "Najbrže učiš kad imaš usporedbu. Napravi vlastitu \"biblioteku referenci\":\n\nNajveća zamka je navikavanje: čovjek se prilagodi grešci pa mu postane normalna. Zato bilješka vrijedi više nego sjećanje.\n\nnapomena\\\\ \"Kad prerežeš kobasicu, miris te mora preteći -- ako moraš približiti nos, zakasnio si.\"",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-instrumentalna-kontrola-tradicija-pod-povecalom-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Instrumentalna kontrola -- tradicija pod povećalom",
+    "object_type": "problem",
+    "title_or_caption": "Instrumentalna kontrola -- tradicija pod povećalom",
+    "source_text": "Tehnologija je saveznik, a ne neprijatelj tradicije. pH-metar, vaga, higrometar, termometar i $a_w$ mjerač ne zamjenjuju iskustvo, nego pomažu da se opažanja potvrde i usporede kroz vrijeme.\n\nInstrumentalna kontrola posebno je važna onda kada osjetila upozore da nešto odstupa, ali još nije jasno radi li se o normalnoj varijaciji ili početku problema. U tom smislu brojke nisu svrha same sebi, nego alat za donošenje boljih odluka. Orijentacijske vrijednosti koje najčešće upućuju na sigurniji i stabilniji proizvod su sljedeće:\n\nOve brojke nisu svrha same sebi -- one su potvrda da osjetila nisu prevarila majstora.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-protokol-mjerenja-bez-laznih-rezultata-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Protokol mjerenja bez \"lažnih rezultata\"",
+    "object_type": "problem",
+    "title_or_caption": "Protokol mjerenja bez \"lažnih rezultata\"",
+    "source_text": "Mjerenje je korisno samo ako je ponovljivo. Najčešće pogreške su banalne i skupe:",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-pakiranje-i-cuvanje-gotovog-proizvoda-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Pakiranje i čuvanje gotovog proizvoda",
+    "object_type": "process_phase",
+    "title_or_caption": "Pakiranje i čuvanje gotovog proizvoda",
+    "source_text": "Mnogi proizvođači izgube dio kvalitete tek na kraju procesa: proizvod je tehnološki dobro izveden, ali ga neodgovarajuće pakiranje ili loš režim čuvanja postupno pokvare. Završna faza zato nije administrativni dodatak, nego dio kontrole kvalitete.\n\nDobar izbor pakiranja štiti aromu i mast, stabilizira površinu i čuva izgled presjeka. Loš izbor pogoduje kondenzatu, nepotrebno \"guši\" proizvod ili ubrzava oksidaciju. Upravo zato način pakiranja mora odgovarati vrsti proizvoda, stupnju zrelosti i planiranom režimu čuvanja.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-sustavi-pakiranja-kada-sto-ima-smisla-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Sustavi pakiranja -- kada što ima smisla",
+    "object_type": "problem",
+    "title_or_caption": "Sustavi pakiranja -- kada što ima smisla",
+    "source_text": "Prije nego biraš ambalažu, odredi cilj: želiš li dulji rok, bolji izgled presjeka ili kontrolirano \"disanje\" proizvoda.\n\nKad je cilj jasan, izbor postaje jednostavniji, a greške rjeđe.\n\nNajčešća pogreška je birati ambalažu po navici ili cijeni. Bolje je razmišljati o vlazi, oksidaciji i temperaturi čuvanja. Ako znaš koji je rizik dominantan -- isušivanje, oksidacija ili kondenzat -- gotovo uvijek ćeš odabrati prikladnije rješenje.\n\nOva četiri primjera pokrivaju većinu stvarnih kućnih i malih proizvođačkih situacija. Bitno je da pakiranje podrži režim čuvanja, a ne da ga sabotira.",
+    "labels": [
+      "inf:p14_i02",
+      "fig:p14_s01"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-vizualna-kontrola-kvalitete-pakiranja-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Vizualna kontrola kvalitete pakiranja",
+    "object_type": "problem",
+    "title_or_caption": "Vizualna kontrola kvalitete pakiranja",
+    "source_text": "Prije skladištenja, pakiranje mora proći brzu kontrolu: var ili brtva moraju biti ravni i ujednačeni, bez nabora koji režu foliju i bez većih mjehurića zraka.\n\nAko vidiš kondenzat ili \"napuhivanje\", prvo provjeri je li var dobar; ako nije, ponovno pakiranje je jeftinije od gubitka šarže.\n\nKad jednom naučiš gledati detalje vara i ponašanje folije, većina problema postaje vidljiva prije nego što preraste u stvarni gubitak. Dobar paket ne odaje samo da je tehnički zatvoren, nego i da je proizvod u njemu miran, stabilan i pravilno zaštićen. Loš paket gotovo uvijek šalje upozorenje unaprijed: sitan nabor uz var, slabije prilijeganje folije, mjehurić zraka koji se ne bi smio pojaviti ili površina koja izgleda kao da je \"oznojena\".\n\nU praksi je često dovoljno 30 sekundi po paketu: pogled, lagani pritisak, provjera rubova i kratka procjena mirisa okoline. Ako folija negdje popušta, ako var nije ujednačen ili ako se pri pritisku osjeti sumnjiva promjena napetosti, paket treba odmah izdvojiti i ponovno provjeriti. Kondenzat je osobito važan signal jer često \"najavi\" problem prije nego što ga jasno vidiš -- prvo se pojavi kao sitna vlaga ili zamućenje, a tek zatim kao ozbiljniji kvar ambalaže ili nepovoljan režim čuvanja.\n\nVrijedi i jednostavno pravilo: što je kontrola pakiranja ranija, to je korekcija jeftinija i sigurnija. Paket koji izgleda sumnjivo ne treba \"pratiti nadajući se najboljem\", nego ga odmah pregledati, po potrebi ponovno zapakirati i provjeriti uvjete čuvanja koji su doveli do odstupanja. Upravo ta kratka, disciplinirana kontrola često čini razliku između uredne šarže i serije sitnih, skupih problema.",
+    "labels": [
+      "fig:p14_s02"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-rezim-cuvanja-temperatura-vlaga-i-svjetlo-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Režim čuvanja -- temperatura, vlaga i svjetlo",
+    "object_type": "theory_block",
+    "title_or_caption": "Režim čuvanja -- temperatura, vlaga i svjetlo",
+    "source_text": "Čuvanje nije samo \"hladno\", nego stabilno. Temperaturne oscilacije stvaraju kondenzat, a svjetlo žuti mast i mijenja aromu.\n\nAko se proizvod čuva pretoplo, čak i najbolje pakiranje može stvoriti rizik; ako se čuva prehladno uz česta otvaranja, kondenzat postaje stalni gost.\n\nČuvanje nije samo \"hladno\", nego stabilno. Temperaturne oscilacije stvaraju kondenzat, a svjetlo žuti mast i postupno mijenja aromu, boju i ukupni dojam proizvoda. Zato dobar režim čuvanja ne počinje od pitanja \"koliko je hladno\", nego od pitanja koliko su uvjeti mirni, ponovljivi i zaštićeni od naglih promjena.\n\nAko se proizvod čuva pretoplo, čak i najbolje pakiranje može postati slabija točka procesa: mast brže oksidira, aroma se zamara, a mikrobiološki rizik raste brže nego što se na prvi pogled vidi. Ako se čuva prehladno uz česta otvaranja, kondenzat postaje stalan gost, a vlaga na površini ambalaže ili proizvoda počinje raditi protiv onoga što je prethodno dobro odrađeno u zrenju i pakiranju.\n\nPosebno je važno razumjeti da proizvod ne reagira samo na prosječnu temperaturu, nego i na njezine skokove. Hladnjak koji \"luta\", komora koja se često otvara ili skladišni prostor izložen svjetlu i toplijim razdobljima tijekom dana stvaraju uvjete u kojima kvaliteta ne propada naglo, nego tiho i uporno. Upravo zato stabilnost čuvanja treba promatrati kao nastavak kontrole kvalitete, a ne kao završnu formalnost nakon pakiranja.\n\nU praksi to znači nekoliko jednostavnih pravila: držati proizvod u tamnijem i temperaturno mirnom prostoru, smanjiti nepotrebna otvaranja, izbjegavati mjesta blizu izvora topline i redovito provjeravati pojavljuje li se kondenzat na ambalaži ili promjena mirisa pri otvaranju. Dobar režim čuvanja ne traži mnogo opreme, ali traži disciplinu i naviku da se i gotov proizvod tretira kao nešto što još uvijek traži pažnju.",
+    "labels": [
+      "inf:p14_i01"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-kada-se-proizvod-spasava-a-kada-se-od-njega-oprasta-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Kada se proizvod spašava, a kada se od njega oprašta",
+    "object_type": "problem",
+    "title_or_caption": "Kada se proizvod spašava, a kada se od njega oprašta",
+    "source_text": "Nisu sve greške \"za popravak\". Postoje situacije u kojima je pametnije, i sigurnije, prekinuti:\n\nU toj točki majstor ne dokazuje tvrdoglavost, nego odgovornost. Važno je razlikovati problem koji se može stabilizirati od znaka da je sigurnost proizvoda ozbiljno narušena.",
+    "labels": [
+      "inf:p14_i03"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-najcesci-defekti-dijagnoza-i-uzrok-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Najčešći defekti -- dijagnoza i uzrok",
+    "object_type": "problem",
+    "title_or_caption": "Najčešći defekti -- dijagnoza i uzrok",
+    "source_text": "Napomena: Rano prepoznavanje defekta omogućuje pravovremenu intervenciju i spašavanje šarže. Svaki defekt je učitelj -- dokumentiraj, analiziraj i prilagodi proces.",
+    "labels": [
+      "tab:p14_defekti"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-higijena-i-red-nevidljivi-temelji-kvalitete-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Higijena i red -- nevidljivi temelji kvalitete",
+    "object_type": "theory_block",
+    "title_or_caption": "Higijena i red -- nevidljivi temelji kvalitete",
+    "source_text": "Higijena nije kazna, nego poštovanje prema radu i onome tko će proizvod jesti. Oprema, prostor i režim rada moraju biti toliko uredni da ne dodaju procesu nove rizike koje poslije pokušavaš rješavati tehnologijom.\n\nAlate treba prati odmah nakon upotrebe, zidove komore povremeno prebrisati blagom slanom otopinom ili drugim prikladnim sredstvom, a zrak pustiti da slobodno kruži. Nema potrebe za agresivnim kemikalijama ako je osnovna disciplina rada dobra -- čista voda, odgovarajući deterdžent, alkohol ili para često su sasvim dovoljni.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-ssop-u-5-minuta-prije-i-poslije-rada-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "SSOP u 5 minuta (prije i poslije rada)",
+    "object_type": "theory_block",
+    "title_or_caption": "SSOP u 5 minuta (prije i poslije rada)",
+    "source_text": "rada:\n\nrada:\n\nnapomena\\\\ \"Čistoća ne ubija mikrofloru -- samo joj daje prostor da diše bez neprijatelja.\"",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-dnevnik-sarze-knjiga-iz-koje-se-uci-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Dnevnik šarže -- knjiga iz koje se uči",
+    "object_type": "cause",
+    "title_or_caption": "Dnevnik šarže -- knjiga iz koje se uči",
+    "source_text": "Dnevnik šarže jedan je od najjednostavnijih, a najvrjednijih alata kontrole kvalitete. Može biti obična bilježnica, tablica ili digitalni zapis, ali njegova je svrha uvijek ista: povezati uvjete procesa s ishodom proizvoda.\n\nU njega se upisuju datumi, količine, temperatura, relativna vlaga, trajanje pojedinih faza, gubitak mase i subjektivna opažanja. To nije birokracija, nego operativna memorija procesa -- jedini pouzdan način da se kasnije razumije zašto je nešto uspjelo ili zašto je pošlo po krivu.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-sto-zapisati-da-sutra-vrijedi-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Što zapisati da sutra vrijedi",
+    "object_type": "theory_block",
+    "title_or_caption": "Što zapisati da sutra vrijedi",
+    "source_text": "Uz osnovne podatke, ovih nekoliko stavki najviše se isplate:\n\nPrimjer:\n\nŠarža 12/2025\n\nTo je iskustvo zapisano brojevima, ali pročitano srcem.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-kad-greska-pocinje-vec-u-svinji-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Kad greška počinje već u svinji",
+    "object_type": "problem",
+    "title_or_caption": "Kad greška počinje već u svinji",
+    "source_text": "Ni najbolja tehnologija ne može u potpunosti popraviti lošu sirovinu. Kvaliteta mesa, stupanj zrelosti, svježina, uhranjenost životinje i način rukovanja nakon klanja snažno određuju koliko će proces kasnije biti stabilan.\n\nMeso za suhomesnate proizvode mora biti svježe, pravilno ohlađeno i tehnološki prikladno za dugotrajniju preradu. Premlada ili previše vodena sirovina često daje slabiju strukturu, više gubitaka i manje uvjerljiv presjek, dok loša hranidba, stres ili neodgovarajuće rukovanje mogu ostaviti trag u mirisu, teksturi i ponašanju tijekom zrenja. Ukratko, kvaliteta procesa počinje prije komore.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-brza-procjena-sirovine-u-kucnim-uvjetima-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Brza procjena sirovine u kućnim uvjetima",
+    "object_type": "correction",
+    "title_or_caption": "Brza procjena sirovine u kućnim uvjetima",
+    "source_text": "Ako nemaš laboratorij, još uvijek imaš dovoljno signala:\n\nAko sirovina nije idealna, rješenje je jednostavno: sporiji start, stabilniji uvjeti, stroža higijena i bez jurnjave u prvim danima.\n\nnapomena\\\\ \"Tko ne poštuje svinju, ne može poštovati ni pršut.\"",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-kvaliteta-kao-zrelost-kad-znas-da-je-gotovo-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Kvaliteta kao zrelost -- kad znaš da je gotovo",
+    "object_type": "theory_block",
+    "title_or_caption": "Kvaliteta kao zrelost -- kad znaš da je gotovo",
+    "source_text": "Pravi suhomesnati proizvod prepoznaje se po mirisu, presjeku i osjećaju pod prstima. Boja mora biti prirodna, mast čista i topiva, a okus zaokružen i dug. Kad prerežeš kobasicu i vidiš skladnu teksturu, znaš da su sol, vrijeme i zrak odradili svoje.\n\nGotovost nije samo broj dana ili postotak gubitka mase. Ona je rezultat usklađenosti svih znakova: presjeka, arome, teksture, stabilnosti i dojma da je proizvod završio proces, a ne da je iz njega prerano izvađen.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.8,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-kriteriji-gotovosti-po-kategorijama-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Kriteriji gotovosti po kategorijama",
+    "object_type": "problem",
+    "title_or_caption": "Kriteriji gotovosti po kategorijama",
+    "source_text": "kobasice:\n\nkobasice i kulen:\n\ni pršut:\n\nNapomena: Svaka greška je prilika za učenje. Dokumentiraj sva odstupanja u dnevnik šarže i analiziraj uzorke. Najbolji majstori nisu oni koji nikada nisu pogriješili, nego oni koji su iz svake pogreške izvukli jasan zaključak.",
+    "labels": [
+      "tab:p14_matrica_greske"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-dva-kratka-scenarija-iz-prakse-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Dva kratka scenarija iz prakse",
+    "object_type": "problem",
+    "title_or_caption": "Dva kratka scenarija iz prakse",
+    "source_text": "1: Tvrda kora, mekana jezgra\\\\ Prvih 5 dana relativna vlaga pala je prenisko, a zrak je radio prebrzo i preizravno. Površina je zato izgubila vlagu brže nego što je jezgra mogla ravnomjerno otpuštati vodu prema van, pa se vanjski sloj prerano zatvorio. Rezultat je poznat: kora je postala tvrda i tamnija, a unutrašnjost je ostala mekša, vlažnija i tehnološki zaostala za površinom. Takav nesklad nije samo estetski problem, nego i znak da zrenje više ne teče ravnomjerno.\n\nPrva mjera je povisiti RH i smanjiti protok zraka kako bi se proces smirio i kako površina više ne bi \"bježala\" ispred jezgre. Druga mjera je omogućiti proizvodu svojevrsni odmor u stabilnijim uvjetima, bez agresivnog isušivanja, tako da se vlaga može postupno preraspodijeliti iz središta prema vanjskom sloju. U težim slučajevima korisno je nekoliko dana zadržati komad u mirnijem režimu, uz pažljivo praćenje elastičnosti, mase i ponašanja presjeka pri kontrolnom rezu.\n\nPouka je jednostavna: početak sušenja najopasniji je dio procesa jer tada i mala pogreška u RH ili strujanju zraka može stvoriti problem koji se kasnije teško ispravlja. Sušenje mora krenuti mirno i kontrolirano, jer proizvodu najviše šteti kada površina požuri, a jezgra ostane iza nje.\n\n2: Kiselkast okus u jezgri\\\\ Fermentacija je krenula pretoplo ili je smjesa sadržavala previše dostupnog šećera, pa je zakiseljavanje bilo brže i intenzivnije nego što je trebalo biti. Površina se pritom prebrzo prosušila i djelomično zatvorila, dok je jezgra nastavila fermentirati u drugačijem ritmu. Rezultat je kiselkast okus koji se najjače osjeti u sredini proizvoda, često uz mekšu teksturu i manje uravnotežen aromatski profil. Takva jezgra ne djeluje “zrelo”, nego odvojeno od ostatka presjeka.\n\nPrva mjera je odmah stabilizirati temperaturu i relativnu vlagu, bez naglih korekcija koje bi dodatno uznemirile proces. Druga mjera je u sljedećoj šarži krenuti blažim režimom fermentacije: niža početna temperatura, umjereniji dodatak šećera i pažljivije praćenje pada pH-vrijednosti. Ako se isti problem ponavlja, treba preispitati cijeli početni režim -- količinu šećera, početnu temperaturu smjese, aktivnost starter kulture i tempo prijelaza iz fermentacije u sušenje.\n\nPouka je da nije svaka kiselost znak dobre fermentacije. Poželjna fermentacija daje svježinu, stabilnost i dubinu okusa, ali kad kiselost postane dominantna i odvojena od ostatka arome, to je znak da proces više nije bio pod kontrolom nego je počeo voditi proizvod umjesto majstora.",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-zakljucak-poglavlja-section",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": "Zaključak poglavlja",
+    "object_type": "problem",
+    "title_or_caption": "Zaključak poglavlja",
+    "source_text": "Kvaliteta se ne gradi samo instrumentima, nego i strpljenjem, čistoćom, bilježenjem i pažnjom prema svakom znaku koji proizvod šalje tijekom procesa. Dobra kontrola nije stroga inspekcija nakon završetka rada, nego stalno razumijevanje onoga što se u proizvodu događa dok još ima vremena za korekciju.\n\nSvaka pogreška podsjetnik je da je proizvodnja suhomesnatih proizvoda trajno učenje. I najiskusniji majstori ponekad pogriješe, ali razlika je u tome što iz odstupanja izvuku jasan uzrok, isprave proces i sljedeću šaržu vode pametnije nego prethodnu.\n\nnapomena\\\\ \"Majstor nije onaj tko ne griješi -- nego onaj tko zna zašto se pogreška dogodila.\"",
+    "labels": [],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.86,
+    "notes": [
+      "Section heading and contiguous prose kept together as the minimum safe extraction unit.",
+      "No custom environment split required in this section chunk."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-table-1",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": null,
+    "object_type": "table",
+    "title_or_caption": "Kontrolna lista po fazama proizvodnje",
+    "source_text": "[!htbp] Kontrolna lista po fazama proizvodnje tab:p14_kontrolna_lista_faze tabularx@% >X >X >X >X >X @ Faza & Što provjeriti & Kako & Cilj & Akcija ako nije OK \\\\ Priprema mesa & Svježina, temperatura, boja, miris & Vizualno, dodir, termometar & Meso 2--5 , bez neugodnog mirisa, crvenkasto & Odbaciti meso, provjeriti dobavljača \\\\ Soljenje & Ravnomjerna distribucija soli, temperatura & Vaganje, vizualno, termometar & Sol 2--3 %, temperatura 2--5 & Ponoviti soljenje, dodatno hladiti \\\\ Punjenje & Gustoća punjenja, mjehurići zraka & Dodir, vizualno, probadanje & Čvrsto punjenje, bez šupljina & Probušiti mjehure, ponovno napuniti \\\\ Fermentacija & pH, temperatura, RH, boja, miris & pH-metar, termometar, higrometar & pH $$ 5,3; 20--24 ; RH 90--95 % & Podesiti T/RH, produžiti fermentaciju \\\\ Dimljenje & Boja dima, temperatura, trajanje & Vizualno, termometar, sat & Plavi dim, 18--22 , 4--8 h & Provjeriti drvo, ventilaciju \\\\ Sušenje/zrenje & Temperatura, RH, gubitak mase, tekstura & Termometar, higrometar, vaga, dodir & 12--16 ; RH 75--85 %; 30--40 % gubitak & Podesiti T/RH, provjeriti ventilaciju \\\\ tabularx",
+    "labels": [
+      "tab:p14_kontrolna_lista_faze"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected from table environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-infographic-2",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Vrste pakiranja i osnovna logika odabira prema proizvodu i namjeni.",
+    "source_text": "[!t] type=infografika assets/infografike/pog14/p14_i02 Vrste pakiranja i osnovna logika odabira prema proizvodu i namjeni. inf:p14_i02",
+    "labels": [
+      "inf:p14_i02"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-figure_reference-3",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Primjeri pakiranja u praksi (vakuum, MAP, barijerna ambalaža i jednostavna ambalaža).",
+    "source_text": "[!b] assets/slike/pog14/p14_s01 Primjeri pakiranja u praksi (vakuum, MAP, barijerna ambalaža i jednostavna ambalaža). fig:p14_s01",
+    "labels": [
+      "fig:p14_s01"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-figure_reference-4",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": null,
+    "object_type": "figure_reference",
+    "title_or_caption": "Vizualna kontrola pakiranja u domaćim uvjetima: brtva ili var, kondenzat, mjehurići i nabori folije.",
+    "source_text": "[!htbp] assets/slike/pog14/p14_s02 Vizualna kontrola pakiranja u domaćim uvjetima: brtva ili var, kondenzat, mjehurići i nabori folije. fig:p14_s02",
+    "labels": [
+      "fig:p14_s02"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.9,
+    "notes": [
+      "Detected from figure environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-infographic-5",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Preporučeni uvjeti čuvanja i tipični rizici kad uvjeti pobjegnu.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog14/p14_i01 Preporučeni uvjeti čuvanja i tipični rizici kad uvjeti pobjegnu. inf:p14_i01",
+    "labels": [
+      "inf:p14_i01"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-infographic-6",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": null,
+    "object_type": "infographic",
+    "title_or_caption": "Kada se proizvod spašava, a kada se od njega odustaje: ključni znakovi za prekid i sigurnu odluku.",
+    "source_text": "[!htbp] type=infografika assets/infografike/pog14/p14_i03 Kada se proizvod spašava, a kada se od njega odustaje: ključni znakovi za prekid i sigurnu odluku. inf:p14_i03",
+    "labels": [
+      "inf:p14_i03"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected through figure environment with captionsetup type=infografika.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-table-7",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": null,
+    "object_type": "table",
+    "title_or_caption": "Najčešći defekti suhomesnatih proizvoda (znakovi i dijagnoza)",
+    "source_text": "[!htbp] Najčešći defekti suhomesnatih proizvoda (znakovi i dijagnoza) tab:p14_defekti tabularx@% >X >X >X >X @ Defekt & Vizualni znakovi & Miris / tekstura & Dijagnoza / uzrok \\\\ Siva boja presjeka & Blijedo sivo-smeđa nijansa umjesto crvenkaste & Slab miris, suša tekstura & Slaba fermentacija; nepovoljan režim procesa \\\\ Kisela jezgra & Svjetlija sredina, tamnije na rubovima & Kiselkast miris i okus, mekana sredina & Prebrza fermentacija + prebrzo sušenje površine \\\\ Tvrda kora (case hardening) & Tamna, tvrda vanjska kora; mekan centar & Kora tvrda, jezgra mekana i vlažna & Preniska RH ili prejak protok zraka na početku sušenja \\\\ Neujednačen presjek & Šupljine, mjehurići, razmazana tekstura & Labava, nekompaktna struktura & Loše punjenje; zrak u smjesi; pregrub mljev \\\\ Užeglost (oksidacija masti) & Žuta mast umjesto bijele & Gorak, užegli miris i okus & Svjetlo, toplina, kisik -- oksidativna degradacija \\\\ Zelena ili crna plijesan & Zelenkaste ili crne mrlje na površini & Zemljast ili buđav miris & Previše vlage ili loša cirkulacija zraka u komori \\\\ Gorka nota od dima & Previše tamna površina, sjaj od čađe & Gorak okus, \"prljav\" miris & Mokro drvo, loša ventilacija, predugo dimljenje \\\\ Bijele točke (kristali soli) & Bijeli kristali na površini ili u presjeku & Normalna tekstura, slaniji dojam & Prebrzo sušenje; sol kristalizira prije difuzije \\\\ tabularx",
+    "labels": [
+      "tab:p14_defekti"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected from table environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  },
+  {
+    "knowledge_id": "chap14-kontrola-kvalitete-i-sigurnost-table-8",
+    "source_file": "chapters/chap14_kontrola_kvalitete_i_sigurnost.tex",
+    "chapter": "Kontrola kvalitete, greške i rješenja",
+    "section": null,
+    "object_type": "table",
+    "title_or_caption": "Matrica: greška $$ uzrok $$ dijagnoza $$ rješenje $$ prevencija",
+    "source_text": "[p!] 4pt 1.08 Matrica: greška $$ uzrok $$ dijagnoza $$ rješenje $$ prevencija tab:p14_matrica_greske tabularx@% >X >X >X >X >X @ Greška & Uzrok & Dijagnoza & Rješenje & Prevencija \\\\ Tvrda kora, mekana jezgra (case hardening) & Preniska RH ili prejak protok zraka na početku sušenja & Vanjska kora tvrda i tamna, centar mekan i vlažan & Povećati RH za 5--8 %; smanjiti protok zraka; \"odmor\" u vlažnijoj komori & Početi s RH 85--90 % prvih 3--5 dana; postupno snižavati \\\\ Kisela jezgra & Prebrzo zakiseljavanje + brzo sušenje površine & Kiselkast miris, $pH < 4,8$ u jezgri, mekana sredina & Blaži start sušenja; sporiji šećer; niža T fermentacije & Kontrolirani dodatak šećera (0,3--0,5 %); fermentacija na 20--22 \\\\ Užeglost masti (oksidacija) & Toplina, svjetlo, kisik; dugo zrenje & Žuta mast, gorak miris i okus & Hladnije zrenje (10--14 ); zaštita od svjetla & Tamna komora; stabilna temperatura; zaštita od svjetla \\\\ Zelena/crna plijesan & Pretoplo ili prevlažno; spore u komori & Zelenkaste mrlje, buđav miris & Očistiti komoru; sniziti RH; poboljšati cirkulaciju; obrisati octom & RH max 85 %; dobra ventilacija; čistoća komore \\\\ Bijele točke (kristali soli) & Prebrzo sušenje; sol kristalizira prije difuzije & Bijeli kristali na površini ili u presjeku & Sporije sušenje; dulja equalizacija; početna RH oko 85 % & Equalizacija 24--48 h nakon soljenja; ne žuriti s prvim sušenjem \\\\ Gorka nota od dima & Mokro drvo; čađa; loša ventilacija & Gorak okus, crna površina, miris čađe & Koristiti suho drvo; bolja ventilacija; kraći, češći ciklusi dima & Tvrdo drvo sušeno min.\\ 1 godinu; plavi dim; 18--22 ; max 8 h \\\\ Neujednačen presjek & Šupljine, loše punjenje, pregrub mljev & Šupljine, razmazana struktura & Čvršće punjenje; probušiti mjehure; finiji mljev & Mljev kroz 4--6 mm; jako punjenje; bez zraka u smjesi \\\\ Presuha, lomljiva tekstura & Predugo sušenje ili preniska RH & Proizvod se lomi, gubitak mase $> 45 %$ & Skratiti sušenje; povisiti RH u zadnjoj fazi; pravilno pakirati & Pratiti gubitak mase; cilj 30--40 %; RH finalne faze 75--80 % \\\\ tabularx",
+    "labels": [
+      "tab:p14_matrica_greske"
+    ],
+    "refs": [],
+    "related_visual_ids": [],
+    "related_table_ids": [],
+    "extraction_confidence": 0.97,
+    "notes": [
+      "Detected from table environment.",
+      "No explicit section ref link found; keep chapter-level context only."
+    ]
+  }
+]
