@@ -1,0 +1,114 @@
+[
+  {
+    "query": "Zašto se proizvod prebrzo suši?",
+    "expected_mode": "problem",
+    "category": "problem",
+    "expected_outcome": "strong evidence",
+    "observed_mode": "problem",
+    "observed_insufficient_evidence": false,
+    "observed_execution_path": "exact_answer_sample_match",
+    "observed_evidence_counts": {
+      "problem_evidence": 2,
+      "theory_evidence": 2,
+      "visual_support": 2
+    }
+  },
+  {
+    "query": "Što uzrokuje neugodan miris?",
+    "expected_mode": "problem",
+    "category": "problem",
+    "expected_outcome": "moderate evidence",
+    "observed_mode": "problem",
+    "observed_insufficient_evidence": false,
+    "observed_execution_path": "exact_answer_sample_match",
+    "observed_evidence_counts": {
+      "problem_evidence": 2,
+      "theory_evidence": 2,
+      "visual_support": 1
+    }
+  },
+  {
+    "query": "Kako ispraviti ljepljivu površinu?",
+    "expected_mode": "problem",
+    "category": "problem",
+    "expected_outcome": "fallback problem evidence",
+    "observed_mode": "problem",
+    "observed_insufficient_evidence": false,
+    "observed_execution_path": "sandbox_retrieval_and_gating",
+    "observed_evidence_counts": {
+      "problem_evidence": 3,
+      "theory_evidence": 3,
+      "visual_support": 2
+    }
+  },
+  {
+    "query": "Objasni ulogu vlage u sušenju.",
+    "expected_mode": "theory",
+    "category": "theory",
+    "expected_outcome": "strong evidence",
+    "observed_mode": "theory",
+    "observed_insufficient_evidence": false,
+    "observed_execution_path": "exact_answer_sample_match",
+    "observed_evidence_counts": {
+      "problem_evidence": 0,
+      "theory_evidence": 4,
+      "visual_support": 2
+    }
+  },
+  {
+    "query": "Koja je razlika između sušenja i dimljenja?",
+    "expected_mode": "theory",
+    "category": "theory",
+    "expected_outcome": "strong evidence",
+    "observed_mode": "theory",
+    "observed_insufficient_evidence": false,
+    "observed_execution_path": "exact_answer_sample_match",
+    "observed_evidence_counts": {
+      "problem_evidence": 0,
+      "theory_evidence": 4,
+      "visual_support": 2
+    }
+  },
+  {
+    "query": "Što je relativna vlažnost zraka?",
+    "expected_mode": "theory",
+    "category": "theory",
+    "expected_outcome": "fallback theory evidence",
+    "observed_mode": "theory",
+    "observed_insufficient_evidence": false,
+    "observed_execution_path": "sandbox_retrieval_and_gating",
+    "observed_evidence_counts": {
+      "problem_evidence": 0,
+      "theory_evidence": 3,
+      "visual_support": 2
+    }
+  },
+  {
+    "query": "Kako klima utječe na miris proizvoda?",
+    "expected_mode": "theory",
+    "category": "boundary",
+    "expected_outcome": "borderline routing",
+    "observed_mode": "problem",
+    "observed_insufficient_evidence": false,
+    "observed_execution_path": "sandbox_retrieval_and_gating",
+    "observed_evidence_counts": {
+      "problem_evidence": 3,
+      "theory_evidence": 3,
+      "visual_support": 2
+    }
+  },
+  {
+    "query": "Koja je uloga nitrita u receptu za falukorv?",
+    "expected_mode": "theory",
+    "category": "insufficient",
+    "expected_outcome": "insufficient evidence",
+    "observed_mode": "theory",
+    "observed_insufficient_evidence": true,
+    "observed_execution_path": "sandbox_retrieval_and_gating",
+    "observed_evidence_counts": {
+      "problem_evidence": 0,
+      "theory_evidence": 3,
+      "visual_support": 2
+    }
+  }
+]

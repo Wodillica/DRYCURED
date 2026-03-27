@@ -1,0 +1,37 @@
+{
+  "schema_name": "drycured_local_ai_qa_sandbox_v1",
+  "version": "v1",
+  "input": {
+    "required_fields": [
+      "query"
+    ],
+    "optional_fields": [
+      "expected_mode",
+      "notes"
+    ]
+  },
+  "output": {
+    "required_fields": [
+      "query",
+      "detected_mode",
+      "evidence_pack",
+      "answer_output",
+      "insufficient_evidence",
+      "confidence_basis",
+      "related_sources"
+    ],
+    "evidence_pack_channels": [
+      "problem_evidence",
+      "theory_evidence",
+      "visual_support"
+    ],
+    "answer_output_fields": [
+      "short_answer",
+      "detailed_explanation",
+      "likely_causes",
+      "recommended_corrections",
+      "relevant_warnings",
+      "process_context"
+    ]
+  }
+}
