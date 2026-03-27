@@ -1,0 +1,62 @@
+{
+  "schema_name": "drycured_knowledge_index_v1",
+  "version": "v1",
+  "source_discipline": {
+    "root_entrypoint": "D:\\drycured.com_prijevod\\01_IZVOR\\main.tex",
+    "traversal_rule": "Only files present in the active input graph may enter the index.",
+    "extraction_dependency": "Derived from DRYCURED_LATEX_KNOWLEDGE_OBJECTS_SAMPLE_v1.json and never from raw filesystem crawl."
+  },
+  "object_model": {
+    "required_fields": [
+      "knowledge_id",
+      "object_type",
+      "chapter_title",
+      "searchable_text",
+      "concise_summary",
+      "source_file",
+      "retrieval_priority",
+      "confidence_basis"
+    ],
+    "optional_fields": [
+      "section_title",
+      "title_or_caption",
+      "problem_tags",
+      "theory_tags",
+      "process_tags",
+      "warning_tags",
+      "query_modes",
+      "related_visual_ids",
+      "related_table_ids",
+      "source_labels",
+      "source_refs",
+      "extraction_confidence",
+      "retrieval_notes"
+    ],
+    "supported_object_types": [
+      "theory_block",
+      "definition",
+      "warning",
+      "problem",
+      "cause",
+      "correction",
+      "process_phase",
+      "table",
+      "infographic",
+      "figure_reference"
+    ]
+  },
+  "retrieval_signals_v1": [
+    "exact problem tag match",
+    "section relevance",
+    "warning object boost",
+    "visual/table proximity",
+    "chapter priority",
+    "lexical overlap",
+    "semantic similarity placeholder"
+  ],
+  "query_modes_v1": [
+    "problem",
+    "theory",
+    "process"
+  ]
+}
