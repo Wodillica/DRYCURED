@@ -1,0 +1,19 @@
+﻿# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated audio segments
+output/segments/
+
+# Temporary logs/cache
+logs/
+*.tmp
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini

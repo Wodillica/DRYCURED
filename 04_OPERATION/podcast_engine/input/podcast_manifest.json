@@ -1,0 +1,92 @@
+[
+  {
+    "episode_id": "EP01",
+    "title": "Osnove dobrog suhomesnatog proizvoda",
+    "slug": "osnove-dobrog-suhomesnatog-proizvoda",
+    "description": "Prva epizoda objašnjava zašto dobar suhomesnati proizvod počinje dobrim mesom, solju, redoslijedom procesa i jasnom standardizacijom receptura.",
+    "scenario_file": "scenarios/EP01_osnove-dobrog-suhomesnatog-proizvoda.md",
+    "articles": [
+      "EZ-001",
+      "EZ-002",
+      "EZ-004",
+      "EZ-019"
+    ],
+    "speakers": {
+      "VODITELJ": "voice_host",
+      "MAJSTOR": "voice_master"
+    },
+    "output_file": "output/final/EP01_osnove-dobrog-suhomesnatog-proizvoda.mp3"
+  },
+  {
+    "episode_id": "EP02",
+    "title": "Soljenje, crijeva i češnjak",
+    "slug": "soljenje-crijeva-i-cesnjak",
+    "description": "Epizoda objašnjava razliku između suhog, mokrog i kombiniranog soljenja, pripremu crijeva te upotrebu procijeđene tekućine od češnjaka.",
+    "scenario_file": "scenarios/EP02_soljenje-crijeva-i-cesnjak.md",
+    "articles": [
+      "EZ-003",
+      "EZ-005",
+      "EZ-006",
+      "EZ-007"
+    ],
+    "speakers": {
+      "VODITELJ": "voice_host",
+      "MAJSTOR": "voice_master"
+    },
+    "output_file": "output/final/EP02_soljenje-crijeva-i-cesnjak.mp3"
+  },
+  {
+    "episode_id": "EP03",
+    "title": "Fermentacija, dim i sušenje",
+    "slug": "fermentacija-dim-i-susenje",
+    "description": "Treća epizoda povezuje fermentaciju kobasica, hladno/toplo/vruće dimljenje, izbor drva i pravilno usporeno sušenje.",
+    "scenario_file": "scenarios/EP03_fermentacija-dim-i-susenje.md",
+    "articles": [
+      "EZ-008",
+      "EZ-010",
+      "EZ-011",
+      "EZ-012"
+    ],
+    "speakers": {
+      "VODITELJ": "voice_host",
+      "MAJSTOR": "voice_master"
+    },
+    "output_file": "output/final/EP03_fermentacija-dim-i-susenje.mp3"
+  },
+  {
+    "episode_id": "EP04",
+    "title": "Najčešće greške i kako ih izbjeći",
+    "slug": "najcesce-greske-i-kako-ih-izbjeci",
+    "description": "Četvrta epizoda obrađuje case-hardening, plemenitu i nepoželjnu plijesan, zračne džepove i najčešće greške kod kobasica.",
+    "scenario_file": "scenarios/EP04_najcesce-greske-i-kako-ih-izbjeci.md",
+    "articles": [
+      "EZ-009",
+      "EZ-014",
+      "EZ-016",
+      "EZ-017"
+    ],
+    "speakers": {
+      "VODITELJ": "voice_host",
+      "MAJSTOR": "voice_master"
+    },
+    "output_file": "output/final/EP04_najcesce-greske-i-kako-ih-izbjeci.mp3"
+  },
+  {
+    "episode_id": "EP05",
+    "title": "Kontrola, sigurnost i dnevnik šarže",
+    "slug": "kontrola-sigurnost-i-dnevnik-sarze",
+    "description": "Završna epizoda prvog paketa obrađuje praćenje gubitka mase, mikroklimu, dnevnik šarže i sigurnost hrane.",
+    "scenario_file": "scenarios/EP05_kontrola-sigurnost-i-dnevnik-sarze.md",
+    "articles": [
+      "EZ-013",
+      "EZ-015",
+      "EZ-018",
+      "EZ-020"
+    ],
+    "speakers": {
+      "VODITELJ": "voice_host",
+      "MAJSTOR": "voice_master"
+    },
+    "output_file": "output/final/EP05_kontrola-sigurnost-i-dnevnik-sarze.mp3"
+  }
+]

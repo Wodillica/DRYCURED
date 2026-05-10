@@ -1,0 +1,162 @@
+[
+  {
+    "id": "EZ-001",
+    "title": "Kako prepoznati dobro meso za suhomesnate proizvode",
+    "slug": "kako-prepoznati-dobro-meso-za-suhomesnate-proizvode",
+    "category": "Osnove mesa",
+    "main_keyword": "dobro meso za suhomesnate proizvode",
+    "card_excerpt": "Dobro suhomesnato počinje prije soli, dima i začina: počinje izborom mesa. Saznaj koje znakove treba gledati prije nego što kreneš u preradu."
+  },
+  {
+    "id": "EZ-002",
+    "title": "Sol: najstariji čuvar mesa",
+    "slug": "sol-najstariji-cuvar-mesa",
+    "category": "Soljenje i salamurenje",
+    "main_keyword": "soljenje mesa",
+    "card_excerpt": "Sol je najstariji i najvažniji saveznik mesa. Bez nje nema stabilnog sušenja, uredne teksture ni sigurnog zrenja."
+  },
+  {
+    "id": "EZ-003",
+    "title": "Suho, mokro i kombinirano soljenje: kada koristiti koju metodu",
+    "slug": "suho-mokro-i-kombinirano-soljenje-kada-koristiti-koju-metodu",
+    "category": "Soljenje i salamurenje",
+    "main_keyword": "metode soljenja mesa",
+    "card_excerpt": "Nije svako soljenje isto. Suho, mokro i kombinirano soljenje imaju svoje mjesto, ali i svoje zamke."
+  },
+  {
+    "id": "EZ-004",
+    "title": "Redoslijed izrade suhomesnatih proizvoda bez preskakanja faza",
+    "slug": "redoslijed-izrade-suhomesnatih-proizvoda-bez-preskakanja-faza",
+    "category": "Kalkulator i praksa",
+    "main_keyword": "redoslijed izrade suhomesnatih proizvoda",
+    "card_excerpt": "U suhomesnatoj proizvodnji faze nisu ukras. Svaka postoji zato što priprema teren za sljedeću."
+  },
+  {
+    "id": "EZ-005",
+    "title": "Kako sol putuje kroz meso",
+    "slug": "kako-sol-putuje-kroz-meso",
+    "category": "Soljenje i salamurenje",
+    "main_keyword": "difuzija soli u mesu",
+    "card_excerpt": "Kad se meso posoli, posao nije gotov. Tada tek počinje tihi put soli prema sredini komada."
+  },
+  {
+    "id": "EZ-006",
+    "title": "Priprema i namakanje crijeva prije punjenja",
+    "slug": "priprema-i-namakanje-crijeva-prije-punjenja",
+    "category": "Oprema i alati",
+    "main_keyword": "namakanje crijeva za kobasice",
+    "card_excerpt": "Crijevo nije samo omotač. Ono je prva koža kobasice i mora biti spremno za posao."
+  },
+  {
+    "id": "EZ-007",
+    "title": "Tekućina od češnjaka: čista aroma bez zelenih mrlja u presjeku",
+    "slug": "tekucina-od-cesnjaka-cista-aroma-bez-zelenih-mrlja-u-presjeku",
+    "category": "Začini i dodaci",
+    "main_keyword": "tekućina od češnjaka za kobasice",
+    "card_excerpt": "Češnjak je duša mnogih kobasica, ali u nadjevu treba znati kako ga pustiti da govori — bez galame i zelenih tragova."
+  },
+  {
+    "id": "EZ-008",
+    "title": "Fermentacija kobasica u kućnim uvjetima",
+    "slug": "fermentacija-kobasica-u-kucnim-uvjetima",
+    "category": "Fermentacija",
+    "main_keyword": "fermentacija kobasica kod kuće",
+    "card_excerpt": "Fermentacija nije kvarenje pod sretnom zvijezdom. To je usmjerena promjena koju treba voditi."
+  },
+  {
+    "id": "EZ-009",
+    "title": "Case-hardening: tvrda kora i mekana sredina",
+    "slug": "case-hardening-tvrda-kora-i-mekana-sredina",
+    "category": "Greške i rješenja",
+    "main_keyword": "case-hardening kobasica",
+    "card_excerpt": "Tvrda kora na kobasici ne znači da je proizvod dobro suh. Često znači upravo suprotno."
+  },
+  {
+    "id": "EZ-010",
+    "title": "Hladno, toplo i vruće dimljenje: što nije isto",
+    "slug": "hladno-toplo-i-vruce-dimljenje-sto-nije-isto",
+    "category": "Dimljenje",
+    "main_keyword": "vrste dimljenja",
+    "card_excerpt": "Dimljenje nije samo “staviti na dim”. Temperatura dima mijenja sve: sigurnost, teksturu, okus i trajnost."
+  },
+  {
+    "id": "EZ-011",
+    "title": "Koje drvo koristiti za dimljenje suhomesnatih proizvoda",
+    "slug": "koje-drvo-koristiti-za-dimljenje-suhomesnatih-proizvoda",
+    "category": "Dimljenje",
+    "main_keyword": "drvo za dimljenje mesa",
+    "card_excerpt": "Drvo je začin koji gori. Ako je pogrešno, cijela šarža to zapamti."
+  },
+  {
+    "id": "EZ-012",
+    "title": "Zašto se kobasica ne smije sušiti prebrzo",
+    "slug": "zasto-se-kobasica-ne-smije-susiti-prebrzo",
+    "category": "Sušenje i zrenje",
+    "main_keyword": "sušenje kobasica",
+    "card_excerpt": "Kod kobasice brzina nije dokaz uspjeha. Ponekad je upravo znak da nešto ide krivo."
+  },
+  {
+    "id": "EZ-013",
+    "title": "Kako pratiti gubitak mase tijekom sušenja",
+    "slug": "kako-pratiti-gubitak-mase-tijekom-susenja",
+    "category": "Kalkulator i praksa",
+    "main_keyword": "gubitak mase suhomesnatih proizvoda",
+    "card_excerpt": "Vaga je tihi nadzornik sušionice. Ne priča puno, ali rijetko laže."
+  },
+  {
+    "id": "EZ-014",
+    "title": "Plemenita plijesan: bijeli štit ili upozorenje?",
+    "slug": "plemenita-plijesan-bijeli-stit-ili-upozorenje",
+    "category": "Greške i rješenja",
+    "main_keyword": "plemenita plijesan na kobasicama",
+    "card_excerpt": "Bijela plijesan može biti saveznik, ali samo ako znamo što gledamo. Plijesan nije ukras nego mikrobiološki znak."
+  },
+  {
+    "id": "EZ-015",
+    "title": "Temperatura, vlaga i zrak: tri stupa zrenja",
+    "slug": "temperatura-vlaga-i-zrak-tri-stupa-zrenja",
+    "category": "Sušenje i zrenje",
+    "main_keyword": "mikroklima zrenja",
+    "card_excerpt": "Mikroklima je tihi majstor zrenja. Ne vidi se, ali ostavlja potpis na svakom rezu."
+  },
+  {
+    "id": "EZ-016",
+    "title": "Punjenje kobasica bez zračnih džepova",
+    "slug": "punjenje-kobasica-bez-zracnih-dzepova",
+    "category": "Greške i rješenja",
+    "main_keyword": "punjenje kobasica bez zraka",
+    "card_excerpt": "Kobasica ne voli praznine. Gdje ostane zrak, ondje se često naseli problem."
+  },
+  {
+    "id": "EZ-017",
+    "title": "Najčešće greške kod kobasica i kako ih ispraviti",
+    "slug": "najcesce-greske-kod-kobasica-i-kako-ih-ispraviti",
+    "category": "Greške i rješenja",
+    "main_keyword": "greške kod kobasica",
+    "card_excerpt": "Kobasica rijetko pogriješi bez razloga. Samo treba naučiti čitati što nam pokazuje."
+  },
+  {
+    "id": "EZ-018",
+    "title": "Dnevnik šarže: najjeftiniji alat za učenje",
+    "slug": "dnevnik-sarze-najjeftiniji-alat-za-ucenje",
+    "category": "Kalkulator i praksa",
+    "main_keyword": "dnevnik šarže",
+    "card_excerpt": "Ako ne zapisuješ, svaka šarža počinje kao mala lutrija. A meso ne voli lutriju."
+  },
+  {
+    "id": "EZ-019",
+    "title": "Zašto svi recepti na drycured.com kreću od 10 kg mesa",
+    "slug": "zasto-svi-recepti-na-drycured-com-krecu-od-10-kg-mesa",
+    "category": "Kalkulator i praksa",
+    "main_keyword": "recepti za 10 kg mesa",
+    "card_excerpt": "Recept od 10 kg nije hir. To je mjera koja uvodi red u posao."
+  },
+  {
+    "id": "EZ-020",
+    "title": "Sigurnost hrane kod suhomesnatih proizvoda bez panike",
+    "slug": "sigurnost-hrane-kod-suhomesnatih-proizvoda-bez-panike",
+    "category": "Sigurnost hrane",
+    "main_keyword": "sigurnost hrane suhomesnati proizvodi",
+    "card_excerpt": "Dobar suhomesnati proizvod ne nastaje iz hrabrosti, nego iz kontrole. Panika ne pomaže, ali red čini čuda."
+  }
+]

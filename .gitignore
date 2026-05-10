@@ -1,42 +1,16 @@
-# OS
-Thumbs.db
-Desktop.ini
-.DS_Store
+﻿# Secrets
+.env
+**/.env
 
 # Python
+.venv/
 __pycache__/
 *.pyc
-.venv/
-venv/
 
-# Node
-node_modules/
-npm-debug.log*
-yarn-error.log*
+# Generated temporary audio
+04_OPERATION/podcast_engine/output/segments/
+04_OPERATION/podcast_engine/logs/
 
-# IDE
-.vscode/
-.idea/
-
-# Temp / logs
-*.log
-*.tmp
-*.bak
-temp/
-tmp/
-cache/
-scratch/
-
-# Exports
-exports/tmp/
-
-# Archives
-*.zip
-
-# Local-only DRYCURED reference and helper files
-06_REFERENCE/source_pdfs/
-06_REFERENCE/text_extracts/
-06_REFERENCE/working_extracts/
-99_ARCHIVE/pre_git_merge_backup_2026-03-22/
-setup_drycured_docs.ps1
-create_local_reference_folders.ps1
+# Windows
+Thumbs.db
+Desktop.ini

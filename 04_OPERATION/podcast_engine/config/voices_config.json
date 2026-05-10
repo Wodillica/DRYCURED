@@ -1,0 +1,22 @@
+{
+    "model_id":  "eleven_multilingual_v2",
+    "language_code":  "hr",
+    "output_format":  "mp3_44100_128",
+    "voice_host":  {
+                       "label":  "Voditelj",
+                       "voice_id":  "TRnNlYQWHAJwo9K75wNE",
+                       "stability":  0.45,
+                       "similarity_boost":  0.78,
+                       "style":  0.1,
+                       "use_speaker_boost":  true
+                   },
+    "voice_master":  {
+                         "label":  "Majstor",
+                         "voice_id":  "ZLYZToA7aDsMbHwM9AOr",
+                         "stability":  0.5,
+                         "similarity_boost":  0.8,
+                         "style":  0.14,
+                         "use_speaker_boost":  true
+                     },
+    "auto_pick_voices_if_empty":  false
+}
