@@ -79,3 +79,22 @@ Ovim zapisom dokumentira se prijelaz drycured.com prema širem sadržajnom susta
 Temeljni duh ostaje:
 
 tradicija + znanost + praksa + strpljenje
+
+---
+
+## Podcast archive update
+
+Glavna podcast stranica /podcast/ uređena je kao moderna landing stranica.
+
+Dodano je:
+
+- hero područje za Drycured podcast
+- prikaz najnovije epizode
+- grid svih epizoda EP01–EP05
+- kartice s featured slikama
+- poveznice prema Enciklopediji znanja, Recepturama i Kalkulatoru
+- custom plugin drycured-podcast-archive
+- tjedna logika home podcast kartice
+- EP05 je povezan s ispravnom slikom za kontrolu, sigurnost i dnevnik šarže
+
+Ova promjena predstavlja stabilizaciju podcast dijela drycured.com i pripremu za daljnju tjednu rotaciju epizoda.
