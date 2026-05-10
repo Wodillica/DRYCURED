@@ -98,3 +98,26 @@ Dodano je:
 - EP05 je povezan s ispravnom slikom za kontrolu, sigurnost i dnevnik šarže
 
 Ova promjena predstavlja stabilizaciju podcast dijela drycured.com i pripremu za daljnju tjednu rotaciju epizoda.
+
+---
+
+## Home hero fix — Digitalna pušnica
+
+Ispravljen je prikaz hero bloka na početnoj stranici.
+
+Problem:
+- digitalna mreža bježala je ulijevo pri zoomu
+- opisni tekst ispod naslova nije ostajao centriran
+
+Uzrok:
+- Elementor container 3h24rr6 imao je negativne ackground_overlay_xpos vrijednosti
+- opisni tekstualni widget af40c4 imao je ručno zadanu širinu 1177 px
+
+Rješenje:
+- centriranje digitalne mreže napravljeno je na izvoru u Elementor podacima
+- uklonjena je prevelika ručna širina tekstualnog widgeta
+- tekst hero bloka vraćen je u centrirani tok
+- uklonjeni su raniji nestabilni CSS/JS overlay pokušaji
+
+Status:
+- hero blok "Digitalna pušnica" stabilan je pri 100 %, 90 %, 80 % i 70 % prikaza
