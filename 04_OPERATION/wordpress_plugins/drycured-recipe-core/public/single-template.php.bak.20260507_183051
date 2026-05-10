@@ -1,0 +1,247 @@
+<?php
+if (!defined('ABSPATH')) exit;
+
+add_filter('the_content', 'drycured_render_public_recipe_content', 20);
+
+function drycured_render_public_recipe_content($content) {
+    if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {
+        return $content;
+    }
+
+    $post_id = get_the_ID();
+    $data_raw = get_post_meta($post_id, '_dry_recipe_data', true);
+    $data = $data_raw ? json_decode($data_raw, true) : [];
+
+    if (!is_array($data)) {
+        $data = [];
+    }
+
+    $title = get_the_title($post_id);
+    $region = $data['region'] ?? drycured_recipe_term_name_v3($post_id, 'dry_region');
+    $microregion = $data['microregion'] ?? drycured_recipe_term_name_v3($post_id, 'dry_microregion');
+    $category = $data['category'] ?? drycured_recipe_term_name_v3($post_id, 'dry_product_category');
+    $product_type = $data['product_type'] ?? drycured_recipe_term_name_v3($post_id, 'dry_product_type');
+    $meat_types = !empty($data['meat_types']) && is_array($data['meat_types']) ? implode(', ', $data['meat_types']) : drycured_recipe_terms_join_v3($post_id, 'dry_meat_type');
+    $processes = !empty($data['processes']) && is_array($data['processes']) ? implode(', ', $data['processes']) : drycured_recipe_terms_join_v3($post_id, 'dry_process_type');
+
+    $batch = !empty($data['batch_weight_kg']) ? $data['batch_weight_kg'] . ' kg' : 'prema receptu';
+    $short = $data['short_description'] ?? get_the_excerpt($post_id);
+    $calculator_ready = (bool)get_post_meta($post_id, '_dry_calculator_ready', true);
+    $calculator_url = home_url('/kalkulator/?recipe_id=' . rawurlencode((string)get_post_meta($post_id, '_dry_recipe_id', true)));
+
+    ob_start();
+    ?>
+    <article class="drycured-recipe-v3">
+
+        <header class="drycured-recipe-hero-v3">
+            <div class="drycured-recipe-eyebrow">Drycured recept</div>
+
+            <h1><?php echo esc_html($title); ?></h1>
+
+            <?php if ($short): ?>
+                <p class="drycured-recipe-lead-v3"><?php echo esc_html($short); ?></p>
+            <?php endif; ?>
+
+            <div class="drycured-recipe-tags-v3">
+                <?php echo drycured_recipe_tag_v3($region); ?>
+                <?php echo drycured_recipe_tag_v3($microregion); ?>
+                <?php echo drycured_recipe_tag_v3($category); ?>
+                <?php echo drycured_recipe_tag_v3($product_type); ?>
+                <?php echo drycured_recipe_tag_v3($meat_types); ?>
+                <?php echo drycured_recipe_tag_v3($processes); ?>
+            </div>
+
+            <?php if (!empty($data['protected_product_warning'])): ?>
+                <div class="drycured-protected-note-v3">
+                    Edukativni profil: ovaj recept nije službena specifikacija za certificiranu proizvodnju zaštićenog proizvoda.
+                </div>
+            <?php endif; ?>
+
+            <div class="drycured-recipe-actions-v3">
+                <?php if ($calculator_ready): ?>
+                    <a class="drycured-action-primary-v3" href="<?php echo esc_url($calculator_url); ?>">
+                        Izračunaj količine
+                    </a>
+                <?php endif; ?>
+                <button class="drycured-action-secondary-v3" onclick="window.print(); return false;">
+                    Ispiši recept
+                </button>
+            </div>
+        </header>
+
+        <section class="drycured-quick-grid-v3">
+            <?php echo drycured_quick_card_v3('Osnovna masa', $batch); ?>
+            <?php echo drycured_quick_card_v3('Regija', $region ?: 'nije određeno'); ?>
+            <?php echo drycured_quick_card_v3('Vrsta', $category ?: 'nije određeno'); ?>
+            <?php echo drycured_quick_card_v3('Meso', $meat_types ?: 'nije određeno'); ?>
+            <?php echo drycured_quick_card_v3('Postupak', $processes ?: 'nije određeno'); ?>
+            <?php echo drycured_quick_card_v3('Kalkulator', $calculator_ready ? 'dostupan' : 'u pripremi'); ?>
+        </section>
+
+        <div class="drycured-recipe-body-v3">
+
+            <aside class="drycured-recipe-sidebar-v3">
+                <nav>
+                    <a href="#meso">Meso</a>
+                    <a href="#sastojci">Sastojci</a>
+                    <a href="#priprema">Priprema</a>
+                    <a href="#greske">Greške i rješenja</a>
+                </nav>
+            </aside>
+
+            <main class="drycured-recipe-main-v3">
+
+                <?php if (!empty($data['meat_composition'])): ?>
+                    <section id="meso" class="drycured-section-v3">
+                        <div class="drycured-section-head-v3">
+                            <span>01</span>
+                            <h2>Mesni sastav</h2>
+                        </div>
+                        <?php echo drycured_render_modern_rows_v3($data['meat_composition'], 'meat'); ?>
+                    </section>
+                <?php endif; ?>
+
+                <?php if (!empty($data['ingredients'])): ?>
+                    <section id="sastojci" class="drycured-section-v3">
+                        <div class="drycured-section-head-v3">
+                            <span>02</span>
+                            <h2>Sastojci i začini</h2>
+                        </div>
+                        <?php echo drycured_render_modern_rows_v3($data['ingredients'], 'ingredient'); ?>
+                    </section>
+                <?php endif; ?>
+
+                <?php if (!empty($data['procedure_steps'])): ?>
+                    <section id="priprema" class="drycured-section-v3">
+                        <div class="drycured-section-head-v3">
+                            <span>03</span>
+                            <h2>Priprema</h2>
+                        </div>
+                        <ol class="drycured-steps-v3">
+                            <?php foreach ($data['procedure_steps'] as $step): ?>
+                                <li><?php echo esc_html($step); ?></li>
+                            <?php endforeach; ?>
+                        </ol>
+                    </section>
+                <?php endif; ?>
+
+                <?php if (!empty($data['problems'])): ?>
+                    <section id="greske" class="drycured-section-v3">
+                        <div class="drycured-section-head-v3">
+                            <span>04</span>
+                            <h2>Najčešće greške i rješenja</h2>
+                        </div>
+                        <div class="drycured-problem-grid-v3">
+                            <?php foreach ($data['problems'] as $problem): ?>
+                                <article class="drycured-problem-card-v3">
+                                    <h3><?php echo esc_html($problem['problem'] ?? 'Problem'); ?></h3>
+                                    <?php if (!empty($problem['cause'])): ?>
+                                        <p><strong>Uzrok:</strong> <?php echo esc_html($problem['cause']); ?></p>
+                                    <?php elseif (!empty($problem['uzrok'])): ?>
+                                        <p><strong>Uzrok:</strong> <?php echo esc_html($problem['uzrok']); ?></p>
+                                    <?php endif; ?>
+
+                                    <?php if (!empty($problem['solution'])): ?>
+                                        <p><strong>Rješenje:</strong> <?php echo esc_html($problem['solution']); ?></p>
+                                    <?php elseif (!empty($problem['rjesenje'])): ?>
+                                        <p><strong>Rješenje:</strong> <?php echo esc_html($problem['rjesenje']); ?></p>
+                                    <?php endif; ?>
+                                </article>
+                            <?php endforeach; ?>
+                        </div>
+                    </section>
+                <?php endif; ?>
+
+            </main>
+        </div>
+    </article>
+    <?php
+    return ob_get_clean();
+}
+
+function drycured_recipe_term_name_v3($post_id, $taxonomy) {
+    $terms = get_the_terms($post_id, $taxonomy);
+    if (!$terms || is_wp_error($terms)) {
+        return '';
+    }
+    return $terms[0]->name;
+}
+
+function drycured_recipe_terms_join_v3($post_id, $taxonomy) {
+    $terms = get_the_terms($post_id, $taxonomy);
+    if (!$terms || is_wp_error($terms)) {
+        return '';
+    }
+    return implode(', ', wp_list_pluck($terms, 'name'));
+}
+
+function drycured_recipe_tag_v3($value) {
+    if (!$value) return '';
+    return '<span>' . esc_html($value) . '</span>';
+}
+
+function drycured_quick_card_v3($label, $value) {
+    return '<article class="drycured-quick-card-v3"><span>' . esc_html($label) . '</span><strong>' . esc_html($value) . '</strong></article>';
+}
+
+function drycured_render_modern_rows_v3($rows, $type = 'ingredient') {
+    if (!is_array($rows) || empty($rows)) {
+        return '';
+    }
+
+    $html = '<div class="drycured-data-list-v3">';
+
+    foreach ($rows as $row) {
+        if (!is_array($row)) continue;
+
+        $name = $row['name'] ?? $row['sastojak'] ?? $row['dio_mesa'] ?? $row['dio'] ?? 'Stavka';
+        $amount = drycured_format_amount_v3($row);
+        $note = $row['role'] ?? $row['uloga'] ?? $row['napomena'] ?? '';
+
+        $html .= '<article class="drycured-data-row-v3">';
+        $html .= '<div><strong>' . esc_html($name) . '</strong>';
+        if ($note) {
+            $html .= '<p>' . esc_html($note) . '</p>';
+        }
+        $html .= '</div>';
+        if ($amount) {
+            $html .= '<span>' . esc_html($amount) . '</span>';
+        }
+        $html .= '</article>';
+    }
+
+    $html .= '</div>';
+    return $html;
+}
+
+function drycured_format_amount_v3($row) {
+    if (isset($row['amount_kg'])) return drycured_number_v3($row['amount_kg']) . ' kg';
+    if (isset($row['amount_g'])) return drycured_number_v3($row['amount_g']) . ' g';
+    if (isset($row['amount_l'])) return drycured_number_v3($row['amount_l']) . ' L';
+
+    if (isset($row['amount_kg_min']) && isset($row['amount_kg_max'])) {
+        return drycured_number_v3($row['amount_kg_min']) . '–' . drycured_number_v3($row['amount_kg_max']) . ' kg';
+    }
+
+    if (isset($row['amount_g_min']) && isset($row['amount_g_max'])) {
+        return drycured_number_v3($row['amount_g_min']) . '–' . drycured_number_v3($row['amount_g_max']) . ' g';
+    }
+
+    if (isset($row['amount_l_min']) && isset($row['amount_l_max'])) {
+        return drycured_number_v3($row['amount_l_min']) . '–' . drycured_number_v3($row['amount_l_max']) . ' L';
+    }
+
+    if (isset($row['amount_pieces'])) return drycured_number_v3($row['amount_pieces']) . ' kom';
+
+    if (!empty($row['kolicina'])) return $row['kolicina'];
+    if (!empty($row['kolicina_za_10_kg'])) return $row['kolicina_za_10_kg'];
+
+    return '';
+}
+
+function drycured_number_v3($value) {
+    if (!is_numeric($value)) return $value;
+    $value = floatval($value);
+    if (floor($value) == $value) return (string)intval($value);
+    return rtrim(rtrim(number_format($value, 3, ',', ''), '0'), ',');
+}

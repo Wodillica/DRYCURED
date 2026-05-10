@@ -1,0 +1,141 @@
+<?php
+if (!defined('ABSPATH')) exit;
+
+function drycured_import_recipe_from_array($r){
+    $rid=drycured_id($r['recipe_id']??'');
+    if(!$rid) throw new Exception('Nedostaje recipe_id');
+    $r['recipe_id']=$rid;
+    $title=sanitize_text_field($r['title']??$r['name']??$rid);
+    $existing=drycured_find_recipe_by_recipe_id($rid);
+    $post=['post_type'=>'dry_recipe','post_title'=>$title,'post_status'=>!empty($r['public_ready'])?'publish':'draft','post_content'=>wp_kses_post($r['public_html']??''),'post_excerpt'=>sanitize_text_field($r['short_description']??'')];
+    if($existing){ $post['ID']=$existing; $pid=wp_update_post($post,true); } else { $pid=wp_insert_post($post,true); }
+    if(is_wp_error($pid)) throw new Exception($pid->get_error_message());
+    update_post_meta($pid,'_dry_recipe_id',$rid);
+    update_post_meta($pid,'_dry_recipe_data',wp_json_encode($r,JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT));
+    update_post_meta($pid,'_dry_calculator_ready',!empty($r['calculator_ready']));
+    update_post_meta($pid,'_dry_public_ready',!empty($r['public_ready']));
+    drycured_assign_tax($pid,'dry_country',[$r['country_hr']??$r['country']??'Hrvatska']);
+    drycured_assign_tax($pid,'dry_region',[$r['region']??'']);
+    drycured_assign_tax($pid,'dry_microregion',[$r['microregion']??'']);
+    drycured_assign_tax($pid,'dry_product_category',[$r['category']??$r['product_family']??'']);
+    drycured_assign_tax($pid,'dry_product_type',[$r['product_type']??'']);
+    drycured_assign_tax($pid,'dry_meat_type',$r['meat_types']??[]);
+    drycured_assign_tax($pid,'dry_process_type',$r['processes']??[]);
+    drycured_assign_tax($pid,'dry_preparation_method',$r['processes']??[]);
+    drycured_assign_tax($pid,'dry_recipe_status',[$r['review_status']??'approved']);
+    return intval($pid);
+}
+
+function drycured_import_md_text($text,$source='md-import'){
+    $text=preg_replace('/<!--\s*INTERNAL_SOURCE_BLOCK.*?-->/s','',$text);
+    $recipes=drycured_extract_recipe_sections($text,$source);
+    $out=['detected'=>count($recipes),'created'=>0,'updated'=>0,'errors'=>[]];
+    foreach($recipes as $r){
+        try{
+            $exists=drycured_find_recipe_by_recipe_id($r['recipe_id']);
+            drycured_import_recipe_from_array($r);
+            $exists?$out['updated']++:$out['created']++;
+        }catch(Exception $e){ $out['errors'][]=($r['recipe_id']??'unknown').': '.$e->getMessage(); }
+    }
+    return $out;
+}
+
+function drycured_extract_recipe_sections($text,$source){
+    preg_match_all('/^#{1,2}\s+(.+?)\s*$(.*?)(?=^#{1,2}\s+|\z)/ms',$text,$m,PREG_SET_ORDER);
+    $recipes=[];
+    foreach($m as $s){
+        $title=trim($s[1]); $body=trim($s[2]);
+        if(!$body||drycured_technical_title($title)||!drycured_looks_recipe($title,$body)) continue;
+        $recipes[]=drycured_parse_recipe($title,$body,$source);
+    }
+    return $recipes;
+}
+
+function drycured_looks_recipe($title,$body){
+    $title_l = mb_strtolower(trim($title));
+
+    // Ovi naslovi su dijelovi recepta, nikad samostalni recepti.
+    $blocked_titles = [
+        'mesni sastav',
+        'mesni sastav i anatomski dijelovi',
+        'standardizirano na 10 kg',
+        'sastojci',
+        'sastojci i začini',
+        'začini',
+        'začini i dodaci',
+        'suhi pac',
+        'mokri pac',
+        'crijeva',
+        'crijeva i omotači',
+        'postupak',
+        'priprema',
+        'tehnološki postupak',
+        'najčešće greške i rješenja',
+        'greške i rješenja',
+        'web blok',
+        'yaml blok',
+        'kalkulatorski metapodaci',
+        'qa provjera',
+        'deduplikacijska bilješka'
+    ];
+
+    foreach ($blocked_titles as $blocked) {
+        if ($title_l === $blocked || str_starts_with($title_l, $blocked)) {
+            return false;
+        }
+    }
+
+
+    $extra_blocked = [
+        'tom 2',
+        'pravila ove obrade',
+        'regionalna karta',
+        'napomena o opsegu',
+        'metodologija obrade',
+        'novi receptni zapisi',
+        'stanje korpusa',
+        'qa provjera',
+        'deduplikacijska bilješka'
+    ];
+
+    foreach ($extra_blocked as $blocked) {
+        if (str_starts_with($title_l, $blocked)) {
+            return false;
+        }
+    }
+
+    if (drycured_technical_title($title)) {
+        return false;
+    }
+
+    $hay=mb_strtolower($title."\n".$body);
+    $score=0;
+    foreach(['id recepta','mesni sastav','sastoj','postupak','začini','zacini','crijeva','dimljenje','sušenje','zrenje','sirovina'] as $s) {
+        if(str_contains($hay,$s)) $score++;
+    }
+
+    // Recept mora imati barem naslov proizvoda i nekoliko receptnih signala.
+    return $score>=3;
+}
+
+function drycured_parse_recipe($title,$body,$source){
+    $title=preg_replace('/^\d+[\.\)]\s*/','',trim($title));
+    if(preg_match('/\*\*ID recepta:\*\*\s*([A-Za-z0-9\-_]+)/u',$body,$mm)) $rid=$mm[1];
+    elseif(preg_match('/recipe_id:\s*([A-Za-z0-9\-_]+)/u',$body,$mm)) $rid=$mm[1];
+    else $rid=drycured_make_id($title,$source);
+    $r=['recipe_id'=>$rid,'title'=>$title,'source_file'=>$source,'public_ready'=>true,'review_status'=>'approved','calculator_ready'=>true];
+    foreach(['category'=>'/\*\*Kategorija:\*\*\s*(.+)$/mi','region'=>'/\*\*(?:Regija\/stil|Regija):\*\*\s*(.+)$/mi'] as $k=>$p) if(preg_match($p,$body,$mm)) $r[$k]=trim($mm[1]);
+    $r['short_description']=drycured_short_desc($body);
+    $r['meat_composition']=drycured_table_after($body,['Mesni sastav','Mesni sastav i anatomski dijelovi','Sirovina']);
+    $r['ingredients']=drycured_table_after($body,['Sastojci','Začini','Začini i dodaci','Suhi pac','Mokri pac']);
+    $r['problems']=drycured_table_after($body,['Najčešće greške i rješenja','Greške i rješenja']);
+    $r['procedure_steps']=drycured_steps_after($body,['Postupak','Priprema','Tehnološki postupak']);
+    drycured_infer_terms($r);
+    $r['public_html']='';
+    return $r;
+}
+function drycured_short_desc($b){ if(preg_match('/\*\*Kratki opis:\*\*\s*(.+)$/mi',$b,$m)) return drycured_excerpt($m[1],220); if(preg_match('/###\s+Regionalni.*?\n(.+?)(?:\n\n|$)/si',$b,$m)) return drycured_excerpt($m[1],220); return ''; }
+function drycured_table_after($body,$heads){ foreach($heads as $h){ if(preg_match('/#{2,4}\s*'.preg_quote($h,'/').'.*?\n(.*?)(?=\n#{2,4}\s+|\z)/si',$body,$m)) return drycured_parse_table($m[1]); } return []; }
+function drycured_parse_table($txt){ $lines=preg_split('/\r\n|\r|\n/',$txt); $tab=[]; foreach($lines as $l){ if(strpos($l,'|')!==false){ if(preg_match('/^\s*\|?\s*[-:| ]+\s*\|?\s*$/',$l)) continue; $c=array_map('trim',explode('|',trim($l," \t|"))); if(count($c)>=2) $tab[]=$c; } elseif($tab) break; } if(count($tab)<2) return []; $hdr=array_shift($tab); $rows=[]; foreach($tab as $row){ $it=[]; foreach($hdr as $i=>$h){ $key=sanitize_key(remove_accents($h)); $it[$key?:'col_'.$i]=$row[$i]??''; } $rows[]=$it; } return $rows; }
+function drycured_steps_after($body,$heads){ foreach($heads as $h){ if(preg_match('/#{2,4}\s*'.preg_quote($h,'/').'.*?\n(.*?)(?=\n#{2,4}\s+|\z)/si',$body,$m)){ preg_match_all('/^\s*\d+\.\s+(.+)$/m',$m[1],$s); return array_map('trim',$s[1]??[]); } } return []; }
+function drycured_infer_terms(&$r){ $text=mb_strtolower(json_encode($r,JSON_UNESCAPED_UNICODE)); $map=['svinjetina'=>['svinj','vratina','plećka','but','slanina','panceta'],'govedina'=>['gove','junet'],'ovčetina'=>['ovč','janje','janjet'],'kozletina'=>['koz'],'konjsko meso'=>['konj'],'riba'=>['ribl','šaran','som','riba'],'divljač'=>['divljač','jelen','srna','vepar']]; $r['meat_types']=[]; foreach($map as $lab=>$ns) foreach($ns as $n) if(str_contains($text,$n)){ $r['meat_types'][]=$lab; break; } $r['meat_types']=array_values(array_unique($r['meat_types'])); $pro=['dimljeno'=>['dim'],'nedimljeno'=>['nedim'],'sušeno'=>['suš','sus'],'zrelo'=>['zren'],'fermentirano'=>['ferment'],'bareno'=>['baren'],'za pečenje'=>['pečen','roštilj'],'za kuhanje'=>['kuhan']]; $r['processes']=[]; foreach($pro as $lab=>$ns) foreach($ns as $n) if(str_contains($text,$n)){ $r['processes'][]=$lab; break; } $r['processes']=array_values(array_unique($r['processes'])); }

@@ -1,0 +1,235 @@
+(function () {
+    function norm(value) {
+        return (value || "")
+            .toString()
+            .trim()
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .replace(/[—–]/g, "-")
+            .replace(/\s+/g, " ");
+    }
+
+    function cleanCountryName(value) {
+        value = (value || "").toString().trim();
+        return value.replace(/\s+\d+\s*proizvoda?.*$/i, "").trim();
+    }
+
+    function cleanRegionLabel(region, country, productName) {
+        var raw = (region || "").toString().trim();
+        var hay = norm(raw + " " + (productName || ""));
+
+        if (!raw) return "Opći recepti";
+
+        var countryNorm = norm(country);
+
+        // Ako je regija zapravo država, ne prikazuj je kao podregiju.
+        var countryOnly = [
+            "hrvatska", "italija", "slovenija", "francuska", "njemacka",
+            "spanjolska", "svicarska", "poljska", "rumunjska", "rusija",
+            "ujedinjeno kraljevstvo", "srbija", "bosna i hercegovina",
+            "crna gora", "austrija", "ceska", "slovacka", "portugal",
+            "grcka", "malta", "irska", "island", "ukrajina", "madarska",
+            "belgija"
+        ];
+
+        if (countryOnly.indexOf(norm(raw)) !== -1 || norm(raw) === countryNorm) {
+            return "Opći recepti";
+        }
+
+        // Ako je format "Hrvatska / Istra / ..." makni državu.
+        if (raw.indexOf("/") !== -1) {
+            var parts = raw.split("/").map(function (x) { return x.trim(); }).filter(Boolean);
+            if (parts.length > 1 && norm(parts[0]) === countryNorm) {
+                parts.shift();
+                raw = parts.join(" / ");
+                hay = norm(raw + " " + (productName || ""));
+            }
+        }
+
+        // Ako je format "Hrvatska — Istra" makni državu.
+        if (raw.indexOf("—") !== -1) {
+            var parts2 = raw.split("—").map(function (x) { return x.trim(); }).filter(Boolean);
+            if (parts2.length > 1 && norm(parts2[0]) === countryNorm) {
+                parts2.shift();
+                raw = parts2.join(" / ");
+                hay = norm(raw + " " + (productName || ""));
+            }
+        }
+
+        // Hrvatska — objedinjavanje duplikata.
+        if (countryNorm === "hrvatska") {
+            if (hay.indexOf("slavonija") !== -1) return "Slavonija";
+            if (hay.indexOf("baranja") !== -1) return "Baranja";
+
+            if ((hay.indexOf("srijem") !== -1 || hay.indexOf("srem") !== -1 || hay.indexOf("podunavlje") !== -1) && hay.indexOf("srbija") === -1) {
+                return "Srijem / Podunavlje";
+            }
+
+            if (hay.indexOf("sjeverna hrvatska") !== -1 || hay.indexOf("zagorje") !== -1 || hay.indexOf("medimurje") !== -1 || hay.indexOf("medjimurje") !== -1 || hay.indexOf("okolica zagreba") !== -1) {
+                if (hay.indexOf("zagorje") !== -1) return "Sjeverna Hrvatska / Hrvatsko zagorje";
+                if (hay.indexOf("medimurje") !== -1 || hay.indexOf("medjimurje") !== -1) return "Sjeverna Hrvatska / Međimurje";
+                if (hay.indexOf("okolica zagreba") !== -1) return "Sjeverna Hrvatska / okolica Zagreba";
+                return "Sjeverna Hrvatska";
+            }
+
+            if (hay.indexOf("otok krk") !== -1 || hay === "krk" || hay.indexOf(" krk") !== -1) {
+                return "Kvarner i otoci / Krk";
+            }
+
+            if (hay.indexOf("cres") !== -1) {
+                return "Kvarner i otoci / Cres";
+            }
+
+            if (hay.indexOf("kvarner") !== -1) {
+                return "Kvarner i otoci";
+            }
+
+            if (hay.indexOf("hrvatsko primorje") !== -1 || hay === "primorje" || hay.indexOf(" primorje") !== -1) {
+                return "Hrvatsko primorje";
+            }
+
+            if (hay.indexOf("dalmacija") !== -1 && hay.indexOf("istra") !== -1) {
+                return "Više hrvatskih regija / Dalmacija i Istra";
+            }
+
+            if (hay.indexOf("dalmacija") !== -1) return "Dalmacija";
+            if (hay.indexOf("istra") !== -1) return "Istra";
+            if (hay.indexOf("lika") !== -1 || hay.indexOf("gorski kotar") !== -1) return "Lika i Gorski kotar";
+        }
+
+        // Srbija.
+        if (countryNorm === "srbija") {
+            if (hay.indexOf("vojvodina") !== -1) return "Vojvodina";
+            if (hay.indexOf("backa") !== -1 || hay.indexOf("bačka") !== -1) return "Vojvodina / Bačka";
+            if (hay.indexOf("banat") !== -1) return "Vojvodina / Banat";
+            if (hay.indexOf("srem") !== -1 || hay.indexOf("srijem") !== -1) return "Vojvodina / Srijem";
+        }
+
+        // Italija.
+        if (countryNorm === "italija") {
+            if (hay.indexOf("emilia") !== -1 || hay.indexOf("parma") !== -1 || hay.indexOf("piacenza") !== -1) return "Emilia-Romagna";
+            if (hay.indexOf("calabria") !== -1 || hay.indexOf("kalabrija") !== -1) return "Kalabrija";
+            if (hay.indexOf("toscana") !== -1) return "Toskana";
+            if (hay.indexOf("lombard") !== -1) return "Lombardija";
+            if (hay.indexOf("alto adige") !== -1 || hay.indexOf("sudtirol") !== -1) return "Alto Adige / Südtirol";
+        }
+
+        // Ujedinjeno Kraljevstvo.
+        if (countryNorm === "ujedinjeno kraljevstvo") {
+            if (hay.indexOf("engleska") !== -1 || hay.indexOf("england") !== -1 || hay.indexOf("cumberland") !== -1 || hay.indexOf("lincolnshire") !== -1) {
+                if (hay.indexOf("cumberland") !== -1) return "Engleska / Cumberland";
+                return "Engleska";
+            }
+
+            if (hay.indexOf("skotska") !== -1 || hay.indexOf("scotland") !== -1 || hay.indexOf("lorne") !== -1 || hay.indexOf("haggis") !== -1) return "Škotska";
+            if (hay.indexOf("wales") !== -1 || hay.indexOf("welsh") !== -1) return "Wales";
+            if (hay.indexOf("sjeverna irska") !== -1 || hay.indexOf("northern ireland") !== -1 || hay.indexOf("ulster") !== -1) return "Sjeverna Irska";
+        }
+
+        // Ne prikazuj Balkan kao regiju.
+        if (hay.indexOf("balkan") !== -1) return "Opći recepti";
+
+        // Ako je predugo, vjerojatno je opis, a ne regija.
+        if (raw.length > 70) return "Opći recepti";
+
+        return raw || "Opći recepti";
+    }
+
+    function findProductRowsInCountryBody(countryBody) {
+        return Array.from(countryBody.querySelectorAll(".dc-p")).map(function (row) {
+            var nameNode = row.querySelector(".pn");
+            var regionNode = row.querySelector(".pr");
+
+            if (!nameNode) return null;
+
+            return {
+                row: row,
+                name: (nameNode.textContent || "").trim(),
+                region: regionNode ? (regionNode.textContent || "").trim() : ""
+            };
+        }).filter(Boolean);
+    }
+
+    function enhanceCountry(countryBlock) {
+        if (!countryBlock || countryBlock.dataset.drycuredHierarchy === "1") return;
+
+        var header = countryBlock.querySelector(".dc-h");
+        var body = countryBlock.querySelector(".dc-rb");
+
+        if (!header || !body) return;
+
+        var countryNameNode = header.querySelector("span");
+        var countryName = cleanCountryName(countryNameNode ? countryNameNode.textContent : header.textContent);
+
+        var items = findProductRowsInCountryBody(body);
+        if (items.length < 2) return;
+
+        var groups = {};
+
+        items.forEach(function (item) {
+            var label = cleanRegionLabel(item.region, countryName, item.name);
+            if (!groups[label]) groups[label] = [];
+            groups[label].push(item);
+        });
+
+        var groupNames = Object.keys(groups);
+        if (groupNames.length < 2) return;
+
+        countryBlock.dataset.drycuredHierarchy = "1";
+
+        body.innerHTML = "";
+
+        groupNames.sort(function (a, b) {
+            if (a === "Opći recepti") return -1;
+            if (b === "Opći recepti") return 1;
+            return a.localeCompare(b, "hr");
+        });
+
+        groupNames.forEach(function (groupName) {
+            var details = document.createElement("details");
+            details.className = "drycured-calc-region-folder";
+
+            var summary = document.createElement("summary");
+            summary.className = "drycured-calc-region-head";
+            summary.innerHTML = "<span>" + groupName + "</span><strong>" + groups[groupName].length + " " + (groups[groupName].length === 1 ? "proizvod" : "proizvoda") + "</strong>";
+
+            var products = document.createElement("div");
+            products.className = "drycured-calc-region-products";
+
+            groups[groupName].sort(function (a, b) {
+                return a.name.localeCompare(b.name, "hr");
+            }).forEach(function (item) {
+                products.appendChild(item.row);
+            });
+
+            details.appendChild(summary);
+            details.appendChild(products);
+            body.appendChild(details);
+        });
+    }
+
+    function applyHierarchy() {
+        var countryBlocks = Array.from(document.querySelectorAll(".dc-r"));
+        countryBlocks.forEach(enhanceCountry);
+    }
+
+    function resetAndApply() {
+        setTimeout(applyHierarchy, 150);
+        setTimeout(applyHierarchy, 500);
+        setTimeout(applyHierarchy, 1000);
+        setTimeout(applyHierarchy, 1800);
+    }
+
+    document.addEventListener("DOMContentLoaded", resetAndApply);
+
+    document.addEventListener("click", function () {
+        setTimeout(function () {
+            // Ako kalkulator ponovo iscrta listu, novi .dc-r neće imati marker.
+            applyHierarchy();
+        }, 250);
+        setTimeout(applyHierarchy, 900);
+    });
+
+    document.addEventListener("change", resetAndApply);
+})();

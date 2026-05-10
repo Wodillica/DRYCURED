@@ -1,0 +1,981 @@
+:root {
+    --dry-bg: #f7f1e6;
+    --dry-panel: #fffdf8;
+    --dry-card: #ffffff;
+    --dry-border: #e4d6b8;
+    --dry-border-soft: #efe4cf;
+    --dry-gold: #c8a24a;
+    --dry-gold-dark: #9a7628;
+    --dry-text: #111827;
+    --dry-muted: #6b7280;
+    --dry-soft: #fbf7ee;
+    --dry-shadow: 0 18px 45px rgba(17, 24, 39, 0.08);
+    --dry-shadow-soft: 0 8px 22px rgba(17, 24, 39, 0.06);
+}
+
+/* Glavni okvir */
+.drycured-recipes-app {
+    max-width: 1320px;
+    margin: 24px auto 42px;
+    padding: 0;
+    color: var(--dry-text);
+    background: transparent;
+}
+
+/* Gornji filter panel */
+.drycured-recipes-head,
+.drycured-recipe-form,
+.drycured-view-row,
+.drycured-recipes-count {
+    max-width: 1320px;
+}
+
+.drycured-recipes-head {
+    background: linear-gradient(135deg, #fffdf8 0%, #f4ead6 100%);
+    border: 1px solid var(--dry-border);
+    border-bottom: 0;
+    border-radius: 26px 26px 0 0;
+    padding: 30px 34px 16px;
+    box-shadow: var(--dry-shadow-soft);
+}
+
+.drycured-recipes-head .drycured-small-label,
+.drycured-recipes-head p:first-child {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 10px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.drycured-recipes-head .drycured-small-label::before,
+.drycured-recipes-head p:first-child::before {
+    content: "●";
+    color: var(--dry-gold);
+    font-size: 12px;
+}
+
+.drycured-subtitle,
+.drycured-recipes-head p:last-child {
+    margin: 0;
+    color: #4b5563;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+/* Forma */
+.drycured-recipe-form {
+    background: var(--dry-panel);
+    border-left: 1px solid var(--dry-border);
+    border-right: 1px solid var(--dry-border);
+    padding: 18px 34px 22px;
+    box-shadow: var(--dry-shadow-soft);
+}
+
+.drycured-recipe-search {
+    width: 100%;
+    height: 54px;
+    padding: 0 18px 0 48px;
+    border: 1px solid var(--dry-border);
+    border-radius: 16px;
+    font-size: 17px;
+    background:
+        linear-gradient(90deg, rgba(200,162,74,.12), rgba(255,255,255,0)),
+        #ffffff;
+    color: var(--dry-text);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.8);
+    outline: none;
+    margin-bottom: 14px;
+    background-image:
+        url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21 21L15.8 15.8M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z' stroke='%239a7628' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 16px center;
+}
+
+.drycured-recipe-search:focus {
+    border-color: var(--dry-gold);
+    box-shadow: 0 0 0 4px rgba(200,162,74,.18);
+}
+
+/* Filteri */
+.drycured-filter-row {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.drycured-filter-row select {
+    height: 48px;
+    padding: 0 14px;
+    border: 1px solid var(--dry-border);
+    border-radius: 14px;
+    background: #ffffff;
+    color: #374151;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+}
+
+.drycured-filter-row select:focus {
+    border-color: var(--dry-gold);
+    box-shadow: 0 0 0 4px rgba(200,162,74,.14);
+}
+
+/* Akcije */
+.drycured-form-actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.drycured-primary-filter {
+    height: 46px;
+    padding: 0 28px;
+    border: 0;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #d7b65f, #c8a24a);
+    color: #111827;
+    font-weight: 900;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 10px 24px rgba(200,162,74,.28);
+}
+
+.drycured-primary-filter:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 14px 32px rgba(200,162,74,.34);
+}
+
+.drycured-reset-filter {
+    color: var(--dry-gold-dark);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+/* Preklopnici prikaza */
+.drycured-view-row {
+    display: flex;
+    gap: 8px;
+    background: var(--dry-panel);
+    border-left: 1px solid var(--dry-border);
+    border-right: 1px solid var(--dry-border);
+    padding: 0 34px 20px;
+    box-shadow: var(--dry-shadow-soft);
+}
+
+.drycured-view-btn {
+    min-width: 82px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--dry-border);
+    background: #ffffff;
+    color: #374151;
+    border-radius: 999px;
+    padding: 0 16px;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.drycured-view-btn:hover {
+    border-color: var(--dry-gold);
+    color: #111827;
+}
+
+.drycured-view-btn.is-active {
+    background: #111827;
+    color: #ffffff;
+    border-color: #111827;
+}
+
+/* Brojač */
+.drycured-recipes-count {
+    background: var(--dry-panel);
+    border-left: 1px solid var(--dry-border);
+    border-right: 1px solid var(--dry-border);
+    padding: 0 34px 18px;
+    color: var(--dry-muted);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* Rezultati zajednički */
+.drycured-empty {
+    background: #ffffff;
+    border: 1px solid var(--dry-border);
+    border-radius: 18px;
+    padding: 24px;
+    color: var(--dry-muted);
+}
+
+/* Atlas */
+.drycured-atlas {
+    background: var(--dry-panel);
+    border: 1px solid var(--dry-border);
+    border-top: 0;
+    border-radius: 0 0 26px 26px;
+    padding: 0 34px 34px;
+    box-shadow: var(--dry-shadow);
+    display: grid;
+    gap: 14px;
+}
+
+.drycured-atlas-country {
+    background: #ffffff;
+    border: 1px solid var(--dry-border-soft);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--dry-shadow-soft);
+}
+
+.drycured-atlas-title {
+    padding: 18px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #ffffff, #fbf4e6);
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.drycured-atlas-title strong {
+    min-width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #111827;
+    color: #ffffff;
+    border-radius: 999px;
+    font-size: 15px;
+}
+
+.drycured-atlas-region {
+    padding: 16px 22px;
+    border-top: 1px solid var(--dry-border-soft);
+}
+
+.drycured-atlas-region-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.drycured-atlas-region-title span {
+    color: var(--dry-muted);
+    font-size: 14px;
+}
+
+.drycured-atlas-cats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.drycured-atlas-cats a {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 12px;
+    border-radius: 999px;
+    background: var(--dry-soft);
+    border: 1px solid var(--dry-border);
+    color: #374151;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.drycured-atlas-cats a:hover {
+    background: var(--dry-gold);
+    color: #111827;
+}
+
+/* Lista */
+.drycured-list-wrap {
+    background: var(--dry-panel);
+    border: 1px solid var(--dry-border);
+    border-top: 0;
+    border-radius: 0 0 26px 26px;
+    padding: 0 34px 34px;
+    overflow-x: auto;
+    box-shadow: var(--dry-shadow);
+}
+
+.drycured-list-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    min-width: 880px;
+}
+
+.drycured-list-table thead th {
+    padding: 10px 14px;
+    text-align: left;
+    color: #6b7280;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-weight: 900;
+}
+
+.drycured-list-table tbody tr {
+    background: #ffffff;
+    box-shadow: var(--dry-shadow-soft);
+}
+
+.drycured-list-table tbody td {
+    padding: 16px 14px;
+    border-top: 1px solid var(--dry-border-soft);
+    border-bottom: 1px solid var(--dry-border-soft);
+    color: #374151;
+    vertical-align: middle;
+}
+
+.drycured-list-table tbody td:first-child {
+    border-left: 1px solid var(--dry-border-soft);
+    border-radius: 16px 0 0 16px;
+}
+
+.drycured-list-table tbody td:last-child {
+    border-right: 1px solid var(--dry-border-soft);
+    border-radius: 0 16px 16px 0;
+}
+
+.drycured-list-table a {
+    color: #111827;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.drycured-list-table a:hover {
+    color: var(--dry-gold-dark);
+}
+
+.drycured-mini-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 34px;
+    padding: 7px 12px;
+    border-radius: 10px;
+    background: var(--dry-gold);
+    color: #111827 !important;
+    text-decoration: none;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+/* Kartice */
+.drycured-card-grid {
+    background: var(--dry-panel);
+    border: 1px solid var(--dry-border);
+    border-top: 0;
+    border-radius: 0 0 26px 26px;
+    padding: 0 34px 34px;
+    box-shadow: var(--dry-shadow);
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.drycured-modern-card {
+    background: #ffffff;
+    border: 1px solid var(--dry-border-soft);
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: var(--dry-shadow-soft);
+    transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.drycured-modern-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 40px rgba(17,24,39,.10);
+}
+
+.drycured-modern-card h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+.drycured-modern-card h3 a {
+    color: var(--dry-text);
+    text-decoration: none;
+}
+
+.drycured-card-meta {
+    color: var(--dry-muted);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.drycured-modern-card p {
+    color: #4b5563;
+    line-height: 1.55;
+}
+
+.drycured-card-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+.drycured-card-actions a {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.drycured-card-actions a:nth-child(2) {
+    background: var(--dry-gold);
+    color: #111827;
+}
+
+/* Single recipe */
+.drycured-public-recipe {
+    max-width: 1180px;
+    margin: 24px auto 50px;
+}
+
+.drycured-recipe-hero {
+    background: linear-gradient(135deg, #fffdf8, #f4ead6);
+    border: 1px solid var(--dry-border);
+    border-left: 7px solid var(--dry-gold);
+    border-radius: 26px;
+    padding: 34px;
+    box-shadow: var(--dry-shadow);
+    margin-bottom: 24px;
+}
+
+.drycured-kicker {
+    display: inline-flex;
+    background: #111827;
+    color: #ffffff;
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.drycured-recipe-hero h1 {
+    margin: 0 0 14px;
+    font-size: clamp(34px, 5vw, 60px);
+    line-height: 1.04;
+    color: var(--dry-text);
+}
+
+.drycured-lead {
+    max-width: 780px;
+    color: #374151;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.drycured-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+.drycured-chip-row span {
+    background: #ffffff;
+    border: 1px solid var(--dry-border);
+    border-radius: 999px;
+    padding: 7px 12px;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.drycured-primary-action {
+    display: inline-flex;
+    margin-top: 8px;
+    padding: 12px 18px;
+    border-radius: 14px;
+    background: var(--dry-gold);
+    color: #111827;
+    font-weight: 900;
+    text-decoration: none;
+    box-shadow: 0 10px 24px rgba(200,162,74,.28);
+}
+
+.drycured-recipe-shell {
+    display: grid;
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 22px;
+}
+
+.drycured-recipe-side {
+    background: #ffffff;
+    border: 1px solid var(--dry-border);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: var(--dry-shadow-soft);
+    align-self: start;
+    position: sticky;
+    top: 110px;
+}
+
+.drycured-recipe-side h2 {
+    margin: 0 0 12px;
+    font-size: 20px;
+}
+
+.drycured-recipe-side ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.drycured-recipe-side li {
+    padding: 10px 0;
+    border-top: 1px solid var(--dry-border-soft);
+    color: #4b5563;
+}
+
+.drycured-recipe-side li:first-child {
+    border-top: 0;
+}
+
+.drycured-recipe-side strong {
+    color: #111827;
+}
+
+.drycured-panel {
+    background: #ffffff;
+    border: 1px solid var(--dry-border);
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 18px;
+    box-shadow: var(--dry-shadow-soft);
+}
+
+.drycured-panel h2 {
+    margin: 0 0 16px;
+    font-size: 28px;
+}
+
+.drycured-modern-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    border: 1px solid var(--dry-border);
+    border-radius: 14px;
+}
+
+.drycured-modern-table th {
+    background: #f2ead8;
+    color: #111827;
+    text-align: left;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.drycured-modern-table th,
+.drycured-modern-table td {
+    padding: 12px;
+    border-bottom: 1px solid var(--dry-border-soft);
+}
+
+.drycured-modern-table tr:last-child td {
+    border-bottom: 0;
+}
+
+.drycured-steps {
+    padding-left: 24px;
+}
+
+.drycured-steps li {
+    margin-bottom: 10px;
+    line-height: 1.65;
+}
+
+/* Mobile */
+@media (max-width: 1100px) {
+    .drycured-card-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 900px) {
+    .drycured-filter-row {
+        grid-template-columns: 1fr;
+    }
+
+    .drycured-card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .drycured-recipe-shell {
+        grid-template-columns: 1fr;
+    }
+
+    .drycured-recipe-side {
+        position: static;
+    }
+
+    .drycured-recipes-head,
+    .drycured-recipe-form,
+    .drycured-view-row,
+    .drycured-recipes-count,
+    .drycured-atlas,
+    .drycured-list-wrap,
+    .drycured-card-grid {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+/* DRYCURED RECIPE PAGE V4 */
+.dry-recipe-page {
+    width: min(1180px, calc(100vw - 48px));
+    max-width: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 32px 0 60px;
+    color: #111827;
+}
+
+.dry-recipe-hero {
+    background: linear-gradient(135deg, #fffdf8 0%, #f4ead6 100%);
+    border: 1px solid #e4d6b8;
+    border-left: 8px solid #c8a24a;
+    border-radius: 30px;
+    padding: 38px;
+    box-shadow: 0 24px 60px rgba(17,24,39,.10);
+}
+
+.dry-recipe-label {
+    display: inline-flex;
+    align-items: center;
+    background: #111827;
+    color: #fff;
+    border-radius: 999px;
+    padding: 7px 13px;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.dry-recipe-label::before {
+    content: "●";
+    color: #c8a24a;
+    margin-right: 8px;
+}
+
+.dry-recipe-hero h1 {
+    margin: 0 0 16px;
+    font-size: clamp(38px, 6vw, 72px);
+    line-height: .98;
+    letter-spacing: -0.045em;
+}
+
+.dry-recipe-intro {
+    max-width: 820px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #374151;
+}
+
+.dry-recipe-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.dry-recipe-tags span {
+    background: #fff;
+    border: 1px solid #e4d6b8;
+    border-radius: 999px;
+    padding: 8px 12px;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.dry-recipe-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.dry-primary-btn,
+.dry-secondary-btn {
+    min-height: 46px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 18px;
+    border-radius: 14px;
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dry-primary-btn {
+    background: #c8a24a;
+    color: #111827;
+    border: 0;
+    box-shadow: 0 14px 32px rgba(200,162,74,.30);
+}
+
+.dry-secondary-btn {
+    background: #fff;
+    color: #111827;
+    border: 1px solid #e4d6b8;
+}
+
+.dry-quick-facts {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 12px;
+    margin: 18px 0 26px;
+}
+
+.dry-quick-facts article {
+    background: #fff;
+    border: 1px solid #e4d6b8;
+    border-radius: 18px;
+    padding: 16px;
+    box-shadow: 0 10px 26px rgba(17,24,39,.06);
+}
+
+.dry-quick-facts span {
+    display: block;
+    color: #6b7280;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    margin-bottom: 7px;
+}
+
+.dry-quick-facts strong {
+    display: block;
+    color: #111827;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.dry-protected-note {
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    border-left: 5px solid #f97316;
+    border-radius: 16px;
+    padding: 14px 16px;
+    margin-bottom: 22px;
+    color: #7c2d12;
+    font-weight: 700;
+}
+
+.dry-recipe-main-grid {
+    display: grid;
+    grid-template-columns: minmax(320px, 420px) minmax(0, 1fr);
+    gap: 24px;
+    align-items: start;
+}
+
+.dry-ingredients-column {
+    display: grid;
+    gap: 18px;
+}
+
+.dry-method-column {
+    display: grid;
+    gap: 18px;
+}
+
+.dry-panel {
+    background: #fff;
+    border: 1px solid #e4d6b8;
+    border-radius: 24px;
+    padding: 24px;
+    box-shadow: 0 14px 38px rgba(17,24,39,.07);
+}
+
+.dry-panel-heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.dry-panel-heading span {
+    width: 38px;
+    height: 38px;
+    background: #111827;
+    color: #c8a24a;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.dry-panel-heading h2 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: -0.025em;
+}
+
+.dry-amount-list {
+    display: grid;
+    gap: 10px;
+}
+
+.dry-amount-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 14px;
+    align-items: center;
+    background: #fffdf8;
+    border: 1px solid #efe4cf;
+    border-radius: 16px;
+    padding: 14px 16px;
+}
+
+.dry-amount-text strong {
+    display: block;
+    font-size: 17px;
+    color: #111827;
+}
+
+.dry-amount-text p {
+    margin: 4px 0 0;
+    color: #6b7280;
+    line-height: 1.45;
+    font-size: 14px;
+}
+
+.dry-amount-value {
+    background: #f2ead8;
+    border: 1px solid #e4d6b8;
+    border-radius: 999px;
+    padding: 8px 12px;
+    color: #111827;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.dry-method-steps {
+    display: grid;
+    gap: 12px;
+}
+
+.dry-method-step {
+    display: grid;
+    grid-template-columns: 42px minmax(0, 1fr);
+    gap: 14px;
+    background: #fffdf8;
+    border: 1px solid #efe4cf;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.dry-step-number {
+    width: 34px;
+    height: 34px;
+    background: #c8a24a;
+    color: #111827;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.dry-method-step h3 {
+    margin: 0 0 6px;
+    font-size: 18px;
+}
+
+.dry-method-step p {
+    margin: 0;
+    color: #374151;
+    line-height: 1.65;
+}
+
+.dry-mistake-list {
+    display: grid;
+    gap: 12px;
+}
+
+.dry-mistake-card {
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    border-left: 5px solid #f97316;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.dry-mistake-card h3 {
+    margin: 0 0 8px;
+    color: #7c2d12;
+}
+
+.dry-mistake-card p {
+    margin: 6px 0;
+    color: #7c2d12;
+    line-height: 1.55;
+}
+
+@media (max-width: 1100px) {
+    .dry-quick-facts {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .dry-recipe-main-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 680px) {
+    .dry-recipe-page {
+        width: min(100%, calc(100vw - 28px));
+    }
+
+    .dry-recipe-hero {
+        padding: 24px;
+    }
+
+    .dry-quick-facts {
+        grid-template-columns: 1fr;
+    }
+
+    .dry-amount-row {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,166 @@
+(function () {
+    function norm(value) {
+        return (value || "")
+            .toString()
+            .trim()
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "");
+    }
+
+    function cleanRegionName(value) {
+        value = (value || "").toString().trim();
+
+        if (!value) return "Neodređena regija";
+
+        const low = norm(value);
+
+        if (
+            low === "ujedinjeno kraljevstvo" ||
+            low === "united kingdom" ||
+            low === "velika britanija"
+        ) {
+            return "Opći britanski recepti";
+        }
+
+        if (
+            low === "hrvatska" ||
+            low === "italija" ||
+            low === "slovenija" ||
+            low === "francuska" ||
+            low === "njemacka" ||
+            low === "spanjolska" ||
+            low === "svicarska" ||
+            low === "poljska"
+        ) {
+            return "Opći recepti";
+        }
+
+        return value;
+    }
+
+    function findProductRows() {
+        const nameNodes = Array.from(document.querySelectorAll(".pn"));
+        const rows = [];
+
+        nameNodes.forEach(function (nameNode) {
+            const row =
+                nameNode.closest(".dc-product") ||
+                nameNode.closest(".product-row") ||
+                nameNode.closest(".product-card") ||
+                nameNode.closest("[data-product]") ||
+                nameNode.closest("div");
+
+            if (!row) return;
+
+            const regionNode = row.querySelector(".pr");
+            if (!regionNode) return;
+
+            rows.push({
+                row: row,
+                name: nameNode.textContent.trim(),
+                region: cleanRegionName(regionNode.textContent.trim())
+            });
+        });
+
+        return rows;
+    }
+
+    function findCountryContainer(row) {
+        let parent = row.parentElement;
+
+        while (parent && parent !== document.body) {
+            const rowsInside = parent.querySelectorAll(".pn").length;
+
+            if (rowsInside > 1) {
+                return parent;
+            }
+
+            parent = parent.parentElement;
+        }
+
+        return row.parentElement;
+    }
+
+    function applyHierarchy() {
+        const rows = findProductRows();
+
+        if (!rows.length) return;
+
+        const groupsByContainer = new Map();
+
+        rows.forEach(function (item) {
+            const container = findCountryContainer(item.row);
+            if (!container) return;
+
+            if (!groupsByContainer.has(container)) {
+                groupsByContainer.set(container, []);
+            }
+
+            groupsByContainer.get(container).push(item);
+        });
+
+        groupsByContainer.forEach(function (items, container) {
+            if (!items || items.length < 2) return;
+
+            if (container.dataset.drycuredHierarchyApplied === "1") return;
+            container.dataset.drycuredHierarchyApplied = "1";
+
+            const grouped = {};
+
+            items.forEach(function (item) {
+                const key = item.region || "Neodređena regija";
+                if (!grouped[key]) grouped[key] = [];
+                grouped[key].push(item);
+            });
+
+            const regionNames = Object.keys(grouped);
+
+            if (regionNames.length < 2) {
+                return;
+            }
+
+            regionNames.sort(function (a, b) {
+                if (a === "Opći recepti") return -1;
+                if (b === "Opći recepti") return 1;
+                if (a === "Opći britanski recepti") return -1;
+                if (b === "Opći britanski recepti") return 1;
+                return a.localeCompare(b, "hr");
+            });
+
+            regionNames.forEach(function (regionName) {
+                const header = document.createElement("div");
+                header.className = "drycured-calculator-subregion";
+                header.innerHTML =
+                    "<span>" + regionName + "</span>" +
+                    "<strong>" + grouped[regionName].length + " proizvoda</strong>";
+
+                const firstRow = grouped[regionName][0].row;
+                firstRow.parentNode.insertBefore(header, firstRow);
+
+                grouped[regionName].forEach(function (item) {
+                    item.row.classList.add("drycured-calculator-nested-product");
+                });
+            });
+        });
+    }
+
+    function run() {
+        setTimeout(applyHierarchy, 300);
+        setTimeout(applyHierarchy, 800);
+        setTimeout(applyHierarchy, 1500);
+        setTimeout(applyHierarchy, 2500);
+    }
+
+    document.addEventListener("DOMContentLoaded", run);
+
+    document.addEventListener("click", function () {
+        setTimeout(applyHierarchy, 250);
+        setTimeout(applyHierarchy, 700);
+    });
+
+    document.addEventListener("change", function () {
+        setTimeout(applyHierarchy, 250);
+        setTimeout(applyHierarchy, 700);
+    });
+})();

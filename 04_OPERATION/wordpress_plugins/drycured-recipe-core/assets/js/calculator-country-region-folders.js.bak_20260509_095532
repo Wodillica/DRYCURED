@@ -1,0 +1,244 @@
+(function () {
+  "use strict";
+
+  /* ── utils ── */
+  function norm(v) {
+    return (v || "").toString().trim().toLowerCase()
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/[\u2013\u2014\-]/g, "-").replace(/\s+/g, " ");
+  }
+  function getName(prod) {
+    var el = prod.querySelector(".pn"); return el ? el.textContent.trim() : "";
+  }
+  function getRegion(prod) {
+    var el = prod.querySelector(".pr"); return el ? el.textContent.trim() : "";
+  }
+
+  /* ── HRVATSKA — 2 razine: glavna regija → mikroregija ── */
+  function hrHierarchy(rawRegion, productName) {
+    var hay = norm(rawRegion + " " + (productName || ""));
+
+    /* Više regija */
+    if (hay.indexOf("dalmacija") !== -1 && hay.indexOf("istra") !== -1)
+      return { main: "Više regija", sub: "Dalmacija i Istra" };
+
+    /* Slavonija i Baranja — identificiraj i po imenu proizvoda */
+    if (hay.indexOf("slavonija")  !== -1 || hay.indexOf("baranja")    !== -1 ||
+        hay.indexOf("slavonsk")   !== -1 || hay.indexOf("slavonije")  !== -1 ||
+        hay.indexOf("slavonci")   !== -1 || hay.indexOf("vinkovci")   !== -1 ||
+        hay.indexOf("djakovo")    !== -1 || hay.indexOf("dakovo")     !== -1 ||
+        hay.indexOf("osijek")     !== -1 || hay.indexOf("miholjac")   !== -1 ||
+        hay.indexOf("miholjacka") !== -1) {
+      if (hay.indexOf("baranja")  !== -1) return { main: "Slavonija i Baranja", sub: "Baranja" };
+      if (hay.indexOf("srijem")   !== -1 ||
+          hay.indexOf("srem")     !== -1) return { main: "Slavonija i Baranja", sub: "Srijem" };
+      return { main: "Slavonija i Baranja", sub: null };
+    }
+
+    /* Dalmacija */
+    if (hay.indexOf("dalmacija")     !== -1 || hay.indexOf("dalmatinsk")     !== -1 ||
+        hay.indexOf("split")         !== -1 || hay.indexOf("sibenik")        !== -1 ||
+        hay.indexOf("zadar")         !== -1 || hay.indexOf("kistanje")       !== -1 ||
+        hay.indexOf("petrovo polje") !== -1 || hay.indexOf("drnis")          !== -1 ||
+        hay.indexOf("drniski")       !== -1) {
+      if (hay.indexOf("zagora") !== -1) return { main: "Dalmacija", sub: "Dalmatinska zagora" };
+      return { main: "Dalmacija", sub: null };
+    }
+
+    /* Istra */
+    if (hay.indexOf("istra")    !== -1 || hay.indexOf("istarski") !== -1 ||
+        hay.indexOf("istarska") !== -1 || hay.indexOf("pula")     !== -1 ||
+        hay.indexOf("rovinj")   !== -1 || hay.indexOf("labin")    !== -1) {
+      return { main: "Istra", sub: null };
+    }
+
+    /* Kvarner i otoci */
+    if (hay.indexOf("krk")    !== -1) return { main: "Kvarner i otoci", sub: "Krk" };
+    if (hay.indexOf("cres")   !== -1) return { main: "Kvarner i otoci", sub: "Cres" };
+    if (hay.indexOf("losinj") !== -1) return { main: "Kvarner i otoci", sub: "Lošinj" };
+    if (hay.indexOf("crikvenica") !== -1 || hay.indexOf("crikvenick") !== -1)
+      return { main: "Kvarner i otoci", sub: "Crikvenica" };
+    if (hay.indexOf("kvarner") !== -1) return { main: "Kvarner i otoci", sub: null };
+
+    /* Sjeverna Hrvatska */
+    if (hay.indexOf("zagorje")  !== -1 || hay.indexOf("zagorsk") !== -1)
+      return { main: "Sjeverna Hrvatska", sub: "Zagorje" };
+    if (hay.indexOf("medimurje") !== -1)
+      return { main: "Sjeverna Hrvatska", sub: "Međimurje" };
+    if (hay.indexOf("podravina") !== -1 || hay.indexOf("podravsk")  !== -1 ||
+        hay.indexOf("koprivnic") !== -1 || hay.indexOf("virovitica") !== -1)
+      return { main: "Sjeverna Hrvatska", sub: "Podravina" };
+    if (hay.indexOf("moslavina") !== -1 || hay.indexOf("bjelovar")  !== -1)
+      return { main: "Sjeverna Hrvatska", sub: "Moslavina i Bilogora" };
+    if (hay.indexOf("zagreb")   !== -1 || hay.indexOf("okolica zagreba") !== -1)
+      return { main: "Sjeverna Hrvatska", sub: "Okolica Zagreba" };
+    if (hay.indexOf("sjeverna hrvatska") !== -1)
+      return { main: "Sjeverna Hrvatska", sub: null };
+
+    /* Lika i Gorski kotar */
+    if (hay.indexOf("lika")        !== -1 || hay.indexOf("gorski kotar") !== -1 ||
+        hay.indexOf("plitvice")    !== -1 || hay.indexOf("gracac")       !== -1 ||
+        hay.indexOf("gospic")      !== -1) {
+      if (hay.indexOf("gorski kotar") !== -1 && hay.indexOf("lika") === -1)
+        return { main: "Lika i Gorski kotar", sub: "Gorski kotar" };
+      if (hay.indexOf("lika") !== -1 && hay.indexOf("gorski kotar") === -1)
+        return { main: "Lika i Gorski kotar", sub: "Lika" };
+      return { main: "Lika i Gorski kotar", sub: null };
+    }
+
+    /* Hrvatsko primorje */
+    if (hay.indexOf("primorje") !== -1 || hay.indexOf("rijeka") !== -1)
+      return { main: "Hrvatsko primorje", sub: null };
+
+    /* Banovina i Kordun */
+    if (hay.indexOf("banovina") !== -1 || hay.indexOf("kordun")   !== -1 ||
+        hay.indexOf("sisak")    !== -1 || hay.indexOf("petrinja") !== -1)
+      return { main: "Banovina i Kordun", sub: null };
+
+    return { main: "Ostale regije", sub: null };
+  }
+
+  /* ── DOM helpers ── */
+  function makeFolder(label, count, cls) {
+    var d = document.createElement("details");
+    d.className = cls || "dc-rf";
+    var s = document.createElement("summary");
+    s.className = "dc-rfh";
+    s.innerHTML =
+      '<span class="dc-rfn">' + label + "</span>" +
+      '<span class="dc-rfc">' + count + "\u00a0" +
+      (count === 1 ? "proizvod" : "proizvoda") + "\u00a0\u25be</span>";
+    d.appendChild(s);
+    return d;
+  }
+
+  function sortProds(arr) {
+    return arr.sort(function (a, b) {
+      return getName(a).localeCompare(getName(b), "hr");
+    });
+  }
+
+  /* ── Hrvatska: 2-razinska organizacija ── */
+  function enhanceCroatia(block) {
+    if (block.dataset.dcRe === "2") return;
+    var rb = block.querySelector(".dc-rb");
+    if (!rb) return;
+    var prods = Array.from(rb.querySelectorAll(".dc-prod"));
+    if (prods.length < 2) return;
+    block.dataset.dcRe = "2";
+
+    /* Grupiranje */
+    var mainMap = {};
+    prods.forEach(function (p) {
+      var h = hrHierarchy(getRegion(p), getName(p));
+      if (!mainMap[h.main]) mainMap[h.main] = {};
+      var sk = h.sub || "__";
+      if (!mainMap[h.main][sk]) mainMap[h.main][sk] = [];
+      mainMap[h.main][sk].push(p);
+    });
+
+    /* Ukloni iz DOM-a */
+    prods.forEach(function (p) { if (p.parentNode) p.parentNode.removeChild(p); });
+
+    /* Dodaj reorganizirane foldere */
+    Object.keys(mainMap).sort(function (a, b) { return a.localeCompare(b, "hr"); })
+      .forEach(function (main) {
+        var subMap = mainMap[main];
+        var total = Object.keys(subMap).reduce(function (s, k) { return s + subMap[k].length; }, 0);
+        var mf = makeFolder(main, total, "dc-rf dc-rf-main");
+        var mb = document.createElement("div");
+        mb.className = "dc-rfb";
+
+        Object.keys(subMap)
+          .sort(function (a, b) {
+            if (a === "__") return -1; if (b === "__") return 1;
+            return a.localeCompare(b, "hr");
+          })
+          .forEach(function (sub) {
+            var sp = sortProds(subMap[sub]);
+            if (sub === "__") {
+              sp.forEach(function (p) { mb.appendChild(p); });
+            } else {
+              var sf = makeFolder(sub, sp.length, "dc-rf dc-rf-sub");
+              var sb = document.createElement("div");
+              sb.className = "dc-rfb";
+              sp.forEach(function (p) { sb.appendChild(p); });
+              sf.appendChild(sb);
+              mb.appendChild(sf);
+            }
+          });
+
+        mf.appendChild(mb);
+        rb.appendChild(mf);
+      });
+  }
+
+  /* ── Ostale države: 1 razina (samo ako ima različitih regija) ── */
+  function enhanceOther(block) {
+    if (block.dataset.dcRe === "1" || block.dataset.dcRe === "2") return;
+    var rb = block.querySelector(".dc-rb");
+    if (!rb) return;
+    var prods = Array.from(rb.querySelectorAll(".dc-prod"));
+    if (prods.length < 2) return;
+
+    var hb = block.querySelector(".dc-rh");
+    var country = hb ? norm(hb.textContent.replace(/\s+\d+\s*proizvod.*$/i, "")) : "";
+
+    var groups = {};
+    prods.forEach(function (p) {
+      var r = getRegion(p);
+      var lbl = (r && norm(r) !== country) ? r : "Opći recepti";
+      if (!groups[lbl]) groups[lbl] = [];
+      groups[lbl].push(p);
+    });
+
+    var names = Object.keys(groups);
+    if (names.length < 2) return; /* sve iste regije — ne grupiraj */
+
+    block.dataset.dcRe = "1";
+    prods.forEach(function (p) { if (p.parentNode) p.parentNode.removeChild(p); });
+
+    names.sort(function (a, b) {
+      if (a === "Opći recepti") return -1; if (b === "Opći recepti") return 1;
+      return a.localeCompare(b, "hr");
+    }).forEach(function (name) {
+      var gp = sortProds(groups[name]);
+      var f = makeFolder(name, gp.length, "dc-rf");
+      var bd = document.createElement("div");
+      bd.className = "dc-rfb";
+      gp.forEach(function (p) { bd.appendChild(p); });
+      f.appendChild(bd);
+      rb.appendChild(f);
+    });
+  }
+
+  /* ── Glavni runner — samo otvorene (vidljive) mape ── */
+  function run() {
+    document.querySelectorAll(".dc-rg").forEach(function (block) {
+      var rb = block.querySelector(".dc-rb");
+      if (!rb || rb.offsetHeight === 0) return; /* preskoči zatvorene */
+      var hb = block.querySelector(".dc-rh");
+      var country = hb ? norm(hb.textContent.replace(/\s+\d+\s*proizvod.*$/i, "")) : "";
+      if (country === "hrvatska") {
+        enhanceCroatia(block);
+      } else {
+        enhanceOther(block);
+      }
+    });
+  }
+
+  function defer() {
+    setTimeout(run, 150);
+    setTimeout(run, 500);
+    setTimeout(run, 1000);
+  }
+
+  document.addEventListener("DOMContentLoaded", defer);
+  document.addEventListener("click",  defer);
+  document.addEventListener("change", defer);
+  document.addEventListener("DOMContentLoaded", function () {
+    var app = document.querySelector("#dc-app") || document.body;
+    new MutationObserver(defer).observe(app, { childList: true, subtree: true });
+  });
+
+})();

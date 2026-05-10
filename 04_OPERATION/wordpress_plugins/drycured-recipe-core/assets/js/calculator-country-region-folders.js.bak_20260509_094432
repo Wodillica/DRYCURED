@@ -1,0 +1,181 @@
+(function () {
+  function n(v) {
+    return (v || "")
+      .toString()
+      .trim()
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[—–]/g, "-")
+      .replace(/\s+/g, " ");
+  }
+
+  function titleText(el) {
+    return (el ? el.textContent : "")
+      .replace(/\s+\d+\s*proizvoda?.*$/i, "")
+      .trim();
+  }
+
+  function getProductName(row) {
+    var el = row.querySelector(".pn, .p, h4, strong");
+    return el ? el.textContent.trim() : row.textContent.trim();
+  }
+
+  function getProductRegion(row) {
+    var el = row.querySelector(".pr, .sid, .meta, em");
+    return el ? el.textContent.trim() : "";
+  }
+
+  function regionLabel(country, rawRegion, productName) {
+    var c = n(country);
+    var r = (rawRegion || "").trim();
+    var hay = n(r + " " + (productName || ""));
+
+    if (!r) return "Opći recepti";
+
+    if (n(r) === c) return "Opći recepti";
+
+    if (hay.indexOf("balkan") !== -1) return "Opći recepti";
+
+    if (c === "hrvatska") {
+      if (hay.indexOf("slavonija") !== -1) return "Slavonija";
+      if (hay.indexOf("srijem") !== -1 || hay.indexOf("srem") !== -1) return "Srijem";
+      if (hay.indexOf("istra") !== -1 && hay.indexOf("dalmacija") !== -1) return "Više hrvatskih regija / Dalmacija i Istra";
+      if (hay.indexOf("istra") !== -1) return "Istra";
+      if (hay.indexOf("dalmacija") !== -1) return "Dalmacija";
+      if (hay.indexOf("zagorje") !== -1) return "Sjeverna Hrvatska / Hrvatsko zagorje";
+      if (hay.indexOf("medimurje") !== -1 || hay.indexOf("medjimurje") !== -1) return "Sjeverna Hrvatska / Međimurje";
+      if (hay.indexOf("okolica zagreba") !== -1) return "Sjeverna Hrvatska / okolica Zagreba";
+      if (hay.indexOf("sjeverna hrvatska") !== -1) return "Sjeverna Hrvatska";
+      if (hay.indexOf("otok krk") !== -1 || hay.indexOf(" krk") !== -1 || hay === "krk") return "Kvarner i otoci / Krk";
+      if (hay.indexOf("cres") !== -1) return "Kvarner i otoci / Cres";
+      if (hay.indexOf("kvarner") !== -1) return "Kvarner i otoci";
+      if (hay.indexOf("primorje") !== -1) return "Hrvatsko primorje";
+      if (hay.indexOf("lika") !== -1 || hay.indexOf("gorski kotar") !== -1) return "Lika i Gorski kotar";
+      return r;
+    }
+
+    if (c === "srbija") {
+      if (hay.indexOf("vojvodina") !== -1) return "Vojvodina";
+      if (hay.indexOf("backa") !== -1 || hay.indexOf("bačka") !== -1) return "Vojvodina / Bačka";
+      if (hay.indexOf("banat") !== -1) return "Vojvodina / Banat";
+      if (hay.indexOf("srijem") !== -1 || hay.indexOf("srem") !== -1) return "Vojvodina / Srijem";
+      return r;
+    }
+
+    if (c === "italija") {
+      if (hay.indexOf("emilia") !== -1 || hay.indexOf("parma") !== -1 || hay.indexOf("piacenza") !== -1) return "Emilia-Romagna";
+      if (hay.indexOf("calabria") !== -1 || hay.indexOf("kalabrija") !== -1) return "Kalabrija";
+      if (hay.indexOf("toscana") !== -1) return "Toskana";
+      if (hay.indexOf("lombard") !== -1) return "Lombardija";
+      if (hay.indexOf("alto adige") !== -1 || hay.indexOf("sudtirol") !== -1) return "Alto Adige / Südtirol";
+      return r;
+    }
+
+    if (c === "ujedinjeno kraljevstvo") {
+      if (hay.indexOf("cumberland") !== -1) return "Engleska / Cumberland";
+      if (hay.indexOf("engleska") !== -1 || hay.indexOf("england") !== -1) return "Engleska";
+      if (hay.indexOf("skotska") !== -1 || hay.indexOf("scotland") !== -1 || hay.indexOf("lorne") !== -1) return "Škotska";
+      if (hay.indexOf("wales") !== -1 || hay.indexOf("welsh") !== -1) return "Wales";
+      if (hay.indexOf("sjeverna irska") !== -1 || hay.indexOf("northern ireland") !== -1 || hay.indexOf("ulster") !== -1) return "Sjeverna Irska";
+      return r;
+    }
+
+    return r;
+  }
+
+  function enhanceCountry(countryBlock) {
+    if (!countryBlock || countryBlock.dataset.dcRegionEnhanced === "1") return;
+
+    var head = countryBlock.querySelector(".dc-h");
+    if (!head) return;
+
+    var country = titleText(head);
+    var productRows = Array.from(countryBlock.querySelectorAll(".dc-p"));
+
+    if (productRows.length < 2) return;
+
+    var firstParent = productRows[0].parentNode;
+    if (!firstParent) return;
+
+    var groups = {};
+
+    productRows.forEach(function (row) {
+      var name = getProductName(row);
+      var rawRegion = getProductRegion(row);
+      var label = regionLabel(country, rawRegion, name);
+
+      if (!groups[label]) groups[label] = [];
+      groups[label].push(row);
+    });
+
+    var names = Object.keys(groups);
+
+    if (names.length < 2) return;
+
+    countryBlock.dataset.dcRegionEnhanced = "1";
+
+    productRows.forEach(function (row) {
+      if (row.parentNode) row.parentNode.removeChild(row);
+    });
+
+    names.sort(function (a, b) {
+      if (a === "Opći recepti") return -1;
+      if (b === "Opći recepti") return 1;
+      return a.localeCompare(b, "hr");
+    });
+
+    names.forEach(function (name) {
+      var details = document.createElement("details");
+      details.className = "dc-region-folder";
+
+      var summary = document.createElement("summary");
+      summary.className = "dc-region-head";
+
+      var count = groups[name].length;
+      summary.innerHTML =
+        '<span class="dc-region-name">' + name + '</span>' +
+        '<span class="dc-region-count">' + count + ' ' + (count === 1 ? 'proizvod' : 'proizvoda') + ' ▾</span>';
+
+      var body = document.createElement("div");
+      body.className = "dc-region-body";
+
+      groups[name]
+        .sort(function (a, b) {
+          return getProductName(a).localeCompare(getProductName(b), "hr");
+        })
+        .forEach(function (row) {
+          body.appendChild(row);
+        });
+
+      details.appendChild(summary);
+      details.appendChild(body);
+      firstParent.appendChild(details);
+    });
+  }
+
+  function run() {
+    var countries = Array.from(document.querySelectorAll(".dc-r"));
+    countries.forEach(enhanceCountry);
+  }
+
+  function delayedRun() {
+    setTimeout(run, 100);
+    setTimeout(run, 400);
+    setTimeout(run, 900);
+    setTimeout(run, 1600);
+  }
+
+  document.addEventListener("DOMContentLoaded", delayedRun);
+  document.addEventListener("click", delayedRun);
+  document.addEventListener("change", delayedRun);
+
+  var observer = new MutationObserver(function () {
+    delayedRun();
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var app = document.querySelector("#dc-app") || document.body;
+    observer.observe(app, { childList: true, subtree: true });
+  });
+})();

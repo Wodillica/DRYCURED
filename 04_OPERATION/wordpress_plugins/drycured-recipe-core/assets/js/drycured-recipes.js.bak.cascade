@@ -1,0 +1,27 @@
+(function(){
+const $=(r,s)=>r.querySelector(s), $$=(r,s)=>Array.from(r.querySelectorAll(s));
+async function json(url){const r=await fetch(url,{credentials:'same-origin'}); if(!r.ok) throw new Error('Greška'); return await r.json();}
+function slug(s){return (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');}
+function opts(sel,items){ if(!sel||!items) return; items.forEach(i=>{let o=document.createElement('option'); o.value=i.slug; o.textContent=i.name.charAt(0).toUpperCase()+i.name.slice(1)+(i.count?' ('+i.count+')':''); sel.appendChild(o);});}
+function list(items){ if(!items.length)return '<p>Nema recepata za odabrane filtere.</p>'; return `<div class="drycured-list-wrap"><table class="drycured-list-table"><thead><tr><th>Naziv</th><th>Regija</th><th>Vrsta</th><th>Meso</th><th>Postupak</th><th></th></tr></thead><tbody>${items.map(i=>`<tr><td><a href="${i.link}">${i.title}</a></td><td>${i.region||''}</td><td>${i.category||''}</td><td>${(i.meat_types||[]).join(', ')}</td><td>${(i.processes||[]).join(', ')}</td><td>${i.calculator_ready?`<a class="drycured-mini-action" href="${i.calculator_url}">Izračunaj</a>`:''}</td></tr>`).join('')}</tbody></table></div>`;}
+function cards(items){ if(!items.length)return '<p>Nema recepata za odabrane filtere.</p>'; return `<div class="drycured-card-grid">${items.map(i=>`<article class="drycured-modern-card"><h3><a href="${i.link}">${i.title}</a></h3><div class="drycured-card-meta">${[i.region,i.category].filter(Boolean).join(' · ')}</div><p>${i.excerpt||''}</p><div class="drycured-card-actions"><a href="${i.link}">Otvori</a>${i.calculator_ready?`<a href="${i.calculator_url}">Izračunaj</a>`:''}</div></article>`).join('')}</div>`;}
+function atlas(a){ let countries=Object.keys(a||{}); if(!countries.length)return '<p>Nema recepata za prikaz.</p>'; return `<div class="drycured-atlas">${countries.map(c=>{let cc=a[c], regs=Object.keys(cc.regions||{}); return `<section class="drycured-atlas-country"><div class="drycured-atlas-title"><span>${c}</span><strong>${cc.count}</strong></div>${regs.map(r=>{let rr=cc.regions[r], cats=Object.keys(rr.categories||{}); return `<div class="drycured-atlas-region"><div class="drycured-atlas-region-title">${r} <span>${rr.count}</span></div><div class="drycured-atlas-cats">${cats.map(cat=>`<button type="button" data-region="${r}" data-category="${cat}">${cat} (${rr.categories[cat]})</button>`).join('')}</div></div>`}).join('')}</section>`}).join('')}</div>`;}
+async function app(el){let res=$('.drycured-recipes-results',el), count=$('.drycured-recipes-count',el), search=$('.drycured-recipe-search',el), view=el.dataset.view||'list', data={items:[],atlas:{}}; try{let f=await json(DrycuredRecipes.restUrl+'/filters'); opts($('[data-filter="country"]',el),f.dry_country); opts($('[data-filter="region"]',el),f.dry_region);
+    // Cascade: kad se promijeni država, filtriraj regije
+    const countryEl=$('[data-filter="country"]',el), regionEl=$('[data-filter="region"]',el);
+    if(countryEl && regionEl){
+        countryEl.addEventListener('change',async function(){
+            const slug=this.value;
+            regionEl.innerHTML='<option value="">Sve regije</option>';
+            if(!slug){opts(regionEl,f.dry_region);return;}
+            try{
+                const regs=await json(DrycuredRecipes.restUrl+'/filters/regions?country='+slug);
+                opts(regionEl,regs);
+            }catch(e){opts(regionEl,f.dry_region);}
+        });
+    } opts($('[data-filter="category"]',el),f.dry_product_category); opts($('[data-filter="meat"]',el),f.dry_meat_type); opts($('[data-filter="process"]',el),f.dry_process_type);}catch(e){}
+function render(){count.textContent=(data.total||0)+' recepata'; $$('.drycured-view-btn',el).forEach(b=>b.classList.toggle('is-active',b.dataset.view===view)); res.innerHTML=view==='atlas'?atlas(data.atlas):view==='list'?list(data.items):cards(data.items);}
+async function load(){let p=new URLSearchParams(); if(search.value.trim())p.set('search',search.value.trim()); $$('.drycured-filter',el).forEach(s=>{if(s.value)p.set(s.dataset.filter,s.value)}); p.set('per_page','1000'); res.innerHTML='<p>Učitavanje recepata...</p>'; try{data=await json(DrycuredRecipes.restUrl+'/recipes?'+p.toString()); render();}catch(e){res.innerHTML='<p>Došlo je do greške pri učitavanju recepata.</p>';}}
+let t; search.addEventListener('input',()=>{clearTimeout(t); t=setTimeout(load,300)}); $$('.drycured-filter',el).forEach(s=>s.addEventListener('change',load)); $$('.drycured-view-btn',el).forEach(b=>b.addEventListener('click',()=>{view=b.dataset.view; render();})); res.addEventListener('click',e=>{let b=e.target.closest('[data-region][data-category]'); if(!b)return; let rs=$('[data-filter="region"]',el), cs=$('[data-filter="category"]',el); if(rs)rs.value=slug(b.dataset.region); if(cs)cs.value=slug(b.dataset.category); view='list'; load();}); load();}
+document.addEventListener('DOMContentLoaded',()=>$$ (document,'.drycured-recipes-app').forEach(app));
+})();

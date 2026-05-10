@@ -1,0 +1,214 @@
+(function () {
+    function norm(value) {
+        return (value || "")
+            .toString()
+            .trim()
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "");
+    }
+
+    function cleanRegion(value, countryName) {
+        value = (value || "").toString().trim();
+        if (!value) return "Opći recepti";
+
+        var v = norm(value);
+        var c = norm(countryName);
+
+        if (v === c) return "Opći recepti";
+
+        var countryNames = [
+            "hrvatska",
+            "italija",
+            "slovenija",
+            "francuska",
+            "njemacka",
+            "spanjolska",
+            "svicarska",
+            "poljska",
+            "rumunjska",
+            "rusija",
+            "ujedinjeno kraljevstvo",
+            "united kingdom",
+            "velika britanija",
+            "austrija",
+            "ceska",
+            "slovacka",
+            "portugal",
+            "grcka",
+            "malta",
+            "island",
+            "irska",
+            "ukrajina",
+            "madarska",
+            "belgija"
+        ];
+
+        if (countryNames.indexOf(v) !== -1) {
+            return "Opći recepti";
+        }
+
+        return value;
+    }
+
+    function findProductRow(pn) {
+        var selectors = [
+            ".product-row",
+            ".dc-product",
+            ".dc-product-row",
+            ".product-card",
+            ".dc-item",
+            ".product-item",
+            "[data-product]"
+        ];
+
+        for (var i = 0; i < selectors.length; i++) {
+            var found = pn.closest(selectors[i]);
+            if (found) return found;
+        }
+
+        if (pn.parentElement && pn.parentElement.parentElement) {
+            return pn.parentElement.parentElement;
+        }
+
+        return pn.parentElement || pn;
+    }
+
+    function findCountryContainer(row) {
+        var parent = row.parentElement;
+
+        while (parent && parent !== document.body) {
+            var productCount = parent.querySelectorAll(".pn").length;
+
+            if (productCount >= 2) {
+                return parent;
+            }
+
+            parent = parent.parentElement;
+        }
+
+        return row.parentElement;
+    }
+
+    function findCountryName(container) {
+        var node = container;
+
+        for (var i = 0; i < 7 && node; i++) {
+            var prev = node.previousElementSibling;
+
+            while (prev) {
+                var txt = (prev.textContent || "").trim();
+
+                if (txt && txt.length < 100 && !prev.classList.contains("drycured-region-accordion")) {
+                    txt = txt.replace(/\d+\s*proizvoda?.*$/i, "").trim();
+                    if (txt) return txt;
+                }
+
+                prev = prev.previousElementSibling;
+            }
+
+            node = node.parentElement;
+        }
+
+        return "";
+    }
+
+    function applyRegionFolders() {
+        var pnNodes = Array.from(document.querySelectorAll(".pn"));
+        if (!pnNodes.length) return;
+
+        var containers = new Map();
+
+        pnNodes.forEach(function (pn) {
+            var row = findProductRow(pn);
+            if (!row) return;
+            if (row.closest(".drycured-region-accordion")) return;
+
+            var regionNode = row.querySelector(".pr");
+            if (!regionNode) return;
+
+            var container = findCountryContainer(row);
+            if (!container) return;
+
+            if (!containers.has(container)) {
+                containers.set(container, []);
+            }
+
+            containers.get(container).push({
+                row: row,
+                name: (pn.textContent || "").trim(),
+                region: (regionNode.textContent || "").trim()
+            });
+        });
+
+        containers.forEach(function (items, container) {
+            if (!items || items.length < 2) return;
+            if (container.dataset.drycuredRegionAccordion === "1") return;
+
+            var countryName = findCountryName(container);
+            var groups = {};
+
+            items.forEach(function (item) {
+                var region = cleanRegion(item.region, countryName);
+                if (!groups[region]) groups[region] = [];
+                groups[region].push(item);
+            });
+
+            var regionNames = Object.keys(groups);
+            if (regionNames.length < 2) return;
+
+            container.dataset.drycuredRegionAccordion = "1";
+
+            regionNames.sort(function (a, b) {
+                if (a === "Opći recepti") return -1;
+                if (b === "Opći recepti") return 1;
+                return a.localeCompare(b, "hr");
+            });
+
+            regionNames.forEach(function (regionName) {
+                var rows = groups[regionName];
+                var firstRow = rows[0].row;
+
+                if (!firstRow || !firstRow.parentNode) return;
+
+                var details = document.createElement("details");
+                details.className = "drycured-region-accordion";
+
+                var summary = document.createElement("summary");
+                summary.className = "drycured-region-summary";
+                summary.innerHTML =
+                    "<span>" + regionName + "</span>" +
+                    "<strong>" + rows.length + " proizvoda</strong>";
+
+                var body = document.createElement("div");
+                body.className = "drycured-region-products";
+
+                firstRow.parentNode.insertBefore(details, firstRow);
+                details.appendChild(summary);
+                details.appendChild(body);
+
+                rows.forEach(function (item) {
+                    item.row.classList.add("drycured-region-product-row");
+                    body.appendChild(item.row);
+                });
+            });
+        });
+    }
+
+    function schedule() {
+        setTimeout(applyRegionFolders, 200);
+        setTimeout(applyRegionFolders, 700);
+        setTimeout(applyRegionFolders, 1400);
+        setTimeout(applyRegionFolders, 2500);
+    }
+
+    document.addEventListener("DOMContentLoaded", schedule);
+
+    document.addEventListener("click", function (e) {
+        if (e.target.closest(".drycured-region-accordion")) return;
+        setTimeout(applyRegionFolders, 300);
+        setTimeout(applyRegionFolders, 900);
+    });
+
+    document.addEventListener("change", schedule);
+})();

@@ -1,0 +1,325 @@
+{
+  "version": "0.1",
+  "countries": {
+    "hrvatska": {
+      "label_hr": "Hrvatska",
+      "aliases": ["Hrvatska", "Croatia"],
+      "regions": {
+        "istra": {
+          "label_hr": "Istra",
+          "aliases": ["Istra", "Središnja Istra", "Žminj", "Tinjan", "Sveti Petar u Šumi", "Bujština"]
+        },
+        "kvarner_i_otoci": {
+          "label_hr": "Kvarner i otoci",
+          "aliases": ["Kvarner", "Kvarner i otoci", "Otok Krk", "Krk", "Cres", "Lošinj", "Rab", "Primorje i otoci"]
+        },
+        "hrvatsko_primorje": {
+          "label_hr": "Hrvatsko primorje",
+          "aliases": ["Hrvatsko primorje", "Primorje", "Rijeka", "Opatija", "Lovran", "Vinodol"]
+        },
+        "slavonija": {
+          "label_hr": "Slavonija",
+          "aliases": ["Slavonija", "Đakovština", "Požeština", "Vinkovci", "Županja"]
+        },
+        "baranja": {
+          "label_hr": "Baranja",
+          "aliases": ["Baranja"]
+        },
+        "srijem_podunavlje": {
+          "label_hr": "Srijem / Podunavlje",
+          "aliases": ["Srijem", "Podunavlje", "Ilok", "Vukovar"]
+        },
+        "dalmacija": {
+          "label_hr": "Dalmacija",
+          "aliases": ["Dalmacija", "Dalmatinska zagora", "Ravni kotari", "Bukovica", "Imotska krajina", "Sinjska krajina"]
+        },
+        "lika_gorski_kotar": {
+          "label_hr": "Lika i Gorski kotar",
+          "aliases": ["Lika", "Gorski kotar", "Velebit", "Gacka", "Ogulin", "Delnice"]
+        },
+        "sredisnja_hrvatska": {
+          "label_hr": "Središnja Hrvatska",
+          "aliases": ["Središnja Hrvatska", "Zagorje", "Hrvatsko zagorje", "Međimurje", "okolica Zagreba", "Turopolje", "Moslavina", "Banovina", "Kordun", "Podravina"]
+        }
+      }
+    },
+
+    "slovenija": {
+      "label_hr": "Slovenija",
+      "aliases": ["Slovenija", "Slovenia"],
+      "regions": {
+        "kras": {
+          "label_hr": "Kras",
+          "aliases": ["Kras", "Kraški", "Kraški pršut"]
+        },
+        "kranjska": {
+          "label_hr": "Kranjska",
+          "aliases": ["Kranjska", "Gorenjska", "Krainer"]
+        }
+      }
+    },
+
+    "bosna_i_hercegovina": {
+      "label_hr": "Bosna i Hercegovina",
+      "aliases": ["Bosna i Hercegovina", "BiH", "Bosnia and Herzegovina"],
+      "regions": {
+        "bosna": {
+          "label_hr": "Bosna",
+          "aliases": ["Bosna"]
+        },
+        "visoko": {
+          "label_hr": "Visoko",
+          "aliases": ["Visoko", "Visočka pečenica"]
+        },
+        "hercegovina": {
+          "label_hr": "Hercegovina",
+          "aliases": ["Hercegovina"]
+        }
+      }
+    },
+
+    "crna_gora": {
+      "label_hr": "Crna Gora",
+      "aliases": ["Crna Gora", "Montenegro"],
+      "regions": {
+        "njegusi": {
+          "label_hr": "Njeguši",
+          "aliases": ["Njeguši", "Njeguški"]
+        },
+        "petrovac": {
+          "label_hr": "Petrovac na Moru",
+          "aliases": ["Petrovac", "Petrovačka kobasica"]
+        }
+      }
+    },
+
+    "srbija": {
+      "label_hr": "Srbija",
+      "aliases": ["Srbija", "Serbia"],
+      "regions": {
+        "vojvodina": {
+          "label_hr": "Vojvodina",
+          "aliases": ["Vojvodina", "Bačka", "Banat", "Srem", "Srijem"]
+        },
+        "zlatibor": {
+          "label_hr": "Zlatibor",
+          "aliases": ["Zlatibor", "Užice", "Užička"]
+        },
+        "leskovac": {
+          "label_hr": "Leskovac",
+          "aliases": ["Leskovac", "Leskovački"]
+        }
+      }
+    },
+
+    "italija": {
+      "label_hr": "Italija",
+      "aliases": ["Italija", "Italy", "Italia"],
+      "regions": {
+        "emilia_romagna": {
+          "label_hr": "Emilia-Romagna",
+          "aliases": ["Emilia-Romagna", "Parma", "Piacenza", "Coppa Piacentina", "Prosciutto di Parma"]
+        },
+        "kalabrija": {
+          "label_hr": "Kalabrija",
+          "aliases": ["Calabria", "Kalabrija", "Nduja", "Nduja Calabrese", "Soppressata Calabrese"]
+        },
+        "toscana": {
+          "label_hr": "Toskana",
+          "aliases": ["Toscana", "Tuscany", "Finocchiona"]
+        },
+        "lombardija": {
+          "label_hr": "Lombardija",
+          "aliases": ["Lombardia", "Lombardija", "Salame Milano"]
+        },
+        "alto_adige": {
+          "label_hr": "Alto Adige / Südtirol",
+          "aliases": ["Alto Adige", "Südtirol", "Sudtirol", "Speck Alto Adige"]
+        }
+      }
+    },
+
+    "svicarska": {
+      "label_hr": "Švicarska",
+      "aliases": ["Švicarska", "Svicarska", "Switzerland", "Swiss"],
+      "regions": {
+        "opci_svicarski": {
+          "label_hr": "Opći švicarski recepti",
+          "aliases": ["Švicarska", "Swiss", "Saucisse", "Landjäger", "Landjaeger"]
+        }
+      }
+    },
+
+    "francuska": {
+      "label_hr": "Francuska",
+      "aliases": ["Francuska", "France", "French"],
+      "regions": {
+        "lyon": {
+          "label_hr": "Lyon",
+          "aliases": ["Lyon", "Saucisson sec de Lyon"]
+        },
+        "auvergne": {
+          "label_hr": "Auvergne",
+          "aliases": ["Auvergne"]
+        },
+        "korzika": {
+          "label_hr": "Korzika",
+          "aliases": ["Korzika", "Corsica", "Corse"]
+        }
+      }
+    },
+
+    "spanjolska": {
+      "label_hr": "Španjolska",
+      "aliases": ["Španjolska", "Spain", "España", "Espana"],
+      "regions": {
+        "katalonija": {
+          "label_hr": "Katalonija",
+          "aliases": ["Katalonija", "Catalonia", "Catalunya", "Butifarra", "Secallona"]
+        },
+        "baskija": {
+          "label_hr": "Baskija",
+          "aliases": ["Baskija", "Basque"]
+        },
+        "andaluzija": {
+          "label_hr": "Andaluzija",
+          "aliases": ["Andaluzija", "Andalucia"]
+        }
+      }
+    },
+
+    "ujedinjeno_kraljevstvo": {
+      "label_hr": "Ujedinjeno Kraljevstvo",
+      "aliases": ["Ujedinjeno Kraljevstvo", "United Kingdom", "UK", "Velika Britanija", "Great Britain", "Britain"],
+      "regions": {
+        "engleska": {
+          "label_hr": "Engleska",
+          "aliases": ["Engleska", "England", "English", "Cumberland", "Lincolnshire", "Yorkshire", "Black pudding"]
+        },
+        "skotska": {
+          "label_hr": "Škotska",
+          "aliases": ["Škotska", "Skotska", "Scotland", "Scottish", "Lorne sausage", "Haggis"]
+        },
+        "wales": {
+          "label_hr": "Wales",
+          "aliases": ["Wales", "Welsh"]
+        },
+        "sjeverna_irska": {
+          "label_hr": "Sjeverna Irska",
+          "aliases": ["Sjeverna Irska", "Northern Ireland", "Ulster"]
+        }
+      }
+    },
+
+    "poljska": {
+      "label_hr": "Poljska",
+      "aliases": ["Poljska", "Poland", "Polish", "Kabanosy", "Kaszanka"],
+      "regions": {}
+    },
+
+    "rumunjska": {
+      "label_hr": "Rumunjska",
+      "aliases": ["Rumunjska", "Romania", "Romanian", "Slănină", "Slanina", "Chișcă", "Chisca"],
+      "regions": {}
+    },
+
+    "rusija": {
+      "label_hr": "Rusija",
+      "aliases": ["Rusija", "Russia", "Russian", "Salo"],
+      "regions": {}
+    },
+
+    "grcka": {
+      "label_hr": "Grčka",
+      "aliases": ["Grčka", "Grcka", "Greece", "Greek", "Loukaniko"],
+      "regions": {}
+    },
+
+    "malta": {
+      "label_hr": "Malta",
+      "aliases": ["Malta", "Maltese"],
+      "regions": {}
+    },
+
+    "belgija": {
+      "label_hr": "Belgija",
+      "aliases": ["Belgija", "Belgium", "Belgian"],
+      "regions": {}
+    },
+
+    "austrija": {
+      "label_hr": "Austrija",
+      "aliases": ["Austrija", "Austria", "Austrian", "Wiener"],
+      "regions": {}
+    },
+
+    "njemacka": {
+      "label_hr": "Njemačka",
+      "aliases": ["Njemačka", "Njemacka", "Germany", "German", "Bratwurst", "Leberwurst", "Mettwurst"],
+      "regions": {
+        "bavarska": {
+          "label_hr": "Bavarska",
+          "aliases": ["Bavarska", "Bayern", "Bavaria"]
+        },
+        "turingija": {
+          "label_hr": "Tiringija",
+          "aliases": ["Thuringia", "Thueringer", "Thüringer", "Tiringija"]
+        }
+      }
+    },
+
+    "irska": {
+      "label_hr": "Irska",
+      "aliases": ["Irska", "Ireland", "Irish"],
+      "regions": {}
+    },
+
+    "island": {
+      "label_hr": "Island",
+      "aliases": ["Island", "Iceland", "Icelandic"],
+      "regions": {}
+    },
+
+    "ukrajina": {
+      "label_hr": "Ukrajina",
+      "aliases": ["Ukrajina", "Ukraine", "Ukrainian"],
+      "regions": {}
+    },
+
+    "madarska": {
+      "label_hr": "Mađarska",
+      "aliases": ["Mađarska", "Madarska", "Hungary", "Hungarian", "Pick Salami", "Szalámi", "Szalonna"],
+      "regions": {}
+    },
+
+    "moldavija": {
+      "label_hr": "Moldavija",
+      "aliases": ["Moldavija", "Moldova"],
+      "regions": {}
+    },
+
+    "ceska": {
+      "label_hr": "Češka",
+      "aliases": ["Češka", "Ceska", "Czechia", "Czech"],
+      "regions": {}
+    },
+
+    "slovacka": {
+      "label_hr": "Slovačka",
+      "aliases": ["Slovačka", "Slovacka", "Slovakia", "Slovak"],
+      "regions": {}
+    },
+
+    "sjeverna_makedonija": {
+      "label_hr": "Sjeverna Makedonija",
+      "aliases": ["Sjeverna Makedonija", "North Macedonia", "Macedonia", "Makedonski"],
+      "regions": {}
+    },
+
+    "portugal": {
+      "label_hr": "Portugal",
+      "aliases": ["Portugal", "Portuguese", "Chouriço", "Chourico"],
+      "regions": {}
+    }
+  }
+}
