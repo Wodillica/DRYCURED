@@ -1,0 +1,199 @@
+DRYCURED SCENE VIDEO V3 DEBUG LOG
+timestamp=2026-05-11 22:08:02
+root=D:\drycured_promotion_2026_06
+output=D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\output\videos\VID-001_SCENE_VIDEO_V3.mp4
+preview=D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\output\previews\VID-001_scene_preview.png
+audio=D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\audio\VID-001\VID-001_voice.mp3
+duration_seconds=32
+PREVIEW_COMMAND:
+C:\Users\Davor\AppData\Local\Microsoft\WinGet\Links\ffmpeg.EXE -y -hide_banner -i D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_01.png -i D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_02.png -i D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_03.png -i D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_04.png -i D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_05.png -filter_complex "[0:v]scale=216:384:force_original_aspect_ratio=decrease,pad=216:384:(ow-iw)/2:(oh-ih)/2:color=0x15110c,drawbox=x=0:y=340:w=216:h=44:color=black@0.42:t=fill,drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='SCENA 1':fontcolor=white:fontsize=18:x=12:y=354[s0];[1:v]scale=216:384:force_original_aspect_ratio=decrease,pad=216:384:(ow-iw)/2:(oh-ih)/2:color=0x15110c,drawbox=x=0:y=340:w=216:h=44:color=black@0.42:t=fill,drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='SCENA 2':fontcolor=white:fontsize=18:x=12:y=354[s1];[2:v]scale=216:384:force_original_aspect_ratio=decrease,pad=216:384:(ow-iw)/2:(oh-ih)/2:color=0x15110c,drawbox=x=0:y=340:w=216:h=44:color=black@0.42:t=fill,drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='SCENA 3':fontcolor=white:fontsize=18:x=12:y=354[s2];[3:v]scale=216:384:force_original_aspect_ratio=decrease,pad=216:384:(ow-iw)/2:(oh-ih)/2:color=0x15110c,drawbox=x=0:y=340:w=216:h=44:color=black@0.42:t=fill,drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='SCENA 4':fontcolor=white:fontsize=18:x=12:y=354[s3];[4:v]scale=216:384:force_original_aspect_ratio=decrease,pad=216:384:(ow-iw)/2:(oh-ih)/2:color=0x15110c,drawbox=x=0:y=340:w=216:h=44:color=black@0.42:t=fill,drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='SCENA 5':fontcolor=white:fontsize=18:x=12:y=354[s4];[s0][s1][s2][s3][s4]xstack=inputs=5:layout=0_0|216_0|432_0|648_0|864_0[out]" -map [out] -frames:v 1 D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\output\previews\VID-001_scene_preview.png
+
+PREVIEW_RETURN_CODE: 0
+PREVIEW_STDOUT:
+
+PREVIEW_STDERR:
+Input #0, png_pipe, from 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_01.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 941x1672, 25 fps, 25 tbr, 25 tbn
+Input #1, png_pipe, from 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_02.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 941x1672, 25 fps, 25 tbr, 25 tbn
+Input #2, png_pipe, from 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_03.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 941x1672, 25 fps, 25 tbr, 25 tbn
+Input #3, png_pipe, from 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_04.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 941x1672, 25 fps, 25 tbr, 25 tbn
+Input #4, png_pipe, from 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_05.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1024x1536, 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 (png) -> scale:default
+  Stream #1:0 (png) -> scale:default
+  Stream #2:0 (png) -> scale:default
+  Stream #3:0 (png) -> scale:default
+  Stream #4:0 (png) -> scale:default
+  xstack:default -> Stream #0:0 (png)
+Press [q] to stop, [?] for help
+Output #0, image2, to 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\output\previews\VID-001_scene_preview.png':
+  Metadata:
+    encoder         : Lavf62.12.101
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown, progressive), 1080x384, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      encoder         : Lavc62.28.101 png
+[image2 @ 0000026316fe86c0] The specified filename 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\output\previews\VID-001_scene_preview.png' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0000026316fe86c0] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0000026316da9c80] video:657KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.175x elapsed=0:00:00.22    
+
+
+VIDEO_COMMAND:
+C:\Users\Davor\AppData\Local\Microsoft\WinGet\Links\ffmpeg.EXE -y -hide_banner -loop 1 -framerate 30 -t 5 -i D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_01.png -loop 1 -framerate 30 -t 7 -i D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_02.png -loop 1 -framerate 30 -t 7 -i D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_03.png -loop 1 -framerate 30 -t 8 -i D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_04.png -loop 1 -framerate 30 -t 5 -i D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_05.png -i D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\audio\VID-001\VID-001_voice.mp3 -filter_complex [0:v]split=2[bg0src][fg0src];[bg0src]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=28,setsar=1,drawbox=x=0:y=0:w=iw:h=ih:color=black@0.36:t=fill[bg0];[fg0src]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fg0];[bg0][fg0]overlay=(W-w)/2:(H-h)/2,zoompan=z='1+0.018*on/150':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,drawbox=x=92:y=1510:w=896:h=172:color=black@0.30:t=fill,drawbox=x=122:y=1510:w=6:h=172:color=0xD39A3A@0.88:t=fill,drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':textfile='01_VIDEO_SHORTS/logs/VID-001_scene_01_caption.txt':fontcolor=white:fontsize=43:line_spacing=8:x=154:y=1562:shadowcolor=black@0.32:shadowx=0:shadowy=2,fade=t=in:st=0:d=0.32,fade=t=out:st=4.55:d=0.45,format=yuv420p[v0];[1:v]split=2[bg1src][fg1src];[bg1src]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=28,setsar=1,drawbox=x=0:y=0:w=iw:h=ih:color=black@0.36:t=fill[bg1];[fg1src]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fg1];[bg1][fg1]overlay=(W-w)/2:(H-h)/2,zoompan=z='1+0.018*on/210':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,drawbox=x=92:y=1510:w=896:h=172:color=black@0.30:t=fill,drawbox=x=122:y=1510:w=6:h=172:color=0xD39A3A@0.88:t=fill,drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':textfile='01_VIDEO_SHORTS/logs/VID-001_scene_02_caption.txt':fontcolor=white:fontsize=43:line_spacing=8:x=154:y=1562:shadowcolor=black@0.32:shadowx=0:shadowy=2,fade=t=in:st=0:d=0.32,fade=t=out:st=6.55:d=0.45,format=yuv420p[v1];[2:v]split=2[bg2src][fg2src];[bg2src]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=28,setsar=1,drawbox=x=0:y=0:w=iw:h=ih:color=black@0.36:t=fill[bg2];[fg2src]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fg2];[bg2][fg2]overlay=(W-w)/2:(H-h)/2,zoompan=z='1+0.018*on/210':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,drawbox=x=92:y=1510:w=896:h=172:color=black@0.30:t=fill,drawbox=x=122:y=1510:w=6:h=172:color=0xD39A3A@0.88:t=fill,drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':textfile='01_VIDEO_SHORTS/logs/VID-001_scene_03_caption.txt':fontcolor=white:fontsize=43:line_spacing=8:x=154:y=1562:shadowcolor=black@0.32:shadowx=0:shadowy=2,fade=t=in:st=0:d=0.32,fade=t=out:st=6.55:d=0.45,format=yuv420p[v2];[3:v]split=2[bg3src][fg3src];[bg3src]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=28,setsar=1,drawbox=x=0:y=0:w=iw:h=ih:color=black@0.36:t=fill[bg3];[fg3src]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fg3];[bg3][fg3]overlay=(W-w)/2:(H-h)/2,zoompan=z='1+0.018*on/240':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,drawbox=x=92:y=1510:w=896:h=172:color=black@0.30:t=fill,drawbox=x=122:y=1510:w=6:h=172:color=0xD39A3A@0.88:t=fill,drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':textfile='01_VIDEO_SHORTS/logs/VID-001_scene_04_caption.txt':fontcolor=white:fontsize=43:line_spacing=8:x=154:y=1562:shadowcolor=black@0.32:shadowx=0:shadowy=2,fade=t=in:st=0:d=0.32,fade=t=out:st=7.55:d=0.45,format=yuv420p[v3];[4:v]split=2[bg4src][fg4src];[bg4src]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=28,setsar=1,drawbox=x=0:y=0:w=iw:h=ih:color=black@0.36:t=fill[bg4];[fg4src]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fg4];[bg4][fg4]overlay=(W-w)/2:(H-h)/2,zoompan=z='1+0.018*on/150':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,drawbox=x=92:y=1510:w=896:h=172:color=black@0.30:t=fill,drawbox=x=122:y=1510:w=6:h=172:color=0xD39A3A@0.88:t=fill,drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':textfile='01_VIDEO_SHORTS/logs/VID-001_scene_05_caption.txt':fontcolor=white:fontsize=43:line_spacing=8:x=154:y=1562:shadowcolor=black@0.32:shadowx=0:shadowy=2,fade=t=in:st=0:d=0.32,fade=t=out:st=4.55:d=0.45,format=yuv420p[v4];[v0][v1][v2][v3][v4]concat=n=5:v=1:a=0[vcat];[5:a]atrim=0:32,asetpts=PTS-STARTPTS,dynaudnorm=f=150:g=9,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[aout] -map [vcat] -map [aout] -r 30 -c:v libx264 -pix_fmt yuv420p -c:a aac -b:a 192k -movflags +faststart -t 32 D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\output\videos\VID-001_SCENE_VIDEO_V3.mp4
+
+VIDEO_RETURN_CODE: 0
+VIDEO_STDOUT:
+
+VIDEO_STDERR:
+Input #0, png_pipe, from 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_01.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 941x1672, 30 fps, 30 tbr, 30 tbn
+Input #1, png_pipe, from 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_02.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 941x1672, 30 fps, 30 tbr, 30 tbn
+Input #2, png_pipe, from 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_03.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 941x1672, 30 fps, 30 tbr, 30 tbn
+Input #3, png_pipe, from 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_04.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 941x1672, 30 fps, 30 tbr, 30 tbn
+Input #4, png_pipe, from 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\images\VID-001\VID-001_scene_05.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1024x1536, 30 fps, 30 tbr, 30 tbn
+Input #5, mp3, from 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\audio\VID-001\VID-001_voice.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:23.41, start: 0.025057, bitrate: 128 kb/s
+  Stream #5:0: Audio: mp3 (mp3float), 44100 Hz, mono, fltp, 128 kb/s, start 0.025057
+Stream mapping:
+  Stream #0:0 (png) -> split:default
+  Stream #1:0 (png) -> split:default
+  Stream #2:0 (png) -> split:default
+  Stream #3:0 (png) -> split:default
+  Stream #4:0 (png) -> split:default
+  Stream #5:0 (mp3float) -> atrim:default
+  concat:out:v0 -> Stream #0:0 (libx264)
+  aformat:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 000001141051cec0] using SAR=1/1
+[libx264 @ 000001141051cec0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000001141051cec0] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 000001141051cec0] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\output\videos\VID-001_SCENE_VIDEO_V3.mp4':
+  Metadata:
+    encoder         : Lavf62.12.101
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.28.101 libx264
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc62.28.101 aac
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.50    
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:01.02    
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:01.53    
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.05    
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.56    
+frame=   11 fps=3.6 q=29.0 size=     256KiB time=00:00:00.30 bitrate=6991.8kbits/s speed=0.0972x elapsed=0:00:03.08    
+frame=   24 fps=6.7 q=29.0 size=     256KiB time=00:00:00.73 bitrate=2860.3kbits/s speed=0.204x elapsed=0:00:03.60    
+frame=   37 fps=9.0 q=29.0 size=     256KiB time=00:00:01.16 bitrate=1797.9kbits/s speed=0.283x elapsed=0:00:04.11    
+frame=   49 fps= 11 q=29.0 size=     512KiB time=00:00:01.56 bitrate=2677.5kbits/s speed=0.337x elapsed=0:00:04.64    
+frame=   61 fps= 12 q=29.0 size=     512KiB time=00:00:01.96 bitrate=2132.9kbits/s speed=0.382x elapsed=0:00:05.15    
+frame=   72 fps= 13 q=29.0 size=     512KiB time=00:00:02.33 bitrate=1797.7kbits/s speed=0.41x elapsed=0:00:05.68    
+frame=   84 fps= 14 q=29.0 size=     768KiB time=00:00:02.73 bitrate=2301.9kbits/s speed=0.441x elapsed=0:00:06.20    
+frame=   96 fps= 14 q=29.0 size=     768KiB time=00:00:03.13 bitrate=2008.0kbits/s speed=0.466x elapsed=0:00:06.71    
+frame=  109 fps= 15 q=29.0 size=     768KiB time=00:00:03.56 bitrate=1764.1kbits/s speed=0.493x elapsed=0:00:07.23    
+frame=  122 fps= 16 q=29.0 size=    1024KiB time=00:00:04.00 bitrate=2097.2kbits/s speed=0.517x elapsed=0:00:07.74    
+frame=  135 fps= 16 q=29.0 size=    1024KiB time=00:00:04.43 bitrate=1892.3kbits/s speed=0.537x elapsed=0:00:08.25    
+frame=  149 fps= 17 q=29.0 size=    1024KiB time=00:00:04.90 bitrate=1712.0kbits/s speed=0.558x elapsed=0:00:08.77    
+frame=  161 fps= 17 q=29.0 size=    1280KiB time=00:00:05.30 bitrate=1978.5kbits/s speed=0.57x elapsed=0:00:09.29    
+frame=  174 fps= 18 q=29.0 size=    1536KiB time=00:00:05.73 bitrate=2194.8kbits/s speed=0.584x elapsed=0:00:09.81    
+frame=  186 fps= 18 q=29.0 size=    1536KiB time=00:00:06.13 bitrate=2051.6kbits/s speed=0.595x elapsed=0:00:10.31    
+frame=  199 fps= 18 q=29.0 size=    1536KiB time=00:00:06.56 bitrate=1916.2kbits/s speed=0.606x elapsed=0:00:10.84    
+frame=  212 fps= 19 q=29.0 size=    1792KiB time=00:00:07.00 bitrate=2097.2kbits/s speed=0.617x elapsed=0:00:11.35    
+frame=  225 fps= 19 q=29.0 size=    1792KiB time=00:00:07.43 bitrate=1974.9kbits/s speed=0.626x elapsed=0:00:11.86    
+frame=  238 fps= 19 q=29.0 size=    1792KiB time=00:00:07.86 bitrate=1866.2kbits/s speed=0.635x elapsed=0:00:12.37    
+frame=  251 fps= 19 q=29.0 size=    1792KiB time=00:00:08.30 bitrate=1768.7kbits/s speed=0.643x elapsed=0:00:12.89    
+frame=  264 fps= 20 q=29.0 size=    2048KiB time=00:00:08.73 bitrate=1921.1kbits/s speed=0.651x elapsed=0:00:13.41    
+frame=  277 fps= 20 q=29.0 size=    2048KiB time=00:00:09.16 bitrate=1830.3kbits/s speed=0.658x elapsed=0:00:13.92    
+frame=  290 fps= 20 q=29.0 size=    2048KiB time=00:00:09.60 bitrate=1747.7kbits/s speed=0.664x elapsed=0:00:14.45    
+frame=  303 fps= 20 q=29.0 size=    2304KiB time=00:00:10.03 bitrate=1881.2kbits/s speed=0.671x elapsed=0:00:14.96    
+frame=  314 fps= 20 q=29.0 size=    2304KiB time=00:00:10.40 bitrate=1814.9kbits/s speed=0.672x elapsed=0:00:15.48    
+frame=  327 fps= 20 q=29.0 size=    2304KiB time=00:00:10.83 bitrate=1742.3kbits/s speed=0.677x elapsed=0:00:15.99    
+frame=  340 fps= 21 q=29.0 size=    2304KiB time=00:00:11.26 bitrate=1675.3kbits/s speed=0.682x elapsed=0:00:16.51    
+frame=  353 fps= 21 q=29.0 size=    2560KiB time=00:00:11.70 bitrate=1792.5kbits/s speed=0.687x elapsed=0:00:17.03    
+frame=  365 fps= 21 q=29.0 size=    2560KiB time=00:00:12.06 bitrate=1738.0kbits/s speed=0.687x elapsed=0:00:17.56    
+frame=  377 fps= 21 q=29.0 size=    2816KiB time=00:00:12.50 bitrate=1845.5kbits/s speed=0.691x elapsed=0:00:18.09    
+frame=  390 fps= 21 q=29.0 size=    2816KiB time=00:00:12.93 bitrate=1783.7kbits/s speed=0.695x elapsed=0:00:18.60    
+frame=  403 fps= 21 q=29.0 size=    3072KiB time=00:00:13.36 bitrate=1882.8kbits/s speed=0.699x elapsed=0:00:19.12    
+frame=  417 fps= 21 q=29.0 size=    3072KiB time=00:00:13.83 bitrate=1819.2kbits/s speed=0.704x elapsed=0:00:19.65    
+frame=  429 fps= 21 q=29.0 size=    3072KiB time=00:00:14.23 bitrate=1768.1kbits/s speed=0.706x elapsed=0:00:20.16    
+frame=  442 fps= 21 q=29.0 size=    3072KiB time=00:00:14.66 bitrate=1715.9kbits/s speed=0.709x elapsed=0:00:20.67    
+frame=  456 fps= 22 q=29.0 size=    3328KiB time=00:00:15.13 bitrate=1801.5kbits/s speed=0.714x elapsed=0:00:21.19    
+frame=  468 fps= 22 q=29.0 size=    3328KiB time=00:00:15.53 bitrate=1755.2kbits/s speed=0.715x elapsed=0:00:21.71    
+frame=  481 fps= 22 q=29.0 size=    3328KiB time=00:00:15.96 bitrate=1707.5kbits/s speed=0.718x elapsed=0:00:22.22    
+frame=  493 fps= 22 q=29.0 size=    3584KiB time=00:00:16.36 bitrate=1793.9kbits/s speed=0.72x elapsed=0:00:22.73    
+frame=  507 fps= 22 q=29.0 size=    3584KiB time=00:00:16.83 bitrate=1744.2kbits/s speed=0.723x elapsed=0:00:23.26    
+frame=  519 fps= 22 q=29.0 size=    3584KiB time=00:00:17.23 bitrate=1703.7kbits/s speed=0.725x elapsed=0:00:23.78    
+frame=  531 fps= 22 q=29.0 size=    3584KiB time=00:00:17.63 bitrate=1665.1kbits/s speed=0.726x elapsed=0:00:24.29    
+frame=  544 fps= 22 q=29.0 size=    3840KiB time=00:00:18.06 bitrate=1741.2kbits/s speed=0.728x elapsed=0:00:24.81    
+frame=  557 fps= 22 q=29.0 size=    3840KiB time=00:00:18.50 bitrate=1700.4kbits/s speed=0.73x elapsed=0:00:25.32    
+frame=  570 fps= 22 q=29.0 size=    3840KiB time=00:00:18.93 bitrate=1661.5kbits/s speed=0.733x elapsed=0:00:25.84    
+frame=  583 fps= 22 q=29.0 size=    4096KiB time=00:00:19.36 bitrate=1732.6kbits/s speed=0.734x elapsed=0:00:26.37    
+frame=  597 fps= 22 q=29.0 size=    4096KiB time=00:00:19.83 bitrate=1691.8kbits/s speed=0.738x elapsed=0:00:26.88    
+frame=  611 fps= 22 q=29.0 size=    4096KiB time=00:00:20.30 bitrate=1652.9kbits/s speed=0.741x elapsed=0:00:27.39    
+frame=  624 fps= 22 q=29.0 size=    4352KiB time=00:00:20.73 bitrate=1719.5kbits/s speed=0.743x elapsed=0:00:27.91    
+frame=  638 fps= 22 q=29.0 size=    4352KiB time=00:00:21.20 bitrate=1681.7kbits/s speed=0.746x elapsed=0:00:28.43    
+frame=  652 fps= 23 q=29.0 size=    4352KiB time=00:00:21.66 bitrate=1645.5kbits/s speed=0.748x elapsed=0:00:28.94    
+frame=  666 fps= 23 q=29.0 size=    4352KiB time=00:00:22.13 bitrate=1610.8kbits/s speed=0.751x elapsed=0:00:29.46    
+frame=  680 fps= 23 q=29.0 size=    4608KiB time=00:00:22.60 bitrate=1670.3kbits/s speed=0.754x elapsed=0:00:29.98    
+frame=  695 fps= 23 q=29.0 size=    4608KiB time=00:00:23.10 bitrate=1634.2kbits/s speed=0.757x elapsed=0:00:30.50    
+frame=  709 fps= 23 q=29.0 size=    4608KiB time=00:00:23.56 bitrate=1601.8kbits/s speed=0.76x elapsed=0:00:31.00    
+frame=  723 fps= 23 q=29.0 size=    4608KiB time=00:00:24.03 bitrate=1570.7kbits/s speed=0.762x elapsed=0:00:31.52    
+frame=  738 fps= 23 q=29.0 size=    4608KiB time=00:00:24.53 bitrate=1538.7kbits/s speed=0.765x elapsed=0:00:32.04    
+frame=  751 fps= 23 q=29.0 size=    4608KiB time=00:00:24.96 bitrate=1512.0kbits/s speed=0.767x elapsed=0:00:32.55    
+frame=  763 fps= 23 q=29.0 size=    4608KiB time=00:00:25.36 bitrate=1488.1kbits/s speed=0.767x elapsed=0:00:33.07    
+frame=  777 fps= 23 q=29.0 size=    4608KiB time=00:00:25.83 bitrate=1461.3kbits/s speed=0.769x elapsed=0:00:33.58    
+frame=  788 fps= 23 q=29.0 size=    4608KiB time=00:00:26.20 bitrate=1440.8kbits/s speed=0.768x elapsed=0:00:34.09    
+frame=  803 fps= 23 q=29.0 size=    4608KiB time=00:00:26.70 bitrate=1413.8kbits/s speed=0.771x elapsed=0:00:34.63    
+frame=  816 fps= 23 q=29.0 size=    4608KiB time=00:00:27.13 bitrate=1391.2kbits/s speed=0.772x elapsed=0:00:35.15    
+frame=  830 fps= 23 q=29.0 size=    4608KiB time=00:00:27.60 bitrate=1367.7kbits/s speed=0.774x elapsed=0:00:35.67    
+frame=  844 fps= 23 q=29.0 size=    4608KiB time=00:00:28.06 bitrate=1345.0kbits/s speed=0.776x elapsed=0:00:36.18    
+frame=  858 fps= 23 q=29.0 size=    4608KiB time=00:00:28.53 bitrate=1323.0kbits/s speed=0.778x elapsed=0:00:36.69    
+frame=  872 fps= 23 q=29.0 size=    4608KiB time=00:00:29.00 bitrate=1301.7kbits/s speed=0.779x elapsed=0:00:37.21    
+frame=  886 fps= 23 q=29.0 size=    4608KiB time=00:00:29.46 bitrate=1281.1kbits/s speed=0.781x elapsed=0:00:37.72    
+frame=  900 fps= 24 q=29.0 size=    4608KiB time=00:00:29.93 bitrate=1261.1kbits/s speed=0.782x elapsed=0:00:38.25    
+frame=  933 fps= 24 q=29.0 size=    4608KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:38.77    
+[mp4 @ 0000011410528540] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 00000114122e2580] video:5483KiB audio:549KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.483448%
+frame=  960 fps= 25 q=-1.0 Lsize=    6061KiB time=00:00:23.40 bitrate=2121.5kbits/s speed= 0.6x elapsed=0:00:39.01    
+[libx264 @ 000001141051cec0] frame I:6     Avg QP:14.11  size: 71189
+[libx264 @ 000001141051cec0] frame P:256   Avg QP:19.73  size: 17779
+[libx264 @ 000001141051cec0] frame B:698   Avg QP:21.80  size:   910
+[libx264 @ 000001141051cec0] consecutive B-frames:  1.6%  2.9%  4.7% 90.8%
+[libx264 @ 000001141051cec0] mb I  I16..4: 29.7% 59.4% 11.0%
+[libx264 @ 000001141051cec0] mb P  I16..4:  0.5%  1.5%  0.1%  P16..4: 31.7%  6.6%  6.5%  0.0%  0.0%    skip:53.0%
+[libx264 @ 000001141051cec0] mb B  I16..4:  0.1%  0.0%  0.0%  B16..8: 12.4%  0.0%  0.0%  direct: 0.6%  skip:86.8%  L0:40.8% L1:56.4% BI: 2.8%
+[libx264 @ 000001141051cec0] 8x8 transform intra:63.0% inter:80.3%
+[libx264 @ 000001141051cec0] coded y,uvDC,uvAC intra: 35.8% 40.6% 20.4% inter: 3.5% 6.5% 1.2%
+[libx264 @ 000001141051cec0] i16 v,h,dc,p: 58% 17%  5% 20%
+[libx264 @ 000001141051cec0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 35% 16% 24%  4%  4%  5%  4%  4%  5%
+[libx264 @ 000001141051cec0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 35% 16% 12%  7%  8%  7%  5%  6%  4%
+[libx264 @ 000001141051cec0] i8c dc,h,v,p: 64% 14% 18%  4%
+[libx264 @ 000001141051cec0] Weighted P-Frames: Y:14.1% UV:14.1%
+[libx264 @ 000001141051cec0] ref P L0: 69.3%  8.2% 11.3% 11.2%  0.0%
+[libx264 @ 000001141051cec0] ref B L0: 91.2%  7.9%  0.9%
+[libx264 @ 000001141051cec0] ref B L1: 97.7%  2.3%
+[libx264 @ 000001141051cec0] kb/s:1403.52
+[aac @ 00000114105264c0] Qavg: 2488.885
+

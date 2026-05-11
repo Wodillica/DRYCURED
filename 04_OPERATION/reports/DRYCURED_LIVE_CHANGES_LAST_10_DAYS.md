@@ -121,3 +121,39 @@ Rješenje:
 
 Status:
 - hero blok "Digitalna pušnica" stabilan je pri 100 %, 90 %, 80 % i 70 % prikaza
+
+---
+
+## Short Video Factory v3 — pilot VID-001
+
+Izrađen je lokalni sustav za generiranje kratkih promotivnih 9:16 videa za drycured.com.
+
+Radna mapa:
+
+D:\drycured_promotion_2026_06
+
+Novi pristup:
+
+- više zasebnih scena/slika
+- kratki MP3 voiceover iz postojećeg podcast audio sustava
+- lokalni FFmpeg render
+- bez AI video kredita
+- bez cloud video generatora
+
+Izrađeno:
+
+- scene slike za VID-001
+- voiceover VID-001
+- novi generator scene videa
+- BAT skripta za render
+- pilot MP4: VID-001_SCENE_VIDEO_V3.mp4
+
+Status:
+
+- v3 je znatno bolji od prethodnih overlay testova
+- video još treba doradu prije javne objave
+- smjer se nastavlja kao lokalni free-first video workflow
+
+Napomena:
+
+Ovaj commit arhivira alat i prvi pilot rezultat, ali video nije finalno odobren za javnu promociju.

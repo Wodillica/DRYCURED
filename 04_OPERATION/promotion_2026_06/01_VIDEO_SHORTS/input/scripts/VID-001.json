@@ -1,0 +1,49 @@
+{
+  "id": "VID-001",
+  "title": "Zašto se kobasica ne smije sušiti prebrzo?",
+  "slug": "zasto-se-kobasica-ne-smije-susiti-prebrzo",
+  "template_version": "v2",
+  "output": "VID-001_TEMPLATE_V2.mp4",
+  "duration_seconds": 35,
+  "image": "VID-001.png",
+  "audio": "EP04_najcesce-greske-i-kako-ih-izbjeci.mp3",
+  "music": "",
+  "audio_start": "00:00:20",
+  "audio_duration": 35,
+  "style": {
+    "format": "9:16",
+    "resolution": "1080x1920",
+    "font": "Arial",
+    "text_color": "white",
+    "accent_color": "#D39A3A",
+    "background_blur": true,
+    "dark_overlay": 0.48
+  },
+  "screens": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "Zašto se kobasica ne smije sušiti prebrzo?"
+    },
+    {
+      "start": 4,
+      "end": 10,
+      "text": "Površina se zatvori, a voda ostane u sredini."
+    },
+    {
+      "start": 10,
+      "end": 17,
+      "text": "Rezultat: tvrda kora, mekana jezgra."
+    },
+    {
+      "start": 17,
+      "end": 27,
+      "text": "Rješenje: manje propuha, više kontrole vlage, sporije sušenje."
+    },
+    {
+      "start": 27,
+      "end": 35,
+      "text": "Drycured.com — Digitalna pušnica znanja."
+    }
+  ]
+}

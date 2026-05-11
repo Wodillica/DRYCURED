@@ -1,0 +1,5 @@
+PRE_RENDER_ERROR:
+FFmpeg nije pronađen. Instaliraj FFmpeg ili dodaj ffmpeg.exe u PATH.
+
+SCRIPT:
+D:\drycured_promotion_2026_06\01_VIDEO_SHORTS\input\scripts\VID-001.json
