@@ -1,0 +1,28 @@
+DRYCURED.COM v2.0 — HOMEPAGE PLACEHOLDER REDIRECT REPORT
+
+STATUS: PASS
+
+Problem:
+- Nakon čišćenja početne stranice postoje dvije namjenske placeholder objave:
+  /2026/03/28/infografika-dana/
+  /2026/03/28/drycured-podcast-najnovija-epizoda/
+- One služe kao stabilna tehnička sidra za dinamične home kartice.
+- Ako ih korisnik ili tražilica otvori direktno, bolje je da vode na stvarni javni sadržaj.
+
+Rješenje:
+- Dodan MU plugin:
+  wp-content/mu-plugins/drycured-home-placeholder-redirects.php
+- Placeholder ID 1483 preusmjerava na:
+  /infografike/
+- Placeholder ID 1486 preusmjerava na:
+  /podcast/
+
+Potvrda:
+- /2026/03/28/infografika-dana/ vraća 301 na /infografike/
+- /2026/03/28/drycured-podcast-najnovija-epizoda/ vraća 301 na /podcast/
+- /infografike/ vraća HTTP 200
+- /podcast/ vraća HTTP 200
+- / vraća HTTP 200
+
+Napomena:
+- Nisu dirani SSH, firewall, fail2ban, Elementor, Elementor Pro, Astra ni WordPress core.

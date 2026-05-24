@@ -1,0 +1,161 @@
+
+--- 2026-05-06 19:08:07 ---
+Could not instantiate mail function.
+Array
+(
+    [to] => Array
+        (
+            [0] => worldcharcuterie@gmail.com
+        )
+
+    [subject] => Drycured test email
+    [message] => Test.
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 2
+)
+
+
+--- 2026-05-06 19:11:19 ---
+Could not instantiate mail function.
+Array
+(
+    [to] => Array
+        (
+            [0] => worldcharcuterie@gmail.com
+        )
+
+    [subject] => Drycured SMTP test
+    [message] => Ako vidiš ovu poruku, SMTP slanje radi.
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 2
+)
+
+
+--- 2026-05-06 19:50:30 ---
+Could not instantiate mail function.
+Array
+(
+    [to] => Array
+        (
+            [0] => worldcharcuterie@gmail.com
+        )
+
+    [subject] => Drycured SMTP test
+    [message] => Ako vidiš ovu poruku, SMTP slanje radi.
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 2
+)
+
+
+--- 2026-05-06 19:52:50 ---
+SMTP Error: Could not connect to SMTP host.
+Array
+(
+    [to] => Array
+        (
+            [0] => worldcharcuterie@gmail.com
+        )
+
+    [subject] => Drycured SMTP test
+    [message] => Ako vidiš ovu poruku, SMTP slanje radi.
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+
+--- 2026-05-06 19:55:36 ---
+SMTP Error: Could not authenticate.
+Array
+(
+    [to] => Array
+        (
+            [0] => worldcharcuterie@gmail.com
+        )
+
+    [subject] => Drycured SMTP test
+    [message] => Ako vidiš ovu poruku, SMTP slanje radi.
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+
+--- 2026-05-06 19:59:47 ---
+SMTP Error: Could not authenticate.
+Array
+(
+    [to] => Array
+        (
+            [0] => worldcharcuterie@gmail.com
+        )
+
+    [subject] => Drycured SMTP test nakon spremanja postavki
+    [message] => Ako vidiš ovu poruku, SMTP slanje radi.
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+
+--- 2026-05-06 20:01:05 ---
+SMTP Error: Could not authenticate.
+Array
+(
+    [to] => Array
+        (
+            [0] => worldcharcuterie@gmail.com
+        )
+
+    [subject] => Drycured SMTP test nakon nove app lozinke
+    [message] => Ako vidiš ovu poruku, SMTP slanje radi.
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+

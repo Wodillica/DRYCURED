@@ -1,0 +1,56 @@
+DRYCURED.COM v2.0 — HOMEPAGE PLACEHOLDER CLEANUP REPORT
+
+STATUS: PASS
+
+Problem:
+- Početna stranica je u sirovom HTML-u još sadržavala stare test objave:
+  "Recept za domaću kobasicu bez slike"
+  /recept-za-domacu-kobasicu-bez-slike/
+  /recept-za-domacu-kobasicu-bez-slike-2/
+- Te objave su bile korištene kao tehnička sidra za dinamičke home kartice:
+  1) Infografika dana
+  2) Drycured podcast — najnovija epizoda
+- Nakon zamjene teksta ostala je stara featured image slika:
+  pexels_sausage_making_homemade-1
+  wp-image-1484
+
+Rješenje:
+1) Stare test objave pretvorene su u namjenske home placeholder objave:
+   - ID 1483 → Infografika dana
+   - slug: infografika-dana
+
+   - ID 1486 → Drycured podcast — najnovija epizoda
+   - slug: drycured-podcast-najnovija-epizoda
+
+2) Kod u drycured-infografike.php promijenjen je tako da traži marker:
+   "Infografika dana"
+   umjesto starog naslova:
+   "Recept za domaću kobasicu bez slike"
+
+3) Kod u drycured-home-podcast-runtime-card.php promijenjen je tako da traži marker:
+   "Drycured podcast — najnovija epizoda"
+   i slug:
+   drycured-podcast-najnovija-epizoda
+
+4) Uklonjen je _thumbnail_id s placeholder objave ID 1483 kako stara slika kobasice više ne bi ostajala u home HTML-u.
+
+Potvrda:
+- Old recipe marker count: 0
+- Old recipe slug count: 0
+- Sausage image count: 0
+- wp-image-1484 count: 0
+- Home page HTTP: 200
+- /infografika-dana/ HTTP: 200
+- /drycured-podcast-najnovija-epizoda/ HTTP: 200
+- /infografike/ HTTP: 200
+- /podcast/ HTTP: 200
+
+Backup:
+- Backup placeholder postova spremljen je u /root/drycured-v2-reports/
+- Backup drycured-infografike.php spremljen je u /root/drycured-v2-reports/
+- Backup drycured-home-podcast-runtime-card.php spremljen je u /root/drycured-v2-reports/
+
+Napomena:
+- Nisu dirani SSH, firewall, fail2ban, Elementor, Elementor Pro, Astra ni WordPress core.
+- Elementor struktura početne stranice nije ručno mijenjana.
+- Rješenje je izvedeno preko jasnih namjenskih placeholder markera.

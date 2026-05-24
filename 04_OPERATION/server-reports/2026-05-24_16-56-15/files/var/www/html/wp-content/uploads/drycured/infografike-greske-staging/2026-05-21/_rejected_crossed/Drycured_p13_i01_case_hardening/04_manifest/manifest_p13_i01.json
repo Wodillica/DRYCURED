@@ -1,0 +1,14 @@
+{
+  "pack": "INF-01",
+  "item": "p13_i01",
+  "title": "Case-hardening: tvrda kora, mekana sredina",
+  "theme": "Greške i rješenja",
+  "format": "1600x1067",
+  "files": {
+    "svg_source": "01_source_svg/p13_i01.svg",
+    "png_export": "02_export_png/p13_i01.png",
+    "web_png": "03_web_upload/p13_i01.png",
+    "thumbnail": "03_web_upload/p13_i01-768x512.png"
+  },
+  "notes": "Prva nova infografika izrađena pojedinačno. Tekst je u SVG-u kao vektorski sloj. Nema vanjskog okvira."
+}

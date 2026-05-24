@@ -1,0 +1,39 @@
+DRYCURED.COM v2.0 — ENCiklopedija znanja: audience home cards
+
+STATUS: PASS
+
+Što je napravljeno:
+- Enciklopedija znanja proširena je na 40 kvalitetnih članaka.
+- Članci su označeni ciljanim tagovima:
+  - ez-hobisti
+  - ez-majstori
+  - ez-tradicija
+- Dodan je MU plugin:
+  wp-content/mu-plugins/drycured-ez-audience-home-cards.php
+
+Uloga plugin-a:
+- Na početnoj stranici cilja tri postojeće kartice:
+  1) Za hobiste i kućne proizvođače
+  2) Za iskusne mesare i majstore
+  3) Za istraživače tradicije
+- U svaku karticu ubacuje rotirajući članak iz odgovarajuće skupine.
+- Glavna kartica Enciklopedija znanja ostaje opći dnevni izbor iz cijele baze.
+- Ugrađena je anti-duplikat logika: isti članak ne smije se isti dan pojaviti u više kartica.
+
+Vizualna korekcija:
+- Razmak ciljnih kartica podešen je CSS pravilom:
+  .drycured-ez-audience-applied { margin-top: 110px; }
+- Vizualno potvrđeno da su kartice dobro smještene između gornjeg i donjeg bloka.
+
+Nije dirano:
+- SSH
+- firewall / fail2ban
+- Elementor
+- Elementor Pro
+- Astra
+- WordPress core
+
+Status:
+- Homepage radi.
+- Kartice su vizualno potvrđene.
+- Ovaj ciklus je zatvoren kao PASS.

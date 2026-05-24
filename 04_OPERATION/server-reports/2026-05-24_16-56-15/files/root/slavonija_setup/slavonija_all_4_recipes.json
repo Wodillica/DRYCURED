@@ -1,0 +1,696 @@
+[
+  {
+    "recipe_id": "HR-SLV-KUL-ZOZP-001",
+    "title": "Slavonski kulen / Slavonski kulin — ZOZP",
+    "country_hr": "Hrvatska",
+    "country": "Hrvatska",
+    "region": "Slavonija",
+    "microregion": "Slavonija",
+    "category": "Kulen i debele trajne kobasice",
+    "product_type": "kulen",
+    "meat_types": [
+      "svinjetina"
+    ],
+    "processes": [
+      "fermentirano",
+      "dimljeno",
+      "suseno",
+      "zrelo"
+    ],
+    "batch_weight_kg": 10,
+    "protected_status": "ZOZP",
+    "protected_regulation": "Provedbena uredba Komisije (EU) 2017/1992 od 6. studenoga 2017.",
+    "protected_product_warning": true,
+    "review_status": "protected_profile",
+    "calculator_ready": true,
+    "public_ready": true,
+    "calculator": {
+      "enabled": true,
+      "calculator_key": "slavonski_kulen_zozp",
+      "calculator_mode": "sastojci"
+    },
+    "public_recipe": {
+      "intro": "Slavonski kulen je trajna fermentirana sušena kobasica zaštićena ZOZP oznakom (EU 2017/1992). Jedini pravi začini su sol, slatka i ljuta crvena paprika te češnjak. Nadijeva se u svinjsko slijepo crijevo (caecum) i zri najmanje 150 dana.",
+      "quick_facts": {
+        "Osnovna šarža": "10 kg nadjeva",
+        "Zaštita": "ZOZP od 2017. (Provedbena uredba EU 2017/1992)",
+        "Sezona": "1. studenoga — 31. ožujka",
+        "Regija": "Slavonija (7 županija)",
+        "Crijevo": "svinjsko slijepo crijevo (caecum)",
+        "Minimalno zrenje": "150 dana"
+      },
+      "protected_disclaimer": "Ovaj zapis je edukativni profil temeljen na ZOZP specifikaciji. Ne predstavlja certificirani proizvodni protokol.",
+      "meat_composition": [
+        {
+          "name": "Svinjsko meso I kategorije (but, leđni mišić)",
+          "amount": "4,500 kg",
+          "why": "osnovna mesna struktura — best cuts"
+        },
+        {
+          "name": "Svinjsko meso II kategorije (plečka)",
+          "amount": "3,000 kg",
+          "why": "sočnost i protkanost"
+        },
+        {
+          "name": "Svinjsko meso III kategorije (vrat)",
+          "amount": "1,500 kg",
+          "why": "mramoriranost i aromatičnost"
+        },
+        {
+          "name": "Tvrda leđna slanina",
+          "amount": "1,000 kg",
+          "why": "masni balans — max 10 % po ZOZP"
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Kuhinjska sol",
+          "amount": "280 g (28 g/kg)",
+          "note": "ne nitritna — ZOZP ne dozvoljava"
+        },
+        {
+          "name": "Slatka crvena paprika (mljevena)",
+          "amount": "250 g (25 g/kg)",
+          "note": "domaća, iz Slavonije"
+        },
+        {
+          "name": "Ljuta crvena paprika (mljevena)",
+          "amount": "100 g (10 g/kg)",
+          "note": "raspon 5-15 g/kg po stilu kuće"
+        },
+        {
+          "name": "Česnjak (svježi, usitnjen)",
+          "amount": "80 g (8 g/kg)",
+          "note": "raspon 5-10 g/kg — ovo su SVI začini. Nista više."
+        }
+      ],
+      "process_phases": [
+        {
+          "title": "Odabir i hlađenje sirovine",
+          "what": "Meso ohladiti na +5 C kroz 24-48 sati. Očistiti od tetiva, krvnih ugrušaka i mekih masnoća. Slanina mora biti bijela i čvrsta.",
+          "why": "Kontrola temperature ključna za mikrobiološku sigurnost u prvim fazama prirodne fermentacije bez starter kultura.",
+          "control": "Meso do 4 C, vizualno suho, bez loših mirisa.",
+          "risk": "Meso iznad 7 C pri mljevenju — brzi rast neželjenih bakterija.",
+          "fix": "Vratiti u hladnjak, ponoviti provjeru prije nastavka.",
+          "parameters": {
+            "temperatura_mesa": "max +4 C",
+            "trajanje_hladenja": "24-48 sati"
+          }
+        },
+        {
+          "title": "Mljevenje",
+          "what": "Meso i slaninu mljeti kroz reznu plocu promjera rupa 6-12 mm. Optimum: 8 mm.",
+          "why": "Krupnija zrna daju karakteristični mozaični presjek i sprečavaju previše glatku industrijsku teksturu.",
+          "control": "Temperatura mesa na izlazu iz mlinca do +4 C. Mljeti u jednom mahu.",
+          "risk": "Zagrijavanje mase — slanina se razmazuje.",
+          "fix": "Prekinuti, ohladiti, nastaviti.",
+          "parameters": {
+            "ploca_mm": "6-12 mm",
+            "optimum": "8 mm",
+            "max_temp": "+4 C"
+          }
+        },
+        {
+          "title": "Zacinjavanjei i mjestanje",
+          "what": "Dodati sol, slatku papriku, ljutu papriku i česnjak. Mjestati rukama 8-12 minuta dok masa ne postane ljepljiva.",
+          "why": "Homogenizacija osigurava ravnomjernu raspodjelu soli i paprike u svakoj čestici mesa.",
+          "control": "Provjera: stisni masu u dlanu, okreni prema dolje — drži oblik nekoliko sekundi.",
+          "risk": "Premalo mjestanja — neravnomjerna slanost i boja presjeka.",
+          "fix": "Nastaviti mjestati uz kušanje pečene zalogajke.",
+          "parameters": {
+            "trajanje_misanja": "8-12 minuta",
+            "temperatura_nadjeva": "do +6 C"
+          }
+        },
+        {
+          "title": "Odležavanje nadjeva",
+          "what": "Pripremljeni nadjev pokriti i ostaviti u hladnjaku 12-24 sata.",
+          "why": "Sol prodire u meso, paprika oslobada capsaicin u masnu fazu, okus se izjednačava.",
+          "control": "Površina nadjeva ostaje hladna i čvrsta. Bez neugodnih mirisa.",
+          "risk": "Temperatura iznad +5 C — rast neželjene mikroflore.",
+          "fix": "Odmah u hladnjak.",
+          "parameters": {
+            "temperatura": "0-4 C",
+            "trajanje": "12-24 sata"
+          }
+        },
+        {
+          "title": "Punjenje u svinjsko slijepo crijevo",
+          "what": "Crijeva isprati hladnom vodom s obje strane, ocijediti. Puniti bez zracnih mjehurića. Šnirati konopljinim konopom u karakteristični vez.",
+          "why": "Svinjski caecum daje kulenu karakteristični bacvasti oblik i specifičnu mikrofloru za fermentaciju.",
+          "control": "Punjenje čvrsto ali bez pucanja crijeva. Nema vidljivih mjehurića.",
+          "risk": "Zracni mjehurići — zarišta truljenja unutar gotovog kulena.",
+          "fix": "Probušiti iglom i pritisnuti.",
+          "parameters": {
+            "omotac": "svinjski caecum (slijepo crijevo)",
+            "vez": "konopljin konop"
+          }
+        },
+        {
+          "title": "Hladno dimljenje",
+          "what": "Dimiti hladnim dimom (do 22 C) priblizno 10 puta kroz prvih 20-30 dana, s pauzama 1-2 dana. Drvo: grab, jasen ili bukva.",
+          "why": "Hladan dim deponira antimikrobne fenole bez toplinske denaturacije proteina — cuva enzimsku aktivnost za zrenje.",
+          "control": "Dim plav i hladan na ruku na 30 cm visine. Temperatura u pušnici do 22 C.",
+          "risk": "Gusti bijeli dim (vlazno drvo) — kiseli okus i crna površina.",
+          "fix": "Promijeniti drvo, smanjiti vatru, povecati propuh.",
+          "parameters": {
+            "max_temp_dima": "22 C",
+            "drvo": "grab, jasen ili bukva",
+            "trajanje_ukupno": "20-30 dana s pauzama"
+          }
+        },
+        {
+          "title": "Zrenje",
+          "what": "Prebaciti u hladnu, tamnu, prozračnu prostoriju (podrum). Temperatura 12-16 C, RH 70-85 %. Ukupno najmanje 150 dana od nadijevanja.",
+          "why": "Enzimska razgradnja proteina i masti gradi kompleksni okus. Bijela plijesan (Penicillium nalgiovense) šštiti površinu i sudjeluje u aromi.",
+          "control": "Površina suha, bez crnih ili zelenih plijesni. Blaga bijela navlaka je pozeljna. Presjek čvrst.",
+          "risk": "Visoka vlaga iznad 90 % — crna plijesan (Aspergillus niger).",
+          "fix": "Obrisati octom, pojacati ventilaciju, spustiti RH.",
+          "parameters": {
+            "temperatura": "12-16 C",
+            "RH": "70-85 %",
+            "min_trajanje": "150 dana"
+          }
+        }
+      ],
+      "errors_and_fixes": [
+        {
+          "error": "Kiselost ili gorčina u okusu",
+          "cause": "Prebrza fermentacija ili loša mikroklima u prvim tjednima",
+          "fix": "Pojacati hlađenje u prvim tjednima, smanjiti vlagu"
+        },
+        {
+          "error": "Crna plijesan na površini",
+          "cause": "Previsoka vlaga iznad 90 %",
+          "fix": "Obrisati octom, pojacati ventilaciju"
+        },
+        {
+          "error": "Neujednačena slanost na presjeku",
+          "cause": "Premalo mjestanja nadjeva",
+          "fix": "Produžiti mjestanje na 12 min i dodati fazu odležavanja 24 h"
+        }
+      ],
+      "regional_notes": "ZOZP obuhvaca 7 slavonskih županija. Bosnjački stil: više ljutine. Dakovački: blaza paprika. Vukovarski: duze zrenje 200+ dana. Baranjski kulen je zasebni ZOZP od 2015."
+    },
+    "sources": [
+      "Provedbena uredba Komisije (EU) 2017/1992 od 6. studenoga 2017.",
+      "Specifikacija proizvoda Slavonski kulen — Udruga Slavonski domaci kulen-kulin, Bonjaci (2014).",
+      "Petricevic, A., Bencevic, K., Kusec, G. (2010). Slavonski domaci kulen i kobasice. EU AGRO Hrvatska."
+    ]
+  },
+  {
+    "recipe_id": "HR-SLV-KOB-ZOZP-001",
+    "title": "Slavonska kobasica — ZOZP",
+    "country_hr": "Hrvatska",
+    "country": "Hrvatska",
+    "region": "Slavonija",
+    "microregion": "Slavonija",
+    "category": "Kobasice",
+    "product_type": "suha kobasica s paprikom",
+    "meat_types": [
+      "svinjetina"
+    ],
+    "processes": [
+      "fermentirano",
+      "dimljeno",
+      "suseno"
+    ],
+    "batch_weight_kg": 10,
+    "protected_status": "ZOZP",
+    "protected_regulation": "Specifikacija Udruge Cuvari slavonske tradicije, Donji Miholjac (2021).",
+    "protected_product_warning": true,
+    "review_status": "protected_profile",
+    "calculator_ready": true,
+    "public_ready": true,
+    "calculator": {
+      "enabled": true,
+      "calculator_key": "slavonska_kobasica_zozp",
+      "calculator_mode": "sastojci"
+    },
+    "public_recipe": {
+      "intro": "Slavonska kobasica je trajna fermentirana kobasica zaštitena ZOZP oznakom. Nadijeva se u svinjska tanka crijeva i karakteristično se paruje. Sezona: cijele godine. Minimalno zrenje 45 dana.",
+      "quick_facts": {
+        "Osnovna šarža": "10 kg nadjeva",
+        "Zaštita": "ZOZP (Specifikacija 2021.)",
+        "Sezona": "cijele godine",
+        "Regija": "Slavonija (5 županija)",
+        "Crijevo": "svinjska tanka crijeva — parovanje (2x35 cm)",
+        "Minimalno zrenje": "45 dana"
+      },
+      "protected_disclaimer": "Ovaj zapis je edukativni profil temeljen na ZOZP specifikaciji. Ne predstavlja certificirani proizvodni protokol.",
+      "meat_composition": [
+        {
+          "name": "Svinjsko meso II i III kategorije (plečka, vrat, potrbušina, prsa)",
+          "amount": "min 7,000 kg",
+          "why": "min 70 % po ZOZP — osnovni nadjev"
+        },
+        {
+          "name": "Cvrsto masno tkivo (leđna slanina, tvrda potrbušina)",
+          "amount": "do 3,000 kg",
+          "why": "max 30 % — socnost i mozaicni presjek"
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Kuhinjska sol",
+          "amount": "180-220 g (1,8-2,2 %)",
+          "note": "ZOZP propisuje raspon; preporuka 200 g (2,0 %)"
+        },
+        {
+          "name": "Slatka i ljuta crvena paprika (ukupno)",
+          "amount": "do 120 g (max 1,2 %)",
+          "note": "tradicijski omjer 70 % slatka : 30 % ljuta"
+        },
+        {
+          "name": "Česnjak (svježi, usitnjen)",
+          "amount": "50-80 g (0,5-0,8 %)",
+          "note": "ne smije dominirati"
+        },
+        {
+          "name": "Mljeveni papar (opcionalno)",
+          "amount": "5-15 g (0,05-0,15 %)",
+          "note": "ne smije dominirati — mnogi majstori izostavljaju"
+        }
+      ],
+      "process_phases": [
+        {
+          "title": "Priprema i hlađenje sirovine",
+          "what": "Meso temperirati na -2 do +4 C, slaninu na -4 do +4 C. Cijediti 12 sati. Očistiti.",
+          "why": "Cvrsto i hladno masno tkivo sprecava mazanje pri mljevenju i osigurava mozaicni presjek.",
+          "control": "Meso hladno, cvrsto. Slanina bijela i ne razmazuje se.",
+          "risk": "Mekana ili pretopla slanina razmazuje se — gubi se presjek.",
+          "fix": "Ohladiti slaninu u zamrzivacu (-2 C) prije mljevenja.",
+          "parameters": {
+            "temperatura_mesa": "-2 do +4 C",
+            "temperatura_slanine": "-4 do +4 C"
+          }
+        },
+        {
+          "title": "Mljevenje",
+          "what": "Meso i masno tkivo zajedno mljeti kroz reznu plocu 6-8 mm (ZOZP propisano).",
+          "why": "Raspon 6-8 mm daje karakteristično krupnozrno tijelo — vidljive cestice mesa i masti na presjeku.",
+          "control": "Temperatura mesa na izlazu do +6 C. Slanina ne smije biti kremasta.",
+          "risk": "Ploca ispod 6 mm — industrijska glatka pasta.",
+          "fix": "Koristiti tocnu plocu — ZOZP je eksplicitan.",
+          "parameters": {
+            "ploca_mm": "6-8 mm (ZOZP)",
+            "max_temp": "+6 C"
+          }
+        },
+        {
+          "title": "Zacinjavanjei i homogenizacija",
+          "what": "Dodati sol (1,8-2,2 %), papriku (do 1,2 %) i česnjak. Mjestati 8-10 min.",
+          "why": "Ravnomjerna raspodjela osigurava konzistentnu boju i okus duž cijele kobasice.",
+          "control": "Kušati pecenu zalogajku — korigirati sol i ljutinu.",
+          "risk": "Previše paprike uzrokuje gorčinu pri duzem zrenju.",
+          "fix": "Drzati se ZOZP maksimuma 1,2 %.",
+          "parameters": {
+            "sol_postotak": "1,8-2,2 %",
+            "paprika_max": "1,2 %",
+            "misanje_min": "8-10 min"
+          }
+        },
+        {
+          "title": "Punjenje i parovanje",
+          "what": "Puniti u svinjska tanka crijeva (22-26 mm). Na pola duzine zaokrenuti i presaviti — karakteristično parovanje. Komadi min 35 cm.",
+          "why": "Parovanje je vizualni znak autenticnosti i daje mehanicko ojacanje za vjestanje.",
+          "control": "Punjenje bez mjehurića. Svaki par min 35 cm.",
+          "risk": "Prekratki komadi — neujednaceno sušenje.",
+          "fix": "Standardizirati duzinu crijeva (min 70 cm) prije punjenja.",
+          "parameters": {
+            "promjer_crijeva": "22-26 mm",
+            "min_duzina_para": "2x35 cm"
+          }
+        },
+        {
+          "title": "Kondicioniranje i hladno dimljenje",
+          "what": "Kondicionirati 24 sata (do 25 C). Zatim dimiti hladnim dimom (do 25 C) do 14 dana. Drvo: jasen, grab ili bukva.",
+          "why": "Kondicioniranje susi površinu i ujednacava temperaturu — kriticno za pravilno prihvacanje dima.",
+          "control": "Dim plav, hladan. Površina se postepeno boji u smede-crveno.",
+          "risk": "Prebrzo dimljenje visokom temperaturom — zapecena površina, sirovo unutra.",
+          "fix": "Smanjiti intenzitet vatre, povecati propuh.",
+          "parameters": {
+            "max_temp_dima": "25 C",
+            "max_trajanje_dimljenja": "14 dana",
+            "drvo": "jasen, grab ili bukva"
+          }
+        },
+        {
+          "title": "Zrenje i sušenje",
+          "what": "Zatamnjena komora: T do 16 C, RH 70-85 %. Ukupno od nadijevanja do otpreme minimalno 45 dana.",
+          "why": "Enzimski procesi grade okus. a_w ispod 0,90 osigurava mikrobiološku sigurnost.",
+          "control": "Presjek smede-tamnocrven. Ovitak cvrst, bez mrlja. Bez kiselosti ili gorčine.",
+          "risk": "Presuha okolina ispod 70 % RH — tvrda kora, meko srediste (case hardening).",
+          "fix": "Privremeno povecati RH ili premjestiti u vlaznji prostor.",
+          "parameters": {
+            "temperatura": "do 16 C",
+            "RH": "70-85 %",
+            "min_trajanje": "45 dana",
+            "aw_cilj": "ispod 0,90"
+          }
+        }
+      ],
+      "errors_and_fixes": [
+        {
+          "error": "Tamni prsten ispod ovitka",
+          "cause": "Prebrzo sušenje površine — oksidacija mesa",
+          "fix": "Povecati RH u prvim tjednima"
+        },
+        {
+          "error": "Gorčina u okusu",
+          "cause": "Previše paprike ili papra",
+          "fix": "Max 1,2 % paprike, papar ispod 0,1 %"
+        }
+      ],
+      "regional_notes": "Dakovački stil: blaza ljutina. Vukovarski: izrazena ljutina, 45-50 dana. Brodski: duze zrenje 90 dana, cvrci presjek. ZOZP pokriva 5 slavonskih županija."
+    },
+    "sources": [
+      "Specifikacija proizvoda Slavonska kobasica (ZOZP) — Udruga Cuvari slavonske tradicije, Donji Miholjac, studeni 2021.",
+      "Petricevic, A., Bencevic, K., Kusec, G. (2010). Slavonski domaci kulen i kobasice. EU AGRO Hrvatska."
+    ]
+  },
+  {
+    "recipe_id": "HR-SLV-CAJ-TRAD-001",
+    "title": "Slavonska cajna kobasica — tradicijska",
+    "country_hr": "Hrvatska",
+    "country": "Hrvatska",
+    "region": "Slavonija",
+    "microregion": "Slavonija",
+    "category": "Kobasice",
+    "product_type": "tanka dimljena i susena kobasica",
+    "meat_types": [
+      "svinjetina"
+    ],
+    "processes": [
+      "fermentirano",
+      "dimljeno",
+      "suseno"
+    ],
+    "batch_weight_kg": 10,
+    "protected_product_warning": false,
+    "review_status": "protected_profile",
+    "calculator_ready": true,
+    "public_ready": true,
+    "calculator": {
+      "enabled": true,
+      "calculator_key": "slavonska_cajna_kobasica_trad",
+      "calculator_mode": "sastojci"
+    },
+    "public_recipe": {
+      "intro": "Slavonska cajna kobasica je sitnije mljevena, tanja trajna kobasica iz iste tradicije kao Slavonska kobasica ZOZP — ali bez EU zaštite. Zri 25-35 dana. Razlikuje se od industrijske cajne kobasice po zrnatom presjeku i prirodnoj fermentaciji.",
+      "quick_facts": {
+        "Osnovna šarža": "10 kg nadjeva",
+        "Zaštita": "nije zaštticena — tradicijska varijanta",
+        "Sezona": "cijele godine",
+        "Regija": "Slavonija",
+        "Crijevo": "svinjska tanka crijeva, 20-30 cm po komadu",
+        "Minimalno zrenje": "25-35 dana"
+      },
+      "meat_composition": [
+        {
+          "name": "Svinjsko meso II i III kategorije (plecka, vrat, potrbušina)",
+          "amount": "7,500 kg",
+          "why": "75 % — fini mljev zahtijeva manje masnog tkiva"
+        },
+        {
+          "name": "Cvrsto masno tkivo (leđna slanina)",
+          "amount": "2,500 kg",
+          "why": "25 % — nešto manje nego u Slavonskoj kobasici"
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Kuhinjska sol",
+          "amount": "200 g (2,0 %)",
+          "note": ""
+        },
+        {
+          "name": "Slatka crvena paprika",
+          "amount": "80 g (0,8 %)",
+          "note": "nešto blaže nego u ZOZP kobasici"
+        },
+        {
+          "name": "Ljuta crvena paprika",
+          "amount": "30 g (0,3 %)",
+          "note": "umjereno"
+        },
+        {
+          "name": "Česnjak (svježi, usitnjen)",
+          "amount": "50 g (0,5 %)",
+          "note": ""
+        },
+        {
+          "name": "Mljeveni papar",
+          "amount": "15 g (0,15 %)",
+          "note": "cešci nego u Slavonskoj kobasici — daje uzinski karakter"
+        }
+      ],
+      "process_phases": [
+        {
+          "title": "Priprema i hlađenje sirovine",
+          "what": "Meso i slaninu temperirati na -2 do +4 C. Cijediti 12 sati. Ocistiti.",
+          "why": "Hladna sirovina sprecava zagrijavanje pri finom mljevenju — kriticnije nego kod Slavonske kobasice.",
+          "control": "Meso hladno, cvrsto, bez loših mirisa.",
+          "risk": "Toplo meso pri finom mljevenju daje kremast, mazan nadjev.",
+          "fix": "Ohladiti meso u zamrzivacu 30 min, nastaviti mljevenje.",
+          "parameters": {
+            "temperatura_mesa": "-2 do +4 C"
+          }
+        },
+        {
+          "title": "Mljevenje (finije nego za Slavonsku kobasicu)",
+          "what": "Mljeti kroz reznu plocu 3-5 mm (optimum 4 mm). Meso i slanina zajedno.",
+          "why": "Sitno zrno daje karakteristični cajni presjek bez vidljivih komadica.",
+          "control": "Temperatura mesa na izlazu do +4 C.",
+          "risk": "Pregrijavanje — slanina se razmazuje.",
+          "fix": "Dvofazno mljevenje s meduhlađenjem.",
+          "parameters": {
+            "ploca_mm": "3-5 mm",
+            "optimum": "4 mm",
+            "max_temp": "+4 C"
+          }
+        },
+        {
+          "title": "Zacinjavanjei i homogenizacija",
+          "what": "Dodati sol, papriku, česnjak i papar. Mjestati 8-10 min. Kušati pecenu zalogajku.",
+          "why": "Finije zrno brze apsorbira začine.",
+          "control": "Masa homogena, ljepljiva, bez grudica soli.",
+          "risk": "Previsok papar — gorčina pri kracem zrenju.",
+          "fix": "Papar ispod 0,15 %.",
+          "parameters": {
+            "sol_postotak": "2,0 %",
+            "misanje_min": "8-10 min"
+          }
+        },
+        {
+          "title": "Odležavanje nadjeva",
+          "what": "Pokriti i ostaviti u hladnjaku 12-24 sata pri 0-4 C.",
+          "why": "Papar i česnjak u kombinaciji trebaju duze prodrijeti u sitno mljevenu masu.",
+          "control": "Masa ostaje hladna i cvrsta.",
+          "risk": "Temperatura iznad +5 C — ubrzana fermentacija.",
+          "fix": "Odmah u hladnjak.",
+          "parameters": {
+            "temperatura": "0-4 C",
+            "trajanje": "12-24 sata"
+          }
+        },
+        {
+          "title": "Punjenje i formiranje",
+          "what": "Puniti u svinjska tanka crijeva (22-26 mm) ili ovca (16-22 mm). Komadi 20-30 cm. Vezati u parove ili vijence.",
+          "why": "Manji kalibar od Slavonske kobasice — brze sušenje i krace zrenje.",
+          "control": "Punjenje bez mjehurića. Ovitak napregnut ali ne puca.",
+          "risk": "Previše napeta crijeva pucaju pri prvom dimljenju.",
+          "fix": "Puniti do 90 % kapaciteta crijeva.",
+          "parameters": {
+            "promjer_svinjski": "22-26 mm",
+            "promjer_ovci": "16-22 mm",
+            "duzina_komada": "20-30 cm"
+          }
+        },
+        {
+          "title": "Kondicioniranje i hladno dimljenje",
+          "what": "Kondicionirati 24 h (do 25 C). Dimiti hladnim dimom (do 25 C) 5-8 dana. Drvo: grab, jasen ili bukva.",
+          "why": "Krace dimljenje nego za Slavonsku kobasicu — manji kalibar se brze dimi.",
+          "control": "Dim plav, hladan. Površina smedi ravnomjerno.",
+          "risk": "Preduga izloženost dimu — pregorki okus.",
+          "fix": "Pratiti boju — backreno-smeda = dovoljno.",
+          "parameters": {
+            "max_temp_dima": "25 C",
+            "trajanje_dimljenja": "5-8 dana",
+            "drvo": "grab, jasen ili bukva"
+          }
+        },
+        {
+          "title": "Zrenje i sušenje",
+          "what": "Prostorija 12-16 C, RH 70-85 %. Ukupno 25-35 dana od nadijevanja.",
+          "why": "Krati ciklus — manji kalibar brze gubi vlagu i postize a_w ispod 0,90.",
+          "control": "Presjek jednoličan, tamnocrven. Tekstura cvrsta.",
+          "risk": "Prebrzo sušenje — case hardening.",
+          "fix": "Povecati RH ili premjestiti u vlaznji prostor prvih 10 dana.",
+          "parameters": {
+            "temperatura": "12-16 C",
+            "RH": "70-85 %",
+            "min_trajanje": "25-35 dana"
+          }
+        }
+      ],
+      "errors_and_fixes": [
+        {
+          "error": "Mazan, kremast presjek",
+          "cause": "Meso pretoplo pri mljevenju ili ploca premala",
+          "fix": "Ohladiti sirovinu, koristiti plocu 4 mm"
+        },
+        {
+          "error": "Gorčina u okusu",
+          "cause": "Previše papra ili preduge izlozenosti dimu",
+          "fix": "Smanjiti papar, skratiti dimljenje"
+        }
+      ],
+      "regional_notes": "Vinkovacko-vukovarski stil: više ljutine, 25 dana. Dakovački: blago ljuto, 4 mm mljev. Baranjska varijanta: ovca crijeva, manje paprike. Industrijska cajna kobasica nije isti proizvod."
+    },
+    "sources": [
+      "Specifikacija proizvoda Slavonska kobasica (ZOZP) — Udruga Cuvari slavonske tradicije, Donji Miholjac, studeni 2021. (okvir za varijantu).",
+      "Petricevic, A., Bencevic, K., Kusec, G. (2010). Slavonski domaci kulen i kobasice. EU AGRO Hrvatska."
+    ]
+  },
+  {
+    "recipe_id": "HR-SLV-SLA-TRAD-001",
+    "title": "Slavonska sušena slanina / Slavonski špek",
+    "country_hr": "Hrvatska",
+    "country": "Hrvatska",
+    "region": "Slavonija",
+    "microregion": "Slavonija",
+    "category": "Slanine i pancete",
+    "product_type": "zrela leđna slanina",
+    "meat_types": [
+      "svinjetina"
+    ],
+    "processes": [
+      "dimljeno",
+      "sušeno"
+    ],
+    "batch_weight_kg": 10,
+    "protected_product_warning": false,
+    "review_status": "protected_profile",
+    "calculator_ready": true,
+    "public_ready": true,
+    "calculator": {
+      "enabled": true,
+      "calculator_key": "slavonska_slanina_trad",
+      "calculator_mode": "sastojci"
+    },
+    "public_recipe": {
+      "intro": "Slavonska sušena slanina (lokalno 'Slavonski špek' ili 'Slaš') je suho pacana, hladno dimljena i prirodno sušena svinjska potrbušina s kožom. Bez nitritne soli — samo sol, hladan dim graba ili bukve, i zrak.",
+      "quick_facts": {
+        "Osnovna šarža": "~10 kg (2–3 table potrbušine)",
+        "Zaštita": "nije zaštićena — tradicijska",
+        "Regija": "Slavonija i Baranja",
+        "Rez": "svinjska potrbušina s kožom",
+        "Ukupno": "suho pacanje 3–4 tj. + dim 1–2 tj. + sušenje 1–2 mj."
+      },
+      "meat_composition": [
+        {
+          "name": "Svinjska potrbušina s kožom",
+          "amount": "~10,000 kg (2–3 table)",
+          "why": "koža štiti i daje karakteristični ovitak pri sušenju"
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Krupna morska sol ili kamena sol",
+          "amount": "600–800 g",
+          "note": "~8 % od mase; suho pacanje; ne nitritna"
+        },
+        {
+          "name": "Sitna morska sol (dopuna)",
+          "amount": "200–300 g",
+          "note": "kombinirano s krupnom u omjeru 3:1 — brže izvlači vodu"
+        }
+      ],
+      "process_phases": [
+        {
+          "title": "Priprema table",
+          "what": "Ukloniti rebra sajlicom. Izrezati na table 25–35 × 40–60 cm. Probušiti rupu za vješanje 5 cm od ruba. Kožu oguliti od dlačica.",
+          "why": "Jednolična debljina osigurava ravnomjerno soljenje i sušenje. Rupa za vješanje obavezna.",
+          "control": "Table jednake debljine. Koža čista i glatka.",
+          "risk": "Nejednaka debljina — tanja strana preesuši, deblja nedovoljno soli.",
+          "fix": "Izrezati od dijelova iste debljine.",
+          "parameters": {
+            "dimenzije_table": "25–35 × 40–60 cm"
+          }
+        },
+        {
+          "title": "Suho pacanje",
+          "what": "Snažno utrljati sol u sve strane table. Slagati u drvenu ili plastičnu posudu (ne pocinčano!), sloj soli između tabla. Temperatura 0–10 C. Okretati svaka 7 dana, izlijevati vodu, nadosoljavati.",
+          "why": "Suho pacanje daje kompaktniji i čišći okus od mokrog. Sol osmotski izvlači vodu i sprečava rast patogena.",
+          "control": "Nakon 7 dana tabla pušta vlagu — normalno. Sol se topi u mesni sok.",
+          "risk": "Pocinčana posuda reagira sa solju — metaličan okus.",
+          "fix": "Koristiti drvene bačve, prehrambenu plastiku ili nehrđajući čelik.",
+          "parameters": {
+            "temperatura": "0–10 C",
+            "debljina_3_4cm": "2–3 tjedna",
+            "debljina_4_6cm": "3–4 tjedna",
+            "okretanje": "svaka 7 dana"
+          }
+        },
+        {
+          "title": "Ispiranje i cijeđenje",
+          "what": "Kratko isprati pod hladnim mlazom (30 sek, ne potapati). Obrisati, objesiti, cijediti 24 sata prije dimljenja.",
+          "why": "Višak soli na površini uzrokuje case hardening — tvrda kora, mokro središte.",
+          "control": "Površina vlažna ali ne mokra. Nema bijelog naslaga soli.",
+          "risk": "Dugotrajno potapanje u vodi ispire sol iz unutrašnjosti.",
+          "fix": "Samo kratki mlaz, max 30 sekundi.",
+          "parameters": {}
+        },
+        {
+          "title": "Hladno dimljenje",
+          "what": "Dimiti hladnim dimom (max 25 C) s pauzama — 3–4 aktivna dana kroz 10–14 dana. Drvo: grab ili bukva (preferirano). Nikako smolasta drveta.",
+          "why": "Hladan dim deponira antimikrobne fenole bez kuhanja mesa. Grab i bukva daju nježniji dim od hrasta.",
+          "control": "Dim plav i hladan. Kožica poprima bakreno-smeđu boju.",
+          "risk": "Smolasta drveta (bor, ariš) — terpeni, gorak okus.",
+          "fix": "Promijeniti drvo odmah, provjetriti pušnicu.",
+          "parameters": {
+            "max_temp_dima": "25 C",
+            "aktivno_dimljenje": "3–4 dana kroz 10–14 dana",
+            "drvo": "grab ili bukva"
+          }
+        },
+        {
+          "title": "Sušenje na zraku",
+          "what": "Zatamnjena prostorija s propuhom: T 5–14 C, RH 70–85 %. Trajanje: tanka tabla (3–4 cm) 1 mj.; srednja (4–6 cm) 1,5 mj.; debela (6+ cm) 2+ mj.",
+          "why": "Postupno isparavanje vlage gradi teksturu i koncentrira okus. Prebrzo sušenje — tvrda kora s mekim sredinom.",
+          "control": "Gubitak mase 25–35 %. Mast bijela, meso tamnocrveno.",
+          "risk": "RH ispod 70 % — case hardening.",
+          "fix": "Povećati RH prvih 2–3 tjedna.",
+          "parameters": {
+            "temperatura": "5–14 C",
+            "RH": "70–85 %",
+            "gubitak_mase": "25–35 %"
+          }
+        }
+      ],
+      "errors_and_fixes": [
+        {
+          "error": "Siva ili zelena mast",
+          "cause": "Oksidacija ili kontaminacija",
+          "fix": "Odrezati zahvaćeni sloj — unutrašnjost obično ispravna"
+        },
+        {
+          "error": "Preneslan okus",
+          "cause": "Preduga soljenja",
+          "fix": "Potopiti 30 min u vodi pri rezanju; sljedeća šarža — kraće pacanje"
+        },
+        {
+          "error": "Mekana tekstura",
+          "cause": "Previsoka RH ili prekratko sušenje",
+          "fix": "Produžiti sušenje, smanjiti RH na 75 %"
+        }
+      ],
+      "regional_notes": "Baranja (Davor Kuna OPG) — samo sol, crna slavonska svinja, suho pacanje. Đakovština — paprikaš varijanta. Posavina — češnjak i sol. Ista kategorija: Slavonski špek = Baranjski špek = Slaš = Slavonska sušena slanina."
+    },
+    "sources": [
+      "Petričević, A., Benčević, K., Kušec, G. (2010). Slavonski domaći kulen i kobasice. EU AGRO Hrvatska.",
+      "Agroklub.com (22.11.2021). Tajne dobre slanine i špeka — OPG Davor Kuna (Baranjsko Petrovo Selo)."
+    ]
+  }
+]

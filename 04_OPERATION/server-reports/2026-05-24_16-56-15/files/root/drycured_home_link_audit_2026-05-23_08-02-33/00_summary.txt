@@ -1,0 +1,6 @@
+FRONT_ID=101
+Field	Value
+ID	101
+post_title	Home
+post_status	publish
+post_name	pocetna

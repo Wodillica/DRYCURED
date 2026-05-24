@@ -1,0 +1,101 @@
+DRYCURED.COM v2.0 — ENCIKLOPEDIJA ZNANJA PACK 05/06 + AUDIENCE TAGGING v2
+
+STATUS: PASS
+
+1) STANJE BAZE ČLANAKA
+
+Enciklopedija znanja proširena je na 50 kvalitetnih članaka.
+
+Prije ovog ciklusa:
+- potvrđena baza: 40 članaka
+
+Dodano:
+- Pack 05: 5 duljih stručnih članaka
+- Pack 06: 5 duljih stručnih članaka
+
+Nakon uvoza:
+- Enciklopedija znanja: 50 članaka
+- Svi novi članci vraćaju HTTP 200
+- Homepage nakon uvoza vraća HTTP 200
+
+2) PACK 05 — DODANI ČLANCI
+
+Dodani članci:
+
+1. Ekvilibrijsko soljenje: kako soliti precizno, a ne od oka
+2. Equalizacija nakon soljenja: zašto meso mora odmoriti
+3. Vodna aktivnost: zašto sama vlaga nije dovoljna za sigurnost
+4. Starter kulture: kada pomažu, a kada nisu čarobni štapić
+5. Rezanje mesa prema namjeni: zašto svaki komad ne ide u isti proizvod
+
+Svrha paketa:
+- proširiti stručni dio baze
+- dodati teme koje povezuju soljenje, sigurnost, mikrobiologiju i anatomiju mesa
+- članci su dulji, praktičniji i strukturirani prema principu problem → rješenje
+
+3) PACK 06 — DODANI ČLANCI
+
+Dodani članci:
+
+1. Senzorska kontrola: što nos, oko i ruka mogu otkriti prije instrumenta
+2. Higijena prostora i alata: nevidljivi temelj sigurne šarže
+3. Kako odabrati crijevo prema vrsti kobasice
+4. Kućna sušionica: kako prepoznati dobar i loš prostor
+5. Miris, boja i presjek: kako čitati gotov proizvod
+
+Svrha paketa:
+- pojačati praktičnu vrijednost za početnike i iskusne korisnike
+- bolje pokriti senzorsku kontrolu, higijenu, crijeva, prostor za sušenje i završnu procjenu proizvoda
+
+4) AUDIENCE TAGGING v2
+
+Nakon Pack 05 i Pack 06 dodani su tagovi za ciljane home kartice.
+
+Tagovi:
+
+- ez-hobisti
+- ez-majstori
+- ez-tradicija
+
+Stanje nakon tagiranja:
+
+- ez-hobisti: 24 članka
+- ez-majstori: 26 članaka
+- ez-tradicija: 12 članaka
+
+5) HOME ROTACIJA
+
+Postojeći model:
+
+- Glavna kartica Enciklopedija znanja ostaje opći dnevni izbor iz cijele baze članaka.
+- Tri donje kartice imaju ciljanu rotaciju:
+  1. Za hobiste i kućne proizvođače
+  2. Za iskusne mesare i majstore
+  3. Za istraživače tradicije
+
+Anti-duplikat pravilo:
+- isti članak ne smije se istog dana pojaviti u više home kartica
+- današnji preview potvrdio je različite članke po karticama
+
+6) POTVRDA TEHNIČKOG STANJA
+
+Potvrđeno:
+- novi članci HTTP 200
+- homepage HTTP 200
+- audience tagovi kreirani i primijenjeni
+- anti-duplikat logika daje različite članke za glavnu i tri ciljane kartice
+
+7) NIJE DIRANO
+
+Nisu dirani:
+- SSH
+- firewall
+- fail2ban
+- Elementor
+- Elementor Pro
+- Astra
+- WordPress core
+- postojeći izgled pojedinačnog članka
+
+Zaključak:
+Enciklopedija znanja sada ima 50 kvalitetnih članaka i proširenu ciljanu rotaciju po publici. Ciklus Pack 05/06 + audience tagging v2 zatvoren je kao PASS.

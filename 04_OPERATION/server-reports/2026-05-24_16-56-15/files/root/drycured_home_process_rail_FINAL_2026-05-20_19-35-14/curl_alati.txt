@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 20 May 2026 19:35:17 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2349>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2349>; rel=shortlink
+

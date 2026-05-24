@@ -1,0 +1,45 @@
+DRYCURED.COM v2.0 — INFOGRAFIKE SEO + SITEMAP REPORT
+
+STATUS: PASS
+
+Problem:
+- Javne infografike koristile su lijepe URL-ove iz custom kataloga:
+  /infografike/postmortalne-promjene-i-ph-mesa/
+  /infografike/tehnoloska-namjena-dijelova-mesa/
+  itd.
+- AIOSEO sitemap je istodobno sadržavao stare tehničke UUID CPT slugove.
+- Ti tehnički sitemap URL-ovi vraćali su 404.
+- Jedna infografika imala je tehnički naslov "Chatgpt Image..." umjesto uredničkog naslova.
+
+Rješenje:
+1) U drycured-infografike.php dodan je custom SEO head za infografika archive i single prikaz:
+   - ispravan title,
+   - meta description,
+   - canonical,
+   - OpenGraph title/description/image,
+   - Twitter title/description/image.
+2) Na custom infografika rutama isključen je pogrešni AIOSEO output kako se više ne bi povlačio "Blog - drycured.com".
+3) CPT infografika postovi usklađeni su s custom katalogom:
+   - post_title,
+   - post_name,
+   - post_excerpt.
+4) Posebno je ispravljen ID 1650:
+   - Anatomska podjela svinjskog trupa
+   - /infografike/anatomska-podjela-svinjskog-trupa/
+
+Potvrda:
+- infografika-sitemap.xml ima 12 page <loc> URL-ova.
+- Svih 12 lijepih URL-ova nalazi se u sitemapu.
+- Svih 12 lijepih URL-ova vraća HTTP 200.
+- Stari tehnički page slugovi više nisu u sitemapu.
+- Tehnički image filenameovi u image:loc su normalni i nisu problem.
+- /infografike/postmortalne-promjene-i-ph-mesa/ više nema "Blog - drycured.com" u SEO/OG sloju.
+- Wrong Blog markers = 0.
+
+Napomena:
+- Backup prije SEO head izmjene spremljen je u /root/drycured-v2-reports/.
+- Backup prije CPT slug izmjene spremljen je u /root/drycured-v2-reports/.
+- Nisu dirani SSH, Elementor, Elementor Pro, Astra ni WordPress core.
+
+Zaključno:
+Infografike SEO + sitemap ciklus je zatvoren kao PASS.

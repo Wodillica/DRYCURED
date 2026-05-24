@@ -1,0 +1,3 @@
+name	status	update	version	update_version	auto_update	enabled
+astra	active	available	4.8.13	4.13.3	off	network
+twentytwentyfive	inactive	available	1.0	1.4	off	network

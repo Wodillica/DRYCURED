@@ -1,0 +1,77 @@
+=== POST 1483 ===
+﻿Field	Value
+ID	1483
+post_content	<figure class="wp-block-image size-large"><img src="https://drycured.com/wp-content/uploads/2026/03/pexels_sausage_making_homemade-1.jpg" alt="Recept za domaću kobasicu bez slike" class="wp-image-1484"/></figure>
+	
+	Domaća kobasica iz Slavonije – začinjena tradicijom i ljubavlju
+	
+	Nema slavonskog stola bez domaće kobasice. To je jednostavno pravilo koje se ne mijenja. 🌭❤️
+	
+	Naša <strong>domaća kobasica</strong> radi se od svježeg svinjskog mesa, pažljivo odabranog i pripremljenog na način koji poštuje <strong>desetljeća obiteljske tradicije</strong>. Svaki komad priča svoju priču.
+	
+	🥩 <strong>Što je čini posebnom:</strong>
+	- <strong>Svježe svinjsko meso</strong> od domaćih svinja hranjenih prirodnom hranom
+	- Začinjena <strong>pravom slavonskom paprikom</strong>, češnjakom i solju
+	- Punjena u <strong>prirodno crijevo</strong> – onako kako se oduvijek radilo
+	- Sušena i dimljena na <strong>hladnom dimu</strong> od kvalitetnog drveta
+	- Bez konzervansa, bez umjetnih dodataka – <strong>samo prirodni sastojci</strong>
+	
+	Rezultat je kobasica bogatog, intenzivnog okusa i mirisne arome dima koji vas odmah prenese u slavonsko domaćinstvo. 🏡
+	
+	🍽️ <strong>Kako je volimo pripremati:</strong>
+	- Pečena na <strong>roštilju</strong> do savršene hrskavosti
+	- Kuhana u <strong>grahu ili varivima</strong> za dubinu okusa
+	- Pržena uz <strong>jaja i domaći kruh</strong> za pravi doručak
+	- Kao <strong>hladni narezak</strong> na svečanom stolu uz domaći sir i ajvar
+	
+	🎁 Savršen poklon za svakoga tko cijeni <strong>pravu, domaću hranu</strong>.
+	
+	📦 Dostupna za <strong>osobno preuzimanje</strong> i <strong>dostavu</strong> na vašu adresu.
+	
+	Ne čekajte – količine su ograničene! 👇
+	
+	Napišite nam u komentarima ili nas kontaktirajte za narudžbu.
+	
+	
+	*Slavonska tradicija u svakom zalogaju – okus koji ne zaboravljate.* 🌶️🌾
+post_title	Recept za domaću kobasicu bez slike
+post_status	publish
+post_name	recept-za-domacu-kobasicu-bez-slike
+
+=== POST 1486 ===
+﻿Field	Value
+ID	1486
+post_content	Domaća kobasica iz Slavonije – začinjena tradicijom i ljubavlju
+	
+	Nema slavonskog stola bez domaće kobasice. To je jednostavno pravilo koje se ne mijenja. 🌭❤️
+	
+	Naša <strong>domaća kobasica</strong> radi se od svježeg svinjskog mesa, pažljivo odabranog i pripremljenog na način koji poštuje <strong>desetljeća obiteljske tradicije</strong>. Svaki komad priča svoju priču.
+	
+	🥩 <strong>Što je čini posebnom:</strong>
+	- <strong>Svježe svinjsko meso</strong> od domaćih svinja hranjenih prirodnom hranom
+	- Začinjena <strong>pravom slavonskom paprikom</strong>, češnjakom i solju
+	- Punjena u <strong>prirodno crijevo</strong> – onako kako se oduvijek radilo
+	- Sušena i dimljena na <strong>hladnom dimu</strong> od kvalitetnog drveta
+	- Bez konzervansa, bez umjetnih dodataka – <strong>samo prirodni sastojci</strong>
+	
+	Rezultat je kobasica bogatog, intenzivnog okusa i mirisne arome dima koji vas odmah prenese u slavonsko domaćinstvo. 🏡
+	
+	🍽️ <strong>Kako je volimo pripremati:</strong>
+	- Pečena na <strong>roštilju</strong> do savršene hrskavosti
+	- Kuhana u <strong>grahu ili varivima</strong> za dubinu okusa
+	- Pržena uz <strong>jaja i domaći kruh</strong> za pravi doručak
+	- Kao <strong>hladni narezak</strong> na svečanom stolu uz domaći sir i ajvar
+	
+	🎁 Savršen poklon za svakoga tko cijeni <strong>pravu, domaću hranu</strong>.
+	
+	📦 Dostupna za <strong>osobno preuzimanje</strong> i <strong>dostavu</strong> na vašu adresu.
+	
+	Ne čekajte – količine su ograničene! 👇
+	
+	Napišite nam u komentarima ili nas kontaktirajte za narudžbu.
+	
+	
+	*Slavonska tradicija u svakom zalogaju – okus koji ne zaboravljate.* 🌶️🌾
+post_title	Recept za domaću kobasicu bez slike
+post_status	publish
+post_name	recept-za-domacu-kobasicu-bez-slike-2

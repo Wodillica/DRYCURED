@@ -1,0 +1,56 @@
+DRYCURED.COM V2 — DO NOT TOUCH / CLEANUP PLAN
+
+STATUS:
+Server stabiliziran nakon restore-a.
+Nginx čist.
+PHP-FPM podešen.
+SMTP radi.
+Registracija i email verifikacija rade.
+Recepti, kalkulator, knjiga, podcast, savjeti, infografike i alati rade.
+
+STROGO NE DIRATI BEZ POSEBNOG PLANA:
+- SSH konfiguraciju
+- sshd_config
+- PermitRootLogin
+- PasswordAuthentication
+- SSH ključeve
+- fail2ban
+- UFW / firewall
+- Hetzner Rescue mode
+- Elementor
+- Elementor Pro
+- Astra temu
+- WordPress core major update
+
+ELEMENTOR:
+Elementor i Elementor Pro ostaju zamrznuti.
+Ne ažurirati jer dio stranice ovisi o Elementor layoutu.
+
+WORDPRESS CORE:
+Ne raditi major update bez posebnog rollback plana.
+Eventualni minor update 6.7 → 6.7.5 samo nakon zasebnog snapshot-a i preflighta.
+
+BUDDYPRESS:
+Ne brisati zasad.
+Iako je inactive, drycured-auth još ima fallback logiku za BuddyPress/bbPress profile.
+
+SIGURNOSNO ČIŠĆENJE — KANDIDATI ZA KASNIJE:
+Pluginovi:
+- ocean-extra
+- translatepress-multilingual
+- drycured-podcast-card-shortcode (tek nakon potvrde da se više ne koristi)
+
+Teme:
+- blossom-recipe
+- oceanwp
+- kadence
+- hostinger-ai-theme
+- twentytwentyfour
+- twentytwentythree
+
+Ostaviti:
+- astra kao aktivnu temu
+- jednu službenu WordPress temu kao fallback, npr. twentytwentyfive
+
+NAPOMENA:
+Ne brisati ništa bez snapshot-a i provjere javnih stranica nakon svakog koraka.

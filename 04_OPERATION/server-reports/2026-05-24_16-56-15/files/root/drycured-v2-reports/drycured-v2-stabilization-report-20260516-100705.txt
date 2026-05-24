@@ -1,0 +1,228 @@
+DRYCURED.COM V2 STABILIZATION REPORT
+Generated: Sat May 16 10:07:05 AM UTC 2026
+Server: swab-production
+Path: /var/www/html
+
+=== SYSTEM ===
+ 10:07:05 up 17:11,  1 user,  load average: 0.00, 0.00, 0.00
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.2Gi       281Mi       115Mi       2.6Gi       2.5Gi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        75G   12G   61G  16% /
+
+=== SERVICES ===
+active
+active
+active
+
+=== NGINX ===
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+total 12K
+drwxr-xr-x 2 root root 4.0K May 16 07:09 .
+drwxr-xr-x 8 root root 4.0K May 16 06:38 ..
+-rw-r--r-- 1 root root 1000 May 12 19:38 drycured
+lrwxrwxrwx 1 root root   31 Mar 20 18:42 swab -> /etc/nginx/sites-available/swab
+lrwxrwxrwx 1 root root   41 Mar 25 03:17 swab-multisite -> /etc/nginx/sites-available/swab-multisite
+lrwxrwxrwx 1 root root   40 Mar 21 04:50 swabtools.com -> /etc/nginx/sites-available/swabtools.com
+lrwxrwxrwx 1 root root   49 Mar 24 18:31 wildcard.swabtools.com -> /etc/nginx/sites-available/wildcard.swabtools.com
+
+=== PHP-FPM CONFIG ===
+116:pm = dynamic
+127:pm.max_children = 8
+132:pm.start_servers = 3
+137:pm.min_spare_servers = 2
+142:pm.max_spare_servers = 5
+491:pm.max_requests = 500
+
+=== WORDPRESS ===
+6.7
+https://drycured.com
+https://drycured.com
+name	status	version
+astra	active	4.8.13
+
+=== IMPORTANT PLUGINS ===
+all-in-one-seo-pack	active	4.7.9.1	available
+bbpress	active	2.6.14	none
+buddypress	inactive	14.3.3	available
+digitalna-pusnica-alati	active	1.1.0	none
+drycured-enciklopedija-znanja	active	1.1.0	none
+drycured-home-podcast-runtime-card	active	2.1.0	none
+drycured-kalkulator	active-network	3.0.0	none
+drycured-podcast-archive	active	1.0.0	none
+drycured-podcast-card-shortcode	inactive	1.0.0	none
+drycured-podcast-style	active	1.0.0	none
+drycured-recipe-core	active-network	0.2.23	none
+elementor	active	3.27.6	available
+elementor-pro	active	3.27.4	available
+gtranslate	active	3.0.9	available
+jwt-authentication-for-wp-rest-api	active	1.5.0	none
+wp-mail-smtp	active	4.8.0	none
+wp-recipe-maker	active	9.8.2	available
+drycured-platform-loader	must-use		
+drycured-savjeti-iz-pusnice	must-use		
+drycured-admin-guard	must-use		
+drycured-auth	must-use	1.0.0	
+drycured-book-inquiry	must-use		
+drycured-book-preview	must-use		
+drycured-book-preview-style	must-use		
+drycured-book-shadow-soft-fix	must-use		
+drycured-gt-killfloat	must-use		
+drycured-gtranslate	must-use		
+drycured-home-card-border-fix	must-use		
+drycured-home-clean-css	must-use		
+drycured-infografike	must-use		
+drycured-mail-debug	must-use		
+drycured-profile-settings	must-use		
+drycured-savjet-home-injector	must-use		
+drycured-search	must-use	1.0.0	
+drycured-search-assets	must-use		
+
+=== KEY PAGE CHECKS ===
+https://drycured.com/
+HTTP:200 TTFB:0.402481s TOTAL:0.453014s SIZE:272897
+https://drycured.com/recepti/
+HTTP:200 TTFB:0.214413s TOTAL:0.295737s SIZE:321124
+https://drycured.com/recepti-baza/
+HTTP:200 TTFB:0.166602s TOTAL:0.177224s SIZE:224801
+https://drycured.com/kalkulator/
+HTTP:200 TTFB:0.193731s TOTAL:0.210528s SIZE:307182
+https://drycured.com/knjiga/
+HTTP:200 TTFB:0.181312s TOTAL:0.195354s SIZE:234033
+https://drycured.com/podcast/
+HTTP:200 TTFB:0.175638s TOTAL:0.183318s SIZE:220975
+https://drycured.com/savjeti/
+HTTP:200 TTFB:0.183904s TOTAL:0.192719s SIZE:223088
+https://drycured.com/registracija/
+HTTP:200 TTFB:0.173213s TOTAL:0.177728s SIZE:212128
+https://drycured.com/forum/
+HTTP:200 TTFB:0.266608s TOTAL:0.275180s SIZE:212158
+https://drycured.com/dijagnostika/
+HTTP:200 TTFB:0.168275s TOTAL:0.173487s SIZE:214177
+https://drycured.com/tracker-tezine/
+HTTP:200 TTFB:0.157433s TOTAL:0.161816s SIZE:214225
+https://drycured.com/dnevnik-serije/
+HTTP:200 TTFB:0.152321s TOTAL:0.156274s SIZE:214151
+https://drycured.com/planer-dimljenja/
+HTTP:200 TTFB:0.185012s TOTAL:0.188307s SIZE:214195
+https://drycured.com/monitor-susionice/
+HTTP:200 TTFB:0.161011s TOTAL:0.164777s SIZE:214233
+https://drycured.com/haccp/
+HTTP:200 TTFB:0.202447s TOTAL:0.205485s SIZE:214072
+https://drycured.com/inventar/
+HTTP:200 TTFB:0.176231s TOTAL:0.180171s SIZE:214103
+
+=== CONTENT COUNTS ===
+Pages:
+38Posts:
+49dry_recipe any:
+659dry_recipe publish:
+429tip_pusnice publish:
+112infografika publish:
+12
+=== SMTP QUICK TEST STATE ===
+mailer=smtp
+from_email=info@drycured.com
+smtp_host=smtp.hostinger.com
+smtp_port=587
+smtp_encryption=tls
+smtp_user=info@drycured.com
+
+=== RECENT PHP-FPM WARNINGS ===
+[10-May-2026 16:23:39] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[11-May-2026 18:26:18] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[12-May-2026 19:43:35] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[12-May-2026 20:45:01] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[13-May-2026 09:25:49] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[13-May-2026 11:11:37] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[13-May-2026 11:11:52] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[13-May-2026 18:05:48] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[13-May-2026 18:05:57] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[13-May-2026 18:06:06] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[13-May-2026 18:06:14] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[13-May-2026 18:06:22] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+
+=== RECENT NGINX ERRORS ===
+2026/05/16 09:01:18 [error] 160123#160123: *4024 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /xxa.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:18 [error] 160123#160123: *4027 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /index0.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:18 [error] 160124#160124: *4030 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /wp-kz.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:18 [error] 160123#160123: *4033 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /19.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:19 [error] 160123#160123: *4036 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /11.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:19 [error] 160123#160123: *4039 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /w.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:19 [error] 160124#160124: *4042 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /ws78.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:19 [error] 160123#160123: *4045 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /xxx.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:19 [error] 160123#160123: *4049 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /a7.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:20 [error] 160123#160123: *4053 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /BDKR28WP.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:20 [error] 160123#160123: *4056 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /a1.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:20 [error] 160123#160123: *4059 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /d.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:20 [error] 160123#160123: *4062 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /xff.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:20 [error] 160124#160124: *4065 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /bal.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:21 [error] 160123#160123: *4068 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /xltt.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:21 [error] 160124#160124: *4071 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /son.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:21 [error] 160124#160124: *4074 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /doc.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:21 [error] 160124#160124: *4077 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /zo.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:21 [error] 160124#160124: *4081 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /xper1.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:22 [error] 160124#160124: *4084 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /tiny.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:22 [error] 160124#160124: *4087 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /s1.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:22 [error] 160124#160124: *4090 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /de.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:22 [error] 160124#160124: *4093 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /1a.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:23 [error] 160124#160124: *4096 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /2.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:23 [error] 160124#160124: *4099 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /f35.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:23 [error] 160124#160124: *4102 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /sky.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:23 [error] 160124#160124: *4105 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /man.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:23 [error] 160123#160123: *4108 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /ms-edit.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:24 [error] 160123#160123: *4111 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /7.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:24 [error] 160123#160123: *4114 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /pp.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:24 [error] 160123#160123: *4117 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /mar.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:24 [error] 160123#160123: *4120 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /themes.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:24 [error] 160123#160123: *4123 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /acp.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:25 [error] 160123#160123: *4126 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /zdd.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:25 [error] 160124#160124: *4129 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /link.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:25 [error] 160123#160123: *4133 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /sallu.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:25 [error] 160124#160124: *4138 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /aboute.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:25 [error] 160123#160123: *4141 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /ayk.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:26 [error] 160123#160123: *4144 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /one.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:26 [error] 160123#160123: *4147 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /tx79.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:26 [error] 160124#160124: *4150 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /wp-class.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:26 [error] 160123#160123: *4153 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /8.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:26 [error] 160123#160123: *4156 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /options.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:27 [error] 160123#160123: *4159 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /f5.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:27 [error] 160123#160123: *4162 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /alpha.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:27 [error] 160123#160123: *4165 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /son1.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:27 [error] 160124#160124: *4168 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /ggb.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:27 [error] 160124#160124: *4171 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /amxloxxr.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:28 [error] 160124#160124: *4174 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /ss.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:28 [error] 160124#160124: *4177 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /sadcut1.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:28 [error] 160124#160124: *4180 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /rh.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:28 [error] 160124#160124: *4183 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /99.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:29 [error] 160124#160124: *4186 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /layout.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:29 [error] 160124#160124: *4189 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /12.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:29 [error] 160124#160124: *4192 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /fs.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:29 [error] 160124#160124: *4195 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /aaa.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:29 [error] 160124#160124: *4198 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /Ov-Simple1.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:30 [error] 160124#160124: *4201 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /a5.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:30 [error] 160123#160123: *4204 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /hplfuns.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:30 [error] 160123#160123: *4207 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /bolt.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:30 [error] 160123#160123: *4210 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /inputs.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:30 [error] 160123#160123: *4213 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /file2.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:31 [error] 160123#160123: *4216 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /index/function.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:31 [error] 160123#160123: *4219 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /wk/index.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:31 [error] 160123#160123: *4222 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /alfa.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:31 [error] 160123#160123: *4225 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /wp-theme.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:31 [error] 160124#160124: *4228 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /wp-file.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:32 [error] 160123#160123: *4231 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /default.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:32 [error] 160123#160123: *4234 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /mah.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:32 [error] 160124#160124: *4237 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /plugins.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:32 [error] 160123#160123: *4240 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /sf.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:32 [error] 160124#160124: *4243 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /a.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:33 [error] 160123#160123: *4246 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /k.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:33 [error] 160123#160123: *4249 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /ini.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:33 [error] 160123#160123: *4252 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /ca4.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:33 [error] 160123#160123: *4255 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /wp-admin/includes/index.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:33 [error] 160123#160123: *4258 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /wp-info.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:34 [error] 160124#160124: *4261 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /init.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:34 [error] 160124#160124: *4264 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /100.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"
+2026/05/16 09:01:34 [error] 160124#160124: *4267 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: *.swabtools.com, request: "GET /fm.php HTTP/1.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "mojtermin.swabtools.com"

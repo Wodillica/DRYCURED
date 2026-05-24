@@ -1,0 +1,51 @@
+DRYCURED.COM v2.0 — UI / SEO POLISH REPORT
+
+STATUS: PASS
+
+Izvršene male javne korekcije bez diranja SSH-a, Elementora, Elementora Pro, Astre i WordPress core-a.
+
+1) /my-account/
+Problem:
+- Stranica je javno prikazivala neobrađeni shortcode [woocommerce_my_account].
+
+Rješenje:
+- Sadržaj stranice zamijenjen informativnim tekstom "Korisnički račun".
+- Dodani linkovi prema registraciji i forumu.
+- Backup sadržaja stranice spremljen je u /root/drycured-v2-reports/.
+
+Status:
+- /my-account/ vraća HTTP 200.
+- [woocommerce_my_account] više se ne prikazuje javno.
+
+2) /savjeti/
+Problem:
+- CPT i javni archive koristili su naziv "Tipovi iz pušnice".
+
+Rješenje:
+- Label promijenjen u "Savjeti iz pušnice".
+- Slug /savjeti/ nije mijenjan.
+- Rewrite flush napravljen.
+
+Status:
+- /savjeti/ vraća HTTP 200.
+- Title, OG title, Twitter title, breadcrumb i H1 sada prikazuju "Savjeti iz pušnice".
+
+3) /infografike/postmortalne-promjene-i-ph-mesa/
+Problem:
+- Custom infografika ruta prikazivala je ispravan sadržaj, ali SEO/OG sloj povlačio je "Blog - drycured.com".
+
+Rješenje:
+- U drycured-infografike.php dodan custom SEO head za infografika archive i single prikaz.
+- AIOSEO output na toj custom ruti isključen kako ne bi pogrešno povlačio Blog kontekst.
+- Ručno se ispisuju title, description, canonical, OG i Twitter meta oznake.
+
+Status:
+- Infografika vraća HTTP 200.
+- Wrong "Blog - drycured.com" markers = 0.
+- Canonical, OG title, Twitter title i description sada odgovaraju stvarnoj infografici.
+
+Zaključno:
+- UI/SEO polish ciklus je PASS.
+- Ključne stranice nakon izmjena vraćaju HTTP 200:
+  /, /recepti/, /kalkulator/, /knjiga/, /podcast/, /registracija/, /forum/.
+- Snapshot nije rađen jer je promjena mala i postoji karantena/backup datoteka.
