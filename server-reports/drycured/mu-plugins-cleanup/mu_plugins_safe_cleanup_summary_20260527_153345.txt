@@ -1,0 +1,23 @@
+DRYCURED MU-PLUGINS SAFE CLEANUP
+Timestamp: 20260527_153345
+
+Moved only:
+- root _archive_* directories
+- root *.disabled* files
+
+Did NOT move:
+- active root .php files
+- modules folders
+- process core files
+- starter culture modules
+- home process order files
+
+Backup:
+/root/drycured_reports/mu_plugins_safe_cleanup_20260527_153345/mu-plugins-before-cleanup_20260527_153345.tar.gz
+
+Moved archive location:
+/root/drycured_archives/mu_plugins_cleanup_20260527_153345
+
+Rollback:
+tar -xzf "/root/drycured_reports/mu_plugins_safe_cleanup_20260527_153345/mu-plugins-before-cleanup_20260527_153345.tar.gz" -C /var/www/html
+wp cache flush --allow-root
