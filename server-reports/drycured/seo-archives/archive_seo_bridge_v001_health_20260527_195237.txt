@@ -1,0 +1,8 @@
+---- https://drycured.com/savjeti/ ----
+http=200 total=0.147442 starttransfer=0.147216 size=225205
+---- https://drycured.com/infografike/ ----
+http=200 total=0.107232 starttransfer=0.106993 size=185542
+---- https://drycured.com/recepti-baza/ ----
+http=200 total=0.143401 starttransfer=0.143121 size=226521
+---- https://drycured.com/sitemap.xml ----
+http=200 total=0.211473 starttransfer=0.211430 size=3710

@@ -1,0 +1,18 @@
+---- savjeti ----
+title_count=1
+description_count=1
+og_title_count=1
+og_description_count=1
+
+---- infografike ----
+title_count=1
+description_count=1
+og_title_count=1
+og_description_count=1
+
+---- recepti-baza ----
+title_count=1
+description_count=1
+og_title_count=1
+og_description_count=1
+

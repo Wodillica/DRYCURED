@@ -1,0 +1,28 @@
+DRYCURED ARCHIVE SEO BRIDGE v0.0.1
+Timestamp: 20260527_195237
+
+Changed:
+- wp-content/mu-plugins/drycured-archive-seo-bridge.php
+
+Purpose:
+- controlled SEO title/meta override for three CPT archives:
+  /savjeti/
+  /infografike/
+  /recepti-baza/
+
+Method:
+- narrow AIOSEO title/description filters where applicable
+- narrow output-buffer head normalization only on the three target archive URLs
+
+Checks:
+- PHP lint
+- live meta after bridge
+- duplicate title/description/OG count
+- page health
+
+No Git commit yet.
+
+Rollback:
+rm -f /var/www/html/wp-content/mu-plugins/drycured-archive-seo-bridge.php
+wp cache flush --allow-root
+wp transient delete --all --allow-root

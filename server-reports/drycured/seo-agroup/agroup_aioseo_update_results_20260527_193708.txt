@@ -1,0 +1,14 @@
+UPDATED slug=home post_id=101
+UPDATED slug=proces-izrade post_id=2864
+UPDATED slug=recepti post_id=102
+UPDATED slug=savjeti post_id=104
+UPDATED slug=infografike post_id=1664
+UPDATED slug=alati post_id=2349
+UPDATED slug=kalkulator-susenja post_id=2823
+UPDATED slug=planer-dimljenja post_id=2795
+UPDATED slug=pracenje-ph post_id=2819
+UPDATED slug=starter-kulture post_id=2945
+UPDATED slug=knjiga post_id=1428
+UPDATED slug=podcast post_id=2191
+UPDATED slug=atlas-stilova-europe post_id=2934
+UPDATED slug=greske post_id=2915

@@ -1,0 +1,12 @@
+---- https://drycured.com/ ----
+http=200 total=0.165677 starttransfer=0.125751 size=338981
+---- https://drycured.com/recepti/ ----
+http=200 total=0.262656 starttransfer=0.164836 size=323908
+---- https://drycured.com/savjeti/ ----
+http=200 total=0.142229 starttransfer=0.132200 size=224247
+---- https://drycured.com/alati/ ----
+http=200 total=0.158840 starttransfer=0.148909 size=223427
+---- https://drycured.com/kalkulator-susenja/ ----
+http=200 total=0.130278 starttransfer=0.124513 size=212230
+---- https://drycured.com/sitemap.xml ----
+http=200 total=0.192377 starttransfer=0.192328 size=3710

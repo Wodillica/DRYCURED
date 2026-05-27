@@ -1,0 +1,70 @@
+---- home | post_id=101 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+101	Drycured.com — enciklopedija suhomesnatih proizvoda, recepti i alati	Drycured.com okuplja znanje, recepte, alate i vodiče za sigurnu domaću izradu suhomesnatih proizvoda, od sirovine do zrenja.	Drycured.com — enciklopedija suhomesnatih proizvoda, recepti i alati	Drycured.com okuplja znanje, recepte, alate i vodiče za sigurnu domaću izradu suhomesnatih proizvoda, od sirovine do zrenja.	Drycured.com — enciklopedija suhomesnatih proizvoda, recepti i alati	Drycured.com okuplja znanje, recepte, alate i vodiče za sigurnu domaću izradu suhomesnatih proizvoda, od sirovine do zrenja.	2026-05-27 19:39:38
+
+
+---- proces-izrade | post_id=2864 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+2864	Proces izrade suhomesnatih proizvoda — od sirovine do pakiranja	Vodič kroz sve faze izrade suhomesnatih proizvoda: sirovina, soljenje, mljevenje, fermentacija, dimljenje, sušenje, zrenje i pakiranje.	Proces izrade suhomesnatih proizvoda — od sirovine do pakiranja	Vodič kroz sve faze izrade suhomesnatih proizvoda: sirovina, soljenje, mljevenje, fermentacija, dimljenje, sušenje, zrenje i pakiranje.	Proces izrade suhomesnatih proizvoda — od sirovine do pakiranja	Vodič kroz sve faze izrade suhomesnatih proizvoda: sirovina, soljenje, mljevenje, fermentacija, dimljenje, sušenje, zrenje i pakiranje.	2026-05-27 19:39:38
+
+
+---- recepti | post_id=102 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+102	Recepti za suhomesnate proizvode — tradicionalna i domaća izrada	Pronađite recepte za kobasice, salame, pršute, pancete i druge suhomesnate proizvode, prilagođene domaćoj i maloj proizvodnji.	Recepti za suhomesnate proizvode — tradicionalna i domaća izrada	Pronađite recepte za kobasice, salame, pršute, pancete i druge suhomesnate proizvode, prilagođene domaćoj i maloj proizvodnji.	Recepti za suhomesnate proizvode — tradicionalna i domaća izrada	Pronađite recepte za kobasice, salame, pršute, pancete i druge suhomesnate proizvode, prilagođene domaćoj i maloj proizvodnji.	2026-05-27 19:39:38
+
+
+---- savjeti | post_id=104 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+104	Savjeti iz pušnice — greške, rješenja i praktična kontrola procesa	Praktični savjeti za domaću izradu suhomesnatih proizvoda: najčešće greške, uzroci problema i konkretna rješenja u pušnici i komori.	Savjeti iz pušnice — greške, rješenja i praktična kontrola procesa	Praktični savjeti za domaću izradu suhomesnatih proizvoda: najčešće greške, uzroci problema i konkretna rješenja u pušnici i komori.	Savjeti iz pušnice — greške, rješenja i praktična kontrola procesa	Praktični savjeti za domaću izradu suhomesnatih proizvoda: najčešće greške, uzroci problema i konkretna rješenja u pušnici i komori.	2026-05-27 19:39:38
+
+
+---- infografike | post_id=1664 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+1664	Infografike o suhomesnatim proizvodima — vizualni vodiči	Katalog edukativnih infografika o mesu, soljenju, dimljenju, sušenju, zrenju, sigurnosti i tradicionalnoj izradi suhomesnatih proizvoda.	Infografike o suhomesnatim proizvodima — vizualni vodiči	Katalog edukativnih infografika o mesu, soljenju, dimljenju, sušenju, zrenju, sigurnosti i tradicionalnoj izradi suhomesnatih proizvoda.	Infografike o suhomesnatim proizvodima — vizualni vodiči	Katalog edukativnih infografika o mesu, soljenju, dimljenju, sušenju, zrenju, sigurnosti i tradicionalnoj izradi suhomesnatih proizvoda.	2026-05-27 19:39:38
+
+
+---- alati | post_id=2349 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+2349	Alati za izradu suhomesnatih proizvoda — kalkulatori i praćenje procesa	Praktični alati za soljenje, dimljenje, sušenje, pH, dnevnik serije, etikete i kontrolu procesa u domaćoj izradi suhomesnatih proizvoda.	Alati za izradu suhomesnatih proizvoda — kalkulatori i praćenje procesa	Praktični alati za soljenje, dimljenje, sušenje, pH, dnevnik serije, etikete i kontrolu procesa u domaćoj izradi suhomesnatih proizvoda.	Alati za izradu suhomesnatih proizvoda — kalkulatori i praćenje procesa	Praktični alati za soljenje, dimljenje, sušenje, pH, dnevnik serije, etikete i kontrolu procesa u domaćoj izradi suhomesnatih proizvoda.	2026-05-27 19:39:38
+
+
+---- kalkulator-susenja | post_id=2823 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+2823	Kalkulator sušenja suhomesnatih proizvoda — gubitak mase i ciljna težina	Izračunajte i pratite gubitak mase tijekom sušenja kobasica, salama i mesa prema početnoj masi, ciljanoj težini i fazama procesa.	Kalkulator sušenja suhomesnatih proizvoda — gubitak mase i ciljna težina	Izračunajte i pratite gubitak mase tijekom sušenja kobasica, salama i mesa prema početnoj masi, ciljanoj težini i fazama procesa.	Kalkulator sušenja suhomesnatih proizvoda — gubitak mase i ciljna težina	Izračunajte i pratite gubitak mase tijekom sušenja kobasica, salama i mesa prema početnoj masi, ciljanoj težini i fazama procesa.	2026-05-27 19:39:38
+
+
+---- planer-dimljenja | post_id=2795 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+2795	Planer dimljenja suhomesnatih proizvoda — raspored dima i odmora	Isplanirajte hladno dimljenje, odmore između dimova i kontrolu procesa za kobasice, salame, slaninu, vratinu i druge proizvode.	Planer dimljenja suhomesnatih proizvoda — raspored dima i odmora	Isplanirajte hladno dimljenje, odmore između dimova i kontrolu procesa za kobasice, salame, slaninu, vratinu i druge proizvode.	Planer dimljenja suhomesnatih proizvoda — raspored dima i odmora	Isplanirajte hladno dimljenje, odmore između dimova i kontrolu procesa za kobasice, salame, slaninu, vratinu i druge proizvode.	2026-05-27 19:39:38
+
+
+---- pracenje-ph | post_id=2819 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+2819	Praćenje pH fermentacije — sigurnost kobasica i salama	Pratite pH vrijednost tijekom fermentacije kobasica i salama radi bolje sigurnosti, stabilnosti, arome i kontrole procesa.	Praćenje pH fermentacije — sigurnost kobasica i salama	Pratite pH vrijednost tijekom fermentacije kobasica i salama radi bolje sigurnosti, stabilnosti, arome i kontrole procesa.	Praćenje pH fermentacije — sigurnost kobasica i salama	Pratite pH vrijednost tijekom fermentacije kobasica i salama radi bolje sigurnosti, stabilnosti, arome i kontrole procesa.	2026-05-27 19:39:38
+
+
+---- starter-kulture | post_id=2945 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+2945	Starter kulture za suhomesnate proizvode — fermentacija i sigurnost	Vodič kroz starter kulture u domaćoj i maloj proizvodnji: uloga bakterija, fermentacija, pH, sigurnost, aroma i izbor kulture.	Starter kulture za suhomesnate proizvode — fermentacija i sigurnost	Vodič kroz starter kulture u domaćoj i maloj proizvodnji: uloga bakterija, fermentacija, pH, sigurnost, aroma i izbor kulture.	Starter kulture za suhomesnate proizvode — fermentacija i sigurnost	Vodič kroz starter kulture u domaćoj i maloj proizvodnji: uloga bakterija, fermentacija, pH, sigurnost, aroma i izbor kulture.	2026-05-27 19:39:38
+
+
+---- knjiga | post_id=1428 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+1428	Knjiga o suhomesnatim proizvodima — enciklopedija, recepti i tehnike	Pregled knjige o suhomesnatim proizvodima s enciklopedijskim znanjem, postupcima, receptima, tablicama i praktičnim vodičima.	Knjiga o suhomesnatim proizvodima — enciklopedija, recepti i tehnike	Pregled knjige o suhomesnatim proizvodima s enciklopedijskim znanjem, postupcima, receptima, tablicama i praktičnim vodičima.	Knjiga o suhomesnatim proizvodima — enciklopedija, recepti i tehnike	Pregled knjige o suhomesnatim proizvodima s enciklopedijskim znanjem, postupcima, receptima, tablicama i praktičnim vodičima.	2026-05-27 19:39:38
+
+
+---- podcast | post_id=2191 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+2191	Drycured podcast — razgovori o suhomesnatim proizvodima i pušnici	Podcast o domaćoj izradi suhomesnatih proizvoda, fermentaciji, dimljenju, sušenju, sigurnosti, greškama i praktičnim iskustvima.	Drycured podcast — razgovori o suhomesnatim proizvodima i pušnici	Podcast o domaćoj izradi suhomesnatih proizvoda, fermentaciji, dimljenju, sušenju, sigurnosti, greškama i praktičnim iskustvima.	Drycured podcast — razgovori o suhomesnatim proizvodima i pušnici	Podcast o domaćoj izradi suhomesnatih proizvoda, fermentaciji, dimljenju, sušenju, sigurnosti, greškama i praktičnim iskustvima.	2026-05-27 19:39:38
+
+
+---- atlas-stilova-europe | post_id=2934 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+2934	Atlas stilova Europe — tradicije suhomesnatih proizvoda	Interaktivni atlas europskih stilova suhomesnatih proizvoda: mediteranski, panonski, alpski, dinarski, atlantski i srednjoeuropski pristupi.	Atlas stilova Europe — tradicije suhomesnatih proizvoda	Interaktivni atlas europskih stilova suhomesnatih proizvoda: mediteranski, panonski, alpski, dinarski, atlantski i srednjoeuropski pristupi.	Atlas stilova Europe — tradicije suhomesnatih proizvoda	Interaktivni atlas europskih stilova suhomesnatih proizvoda: mediteranski, panonski, alpski, dinarski, atlantski i srednjoeuropski pristupi.	2026-05-27 19:39:38
+
+
+---- greske | post_id=2915 ----
+post_id	title	description	og_title	og_description	twitter_title	twitter_description	updated
+2915	Greške i rješenja u izradi suhomesnatih proizvoda — vodič za praksu	Vodič kroz najčešće probleme u izradi suhomesnatih proizvoda: tvrda kora, kiseli miris, plijesan, zračni džepovi, gorčina i užeglost.	Greške i rješenja u izradi suhomesnatih proizvoda — vodič za praksu	Vodič kroz najčešće probleme u izradi suhomesnatih proizvoda: tvrda kora, kiseli miris, plijesan, zračni džepovi, gorčina i užeglost.	Greške i rješenja u izradi suhomesnatih proizvoda — vodič za praksu	Vodič kroz najčešće probleme u izradi suhomesnatih proizvoda: tvrda kora, kiseli miris, plijesan, zračni džepovi, gorčina i užeglost.	2026-05-27 19:39:38
+
+

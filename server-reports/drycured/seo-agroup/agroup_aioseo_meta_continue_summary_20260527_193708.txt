@@ -1,0 +1,17 @@
+CONTINUE DRYCURED A-GROUP AIOSEO META v0.0.1
+
+Reason:
+Initial raw PHP execution failed because WordPress multisite context was loaded without HTTP_HOST and the PHP process did not receive the meta TSV path.
+
+Fix:
+Used wp eval-file so WordPress context is loaded through WP-CLI.
+
+Changed:
+- wp_aioseo_posts title/description
+- og_title/og_description
+- twitter_title/twitter_description
+
+Excluded:
+- /recepti-baza/ archive route
+
+No Git commit yet.
