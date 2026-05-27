@@ -1,0 +1,18 @@
+DRYCURED PROCESS SEO + FAQ AUDIT v0.1.6
+Timestamp: 20260527_162657
+
+Ovaj audit nije radio izmjene na WordPress produkciji.
+
+Izrađeno:
+- HTTP snapshot 12 procesnih stranica
+- WordPress page/meta snapshot
+- HTML SEO structure analysis
+- SEO + FAQ prijedlog za 12 procesnih stranica
+
+Glavni prijedlog:
+- prvo admin-only SEO/FAQ mapa
+- zatim isključeni plugin
+- tek nakon pregleda postupno uključivanje meta/FAQ schema po stranicama
+
+Report:
+/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657

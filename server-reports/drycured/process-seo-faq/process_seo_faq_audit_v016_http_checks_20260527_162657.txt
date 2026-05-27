@@ -1,0 +1,180 @@
+---- 01 sirovina | Sirovina ----
+https://drycured.com/proces-izrade/sirovina/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:26:58 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2866>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2866>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/01_sirovina.html size=261873
+
+---- 02 rezanje | Rezanje ----
+https://drycured.com/proces-izrade/rezanje/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:26:58 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2868>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2868>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/02_rezanje.html size=261317
+
+---- 03 soljenje | Soljenje ----
+https://drycured.com/proces-izrade/soljenje/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:26:58 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2867>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2867>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/03_soljenje.html size=262965
+
+---- 04 mljevenje | Mljevenje ----
+https://drycured.com/proces-izrade/mljevenje/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:26:59 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2869>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2869>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/04_mljevenje.html size=270276
+
+---- 05 mijesanje | Miješanje ----
+https://drycured.com/proces-izrade/mijesanje/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:26:59 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2870>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2870>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/05_mijesanje.html size=262312
+
+---- 06 odlezavanje-smjese | Odležavanje smjese ----
+https://drycured.com/proces-izrade/odlezavanje-smjese/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:26:59 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2871>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2871>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/06_odlezavanje-smjese.html size=263516
+
+---- 07 punjenje | Punjenje ----
+https://drycured.com/proces-izrade/punjenje/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:26:59 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2872>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2872>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/07_punjenje.html size=265563
+
+---- 08 fermentacija | Fermentacija ----
+https://drycured.com/proces-izrade/fermentacija/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:27:00 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2873>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2873>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/08_fermentacija.html size=297521
+
+---- 09 dimljenje | Dimljenje ----
+https://drycured.com/proces-izrade/dimljenje/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:27:00 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2874>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2874>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/09_dimljenje.html size=252784
+
+---- 10 susenje | Sušenje ----
+https://drycured.com/proces-izrade/susenje/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:27:00 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2875>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2875>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/10_susenje.html size=252738
+
+---- 11 zrenje | Zrenje ----
+https://drycured.com/proces-izrade/zrenje/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:27:00 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2876>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2876>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/11_zrenje.html size=251652
+
+---- 12 pakiranje | Pakiranje ----
+https://drycured.com/proces-izrade/pakiranje/
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:27:01 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2877>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2877>; rel=shortlink
+
+saved=/root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/html/12_pakiranje.html size=254599
+

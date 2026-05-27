@@ -1,0 +1,156 @@
+---- 01 sirovina | Sirovina | proces-izrade/sirovina ----
+PAGE_ID=2866
+Field	Value
+ID	2866
+post_title	Sirovina
+post_status	publish
+post_name	sirovina
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2866	site-post-title	disabled
+2866	ast-title-bar-display	disabled
+2866	ast-banner-title-visibility	disabled
+
+---- 02 rezanje | Rezanje | proces-izrade/rezanje ----
+PAGE_ID=2868
+Field	Value
+ID	2868
+post_title	Rezanje
+post_status	publish
+post_name	rezanje
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2868	site-post-title	disabled
+2868	ast-title-bar-display	disabled
+2868	ast-banner-title-visibility	disabled
+
+---- 03 soljenje | Soljenje | proces-izrade/soljenje ----
+PAGE_ID=2867
+Field	Value
+ID	2867
+post_title	Soljenje
+post_status	publish
+post_name	soljenje
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2867	site-post-title	disabled
+2867	ast-title-bar-display	disabled
+2867	ast-banner-title-visibility	disabled
+
+---- 04 mljevenje | Mljevenje | proces-izrade/mljevenje ----
+PAGE_ID=2869
+Field	Value
+ID	2869
+post_title	Mljevenje
+post_status	publish
+post_name	mljevenje
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2869	site-post-title	disabled
+2869	ast-title-bar-display	disabled
+2869	ast-banner-title-visibility	disabled
+
+---- 05 mijesanje | Miješanje | proces-izrade/mijesanje ----
+PAGE_ID=2870
+Field	Value
+ID	2870
+post_title	Miješanje
+post_status	publish
+post_name	mijesanje
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2870	site-post-title	disabled
+2870	ast-title-bar-display	disabled
+2870	ast-banner-title-visibility	disabled
+
+---- 06 odlezavanje-smjese | Odležavanje smjese | proces-izrade/odlezavanje-smjese ----
+PAGE_ID=2871
+Field	Value
+ID	2871
+post_title	Odležavanje smjese
+post_status	publish
+post_name	odlezavanje-smjese
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2871	site-post-title	disabled
+2871	ast-title-bar-display	disabled
+2871	ast-banner-title-visibility	disabled
+
+---- 07 punjenje | Punjenje | proces-izrade/punjenje ----
+PAGE_ID=2872
+Field	Value
+ID	2872
+post_title	Punjenje
+post_status	publish
+post_name	punjenje
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2872	site-post-title	disabled
+2872	ast-title-bar-display	disabled
+2872	ast-banner-title-visibility	disabled
+
+---- 08 fermentacija | Fermentacija | proces-izrade/fermentacija ----
+PAGE_ID=2873
+Field	Value
+ID	2873
+post_title	Fermentacija
+post_status	publish
+post_name	fermentacija
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2873	site-post-title	disabled
+2873	ast-title-bar-display	disabled
+2873	ast-banner-title-visibility	disabled
+
+---- 09 dimljenje | Dimljenje | proces-izrade/dimljenje ----
+PAGE_ID=2874
+Field	Value
+ID	2874
+post_title	Dimljenje
+post_status	publish
+post_name	dimljenje
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2874	site-post-title	disabled
+2874	ast-title-bar-display	disabled
+2874	ast-banner-title-visibility	disabled
+
+---- 10 susenje | Sušenje | proces-izrade/susenje ----
+PAGE_ID=2875
+Field	Value
+ID	2875
+post_title	Sušenje
+post_status	publish
+post_name	susenje
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2875	site-post-title	disabled
+2875	ast-title-bar-display	disabled
+2875	ast-banner-title-visibility	disabled
+
+---- 11 zrenje | Zrenje | proces-izrade/zrenje ----
+PAGE_ID=2876
+Field	Value
+ID	2876
+post_title	Zrenje
+post_status	publish
+post_name	zrenje
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2876	site-post-title	disabled
+2876	ast-title-bar-display	disabled
+2876	ast-banner-title-visibility	disabled
+
+---- 12 pakiranje | Pakiranje | proces-izrade/pakiranje ----
+PAGE_ID=2877
+Field	Value
+ID	2877
+post_title	Pakiranje
+post_status	publish
+post_name	pakiranje
+post_modified	2026-05-21 14:21:11
+--- SEO-related post meta ---
+2877	site-post-title	disabled
+2877	ast-title-bar-display	disabled
+2877	ast-banner-title-visibility	disabled
+
