@@ -1,0 +1,17 @@
+DRYCURED HOME PROCESS RAIL AUDIT v0.1.3
+Timestamp: 20260527_161600
+
+Ovaj audit nije radio izmjene.
+
+Provjereno:
+- Process Hub registar
+- home HTML snapshot
+- dc-process-rail markeri
+- procesni nazivi na home stranici
+- procesni linkovi na home stranici
+- usporedba Hub URL-ova s home HTML-om
+- HTTP status home stranice
+
+Sljedeći korak:
+Ako svi procesni URL-ovi postoje na home stranici, stanje se može arhivirati.
+Ako nešto nedostaje, prvo napraviti plan popravka, bez automatskih izmjena.

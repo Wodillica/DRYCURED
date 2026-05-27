@@ -1,0 +1,12 @@
+1 | sirovina | Sirovina | https://drycured.com/proces-izrade/sirovina/
+2 | rezanje | Rezanje | https://drycured.com/proces-izrade/rezanje/
+3 | soljenje | Soljenje | https://drycured.com/proces-izrade/soljenje/
+4 | mljevenje | Mljevenje | https://drycured.com/proces-izrade/mljevenje/
+5 | mijesanje | Miješanje | https://drycured.com/proces-izrade/mijesanje/
+6 | odlezavanje-smjese | Odležavanje smjese | https://drycured.com/proces-izrade/odlezavanje-smjese/
+7 | punjenje | Punjenje | https://drycured.com/proces-izrade/punjenje/
+8 | fermentacija | Fermentacija | https://drycured.com/proces-izrade/fermentacija/
+9 | dimljenje | Dimljenje | https://drycured.com/proces-izrade/dimljenje/
+10 | susenje | Sušenje | https://drycured.com/proces-izrade/susenje/
+11 | zrenje | Zrenje | https://drycured.com/proces-izrade/zrenje/
+12 | pakiranje | Pakiranje | https://drycured.com/proces-izrade/pakiranje/

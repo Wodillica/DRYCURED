@@ -1,0 +1,12 @@
+1 | sirovina | /proces-izrade/sirovina/ | FOUND
+2 | rezanje | /proces-izrade/rezanje/ | FOUND
+3 | soljenje | /proces-izrade/soljenje/ | FOUND
+4 | mljevenje | /proces-izrade/mljevenje/ | FOUND
+5 | mijesanje | /proces-izrade/mijesanje/ | FOUND
+6 | odlezavanje-smjese | /proces-izrade/odlezavanje-smjese/ | FOUND
+7 | punjenje | /proces-izrade/punjenje/ | FOUND
+8 | fermentacija | /proces-izrade/fermentacija/ | FOUND
+9 | dimljenje | /proces-izrade/dimljenje/ | FOUND
+10 | susenje | /proces-izrade/susenje/ | FOUND
+11 | zrenje | /proces-izrade/zrenje/ | FOUND
+12 | pakiranje | /proces-izrade/pakiranje/ | FOUND
