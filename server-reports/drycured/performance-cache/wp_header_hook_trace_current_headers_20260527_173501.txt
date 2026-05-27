@@ -1,0 +1,17 @@
+---- https://drycured.com/ ----
+HTTP/1.1 200 OK
+
+---- https://drycured.com/proces-izrade/susenje/ ----
+HTTP/1.1 200 OK
+
+---- https://drycured.com/proces-izrade/fermentacija/ ----
+HTTP/1.1 200 OK
+
+---- https://drycured.com/kalkulator-susenja/ ----
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+
+---- https://drycured.com/planer-dimljenja/ ----
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+

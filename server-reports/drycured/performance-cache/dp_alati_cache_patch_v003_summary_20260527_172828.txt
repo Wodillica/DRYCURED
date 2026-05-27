@@ -1,0 +1,22 @@
+DRYCURED PATCH — DIGITALNA PUSNICA ALATI CACHE HEADER v0.0.3
+Timestamp: 20260527_172828
+
+Changed:
+wp-content/plugins/digitalna-pusnica-alati/digitalna-pusnica-alati.php
+
+What changed:
+- Removed global no-cache behavior from all public WordPress pages.
+- Kept no-cache behavior for known tool pages and pages containing tool shortcodes.
+
+Expected result:
+- Home and process pages should no longer receive:
+  Cache-Control: no-cache, no-store, must-revalidate
+  from digitalna-pusnica-alati.
+- Tool pages may still receive no-cache.
+
+Backup:
+/root/drycured_reports/patch_dp_alati_cache_v003_20260527_172828/digitalna-pusnica-alati.before-cache-patch.20260527_172828.php
+
+Rollback:
+cp "/root/drycured_reports/patch_dp_alati_cache_v003_20260527_172828/digitalna-pusnica-alati.before-cache-patch.20260527_172828.php" /var/www/html/wp-content/plugins/digitalna-pusnica-alati/digitalna-pusnica-alati.php
+wp cache flush --allow-root

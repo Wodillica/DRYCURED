@@ -1,0 +1,2 @@
+wp-content/plugins/wp-recipe-maker/includes/public/class-wprm-analytics-csv.php:80:		header( 'Cache-Control: no-cache, no-store, must-revalidate' );
+wp-content/plugins/digitalna-pusnica-alati/digitalna-pusnica-alati.php:123:    header('Cache-Control: no-cache, no-store, must-revalidate');

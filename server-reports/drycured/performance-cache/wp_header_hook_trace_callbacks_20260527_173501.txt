@@ -1,0 +1,1076 @@
+### HOOK: send_headers
+priority=10 id=000000000000086a0000000000000000
+callback=Closure
+file=/var/www/html/wp-content/plugins/digitalna-pusnica-alati/digitalna-pusnica-alati.php
+line=75
+
+priority=10 id=GTranslate::set_dns_prefetch_header
+callback=GTranslate::set_dns_prefetch_header
+file=/var/www/html/wp-content/plugins/gtranslate/gtranslate.php
+line=79
+
+### HOOK: wp_headers
+NO CALLBACKS
+
+### HOOK: template_redirect
+priority=-1 id=0000000000000d780000000000000000init_render_mode
+callback=Elementor\Frontend::init_render_mode
+file=/var/www/html/wp-content/plugins/elementor/includes/frontend.php
+line=196
+
+priority=0 id=_wp_admin_bar_init
+callback=_wp_admin_bar_init
+file=/var/www/html/wp-includes/admin-bar.php
+line=23
+
+priority=0 id=0000000000000aa40000000000000000
+callback=Closure
+file=/var/www/html/wp-content/mu-plugins/drycured-infografike.php
+line=623
+
+priority=0 id=0000000000000d770000000000000000init
+callback=Elementor\Preview::init
+file=/var/www/html/wp-content/plugins/elementor/includes/preview.php
+line=77
+
+priority=1 id=0000000000000a9c0000000000000000
+callback=Closure
+file=/var/www/html/wp-content/mu-plugins/drycured-home-placeholder-redirects.php
+line=12
+
+priority=1 id=00000000000009520000000000000000attachmentRedirect
+callback=AIOSEO\Plugin\Common\Main\Media::attachmentRedirect
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Main/Media.php
+line=31
+
+priority=1 id=WPRM_Preview::template_redirect
+callback=WPRM_Preview::template_redirect
+file=/var/www/html/wp-content/plugins/wp-recipe-maker/includes/public/class-wprm-preview.php
+line=74
+
+priority=8 id=bbp_template_redirect
+callback=bbp_template_redirect
+file=/var/www/html/wp-content/plugins/bbpress/includes/core/sub-actions.php
+line=336
+
+priority=10 id=wp_old_slug_redirect
+callback=wp_old_slug_redirect
+file=/var/www/html/wp-includes/query.php
+line=1055
+
+priority=10 id=redirect_canonical
+callback=redirect_canonical
+file=/var/www/html/wp-includes/canonical.php
+line=42
+
+priority=10 id=maybe_redirect_404
+callback=maybe_redirect_404
+file=/var/www/html/wp-includes/ms-functions.php
+line=2137
+
+priority=10 id=0000000000000aa20000000000000000
+callback=Closure
+file=/var/www/html/wp-content/mu-plugins/drycured-infografike.php
+line=388
+
+priority=10 id=00000000000009e10000000000000000noindexFeed
+callback=AIOSEO\Plugin\Common\Meta\Robots::noindexFeed
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Meta/Robots.php
+line=81
+
+priority=10 id=00000000000009a50000000000000000checkForDedicatedPage
+callback=AIOSEO\Plugin\Common\Sitemap\Html\Sitemap::checkForDedicatedPage
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Sitemap/Html/Sitemap.php
+line=87
+
+priority=10 id=0000000000000d6e0000000000000000redirect_to_new_url
+callback=Elementor\Core\Editor\Editor::redirect_to_new_url
+file=/var/www/html/wp-content/plugins/elementor/core/editor/editor.php
+line=202
+
+priority=10 id=0000000000000d780000000000000000init
+callback=Elementor\Frontend::init
+file=/var/www/html/wp-content/plugins/elementor/includes/frontend.php
+line=215
+
+priority=10 id=0000000000000e750000000000000000block_template_frontend
+callback=Elementor\TemplateLibrary\Source_Local::block_template_frontend
+file=/var/www/html/wp-content/plugins/elementor/includes/template-library/sources/local.php
+line=1007
+
+priority=10 id=0000000000000fe80000000000000000register_locations
+callback=ElementorPro\Modules\ThemeBuilder\Classes\Locations_Manager::register_locations
+file=/var/www/html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/locations-manager.php
+line=139
+
+priority=11 id=rest_output_link_header
+callback=rest_output_link_header
+file=/var/www/html/wp-includes/rest-api.php
+line=1052
+
+priority=11 id=wp_shortlink_header
+callback=wp_shortlink_header
+file=/var/www/html/wp-includes/link-template.php
+line=4228
+
+priority=1000 id=wp_redirect_admin_locations
+callback=wp_redirect_admin_locations
+file=/var/www/html/wp-includes/canonical.php
+line=1030
+
+### HOOK: init
+priority=-5 id=wpcode_register_post_type
+callback=wpcode_register_post_type
+file=/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/post-type.php
+line=24
+
+priority=-5 id=wpcode_register_taxonomies
+callback=wpcode_register_taxonomies
+file=/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/post-type.php
+line=40
+
+priority=-1 id=00000000000009730000000000000000resetUserBBPress
+callback=AIOSEO\Plugin\Lite\Main\Filters::resetUserBBPress
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Main/Filters.php
+line=146
+
+priority=0 id=000000000000053e0000000000000000
+callback=Closure
+file=phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php
+line=1648
+
+priority=0 id=create_initial_post_types
+callback=create_initial_post_types
+file=/var/www/html/wp-includes/post.php
+line=20
+
+priority=0 id=create_initial_taxonomies
+callback=create_initial_taxonomies
+file=/var/www/html/wp-includes/taxonomy.php
+line=25
+
+priority=0 id=bbp_init
+callback=bbp_init
+file=/var/www/html/wp-content/plugins/bbpress/includes/core/sub-actions.php
+line=113
+
+priority=0 id=000000000000085d0000000000000000init
+callback=Elementor\Plugin::init
+file=/var/www/html/wp-content/plugins/elementor/includes/plugin.php
+line=670
+
+priority=0 id=000000000000078f0000000000000000init
+callback=ActionScheduler_AdminView::init
+file=/var/www/html/wp-content/plugins/wp-mail-smtp/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php
+line=52
+
+priority=0 id=00000000000010080000000000000000init
+callback=WP_Scripts::init
+file=/var/www/html/wp-includes/class-wp-scripts.php
+line=158
+
+priority=1 id=wp_widgets_init
+callback=wp_widgets_init
+file=/var/www/html/wp-includes/widgets.php
+line=1820
+
+priority=1 id=dc_maybe_init_roles
+callback=dc_maybe_init_roles
+file=/var/www/html/wp-content/mu-plugins/drycured-platform/drycured-platform.php
+line=49
+
+priority=1 id=WPRM_List_Post_Type::register_post_type
+callback=WPRM_List_Post_Type::register_post_type
+file=/var/www/html/wp-content/plugins/wp-recipe-maker/includes/public/class-wprm-list-post-type.php
+line=36
+
+priority=1 id=WPRM_Post_Type::register_post_type
+callback=WPRM_Post_Type::register_post_type
+file=/var/www/html/wp-content/plugins/wp-recipe-maker/includes/public/class-wprm-post-type.php
+line=39
+
+priority=1 id=00000000000007970000000000000000init
+callback=ActionScheduler_DBStore::init
+file=/var/www/html/wp-content/plugins/wp-mail-smtp/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php
+line=52
+
+priority=1 id=00000000000007960000000000000000init
+callback=ActionScheduler_DBLogger::init
+file=/var/www/html/wp-content/plugins/wp-mail-smtp/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php
+line=105
+
+priority=1 id=00000000000007950000000000000000init
+callback=ActionScheduler_QueueRunner::init
+file=/var/www/html/wp-content/plugins/wp-mail-smtp/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php
+line=70
+
+priority=1 id=000000000000078e0000000000000000init
+callback=ActionScheduler_RecurringActionScheduler::init
+file=/var/www/html/wp-content/plugins/wp-mail-smtp/vendor/woocommerce/action-scheduler/classes/ActionScheduler_RecurringActionScheduler.php
+line=25
+
+priority=1 id=000000000000078d0000000000000000
+callback=Closure
+file=/var/www/html/wp-content/plugins/wp-mail-smtp/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php
+line=211
+
+priority=2 id=00000000000009f10000000000000000init
+callback=AIOSEO\Plugin\Lite\Admin\Usage::init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Admin/Usage.php
+line=58
+
+priority=2 id=WPRM_Taxonomies::register_taxonomies
+callback=WPRM_Taxonomies::register_taxonomies
+file=/var/www/html/wp-content/plugins/wp-recipe-maker/includes/public/class-wprm-taxonomies.php
+line=44
+
+priority=5 id=smilies_init
+callback=smilies_init
+file=/var/www/html/wp-includes/functions.php
+line=4812
+
+priority=5 id=000000000000080a0000000000000000get_tasks
+callback=WPMailSMTP\Core::get_tasks
+file=/var/www/html/wp-content/plugins/wp-mail-smtp/src/Core.php
+line=246
+
+priority=9 id=register_core_block_style_handles
+callback=register_core_block_style_handles
+file=/var/www/html/wp-includes/blocks/index.php
+line=29
+
+priority=9 id=wp_register_core_block_metadata_collection
+callback=wp_register_core_block_metadata_collection
+file=/var/www/html/wp-includes/blocks/index.php
+line=171
+
+priority=10 id=00000000000005420000000000000000
+callback=Closure
+file=phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php
+line=1721
+
+priority=10 id=_register_core_block_patterns_and_categories
+callback=_register_core_block_patterns_and_categories
+file=/var/www/html/wp-includes/block-patterns.php
+line=18
+
+priority=10 id=wp_cron
+callback=wp_cron
+file=/var/www/html/wp-includes/cron.php
+line=973
+
+priority=10 id=wp_schedule_delete_old_privacy_export_files
+callback=wp_schedule_delete_old_privacy_export_files
+file=/var/www/html/wp-includes/functions.php
+line=8326
+
+priority=10 id=_show_post_preview
+callback=_show_post_preview
+file=/var/www/html/wp-includes/revision.php
+line=891
+
+priority=10 id=rest_api_init
+callback=rest_api_init
+file=/var/www/html/wp-includes/rest-api.php
+line=208
+
+priority=10 id=kses_init
+callback=kses_init
+file=/var/www/html/wp-includes/kses.php
+line=2335
+
+priority=10 id=_wp_footnotes_kses_init
+callback=_wp_footnotes_kses_init
+file=/var/www/html/wp-includes/blocks.php
+line=2808
+
+priority=10 id=wp_register_persisted_preferences_meta
+callback=wp_register_persisted_preferences_meta
+file=/var/www/html/wp-includes/user.php
+line=5066
+
+priority=10 id=wp_create_initial_post_meta
+callback=wp_create_initial_post_meta
+file=/var/www/html/wp-includes/post.php
+line=8453
+
+priority=10 id=_wp_register_default_font_collections
+callback=_wp_register_default_font_collections
+file=/var/www/html/wp-includes/fonts.php
+line=262
+
+priority=10 id=wp_schedule_update_checks
+callback=wp_schedule_update_checks
+file=/var/www/html/wp-includes/update.php
+line=1047
+
+priority=10 id=_register_block_bindings_pattern_overrides_source
+callback=_register_block_bindings_pattern_overrides_source
+file=/var/www/html/wp-includes/block-bindings/pattern-overrides.php
+line=36
+
+priority=10 id=_register_block_bindings_post_meta_source
+callback=_register_block_bindings_post_meta_source
+file=/var/www/html/wp-includes/block-bindings/post-meta.php
+line=59
+
+priority=10 id=register_block_core_legacy_widget
+callback=register_block_core_legacy_widget
+file=/var/www/html/wp-includes/blocks/legacy-widget.php
+line=64
+
+priority=10 id=register_block_core_widget_group
+callback=register_block_core_widget_group
+file=/var/www/html/wp-includes/blocks/widget-group.php
+line=53
+
+priority=10 id=register_block_core_archives
+callback=register_block_core_archives
+file=/var/www/html/wp-includes/blocks/archives.php
+line=114
+
+priority=10 id=register_block_core_avatar
+callback=register_block_core_avatar
+file=/var/www/html/wp-includes/blocks/avatar.php
+line=158
+
+priority=10 id=register_block_core_block
+callback=register_block_core_block
+file=/var/www/html/wp-includes/blocks/block.php
+line=105
+
+priority=10 id=register_block_core_button
+callback=register_block_core_button
+file=/var/www/html/wp-includes/blocks/button.php
+line=72
+
+priority=10 id=register_block_core_calendar
+callback=register_block_core_calendar
+file=/var/www/html/wp-includes/blocks/calendar.php
+line=87
+
+priority=10 id=register_block_core_categories
+callback=register_block_core_categories
+file=/var/www/html/wp-includes/blocks/categories.php
+line=123
+
+priority=10 id=register_block_core_comment_author_name
+callback=register_block_core_comment_author_name
+file=/var/www/html/wp-includes/blocks/comment-author-name.php
+line=61
+
+priority=10 id=register_block_core_comment_content
+callback=register_block_core_comment_content
+file=/var/www/html/wp-includes/blocks/comment-content.php
+line=77
+
+priority=10 id=register_block_core_comment_date
+callback=register_block_core_comment_date
+file=/var/www/html/wp-includes/blocks/comment-date.php
+line=56
+
+priority=10 id=register_block_core_comment_edit_link
+callback=register_block_core_comment_edit_link
+file=/var/www/html/wp-includes/blocks/comment-edit-link.php
+line=56
+
+priority=10 id=register_block_core_comment_reply_link
+callback=register_block_core_comment_reply_link
+file=/var/www/html/wp-includes/blocks/comment-reply-link.php
+line=78
+
+priority=10 id=register_block_core_comment_template
+callback=register_block_core_comment_template
+file=/var/www/html/wp-includes/blocks/comment-template.php
+line=144
+
+priority=10 id=register_block_core_comments
+callback=register_block_core_comments
+file=/var/www/html/wp-includes/blocks/comments.php
+line=93
+
+priority=10 id=register_block_core_comments_pagination
+callback=register_block_core_comments_pagination
+file=/var/www/html/wp-includes/blocks/comments-pagination.php
+line=42
+
+priority=10 id=register_block_core_comments_pagination_next
+callback=register_block_core_comments_pagination_next
+file=/var/www/html/wp-includes/blocks/comments-pagination-next.php
+line=56
+
+priority=10 id=register_block_core_comments_pagination_numbers
+callback=register_block_core_comments_pagination_numbers
+file=/var/www/html/wp-includes/blocks/comments-pagination-numbers.php
+line=58
+
+priority=10 id=register_block_core_comments_pagination_previous
+callback=register_block_core_comments_pagination_previous
+file=/var/www/html/wp-includes/blocks/comments-pagination-previous.php
+line=49
+
+priority=10 id=register_block_core_comments_title
+callback=register_block_core_comments_title
+file=/var/www/html/wp-includes/blocks/comments-title.php
+line=92
+
+priority=10 id=register_block_core_cover
+callback=register_block_core_cover
+file=/var/www/html/wp-includes/blocks/cover.php
+line=93
+
+priority=10 id=register_block_core_file
+callback=register_block_core_file
+file=/var/www/html/wp-includes/blocks/file.php
+line=54
+
+priority=10 id=register_block_core_footnotes
+callback=register_block_core_footnotes
+file=/var/www/html/wp-includes/blocks/footnotes.php
+line=70
+
+priority=10 id=register_block_core_gallery
+callback=register_block_core_gallery
+file=/var/www/html/wp-includes/blocks/gallery.php
+line=174
+
+priority=10 id=register_block_core_heading
+callback=register_block_core_heading
+file=/var/www/html/wp-includes/blocks/heading.php
+line=47
+
+priority=10 id=register_block_core_home_link
+callback=register_block_core_home_link
+file=/var/www/html/wp-includes/blocks/home-link.php
+line=171
+
+priority=10 id=register_block_core_image
+callback=register_block_core_image
+file=/var/www/html/wp-includes/blocks/image.php
+line=319
+
+priority=10 id=register_block_core_latest_comments
+callback=register_block_core_latest_comments
+file=/var/www/html/wp-includes/blocks/latest-comments.php
+line=153
+
+priority=10 id=register_block_core_latest_posts
+callback=register_block_core_latest_posts
+file=/var/www/html/wp-includes/blocks/latest-posts.php
+line=229
+
+priority=10 id=register_block_core_list
+callback=register_block_core_list
+file=/var/www/html/wp-includes/blocks/list.php
+line=45
+
+priority=10 id=register_block_core_loginout
+callback=register_block_core_loginout
+file=/var/www/html/wp-includes/blocks/loginout.php
+line=47
+
+priority=10 id=register_block_core_media_text
+callback=register_block_core_media_text
+file=/var/www/html/wp-includes/blocks/media-text.php
+line=123
+
+priority=10 id=register_block_core_navigation
+callback=register_block_core_navigation
+file=/var/www/html/wp-includes/blocks/navigation.php
+line=1159
+
+priority=10 id=register_block_core_navigation_link
+callback=register_block_core_navigation_link
+file=/var/www/html/wp-includes/blocks/navigation-link.php
+line=418
+
+priority=10 id=register_block_core_navigation_submenu
+callback=register_block_core_navigation_submenu
+file=/var/www/html/wp-includes/blocks/navigation-submenu.php
+line=259
+
+priority=10 id=register_block_core_page_list
+callback=register_block_core_page_list
+file=/var/www/html/wp-includes/blocks/page-list.php
+line=363
+
+priority=10 id=register_block_core_page_list_item
+callback=register_block_core_page_list_item
+file=/var/www/html/wp-includes/blocks/page-list-item.php
+line=13
+
+priority=10 id=register_block_core_pattern
+callback=register_block_core_pattern
+file=/var/www/html/wp-includes/blocks/pattern.php
+line=13
+
+priority=10 id=register_block_core_post_author
+callback=register_block_core_post_author
+file=/var/www/html/wp-includes/blocks/post-author.php
+line=69
+
+priority=10 id=register_block_core_post_author_biography
+callback=register_block_core_post_author_biography
+file=/var/www/html/wp-includes/blocks/post-author-biography.php
+line=45
+
+priority=10 id=register_block_core_post_author_name
+callback=register_block_core_post_author_name
+file=/var/www/html/wp-includes/blocks/post-author-name.php
+line=51
+
+priority=10 id=register_block_core_post_comments_form
+callback=register_block_core_post_comments_form
+file=/var/www/html/wp-includes/blocks/post-comments-form.php
+line=62
+
+priority=10 id=register_block_core_post_content
+callback=register_block_core_post_content
+file=/var/www/html/wp-includes/blocks/post-content.php
+line=71
+
+priority=10 id=register_block_core_post_date
+callback=register_block_core_post_date
+file=/var/www/html/wp-includes/blocks/post-date.php
+line=85
+
+priority=10 id=register_block_core_post_excerpt
+callback=register_block_core_post_excerpt
+file=/var/www/html/wp-includes/blocks/post-excerpt.php
+line=74
+
+priority=10 id=register_block_core_post_featured_image
+callback=register_block_core_post_featured_image
+file=/var/www/html/wp-includes/blocks/post-featured-image.php
+line=260
+
+priority=10 id=register_block_core_post_navigation_link
+callback=register_block_core_post_navigation_link
+file=/var/www/html/wp-includes/blocks/post-navigation-link.php
+line=131
+
+priority=10 id=register_block_core_post_template
+callback=register_block_core_post_template
+file=/var/www/html/wp-includes/blocks/post-template.php
+line=153
+
+priority=10 id=register_block_core_post_terms
+callback=register_block_core_post_terms
+file=/var/www/html/wp-includes/blocks/post-terms.php
+line=120
+
+priority=10 id=register_block_core_post_title
+callback=register_block_core_post_title
+file=/var/www/html/wp-includes/blocks/post-title.php
+line=66
+
+priority=10 id=register_block_core_query
+callback=register_block_core_query
+file=/var/www/html/wp-includes/blocks/query.php
+line=63
+
+priority=10 id=register_block_core_query_no_results
+callback=register_block_core_query_no_results
+file=/var/www/html/wp-includes/blocks/query-no-results.php
+line=57
+
+priority=10 id=register_block_core_query_pagination
+callback=register_block_core_query_pagination
+file=/var/www/html/wp-includes/blocks/query-pagination.php
+line=43
+
+priority=10 id=register_block_core_query_pagination_next
+callback=register_block_core_query_pagination_next
+file=/var/www/html/wp-includes/blocks/query-pagination-next.php
+line=94
+
+priority=10 id=register_block_core_query_pagination_numbers
+callback=register_block_core_query_pagination_numbers
+file=/var/www/html/wp-includes/blocks/query-pagination-numbers.php
+line=125
+
+priority=10 id=register_block_core_query_pagination_previous
+callback=register_block_core_query_pagination_previous
+file=/var/www/html/wp-includes/blocks/query-pagination-previous.php
+line=80
+
+priority=10 id=register_block_core_query_title
+callback=register_block_core_query_title
+file=/var/www/html/wp-includes/blocks/query-title.php
+line=68
+
+priority=10 id=register_block_core_read_more
+callback=register_block_core_read_more
+file=/var/www/html/wp-includes/blocks/read-more.php
+line=55
+
+priority=10 id=register_block_core_rss
+callback=register_block_core_rss
+file=/var/www/html/wp-includes/blocks/rss.php
+line=115
+
+priority=10 id=register_block_core_search
+callback=register_block_core_search
+file=/var/www/html/wp-includes/blocks/search.php
+line=202
+
+priority=10 id=register_block_core_shortcode
+callback=register_block_core_shortcode
+file=/var/www/html/wp-includes/blocks/shortcode.php
+line=27
+
+priority=10 id=register_block_core_site_logo
+callback=register_block_core_site_logo
+file=/var/www/html/wp-includes/blocks/site-logo.php
+line=110
+
+priority=10 id=register_block_core_site_tagline
+callback=register_block_core_site_tagline
+file=/var/www/html/wp-includes/blocks/site-tagline.php
+line=44
+
+priority=10 id=register_block_core_site_title
+callback=register_block_core_site_title
+file=/var/www/html/wp-includes/blocks/site-title.php
+line=61
+
+priority=10 id=register_block_core_social_link
+callback=register_block_core_social_link
+file=/var/www/html/wp-includes/blocks/social-link.php
+line=81
+
+priority=10 id=register_block_core_tag_cloud
+callback=register_block_core_tag_cloud
+file=/var/www/html/wp-includes/blocks/tag-cloud.php
+line=55
+
+priority=10 id=register_block_core_template_part
+callback=register_block_core_template_part
+file=/var/www/html/wp-includes/blocks/template-part.php
+line=292
+
+priority=10 id=register_block_core_term_description
+callback=register_block_core_term_description
+file=/var/www/html/wp-includes/blocks/term-description.php
+line=45
+
+priority=10 id=register_core_block_types_from_metadata
+callback=register_core_block_types_from_metadata
+file=/var/www/html/wp-includes/blocks/index.php
+line=152
+
+priority=10 id=_register_theme_block_patterns
+callback=_register_theme_block_patterns
+file=/var/www/html/wp-includes/block-patterns.php
+line=343
+
+priority=10 id=ms_subdomain_constants
+callback=ms_subdomain_constants
+file=/var/www/html/wp-includes/ms-default-constants.php
+line=131
+
+priority=10 id=maybe_add_existing_user_to_blog
+callback=maybe_add_existing_user_to_blog
+file=/var/www/html/wp-includes/ms-functions.php
+line=2170
+
+priority=10 id=0000000000000a7d0000000000000000handle_verification_link
+callback=Drycured_Auth::handle_verification_link
+file=/var/www/html/wp-content/mu-plugins/drycured-auth.php
+line=391
+
+priority=10 id=0000000000000a890000000000000000
+callback=Closure
+file=/var/www/html/wp-content/mu-plugins/drycured-book-inquiry.php
+line=15
+
+priority=10 id=0000000000000a970000000000000000
+callback=Closure
+file=/var/www/html/wp-content/mu-plugins/drycured-gtranslate.php
+line=424
+
+priority=10 id=0000000000000a990000000000000000
+callback=Closure
+file=/var/www/html/wp-content/mu-plugins/drycured-gtranslate.php
+line=454
+
+priority=10 id=0000000000000a9f0000000000000000
+callback=Closure
+file=/var/www/html/wp-content/mu-plugins/drycured-infografike.php
+line=378
+
+priority=10 id=dc_register_recipe_cpt
+callback=dc_register_recipe_cpt
+file=/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/cpt.php
+line=9
+
+priority=10 id=dc_register_recipe_meta
+callback=dc_register_recipe_meta
+file=/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/meta-fields.php
+line=68
+
+priority=10 id=0000000000000ab30000000000000000
+callback=Closure
+file=/var/www/html/wp-content/mu-plugins/drycured-savjeti-iz-pusnice.php
+line=19
+
+priority=10 id=0000000000000ab40000000000000000
+callback=Closure
+file=/var/www/html/wp-content/mu-plugins/drycured-savjeti-iz-pusnice.php
+line=51
+
+priority=10 id=drycured_register_recipe_post_types
+callback=drycured_register_recipe_post_types
+file=/var/www/html/wp-content/plugins/drycured-recipe-core/includes/post-types.php
+line=3
+
+priority=10 id=drycured_register_recipe_taxonomies
+callback=drycured_register_recipe_taxonomies
+file=/var/www/html/wp-content/plugins/drycured-recipe-core/includes/taxonomies.php
+line=3
+
+priority=10 id=drycured_register_recipe_meta
+callback=drycured_register_recipe_meta
+file=/var/www/html/wp-content/plugins/drycured-recipe-core/includes/meta.php
+line=3
+
+priority=10 id=Akismet::init
+callback=Akismet::init
+file=/var/www/html/wp-content/plugins/akismet/class.akismet.php
+line=54
+
+priority=10 id=Akismet_Admin::init
+callback=Akismet_Admin::init
+file=/var/www/html/wp-content/plugins/akismet/class.akismet-admin.php
+line=45
+
+priority=10 id=0000000000000a0c0000000000000000checkIfTableExists
+callback=AIOSEO\Plugin\Common\Utils\Cache::checkIfTableExists
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Utils/Cache.php
+line=68
+
+priority=10 id=0000000000000a0b0000000000000000checkIfTableExists
+callback=AIOSEO\Plugin\Common\Utils\NetworkCache::checkIfTableExists
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Utils/Cache.php
+line=68
+
+priority=10 id=0000000000000a0a0000000000000000init
+callback=AIOSEO\Plugin\Common\Utils\CachePrune::init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Utils/CachePrune.php
+line=49
+
+priority=10 id=0000000000000a000000000000000000init
+callback=AIOSEO\Plugin\Common\Utils\Blocks::init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Utils/Blocks.php
+line=31
+
+priority=10 id=00000000000009f70000000000000000translateDefaults
+callback=AIOSEO\Plugin\Lite\Options\Options::translateDefaults
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Options/Options.php
+line=561
+
+priority=10 id=00000000000009e00000000000000000runAmp
+callback=AIOSEO\Plugin\Common\Meta\Amp::runAmp
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Meta/Amp.php
+line=31
+
+priority=10 id=00000000000009a10000000000000000register
+callback=AIOSEO\Plugin\Common\Sitemap\Html\Block::register
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Sitemap/Html/Block.php
+line=31
+
+priority=10 id=00000000000009930000000000000000init
+callback=AIOSEO\Plugin\Common\Standalone\AdminBarNoindexWarning::init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Standalone/AdminBarNoindexWarning.php
+line=33
+
+priority=10 id=00000000000009890000000000000000init
+callback=AIOSEO\Plugin\Common\Standalone\Blocks\TableOfContents::init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Standalone/Blocks/Blocks.php
+line=31
+
+priority=10 id=00000000000009880000000000000000init
+callback=AIOSEO\Plugin\Common\Standalone\Blocks\FaqPage::init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Standalone/Blocks/Blocks.php
+line=31
+
+priority=10 id=00000000000009730000000000000000declareAioseoFollowingConsentApi
+callback=AIOSEO\Plugin\Lite\Main\Filters::declareAioseoFollowingConsentApi
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Main/Filters.php
+line=108
+
+priority=10 id=00000000000009560000000000000000migrateUserData
+callback=AIOSEO\Plugin\Common\WritingAssistant\SeoBoost\SeoBoost::migrateUserData
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/WritingAssistant/SeoBoost/SeoBoost.php
+line=303
+
+priority=10 id=00000000000009560000000000000000refreshUserOptionsAfterError
+callback=AIOSEO\Plugin\Common\WritingAssistant\SeoBoost\SeoBoost::refreshUserOptionsAfterError
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/WritingAssistant/SeoBoost/SeoBoost.php
+line=325
+
+priority=10 id=Elementor\Compatibility::init
+callback=Elementor\Compatibility::init
+file=/var/www/html/wp-content/plugins/elementor/includes/compatibility.php
+line=129
+
+priority=10 id=GTranslate::enqueue_scripts
+callback=GTranslate::enqueue_scripts
+file=/var/www/html/wp-content/plugins/gtranslate/gtranslate.php
+line=87
+
+priority=10 id=\iberezansky\fb3d\register_post_type
+callback=\iberezansky\fb3d\register_post_type
+file=/var/www/html/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/inc/post.php
+line=5
+
+priority=10 id=\iberezansky\fb3d\register_taxonomy
+callback=\iberezansky\fb3d\register_taxonomy
+file=/var/www/html/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/inc/taxonomy.php
+line=5
+
+priority=10 id=\iberezansky\fb3d\load_textdomain
+callback=\iberezansky\fb3d\load_textdomain
+file=/var/www/html/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/inc/dictionary.php
+line=10
+
+priority=10 id=\iberezansky\fb3d\add_tinymce_plugins
+callback=\iberezansky\fb3d\add_tinymce_plugins
+file=/var/www/html/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/inc/insert.php
+line=17
+
+priority=10 id=000000000000080a0000000000000000init
+callback=WPMailSMTP\Core::init
+file=/var/www/html/wp-content/plugins/wp-mail-smtp/src/Core.php
+line=163
+
+priority=10 id=WPRM_i18n::load_plugin_textdomain
+callback=WPRM_i18n::load_plugin_textdomain
+file=/var/www/html/wp-content/plugins/wp-recipe-maker/includes/class-wprm-i18n.php
+line=39
+
+priority=10 id=WPRM_Blocks::register_recipe_block
+callback=WPRM_Blocks::register_recipe_block
+file=/var/www/html/wp-content/plugins/wp-recipe-maker/includes/public/class-wprm-blocks.php
+line=62
+
+priority=10 id=WPRM_Comment_Rating::wpdiscuz_compatibility
+callback=WPRM_Comment_Rating::wpdiscuz_compatibility
+file=/var/www/html/wp-content/plugins/wp-recipe-maker/includes/public/class-wprm-comment-rating.php
+line=266
+
+priority=10 id=WPRM_Preview::check_for_preview
+callback=WPRM_Preview::check_for_preview
+file=/var/www/html/wp-content/plugins/wp-recipe-maker/includes/public/class-wprm-preview.php
+line=48
+
+priority=10 id=WPRM_Print::print_page
+callback=WPRM_Print::print_page
+file=/var/www/html/wp-content/plugins/wp-recipe-maker/includes/public/class-wprm-print.php
+line=54
+
+priority=10 id=WPRM_Recipe_Roundup::meta_fields_in_rest
+callback=WPRM_Recipe_Roundup::meta_fields_in_rest
+file=/var/www/html/wp-content/plugins/wp-recipe-maker/includes/public/class-wprm-recipe-roundup.php
+line=203
+
+priority=10 id=ElementorPro\Core\Compatibility\Compatibility::on_init
+callback=ElementorPro\Core\Compatibility\Compatibility::on_init
+file=/var/www/html/wp-content/plugins/elementor-pro/core/compatibility/compatibility.php
+line=14
+
+priority=10 id=0000000000000b940000000000000000handle_ownership_verification_callback
+callback=WPMailSMTP\Providers\Sendlayer\QuickConnect::handle_ownership_verification_callback
+file=/var/www/html/wp-content/plugins/wp-mail-smtp/src/Providers/Sendlayer/QuickConnect.php
+line=215
+
+priority=10 id=00000000000009d00000000000000000setPages
+callback=AIOSEO\Plugin\Lite\Admin\Admin::setPages
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Admin/Admin.php
+line=198
+
+priority=10 id=astra_register_menu_locations
+callback=astra_register_menu_locations
+file=/var/www/html/wp-content/themes/astra/inc/admin-functions.php
+line=23
+
+priority=10 id=0000000000000c070000000000000000init
+callback=Astra_After_Setup_Theme::init
+file=/var/www/html/wp-content/themes/astra/inc/class-astra-after-setup-theme.php
+line=247
+
+priority=10 id=0000000000000c130000000000000000register_script
+callback=Astra_Meta_Boxes::register_script
+file=/var/www/html/wp-content/themes/astra/inc/metabox/class-astra-meta-boxes.php
+line=552
+
+priority=10 id=0000000000000c130000000000000000register_meta_settings
+callback=Astra_Meta_Boxes::register_meta_settings
+file=/var/www/html/wp-content/themes/astra/inc/metabox/class-astra-meta-boxes.php
+line=1046
+
+priority=10 id=0000000000000c360000000000000000initialize
+callback=Astra_Builder_Helper::initialize
+file=/var/www/html/wp-content/themes/astra/inc/core/builder/class-astra-builder-helper.php
+line=447
+
+priority=10 id=0000000000000d820000000000000000add_wp_templates_support
+callback=Elementor\Modules\PageTemplates\Module::add_wp_templates_support
+file=/var/www/html/wp-content/plugins/elementor/modules/page-templates/module.php
+line=118
+
+priority=10 id=0000000000000e0d0000000000000000init
+callback=Elementor\Modules\LazyLoad\Module::init
+file=/var/www/html/wp-content/plugins/elementor/modules/lazyload/module.php
+line=23
+
+priority=10 id=0000000000000e0e0000000000000000stop_core_fetchpriority_high_logic
+callback=Elementor\Modules\ImageLoadingOptimization\Module::stop_core_fetchpriority_high_logic
+file=/var/www/html/wp-content/plugins/elementor/modules/image-loading-optimization/module.php
+line=72
+
+priority=10 id=0000000000000f720000000000000000register_post_type_and_tax
+callback=ElementorPro\Modules\AssetsManager\AssetTypes\Fonts_Manager::register_post_type_and_tax
+file=/var/www/html/wp-content/plugins/elementor-pro/modules/assets-manager/asset-types/fonts-manager.php
+line=77
+
+priority=10 id=0000000000000f840000000000000000register_post_type
+callback=ElementorPro\Modules\AssetsManager\AssetTypes\Icons_Manager::register_post_type
+file=/var/www/html/wp-content/plugins/elementor-pro/modules/assets-manager/asset-types/icons-manager.php
+line=66
+
+priority=10 id=0000000000000fda0000000000000000init
+callback=ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support::init
+file=/var/www/html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/theme-support.php
+line=18
+
+priority=11 id=kses_remove_filters
+callback=kses_remove_filters
+file=/var/www/html/wp-includes/kses.php
+line=2308
+
+priority=12 id=iberezansky\fb3d\update_templates_cache
+callback=iberezansky\fb3d\update_templates_cache
+file=/var/www/html/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/inc/templates.php
+line=50
+
+priority=20 id=register_block_core_footnotes_post_meta
+callback=register_block_core_footnotes_post_meta
+file=/var/www/html/wp-includes/blocks/footnotes.php
+line=86
+
+priority=20 id=dc_seed_taxonomies
+callback=dc_seed_taxonomies
+file=/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/cpt.php
+line=53
+
+priority=20 id=dc_register_all_tools
+callback=dc_register_all_tools
+file=/var/www/html/wp-content/mu-plugins/drycured-platform/tools/registry.php
+line=39
+
+priority=21 id=register_legacy_post_comments_block
+callback=register_legacy_post_comments_block
+file=/var/www/html/wp-includes/blocks/comments.php
+line=159
+
+priority=22 id=WP_Block_Supports::init
+callback=WP_Block_Supports::init
+file=/var/www/html/wp-includes/class-wp-block-supports.php
+line=66
+
+priority=50 id=00000000000009fe0000000000000000init
+callback=AIOSEO\Plugin\Common\Breadcrumbs\Breadcrumbs::init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Breadcrumbs/Breadcrumbs.php
+line=74
+
+priority=99 id=check_theme_switched
+callback=check_theme_switched
+file=/var/www/html/wp-includes/theme.php
+line=3476
+
+priority=99 id=WPRM_Shortcode::fallback_shortcodes
+callback=WPRM_Shortcode::fallback_shortcodes
+file=/var/www/html/wp-content/plugins/wp-recipe-maker/includes/public/class-wprm-shortcode.php
+line=90
+
+priority=999 id=00000000000009f20000000000000000setRoles
+callback=AIOSEO\Plugin\Common\Utils\Access::setRoles
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Utils/Access.php
+line=91
+
+priority=999 id=0000000000000a200000000000000000loadInit
+callback=AIOSEO\Plugin\AIOSEO::loadInit
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/AIOSEO.php
+line=350
+
+priority=999 id=0000000000000bd50000000000000000load
+callback=Astra_Nps_Survey::load
+file=/var/www/html/wp-content/themes/astra/inc/lib/class-astra-nps-survey.php
+line=93
+
+priority=999 id=0000000000000bd60000000000000000load
+callback=Astra_Utm_Analytics::load
+file=/var/www/html/wp-content/themes/astra/inc/lib/class-astra-utm-analytics.php
+line=89
+
+priority=999 id=0000000000000c980000000000000000deregister_menu_locations_widgets
+callback=Astra_Builder_Customizer::deregister_menu_locations_widgets
+file=/var/www/html/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php
+line=125
+
+priority=1001 id=00000000000009ed0000000000000000init
+callback=AIOSEO\Plugin\Common\Main\Updates::init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Main/Updates.php
+line=47
+
+priority=1002 id=00000000000009ed0000000000000000runUpdates
+callback=AIOSEO\Plugin\Common\Main\Updates::runUpdates
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Main/Updates.php
+line=71
+
+priority=3000 id=00000000000009ed0000000000000000updateLatestVersion
+callback=AIOSEO\Plugin\Common\Main\Updates::updateLatestVersion
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Main/Updates.php
+line=272
+
+priority=9999 id=Elementor\Modules\History\Revisions_Manager::add_revision_support_for_all_post_types
+callback=Elementor\Modules\History\Revisions_Manager::add_revision_support_for_all_post_types
+file=/var/www/html/wp-content/plugins/elementor/modules/history/revisions-manager.php
+line=270
+
+priority=9223372036854775807 id=00000000000009900000000000000000_init
+callback=AIOSEO\Plugin\Common\Standalone\PageBuilders\Elementor::_init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Standalone/PageBuilders/Base.php
+line=61
+
+priority=9223372036854775807 id=000000000000098f0000000000000000_init
+callback=AIOSEO\Plugin\Common\Standalone\PageBuilders\Divi::_init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Standalone/PageBuilders/Base.php
+line=61
+
+priority=9223372036854775807 id=000000000000098e0000000000000000_init
+callback=AIOSEO\Plugin\Common\Standalone\PageBuilders\SeedProd::_init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Standalone/PageBuilders/Base.php
+line=61
+
+priority=9223372036854775807 id=000000000000098d0000000000000000_init
+callback=AIOSEO\Plugin\Common\Standalone\PageBuilders\WPBakery::_init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Standalone/PageBuilders/Base.php
+line=61
+
+priority=9223372036854775807 id=000000000000098c0000000000000000_init
+callback=AIOSEO\Plugin\Common\Standalone\PageBuilders\Avada::_init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Standalone/PageBuilders/Base.php
+line=61
+
+priority=9223372036854775807 id=000000000000098b0000000000000000_init
+callback=AIOSEO\Plugin\Common\Standalone\PageBuilders\SiteOrigin::_init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Standalone/PageBuilders/Base.php
+line=61
+
+priority=9223372036854775807 id=000000000000098a0000000000000000_init
+callback=AIOSEO\Plugin\Common\Standalone\PageBuilders\ThriveArchitect::_init
+file=/var/www/html/wp-content/plugins/all-in-one-seo-pack/app/Common/Standalone/PageBuilders/Base.php
+line=61
+
