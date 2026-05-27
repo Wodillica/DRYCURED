@@ -1,0 +1,17 @@
+post_type	published_count	aioseo_rows	custom_titles	custom_descriptions
+dry_recipe	431	431	0	0
+tip_pusnice	112	112	0	0
+post	73	73	2	3
+page	70	70	0	0
+bp-email	21	21	0	0
+topic	13	13	0	0
+infografika	12	12	0	0
+reply	12	12	0	0
+wpcode	10	0	0	0
+forum	7	7	0	0
+buddypress	5	0	0	0
+elementor_library	3	3	0	0
+wp_template_part	2	0	0	0
+wpcf	1	0	0	0
+wpforms	1	0	0	0
+

@@ -1,0 +1,74 @@
+---- home | https://drycured.com/ ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+<title>Home - drycured.com</title>
+<meta name="description" content="Dobrodošli u svijet domaćih suhomesnatih proizvoda. Digitalna pušnica Tradicija, znanje i precizne recepture za sve koji ozbiljno pristupaju izradi vrhunskih domaćih proizvoda. Stoljećima provjerene tehnike soljenja, dimljenja i zrenja na jednom mjestu. ISTRAŽI → Učimo zajedno: Tehnike, povijest i savjeti PREGLEDAJ SVE Enciklopedija znanjaBaza znanja o svakom koraku procesa — od sirovine i soljenja, kroz" />
+<link rel="canonical" href="https://drycured.com/" />
+<meta name="robots" content="max-image-preview:large" />
+
+---- proces-izrade | https://drycured.com/proces-izrade/ ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+<title>Proces izrade - drycured.com</title>
+<meta name="description" content="Proces izrade suhomesnatih proizvoda Ovaj vodič objašnjava put od odabira sirovine do pakiranja gotovog proizvoda. Svaka faza ima svoju svrhu, rizike i praktične mjere koje pomažu da proizvod bude sigurniji, stabilniji i ujednačeniji." />
+<link rel="canonical" href="https://drycured.com/proces-izrade/" />
+<meta name="robots" content="max-image-preview:large" />
+
+---- sirovina | https://drycured.com/proces-izrade/sirovina/ ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+<title>Sirovina - drycured.com</title>
+<meta name="description" content="Faza 01 — proces izrade SirovinaSirovina je temelj cijelog procesa. Sve što se poslije dogodi — soljenje, dimljenje, sušenje i zrenje — može samo razviti ono što je u mesu već prisutno.Zašto je ova faza važna?Kod suhomesnatih proizvoda kvaliteta mesa nije samo pitanje okusa, nego i sigurnosti. Meso mora imati uredan miris, stabilnu boju, čvrstu" />
+<link rel="canonical" href="https://drycured.com/proces-izrade/sirovina/" />
+<meta name="robots" content="max-image-preview:large" />
+
+---- susenje | https://drycured.com/proces-izrade/susenje/ ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+<title>Sušenje - drycured.com</title>
+<meta name="description" content="Faza 10 — proces izrade SušenjeSušenje postupno uklanja vodu iz proizvoda. Pravilno sušenje gradi stabilnost bez stvaranja tvrde kore i vlažne jezgre.Zašto je ova faza važna?Voda mora izlaziti postupno. Ako površina izgubi vlagu prebrzo, zatvara se i nastaje tvrda vanjska zona koja usporava izlazak vlage iz sredine.Sušenje traži ravnotežu temperature, relativne vlage i strujanja zraka." />
+<link rel="canonical" href="https://drycured.com/proces-izrade/susenje/" />
+<meta name="robots" content="max-image-preview:large" />
+
+---- kalkulator-susenja | https://drycured.com/kalkulator-susenja/ ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+<title>Kalkulator sušenja - drycured.com</title>
+<link rel="canonical" href="https://drycured.com/kalkulator-susenja/" />
+<meta name="robots" content="max-image-preview:large" />
+
+---- planer-dimljenja | https://drycured.com/planer-dimljenja/ ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+<title>Planer dimljenja - drycured.com</title>
+<link rel="canonical" href="https://drycured.com/planer-dimljenja/" />
+<meta name="robots" content="max-image-preview:large" />
+
+---- pracenje-ph | https://drycured.com/pracenje-ph/ ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+<title>Praćenje pH fermentacije - drycured.com</title>
+<link rel="canonical" href="https://drycured.com/pracenje-ph/" />
+<meta name="robots" content="max-image-preview:large" />
+
+---- recepti-baza | https://drycured.com/recepti-baza/ ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+<title>Drycured recepti - drycured.com</title>
+<link rel="canonical" href="https://drycured.com/recepti-baza/" />
+<meta name="robots" content="max-image-preview:large" />
+
+---- savjeti | https://drycured.com/savjeti/ ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+<title>Savjeti iz pušnice - drycured.com</title>
+<link rel="canonical" href="https://drycured.com/savjeti/" />
+<meta name="robots" content="max-image-preview:large" />
+
+---- infografike | https://drycured.com/infografike/ ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+<title>Infografike — drycured.com</title>
+<meta name="description" content="Katalog edukativnih infografika o mesu, soljenju, sušenju, zrenju i tradicionalnoj izradi suhomesnatih proizvoda.">
+<link rel="canonical" href="https://drycured.com/infografike/">
+

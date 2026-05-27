@@ -1,0 +1,52 @@
+--- sitemap.xml header ---
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+X-Robots-Tag: noindex, follow
+
+--- submaps ---
+https://drycured.com/category-sitemap.xml
+https://drycured.com/dc_kategorija-sitemap.xml
+https://drycured.com/dc_regija-sitemap.xml
+https://drycured.com/dry_country-sitemap.xml
+https://drycured.com/dry_meat_type-sitemap.xml
+https://drycured.com/dry_microregion-sitemap.xml
+https://drycured.com/dry_preparation_method-sitemap.xml
+https://drycured.com/dry_process_type-sitemap.xml
+https://drycured.com/dry_product_category-sitemap.xml
+https://drycured.com/dry_product_type-sitemap.xml
+https://drycured.com/dry_recipe-sitemap.xml
+https://drycured.com/dry_recipe_status-sitemap.xml
+https://drycured.com/dry_region-sitemap.xml
+https://drycured.com/forum-sitemap.xml
+https://drycured.com/infografika-sitemap.xml
+https://drycured.com/page-sitemap.xml
+https://drycured.com/post-archive-sitemap.xml
+https://drycured.com/post-sitemap.xml
+https://drycured.com/post_tag-sitemap.xml
+https://drycured.com/reply-sitemap.xml
+https://drycured.com/tip_pusnice-sitemap.xml
+https://drycured.com/topic-sitemap.xml
+
+--- submap URL counts ---
+6	https://drycured.com/category-sitemap.xml
+8	https://drycured.com/dc_kategorija-sitemap.xml
+95	https://drycured.com/dc_regija-sitemap.xml
+45	https://drycured.com/dry_country-sitemap.xml
+10	https://drycured.com/dry_meat_type-sitemap.xml
+12	https://drycured.com/dry_microregion-sitemap.xml
+9	https://drycured.com/dry_preparation_method-sitemap.xml
+11	https://drycured.com/dry_process_type-sitemap.xml
+16	https://drycured.com/dry_product_category-sitemap.xml
+13	https://drycured.com/dry_product_type-sitemap.xml
+431	https://drycured.com/dry_recipe-sitemap.xml
+2	https://drycured.com/dry_recipe_status-sitemap.xml
+126	https://drycured.com/dry_region-sitemap.xml
+7	https://drycured.com/forum-sitemap.xml
+12	https://drycured.com/infografika-sitemap.xml
+66	https://drycured.com/page-sitemap.xml
+5	https://drycured.com/post-archive-sitemap.xml
+74	https://drycured.com/post-sitemap.xml
+160	https://drycured.com/post_tag-sitemap.xml
+12	https://drycured.com/reply-sitemap.xml
+112	https://drycured.com/tip_pusnice-sitemap.xml
+13	https://drycured.com/topic-sitemap.xml

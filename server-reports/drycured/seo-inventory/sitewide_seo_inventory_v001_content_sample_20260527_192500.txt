@@ -1,0 +1,202 @@
+post_type	ID	post_title	post_name	title_status	description_status
+dry_recipe	2860	Šokačka kobasica by Davor	sokacka-kobasica-by-davor	MISSING_TITLE	MISSING_DESC
+dry_recipe	2859	IstARSKA KOBASICA	istarska-kobasica-2	MISSING_TITLE	MISSING_DESC
+dry_recipe	2353	Pastërma (Albansko suho meso)	pasterma-albansko-suho-meso	MISSING_TITLE	MISSING_DESC
+dry_recipe	2354	Suxhuk (Albanska suha kobasica)	suxhuk-albanska-suha-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2355	Proshuta Shqiptare (Albanska pršuta)	proshuta-shqiptare-albanska-prsuta	MISSING_TITLE	MISSING_DESC
+dry_recipe	2356	Kackavall i thatë (Albanski suhi sir)	kackavall-i-thate-albanski-suhi-sir	MISSING_TITLE	MISSING_DESC
+dry_recipe	2357	Mish i thatë (Albanska suha janjetina)	mish-i-thate-albanska-suha-janjetina	MISSING_TITLE	MISSING_DESC
+dry_recipe	2358	Steirischer Rohschinken (Štajerska sirova šunka)	steirischer-rohschinken-stajerska-sirova-sunka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2359	Vorarlberger Mostbröckle (Vorarlberška dimljena govedina)	vorarlberger-mostbrockle-vorarlberska-dimljena-govedina	MISSING_TITLE	MISSING_DESC
+dry_recipe	2360	Austrijska Käsekrainer (Kobasica sa sirom)	austrijska-kasekrainer-kobasica-sa-sirom	MISSING_TITLE	MISSING_DESC
+dry_recipe	2361	Mađarska Gyulai Kolbász (Gyulai kobasica)	madarska-gyulai-kolbasz-gyulai-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2362	Finska Meetvursti (Suha kobasica)	finska-meetvursti-suha-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2363	Sastojci za 10 kg mesa:	sastojci-za-10-kg-mesa	MISSING_TITLE	MISSING_DESC
+dry_recipe	2373	FILET D'ANVERS (ANTVERPSKI FILE)	filet-danvers-antverpski-file	MISSING_TITLE	MISSING_DESC
+dry_recipe	2374	SAUCISSE AU FROMAGE DE HERVE (KOBASICA SA SIROM HERVE)	saucisse-au-fromage-de-herve-kobasica-sa-sirom-herve	MISSING_TITLE	MISSING_DESC
+dry_recipe	2375	COLLIER FUMÉ DE WALLONIE (DIMLJENI SVINJSKI VRAT IZ VALONIJE)	collier-fume-de-wallonie-dimljeni-svinjski-vrat-iz-valonije	MISSING_TITLE	MISSING_DESC
+dry_recipe	2376	JAMBON D'ARDENNE (ARDENSKI PRŠUT)	jambon-dardenne-ardenski-prsut	MISSING_TITLE	MISSING_DESC
+dry_recipe	2377	PÂTÉ GAUMAIS (GAUME PAŠTETA)	pate-gaumais-gaume-pasteta	MISSING_TITLE	MISSING_DESC
+dry_recipe	2378	TÊTE PRESSÉE (PREZVURŠT)	tete-pressee-prezvurst	MISSING_TITLE	MISSING_DESC
+dry_recipe	2379	BOULETTE DE LIÈGE (LIEŠKA MESNA KOBASICA)	boulette-de-liege-lieska-mesna-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2380	SAUCISSON D'ARDENNE (ARDENSKI KULEN)	saucisson-dardenne-ardenski-kulen-2	MISSING_TITLE	MISSING_DESC
+dry_recipe	2381	Nadenitsa (Наденица)	nadenitsa-%d0%bd%d0%b0%d0%b4%d0%b5%d0%bd%d0%b8%d1%86%d0%b0	MISSING_TITLE	MISSING_DESC
+dry_recipe	2382	Rulopep (Рулопеп)	rulopep-%d1%80%d1%83%d0%bb%d0%be%d0%bf%d0%b5%d0%bf	MISSING_TITLE	MISSING_DESC
+dry_recipe	2383	Banska Kapama (Банска капама)	banska-kapama-%d0%b1%d0%b0%d0%bd%d1%81%d0%ba%d0%b0-%d0%ba%d0%b0%d0%bf%d0%b0%d0%bc%d0%b0	MISSING_TITLE	MISSING_DESC
+dry_recipe	2384	Katino Meze (Катино мезе)	katino-meze-%d0%ba%d0%b0%d1%82%d0%b8%d0%bd%d0%be-%d0%bc%d0%b5%d0%b7%d0%b5	MISSING_TITLE	MISSING_DESC
+dry_recipe	2385	Drobsarma (Дробсарма)	drobsarma-%d0%b4%d1%80%d0%be%d0%b1%d1%81%d0%b0%d1%80%d0%bc%d0%b0	MISSING_TITLE	MISSING_DESC
+dry_recipe	2386	Maleshevska Babichka (Малешевска бабичка)	maleshevska-babichka-%d0%bc%d0%b0%d0%bb%d0%b5%d1%88%d0%b5%d0%b2%d1%81%d0%ba%d0%b0-%d0%b1%d0%b0%d0%b1%d0%b8%d1%87%d0%ba%d0%b0	MISSING_TITLE	MISSING_DESC
+dry_recipe	2387	Kraishte Pastarma (Краищенска пастърма)	kraishte-pastarma-%d0%ba%d1%80%d0%b0%d0%b8%d1%89%d0%b5%d0%bd%d1%81%d0%ba%d0%b0-%d0%bf%d0%b0%d1%81%d1%82%d1%8a%d1%80%d0%bc%d0%b0	MISSING_TITLE	MISSING_DESC
+dry_recipe	2388	Strandzhansko Dyado (Странджанско дядо)	strandzhansko-dyado-%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b4%d0%b6%d0%b0%d0%bd%d1%81%d0%ba%d0%be-%d0%b4%d1%8f%d0%b4%d0%be	MISSING_TITLE	MISSING_DESC
+dry_recipe	2389	Srednogorska Kaska (Средногорска каска)	srednogorska-kaska-%d1%81%d1%80%d0%b5%d0%b4%d0%bd%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b0-%d0%ba%d0%b0%d1%81%d0%ba%d0%b0	MISSING_TITLE	MISSING_DESC
+dry_recipe	2390	Dobrudzhanski Babek (Добруджански бабек)	dobrudzhanski-babek-%d0%b4%d0%be%d0%b1%d1%80%d1%83%d0%b4%d0%b6%d0%b0%d0%bd%d1%81%d0%ba%d0%b8-%d0%b1%d0%b0%d0%b1%d0%b5%d0%ba	MISSING_TITLE	MISSING_DESC
+dry_recipe	2391	Lukanka (Луканка)	lukanka-%d0%bb%d1%83%d0%ba%d0%b0%d0%bd%d0%ba%d0%b0	MISSING_TITLE	MISSING_DESC
+dry_recipe	2392	Sudjuk (Суджук)	sudjuk-%d1%81%d1%83%d0%b4%d0%b6%d1%83%d0%ba	MISSING_TITLE	MISSING_DESC
+dry_recipe	2393	Elena filet (Еленски филе)	elena-filet-%d0%b5%d0%bb%d0%b5%d0%bd%d1%81%d0%ba%d0%b8-%d1%84%d0%b8%d0%bb%d0%b5	MISSING_TITLE	MISSING_DESC
+dry_recipe	2394	Pastarma (Пастърма)	pastarma-%d0%bf%d0%b0%d1%81%d1%82%d1%8a%d1%80%d0%bc%d0%b0	MISSING_TITLE	MISSING_DESC
+dry_recipe	2395	Banski Starec (Бански старец)	banski-starec-%d0%b1%d0%b0%d0%bd%d1%81%d0%ba%d0%b8-%d1%81%d1%82%d0%b0%d1%80%d0%b5%d1%86	MISSING_TITLE	MISSING_DESC
+dry_recipe	2396	Sastojci (za 5 kg kobasica)	sastojci-za-5-kg-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2398	Traditionele Droge Worst (Klasična suha kobasica)	traditionele-droge-worst-klasicna-suha-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2399	Rookworst (Dimljena kobasica)	rookworst-dimljena-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2402	Lountza (Λούντζα)	lountza-%ce%bb%ce%bf%cf%8d%ce%bd%cf%84%ce%b6%ce%b1	MISSING_TITLE	MISSING_DESC
+dry_recipe	2403	Hiromeri (Χοιρομέρι)	hiromeri-%cf%87%ce%bf%ce%b9%cf%81%ce%bf%ce%bc%ce%ad%cf%81%ce%b9	MISSING_TITLE	MISSING_DESC
+dry_recipe	2407	Lounza (Λούντζα) - Dimljena svinjska potrbušina	lounza-%ce%bb%ce%bf%cf%8d%ce%bd%cf%84%ce%b6%ce%b1-dimljena-svinjska-potrbusina	MISSING_TITLE	MISSING_DESC
+dry_recipe	2408	Tsamarella (Τσαμαρέλλα) - Sušena kozletina	tsamarella-%cf%84%cf%83%ce%b1%ce%bc%ce%b1%cf%81%ce%ad%ce%bb%ce%bb%ce%b1-susena-kozletina	MISSING_TITLE	MISSING_DESC
+dry_recipe	2409	Hiromeri (Χοιρομέρι) - Ciparski pršut	hiromeri-%cf%87%ce%bf%ce%b9%cf%81%ce%bf%ce%bc%ce%ad%cf%81%ce%b9-ciparski-prsut	MISSING_TITLE	MISSING_DESC
+dry_recipe	2410	Apohti (Απόχτι) - Dimljeni svinjski file	apohti-%ce%b1%cf%80%cf%8c%cf%87%cf%84%ce%b9-dimljeni-svinjski-file	MISSING_TITLE	MISSING_DESC
+dry_recipe	2411	Pastourma (Παστουρμάς) - Ciparski začinjeni sušeni goveđi file	pastourma-%cf%80%ce%b1%cf%83%cf%84%ce%bf%cf%85%cf%81%ce%bc%ce%ac%cf%82-ciparski-zacinjeni-suseni-govedi-file	MISSING_TITLE	MISSING_DESC
+dry_recipe	2412	?? GRČKA - Tradicionalni recepti za Loukaniko	%f0%9f%87%ac%f0%9f%87%b7-grcka-tradicionalni-recepti-za-loukaniko	MISSING_TITLE	MISSING_DESC
+dry_recipe	2413	?? ALBANIJA - Tradicionalni recepti za Salçe	%f0%9f%87%a6%f0%9f%87%b1-albanija-tradicionalni-recepti-za-salce	MISSING_TITLE	MISSING_DESC
+dry_recipe	2414	?? FRANCUSKA - Tradicionalni recepti za saucisson	%f0%9f%87%ab%f0%9f%87%b7-francuska-tradicionalni-recepti-za-saucisson	MISSING_TITLE	MISSING_DESC
+dry_recipe	2415	?? NJEMAČKA - Tradicionalni recepti za Wurst	%f0%9f%87%a9%f0%9f%87%aa-njemacka-tradicionalni-recepti-za-wurst	MISSING_TITLE	MISSING_DESC
+dry_recipe	2416	?? ITALIJA - Tradicionalni recepti za salame	%f0%9f%87%ae%f0%9f%87%b9-italija-tradicionalni-recepti-za-salame	MISSING_TITLE	MISSING_DESC
+dry_recipe	2417	?? PORTUGAL - Tradicionalni recepti za Linguiça	%f0%9f%87%b5%f0%9f%87%b9-portugal-tradicionalni-recepti-za-linguica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2418	?? FRANCUSKA - Tradicijski recepti za saucisson (30 recepata)	%f0%9f%87%ab%f0%9f%87%b7-francuska-tradicijski-recepti-za-saucisson-30-recepata	MISSING_TITLE	MISSING_DESC
+dry_recipe	2419	?? ČEŠKA - Tradicionalni recepti	%f0%9f%87%a8%f0%9f%87%bf-ceska-tradicionalni-recepti	MISSING_TITLE	MISSING_DESC
+dry_recipe	2420	?? SLOVAČKA - Tradicionalni recepti	%f0%9f%87%b8%f0%9f%87%b0-slovacka-tradicionalni-recepti	MISSING_TITLE	MISSING_DESC
+dry_recipe	2421	?? POLJSKA - Tradicionalni recepti	%f0%9f%87%b5%f0%9f%87%b1-poljska-tradicionalni-recepti	MISSING_TITLE	MISSING_DESC
+dry_recipe	2422	?? UKRAJINA - Tradicionalni recepti	%f0%9f%87%ba%f0%9f%87%a6-ukrajina-tradicionalni-recepti	MISSING_TITLE	MISSING_DESC
+dry_recipe	2423	?? ŠVEDSKA - Tradicionalni recepti	%f0%9f%87%b8%f0%9f%87%aa-svedska-tradicionalni-recepti	MISSING_TITLE	MISSING_DESC
+dry_recipe	2424	?? LATVIJA - Tradicionalni recepti	%f0%9f%87%b1%f0%9f%87%bb-latvija-tradicionalni-recepti	MISSING_TITLE	MISSING_DESC
+dry_recipe	2425	?? NIZOZEMSKA - Tradicionalni recepti	%f0%9f%87%b3%f0%9f%87%b1-nizozemska-tradicionalni-recepti	MISSING_TITLE	MISSING_DESC
+dry_recipe	2426	?? BELGIJA - Tradicionalni recepti	%f0%9f%87%a7%f0%9f%87%aa-belgija-tradicionalni-recepti	MISSING_TITLE	MISSING_DESC
+dry_recipe	2427	?? LUKSEMBURG - Tradicionalni recepti	%f0%9f%87%b1%f0%9f%87%ba-luksemburg-tradicionalni-recepti	MISSING_TITLE	MISSING_DESC
+dry_recipe	2428	Durmitorska kastradina	durmitorska-kastradina	MISSING_TITLE	MISSING_DESC
+dry_recipe	2429	Crmničke goveđe pastrve	crmnicke-govede-pastrve	MISSING_TITLE	MISSING_DESC
+dry_recipe	2430	Vasojevićka preukuša	vasojevicka-preukusa	MISSING_TITLE	MISSING_DESC
+dry_recipe	2432	Kučka pršura	kucka-prsura	MISSING_TITLE	MISSING_DESC
+dry_recipe	2433	Crnogorska pečenica	crnogorska-pecenica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2434	Crnogorska kobasica	crnogorska-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2435	Crnogorska stelja	crnogorska-stelja	MISSING_TITLE	MISSING_DESC
+dry_recipe	2436	Crnogorski suđuk	crnogorski-suduk	MISSING_TITLE	MISSING_DESC
+dry_recipe	2437	Drniški Začinjeni Vrat s Planine (Specifični mountainski naresak)	drniski-zacinjeni-vrat-s-planine-specificni-mountainski-naresak	MISSING_TITLE	MISSING_DESC
+dry_recipe	2438	Komiški Brudet Narezak	komiski-brudet-narezak	MISSING_TITLE	MISSING_DESC
+dry_recipe	2439	Šibenski Vjetrenjak	sibenski-vjetrenjak	MISSING_TITLE	MISSING_DESC
+dry_recipe	2440	Splitski Maestral Narezak	splitski-maestral-narezak	MISSING_TITLE	MISSING_DESC
+dry_recipe	2441	Trogirski Zephyr	trogirski-zephyr	MISSING_TITLE	MISSING_DESC
+dry_recipe	2442	Makarski Jugo Narezak	makarski-jugo-narezak	MISSING_TITLE	MISSING_DESC
+dry_recipe	2524	Skirts and Kidneys (Tradicionalna irska marinirana goveđa dijafragma)	skirts-and-kidneys-tradicionalna-irska-marinirana-goveda-dijafragma	MISSING_TITLE	MISSING_DESC
+dry_recipe	2525	Dulse and Yellowman Bacon (Slanina s morskom travom)	dulse-and-yellowman-bacon-slanina-s-morskom-travom	MISSING_TITLE	MISSING_DESC
+dry_recipe	2526	Caillín Báin (Bieli spek - Irska verzija slanine sa začinima)	caillin-bain-bieli-spek-irska-verzija-slanine-sa-zacinima	MISSING_TITLE	MISSING_DESC
+dry_recipe	2527	Marrowbone Roll (Rolana kobasica s koštanom srži)	marrowbone-roll-rolana-kobasica-s-kostanom-srzi	MISSING_TITLE	MISSING_DESC
+dry_recipe	2528	Fadge Pudding (Krumpirovo-krvna kobasica)	fadge-pudding-krumpirovo-krvna-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2529	Irski soljena govedina (Corned Beef)	irski-soljena-govedina-corned-beef	MISSING_TITLE	MISSING_DESC
+dry_recipe	2530	Irska šunka u pivu (Beer-Cured Ham)	irska-sunka-u-pivu-beer-cured-ham	MISSING_TITLE	MISSING_DESC
+dry_recipe	2531	Slátur (Islandska krvavica)	slatur-islandska-krvavica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2532	Svið (Dimljena janjeća glava)	svid-dimljena-janjeca-glava	MISSING_TITLE	MISSING_DESC
+dry_recipe	2533	Bjúgu (Islandska dimljena kobasica)	bjugu-islandska-dimljena-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2534	Torfær​ður Lambahryggur (Zakopana janjeća leđa)	torfaerdur-lambahryggur-zakopana-janjeca-leda	MISSING_TITLE	MISSING_DESC
+dry_recipe	2539	Sviðasulta (Želatinizirano janjeće meso s glave)	svidasulta-zelatinizirano-janjece-meso-s-glave	MISSING_TITLE	MISSING_DESC
+dry_recipe	2540	Hrútspungar (Prešana janjeća muda)	hrutspungar-presana-janjeca-muda	MISSING_TITLE	MISSING_DESC
+dry_recipe	2543	Lundabaggar (Dimljena prskalina od janjetine)	lundabaggar-dimljena-prskalina-od-janjetine	MISSING_TITLE	MISSING_DESC
+dry_recipe	2444	Drniški pršut iz zaleđa (rijetka varijanta)	drniski-prsut-iz-zaleda-rijetka-varijanta	MISSING_TITLE	MISSING_DESC
+dry_recipe	2445	Hvarski stolen (zaboravljena delicija)	hvarski-stolen-zaboravljena-delicija	MISSING_TITLE	MISSING_DESC
+dry_recipe	2447	Leverpostej (Danska pašteta od svinjske jetre)	leverpostej-danska-pasteta-od-svinjske-jetre	MISSING_TITLE	MISSING_DESC
+dry_recipe	2448	Medisterpølse (Danska svježa začinjena kobasica)	medisterpolse-danska-svjeza-zacinjena-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2449	Ribbenssteg (Danska dimljena svinjska rebra)	ribbenssteg-danska-dimljena-svinjska-rebra	MISSING_TITLE	MISSING_DESC
+dry_recipe	2450	Bayonneskinke (Danska zasoljena i dimljena šunka)	bayonneskinke-danska-zasoljena-i-dimljena-sunka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2451	Blodpølse (Danska krvavica)	blodpolse-danska-krvavica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2452	Rullepølse (Danska rolana šunka)	rullepolse-danska-rolana-sunka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2453	Flæskesteg (Danska pečena svinjetina s hrskavom kožom)	flaeskesteg-danska-pecena-svinjetina-s-hrskavom-kozom	MISSING_TITLE	MISSING_DESC
+dry_recipe	2454	Spegepølse (Danska fermentirana kobasica)	spegepolse-danska-fermentirana-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2455	Sylte (Danska hladetina od svinjske glave)	sylte-danska-hladetina-od-svinjske-glave	MISSING_TITLE	MISSING_DESC
+dry_recipe	2456	Spegeskinke (Danska sušena šunka)	spegeskinke-danska-susena-sunka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2457	Irski spiced beef (Začinjeno sušeno goveđe meso)	irski-spiced-beef-zacinjeno-suseno-govede-meso	MISSING_TITLE	MISSING_DESC
+dry_recipe	2458	Crubeens (Salamurena i dimljena svinjska stopala)	crubeens-salamurena-i-dimljena-svinjska-stopala	MISSING_TITLE	MISSING_DESC
+dry_recipe	2459	Boiled Ham (Tradicionalna irska kuhana šunka)	boiled-ham-tradicionalna-irska-kuhana-sunka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2464	StarohrvatskiMore-Kopno Salamet (Salama Maritima)	starohrvatskimore-kopno-salamet-salama-maritima	MISSING_TITLE	MISSING_DESC
+dry_recipe	2465	Krčki Ovčji Dimljeni Raritet	krcki-ovcji-dimljeni-raritet	MISSING_TITLE	MISSING_DESC
+dry_recipe	2466	Kvarnerski Divovski Salamet	kvarnerski-divovski-salamet	MISSING_TITLE	MISSING_DESC
+dry_recipe	2468	Lincolnshire kobasica	lincolnshire-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2469	Haslet (tradicionalna engleska pašteta od svinjskih iznutrica)	haslet-tradicionalna-engleska-pasteta-od-svinjskih-iznutrica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2470	Bath Chaps (ukiseljene svinjske obrazine)	bath-chaps-ukiseljene-svinjske-obrazine	MISSING_TITLE	MISSING_DESC
+dry_recipe	2471	Potted Beef (konzervirano goveđe meso)	potted-beef-konzervirano-govede-meso	MISSING_TITLE	MISSING_DESC
+dry_recipe	2472	Oxford Brawn (hladetina od svinjske glave)	oxford-brawn-hladetina-od-svinjske-glave	MISSING_TITLE	MISSING_DESC
+dry_recipe	2474	Tradicionalna engleska šunka (Wiltshire Ham)	tradicionalna-engleska-sunka-wiltshire-ham	MISSING_TITLE	MISSING_DESC
+dry_recipe	2475	Engleski sušeni goveđi jezik (Potted Ox Tongue)	engleski-suseni-govedi-jezik-potted-ox-tongue	MISSING_TITLE	MISSING_DESC
+dry_recipe	2476	Engleski pork pie (svinjetina u tijestu)	engleski-pork-pie-svinjetina-u-tijestu	MISSING_TITLE	MISSING_DESC
+dry_recipe	2477	Sült (Hladetina od svinjskog mesa)	sult-hladetina-od-svinjskog-mesa	MISSING_TITLE	MISSING_DESC
+dry_recipe	2478	Suitsink (Dimljena svinjska šunka)	suitsink-dimljena-svinjska-sunka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2479	Verikäkk (Krvavica s ječmom)	verikakk-krvavica-s-jecmom	MISSING_TITLE	MISSING_DESC
+dry_recipe	2480	Talleliha (Polutrajno sušena govedina)	talleliha-polutrajno-susena-govedina	MISSING_TITLE	MISSING_DESC
+dry_recipe	2481	Sealiha õlis (Svinjsko meso u ulju)	sealiha-olis-svinjsko-meso-u-ulju	MISSING_TITLE	MISSING_DESC
+dry_recipe	2482	?? Grčki tradicionalni recept - Loukaniko	%f0%9f%87%ac%f0%9f%87%b7-grcki-tradicionalni-recept-loukaniko	MISSING_TITLE	MISSING_DESC
+dry_recipe	2483	?? Albanski recept - Salçe	%f0%9f%87%a6%f0%9f%87%b1-albanski-recept-salce	MISSING_TITLE	MISSING_DESC
+dry_recipe	2484	?? Nizozemski recept - Droge Worst	%f0%9f%87%b3%f0%9f%87%b1-nizozemski-recept-droge-worst	MISSING_TITLE	MISSING_DESC
+dry_recipe	2485	?? Britanski recept - Cumberland Sausage	%f0%9f%87%ac%f0%9f%87%a7-britanski-recept-cumberland-sausage	MISSING_TITLE	MISSING_DESC
+dry_recipe	2486	?? Bugarski recept - Lukanka	%f0%9f%87%a7%f0%9f%87%ac-bugarski-recept-lukanka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2487	?? Rumunjski recept - Salam de Sibiu	%f0%9f%87%b7%f0%9f%87%b4-rumunjski-recept-salam-de-sibiu	MISSING_TITLE	MISSING_DESC
+dry_recipe	2488	?? Češki recept - Lovecká Salám	%f0%9f%87%a8%f0%9f%87%bf-ceski-recept-lovecka-salam	MISSING_TITLE	MISSING_DESC
+dry_recipe	2489	?? Slovački recept - Turistická Saláma	%f0%9f%87%b8%f0%9f%87%b0-slovacki-recept-turisticka-salama	MISSING_TITLE	MISSING_DESC
+dry_recipe	2490	?? Poljski recept - Kiełbasa	%f0%9f%87%b5%f0%9f%87%b1-poljski-recept-kielbasa	MISSING_TITLE	MISSING_DESC
+dry_recipe	2491	?? Ukrajinski recept - Kobasa	%f0%9f%87%ba%f0%9f%87%a6-ukrajinski-recept-kobasa	MISSING_TITLE	MISSING_DESC
+dry_recipe	2492	?? Švedski recept - Tunnbrödsrulle	%f0%9f%87%b8%f0%9f%87%aa-svedski-recept-tunnbrodsrulle	MISSING_TITLE	MISSING_DESC
+dry_recipe	2493	?? Latvijski recept - Mājas Desa	%f0%9f%87%b1%f0%9f%87%bb-latvijski-recept-majas-desa	MISSING_TITLE	MISSING_DESC
+dry_recipe	2495	?? Talijansko-toskanski recept za salamu (Salame Toscano)	%f0%9f%87%ae%f0%9f%87%b9-talijansko-toskanski-recept-za-salamu-salame-toscano	MISSING_TITLE	MISSING_DESC
+dry_recipe	2496	?? Tradicionalni recept za saucisson sec	%f0%9f%87%ab%f0%9f%87%b7-tradicionalni-recept-za-saucisson-sec	MISSING_TITLE	MISSING_DESC
+dry_recipe	2497	?? Portugalski recept za Linguiçu	%f0%9f%87%b5%f0%9f%87%b9-portugalski-recept-za-linguicu	MISSING_TITLE	MISSING_DESC
+dry_recipe	2498	?? Austrijski recept za Kmetzelsuppe kobasicu	%f0%9f%87%a6%f0%9f%87%b9-austrijski-recept-za-kmetzelsuppe-kobasicu	MISSING_TITLE	MISSING_DESC
+dry_recipe	2500	Poljska Kiełbasa Lisiecka (Lisiecka Kobasica)	poljska-kielbasa-lisiecka-lisiecka-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2501	Slovačka Klobása (Slovenská Klobása)	slovacka-klobasa-slovenska-klobasa	MISSING_TITLE	MISSING_DESC
+dry_recipe	2502	JOULUKINKKU (BOŽIĆNA ŠUNKA)	joulukinkku-bozicna-sunka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2503	RIIPUTETTU HIRVENLIHA (SUHO-ZRELA JELENOVINA)	riiputettu-hirvenliha-suho-zrela-jelenovina	MISSING_TITLE	MISSING_DESC
+dry_recipe	2504	SAVUSIIKA (DIMLJENI SIIKA - BIJELA RIBA)	savusiika-dimljeni-siika-bijela-riba	MISSING_TITLE	MISSING_DESC
+dry_recipe	2505	METSOPAISTI (SUHO-SALAMURENI TETRIJEB)	metsopaisti-suho-salamureni-tetrijeb	MISSING_TITLE	MISSING_DESC
+dry_recipe	2506	LAMPAAN ILMAKUIVATTU KYLKI (ZRAČNO-SUŠENA JANJEĆJA PRSA)	lampaan-ilmakuivattu-kylki-zracno-susena-janjecja-prsa	MISSING_TITLE	MISSING_DESC
+dry_recipe	2507	PALVIKINKKU (DIMLJENA ŠUNKA)	palvikinkku-dimljena-sunka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2508	SAVUPORONLIHA (DIMLJENO SOBOVO MESO)	savuporonliha-dimljeno-sobovo-meso	MISSING_TITLE	MISSING_DESC
+dry_recipe	2510	ILMAKUIVATTU PORONPAISTI (ZRAČNO-SUŠENI SOBOV BUT)	ilmakuivattu-poronpaisti-zracno-suseni-sobov-but	MISSING_TITLE	MISSING_DESC
+dry_recipe	2511	GRAAVILOHI (GRAVLAX - FINSKI MARINIRANI LOSOS)	graavilohi-gravlax-finski-marinirani-losos	MISSING_TITLE	MISSING_DESC
+dry_recipe	2512	ROSETTE DE LYON	rosette-de-lyon	MISSING_TITLE	MISSING_DESC
+dry_recipe	2513	LONZO CORSE	lonzo-corse	MISSING_TITLE	MISSING_DESC
+dry_recipe	2514	SAUCISSON SEC D'AUVERGNE	saucisson-sec-dauvergne-2	MISSING_TITLE	MISSING_DESC
+dry_recipe	2515	Siglino Messinias (Σύγκλινο Μεσσηνίας)	siglino-messinias-%cf%83%cf%8d%ce%b3%ce%ba%ce%bb%ce%b9%ce%bd%ce%bf-%ce%bc%ce%b5%cf%83%cf%83%ce%b7%ce%bd%ce%af%ce%b1%cf%82	MISSING_TITLE	MISSING_DESC
+dry_recipe	2516	Tsigarides (Τσιγαρίδες)	tsigarides-%cf%84%cf%83%ce%b9%ce%b3%ce%b1%cf%81%ce%af%ce%b4%ce%b5%cf%82	MISSING_TITLE	MISSING_DESC
+dry_recipe	2517	Armatia (Αρματιά)	armatia-%ce%b1%cf%81%ce%bc%ce%b1%cf%84%ce%b9%ce%ac	MISSING_TITLE	MISSING_DESC
+dry_recipe	2518	Pihti (Πηχτή)	pihti-%cf%80%ce%b7%cf%87%cf%84%ce%ae	MISSING_TITLE	MISSING_DESC
+dry_recipe	2519	Kavourmas (Καβουρμάς)	kavourmas-%ce%ba%ce%b1%ce%b2%ce%bf%cf%85%cf%81%ce%bc%ce%ac%cf%82	MISSING_TITLE	MISSING_DESC
+dry_recipe	2520	Pastourmas (Παστουρμάς)	pastourmas-%cf%80%ce%b1%cf%83%cf%84%ce%bf%cf%85%cf%81%ce%bc%ce%ac%cf%82	MISSING_TITLE	MISSING_DESC
+dry_recipe	2521	Apaki (Απάκι)	apaki-%ce%b1%cf%80%ce%ac%ce%ba%ce%b9	MISSING_TITLE	MISSING_DESC
+dry_recipe	2522	Noumboulo (Νούμπουλο)	noumboulo-%ce%bd%ce%bf%cf%8d%ce%bc%cf%80%ce%bf%cf%85%ce%bb%ce%bf	MISSING_TITLE	MISSING_DESC
+dry_recipe	2523	Syglino (Σύγκλινο)	syglino-%cf%83%cf%8d%ce%b3%ce%ba%ce%bb%ce%b9%ce%bd%ce%bf	MISSING_TITLE	MISSING_DESC
+dry_recipe	2544	Moldavska Cârnaţi de Oaie (Kobasica od Ovčetine)	moldavska-carnati-de-oaie-kobasica-od-ovcetine	MISSING_TITLE	MISSING_DESC
+dry_recipe	2545	Estonska Suitsusink (Dimljena Šunka)	estonska-suitsusink-dimljena-sunka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2546	Sudžuk (Sudžuk Kosovar)	sudzuk-sudzuk-kosovar	MISSING_TITLE	MISSING_DESC
+dry_recipe	2547	Pršuta e Kosovës (Kosovska pršuta)	prsuta-e-kosoves-kosovska-prsuta	MISSING_TITLE	MISSING_DESC
+dry_recipe	2548	Llokum Kosove (Kosovski delikates)	llokum-kosove-kosovski-delikates	MISSING_TITLE	MISSING_DESC
+dry_recipe	2549	Suxhuk me Spec (Sudžuk s paprikom)	suxhuk-me-spec-sudzuk-s-paprikom	MISSING_TITLE	MISSING_DESC
+dry_recipe	2550	Gospićki Vjetromet (Specifični mesni naresak)	gospicki-vjetromet-specificni-mesni-naresak	MISSING_TITLE	MISSING_DESC
+dry_recipe	2551	Senj Začinski Vrat (Specifični nasoljavani vrat)	senj-zacinski-vrat-specificni-nasoljavani-vrat	MISSING_TITLE	MISSING_DESC
+dry_recipe	2552	Otočac Začinski Vrat s Planine (Mountainski naresak)	otocac-zacinski-vrat-s-planine-mountainski-naresak	MISSING_TITLE	MISSING_DESC
+dry_recipe	2553	Skilandis (litavska dimljena kobasica)	skilandis-litavska-dimljena-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2554	Kindziukas (litavska dimljena šunka)	kindziukas-litavska-dimljena-sunka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2555	Lašiniai (litavska slanina)	lasiniai-litavska-slanina	MISSING_TITLE	MISSING_DESC
+dry_recipe	2556	Vytinta dešra (litavska suha kobasica)	vytinta-desra-litavska-suha-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2557	Rūkyti lašišos (dimljen losos na litavski način)	rukyti-lasisos-dimljen-losos-na-litavski-nacin	MISSING_TITLE	MISSING_DESC
+dry_recipe	2558	Pounje Planinski Vrtlog	pounje-planinski-vrtlog	MISSING_TITLE	MISSING_DESC
+dry_recipe	2559	Gackanski Vjetrenjak	gackanski-vjetrenjak	MISSING_TITLE	MISSING_DESC
+dry_recipe	2560	Drežnički Šušanj	dreznicki-susanj	MISSING_TITLE	MISSING_DESC
+dry_recipe	2561	Gospićki Vjetar	gospicki-vjetar	MISSING_TITLE	MISSING_DESC
+dry_recipe	2563	Maltežanska kobasica (Zalzett Malti)	maltezanska-kobasica-zalzett-malti	MISSING_TITLE	MISSING_DESC
+dry_recipe	2564	Maltežanski pršut (Prosciutto Malti)	maltezanski-prsut-prosciutto-malti	MISSING_TITLE	MISSING_DESC
+dry_recipe	2565	Maltežanska suha govedina (Carne Secca Maltija)	maltezanska-suha-govedina-carne-secca-maltija	MISSING_TITLE	MISSING_DESC
+dry_recipe	2567	Mađarska Kobasica (Kolbász)	madarska-kobasica-kolbasz	MISSING_TITLE	MISSING_DESC
+dry_recipe	2568	Mađarska Dimljena Šunka (Füstölt Sonka)	madarska-dimljena-sunka-fustolt-sonka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2569	Mađarski Dimljeni Jezik (Füstölt Nyelv)	madarski-dimljeni-jezik-fustolt-nyelv	MISSING_TITLE	MISSING_DESC
+dry_recipe	2570	Štruki od Svetog Martina - Specifična Vrste Kobasice	struki-od-svetog-martina-specificna-vrste-kobasice	MISSING_TITLE	MISSING_DESC
+dry_recipe	2571	Zaprešićki Vrganjevi Narezak	zapresicki-vrganjevi-narezak	MISSING_TITLE	MISSING_DESC
+dry_recipe	2572	Medžimurski Divljač Narezak	medzimurski-divljac-narezak	MISSING_TITLE	MISSING_DESC
+dry_recipe	2573	Gornjomurečki Začinski Narezak	gornjomurecki-zacinski-narezak	MISSING_TITLE	MISSING_DESC
+dry_recipe	2574	ȘUNCĂ AFUMATĂ (DIMLJENA ŠUNKA)	sunca-afumata-dimljena-sunka	MISSING_TITLE	MISSING_DESC
+dry_recipe	2575	PASTRAMĂ DE OAIE (OVČJA PASTRAMA)	pastrama-de-oaie-ovcja-pastrama	MISSING_TITLE	MISSING_DESC
+dry_recipe	2576	CÂRNAȚ AFUMAT (DIMLJENE KOBASICE)	carnat-afumat-dimljene-kobasice	MISSING_TITLE	MISSING_DESC
+dry_recipe	2577	Droge Worst (Suha kobasica)	droge-worst-suha-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2578	Leverworst (Jetrena pašteta)	leverworst-jetrena-pasteta	MISSING_TITLE	MISSING_DESC
+dry_recipe	2579	Spekdikken (Slanina s medom)	spekdikken-slanina-s-medom	MISSING_TITLE	MISSING_DESC
+dry_recipe	2580	Ossenworst (Goveđa sirova kobasica)	ossenworst-goveda-sirova-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2587	VOSSAKORV (TRADICIONALNA DIMLJENA KOBASICA IZ VOSSA)	vossakorv-tradicionalna-dimljena-kobasica-iz-vossa	MISSING_TITLE	MISSING_DESC
+dry_recipe	2589	SPEKELÅR (SUŠENA I DIMLJENA JELEN/SRNETINA)	spekelar-susena-i-dimljena-jelen-srnetina	MISSING_TITLE	MISSING_DESC
+dry_recipe	2592	FÅREPØLSE (TRADICIONALNA OVČJA KOBASICA)	farepolse-tradicionalna-ovcja-kobasica	MISSING_TITLE	MISSING_DESC
+dry_recipe	2593	ELGKJØTT SPEKEMAT (SUHO MESO LOSA)	elgkjott-spekemat-suho-meso-losa	MISSING_TITLE	MISSING_DESC
+dry_recipe	2594	GRAVET LAKS (GRAVLAKS - MARINIRANI LOSOS)	gravet-laks-gravlaks-marinirani-losos	MISSING_TITLE	MISSING_DESC
+

@@ -1,0 +1,72 @@
+ID	post_title	post_name	title_status	description_status
+2877	Pakiranje	pakiranje	MISSING_TITLE	MISSING_DESC
+2876	Zrenje	zrenje	MISSING_TITLE	MISSING_DESC
+2874	Dimljenje	dimljenje	MISSING_TITLE	MISSING_DESC
+2873	Fermentacija	fermentacija	MISSING_TITLE	MISSING_DESC
+2872	Punjenje	punjenje	MISSING_TITLE	MISSING_DESC
+2871	Odležavanje smjese	odlezavanje-smjese	MISSING_TITLE	MISSING_DESC
+2870	Miješanje	mijesanje	MISSING_TITLE	MISSING_DESC
+2869	Mljevenje	mljevenje	MISSING_TITLE	MISSING_DESC
+2868	Rezanje	rezanje	MISSING_TITLE	MISSING_DESC
+2867	Soljenje	soljenje	MISSING_TITLE	MISSING_DESC
+2866	Sirovina	sirovina	MISSING_TITLE	MISSING_DESC
+2875	Sušenje	susenje	MISSING_TITLE	MISSING_DESC
+2795	Planer dimljenja	planer-dimljenja	MISSING_TITLE	MISSING_DESC
+2948	Odležavanje	odlezavanje	MISSING_TITLE	MISSING_DESC
+2945	Starter kulture	starter-kulture	MISSING_TITLE	MISSING_DESC
+2935	Počni ovdje	pocni-ovdje	MISSING_TITLE	MISSING_DESC
+2943	Sjeverni i atlantski stil	sjever-atlantik	MISSING_TITLE	MISSING_DESC
+2938	Mediteranski stil	mediteran	MISSING_TITLE	MISSING_DESC
+2939	Panonski stil	panonska-nizina	MISSING_TITLE	MISSING_DESC
+2934	Atlas stilova Europe	atlas-stilova-europe	MISSING_TITLE	MISSING_DESC
+2942	Srednjoeuropski stil	srednja-europa	MISSING_TITLE	MISSING_DESC
+2940	Alpski stil	alpski-prostor	MISSING_TITLE	MISSING_DESC
+2941	Dinarski i balkanski stil	dinarski-balkanski-pojas	MISSING_TITLE	MISSING_DESC
+101	Home	pocetna	MISSING_TITLE	MISSING_DESC
+2915	Greške i rješenja	greske	MISSING_TITLE	MISSING_DESC
+2922	Gorčina od dima	gorcina-od-dima	MISSING_TITLE	MISSING_DESC
+2923	Užeglost masti	uzeglost-masti	MISSING_TITLE	MISSING_DESC
+2916	Razmazana mast u presjeku	razmazana-mast-u-presjeku	MISSING_TITLE	MISSING_DESC
+2917	Tvrda kora, mekana jezgra	tvrda-kora-mekana-jezgra	MISSING_TITLE	MISSING_DESC
+2918	Kiseli miris jezgre	kiseli-miris-jezgre	MISSING_TITLE	MISSING_DESC
+2919	Zračni džepovi u kobasici	zracni-dzepovi-u-kobasici	MISSING_TITLE	MISSING_DESC
+2920	Kondenzacija na proizvodu	kondenzacija-na-proizvodu	MISSING_TITLE	MISSING_DESC
+2921	Neželjena plijesan	nezeljena-plijesan	MISSING_TITLE	MISSING_DESC
+2864	Proces izrade	proces-izrade	MISSING_TITLE	MISSING_DESC
+274	Korisnički račun	my-account	MISSING_TITLE	MISSING_DESC
+2823	Kalkulator sušenja	kalkulator-susenja	MISSING_TITLE	MISSING_DESC
+2819	Praćenje pH fermentacije	pracenje-ph	MISSING_TITLE	MISSING_DESC
+2816	Generator etiketa	generator-etiketa	MISSING_TITLE	MISSING_DESC
+2813	Kalkulator Soli	kalkulator-soli	MISSING_TITLE	MISSING_DESC
+2791	Praćenje Gubitka Težine	tracker-tezine	MISSING_TITLE	MISSING_DESC
+2801	Inventar i Sirovina	inventar	MISSING_TITLE	MISSING_DESC
+2799	HACCP Kontrolna Lista	haccp	MISSING_TITLE	MISSING_DESC
+2797	Monitor Sušionice	monitor-susionice	MISSING_TITLE	MISSING_DESC
+2793	Dnevnik Serije	dnevnik-serije	MISSING_TITLE	MISSING_DESC
+2789	Dijagnostika Problema	dijagnostika	MISSING_TITLE	MISSING_DESC
+102	Recepti	recepti	MISSING_TITLE	MISSING_DESC
+2343	Usporedba recepata	usporedba	MISSING_TITLE	MISSING_DESC
+2349	Alati	alati	MISSING_TITLE	MISSING_DESC
+2347	Premium pristup	premium-pristup	MISSING_TITLE	MISSING_DESC
+2341	Postavke računa	postavke-racuna	MISSING_TITLE	MISSING_DESC
+2339	Registracija	registracija	MISSING_TITLE	MISSING_DESC
+2302	Forum	forum	MISSING_TITLE	MISSING_DESC
+2191	Drycured podcast	podcast	MISSING_TITLE	MISSING_DESC
+2217	EP05: Kontrola, sigurnost i dnevnik šarže	kontrola-sigurnost-i-dnevnik-sarze	MISSING_TITLE	MISSING_DESC
+2215	EP04: Najčešće greške i kako ih izbjeći	najcesce-greske-i-kako-ih-izbjeci	MISSING_TITLE	MISSING_DESC
+2212	EP03: Fermentacija, dim i sušenje	fermentacija-dim-i-susenje	MISSING_TITLE	MISSING_DESC
+2209	EP02: Soljenje, crijeva i češnjak	soljenje-crijeva-i-cesnjak	MISSING_TITLE	MISSING_DESC
+2193	Epizoda 1: Osnove dobrog suhomesnatog proizvoda	osnove-dobrog-suhomesnatog-proizvoda	MISSING_TITLE	MISSING_DESC
+1679	Upit za knjigu	upit-za-knjigu	MISSING_TITLE	MISSING_DESC
+1428	Knjiga — Preview	knjiga	MISSING_TITLE	MISSING_DESC
+1664	Infografike	infografike	MISSING_TITLE	MISSING_DESC
+1636	Kalkulator	kalkulator	MISSING_TITLE	MISSING_DESC
+1634	Kalkulator (test)	kalkulator-test	MISSING_TITLE	MISSING_DESC
+10	Offerings	offerings	MISSING_TITLE	MISSING_DESC
+103	Blog	vodici	MISSING_TITLE	MISSING_DESC
+8	About	about	MISSING_TITLE	MISSING_DESC
+104	Savjeti	savjeti	MISSING_TITLE	MISSING_DESC
+273	Checkout	checkout	MISSING_TITLE	MISSING_DESC
+272	Cart	cart	MISSING_TITLE	MISSING_DESC
+271	Shop	shop	MISSING_TITLE	MISSING_DESC
+

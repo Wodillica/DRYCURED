@@ -1,0 +1,58 @@
+--- registered post types ---
+name	label	public	publicly_queryable	show_ui	has_archive
+post	Objave	1	1	1	
+page	Stranice	1		1	
+attachment	Attachments	1	1	1	
+revision	Revizije				
+nav_menu_item	Stavke navigacijskog izbornika				
+custom_css	Dodatni CSS				
+customize_changeset	Skupovi promjena				
+oembed_cache	oEmbed odgovori				
+user_request	Korisnički zahtjevi				
+wp_block	Uzorci			1	
+wp_template	Predlošci				
+wp_template_part	Dijelovi predloška				
+wp_global_styles	Globalni stilovi				
+wp_navigation	Navigacijski izbornici			1	
+wp_font_family	Obitelji fontova				
+wp_font_face	Vrste fonta				
+wpcode	Posts				
+forum	Forumi	1	1		forums
+topic	Teme	1	1		topics
+reply	Odgovori	1	1		
+e-floating-buttons	Floating Elements	1	1	1	
+elementor_library	Moji predlošci	1	1	1	
+elementor_snippet	Custom Code			1	
+wprm_list	Lists				
+wprm_recipe	Recipes				
+dc_book_inquiry	Upiti za knjigu			1	
+infografika	Infografike	1	1	1	1
+dc_recept	Recepti	1	1	1	1
+tip_pusnice	Savjeti iz pušnice	1	1	1	savjeti
+dry_recipe	Drycured recepti	1	1	1	1
+3d-flip-book	3D FlipBook	1	1	1	1
+elementor_font	Custom Fonts			1	
+elementor_icons	Custom Icons			1	
+
+--- published counts by post type ---
+post_type	published_count
+dry_recipe	431
+tip_pusnice	112
+post	73
+page	70
+bp-email	21
+nav_menu_item	21
+topic	13
+infografika	12
+reply	12
+wpcode	10
+forum	7
+buddypress	5
+wp_global_styles	5
+elementor_library	3
+wp_navigation	2
+wp_template_part	2
+wpcf	1
+custom_css	1
+wpforms	1
+

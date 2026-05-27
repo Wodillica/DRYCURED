@@ -1,0 +1,17 @@
+DRYCURED SITE-WIDE SEO INVENTORY v0.0.1
+Timestamp: 20260527_192500
+
+No production changes were made.
+
+Purpose:
+- stop focusing only on process pages
+- inventory the entire drycured.com SEO surface
+- map pages, posts, recipes, infographics, taxonomies and sitemap submaps
+- measure AIOSEO title/description coverage by content type
+- identify priority SEO gaps before any meta update
+
+Next:
+1. classify content groups by SEO importance,
+2. decide which groups get manual meta titles/descriptions,
+3. decide which groups get generated/template meta,
+4. only then perform controlled updates.
