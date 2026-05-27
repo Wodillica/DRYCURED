@@ -1,0 +1,24 @@
+DRYCURED PROCESS HUB v0.1.0
+Timestamp: 20260527_155905
+
+Created:
+wp-content/mu-plugins/drycured-process-hub.php
+
+Purpose:
+Read-only registry for process pages, tools, images and prev/next metadata.
+
+No frontend rendering takeover.
+No menu changes.
+No tool changes.
+No the_content changes.
+No CSS/JS added to frontend.
+
+Checks:
+- PHP lint
+- wp eval function check
+- HTTP checks
+- public debug invisibility check
+
+Rollback:
+rm -f /var/www/html/wp-content/mu-plugins/drycured-process-hub.php
+wp cache flush --allow-root
