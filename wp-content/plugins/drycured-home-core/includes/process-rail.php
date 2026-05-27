@@ -14,7 +14,7 @@ function drycured_home_core_process_rail_shortcode($atts = []) {
             'd' => 'Kvaliteta mesa određuje boju, teksturu, stabilnost i konačan okus proizvoda.',
             'r' => 'Loša sirovina ne može se spasiti začinima ni dimom.',
             's' => 'Birati svježe, pravilno ohlađeno i tehnološki prikladno meso.',
-            'bg' => $base . 'process-01-sirovina.png',
+            'bg' => $base . 'process-01-sirovina.webp',
             'url' => home_url('/proces-izrade/sirovina/'),
         ],
         [
@@ -24,7 +24,7 @@ function drycured_home_core_process_rail_shortcode($atts = []) {
             'd' => 'Sol pokreće sigurnost, vezanje vode i osnovni okus proizvoda.',
             'r' => 'Premalo soli smanjuje sigurnost, a previše soli narušava balans.',
             's' => 'Koristiti provjerene omjere i voditi zapis svake šarže.',
-            'bg' => $base . 'process-02-soljenje.png',
+            'bg' => $base . 'process-02-soljenje.webp',
             'url' => home_url('/proces-izrade/soljenje/'),
         ],
         [
@@ -34,7 +34,7 @@ function drycured_home_core_process_rail_shortcode($atts = []) {
             'd' => 'Pravilno rezanje čuva strukturu mesa i pomaže ravnomjernom presjeku.',
             'r' => 'Toplo meso i tupi noževi razmazuju mast i kvare teksturu.',
             's' => 'Raditi hladno, oštrim nožem i s jasnom dimenzijom reza.',
-            'bg' => $base . 'process-03-rezanje.png',
+            'bg' => $base . 'process-03-rezanje.webp',
             'url' => home_url('/proces-izrade/rezanje/'),
         ],
         [
@@ -44,7 +44,7 @@ function drycured_home_core_process_rail_shortcode($atts = []) {
             'd' => 'Granulacija mesa određuje zagriz, vezanje mase i izgled presjeka.',
             'r' => 'Pregrijano mljevenje razmazuje mast i slabi strukturu.',
             's' => 'Meso i opremu držati hladnima te koristiti odgovarajuću rešetku.',
-            'bg' => $base . 'process-04-mljevenje.png',
+            'bg' => $base . 'process-04-mljevenje.webp',
             'url' => home_url('/proces-izrade/mljevenje/'),
         ],
         [
@@ -54,7 +54,7 @@ function drycured_home_core_process_rail_shortcode($atts = []) {
             'd' => 'Miješanjem se povezuju meso, mast, sol i začini u stabilnu masu.',
             'r' => 'Premalo miješanja daje rastresitu masu, a predugo miješanje je zagrijava.',
             's' => 'Miješati kontrolirano, hladno i samo dok masa ne postane povezana.',
-            'bg' => $base . 'process-05-mijesanje.png',
+            'bg' => $base . 'process-05-mijesanje.webp',
             'url' => home_url('/proces-izrade/mijesanje/'),
         ],
         [
@@ -64,7 +64,7 @@ function drycured_home_core_process_rail_shortcode($atts = []) {
             'd' => 'Smjesa kratko miruje kako bi se sol, začini i proteini ravnomjernije povezali.',
             'r' => 'Preskakanje mirovanja može dati slabije vezanje i neujednačen okus.',
             's' => 'Smjesu pokriti i držati hladno, bez nepotrebnog zagrijavanja ili isušivanja.',
-            'bg' => $base . 'process-05a-odlezavanje-smjese.png',
+            'bg' => $base . 'process-05a-odlezavanje-smjese.webp',
             'url' => home_url('/proces-izrade/odlezavanje-smjese/'),
         ],
         [
@@ -74,7 +74,7 @@ function drycured_home_core_process_rail_shortcode($atts = []) {
             'd' => 'Punjenje oblikuje proizvod i određuje ravnomjernost presjeka.',
             'r' => 'Zračni džepovi stvaraju šupljine i moguće kritične točke kvarenja.',
             's' => 'Puniti ravnomjerno, bez prekida, i po potrebi izbosti zarobljeni zrak.',
-            'bg' => $base . 'process-06-punjenje.png',
+            'bg' => $base . 'process-06-punjenje.webp',
             'url' => home_url('/proces-izrade/punjenje/'),
         ],
         [
@@ -84,7 +84,7 @@ function drycured_home_core_process_rail_shortcode($atts = []) {
             'd' => 'Fermentacija razvija kiselost, aromu i mikrobiološku stabilnost kobasica.',
             'r' => 'Previsoka temperatura može dati pretjerano kiselu jezgru.',
             's' => 'Pratiti temperaturu, vlagu, vrijeme i po potrebi pH vrijednost.',
-            'bg' => $base . 'process-07-fermentacija.png',
+            'bg' => $base . 'process-07-fermentacija.webp',
             'url' => home_url('/proces-izrade/fermentacija/'),
         ],
         [
@@ -94,7 +94,7 @@ function drycured_home_core_process_rail_shortcode($atts = []) {
             'd' => 'Dim daje boju, miris i dodatnu površinsku zaštitu proizvoda.',
             'r' => 'Prejak ili prljav dim daje gorčinu i tamnu površinu.',
             's' => 'Koristiti suh, čist i blag dim uz dobru ventilaciju.',
-            'bg' => $base . 'process-08-dimljenje.png',
+            'bg' => $base . 'process-08-dimljenje.webp',
             'url' => home_url('/proces-izrade/dimljenje/'),
         ],
         [
@@ -114,7 +114,7 @@ function drycured_home_core_process_rail_shortcode($atts = []) {
             'd' => 'Zrenje razvija dubinu okusa, mirisa i teksture koju ne može zamijeniti brzina.',
             'r' => 'Nestabilna mikroklima daje neujednačen proizvod.',
             's' => 'Redovito pratiti masu, miris, površinu i opći razvoj proizvoda.',
-            'bg' => $base . 'process-10-zrenje.png',
+            'bg' => $base . 'process-10-zrenje.webp',
             'url' => home_url('/proces-izrade/zrenje/'),
         ],
         [
@@ -124,7 +124,7 @@ function drycured_home_core_process_rail_shortcode($atts = []) {
             'd' => 'Pakiranje čuva stabilan proizvod i zatvara ciklus proizvodnje.',
             'r' => 'Prerano zatvaranje može zarobiti vlagu i narušiti kvalitetu.',
             's' => 'Pakirati tek kada je proizvod suh, stabilan i senzorski uredan.',
-            'bg' => $base . 'process-11-pakiranje.png',
+            'bg' => $base . 'process-11-pakiranje.webp',
             'url' => home_url('/proces-izrade/pakiranje/'),
         ],
     ];

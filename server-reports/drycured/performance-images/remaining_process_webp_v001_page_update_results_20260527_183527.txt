@@ -1,0 +1,11 @@
+base=process-01-sirovina slug=sirovina page_id=2866 png_before=1 png_after=0 webp_after=1
+base=process-02-soljenje slug=soljenje page_id=2867 png_before=1 png_after=0 webp_after=1
+base=process-03-rezanje slug=rezanje page_id=2868 png_before=1 png_after=0 webp_after=1
+base=process-04-mljevenje slug=mljevenje page_id=2869 png_before=1 png_after=0 webp_after=1
+base=process-05-mijesanje slug=mijesanje page_id=2870 png_before=1 png_after=0 webp_after=1
+base=process-05a-odlezavanje-smjese slug=odlezavanje-smjese page_id=2871 png_before=1 png_after=0 webp_after=1
+base=process-06-punjenje slug=punjenje page_id=2872 png_before=1 png_after=0 webp_after=1
+base=process-07-fermentacija slug=fermentacija page_id=2873 png_before=1 png_after=0 webp_after=1
+base=process-08-dimljenje slug=dimljenje page_id=2874 png_before=1 png_after=0 webp_after=1
+base=process-10-zrenje slug=zrenje page_id=2876 png_before=1 png_after=0 webp_after=1
+base=process-11-pakiranje slug=pakiranje page_id=2877 png_before=1 png_after=0 webp_after=1

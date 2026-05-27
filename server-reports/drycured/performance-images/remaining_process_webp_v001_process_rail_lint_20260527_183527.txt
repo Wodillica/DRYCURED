@@ -1,0 +1,1 @@
+No syntax errors detected in wp-content/plugins/drycured-home-core/includes/process-rail.php

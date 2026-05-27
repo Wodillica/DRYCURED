@@ -1,0 +1,36 @@
+---- process-01-sirovina ----
+process-01-sirovina.webp
+
+---- process-02-soljenje ----
+process-02-soljenje.webp
+
+---- process-03-rezanje ----
+process-03-rezanje.webp
+
+---- process-04-mljevenje ----
+process-04-mljevenje.webp
+
+---- process-05-mijesanje ----
+process-05-mijesanje.webp
+
+---- process-05a-odlezavanje-smjese ----
+process-05a-odlezavanje-smjese.webp
+
+---- process-06-punjenje ----
+process-06-punjenje.webp
+
+---- process-07-fermentacija ----
+process-07-fermentacija.webp
+
+---- process-08-dimljenje ----
+process-08-dimljenje.webp
+
+---- process-09-susenje ----
+process-09-susenje.webp
+
+---- process-10-zrenje ----
+process-10-zrenje.webp
+
+---- process-11-pakiranje ----
+process-11-pakiranje.webp
+

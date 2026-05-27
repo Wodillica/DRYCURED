@@ -1,0 +1,15 @@
+CONTINUED DRYCURED REMAINING PROCESS WEBP SWITCH v0.0.1
+
+Reason:
+Initial script stopped during page update because PAGE_ID/BASE were passed as positional WP-CLI arguments.
+
+This continuation:
+- kept copied WebP files
+- kept patched process-rail.php and process-hub.php
+- updated process pages using corrected environment variable passing
+- flushed WP cache
+- reloaded php8.3-fpm
+- checked public HTML references
+- checked WebP headers and selected page health
+
+No Git commit yet.

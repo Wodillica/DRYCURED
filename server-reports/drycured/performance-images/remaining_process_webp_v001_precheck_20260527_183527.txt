@@ -1,0 +1,55 @@
+---- process-01-sirovina | sirovina ----
+page_id=2866 title=Sirovina
+-rw-r--r-- 1 www-data www-data 2.2M May 20 19:08 wp-content/uploads/drycured/home-process/process-01-sirovina.png
+-rw-r--r-- 1 root     root     157K May 27 18:19 wp-content/uploads/drycured/home-process/webp-test-20260527_181903/process-01-sirovina.webp
+
+---- process-02-soljenje | soljenje ----
+page_id=2867 title=Soljenje
+-rw-r--r-- 1 www-data www-data 2.4M May 20 19:08 wp-content/uploads/drycured/home-process/process-02-soljenje.png
+-rw-r--r-- 1 root     root     189K May 27 18:19 wp-content/uploads/drycured/home-process/webp-test-20260527_181903/process-02-soljenje.webp
+
+---- process-03-rezanje | rezanje ----
+page_id=2868 title=Rezanje
+-rw-r--r-- 1 www-data www-data 2.4M May 20 19:08 wp-content/uploads/drycured/home-process/process-03-rezanje.png
+-rw-r--r-- 1 root     root     187K May 27 18:19 wp-content/uploads/drycured/home-process/webp-test-20260527_181903/process-03-rezanje.webp
+
+---- process-04-mljevenje | mljevenje ----
+page_id=2869 title=Mljevenje
+-rw-r--r-- 1 www-data www-data 2.2M May 20 19:08 wp-content/uploads/drycured/home-process/process-04-mljevenje.png
+-rw-r--r-- 1 root     root     154K May 27 18:19 wp-content/uploads/drycured/home-process/webp-test-20260527_181903/process-04-mljevenje.webp
+
+---- process-05-mijesanje | mijesanje ----
+page_id=2870 title=Miješanje
+-rw-r--r-- 1 www-data www-data 2.4M May 20 19:08 wp-content/uploads/drycured/home-process/process-05-mijesanje.png
+-rw-r--r-- 1 root     root     197K May 27 18:20 wp-content/uploads/drycured/home-process/webp-test-20260527_181903/process-05-mijesanje.webp
+
+---- process-05a-odlezavanje-smjese | odlezavanje-smjese ----
+page_id=2871 title=Odležavanje smjese
+-rw-r--r-- 1 www-data www-data 2.6M May 20 19:08 wp-content/uploads/drycured/home-process/process-05a-odlezavanje-smjese.png
+-rw-r--r-- 1 root     root     228K May 27 18:20 wp-content/uploads/drycured/home-process/webp-test-20260527_181903/process-05a-odlezavanje-smjese.webp
+
+---- process-06-punjenje | punjenje ----
+page_id=2872 title=Punjenje
+-rw-r--r-- 1 www-data www-data 2.3M May 20 19:08 wp-content/uploads/drycured/home-process/process-06-punjenje.png
+-rw-r--r-- 1 root     root     165K May 27 18:20 wp-content/uploads/drycured/home-process/webp-test-20260527_181903/process-06-punjenje.webp
+
+---- process-07-fermentacija | fermentacija ----
+page_id=2873 title=Fermentacija
+-rw-r--r-- 1 www-data www-data 2.3M May 20 19:08 wp-content/uploads/drycured/home-process/process-07-fermentacija.png
+-rw-r--r-- 1 root     root     182K May 27 18:20 wp-content/uploads/drycured/home-process/webp-test-20260527_181903/process-07-fermentacija.webp
+
+---- process-08-dimljenje | dimljenje ----
+page_id=2874 title=Dimljenje
+-rw-r--r-- 1 www-data www-data 2.3M May 20 19:08 wp-content/uploads/drycured/home-process/process-08-dimljenje.png
+-rw-r--r-- 1 root     root     185K May 27 18:20 wp-content/uploads/drycured/home-process/webp-test-20260527_181903/process-08-dimljenje.webp
+
+---- process-10-zrenje | zrenje ----
+page_id=2876 title=Zrenje
+-rw-r--r-- 1 www-data www-data 2.3M May 20 19:08 wp-content/uploads/drycured/home-process/process-10-zrenje.png
+-rw-r--r-- 1 root     root     178K May 27 18:20 wp-content/uploads/drycured/home-process/webp-test-20260527_181903/process-10-zrenje.webp
+
+---- process-11-pakiranje | pakiranje ----
+page_id=2877 title=Pakiranje
+-rw-r--r-- 1 www-data www-data 2.4M May 20 19:08 wp-content/uploads/drycured/home-process/process-11-pakiranje.png
+-rw-r--r-- 1 root     root     193K May 27 18:20 wp-content/uploads/drycured/home-process/webp-test-20260527_181903/process-11-pakiranje.webp
+

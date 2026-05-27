@@ -1,0 +1,107 @@
+---- process-01-sirovina WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 159936
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+---- process-02-soljenje WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 193456
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+---- process-03-rezanje WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 190654
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+---- process-04-mljevenje WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 157540
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+---- process-05-mijesanje WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 201186
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+---- process-05a-odlezavanje-smjese WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 233234
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+---- process-06-punjenje WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 168644
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+---- process-07-fermentacija WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 186014
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+---- process-08-dimljenje WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 189202
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+---- process-09-susenje WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 237172
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+---- process-10-zrenje WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 181772
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+---- process-11-pakiranje WEBP HEADER ----
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 196766
+Expires: Fri, 26 Jun 2026 18:37:52 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+--- page health ---
+---- https://drycured.com/ ----
+http=200 total=0.183811 starttransfer=0.140847 size=339899
+---- https://drycured.com/proces-izrade/sirovina/ ----
+http=200 total=0.159333 starttransfer=0.155106 size=261874
+---- https://drycured.com/proces-izrade/susenje/ ----
+http=200 total=0.124824 starttransfer=0.118486 size=252739
+---- https://drycured.com/proces-izrade/fermentacija/ ----
+http=200 total=0.150461 starttransfer=0.141576 size=297522
+---- https://drycured.com/proces-izrade/pakiranje/ ----
+http=200 total=0.120911 starttransfer=0.116618 size=254600
