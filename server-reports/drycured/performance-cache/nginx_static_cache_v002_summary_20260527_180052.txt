@@ -1,0 +1,28 @@
+DRYCURED NGINX STATIC CACHE FIX ACTIVE v0.0.2
+Timestamp: 20260527_180052
+
+Changed:
+- /etc/nginx/sites-enabled/drycured
+- /etc/nginx/sites-available/drycured
+- /etc/nginx/snippets/drycured-gzip-types.conf
+- /etc/nginx/snippets/drycured-static-cache.conf
+
+Reason:
+Previous snippet include was not present in the active enabled drycured Nginx file.
+
+Purpose:
+- enable gzip for CSS/JS/JSON/XML/SVG text assets
+- add 30-day browser cache for static files
+- do not cache PHP/HTML pages with this static rule
+
+Checks:
+- nginx -t
+- nginx reload
+- static headers
+- page health
+
+Rollback:
+cp "/root/drycured_reports/nginx_static_cache_fix_active_v002_20260527_180052/drycured.sites-enabled.before.20260527_180052.conf" "/etc/nginx/sites-enabled/drycured"
+cp "/root/drycured_reports/nginx_static_cache_fix_active_v002_20260527_180052/drycured.sites-available.before.20260527_180052.conf" "/etc/nginx/sites-available/drycured"
+rm -f "/etc/nginx/snippets/drycured-gzip-types.conf" "/etc/nginx/snippets/drycured-static-cache.conf"
+nginx -t && systemctl reload nginx

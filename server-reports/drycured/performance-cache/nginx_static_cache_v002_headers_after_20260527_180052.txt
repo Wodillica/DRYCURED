@@ -1,0 +1,38 @@
+---- https://drycured.com/ ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---- https://drycured.com/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.8.13 ----
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Sun, 06 Apr 2025 13:29:23 GMT
+Vary: Accept-Encoding
+ETag: W/"67f281b3-a892"
+Expires: Fri, 26 Jun 2026 18:00:53 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---- https://drycured.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.27.6 ----
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Sun, 06 Apr 2025 13:29:02 GMT
+Vary: Accept-Encoding
+ETag: W/"67f2819e-acdc"
+Expires: Fri, 26 Jun 2026 18:00:53 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---- https://drycured.com/wp-content/uploads/drycured/home-process/process-09-susenje.png ----
+HTTP/1.1 200 OK
+Content-Type: image/png
+Content-Length: 2581584
+Last-Modified: Wed, 20 May 2026 19:08:55 GMT
+ETag: "6a0e06c7-276450"
+Expires: Fri, 26 Jun 2026 18:00:53 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+

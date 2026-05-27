@@ -1,0 +1,6 @@
+---- https://drycured.com/ ----
+http=200 total=0.158815 starttransfer=0.126053 size=339887
+---- https://drycured.com/proces-izrade/susenje/ ----
+http=200 total=0.143452 starttransfer=0.138389 size=252738
+---- https://drycured.com/kalkulator-susenja/ ----
+http=200 total=0.132223 starttransfer=0.126369 size=211353

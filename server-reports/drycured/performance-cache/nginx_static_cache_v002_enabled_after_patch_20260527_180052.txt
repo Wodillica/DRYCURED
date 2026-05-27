@@ -1,0 +1,45 @@
+     1	server {
+     2	    if ($host = www.drycured.com) {
+     3	        return 301 https://$host$request_uri;
+     4	    } # managed by Certbot
+     5	
+     6	
+     7	    if ($host = drycured.com) {
+     8	        return 301 https://$host$request_uri;
+     9	    } # managed by Certbot
+    10	
+    11	
+    12	    listen 80;
+    13	    server_name drycured.com www.drycured.com;
+    14	    return 301 https://drycured.com$request_uri;
+    15	
+    16	
+    17	
+    18	
+    19	}
+    20	
+    21	server {
+    22	    listen 443 ssl;
+    23	    server_name drycured.com www.drycured.com;
+    24	    root /var/www/html;
+    25	    client_max_body_size 256M;
+    26	    index index.php index.html;
+    27	
+    28	    include /etc/nginx/snippets/drycured-gzip-types.conf;
+    29	    include /etc/nginx/snippets/drycured-static-cache.conf;
+    30	    ssl_certificate /etc/letsencrypt/live/drycured.com/fullchain.pem; # managed by Certbot
+    31	    ssl_certificate_key /etc/letsencrypt/live/drycured.com/privkey.pem; # managed by Certbot
+    32	    include /etc/letsencrypt/options-ssl-nginx.conf;
+    33	    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+    34	
+    35	    location / {
+    36	        try_files $uri $uri/ /index.php?$args;
+    37	    }
+    38	
+    39	    location ~ \.php$ {
+    40	        include snippets/fastcgi-php.conf;
+    41	        fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;
+    42	    }
+    43	
+    44	
+    45	}
