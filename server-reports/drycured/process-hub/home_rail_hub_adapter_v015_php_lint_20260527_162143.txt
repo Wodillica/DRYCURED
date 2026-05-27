@@ -1,0 +1,1 @@
+No syntax errors detected in wp-content/mu-plugins/drycured-home-process-rail-hub-adapter.php

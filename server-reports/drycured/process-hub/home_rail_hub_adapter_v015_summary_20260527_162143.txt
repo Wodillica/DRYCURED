@@ -1,0 +1,33 @@
+DRYCURED HOME PROCESS RAIL HUB ADAPTER v0.1.5
+Timestamp: 20260527_162143
+
+Created:
+wp-content/mu-plugins/drycured-home-process-rail-hub-adapter.php
+
+Purpose:
+- disabled-by-default adapter between existing home process rail and Process Hub registry
+- admin-only comparison view under wp-admin Tools
+- no public frontend takeover
+
+Option:
+drycured_home_process_rail_use_hub=0
+
+No changes to:
+- public home rail rendering
+- Elementor content
+- menus
+- tools
+- process pages
+- Process Hub registry
+
+Checks:
+- PHP lint
+- WP function check
+- compare home links with Hub registry
+- public frontend marker check
+- HTTP checks
+
+Rollback:
+rm -f /var/www/html/wp-content/mu-plugins/drycured-home-process-rail-hub-adapter.php
+wp option delete drycured_home_process_rail_use_hub --allow-root
+wp cache flush --allow-root

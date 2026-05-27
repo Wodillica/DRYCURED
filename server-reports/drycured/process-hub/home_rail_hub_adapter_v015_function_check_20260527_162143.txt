@@ -1,0 +1,21 @@
+adapter_exists=yes
+adapter_admin_menu=yes
+adapter_admin_page=yes
+use_hub_option=0
+use_hub_enabled=no
+hub_item_count=12
+compare_ok=yes
+marker_count=5
+missing=
+1 | sirovina | found=yes | count=1
+2 | rezanje | found=yes | count=1
+3 | soljenje | found=yes | count=1
+4 | mljevenje | found=yes | count=1
+5 | mijesanje | found=yes | count=1
+6 | odlezavanje-smjese | found=yes | count=1
+7 | punjenje | found=yes | count=1
+8 | fermentacija | found=yes | count=1
+9 | dimljenje | found=yes | count=1
+10 | susenje | found=yes | count=1
+11 | zrenje | found=yes | count=1
+12 | pakiranje | found=yes | count=1

@@ -1,0 +1,17 @@
+adapter public marker count:
+0
+dc-process-rail marker count:
+5
+process URL hits:
+sirovina=1
+rezanje=1
+soljenje=1
+mljevenje=1
+mijesanje=1
+odlezavanje-smjese=1
+punjenje=1
+fermentacija=1
+dimljenje=1
+susenje=1
+zrenje=1
+pakiranje=1
