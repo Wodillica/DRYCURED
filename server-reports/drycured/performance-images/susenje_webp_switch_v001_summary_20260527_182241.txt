@@ -1,0 +1,21 @@
+DRYCURED SWITCH ONE PROCESS IMAGE TO WEBP v0.0.1
+Timestamp: 20260527_182241
+
+Changed:
+- wp-content/plugins/drycured-home-core/includes/process-rail.php
+- WordPress page ID 2875: Sušenje
+- Created stable WebP copy: wp-content/uploads/drycured/home-process/process-09-susenje.webp
+
+Original PNG remains:
+wp-content/uploads/drycured/home-process/process-09-susenje.png
+
+Purpose:
+Switch only one process image, process-09-susenje, from PNG to WebP.
+
+Rollback:
+cp "/root/drycured_reports/switch_susenje_webp_v001_20260527_182241/process-rail.before-susenje-webp.20260527_182241.php" /var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php
+wp post update 2875 --post_content="$(cat "/root/drycured_reports/switch_susenje_webp_v001_20260527_182241/page-2875-susenje.before-susenje-webp.20260527_182241.html")" --allow-root
+wp cache flush --allow-root
+
+Do not delete PNG.
+Do not switch all other images until this one is visually confirmed.

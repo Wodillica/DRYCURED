@@ -1,0 +1,4 @@
+--- home ---
+http=200 total=0.216714 starttransfer=0.174016 size=339888
+--- susenje ---
+http=200 total=0.211317 starttransfer=0.203541 size=252739

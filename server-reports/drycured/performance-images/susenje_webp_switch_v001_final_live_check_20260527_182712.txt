@@ -1,0 +1,21 @@
+--- home final references ---
+https://drycured.com/wp-content/uploads/drycured/home-process/process-09-susenje.webp
+
+--- susenje final references ---
+https://drycured.com/wp-content/uploads/drycured/home-process/process-09-susenje.webp
+
+--- webp header ---
+HTTP/1.1 200 OK
+Content-Type: image/webp
+Content-Length: 237172
+Last-Modified: Wed, 27 May 2026 18:22:42 GMT
+ETag: "6a173672-39e74"
+Expires: Fri, 26 Jun 2026 18:27:12 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+
+--- page health ---
+---- https://drycured.com/ ----
+http=200 total=0.158049 starttransfer=0.125499 size=339888
+---- https://drycured.com/proces-izrade/susenje/ ----
+http=200 total=0.144316 starttransfer=0.137395 size=252739
