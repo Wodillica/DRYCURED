@@ -1,0 +1,16 @@
+seo_faq_exists=yes
+public_enabled_option=0
+public_enabled=no
+item_count=12
+1 | sirovina | faq_count=4 | title_len=57 | desc_len=126 | title=Sirovina za suhomesnate proizvode — meso, mast i svježina
+2 | rezanje | faq_count=4 | title_len=57 | desc_len=130 | title=Rezanje mesa za suhomesnate proizvode — komadi i priprema
+3 | soljenje | faq_count=4 | title_len=58 | desc_len=121 | title=Soljenje suhomesnatih proizvoda — sol, vrijeme i sigurnost
+4 | mljevenje | faq_count=4 | title_len=56 | desc_len=124 | title=Mljevenje mesa za kobasice — rešetke, temperatura i mast
+5 | mijesanje | faq_count=4 | title_len=49 | desc_len=109 | title=Miješanje smjese za kobasice — vezivnost i začini
+6 | odlezavanje-smjese | faq_count=4 | title_len=56 | desc_len=120 | title=Odležavanje smjese za kobasice — priprema prije punjenja
+7 | punjenje | faq_count=4 | title_len=53 | desc_len=115 | title=Punjenje kobasica i salama — crijeva, zrak i pritisak
+8 | fermentacija | faq_count=4 | title_len=52 | desc_len=125 | title=Fermentacija suhomesnatih proizvoda — pH i sigurnost
+9 | dimljenje | faq_count=4 | title_len=53 | desc_len=114 | title=Dimljenje suhomesnatih proizvoda — hladni dim i odmor
+10 | susenje | faq_count=4 | title_len=51 | desc_len=123 | title=Sušenje suhomesnatih proizvoda — vlaga, masa i kora
+11 | zrenje | faq_count=4 | title_len=50 | desc_len=115 | title=Zrenje suhomesnatih proizvoda — aroma i stabilnost
+12 | pakiranje | faq_count=4 | title_len=57 | desc_len=120 | title=Pakiranje suhomesnatih proizvoda — vakuum, omot i čuvanje

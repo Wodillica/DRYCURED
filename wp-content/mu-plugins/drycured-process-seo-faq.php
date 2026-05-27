@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Drycured Process SEO FAQ
  * Description: Admin-only SEO and FAQ map for Drycured process pages. Public output is disabled by default.
- * Version: 0.1.7
+ * Version: 0.1.8
  * Author: drycured.com
  */
 
@@ -20,8 +20,8 @@ function drycured_process_seo_faq_v017_items(): array {
             'order' => 1,
             'title' => 'Sirovina',
             'url' => home_url('/proces-izrade/sirovina/'),
-            'seo_title' => 'Sirovina za suhomesnate proizvode — odabir mesa, masnoće i svježine',
-            'meta_description' => 'Praktičan vodič za odabir sirovine za suhomesnate proizvode: svježina mesa, odnos mesa i masnoće, temperatura, higijena i najčešće greške.',
+            'seo_title' => 'Sirovina za suhomesnate proizvode — meso, mast i svježina',
+            'meta_description' => 'Kako odabrati sirovinu za suhomesnate proizvode: svježina mesa, odnos mesa i masnoće, temperatura, higijena i najčešće greške.',
             'faq' => [
                 ['q' => 'Kako prepoznati dobru sirovinu za suhomesnate proizvode?', 'a' => 'Dobra sirovina mora imati čist miris, urednu boju, čvrstu strukturu i pravilno ohlađeno meso. Ako miris odstupa, sirovinu treba izdvojiti i ne koristiti dok se ne provjeri uzrok.'],
                 ['q' => 'Zašto temperatura mesa prije obrade mora biti niska?', 'a' => 'Niska temperatura usporava kvarenje i sprječava razmazivanje masnoće u kasnijim fazama. Ako se meso grije, treba ga vratiti na hlađenje prije nastavka obrade.'],
@@ -33,8 +33,8 @@ function drycured_process_seo_faq_v017_items(): array {
             'order' => 2,
             'title' => 'Rezanje',
             'url' => home_url('/proces-izrade/rezanje/'),
-            'seo_title' => 'Rezanje mesa za suhomesnate proizvode — pravilni komadi i priprema',
-            'meta_description' => 'Objašnjenje rezanja mesa za suhomesnate proizvode: veličina komada, uklanjanje žilica, odvajanje masnoće i priprema za soljenje ili mljevenje.',
+            'seo_title' => 'Rezanje mesa za suhomesnate proizvode — komadi i priprema',
+            'meta_description' => 'Rezanje mesa za suhomesnate proizvode: veličina komada, uklanjanje žilica, odvajanje masnoće i priprema za soljenje ili mljevenje.',
             'faq' => [
                 ['q' => 'Koliko veliki trebaju biti komadi mesa prije soljenja?', 'a' => 'Komadi trebaju biti dovoljno ujednačeni da se sol ravnomjerno rasporedi. Prevelike komade treba dodatno razrezati, a pretople komade vratiti na hlađenje.'],
                 ['q' => 'Treba li ukloniti sve žilice i opne?', 'a' => 'Tvrde žilice i grube opne treba ukloniti jer kvare strukturu i presjek. Manje vezivo se uklanja prema vrsti proizvoda.'],
@@ -47,7 +47,7 @@ function drycured_process_seo_faq_v017_items(): array {
             'title' => 'Soljenje',
             'url' => home_url('/proces-izrade/soljenje/'),
             'seo_title' => 'Soljenje suhomesnatih proizvoda — sol, vrijeme i sigurnost',
-            'meta_description' => 'Vodič kroz soljenje mesa za suhomesnate proizvode: količina soli, suhi i mokri postupak, vrijeme soljenja, greške i veza s Kalkulatorom soli.',
+            'meta_description' => 'Soljenje mesa za suhomesnate proizvode: količina soli, suhi i mokri postupak, vrijeme soljenja, greške i Kalkulator soli.',
             'faq' => [
                 ['q' => 'Koliko soli ide na 10 kg mesa?', 'a' => 'Količina ovisi o proizvodu i postupku. Za točan izračun treba koristiti Kalkulator soli i ne računati napamet.'],
                 ['q' => 'Što napraviti ako je proizvod preslan?', 'a' => 'Kod cijelih komada može pomoći kontrolirano odsoljavanje ili kraće daljnje soljenje u idućoj šarži. Kod mljevenih smjesa ispravak je ograničen i treba bilježiti pogrešku.'],
@@ -59,8 +59,8 @@ function drycured_process_seo_faq_v017_items(): array {
             'order' => 4,
             'title' => 'Mljevenje',
             'url' => home_url('/proces-izrade/mljevenje/'),
-            'seo_title' => 'Mljevenje mesa za kobasice i salame — rešetke, temperatura i mast',
-            'meta_description' => 'Praktičan vodič za mljevenje mesa: izbor rešetke, kontrola temperature, sprječavanje razmazivanja masti i najčešće greške u domaćoj proizvodnji.',
+            'seo_title' => 'Mljevenje mesa za kobasice — rešetke, temperatura i mast',
+            'meta_description' => 'Mljevenje mesa za kobasice i salame: izbor rešetke, kontrola temperature, sprječavanje razmazivanja masti i najčešće greške.',
             'faq' => [
                 ['q' => 'Koju rešetku koristiti za kobasice?', 'a' => 'Rešetka se bira prema tipu proizvoda i željenoj granulaciji. Ako recept traži grublji presjek, ne treba ići na presitnu rešetku.'],
                 ['q' => 'Zašto se mast razmazuje tijekom mljevenja?', 'a' => 'Najčešći uzrok je previsoka temperatura mesa, tupa šajba ili loš nož. Rješenje je hlađenje mesa i provjera opreme.'],
@@ -72,8 +72,8 @@ function drycured_process_seo_faq_v017_items(): array {
             'order' => 5,
             'title' => 'Miješanje',
             'url' => home_url('/proces-izrade/mijesanje/'),
-            'seo_title' => 'Miješanje smjese za kobasice — vezivnost, začini i struktura',
-            'meta_description' => 'Kako pravilno miješati smjesu za kobasice i salame: razvoj vezivnosti, ravnomjerna raspodjela začina, temperatura i greške koje kvare presjek.',
+            'seo_title' => 'Miješanje smjese za kobasice — vezivnost i začini',
+            'meta_description' => 'Miješanje smjese za kobasice i salame: vezivnost, raspodjela začina, temperatura i greške koje kvare presjek.',
             'faq' => [
                 ['q' => 'Kako znati da je smjesa dovoljno izmiješana?', 'a' => 'Smjesa treba postati povezana, ujednačena i sposobna držati strukturu. Ako se raspada, miješanje ili vezivnost nisu dovoljni.'],
                 ['q' => 'Zašto smjesa postaje previše ljepljiva?', 'a' => 'Može biti predugo miješana ili pretopla. Treba kontrolirati temperaturu i ne forsirati miješanje nakon postignute vezivnosti.'],
@@ -85,8 +85,8 @@ function drycured_process_seo_faq_v017_items(): array {
             'order' => 6,
             'title' => 'Odležavanje smjese',
             'url' => home_url('/proces-izrade/odlezavanje-smjese/'),
-            'seo_title' => 'Odležavanje smjese za kobasice — stabilizacija prije punjenja',
-            'meta_description' => 'Objašnjenje odležavanja smjese prije punjenja: temperatura, trajanje, razvoj okusa, sigurnost i greške koje nastaju ako se smjesa ne stabilizira.',
+            'seo_title' => 'Odležavanje smjese za kobasice — priprema prije punjenja',
+            'meta_description' => 'Odležavanje smjese prije punjenja: temperatura, trajanje, razvoj okusa, sigurnost i greške ako se smjesa ne stabilizira.',
             'faq' => [
                 ['q' => 'Zašto smjesa treba odležati prije punjenja?', 'a' => 'Odležavanje pomaže stabilizaciji začina, soli i vezivnosti. Ako se preskoči, punjenje i struktura mogu biti lošiji.'],
                 ['q' => 'Koliko dugo smjesa može odležavati?', 'a' => 'Trajanje ovisi o receptu i uvjetima, ali uvijek mora biti u hladnom i kontroliranom prostoru.'],
@@ -98,8 +98,8 @@ function drycured_process_seo_faq_v017_items(): array {
             'order' => 7,
             'title' => 'Punjenje',
             'url' => home_url('/proces-izrade/punjenje/'),
-            'seo_title' => 'Punjenje kobasica i salama — crijeva, zrak i pritisak punjenja',
-            'meta_description' => 'Vodič za punjenje kobasica i salama: priprema crijeva, kontrola zraka, pravilan pritisak, pucanje crijeva i najčešće greške.',
+            'seo_title' => 'Punjenje kobasica i salama — crijeva, zrak i pritisak',
+            'meta_description' => 'Punjenje kobasica i salama: priprema crijeva, kontrola zraka, pravilan pritisak, pucanje crijeva i najčešće greške.',
             'faq' => [
                 ['q' => 'Kako pripremiti crijeva prije punjenja?', 'a' => 'Crijeva treba pravilno namočiti, isprati i držati podatnima prema vrsti crijeva. Suho ili kruto crijevo lakše puca.'],
                 ['q' => 'Što napraviti ako u kobasici ostane zrak?', 'a' => 'Zrak treba izbaciti ubadanjem sterilnom iglom i pravilnim vezanjem. U idućoj šarži treba smanjiti prekide i paziti na pritisak punjenja.'],
@@ -111,8 +111,8 @@ function drycured_process_seo_faq_v017_items(): array {
             'order' => 8,
             'title' => 'Fermentacija',
             'url' => home_url('/proces-izrade/fermentacija/'),
-            'seo_title' => 'Fermentacija suhomesnatih proizvoda — pH, temperatura i sigurnost',
-            'meta_description' => 'Praktičan vodič kroz fermentaciju kobasica i salama: praćenje pH vrijednosti, temperatura, vlaga, starter kulture i rješenja za najčešće probleme.',
+            'seo_title' => 'Fermentacija suhomesnatih proizvoda — pH i sigurnost',
+            'meta_description' => 'Fermentacija kobasica i salama: praćenje pH vrijednosti, temperatura, vlaga, starter kulture i rješenja za najčešće probleme.',
             'faq' => [
                 ['q' => 'Zašto je pH važan u fermentaciji?', 'a' => 'pH pokazuje tijek zakiseljavanja i sigurnost procesa. Ako pH ne pada očekivano, treba provjeriti temperaturu, starter kulturu i recepturu.'],
                 ['q' => 'Što napraviti ako pH pada presporo?', 'a' => 'Treba provjeriti temperaturu fermentacije, aktivnost startera, količinu šećera i uvjete vlage. Proces se ne smije samo produžiti bez kontrole.'],
@@ -124,8 +124,8 @@ function drycured_process_seo_faq_v017_items(): array {
             'order' => 9,
             'title' => 'Dimljenje',
             'url' => home_url('/proces-izrade/dimljenje/'),
-            'seo_title' => 'Dimljenje suhomesnatih proizvoda — hladni dim, temperatura i odmor',
-            'meta_description' => 'Vodič za dimljenje suhomesnatih proizvoda: hladno dimljenje, temperatura dima, odmor između dimljenja, greške i veza s Planerom dimljenja.',
+            'seo_title' => 'Dimljenje suhomesnatih proizvoda — hladni dim i odmor',
+            'meta_description' => 'Dimljenje suhomesnatih proizvoda: hladni dim, temperatura dima, odmor između dimljenja, greške i Planer dimljenja.',
             'faq' => [
                 ['q' => 'Kada dim mora biti hladan?', 'a' => 'Kod suhomesnatih proizvoda koji se suše i zriju dim mora biti kontroliran i hladan prema tipu proizvoda. Previsoka temperatura može oštetiti strukturu.'],
                 ['q' => 'Zašto proizvod nakon dimljenja treba odmor?', 'a' => 'Odmor omogućuje smirivanje površine i ravnomjernije razvijanje arome dima. Bez odmora dim može biti grub i težak.'],
@@ -137,8 +137,8 @@ function drycured_process_seo_faq_v017_items(): array {
             'order' => 10,
             'title' => 'Sušenje',
             'url' => home_url('/proces-izrade/susenje/'),
-            'seo_title' => 'Sušenje suhomesnatih proizvoda — vlaga, masa i površinska kora',
-            'meta_description' => 'Objašnjenje sušenja kobasica, salama i mesa: gubitak mase, vlaga, strujanje zraka, površinska kora, vlažna jezgra i Kalkulator sušenja.',
+            'seo_title' => 'Sušenje suhomesnatih proizvoda — vlaga, masa i kora',
+            'meta_description' => 'Sušenje kobasica, salama i mesa: gubitak mase, vlaga, strujanje zraka, površinska kora, vlažna jezgra i Kalkulator sušenja.',
             'faq' => [
                 ['q' => 'Kako znati da se proizvod pravilno suši?', 'a' => 'Pravilno sušenje prati se gubitkom mase, mirisom, površinom i presjekom. Sam izgled izvana nije dovoljan.'],
                 ['q' => 'Što je površinska kora?', 'a' => 'Površinska kora nastaje kada se vanjski sloj osuši prebrzo, a jezgra ostane vlažna. Rješenje je usporiti sušenje i stabilizirati vlagu.'],
@@ -150,8 +150,8 @@ function drycured_process_seo_faq_v017_items(): array {
             'order' => 11,
             'title' => 'Zrenje',
             'url' => home_url('/proces-izrade/zrenje/'),
-            'seo_title' => 'Zrenje suhomesnatih proizvoda — aroma, tekstura i stabilnost',
-            'meta_description' => 'Vodič kroz zrenje suhomesnatih proizvoda: izjednačavanje vlage, razvoj arome, površina, plijesan, tekstura i završna procjena.',
+            'seo_title' => 'Zrenje suhomesnatih proizvoda — aroma i stabilnost',
+            'meta_description' => 'Zrenje suhomesnatih proizvoda: izjednačavanje vlage, razvoj arome, površina, plijesan, tekstura i završna procjena.',
             'faq' => [
                 ['q' => 'Koja je razlika između sušenja i zrenja?', 'a' => 'Sušenje primarno smanjuje vlagu, a zrenje izjednačava aromu, teksturu i stabilnost proizvoda.'],
                 ['q' => 'Kako se prepoznaje dobro zrenje?', 'a' => 'Dobar proizvod ima uredan miris, stabilnu površinu, ujednačen presjek i teksturu primjerenu proizvodu.'],
@@ -164,7 +164,7 @@ function drycured_process_seo_faq_v017_items(): array {
             'title' => 'Pakiranje',
             'url' => home_url('/proces-izrade/pakiranje/'),
             'seo_title' => 'Pakiranje suhomesnatih proizvoda — vakuum, omot i čuvanje',
-            'meta_description' => 'Kako pravilno pakirati i čuvati suhomesnate proizvode: vakuum, papir, posude, kondenzacija, plijesan, označavanje i očuvanje arome.',
+            'meta_description' => 'Pakiranje i čuvanje suhomesnatih proizvoda: vakuum, papir, posude, kondenzacija, plijesan, označavanje i očuvanje arome.',
             'faq' => [
                 ['q' => 'Kada je vakuum dobro rješenje?', 'a' => 'Vakuum je dobar samo za stabilan, suh i uredan proizvod. Ne smije se koristiti za prikrivanje vlažne površine ili sumnjivog mirisa.'],
                 ['q' => 'Zašto se javlja kondenzacija u pakiranju?', 'a' => 'Kondenzacija nastaje zbog vlage, toplog proizvoda ili promjene temperature. Proizvod treba stabilizirati prije zatvaranja.'],

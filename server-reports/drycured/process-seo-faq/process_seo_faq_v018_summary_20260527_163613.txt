@@ -1,0 +1,35 @@
+DRYCURED PROCESS SEO FAQ v0.1.8
+Timestamp: 20260527_163613
+
+Purpose:
+SEO copy fine-tune for admin-only SEO FAQ map.
+
+Changed:
+- shortened and unified SEO titles
+- tightened meta descriptions
+- public output remains disabled
+
+Plugin:
+wp-content/mu-plugins/drycured-process-seo-faq.php
+
+Option:
+drycured_process_seo_faq_public_enabled=0
+
+No changes to:
+- public frontend
+- FAQPage schema
+- public meta output
+- Elementor content
+- process pages
+- tools
+- menu
+
+Checks:
+- PHP lint
+- WP copy length check
+- public marker check
+- HTTP checks
+
+Rollback:
+cp "/root/drycured_reports/process_seo_faq_finetune_v018_20260527_163613/drycured-process-seo-faq.before-v018.20260527_163613.php" /var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php
+wp cache flush --allow-root
