@@ -1,0 +1,10 @@
+public_enabled=0
+schema_enabled=0
+visible_block_enabled=0
+test_slug=susenje
+schema_function=yes
+schema_json_function=yes
+admin_preview_function=yes
+schema_json_len=1434
+schema_json_valid=yes
+schema_question_count=4

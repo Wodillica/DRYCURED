@@ -1,0 +1,31 @@
+DRYCURED PROCESS SEO FAQ v0.2.0
+Timestamp: 20260527_170420
+
+Added:
+- admin-only FAQPage JSON-LD schema preview
+- schema generator for one slug
+- test slug: susenje
+
+Public output remains disabled.
+
+Options:
+drycured_process_seo_faq_public_enabled=0
+drycured_process_seo_faq_schema_enabled=0
+drycured_process_seo_faq_visible_block_enabled=0
+drycured_process_seo_faq_test_slug=susenje
+
+Checks:
+- PHP lint: PASS
+- schema JSON valid: PASS
+- schema question count: 4
+- public FAQPage marker count: 0
+- public schema class marker count: 0
+- HTTP checks completed
+
+No public schema output was added.
+
+Rollback:
+restore previous plugin backup from:
+/root/drycured_reports/process_seo_faq_schema_preview_v020_20260527_170314
+then run:
+wp cache flush --allow-root

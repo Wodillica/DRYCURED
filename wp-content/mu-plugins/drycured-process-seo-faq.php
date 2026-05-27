@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Drycured Process SEO FAQ
  * Description: Admin-only SEO and FAQ map for Drycured process pages. Public output is disabled by default.
- * Version: 0.1.8
+ * Version: 0.2.0
  * Author: drycured.com
  */
 
@@ -257,6 +257,149 @@ function drycured_process_seo_faq_v017_admin_page(): void {
             <li>Ova verzija ne mijenja title/meta podatke.</li>
             <li>Ova verzija služi samo za administratorski pregled.</li>
         </ul>
+    </div>
+    <?php
+}
+
+
+/**
+ * v0.2.0 — FAQPage schema preview layer.
+ *
+ * Public output is disabled unless all safety options are enabled.
+ */
+function drycured_process_seo_faq_v020_schema_enabled(): bool {
+    return ((string) get_option('drycured_process_seo_faq_schema_enabled', '0')) === '1';
+}
+
+function drycured_process_seo_faq_v020_visible_block_enabled(): bool {
+    return ((string) get_option('drycured_process_seo_faq_visible_block_enabled', '0')) === '1';
+}
+
+function drycured_process_seo_faq_v020_test_slug(): string {
+    $slug = sanitize_key((string) get_option('drycured_process_seo_faq_test_slug', 'susenje'));
+    return $slug !== '' ? $slug : 'susenje';
+}
+
+function drycured_process_seo_faq_v020_schema_for_slug(string $slug): array {
+    $items = drycured_process_seo_faq_v017_items();
+
+    if (empty($items[$slug])) {
+        return [];
+    }
+
+    $item = $items[$slug];
+    $entities = [];
+
+    foreach (($item['faq'] ?? []) as $faq) {
+        $q = trim((string) ($faq['q'] ?? ''));
+        $a = trim((string) ($faq['a'] ?? ''));
+
+        if ($q === '' || $a === '') {
+            continue;
+        }
+
+        $entities[] = [
+            '@type' => 'Question',
+            'name' => $q,
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => $a,
+            ],
+        ];
+    }
+
+    if (!$entities) {
+        return [];
+    }
+
+    return [
+        '@context' => 'https://schema.org',
+        '@type' => 'FAQPage',
+        'mainEntity' => $entities,
+    ];
+}
+
+function drycured_process_seo_faq_v020_schema_json_for_slug(string $slug): string {
+    $schema = drycured_process_seo_faq_v020_schema_for_slug($slug);
+
+    if (!$schema) {
+        return '';
+    }
+
+    return (string) wp_json_encode(
+        $schema,
+        JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT
+    );
+}
+
+/**
+ * Public schema output.
+ *
+ * In v0.2.0 this remains inactive because options are forced to 0.
+ * Future activation requires separate approval.
+ */
+function drycured_process_seo_faq_v020_maybe_output_schema(): void {
+    if (!drycured_process_seo_faq_v017_public_enabled()) {
+        return;
+    }
+
+    if (!drycured_process_seo_faq_v020_schema_enabled()) {
+        return;
+    }
+
+    $slug = drycured_process_seo_faq_v020_test_slug();
+
+    if (!is_page('proces-izrade/' . $slug)) {
+        return;
+    }
+
+    $json = drycured_process_seo_faq_v020_schema_json_for_slug($slug);
+
+    if ($json === '') {
+        return;
+    }
+
+    echo "\n<script type=\"application/ld+json\" class=\"drycured-process-faq-schema\">\n";
+    echo $json;
+    echo "\n</script>\n";
+}
+add_action('wp_head', 'drycured_process_seo_faq_v020_maybe_output_schema', 80);
+
+function drycured_process_seo_faq_v020_admin_menu(): void {
+    add_management_page(
+        'Drycured SEO FAQ Schema Preview',
+        'Drycured SEO FAQ Schema',
+        'manage_options',
+        'drycured-process-seo-faq-schema',
+        'drycured_process_seo_faq_v020_admin_page'
+    );
+}
+add_action('admin_menu', 'drycured_process_seo_faq_v020_admin_menu');
+
+function drycured_process_seo_faq_v020_admin_page(): void {
+    if (!current_user_can('manage_options')) {
+        wp_die(esc_html__('Nemate dopuštenje za pregled ove stranice.', 'drycured'));
+    }
+
+    $slug = drycured_process_seo_faq_v020_test_slug();
+    $json = drycured_process_seo_faq_v020_schema_json_for_slug($slug);
+
+    ?>
+    <div class="wrap">
+        <h1>Drycured SEO FAQ Schema Preview</h1>
+
+        <p>Ovo je administratorski schema preview. Javna schema primjena je isključena dok se ručno ne odobri.</p>
+
+        <div style="margin:16px 0;padding:14px 16px;border-left:4px solid #2271b1;background:#fff;">
+            <strong>public_enabled:</strong> <?php echo drycured_process_seo_faq_v017_public_enabled() ? '1' : '0'; ?><br>
+            <strong>schema_enabled:</strong> <?php echo drycured_process_seo_faq_v020_schema_enabled() ? '1' : '0'; ?><br>
+            <strong>visible_block_enabled:</strong> <?php echo drycured_process_seo_faq_v020_visible_block_enabled() ? '1' : '0'; ?><br>
+            <strong>test_slug:</strong> <?php echo esc_html($slug); ?>
+        </div>
+
+        <h2>FAQPage JSON-LD preview</h2>
+
+        <textarea readonly style="width:100%;min-height:420px;font-family:ui-monospace,Consolas,monospace;"><?php echo esc_textarea($json); ?></textarea>
     </div>
     <?php
 }
