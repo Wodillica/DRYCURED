@@ -1,0 +1,13 @@
+DRYCURED PROCESS HUB MIGRATION PLAN v0.1.4
+Timestamp: 20260527_161834
+
+Ovaj korak nije radio izmjene na WordPress produkciji.
+
+Izrađen je migracijski plan za buduće povezivanje home process raila s Process Hub registrom.
+
+Plan:
+/root/drycured_reports/process_hub_migration_plan_v014_20260527_161834/process_hub_home_rail_migration_plan_v014.md
+
+Sljedeći dopušteni korak:
+- arhivirati ovaj plan u GitHub
+- nakon toga eventualno izraditi isključeni adapter drycured-home-process-rail-hub-adapter.php
