@@ -1,0 +1,8 @@
+---- https://drycured.com/ ----
+http=200 total=0.288825 starttransfer=0.155412 size=339899
+---- https://drycured.com/sitemap.xml ----
+http=200 total=0.274140 starttransfer=0.274078 size=3710
+---- https://drycured.com/page-sitemap.xml ----
+http=200 total=0.128753 starttransfer=0.128259 size=22964
+---- https://drycured.com/proces-izrade/susenje/ ----
+http=200 total=0.120009 starttransfer=0.114045 size=252739

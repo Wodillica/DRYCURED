@@ -1,0 +1,77 @@
+=== ROBOTS ===
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://drycured.com/sitemap.xml
+Sitemap: https://drycured.com/sitemap.rss
+
+=== HEADERS ===
+---- https://drycured.com/robots.txt ----
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+
+---- https://drycured.com/sitemap.xml ----
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+X-Robots-Tag: noindex, follow
+
+---- https://drycured.com/page-sitemap.xml ----
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+X-Robots-Tag: noindex, follow
+
+---- https://drycured.com/wp-sitemap.xml ----
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=UTF-8
+Location: https://drycured.com/sitemap.xml
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+X-Robots-Tag: noindex, follow
+
+---- https://drycured.com/drycured-sitemap.xml ----
+HTTP/1.1 404 Not Found
+Content-Type: text/xml; charset=UTF-8
+X-Robots-Tag: noindex, follow
+
+=== SITEMAP INDEX ENTRIES ===
+https://drycured.com/category-sitemap.xml
+https://drycured.com/dc_kategorija-sitemap.xml
+https://drycured.com/dc_regija-sitemap.xml
+https://drycured.com/dry_country-sitemap.xml
+https://drycured.com/dry_meat_type-sitemap.xml
+https://drycured.com/dry_microregion-sitemap.xml
+https://drycured.com/dry_preparation_method-sitemap.xml
+https://drycured.com/dry_process_type-sitemap.xml
+https://drycured.com/dry_product_category-sitemap.xml
+https://drycured.com/dry_product_type-sitemap.xml
+https://drycured.com/dry_recipe-sitemap.xml
+https://drycured.com/dry_recipe_status-sitemap.xml
+https://drycured.com/dry_region-sitemap.xml
+https://drycured.com/forum-sitemap.xml
+https://drycured.com/infografika-sitemap.xml
+https://drycured.com/page-sitemap.xml
+https://drycured.com/post-archive-sitemap.xml
+https://drycured.com/post-sitemap.xml
+https://drycured.com/post_tag-sitemap.xml
+https://drycured.com/reply-sitemap.xml
+https://drycured.com/tip_pusnice-sitemap.xml
+https://drycured.com/topic-sitemap.xml
+
+=== KEY URLS IN PAGE SITEMAP ===
+https://drycured.com/ -> FOUND
+https://drycured.com/proces-izrade/ -> FOUND
+https://drycured.com/proces-izrade/sirovina/ -> FOUND
+https://drycured.com/proces-izrade/susenje/ -> FOUND
+https://drycured.com/kalkulator-susenja/ -> FOUND
+https://drycured.com/planer-dimljenja/ -> FOUND
+
+=== HEALTH ===
+---- https://drycured.com/ ----
+http=200 total=0.172605 starttransfer=0.130240 size=339899
+---- https://drycured.com/sitemap.xml ----
+http=200 total=0.258713 starttransfer=0.258655 size=3710
+---- https://drycured.com/page-sitemap.xml ----
+http=200 total=0.128443 starttransfer=0.127795 size=22964
+---- https://drycured.com/proces-izrade/susenje/ ----
+http=200 total=0.137484 starttransfer=0.131081 size=252739

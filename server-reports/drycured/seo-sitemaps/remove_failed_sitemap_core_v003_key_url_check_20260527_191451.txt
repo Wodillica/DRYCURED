@@ -1,0 +1,35 @@
+--- robots sitemap lines ---
+Sitemap: https://drycured.com/sitemap.xml
+Sitemap: https://drycured.com/sitemap.rss
+
+--- sitemap index entries ---
+https://drycured.com/category-sitemap.xml
+https://drycured.com/dc_kategorija-sitemap.xml
+https://drycured.com/dc_regija-sitemap.xml
+https://drycured.com/dry_country-sitemap.xml
+https://drycured.com/dry_meat_type-sitemap.xml
+https://drycured.com/dry_microregion-sitemap.xml
+https://drycured.com/dry_preparation_method-sitemap.xml
+https://drycured.com/dry_process_type-sitemap.xml
+https://drycured.com/dry_product_category-sitemap.xml
+https://drycured.com/dry_product_type-sitemap.xml
+https://drycured.com/dry_recipe-sitemap.xml
+https://drycured.com/dry_recipe_status-sitemap.xml
+https://drycured.com/dry_region-sitemap.xml
+https://drycured.com/forum-sitemap.xml
+https://drycured.com/infografika-sitemap.xml
+https://drycured.com/page-sitemap.xml
+https://drycured.com/post-archive-sitemap.xml
+https://drycured.com/post-sitemap.xml
+https://drycured.com/post_tag-sitemap.xml
+https://drycured.com/reply-sitemap.xml
+https://drycured.com/tip_pusnice-sitemap.xml
+https://drycured.com/topic-sitemap.xml
+
+--- key URLs in page-sitemap.xml ---
+https://drycured.com/ -> FOUND
+https://drycured.com/proces-izrade/ -> MISSING
+https://drycured.com/proces-izrade/sirovina/ -> FOUND
+https://drycured.com/proces-izrade/susenje/ -> FOUND
+https://drycured.com/kalkulator-susenja/ -> FOUND
+https://drycured.com/planer-dimljenja/ -> FOUND

@@ -1,0 +1,25 @@
+DRYCURED SITEMAP NGINX XML FIX v0.0.2
+Timestamp: 20260527_191352
+
+Changed:
+- /etc/nginx/snippets/drycured-static-cache.conf
+
+Reason:
+The static-cache Nginx regex included xml and intercepted dynamic sitemap URLs before WordPress could handle them.
+
+Fix:
+Removed xml from the static-cache regex.
+
+Checks:
+- nginx -t
+- nginx reload
+- rewrite flush
+- public sitemap/robots checks
+- key URL presence
+- page health
+
+Rollback:
+cp "/root/drycured_reports/drycured_sitemap_nginx_xml_fix_v002_20260527_191352/drycured-static-cache.before.20260527_191352.conf" "/etc/nginx/snippets/drycured-static-cache.conf"
+nginx -t && systemctl reload nginx
+wp rewrite flush --hard --allow-root
+wp cache flush --allow-root

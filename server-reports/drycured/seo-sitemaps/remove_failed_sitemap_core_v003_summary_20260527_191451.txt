@@ -1,0 +1,19 @@
+DRYCURED REMOVE FAILED SITEMAP CORE v0.0.3
+Timestamp: 20260527_191451
+
+Changed:
+- removed failed temporary MU-plugin:
+  wp-content/mu-plugins/drycured-sitemap-core.php
+
+Reason:
+After Nginx XML fix, AIOSEO sitemap.xml works.
+The temporary drycured-sitemap.xml endpoint is not needed and robots.txt was pointing to the wrong sitemap.
+
+Expected final state:
+- robots.txt should point to sitemap.xml
+- sitemap.xml should return 200 OK
+- page-sitemap.xml should return 200 OK
+- key public pages should appear in AIOSEO sitemap
+- drycured-sitemap.xml may return 404 and should no longer be advertised
+
+No Git commit yet.
