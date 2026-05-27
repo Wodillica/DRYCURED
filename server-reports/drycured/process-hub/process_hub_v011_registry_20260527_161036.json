@@ -1,0 +1,150 @@
+[
+    {
+        "slug": "sirovina",
+        "order": 1,
+        "title": "Sirovina",
+        "url": "https://drycured.com/proces-izrade/sirovina/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/procesi/sirovina/sirovina-hero-v01.jpg",
+        "tool": null,
+        "prev": null,
+        "next": "rezanje",
+        "status": "active"
+    },
+    {
+        "slug": "rezanje",
+        "order": 2,
+        "title": "Rezanje",
+        "url": "https://drycured.com/proces-izrade/rezanje/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/procesi/rezanje/rezanje-hero-v01.jpg",
+        "tool": null,
+        "prev": "sirovina",
+        "next": "soljenje",
+        "status": "active"
+    },
+    {
+        "slug": "soljenje",
+        "order": 3,
+        "title": "Soljenje",
+        "url": "https://drycured.com/proces-izrade/soljenje/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/procesi/soljenje/soljenje-hero-v01.jpg",
+        "tool": {
+            "label": "Kalkulator soli",
+            "url": "https://drycured.com/kalkulator-soli/",
+            "option": ""
+        },
+        "prev": "rezanje",
+        "next": "mljevenje",
+        "status": "active"
+    },
+    {
+        "slug": "mljevenje",
+        "order": 4,
+        "title": "Mljevenje",
+        "url": "https://drycured.com/proces-izrade/mljevenje/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/procesi/mljevenje/mljevenje-hero-v01.jpg",
+        "tool": null,
+        "prev": "soljenje",
+        "next": "mijesanje",
+        "status": "active"
+    },
+    {
+        "slug": "mijesanje",
+        "order": 5,
+        "title": "Miješanje",
+        "url": "https://drycured.com/proces-izrade/mijesanje/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/procesi/mijesanje/mijesanje-hero-v01.jpg",
+        "tool": null,
+        "prev": "mljevenje",
+        "next": "odlezavanje-smjese",
+        "status": "active"
+    },
+    {
+        "slug": "odlezavanje-smjese",
+        "order": 6,
+        "title": "Odležavanje smjese",
+        "url": "https://drycured.com/proces-izrade/odlezavanje-smjese/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/procesi/odlezavanje/odlezavanje-hero-v01.jpg",
+        "tool": null,
+        "prev": "mijesanje",
+        "next": "punjenje",
+        "status": "active"
+    },
+    {
+        "slug": "punjenje",
+        "order": 7,
+        "title": "Punjenje",
+        "url": "https://drycured.com/proces-izrade/punjenje/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/procesi/punjenje/punjenje-hero-v01.jpg",
+        "tool": null,
+        "prev": "odlezavanje-smjese",
+        "next": "fermentacija",
+        "status": "active"
+    },
+    {
+        "slug": "fermentacija",
+        "order": 8,
+        "title": "Fermentacija",
+        "url": "https://drycured.com/proces-izrade/fermentacija/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/home-process/process-07-fermentacija.png",
+        "tool": {
+            "label": "Praćenje pH",
+            "url": "https://drycured.com/pracenje-ph/",
+            "option": ""
+        },
+        "prev": "punjenje",
+        "next": "dimljenje",
+        "status": "active"
+    },
+    {
+        "slug": "dimljenje",
+        "order": 9,
+        "title": "Dimljenje",
+        "url": "https://drycured.com/proces-izrade/dimljenje/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/procesi/dimljenje/dimljenje-hero-v01.jpg",
+        "tool": {
+            "label": "Planer dimljenja",
+            "url": "https://drycured.com/planer-dimljenja/",
+            "option": "drycured_smoking_planner_url"
+        },
+        "prev": "fermentacija",
+        "next": "susenje",
+        "status": "active"
+    },
+    {
+        "slug": "susenje",
+        "order": 10,
+        "title": "Sušenje",
+        "url": "https://drycured.com/proces-izrade/susenje/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/procesi/susenje/susenje-hero-v01.jpg",
+        "tool": {
+            "label": "Kalkulator sušenja",
+            "url": "https://drycured.com/kalkulator-susenja/",
+            "option": "drycured_drying_calculator_url"
+        },
+        "prev": "dimljenje",
+        "next": "zrenje",
+        "status": "active"
+    },
+    {
+        "slug": "zrenje",
+        "order": 11,
+        "title": "Zrenje",
+        "url": "https://drycured.com/proces-izrade/zrenje/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/procesi/zrenje/zrenje-hero-v02.jpg",
+        "tool": null,
+        "prev": "susenje",
+        "next": "pakiranje",
+        "status": "active"
+    },
+    {
+        "slug": "pakiranje",
+        "order": 12,
+        "title": "Pakiranje",
+        "url": "https://drycured.com/proces-izrade/pakiranje/",
+        "image": "http://drycured.com/wp-content/uploads/drycured/procesi/pakiranje/pakiranje-hero-v01.jpg",
+        "tool": null,
+        "prev": "zrenje",
+        "next": null,
+        "status": "active"
+    }
+]

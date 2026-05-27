@@ -1,0 +1,32 @@
+=== TOP FERMENTACIJA IMAGE CANDIDATES ===
+1. 1535x1024 2341 KB score=117571840
+   http://drycured.com/wp-content/uploads/drycured/home-process/process-07-fermentacija.png
+   /var/www/html/wp-content/uploads/drycured/home-process/process-07-fermentacija.png
+2. 1535x1024 2286 KB score=27571840
+   http://drycured.com/wp-content/uploads/drycured/home-process/process-08-dimljenje.png
+   /var/www/html/wp-content/uploads/drycured/home-process/process-08-dimljenje.png
+3. 1700x2560 762 KB score=7352000
+   https://drycured.com/wp-content/uploads/2025/03/smoked-meat-700064-scaled.jpg
+   /var/www/html/wp-content/uploads/2025/03/smoked-meat-700064-scaled.jpg
+4. 1920x1080 42 KB score=6073600
+   https://drycured.com/wp-content/uploads/2025/03/Heksagon-header-1.2.png
+   /var/www/html/wp-content/uploads/2025/03/Heksagon-header-1.2.png
+5. 1472x832 176 KB score=5224704
+   https://drycured.com/wp-content/uploads/2025/03/WEB-canva1.jpg
+   /var/www/html/wp-content/uploads/2025/03/WEB-canva1.jpg
+6. 1472x832 190 KB score=5224704
+   https://drycured.com/wp-content/uploads/2025/03/WEBcanva2.jpg
+   /var/www/html/wp-content/uploads/2025/03/WEBcanva2.jpg
+7. 1024x683 67 KB score=4699392
+   https://drycured.com/wp-content/uploads/2025/02/alex-guillaume-lAZqUCAOvOk-unsplash-2-e1740216886301.jpg
+   /var/www/html/wp-content/uploads/2025/02/alex-guillaume-lAZqUCAOvOk-unsplash-2-e1740216886301.jpg
+8. 1024x645 72 KB score=4660480
+   https://drycured.com/wp-content/uploads/2025/02/wine-2027177-2-e1740215455845.jpg
+   /var/www/html/wp-content/uploads/2025/02/wine-2027177-2-e1740215455845.jpg
+9. 533x800 60 KB score=426400
+   https://drycured.com/wp-content/uploads/2025/02/PIXNIO-2710400-4000x6000-1-e1740215510653.jpg
+   /var/www/html/wp-content/uploads/2025/02/PIXNIO-2710400-4000x6000-1-e1740215510653.jpg
+10. 533x800 51 KB score=426400
+   https://drycured.com/wp-content/uploads/2025/02/pexels-marcelino-ibericos-97604224-9287523-1-e1740216055252.jpg
+   /var/www/html/wp-content/uploads/2025/02/pexels-marcelino-ibericos-97604224-9287523-1-e1740216055252.jpg
+CHOSEN_URL=http://drycured.com/wp-content/uploads/drycured/home-process/process-07-fermentacija.png

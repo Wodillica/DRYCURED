@@ -103,7 +103,7 @@ function drycured_process_hub_get_processes(): array {
             'order' => 8,
             'title' => 'Fermentacija',
             'url' => home_url('/proces-izrade/fermentacija/'),
-            'image' => '',
+            'image' => 'http://drycured.com/wp-content/uploads/drycured/home-process/process-07-fermentacija.png',
             'tool' => [
                 'label' => 'Praćenje pH',
                 'url' => home_url('/pracenje-ph/'),

@@ -1,0 +1,26 @@
+DRYCURED PROCESS HUB v0.1.1
+Timestamp: 20260527_161036
+
+Purpose:
+- fix missing Fermentacija image in Process Hub registry if a valid existing image was found
+- replace fragile TSV audit with robust JSON-based audit
+
+Changes:
+- possible update to wp-content/mu-plugins/drycured-process-hub.php
+- no frontend takeover
+- no menu changes
+- no tool changes
+- no the_content changes
+
+Checks:
+- PHP lint
+- registry JSON export
+- registry logic check
+- process URL HTTP checks
+- image URL HTTP checks
+- tool URL HTTP checks
+- public debug invisibility
+
+Rollback:
+cp "/root/drycured_reports/process_hub_v011_20260527_161036/drycured-process-hub.before-v011.20260527_161036.php" /var/www/html/wp-content/mu-plugins/drycured-process-hub.php
+wp cache flush --allow-root

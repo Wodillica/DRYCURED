@@ -1,0 +1,1 @@
+PASS: registry count, order and prev/next links are valid
