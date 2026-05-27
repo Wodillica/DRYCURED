@@ -1,0 +1,27 @@
+DRYCURED PROCESS SEO FAQ v0.1.7
+Timestamp: 20260527_163050
+
+Created:
+wp-content/mu-plugins/drycured-process-seo-faq.php
+
+Purpose:
+- admin-only SEO + FAQ map for 12 process pages
+- no public SEO output
+- no meta changes
+- no FAQPage schema
+- no frontend rendering
+
+Option:
+drycured_process_seo_faq_public_enabled=0
+
+Checks:
+- PHP lint
+- WP function check
+- item_count=12
+- public marker check
+- HTTP checks
+
+Rollback:
+rm -f /var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php
+wp option delete drycured_process_seo_faq_public_enabled --allow-root
+wp cache flush --allow-root

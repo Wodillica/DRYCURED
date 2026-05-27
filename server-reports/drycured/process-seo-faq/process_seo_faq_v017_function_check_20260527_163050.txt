@@ -1,0 +1,18 @@
+seo_faq_exists=yes
+seo_faq_admin_menu=yes
+seo_faq_admin_page=yes
+public_enabled_option=0
+public_enabled=no
+item_count=12
+1 | sirovina | faq_count=4 | title_len=71 | desc_len=146
+2 | rezanje | faq_count=4 | title_len=68 | desc_len=146
+3 | soljenje | faq_count=4 | title_len=60 | desc_len=144
+4 | mljevenje | faq_count=4 | title_len=68 | desc_len=153
+5 | mijesanje | faq_count=4 | title_len=64 | desc_len=145
+6 | odlezavanje-smjese | faq_count=4 | title_len=64 | desc_len=148
+7 | punjenje | faq_count=4 | title_len=64 | desc_len=129
+8 | fermentacija | faq_count=4 | title_len=67 | desc_len=153
+9 | dimljenje | faq_count=4 | title_len=68 | desc_len=141
+10 | susenje | faq_count=4 | title_len=66 | desc_len=140
+11 | zrenje | faq_count=4 | title_len=62 | desc_len=130
+12 | pakiranje | faq_count=4 | title_len=60 | desc_len=134
