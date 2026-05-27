@@ -1,0 +1,1 @@
+PASS: public debug output is not visible

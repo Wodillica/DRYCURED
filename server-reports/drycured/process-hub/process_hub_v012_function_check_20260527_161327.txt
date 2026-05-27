@@ -1,0 +1,5 @@
+hub_exists=yes
+admin_menu_function=yes
+admin_page_function=yes
+process_count=12
+fermentacija_image=http://drycured.com/wp-content/uploads/drycured/home-process/process-07-fermentacija.png

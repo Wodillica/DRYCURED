@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:13:28 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Redirect-By: WordPress
+Location: https://drycured.com/wp-login.php?redirect_to=https%3A%2F%2Fdrycured.com%2Fwp-admin%2Ftools.php%3Fpage%3Ddrycured-process-hub&reauth=1
+
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 27 May 2026 16:13:28 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Expires: Wed, 11 Jan 1984 05:00:00 GMT

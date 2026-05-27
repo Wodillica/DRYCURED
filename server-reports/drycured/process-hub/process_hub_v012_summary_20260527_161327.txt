@@ -1,0 +1,28 @@
+DRYCURED PROCESS HUB v0.1.2
+Timestamp: 20260527_161327
+
+Added:
+- admin-only Process Hub overview page under wp-admin Tools:
+  Alati -> Drycured Process Hub
+
+Plugin:
+wp-content/mu-plugins/drycured-process-hub.php
+
+Purpose:
+- administrator can inspect the registry directly in WordPress admin
+- no public frontend rendering
+- no menu changes
+- no tool changes
+- no the_content changes
+- no process page takeover
+
+Checks:
+- PHP lint
+- WP function check
+- public debug invisibility
+- unauthenticated wp-admin header check
+- key HTTP checks
+
+Rollback:
+cp "/root/drycured_reports/process_hub_v012_20260527_161327/drycured-process-hub.before-v012.20260527_161327.php" /var/www/html/wp-content/mu-plugins/drycured-process-hub.php
+wp cache flush --allow-root

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Drycured Process Hub
  * Description: Read-only registry for Drycured process pages, tools, images and navigation metadata.
- * Version: 0.1.0
+ * Version: 0.1.2
  * Author: drycured.com
  */
 
@@ -277,3 +277,125 @@ function drycured_process_hub_debug_shortcode(): string {
 }
 
 add_shortcode('drycured_process_hub_debug', 'drycured_process_hub_debug_shortcode');
+
+
+/**
+ * Admin-only Process Hub overview.
+ *
+ * This page is visible only inside wp-admin to users with manage_options capability.
+ * It does not render anything on the public frontend.
+ */
+function drycured_process_hub_admin_menu_v012(): void {
+    add_management_page(
+        'Drycured Process Hub',
+        'Drycured Process Hub',
+        'manage_options',
+        'drycured-process-hub',
+        'drycured_process_hub_admin_page_v012'
+    );
+}
+add_action('admin_menu', 'drycured_process_hub_admin_menu_v012');
+
+function drycured_process_hub_admin_page_v012(): void {
+    if (!current_user_can('manage_options')) {
+        wp_die(esc_html__('Nemate dopuštenje za pregled ove stranice.', 'drycured'));
+    }
+
+    $processes = drycured_process_hub_get_processes();
+
+    ?>
+    <div class="wrap">
+        <h1>Drycured Process Hub</h1>
+
+        <p>
+            Ovo je administratorski pregled centralnog registra procesnih faza.
+            Pregled je samo informativan i ne mijenja sadržaj stranice.
+        </p>
+
+        <div style="margin:16px 0;padding:14px 16px;border-left:4px solid #2271b1;background:#fff;">
+            <strong>Status:</strong>
+            read-only registar, bez preuzimanja renderiranja procesnih stranica.
+        </div>
+
+        <table class="widefat striped" style="margin-top:18px;">
+            <thead>
+                <tr>
+                    <th style="width:60px;">Red</th>
+                    <th>Slug</th>
+                    <th>Proces</th>
+                    <th>URL</th>
+                    <th>Hero slika</th>
+                    <th>Povezani alat</th>
+                    <th>Prev</th>
+                    <th>Next</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($processes as $slug => $process): ?>
+                    <?php
+                    $tool_label = '';
+                    $tool_url = '';
+
+                    if (!empty($process['tool']) && is_array($process['tool'])) {
+                        $tool_label = (string) ($process['tool']['label'] ?? '');
+                        $tool_url = (string) ($process['tool']['url'] ?? '');
+                    }
+
+                    $image = (string) ($process['image'] ?? '');
+                    ?>
+                    <tr>
+                        <td><?php echo esc_html((string) ($process['order'] ?? '')); ?></td>
+                        <td><code><?php echo esc_html((string) $slug); ?></code></td>
+                        <td>
+                            <strong><?php echo esc_html((string) ($process['title'] ?? '')); ?></strong>
+                            <br>
+                            <small><?php echo esc_html((string) ($process['summary'] ?? '')); ?></small>
+                        </td>
+                        <td>
+                            <?php if (!empty($process['url'])): ?>
+                                <a href="<?php echo esc_url((string) $process['url']); ?>" target="_blank" rel="noopener">
+                                    <?php echo esc_html((string) $process['url']); ?>
+                                </a>
+                            <?php else: ?>
+                                —
+                            <?php endif; ?>
+                        </td>
+                        <td>
+                            <?php if ($image !== ''): ?>
+                                <a href="<?php echo esc_url($image); ?>" target="_blank" rel="noopener">
+                                    slika
+                                </a>
+                            <?php else: ?>
+                                —
+                            <?php endif; ?>
+                        </td>
+                        <td>
+                            <?php if ($tool_label !== '' && $tool_url !== ''): ?>
+                                <a href="<?php echo esc_url($tool_url); ?>" target="_blank" rel="noopener">
+                                    <?php echo esc_html($tool_label); ?>
+                                </a>
+                            <?php elseif ($tool_label !== ''): ?>
+                                <?php echo esc_html($tool_label); ?>
+                            <?php else: ?>
+                                —
+                            <?php endif; ?>
+                        </td>
+                        <td><?php echo esc_html((string) ($process['prev'] ?? '—')); ?></td>
+                        <td><?php echo esc_html((string) ($process['next'] ?? '—')); ?></td>
+                        <td><?php echo esc_html((string) ($process['status'] ?? '')); ?></td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+
+        <h2 style="margin-top:28px;">Sigurnosna pravila</h2>
+        <ul style="list-style:disc;margin-left:22px;">
+            <li>Ova stranica samo čita registar.</li>
+            <li>Ne mijenja procesne stranice.</li>
+            <li>Ne mijenja alate ni meni.</li>
+            <li>Ne utječe na javni frontend.</li>
+        </ul>
+    </div>
+    <?php
+}
