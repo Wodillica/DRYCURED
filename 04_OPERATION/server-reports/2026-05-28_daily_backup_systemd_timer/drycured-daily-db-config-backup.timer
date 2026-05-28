@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Drycured daily DB and config backup
+
+[Timer]
+OnCalendar=*-*-* 03:20:00
+Persistent=true
+RandomizedDelaySec=10m
+Unit=drycured-daily-db-config-backup.service
+
+[Install]
+WantedBy=timers.target

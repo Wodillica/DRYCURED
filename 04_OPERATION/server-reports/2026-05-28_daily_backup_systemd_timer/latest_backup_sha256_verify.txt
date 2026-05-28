@@ -1,0 +1,4 @@
+./config/nginx_config_2026-05-28_17-00-13.tar.gz: OK
+./config/wp-config_2026-05-28_17-00-13.php.bak: OK
+./db/drycured_db_2026-05-28_17-00-13.sql.gz: OK
+./manifests/MANIFEST.txt: OK

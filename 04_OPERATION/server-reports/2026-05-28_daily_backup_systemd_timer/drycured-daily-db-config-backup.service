@@ -1,0 +1,13 @@
+[Unit]
+Description=Drycured daily DB and config backup
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+ExecStart=/root/drycured_ops/drycured_daily_db_config_backup.sh
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7

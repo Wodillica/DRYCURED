@@ -1,0 +1,182 @@
+=== SYSTEMD UNIT FILES ===
+-rw-r--r-- 1 root root 281 May 28 16:59 /etc/systemd/system/drycured-daily-db-config-backup.service
+-rw-r--r-- 1 root root 212 May 28 16:59 /etc/systemd/system/drycured-daily-db-config-backup.timer
+=== SERVICE ===
+[Unit]
+Description=Drycured daily DB and config backup
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+ExecStart=/root/drycured_ops/drycured_daily_db_config_backup.sh
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7
+=== TIMER ===
+[Unit]
+Description=Run Drycured daily DB and config backup
+
+[Timer]
+OnCalendar=*-*-* 03:20:00
+Persistent=true
+RandomizedDelaySec=10m
+Unit=drycured-daily-db-config-backup.service
+
+[Install]
+WantedBy=timers.target
+=== SYSTEMD VERIFY ===
+/etc/systemd/system/swab.service:1: Assignment outside of section. Ignoring.
+/etc/systemd/system/swab.service:2: Assignment outside of section. Ignoring.
+/etc/systemd/system/swab.service:3: Assignment outside of section. Ignoring.
+=== ENABLE TIMER ===
+=== TIMER STATUS ===
+● drycured-daily-db-config-backup.timer - Run Drycured daily DB and config backup
+     Loaded: loaded (/etc/systemd/system/drycured-daily-db-config-backup.timer; enabled; preset: enabled)
+     Active: active (waiting) since Thu 2026-05-28 16:59:58 UTC; 10ms ago
+    Trigger: Fri 2026-05-29 03:28:59 UTC; 10h left
+   Triggers: ● drycured-daily-db-config-backup.service
+
+May 28 16:59:58 swab-production systemd[1]: Started drycured-daily-db-config-backup.timer - Run Drycured daily DB and config backup.
+=== LIST TIMERS ===
+NEXT                                LEFT LAST                              PASSED UNIT                                  ACTIVATES
+Fri 2026-05-29 03:28:59 UTC          10h -                                      - drycured-daily-db-config-backup.timer drycured-daily-db-config-backup.service
+=== MANUAL SYSTEMD SERVICE RUN ===
+=== SERVICE STATUS AFTER MANUAL RUN ===
+○ drycured-daily-db-config-backup.service - Drycured daily DB and config backup
+     Loaded: loaded (/etc/systemd/system/drycured-daily-db-config-backup.service; static)
+     Active: inactive (dead) since Thu 2026-05-28 17:00:15 UTC; 14ms ago
+TriggeredBy: ● drycured-daily-db-config-backup.timer
+    Process: 616648 ExecStart=/root/drycured_ops/drycured_daily_db_config_backup.sh (code=exited, status=0/SUCCESS)
+   Main PID: 616648 (code=exited, status=0/SUCCESS)
+        CPU: 1.439s
+
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616690]: [2026-05-28T17:00:15+00:00] Copying protected wp-config.php...
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616701]: [2026-05-28T17:00:15+00:00] Validating SHA256 checksums...
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616705]: [2026-05-28T17:00:15+00:00] Applying retention: deleting daily_db_config_* older than 7 days
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616709]: [2026-05-28T17:00:15+00:00] Final backup files:
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616714]: [2026-05-28T17:00:15+00:00] DRYCURED daily DB + config backup v0.0.2 finished: PASS
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616648]: BACKUP_DIR=/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616648]: LOG_FILE=/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/logs/backup.log
+May 28 17:00:15 swab-production systemd[1]: drycured-daily-db-config-backup.service: Deactivated successfully.
+May 28 17:00:15 swab-production systemd[1]: Finished drycured-daily-db-config-backup.service - Drycured daily DB and config backup.
+May 28 17:00:15 swab-production systemd[1]: drycured-daily-db-config-backup.service: Consumed 1.439s CPU time.
+=== SERVICE JOURNAL ===
+May 28 17:00:13 swab-production systemd[1]: Starting drycured-daily-db-config-backup.service - Drycured daily DB and config backup...
+May 28 17:00:13 swab-production drycured_daily_db_config_backup.sh[616653]: [2026-05-28T17:00:13+00:00] DRYCURED daily DB + config backup v0.0.2 started
+May 28 17:00:13 swab-production drycured_daily_db_config_backup.sh[616656]: [2026-05-28T17:00:13+00:00] Backup dir: /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+May 28 17:00:13 swab-production drycured_daily_db_config_backup.sh[616659]: [2026-05-28T17:00:13+00:00] Exporting database...
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616679]: [2026-05-28T17:00:15+00:00] Testing database gzip...
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616683]: [2026-05-28T17:00:15+00:00] Archiving Nginx config...
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616690]: [2026-05-28T17:00:15+00:00] Copying protected wp-config.php...
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616701]: [2026-05-28T17:00:15+00:00] Validating SHA256 checksums...
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616705]: [2026-05-28T17:00:15+00:00] Applying retention: deleting daily_db_config_* older than 7 days
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616709]: [2026-05-28T17:00:15+00:00] Final backup files:
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616714]: [2026-05-28T17:00:15+00:00] DRYCURED daily DB + config backup v0.0.2 finished: PASS
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616648]: BACKUP_DIR=/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616648]: LOG_FILE=/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/logs/backup.log
+May 28 17:00:15 swab-production systemd[1]: drycured-daily-db-config-backup.service: Deactivated successfully.
+May 28 17:00:15 swab-production systemd[1]: Finished drycured-daily-db-config-backup.service - Drycured daily DB and config backup.
+May 28 17:00:15 swab-production systemd[1]: drycured-daily-db-config-backup.service: Consumed 1.439s CPU time.
+=== NEWEST BACKUP DIR ===
+/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+=== LATEST BACKUP SHA256 VERIFY ===
+=== LIVE HEALTH AFTER SYSTEMD MANUAL RUN ===
+---- https://drycured.com/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:00:15 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/101>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/sitemap.xml ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:00:16 GMT
+Content-Type: text/xml; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Robots-Tag: noindex, follow
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/recepti/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:00:16 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/102>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=102>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/alati/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:00:16 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2349>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2349>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+---- https://drycured.com/wp-json/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:00:16 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Robots-Tag: noindex
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+X-Content-Type-Options: nosniff
+Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link
+Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+Allow: GET
+Vary: Origin
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+
