@@ -1,0 +1,2 @@
+REPORT_DIR=/root/DRYCURED_GITHUB/server-reports/tech-security/plugin_bak_quarantine_2026-05-28_18-20-20
+QUAR_DIR=/root/drycured_quarantine/plugin_bak_files_2026-05-28_18-20-20
