@@ -1,0 +1,2 @@
+LOGIN COOLDOWN RECHECK:
+After the intentional login burst test triggered rate limiting, wp-login.php was rechecked after cooldown and should return 200 OK for normal access.
