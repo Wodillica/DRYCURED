@@ -1,0 +1,633 @@
+=== DRYCURED BACKUP / RESTORE AUDIT v0.0.1 — NO CHANGES ===
+2026-05-28T15:52:09+00:00
+
+=== GIT STATUS ===
+
+=== LAST COMMITS ===
+b57b2c3 Archive drycured security checkpoint
+b2429ca Archive drycured login rate limit
+52b4f58 Archive drycured XML-RPC block
+ef5091c Archive drycured wp config file edit hardening
+b1b8891 Ignore drycured working server reports
+da17fde Archive drycured CSP report-only baseline
+6e974a9 Archive drycured basic security headers
+8b3e65a Archive drycured nginx public exposure cleanup
+fd9bcfa Archive drycured public exposure quarantine
+5996013 Add drycured A-group SEO meta and archive bridge
+cbc2b4e Archive drycured site-wide SEO classification
+cdf21c3 Archive drycured sitemap XML fix
+
+=== SERVER BASIC INFO ===
+swab-production
+Linux swab-production 6.8.0-107-generic #107-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 13 19:51:50 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           382M  888K  381M   1% /run
+efivarfs        256K   63K  189K  26% /sys/firmware/efi/efivars
+/dev/sda1        75G   13G   60G  18% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sda15      253M  146K  252M   1% /boot/efi
+tmpfs           382M   12K  382M   1% /run/user/0
+
+=== MEMORY / LOAD ===
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.4Gi       273Mi       124Mi       2.5Gi       2.3Gi
+Swap:             0B          0B          0B
+ 15:52:09 up 12 days, 22:56,  1 user,  load average: 0.01, 0.03, 0.00
+
+=== WORDPRESS LOCATION SIZE ===
+1.4G	/var/www/html
+1.3G	/var/www/html/wp-content
+1.1G	/var/www/html/wp-content/uploads
+172M	/var/www/html/wp-content/plugins
+2.3M	/var/www/html/wp-content/mu-plugins
+33M	/var/www/html/wp-content/themes
+
+=== DATABASE SIZE ===
+Name	Size
+wp_actionscheduler_actions	262 KB
+wp_actionscheduler_claims	33 KB
+wp_actionscheduler_groups	33 KB
+wp_actionscheduler_logs	115 KB
+wp_blogmeta	49 KB
+wp_blogs	49 KB
+wp_commentmeta	49 KB
+wp_comments	115 KB
+wp_links	33 KB
+wp_options	5 MB
+wp_postmeta	20 MB
+wp_posts	12 MB
+wp_registration_log	33 KB
+wp_signups	508 KB
+wp_site	33 KB
+wp_sitemeta	131 KB
+wp_term_relationships	573 KB
+wp_term_taxonomy	180 KB
+wp_termmeta	49 KB
+wp_terms	180 KB
+wp_usermeta	115 KB
+wp_users	66 KB
+
+Name	Size
+drycured	49 MB
+
+=== WP CONFIG DB INFO — REDACTED ===
+26:define( '***REDACTED***', '***REDACTED***' );
+29:define( '***REDACTED***', '***REDACTED***' );
+35:define( '***REDACTED***', '***REDACTED***' );
+38:define( '***REDACTED***', '***REDACTED***' );
+41:define( '***REDACTED***', '' );
+
+=== EXISTING BACKUP-LIKE DIRECTORIES ===
+/root/.acme.sh/*.swabtools.com_ecc/backup
+/root/drycured_archives
+/root/drycured_archives/mu_plugins_cleanup_20260527_153345/_archive_fermentacija_20260526_152555
+/root/drycured_archives/mu_plugins_cleanup_20260527_153345/_archive_mljevenje_20260526_170219
+/root/drycured_archives/mu_plugins_cleanup_20260527_153345/_archive_starter_kulture_20260525_184836
+/root/drycured_archives/mu_plugins_cleanup_20260527_153345/_archive_starter_kulture_20260525_185225
+/root/drycured-backups
+/root/drycured_backups
+/root/drycured_backups/dimljenje_core_v01_20260526_182248/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/dimljenje_core_v01_20260526_182248/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/dimljenje_core_v01_20260526_182248/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/dimljenje_core_v01_20260526_182248/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/fermentacija_checklist_solutions_v015_20260526_150900/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/fermentacija_checklist_solutions_v015_20260526_150900/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/fermentacija_checklist_v014_20260526_150409/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/fermentacija_checklist_v014_20260526_150409/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/fermentacija_core_consolidation_v020_20260526_152555/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/fermentacija_core_consolidation_v020_20260526_152555/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/fermentacija_core_v01_20260525_185818/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/fermentacija_core_v01_20260525_185818/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/fermentacija_ph_bridge_v016_20260526_151826/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/fermentacija_ph_bridge_v016_20260526_151826/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/fermentacija_pre_consolidation_20260526_151147/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/fermentacija_pre_consolidation_20260526_151147/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/fermentacija_simulator_v013_20260525_190631/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/fermentacija_simulator_v013_20260525_190631/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/fermentacija_top_fine_tune_v012_20260525_190352/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/fermentacija_top_fine_tune_v012_20260525_190352/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/fermentacija_top_polish_v011_20260525_190105/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/fermentacija_top_polish_v011_20260525_190105/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/home_process_order_v021_20260526_170654/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/home_process_order_v021_20260526_170654/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/home_process_order_v021_20260526_170654/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/home_process_order_v021_20260526_170654/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/home_process_order_v022_20260526_170936/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/home_process_order_v022_20260526_170936/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/home_process_order_v022_20260526_170936/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/home_process_order_v022_20260526_170936/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/mijesanje_core_v01_20260526_175014/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/mijesanje_core_v01_20260526_175014/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/mijesanje_core_v01_20260526_175014/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/mijesanje_core_v01_20260526_175014/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/mljevenje_core_consolidation_v020_20260526_170219/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/mljevenje_core_consolidation_v020_20260526_170219/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/mljevenje_core_consolidation_v020_20260526_170219/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/mljevenje_core_v01_20260526_153840/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/mljevenje_core_v01_20260526_153840/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/mljevenje_core_v01_20260526_153840/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/mljevenje_visual_polish_v011_20260526_165627/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/mljevenje_visual_polish_v011_20260526_165627/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/mljevenje_visual_polish_v011_20260526_165627/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/mljevenje_visual_polish_v012_20260526_165904/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/mljevenje_visual_polish_v012_20260526_165904/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/mljevenje_visual_polish_v012_20260526_165904/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/odlezavanje_core_v01_20260526_175610/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/odlezavanje_core_v01_20260526_175610/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/odlezavanje_core_v01_20260526_175610/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/odlezavanje_core_v01_20260526_175610/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/odlezavanje_text_fix_v011_20260526_181037/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/odlezavanje_text_fix_v011_20260526_181037/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/odlezavanje_text_fix_v011_20260526_181037/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/odlezavanje_text_fix_v011_20260526_181037/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/pakiranje_core_v01_20260526_190246/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/pakiranje_core_v01_20260526_190246/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/pakiranje_core_v01_20260526_190246/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/pakiranje_core_v01_20260526_190246/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/planer_dimljenja_emergency_restore_20260526_183448
+/root/drycured_backups/planer_dimljenja_hard_fix_v020_20260526_183112/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/planer_dimljenja_hard_fix_v020_20260526_183112/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/planer_dimljenja_hard_fix_v020_20260526_183112/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/planer_dimljenja_hard_fix_v020_20260526_183112/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/planer_dimljenja_page_restore_20260526_184136
+/root/drycured_backups/planer_dimljenja_restore_real_tool_20260526_183830
+/root/drycured_backups/punjenje_core_v01_20260526_181637/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/punjenje_core_v01_20260526_181637/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/punjenje_core_v01_20260526_181637/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/punjenje_core_v01_20260526_181637/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/rezanje_core_v01_20260526_172521/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/rezanje_core_v01_20260526_172521/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/rezanje_core_v01_20260526_172521/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/rezanje_core_v01_20260526_172521/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/sirovina_core_v01_20260526_171754/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/sirovina_core_v01_20260526_171754/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/sirovina_core_v01_20260526_171754/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/sirovina_core_v01_20260526_171754/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/soljenje_core_v01_20260526_174011/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/soljenje_core_v01_20260526_174011/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/soljenje_core_v01_20260526_174011/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/soljenje_core_v01_20260526_174011/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/soljenje_salt_calculator_link_20260526_174442/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/soljenje_salt_calculator_link_20260526_174442/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/soljenje_salt_calculator_link_20260526_174442/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/soljenje_salt_calculator_link_20260526_174442/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/starter_core_consolidation_v080_20260525_185225/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/susenje_core_v01_20260526_184743/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/susenje_core_v01_20260526_184743/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/susenje_core_v01_20260526_184743/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/susenje_core_v01_20260526_184743/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_backups/zrenje_core_v01_20260526_185431/mu-plugins/_archive_fermentacija_20260526_152555
+/root/drycured_backups/zrenje_core_v01_20260526_185431/mu-plugins/_archive_mljevenje_20260526_170219
+/root/drycured_backups/zrenje_core_v01_20260526_185431/mu-plugins/_archive_starter_kulture_20260525_184836
+/root/drycured_backups/zrenje_core_v01_20260526_185431/mu-plugins/_archive_starter_kulture_20260525_185225
+/root/drycured_broken_plugins_backup
+/root/DRYCURED_GITHUB/04_OPERATION/server_exports/_latest_podcast_archive_extract
+/root/DRYCURED_GITHUB/04_OPERATION/wordpress_plugins/drycured-podcast-archive
+/root/DRYCURED_GITHUB/server-reports/drycured/seo-archives
+/root/DRYCURED_GITHUB/server-reports/tech-security/backup_restore_audit_2026-05-28_15-52-09
+/root/drycured_reports/aioseo_archive_filter_audit_v001_20260527_194626
+/root/drycured_reports/archive_meta_override_context_v001_20260527_195031
+/root/drycured_reports/archive_seo_bridge_v001_20260527_195237
+/root/drycured_reports/archive_seo_route_audit_v001_20260527_194459
+/root/drycured_reports/switch_remaining_process_webp_v001_20260527_183527/backups
+/root/drycured-security-quarantine-20260516-101644/public-backups
+/root/drycured-security-quarantine-20260516-101644/public-backups/wp-content/ai1wm-backups
+/root/swab_backups
+/var/www/html/_backup_before_global_header_2026-05-12-1817
+/var/www/html/wp-content/ai1wm-backups
+/var/www/html/wp-content/backups-dup-lite
+/var/www/html/wp-content/litespeed/auto-backup
+/var/www/html/wp-content/plugins/drycured-podcast-archive
+/var/www/html/wp-content/upgrade-temp-backup
+/var/www/html/wp-includes/blocks/archives
+/var/www/swab-multisite/wp-includes/blocks/archives
+
+=== EXISTING BACKUP-LIKE FILES SAMPLE ===
+2026-05-28 15:41 2370 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_login_rate_limit/drycured.before_login_rate_limit.bak
+2026-05-28 15:41 1446 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_login_rate_limit/nginx.conf.before_login_rate_limit.bak
+2026-05-28 15:37 2370 /root/DRYCURED_GITHUB/server-reports/tech-security/login_rate_limit_2026-05-28_15-37-39/drycured.before_login_rate_limit.bak
+2026-05-28 15:37 1446 /root/DRYCURED_GITHUB/server-reports/tech-security/login_rate_limit_2026-05-28_15-37-39/nginx.conf.before_login_rate_limit.bak
+2026-05-28 15:34 2017 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_xmlrpc_block/drycured.before_xmlrpc_block.bak
+2026-05-28 15:31 2017 /root/DRYCURED_GITHUB/server-reports/tech-security/xmlrpc_block_2026-05-28_15-31-53/drycured.before_xmlrpc_block.bak
+2026-05-28 15:27 4057 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_wp_config_disallow_file_edit/wp-config.before_disallow_file_edit.bak
+2026-05-28 15:25 4057 /root/DRYCURED_GITHUB/server-reports/tech-security/wp_config_disallow_file_edit_2026-05-28_15-25-03/wp-config.before_disallow_file_edit.bak
+2026-05-28 15:20 1954 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_csp_report_only_v001/drycured.before_csp_report_only_v001.bak
+2026-05-28 15:19 1954 /root/DRYCURED_GITHUB/server-reports/tech-security/csp_report_only_v001_2026-05-28_15-19-21/drycured.before_csp_report_only_v001.bak
+2026-05-28 15:14 1883 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_basic_security_headers/drycured.before_security_headers_basic.bak
+2026-05-28 15:13 1883 /root/DRYCURED_GITHUB/server-reports/tech-security/security_headers_basic_2026-05-28_15-13-22/drycured.before_security_headers_basic.bak
+2026-05-28 15:09 1953 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_nginx_public_exposure_cleanup/drycured.before_cleanup_fix.bak
+2026-05-28 15:07 1953 /root/DRYCURED_GITHUB/server-reports/tech-security/nginx_cleanup_fix_2026-05-28_15-07-12/drycured.before_cleanup_fix.bak
+2026-05-28 15:00 1189 /root/DRYCURED_GITHUB/server-reports/tech-security/public_exposure_block_2026-05-28_14-55-43/drycured.before_direct_location_patch.bak
+2026-05-28 15:00 1189 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_public_exposure_quarantine/drycured.before_direct_location_patch.bak
+2026-05-28 14:56 1119 /root/DRYCURED_GITHUB/server-reports/tech-security/public_exposure_block_2026-05-28_14-55-43/drycured.before_include_insert.bak
+2026-05-28 14:56 1119 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_public_exposure_quarantine/drycured.before_include_insert.bak
+2026-05-28 14:55 1119 /root/DRYCURED_GITHUB/server-reports/tech-security/public_exposure_block_2026-05-28_14-55-43/drycured.before_public_exposure_block.bak
+2026-05-28 14:55 1119 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_public_exposure_quarantine/drycured.before_public_exposure_block.bak
+2026-05-27 15:33 477110 /root/drycured_reports/mu_plugins_safe_cleanup_20260527_153345/mu-plugins-before-cleanup_20260527_153345.tar.gz
+2026-05-26 18:41 28918901 /root/drycured_backups/planer_dimljenja_page_restore_20260526_184136/before_restore.sql
+2026-05-26 18:38 28918155 /root/drycured_backups/planer_dimljenja_restore_real_tool_20260526_183830/before_planer_dimljenja_restore.sql
+2026-05-24 16:53 4562 /root/DRYCURED_GITHUB/04_OPERATION/podcast_engine/drycured_podcast_voice_audition_patch_v1.zip
+2026-05-24 16:53 3745 /root/DRYCURED_GITHUB/04_OPERATION/podcast_engine/drycured_podcast_saved_voices_patch_v2.zip
+2026-05-24 16:53 21915 /root/DRYCURED_GITHUB/04_OPERATION/server_exports/drycured_live_changes_last_10_days_20260510_125510.tar.gz
+2026-05-24 16:53 20165 /root/DRYCURED_GITHUB/04_OPERATION/server_exports/drycured_podcast_archive_update_20260510_144559.tar.gz
+2026-05-24 16:53 17678 /root/DRYCURED_GITHUB/04_OPERATION/server_exports/drycured_home_hero_fix_20260510_154944.tar.gz
+2026-05-24 16:14 21249639 /root/drycured_atlas_assets_v096_2026-05-24_16-14-36.tar.gz
+2026-05-24 16:09 21249639 /root/drycured_atlas_assets_v096_2026-05-24_16-09-55.tar.gz
+2026-05-20 17:00 954944 /root/drycured_pre_home_refactor_2026-05-20_17-00-02/wp-content-plugins-drycured-before.tar.gz
+2026-05-20 17:00 28586158 /root/drycured_pre_home_refactor_2026-05-20_17-00-02/drycured_db_before_home_refactor.sql
+2026-05-20 17:00 255052 /root/drycured_pre_home_refactor_2026-05-20_17-00-02/wp-content-mu-plugins-before.tar.gz
+2026-05-13 13:18 2948 /root/drycured-backups/dc-recept-rewrite-before-fix-2026-05-15_174650/cpt.php.bak
+2026-05-12 20:02 15255 /root/drycured_backups/final_auth_files_2026-05-12-2002.tar.gz
+2026-05-12 19:41 27890080 /root/drycured_backups/drycured_db_FINAL_AUTH_EMAIL_SSL_STABLE_2026-05-12-1941.sql
+2026-05-12 19:41 191915 /root/drycured_backups/drycured_FINAL_AUTH_EMAIL_SSL_STABLE_2026-05-12-1941.tar.gz
+2026-05-12 19:26 27889512 /root/drycured_backups/drycured_db_AUTH_EMAIL_PROFILE_STABLE_2026-05-12-1926.sql
+2026-05-12 19:26 191915 /root/drycured_backups/drycured_AUTH_EMAIL_PROFILE_STABLE_2026-05-12-1926.tar.gz
+2026-05-12 19:11 27886962 /root/drycured_backups/drycured_db_auth_profile_admin_guard_WORKING_2026-05-12-1911.sql
+2026-05-12 19:11 191915 /root/drycured_backups/drycured_auth_profile_admin_guard_WORKING_2026-05-12-1911.tar.gz
+2026-05-12 19:01 27873305 /root/drycured_backups/drycured_db_auth_working_2026-05-12-1901.sql
+2026-05-12 19:01 191336 /root/drycured_backups/drycured_auth_working_mu_plugins_2026-05-12-1901.tar.gz
+2026-05-11 19:18 661109 /root/.wp-cli/cache/plugin/bbpress-2.6.14.zip
+2026-05-10 10:31 27289849 /root/drycured_backups/before_home_podcast_card_20260510_103122.sql
+2026-05-10 06:30 12022 /root/filessla.zip
+2026-05-09 08:17 25889279 /root/drycured-backups/drycured-db-before-geo-cleanup-20260509_081738.sql
+2026-05-09 07:25 26210768 /root/drycured-backups/drycured-db-before-geo-normalizer-20260509_072528.sql
+2026-05-09 07:23 26210768 /root/drycured-backups/drycured-db-before-geo-registry-20260509_072328.sql
+2026-05-09 07:00 26259480 /root/drycured-security-quarantine-20260516-101644/public-backups/wp-content/uploads/drycured-backup-before-uk-merge-20260509_070051.sql
+2026-05-09 06:51 26258509 /root/drycured-security-quarantine-20260516-101644/public-backups/wp-content/uploads/drycured-backup-before-geo-fix-20260509_065142.sql
+2026-05-07 17:40 16912 /root/drycured-backups/drycured-recipe-core-before-json-importer-20260507_174033.tar.gz
+2026-05-07 16:57 2173105451 /root/drycured-backups/wp-content-before-recipe-plugin-v020.tar.gz
+2026-05-07 16:56 12997 /root/drycured-backups/drycured-recipe-core-before-v020.tar.gz
+2026-05-07 16:55 24956615 /root/drycured-backups/drycured-db-before-recipe-plugin-v020.sql
+2026-05-06 19:08 2860517 /root/.wp-cli/cache/plugin/wp-mail-smtp-4.8.0.zip
+2026-05-06 18:12 3463265 /root/.wp-cli/cache/plugin/interactive-3d-flipbook-powered-physics-engine-1.16.19.zip
+2026-04-19 14:52 735 /root/nginx-sites-enabled-disabled-20260516-070923/drycured.backup
+2026-04-04 05:51 34104 /var/www/swabtools/index.html.bak
+2026-03-29 16:17 173887 /root/swab_backups/swab_app_backup_2026-03-29_16-17.tar.gz
+2026-03-27 19:32 519223 /root/.wp-cli/cache/plugin/jwt-authentication-for-wp-rest-api-1.5.0.zip
+2026-03-26 12:49 9810 /var/www/swab/app.py.bak
+2026-03-26 12:49 12584 /var/www/swab/templates/files.zip
+2026-03-25 03:16 27064862 /root/.wp-cli/cache/core/wordpress-6.9.4-en_US.tar.gz
+2026-03-24 18:18 3496 /root/drycured-security-quarantine-20260516-101644/root-files/wp-config.php.backup
+2026-03-19 15:12 2777817 /root/.wp-cli/cache/plugin/translatepress-multilingual-3.1.3.zip
+
+=== PUBLIC BACKUP EXPOSURE RECHECK ===
+---- https://drycured.com/wp-content/uploads/drycured/backups/ ----
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:52:11 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/projekti/projekt_drycured.com_struktura.zip ----
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:52:11 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/swabtest/swabtools-homepage-techtemplate.zip ----
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:52:11 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+
+=== NGINX CONFIG INVENTORY ===
+total 76K
+drwxr-xr-x   8 root root 4.0K May 20 06:25 .
+drwxr-xr-x 109 root root 4.0K May 24 06:45 ..
+drwxr-xr-x   2 root root 4.0K Mar 19 19:57 conf.d
+-rw-r--r--   1 root root 1.1K Nov 30  2023 fastcgi.conf
+-rw-r--r--   1 root root 1.1K Nov 30  2023 fastcgi_params
+-rw-r--r--   1 root root 2.8K Nov 30  2023 koi-utf
+-rw-r--r--   1 root root 2.2K Nov 30  2023 koi-win
+-rw-r--r--   1 root root 5.4K Nov 30  2023 mime.types
+drwxr-xr-x   2 root root 4.0K Feb  9 14:03 modules-available
+drwxr-xr-x   2 root root 4.0K Feb  9 14:03 modules-enabled
+-rw-r--r--   1 root root 1.6K May 28 15:40 nginx.conf
+-rw-r--r--   1 root root  180 Nov 30  2023 proxy_params
+-rw-r--r--   1 root root  636 Nov 30  2023 scgi_params
+drwxr-xr-x   2 root root 4.0K May 16 06:38 sites-available
+drwxr-xr-x   2 root root 4.0K May 16 07:09 sites-enabled
+drwxr-xr-x   2 root root 4.0K May 28 15:19 snippets
+-rw-r--r--   1 root root  664 Nov 30  2023 uwsgi_params
+-rw-r--r--   1 root root 3.0K Nov 30  2023 win-utf
+
+2023-11-30 22:32 1055 /etc/nginx/fastcgi_params
+2023-11-30 22:32 1125 /etc/nginx/fastcgi.conf
+2023-11-30 22:32 180 /etc/nginx/proxy_params
+2023-11-30 22:32 217 /etc/nginx/snippets/snakeoil.conf
+2023-11-30 22:32 2223 /etc/nginx/koi-win
+2023-11-30 22:32 2412 /etc/nginx/sites-available/default
+2023-11-30 22:32 2837 /etc/nginx/koi-utf
+2023-11-30 22:32 3071 /etc/nginx/win-utf
+2023-11-30 22:32 423 /etc/nginx/snippets/fastcgi-php.conf
+2023-11-30 22:32 5465 /etc/nginx/mime.types
+2023-11-30 22:32 636 /etc/nginx/scgi_params
+2023-11-30 22:32 664 /etc/nginx/uwsgi_params
+2026-03-21 05:07 784 /etc/nginx/sites-available/swab
+2026-03-21 07:00 227 /etc/nginx/sites-available/swabtools.com.save
+2026-03-24 18:46 509 /etc/nginx/sites-available/wordpress-multisite
+2026-03-25 03:24 927 /etc/nginx/sites-available/swab-multisite
+2026-03-28 14:38 1023 /etc/nginx/sites-available/wildcard.swabtools.com
+2026-03-29 05:59 2076 /etc/nginx/sites-available/swabtools.com
+2026-05-16 18:29 27 /etc/nginx/conf.d/upload.conf
+2026-05-27 17:54 915 /etc/nginx/sites-available/drycured
+2026-05-27 18:00 354 /etc/nginx/snippets/drycured-gzip-types.conf
+2026-05-27 19:13 310 /etc/nginx/snippets/drycured-static-cache.conf
+2026-05-28 14:56 1028 /etc/nginx/snippets/drycured-public-exposure-blocks.conf
+2026-05-28 15:13 494 /etc/nginx/snippets/drycured-security-headers-basic.conf
+2026-05-28 15:19 671 /etc/nginx/snippets/drycured-csp-report-only.conf
+2026-05-28 15:40 1560 /etc/nginx/nginx.conf
+2026-05-28 15:40 2653 /etc/nginx/sites-enabled/drycured
+
+=== SYSTEMD / CRON BACKUP REFERENCES ===
+--- root crontab ---
+5 16 * * * "/root/.acme.sh"/acme.sh --cron --home "/root/.acme.sh" > /dev/null
+0 8 * * * /usr/bin/python3 /var/www/swab/trial_checker.py >> /var/www/swab/trial_checker.log 2>&1
+
+--- /etc/crontab ---
+# /etc/crontab: system-wide crontab
+# Unlike any other crontab you don't have to run the `crontab'
+# command to install the new version when you edit this file
+# and files in /etc/cron.d. These files also have username fields,
+# that none of the other crontabs do.
+
+SHELL=/bin/sh
+# You can also override PATH, but by default, newer versions inherit it from the environment
+#PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name command to be executed
+17 *	* * *	root	cd / && run-parts --report /etc/cron.hourly
+25 6	* * *	root	test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.daily; }
+47 6	* * 7	root	test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.weekly; }
+52 6	1 * *	root	test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.monthly; }
+#
+
+--- /etc/cron.* files ---
+2023-04-16 05:18 802 /etc/cron.d/certbot
+2024-01-19 01:25 712 /etc/cron.d/php
+2024-02-05 02:31 123 /etc/cron.daily/dpkg
+2024-03-22 10:11 1478 /etc/cron.daily/apt-compat
+2024-04-08 14:38 201 /etc/cron.d/e2scrub_all
+2025-07-08 14:50 376 /etc/cron.daily/apport
+2025-08-05 17:14 102 /etc/cron.daily/.placeholder
+2025-08-05 17:14 102 /etc/cron.d/.placeholder
+2025-08-05 17:14 102 /etc/cron.hourly/.placeholder
+2025-08-05 17:14 102 /etc/cron.monthly/.placeholder
+2025-08-05 17:14 102 /etc/cron.weekly/.placeholder
+2025-08-05 17:14 1055 /etc/cron.weekly/man-db
+2025-08-05 17:14 1395 /etc/cron.daily/man-db
+2025-08-05 17:14 377 /etc/cron.daily/logrotate
+2025-08-05 17:14 396 /etc/cron.d/sysstat
+2025-08-05 17:14 518 /etc/cron.daily/sysstat
+
+--- systemd timers ---
+NEXT                            LEFT LAST                             PASSED UNIT                           ACTIVATES
+Thu 2026-05-28 16:00:00 UTC     7min Thu 2026-05-28 15:50:06 UTC 2min 5s ago sysstat-collect.timer          sysstat-collect.service
+Thu 2026-05-28 16:09:00 UTC    16min Thu 2026-05-28 15:39:00 UTC   13min ago phpsessionclean.timer          phpsessionclean.service
+Thu 2026-05-28 17:01:39 UTC  1h 9min Wed 2026-05-27 17:01:39 UTC     22h ago update-notifier-download.timer update-notifier-download.service
+Thu 2026-05-28 17:11:29 UTC 1h 19min Wed 2026-05-27 17:11:29 UTC     22h ago systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Thu 2026-05-28 19:38:19 UTC 3h 46min Thu 2026-05-28 00:54:51 UTC     14h ago motd-news.timer                motd-news.service
+Thu 2026-05-28 19:48:39 UTC 3h 56min Thu 2026-05-28 00:51:20 UTC     15h ago certbot.timer                  certbot.service
+Fri 2026-05-29 00:00:00 UTC       8h Thu 2026-05-28 00:00:06 UTC     15h ago dpkg-db-backup.timer           dpkg-db-backup.service
+Fri 2026-05-29 00:00:00 UTC       8h Thu 2026-05-28 00:00:06 UTC     15h ago logrotate.timer                logrotate.service
+Fri 2026-05-29 00:07:00 UTC       8h Thu 2026-05-28 00:07:04 UTC     15h ago sysstat-summary.timer          sysstat-summary.service
+Fri 2026-05-29 03:53:08 UTC      12h Thu 2026-05-28 15:08:52 UTC   43min ago apt-daily.timer                apt-daily.service
+Fri 2026-05-29 06:10:11 UTC      14h Thu 2026-05-28 06:58:27 UTC      8h ago apt-daily-upgrade.timer        apt-daily-upgrade.service
+Fri 2026-05-29 06:14:33 UTC      14h Thu 2026-05-28 06:19:52 UTC      9h ago man-db.timer                   man-db.service
+Fri 2026-05-29 20:52:22 UTC 1 day 5h Fri 2026-05-22 06:08:31 UTC  6 days ago update-notifier-motd.timer     update-notifier-motd.service
+Sun 2026-05-31 03:10:41 UTC   2 days Sun 2026-05-24 03:10:41 UTC  4 days ago e2scrub_all.timer              e2scrub_all.service
+Mon 2026-06-01 00:10:48 UTC   3 days Mon 2026-05-25 00:24:15 UTC  3 days ago fstrim.timer                   fstrim.service
+-                                  - -                                     - apport-autoreport.timer        apport-autoreport.service
+-                                  - -                                     - snapd.snap-repair.timer        snapd.snap-repair.service
+-                                  - -                                     - ua-timer.timer                 ua-timer.service
+
+18 timers listed.
+
+=== BACKUP / SYNC / STORAGE TOOLS INSTALLED ===
+rsync: /usr/bin/rsync
+rclone: restic: borgbackup: borg: duplicity: aws: s3cmd: mysqldump: /usr/bin/mysqldump
+mariadb-dump: tar: /usr/bin/tar
+gzip: /usr/bin/gzip
+zstd: /usr/bin/zstd
+
+=== HETZNER / CLOUD TOOLS HINTS ===
+2026-01-25 04:22 50 /etc/apt/apt.conf.d/99hetzner
+2026-01-25 04:25 26 /etc/systemd/timesyncd.conf.d/hetzner.conf
+2026-01-25 04:26 110 /etc/hetzner-build
+2026-01-25 04:26 4221 /etc/cloud/cloud.cfg.d/90-hetznercloud.cfg
+2026-03-24 18:18 3496 /root/drycured-security-quarantine-20260516-101644/root-files/wp-config.php.backup
+2026-03-24 18:40 18072 /root/.acme.sh/dnsapi/dns_hetznercloud.sh
+2026-03-24 18:40 7037 /root/.acme.sh/dnsapi/dns_hetzner.sh
+2026-03-29 16:17 173887 /root/swab_backups/swab_app_backup_2026-03-29_16-17.tar.gz
+2026-04-19 14:52 735 /root/nginx-sites-enabled-disabled-20260516-070923/drycured.backup
+2026-04-19 14:52 735 /root/nginx-sites-enabled-disabled-20260516-070923/drycured.backup.removed-from-sites-enabled
+2026-05-01 05:37 89514 /root/drycured-security-quarantine-20260516-101644/public-backups/wp-content/sidro_backup_20260501_053732.json
+2026-05-24 16:53 0 /root/DRYCURED_GITHUB/04_OPERATION/BACKUP_NOTES.md
+2026-05-24 16:53 1158 /root/DRYCURED_GITHUB/02_WEB/05_REPORTS/DRYCURED_HOME_SNAPSHOT_OODA_LOG_v1.md
+2026-05-24 16:53 5064 /root/DRYCURED_GITHUB/02_WEB/05_REPORTS/DRYCURED_HOME_SERVER_SNAPSHOT_ANALYSIS_v1.md
+2026-05-25 18:52 71 /root/drycured_last_starter_core_backup_path.txt
+2026-05-26 15:25 76 /root/drycured_last_fermentacija_core_backup_path.txt
+2026-05-26 15:38 58 /root/drycured_last_mljevenje_backup_path.txt
+2026-05-26 17:02 73 /root/drycured_last_mljevenje_core_backup_path.txt
+2026-05-26 17:17 57 /root/drycured_last_sirovina_backup_path.txt
+2026-05-26 17:25 56 /root/drycured_last_rezanje_backup_path.txt
+2026-05-26 17:40 57 /root/drycured_last_soljenje_backup_path.txt
+2026-05-26 17:50 58 /root/drycured_last_mijesanje_backup_path.txt
+2026-05-26 17:56 60 /root/drycured_last_odlezavanje_backup_path.txt
+2026-05-26 18:16 57 /root/drycured_last_punjenje_backup_path.txt
+2026-05-26 18:22 58 /root/drycured_last_dimljenje_backup_path.txt
+2026-05-26 18:47 56 /root/drycured_last_susenje_backup_path.txt
+2026-05-26 18:54 55 /root/drycured_last_zrenje_backup_path.txt
+2026-05-26 19:02 58 /root/drycured_last_pakiranje_backup_path.txt
+2026-05-27 15:30 2975 /root/drycured_reports/mu_plugins_cleanup_audit_20260527_153019/02_backup_disabled_old_files.txt
+2026-05-27 15:30 512 /root/drycured_reports/mu_plugins_cleanup_audit_20260527_153019/07_process_options_snapshot.txt
+2026-05-27 15:30 7159 /root/drycured_reports/mu_plugins_cleanup_audit_20260527_153019/06_php_lint_backup_disabled_info_only.txt
+2026-05-27 16:27 3952 /root/drycured_reports/process_seo_faq_audit_v016_20260527_162657/02_wp_page_meta_snapshot.txt
+2026-05-27 18:35 1768 /root/drycured_reports/switch_remaining_process_webp_v001_20260527_183527/02_page_backups.txt
+2026-05-27 18:55 99 /root/drycured_reports/seo_visibility_audit_v001_20260527_185524/04_aioseo_snapshot.txt
+2026-05-27 19:37 702 /root/drycured_reports/update_agroup_aioseo_meta_v001_20260527_193708/02_aioseo_rows_backup.tsv
+2026-05-27 19:39 702 /root/drycured_reports/update_agroup_aioseo_meta_v001_20260527_193708/10_continue_aioseo_rows_backup.tsv
+
+=== RECENT DRYCURED SECURITY ARCHIVES ===
+2026-05-28 15:49 954 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_security_checkpoint/xmlrpc_post_checkpoint_headers.txt
+2026-05-28 15:49 24759 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_security_checkpoint/security_checkpoint_audit.txt
+2026-05-28 15:49 174 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_security_checkpoint/login_cooldown_recheck.txt
+2026-05-28 15:49 162 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_security_checkpoint/xmlrpc_post_checkpoint_body.txt
+2026-05-28 15:49 1220 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_security_checkpoint/README.md
+2026-05-28 15:41 2370 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_login_rate_limit/drycured.before_login_rate_limit.bak
+2026-05-28 15:41 1446 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_login_rate_limit/nginx.conf.before_login_rate_limit.bak
+2026-05-28 15:41 1322 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_login_rate_limit/README.md
+2026-05-28 15:41 131 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_login_rate_limit/login_burst_test.txt
+2026-05-28 15:41 10021 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_login_rate_limit/live_check_after_login_rate_limit.txt
+2026-05-28 15:34 954 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_xmlrpc_block/xmlrpc_post_after_block_headers.txt
+2026-05-28 15:34 954 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_xmlrpc_block/xmlrpc_double_slash_post_after_block_headers.txt
+2026-05-28 15:34 9084 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_xmlrpc_block/live_check_after_xmlrpc_block.txt
+2026-05-28 15:34 2017 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_xmlrpc_block/drycured.before_xmlrpc_block.bak
+2026-05-28 15:34 162 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_xmlrpc_block/xmlrpc_post_after_block_body.txt
+2026-05-28 15:34 162 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_xmlrpc_block/xmlrpc_double_slash_post_after_block_body.txt
+2026-05-28 15:34 1055 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_xmlrpc_block/README.md
+2026-05-28 15:27 500 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_wp_config_disallow_file_edit/README.md
+2026-05-28 15:27 4370 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_wp_config_disallow_file_edit/live_check_after_disallow_file_edit.txt
+2026-05-28 15:27 4057 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_wp_config_disallow_file_edit/wp-config.before_disallow_file_edit.bak
+2026-05-28 15:20 790 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_csp_report_only_v001/home_csp_summary_after_v001.txt
+2026-05-28 15:20 1954 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_csp_report_only_v001/drycured.before_csp_report_only_v001.bak
+2026-05-28 15:20 10851 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_csp_report_only_v001/live_check_after_csp_report_only_v001.txt
+2026-05-28 15:20 1029 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_csp_report_only_v001/README.md
+2026-05-28 15:14 920 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_basic_security_headers/README.md
+2026-05-28 15:14 6267 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_basic_security_headers/live_check_after_basic_security_headers.txt
+2026-05-28 15:14 248 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_basic_security_headers/header_summary_home_after_basic.txt
+2026-05-28 15:14 1883 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_basic_security_headers/drycured.before_security_headers_basic.bak
+2026-05-28 15:09 592 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_nginx_public_exposure_cleanup/README.md
+2026-05-28 15:09 3156 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_nginx_public_exposure_cleanup/live_check_after_nginx_cleanup_fix.txt
+2026-05-28 15:09 1953 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_nginx_public_exposure_cleanup/drycured.before_cleanup_fix.bak
+2026-05-28 15:05 884 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_public_exposure_quarantine/README.md
+2026-05-28 15:04 3479 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_public_exposure_quarantine/live_check_after_quarantine.txt
+2026-05-28 15:03 1146 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_public_exposure_quarantine/quarantine_manifest.txt
+2026-05-28 15:00 3753 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_public_exposure_quarantine/live_check_after_direct_patch_v002.txt
+2026-05-28 15:00 1189 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_public_exposure_quarantine/drycured.before_direct_location_patch.bak
+2026-05-28 14:56 3943 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_public_exposure_quarantine/live_check_after_public_exposure_block.txt
+2026-05-28 14:56 1119 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_public_exposure_quarantine/drycured.before_include_insert.bak
+2026-05-28 14:55 1119 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-28_public_exposure_quarantine/drycured.before_public_exposure_block.bak
+2026-05-24 17:01 417 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-24_16-56-15/README_server_reports_archive.md
+2026-05-24 17:01 0 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-24_16-56-15/sensitive_scan_filtered.txt
+2026-05-24 16:56 62051 /root/DRYCURED_GITHUB/04_OPERATION/server-reports/2026-05-24_16-56-15/server_reports_inventory.csv
+
+=== QUICK RESTORE RISK NOTES — RAW ===
+DB backup present? inspect backup-like files above.
+Uploads backup present? inspect backup-like dirs/files above.
+Nginx backup present? security reports contain Nginx config backups, but production backup policy still needs definition.
+Offsite backup present? not confirmed by this audit unless rclone/restic/borg/cloud config is found.
+Restore test present? not confirmed.
+
+=== LIVE HEALTH AFTER AUDIT ===
+---- https://drycured.com/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:52:11 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/101>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/sitemap.xml ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:52:12 GMT
+Content-Type: text/xml; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Robots-Tag: noindex, follow
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/recepti/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:52:12 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/102>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=102>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/alati/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:52:12 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2349>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2349>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+---- https://drycured.com/wp-json/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:52:12 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Robots-Tag: noindex
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+X-Content-Type-Options: nosniff
+Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link
+Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+Allow: GET
+Vary: Origin
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+
