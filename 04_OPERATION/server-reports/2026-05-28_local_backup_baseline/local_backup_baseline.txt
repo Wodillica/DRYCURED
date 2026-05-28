@@ -1,0 +1,123 @@
+=== DB BACKUP START ===
+2026-05-28T15:58:27+00:00
+=== DB BACKUP FILE ===
+-rw-r--r-- 1 root root 3.3M May 28 15:58 /root/drycured_production_backups/local_baseline_2026-05-28_15-58-04/db/drycured_db_2026-05-28_15-58-04.sql.gz
+=== DB BACKUP TEST gzip -t ===
+gzip test: PASS
+=== CONFIG BACKUP ===
+tar: Removing leading `/' from member names
+total 16K
+-rw-r--r-- 1 root root  11K May 28 15:58 nginx_config_2026-05-28_15-58-04.tar.gz
+-rw------- 1 root root 4.0K May 28 15:58 wp-config_2026-05-28_15-58-04.php.bak
+=== MANIFEST ===
+=== SHA256SUMS ===
+e15210021414d0458351f009c0a7303ec8d5302dbb9a1010d7766f3597791966  ./config/nginx_config_2026-05-28_15-58-04.tar.gz
+d350f00d33dbbbb8d77a6758f42b028daaa46a8ea4c66198edaba515187556d6  ./config/wp-config_2026-05-28_15-58-04.php.bak
+b9425ba3c4190812ea656ce3d2d6c8bf6b410864bbc36d948e9bc023c0279439  ./db/drycured_db_2026-05-28_15-58-04.sql.gz
+36d4215afb02fb4a070983d32dbc33a035b02f6c6d70be671773a05854fe026c  ./manifests/MANIFEST.txt
+=== BACKUP TREE ===
+2026-05-28 15:58 10937 /root/drycured_production_backups/local_baseline_2026-05-28_15-58-04/config/nginx_config_2026-05-28_15-58-04.tar.gz
+2026-05-28 15:58 3424305 /root/drycured_production_backups/local_baseline_2026-05-28_15-58-04/db/drycured_db_2026-05-28_15-58-04.sql.gz
+2026-05-28 15:58 4096 /root/drycured_production_backups/local_baseline_2026-05-28_15-58-04/config/wp-config_2026-05-28_15-58-04.php.bak
+2026-05-28 15:59 429 /root/drycured_production_backups/local_baseline_2026-05-28_15-58-04/manifests/SHA256SUMS.txt
+2026-05-28 15:59 779 /root/drycured_production_backups/local_baseline_2026-05-28_15-58-04/manifests/MANIFEST.txt
+=== BACKUP VALIDATION ===
+DB gzip validation: PASS
+Nginx tar validation: PASS
+=== LIVE HEALTH AFTER LOCAL BACKUP ===
+---- https://drycured.com/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:59:51 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/101>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/sitemap.xml ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:59:51 GMT
+Content-Type: text/xml; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Robots-Tag: noindex, follow
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/recepti/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:59:52 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/102>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=102>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/alati/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:59:52 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2349>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2349>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+---- https://drycured.com/wp-json/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:59:52 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Robots-Tag: noindex
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+X-Content-Type-Options: nosniff
+Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link
+Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+Allow: GET
+Vary: Origin
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+
