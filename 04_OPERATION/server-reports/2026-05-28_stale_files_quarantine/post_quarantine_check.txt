@@ -1,0 +1,3 @@
+=== POST-QUARANTINE WEB ROOT CHECK ===
+--- Remaining MU-plugin .bak files ---
+--- Remaining rejected ZIP files ---

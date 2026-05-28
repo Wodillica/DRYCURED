@@ -1,0 +1,2 @@
+REPORT_DIR=/root/DRYCURED_GITHUB/server-reports/tech-security/stale_files_quarantine_2026-05-28_17-53-45
+QUAR_DIR=/root/drycured_quarantine/stale_files_2026-05-28_17-53-45
