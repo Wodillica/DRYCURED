@@ -1,0 +1,10 @@
+DRYCURED PUBLIC EXPOSURE QUARANTINE — 2026-05-28_15-03-58
+No delete. Files moved out of web root.
+
+MOVE: /var/www/html/projekti/projekt_drycured.com_struktura.zip -> /root/drycured-security-quarantine-2026-05-28_15-03-58/public-exposure/var/www/html/projekti/
+MOVE: /var/www/html/swabtest/swabtools-homepage-techtemplate.zip -> /root/drycured-security-quarantine-2026-05-28_15-03-58/public-exposure/var/www/html/swabtest/
+MOVE: /var/www/html/wp-content/plugins/drycured-recipe-core/includes/importer.php.bak -> /root/drycured-security-quarantine-2026-05-28_15-03-58/public-exposure/var/www/html/wp-content/plugins/drycured-recipe-core/includes/
+=== QUARANTINE CONTENT ===
+2025-04-09 16:56 922 /root/drycured-security-quarantine-2026-05-28_15-03-58/public-exposure/var/www/html/projekti/projekt_drycured.com_struktura.zip
+2026-02-14 06:10 1666 /root/drycured-security-quarantine-2026-05-28_15-03-58/public-exposure/var/www/html/swabtest/swabtools-homepage-techtemplate.zip
+2026-05-07 17:20 8062 /root/drycured-security-quarantine-2026-05-28_15-03-58/public-exposure/var/www/html/wp-content/plugins/drycured-recipe-core/includes/importer.php.bak
