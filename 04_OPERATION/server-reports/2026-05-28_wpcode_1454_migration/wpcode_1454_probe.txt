@@ -1,0 +1,11 @@
+=== WPCODE 1454 MIGRATION PROBE — NO CHANGES ===
+2026-05-28T18:34:23+00:00
+=== EXPORT FILE EXISTS ===
+-rw-r--r-- 1 root root 249 May 28 18:32 /root/drycured_private_exports/wpcode_full_export_2026-05-28_18-32-23/1454_publish_Limit_Elementor_Posts_Excerpt_Length.txt
+=== SNIPPET 1454 CONTENT ===
+ID: 1454
+STATUS: publish
+TITLE: Limit Elementor Posts Excerpt Length
+
+CONTENT:
+add_filter( 'excerpt_length', function( $length ) {\n\t    return 30;\n}, 999 );\n\nadd_filter( 'excerpt_more', function( $more ) {\n\t    return '&hellip;';\n} );

@@ -1,0 +1,9 @@
+=== BACKUP CURRENT 1454 STATE BEFORE DEACTIVATION ===
+{"ID":1454,"post_title":"Limit Elementor Posts Excerpt Length","post_status":"publish","post_modified":"2026-03-25 16:24:32"}
+=== DEACTIVATE WPCODE 1454 BY SETTING TO DRAFT ===
+Success: Updated post 1454.
+=== VERIFY 1454 STATE AFTER DEACTIVATION ===
+{"ID":1454,"post_title":"Limit Elementor Posts Excerpt Length","post_status":"draft","post_modified":"2026-05-28 18:38:44"}
+=== FILTER OUTPUT CHECK AFTER WPCODE 1454 DRAFT ===
+excerpt_length=30
+excerpt_more=&hellip;

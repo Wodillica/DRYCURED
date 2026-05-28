@@ -1,0 +1,7 @@
+=== PHP SYNTAX CHECK ===
+No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-wpcode-migrated-small-fixes.php
+=== MU-PLUGIN FILE ===
+-rw-r--r-- 1 root root 597 May 28 18:37 /var/www/html/wp-content/mu-plugins/drycured-wpcode-migrated-small-fixes.php
+=== FILTER OUTPUT CHECK ===
+excerpt_length=30
+excerpt_more=&hellip;

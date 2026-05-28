@@ -1,0 +1,1 @@
+"add_filter( 'excerpt_length', function( $length ) {\r\n\t    return 30;\r\n}, 999 );\r\n\r\nadd_filter( 'excerpt_more', function( $more ) {\r\n\t    return '&hellip;';\r\n} );"

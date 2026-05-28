@@ -1,0 +1,9 @@
+=== WP POST GET 1454 RAW ===
+"add_filter( 'excerpt_length', function( $length ) {\r\n\t    return 30;\r\n}, 999 );\r\n\r\nadd_filter( 'excerpt_more', function( $more ) {\r\n\t    return '&hellip;';\r\n} );"
+=== DB HEX/RAW LENGTH CHECK ===
+ID	post_status	post_title	len	post_content_hex
+1454	publish	Limit Elementor Posts Excerpt Length	161	6164645F66696C746572282027657863657270745F6C656E677468272C2066756E6374696F6E2820246C656E6774682029207B0D0A092020202072657475726E2033303B0D0A7D2C2039393920293B0D0A0D0A6164645F66696C746572282027657863657270745F6D6F7265272C2066756E6374696F6E2820246D6F72652029207B0D0A092020202072657475726E20272668656C6C69703B273B0D0A7D20293B
+
+=== DB DIRECT PRINT ===
+add_filter( 'excerpt_length', function( $length ) {\n\t    return 30;\n}, 999 );\n\nadd_filter( 'excerpt_more', function( $more ) {\n\t    return '&hellip;';\n} );
+
