@@ -1,0 +1,44 @@
+=== SCRIPT DIFF ===
+--- /root/DRYCURED_GITHUB/server-reports/tech-security/daily_backup_script_fix_2026-05-28_16-51-38/drycured_daily_db_config_backup.before_v002.sh	2026-05-28 16:51:38.405182191 +0000
++++ /root/drycured_ops/drycured_daily_db_config_backup.sh	2026-05-28 16:51:38.447182544 +0000
+@@ -15,7 +15,7 @@
+   echo "[$(date -Is)] $*" | tee -a "$LOG_FILE"
+ }
+ 
+-log "DRYCURED daily DB + config backup v0.0.1 started"
++log "DRYCURED daily DB + config backup v0.0.2 started"
+ log "Backup dir: $BACKUP_DIR"
+ 
+ cd "$WP_ROOT"
+@@ -35,7 +35,7 @@
+ chmod 600 "$BACKUP_DIR/config/wp-config_${TS}.php.bak"
+ 
+ cat > "$BACKUP_DIR/manifests/MANIFEST.txt" <<MANIFEST
+-DRYCURED DAILY DB + CONFIG BACKUP v0.0.1
++DRYCURED DAILY DB + CONFIG BACKUP v0.0.2
+ Timestamp: $TS
+ Server: $(hostname)
+ WordPress root: $WP_ROOT
+@@ -57,7 +57,10 @@
+ MANIFEST
+ 
+ cd "$BACKUP_DIR"
+-find . -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum > manifests/SHA256SUMS.txt
++{
++  find ./db ./config -type f -print
++  printf '%s\n' ./manifests/MANIFEST.txt
++} | sort | xargs sha256sum > manifests/SHA256SUMS.txt
+ 
+ log "Validating SHA256 checksums..."
+ sha256sum -c manifests/SHA256SUMS.txt >> "$LOG_FILE"
+@@ -68,7 +71,7 @@
+ log "Final backup files:"
+ find "$BACKUP_DIR" -type f -printf "%TY-%Tm-%Td %TH:%TM %s %p\n" | sort >> "$LOG_FILE"
+ 
+-log "DRYCURED daily DB + config backup v0.0.1 finished: PASS"
++log "DRYCURED daily DB + config backup v0.0.2 finished: PASS"
+ 
+ echo "BACKUP_DIR=$BACKUP_DIR"
+ echo "LOG_FILE=$LOG_FILE"
+=== SYNTAX TEST ===
+syntax: PASS
