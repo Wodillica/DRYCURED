@@ -1,0 +1,11 @@
+Manual reload retest confirmed:
+
+/wp-content/ai1wm-backups/      -> 403 Forbidden
+/wp-content/backups-dup-lite/   -> 403 Forbidden
+
+Existing protected backup paths:
+/wp-content/litespeed/auto-backup/          -> 403 Forbidden
+/wp-content/uploads/drycured/backups/       -> 403 Forbidden
+
+Public pages and REST remained available:
+Home, sitemap.xml, Recepti, Alati and wp-json returned 200 OK.
