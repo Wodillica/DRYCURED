@@ -1,0 +1,70 @@
+=== DRYCURED BACKUP MONITOR v0.0.2 ===
+2026-05-28T17:15:10+00:00
+
+=== SYSTEMD TIMER STATUS ===
+timer_enabled=enabled
+timer_active=active
+
+=== NEXT TIMER RUN ===
+NEXT                                LEFT LAST                              PASSED UNIT                                  ACTIVATES
+Fri 2026-05-29 03:27:48 UTC          10h -                                      - drycured-daily-db-config-backup.timer drycured-daily-db-config-backup.service
+
+=== LAST SERVICE RESULT ===
+service_active_state=inactive
+service_sub_state=dead
+service_result=success
+service_exec_main_status=0
+
+=== SERVICE STATUS PREVIEW ===
+○ drycured-daily-db-config-backup.service - Drycured daily DB and config backup
+     Loaded: loaded (/etc/systemd/system/drycured-daily-db-config-backup.service; static)
+     Active: inactive (dead) since Thu 2026-05-28 17:00:15 UTC; 14min ago
+TriggeredBy: ● drycured-daily-db-config-backup.timer
+    Process: 616648 ExecStart=/root/drycured_ops/drycured_daily_db_config_backup.sh (code=exited, status=0/SUCCESS)
+   Main PID: 616648 (code=exited, status=0/SUCCESS)
+        CPU: 1.439s
+
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616690]: [2026-05-28T17:00:15+00:00] Copying protected wp-config.php...
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616701]: [2026-05-28T17:00:15+00:00] Validating SHA256 checksums...
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616705]: [2026-05-28T17:00:15+00:00] Applying retention: deleting daily_db_config_* older than 7 days
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616709]: [2026-05-28T17:00:15+00:00] Final backup files:
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616714]: [2026-05-28T17:00:15+00:00] DRYCURED daily DB + config backup v0.0.2 finished: PASS
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616648]: BACKUP_DIR=/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616648]: LOG_FILE=/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/logs/backup.log
+May 28 17:00:15 swab-production systemd[1]: drycured-daily-db-config-backup.service: Deactivated successfully.
+May 28 17:00:15 swab-production systemd[1]: Finished drycured-daily-db-config-backup.service - Drycured daily DB and config backup.
+May 28 17:00:15 swab-production systemd[1]: drycured-daily-db-config-backup.service: Consumed 1.439s CPU time.
+
+=== LATEST BACKUP ===
+latest_backup=/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+
+=== LATEST BACKUP AGE ===
+age_hours=0
+max_age_hours=36
+
+=== LATEST BACKUP FILES ===
+2026-05-28 17:00 10937 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/config/nginx_config_2026-05-28_17-00-13.tar.gz
+2026-05-28 17:00 1667 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/logs/backup.log
+2026-05-28 17:00 3424457 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/db/drycured_db_2026-05-28_17-00-13.sql.gz
+2026-05-28 17:00 4096 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/config/wp-config_2026-05-28_17-00-13.php.bak
+2026-05-28 17:00 429 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/manifests/SHA256SUMS.txt
+2026-05-28 17:00 598 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/manifests/MANIFEST.txt
+
+=== SHA256 VERIFY ===
+./config/nginx_config_2026-05-28_17-00-13.tar.gz: OK
+./config/wp-config_2026-05-28_17-00-13.php.bak: OK
+./db/drycured_db_2026-05-28_17-00-13.sql.gz: OK
+./manifests/MANIFEST.txt: OK
+
+=== BACKUP STORAGE USAGE ===
+17M	/root/drycured_production_backups
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_16-03-43
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_16-51-58
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_16-57-24
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+
+=== DAILY BACKUP COUNT ===
+daily_backup_count=4
+
+=== FINAL STATUS ===
+PASS

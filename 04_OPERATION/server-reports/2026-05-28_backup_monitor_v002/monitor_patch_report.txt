@@ -1,0 +1,57 @@
+=== MONITOR DIFF ===
+--- /root/DRYCURED_GITHUB/server-reports/tech-security/backup_monitor_v002_2026-05-28_17-11-51/drycured_backup_monitor.before_v002.sh	2026-05-28 17:11:51.950666018 +0000
++++ /root/drycured_ops/drycured_backup_monitor.sh	2026-05-28 17:11:51.952666033 +0000
+@@ -10,7 +10,9 @@
+ 
+ warn() {
+   echo "WARNING: $*"
+-  STATUS="WARNING"
++  if [ "$STATUS" != "FAIL" ]; then
++    STATUS="WARNING"
++  fi
+ }
+ 
+ fail() {
+@@ -18,7 +20,7 @@
+   STATUS="FAIL"
+ }
+ 
+-echo "=== DRYCURED BACKUP MONITOR v0.0.1 ==="
++echo "=== DRYCURED BACKUP MONITOR v0.0.2 ==="
+ date -Is
+ echo
+ 
+@@ -42,8 +44,29 @@
+ systemctl list-timers --all --no-pager | grep -E "NEXT|$TIMER" || warn "Timer not visible in list-timers."
+ 
+ echo
+-echo "=== LAST SERVICE STATUS ==="
+-systemctl status "$SERVICE" --no-pager | sed -n '1,80p' || warn "Could not read service status."
++echo "=== LAST SERVICE RESULT ==="
++SERVICE_ACTIVE_STATE=$(systemctl show "$SERVICE" -p ActiveState --value 2>/dev/null || true)
++SERVICE_SUB_STATE=$(systemctl show "$SERVICE" -p SubState --value 2>/dev/null || true)
++SERVICE_RESULT=$(systemctl show "$SERVICE" -p Result --value 2>/dev/null || true)
++SERVICE_EXEC_STATUS=$(systemctl show "$SERVICE" -p ExecMainStatus --value 2>/dev/null || true)
++
++echo "service_active_state=$SERVICE_ACTIVE_STATE"
++echo "service_sub_state=$SERVICE_SUB_STATE"
++echo "service_result=$SERVICE_RESULT"
++echo "service_exec_main_status=$SERVICE_EXEC_STATUS"
++
++# For oneshot services, inactive/dead after successful run is normal.
++if [ "$SERVICE_RESULT" != "success" ] && [ "$SERVICE_RESULT" != "" ]; then
++  fail "Last service result is not success."
++fi
++
++if [ "$SERVICE_EXEC_STATUS" != "0" ] && [ "$SERVICE_EXEC_STATUS" != "" ]; then
++  fail "Last service ExecMainStatus is not 0."
++fi
++
++echo
++echo "=== SERVICE STATUS PREVIEW ==="
++systemctl status "$SERVICE" --no-pager | sed -n '1,80p' || true
+ 
+ echo
+ echo "=== LATEST BACKUP ==="
+=== SYNTAX TEST ===
+syntax: PASS
