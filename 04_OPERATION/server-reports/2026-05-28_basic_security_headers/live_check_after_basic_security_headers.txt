@@ -1,0 +1,157 @@
+---- https://drycured.com/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:13:40 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/101>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/>; rel=shortlink
+
+
+---- https://drycured.com/proces-izrade/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:13:40 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2864>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2864>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+
+
+---- https://drycured.com/recepti/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:13:40 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/102>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=102>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+
+
+---- https://drycured.com/alati/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:13:40 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2349>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2349>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+
+
+---- https://drycured.com/kalkulator-susenja/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:13:40 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2823>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2823>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+
+
+---- https://drycured.com/starter-kulture/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:13:40 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2945>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2945>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+
+
+---- https://drycured.com/sitemap.xml ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:13:40 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Robots-Tag: noindex, follow
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+
+
+---- https://drycured.com/wp-json/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:13:40 GMT
+Content-Type: application/json; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Robots-Tag: noindex
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+X-Content-Type-Options: nosniff
+Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link
+Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+Allow: GET
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+
+
+---- https://drycured.com/wp-login.php ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 15:13:41 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Set-Cookie: wordpress_test_cookie=WP%20Cookie%20check; path=/; domain=.drycured.com; secure
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+
+

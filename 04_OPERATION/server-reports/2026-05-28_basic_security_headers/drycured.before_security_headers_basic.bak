@@ -1,0 +1,79 @@
+server {
+    if ($host = www.drycured.com) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    if ($host = drycured.com) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    listen 80;
+    server_name drycured.com www.drycured.com;
+    return 301 https://drycured.com$request_uri;
+
+
+
+
+}
+
+server {
+    listen 443 ssl;
+    server_name drycured.com www.drycured.com;
+    root /var/www/html;
+
+    # DRYCURED public exposure block v0.0.2
+    # Blocks public access to backup/archive/staging files.
+    location ^~ /projekti/ {
+        deny all;
+        return 403;
+    }
+
+    location ^~ /swabtest/ {
+        deny all;
+        return 403;
+    }
+
+    location ^~ /wp-content/uploads/drycured/backups/ {
+        deny all;
+        return 403;
+    }
+
+    location ^~ /wp-content/uploads/drycured/infografike-greske-staging/ {
+        deny all;
+        return 403;
+    }
+
+    location ~* ^/wp-content/(plugins|themes|mu-plugins)/.*\.(bak|old|orig|save|sql|sql\.gz|tar|tar\.gz|tgz|zip|7z|rar)$ {
+        deny all;
+        return 403;
+    }
+
+    location ~* \.(sql|sql\.gz|tar|tar\.gz|tgz|7z|rar|bak|old|orig|save)$ {
+        deny all;
+        return 403;
+    }
+
+
+    client_max_body_size 256M;
+    index index.php index.html;
+
+    include /etc/nginx/snippets/drycured-gzip-types.conf;
+    include /etc/nginx/snippets/drycured-static-cache.conf;
+    ssl_certificate /etc/letsencrypt/live/drycured.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/drycured.com/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;
+    }
+
+
+}
