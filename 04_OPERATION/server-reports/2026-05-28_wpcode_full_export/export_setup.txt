@@ -1,0 +1,2 @@
+REPORT_DIR=/root/DRYCURED_GITHUB/server-reports/tech-security/wpcode_full_export_2026-05-28_18-32-23
+EXPORT_DIR=/root/drycured_private_exports/wpcode_full_export_2026-05-28_18-32-23

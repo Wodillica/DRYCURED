@@ -1,0 +1,28 @@
+=== WPCODE FULL EXPORT — NO CHANGES ===
+2026-05-28T18:32:23+00:00
+=== EXPORT WPCODE POSTS SQL ===
+=== EXPORT WPCODE META SQL ===
+=== EXPORT WPCODE INVENTORY ===
+ID	post_title	post_status	post_date	post_modified
+2815	Kalkulator Soli — Fix gumbi kopiraj/print	publish	2026-05-16 19:12:28	2026-05-16 19:21:44
+1619	Savjeti — Rotacijski Widget	publish	2026-04-25 11:03:22	2026-05-02 04:19:04
+1506	Savjeti — Custom Post Type	publish	2026-04-21 14:17:15	2026-04-21 14:17:15
+1505	GTranslate Navigation Styling	draft	2026-04-19 09:23:25	2026-05-02 04:35:12
+1454	Limit Elementor Posts Excerpt Length	publish	2026-03-25 16:24:32	2026-03-25 16:24:32
+1429	Flip Viewer — Knjiga stranica	publish	2026-03-19 20:17:17	2026-04-20 14:26:03
+1426	Nginx fix via shell	publish	2026-03-19 20:03:30	2026-03-19 20:03:30
+1425	Fix nginx client_max_body_size	draft	2026-03-19 19:55:12	2026-03-19 19:55:12
+1424	PDF Chunked Upload Admin Page	publish	2026-03-19 19:47:01	2026-03-19 19:47:01
+1423	Fix nginx upload limit + PDF uploader	draft	2026-03-19 19:44:47	2026-03-19 19:44:47
+1422	Povećaj upload limit na 256MB	publish	2026-03-19 19:38:03	2026-03-19 19:38:03
+1421	GTranslate u mobilni meni	draft	2026-03-19 19:19:59	2026-05-02 04:35:13
+1420	Mobilni header — redoslijed i GTranslate	draft	2026-03-19 19:16:22	2026-05-02 04:35:13
+1419	GTranslate — mobilni floating widget	draft	2026-03-19 18:30:07	2026-05-02 04:35:14
+1418	Veličina naslova — početna stranica	publish	2026-03-19 17:44:59	2026-03-19 18:20:31
+1417	Flush Elementor Cache post 101	publish	2026-03-19 17:17:14	2026-03-19 17:17:14
+1413	GTranslate - pozicija desno	draft	2026-03-19 16:46:00	2026-05-02 04:35:15
+1412	Obriši TranslatePress	draft	2026-03-19 16:27:49	2026-03-19 16:31:28
+1411	GTranslate — crni tekst u izborniku	draft	2026-03-19 16:22:46	2026-05-02 04:35:15
+620	Display a message after the 1st paragraph of posts	draft	2025-03-02 08:32:27	2025-03-02 08:32:27
+621	Completely Disable Comments	draft	2025-03-02 08:32:27	2025-03-02 08:32:27
+=== CREATE READABLE SNIPPET EXPORT FILES ===
