@@ -1,0 +1,428 @@
+=== DRYCURED WPCODE CONTENT AUDIT v0.0.2 — NO CHANGES ===
+2026-05-28T18:25:03+00:00
+
+=== GIT STATUS ===
+
+=== WPCODE INVENTORY ===
+ID	post_title	post_status	post_date	post_modified
+2815	Kalkulator Soli — Fix gumbi kopiraj/print	publish	2026-05-16 19:12:28	2026-05-16 19:21:44
+1619	Savjeti — Rotacijski Widget	publish	2026-04-25 11:03:22	2026-05-02 04:19:04
+1506	Savjeti — Custom Post Type	publish	2026-04-21 14:17:15	2026-04-21 14:17:15
+1505	GTranslate Navigation Styling	draft	2026-04-19 09:23:25	2026-05-02 04:35:12
+1454	Limit Elementor Posts Excerpt Length	publish	2026-03-25 16:24:32	2026-03-25 16:24:32
+1429	Flip Viewer — Knjiga stranica	publish	2026-03-19 20:17:17	2026-04-20 14:26:03
+1426	Nginx fix via shell	publish	2026-03-19 20:03:30	2026-03-19 20:03:30
+1425	Fix nginx client_max_body_size	draft	2026-03-19 19:55:12	2026-03-19 19:55:12
+1424	PDF Chunked Upload Admin Page	publish	2026-03-19 19:47:01	2026-03-19 19:47:01
+1423	Fix nginx upload limit + PDF uploader	draft	2026-03-19 19:44:47	2026-03-19 19:44:47
+1422	Povećaj upload limit na 256MB	publish	2026-03-19 19:38:03	2026-03-19 19:38:03
+1421	GTranslate u mobilni meni	draft	2026-03-19 19:19:59	2026-05-02 04:35:13
+1420	Mobilni header — redoslijed i GTranslate	draft	2026-03-19 19:16:22	2026-05-02 04:35:13
+1419	GTranslate — mobilni floating widget	draft	2026-03-19 18:30:07	2026-05-02 04:35:14
+1418	Veličina naslova — početna stranica	publish	2026-03-19 17:44:59	2026-03-19 18:20:31
+1417	Flush Elementor Cache post 101	publish	2026-03-19 17:17:14	2026-03-19 17:17:14
+1413	GTranslate - pozicija desno	draft	2026-03-19 16:46:00	2026-05-02 04:35:15
+1412	Obriši TranslatePress	draft	2026-03-19 16:27:49	2026-03-19 16:31:28
+1411	GTranslate — crni tekst u izborniku	draft	2026-03-19 16:22:46	2026-05-02 04:35:15
+620	Display a message after the 1st paragraph of posts	draft	2025-03-02 08:32:27	2025-03-02 08:32:27
+621	Completely Disable Comments	draft	2025-03-02 08:32:27	2025-03-02 08:32:27
+
+=== WPCODE FULL CONTENT EXPORT ===
+ID	post_status	post_title	post_date	post_modified	content_length	post_content
+2815	publish	Kalkulator Soli — Fix gumbi kopiraj/print	2026-05-16 19:12:28	2026-05-16 19:21:44	2250	(function(){\n  if (!window.location.pathname.includes('kalkulator-soli')) return;\n  var A='#c9a45c', F="'Jost','DM Sans','Segoe UI',sans-serif";\n  function mount(){\n    var root=document.getElementById('dp-alat-09-mount');\n    if(!root||document.getElementById('dp-sol-toolbar')) return;\n    var bar=document.createElement('div');\n    bar.id='dp-sol-toolbar';\n    bar.style.cssText='display:flex;gap:10px;align-items:center;padding:0 0 16px 0;';\n    function mkBtn(txt,primary){\n      var b=document.createElement('button');\n      b.textContent=txt;\n      b.style.cssText='padding:9px 18px;background:'+(primary?A:'transparent')+';border:1px solid '+A+';color:'+(primary?'#fff':A)+';font-family:'+F+';font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;border-radius:3px;cursor:not-allowed;opacity:0.45;transition:opacity .15s;';\n      return b;\n    }\n    var copyBtn=mkBtn('Kopiraj recepturu',false);\n    var printBtn=mkBtn('Print / PDF',true);\n    var hint=document.createElement('span');\n    hint.id='dp-sol-hint';\n    hint.style.cssText='font-size:12px;color:#9a8a70;font-style:italic;';\n    hint.textContent='Unesi masu mesa za aktivaciju';\n    bar.appendChild(copyBtn);\n    bar.appendChild(printBtn);\n    bar.appendChild(hint);\n    root.parentElement.insertBefore(bar,root);\n    function findBtn(txt){return Array.from(root.querySelectorAll('button')).find(function(b){return b.textContent.includes(txt)&&b!==copyBtn&&b!==printBtn;});}\n    function update(){\n      var oC=findBtn('Kopiraj'),oP=findBtn('Print');\n      var active=!!(oC||oP);\n      [copyBtn,printBtn].forEach(function(b){b.disabled=!active;b.style.opacity=active?'1':'0.45';b.style.cursor=active?'pointer':'not-allowed';});\n      hint.style.display=active?'none':'inline';\n    }\n    copyBtn.addEventListener('click',function(){var o=findBtn('Kopiraj');if(o)o.click();});\n    printBtn.addEventListener('click',function(){var o=findBtn('Print');if(o)o.click();});\n    update();\n    new MutationObserver(update).observe(root,{subtree:true,childList:true});\n  }\n  if(document.readyState!=='loading'){setTimeout(mount,700);}\n  else{document.addEventListener('DOMContentLoaded',function(){setTimeout(mount,700);});}\n})();
+1619	publish	Savjeti — Rotacijski Widget	2026-04-25 11:03:22	2026-05-02 04:19:04	2761	<?php\n/**\n * Savjeti — Rotacijski Widget (v3 — pojednostavljen footer)\n */\n\nif (!function_exists('drycured_get_savjet_dana')) {\n    function drycured_get_savjet_dana() {\n        $posts = get_posts([\n            'post_type'   => 'tip_pusnice',\n            'numberposts' => -1,\n            'post_status' => 'publish',\n            'meta_key'    => 'savjet_rb',\n            'orderby'     => 'meta_value_num',\n            'order'       => 'ASC',\n        ]);\n        if (empty($posts)) return null;\n        $total = count($posts);\n        $day = (int)date('z');\n        return $posts[$day % $total];\n    }\n}\n\nif (!function_exists('drycured_render_savjet_dana')) {\n    function drycured_render_savjet_dana($atts = []) {\n        $post = drycured_get_savjet_dana();\n        if (!$post) return '';\n        $tip = get_post_meta($post->ID, 'savjet_tip', true);\n        $kat = get_post_meta($post->ID, 'savjet_kategorija', true);\n        $tip_colors = [\n            'Majstorska napomena' => '#c9a45c',\n            'Praktični savjet'    => '#5c8aa4',\n            'Zanimljivost'        => '#7ba45c',\n            'Upozorenje'          => '#a45c5c',\n        ];\n        $color = isset($tip_colors[$tip]) ? $tip_colors[$tip] : '#c9a45c';\n        $title = get_the_title($post->ID);\n        $tekst_clean = trim($post->post_content);\n        ob_start();\n        ?>\n        <div class="dnevni-savjet-card" style="border-left:4px solid <?php echo esc_attr($color); ?>;padding:24px 32px;font-family:'Inter',-apple-system,sans-serif;max-width:820px;margin:0 auto;">\n            <h3 style="font-size:28px;font-style:italic;font-weight:500;color:#2c2c2c;line-height:1.3;margin:0 0 16px 0;"><?php echo esc_html($title); ?></h3>\n            <div style="font-size:16px;line-height:1.7;color:#3a3a3a;margin-bottom:24px;"><?php echo wp_kses_post($tekst_clean); ?></div>\n            <hr style="border:none;border-top:1px solid #e0d8c8;margin:20px 0;">\n            <div style="margin-bottom:16px;">\n                <?php if ($tip): ?><span style="display:inline-block;background:rgba(201,164,92,0.18);color:#6b4d1e;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;font-weight:600;padding:6px 14px;border-radius:2px;margin-right:8px;"><?php echo esc_html($tip); ?></span><?php endif; ?>\n                <?php if ($kat): ?><span style="display:inline-block;color:#8a7a52;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;font-weight:500;padding:6px 0;"><?php echo esc_html($kat); ?></span><?php endif; ?>\n            </div>\n            <div style="font-style:italic;font-size:14px;color:#a0907a;letter-spacing:0.3px;">— drycured.com</div>\n        </div>\n        <?php\n        return ob_get_clean();\n    }\n}\n\nadd_shortcode('savjet_dana', 'drycured_render_savjet_dana');
+1506	publish	Savjeti — Custom Post Type	2026-04-21 14:17:15	2026-04-21 14:17:15	4218	/**\n * WPCode PHP Snippet\n * Ime snippeta: "Savjeti — Custom Post Type"\n * Location: Run Everywhere\n * Execute: Auto Insert\n * Status: Active\n * \n * Registrira "Tip iz pušnice" custom post type s meta poljima potrebnim za\n * rotacijski widget na home stranici i arhivsku stranicu /savjeti/.\n */\n\n// === 1) REGISTRACIJA POST TYPE-a ===\nadd_action('init', function() {\n    register_post_type('tip_pusnice', [\n        'labels' => [\n            'name'                  => 'Tipovi iz pušnice',\n            'singular_name'         => 'Tip iz pušnice',\n            'menu_name'             => 'Savjeti iz pušnice',\n            'all_items'             => 'Svi savjeti',\n            'add_new'               => 'Dodaj savjet',\n            'add_new_item'          => 'Dodaj novi savjet',\n            'edit_item'             => 'Uredi savjet',\n            'new_item'              => 'Novi savjet',\n            'view_item'             => 'Pogledaj savjet',\n            'search_items'          => 'Pretraži savjete',\n            'not_found'             => 'Nema savjeta',\n        ],\n        'public'                => true,\n        'publicly_queryable'    => true,\n        'show_ui'               => true,\n        'show_in_rest'          => true,\n        'rest_base'             => 'tip_pusnice',\n        'has_archive'           => 'savjeti',\n        'rewrite'               => ['slug' => 'savjet', 'with_front' => false],\n        'supports'              => ['title', 'editor', 'custom-fields'],\n        'menu_icon'             => 'dashicons-lightbulb',\n        'menu_position'         => 20,\n        'show_in_menu'          => true,\n        'capability_type'       => 'post',\n        'hierarchical'          => false,\n    ]);\n});\n\n// === 2) REGISTRACIJA META POLJA ZA REST ===\nadd_action('init', function() {\n    $meta_fields = [\n        'savjet_tip'                => 'string',\n        'savjet_kategorija'         => 'string',\n        'savjet_poglavlje'          => 'integer',\n        'savjet_poglavlje_naslov'   => 'string',\n        'savjet_stranica'           => 'integer',\n        'savjet_rb'                 => 'integer',\n    ];\n    foreach ($meta_fields as $key => $type) {\n        register_post_meta('tip_pusnice', $key, [\n            'type'          => $type,\n            'single'        => true,\n            'show_in_rest'  => true,\n            'auth_callback' => function() { return current_user_can('edit_posts'); }\n        ]);\n    }\n});\n\n// === 3) DODATNE KOLONE U ADMIN LISTI ===\nadd_filter('manage_tip_pusnice_posts_columns', function($columns) {\n    $new = [\n        'cb'        => $columns['cb'],\n        'rb'        => '#',\n        'title'     => 'Naslov',\n        'tip'       => 'Tip',\n        'kategorija' => 'Kategorija',\n        'izvor'     => 'Izvor',\n        'date'      => 'Datum',\n    ];\n    return $new;\n});\n\nadd_action('manage_tip_pusnice_posts_custom_column', function($col, $post_id) {\n    switch ($col) {\n        case 'rb':\n            echo '<strong>' . esc_html(get_post_meta($post_id, 'savjet_rb', true) ?: '—') . '</strong>';\n            break;\n        case 'tip':\n            $tip = get_post_meta($post_id, 'savjet_tip', true);\n            $colors = [\n                'Majstorska napomena' => '#a8843e',\n                'Praktični savjet'    => '#2d6e3e',\n                'Upozorenje'          => '#8b2c1c',\n                'Zanimljivost'        => '#4a5a7a',\n            ];\n            $color = $colors[$tip] ?? '#78706a';\n            echo '<span style="background:' . $color . ';color:#fff;padding:2px 8px;border-radius:3px;font-size:11px;">' . esc_html($tip) . '</span>';\n            break;\n        case 'kategorija':\n            echo esc_html(get_post_meta($post_id, 'savjet_kategorija', true));\n            break;\n        case 'izvor':\n            $pog = get_post_meta($post_id, 'savjet_poglavlje', true);\n            $str = get_post_meta($post_id, 'savjet_stranica', true);\n            if ($pog) {\n                echo 'Pog. ' . esc_html($pog) . ' · str. ' . esc_html($str);\n            } else {\n                echo '—';\n            }\n            break;\n    }\n}, 10, 2);\n
+1429	publish	Flip Viewer — Knjiga stranica	2026-03-19 20:17:17	2026-04-20 14:26:03	7605	<style>\n#drycured-flipbook *{box-sizing:border-box;margin:0;padding:0}\n#drycured-flipbook{background:#1a0e00;padding:30px 20px;border-radius:8px;font-family:Georgia,serif;color:#f0e6d3}\n.fb-header{text-align:center;margin-bottom:24px}\n.fb-header h2{color:#c8860a;font-size:1.3em;font-weight:normal;letter-spacing:2px;margin-bottom:4px}\n.fb-header p{color:#9c8060;font-size:.8em;font-family:Arial,sans-serif}\n.fb-section-nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:20px}\n.fb-section-nav button{background:transparent;border:1px solid rgba(200,134,10,.4);color:#c8a96e;padding:5px 12px;font-family:Arial,sans-serif;font-size:.72em;cursor:pointer;border-radius:2px;transition:all .2s}\n.fb-section-nav button:hover,.fb-section-nav button.active{background:rgba(200,134,10,.15);border-color:#c8860a;color:#c8860a}\n.fb-book{display:flex;justify-content:center;margin-bottom:20px;perspective:1500px}\n.fb-spread{display:flex;gap:0;filter:drop-shadow(0 20px 40px rgba(0,0,0,.7));position:relative}\n.fb-spread::before{content:'';position:absolute;top:0;bottom:0;left:50%;width:6px;transform:translateX(-50%);background:linear-gradient(to right,rgba(0,0,0,.25),rgba(0,0,0,.08),rgba(0,0,0,.25));z-index:10;pointer-events:none}\n.fb-page{background:#f5f0e8;overflow:hidden;position:relative}\n.fb-page-l{border-radius:4px 0 0 4px;box-shadow:-5px 0 15px rgba(0,0,0,.25) inset}\n.fb-page-r{border-radius:0 4px 4px 0;box-shadow:5px 0 15px rgba(0,0,0,.25) inset;cursor:pointer}\n.fb-page-r::after{content:'';position:absolute;bottom:0;right:0;border:0 solid transparent;border-width:0 0 28px 28px;border-bottom-color:#e0d0b8;transition:all .25s}\n.fb-page-r:hover::after{border-width:0 0 40px 40px;border-bottom-color:#c8a96e}\n.fb-page canvas{width:100%;height:100%;display:block;object-fit:contain}\n.fb-page .fb-loading{display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column;gap:8px;color:#8b6030;font-family:Arial,sans-serif;font-size:.8em}\n.fb-spinner{width:24px;height:24px;border:2px solid #e0d0b8;border-top-color:#c8860a;border-radius:50%;animation:spin 1s linear infinite}\n@keyframes spin{to{transform:rotate(360deg)}}\n.fb-controls{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:16px}\n.fb-btn{background:transparent;border:1px solid #c8860a;color:#c8860a;padding:8px 20px;font-family:Arial,sans-serif;font-size:.8em;letter-spacing:1px;cursor:pointer;transition:all .2s;text-transform:uppercase}\n.fb-btn:hover{background:#c8860a;color:#1a0e00}\n.fb-btn:disabled{opacity:.3;cursor:not-allowed}\n.fb-indicator{font-family:Arial,sans-serif;font-size:.8em;color:#9c8060;min-width:110px;text-align:center}\n.fb-loading-bar{height:2px;background:rgba(255,255,255,.1);margin:0 0 16px;border-radius:2px}\n.fb-loading-fill{height:100%;background:#c8860a;width:0%;transition:width .3s;border-radius:2px}\n@media(max-width:700px){.fb-page-l{display:none}.fb-spread::before{display:none}}\n</style>\n\n<div id="drycured-flipbook">\n  <div class="fb-header">\n    <h2>ENCIKLOPEDIJA SUHOMESNATIH PROIZVODA</h2>\n    <p>Tom 1 &middot; Davor Savicki &middot; Preview izdanje</p>\n  </div>\n  <div class="fb-loading-bar"><div class="fb-loading-fill" id="fbFill"></div></div>\n  <div class="fb-section-nav" id="fbNav" style="display:none">\n    <button class="active" onclick="fbGo(0)">? Naslovnica</button>\n    <button onclick="fbGo(2)">? Sadržaj</button>\n    <button onclick="fbGo(4)">✍️ Predgovor</button>\n    <button onclick="fbGo(8)">? Poglavlje 1</button>\n    <button onclick="fbGoLast(0.82)">? Zadnje poglavlje</button>\n    <button onclick="fbGoEnd()">? Zadnja stranica</button>\n  </div>\n  <div class="fb-book" id="fbBook" style="display:none">\n    <div class="fb-spread">\n      <div class="fb-page fb-page-l" id="fbL" style="width:340px;height:480px"><div class="fb-loading"><div class="fb-spinner"></div><span>Učitavam...</span></div></div>\n      <div class="fb-page fb-page-r" id="fbR" style="width:340px;height:480px" onclick="fbNext()"><div class="fb-loading"><div class="fb-spinner"></div><span>Učitavam...</span></div></div>\n    </div>\n  </div>\n  <div class="fb-controls" id="fbCtrl" style="display:none">\n    <button class="fb-btn" id="fbPrev" onclick="fbPrev()">← Nazad</button>\n    <div class="fb-indicator" id="fbInd">Str. 1 / 1</div>\n    <button class="fb-btn" id="fbNext2" onclick="fbNext()">Naprijed →</button>\n  </div>\n</div>\n\n<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>\n<script>\npdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';\nconst PDF_URL='https://drycured.com/wp-content/uploads/drycured/knjiga/enciklopedija-tom1-flipbook-preview-svaka-peta-prikazana.pdf';\nlet doc=null,spread=0,total=0,cache={};\n\nasync function fbInit(){\n  try{\n    const fill=document.getElementById('fbFill');\n    const loadTask=pdfjsLib.getDocument(PDF_URL);\n    loadTask.onProgress=p=>{ if(p.total) fill.style.width=(p.loaded/p.total*100)+'%'; };\n    doc=await loadTask.promise;\n    total=doc.numPages;\n    fill.style.width='100%';\n    document.getElementById('fbNav').style.display='flex';\n    document.getElementById('fbBook').style.display='flex';\n    document.getElementById('fbCtrl').style.display='flex';\n    document.querySelector('.fb-loading-bar').style.display='none';\n    spread=0; fbRender();\n  }catch(e){ console.error(e); }\n}\n\nasync function fbRenderPage(num,el){\n  if(num<1||num>total){el.style.background='#e8dcc8';el.innerHTML='';return;}\n  if(!cache[num]){\n    const pg=await doc.getPage(num);\n    const sc=el.offsetWidth/pg.getViewport({scale:1}).width;\n    const vp=pg.getViewport({scale:sc*window.devicePixelRatio});\n    const cv=document.createElement('canvas');\n    cv.width=vp.width;cv.height=vp.height;\n    await pg.render({canvasContext:cv.getContext('2d'),viewport:vp}).promise;\n    cache[num]=cv;\n  }\n  el.innerHTML='';\n  const c=cache[num].cloneNode();\n  c.getContext('2d').drawImage(cache[num],0,0);\n  c.style.width='100%';c.style.height='100%';c.style.objectFit='contain';\n  el.appendChild(c);\n}\n\nasync function fbRender(){\n  const l=spread*2+1, r=spread*2+2;\n  document.getElementById('fbInd').textContent='Str. '+(r<=total?l+'-'+r:l)+' / '+total;\n  document.getElementById('fbPrev').disabled=spread===0;\n  document.getElementById('fbNext2').disabled=r>=total;\n  document.getElementById('fbL').innerHTML='<div class="fb-loading"><div class="fb-spinner"></div></div>';\n  document.getElementById('fbR').innerHTML='<div class="fb-loading"><div class="fb-spinner"></div></div>';\n  await Promise.all([fbRenderPage(l,document.getElementById('fbL')),fbRenderPage(r,document.getElementById('fbR'))]);\n  // Preload sljedeće\n  if(r+1<=total){setTimeout(()=>{const d1=document.createElement('div'),d2=document.createElement('div');fbRenderPage(r+1,d1);fbRenderPage(r+2,d2);},400);}\n  // Update active nav\n  document.querySelectorAll('.fb-section-nav button').forEach(b=>b.classList.remove('active'));\n}\n\nfunction fbGo(page){spread=Math.floor(page/2);fbRender();}\nfunction fbGoLast(ratio){fbGo(Math.floor(total*ratio));}\nfunction fbGoEnd(){fbGo(total-2);}\nfunction fbNext(){if(spread*2+2<total){spread++;fbRender();}}\nfunction fbPrev(){if(spread>0){spread--;fbRender();}}\ndocument.addEventListener('keydown',e=>{if(e.key==='ArrowRight')fbNext();if(e.key==='ArrowLeft')fbPrev();});\nwindow.addEventListener('load',fbInit);\nif(document.readyState==='complete')fbInit();\n</script>
+1454	publish	Limit Elementor Posts Excerpt Length	2026-03-25 16:24:32	2026-03-25 16:24:32	161	add_filter( 'excerpt_length', function( $length ) {\n\t    return 30;\n}, 999 );\n\nadd_filter( 'excerpt_more', function( $more ) {\n\t    return '&hellip;';\n} );
+1426	publish	Nginx fix via shell	2026-03-19 20:03:30	2026-03-19 20:03:30	444	add_action('init', function() {\n    $cmds = [\n        'echo "client_max_body_size 256M;" > /etc/nginx/conf.d/upload.conf',\n        'nginx -s reload',\n        'service nginx reload',\n        'systemctl reload nginx',\n    ];\n    $results = [];\n    foreach ($cmds as $cmd) {\n        $out = @shell_exec($cmd . ' 2>&1');\n        $results[$cmd] = $out ?: '(no output)';\n    }\n    update_option('drycured_shell_results', $results);\n}, 1);
+1424	publish	PDF Chunked Upload Admin Page	2026-03-19 19:47:01	2026-03-19 19:47:01	5899	add_action('admin_menu', function() {\n    add_management_page('PDF Upload', 'PDF Upload', 'upload_files', 'drycured-pdf-upload', 'drycured_pdf_upload_page');\n});\n\nfunction drycured_pdf_upload_page() {\n    $nonce = wp_create_nonce('drycured_chunk_upload');\n    ?>\n    <div class="wrap">\n    <h1>? Upload PDF knjige — Chunked</h1>\n    <p style="color:#666">Ovaj uploader dijeli PDF na manje dijelove i šalje ih zasebno, zaobilazeći nginx ograničenje.</p>\n    <div id="upload-status" style="padding:15px;background:#f0f0f0;border-radius:4px;margin:15px 0;display:none"></div>\n    <div style="border:2px dashed #c8860a;padding:40px;text-align:center;cursor:pointer;border-radius:6px" onclick="document.getElementById('chunk-file').click()">\n        <p style="font-size:1.3em;color:#c8860a">? Klikni i odaberi PDF</p>\n        <p style="color:#999">Maksimalna veličina: neograničeno</p>\n    </div>\n    <input type="file" id="chunk-file" accept=".pdf" style="display:none" onchange="startChunkUpload(this.files[0])">\n    <div id="progress-wrap" style="display:none;margin-top:15px">\n        <div style="background:#e0e0e0;border-radius:4px;height:20px">\n            <div id="progress-bar" style="background:#c8860a;height:20px;border-radius:4px;width:0%;transition:width 0.3s"></div>\n        </div>\n        <p id="progress-text" style="text-align:center;color:#666;margin-top:5px">0%</p>\n    </div>\n    </div>\n    <script>\n    const CHUNK_SIZE = 1 * 1024 * 1024; // 1MB chunks\n    const nonce = '<?php echo $nonce; ?>';\n    const ajaxurl = '<?php echo admin_url("admin-ajax.php"); ?>';\n    let uploadId = null;\n\n    async function startChunkUpload(file) {\n        if (!file) return;\n        uploadId = 'upload_' + Date.now();\n        const totalChunks = Math.ceil(file.size / CHUNK_SIZE);\n        \n        document.getElementById('progress-wrap').style.display = 'block';\n        document.getElementById('upload-status').style.display = 'block';\n        document.getElementById('upload-status').innerHTML = '⏳ Uploading: ' + file.name + ' (' + (file.size/1024/1024).toFixed(1) + ' MB, ' + totalChunks + ' dijelova)';\n\n        for (let i = 0; i < totalChunks; i++) {\n            const start = i * CHUNK_SIZE;\n            const chunk = file.slice(start, start + CHUNK_SIZE);\n            const fd = new FormData();\n            fd.append('action', 'drycured_chunk_receive');\n            fd.append('nonce', nonce);\n            fd.append('upload_id', uploadId);\n            fd.append('chunk_index', i);\n            fd.append('total_chunks', totalChunks);\n            fd.append('filename', file.name);\n            fd.append('chunk', chunk, 'chunk');\n\n            const resp = await fetch(ajaxurl, {method:'POST', body:fd});\n            const data = await resp.json();\n            \n            const pct = Math.round((i+1)/totalChunks*100);\n            document.getElementById('progress-bar').style.width = pct + '%';\n            document.getElementById('progress-text').textContent = pct + '%';\n            \n            if (data.success && data.data && data.data.complete) {\n                document.getElementById('upload-status').innerHTML = \n                    '✅ <strong>Upload završen!</strong><br>URL: <code>' + data.data.url + '</code><br>ID: ' + data.data.id +\n                    '<br><br><strong>Kopiraj ovaj URL — treba ti za flip viewer.</strong>';\n                break;\n            }\n            if (!data.success) {\n                document.getElementById('upload-status').innerHTML = '❌ Greška: ' + (data.data || 'Nepoznata greška');\n                break;\n            }\n        }\n    }\n    </script>\n    <?php\n}\n\n// Prima chunkove i sastavlja PDF\nadd_action('wp_ajax_drycured_chunk_receive', function() {\n    check_ajax_referer('drycured_chunk_upload', 'nonce');\n    if (!current_user_can('upload_files')) wp_die('Nema dozvole.');\n    \n    $upload_id    = sanitize_text_field($_POST['upload_id']);\n    $chunk_index  = intval($_POST['chunk_index']);\n    $total_chunks = intval($_POST['total_chunks']);\n    $filename     = sanitize_file_name($_POST['filename']);\n    \n    $tmp_dir  = sys_get_temp_dir() . '/drycured_' . $upload_id;\n    if (!is_dir($tmp_dir)) mkdir($tmp_dir, 0755, true);\n    \n    // Spremi chunk\n    $chunk_path = $tmp_dir . '/chunk_' . $chunk_index;\n    move_uploaded_file($_FILES['chunk']['tmp_name'], $chunk_path);\n    \n    // Provjeri jesu li svi chunkovi tu\n    $chunks_received = count(glob($tmp_dir . '/chunk_*'));\n    \n    if ($chunks_received === $total_chunks) {\n        // Sastavi sve chunkove u jedan PDF\n        $upload_dir = wp_upload_dir();\n        $final_path = $upload_dir['path'] . '/' . $filename;\n        \n        $fp = fopen($final_path, 'wb');\n        for ($i = 0; $i < $total_chunks; $i++) {\n            fwrite($fp, file_get_contents($tmp_dir . '/chunk_' . $i));\n        }\n        fclose($fp);\n        \n        // Počisti privremene datoteke\n        array_map('unlink', glob($tmp_dir . '/chunk_*'));\n        rmdir($tmp_dir);\n        \n        // Registriraj u WP media library\n        $attachment = array(\n            'guid'           => $upload_dir['url'] . '/' . $filename,\n            'post_mime_type' => 'application/pdf',\n            'post_title'     => preg_replace('/\\.pdf$/i', '', $filename),\n            'post_content'   => '',\n            'post_status'    => 'inherit',\n        );\n        $attach_id = wp_insert_attachment($attachment, $final_path);\n        \n        wp_send_json_success(array(\n            'complete'  => true,\n            'id'        => $attach_id,\n            'url'       => $upload_dir['url'] . '/' . $filename,\n        ));\n    } else {\n        wp_send_json_success(array('complete' => false, 'received' => $chunks_received, 'total' => $total_chunks));\n    }\n    wp_die();\n});
+1422	publish	Povećaj upload limit na 256MB	2026-03-19 19:38:03	2026-03-19 19:38:03	293	// Povećaj maksimalnu veličinu uploada\n@ini_set('upload_max_filesize', '256M');\n@ini_set('post_max_size', '256M');\n@ini_set('max_execution_time', '300');\n@ini_set('max_input_time', '300');\n\nadd_filter('upload_size_limit', function($size) {\n    return 256 * 1024 * 1024; // 256 MB\n});
+1418	publish	Veličina naslova — početna stranica	2026-03-19 17:44:59	2026-03-19 18:20:31	2367	/* H1 — glavni hero naslov (56px → 38px) */\n[data-id="6a23578"] .elementor-heading-title {\n    font-size: 38px !important;\n    line-height: 1.2 !important;\n}\n\n/* H2 — svi sekcijski naslovi (40px → 28px) */\n[data-id="4c0b886"] .elementor-heading-title,\n[data-id="9b6881e"] .elementor-widget-container h2,\n[data-id="a2db640"] .elementor-heading-title,\n[data-id="00db15e"] .elementor-heading-title,\n[data-id="ccd4576"] .elementor-heading-title {\n    font-size: 28px !important;\n    line-height: 1.3 !important;\n}\n\n/* Centriraj i pomakni gore */\n[data-id="4c0b886"] .elementor-heading-title {\n    text-align: center !important;\n}\n[data-id="4c0b886"] .elementor-widget-container {\n    margin-top: -42px !important;\n}\n\n/* Gumb "PREGLEDAJ SVE" — smanjen za 30% */\n[data-id="82ced71"] .elementor-button {\n    font-size: 11px !important;\n    padding: 10px 21px !important;\n}\n\n/* Sakrij brojeve 01, 02, 03 */\n[data-id="61e4f69"],\n[data-id="2ff4b71"],\n[data-id="c0c5b3c"] {\n    display: none !important;\n}\n\n/* Pomakni kartice dolje za veličinu naslova (24px) */\n[data-id="ba1fd61"],\n[data-id="d974f5d"],\n[data-id="8ad6916"] {\n    margin-top: 24px !important;\n}\n\n/* Gumb "POČNI ISTRAŽIVATI" — smanjen za 30% */\n[data-id="bf0adb1"] .elementor-button {\n    font-size: 11px !important;\n    padding: 10px 21px !important;\n}\n\n/* Sakrij pokvarene ikone uz ime autora u testimonialima */\n[data-id="3fb8318"] .elementor-testimonial-image,\n[data-id="8b45367"] .elementor-testimonial-image {\n    display: none !important;\n}\n\n/* GTranslate vidljiv na mobitelu */\n@media (max-width: 767px) {\n    li.menu-item-gtranslate,\n    .gt_switcher_res,\n    .gt_switcher {\n        display: flex !important;\n        visibility: visible !important;\n    }\n}\n\n/* Responsive — tablet */\n@media (max-width: 1024px) {\n    [data-id="6a23578"] .elementor-heading-title {\n        font-size: 30px !important;\n    }\n}\n\n/* Responsive — mobitel */\n@media (max-width: 767px) {\n    [data-id="6a23578"] .elementor-heading-title {\n        font-size: 26px !important;\n    }\n    [data-id="4c0b886"] .elementor-heading-title,\n    [data-id="a2db640"] .elementor-heading-title,\n    [data-id="00db15e"] .elementor-heading-title,\n    [data-id="ccd4576"] .elementor-heading-title {\n        font-size: 22px !important;\n    }\n}
+1417	publish	Flush Elementor Cache post 101	2026-03-19 17:17:14	2026-03-19 17:17:14	222	// Flush Elementor file cache za post 101\ndelete_post_meta(101, '_elementor_css');\ndelete_post_meta(101, '_elementor_element_cache');\n\n// Obavijest\nupdate_option('_elementor_cache_flushed_101', current_time('mysql'));
+1411	draft	GTranslate — crni tekst u izborniku	2026-03-19 16:22:46	2026-05-02 04:35:15	449	/* GTranslate - crni tekst - ispravni selektori */\n.gt_switcher a,\n.gt_switcher span,\n.gt_switcher .gt-current-lang,\n.gt_switcher .gt-current-lang span,\n.gt_switcher-popup span,\n.gt_languages a,\n.gt_languages a span,\na.glink.nturl,\na.glink.nturl span,\n.gtranslate_css a,\n.gtranslate_css span {\n    color: #000000 !important;\n}\n\n/* Floating widget */\n.gt_float_switcher a,\n.gt_float_switcher span {\n    color: #000000 !important;\n}
+1413	draft	GTranslate - pozicija desno	2026-03-19 16:46:00	2026-05-02 04:35:15	244	/* GTranslate - pomakni skroz desno u navigaciji */\nli.menu-item-gtranslate {\n    margin-left: auto !important;\n}\n\n/* Vertikalno centriraj */\nli.menu-item-gtranslate {\n    display: flex !important;\n    align-items: center !important;\n}
+1419	draft	GTranslate — mobilni floating widget	2026-03-19 18:30:07	2026-05-02 04:35:14	617	add_action('wp_footer', function() {\n    echo '<style>\n        #gt-mobile-float {\n            display: none;\n            position: fixed;\n            bottom: 16px;\n            left: 16px;\n            z-index: 9999;\n            background: white;\n            padding: 6px 10px;\n            border-radius: 20px;\n            box-shadow: 0 2px 8px rgba(0,0,0,0.15);\n        }\n        @media (max-width: 767px) {\n            #gt-mobile-float {\n                display: block !important;\n            }\n        }\n    </style>\n    <div id="gt-mobile-float">' . do_shortcode("[gtranslate]") . '</div>';\n});
+1420	draft	Mobilni header — redoslijed i GTranslate	2026-03-19 19:16:22	2026-05-02 04:35:13	1082	/* ============================================================\n   MOBILNI HEADER — 3 popravka\n   ============================================================ */\n\n@media (max-width: 767px) {\n\n    /* 1. Traka za prijavu (above-header) ide NA SAM VRH\n          Logo i hamburger menu ostaju ispod nje */\n    #masthead {\n        display: flex !important;\n        flex-direction: column !important;\n    }\n    .ast-above-header-bar {\n        order: -1 !important;\n        width: 100% !important;\n    }\n    .main-header-bar,\n    .ast-main-header-bar-alignment {\n        order: 0 !important;\n    }\n\n    /* 2. Sakrij floating GTranslate — koristimo meni */\n    .gtranslate_wrapper {\n        display: none !important;\n    }\n\n    /* 3. GTranslate u hamburger meniju — stilizacija */\n    li.menu-item-gtranslate {\n        padding: 10px 20px !important;\n        border-top: 1px solid rgba(0,0,0,0.1) !important;\n    }\n    li.menu-item-gtranslate .gt_switcher_wrapper,\n    li.menu-item-gtranslate .gt-current-lang {\n        color: #000 !important;\n    }\n}
+1421	draft	GTranslate u mobilni meni	2026-03-19 19:19:59	2026-05-02 04:35:13	918	// Dodaj GTranslate jezični switcher u mobilni hamburger meni\nadd_filter('wp_nav_menu_items', function($items, $args) {\n    // Samo za primarni navigacijski meni\n    if (isset($args->theme_location) && $args->theme_location === 'primary') {\n        // Dohvati GTranslate widget output\n        $gt_output = '';\n        $widget_args = array(\n            'before_widget' => '',\n            'after_widget'  => '',\n            'before_title'  => '',\n            'after_title'   => '',\n        );\n        ob_start();\n        the_widget('GTranslate', array(), $widget_args);\n        $gt_output = ob_get_clean();\n        \n        if (!empty($gt_output)) {\n            $items .= '<li class="menu-item menu-item-gtranslate-mobile" style="padding:8px 20px;border-top:1px solid rgba(0,0,0,0.1)">'\n                    . $gt_output\n                    . '</li>';\n        }\n    }\n    return $items;\n}, 10, 2);
+1505	draft	GTranslate Navigation Styling	2026-04-19 09:23:25	2026-05-02 04:35:12	2599	/* GTranslate widget — match nav link style (Option C) */\nli.menu-item-gtranslate > a.gt_switcher-popup {\n  display: inline-flex !important;\n  align-items: center;\n  gap: 6px;\n  background: transparent !important;\n  border: none !important;\n  box-shadow: none !important;\n  text-transform: uppercase;\n  font-family: inherit !important;\n  font-weight: inherit !important;\n  font-size: inherit !important;\n  color: inherit !important;\n  letter-spacing: inherit !important;\n  padding: inherit !important;\n  text-decoration: none !important;\n}\nli.menu-item-gtranslate img {\n  width: 16px !important;\n  height: auto !important;\n  max-width: 16px !important;\n  border-radius: 2px;\n  margin: 0 !important;\n}\nli.menu-item-gtranslate a > span:last-child {\n  font-size: 9px !important;\n  color: currentColor !important;\n  opacity: 0.5 !important;\n  margin-left: 2px !important;\n  font-weight: normal !important;\n}\nli.menu-item-gtranslate .gt_switcher {\n  background: transparent !important;\n  border: none !important;\n  box-shadow: none !important;\n}\n\n/* ============================================\n   Home — Hero & Savjet Layout (25.04.2026)\n   ============================================ */\n\n/* Hero — pomakni gore */\n.elementor-element-3h24rr6 {\n  padding-top: 60px !important;\n  padding-bottom: 50px !important;\nposition: relative !important;\n}\n.elementor-element-3h24rr6 > * {\n  position: relative;\n  z-index: 2;\n}\n\n/* Hero mreža — full viewport width */\n.elementor-element-3h24rr6::before {\n  left: 50% !important;\n  right: auto !important;\n  width: 100vw !important;\n  max-width: 100vw !important;\n  margin-left: -50vw !important;\n  opacity: 0.35 !important;\n}\n\n/* Savjet — primakni hero-u, ujednači bg */\n.elementor-element-svdan001 {\n  margin-top: -20px !important;\n}\n.dnevni-savjet {\n  background: transparent !important;\n  padding-top: 28px !important;\n  padding-bottom: 24px !important;\n}\n\n/* Tablet */\n@media (max-width: 1024px) {\n  .elementor-element-3h24rr6 {\n    padding-top: 50px !important;\n    padding-bottom: 40px !important;\n  }\n}\n\n/* Mobile */\n@media (max-width: 600px) {\n  .elementor-element-3h24rr6 {\n    padding-top: 40px !important;\n    padding-bottom: 28px !important;\n  }\n  .elementor-element-svdan001 {\n    margin-top: -10px !important;\n  }\n}\n\n\n/* Divider eh286vt — hide */\n.elementor-element-3h24rr6 .elementor-element-eh286vt { display: none !important; }\n\n/* Ensure hero/wrapper allow mreza overflow */\n.elementor-element-3h24rr6 { overflow: visible !important; }\n
+1425	draft	Fix nginx client_max_body_size	2026-03-19 19:55:12	2026-03-19 19:55:12	1914	// Popravi nginx client_max_body_size direktno\nadd_action('init', function() {\n    // Pronađi nginx site config\n    $possible_configs = [\n        '/etc/nginx/sites-enabled/drycured.com',\n        '/etc/nginx/sites-enabled/default',\n        '/etc/nginx/sites-available/drycured.com',\n        '/etc/nginx/nginx.conf',\n    ];\n    \n    $found_config = null;\n    foreach ($possible_configs as $cfg) {\n        if (file_exists($cfg)) {\n            $found_config = $cfg;\n            break;\n        }\n    }\n    \n    // Spremi nalaz u opciju za debugging\n    update_option('drycured_nginx_config_found', $found_config ?: 'NOT FOUND');\n    update_option('drycured_nginx_configs_checked', implode(', ', array_map(function($c){ return $c . ':' . (file_exists($c)?'YES':'NO'); }, $possible_configs)));\n    \n    if ($found_config) {\n        $content = file_get_contents($found_config);\n        // Dodaj ili zamijeni client_max_body_size\n        if (strpos($content, 'client_max_body_size') === false) {\n            $content = str_replace('server {', "server {\n    client_max_body_size 256M;", $content);\n        } else {\n            $content = preg_replace('/client_max_body_sizes+[^;]+;/', 'client_max_body_size 256M;', $content);\n        }\n        $written = file_put_contents($found_config, $content);\n        update_option('drycured_nginx_write_result', $written ? 'WRITTEN OK' : 'WRITE FAILED');\n        \n        // Reload nginx\n        $reload = shell_exec('sudo nginx -s reload 2>&1 || service nginx reload 2>&1 || nginx -s reload 2>&1');\n        update_option('drycured_nginx_reload', $reload ?: 'no output');\n    }\n    \n    // Također pokušaj pisati u conf.d\n    $conf_d = '/etc/nginx/conf.d/upload.conf';\n    $written2 = @file_put_contents($conf_d, "client_max_body_size 256M;\n");\n    update_option('drycured_confd_write', $written2 ? 'conf.d OK' : 'conf.d FAILED');\n}, 1);
+1423	draft	Fix nginx upload limit + PDF uploader	2026-03-19 19:44:47	2026-03-19 19:44:47	1789	// Fix nginx upload limit za drycured.com\nadd_action('init', function() {\n    // Kreiraj nginx override config za upload limit\n    $nginx_conf = '/etc/nginx/conf.d/upload_limit.conf';\n    $conf_content = "client_max_body_size 256M;\n";\n    \n    if (!file_exists($nginx_conf) || file_get_contents($nginx_conf) !== $conf_content) {\n        @file_put_contents($nginx_conf, $conf_content);\n        @shell_exec('nginx -s reload 2>/dev/null');\n    }\n});\n\n// Kreiraj privremenu stranicu za direktni upload PDF-a\nadd_action('wp_ajax_drycured_upload_pdf', function() {\n    if (!current_user_can('upload_files')) wp_die('Nemate dozvolu.');\n    \n    if (!empty($_FILES['pdf_file'])) {\n        $file = $_FILES['pdf_file'];\n        $upload_dir = wp_upload_dir();\n        $target = $upload_dir['path'] . '/' . sanitize_file_name($file['name']);\n        \n        if (move_uploaded_file($file['tmp_name'], $target)) {\n            // Registriraj u WordPress media library\n            $attachment = array(\n                'guid'           => $upload_dir['url'] . '/' . basename($target),\n                'post_mime_type' => 'application/pdf',\n                'post_title'     => preg_replace('/\\.pdf$/i', '', basename($target)),\n                'post_content'   => '',\n                'post_status'    => 'inherit',\n            );\n            $attach_id = wp_insert_attachment($attachment, $target);\n            \n            wp_send_json_success(array(\n                'id'  => $attach_id,\n                'url' => $upload_dir['url'] . '/' . basename($target),\n                'filename' => basename($target)\n            ));\n        } else {\n            wp_send_json_error('Upload nije uspio — problem s dozvolama direktorija.');\n        }\n    }\n    wp_die();\n});
+1412	draft	Obriši TranslatePress	2026-03-19 16:27:49	2026-03-19 16:31:28	781	$plugin_dir = WP_PLUGIN_DIR . '/translatepress-multilingual';\nif ( is_dir( $plugin_dir ) ) {\n    $files = new RecursiveIteratorIterator(\n        new RecursiveDirectoryIterator( $plugin_dir, RecursiveDirectoryIterator::SKIP_DOTS ),\n        RecursiveIteratorIterator::CHILD_FIRST\n    );\n    foreach ( $files as $file ) {\n        $file->isDir() ? rmdir( $file->getRealPath() ) : unlink( $file->getRealPath() );\n    }\n    rmdir( $plugin_dir );\n}\n// Snippet se sam deaktivira nakon izvršavanja\n$snippets = get_option('wpcode_snippets', array());\nforeach ($snippets as $key => $snippet) {\n    if (isset($snippet['name']) && $snippet['name'] === 'Obriši TranslatePress') {\n        $snippets[$key]['active'] = false;\n    }\n}\nupdate_option('wpcode_snippets', $snippets);
+620	draft	Display a message after the 1st paragraph of posts	2025-03-02 08:32:27	2025-03-02 08:32:27	59	Thank you for reading this post, don't forget to subscribe!
+621	draft	Completely Disable Comments	2025-03-02 08:32:27	2025-03-02 08:32:27	1239	add_action('admin_init', function () {\n    // Redirect any user trying to access comments page\n    global $pagenow;\n    \n    if ($pagenow === 'edit-comments.php') {\n        wp_safe_redirect(admin_url());\n        exit;\n    }\n\n    // Remove comments metabox from dashboard\n    remove_meta_box('dashboard_recent_comments', 'dashboard', 'normal');\n\n    // Disable support for comments and trackbacks in post types\n    foreach (get_post_types() as $post_type) {\n        if (post_type_supports($post_type, 'comments')) {\n            remove_post_type_support($post_type, 'comments');\n            remove_post_type_support($post_type, 'trackbacks');\n        }\n    }\n});\n\n// Close comments on the front-end\nadd_filter('comments_open', '__return_false', 20, 2);\nadd_filter('pings_open', '__return_false', 20, 2);\n\n// Hide existing comments\nadd_filter('comments_array', '__return_empty_array', 10, 2);\n\n// Remove comments page in menu\nadd_action('admin_menu', function () {\n    remove_menu_page('edit-comments.php');\n});\n\n// Remove comments links from admin bar\nadd_action('init', function () {\n    if (is_admin_bar_showing()) {\n        remove_action('admin_bar_menu', 'wp_admin_bar_comments_menu', 60);\n    }\n});
+
+
+=== WPCODE META EXPORT — IMPORTANT KEYS ===
+ID	post_status	post_title	meta_key	meta_value_sample
+620	draft	Display a message after the 1st paragraph of posts	_wpcode_auto_insert	1
+620	draft	Display a message after the 1st paragraph of posts	_wpcode_auto_insert_number	1
+621	draft	Completely Disable Comments	_wpcode_auto_insert	1
+621	draft	Completely Disable Comments	_wpcode_library_id	12
+1411	draft	GTranslate — crni tekst u izborniku	_edit_lock	1773938428:1
+1411	draft	GTranslate — crni tekst u izborniku	_wpcode_auto_insert	1
+1411	draft	GTranslate — crni tekst u izborniku	_wpcode_auto_insert_number	1
+1411	draft	GTranslate — crni tekst u izborniku	_wpcode_conditional_logic	a:0:{}
+1411	draft	GTranslate — crni tekst u izborniku	_wpcode_conditional_logic_enabled	
+1411	draft	GTranslate — crni tekst u izborniku	_wpcode_location_extra	
+1411	draft	GTranslate — crni tekst u izborniku	_wpcode_note	
+1411	draft	GTranslate — crni tekst u izborniku	_wpcode_priority	10
+1411	draft	GTranslate — crni tekst u izborniku	_wpcode_shortcode_attributes	a:0:{}
+1412	draft	Obriši TranslatePress	_edit_lock	1773938032:1
+1412	draft	Obriši TranslatePress	_wpcode_auto_insert	1
+1412	draft	Obriši TranslatePress	_wpcode_auto_insert_number	1
+1412	draft	Obriši TranslatePress	_wpcode_conditional_logic_enabled	
+1412	draft	Obriši TranslatePress	_wpcode_last_error	a:8:{s:4:"type";i:2;s:7:"message";s:88:"rmdir(/var/www/html/wp-content/plugins/translatepress-multilingual): Directory not empty";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:10;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1412;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1412;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 16:27:49";s:13:"post_date_gmt";s:19:"2026-03-19 16:27:49";s:12:"post_content";s:781:"$plugin_dir = WP_PLUGIN_DIR . '/translatepress-multilingual';\nif ( is_dir( $plugin_dir ) ) {\n    $files = new RecursiveIteratorIterator(\n        new RecursiveDirectoryIterator( $plugin_dir, RecursiveDirectoryIterator::SKIP_DOTS ),\n        RecursiveIteratorIterator::CHILD_FIRST\n    );\n    foreach ( $files as $file ) {\n        $file->isDir() ? rmdir( $file->getRealPath() ) : unlink( $file->getRealPath() );\n    }\n    rmdir( $plugin_dir );\n}\n// Snippet se sam deaktivira nakon izvršavanja\n$snippets = get_option('wpcode_snippets', array());\nforeach ($snippets as $key => $snippet) {\n    if (isset($snippet['name']) && $snippet['name'] === 'Obriši TranslatePress') {\n        $snippets[$key]['active'] = false;\n    }\n}\nupdate_option('wpcode_snippets', $snippets);";s:10:"post_title";s:22:"Obriši TranslatePress";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:5:"draft";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:21:"obrisi-translatepress";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2026-03-19 16:27:49";s:17:"post_modified_gmt";s:19:"2026-03-19 16:27:49";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";
+1412	draft	Obriši TranslatePress	_wpcode_location_extra	
+1412	draft	Obriši TranslatePress	_wpcode_note	
+1412	draft	Obriši TranslatePress	_wpcode_priority	10
+1412	draft	Obriši TranslatePress	_wpcode_shortcode_attributes	a:0:{}
+1413	draft	GTranslate - pozicija desno	_edit_lock	1773940113:1
+1413	draft	GTranslate - pozicija desno	_wpcode_auto_insert	1
+1413	draft	GTranslate - pozicija desno	_wpcode_auto_insert_number	1
+1413	draft	GTranslate - pozicija desno	_wpcode_conditional_logic	a:0:{}
+1413	draft	GTranslate - pozicija desno	_wpcode_conditional_logic_enabled	1
+1413	draft	GTranslate - pozicija desno	_wpcode_location_extra	
+1413	draft	GTranslate - pozicija desno	_wpcode_note	
+1413	draft	GTranslate - pozicija desno	_wpcode_priority	10
+1413	draft	GTranslate - pozicija desno	_wpcode_shortcode_attributes	a:0:{}
+1417	publish	Flush Elementor Cache post 101	_edit_lock	1773940876:1
+1417	publish	Flush Elementor Cache post 101	_wpcode_auto_insert	1
+1417	publish	Flush Elementor Cache post 101	_wpcode_auto_insert_number	1
+1417	publish	Flush Elementor Cache post 101	_wpcode_conditional_logic_enabled	
+1417	publish	Flush Elementor Cache post 101	_wpcode_location_extra	
+1417	publish	Flush Elementor Cache post 101	_wpcode_note	
+1417	publish	Flush Elementor Cache post 101	_wpcode_priority	10
+1417	publish	Flush Elementor Cache post 101	_wpcode_shortcode_attributes	a:0:{}
+1418	publish	Veličina naslova — početna stranica	_edit_lock	1773944432:1
+1418	publish	Veličina naslova — početna stranica	_wpcode_auto_insert	1
+1418	publish	Veličina naslova — početna stranica	_wpcode_auto_insert_number	1
+1418	publish	Veličina naslova — početna stranica	_wpcode_conditional_logic	a:0:{}
+1418	publish	Veličina naslova — početna stranica	_wpcode_conditional_logic_enabled	
+1418	publish	Veličina naslova — početna stranica	_wpcode_location_extra	
+1418	publish	Veličina naslova — početna stranica	_wpcode_note	
+1418	publish	Veličina naslova — početna stranica	_wpcode_priority	10
+1418	publish	Veličina naslova — početna stranica	_wpcode_shortcode_attributes	a:0:{}
+1419	draft	GTranslate — mobilni floating widget	_edit_lock	1773945007:1
+1419	draft	GTranslate — mobilni floating widget	_wpcode_auto_insert	1
+1419	draft	GTranslate — mobilni floating widget	_wpcode_auto_insert_number	1
+1419	draft	GTranslate — mobilni floating widget	_wpcode_conditional_logic_enabled	
+1419	draft	GTranslate — mobilni floating widget	_wpcode_location_extra	
+1419	draft	GTranslate — mobilni floating widget	_wpcode_note	
+1419	draft	GTranslate — mobilni floating widget	_wpcode_priority	10
+1419	draft	GTranslate — mobilni floating widget	_wpcode_shortcode_attributes	a:0:{}
+1420	draft	Mobilni header — redoslijed i GTranslate	_edit_lock	1773947782:1
+1420	draft	Mobilni header — redoslijed i GTranslate	_wpcode_auto_insert	1
+1420	draft	Mobilni header — redoslijed i GTranslate	_wpcode_auto_insert_number	1
+1420	draft	Mobilni header — redoslijed i GTranslate	_wpcode_conditional_logic_enabled	
+1420	draft	Mobilni header — redoslijed i GTranslate	_wpcode_location_extra	
+1420	draft	Mobilni header — redoslijed i GTranslate	_wpcode_note	
+1420	draft	Mobilni header — redoslijed i GTranslate	_wpcode_priority	10
+1420	draft	Mobilni header — redoslijed i GTranslate	_wpcode_shortcode_attributes	a:0:{}
+1421	draft	GTranslate u mobilni meni	_edit_lock	1773948363:1
+1421	draft	GTranslate u mobilni meni	_wpcode_auto_insert	1
+1421	draft	GTranslate u mobilni meni	_wpcode_auto_insert_number	1
+1421	draft	GTranslate u mobilni meni	_wpcode_conditional_logic_enabled	
+1421	draft	GTranslate u mobilni meni	_wpcode_location_extra	
+1421	draft	GTranslate u mobilni meni	_wpcode_note	
+1421	draft	GTranslate u mobilni meni	_wpcode_priority	10
+1421	draft	GTranslate u mobilni meni	_wpcode_shortcode_attributes	a:0:{}
+1422	publish	Povećaj upload limit na 256MB	_edit_lock	1773949204:1
+1422	publish	Povećaj upload limit na 256MB	_wpcode_auto_insert	1
+1422	publish	Povećaj upload limit na 256MB	_wpcode_auto_insert_number	1
+1422	publish	Povećaj upload limit na 256MB	_wpcode_conditional_logic_enabled	
+1422	publish	Povećaj upload limit na 256MB	_wpcode_location_extra	
+1422	publish	Povećaj upload limit na 256MB	_wpcode_note	
+1422	publish	Povećaj upload limit na 256MB	_wpcode_priority	10
+1422	publish	Povećaj upload limit na 256MB	_wpcode_shortcode_attributes	a:0:{}
+1423	draft	Fix nginx upload limit + PDF uploader	_edit_lock	1773949488:1
+1423	draft	Fix nginx upload limit + PDF uploader	_wpcode_auto_insert	1
+1423	draft	Fix nginx upload limit + PDF uploader	_wpcode_auto_insert_number	1
+1423	draft	Fix nginx upload limit + PDF uploader	_wpcode_conditional_logic_enabled	
+1423	draft	Fix nginx upload limit + PDF uploader	_wpcode_last_error	a:10:{s:4:"type";i:2;s:7:"message";s:96:"file_put_contents(/etc/nginx/conf.d/upload_limit.conf): Failed to open stream: Permission denied";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:9;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1423;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1423;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 19:44:47";s:13:"post_date_gmt";s:19:"2026-03-19 19:44:47";s:12:"post_content";s:1788:"// Fix nginx upload limit za drycured.com\nadd_action('init', function() {\n    // Kreiraj nginx override config za upload limit\n    $nginx_conf = '/etc/nginx/conf.d/upload_limit.conf';\n    $conf_content = "client_max_body_size 256M;\n";\n    \n    if (!file_exists($nginx_conf) || file_get_contents($nginx_conf) !== $conf_content) {\n        @file_put_contents($nginx_conf, $conf_content);\n        @shell_exec('nginx -s reload 2>/dev/null');\n    }\n});\n\n// Kreiraj privremenu stranicu za direktni upload PDF-a\nadd_action('wp_ajax_drycured_upload_pdf', function() {\n    if (!current_user_can('upload_files')) wp_die('Nemate dozvolu.');\n    \n    if (!empty($_FILES['pdf_file'])) {\n        $file = $_FILES['pdf_file'];\n        $upload_dir = wp_upload_dir();\n        $target = $upload_dir['path'] . '/' . sanitize_file_name($file['name']);\n        \n        if (move_uploaded_file($file['tmp_name'], $target)) {\n            // Registriraj u WordPress media library\n            $attachment = array(\n                'guid'           => $upload_dir['url'] . '/' . basename($target),\n                'post_mime_type' => 'application/pdf',\n                'post_title'     => preg_replace('/.pdf$/i', '', basename($ta
+1423	draft	Fix nginx upload limit + PDF uploader	_wpcode_location_extra	
+1423	draft	Fix nginx upload limit + PDF uploader	_wpcode_note	
+1423	draft	Fix nginx upload limit + PDF uploader	_wpcode_priority	10
+1423	draft	Fix nginx upload limit + PDF uploader	_wpcode_shortcode_attributes	a:0:{}
+1424	publish	PDF Chunked Upload Admin Page	_edit_lock	1773949621:1
+1424	publish	PDF Chunked Upload Admin Page	_wpcode_auto_insert	1
+1424	publish	PDF Chunked Upload Admin Page	_wpcode_auto_insert_number	1
+1424	publish	PDF Chunked Upload Admin Page	_wpcode_conditional_logic_enabled	
+1424	publish	PDF Chunked Upload Admin Page	_wpcode_location_extra	
+1424	publish	PDF Chunked Upload Admin Page	_wpcode_note	
+1424	publish	PDF Chunked Upload Admin Page	_wpcode_priority	10
+1424	publish	PDF Chunked Upload Admin Page	_wpcode_shortcode_attributes	a:0:{}
+1425	draft	Fix nginx client_max_body_size	_edit_lock	1773950112:1
+1425	draft	Fix nginx client_max_body_size	_wpcode_auto_insert	1
+1425	draft	Fix nginx client_max_body_size	_wpcode_auto_insert_number	1
+1425	draft	Fix nginx client_max_body_size	_wpcode_conditional_logic_enabled	
+1425	draft	Fix nginx client_max_body_size	_wpcode_last_error	a:10:{s:4:"type";i:2;s:7:"message";s:90:"file_put_contents(/etc/nginx/conf.d/upload.conf): Failed to open stream: Permission denied";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:42;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1425;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1425;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 19:55:12";s:13:"post_date_gmt";s:19:"2026-03-19 19:55:12";s:12:"post_content";s:1914:"// Popravi nginx client_max_body_size direktno\nadd_action('init', function() {\n    // Pronađi nginx site config\n    $possible_configs = [\n        '/etc/nginx/sites-enabled/drycured.com',\n        '/etc/nginx/sites-enabled/default',\n        '/etc/nginx/sites-available/drycured.com',\n        '/etc/nginx/nginx.conf',\n    ];\n    \n    $found_config = null;\n    foreach ($possible_configs as $cfg) {\n        if (file_exists($cfg)) {\n            $found_config = $cfg;\n            break;\n        }\n    }\n    \n    // Spremi nalaz u opciju za debugging\n    update_option('drycured_nginx_config_found', $found_config ?: 'NOT FOUND');\n    update_option('drycured_nginx_configs_checked', implode(', ', array_map(function($c){ return $c . ':' . (file_exists($c)?'YES':'NO'); }, $possible_configs)));\n    \n    if ($found_config) {\n        $content = file_get_contents($found_config);\n        // Dodaj ili zamijeni client_max_body_size\n        if (strpos($content, 'client_max_body_size') === false) {\n            $content = str_replace('server {', "server {\n    client_max_body_size 256M;", $content);\n        } else {\n            $content = preg_replace('/client_max_body_sizes+[^;]+;/', 'client_max_body_size 256M;',
+1425	draft	Fix nginx client_max_body_size	_wpcode_location_extra	
+1425	draft	Fix nginx client_max_body_size	_wpcode_note	
+1425	draft	Fix nginx client_max_body_size	_wpcode_priority	10
+1425	draft	Fix nginx client_max_body_size	_wpcode_shortcode_attributes	a:0:{}
+1426	publish	Nginx fix via shell	_edit_lock	1773950610:1
+1426	publish	Nginx fix via shell	_wpcode_auto_insert	1
+1426	publish	Nginx fix via shell	_wpcode_auto_insert_number	1
+1426	publish	Nginx fix via shell	_wpcode_conditional_logic_enabled	
+1426	publish	Nginx fix via shell	_wpcode_location_extra	
+1426	publish	Nginx fix via shell	_wpcode_note	
+1426	publish	Nginx fix via shell	_wpcode_priority	10
+1426	publish	Nginx fix via shell	_wpcode_shortcode_attributes	a:0:{}
+1429	publish	Flip Viewer — Knjiga stranica	_edit_lock	1776695890:1
+1429	publish	Flip Viewer — Knjiga stranica	_wpcode_auto_insert	0
+1429	publish	Flip Viewer — Knjiga stranica	_wpcode_auto_insert_number	1
+1429	publish	Flip Viewer — Knjiga stranica	_wpcode_conditional_logic	a:0:{}
+1429	publish	Flip Viewer — Knjiga stranica	_wpcode_conditional_logic_enabled	
+1429	publish	Flip Viewer — Knjiga stranica	_wpcode_location_extra	
+1429	publish	Flip Viewer — Knjiga stranica	_wpcode_note	
+1429	publish	Flip Viewer — Knjiga stranica	_wpcode_priority	10
+1429	publish	Flip Viewer — Knjiga stranica	_wpcode_shortcode_attributes	a:0:{}
+1454	publish	Limit Elementor Posts Excerpt Length	_edit_lock	1774455873:1
+1454	publish	Limit Elementor Posts Excerpt Length	_wpcode_auto_insert	1
+1454	publish	Limit Elementor Posts Excerpt Length	_wpcode_auto_insert_number	1
+1454	publish	Limit Elementor Posts Excerpt Length	_wpcode_conditional_logic_enabled	
+1454	publish	Limit Elementor Posts Excerpt Length	_wpcode_location_extra	
+1454	publish	Limit Elementor Posts Excerpt Length	_wpcode_note	
+1454	publish	Limit Elementor Posts Excerpt Length	_wpcode_priority	10
+1454	publish	Limit Elementor Posts Excerpt Length	_wpcode_shortcode_attributes	a:0:{}
+1505	draft	GTranslate Navigation Styling	_edit_lock	1777140415:1
+1505	draft	GTranslate Navigation Styling	_wpcode_auto_insert	1
+1505	draft	GTranslate Navigation Styling	_wpcode_auto_insert_number	1
+1505	draft	GTranslate Navigation Styling	_wpcode_conditional_logic	a:0:{}
+1505	draft	GTranslate Navigation Styling	_wpcode_conditional_logic_enabled	
+1505	draft	GTranslate Navigation Styling	_wpcode_location_extra	
+1505	draft	GTranslate Navigation Styling	_wpcode_note	
+1505	draft	GTranslate Navigation Styling	_wpcode_priority	10
+1505	draft	GTranslate Navigation Styling	_wpcode_shortcode_attributes	a:0:{}
+1506	publish	Savjeti — Custom Post Type	_edit_lock	1776781888:1
+1506	publish	Savjeti — Custom Post Type	_wpcode_auto_insert	1
+1506	publish	Savjeti — Custom Post Type	_wpcode_auto_insert_number	1
+1506	publish	Savjeti — Custom Post Type	_wpcode_conditional_logic_enabled	
+1506	publish	Savjeti — Custom Post Type	_wpcode_location_extra	
+1506	publish	Savjeti — Custom Post Type	_wpcode_note	
+1506	publish	Savjeti — Custom Post Type	_wpcode_priority	10
+1506	publish	Savjeti — Custom Post Type	_wpcode_shortcode_attributes	a:0:{}
+1619	publish	Savjeti — Rotacijski Widget	_edit_lock	1777614991:1
+1619	publish	Savjeti — Rotacijski Widget	_wpcode_auto_insert	1
+1619	publish	Savjeti — Rotacijski Widget	_wpcode_auto_insert_number	1
+1619	publish	Savjeti — Rotacijski Widget	_wpcode_conditional_logic	a:0:{}
+1619	publish	Savjeti — Rotacijski Widget	_wpcode_conditional_logic_enabled	
+1619	publish	Savjeti — Rotacijski Widget	_wpcode_location_extra	
+1619	publish	Savjeti — Rotacijski Widget	_wpcode_note	
+1619	publish	Savjeti — Rotacijski Widget	_wpcode_priority	10
+1619	publish	Savjeti — Rotacijski Widget	_wpcode_shortcode_attributes	a:0:{}
+2815	publish	Kalkulator Soli — Fix gumbi kopiraj/print	_edit_lock	1778994023:1
+2815	publish	Kalkulator Soli — Fix gumbi kopiraj/print	_wpcode_auto_insert	1
+2815	publish	Kalkulator Soli — Fix gumbi kopiraj/print	_wpcode_auto_insert_number	1
+2815	publish	Kalkulator Soli — Fix gumbi kopiraj/print	_wpcode_conditional_logic	a:0:{}
+2815	publish	Kalkulator Soli — Fix gumbi kopiraj/print	_wpcode_conditional_logic_enabled	
+2815	publish	Kalkulator Soli — Fix gumbi kopiraj/print	_wpcode_location_extra	
+2815	publish	Kalkulator Soli — Fix gumbi kopiraj/print	_wpcode_note	
+2815	publish	Kalkulator Soli — Fix gumbi kopiraj/print	_wpcode_priority	10
+2815	publish	Kalkulator Soli — Fix gumbi kopiraj/print	_wpcode_shortcode_attributes	a:0:{}
+
+
+=== SIMPLE RISK PATTERN SEARCH — POSTS ===
+--- PATTERN: eval ---
+
+--- PATTERN: base64_decode ---
+
+--- PATTERN: gzinflate ---
+
+--- PATTERN: shell_exec ---
+ID	post_status	post_title	sample
+1423	draft	Fix nginx upload limit + PDF uploader	// Fix nginx upload limit za drycured.com\nadd_action('init', function() {\n    // Kreiraj nginx override config za upload limit\n    $nginx_conf = '/etc/nginx/conf.d/upload_limit.conf';\n    $conf_content = "client_max_body_size 256M;\n";\n    \n    if (!file_exists($nginx_conf) || file_get_contents($nginx_conf) !== $conf_content) {\n        @file_put_contents($nginx_conf, $conf_content);\n        @shell_exec('nginx -s reload 2>/dev/null');\n    }\n});\n\n// Kreiraj privremenu stranicu za direktni upload PDF-a\nadd_action('wp_ajax_drycured_upload_pdf', function() {\n    if (!current_user_can('upload_files')) wp_die('Nemate dozvolu.');\n    \n    if (!empty($_FILES['pdf_file'])) {\n        $
+1425	draft	Fix nginx client_max_body_size	// Popravi nginx client_max_body_size direktno\nadd_action('init', function() {\n    // Pronađi nginx site config\n    $possible_configs = [\n        '/etc/nginx/sites-enabled/drycured.com',\n        '/etc/nginx/sites-enabled/default',\n        '/etc/nginx/sites-available/drycured.com',\n        '/etc/nginx/nginx.conf',\n    ];\n    \n    $found_config = null;\n    foreach ($possible_configs as $cfg) {\n        if (file_exists($cfg)) {\n            $found_config = $cfg;\n            break;\n        }\n    }\n    \n    // Spremi nalaz u opciju za debugging\n    update_option('drycured_nginx_config_found', $found_config ?: 'NOT FOUND');\n    update_option('drycured_nginx_configs_checked', impl
+1426	publish	Nginx fix via shell	add_action('init', function() {\n    $cmds = [\n        'echo "client_max_body_size 256M;" > /etc/nginx/conf.d/upload.conf',\n        'nginx -s reload',\n        'service nginx reload',\n        'systemctl reload nginx',\n    ];\n    $results = [];\n    foreach ($cmds as $cmd) {\n        $out = @shell_exec($cmd . ' 2>&1');\n        $results[$cmd] = $out ?: '(no output)';\n    }\n    update_option('drycured_shell_results', $results);\n}, 1);
+
+
+--- PATTERN: passthru ---
+
+--- PATTERN: system( ---
+
+--- PATTERN: assert( ---
+
+--- PATTERN: file_put_contents ---
+ID	post_status	post_title	sample
+1423	draft	Fix nginx upload limit + PDF uploader	// Fix nginx upload limit za drycured.com\nadd_action('init', function() {\n    // Kreiraj nginx override config za upload limit\n    $nginx_conf = '/etc/nginx/conf.d/upload_limit.conf';\n    $conf_content = "client_max_body_size 256M;\n";\n    \n    if (!file_exists($nginx_conf) || file_get_contents($nginx_conf) !== $conf_content) {\n        @file_put_contents($nginx_conf, $conf_content);\n        @shell_exec('nginx -s reload 2>/dev/null');\n    }\n});\n\n// Kreiraj privremenu stranicu za direktni upload PDF-a\nadd_action('wp_ajax_drycured_upload_pdf', function() {\n    if (!current_user_can('upload_files')) wp_die('Nemate dozvolu.');\n    \n    if (!empty($_FILES['pdf_file'])) {\n        $
+1425	draft	Fix nginx client_max_body_size	// Popravi nginx client_max_body_size direktno\nadd_action('init', function() {\n    // Pronađi nginx site config\n    $possible_configs = [\n        '/etc/nginx/sites-enabled/drycured.com',\n        '/etc/nginx/sites-enabled/default',\n        '/etc/nginx/sites-available/drycured.com',\n        '/etc/nginx/nginx.conf',\n    ];\n    \n    $found_config = null;\n    foreach ($possible_configs as $cfg) {\n        if (file_exists($cfg)) {\n            $found_config = $cfg;\n            break;\n        }\n    }\n    \n    // Spremi nalaz u opciju za debugging\n    update_option('drycured_nginx_config_found', $found_config ?: 'NOT FOUND');\n    update_option('drycured_nginx_configs_checked', impl
+
+
+--- PATTERN: unlink( ---
+ID	post_status	post_title	sample
+1412	draft	Obriši TranslatePress	$plugin_dir = WP_PLUGIN_DIR . '/translatepress-multilingual';\nif ( is_dir( $plugin_dir ) ) {\n    $files = new RecursiveIteratorIterator(\n        new RecursiveDirectoryIterator( $plugin_dir, RecursiveDirectoryIterator::SKIP_DOTS ),\n        RecursiveIteratorIterator::CHILD_FIRST\n    );\n    foreach ( $files as $file ) {\n        $file->isDir() ? rmdir( $file->getRealPath() ) : unlink( $file->getRealPath() );\n    }\n    rmdir( $plugin_dir );\n}\n// Snippet se sam deaktivira nakon izvršavanja\n$snippets = get_option('wpcode_snippets', array());\nforeach ($snippets as $key => $snippet) {\n    if (isset($snippet['name']) && $snippet['name'] === 'Obriši TranslatePress') {\n        $snippets[$
+
+
+--- PATTERN: rmdir( ---
+ID	post_status	post_title	sample
+1412	draft	Obriši TranslatePress	$plugin_dir = WP_PLUGIN_DIR . '/translatepress-multilingual';\nif ( is_dir( $plugin_dir ) ) {\n    $files = new RecursiveIteratorIterator(\n        new RecursiveDirectoryIterator( $plugin_dir, RecursiveDirectoryIterator::SKIP_DOTS ),\n        RecursiveIteratorIterator::CHILD_FIRST\n    );\n    foreach ( $files as $file ) {\n        $file->isDir() ? rmdir( $file->getRealPath() ) : unlink( $file->getRealPath() );\n    }\n    rmdir( $plugin_dir );\n}\n// Snippet se sam deaktivira nakon izvršavanja\n$snippets = get_option('wpcode_snippets', array());\nforeach ($snippets as $key => $snippet) {\n    if (isset($snippet['name']) && $snippet['name'] === 'Obriši TranslatePress') {\n        $snippets[$
+1424	publish	PDF Chunked Upload Admin Page	add_action('admin_menu', function() {\n    add_management_page('PDF Upload', 'PDF Upload', 'upload_files', 'drycured-pdf-upload', 'drycured_pdf_upload_page');\n});\n\nfunction drycured_pdf_upload_page() {\n    $nonce = wp_create_nonce('drycured_chunk_upload');\n    ?>\n    <div class="wrap">\n    <h1>? Upload PDF knjige — Chunked</h1>\n    <p style="color:#666">Ovaj uploader dijeli PDF na manje dijelove i šalje ih zasebno, zaobilazeći nginx ograničenje.</p>\n    <div id="upload-status" style="padding:15px;background:#f0f0f0;border-radius:4px;margin:15px 0;display:none"></div>\n    <div style="border:2px dashed #c8860a;padding:40px;text-align:center;cursor:pointer;border-radius:6px" onclick="
+
+
+--- PATTERN: exec( ---
+ID	post_status	post_title	sample
+1423	draft	Fix nginx upload limit + PDF uploader	// Fix nginx upload limit za drycured.com\nadd_action('init', function() {\n    // Kreiraj nginx override config za upload limit\n    $nginx_conf = '/etc/nginx/conf.d/upload_limit.conf';\n    $conf_content = "client_max_body_size 256M;\n";\n    \n    if (!file_exists($nginx_conf) || file_get_contents($nginx_conf) !== $conf_content) {\n        @file_put_contents($nginx_conf, $conf_content);\n        @shell_exec('nginx -s reload 2>/dev/null');\n    }\n});\n\n// Kreiraj privremenu stranicu za direktni upload PDF-a\nadd_action('wp_ajax_drycured_upload_pdf', function() {\n    if (!current_user_can('upload_files')) wp_die('Nemate dozvolu.');\n    \n    if (!empty($_FILES['pdf_file'])) {\n        $
+1425	draft	Fix nginx client_max_body_size	// Popravi nginx client_max_body_size direktno\nadd_action('init', function() {\n    // Pronađi nginx site config\n    $possible_configs = [\n        '/etc/nginx/sites-enabled/drycured.com',\n        '/etc/nginx/sites-enabled/default',\n        '/etc/nginx/sites-available/drycured.com',\n        '/etc/nginx/nginx.conf',\n    ];\n    \n    $found_config = null;\n    foreach ($possible_configs as $cfg) {\n        if (file_exists($cfg)) {\n            $found_config = $cfg;\n            break;\n        }\n    }\n    \n    // Spremi nalaz u opciju za debugging\n    update_option('drycured_nginx_config_found', $found_config ?: 'NOT FOUND');\n    update_option('drycured_nginx_configs_checked', impl
+1426	publish	Nginx fix via shell	add_action('init', function() {\n    $cmds = [\n        'echo "client_max_body_size 256M;" > /etc/nginx/conf.d/upload.conf',\n        'nginx -s reload',\n        'service nginx reload',\n        'systemctl reload nginx',\n    ];\n    $results = [];\n    foreach ($cmds as $cmd) {\n        $out = @shell_exec($cmd . ' 2>&1');\n        $results[$cmd] = $out ?: '(no output)';\n    }\n    update_option('drycured_shell_results', $results);\n}, 1);
+
+
+--- PATTERN: curl_exec ---
+
+--- PATTERN: document.write ---
+
+--- PATTERN: atob( ---
+
+--- PATTERN: fromCharCode ---
+
+=== SIMPLE RISK PATTERN SEARCH — POSTMETA ===
+--- PATTERN: eval ---
+post_id	meta_key	sample
+1412	_wpcode_last_error	a:8:{s:4:"type";i:2;s:7:"message";s:88:"rmdir(/var/www/html/wp-content/plugins/translatepress-multilingual): Directory not empty";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:10;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1412;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1412;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 16:27:49";s:13:"post_d
+1423	_wpcode_last_error	a:10:{s:4:"type";i:2;s:7:"message";s:96:"file_put_contents(/etc/nginx/conf.d/upload_limit.conf): Failed to open stream: Permission denied";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:9;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1423;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1423;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 19:44:47";s:13
+1425	_wpcode_last_error	a:10:{s:4:"type";i:2;s:7:"message";s:90:"file_put_contents(/etc/nginx/conf.d/upload.conf): Failed to open stream: Permission denied";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:42;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1425;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1425;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 19:55:12";s:13:"pos
+
+
+--- PATTERN: base64_decode ---
+
+--- PATTERN: gzinflate ---
+
+--- PATTERN: shell_exec ---
+post_id	meta_key	sample
+1423	_wpcode_last_error	a:10:{s:4:"type";i:2;s:7:"message";s:96:"file_put_contents(/etc/nginx/conf.d/upload_limit.conf): Failed to open stream: Permission denied";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:9;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1423;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1423;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 19:44:47";s:13
+1425	_wpcode_last_error	a:10:{s:4:"type";i:2;s:7:"message";s:90:"file_put_contents(/etc/nginx/conf.d/upload.conf): Failed to open stream: Permission denied";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:42;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1425;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1425;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 19:55:12";s:13:"pos
+
+
+--- PATTERN: passthru ---
+
+--- PATTERN: system( ---
+
+--- PATTERN: assert( ---
+
+--- PATTERN: file_put_contents ---
+post_id	meta_key	sample
+1423	_wpcode_last_error	a:10:{s:4:"type";i:2;s:7:"message";s:96:"file_put_contents(/etc/nginx/conf.d/upload_limit.conf): Failed to open stream: Permission denied";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:9;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1423;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1423;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 19:44:47";s:13
+1425	_wpcode_last_error	a:10:{s:4:"type";i:2;s:7:"message";s:90:"file_put_contents(/etc/nginx/conf.d/upload.conf): Failed to open stream: Permission denied";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:42;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1425;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1425;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 19:55:12";s:13:"pos
+
+
+--- PATTERN: unlink( ---
+post_id	meta_key	sample
+1412	_wpcode_last_error	a:8:{s:4:"type";i:2;s:7:"message";s:88:"rmdir(/var/www/html/wp-content/plugins/translatepress-multilingual): Directory not empty";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:10;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1412;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1412;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 16:27:49";s:13:"post_d
+
+
+--- PATTERN: rmdir( ---
+post_id	meta_key	sample
+1412	_wpcode_last_error	a:8:{s:4:"type";i:2;s:7:"message";s:88:"rmdir(/var/www/html/wp-content/plugins/translatepress-multilingual): Directory not empty";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:10;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1412;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1412;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 16:27:49";s:13:"post_d
+
+
+--- PATTERN: exec( ---
+post_id	meta_key	sample
+1423	_wpcode_last_error	a:10:{s:4:"type";i:2;s:7:"message";s:96:"file_put_contents(/etc/nginx/conf.d/upload_limit.conf): Failed to open stream: Permission denied";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:9;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1423;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1423;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 19:44:47";s:13
+1425	_wpcode_last_error	a:10:{s:4:"type";i:2;s:7:"message";s:90:"file_put_contents(/etc/nginx/conf.d/upload.conf): Failed to open stream: Permission denied";s:4:"file";s:122:"/var/www/html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(419) : eval()'d code";s:4:"line";i:42;s:8:"wpc_type";s:11:"deactivated";s:16:"doing_activation";b:0;s:7:"snippet";O:14:"WPCode_Snippet":35:{s:9:"post_type";s:6:"wpcode";s:17:"location_taxonomy";s:15:"wpcode_location";s:18:"code_type_taxonomy";s:11:"wpcode_type";s:13:"tags_taxonomy";s:11:"wpcode_tags";s:2:"id";i:1425;s:9:"post_data";O:7:"WP_Post":24:{s:2:"ID";i:1425;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2026-03-19 19:55:12";s:13:"pos
+
+
+--- PATTERN: curl_exec ---
+
+--- PATTERN: document.write ---
+
+--- PATTERN: atob( ---
+
+--- PATTERN: fromCharCode ---
+
+=== LIVE HEALTH AFTER WPCODE CONTENT AUDIT ===
+---- https://drycured.com/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 18:25:35 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/101>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/sitemap.xml ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 18:25:35 GMT
+Content-Type: text/xml; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Robots-Tag: noindex, follow
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/recepti/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 18:25:35 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/102>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=102>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/alati/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 18:25:35 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2349>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2349>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+---- https://drycured.com/wp-json/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 18:25:36 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Robots-Tag: noindex
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+X-Content-Type-Options: nosniff
+Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link
+Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+Allow: GET
+Vary: Origin
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+
+=== FINAL WPCODE CONTENT AUDIT COMPLETE — NO CHANGES MADE ===
