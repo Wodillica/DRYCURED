@@ -1,0 +1,13 @@
+[2026-05-28T17:28:17+00:00] DRYCURED weekly uploads backup v0.0.1 started
+[2026-05-28T17:28:17+00:00] Backup dir: /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17
+[2026-05-28T17:28:17+00:00] Uploads source: /var/www/html/wp-content/uploads
+[2026-05-28T17:28:17+00:00] Measuring uploads size...
+1.1G	/var/www/html/wp-content/uploads
+[2026-05-28T17:28:17+00:00] Creating uploads archive with tar + zstd...
+[2026-05-28T17:31:03+00:00] Testing archive listing...
+[2026-05-28T17:31:05+00:00] Validating SHA256 checksums...
+[2026-05-28T17:31:06+00:00] Applying retention: deleting weekly_uploads_* older than 35 days
+[2026-05-28T17:31:06+00:00] Final backup files:
+[2026-05-28T17:31:06+00:00] DRYCURED weekly uploads backup v0.0.1 finished: PASS
+BACKUP_DIR=/root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17
+LOG_FILE=/root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17/logs/backup.log

@@ -1,0 +1,1 @@
+SCRIPT_PATH=/root/drycured_ops/drycured_weekly_uploads_backup.sh

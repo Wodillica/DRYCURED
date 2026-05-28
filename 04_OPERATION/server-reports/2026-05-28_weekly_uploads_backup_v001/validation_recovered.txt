@@ -1,0 +1,130 @@
+=== EXISTENCE CHECK ===
+total 20K
+drwx------ 5 root root 4.0K May 28 17:28 .
+drwx------ 8 root root 4.0K May 28 17:28 ..
+drwxr-xr-x 2 root root 4.0K May 28 17:28 logs
+drwxr-xr-x 2 root root 4.0K May 28 17:31 manifests
+drwxr-xr-x 2 root root 4.0K May 28 17:28 uploads
+2026-05-28 17:31 1018712423 /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17/uploads/uploads_2026-05-28_17-28-17.tar.zst
+2026-05-28 17:31 1314 /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17/logs/backup.log
+2026-05-28 17:31 203 /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17/manifests/SHA256SUMS.txt
+2026-05-28 17:31 557 /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17/manifests/MANIFEST.txt
+=== BACKUP LOG ===
+[2026-05-28T17:28:17+00:00] DRYCURED weekly uploads backup v0.0.1 started
+[2026-05-28T17:28:17+00:00] Backup dir: /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17
+[2026-05-28T17:28:17+00:00] Uploads source: /var/www/html/wp-content/uploads
+[2026-05-28T17:28:17+00:00] Measuring uploads size...
+1.1G	/var/www/html/wp-content/uploads
+[2026-05-28T17:28:17+00:00] Creating uploads archive with tar + zstd...
+[2026-05-28T17:31:03+00:00] Testing archive listing...
+[2026-05-28T17:31:05+00:00] Validating SHA256 checksums...
+./manifests/MANIFEST.txt: OK
+./uploads/uploads_2026-05-28_17-28-17.tar.zst: OK
+[2026-05-28T17:31:06+00:00] Applying retention: deleting weekly_uploads_* older than 35 days
+[2026-05-28T17:31:06+00:00] Final backup files:
+2026-05-28 17:31 1018712423 /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17/uploads/uploads_2026-05-28_17-28-17.tar.zst
+2026-05-28 17:31 203 /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17/manifests/SHA256SUMS.txt
+2026-05-28 17:31 557 /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17/manifests/MANIFEST.txt
+2026-05-28 17:31 758 /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17/logs/backup.log
+[2026-05-28T17:31:06+00:00] DRYCURED weekly uploads backup v0.0.1 finished: PASS
+=== SHA256 VERIFY ===
+=== ARCHIVE LIST TEST ===
+=== ARCHIVE SIZE ===
+-rw-r--r-- 1 root root 972M May 28 17:31 /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17/uploads/uploads_2026-05-28_17-28-17.tar.zst
+=== LIVE HEALTH AFTER RECOVERED VALIDATION ===
+---- https://drycured.com/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:37:39 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/101>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/sitemap.xml ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:37:40 GMT
+Content-Type: text/xml; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Robots-Tag: noindex, follow
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/recepti/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:37:40 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/102>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=102>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/alati/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:37:40 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2349>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2349>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+---- https://drycured.com/wp-json/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:37:40 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Robots-Tag: noindex
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+X-Content-Type-Options: nosniff
+Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link
+Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+Allow: GET
+Vary: Origin
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+
