@@ -1,0 +1,2 @@
+HEALTH_SCRIPT=/root/drycured_ops/drycured_health_report.sh
+syntax: PASS

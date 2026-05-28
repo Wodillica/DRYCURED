@@ -1,0 +1,473 @@
+=== DRYCURED HEALTH REPORT v0.0.1 — READ ONLY ===
+2026-05-28T17:42:09+00:00
+
+=== HOST ===
+swab-production
+ 17:42:09 up 13 days, 46 min,  1 user,  load average: 0.00, 0.12, 0.18
+
+=== DISK SPACE ===
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           382M  888K  381M   1% /run
+efivarfs        256K   63K  189K  26% /sys/firmware/efi/efivars
+/dev/sda1        75G   14G   59G  19% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sda15      253M  146K  252M   1% /boot/efi
+tmpfs           382M   12K  382M   1% /run/user/0
+
+=== MEMORY ===
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.4Gi       149Mi       124Mi       2.6Gi       2.3Gi
+Swap:             0B          0B          0B
+
+=== GIT STATUS ===
+
+=== LAST COMMITS ===
+8d57573 Archive drycured weekly uploads backup script
+8d639a1 Archive drycured wp-content backup plugin blocks
+4207646 Archive drycured backup monitor v002
+f8208c2 Archive drycured backup monitor
+7a77416 Archive drycured daily backup systemd timer
+d232a27 Archive drycured daily backup second manual run
+4ea5f1e Archive drycured restore checklist
+6940154 Archive drycured daily backup script
+e47c527 Archive drycured local backup baseline
+e1a8a64 Archive drycured backup restore audit
+b57b2c3 Archive drycured security checkpoint
+b2429ca Archive drycured login rate limit
+
+=== BACKUP TIMER ===
+enabled
+active
+NEXT                                LEFT LAST                              PASSED UNIT                                  ACTIVATES
+Fri 2026-05-29 03:27:48 UTC           9h -                                      - drycured-daily-db-config-backup.timer drycured-daily-db-config-backup.service
+
+=== BACKUP MONITOR ===
+=== DRYCURED BACKUP MONITOR v0.0.2 ===
+2026-05-28T17:42:09+00:00
+
+=== SYSTEMD TIMER STATUS ===
+timer_enabled=enabled
+timer_active=active
+
+=== NEXT TIMER RUN ===
+NEXT                                LEFT LAST                              PASSED UNIT                                  ACTIVATES
+Fri 2026-05-29 03:27:48 UTC           9h -                                      - drycured-daily-db-config-backup.timer drycured-daily-db-config-backup.service
+
+=== LAST SERVICE RESULT ===
+service_active_state=inactive
+service_sub_state=dead
+service_result=success
+service_exec_main_status=0
+
+=== SERVICE STATUS PREVIEW ===
+○ drycured-daily-db-config-backup.service - Drycured daily DB and config backup
+     Loaded: loaded (/etc/systemd/system/drycured-daily-db-config-backup.service; static)
+     Active: inactive (dead) since Thu 2026-05-28 17:00:15 UTC; 41min ago
+TriggeredBy: ● drycured-daily-db-config-backup.timer
+    Process: 616648 ExecStart=/root/drycured_ops/drycured_daily_db_config_backup.sh (code=exited, status=0/SUCCESS)
+   Main PID: 616648 (code=exited, status=0/SUCCESS)
+        CPU: 1.439s
+
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616690]: [2026-05-28T17:00:15+00:00] Copying protected wp-config.php...
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616701]: [2026-05-28T17:00:15+00:00] Validating SHA256 checksums...
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616705]: [2026-05-28T17:00:15+00:00] Applying retention: deleting daily_db_config_* older than 7 days
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616709]: [2026-05-28T17:00:15+00:00] Final backup files:
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616714]: [2026-05-28T17:00:15+00:00] DRYCURED daily DB + config backup v0.0.2 finished: PASS
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616648]: BACKUP_DIR=/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+May 28 17:00:15 swab-production drycured_daily_db_config_backup.sh[616648]: LOG_FILE=/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/logs/backup.log
+May 28 17:00:15 swab-production systemd[1]: drycured-daily-db-config-backup.service: Deactivated successfully.
+May 28 17:00:15 swab-production systemd[1]: Finished drycured-daily-db-config-backup.service - Drycured daily DB and config backup.
+May 28 17:00:15 swab-production systemd[1]: drycured-daily-db-config-backup.service: Consumed 1.439s CPU time.
+
+=== LATEST BACKUP ===
+latest_backup=/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+
+=== LATEST BACKUP AGE ===
+age_hours=0
+max_age_hours=36
+
+=== LATEST BACKUP FILES ===
+2026-05-28 17:00 10937 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/config/nginx_config_2026-05-28_17-00-13.tar.gz
+2026-05-28 17:00 1667 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/logs/backup.log
+2026-05-28 17:00 3424457 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/db/drycured_db_2026-05-28_17-00-13.sql.gz
+2026-05-28 17:00 4096 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/config/wp-config_2026-05-28_17-00-13.php.bak
+2026-05-28 17:00 429 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/manifests/SHA256SUMS.txt
+2026-05-28 17:00 598 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13/manifests/MANIFEST.txt
+
+=== SHA256 VERIFY ===
+./config/nginx_config_2026-05-28_17-00-13.tar.gz: OK
+./config/wp-config_2026-05-28_17-00-13.php.bak: OK
+./db/drycured_db_2026-05-28_17-00-13.sql.gz: OK
+./manifests/MANIFEST.txt: OK
+
+=== BACKUP STORAGE USAGE ===
+989M	/root/drycured_production_backups
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_16-03-43
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_16-51-58
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_16-57-24
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+
+=== DAILY BACKUP COUNT ===
+daily_backup_count=4
+
+=== FINAL STATUS ===
+PASS
+
+=== LATEST DAILY DB CONFIG BACKUPS ===
+2026-05-28 16:03 /root/drycured_production_backups/daily_db_config_2026-05-28_16-03-43
+2026-05-28 16:51 /root/drycured_production_backups/daily_db_config_2026-05-28_16-51-58
+2026-05-28 16:57 /root/drycured_production_backups/daily_db_config_2026-05-28_16-57-24
+2026-05-28 17:00 /root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+
+=== LATEST WEEKLY UPLOADS BACKUPS ===
+2026-05-28 17:28 /root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17
+
+=== BACKUP ROOT SIZE ===
+989M	/root/drycured_production_backups
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_16-03-43
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_16-51-58
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_16-57-24
+3.4M	/root/drycured_production_backups/daily_db_config_2026-05-28_17-00-13
+3.4M	/root/drycured_production_backups/local_baseline_2026-05-28_15-58-04
+972M	/root/drycured_production_backups/weekly_uploads_2026-05-28_17-28-17
+989M	/root/drycured_production_backups
+
+=== NGINX CONFIG TEST ===
+
+=== PHP / WORDPRESS ===
+PHP 8.3.6 (cli) (built: Jan 27 2026 03:09:47) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.3.6, Copyright (c) Zend Technologies
+6.7
+name	version	status
+interactive-3d-flipbook-powered-physics-engine	1.16.19	active
+akismet	5.3.7	active
+all-in-one-seo-pack	4.7.9.1	active
+bbpress	2.6.14	active
+digitalna-pusnica-alati	1.3.2	active
+drycured-enciklopedija-znanja	1.1.0	active
+drycured-home-core	0.1.96	active
+drycured-home-podcast-runtime-card	2.1.0	active
+drycured-podcast-archive	1.0.0	active
+drycured-podcast-style	1.0.0	active
+elementor	3.27.6	active
+elementor-pro	3.27.4	active
+gtranslate	3.0.9	active
+jwt-authentication-for-wp-rest-api	1.5.0	active
+insert-headers-and-footers	2.2.5	active
+wp-mail-smtp	4.8.0	active
+wp-recipe-maker	9.8.2	active
+
+=== LIVE URL HEALTH ===
+---- https://drycured.com/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:11 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/101>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/sitemap.xml ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:11 GMT
+Content-Type: text/xml; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Robots-Tag: noindex, follow
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/robots.txt ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:11 GMT
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/recepti/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/102>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=102>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/alati/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, must-revalidate
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2349>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2349>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/wp-json/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Robots-Tag: noindex
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+X-Content-Type-Options: nosniff
+Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link
+Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+Allow: GET
+Vary: Origin
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/wp-login.php ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Set-Cookie: wordpress_test_cookie=WP%20Cookie%20check; path=/; domain=.drycured.com; secure
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+=== PROTECTED ROUTES CHECK ===
+---- https://drycured.com/xmlrpc.php ----
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com//xmlrpc.php ----
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/wp-content/ai1wm-backups/ ----
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/wp-content/backups-dup-lite/ ----
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/wp-content/litespeed/auto-backup/ ----
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/wp-content/uploads/drycured/backups/ ----
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/projekti/projekt_drycured.com_struktura.zip ----
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+---- https://drycured.com/swabtest/swabtools-homepage-techtemplate.zip ----
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 28 May 2026 17:42:12 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+
+=== SECURITY HEADER SAMPLE — HOME ===
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+Content-Security-Policy-Report-Only: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gtranslate.net https://drycured.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://drycured.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://drycured.com https://cdn.gtranslate.net; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;
+
+=== MAIL ERROR LOG CHECK ===
+-rw-r--r-- 1 root root 2.7K May  6 20:01 /var/www/html/wp-content/uploads/drycured/mail/mail-errors.log
+        (
+            [0] => worldcharcuterie@gmail.com
+        )
+
+    [subject] => Drycured SMTP test nakon spremanja postavki
+    [message] => Ako vidiš ovu poruku, SMTP slanje radi.
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+
+--- 2026-05-06 20:01:05 ---
+SMTP Error: Could not authenticate.
+Array
+(
+    [to] => Array
+        (
+            [0] => worldcharcuterie@gmail.com
+        )
+
+    [subject] => Drycured SMTP test nakon nove app lozinke
+    [message] => Ako vidiš ovu poruku, SMTP slanje radi.
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+
+=== FINAL HEALTH REPORT COMPLETE ===
