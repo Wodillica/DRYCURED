@@ -1,0 +1,8 @@
+414:        <?php echo dclc_html_visual_extra_blocks($slug); ?>
+700:        .dclc-rk-grid {
+884:            .dclc-rk-grid,
+1158:function dclc_html_visual_extra_blocks(string $slug): string {
+1206:        <span class="dclc-kicker">Što ukloniti, što ostaviti</span>
+1209:        <div class="dclc-rk-grid">
+1234:    <section class="dclc-block dclc-thickness-risk">
+1262:    <section class="dclc-block dclc-final-checklist">

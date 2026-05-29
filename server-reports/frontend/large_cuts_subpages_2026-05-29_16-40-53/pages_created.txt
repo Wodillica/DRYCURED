@@ -1,0 +1,7 @@
+CREATED: But, pršut i šunka | but-prsut-sunka | ID=2965
+CREATED: Plećka | plecka | ID=2966
+CREATED: Vratina, coppa i capocollo | vratina-coppa-capocollo | ID=2967
+CREATED: Pečenica, lonza i lungić | pecenica-lonza-lungic | ID=2968
+CREATED: Panceta i potrbušina | panceta-potrbusina | ID=2969
+CREATED: Obrazina i guanciale | obrazina-guanciale | ID=2970
+CREATED: Goveđi komadi i bresaola | govedi-komadi-bresaola | ID=2971

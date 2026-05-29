@@ -1,0 +1,234 @@
+---- but-prsut-sunka ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:51:01 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2965>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2965>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+971:/* Gumb "PREGLEDAJ SVE" — smanjen za 30% */
+1150:        .dclc-prep-guide__grid {
+1157:        .dclc-prep-guide__grid article {
+1184:        .dclc-prep-guide__grid h3 {
+1191:        .dclc-prep-guide__grid p {
+1309:            .dclc-prep-guide__grid {
+2206:                <p>But je najzahtjevniji veći komad jer spaja debljinu, kost, kožu, masnoću i dugo vrijeme obrade. Kod pršuta i šunki uspjeh se ne dobiva brzinom, nego pravilnim oblikovanjem, soljenjem, odmorom i strpljivim sušenjem.</p>
+2222:        <span class="dclc-kicker">Vizualni vodič prije soljenja</span>
+2223:        <h2>Što napraviti prije nego komad dođe u sol</h2>
+2229:        <div class="dclc-prep-guide__grid">
+2233:                        <h3>Pregled oko kosti i zgloba</h3>
+2247:                        <h3>Oblikovanje ruba</h3>
+2261:                        <h3>Procjena debljine</h3>
+2285:                        <h3>Oblikovanje prije soljenja</h3>
+2304:                <li><strong>Pregledaj sirovinu:</strong> boja, miris, čvrstoća, mast, rubovi i eventualni krvni podljevi.</li>
+2348:                <h2>Vrati se na pregled ili nastavi prema soljenju</h2>
+2349:                <p>Veći komadi traže miran redoslijed: prvo dobra sirovina i oblikovanje, zatim soljenje, izjednačavanje i tek onda sušenje.</p>
+
+---- plecka ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:51:02 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2966>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2966>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+971:/* Gumb "PREGLEDAJ SVE" — smanjen za 30% */
+1150:        .dclc-prep-guide__grid {
+1157:        .dclc-prep-guide__grid article {
+1184:        .dclc-prep-guide__grid h3 {
+1191:        .dclc-prep-guide__grid p {
+1309:            .dclc-prep-guide__grid {
+2206:                <p>Plećka je manja i često zahvalnija od buta, ali ima više veziva, nepravilniji oblik i drukčiji raspored masnoće. Dobra je za kućne i male proizvodne uvjete jer dopušta kraći ciklus, ali traži pažljivo oblikovanje.</p>
+2222:        <span class="dclc-kicker">Vizualni vodič prije soljenja</span>
+2223:        <h2>Što napraviti prije nego komad dođe u sol</h2>
+2229:        <div class="dclc-prep-guide__grid">
+2233:                        <h3>Pregled nepravilnih dijelova</h3>
+2261:                        <h3>Procjena debljine i oblika</h3>
+2285:                        <h3>Čišćenje i oblikovanje</h3>
+2304:                <li><strong>Pregledaj sirovinu:</strong> boja, miris, čvrstoća, mast, rubovi i eventualni krvni podljevi.</li>
+2348:                <h2>Vrati se na pregled ili nastavi prema soljenju</h2>
+2349:                <p>Veći komadi traže miran redoslijed: prvo dobra sirovina i oblikovanje, zatim soljenje, izjednačavanje i tek onda sušenje.</p>
+
+---- vratina-coppa-capocollo ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:51:02 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2967>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2967>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+971:/* Gumb "PREGLEDAJ SVE" — smanjen za 30% */
+1150:        .dclc-prep-guide__grid {
+1157:        .dclc-prep-guide__grid article {
+1184:        .dclc-prep-guide__grid h3 {
+1191:        .dclc-prep-guide__grid p {
+1309:            .dclc-prep-guide__grid {
+2222:        <span class="dclc-kicker">Vizualni vodič prije soljenja</span>
+2223:        <h2>Što napraviti prije nego komad dođe u sol</h2>
+2229:        <div class="dclc-prep-guide__grid">
+2233:                        <h3>Pregled prošaranosti</h3>
+2247:                        <h3>Cilindrično oblikovanje</h3>
+2285:                        <h3>Oblikovanje i vezanje</h3>
+2304:                <li><strong>Pregledaj sirovinu:</strong> boja, miris, čvrstoća, mast, rubovi i eventualni krvni podljevi.</li>
+2330:                        <p><strong>Uzrok:</strong> Nedovoljno oblikovanje ili loše vezanje.</p>
+2348:                <h2>Vrati se na pregled ili nastavi prema soljenju</h2>
+2349:                <p>Veći komadi traže miran redoslijed: prvo dobra sirovina i oblikovanje, zatim soljenje, izjednačavanje i tek onda sušenje.</p>
+
+---- pecenica-lonza-lungic ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:51:02 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2968>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2968>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+971:/* Gumb "PREGLEDAJ SVE" — smanjen za 30% */
+1150:        .dclc-prep-guide__grid {
+1157:        .dclc-prep-guide__grid article {
+1184:        .dclc-prep-guide__grid h3 {
+1191:        .dclc-prep-guide__grid p {
+1309:            .dclc-prep-guide__grid {
+2222:        <span class="dclc-kicker">Vizualni vodič prije soljenja</span>
+2223:        <h2>Što napraviti prije nego komad dođe u sol</h2>
+2229:        <div class="dclc-prep-guide__grid">
+2254:                        <h3>Minimalno oblikovanje</h3>
+2261:                        <h3>Procjena najtanjeg dijela</h3>
+2304:                <li><strong>Pregledaj sirovinu:</strong> boja, miris, čvrstoća, mast, rubovi i eventualni krvni podljevi.</li>
+2348:                <h2>Vrati se na pregled ili nastavi prema soljenju</h2>
+2349:                <p>Veći komadi traže miran redoslijed: prvo dobra sirovina i oblikovanje, zatim soljenje, izjednačavanje i tek onda sušenje.</p>
+
+---- panceta-potrbusina ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:51:03 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2969>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2969>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+971:/* Gumb "PREGLEDAJ SVE" — smanjen za 30% */
+1150:        .dclc-prep-guide__grid {
+1157:        .dclc-prep-guide__grid article {
+1184:        .dclc-prep-guide__grid h3 {
+1191:        .dclc-prep-guide__grid p {
+1309:            .dclc-prep-guide__grid {
+2222:        <span class="dclc-kicker">Vizualni vodič prije soljenja</span>
+2223:        <h2>Što napraviti prije nego komad dođe u sol</h2>
+2229:        <div class="dclc-prep-guide__grid">
+2233:                        <h3>Pregled slojeva mesa i masti</h3>
+2285:                        <h3>Oblikovanje</h3>
+2304:                <li><strong>Pregledaj sirovinu:</strong> boja, miris, čvrstoća, mast, rubovi i eventualni krvni podljevi.</li>
+2348:                <h2>Vrati se na pregled ili nastavi prema soljenju</h2>
+2349:                <p>Veći komadi traže miran redoslijed: prvo dobra sirovina i oblikovanje, zatim soljenje, izjednačavanje i tek onda sušenje.</p>
+
+---- obrazina-guanciale ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:51:03 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2970>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2970>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+971:/* Gumb "PREGLEDAJ SVE" — smanjen za 30% */
+1150:        .dclc-prep-guide__grid {
+1157:        .dclc-prep-guide__grid article {
+1184:        .dclc-prep-guide__grid h3 {
+1191:        .dclc-prep-guide__grid p {
+1309:            .dclc-prep-guide__grid {
+2222:        <span class="dclc-kicker">Vizualni vodič prije soljenja</span>
+2223:        <h2>Što napraviti prije nego komad dođe u sol</h2>
+2229:        <div class="dclc-prep-guide__grid">
+2233:                        <h3>Pregled mirisa masnoće</h3>
+2247:                        <h3>Oblikovanje nepravilnog komada</h3>
+2268:                        <h3>Spremnost za soljenje</h3>
+2304:                <li><strong>Pregledaj sirovinu:</strong> boja, miris, čvrstoća, mast, rubovi i eventualni krvni podljevi.</li>
+2348:                <h2>Vrati se na pregled ili nastavi prema soljenju</h2>
+2349:                <p>Veći komadi traže miran redoslijed: prvo dobra sirovina i oblikovanje, zatim soljenje, izjednačavanje i tek onda sušenje.</p>
+
+---- govedi-komadi-bresaola ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:51:03 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2971>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2971>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+971:/* Gumb "PREGLEDAJ SVE" — smanjen za 30% */
+1150:        .dclc-prep-guide__grid {
+1157:        .dclc-prep-guide__grid article {
+1184:        .dclc-prep-guide__grid h3 {
+1191:        .dclc-prep-guide__grid p {
+1309:            .dclc-prep-guide__grid {
+2206:                <p>Goveđi sušeni komadi traže posebnu pažnju jer su mršavi, tamniji i imaju manje zaštitne masnoće. Bresaola tip proizvoda oslanja se na uredno oblikovanje, kontrolirano soljenje i vrlo pažljivo sušenje.</p>
+2222:        <span class="dclc-kicker">Vizualni vodič prije soljenja</span>
+2223:        <h2>Što napraviti prije nego komad dođe u sol</h2>
+2229:        <div class="dclc-prep-guide__grid">
+2247:                        <h3>Oblikovanje pravilnog presjeka</h3>
+2261:                        <h3>Procjena debljine</h3>
+2285:                        <h3>Oblikovanje</h3>
+2304:                <li><strong>Pregledaj sirovinu:</strong> boja, miris, čvrstoća, mast, rubovi i eventualni krvni podljevi.</li>
+2348:                <h2>Vrati se na pregled ili nastavi prema soljenju</h2>
+2349:                <p>Veći komadi traže miran redoslijed: prvo dobra sirovina i oblikovanje, zatim soljenje, izjednačavanje i tek onda sušenje.</p>
+

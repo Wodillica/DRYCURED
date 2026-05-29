@@ -1,0 +1,16 @@
+372:function dclc_hero_visual_data(string $slug): array {
+418:function dclc_render_hero_visual(string $slug): string {
+419:    $data = dclc_hero_visual_data($slug);
+423:    <figure class="dclc-hero__image dclc-hero__image--diagram dclc-hero__image--<?php echo esc_attr($data['shape']); ?>">
+426:                <div class="dclc-cut-shape dclc-cut-shape--<?php echo esc_attr($data['shape']); ?>"></div>
+467:            <?php echo dclc_render_hero_visual($slug); ?>
+645:        .dclc-hero__image--diagram {
+675:        .dclc-cut-shape {
+690:        .dclc-cut-shape--but {
+696:        .dclc-cut-shape--but::after {
+708:        .dclc-cut-shape--plecka {
+714:        .dclc-cut-shape--vratina {
+723:        .dclc-cut-shape--pecenica {
+730:        .dclc-cut-shape--panceta {
+739:        .dclc-cut-shape--obrazina {
+746:        .dclc-cut-shape--govedina {

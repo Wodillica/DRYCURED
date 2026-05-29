@@ -1,0 +1,75 @@
+=== IMAGE FILES ===
+-rw-r--r-- 1 www-data www-data 129K May 29 16:06 /var/www/html/wp-content/uploads/drycured/home-process/process-extra-obrada-vecijih-komada-card.webp
+-rw-r--r-- 1 www-data www-data 335K May 29 16:06 /var/www/html/wp-content/uploads/drycured/home-process/process-extra-obrada-vecijih-komada.jpg
+-rw-r--r-- 1 www-data www-data 186K May 29 16:06 /var/www/html/wp-content/uploads/drycured/home-process/process-extra-obrada-vecijih-komada.webp
+=== DIRECT IMAGE URL ===
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:10:28 GMT
+Content-Type: image/webp
+Content-Length: 131970
+Last-Modified: Fri, 29 May 2026 16:06:40 GMT
+Connection: keep-alive
+ETag: "6a19b990-20382"
+Expires: Sun, 28 Jun 2026 16:10:28 GMT
+Cache-Control: max-age=2592000
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+
+=== OBRADA CARD HTML CONTEXT ===
+1087:        .dcpo-card {
+1100:        .dcpo-card-featured {
+1105:        .dcpo-card-top {
+1140:        .dcpo-card p {
+1245:            .dcpo-card {
+2204:                            <article class="dcpo-card">
+2205:                    <div class="dcpo-card-top">
+2215:                            <article class="dcpo-card">
+2216:                    <div class="dcpo-card-top">
+2220:                    <h3>Obrada većih komada</h3>
+2226:                            <article class="dcpo-card">
+2227:                    <div class="dcpo-card-top">
+2237:                            <article class="dcpo-card">
+2238:                    <div class="dcpo-card-top">
+2248:                            <article class="dcpo-card">
+2249:                    <div class="dcpo-card-top">
+2259:                            <article class="dcpo-card">
+2260:                    <div class="dcpo-card-top">
+2270:                            <article class="dcpo-card">
+2271:                    <div class="dcpo-card-top">
+2281:                            <article class="dcpo-card">
+2282:                    <div class="dcpo-card-top">
+2292:                            <article class="dcpo-card dcpo-card-featured">
+2293:                    <div class="dcpo-card-top">
+2304:                            <article class="dcpo-card">
+2305:                    <div class="dcpo-card-top">
+2315:                            <article class="dcpo-card">
+2316:                    <div class="dcpo-card-top">
+2326:                            <article class="dcpo-card">
+2327:                    <div class="dcpo-card-top">
+2337:                            <article class="dcpo-card">
+2338:                    <div class="dcpo-card-top">
+3047:        .dcpo-wrap .dcpo-card {
+3057:        .dcpo-wrap .dcpo-card:hover {
+3063:        .dcpmvu-card-image {
+3072:        .dcpmvu-card-image img {
+3080:        .dcpo-wrap .dcpo-card h3 {
+3084:        .dcpo-wrap .dcpo-card .dcpo-btn {
+3093:        .dcpo-wrap .dcpo-card .dcpo-btn:hover {
+3177:        body.page-id-2864 .dcpo-card > span:first-child,
+3178:        body.page-id-2864 .dcpo-card > small:first-child,
+3179:        body.page-id-2864 .dcpo-card > b:first-child,
+3180:        body.page-id-2864 .dcpo-card > strong:first-child,
+3181:        body.page-id-2864 .dcpo-card > em:first-child,
+3182:        body.page-id-2864 .dcpo-card [class*="number"],
+3183:        body.page-id-2864 .dcpo-card [class*="num"],
+3184:        body.page-id-2864 .dcpo-card [class*="step"],
+3185:        body.page-id-2864 .dcpo-card [class*="phase"] {
+3236:            .dcpmvu-card-image {
+3252:                'obrada-vecijih-komada': 'process-extra-obrada-vecijih-komada-card.webp',
+3292:            const cards = Array.from(wrap.querySelectorAll('.dcpo-card'));
+3298:                    if (el.closest('.dcpmvu-card-image')) return;
+3322:                if (card.querySelector('.dcpmvu-card-image')) return;
+3335:                image.className = 'dcpmvu-card-image';
+3381:                Array.from(wrap.querySelectorAll('.dcpo-card')).forEach(function(card) {
+3383:                        if (el.closest('.dcpmvu-card-image')) return;

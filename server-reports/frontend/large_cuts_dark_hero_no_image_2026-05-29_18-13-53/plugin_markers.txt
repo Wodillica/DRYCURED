@@ -1,0 +1,32 @@
+418:function dclc_render_hero_visual(string $slug): string {
+423:    <aside class="dclc-hero__image dclc-hero__image--dark-panel" aria-label="Sažetak pripreme komada">
+424:        <div class="dclc-dark-panel">
+425:            <span class="dclc-dark-panel__label">Fokus pripreme</span>
+428:            <div class="dclc-dark-panel__items">
+435:                Fotografija će biti dodana nakon odabira stvarnog, anatomski točnog komada.
+468:            <?php echo dclc_render_hero_visual($slug); ?>
+646:        .dclc-hero__image--dark-panel {
+655:        .dclc-dark-panel {
+666:        .dclc-dark-panel__label {
+680:        .dclc-dark-panel strong {
+687:        .dclc-dark-panel__items {
+694:        .dclc-dark-panel__items span {
+708:        .dclc-dark-panel p {
+725:        .dclc-cut-visual {
+735:        .dclc-cut-visual__board {
+746:        .dclc-cut-shape {
+761:        .dclc-cut-shape--but {
+767:        .dclc-cut-shape--but::after {
+779:        .dclc-cut-shape--plecka {
+785:        .dclc-cut-shape--vratina {
+794:        .dclc-cut-shape--pecenica {
+801:        .dclc-cut-shape--panceta {
+810:        .dclc-cut-shape--obrazina {
+817:        .dclc-cut-shape--govedina {
+840:        .dclc-cut-visual__legend {
+846:        .dclc-cut-visual__legend strong {
+853:        .dclc-cut-visual__legend span {
+1171:        .dclc-cut-visual,
+1172:        .dclc-cut-shape,
+1201:            .dclc-dark-panel__items {
+1205:            .dclc-dark-panel {

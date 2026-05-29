@@ -1,0 +1,58 @@
+REPORT_DIR=/root/DRYCURED_GITHUB/server-reports/frontend/large_cuts_subpages_2026-05-29_16-40-53
+PROCESS_ID=2864
+PARENT_ID=2964
+=== CREATED/EXISTING PAGES ===
+CREATED: But, pršut i šunka | but-prsut-sunka | ID=2965
+CREATED: Plećka | plecka | ID=2966
+CREATED: Vratina, coppa i capocollo | vratina-coppa-capocollo | ID=2967
+CREATED: Pečenica, lonza i lungić | pecenica-lonza-lungic | ID=2968
+CREATED: Panceta i potrbušina | panceta-potrbusina | ID=2969
+CREATED: Obrazina i guanciale | obrazina-guanciale | ID=2970
+CREATED: Goveđi komadi i bresaola | govedi-komadi-bresaola | ID=2971
+=== PLUGIN MARKERS ===
+3: * Plugin Name: Drycured Process Large Cuts Core
+23:function dclc_topics(): array {
+25:        'but-prsut-sunka' => [
+49:            'problems' => [
+50:                ['problem' => 'Tvrda površina, mekana jezgra', 'cause' => 'Prebrz početak sušenja ili prejako strujanje zraka.', 'solution' => 'Smanjiti ventilaciju, povisiti vlagu i produljiti fazu izjednačavanja.'],
+51:                ['problem' => 'Sumnjiv miris uz kost', 'cause' => 'Nedovoljno hlađenje, loše soljenje ili početno kvarenje.', 'solution' => 'Komad izdvojiti; ne pokušavati ga spašavati dimom ili začinima.'],
+52:                ['problem' => 'Preslan rub, blaga sredina', 'cause' => 'Sol ostaje na površini, a izjednačavanje je prekratko.', 'solution' => 'Planirati dulji hladni odmor nakon soljenja i sporiji ulazak u sušenje.'],
+80:            'problems' => [
+81:                ['problem' => 'Ljepljivi rubovi', 'cause' => 'Neravnine zadržavaju vlagu.', 'solution' => 'Prije soljenja oblikovati rubove i osigurati blago strujanje zraka.'],
+82:                ['problem' => 'Žilava tekstura', 'cause' => 'Previše veziva ili neujednačeno zrenje.', 'solution' => 'Ukloniti grube opne i planirati dulje zrenje za čvršće komade.'],
+83:                ['problem' => 'Neujednačena slanost', 'cause' => 'Nepravilan oblik i nedovoljan odmor.', 'solution' => 'Nakon soljenja obavezno provesti hladno izjednačavanje.'],
+111:            'problems' => [
+112:                ['problem' => 'Užegla masnoća', 'cause' => 'Toplina, svjetlo, kisik ili stara mast.', 'solution' => 'Koristiti svježu sirovinu, držati nižu temperaturu i zaštititi komad od previše zraka i svjetla.'],
+113:                ['problem' => 'Ljepljiva površina', 'cause' => 'Previše vlage i premalo zraka.', 'solution' => 'Kratko pojačati ventilaciju, provjeriti temperaturu i higijenu površine.'],
+114:                ['problem' => 'Nepravilan oblik', 'cause' => 'Nedovoljno oblikovanje ili loše vezanje.', 'solution' => 'Prije soljenja uredno oblikovati i po potrebi vezati komad.'],
+142:            'problems' => [
+143:                ['problem' => 'Pretvrda i suha pečenica', 'cause' => 'Preagresivno sušenje i premalo zaštitne masnoće.', 'solution' => 'Usporiti početak sušenja i smanjiti strujanje zraka.'],
+144:                ['problem' => 'Preslan okus', 'cause' => 'Predugo soljenje tankog komada.', 'solution' => 'Skraćivati soljenje prema debljini i provesti kratko izjednačavanje.'],
+145:                ['problem' => 'Siva ili suha površina', 'cause' => 'Previše zraka ili starija sirovina.', 'solution' => 'Koristiti svjež komad i stabilizirati vlagu u početnoj fazi.'],
+173:            'problems' => [
+174:                ['problem' => 'Užegla masnoća', 'cause' => 'Toplina, starija mast ili previše kisika.', 'solution' => 'Koristiti svježu potrbušinu, držati hladniji proces i izbjegavati svjetlo.'],
+175:                ['problem' => 'Neujednačeno sušenje', 'cause' => 'Različita debljina mesa i masti.', 'solution' => 'Poravnati rubove i omogućiti ravnomjeran protok zraka.'],
+176:                ['problem' => 'Zračni džep u rolanoj panceti', 'cause' => 'Loše rolanje ili nedovoljno vezanje.', 'solution' => 'Čvrsto rolati, istisnuti zrak i pravilno vezati prije sušenja.'],
+204:            'problems' => [
+205:                ['problem' => 'Težak miris masnoće', 'cause' => 'Loša sirovina, žlijezde ili toplina.', 'solution' => 'Pažljivo očistiti komad i odbaciti svaku sumnjivu sirovinu.'],
+206:                ['problem' => 'Preslan rub', 'cause' => 'Neujednačena debljina i predugo soljenje.', 'solution' => 'Prilagoditi soljenje tanjim dijelovima i provesti izjednačavanje.'],
+207:                ['problem' => 'Ljepljiva površina', 'cause' => 'Previše vlage i nedovoljno zraka.', 'solution' => 'Kratko stabilizirati vlagu, pojačati higijenu i provjeriti temperaturu.'],
+235:            'problems' => [
+236:                ['problem' => 'Presušena površina', 'cause' => 'Govedina je mršava i brzo gubi vlagu.', 'solution' => 'Smanjiti strujanje zraka i koristiti višu početnu vlagu.'],
+237:                ['problem' => 'Pretamna, tvrda vanjština', 'cause' => 'Prebrzo sušenje ili oksidacija površine.', 'solution' => 'Usporiti proces i zaštititi komad od previše zraka.'],
+238:                ['problem' => 'Neujednačeno soljenje', 'cause' => 'Nepravilan oblik ili premalo izjednačavanja.', 'solution' => 'Oblikovati pravilniji komad i produljiti hladni odmor.'],
+257:    $topics = dclc_topics();
+263:    $topics = dclc_topics();
+318:            <span class="dclc-kicker">Problem → rješenje</span>
+321:            <div class="dclc-problem-grid">
+322:                <?php foreach ($topic['problems'] as $row) : ?>
+324:                        <h3><?php echo esc_html($row['problem']); ?></h3>
+485:        .dclc-problem-grid {
+493:        .dclc-problem-grid article {
+502:        .dclc-problem-grid h3 {
+509:        .dclc-problem-grid p {
+513:        .dclc-problem-grid p + p {
+593:            .dclc-problem-grid {
+623:function dclc_parent_enhancer(): void {
+635:        'but, pršut i šunka' => dclc_base_url() . 'but-prsut-sunka/',
+685:add_action('wp_footer', 'dclc_parent_enhancer', 9999);

@@ -1,0 +1,348 @@
+=== PROCESS MAIN PAGE AUDIT ===
+2026-05-29T15:48:59+00:00
+
+=== PAGE ID ===
+PAGE_ID=2864
+
+=== RAW CONTENT ===
+<h1>Proces izrade suhomesnatih proizvoda</h1>
+<p>Ovaj vodič objašnjava put od odabira sirovine do pakiranja gotovog proizvoda. Svaka faza ima svoju svrhu, rizike i praktične mjere koje pomažu da proizvod bude sigurniji, stabilniji i ujednačeniji.</p>
+
+=== RELATED OPTIONS / SHORTCODES ===
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1:.dc-home-process {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:7:.dc-home-process__inner {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:12:.dc-home-process__eyebrow {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:21:.dc-home-process h2 {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:29:.dc-home-process__lead {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:37:.dc-home-process__grid {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:104:.dc-home-process__footer {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:111:.dc-home-process__footer a {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:124:.dc-home-process__footer a:nth-child(2) {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:129:    .dc-home-process {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:133:    .dc-home-process__grid {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:139:.dc-process-rail {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:145:.dc-process-rail__inner {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:150:.dc-process-rail__top {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:160:.dc-process-rail__top span {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:168:.dc-process-rail__top strong {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:174:.dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:312:    .dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:337:    .dc-process-rail {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:341:    .dc-process-rail__top {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:345:    .dc-process-rail__top span,
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:346:    .dc-process-rail__top strong {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:350:    .dc-process-rail__top strong {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:479:.dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:623:.dc-process-rail {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:628:.dc-process-rail__top {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:798:.dc-process-rail {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:803:.dc-process-rail__top {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:807:.dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:833:.dc-process-rail__inner {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:837:.dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:895:.dc-process-rail {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:900:.dc-process-rail__top {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:905:    .dc-process-rail__inner {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:909:    .dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:921:    .dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:936:.dc-process-rail__top {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:941:.dc-process-rail__top span {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:949:.dc-process-rail__top span::after {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:956:.dc-process-rail__top strong {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1007:.dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1018:    .dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1030:    .dc-process-rail__top span::after {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1038:.dc-process-rail__top {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1050:.dc-process-rail__top span,
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1051:.dc-process-rail__top strong {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1066:.dc-process-rail__top span::after {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1073:.dc-process-rail__top strong {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1179:.dc-process-rail__inner {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1183:.dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1229:    .dc-process-rail__inner {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1233:    .dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1250:    .dc-process-rail__track {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1273:.dc-home-rail-hook-wrap .dc-process-rail {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1297:body.home .dc-home-rail-hook-wrap .dc-process-rail,
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1298:body.page-id-101 .dc-home-rail-hook-wrap .dc-process-rail {
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1338:body.home .dc-home-rail-hook-wrap .dc-process-rail,
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1339:body.page-id-101 .dc-home-rail-hook-wrap .dc-process-rail,
+/var/www/html/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css:1341:.dc-process-rail {
+/var/www/html/wp-content/plugins/drycured-home-core/HOME_PROCESS_IMAGES.md:7:/wp-content/uploads/drycured/home-process/
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-europe.php:119:                <a href="/proces-izrade/" class="dc-atlas-btn dc-atlas-btn--dark">Proces izrade</a>
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-europe.php:125:            <a href="/proces-izrade/"><strong>Proces izrade</strong><span>Faze koje oblikuju proizvod.</span></a>
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-europe.php:245:            <a href="/proces-izrade/"><strong>Proces izrade</strong><span>Usporedi faze procesa.</span></a>
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-europe.php:480:            'proces-izrade',
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-title-fix.php:11:    if (!is_page('proces-izrade')) {
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:7:    $base = home_url('/wp-content/uploads/drycured/home-process/');
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:18:            'url' => home_url('/proces-izrade/sirovina/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:28:            'url' => home_url('/proces-izrade/soljenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:38:            'url' => home_url('/proces-izrade/rezanje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:48:            'url' => home_url('/proces-izrade/mljevenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:58:            'url' => home_url('/proces-izrade/mijesanje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:68:            'url' => home_url('/proces-izrade/odlezavanje-smjese/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:78:            'url' => home_url('/proces-izrade/punjenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:88:            'url' => home_url('/proces-izrade/fermentacija/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:98:            'url' => home_url('/proces-izrade/dimljenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:108:            'url' => home_url('/proces-izrade/susenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:118:            'url' => home_url('/proces-izrade/zrenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:128:            'url' => home_url('/proces-izrade/pakiranje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:134:    <section class="dc-process-rail" aria-label="Put od mesa do zrelog proizvoda">
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:135:        <div class="dc-process-rail__inner">
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:136:            <div class="dc-process-rail__top">
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:141:            <div class="dc-process-rail__track">
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-rail.php:168:add_shortcode('drycured_home_process_rail', 'drycured_home_core_process_rail_shortcode');
+/var/www/html/wp-content/plugins/drycured-home-core/includes/error-day.php:14:            'url' => home_url('/proces-izrade/mljevenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/error-day.php:24:            'url' => home_url('/proces-izrade/susenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/error-day.php:34:            'url' => home_url('/proces-izrade/fermentacija/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/error-day.php:44:            'url' => home_url('/proces-izrade/punjenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/error-day.php:54:            'url' => home_url('/proces-izrade/susenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/error-day.php:64:            'url' => home_url('/proces-izrade/zrenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/error-day.php:74:            'url' => home_url('/proces-izrade/dimljenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/error-day.php:84:            'url' => home_url('/proces-izrade/zrenje/'),
+/var/www/html/wp-content/plugins/drycured-home-core/includes/tools-hub.php:44:            ['proces-izrade', 'Proces izrade', 'Faze rada od sirovine do pakiranja.'],
+/var/www/html/wp-content/plugins/drycured-home-core/includes/start-here.php:28:            'glob:/wp-content/uploads/drycured/home-process/process-01*.png',
+/var/www/html/wp-content/plugins/drycured-home-core/includes/start-here.php:29:            'glob:/wp-content/uploads/drycured/home-process/process-04*.png',
+/var/www/html/wp-content/plugins/drycured-home-core/includes/start-here.php:30:            'glob:/wp-content/uploads/drycured/home-process/process-08*.png',
+/var/www/html/wp-content/plugins/drycured-home-core/includes/start-here.php:82:        ['proces-izrade', 'Razumjeti proces izrade', 'Prođite faze od sirovine do pakiranja i shvatite zašto je svaki korak važan.', 'Proces', 'proces'],
+/var/www/html/wp-content/plugins/drycured-home-core/includes/start-here.php:135:                        <a href="<?php echo esc_url(drycured_home_core_start_url('proces-izrade')); ?>">Proces izrade</a>
+/var/www/html/wp-content/plugins/drycured-home-core/includes/start-here.php:170:                <li><a href="<?php echo esc_url(drycured_home_core_start_url('proces-izrade')); ?>">Proces izrade</a></li>
+/var/www/html/wp-content/plugins/drycured-home-core/includes/start-here.php:186:                <a class="dc-start-btn dc-start-btn--dark" href="<?php echo esc_url(drycured_home_core_start_url('proces-izrade')); ?>">Kreni od procesa</a>
+/var/www/html/wp-content/plugins/drycured-home-core/includes/start-here.php:217:    .dc-start-card--proces-izrade .dc-start-card__image img,
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-map.php.BROKEN-v070-2026-05-24_07-03-51:161:                    <a href="<?php echo esc_url(drycured_home_core_atlas_map_url_v070('proces-izrade')); ?>">Proces izrade</a>
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-map.php.BROKEN-v070-2026-05-24_07-03-51:675:                    <a href="<?php echo esc_url(drycured_home_core_atlas_map_url_v070('proces-izrade')); ?>">Proces izrade</a>
+/var/www/html/wp-content/plugins/drycured-home-core/includes/home-link-router.php:21:        'proces' => home_url('/proces-izrade/'),
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:127:    <section class="dc-home-process" aria-labelledby="dc-home-process-title">
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:128:        <div class="dc-home-process__inner">
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:129:            <div class="dc-home-process__eyebrow">Digitalna pušnica</div>
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:130:            <h2 id="dc-home-process-title">Put od mesa do zrelog proizvoda</h2>
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:131:            <p class="dc-home-process__lead">
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:136:            <div class="dc-home-process__grid">
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:153:            <div class="dc-home-process__footer">
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:191:    if (strpos($content, 'dc-process-rail') !== false || strpos($content, '[drycured_home_process_rail') !== false) {
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:195:    return do_shortcode('[drycured_home_process_rail]') . $content;
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:240:    echo do_shortcode('[drycured_home_process_rail]');
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:263:    $parent = get_page_by_path('proces-izrade');
+/var/www/html/wp-content/plugins/drycured-home-core/README.md:9:[drycured_home_process_rail]
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:17:        'proces-izrade/odlezavanje',
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:18:        'proces-izrade/odlezavanje-smjese',
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/sirovina/.
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:19:    return $path === 'proces-izrade/sirovina';
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:62:                    <a href="<?php echo esc_url(dcps_page_url('proces-izrade/rezanje')); ?>">Sljedeća faza: Rezanje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:316:                <a href="<?php echo esc_url(dcps_page_url('proces-izrade/rezanje')); ?>">Otvori fazu Rezanje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:317:                <a href="<?php echo esc_url(dcps_page_url('proces-izrade')); ?>">Pogledaj sve procese</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/pakiranje/.
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:21:        'proces-izrade/pakiranje',
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:22:        'proces-izrade/pakiranje-i-cuvanje',
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:23:        'proces-izrade/pakiranje-i-čuvanje',
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:24:        'proces-izrade/pakiranje-cuvanje',
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:25:        'proces-izrade/pakiranje-čuvanje',
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:71:                    <a href="<?php echo esc_url(dcppackv010_page_url('proces-izrade/zrenje')); ?>">Vrati se na Zrenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:328:                <a href="<?php echo esc_url(dcppackv010_page_url('proces-izrade/zrenje')); ?>">Vrati se na Zrenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:329:                <a href="<?php echo esc_url(home_url('/proces-izrade/')); ?>">Pogledaj sve procese</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/dimljenje/ s mostom prema Planeru dimljenja.
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:21:        'proces-izrade/dimljenje',
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:319:                <a href="<?php echo esc_url(dcpdimv010_page_url('proces-izrade/susenje')); ?>">Otvori fazu Sušenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:320:                <a href="<?php echo esc_url(dcpdimv010_page_url('proces-izrade/fermentacija')); ?>">Vrati se na Fermentaciju</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v012.php:19:    return $path === 'proces-izrade/mljevenje';
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/mljevenje/.
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:19:    return $path === 'proces-izrade/mljevenje';
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:64:                    <a href="<?php echo esc_url(dcpm_page_url('proces-izrade/mijesanje')); ?>">Sljedeća faza: Miješanje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:351:                <a href="<?php echo esc_url(dcpm_page_url('proces-izrade/mijesanje')); ?>">Otvori fazu Miješanje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:352:                <a href="<?php echo esc_url(dcpm_page_url('proces-izrade')); ?>">Pogledaj sve procese</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:19:    return $path === 'proces-izrade/mljevenje';
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:4: * Description: Dodaje edukativni pregled procesa na stranicu /proces-izrade/.
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:49:            'path' => 'proces-izrade/sirovina',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:55:            'path' => 'proces-izrade/obrada-vecijih-komada',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:61:            'path' => 'proces-izrade/soljenje',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:67:            'path' => 'proces-izrade/rezanje',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:73:            'path' => 'proces-izrade/mljevenje',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:79:            'path' => 'proces-izrade/mijesanje',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:85:            'path' => 'proces-izrade/odlezavanje-smjese',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:91:            'path' => 'proces-izrade/punjenje',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:97:            'path' => 'proces-izrade/fermentacija',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:104:            'path' => 'proces-izrade/dimljenje',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:110:            'path' => 'proces-izrade/susenje',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:116:            'path' => 'proces-izrade/zrenje',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:122:            'path' => 'proces-izrade/pakiranje',
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:190:                <?php echo dcpo_button('proces-izrade/fermentacija', 'Otvori fazu Fermentacija'); ?>
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:251:    if (!is_page('proces-izrade') || !in_the_loop() || !is_main_query()) {
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:266:    if (!is_page('proces-izrade') || !dcpo_enabled()) {
+/var/www/html/wp-content/mu-plugins/drycured-home-process-rail-hub-adapter.php:20:    return ((string) get_option('drycured_home_process_rail_use_hub', '0')) === '1';
+/var/www/html/wp-content/mu-plugins/drycured-home-process-rail-hub-adapter.php:84:    $marker_count = substr_count($html, 'dc-process-rail');
+/var/www/html/wp-content/mu-plugins/drycured-home-process-rail-hub-adapter.php:147:            <strong>Opcija drycured_home_process_rail_use_hub:</strong>
+/var/www/html/wp-content/mu-plugins/drycured-home-process-rail-hub-adapter.php:155:            <strong>dc-process-rail markeri:</strong>
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:24:            'url' => home_url('/proces-izrade/sirovina/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:35:            'url' => home_url('/proces-izrade/rezanje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:46:            'url' => home_url('/proces-izrade/soljenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:61:            'url' => home_url('/proces-izrade/mljevenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:72:            'url' => home_url('/proces-izrade/mijesanje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:83:            'url' => home_url('/proces-izrade/odlezavanje-smjese/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:94:            'url' => home_url('/proces-izrade/punjenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:105:            'url' => home_url('/proces-izrade/fermentacija/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:106:            'image' => 'http://drycured.com/wp-content/uploads/drycured/home-process/process-07-fermentacija.webp',
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:120:            'url' => home_url('/proces-izrade/dimljenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:135:            'url' => home_url('/proces-izrade/susenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:150:            'url' => home_url('/proces-izrade/zrenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:161:            'url' => home_url('/proces-izrade/pakiranje/'),
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:26:    <script id="drycured-home-process-order-v022">
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:60:                    '.dc-process-rail, [class*="process-rail"], [class*="process"], section, div'
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/punjenje/.
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:21:        'proces-izrade/punjenje',
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:67:                    <a href="<?php echo esc_url(dcpunv010_page_url('proces-izrade/fermentacija')); ?>">Sljedeća faza: Fermentacija</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:374:                <a href="<?php echo esc_url(dcpunv010_page_url('proces-izrade/fermentacija')); ?>">Otvori fazu Fermentacija</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:375:                <a href="<?php echo esc_url(dcpunv010_page_url('proces-izrade/odlezavanje-smjese')); ?>">Vrati se na Odležavanje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-ph-bridge-v016.php:19:    return $path === 'proces-izrade/fermentacija';
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:4: * Description: Modernizira gornji uvodni dio stranice /proces-izrade/fermentacija/.
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:19:    return $path === 'proces-izrade/fermentacija';
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:36:    $procesi_url = dcpftp_page_url('proces-izrade');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:394:                : 'https://drycured.com/wp-content/uploads/drycured/home-process/process-07-fermentacija.webp';
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:19:    return $path === 'proces-izrade/fermentacija';
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:19:    return $path === 'proces-izrade/fermentacija';
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:19:    return $path === 'proces-izrade/fermentacija';
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-fine-tune-v012.php:19:    return $path === 'proces-izrade/fermentacija';
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/fermentacija/.
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:19:    return $path === 'proces-izrade/fermentacija';
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:196:                <a href="<?php echo esc_url(dcpf_page_url('proces-izrade')); ?>">Pogledaj sve procese</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:201:            <a href="<?php echo esc_url(dcpf_page_url('proces-izrade/punjenje')); ?>">← Prethodna faza: Punjenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:202:            <a href="<?php echo esc_url(dcpf_page_url('proces-izrade/dimljenje')); ?>">Sljedeća faza: Dimljenje →</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/zrenje/.
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:19:    return in_array($path, ['proces-izrade/zrenje'], true);
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:62:                    <a href="<?php echo esc_url(dcpzrnv010_page_url('proces-izrade/pakiranje')); ?>">Sljedeća faza: Pakiranje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:289:                <a href="<?php echo esc_url(dcpzrnv010_page_url('proces-izrade/pakiranje')); ?>">Otvori fazu Pakiranje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:290:                <a href="<?php echo esc_url(dcpzrnv010_page_url('proces-izrade/susenje')); ?>">Vrati se na Sušenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v021.php:28:            const rail = document.querySelector('.dc-process-rail');
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/mijesanje/.
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:19:    return $path === 'proces-izrade/mijesanje';
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:62:                    <a href="<?php echo esc_url(dcpmi_page_url('proces-izrade/odlezavanje')); ?>">Sljedeća faza: Odležavanje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:328:                <a href="<?php echo esc_url(dcpmi_page_url('proces-izrade/odlezavanje')); ?>">Otvori fazu Odležavanje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:329:                <a href="<?php echo esc_url(dcpmi_page_url('proces-izrade/punjenje')); ?>">Otvori fazu Punjenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/susenje/ s poveznicom prema Kalkulatoru sušenja.
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:21:        'proces-izrade/susenje',
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:324:                <a href="<?php echo esc_url(dcpdryv010_page_url('proces-izrade/zrenje')); ?>">Otvori fazu Zrenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:325:                <a href="<?php echo esc_url(dcpdryv010_page_url('proces-izrade/dimljenje')); ?>">Vrati se na Dimljenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-modern.php:45:                    <a href="<?php echo esc_url(dcskm_page_url('proces-izrade/fermentacija')); ?>">Faza fermentacije</a>
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-image-hotspots-v074.php:30:    $fermentacija_url = dcskih_page_url('proces-izrade/fermentacija');
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-image-hotspots-v074.php:31:    $procesi_url = dcskih_page_url('proces-izrade');
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-usage-v07.php:148:                <a href="<?php echo esc_url(dcsku_page_url('proces-izrade/fermentacija')); ?>">Otvori fazu Fermentacija</a>
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-usage-v07.php:149:                <a href="<?php echo esc_url(dcsku_page_url('proces-izrade')); ?>">Pogledaj sve procese</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-phase-backlink.php:132:            'parent_url' => home_url('/proces-izrade/fermentacija/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-phase-backlink.php:134:            'next_url' => home_url('/proces-izrade/dimljenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-phase-backlink.php:179:    return home_url('/proces-izrade/' . $url_slug . '/');
+/var/www/html/wp-content/mu-plugins/drycured-process-phase-backlink.php:207:                   href="<?php echo esc_url(home_url('/proces-izrade/')); ?>">
+/var/www/html/wp-content/mu-plugins/drycured-process-phase-backlink.php:226:                   href="<?php echo esc_url(home_url('/proces-izrade/')); ?>">
+/var/www/html/wp-content/mu-plugins/drycured-process-phase-backlink.php:399:            const processLinks = Array.from(entry.querySelectorAll('a[href*="/proces-izrade/"]'));
+/var/www/html/wp-content/mu-plugins/drycured-process-phase-backlink.php:421:                    const parentLinks = parent.querySelectorAll('a[href*="/proces-izrade/"]').length;
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/soljenje/ s mostom prema kalkulatoru soljenja.
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:19:    return $path === 'proces-izrade/soljenje';
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:365:                <a href="<?php echo esc_url(dcpsol_page_url('proces-izrade/mljevenje')); ?>">Otvori fazu Mljevenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:366:                <a href="<?php echo esc_url(dcpsol_page_url('proces-izrade')); ?>">Pogledaj sve procese</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/rezanje/.
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:19:    return $path === 'proces-izrade/rezanje';
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:62:                    <a href="<?php echo esc_url(dcpr_page_url('proces-izrade/soljenje')); ?>">Sljedeća faza: Soljenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:325:                <a href="<?php echo esc_url(dcpr_page_url('proces-izrade/soljenje')); ?>">Otvori fazu Soljenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:326:                <a href="<?php echo esc_url(dcpr_page_url('proces-izrade')); ?>">Pogledaj sve procese</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:22:            'url' => home_url('/proces-izrade/sirovina/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:35:            'url' => home_url('/proces-izrade/rezanje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:48:            'url' => home_url('/proces-izrade/soljenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:61:            'url' => home_url('/proces-izrade/mljevenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:74:            'url' => home_url('/proces-izrade/mijesanje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:87:            'url' => home_url('/proces-izrade/odlezavanje-smjese/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:100:            'url' => home_url('/proces-izrade/punjenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:113:            'url' => home_url('/proces-izrade/fermentacija/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:126:            'url' => home_url('/proces-izrade/dimljenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:139:            'url' => home_url('/proces-izrade/susenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:152:            'url' => home_url('/proces-izrade/zrenje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:165:            'url' => home_url('/proces-izrade/pakiranje/'),
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:352:    if (!is_page('proces-izrade/' . $slug)) {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:4: * Description: Moderni edukativni sloj za stranicu /proces-izrade/odlezavanje/.
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:21:        'proces-izrade/odlezavanje',
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:22:        'proces-izrade/odlezavanje-smjese',
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:66:                    <a href="<?php echo esc_url(dcpodl_page_url('proces-izrade/punjenje')); ?>">Sljedeća faza: Punjenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:327:                <a href="<?php echo esc_url(dcpodl_page_url('proces-izrade/punjenje')); ?>">Otvori fazu Punjenje</a>
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:328:                <a href="<?php echo esc_url(dcpodl_page_url('proces-izrade/mijesanje')); ?>">Vrati se na Miješanje</a>
+
+=== HOME PROCESS IMAGES ===
+/var/www/html/wp-content/uploads/drycured/home-process/process-01-sirovina.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-01-sirovina.webp
+/var/www/html/wp-content/uploads/drycured/home-process/process-02-soljenje.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-02-soljenje.webp
+/var/www/html/wp-content/uploads/drycured/home-process/process-03-rezanje.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-03-rezanje.webp
+/var/www/html/wp-content/uploads/drycured/home-process/process-04-mljevenje.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-04-mljevenje.webp
+/var/www/html/wp-content/uploads/drycured/home-process/process-05a-odlezavanje-smjese.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-05a-odlezavanje-smjese.webp
+/var/www/html/wp-content/uploads/drycured/home-process/process-05-mijesanje.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-05-mijesanje.webp
+/var/www/html/wp-content/uploads/drycured/home-process/process-06-punjenje.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-06-punjenje.webp
+/var/www/html/wp-content/uploads/drycured/home-process/process-07-fermentacija.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-07-fermentacija.webp
+/var/www/html/wp-content/uploads/drycured/home-process/process-08-dimljenje.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-08-dimljenje.webp
+/var/www/html/wp-content/uploads/drycured/home-process/process-09-susenje.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-09-susenje.webp
+/var/www/html/wp-content/uploads/drycured/home-process/process-10-zrenje.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-10-zrenje.webp
+/var/www/html/wp-content/uploads/drycured/home-process/process-11-pakiranje.png
+/var/www/html/wp-content/uploads/drycured/home-process/process-11-pakiranje.webp
+
+=== LIVE MAIN PAGE MARKERS ===
+7:	<title>Proces izrade suhomesnatih proizvoda — od sirovine do pakiranja</title>
+10:	<meta name="description" content="Vodič kroz sve faze izrade suhomesnatih proizvoda: sirovina, soljenje, mljevenje, fermentacija, dimljenje, sušenje, zrenje i pakiranje." />
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/" />
+18:		<meta property="og:title" content="Proces izrade suhomesnatih proizvoda — od sirovine do pakiranja" />
+19:		<meta property="og:description" content="Vodič kroz sve faze izrade suhomesnatih proizvoda: sirovina, soljenje, mljevenje, fermentacija, dimljenje, sušenje, zrenje i pakiranje." />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/" />
+26:		<meta name="twitter:title" content="Proces izrade suhomesnatih proizvoda — od sirovine do pakiranja" />
+27:		<meta name="twitter:description" content="Vodič kroz sve faze izrade suhomesnatih proizvoda: sirovina, soljenje, mljevenje, fermentacija, dimljenje, sušenje, zrenje i pakiranje." />
+30:			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/drycured.com\/proces-izrade\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/drycured.com\/#listItem","position":1,"name":"Home","item":"https:\/\/drycured.com\/","nextItem":{"@type":"ListItem","@id":"https:\/\/drycured.com\/proces-izrade\/#listItem","name":"Proces izrade"}},{"@type":"ListItem","@id":"https:\/\/drycured.com\/proces-izrade\/#listItem","position":2,"name":"Proces izrade","previousItem":{"@type":"ListItem","@id":"https:\/\/drycured.com\/#listItem","name":"Home"}}]},{"@type":"Organization","@id":"https:\/\/drycured.com\/#organization","name":"drycured.com","description":"Napravi vlastiti suhomesnati specijalitet \u2013 lak\u0161e nego \u0161to misli\u0161!","url":"https:\/\/drycured.com\/","logo":{"@type":"ImageObject","url":"https:\/\/drycured.com\/wp-content\/uploads\/2025\/03\/cropped-www.drycured.com_-1.png","@id":"https:\/\/drycured.com\/proces-izrade\/#organizationLogo","width":499,"height":213},"image":{"@id":"https:\/\/drycured.com\/proces-izrade\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/drycured.com\/proces-izrade\/#webpage","url":"https:\/\/drycured.com\/proces-izrade\/","name":"Proces izrade suhomesnatih proizvoda \u2014 od sirovine do pakiranja","description":"Vodi\u010d kroz sve faze izrade suhomesnatih proizvoda: sirovina, soljenje, mljevenje, fermentacija, dimljenje, su\u0161enje, zrenje i pakiranje.","inLanguage":"hr","isPartOf":{"@id":"https:\/\/drycured.com\/#website"},"breadcrumb":{"@id":"https:\/\/drycured.com\/proces-izrade\/#breadcrumblist"},"datePublished":"2026-05-21T13:55:49+00:00","dateModified":"2026-05-28T18:56:54+00:00"},{"@type":"WebSite","@id":"https:\/\/drycured.com\/#website","url":"https:\/\/drycured.com\/","name":"drycured.com","description":"Napravi vlastiti suhomesnati specijalitet \u2013 lak\u0161e nego \u0161to misli\u0161!","inLanguage":"hr","publisher":{"@id":"https:\/\/drycured.com\/#organization"}}]}
+216:<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://drycured.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdrycured.com%2Fproces-izrade%2F" />
+217:<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://drycured.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdrycured.com%2Fproces-izrade%2F&#038;format=xml" />
+1250:        <style id="drycured-process-title-fix-v056">
+1253:    body.page .dc-process-page h1,
+1254:    body.page .dc-process-page h2,
+1255:    body.page .dc-process-overview h1,
+1256:    body.page .dc-process-overview h2 {
+1265:    <script id="drycured-process-title-fix-script-v056">
+1276:        function fixProcessTitle() {
+1286:                if (text === 'proces izrade') {
+1295:                if (text === 'proces izrade suhomesnatih proizvoda') {
+1302:            document.addEventListener('DOMContentLoaded', fixProcessTitle);
+1304:            fixProcessTitle();
+1309:                setTimeout(fixProcessTitle, delay);
+2177:				<h1 class="entry-title" itemprop="headline">Proces izrade</h1>			</header> <!-- .entry-header -->
+2183:	<h1>Proces izrade suhomesnatih proizvoda</h1>
+2185:    <section class="dcpo-wrap" aria-label="Pregled procesa izrade suhomesnatih proizvoda">
+2188:            <p class="dcpo-kicker">Proces kao lanac odluka</p>
+2192:                Kvaliteta sirovine određuje početak procesa, soljenje postavlja temelj sigurnosti,
+2193:                fermentacija oblikuje kiselost i stabilnost, a sušenje i zrenje stvaraju konačan okus,
+2198:                Previše toplo meso, neujednačeno soljenje, loša fermentacija ili prebrzo sušenje
+2213:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/sirovina/">Otvori fazu</a>                    </div>
+2235:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/soljenje/">Otvori fazu</a>                    </div>
+2246:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/rezanje/">Otvori fazu</a>                    </div>
+2257:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/mljevenje/">Otvori fazu</a>                    </div>
+2268:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/mijesanje/">Otvori fazu</a>                    </div>
+2279:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/odlezavanje-smjese/">Otvori fazu</a>                    </div>
+2290:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/punjenje/">Otvori fazu</a>                    </div>
+2295:                                                    <span class="dcpo-tag">Starter kulture</span>
+2298:                    <h3>Fermentacija</h3>
+2299:                    <p>Fermentacija oblikuje kiselost, boju, aromu i mikrobiološku stabilnost trajnih kobasica i salama. U ovoj fazi posebno su važne temperatura, vlaga, vrijeme i pH.</p>
+2302:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/fermentacija/">Otvori fazu</a>                    </div>
+2313:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/dimljenje/">Otvori fazu</a>                    </div>
+2324:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/susenje/">Otvori fazu</a>                    </div>
+2335:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/zrenje/">Otvori fazu</a>                    </div>
+2343:                    <p>Pakiranje čuva ono što je proces stvorio. Pravilno vakuumiranje, skladištenje i zaštita od oksidacije važni su za trajnost, miris i kvalitetu proizvoda.</p>
+2346:                        <a class="dcpo-btn" href="https://drycured.com/proces-izrade/pakiranje/">Otvori fazu</a>                    </div>
+2353:                <h2>Fermentacija i starter kulture</h2>
+2355:                    Fermentacija je jedna od najosjetljivijih faza u proizvodnji trajnih kobasica i salama.
+2357:                    U tradicionalnoj proizvodnji taj se proces oslanjao na iskustvo, mikrofloru prostora,
+2363:                    Zbog toga starter kulture mogu biti korisna pomoć malim proizvođačima koji žele sigurniji
+2368:                    prljavu opremu, pogrešnu temperaturu ili loše vođen proces. Njezina je uloga pomoći
+2374:                <a class="dcpo-btn" href="https://drycured.com/proces-izrade/fermentacija/">Otvori fazu Fermentacija</a>                <a class="dcpo-btn" href="https://drycured.com/starter-kulture/">Saznaj više o starter kulturama</a>            </div>
+2399:                    <h3>Fermentacija ne ide pravilno</h3>
+2400:                    <p><strong>Rješenje:</strong> provjeriti temperaturu, vlagu, dostupnost šećera, količinu soli i aktivnost starter kulture ako se koristi.</p>
+2811:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/" data-gt-orig-domain="drycured.com" data-gt-widget-id="28209097" defer></script>			<script>
+2894:        const data = {"title":"EP03: Fermentacija, dim i sušenje","url":"https://drycured.com/podcast/fermentacija-dim-i-susenje/","excerpt":"Treća epizoda objašnjava kako fermentacija, dim i sušenje zajedno oblikuju sigurnost, teksturu i okus suhomesnatog proizvoda.","image":"https://drycured.com/wp-content/uploads/2026/05/drycured_podcast_ep03-1-1024x576.png"};
+=== END AUDIT ===

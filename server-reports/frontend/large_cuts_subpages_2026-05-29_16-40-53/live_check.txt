@@ -1,0 +1,280 @@
+---- but-prsut-sunka ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:41:33 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2965>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2965>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+1032:        .dclc-page {
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1185:        .dclc-final {
+1197:        .dclc-final h2 {
+1201:        .dclc-final p {
+1205:        .dclc-final .dclc-kicker {
+1210:        .dclc-final__buttons {
+1216:        .dclc-final__buttons a {
+1229:        .dclc-final__buttons a:nth-child(2) {
+1234:        .dclc-final__buttons a:not(:nth-child(2)) {
+1242:            .dclc-final {
+1258:            .dclc-page {
+2140:	    <main class="dclc-page" aria-label="But, pršut i šunka">
+2161:            <span class="dclc-kicker">Praktični vodič</span>
+2199:            <span class="dclc-kicker">Problem → rješenje</span>
+2222:            <span class="dclc-kicker">Sigurnosna napomena</span>
+2230:        <section class="dclc-final">
+2236:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+2239:                <a href="https://drycured.com/proces-izrade/soljenje/">Nastavi na Soljenje →</a>
+
+---- plecka ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:41:34 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2966>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2966>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+1032:        .dclc-page {
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1185:        .dclc-final {
+1197:        .dclc-final h2 {
+1201:        .dclc-final p {
+1205:        .dclc-final .dclc-kicker {
+1210:        .dclc-final__buttons {
+1216:        .dclc-final__buttons a {
+1229:        .dclc-final__buttons a:nth-child(2) {
+1234:        .dclc-final__buttons a:not(:nth-child(2)) {
+1242:            .dclc-final {
+1258:            .dclc-page {
+2140:	    <main class="dclc-page" aria-label="Plećka">
+2161:            <span class="dclc-kicker">Praktični vodič</span>
+2199:            <span class="dclc-kicker">Problem → rješenje</span>
+2222:            <span class="dclc-kicker">Sigurnosna napomena</span>
+2230:        <section class="dclc-final">
+2236:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+2239:                <a href="https://drycured.com/proces-izrade/soljenje/">Nastavi na Soljenje →</a>
+
+---- vratina-coppa-capocollo ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:41:34 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2967>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2967>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+1032:        .dclc-page {
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1185:        .dclc-final {
+1197:        .dclc-final h2 {
+1201:        .dclc-final p {
+1205:        .dclc-final .dclc-kicker {
+1210:        .dclc-final__buttons {
+1216:        .dclc-final__buttons a {
+1229:        .dclc-final__buttons a:nth-child(2) {
+1234:        .dclc-final__buttons a:not(:nth-child(2)) {
+1242:            .dclc-final {
+1258:            .dclc-page {
+2140:	    <main class="dclc-page" aria-label="Vratina, coppa i capocollo">
+2161:            <span class="dclc-kicker">Praktični vodič</span>
+2199:            <span class="dclc-kicker">Problem → rješenje</span>
+2222:            <span class="dclc-kicker">Sigurnosna napomena</span>
+2230:        <section class="dclc-final">
+2236:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+2239:                <a href="https://drycured.com/proces-izrade/soljenje/">Nastavi na Soljenje →</a>
+
+---- pecenica-lonza-lungic ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:41:34 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2968>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2968>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+1032:        .dclc-page {
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1185:        .dclc-final {
+1197:        .dclc-final h2 {
+1201:        .dclc-final p {
+1205:        .dclc-final .dclc-kicker {
+1210:        .dclc-final__buttons {
+1216:        .dclc-final__buttons a {
+1229:        .dclc-final__buttons a:nth-child(2) {
+1234:        .dclc-final__buttons a:not(:nth-child(2)) {
+1242:            .dclc-final {
+1258:            .dclc-page {
+2140:	    <main class="dclc-page" aria-label="Pečenica, lonza i lungić">
+2161:            <span class="dclc-kicker">Praktični vodič</span>
+2199:            <span class="dclc-kicker">Problem → rješenje</span>
+2222:            <span class="dclc-kicker">Sigurnosna napomena</span>
+2230:        <section class="dclc-final">
+2236:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+2239:                <a href="https://drycured.com/proces-izrade/soljenje/">Nastavi na Soljenje →</a>
+
+---- panceta-potrbusina ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:41:35 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2969>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2969>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+1032:        .dclc-page {
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1185:        .dclc-final {
+1197:        .dclc-final h2 {
+1201:        .dclc-final p {
+1205:        .dclc-final .dclc-kicker {
+1210:        .dclc-final__buttons {
+1216:        .dclc-final__buttons a {
+1229:        .dclc-final__buttons a:nth-child(2) {
+1234:        .dclc-final__buttons a:not(:nth-child(2)) {
+1242:            .dclc-final {
+1258:            .dclc-page {
+2140:	    <main class="dclc-page" aria-label="Panceta i potrbušina">
+2161:            <span class="dclc-kicker">Praktični vodič</span>
+2199:            <span class="dclc-kicker">Problem → rješenje</span>
+2222:            <span class="dclc-kicker">Sigurnosna napomena</span>
+2230:        <section class="dclc-final">
+2236:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+2239:                <a href="https://drycured.com/proces-izrade/soljenje/">Nastavi na Soljenje →</a>
+
+---- obrazina-guanciale ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:41:35 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2970>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2970>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+1032:        .dclc-page {
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1185:        .dclc-final {
+1197:        .dclc-final h2 {
+1201:        .dclc-final p {
+1205:        .dclc-final .dclc-kicker {
+1210:        .dclc-final__buttons {
+1216:        .dclc-final__buttons a {
+1229:        .dclc-final__buttons a:nth-child(2) {
+1234:        .dclc-final__buttons a:not(:nth-child(2)) {
+1242:            .dclc-final {
+1258:            .dclc-page {
+2140:	    <main class="dclc-page" aria-label="Obrazina i guanciale">
+2161:            <span class="dclc-kicker">Praktični vodič</span>
+2199:            <span class="dclc-kicker">Problem → rješenje</span>
+2222:            <span class="dclc-kicker">Sigurnosna napomena</span>
+2230:        <section class="dclc-final">
+2236:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+2239:                <a href="https://drycured.com/proces-izrade/soljenje/">Nastavi na Soljenje →</a>
+
+---- govedi-komadi-bresaola ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 16:41:36 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Link: <https://drycured.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://drycured.com/wp-json/wp/v2/pages/2971>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://drycured.com/?p=2971>; rel=shortlink
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+Strict-Transport-Security: max-age=300
+1032:        .dclc-page {
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1185:        .dclc-final {
+1197:        .dclc-final h2 {
+1201:        .dclc-final p {
+1205:        .dclc-final .dclc-kicker {
+1210:        .dclc-final__buttons {
+1216:        .dclc-final__buttons a {
+1229:        .dclc-final__buttons a:nth-child(2) {
+1234:        .dclc-final__buttons a:not(:nth-child(2)) {
+1242:            .dclc-final {
+1258:            .dclc-page {
+2140:	    <main class="dclc-page" aria-label="Goveđi komadi i bresaola">
+2161:            <span class="dclc-kicker">Praktični vodič</span>
+2199:            <span class="dclc-kicker">Problem → rješenje</span>
+2222:            <span class="dclc-kicker">Sigurnosna napomena</span>
+2230:        <section class="dclc-final">
+2236:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+2239:                <a href="https://drycured.com/proces-izrade/soljenje/">Nastavi na Soljenje →</a>
+

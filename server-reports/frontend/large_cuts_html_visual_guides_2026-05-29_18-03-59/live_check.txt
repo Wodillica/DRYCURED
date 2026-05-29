@@ -1,0 +1,203 @@
+---- but-prsut-sunka ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:04:34 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+1242:        .dclc-rk-grid {
+1293:        .dclc-risk-bars {
+1331:        .dclc-check-grid {
+1338:        .dclc-check-grid div {
+1348:        .dclc-check-grid div::before {
+1426:            .dclc-rk-grid,
+1427:            .dclc-check-grid {
+2407:        <span class="dclc-kicker">Što ukloniti, što ostaviti</span>
+2410:        <div class="dclc-rk-grid">
+2438:        <h2>Što je komad deblji, proces mora biti sporiji</h2>
+2440:        <div class="dclc-risk-bars" aria-label="Rizik prema debljini komada">
+2466:        <h2>Komad je spreman za soljenje kada…</h2>
+2468:        <div class="dclc-check-grid">
+
+---- plecka ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:04:35 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+1242:        .dclc-rk-grid {
+1293:        .dclc-risk-bars {
+1331:        .dclc-check-grid {
+1338:        .dclc-check-grid div {
+1348:        .dclc-check-grid div::before {
+1426:            .dclc-rk-grid,
+1427:            .dclc-check-grid {
+2407:        <span class="dclc-kicker">Što ukloniti, što ostaviti</span>
+2410:        <div class="dclc-rk-grid">
+2438:        <h2>Što je komad deblji, proces mora biti sporiji</h2>
+2440:        <div class="dclc-risk-bars" aria-label="Rizik prema debljini komada">
+2466:        <h2>Komad je spreman za soljenje kada…</h2>
+2468:        <div class="dclc-check-grid">
+
+---- vratina-coppa-capocollo ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:04:35 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+1242:        .dclc-rk-grid {
+1293:        .dclc-risk-bars {
+1331:        .dclc-check-grid {
+1338:        .dclc-check-grid div {
+1348:        .dclc-check-grid div::before {
+1426:            .dclc-rk-grid,
+1427:            .dclc-check-grid {
+2407:        <span class="dclc-kicker">Što ukloniti, što ostaviti</span>
+2410:        <div class="dclc-rk-grid">
+2438:        <h2>Što je komad deblji, proces mora biti sporiji</h2>
+2440:        <div class="dclc-risk-bars" aria-label="Rizik prema debljini komada">
+2466:        <h2>Komad je spreman za soljenje kada…</h2>
+2468:        <div class="dclc-check-grid">
+
+---- pecenica-lonza-lungic ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:04:35 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+1242:        .dclc-rk-grid {
+1293:        .dclc-risk-bars {
+1331:        .dclc-check-grid {
+1338:        .dclc-check-grid div {
+1348:        .dclc-check-grid div::before {
+1426:            .dclc-rk-grid,
+1427:            .dclc-check-grid {
+2407:        <span class="dclc-kicker">Što ukloniti, što ostaviti</span>
+2410:        <div class="dclc-rk-grid">
+2438:        <h2>Što je komad deblji, proces mora biti sporiji</h2>
+2440:        <div class="dclc-risk-bars" aria-label="Rizik prema debljini komada">
+2466:        <h2>Komad je spreman za soljenje kada…</h2>
+2468:        <div class="dclc-check-grid">
+
+---- panceta-potrbusina ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:04:36 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+1242:        .dclc-rk-grid {
+1293:        .dclc-risk-bars {
+1331:        .dclc-check-grid {
+1338:        .dclc-check-grid div {
+1348:        .dclc-check-grid div::before {
+1426:            .dclc-rk-grid,
+1427:            .dclc-check-grid {
+2407:        <span class="dclc-kicker">Što ukloniti, što ostaviti</span>
+2410:        <div class="dclc-rk-grid">
+2438:        <h2>Što je komad deblji, proces mora biti sporiji</h2>
+2440:        <div class="dclc-risk-bars" aria-label="Rizik prema debljini komada">
+2466:        <h2>Komad je spreman za soljenje kada…</h2>
+2468:        <div class="dclc-check-grid">
+
+---- obrazina-guanciale ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:04:36 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+1242:        .dclc-rk-grid {
+1293:        .dclc-risk-bars {
+1331:        .dclc-check-grid {
+1338:        .dclc-check-grid div {
+1348:        .dclc-check-grid div::before {
+1426:            .dclc-rk-grid,
+1427:            .dclc-check-grid {
+2407:        <span class="dclc-kicker">Što ukloniti, što ostaviti</span>
+2410:        <div class="dclc-rk-grid">
+2438:        <h2>Što je komad deblji, proces mora biti sporiji</h2>
+2440:        <div class="dclc-risk-bars" aria-label="Rizik prema debljini komada">
+2466:        <h2>Komad je spreman za soljenje kada…</h2>
+2468:        <div class="dclc-check-grid">
+
+---- govedi-komadi-bresaola ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:04:37 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), bluetooth=()
+1242:        .dclc-rk-grid {
+1293:        .dclc-risk-bars {
+1331:        .dclc-check-grid {
+1338:        .dclc-check-grid div {
+1348:        .dclc-check-grid div::before {
+1426:            .dclc-rk-grid,
+1427:            .dclc-check-grid {
+2407:        <span class="dclc-kicker">Što ukloniti, što ostaviti</span>
+2410:        <div class="dclc-rk-grid">
+2438:        <h2>Što je komad deblji, proces mora biti sporiji</h2>
+2440:        <div class="dclc-risk-bars" aria-label="Rizik prema debljini komada">
+2466:        <h2>Komad je spreman za soljenje kada…</h2>
+2468:        <div class="dclc-check-grid">
+

@@ -1,0 +1,3 @@
+-rw-r--r-- 1 www-data www-data 129K May 29 16:06 /var/www/html/wp-content/uploads/drycured/home-process/process-extra-obrada-vecijih-komada-card.webp
+-rw-r--r-- 1 www-data www-data 335K May 29 16:06 /var/www/html/wp-content/uploads/drycured/home-process/process-extra-obrada-vecijih-komada.jpg
+-rw-r--r-- 1 www-data www-data 186K May 29 16:06 /var/www/html/wp-content/uploads/drycured/home-process/process-extra-obrada-vecijih-komada.webp

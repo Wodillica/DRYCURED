@@ -1,0 +1,7 @@
+244:function dclc_current_slug(): ?string {
+796:    if (is_admin() || wp_doing_ajax() || !is_page()) {
+999:function dclc_virtual_topic_fallback(): void {
+1014:        $wp_query->is_page = true;
+1018:    status_header(200);
+1019:    nocache_headers();
+1026:add_action('template_redirect', 'dclc_virtual_topic_fallback', 0);

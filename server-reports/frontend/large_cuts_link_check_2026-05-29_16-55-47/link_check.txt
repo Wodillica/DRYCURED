@@ -1,0 +1,18 @@
+=== LARGE CUTS LINKS ===
+2754:        .dcpovk-grid article .dclc-topic-link {
+2772:        .dcpovk-grid article .dclc-topic-link:hover,
+2773:        .dcpovk-grid article .dclc-topic-link:focus {
+2779:        .dcpovk-large-cuts-directory {
+2788:        .dcpovk-large-cuts-directory h2 {
+2795:        .dcpovk-large-cuts-directory p {
+2801:        .dcpovk-large-cuts-directory__grid {
+2807:        .dcpovk-large-cuts-directory__grid a {
+2823:        .dcpovk-large-cuts-directory__grid a:hover,
+2824:        .dcpovk-large-cuts-directory__grid a:focus {
+2829:            .dcpovk-large-cuts-directory__grid {
+2837:            const topics = [{"match":["but","pr\u0161ut","sunka","\u0161unka"],"url":"https:\/\/drycured.com\/proces-izrade\/obrada-vecijih-komada\/but-prsut-sunka\/","label":"Otvori vodi\u010d za but, pr\u0161ut i \u0161unku"},{"match":["ple\u0107ka","plecka"],"url":"https:\/\/drycured.com\/proces-izrade\/obrada-vecijih-komada\/plecka\/","label":"Otvori vodi\u010d za ple\u0107ku"},{"match":["vratina","coppa","capocollo"],"url":"https:\/\/drycured.com\/proces-izrade\/obrada-vecijih-komada\/vratina-coppa-capocollo\/","label":"Otvori vodi\u010d za vratinu"},{"match":["pe\u010denica","pecenica","lonza","lungi\u0107","lungic"],"url":"https:\/\/drycured.com\/proces-izrade\/obrada-vecijih-komada\/pecenica-lonza-lungic\/","label":"Otvori vodi\u010d za pe\u010denicu i lonzu"},{"match":["panceta","potrbu\u0161ina","potrbusina"],"url":"https:\/\/drycured.com\/proces-izrade\/obrada-vecijih-komada\/panceta-potrbusina\/","label":"Otvori vodi\u010d za pancetu"},{"match":["obrazina","guanciale"],"url":"https:\/\/drycured.com\/proces-izrade\/obrada-vecijih-komada\/obrazina-guanciale\/","label":"Otvori vodi\u010d za obrazinu"},{"match":["gove\u0111i","govedi","bresaola"],"url":"https:\/\/drycured.com\/proces-izrade\/obrada-vecijih-komada\/govedi-komadi-bresaola\/","label":"Otvori vodi\u010d za gove\u0111e komade"}];
+2853:                if (card.querySelector('.dclc-topic-link')) return;
+2868:                a.className = 'dclc-topic-link';
+2878:            if (mainPage && typesBlock && !document.querySelector('.dcpovk-large-cuts-directory')) {
+2880:                directory.className = 'dcpovk-large-cuts-directory';
+2884:                    <div class="dcpovk-large-cuts-directory__grid">

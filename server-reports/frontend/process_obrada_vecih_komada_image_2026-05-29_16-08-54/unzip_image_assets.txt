@@ -1,0 +1,4 @@
+Archive:  /root/process-extra-obrada-vecijih-komada-assets.zip
+  inflating: /var/www/html/wp-content/uploads/drycured/home-process/process-extra-obrada-vecijih-komada.webp  
+  inflating: /var/www/html/wp-content/uploads/drycured/home-process/process-extra-obrada-vecijih-komada-card.webp  
+  inflating: /var/www/html/wp-content/uploads/drycured/home-process/process-extra-obrada-vecijih-komada.jpg  
