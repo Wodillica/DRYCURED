@@ -1,0 +1,418 @@
+---- sirovina ----
+1033:        .dc-process-transition-nav {
+1039:        .dc-process-transition-nav__inner {
+1052:        .dc-process-transition-nav a {
+1068:        .dc-process-transition-nav__all {
+1075:        .dc-process-transition-nav__side {
+1081:        .dc-process-transition-nav a:hover,
+1082:        .dc-process-transition-nav a:focus {
+1087:        .dc-process-transition-nav__all:hover,
+1088:        .dc-process-transition-nav__all:focus {
+1093:        .dc-process-transition-nav__side:hover,
+1094:        .dc-process-transition-nav__side:focus {
+1103:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1109:            .dc-process-transition-nav {
+1114:            .dc-process-transition-nav__inner {
+1121:            .dc-process-transition-nav a {
+1990:                        ['Sljedeća faza je jasna', 'Zna se ide li sirovina na rezanje za komade, soljenje ili mljevenje.'],
+2015:                'Sljedeća faza je jasna': ['Neplaniran rad produžuje vrijeme na toplom.', 'Prije rezanja odluči ide li meso na komade, soljenje ili mljevenje.'],
+2918:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+2919:        <div class="dc-process-transition-nav__inner">
+2921:            <a class="dc-process-transition-nav__all"
+2923:                <span>Svi procesi</span>
+2926:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__next"
+2928:                    <span>Sljedeća faza: Soljenje</span>
+2963:                    <a href="https://drycured.com/proces-izrade/rezanje/">Sljedeća faza: Rezanje</a>
+3206:                <span class="dcps-eyebrow">Sljedeća faza</span>
+3693:    <script id="drycured-process-hide-legacy-nav">
+3695:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+3704:                    text.includes('sljedeća faza') ||
+3705:                    text.includes('prethodna faza') ||
+3709:                    text.includes('svi procesi');
+3725:                            parentText.includes('sljedeća faza') ||
+3726:                            parentText.includes('prethodna faza') ||
+3738:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {
+---- soljenje ----
+1033:        .dc-process-transition-nav {
+1039:        .dc-process-transition-nav__inner {
+1052:        .dc-process-transition-nav a {
+1068:        .dc-process-transition-nav__all {
+1075:        .dc-process-transition-nav__side {
+1081:        .dc-process-transition-nav a:hover,
+1082:        .dc-process-transition-nav a:focus {
+1087:        .dc-process-transition-nav__all:hover,
+1088:        .dc-process-transition-nav__all:focus {
+1093:        .dc-process-transition-nav__side:hover,
+1094:        .dc-process-transition-nav__side:focus {
+1103:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1109:            .dc-process-transition-nav {
+1114:            .dc-process-transition-nav__inner {
+1121:            .dc-process-transition-nav a {
+2007:                        ['Sljedeća faza je jasna', 'Zna se ide li proces prema mljevenju, miješanju ili odležavanju.'],
+2032:                'Sljedeća faza je jasna': ['Neplaniran tok stvara čekanje i greške.', 'Odredi ide li proizvod prema mljevenju, miješanju ili odležavanju.'],
+2936:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+2937:        <div class="dc-process-transition-nav__inner">
+2938:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__prev"
+2941:                    <span>Prethodna faza: Sirovina</span>
+2944:            <a class="dc-process-transition-nav__all"
+2946:                <span>Svi procesi</span>
+2949:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__next"
+2951:                    <span>Sljedeća faza: Rezanje</span>
+3250:                <span class="dcpsol-eyebrow">Sljedeća faza</span>
+3737:    <script id="drycured-process-hide-legacy-nav">
+3739:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+3748:                    text.includes('sljedeća faza') ||
+3749:                    text.includes('prethodna faza') ||
+3753:                    text.includes('svi procesi');
+3769:                            parentText.includes('sljedeća faza') ||
+3770:                            parentText.includes('prethodna faza') ||
+3782:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {
+---- rezanje ----
+1033:        .dc-process-transition-nav {
+1039:        .dc-process-transition-nav__inner {
+1052:        .dc-process-transition-nav a {
+1068:        .dc-process-transition-nav__all {
+1075:        .dc-process-transition-nav__side {
+1081:        .dc-process-transition-nav a:hover,
+1082:        .dc-process-transition-nav a:focus {
+1087:        .dc-process-transition-nav__all:hover,
+1088:        .dc-process-transition-nav__all:focus {
+1093:        .dc-process-transition-nav__side:hover,
+1094:        .dc-process-transition-nav__side:focus {
+1103:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1109:            .dc-process-transition-nav {
+1114:            .dc-process-transition-nav__inner {
+1121:            .dc-process-transition-nav a {
+1984:                        ['Meso je vraćeno u hladan režim', 'Sljedeća faza ne počinje s toplom sirovinom.'],
+2009:                'Meso je vraćeno u hladan režim': ['Sljedeća faza ne smije početi s toplom sirovinom.', 'Vrati meso na hladno do soljenja ili mljevenja.'],
+2914:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+2915:        <div class="dc-process-transition-nav__inner">
+2916:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__prev"
+2919:                    <span>Prethodna faza: Soljenje</span>
+2922:            <a class="dc-process-transition-nav__all"
+2924:                <span>Svi procesi</span>
+2927:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__next"
+2929:                    <span>Sljedeća faza: Mljevenje</span>
+2964:                    <a href="https://drycured.com/proces-izrade/soljenje/">Sljedeća faza: Soljenje</a>
+3138:                    <p>Narezano meso ne smije čekati na toplom. Sljedeća faza treba početi s hladnom sirovinom.</p>
+3216:                <span class="dcpr-eyebrow">Sljedeća faza</span>
+3703:    <script id="drycured-process-hide-legacy-nav">
+3705:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+3714:                    text.includes('sljedeća faza') ||
+3715:                    text.includes('prethodna faza') ||
+3719:                    text.includes('svi procesi');
+3735:                            parentText.includes('sljedeća faza') ||
+3736:                            parentText.includes('prethodna faza') ||
+3748:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {
+---- mljevenje ----
+1033:        .dc-process-transition-nav {
+1039:        .dc-process-transition-nav__inner {
+1052:        .dc-process-transition-nav a {
+1068:        .dc-process-transition-nav__all {
+1075:        .dc-process-transition-nav__side {
+1081:        .dc-process-transition-nav a:hover,
+1082:        .dc-process-transition-nav a:focus {
+1087:        .dc-process-transition-nav__all:hover,
+1088:        .dc-process-transition-nav__all:focus {
+1093:        .dc-process-transition-nav__side:hover,
+1094:        .dc-process-transition-nav__side:focus {
+1103:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1109:            .dc-process-transition-nav {
+1114:            .dc-process-transition-nav__inner {
+1121:            .dc-process-transition-nav a {
+3139:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+3140:        <div class="dc-process-transition-nav__inner">
+3141:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__prev"
+3144:                    <span>Prethodna faza: Rezanje</span>
+3147:            <a class="dc-process-transition-nav__all"
+3149:                <span>Svi procesi</span>
+3152:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__next"
+3154:                    <span>Sljedeća faza: Miješanje</span>
+3189:                    <a href="https://drycured.com/proces-izrade/mijesanje/">Sljedeća faza: Miješanje</a>
+3362:                    <p>Nakon mljevenja smjesa ne smije čekati na toplom. Sljedeća faza je miješanje, ali pod kontrolom temperature.</p>
+3461:                <span class="dcpm-eyebrow">Sljedeća faza</span>
+3464:                    Ako je mljevenje loše, miješanje više ne može vratiti jasnu strukturu. Sljedeća faza zato mora
+3948:    <script id="drycured-process-hide-legacy-nav">
+3950:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+3959:                    text.includes('sljedeća faza') ||
+3960:                    text.includes('prethodna faza') ||
+3964:                    text.includes('svi procesi');
+3980:                            parentText.includes('sljedeća faza') ||
+3981:                            parentText.includes('prethodna faza') ||
+3993:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {
+---- mijesanje ----
+1033:        .dc-process-transition-nav {
+1039:        .dc-process-transition-nav__inner {
+1052:        .dc-process-transition-nav a {
+1068:        .dc-process-transition-nav__all {
+1075:        .dc-process-transition-nav__side {
+1081:        .dc-process-transition-nav a:hover,
+1082:        .dc-process-transition-nav a:focus {
+1087:        .dc-process-transition-nav__all:hover,
+1088:        .dc-process-transition-nav__all:focus {
+1093:        .dc-process-transition-nav__side:hover,
+1094:        .dc-process-transition-nav__side:focus {
+1103:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1109:            .dc-process-transition-nav {
+1114:            .dc-process-transition-nav__inner {
+1121:            .dc-process-transition-nav a {
+1966:                        ['Sljedeća faza je pripremljena', 'Punilica, crijeva ili odležavanje ne smiju čekati u kaosu.']
+1999:                'Sljedeća faza je pripremljena': ['Čekanje grije smjesu.', 'Pripremi punilicu, crijeva ili posudu za odležavanje prije kraja miješanja.'],
+2915:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+2916:        <div class="dc-process-transition-nav__inner">
+2917:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__prev"
+2920:                    <span>Prethodna faza: Mljevenje</span>
+2923:            <a class="dc-process-transition-nav__all"
+2925:                <span>Svi procesi</span>
+2928:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__next"
+2930:                    <span>Sljedeća faza: Odležavanje</span>
+2965:                    <a href="https://drycured.com/proces-izrade/odlezavanje/">Sljedeća faza: Odležavanje</a>
+3220:                <span class="dcpmi-eyebrow">Sljedeća faza</span>
+3707:    <script id="drycured-process-hide-legacy-nav">
+3709:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+3718:                    text.includes('sljedeća faza') ||
+3719:                    text.includes('prethodna faza') ||
+3723:                    text.includes('svi procesi');
+3739:                            parentText.includes('sljedeća faza') ||
+3740:                            parentText.includes('prethodna faza') ||
+3752:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {
+---- odlezavanje ----
+1030:        .dc-process-transition-nav {
+1036:        .dc-process-transition-nav__inner {
+1049:        .dc-process-transition-nav a {
+1065:        .dc-process-transition-nav__all {
+1072:        .dc-process-transition-nav__side {
+1078:        .dc-process-transition-nav a:hover,
+1079:        .dc-process-transition-nav a:focus {
+1084:        .dc-process-transition-nav__all:hover,
+1085:        .dc-process-transition-nav__all:focus {
+1090:        .dc-process-transition-nav__side:hover,
+1091:        .dc-process-transition-nav__side:focus {
+1100:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1106:            .dc-process-transition-nav {
+1111:            .dc-process-transition-nav__inner {
+1118:            .dc-process-transition-nav a {
+1956:                        ['Punjenje je planirano', 'Sljedeća faza ne smije biti improvizacija.']
+1978:                        ['Punilica i crijeva su spremni', 'Sljedeća faza može krenuti bez čekanja.']
+2979:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+2980:        <div class="dc-process-transition-nav__inner">
+2981:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__prev"
+2984:                    <span>Prethodna faza: Miješanje</span>
+2987:            <a class="dc-process-transition-nav__all"
+2989:                <span>Svi procesi</span>
+2992:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__next"
+2994:                    <span>Sljedeća faza: Punjenje</span>
+3031:                    <a href="https://drycured.com/proces-izrade/punjenje/">Sljedeća faza: Punjenje</a>
+3281:                <span class="dcpo-eyebrow">Sljedeća faza</span>
+3768:    <script id="drycured-process-hide-legacy-nav">
+3770:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+3779:                    text.includes('sljedeća faza') ||
+3780:                    text.includes('prethodna faza') ||
+3784:                    text.includes('svi procesi');
+3800:                            parentText.includes('sljedeća faza') ||
+3801:                            parentText.includes('prethodna faza') ||
+3813:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {
+---- punjenje ----
+1033:        .dc-process-transition-nav {
+1039:        .dc-process-transition-nav__inner {
+1052:        .dc-process-transition-nav a {
+1068:        .dc-process-transition-nav__all {
+1075:        .dc-process-transition-nav__side {
+1081:        .dc-process-transition-nav a:hover,
+1082:        .dc-process-transition-nav a:focus {
+1087:        .dc-process-transition-nav__all:hover,
+1088:        .dc-process-transition-nav__all:focus {
+1093:        .dc-process-transition-nav__side:hover,
+1094:        .dc-process-transition-nav__side:focus {
+1103:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1109:            .dc-process-transition-nav {
+1114:            .dc-process-transition-nav__inner {
+1121:            .dc-process-transition-nav a {
+2016:                        ['Sljedeća faza je pripremljena', 'Fermentacija, dimljenje ili sušenje počinju prema planu.']
+2044:                'Sljedeća faza je pripremljena': ['Punjenje ne smije završiti u zastoju.', 'Pripremi fermentaciju, dimljenje ili sušenje prije kraja punjenja.']
+2946:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+2947:        <div class="dc-process-transition-nav__inner">
+2948:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__prev"
+2951:                    <span>Prethodna faza: Odležavanje</span>
+2954:            <a class="dc-process-transition-nav__all"
+2956:                <span>Svi procesi</span>
+2959:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__next"
+2961:                    <span>Sljedeća faza: Fermentacija</span>
+2996:                    <a href="https://drycured.com/proces-izrade/fermentacija/">Sljedeća faza: Fermentacija</a>
+3292:                <span class="dcpun-eyebrow">Sljedeća faza</span>
+3779:    <script id="drycured-process-hide-legacy-nav">
+3781:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+3790:                    text.includes('sljedeća faza') ||
+3791:                    text.includes('prethodna faza') ||
+3795:                    text.includes('svi procesi');
+3811:                            parentText.includes('sljedeća faza') ||
+3812:                            parentText.includes('prethodna faza') ||
+3824:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {
+---- fermentacija ----
+1033:        .dc-process-transition-nav {
+1039:        .dc-process-transition-nav__inner {
+1052:        .dc-process-transition-nav a {
+1068:        .dc-process-transition-nav__all {
+1075:        .dc-process-transition-nav__side {
+1081:        .dc-process-transition-nav a:hover,
+1082:        .dc-process-transition-nav a:focus {
+1087:        .dc-process-transition-nav__all:hover,
+1088:        .dc-process-transition-nav__all:focus {
+1093:        .dc-process-transition-nav__side:hover,
+1094:        .dc-process-transition-nav__side:focus {
+1103:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1109:            .dc-process-transition-nav {
+1114:            .dc-process-transition-nav__inner {
+1121:            .dc-process-transition-nav a {
+4011:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+4012:        <div class="dc-process-transition-nav__inner">
+4013:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__prev"
+4016:                    <span>Prethodna faza: Punjenje</span>
+4019:            <a class="dc-process-transition-nav__all"
+4021:                <span>Svi procesi</span>
+4024:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__next"
+4026:                    <span>Sljedeća faza: Dimljenje</span>
+4211:            <a href="https://drycured.com/proces-izrade/punjenje/">← Prethodna faza: Punjenje</a>
+4212:            <a href="https://drycured.com/proces-izrade/dimljenje/">Sljedeća faza: Dimljenje →</a>
+4780:    <script id="drycured-process-hide-legacy-nav">
+4782:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+4791:                    text.includes('sljedeća faza') ||
+4792:                    text.includes('prethodna faza') ||
+4796:                    text.includes('svi procesi');
+4812:                            parentText.includes('sljedeća faza') ||
+4813:                            parentText.includes('prethodna faza') ||
+4825:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {
+---- dimljenje ----
+1033:        .dc-process-transition-nav {
+1039:        .dc-process-transition-nav__inner {
+1052:        .dc-process-transition-nav a {
+1068:        .dc-process-transition-nav__all {
+1075:        .dc-process-transition-nav__side {
+1081:        .dc-process-transition-nav a:hover,
+1082:        .dc-process-transition-nav a:focus {
+1087:        .dc-process-transition-nav__all:hover,
+1088:        .dc-process-transition-nav__all:focus {
+1093:        .dc-process-transition-nav__side:hover,
+1094:        .dc-process-transition-nav__side:focus {
+1103:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1109:            .dc-process-transition-nav {
+1114:            .dc-process-transition-nav__inner {
+1121:            .dc-process-transition-nav a {
+1369:                    ['Sljedeća faza je jasna','Proizvod ide prema sušenju ili novom kontroliranom ciklusu.']
+1393:                'Sljedeća faza je jasna':['Nakon dima ne smije biti lutanja.','Odredi ide li proizvod na sušenje ili novi blagi ciklus.']
+2285:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+2286:        <div class="dc-process-transition-nav__inner">
+2287:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__prev"
+2290:                    <span>Prethodna faza: Fermentacija</span>
+2293:            <a class="dc-process-transition-nav__all"
+2295:                <span>Svi procesi</span>
+2298:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__next"
+2300:                    <span>Sljedeća faza: Sušenje</span>
+2567:                <span class="dcpdim-eyebrow">Sljedeća faza</span>
+3054:    <script id="drycured-process-hide-legacy-nav">
+3056:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+3065:                    text.includes('sljedeća faza') ||
+3066:                    text.includes('prethodna faza') ||
+3070:                    text.includes('svi procesi');
+3086:                            parentText.includes('sljedeća faza') ||
+3087:                            parentText.includes('prethodna faza') ||
+3099:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {
+---- susenje ----
+1033:        .dc-process-transition-nav {
+1039:        .dc-process-transition-nav__inner {
+1052:        .dc-process-transition-nav a {
+1068:        .dc-process-transition-nav__all {
+1075:        .dc-process-transition-nav__side {
+1081:        .dc-process-transition-nav a:hover,
+1082:        .dc-process-transition-nav a:focus {
+1087:        .dc-process-transition-nav__all:hover,
+1088:        .dc-process-transition-nav__all:focus {
+1093:        .dc-process-transition-nav__side:hover,
+1094:        .dc-process-transition-nav__side:focus {
+1103:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1109:            .dc-process-transition-nav {
+1114:            .dc-process-transition-nav__inner {
+1121:            .dc-process-transition-nav a {
+1350:                    ['Sljedeća faza je određena','Proizvod ide na zrenje ili završno skladištenje.']
+1372:                'Sljedeća faza je određena':['Nakon sušenja ne smije biti lutanja.','Odredi ide li proizvod na zrenje ili skladištenje.']
+2264:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+2265:        <div class="dc-process-transition-nav__inner">
+2266:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__prev"
+2269:                    <span>Prethodna faza: Dimljenje</span>
+2272:            <a class="dc-process-transition-nav__all"
+2274:                <span>Svi procesi</span>
+2277:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__next"
+2279:                    <span>Sljedeća faza: Zrenje</span>
+2548:                <span class="dcpdry-eyebrow">Sljedeća faza</span>
+3035:    <script id="drycured-process-hide-legacy-nav">
+3037:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+3046:                    text.includes('sljedeća faza') ||
+3047:                    text.includes('prethodna faza') ||
+3051:                    text.includes('svi procesi');
+3067:                            parentText.includes('sljedeća faza') ||
+3068:                            parentText.includes('prethodna faza') ||
+3080:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {
+---- zrenje ----
+1033:        .dc-process-transition-nav {
+1039:        .dc-process-transition-nav__inner {
+1052:        .dc-process-transition-nav a {
+1068:        .dc-process-transition-nav__all {
+1075:        .dc-process-transition-nav__side {
+1081:        .dc-process-transition-nav a:hover,
+1082:        .dc-process-transition-nav a:focus {
+1087:        .dc-process-transition-nav__all:hover,
+1088:        .dc-process-transition-nav__all:focus {
+1093:        .dc-process-transition-nav__side:hover,
+1094:        .dc-process-transition-nav__side:focus {
+1103:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1109:            .dc-process-transition-nav {
+1114:            .dc-process-transition-nav__inner {
+1121:            .dc-process-transition-nav a {
+2261:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+2262:        <div class="dc-process-transition-nav__inner">
+2263:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__prev"
+2266:                    <span>Prethodna faza: Sušenje</span>
+2269:            <a class="dc-process-transition-nav__all"
+2271:                <span>Svi procesi</span>
+2274:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__next"
+2276:                    <span>Sljedeća faza: Pakiranje</span>
+2311:                    <a href="https://drycured.com/proces-izrade/pakiranje/">Sljedeća faza: Pakiranje</a>
+2527:                <span class="dcpzrn-eyebrow">Sljedeća faza</span>
+3014:    <script id="drycured-process-hide-legacy-nav">
+3016:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+3025:                    text.includes('sljedeća faza') ||
+3026:                    text.includes('prethodna faza') ||
+3030:                    text.includes('svi procesi');
+3046:                            parentText.includes('sljedeća faza') ||
+3047:                            parentText.includes('prethodna faza') ||
+3059:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {
+---- pakiranje ----
+1033:        .dc-process-transition-nav {
+1039:        .dc-process-transition-nav__inner {
+1052:        .dc-process-transition-nav a {
+1068:        .dc-process-transition-nav__all {
+1075:        .dc-process-transition-nav__side {
+1081:        .dc-process-transition-nav a:hover,
+1082:        .dc-process-transition-nav a:focus {
+1087:        .dc-process-transition-nav__all:hover,
+1088:        .dc-process-transition-nav__all:focus {
+1093:        .dc-process-transition-nav__side:hover,
+1094:        .dc-process-transition-nav__side:focus {
+1103:        body[class*="page"] .entry-content a[href*="/proces-izrade/"]:not(.dc-process-transition-nav__all):not(.dc-process-transition-nav__side) {
+1109:            .dc-process-transition-nav {
+1114:            .dc-process-transition-nav__inner {
+1121:            .dc-process-transition-nav a {
+2264:		    <nav class="dc-process-transition-nav" aria-label="Navigacija kroz proces izrade">
+2265:        <div class="dc-process-transition-nav__inner">
+2266:                            <a class="dc-process-transition-nav__side dc-process-transition-nav__prev"
+2269:                    <span>Prethodna faza: Zrenje</span>
+2272:            <a class="dc-process-transition-nav__all"
+2274:                <span>Svi procesi</span>
+3042:    <script id="drycured-process-hide-legacy-nav">
+3044:            const protectedNav = document.querySelector('.dc-process-transition-nav');
+3053:                    text.includes('sljedeća faza') ||
+3054:                    text.includes('prethodna faza') ||
+3058:                    text.includes('svi procesi');
+3074:                            parentText.includes('sljedeća faza') ||
+3075:                            parentText.includes('prethodna faza') ||
+3087:                if (node && node !== document.body && !node.classList.contains('dc-process-transition-nav')) {

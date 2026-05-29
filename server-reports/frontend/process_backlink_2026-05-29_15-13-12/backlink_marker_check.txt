@@ -1,0 +1,202 @@
+---- sirovina ----
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/sirovina/" />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/sirovina/" />
+1033:        .dc-process-backlink-wrap {
+1039:        .dc-process-backlink {
+1056:        .dc-process-backlink:hover,
+1057:        .dc-process-backlink:focus {
+1065:        .dc-process-backlink svg {
+1072:            .dc-process-backlink-wrap {
+1077:            .dc-process-backlink {
+2875:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+2876:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+2880:            <span>Povratak na pregled procesa</span>
+2913:                    <a href="https://drycured.com/proces-izrade/rezanje/">Sljedeća faza: Rezanje</a>
+3165:                <a href="https://drycured.com/proces-izrade/rezanje/">Otvori fazu Rezanje</a>
+3166:                <a href="https://drycured.com/proces-izrade/">Pogledaj sve procese</a>
+3562:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/sirovina/" data-gt-orig-domain="drycured.com" data-gt-widget-id="35803181" defer></script>			<script>
+---- soljenje ----
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/soljenje/" />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/soljenje/" />
+1033:        .dc-process-backlink-wrap {
+1039:        .dc-process-backlink {
+1056:        .dc-process-backlink:hover,
+1057:        .dc-process-backlink:focus {
+1065:        .dc-process-backlink svg {
+1072:            .dc-process-backlink-wrap {
+1077:            .dc-process-backlink {
+2893:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+2894:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+2898:            <span>Povratak na pregled procesa</span>
+3204:                <a href="https://drycured.com/proces-izrade/mljevenje/">Otvori fazu Mljevenje</a>
+3205:                <a href="https://drycured.com/proces-izrade/">Pogledaj sve procese</a>
+3601:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/soljenje/" data-gt-orig-domain="drycured.com" data-gt-widget-id="50370804" defer></script>			<script>
+---- rezanje ----
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/rezanje/" />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/rezanje/" />
+1033:        .dc-process-backlink-wrap {
+1039:        .dc-process-backlink {
+1056:        .dc-process-backlink:hover,
+1057:        .dc-process-backlink:focus {
+1065:        .dc-process-backlink svg {
+1072:            .dc-process-backlink-wrap {
+1077:            .dc-process-backlink {
+2871:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+2872:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+2876:            <span>Povratak na pregled procesa</span>
+2909:                    <a href="https://drycured.com/proces-izrade/soljenje/">Sljedeća faza: Soljenje</a>
+3170:                <a href="https://drycured.com/proces-izrade/soljenje/">Otvori fazu Soljenje</a>
+3171:                <a href="https://drycured.com/proces-izrade/">Pogledaj sve procese</a>
+3567:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/rezanje/" data-gt-orig-domain="drycured.com" data-gt-widget-id="46342359" defer></script>			<script>
+---- mljevenje ----
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/mljevenje/" />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/mljevenje/" />
+1033:        .dc-process-backlink-wrap {
+1039:        .dc-process-backlink {
+1056:        .dc-process-backlink:hover,
+1057:        .dc-process-backlink:focus {
+1065:        .dc-process-backlink svg {
+1072:            .dc-process-backlink-wrap {
+1077:            .dc-process-backlink {
+3096:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+3097:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+3101:            <span>Povratak na pregled procesa</span>
+3134:                    <a href="https://drycured.com/proces-izrade/mijesanje/">Sljedeća faza: Miješanje</a>
+3415:                <a href="https://drycured.com/proces-izrade/mijesanje/">Otvori fazu Miješanje</a>
+3416:                <a href="https://drycured.com/proces-izrade/">Pogledaj sve procese</a>
+3812:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/mljevenje/" data-gt-orig-domain="drycured.com" data-gt-widget-id="23593805" defer></script>			<script>
+---- mijesanje ----
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/mijesanje/" />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/mijesanje/" />
+1033:        .dc-process-backlink-wrap {
+1039:        .dc-process-backlink {
+1056:        .dc-process-backlink:hover,
+1057:        .dc-process-backlink:focus {
+1065:        .dc-process-backlink svg {
+1072:            .dc-process-backlink-wrap {
+1077:            .dc-process-backlink {
+2872:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+2873:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+2877:            <span>Povratak na pregled procesa</span>
+2910:                    <a href="https://drycured.com/proces-izrade/odlezavanje/">Sljedeća faza: Odležavanje</a>
+3174:                <a href="https://drycured.com/proces-izrade/odlezavanje/">Otvori fazu Odležavanje</a>
+3175:                <a href="https://drycured.com/proces-izrade/punjenje/">Otvori fazu Punjenje</a>
+3571:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/mijesanje/" data-gt-orig-domain="drycured.com" data-gt-widget-id="78756691" defer></script>			<script>
+---- odlezavanje ----
+12:	<link rel="canonical" href="https://drycured.com/proces-izrade/odlezavanje/" />
+18:		<meta property="og:url" content="https://drycured.com/proces-izrade/odlezavanje/" />
+1030:        .dc-process-backlink-wrap {
+1036:        .dc-process-backlink {
+1053:        .dc-process-backlink:hover,
+1054:        .dc-process-backlink:focus {
+1062:        .dc-process-backlink svg {
+1069:            .dc-process-backlink-wrap {
+1074:            .dc-process-backlink {
+2936:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+2937:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+2941:            <span>Povratak na pregled procesa</span>
+2976:                    <a href="https://drycured.com/proces-izrade/punjenje/">Sljedeća faza: Punjenje</a>
+3235:                <a href="https://drycured.com/proces-izrade/punjenje/">Otvori fazu Punjenje</a>
+3236:                <a href="https://drycured.com/proces-izrade/mijesanje/">Vrati se na Miješanje</a>
+3632:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/odlezavanje/" data-gt-orig-domain="drycured.com" data-gt-widget-id="20425361" defer></script>			<script>
+---- punjenje ----
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/punjenje/" />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/punjenje/" />
+1033:        .dc-process-backlink-wrap {
+1039:        .dc-process-backlink {
+1056:        .dc-process-backlink:hover,
+1057:        .dc-process-backlink:focus {
+1065:        .dc-process-backlink svg {
+1072:            .dc-process-backlink-wrap {
+1077:            .dc-process-backlink {
+2903:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+2904:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+2908:            <span>Povratak na pregled procesa</span>
+2941:                    <a href="https://drycured.com/proces-izrade/fermentacija/">Sljedeća faza: Fermentacija</a>
+3246:                <a href="https://drycured.com/proces-izrade/fermentacija/">Otvori fazu Fermentacija</a>
+3247:                <a href="https://drycured.com/proces-izrade/odlezavanje-smjese/">Vrati se na Odležavanje</a>
+3643:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/punjenje/" data-gt-orig-domain="drycured.com" data-gt-widget-id="24696425" defer></script>			<script>
+---- fermentacija ----
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/fermentacija/" />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/fermentacija/" />
+1033:        .dc-process-backlink-wrap {
+1039:        .dc-process-backlink {
+1056:        .dc-process-backlink:hover,
+1057:        .dc-process-backlink:focus {
+1065:        .dc-process-backlink svg {
+1072:            .dc-process-backlink-wrap {
+1077:            .dc-process-backlink {
+3968:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+3969:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+3973:            <span>Povratak na pregled procesa</span>
+4151:                <a href="https://drycured.com/proces-izrade/">Pogledaj sve procese</a>
+4156:            <a href="https://drycured.com/proces-izrade/punjenje/">← Prethodna faza: Punjenje</a>
+4157:            <a href="https://drycured.com/proces-izrade/dimljenje/">Sljedeća faza: Dimljenje →</a>
+4644:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/fermentacija/" data-gt-orig-domain="drycured.com" data-gt-widget-id="72693498" defer></script>			<script>
+---- dimljenje ----
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/dimljenje/" />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/dimljenje/" />
+1033:        .dc-process-backlink-wrap {
+1039:        .dc-process-backlink {
+1056:        .dc-process-backlink:hover,
+1057:        .dc-process-backlink:focus {
+1065:        .dc-process-backlink svg {
+1072:            .dc-process-backlink-wrap {
+1077:            .dc-process-backlink {
+2242:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+2243:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+2247:            <span>Povratak na pregled procesa</span>
+2521:                <a href="https://drycured.com/proces-izrade/susenje/">Otvori fazu Sušenje</a>
+2522:                <a href="https://drycured.com/proces-izrade/fermentacija/">Vrati se na Fermentaciju</a>
+2918:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/dimljenje/" data-gt-orig-domain="drycured.com" data-gt-widget-id="42631679" defer></script>			<script>
+---- susenje ----
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/susenje/" />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/susenje/" />
+1033:        .dc-process-backlink-wrap {
+1039:        .dc-process-backlink {
+1056:        .dc-process-backlink:hover,
+1057:        .dc-process-backlink:focus {
+1065:        .dc-process-backlink svg {
+1072:            .dc-process-backlink-wrap {
+1077:            .dc-process-backlink {
+2221:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+2222:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+2226:            <span>Povratak na pregled procesa</span>
+2502:                <a href="https://drycured.com/proces-izrade/zrenje/">Otvori fazu Zrenje</a>
+2503:                <a href="https://drycured.com/proces-izrade/dimljenje/">Vrati se na Dimljenje</a>
+2899:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/susenje/" data-gt-orig-domain="drycured.com" data-gt-widget-id="51592275" defer></script>			<script>
+---- zrenje ----
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/zrenje/" />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/zrenje/" />
+1033:        .dc-process-backlink-wrap {
+1039:        .dc-process-backlink {
+1056:        .dc-process-backlink:hover,
+1057:        .dc-process-backlink:focus {
+1065:        .dc-process-backlink svg {
+1072:            .dc-process-backlink-wrap {
+1077:            .dc-process-backlink {
+2218:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+2219:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+2223:            <span>Povratak na pregled procesa</span>
+2256:                    <a href="https://drycured.com/proces-izrade/pakiranje/">Sljedeća faza: Pakiranje</a>
+2481:                <a href="https://drycured.com/proces-izrade/pakiranje/">Otvori fazu Pakiranje</a>
+2482:                <a href="https://drycured.com/proces-izrade/susenje/">Vrati se na Sušenje</a>
+2878:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/zrenje/" data-gt-orig-domain="drycured.com" data-gt-widget-id="53794588" defer></script>			<script>
+---- pakiranje ----
+13:	<link rel="canonical" href="https://drycured.com/proces-izrade/pakiranje/" />
+20:		<meta property="og:url" content="https://drycured.com/proces-izrade/pakiranje/" />
+1033:        .dc-process-backlink-wrap {
+1039:        .dc-process-backlink {
+1056:        .dc-process-backlink:hover,
+1057:        .dc-process-backlink:focus {
+1065:        .dc-process-backlink svg {
+1072:            .dc-process-backlink-wrap {
+1077:            .dc-process-backlink {
+2221:		    <div class="dc-process-backlink-wrap" aria-label="Navigacija procesa">
+2222:        <a class="dc-process-backlink" href="https://drycured.com/proces-izrade/">
+2226:            <span>Povratak na pregled procesa</span>
+2259:                    <a href="https://drycured.com/proces-izrade/zrenje/">Vrati se na Zrenje</a>
+2514:                <a href="https://drycured.com/proces-izrade/zrenje/">Vrati se na Zrenje</a>
+2515:                <a href="https://drycured.com/proces-izrade/">Pogledaj sve procese</a>
+2911:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/pakiranje/" data-gt-orig-domain="drycured.com" data-gt-widget-id="71138748" defer></script>			<script>
+---- main /proces-izrade/ ----
