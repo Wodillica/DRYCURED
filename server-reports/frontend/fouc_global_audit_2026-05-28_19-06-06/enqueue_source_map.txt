@@ -1,0 +1,126 @@
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-europe.php:433:add_action('wp_head', 'drycured_home_core_atlas_europe_styles', 50);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/process-title-fix.php:82:add_action('wp_head', 'drycured_home_core_process_title_fix_v056', 100);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/home-latest-media-bgfix.php:104:add_action('wp_footer', 'drycured_home_core_latest_media_bgfix_v046', 1000010);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/home-latest-media-bgfix.php:214:add_action('wp_footer', 'drycured_home_core_latest_media_bgfix_v046', 1000010);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:149:add_action('wp_head','drycured_atlas_v073_styles',70);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:201:add_action('wp_footer','drycured_atlas_v073_script',70);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:335:add_action('wp_head', 'drycured_atlas_v074_invisible_hotspots', 99);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:492:add_action('wp_head', 'drycured_atlas_v075_precise_hotspots', 100);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:630:add_action('wp_head', 'drycured_atlas_v076_realign_hotspots', 110);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:663:add_action('wp_head', 'drycured_atlas_v077_iberia_hotspots', 130);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:688:add_action('wp_head', 'drycured_atlas_v078_italy_hotspot', 131);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:713:add_action('wp_head', 'drycured_atlas_v079_austria_switzerland_hotspot', 132);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:761:add_action('wp_head', 'drycured_atlas_v080_product_only_hotspots', 150);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:787:add_action('wp_head', 'drycured_atlas_v081_nordic_hotspot', 160);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:815:add_action('wp_head', 'drycured_atlas_v082_malta_hotspot', 170);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:843:add_action('wp_head', 'drycured_atlas_v083_malta_hotspot', 171);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:870:add_action('wp_head', 'drycured_atlas_v084_malta_hotspot', 172);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:898:add_action('wp_head', 'drycured_atlas_v085_malta_hotspot', 173);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:969:add_action('wp_head', 'drycured_atlas_v086_iceland_hotspot', 174);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:1077:add_action('wp_footer', 'drycured_atlas_v087_force_iceland_hotspot', 200);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:1210:add_action('wp_footer', 'drycured_atlas_v088_iceland_overlay_hotspot', 300);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:1234:add_action('wp_head', 'drycured_atlas_v089_iceland_position', 999);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:1258:add_action('wp_head', 'drycured_atlas_v090_iceland_position', 1000);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:1306:add_action('wp_footer', 'drycured_atlas_v091_iceland_hard_position', 9999);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:1355:add_action('wp_footer', 'drycured_atlas_v092_iceland_final_position', 10000);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:1383:add_action('wp_head', 'drycured_atlas_v093_belarus_hotspot', 180);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:1411:add_action('wp_head', 'drycured_atlas_v095_baltic_position', 182);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-interactive-map.php:1439:add_action('wp_head', 'drycured_atlas_v096_belarus_position', 183);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/home-latest-unified.php:349:add_action('wp_footer', 'drycured_home_core_latest_unified_render', 1000050);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/tools-hub.php:283:add_action('wp_head', 'drycured_home_core_tools_hub_styles', 60);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/start-here.php:250:add_action('wp_head', 'drycured_home_core_start_here_styles', 70);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-map.php.BROKEN-v070-2026-05-24_07-03-51:482:add_action('wp_head', 'drycured_home_core_atlas_map_styles_v070', 80);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-map.php.BROKEN-v070-2026-05-24_07-03-51:996:add_action('wp_head', 'drycured_home_core_atlas_map_styles_v070', 80);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/home-link-router.php:222:add_action('wp_footer', 'drycured_home_core_home_link_router_v052', 1000600);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-gallery.php:402:add_action('wp_head', 'drycured_home_core_atlas_gallery_styles_v071', 90);
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-gallery.php:445:add_action('wp_footer', 'drycured_home_core_atlas_gallery_script_v071', 90);
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:16:    wp_enqueue_style(
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:261:add_action('wp_enqueue_scripts', 'drycured_home_core_enqueue_on_process_pages', 30);
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:287:add_action('wp_enqueue_scripts', 'drycured_home_core_enqueue_on_error_pages', 30);
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:492:    add_action('wp_head', 'drycured_home_core_home_latest_inline_polish_v040', 9999);
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:581:    add_action('wp_footer', 'drycured_home_core_latest_infographic_cleanup_v042', 1000000);
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:678:    add_action('wp_footer', 'drycured_home_core_latest_image_fit_v043', 1000002);
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:766:    add_action('wp_footer', 'drycured_home_core_latest_final_polish_v044', 1000004);
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:815:    add_action('wp_footer', 'drycured_home_core_latest_rounded_infographics_v045', 1000005);
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:878:    add_action('wp_footer', 'drycured_home_core_latest_infographic_title_safe_v048', 1000060);
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:966:    add_action('wp_footer', 'drycured_home_core_restore_latest_images_v049', 1000100);
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:1009:    add_action('wp_footer', 'drycured_home_core_latest_infographic_corners_v050', 1000200);
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:103:add_action('wp_head', 'dcpodltxt_assets', 180);
+/var/www/html/wp-content/mu-plugins/drycured-gt-killfloat.php:8:add_action('wp_head', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-gt-killfloat.php:44:add_action('wp_footer', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1294:add_action('wp_head', 'dcps_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:652:add_action('wp_head', 'dcppackv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-savjet-home-injector.php:12:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-savjet-home-injector.php:64:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:21:        add_action('wp_enqueue_scripts', [$this, 'enqueue_assets']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:22:        add_action('wp_footer',          [$this, 'render_auth_ui']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:51:        wp_enqueue_style(
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:57:        wp_enqueue_script(
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:73:        wp_enqueue_style('dashicons');
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:664:add_action('wp_head', 'dcpdimv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-book-shadow-soft-fix.php:12:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-home-clean-css.php:8:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v012.php:49:add_action('wp_head', 'dcpmvp12_assets', 170);
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1396:add_action('wp_head', 'dcpm_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:163:add_action('wp_head', 'dcpmvp_assets', 150);
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:490:add_action('wp_head', 'dcpo_styles', 50);
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:135:    remove_action('wp_head', '_wp_render_title_tag', 1);
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:192:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:420:        <?php wp_head(); ?>
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:444:    <?php wp_footer(); ?>
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:457:        <?php wp_head(); ?>
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:480:    <?php wp_footer(); ?>
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:492:        <?php wp_head(); ?>
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:503:    <?php wp_footer(); ?>
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:514:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-search.php:192:add_action('wp_footer', 'drycured_search_inject_html');
+/var/www/html/wp-content/mu-plugins/drycured-search.php:207:add_action('wp_enqueue_scripts', function() {
+/var/www/html/wp-content/mu-plugins/drycured-search.php:208:    wp_enqueue_style('drycured-search', plugin_dir_url(__FILE__) . '../plugins/drycured-recipe-core/assets/css/drycured-recipes.css', [], '1.0.0');
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:245:add_action('wp_head', 'dchpo22_assets', 260);
+/var/www/html/wp-content/mu-plugins/drycured-profile-settings.php:15:        add_action('wp_head', [$this, 'print_css']);
+/var/www/html/wp-content/mu-plugins/drycured-search-assets.php:7:add_action('wp_head', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-search-assets.php:43:add_action('wp_footer', function() {
+/var/www/html/wp-content/mu-plugins/drycured-book-preview.php:62:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1380:add_action('wp_head', 'dcpunv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-ph-bridge-v016.php:341:add_action('wp_head', 'dcpfphb_assets', 230);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:471:add_action('wp_head', 'dcpftp_assets', 160);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:294:add_action('wp_head', 'dcpfcs_assets', 220);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:460:add_action('wp_head', 'dcpfc_assets', 210);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:394:add_action('wp_head', 'dcpfs_assets', 190);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-fine-tune-v012.php:148:add_action('wp_head', 'dcpftt_assets', 180);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:546:add_action('wp_head', 'dcpf_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:610:add_action('wp_head', 'dcpzrnv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-home-card-border-fix.php:12:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-book-preview-style.php:12:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-platform/comparator/comparator.php:18:add_action( 'wp_enqueue_scripts', 'dc_comparator_enqueue' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/comparator/comparator.php:23:    wp_enqueue_script( 'wp-element' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/comparator/comparator.php:24:    wp_enqueue_script( 'chartjs',
+/var/www/html/wp-content/mu-plugins/drycured-platform/comparator/comparator.php:27:    wp_enqueue_script( 'dc-comparator',
+/var/www/html/wp-content/mu-plugins/drycured-platform/comparator/comparator.php:30:    wp_enqueue_style( 'dc-comparator',
+/var/www/html/wp-content/mu-plugins/drycured-platform/comparator/comparator.php:56:add_action( 'wp_footer', 'dc_inject_compare_fab' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/comparator/comparator.php:115:add_action( 'wp_footer', 'dc_comparator_inject_floating_bar' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/core/gate.php:192:add_action( 'wp_enqueue_scripts', 'dc_gate_enqueue_styles' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/core/gate.php:194:    wp_enqueue_style(
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v021.php:133:add_action('wp_head', 'dchpo_assets', 220);
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1303:add_action('wp_head', 'dcpmi_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:648:add_action('wp_head', 'dcpdryv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-ez-audience-home-cards.php:77:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-ez-audience-home-cards.php:215:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-tools-kalkulator-soli-anchor.php:72:add_action('wp_head', 'dctksa_assets', 220);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-modern.php:871:add_action('wp_head', 'dcskm_styles_scripts', 70);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-hero-polish.php:212:add_action('wp_head', 'dcskhp_assets', 140);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-hero-simulator.php:411:add_action('wp_head', 'dcskhs_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-cleanup-v073.php:69:add_action('wp_head', 'dcskcl_assets', 210);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-practical.php:497:add_action('wp_head', 'dcskp_assets', 150);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-image-hotspots-v074.php:113:add_action('wp_head', 'dcskih_assets', 220);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-usage-v07.php:727:add_action('wp_head', 'dcsku_assets', 170);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-mobile-fix.php:156:add_action('wp_head', 'dcskmf_assets', 160);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-image-v071.php:135:add_action('wp_head', 'dcskimg_assets', 180);
+/var/www/html/wp-content/mu-plugins/drycured-book-inquiry.php:269:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-gtranslate.php:8:add_action('wp_head', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-gtranslate.php:34:add_action('wp_head', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-gtranslate.php:201:add_action('wp_footer', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1361:add_action('wp_head', 'dcpsol_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1299:add_action('wp_head', 'dcpr_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:366:add_action('wp_head', 'drycured_process_seo_faq_v020_maybe_output_schema', 80);
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1295:add_action('wp_head', 'dcpodl_assets', 120);

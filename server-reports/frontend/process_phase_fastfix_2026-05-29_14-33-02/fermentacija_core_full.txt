@@ -1,0 +1,33 @@
+     1	<?php
+     2	/**
+     3	 * Plugin Name: Drycured Process Fermentacija Core
+     4	 * Description: Core loader for the Fermentacija process page modules.
+     5	 * Version: 0.2.0
+     6	 * Author: drycured.com
+     7	 */
+     8	
+     9	if (!defined('ABSPATH')) {
+    10	    exit;
+    11	}
+    12	
+    13	define('DCPF_CORE_VERSION', '0.2.0');
+    14	define('DCPF_CORE_MODULE_DIR', __DIR__ . '/drycured-process-fermentacija-modules');
+    15	
+    16	function dcpf_core_include_module(string $file): void {
+    17	    $path = DCPF_CORE_MODULE_DIR . '/' . $file;
+    18	
+    19	    if (is_readable($path)) {
+    20	        require_once $path;
+    21	    }
+    22	}
+    23	
+    24	/*
+    25	 * Final active module order.
+    26	 */
+    27	dcpf_core_include_module('drycured-process-fermentacija-content-v010.php');
+    28	dcpf_core_include_module('drycured-process-fermentacija-top-polish.php');
+    29	dcpf_core_include_module('drycured-process-fermentacija-top-fine-tune-v012.php');
+    30	dcpf_core_include_module('drycured-process-fermentacija-simulator-v013.php');
+    31	dcpf_core_include_module('drycured-process-fermentacija-ph-bridge-v016.php');
+    32	dcpf_core_include_module('drycured-process-fermentacija-checklist-v014.php');
+    33	dcpf_core_include_module('drycured-process-fermentacija-checklist-solutions-v015.php');

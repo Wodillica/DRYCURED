@@ -1,0 +1,48 @@
+=== PHP SYNTAX ===
+No syntax errors detected in /var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php
+=== PATCH DIFF CONTEXT ===
+--- /root/DRYCURED_GITHUB/server-reports/frontend/fouc_global_audit_2026-05-28_19-06-06/drycured-home-core.before_early_css_fix.php	2026-05-28 19:10:57.016805439 +0000
++++ /var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php	2026-05-28 19:10:57.061805884 +0000
+@@ -21,6 +21,24 @@
+     );
+ }
+ 
++/**
++ * Učitaj osnovni CSS dovoljno rano na Home stranici.
++ *
++ * Razlog:
++ * Home process rail se renderira prije glavnog sadržaja. Ako se CSS učita tek
++ * iz shortcoda/render funkcije, preglednik nakratko prikaže neformatirani blok.
++ */
++function drycured_home_core_enqueue_home_assets_early() {
++    if (is_admin() || wp_doing_ajax()) {
++        return;
++    }
++
++    if (is_front_page()) {
++        drycured_home_core_enqueue_assets();
++    }
++}
++add_action('wp_enqueue_scripts', 'drycured_home_core_enqueue_home_assets_early', 1);
++
+ function drycured_home_core_process_path_shortcode($atts = []) {
+     drycured_home_core_enqueue_assets();
+ 
+@@ -258,7 +276,7 @@
+         drycured_home_core_enqueue_assets();
+     }
+ }
+-add_action('wp_enqueue_scripts', 'drycured_home_core_enqueue_on_process_pages', 30);
++add_action('wp_enqueue_scripts', 'drycured_home_core_enqueue_on_process_pages', 1);
+ 
+ /**
+  * Učitaj CSS plugina na stranicama grešaka.
+@@ -284,7 +302,7 @@
+         drycured_home_core_enqueue_assets();
+     }
+ }
+-add_action('wp_enqueue_scripts', 'drycured_home_core_enqueue_on_error_pages', 30);
++add_action('wp_enqueue_scripts', 'drycured_home_core_enqueue_on_error_pages', 1);
+ 
+ if (file_exists(DRYCURED_HOME_CORE_PATH . 'includes/error-infographics.php')) {
+     require_once DRYCURED_HOME_CORE_PATH . 'includes/error-infographics.php';

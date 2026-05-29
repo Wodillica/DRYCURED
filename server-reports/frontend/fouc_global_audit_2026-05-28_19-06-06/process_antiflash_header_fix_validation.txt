@@ -1,0 +1,18 @@
+=== PHP SYNTAX ===
+No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-antiflash.php
+=== DIFF ===
+--- /root/DRYCURED_GITHUB/server-reports/frontend/fouc_global_audit_2026-05-28_19-06-06/drycured-process-antiflash.before_header_fix.php	2026-05-28 19:33:36.934363264 +0000
++++ /var/www/html/wp-content/mu-plugins/drycured-process-antiflash.php	2026-05-28 19:33:36.954363421 +0000
+@@ -32,6 +32,12 @@
+     }
+     ?>
+     <style id="drycured-process-antiflash-css">
++        body.page-child.parent-pageid-2864 .entry-header,
++        body.page-child.parent-pageid-2864 .ast-single-entry-banner,
++        body.page-child.parent-pageid-2864 .page-title {
++            display: none !important;
++        }
++
+         body.page-child.parent-pageid-2864 .entry-content > * {
+             display: none;
+         }

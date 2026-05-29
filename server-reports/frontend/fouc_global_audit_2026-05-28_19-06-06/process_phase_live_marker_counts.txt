@@ -1,0 +1,84 @@
+---- https://drycured.com/proces-izrade/sirovina/ ----
+status: 200
+bytes: 261874
+dc-process-rail count: 0
+dcpo-wrap count: 0
+process core class markers:       6 dc-process-phase-box       1 dc-process-phase-nav       1 dc-process-phase-page       1 dc-process-phase-page__grid       1 dc-process-phase-page__image       1 dc-process-phase-page__kicker       1 dc-process-phase-page__lead       1 dc-process-phase-title 
+
+---- https://drycured.com/proces-izrade/soljenje/ ----
+status: 200
+bytes: 262966
+dc-process-rail count: 0
+dcpo-wrap count: 0
+process core class markers:       6 dc-process-phase-box       1 dc-process-phase-nav       1 dc-process-phase-page       1 dc-process-phase-page__grid       1 dc-process-phase-page__image       1 dc-process-phase-page__kicker       1 dc-process-phase-page__lead       1 dc-process-phase-title 
+
+---- https://drycured.com/proces-izrade/rezanje/ ----
+status: 200
+bytes: 261318
+dc-process-rail count: 0
+dcpo-wrap count: 0
+process core class markers:       6 dc-process-phase-box       1 dc-process-phase-nav       1 dc-process-phase-page       1 dc-process-phase-page__grid       1 dc-process-phase-page__image       1 dc-process-phase-page__kicker       1 dc-process-phase-page__lead       1 dc-process-phase-title 
+
+---- https://drycured.com/proces-izrade/mljevenje/ ----
+status: 200
+bytes: 270277
+dc-process-rail count: 0
+dcpo-wrap count: 0
+process core class markers:       6 dc-process-phase-box       1 dc-process-phase-nav       1 dc-process-phase-page       1 dc-process-phase-page__grid       1 dc-process-phase-page__image       1 dc-process-phase-page__kicker       1 dc-process-phase-page__lead       1 dc-process-phase-title 
+
+---- https://drycured.com/proces-izrade/mijesanje/ ----
+status: 200
+bytes: 262313
+dc-process-rail count: 0
+dcpo-wrap count: 0
+process core class markers:       6 dc-process-phase-box       1 dc-process-phase-nav       1 dc-process-phase-page       1 dc-process-phase-page__grid       1 dc-process-phase-page__image       1 dc-process-phase-page__kicker       1 dc-process-phase-page__lead       1 dc-process-phase-title 
+
+---- https://drycured.com/proces-izrade/odlezavanje/ ----
+status: 200
+bytes: 259053
+dc-process-rail count: 0
+dcpo-wrap count: 21
+process core class markers:      21 dcpo-wrap 
+
+---- https://drycured.com/proces-izrade/punjenje/ ----
+status: 200
+bytes: 265564
+dc-process-rail count: 0
+dcpo-wrap count: 0
+process core class markers:       6 dc-process-phase-box       1 dc-process-phase-nav       1 dc-process-phase-page       1 dc-process-phase-page__grid       1 dc-process-phase-page__image       1 dc-process-phase-page__kicker       1 dc-process-phase-page__lead       1 dc-process-phase-title 
+
+---- https://drycured.com/proces-izrade/fermentacija/ ----
+status: 200
+bytes: 297522
+dc-process-rail count: 0
+dcpo-wrap count: 0
+process core class markers:       6 dc-process-phase-box       1 dc-process-phase-nav       1 dc-process-phase-page       1 dc-process-phase-page__grid       1 dc-process-phase-page__image       1 dc-process-phase-page__kicker       1 dc-process-phase-page__lead       1 dc-process-phase-title 
+
+---- https://drycured.com/proces-izrade/dimljenje/ ----
+status: 200
+bytes: 252785
+dc-process-rail count: 0
+dcpo-wrap count: 0
+process core class markers:       6 dc-process-phase-box       1 dc-process-phase-nav       1 dc-process-phase-page       1 dc-process-phase-page__grid       1 dc-process-phase-page__image       1 dc-process-phase-page__kicker       1 dc-process-phase-page__lead       1 dc-process-phase-title 
+
+---- https://drycured.com/proces-izrade/susenje/ ----
+status: 200
+bytes: 252739
+dc-process-rail count: 0
+dcpo-wrap count: 0
+process core class markers:       6 dc-process-phase-box       1 dc-process-phase-nav       1 dc-process-phase-page       1 dc-process-phase-page__grid       1 dc-process-phase-page__image       1 dc-process-phase-page__kicker       1 dc-process-phase-page__lead       1 dc-process-phase-title 
+
+---- https://drycured.com/proces-izrade/zrenje/ ----
+status: 200
+bytes: 251653
+dc-process-rail count: 0
+dcpo-wrap count: 0
+process core class markers:       6 dc-process-phase-box       1 dc-process-phase-nav       1 dc-process-phase-page       1 dc-process-phase-page__grid       1 dc-process-phase-page__image       1 dc-process-phase-page__kicker       1 dc-process-phase-page__lead       1 dc-process-phase-title 
+
+---- https://drycured.com/proces-izrade/pakiranje/ ----
+status: 200
+bytes: 254600
+dc-process-rail count: 0
+dcpo-wrap count: 0
+process core class markers:       6 dc-process-phase-box       1 dc-process-phase-nav       1 dc-process-phase-page       1 dc-process-phase-page__grid       1 dc-process-phase-page__image       1 dc-process-phase-page__kicker       1 dc-process-phase-page__lead       1 dc-process-phase-title 
+

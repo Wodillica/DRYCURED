@@ -1,0 +1,7 @@
+13:function dcpf_enabled(): bool {
+17:function dcpf_is_page(): bool {
+22:function dcpf_page_url(string $path): string {
+30:function dcpf_render(): string {
+213:function dcpf_append_to_page($content) {
+231:add_filter('the_content', 'dcpf_append_to_page', 35);
+233:function dcpf_assets() {

@@ -1,0 +1,43 @@
+=== FERMENTACIJA DASHBOARD JS SEARCH ===
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-ph-bridge-v016.php:331:            const block = document.querySelector('.dcpfphb-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-ph-bridge-v016.php:332:            const simulatorSection = document.querySelector('.dcpf-hero-panel');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:373:            const modern = document.querySelector('.dcpf-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:374:            if (!modern || document.querySelector('.dcpftp-top')) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:378:            const entry = modern.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:391:            const img = before.map(el => el.querySelector ? el.querySelector('img') : null).find(Boolean);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:392:            const imgSrc = img ? (img.currentSrc || img.src || img.getAttribute('data-src') || '') : '';
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:400:            section.innerHTML = `
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:423:                        ${imgSrc ? `<img src="${imgSrc}" alt="Fermentacija trajnih kobasica u kontroliranoj mikroklimi">` : ``}
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:127:            const checklist = document.querySelector('.dcpfc-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:130:            const advice = document.querySelector('.dcpfc-advice');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:133:            if (!document.querySelector('.dcpfcs-solutions')) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:223:                const items = Array.from(document.querySelectorAll('.dcpfc-item'));
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:225:                    const checkbox = item.querySelector('input[type="checkbox"]');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:226:                    const titleEl = item.querySelector('strong');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:246:                    list.innerHTML = `
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:256:                list.innerHTML = unchecked.map(function (entry) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:282:            document.querySelectorAll('.dcpfc-tabs button').forEach(function (button) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:344:            const block = document.querySelector('.dcpfc-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:345:            const flow = document.querySelector('.dcpf-flow');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:408:                list.innerHTML = cfg.items.map(function (item, index) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:424:                list.querySelectorAll('input[type="checkbox"]').forEach(function (checkbox) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:435:                const boxes = Array.from(list.querySelectorAll('input[type="checkbox"]'));
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:444:            document.querySelectorAll('.dcpfc-tabs button').forEach(function (button) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:446:                    document.querySelectorAll('.dcpfc-tabs button').forEach(function (btn) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:447:                        btn.classList.remove('is-active');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:28:        .dcpf-dashboard.dcpfs-live {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:230:            const dash = document.querySelector('.dcpf-dashboard');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:235:            dash.innerHTML = `
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:328:                    wrap.classList.remove('dcpfs-warning');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:345:                document.querySelectorAll('.dcpfs-control input[type="range"]').forEach(updateRangeFill);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:55:            <div class="dcpf-dashboard" aria-label="Tipični parametri fermentacije">
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:56:                <div class="dcpf-dashboard-head">
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:61:                <figure class="dcpf-dashboard-image">
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:62:                    <img src="<?php echo esc_url(home_url('/wp-content/uploads/drycured/home-process/process-07-fermentacija.webp')); ?>" alt="Fermentacija trajnih kobasica u kontroliranoj mikroklimi" loading="eager" decoding="async">
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:321:        .dcpf-dashboard {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:333:          .dcpf-dashboard-image {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:341:          .dcpf-dashboard-image img {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:348:.dcpf-dashboard-head {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:356:        .dcpf-dashboard-head span {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:364:        .dcpf-dashboard-head strong {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:558:            .dcpf-dashboard {

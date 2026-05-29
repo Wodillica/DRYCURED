@@ -1,0 +1,14 @@
+=== PHP SYNTAX ===
+No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php
+=== DIFF ===
+--- /root/DRYCURED_GITHUB/server-reports/frontend/process_phase_fastfix_2026-05-29_14-33-02/drycured-process-fermentacija-content-v010.before_server_only.php	2026-05-29 14:35:18.982882244 +0000
++++ /var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php	2026-05-29 14:35:19.030882612 +0000
+@@ -226,7 +226,7 @@
+     }
+ 
+     $added = true;
+-    return $content . do_shortcode('[drycured_process_fermentacija]');
++    return do_shortcode('[drycured_process_fermentacija]');
+ }
+ add_filter('the_content', 'dcpf_append_to_page', 35);
+ 

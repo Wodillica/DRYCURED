@@ -1,0 +1,187 @@
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:459:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:460:            const block = document.querySelector('.dcpdim-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:462:                const entry = block.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:466:                        if (!child.classList.contains('dcpdim-wrap')) child.style.display = 'none';
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:605:                list.querySelectorAll('input[type="checkbox"]').forEach(function(box){
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:618:                const boxes=Array.from(document.querySelectorAll('.dcpdim-check-item input'));
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:628:                    return box.closest('.dcpdim-check-item').querySelector('strong').textContent.trim();
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:651:            document.querySelectorAll('.dcpdim-tabs button').forEach(function(button){
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:653:                    document.querySelectorAll('.dcpdim-tabs button').forEach(function(b){b.classList.remove('is-active');});
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:664:add_action('wp_head', 'dcpdimv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1054:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1055:            const block = document.querySelector('.dcpmi-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1057:                const entry = block.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1062:                            child.style.display = 'none';
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1239:                list.querySelectorAll('input[type="checkbox"]').forEach(function (box) {
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1252:                const boxes = Array.from(document.querySelectorAll('.dcpmi-check-item input'));
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1262:                    const title = box.closest('.dcpmi-check-item').querySelector('strong').textContent.trim();
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1288:            document.querySelectorAll('.dcpmi-tabs button').forEach(function (button) {
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1290:                    document.querySelectorAll('.dcpmi-tabs button').forEach(function (b) {
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1303:add_action('wp_head', 'dcpmi_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:52:    <main id="dcpo-odlezavanje" class="dcpo-wrap" aria-label="Odležavanje smjese za suhomesnate proizvode">
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:350:    if (strpos($content, 'dcpo-wrap') !== false) {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:365:        .dcpo-wrap {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:376:        .dcpo-wrap * { box-sizing: border-box; }
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:393:        .dcpo-wrap h1 {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:401:        .dcpo-wrap h2 {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:409:        .dcpo-wrap h3 {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:416:        .dcpo-wrap p {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1004:            .dcpo-wrap {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1046:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1047:            const block = document.querySelector('.dcpo-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1049:                const entry = block.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1053:                        if (!child.classList.contains('dcpo-wrap')) {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1054:                            child.style.display = 'none';
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1231:                list.querySelectorAll('input[type="checkbox"]').forEach(function (box) {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1244:                const boxes = Array.from(document.querySelectorAll('.dcpo-check-item input'));
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1254:                    const title = box.closest('.dcpo-check-item').querySelector('strong').textContent.trim();
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1280:            document.querySelectorAll('.dcpo-tabs button').forEach(function (button) {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1282:                    document.querySelectorAll('.dcpo-tabs button').forEach(function (b) {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php:1295:add_action('wp_head', 'dcpodl_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:33:        .dcpo-wrap .dcpo-hero {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:37:        .dcpo-wrap .dcpo-hero-copy {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:41:        .dcpo-wrap h1 {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:51:        .dcpo-wrap .dcpo-lead {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:57:        .dcpo-wrap .dcpo-visual-overlay h2 {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:65:            .dcpo-wrap .dcpo-hero {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:69:            .dcpo-wrap h1 {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:75:            .dcpo-wrap h1 {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:80:            .dcpo-wrap .dcpo-lead {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:84:            .dcpo-wrap .dcpo-visual-overlay h2 {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:91:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:92:            const wrap = document.querySelector('.dcpo-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:95:            const h1 = wrap.querySelector('h1');
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:103:add_action('wp_head', 'dcpodltxt_assets', 180);
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:128:    <section class="dcpo-wrap" aria-label="Pregled procesa izrade suhomesnatih proizvoda">
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:255:    if (strpos($content, '[drycured_process_overview]') !== false || strpos($content, 'dcpo-wrap') !== false) {
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:271:        .dcpo-wrap {
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:278:        .dcpo-wrap * {
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:296:        .dcpo-wrap h2 {
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:304:        .dcpo-wrap h3 {
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:311:        .dcpo-wrap p {
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:478:            .dcpo-wrap {
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:490:add_action('wp_head', 'dcpo_styles', 50);
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:449:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:450:            const block = document.querySelector('.dcppack-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:452:                const entry = block.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:456:                        if (!child.classList.contains('dcppack-wrap')) child.style.display = 'none';
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:593:                list.querySelectorAll('input[type="checkbox"]').forEach(function(box){
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:606:                const boxes=Array.from(document.querySelectorAll('.dcppack-check-item input'));
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:616:                    return box.closest('.dcppack-check-item').querySelector('strong').textContent.trim();
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:639:            document.querySelectorAll('.dcppack-tabs button').forEach(function(button){
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:641:                    document.querySelectorAll('.dcppack-tabs button').forEach(function(b){b.classList.remove('is-active');});
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:652:add_action('wp_head', 'dcppackv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1129:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1130:            const block = document.querySelector('.dcpun-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1132:                const entry = block.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1137:                            child.style.display = 'none';
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1316:                list.querySelectorAll('input[type="checkbox"]').forEach(function (box) {
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1329:                const boxes = Array.from(document.querySelectorAll('.dcpun-check-item input'));
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1339:                    const title = box.closest('.dcpun-check-item').querySelector('strong').textContent.trim();
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1365:            document.querySelectorAll('.dcpun-tabs button').forEach(function (button) {
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1367:                    document.querySelectorAll('.dcpun-tabs button').forEach(function (b) {
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1380:add_action('wp_head', 'dcpunv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1054:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1055:            const block = document.querySelector('.dcpr-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1057:                const entry = block.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1062:                            child.style.display = 'none';
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1235:                list.querySelectorAll('input[type="checkbox"]').forEach(function (box) {
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1248:                const boxes = Array.from(document.querySelectorAll('.dcpr-check-item input'));
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1258:                    const title = box.closest('.dcpr-check-item').querySelector('strong').textContent.trim();
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1284:            document.querySelectorAll('.dcpr-tabs button').forEach(function (button) {
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1286:                    document.querySelectorAll('.dcpr-tabs button').forEach(function (b) {
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1299:add_action('wp_head', 'dcpr_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:366:add_action('wp_head', 'drycured_process_seo_faq_v020_maybe_output_schema', 80);
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1045:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1046:            const block = document.querySelector('.dcps-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1048:                const entry = block.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1053:                            child.style.display = 'none';
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1230:                list.querySelectorAll('input[type="checkbox"]').forEach(function (box) {
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1243:                const boxes = Array.from(document.querySelectorAll('.dcps-check-item input'));
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1253:                    const title = box.closest('.dcps-check-item').querySelector('strong').textContent.trim();
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1279:            document.querySelectorAll('.dcps-tabs button').forEach(function (button) {
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1281:                    document.querySelectorAll('.dcps-tabs button').forEach(function (b) {
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1294:add_action('wp_head', 'dcps_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1112:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1113:            const block = document.querySelector('.dcpsol-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1115:                const entry = block.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1120:                            child.style.display = 'none';
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1297:                list.querySelectorAll('input[type="checkbox"]').forEach(function (box) {
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1310:                const boxes = Array.from(document.querySelectorAll('.dcpsol-check-item input'));
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1320:                    const title = box.closest('.dcpsol-check-item').querySelector('strong').textContent.trim();
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1346:            document.querySelectorAll('.dcpsol-tabs button').forEach(function (button) {
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1348:                    document.querySelectorAll('.dcpsol-tabs button').forEach(function (b) {
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1361:add_action('wp_head', 'dcpsol_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:446:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:447:            const block = document.querySelector('.dcpdry-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:449:                const entry = block.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:453:                        if (!child.classList.contains('dcpdry-wrap')) child.style.display = 'none';
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:589:                list.querySelectorAll('input[type="checkbox"]').forEach(function(box){
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:602:                const boxes=Array.from(document.querySelectorAll('.dcpdry-check-item input'));
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:612:                    return box.closest('.dcpdry-check-item').querySelector('strong').textContent.trim();
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:635:            document.querySelectorAll('.dcpdry-tabs button').forEach(function(button){
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:637:                    document.querySelectorAll('.dcpdry-tabs button').forEach(function(b){b.classList.remove('is-active');});
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:648:add_action('wp_head', 'dcpdryv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:407:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:408:            const block = document.querySelector('.dcpzrn-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:410:                const entry = block.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:414:                        if (!child.classList.contains('dcpzrn-wrap')) child.style.display = 'none';
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:551:                list.querySelectorAll('input[type="checkbox"]').forEach(function(box){
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:564:                const boxes=Array.from(document.querySelectorAll('.dcpzrn-check-item input'));
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:574:                    return box.closest('.dcpzrn-check-item').querySelector('strong').textContent.trim();
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:597:            document.querySelectorAll('.dcpzrn-tabs button').forEach(function(button){
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:599:                    document.querySelectorAll('.dcpzrn-tabs button').forEach(function(b){b.classList.remove('is-active');});
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:610:add_action('wp_head', 'dcpzrnv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-ph-bridge-v016.php:330:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-ph-bridge-v016.php:331:            const block = document.querySelector('.dcpfphb-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-ph-bridge-v016.php:332:            const simulatorSection = document.querySelector('.dcpf-hero-panel');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-ph-bridge-v016.php:341:add_action('wp_head', 'dcpfphb_assets', 230);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:372:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:373:            const modern = document.querySelector('.dcpf-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:374:            if (!modern || document.querySelector('.dcpftp-top')) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:378:            const entry = modern.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:391:            const img = before.map(el => el.querySelector ? el.querySelector('img') : null).find(Boolean);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:471:add_action('wp_head', 'dcpftp_assets', 160);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:126:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:127:            const checklist = document.querySelector('.dcpfc-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:130:            const advice = document.querySelector('.dcpfc-advice');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:133:            if (!document.querySelector('.dcpfcs-solutions')) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:223:                const items = Array.from(document.querySelectorAll('.dcpfc-item'));
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:225:                    const checkbox = item.querySelector('input[type="checkbox"]');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:226:                    const titleEl = item.querySelector('strong');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:282:            document.querySelectorAll('.dcpfc-tabs button').forEach(function (button) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:294:add_action('wp_head', 'dcpfcs_assets', 220);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:343:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:344:            const block = document.querySelector('.dcpfc-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:345:            const flow = document.querySelector('.dcpf-flow');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:424:                list.querySelectorAll('input[type="checkbox"]').forEach(function (checkbox) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:435:                const boxes = Array.from(list.querySelectorAll('input[type="checkbox"]'));
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:444:            document.querySelectorAll('.dcpfc-tabs button').forEach(function (button) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:446:                    document.querySelectorAll('.dcpfc-tabs button').forEach(function (btn) {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:460:add_action('wp_head', 'dcpfc_assets', 210);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:229:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:230:            const dash = document.querySelector('.dcpf-dashboard');
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:345:                document.querySelectorAll('.dcpfs-control input[type="range"]').forEach(updateRangeFill);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:394:add_action('wp_head', 'dcpfs_assets', 190);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-fine-tune-v012.php:148:add_action('wp_head', 'dcpftt_assets', 180);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:546:add_action('wp_head', 'dcpf_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v012.php:49:add_action('wp_head', 'dcpmvp12_assets', 170);
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1157:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1158:            const block = document.querySelector('.dcpm-wrap');
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1160:                const entry = block.closest('.entry-content') || document.querySelector('.entry-content');
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1165:                            child.style.display = 'none';
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1332:                list.querySelectorAll('input[type="checkbox"]').forEach(function (box) {
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1345:                const boxes = Array.from(document.querySelectorAll('.dcpm-check-item input'));
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1355:                    const title = box.closest('.dcpm-check-item').querySelector('strong').textContent.trim();
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1381:            document.querySelectorAll('.dcpm-tabs button').forEach(function (button) {
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1383:                    document.querySelectorAll('.dcpm-tabs button').forEach(function (b) {
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1396:add_action('wp_head', 'dcpm_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:133:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:134:            const cards = document.querySelectorAll('.dcpm-visual-row .dcpm-image-card');
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:137:                const eyebrow = cards[0].querySelector('.dcpm-eyebrow');
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:138:                const title = cards[0].querySelector('h3');
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:139:                const text = cards[0].querySelector('p');
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:149:                const eyebrow = cards[1].querySelector('.dcpm-eyebrow');
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:150:                const title = cards[1].querySelector('h3');
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:151:                const text = cards[1].querySelector('p');
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:163:add_action('wp_head', 'dcpmvp_assets', 150);

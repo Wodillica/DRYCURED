@@ -1,0 +1,413 @@
+=== PROCESS ORDER MU-PLUGIN AUDIT — NO CHANGES ===
+2026-05-28T19:12:31+00:00
+
+=== v022 full file ===
+     1	<?php
+     2	/**
+     3	 * Plugin Name: Drycured Home Process Order v0.2.2
+     4	 * Description: Robustno preslaguje kartice procesa na home stranici: Sirovina, Rezanje, Soljenje, Mljevenje...
+     5	 * Version: 0.2.2
+     6	 * Author: drycured.com
+     7	 */
+     8	
+     9	if (!defined('ABSPATH')) {
+    10	    exit;
+    11	}
+    12	
+    13	function dchpo22_enabled(): bool {
+    14	    return (bool) get_option('drycured_home_process_order_v022_enabled', 1);
+    15	}
+    16	
+    17	function dchpo22_is_home(): bool {
+    18	    return is_front_page() || is_home();
+    19	}
+    20	
+    21	function dchpo22_assets() {
+    22	    if (!dchpo22_enabled() || !dchpo22_is_home()) {
+    23	        return;
+    24	    }
+    25	    ?>
+    26	    <script id="drycured-home-process-order-v022">
+    27	        (function () {
+    28	            const wantedOrder = [
+    29	                'Sirovina',
+    30	                'Rezanje',
+    31	                'Soljenje',
+    32	                'Mljevenje',
+    33	                'Miješanje',
+    34	                'Odležavanje',
+    35	                'Punjenje',
+    36	                'Fermentacija',
+    37	                'Dimljenje',
+    38	                'Sušenje',
+    39	                'Zrenje',
+    40	                'Pakiranje'
+    41	            ];
+    42	
+    43	            function norm(text) {
+    44	                return (text || '')
+    45	                    .toLowerCase()
+    46	                    .replace(/\s+/g, ' ')
+    47	                    .trim();
+    48	            }
+    49	
+    50	            function hasLabel(el, label) {
+    51	                return norm(el.textContent).includes(norm(label));
+    52	            }
+    53	
+    54	            function countLabels(el) {
+    55	                return wantedOrder.filter(label => hasLabel(el, label)).length;
+    56	            }
+    57	
+    58	            function findRail() {
+    59	                const candidates = Array.from(document.querySelectorAll(
+    60	                    '.dc-process-rail, [class*="process-rail"], [class*="process"], section, div'
+    61	                ));
+    62	
+    63	                const matching = candidates.filter(el => {
+    64	                    const c = countLabels(el);
+    65	                    return c >= 10;
+    66	                });
+    67	
+    68	                matching.sort((a, b) => {
+    69	                    const ac = a.querySelectorAll('*').length;
+    70	                    const bc = b.querySelectorAll('*').length;
+    71	                    return ac - bc;
+    72	                });
+    73	
+    74	                return matching[0] || null;
+    75	            }
+    76	
+    77	            function smallestElementForLabel(root, label) {
+    78	                const candidates = Array.from(root.querySelectorAll('a, article, li, button, div, span'))
+    79	                    .filter(el => hasLabel(el, label))
+    80	                    .filter(el => !['SCRIPT', 'STYLE', 'NOSCRIPT'].includes(el.tagName));
+    81	
+    82	                candidates.sort((a, b) => {
+    83	                    const at = norm(a.textContent).length;
+    84	                    const bt = norm(b.textContent).length;
+    85	                    return at - bt;
+    86	                });
+    87	
+    88	                return candidates[0] || null;
+    89	            }
+    90	
+    91	            function cardForLabel(root, label) {
+    92	                let el = smallestElementForLabel(root, label);
+    93	                if (!el) return null;
+    94	
+    95	                /*
+    96	                 * Penji se prema gore dok roditelj još uvijek sadrži samo ovu jednu procesnu oznaku.
+    97	                 * Kad roditelj počne sadržavati više procesnih oznaka, prethodni element je kartica.
+    98	                 */
+    99	                let current = el;
+   100	
+   101	                while (current.parentElement && current.parentElement !== root) {
+   102	                    const parent = current.parentElement;
+   103	                    const labelCount = countLabels(parent);
+   104	
+   105	                    if (labelCount > 1) {
+   106	                        break;
+   107	                    }
+   108	
+   109	                    current = parent;
+   110	                }
+   111	
+   112	                /*
+   113	                 * Ako je pronađeni element samo span unutar linka/kartice, uzmi najbliži veći klikabilni ili kartični element.
+   114	                 */
+   115	                const clickable = current.closest('a, article, li, button');
+   116	                if (clickable && root.contains(clickable) && countLabels(clickable) === 1) {
+   117	                    return clickable;
+   118	                }
+   119	
+   120	                return current;
+   121	            }
+   122	
+   123	            function commonParent(cards) {
+   124	                const parents = cards.map(card => card && card.parentElement).filter(Boolean);
+   125	                if (!parents.length) return null;
+   126	
+   127	                const first = parents[0];
+   128	                const same = parents.every(parent => parent === first);
+   129	
+   130	                if (same) return first;
+   131	
+   132	                /*
+   133	                 * Ako kartice nisu na istoj razini, traži najbliži zajednički roditelj koji sadrži većinu kartica.
+   134	                 */
+   135	                let node = first;
+   136	                while (node && node !== document.body) {
+   137	                    const ok = cards.every(card => card && node.contains(card));
+   138	                    if (ok) return node;
+   139	                    node = node.parentElement;
+   140	                }
+   141	
+   142	                return null;
+   143	            }
+   144	
+   145	            function setCardNumber(card, index) {
+   146	                const wanted = String(index + 1).padStart(2, '0');
+   147	
+   148	                const nodes = Array.from(card.querySelectorAll('*'));
+   149	                const numberNode = nodes.find(el => {
+   150	                    const t = (el.textContent || '').trim();
+   151	                    return /^(0?[1-9]|1[0-2])$/.test(t);
+   152	                });
+   153	
+   154	                if (numberNode) {
+   155	                    numberNode.textContent = wanted;
+   156	                }
+   157	
+   158	                card.setAttribute('data-drycured-process-order', wanted);
+   159	            }
+   160	
+   161	            function reorderProcessCards() {
+   162	                const rail = findRail();
+   163	                if (!rail) return false;
+   164	
+   165	                const cards = {};
+   166	                wantedOrder.forEach(label => {
+   167	                    cards[label] = cardForLabel(rail, label);
+   168	                });
+   169	
+   170	                if (!cards.Sirovina || !cards.Rezanje || !cards.Soljenje || !cards.Mljevenje) {
+   171	                    return false;
+   172	                }
+   173	
+   174	                const orderedCards = wantedOrder
+   175	                    .map(label => cards[label])
+   176	                    .filter(Boolean);
+   177	
+   178	                const parent = commonParent(orderedCards);
+   179	                if (!parent) return false;
+   180	
+   181	                wantedOrder.forEach((label, index) => {
+   182	                    const card = cards[label];
+   183	                    if (!card) return;
+   184	
+   185	                    setCardNumber(card, index);
+   186	
+   187	                    /*
+   188	                     * Ako je kartica direktno dijete roditelja, appendChild je preslaguje.
+   189	                     * Ako nije, pokušaj presložiti njezin najbliži direktni child pod parentom.
+   190	                     */
+   191	                    if (card.parentElement === parent) {
+   192	                        parent.appendChild(card);
+   193	                    } else {
+   194	                        let direct = card;
+   195	                        while (direct.parentElement && direct.parentElement !== parent) {
+   196	                            direct = direct.parentElement;
+   197	                        }
+   198	
+   199	                        if (direct && direct.parentElement === parent) {
+   200	                            parent.appendChild(direct);
+   201	                        }
+   202	                    }
+   203	                });
+   204	
+   205	                rail.setAttribute('data-drycured-order-v022', 'applied');
+   206	                document.documentElement.setAttribute('data-drycured-process-order-v022', 'applied');
+   207	
+   208	                return true;
+   209	            }
+   210	
+   211	            function runSeveralTimes() {
+   212	                let tries = 0;
+   213	                const max = 12;
+   214	
+   215	                const timer = setInterval(() => {
+   216	                    tries++;
+   217	                    const ok = reorderProcessCards();
+   218	
+   219	                    if (ok || tries >= max) {
+   220	                        clearInterval(timer);
+
+=== v021 full file ===
+     1	<?php
+     2	/**
+     3	 * Plugin Name: Drycured Home Process Order v0.2.1
+     4	 * Description: Usklađuje redoslijed interaktivnog vodiča procesa na home stranici: Sirovina, Rezanje, Soljenje, Mljevenje...
+     5	 * Version: 0.2.1
+     6	 * Author: drycured.com
+     7	 */
+     8	
+     9	if (!defined('ABSPATH')) {
+    10	    exit;
+    11	}
+    12	
+    13	function dchpo_enabled(): bool {
+    14	    return (bool) get_option('drycured_home_process_order_v021_enabled', 1);
+    15	}
+    16	
+    17	function dchpo_is_home(): bool {
+    18	    return is_front_page() || is_home();
+    19	}
+    20	
+    21	function dchpo_assets() {
+    22	    if (!dchpo_enabled() || !dchpo_is_home()) {
+    23	        return;
+    24	    }
+    25	    ?>
+    26	    <script>
+    27	        document.addEventListener('DOMContentLoaded', function () {
+    28	            const rail = document.querySelector('.dc-process-rail');
+    29	            if (!rail || rail.dataset.dchpoOrdered === '1') return;
+    30	
+    31	            const order = [
+    32	                'Sirovina',
+    33	                'Rezanje',
+    34	                'Soljenje',
+    35	                'Mljevenje',
+    36	                'Miješanje',
+    37	                'Odležavanje',
+    38	                'Punjenje',
+    39	                'Fermentacija',
+    40	                'Dimljenje',
+    41	                'Sušenje',
+    42	                'Zrenje',
+    43	                'Pakiranje'
+    44	            ];
+    45	
+    46	            function norm(text) {
+    47	                return (text || '')
+    48	                    .toLowerCase()
+    49	                    .replace(/\s+/g, ' ')
+    50	                    .trim();
+    51	            }
+    52	
+    53	            function containsLabel(el, label) {
+    54	                return norm(el.textContent).includes(norm(label));
+    55	            }
+    56	
+    57	            function findContainer() {
+    58	                const all = Array.from(rail.querySelectorAll('*'));
+    59	                const possible = all.filter(function (el) {
+    60	                    const text = el.textContent || '';
+    61	                    return order.every(function (label) {
+    62	                        return norm(text).includes(norm(label));
+    63	                    });
+    64	                });
+    65	
+    66	                possible.sort(function (a, b) {
+    67	                    return a.querySelectorAll('*').length - b.querySelectorAll('*').length;
+    68	                });
+    69	
+    70	                for (const el of possible) {
+    71	                    const children = Array.from(el.children);
+    72	                    const hitCount = children.filter(function (child) {
+    73	                        return order.some(function (label) {
+    74	                            return containsLabel(child, label);
+    75	                        });
+    76	                    }).length;
+    77	
+    78	                    if (hitCount >= 8) {
+    79	                        return el;
+    80	                    }
+    81	                }
+    82	
+    83	                return null;
+    84	            }
+    85	
+    86	            function findCard(container, label) {
+    87	                const children = Array.from(container.children);
+    88	                return children.find(function (child) {
+    89	                    return containsLabel(child, label);
+    90	                }) || null;
+    91	            }
+    92	
+    93	            function setNumber(card, index) {
+    94	                const wanted = String(index + 1).padStart(2, '0');
+    95	                const nodes = Array.from(card.querySelectorAll('*'));
+    96	
+    97	                const numEl = nodes.find(function (el) {
+    98	                    const t = (el.textContent || '').trim();
+    99	                    return /^0?[1-9]$|^1[0-2]$/.test(t);
+   100	                });
+   101	
+   102	                if (numEl) {
+   103	                    numEl.textContent = wanted;
+   104	                    return;
+   105	                }
+   106	
+   107	                card.setAttribute('data-process-number', wanted);
+   108	            }
+   109	
+   110	            const container = findContainer();
+   111	            if (!container) return;
+   112	
+   113	            const cards = {};
+   114	            order.forEach(function (label) {
+   115	                const card = findCard(container, label);
+   116	                if (card) cards[label] = card;
+   117	            });
+   118	
+   119	            if (!cards.Sirovina || !cards.Rezanje || !cards.Soljenje) return;
+   120	
+   121	            order.forEach(function (label, index) {
+   122	                if (cards[label]) {
+   123	                    setNumber(cards[label], index);
+   124	                    container.appendChild(cards[label]);
+   125	                }
+   126	            });
+   127	
+   128	            rail.dataset.dchpoOrdered = '1';
+   129	        });
+   130	    </script>
+   131	    <?php
+   132	}
+   133	add_action('wp_head', 'dchpo_assets', 220);
+
+=== related home process MU plugins ===
+-rw-r--r--  1 root     root     7.5K May 17 19:16 drycured-ez-audience-home-cards.php
+-rw-r--r--  1 root     root     1.7K May  7 15:01 drycured-home-card-border-fix.php
+-rw-r--r--  1 root     root     1.7K May  6 15:41 drycured-home-clean-css.php
+-rw-r--r--  1 root     root      607 May 17 17:46 drycured-home-placeholder-redirects.php
+-rw-r--r--  1 root     root     4.1K May 26 17:06 drycured-home-process-order-v021.php
+-rw-r--r--  1 root     root     8.2K May 26 17:09 drycured-home-process-order-v022.php
+-rw-r--r--  1 root     root     7.2K May 27 16:21 drycured-home-process-rail-hub-adapter.php
+-rw-r--r--  1 root     root      39K May 26 18:38 drycured-process-dimljenje-core.php
+-rw-r--r--  1 root     root     1.1K May 26 15:25 drycured-process-fermentacija-core.php
+drwxr-xr-x  2 root     root     4.0K May 26 15:25 drycured-process-fermentacija-modules
+-rw-r--r--  1 root     root      16K May 27 18:35 drycured-process-hub.php
+-rw-r--r--  1 root     root      48K May 26 17:50 drycured-process-mijesanje-core.php
+-rw-r--r--  1 root     root      773 May 26 17:02 drycured-process-mljevenje-core.php
+drwxr-xr-x  2 root     root     4.0K May 26 17:02 drycured-process-mljevenje-modules
+-rw-r--r--  1 root     root      47K May 26 18:07 drycured-process-odlezavanje-core.php
+-rw-r--r--  1 root     root     2.9K May 26 18:10 drycured-process-odlezavanje-text-fix-v011.php
+-rw-r--r--  1 root     root      18K May 25 16:56 drycured-process-overview.php
+-rw-r--r--  1 root     root      40K May 26 19:02 drycured-process-pakiranje-core.php
+-rw-r--r--  1 root     root      51K May 26 18:16 drycured-process-punjenje-core.php
+-rw-r--r--  1 root     root      47K May 26 17:25 drycured-process-rezanje-core.php
+-rw-r--r--  1 root     root      24K May 27 17:03 drycured-process-seo-faq.php
+-rw-r--r--  1 root     root      47K May 26 17:17 drycured-process-sirovina-core.php
+-rw-r--r--  1 root     root      49K May 26 17:40 drycured-process-soljenje-core.php
+-rw-r--r--  1 root     root      39K May 26 18:47 drycured-process-susenje-core.php
+-rw-r--r--  1 root     root      38K May 26 18:58 drycured-process-zrenje-core.php
+-rw-r--r--  1 root     root     4.6K May  7 14:57 drycured-savjet-home-injector.php
+
+=== active marker search ===
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:26:    <script id="drycured-home-process-order-v022">
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:59:                const candidates = Array.from(document.querySelectorAll(
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:60:                    '.dc-process-rail, [class*="process-rail"], [class*="process"], section, div'
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:69:                    const ac = a.querySelectorAll('*').length;
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:70:                    const bc = b.querySelectorAll('*').length;
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:78:                const candidates = Array.from(root.querySelectorAll('a, article, li, button, div, span'))
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:148:                const nodes = Array.from(card.querySelectorAll('*'));
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:158:                card.setAttribute('data-drycured-process-order', wanted);
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:188:                     * Ako je kartica direktno dijete roditelja, appendChild je preslaguje.
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:192:                        parent.appendChild(card);
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:200:                            parent.appendChild(direct);
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:206:                document.documentElement.setAttribute('data-drycured-process-order-v022', 'applied');
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:226:                document.addEventListener('DOMContentLoaded', runSeveralTimes);
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:232:                if (!document.documentElement.hasAttribute('data-drycured-process-order-v022')) {
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v021.php:27:        document.addEventListener('DOMContentLoaded', function () {
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v021.php:28:            const rail = document.querySelector('.dc-process-rail');
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v021.php:58:                const all = Array.from(rail.querySelectorAll('*'));
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v021.php:67:                    return a.querySelectorAll('*').length - b.querySelectorAll('*').length;
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v021.php:95:                const nodes = Array.from(card.querySelectorAll('*'));
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v021.php:124:                    container.appendChild(cards[label]);
+/var/www/html/wp-content/mu-plugins/drycured-home-process-rail-hub-adapter.php:84:    $marker_count = substr_count($html, 'dc-process-rail');
+/var/www/html/wp-content/mu-plugins/drycured-home-process-rail-hub-adapter.php:155:            <strong>dc-process-rail markeri:</strong>
+
+=== END PROCESS ORDER MU-PLUGIN AUDIT ===

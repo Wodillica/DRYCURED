@@ -1,0 +1,104 @@
+=== DRYCURED HOME CORE ENQUEUE CONTEXT FULL ===
+2026-05-28T19:09:55+00:00
+
+=== drycured-home-core.php lines 1-45 ===
+     1	<?php
+     2	/**
+     3	 * Plugin Name: Drycured Home Core
+     4	 * Description: Vlastiti drycured.com home blokovi i interaktivni edukativni moduli.
+     5	 * Version: 0.1.96
+     6	 * Author: drycured.com
+     7	 */
+     8	
+     9	defined('ABSPATH') || exit;
+    10	
+    11	define('DRYCURED_HOME_CORE_VERSION', '0.1.96');
+    12	define('DRYCURED_HOME_CORE_URL', plugin_dir_url(__FILE__));
+    13	define('DRYCURED_HOME_CORE_PATH', plugin_dir_path(__FILE__));
+    14	
+    15	function drycured_home_core_enqueue_assets() {
+    16	    wp_enqueue_style(
+    17	        'drycured-home-core',
+    18	        DRYCURED_HOME_CORE_URL . 'assets/css/drycured-home-core.css',
+    19	        [],
+    20	        DRYCURED_HOME_CORE_VERSION
+    21	    );
+    22	}
+    23	
+    24	function drycured_home_core_process_path_shortcode($atts = []) {
+    25	    drycured_home_core_enqueue_assets();
+    26	
+    27	    $phases = [
+    28	        [
+    29	            'num' => '01',
+    30	            'title' => 'Sirovina',
+    31	            'text' => 'Odabir mesa određuje sve što slijedi: boju, teksturu, stabilnost i konačan okus proizvoda.',
+    32	            'risk' => 'Loša sirovina ne može se spasiti začinima ni dimom.',
+    33	            'action' => 'Birati svježe, pravilno ohlađeno meso stabilne boje, mirisa i strukture.'
+    34	        ],
+    35	        [
+    36	            'num' => '02',
+    37	            'title' => 'Soljenje',
+    38	            'text' => 'Sol pokreće konzerviranje, veže vodu i oblikuje osnovu sigurnosti proizvoda.',
+    39	            'risk' => 'Premalo soli smanjuje sigurnost, previše soli narušava okus.',
+    40	            'action' => 'Koristiti provjerene omjere i voditi zapis šarže.'
+    41	        ],
+    42	        [
+    43	            'num' => '03',
+    44	            'title' => 'Mljevenje i rezanje',
+    45	            'text' => 'Veličina čestica odlučuje o presjeku, zagrizu i vezivanju mase.',
+
+=== drycured-home-core.php lines 245-295 ===
+   245	    $parent = get_page_by_path('proces-izrade');
+   246	    if (!$parent) {
+   247	        return;
+   248	    }
+   249	
+   250	    $current_id = (int) get_queried_object_id();
+   251	    $post = get_post($current_id);
+   252	
+   253	    if (!$post) {
+   254	        return;
+   255	    }
+   256	
+   257	    if ((int) $post->ID === (int) $parent->ID || (int) $post->post_parent === (int) $parent->ID) {
+   258	        drycured_home_core_enqueue_assets();
+   259	    }
+   260	}
+   261	add_action('wp_enqueue_scripts', 'drycured_home_core_enqueue_on_process_pages', 30);
+   262	
+   263	/**
+   264	 * Učitaj CSS plugina na stranicama grešaka.
+   265	 */
+   266	function drycured_home_core_enqueue_on_error_pages() {
+   267	    if (is_admin() || wp_doing_ajax() || !is_page()) {
+   268	        return;
+   269	    }
+   270	
+   271	    $parent = get_page_by_path('greske');
+   272	    if (!$parent) {
+   273	        return;
+   274	    }
+   275	
+   276	    $current_id = (int) get_queried_object_id();
+   277	    $post = get_post($current_id);
+   278	
+   279	    if (!$post) {
+   280	        return;
+   281	    }
+   282	
+   283	    if ((int) $post->ID === (int) $parent->ID || (int) $post->post_parent === (int) $parent->ID) {
+   284	        drycured_home_core_enqueue_assets();
+   285	    }
+   286	}
+   287	add_action('wp_enqueue_scripts', 'drycured_home_core_enqueue_on_error_pages', 30);
+   288	
+   289	if (file_exists(DRYCURED_HOME_CORE_PATH . 'includes/error-infographics.php')) {
+   290	    require_once DRYCURED_HOME_CORE_PATH . 'includes/error-infographics.php';
+   291	}
+   292	if (file_exists(DRYCURED_HOME_CORE_PATH . 'includes/error-day.php')) {
+   293	    require_once DRYCURED_HOME_CORE_PATH . 'includes/error-day.php';
+   294	}
+   295	
+
+=== END ===

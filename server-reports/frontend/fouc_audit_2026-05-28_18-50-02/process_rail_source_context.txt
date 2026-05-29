@@ -1,0 +1,144 @@
+=== DRYCURED HOME CORE PROCESS RAIL SOURCE CONTEXT ===
+2026-05-28T18:53:43+00:00
+
+=== drycured-home-core.php lines 150-240 ===
+   150	 * Drycured Home Core — sigurno umetanje procesnog vodiča na početnu stranicu.
+   151	 * Ne mijenja Elementor JSON ni post_content. Može se ugasiti opcijom:
+   152	 * wp option update drycured_home_core_front_rail_enabled 0 --allow-root
+   153	 */
+   154	function drycured_home_core_front_rail_inject($content) {
+   155	    if (is_admin() || wp_doing_ajax() || is_feed()) {
+   156	        return $content;
+   157	    }
+   158	
+   159	    if (!is_singular('page') || !is_main_query() || !in_the_loop()) {
+   160	        return $content;
+   161	    }
+   162	
+   163	    $front_id = (int) get_option('page_on_front');
+   164	    if (!$front_id || get_the_ID() !== $front_id) {
+   165	        return $content;
+   166	    }
+   167	
+   168	    $enabled = get_option('drycured_home_core_front_rail_enabled', '0');
+   169	    if ($enabled !== '1') {
+   170	        return $content;
+   171	    }
+   172	
+   173	    if (strpos($content, 'dc-process-rail') !== false || strpos($content, '[drycured_home_process_rail') !== false) {
+   174	        return $content;
+   175	    }
+   176	
+   177	    return do_shortcode('[drycured_home_process_rail]') . $content;
+   178	}
+   179	add_filter('the_content', 'drycured_home_core_front_rail_inject', 4);
+   180	
+   181	/**
+   182	 * Drycured Home Core v0.1.17
+   183	 * Stabilniji prikaz procesnog vodiča na Home stranici preko Astra hookova.
+   184	 * Ne mijenja Elementor JSON ni sadržaj stranice.
+   185	 */
+   186	
+   187	/* Stari the_content inject gasimo da ne bi bilo dupliranja. */
+   188	remove_filter('the_content', 'drycured_home_core_front_rail_inject', 4);
+   189	
+   190	function drycured_home_core_front_rail_should_render() {
+   191	    if (is_admin() || wp_doing_ajax() || is_feed()) {
+   192	        return false;
+   193	    }
+   194	
+   195	    $enabled = get_option('drycured_home_core_front_rail_enabled', '0');
+   196	    if ($enabled !== '1') {
+   197	        return false;
+   198	    }
+   199	
+   200	    $front_id = (int) get_option('page_on_front');
+   201	    if (!$front_id) {
+   202	        return false;
+   203	    }
+   204	
+   205	    return is_front_page() || ((int) get_queried_object_id() === $front_id);
+   206	}
+   207	
+   208	function drycured_home_core_front_rail_render_once() {
+   209	    static $printed = false;
+   210	
+   211	    if ($printed) {
+   212	        return;
+   213	    }
+   214	
+   215	    if (!drycured_home_core_front_rail_should_render()) {
+   216	        return;
+   217	    }
+   218	
+   219	    $printed = true;
+   220	
+   221	    echo "\n" . '<div class="dc-home-rail-hook-wrap">' . "\n";
+   222	    echo do_shortcode('[drycured_home_process_rail]');
+   223	    echo "\n" . '</div>' . "\n";
+   224	}
+   225	
+   226	/*
+   227	 * Astra hookovi:
+   228	 * - astra_content_before: najčešće idealno mjesto ispod headera.
+   229	 * - astra_primary_content_top: fallback ako prvi hook ne sjedne u aktivnom layoutu.
+   230	 * Static $printed sprječava duplo prikazivanje.
+   231	 */
+   232	add_action('astra_content_before', 'drycured_home_core_front_rail_render_once', 8);
+   233	add_action('astra_primary_content_top', 'drycured_home_core_front_rail_render_once', 8);
+   234	
+   235	
+   236	/**
+   237	 * Učitaj CSS plugina i na stranicama procesa izrade.
+   238	 * Bez ovoga CSS za članke faza ne dolazi do preglednika.
+   239	 */
+   240	function drycured_home_core_enqueue_on_process_pages() {
+   241	    if (is_admin() || wp_doing_ajax() || !is_page()) {
+   242	        return;
+   243	    }
+   244	
+   245	    $parent = get_page_by_path('proces-izrade');
+
+=== process overview source lines 240-275 ===
+   240	}
+   241	
+   242	add_shortcode('drycured_process_overview', 'dcpo_render_overview');
+   243	
+   244	function dcpo_append_to_process_page($content) {
+   245	    static $added = false;
+   246	
+   247	    if ($added || !dcpo_enabled()) {
+   248	        return $content;
+   249	    }
+   250	
+   251	    if (!is_page('proces-izrade') || !in_the_loop() || !is_main_query()) {
+   252	        return $content;
+   253	    }
+   254	
+   255	    if (strpos($content, '[drycured_process_overview]') !== false || strpos($content, 'dcpo-wrap') !== false) {
+   256	        return $content;
+   257	    }
+   258	
+   259	    $added = true;
+   260	
+   261	    return $content . do_shortcode('[drycured_process_overview]');
+   262	}
+   263	add_filter('the_content', 'dcpo_append_to_process_page', 20);
+   264	
+   265	function dcpo_styles() {
+   266	    if (!is_page('proces-izrade') || !dcpo_enabled()) {
+   267	        return;
+   268	    }
+   269	    ?>
+   270	    <style>
+   271	        .dcpo-wrap {
+   272	            max-width: 1180px;
+   273	            margin: 56px auto 72px;
+   274	            padding: 0 24px;
+   275	            color: #1f2933;
+
+=== CURRENT PROCESS PAGE MARKER COUNTS ===
+dc-process-rail count: 4
+dcpo-wrap count: 7
+
+=== END SOURCE CONTEXT ===

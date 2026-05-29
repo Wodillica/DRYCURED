@@ -1,0 +1,260 @@
+     1	<?php
+     2	/**
+     3	 * Plugin Name: Drycured Process Fermentacija Core
+     4	 * Description: Moderni edukativni sloj za stranicu /proces-izrade/fermentacija/.
+     5	 * Version: 0.1.0
+     6	 * Author: drycured.com
+     7	 */
+     8	
+     9	if (!defined('ABSPATH')) {
+    10	    exit;
+    11	}
+    12	
+    13	function dcpf_enabled(): bool {
+    14	    return (bool) get_option('drycured_process_fermentacija_enabled', 1);
+    15	}
+    16	
+    17	function dcpf_is_page(): bool {
+    18	    $path = trim(parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH), '/');
+    19	    return $path === 'proces-izrade/fermentacija';
+    20	}
+    21	
+    22	function dcpf_page_url(string $path): string {
+    23	    $page = get_page_by_path($path);
+    24	    if ($page && $page->post_status === 'publish') {
+    25	        return get_permalink($page);
+    26	    }
+    27	    return home_url('/' . trim($path, '/') . '/');
+    28	}
+    29	
+    30	function dcpf_render(): string {
+    31	    if (!dcpf_enabled()) {
+    32	        return '';
+    33	    }
+    34	
+    35	    ob_start();
+    36	    ?>
+    37	    <section id="dcpf-fermentacija" class="dcpf-wrap" aria-label="Fermentacija u proizvodnji trajnih kobasica i salama">
+    38	
+    39	        <section class="dcpf-hero-panel">
+    40	            <div class="dcpf-copy">
+    41	                <span class="dcpf-eyebrow">Faza 07 — fermentacija</span>
+    42	                <h2>Fermentacija nije čekanje, nego vođenje procesa</h2>
+    43	                <p>
+    44	                    Fermentacija je faza u kojoj se trajne kobasice i salame počinju mikrobiološki stabilizirati.
+    45	                    U njoj se razvijaju kiselost, boja, aroma i sigurnost proizvoda. Ako se ova faza vodi naslijepo,
+    46	                    kasnije sušenje i zrenje često samo prikriju problem — ne riješe ga.
+    47	                </p>
+    48	                <p>
+    49	                    U kućnoj proizvodnji najvažnije je razumjeti četiri stvari: temperaturu, relativnu vlagu,
+    50	                    vrijeme i smjer pada pH vrijednosti. Starter kultura može pomoći, ali ne zamjenjuje higijenu,
+    51	                    dobru sirovinu i pravilnu mikroklimu.
+    52	                </p>
+    53	            </div>
+    54	
+    55	            <div class="dcpf-dashboard" aria-label="Tipični parametri fermentacije">
+    56	                <div class="dcpf-dashboard-head">
+    57	                    <span>Tipični raspon</span>
+    58	                    <strong>trajna kobasica</strong>
+    59	                </div>
+    60	
+    61	                <div class="dcpf-meter">
+    62	                    <label>Temperatura <strong>18–24 °C</strong></label>
+    63	                    <i style="--w:74%"></i>
+    64	                    <small>početno ponekad 24–26 °C za brži start blagih stilova</small>
+    65	                </div>
+    66	
+    67	                <div class="dcpf-meter">
+    68	                    <label>Relativna vlaga <strong>90–95 %</strong></label>
+    69	                    <i style="--w:86%"></i>
+    70	                    <small>pomaže da površina ne zatvori proizvod prerano</small>
+    71	                </div>
+    72	
+    73	                <div class="dcpf-meter">
+    74	                    <label>Vrijeme <strong>24–72 h</strong></label>
+    75	                    <i style="--w:62%"></i>
+    76	                    <small>ovisno o šećeru, kulturi, promjeru i temperaturi</small>
+    77	                </div>
+    78	
+    79	                <div class="dcpf-meter">
+    80	                    <label>Ciljani pH <strong>4,9–5,3</strong></label>
+    81	                    <i style="--w:68%"></i>
+    82	                    <small>blaži stilovi traže strožu kontrolu ostalih faktora</small>
+    83	                </div>
+    84	            </div>
+    85	        </section>
+    86	
+    87	        <section class="dcpf-section">
+    88	            <div class="dcpf-head">
+    89	                <span class="dcpf-eyebrow">Što se događa</span>
+    90	                <h2>Mikroflora počinje oblikovati proizvod</h2>
+    91	                <p>
+    92	                    Fermentacija nije jedan mikroorganizam i jedna reakcija. To je suradnja više skupina
+    93	                    mikroorganizama, uvjeta prostora i sastava nadjeva.
+    94	                </p>
+    95	            </div>
+    96	
+    97	            <div class="dcpf-micro-grid">
+    98	                <article>
+    99	                    <b>LAB</b>
+   100	                    <h3>Bakterije mliječne kiseline</h3>
+   101	                    <p>Snižavaju pH, stvaraju mliječnu kiselinu i usmjeravaju sigurniji početak fermentacije.</p>
+   102	                </article>
+   103	
+   104	                <article>
+   105	                    <b>BOJA</b>
+   106	                    <h3>Korisne koke</h3>
+   107	                    <p>Pomažu stabilizaciji boje i razvoju arome, osobito kod kontrolirane fermentacije.</p>
+   108	                </article>
+   109	
+   110	                <article>
+   111	                    <b>POVRŠINA</b>
+   112	                    <h3>Plemenite plijesni</h3>
+   113	                    <p>Kod određenih salama pomažu zaštiti površine, kontroli sušenja i razvoju zrele arome.</p>
+   114	                </article>
+   115	            </div>
+   116	        </section>
+   117	
+   118	        <section class="dcpf-flow">
+   119	            <div class="dcpf-head">
+   120	                <span class="dcpf-eyebrow">Praktični redoslijed</span>
+   121	                <h2>Kako voditi fermentaciju bez nagađanja</h2>
+   122	            </div>
+   123	
+   124	            <div class="dcpf-flow-grid">
+   125	                <article>
+   126	                    <em>01</em>
+   127	                    <h3>Pripremi proizvod za start</h3>
+   128	                    <p>Omoti trebaju biti uredno napunjeni, bez zračnih džepova i bez dodirivanja među komadima.</p>
+   129	                </article>
+   130	
+   131	                <article>
+   132	                    <em>02</em>
+   133	                    <h3>Postavi mikroklimu</h3>
+   134	                    <p>Temperatura i vlaga moraju odgovarati tipu proizvoda, promjeru i kulturi ako se koristi.</p>
+   135	                </article>
+   136	
+   137	                <article>
+   138	                    <em>03</em>
+   139	                    <h3>Prati ponašanje površine</h3>
+   140	                    <p>Površina ne smije prebrzo otvrdnuti. Ako se zatvori prerano, jezgra kasni.</p>
+   141	                </article>
+   142	
+   143	                <article>
+   144	                    <em>04</em>
+   145	                    <h3>Prebaci u sušenje tek kad je faza stabilna</h3>
+   146	                    <p>Fermentacija mora imati smislen završetak prije jačeg sušenja i zrenja.</p>
+   147	                </article>
+   148	            </div>
+   149	        </section>
+   150	
+   151	        <section class="dcpf-problems">
+   152	            <div class="dcpf-head">
+   153	                <span class="dcpf-eyebrow">Problem → rješenje</span>
+   154	                <h2>Najčešće greške u fermentaciji</h2>
+   155	            </div>
+   156	
+   157	            <div class="dcpf-problem-grid">
+   158	                <article>
+   159	                    <h3>Spor pad pH</h3>
+   160	                    <p><strong>Uzrok:</strong> preniska temperatura, premalo dostupnog šećera, slaba ili pogrešno čuvana kultura.</p>
+   161	                    <p><strong>Rješenje:</strong> provjeriti temperaturu, doziranje, rok kulture i dostupnost fermentabilnog šećera.</p>
+   162	                </article>
+   163	
+   164	                <article>
+   165	                    <h3>Prebrzo zakiseljavanje</h3>
+   166	                    <p><strong>Uzrok:</strong> previše dekstroze, previsoka temperatura ili prebrza kultura.</p>
+   167	                    <p><strong>Rješenje:</strong> sniziti temperaturu, smanjiti brzi šećer u sljedećoj šarži i birati blaži režim.</p>
+   168	                </article>
+   169	
+   170	                <article>
+   171	                    <h3>Tvrda površina, mekana jezgra</h3>
+   172	                    <p><strong>Uzrok:</strong> preniska vlaga ili prejako strujanje zraka prije nego je proizvod stabiliziran.</p>
+   173	                    <p><strong>Rješenje:</strong> povećati RH, smanjiti strujanje i usporiti prijelaz prema sušenju.</p>
+   174	                </article>
+   175	
+   176	                <article>
+   177	                    <h3>Šupljine i spužvasta tekstura</h3>
+   178	                    <p><strong>Uzrok:</strong> zrak u nadjevu, loše punjenje, plinotvorna mikroflora ili slab higijenski temelj.</p>
+   179	                    <p><strong>Rješenje:</strong> bolje izmiješati i puniti, izbosti zračne džepove i pojačati higijenu procesa.</p>
+   180	                </article>
+   181	            </div>
+   182	        </section>
+   183	
+   184	        <section class="dcpf-starter-bridge">
+   185	            <div>
+   186	                <span class="dcpf-eyebrow">Povezana napredna tema</span>
+   187	                <h2>Starter kulture kao pomoć u kontroli</h2>
+   188	                <p>
+   189	                    Starter kulture mogu pomoći da fermentacija bude predvidljivija, osobito u kućnim uvjetima,
+   190	                    kod većeg promjera proizvoda ili kod proizvođača koji još nemaju stabilnu mikrofloru prostora.
+   191	                    Ne treba ih promatrati kao zamjenu za tradiciju, nego kao alat za sigurnije vođenje procesa.
+   192	                </p>
+   193	            </div>
+   194	
+   195	            <div class="dcpf-actions">
+   196	                <a href="<?php echo esc_url(dcpf_page_url('starter-kulture')); ?>">Otvori stranicu Starter kulture</a>
+   197	                <a href="<?php echo esc_url(dcpf_page_url('proces-izrade')); ?>">Pogledaj sve procese</a>
+   198	            </div>
+   199	        </section>
+   200	
+   201	        <section class="dcpf-nav">
+   202	            <a href="<?php echo esc_url(dcpf_page_url('proces-izrade/punjenje')); ?>">← Prethodna faza: Punjenje</a>
+   203	            <a href="<?php echo esc_url(dcpf_page_url('proces-izrade/dimljenje')); ?>">Sljedeća faza: Dimljenje →</a>
+   204	        </section>
+   205	
+   206	    </section>
+   207	    <?php
+   208	    return ob_get_clean();
+   209	}
+   210	
+   211	add_shortcode('drycured_process_fermentacija', 'dcpf_render');
+   212	
+   213	function dcpf_append_to_page($content) {
+   214	    static $added = false;
+   215	
+   216	    if ($added || !dcpf_enabled()) {
+   217	        return $content;
+   218	    }
+   219	
+   220	    if (!dcpf_is_page() || !in_the_loop() || !is_main_query()) {
+   221	        return $content;
+   222	    }
+   223	
+   224	    if (strpos($content, 'dcpf-wrap') !== false) {
+   225	        return $content;
+   226	    }
+   227	
+   228	    $added = true;
+   229	    return $content . do_shortcode('[drycured_process_fermentacija]');
+   230	}
+   231	add_filter('the_content', 'dcpf_append_to_page', 35);
+   232	
+   233	function dcpf_assets() {
+   234	    if (!dcpf_is_page() || !dcpf_enabled()) {
+   235	        return;
+   236	    }
+   237	    ?>
+   238	    <style>
+   239	        .dcpf-wrap {
+   240	            --ink: #101722;
+   241	            --muted: #59636f;
+   242	            --gold: #b68a3a;
+   243	            --gold2: #f1d889;
+   244	            max-width: 1220px;
+   245	            margin: 40px auto 90px;
+   246	            padding: 0 22px;
+   247	            color: var(--ink);
+   248	        }
+   249	
+   250	        .dcpf-wrap * {
+   251	            box-sizing: border-box;
+   252	        }
+   253	
+   254	        .dcpf-eyebrow {
+   255	            display: inline-flex;
+   256	            width: max-content;
+   257	            min-height: 30px;
+   258	            align-items: center;
+   259	            padding: 7px 12px;
+   260	            border-radius: 999px;

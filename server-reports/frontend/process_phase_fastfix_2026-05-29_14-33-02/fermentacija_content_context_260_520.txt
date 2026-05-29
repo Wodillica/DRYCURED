@@ -1,0 +1,261 @@
+   260	            border-radius: 999px;
+   261	            background: rgba(182,138,58,.14);
+   262	            color: #76551e;
+   263	            font-size: 12px;
+   264	            font-weight: 900;
+   265	            letter-spacing: .12em;
+   266	            text-transform: uppercase;
+   267	        }
+   268	
+   269	        .dcpf-wrap h2 {
+   270	            margin: 14px 0 12px;
+   271	            color: var(--ink);
+   272	            font-size: clamp(30px, 4.2vw, 54px);
+   273	            line-height: 1.03;
+   274	            letter-spacing: -.045em;
+   275	        }
+   276	
+   277	        .dcpf-wrap h3 {
+   278	            margin: 0 0 10px;
+   279	            color: var(--ink);
+   280	            font-size: 21px;
+   281	            line-height: 1.16;
+   282	        }
+   283	
+   284	        .dcpf-wrap p {
+   285	            color: var(--muted);
+   286	            font-size: 16px;
+   287	            line-height: 1.7;
+   288	        }
+   289	
+   290	        .dcpf-hero-panel,
+   291	        .dcpf-section,
+   292	        .dcpf-flow,
+   293	        .dcpf-problems,
+   294	        .dcpf-starter-bridge,
+   295	        .dcpf-nav {
+   296	            border-radius: 32px;
+   297	            background: rgba(255,255,255,.68);
+   298	            border: 1px solid rgba(16,23,34,.08);
+   299	            box-shadow: 0 24px 60px rgba(16,23,34,.08);
+   300	        }
+   301	
+   302	        .dcpf-hero-panel {
+   303	            display: grid;
+   304	            grid-template-columns: minmax(0, 1fr) 430px;
+   305	            gap: 26px;
+   306	            align-items: stretch;
+   307	            padding: clamp(28px, 4vw, 46px);
+   308	            background:
+   309	                radial-gradient(circle at top right, rgba(241,216,137,.22), transparent 34%),
+   310	                rgba(255,255,255,.68);
+   311	        }
+   312	
+   313	        .dcpf-copy {
+   314	            max-width: 760px;
+   315	        }
+   316	
+   317	        .dcpf-dashboard {
+   318	            min-height: 420px;
+   319	            padding: 26px;
+   320	            border-radius: 30px;
+   321	            background:
+   322	                radial-gradient(circle at top right, rgba(241,216,137,.18), transparent 32%),
+   323	                #101722;
+   324	            color: #fff;
+   325	            box-shadow: 0 30px 70px rgba(16,23,34,.26);
+   326	        }
+   327	
+   328	        .dcpf-dashboard-head {
+   329	            display: flex;
+   330	            justify-content: space-between;
+   331	            gap: 14px;
+   332	            align-items: center;
+   333	            margin-bottom: 26px;
+   334	        }
+   335	
+   336	        .dcpf-dashboard-head span {
+   337	            color: rgba(255,255,255,.70);
+   338	            font-size: 12px;
+   339	            font-weight: 900;
+   340	            letter-spacing: .12em;
+   341	            text-transform: uppercase;
+   342	        }
+   343	
+   344	        .dcpf-dashboard-head strong {
+   345	            padding: 8px 11px;
+   346	            border-radius: 999px;
+   347	            background: rgba(241,216,137,.16);
+   348	            color: #f1d889;
+   349	            font-size: 12px;
+   350	        }
+   351	
+   352	        .dcpf-meter {
+   353	            margin-bottom: 20px;
+   354	        }
+   355	
+   356	        .dcpf-meter label {
+   357	            display: flex;
+   358	            justify-content: space-between;
+   359	            gap: 12px;
+   360	            color: rgba(255,255,255,.86);
+   361	            font-weight: 900;
+   362	            font-size: 13px;
+   363	            margin-bottom: 8px;
+   364	        }
+   365	
+   366	        .dcpf-meter label strong {
+   367	            color: #f1d889;
+   368	            font-variant-numeric: tabular-nums;
+   369	        }
+   370	
+   371	        .dcpf-meter i {
+   372	            display: block;
+   373	            height: 10px;
+   374	            border-radius: 999px;
+   375	            background: rgba(255,255,255,.14);
+   376	            overflow: hidden;
+   377	        }
+   378	
+   379	        .dcpf-meter i::before {
+   380	            content: "";
+   381	            display: block;
+   382	            width: var(--w);
+   383	            height: 100%;
+   384	            border-radius: inherit;
+   385	            background: linear-gradient(90deg, #f1d889, #78d3ff);
+   386	        }
+   387	
+   388	        .dcpf-meter small {
+   389	            display: block;
+   390	            margin-top: 7px;
+   391	            color: rgba(255,255,255,.62);
+   392	            font-size: 12px;
+   393	            line-height: 1.45;
+   394	        }
+   395	
+   396	        .dcpf-section,
+   397	        .dcpf-flow,
+   398	        .dcpf-problems,
+   399	        .dcpf-starter-bridge,
+   400	        .dcpf-nav {
+   401	            margin-top: 34px;
+   402	            padding: clamp(28px, 4vw, 46px);
+   403	        }
+   404	
+   405	        .dcpf-head {
+   406	            max-width: 880px;
+   407	            margin-bottom: 24px;
+   408	        }
+   409	
+   410	        .dcpf-micro-grid,
+   411	        .dcpf-flow-grid,
+   412	        .dcpf-problem-grid {
+   413	            display: grid;
+   414	            gap: 16px;
+   415	        }
+   416	
+   417	        .dcpf-micro-grid {
+   418	            grid-template-columns: repeat(3, minmax(0, 1fr));
+   419	        }
+   420	
+   421	        .dcpf-flow-grid {
+   422	            grid-template-columns: repeat(4, minmax(0, 1fr));
+   423	        }
+   424	
+   425	        .dcpf-problem-grid {
+   426	            grid-template-columns: repeat(2, minmax(0, 1fr));
+   427	        }
+   428	
+   429	        .dcpf-micro-grid article,
+   430	        .dcpf-flow-grid article,
+   431	        .dcpf-problem-grid article {
+   432	            padding: 22px;
+   433	            border-radius: 24px;
+   434	            background: #fff;
+   435	            border: 1px solid rgba(16,23,34,.08);
+   436	            transition: transform .18s ease, box-shadow .18s ease;
+   437	        }
+   438	
+   439	        .dcpf-micro-grid article:hover,
+   440	        .dcpf-flow-grid article:hover,
+   441	        .dcpf-problem-grid article:hover {
+   442	            transform: translateY(-4px);
+   443	            box-shadow: 0 24px 54px rgba(16,23,34,.13);
+   444	        }
+   445	
+   446	        .dcpf-micro-grid b,
+   447	        .dcpf-flow-grid em {
+   448	            display: inline-flex;
+   449	            align-items: center;
+   450	            justify-content: center;
+   451	            min-width: 46px;
+   452	            height: 30px;
+   453	            margin-bottom: 14px;
+   454	            border-radius: 999px;
+   455	            background: #101722;
+   456	            color: #fff;
+   457	            font-size: 12px;
+   458	            font-weight: 900;
+   459	            font-style: normal;
+   460	        }
+   461	
+   462	        .dcpf-starter-bridge {
+   463	            display: grid;
+   464	            grid-template-columns: minmax(0, 1fr) 310px;
+   465	            gap: 24px;
+   466	            align-items: center;
+   467	            background:
+   468	                radial-gradient(circle at top right, rgba(241,216,137,.22), transparent 34%),
+   469	                rgba(255,255,255,.72);
+   470	        }
+   471	
+   472	        .dcpf-actions {
+   473	            display: grid;
+   474	            gap: 12px;
+   475	        }
+   476	
+   477	        .dcpf-actions a,
+   478	        .dcpf-nav a {
+   479	            display: inline-flex;
+   480	            min-height: 46px;
+   481	            align-items: center;
+   482	            justify-content: center;
+   483	            padding: 12px 18px;
+   484	            border-radius: 999px;
+   485	            background: #101722;
+   486	            color: #fff !important;
+   487	            text-decoration: none !important;
+   488	            font-weight: 900;
+   489	        }
+   490	
+   491	        .dcpf-actions a:nth-child(2),
+   492	        .dcpf-nav a:first-child {
+   493	            background: #fff;
+   494	            color: #101722 !important;
+   495	            border: 1px solid rgba(16,23,34,.10);
+   496	        }
+   497	
+   498	        .dcpf-nav {
+   499	            display: flex;
+   500	            justify-content: space-between;
+   501	            gap: 14px;
+   502	            flex-wrap: wrap;
+   503	        }
+   504	
+   505	        @media (max-width: 1000px) {
+   506	            .dcpf-hero-panel,
+   507	            .dcpf-starter-bridge {
+   508	                grid-template-columns: 1fr;
+   509	            }
+   510	
+   511	            .dcpf-micro-grid,
+   512	            .dcpf-flow-grid,
+   513	            .dcpf-problem-grid {
+   514	                grid-template-columns: repeat(2, minmax(0, 1fr));
+   515	            }
+   516	        }
+   517	
+   518	        @media (max-width: 680px) {
+   519	            .dcpf-wrap {
+   520	                padding: 0 14px;

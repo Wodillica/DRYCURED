@@ -1,0 +1,56 @@
+=== DRYCURED PROCESS PHASE BATCH FASTFIX v001 ===
+2026-05-29T15:01:58.393680Z
+
+--- PHASE: sirovina ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-01-sirovina.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-01-sirovina.webp
+WARNING: module dir not found: /var/www/html/wp-content/mu-plugins/drycured-process-sirovina-modules
+--- PHASE: soljenje ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-02-soljenje.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-02-soljenje.webp
+WARNING: module dir not found: /var/www/html/wp-content/mu-plugins/drycured-process-soljenje-modules
+--- PHASE: rezanje ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-03-rezanje.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-03-rezanje.webp
+WARNING: module dir not found: /var/www/html/wp-content/mu-plugins/drycured-process-rezanje-modules
+--- PHASE: mljevenje ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-04-mljevenje.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-04-mljevenje.webp
+PATCH content return: /var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php
+PHP_LINT /var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php: code=0 No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php 
+
+--- PHASE: mijesanje ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-05-mijesanje.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-05-mijesanje.webp
+WARNING: module dir not found: /var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-modules
+--- PHASE: odlezavanje ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-05a-odlezavanje-smjese.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-05a-odlezavanje-smjese.webp
+WARNING: module dir not found: /var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-modules
+--- PHASE: punjenje ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-06-punjenje.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-06-punjenje.webp
+WARNING: module dir not found: /var/www/html/wp-content/mu-plugins/drycured-process-punjenje-modules
+--- PHASE: fermentacija ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-07-fermentacija.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-07-fermentacija.webp
+NOCHANGE content return: /var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php
+NOCHANGE image fallback: /var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php
+NO PATCH APPLIED for this phase
+
+--- PHASE: dimljenje ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-08-dimljenje.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-08-dimljenje.webp
+WARNING: module dir not found: /var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-modules
+--- PHASE: susenje ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-09-susenje.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-09-susenje.webp
+WARNING: module dir not found: /var/www/html/wp-content/mu-plugins/drycured-process-susenje-modules
+--- PHASE: zrenje ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-10-zrenje.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-10-zrenje.webp
+WARNING: module dir not found: /var/www/html/wp-content/mu-plugins/drycured-process-zrenje-modules
+--- PHASE: pakiranje ---
+IMAGE: /var/www/html/wp-content/uploads/drycured/home-process/process-11-pakiranje.webp
+IMAGE_URL: https://drycured.com/wp-content/uploads/drycured/home-process/process-11-pakiranje.webp
+WARNING: module dir not found: /var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-modules

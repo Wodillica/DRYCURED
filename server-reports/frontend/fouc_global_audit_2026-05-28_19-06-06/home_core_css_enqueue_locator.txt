@@ -1,0 +1,26 @@
+=== LOCATE DRYCURED HOME CORE CSS ENQUEUE ===
+2026-05-28T19:08:10+00:00
+
+=== Search drycured-home-core-css / drycured-home-core.css ===
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:16:    wp_enqueue_style(
+/var/www/html/wp-content/plugins/drycured-home-core/drycured-home-core.php:18:        DRYCURED_HOME_CORE_URL . 'assets/css/drycured-home-core.css',
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:51:        wp_enqueue_style(
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:73:        wp_enqueue_style('dashicons');
+/var/www/html/wp-content/mu-plugins/drycured-search.php:208:    wp_enqueue_style('drycured-search', plugin_dir_url(__FILE__) . '../plugins/drycured-recipe-core/assets/css/drycured-recipes.css', [], '1.0.0');
+/var/www/html/wp-content/mu-plugins/drycured-platform/comparator/comparator.php:30:    wp_enqueue_style( 'dc-comparator',
+/var/www/html/wp-content/mu-plugins/drycured-platform/core/gate.php:194:    wp_enqueue_style(
+
+=== drycured-home-core.php enqueue context ===
+16:    wp_enqueue_style(
+17:        'drycured-home-core',
+18:        DRYCURED_HOME_CORE_URL . 'assets/css/drycured-home-core.css',
+261:add_action('wp_enqueue_scripts', 'drycured_home_core_enqueue_on_process_pages', 30);
+287:add_action('wp_enqueue_scripts', 'drycured_home_core_enqueue_on_error_pages', 30);
+
+=== include files enqueue context ===
+/var/www/html/wp-content/plugins/drycured-home-core/includes/home-latest-media-bgfix.php:107:cp wp-content/plugins/drycured-home-core/drycured-home-core.php \
+/var/www/html/wp-content/plugins/drycured-home-core/includes/home-latest-media-bgfix.php:108:   wp-content/plugins/drycured-home-core/drycured-home-core.php.bak-latest-media-bgfix-v046-$(date +%Y%m%d_%H%M%S)
+/var/www/html/wp-content/plugins/drycured-home-core/includes/home-latest-media-bgfix.php:110:cat > wp-content/plugins/drycured-home-core/includes/home-latest-media-bgfix.php <<'PHP'
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-map.php.BROKEN-v070-2026-05-24_07-03-51:512:cp -a wp-content/plugins/drycured-home-core "$BACKUP/drycured-home-core-before"
+/var/www/html/wp-content/plugins/drycured-home-core/includes/atlas-map.php.BROKEN-v070-2026-05-24_07-03-51:514:cat > wp-content/plugins/drycured-home-core/includes/atlas-map.php <<'PHP'
+

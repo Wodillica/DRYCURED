@@ -1,0 +1,8 @@
+option_name	option_value	autoload
+drycured_home_core_front_rail_enabled	1	auto
+drycured_home_core_replace_kalkulator_with_error_enabled	1	auto
+drycured_home_core_latest_unified_enabled	1	auto
+drycured_home_core_home_link_router_enabled	1	auto
+drycured_home_process_order_v021_enabled	0	auto
+drycured_home_process_order_v022_enabled	1	auto
+drycured_home_process_rail_use_hub	0	auto

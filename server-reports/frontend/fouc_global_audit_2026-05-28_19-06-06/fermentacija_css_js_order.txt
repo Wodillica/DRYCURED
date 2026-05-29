@@ -1,0 +1,65 @@
+29:		<script type="application/ld+json" class="aioseo-schema">
+37:<style id="drycured-gt-kill-float">
+70:<script>
+75:<link rel='stylesheet' id='wprm-public-css' href='https://drycured.com/wp-content/plugins/wp-recipe-maker/dist/public-modern.css?ver=9.8.2' media='all' />
+76:<link rel='stylesheet' id='astra-theme-css-css' href='https://drycured.com/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.8.13' media='all' />
+77:<style id='astra-theme-css-inline-css'>
+114:<link rel='stylesheet' id='astra-google-fonts-css' href='https://fonts.googleapis.com/css?family=Mulish%3A400%2C600%7CDM+Sans%3A500%2C600&#038;display=fallback&#038;ver=4.8.13' media='all' />
+115:<style id='wp-emoji-styles-inline-css'>
+129:<link rel='stylesheet' id='wp-block-library-css' href='https://drycured.com/wp-includes/css/dist/block-library/style.min.css?ver=6.7' media='all' />
+130:<style id='global-styles-inline-css'>
+134:<link rel='stylesheet' id='dc-auth-css' href='https://drycured.com/wp-content/mu-plugins/drycured-auth.css?ver=1.0.0' media='all' />
+135:<link rel='stylesheet' id='dashicons-css' href='https://drycured.com/wp-includes/css/dashicons.min.css?ver=6.7' media='all' />
+136:<link rel='stylesheet' id='dc-gate-css' href='https://drycured.com/wp-content/mu-plugins/drycured-platform/core/gate.css?ver=1.0.0' media='all' />
+137:<link rel='stylesheet' id='drycured-search-css' href='https://drycured.com/wp-content/mu-plugins/../plugins/drycured-recipe-core/assets/css/drycured-recipes.css?ver=1.0.0' media='all' />
+138:<link rel='stylesheet' id='bbp-default-css' href='https://drycured.com/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css?ver=2.6.14' media='all' />
+139:<link rel='stylesheet' id='dp-alati-style-css' href='https://drycured.com/wp-content/plugins/digitalna-pusnica-alati/dp-alati-style.css?ver=1.1.3' media='all' />
+140:<style id='akismet-widget-style-inline-css'>
+200:<link rel='stylesheet' id='drycured-home-core-css' href='https://drycured.com/wp-content/plugins/drycured-home-core/assets/css/drycured-home-core.css?ver=0.1.96' media='all' />
+202:<script src="https://drycured.com/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.8.13" id="astra-flexibility-js"></script>
+203:<script id="astra-flexibility-js-after">
+207:<script src="https://drycured.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+208:<script src="https://drycured.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+209:<script id="3d-flip-book-client-locale-loader-js-extra">
+212:<script src="https://drycured.com/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/client-locale-loader.js?ver=1.16.19" id="3d-flip-book-client-locale-loader-js" async data-wp-strategy="async"></script>
+218:<style id="drycured-menu-typography">
+240:<style id="drycured-gtranslate-style">
+404:    <style id="dc-infografike-css">
+585:    <style>
+618:    <style>
+697:    <style type="text/css"> .tippy-box[data-theme~="wprm"] { background-color: #333333; color: #FFFFFF; } .tippy-box[data-theme~="wprm"][data-placement^="top"] > .tippy-arrow::before { border-top-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="bottom"] > .tippy-arrow::before { border-bottom-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="left"] > .tippy-arrow::before { border-left-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="right"] > .tippy-arrow::before { border-right-color: #333333; } .tippy-box[data-theme~="wprm"] a { color: #FFFFFF; } .wprm-comment-rating svg { width: 18px !important; height: 18px !important; } img.wprm-comment-rating { width: 90px !important; height: 18px !important; } body { --comment-rating-star-color: #343434; } body { --wprm-popup-font-size: 16px; } body { --wprm-popup-background: #ffffff; } body { --wprm-popup-title: #000000; } body { --wprm-popup-content: #444444; } body { --wprm-popup-button-background: #444444; } body { --wprm-popup-button-text: #ffffff; }</style><style type="text/css">.wprm-glossary-term {color: #5A822B;text-decoration: underline;cursor: help;}</style><style type="text/css">.wprm-recipe-template-snippet-basic-buttons {
+891:			<style>
+909:			<script>(function(){
+948:})();</script><style class="wpcode-css-snippet">/* H1 — glavni hero naslov (56px → 38px) */
+1032:}</style>		<style id="wp-custom-css">
+1068:		    <style>
+1374:        <style>
+1707:    <script>
+1805:        <style>
+1924:        <style>
+2125:    <script>
+2289:        <style>
+2537:    <script>
+2653:        <style>
+2751:    <script>
+2918:        <style>
+3089:    <script>
+3099:        <style id="drycured-podcast-archive-style">
+3443:        <style id="drycured-podcast-style">
+3655:        <style id="drycured-home-podcast-runtime-card-style">
+3731:<script type="text/javascript" id="bbp-swap-no-js-body-class">
+4319:                        <script id="drycured-gtranslate-script">
+4550:<script>
+4589:			<script>
+4615:			<script id="wprm-public-js-extra">
+4618:<script src="https://drycured.com/wp-content/plugins/wp-recipe-maker/dist/public-modern.js?ver=9.8.2" id="wprm-public-js"></script>
+4619:<script id="astra-theme-js-js-extra">
+4622:<script src="https://drycured.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.8.13" id="astra-theme-js-js"></script>
+4623:<script id="dc-auth-js-extra">
+4626:<script src="https://drycured.com/wp-content/mu-plugins/drycured-auth.js?ver=1.0.0" id="dc-auth-js"></script>
+4627:<script type="module" src="https://drycured.com/wp-content/plugins/digitalna-pusnica-alati/dist/tool-11-ph-tracker.js?ver=1.1.3" id="dp-alat-11-js"></script>
+4628:<script type="module" src="https://drycured.com/wp-content/plugins/digitalna-pusnica-alati/dist/tool-12-kalkulator-susenja.js?ver=1.1.3" id="dp-alat-12-js"></script>
+4629:<script id="gt_widget_script_27201959-js-before">
+4631:</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.7" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/proces-izrade/fermentacija/" data-gt-orig-domain="drycured.com" data-gt-widget-id="27201959" defer></script>			<script>
+4634:			<script id="drycured-gt-kill-float-script">
+4712:    <script id="drycured-home-podcast-runtime-card">

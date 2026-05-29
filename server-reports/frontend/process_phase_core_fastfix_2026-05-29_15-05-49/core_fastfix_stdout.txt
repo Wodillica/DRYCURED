@@ -1,0 +1,53 @@
+=== DRYCURED PROCESS CORE FASTFIX v001 ===
+2026-05-29T15:05:49.772670Z
+
+--- PHASE: sirovina ---
+CORE: /var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php
+PATCH: old content disabled, modern block remains
+PHP_LINT: code=0 No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php 
+
+--- PHASE: soljenje ---
+CORE: /var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php
+PATCH: old content disabled, modern block remains
+PHP_LINT: code=0 No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php 
+
+--- PHASE: rezanje ---
+CORE: /var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php
+PATCH: old content disabled, modern block remains
+PHP_LINT: code=0 No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php 
+
+--- PHASE: mijesanje ---
+CORE: /var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php
+PATCH: old content disabled, modern block remains
+PHP_LINT: code=0 No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php 
+
+--- PHASE: odlezavanje ---
+CORE: /var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php
+PATCH: old content disabled, modern block remains
+PHP_LINT: code=0 No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-core.php 
+
+--- PHASE: punjenje ---
+CORE: /var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php
+PATCH: old content disabled, modern block remains
+PHP_LINT: code=0 No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php 
+
+--- PHASE: dimljenje ---
+CORE: /var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php
+PATCH: old content disabled, modern block remains
+PHP_LINT: code=0 No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php 
+
+--- PHASE: susenje ---
+CORE: /var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php
+PATCH: old content disabled, modern block remains
+PHP_LINT: code=0 No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php 
+
+--- PHASE: zrenje ---
+CORE: /var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php
+PATCH: old content disabled, modern block remains
+PHP_LINT: code=0 No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php 
+
+--- PHASE: pakiranje ---
+CORE: /var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php
+PATCH: old content disabled, modern block remains
+PHP_LINT: code=0 No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php 
+

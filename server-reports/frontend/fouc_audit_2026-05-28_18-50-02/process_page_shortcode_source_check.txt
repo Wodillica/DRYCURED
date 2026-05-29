@@ -1,0 +1,36 @@
+=== PROCESS PAGE CONTENT / SHORTCODE SOURCE CHECK ===
+2026-05-28T18:55:44+00:00
+
+=== PROCESS PAGE ID ===
+PROCESS_ID=2864
+
+=== PROCESS PAGE POST SUMMARY ===
+{"ID":2864,"post_title":"Proces izrade","post_status":"publish","post_name":"proces-izrade","post_modified":"2026-05-21 13:55:49"}
+
+=== PROCESS PAGE RAW POST_CONTENT ===
+<h1>Proces izrade suhomesnatih proizvoda</h1>
+<p>Ovaj vodič objašnjava put od odabira sirovine do pakiranja gotovog proizvoda. Svaka faza ima svoju svrhu, rizike i praktične mjere koje pomažu da proizvod bude sigurniji, stabilniji i ujednačeniji.</p>
+[drycured_home_process_rail]
+
+=== PROCESS PAGE META — ELEMENTOR FLAGS ===
+post_id	meta_key	meta_value
+
+=== SEARCH SHORTCODES IN PROCESS PAGE CONTENT ===
+3:[drycured_home_process_rail]
+
+=== SEARCH ELEMENTOR DATA FOR PROCESS RAIL ===
+
+=== PROCESS PAGE LIVE SOURCE AROUND dc-process-rail ===
+1033:        .dcpo-wrap {
+1040:        .dcpo-wrap * {
+1058:        .dcpo-wrap h2 {
+1066:        .dcpo-wrap h3 {
+1073:        .dcpo-wrap p {
+1240:            .dcpo-wrap {
+2185:    <section class="dc-process-rail" aria-label="Put od mesa do zrelog proizvoda">
+2186:        <div class="dc-process-rail__inner">
+2187:            <div class="dc-process-rail__top">
+2192:            <div class="dc-process-rail__track">
+2389:    <section class="dcpo-wrap" aria-label="Pregled procesa izrade suhomesnatih proizvoda">
+
+=== END PROCESS PAGE CONTENT / SHORTCODE SOURCE CHECK ===
