@@ -1,0 +1,9 @@
+1361:            .dcpovk-choice-guide__grid {
+1365:            .dcpovk-choice-guide {
+1414:            if (mainPage && typesBlock && !document.querySelector('.dcpovk-choice-guide')) {
+1416:                choice.className = 'dcpovk-choice-guide';
+1418:                    <span class="dcpovk-choice-guide__kicker">Brzi odabir</span>
+1419:                    <h2>Kako odabrati pravi vodič</h2>
+1422:                    <div class="dcpovk-choice-guide__grid">
+1424:                            <strong>Radim but, pršut ili šunku</strong>
+1444:                            <strong>Radim goveđi komad ili bresaola tip</strong>
