@@ -5117,13 +5117,15 @@ if (!function_exists('dcv16_is_whole_piece_recipe')) {
 
 if (!function_exists('dcv16_is_wet_cure_recipe')) {
     function dcv16_is_wet_cure_recipe($post_id) {
-        $code = get_post_meta($post_id, '_dry_recipe_id', true);
+        $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+        $markdown = mb_strtolower((string)$markdown, 'UTF-8');
 
-        if (function_exists('dcv18_is_wet_cure_recipe')) {
-            return dcv18_is_wet_cure_recipe($post_id, $code);
-        }
-
-        return false;
+        return (
+            strpos($markdown, 'mokri pac') !== false ||
+            strpos($markdown, 'mokra salamura') !== false ||
+            strpos($markdown, 'salamura') !== false ||
+            strpos($markdown, 'rasol') !== false
+        );
     }
 }
 
@@ -6104,85 +6106,4 @@ if (!function_exists('dcv17_whole_piece_late_content_cleanup')) {
 
 // Vrlo kasno, nakon ranijih v0.5/v0.6/v1.1 cleanup slojeva.
 add_filter('the_content', 'dcv17_whole_piece_late_content_cleanup', 9999);
-
-
-
-
-if (!function_exists('dcv18_whole_piece_cure_model')) {
-    function dcv18_whole_piece_cure_model($code, $post_id = 0) {
-        /*
-         * Batch 01 — zaključano prema kanonskim izvorima.
-         * Ove recepture su u trenutnom izvoru suho soljene / suhi pac,
-         * čak i ako se u generičkom tekstu pojavljuje izraz "soljenja ili salamurenja".
-         */
-        $dry_map = [
-            'HR-SL-012' => 'suhi_pac',
-            'HR-SL-014' => 'suhi_pac',
-            'HR-SL-015' => 'suhi_pac',
-            'HR-SL-016' => 'suhi_pac',
-            'HR-SL-020' => 'suhi_pac',
-            'HR-SL-024' => 'suhi_pac',
-            'HR-SL-027' => 'suhi_pac',
-            'HR-SL-028' => 'suhi_pac',
-            'HR-SL-029' => 'suhi_pac',
-            'HR-SL-033' => 'suhi_pac',
-        ];
-
-        if (isset($dry_map[$code])) {
-            return $dry_map[$code];
-        }
-
-        $markdown = $post_id ? get_post_meta($post_id, '_dry_recipe_full_markdown', true) : '';
-        $markdown_l = mb_strtolower((string)$markdown, 'UTF-8');
-
-        /*
-         * Slaba/generička fraza nije dokaz mokrog paca.
-         */
-        $generic_only = (
-            strpos($markdown_l, 'soljenja ili salamurenja') !== false &&
-            strpos($markdown_l, 'mokri pac') === false &&
-            strpos($markdown_l, 'potopiti u salamuru') === false &&
-            strpos($markdown_l, 'držati u salamuri') === false &&
-            strpos($markdown_l, 'drzati u salamuri') === false &&
-            strpos($markdown_l, 'rasol') === false
-        );
-
-        if ($generic_only) {
-            return 'suhi_pac';
-        }
-
-        /*
-         * Mokri pac samo ako je izvorno jasno naveden.
-         */
-        if (
-            strpos($markdown_l, 'mokri pac') !== false ||
-            strpos($markdown_l, 'potopiti u salamuru') !== false ||
-            strpos($markdown_l, 'držati u salamuri') !== false ||
-            strpos($markdown_l, 'drzati u salamuri') !== false ||
-            strpos($markdown_l, 'rasol') !== false
-        ) {
-            return 'mokri_pac';
-        }
-
-        if (
-            strpos($markdown_l, 'suho soljenje') !== false ||
-            strpos($markdown_l, 'suho soljena') !== false ||
-            strpos($markdown_l, 'utrljati sol') !== false
-        ) {
-            return 'suhi_pac';
-        }
-
-        return 'suhi_pac';
-    }
-}
-
-if (!function_exists('dcv18_is_wet_cure_recipe')) {
-    function dcv18_is_wet_cure_recipe($post_id, $code = '') {
-        if (!$code && $post_id) {
-            $code = get_post_meta($post_id, '_dry_recipe_id', true);
-        }
-
-        return dcv18_whole_piece_cure_model($code, $post_id) === 'mokri_pac';
-    }
-}
 

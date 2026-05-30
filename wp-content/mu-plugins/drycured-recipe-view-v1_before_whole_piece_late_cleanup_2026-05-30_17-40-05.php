@@ -5117,13 +5117,15 @@ if (!function_exists('dcv16_is_whole_piece_recipe')) {
 
 if (!function_exists('dcv16_is_wet_cure_recipe')) {
     function dcv16_is_wet_cure_recipe($post_id) {
-        $code = get_post_meta($post_id, '_dry_recipe_id', true);
+        $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+        $markdown = mb_strtolower((string)$markdown, 'UTF-8');
 
-        if (function_exists('dcv18_is_wet_cure_recipe')) {
-            return dcv18_is_wet_cure_recipe($post_id, $code);
-        }
-
-        return false;
+        return (
+            strpos($markdown, 'mokri pac') !== false ||
+            strpos($markdown, 'mokra salamura') !== false ||
+            strpos($markdown, 'salamura') !== false ||
+            strpos($markdown, 'rasol') !== false
+        );
     }
 }
 
@@ -6002,187 +6004,6 @@ if (!function_exists('dcv14_final_ingredient_sanity_profile')) {
         $profile['liquids'] = dcv14_dedupe_items($liquids);
 
         return $profile;
-    }
-}
-
-
-
-
-if (!function_exists('dcv17_is_whole_piece_recipe')) {
-    function dcv17_is_whole_piece_recipe($code, $post_id = 0) {
-        if (function_exists('dcv16_is_whole_piece_recipe')) {
-            return dcv16_is_whole_piece_recipe($code, $post_id);
-        }
-
-        if (function_exists('dcv12_batch01_recipe_registry')) {
-            $registry = dcv12_batch01_recipe_registry();
-            $family = $registry[$code]['family'] ?? '';
-
-            return in_array($family, ['cijeli_komad', 'sunka', 'slanina_panceta'], true);
-        }
-
-        $type = $post_id ? get_post_meta($post_id, '_dry_product_type', true) : '';
-        $type = mb_strtolower(trim((string)$type), 'UTF-8');
-
-        return (
-            strpos($type, 'cijeli') !== false ||
-            strpos($type, 'šunka') !== false ||
-            strpos($type, 'sunka') !== false ||
-            strpos($type, 'slanina') !== false ||
-            strpos($type, 'panceta') !== false
-        );
-    }
-}
-
-if (!function_exists('dcv17_whole_piece_late_content_cleanup')) {
-    function dcv17_whole_piece_late_content_cleanup($content) {
-        if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {
-            return $content;
-        }
-
-        $post_id = get_the_ID();
-        $code = get_post_meta($post_id, '_dry_recipe_id', true);
-
-        if (!dcv17_is_whole_piece_recipe($code, $post_id)) {
-            return $content;
-        }
-
-        /*
-         * Cijeli komadi ne smiju imati generički kobasičarski blok
-         * "Tekućine i češnjak". Češnjak, paprika i papar kod njih pripadaju
-         * suhom pacu/premazu, osim ako je izvorno jasno naveden mokri pac.
-         */
-
-        // Ukloni link iz bočne navigacije u svim varijantama razmaka/atributa.
-        $content = preg_replace(
-            '/<a\b[^>]*href=["\']#tekucine["\'][^>]*>\s*Tekućine i češnjak\s*<\/a>/iu',
-            '',
-            $content
-        );
-
-        // Ukloni eventualni prazan wrapper/link red u sidebaru.
-        $content = preg_replace(
-            '/<li[^>]*>\s*<\/li>/iu',
-            '',
-            $content
-        );
-
-        // Ukloni samu sekciju Tekućine i češnjak po ID-u.
-        $content = preg_replace(
-            '/\s*<section\b[^>]*id=["\']tekucine["\'][^>]*>.*?<\/section>/isu',
-            '',
-            $content,
-            1
-        );
-
-        // Ako je negdje ostao tekst bez ID-a, ukloni panel koji ima naslov Tekućine i češnjak.
-        $content = preg_replace(
-            '/\s*<section\b[^>]*class=["\'][^"\']*dcv5-panel[^"\']*["\'][^>]*>\s*<[^>]*>\s*(?:<span[^>]*>.*?<\/span>\s*)?Tekućine i češnjak\s*<\/[^>]+>.*?<\/section>/isu',
-            '',
-            $content,
-            1
-        );
-
-        // Preimenuj sekciju začina u pac/premaz.
-        $content = preg_replace(
-            '/(<section\b[^>]*id=["\']zacini["\'][^>]*>.*?<h2[^>]*>\s*(?:<span[^>]*>.*?<\/span>\s*)?)(Začini i dodaci)(\s*<\/h2>)/isu',
-            '$1Suhi pac i začinski premaz$3',
-            $content,
-            1
-        );
-
-        // Preimenuj opis bloka, ali samo kod cijelih komada.
-        $content = str_replace(
-            'Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer.',
-            'Sastojci suhog paca i začinskog premaza prikazuju se u gramima i g/kg. Pac se ravnomjerno utrljava u površinu komada, a meso se drži na hladnom i okreće prema receptu.',
-            $content
-        );
-
-        return $content;
-    }
-}
-
-// Vrlo kasno, nakon ranijih v0.5/v0.6/v1.1 cleanup slojeva.
-add_filter('the_content', 'dcv17_whole_piece_late_content_cleanup', 9999);
-
-
-
-
-if (!function_exists('dcv18_whole_piece_cure_model')) {
-    function dcv18_whole_piece_cure_model($code, $post_id = 0) {
-        /*
-         * Batch 01 — zaključano prema kanonskim izvorima.
-         * Ove recepture su u trenutnom izvoru suho soljene / suhi pac,
-         * čak i ako se u generičkom tekstu pojavljuje izraz "soljenja ili salamurenja".
-         */
-        $dry_map = [
-            'HR-SL-012' => 'suhi_pac',
-            'HR-SL-014' => 'suhi_pac',
-            'HR-SL-015' => 'suhi_pac',
-            'HR-SL-016' => 'suhi_pac',
-            'HR-SL-020' => 'suhi_pac',
-            'HR-SL-024' => 'suhi_pac',
-            'HR-SL-027' => 'suhi_pac',
-            'HR-SL-028' => 'suhi_pac',
-            'HR-SL-029' => 'suhi_pac',
-            'HR-SL-033' => 'suhi_pac',
-        ];
-
-        if (isset($dry_map[$code])) {
-            return $dry_map[$code];
-        }
-
-        $markdown = $post_id ? get_post_meta($post_id, '_dry_recipe_full_markdown', true) : '';
-        $markdown_l = mb_strtolower((string)$markdown, 'UTF-8');
-
-        /*
-         * Slaba/generička fraza nije dokaz mokrog paca.
-         */
-        $generic_only = (
-            strpos($markdown_l, 'soljenja ili salamurenja') !== false &&
-            strpos($markdown_l, 'mokri pac') === false &&
-            strpos($markdown_l, 'potopiti u salamuru') === false &&
-            strpos($markdown_l, 'držati u salamuri') === false &&
-            strpos($markdown_l, 'drzati u salamuri') === false &&
-            strpos($markdown_l, 'rasol') === false
-        );
-
-        if ($generic_only) {
-            return 'suhi_pac';
-        }
-
-        /*
-         * Mokri pac samo ako je izvorno jasno naveden.
-         */
-        if (
-            strpos($markdown_l, 'mokri pac') !== false ||
-            strpos($markdown_l, 'potopiti u salamuru') !== false ||
-            strpos($markdown_l, 'držati u salamuri') !== false ||
-            strpos($markdown_l, 'drzati u salamuri') !== false ||
-            strpos($markdown_l, 'rasol') !== false
-        ) {
-            return 'mokri_pac';
-        }
-
-        if (
-            strpos($markdown_l, 'suho soljenje') !== false ||
-            strpos($markdown_l, 'suho soljena') !== false ||
-            strpos($markdown_l, 'utrljati sol') !== false
-        ) {
-            return 'suhi_pac';
-        }
-
-        return 'suhi_pac';
-    }
-}
-
-if (!function_exists('dcv18_is_wet_cure_recipe')) {
-    function dcv18_is_wet_cure_recipe($post_id, $code = '') {
-        if (!$code && $post_id) {
-            $code = get_post_meta($post_id, '_dry_recipe_id', true);
-        }
-
-        return dcv18_whole_piece_cure_model($code, $post_id) === 'mokri_pac';
     }
 }
 
