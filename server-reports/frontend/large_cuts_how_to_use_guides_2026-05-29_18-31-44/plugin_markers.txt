@@ -1,0 +1,16 @@
+175:                ['problem' => 'Neujednačeno sušenje', 'cause' => 'Različita debljina mesa i masti.', 'solution' => 'Poravnati rubove i omogućiti ravnomjeran protok zraka.'],
+206:                ['problem' => 'Preslan rub', 'cause' => 'Neujednačena debljina i predugo soljenje.', 'solution' => 'Prilagoditi soljenje tanjim dijelovima i provesti izjednačavanje.'],
+331:            ['title' => 'Procjena debljine', 'text' => 'Debljina određuje soljenje i kasnije sušenje. Kod govedine je bolje sporije i stabilnije nego brzo i tvrdo.'],
+496:                <li><strong>Procijeni debljinu:</strong> debljina određuje soljenje, izjednačavanje i brzinu sušenja.</li>
+1360:            .dcpovk-howto-guide__grid {
+1368:            .dcpovk-howto-guide__grid {
+1373:            .dcpovk-howto-guide {
+1422:            if (mainPage && typesBlock && !document.querySelector('.dcpovk-howto-guide')) {
+1424:                howto.className = 'dcpovk-howto-guide';
+1426:                    <span class="dcpovk-howto-guide__kicker">Kako koristiti ove vodiče</span>
+1427:                    <h2>Prvo procijeni komad, tek onda biraj postupak</h2>
+1430:                    <div class="dcpovk-howto-guide__grid">
+1432:                            <strong>1. Debljina</strong>
+1444:                            <strong>4. Brzina sušenja</strong>
+1629:        <span class="dclc-kicker">Debljina komada</span>
+1651:            Debljina ne određuje samo koliko će komad biti u soli, nego i koliko mu treba odmora prije sušenja.

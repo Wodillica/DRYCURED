@@ -1,0 +1,294 @@
+---- https://drycured.com/proces-izrade/obrada-vecijih-komada/but-prsut-sunka/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:22:07 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1124:        .dclc-dark-panel {
+1135:        .dclc-dark-panel__label {
+1149:        .dclc-dark-panel strong {
+1156:        .dclc-dark-panel__items {
+1163:        .dclc-dark-panel__items span {
+1177:        .dclc-dark-panel p {
+1584:        .dclc-final {
+1596:        .dclc-final h2 {
+1600:        .dclc-final p {
+1604:        .dclc-final .dclc-kicker {
+1609:        .dclc-final__buttons {
+1615:        .dclc-final__buttons a {
+1628:        .dclc-final__buttons a:nth-child(2) {
+1633:        .dclc-final__buttons a:not(:nth-child(2)) {
+1648:            .dclc-final {
+1670:            .dclc-dark-panel__items {
+1674:            .dclc-dark-panel {
+2562:        <div class="dclc-dark-panel">
+2563:            <span class="dclc-dark-panel__label">Fokus pripreme</span>
+2566:            <div class="dclc-dark-panel__items">
+2575:                Dobra priprema smanjuje rizik presušivanja, neujednačene slanosti i kvarenja.
+2717:    <section class="dclc-block dclc-final-checklist">
+2777:        <section class="dclc-final">
+2783:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+
+---- https://drycured.com/proces-izrade/obrada-vecijih-komada/plecka/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:22:08 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1124:        .dclc-dark-panel {
+1135:        .dclc-dark-panel__label {
+1149:        .dclc-dark-panel strong {
+1156:        .dclc-dark-panel__items {
+1163:        .dclc-dark-panel__items span {
+1177:        .dclc-dark-panel p {
+1584:        .dclc-final {
+1596:        .dclc-final h2 {
+1600:        .dclc-final p {
+1604:        .dclc-final .dclc-kicker {
+1609:        .dclc-final__buttons {
+1615:        .dclc-final__buttons a {
+1628:        .dclc-final__buttons a:nth-child(2) {
+1633:        .dclc-final__buttons a:not(:nth-child(2)) {
+1648:            .dclc-final {
+1670:            .dclc-dark-panel__items {
+1674:            .dclc-dark-panel {
+2562:        <div class="dclc-dark-panel">
+2563:            <span class="dclc-dark-panel__label">Fokus pripreme</span>
+2566:            <div class="dclc-dark-panel__items">
+2575:                Dobra priprema smanjuje rizik presušivanja, neujednačene slanosti i kvarenja.
+2717:    <section class="dclc-block dclc-final-checklist">
+2777:        <section class="dclc-final">
+2783:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+
+---- https://drycured.com/proces-izrade/obrada-vecijih-komada/vratina-coppa-capocollo/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:22:08 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1124:        .dclc-dark-panel {
+1135:        .dclc-dark-panel__label {
+1149:        .dclc-dark-panel strong {
+1156:        .dclc-dark-panel__items {
+1163:        .dclc-dark-panel__items span {
+1177:        .dclc-dark-panel p {
+1584:        .dclc-final {
+1596:        .dclc-final h2 {
+1600:        .dclc-final p {
+1604:        .dclc-final .dclc-kicker {
+1609:        .dclc-final__buttons {
+1615:        .dclc-final__buttons a {
+1628:        .dclc-final__buttons a:nth-child(2) {
+1633:        .dclc-final__buttons a:not(:nth-child(2)) {
+1648:            .dclc-final {
+1670:            .dclc-dark-panel__items {
+1674:            .dclc-dark-panel {
+2562:        <div class="dclc-dark-panel">
+2563:            <span class="dclc-dark-panel__label">Fokus pripreme</span>
+2566:            <div class="dclc-dark-panel__items">
+2575:                Dobra priprema smanjuje rizik presušivanja, neujednačene slanosti i kvarenja.
+2717:    <section class="dclc-block dclc-final-checklist">
+2777:        <section class="dclc-final">
+2783:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+
+---- https://drycured.com/proces-izrade/obrada-vecijih-komada/pecenica-lonza-lungic/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:22:08 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1124:        .dclc-dark-panel {
+1135:        .dclc-dark-panel__label {
+1149:        .dclc-dark-panel strong {
+1156:        .dclc-dark-panel__items {
+1163:        .dclc-dark-panel__items span {
+1177:        .dclc-dark-panel p {
+1584:        .dclc-final {
+1596:        .dclc-final h2 {
+1600:        .dclc-final p {
+1604:        .dclc-final .dclc-kicker {
+1609:        .dclc-final__buttons {
+1615:        .dclc-final__buttons a {
+1628:        .dclc-final__buttons a:nth-child(2) {
+1633:        .dclc-final__buttons a:not(:nth-child(2)) {
+1648:            .dclc-final {
+1670:            .dclc-dark-panel__items {
+1674:            .dclc-dark-panel {
+2562:        <div class="dclc-dark-panel">
+2563:            <span class="dclc-dark-panel__label">Fokus pripreme</span>
+2566:            <div class="dclc-dark-panel__items">
+2575:                Dobra priprema smanjuje rizik presušivanja, neujednačene slanosti i kvarenja.
+2717:    <section class="dclc-block dclc-final-checklist">
+2777:        <section class="dclc-final">
+2783:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+
+---- https://drycured.com/proces-izrade/obrada-vecijih-komada/panceta-potrbusina/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:22:09 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1124:        .dclc-dark-panel {
+1135:        .dclc-dark-panel__label {
+1149:        .dclc-dark-panel strong {
+1156:        .dclc-dark-panel__items {
+1163:        .dclc-dark-panel__items span {
+1177:        .dclc-dark-panel p {
+1584:        .dclc-final {
+1596:        .dclc-final h2 {
+1600:        .dclc-final p {
+1604:        .dclc-final .dclc-kicker {
+1609:        .dclc-final__buttons {
+1615:        .dclc-final__buttons a {
+1628:        .dclc-final__buttons a:nth-child(2) {
+1633:        .dclc-final__buttons a:not(:nth-child(2)) {
+1648:            .dclc-final {
+1670:            .dclc-dark-panel__items {
+1674:            .dclc-dark-panel {
+2562:        <div class="dclc-dark-panel">
+2563:            <span class="dclc-dark-panel__label">Fokus pripreme</span>
+2566:            <div class="dclc-dark-panel__items">
+2575:                Dobra priprema smanjuje rizik presušivanja, neujednačene slanosti i kvarenja.
+2717:    <section class="dclc-block dclc-final-checklist">
+2777:        <section class="dclc-final">
+2783:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+
+---- https://drycured.com/proces-izrade/obrada-vecijih-komada/obrazina-guanciale/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:22:09 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1124:        .dclc-dark-panel {
+1135:        .dclc-dark-panel__label {
+1149:        .dclc-dark-panel strong {
+1156:        .dclc-dark-panel__items {
+1163:        .dclc-dark-panel__items span {
+1177:        .dclc-dark-panel p {
+1584:        .dclc-final {
+1596:        .dclc-final h2 {
+1600:        .dclc-final p {
+1604:        .dclc-final .dclc-kicker {
+1609:        .dclc-final__buttons {
+1615:        .dclc-final__buttons a {
+1628:        .dclc-final__buttons a:nth-child(2) {
+1633:        .dclc-final__buttons a:not(:nth-child(2)) {
+1648:            .dclc-final {
+1670:            .dclc-dark-panel__items {
+1674:            .dclc-dark-panel {
+2562:        <div class="dclc-dark-panel">
+2563:            <span class="dclc-dark-panel__label">Fokus pripreme</span>
+2566:            <div class="dclc-dark-panel__items">
+2575:                Dobra priprema smanjuje rizik presušivanja, neujednačene slanosti i kvarenja.
+2717:    <section class="dclc-block dclc-final-checklist">
+2777:        <section class="dclc-final">
+2783:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+
+---- https://drycured.com/proces-izrade/obrada-vecijih-komada/govedi-komadi-bresaola/ ----
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 May 2026 18:22:09 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://cdn.gtranslate.net/>; rel=dns-prefetch
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+1041:        .dclc-final {
+1073:        .dclc-final h2 {
+1085:        .dclc-final h2 {
+1092:        .dclc-final p {
+1124:        .dclc-dark-panel {
+1135:        .dclc-dark-panel__label {
+1149:        .dclc-dark-panel strong {
+1156:        .dclc-dark-panel__items {
+1163:        .dclc-dark-panel__items span {
+1177:        .dclc-dark-panel p {
+1584:        .dclc-final {
+1596:        .dclc-final h2 {
+1600:        .dclc-final p {
+1604:        .dclc-final .dclc-kicker {
+1609:        .dclc-final__buttons {
+1615:        .dclc-final__buttons a {
+1628:        .dclc-final__buttons a:nth-child(2) {
+1633:        .dclc-final__buttons a:not(:nth-child(2)) {
+1648:            .dclc-final {
+1670:            .dclc-dark-panel__items {
+1674:            .dclc-dark-panel {
+2562:        <div class="dclc-dark-panel">
+2563:            <span class="dclc-dark-panel__label">Fokus pripreme</span>
+2566:            <div class="dclc-dark-panel__items">
+2575:                Dobra priprema smanjuje rizik presušivanja, neujednačene slanosti i kvarenja.
+2717:    <section class="dclc-block dclc-final-checklist">
+2777:        <section class="dclc-final">
+2783:            <nav class="dclc-final__buttons" aria-label="Navigacija većih komada">
+

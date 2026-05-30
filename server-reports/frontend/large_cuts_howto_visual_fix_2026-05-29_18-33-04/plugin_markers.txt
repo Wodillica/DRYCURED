@@ -1,0 +1,23 @@
+1360:            .dcpovk-howto-guide__grid {
+1368:            .dcpovk-howto-guide__grid {
+1373:            .dcpovk-howto-guide {
+1422:            if (mainPage && typesBlock && !document.querySelector('.dcpovk-howto-guide')) {
+1424:                howto.className = 'dcpovk-howto-guide';
+1426:                    <span class="dcpovk-howto-guide__kicker">Kako koristiti ove vodiče</span>
+1430:                    <div class="dcpovk-howto-guide__grid">
+1676:function dclc_parent_howto_visual_fix(): void {
+1687:    <style id="drycured-large-cuts-howto-visual-fix-css">
+1688:        body .dcpovk-page .dcpovk-howto-guide {
+1702:        body .dcpovk-page .dcpovk-howto-guide__kicker {
+1716:        body .dcpovk-page .dcpovk-howto-guide h2 {
+1725:        body .dcpovk-page .dcpovk-howto-guide > p {
+1733:        body .dcpovk-page .dcpovk-howto-guide__grid {
+1742:        body .dcpovk-page .dcpovk-howto-guide__grid article {
+1754:        body .dcpovk-page .dcpovk-howto-guide__grid article::before {
+1759:        body .dcpovk-page .dcpovk-howto-guide__grid strong {
+1768:        body .dcpovk-page .dcpovk-howto-guide__grid span {
+1777:            body .dcpovk-page .dcpovk-howto-guide__grid {
+1783:            body .dcpovk-page .dcpovk-howto-guide {
+1787:            body .dcpovk-page .dcpovk-howto-guide__grid {
+1791:            body .dcpovk-page .dcpovk-howto-guide__grid article {
+1798:add_action('wp_head', 'dclc_parent_howto_visual_fix', 99);
