@@ -26,3 +26,16 @@ build/source_locked_json/
 build/source_lock_audit/
 __pycache__/
 *.pyc
+
+# Drycured local recipe reconstruction workspaces
+recipe_reconstruction_hr_*/
+recipe_view_v1_*.txt
+server-reports/recipes/
+
+# Drycured local backup snapshots
+wp-content/mu-plugins/*_before_*.php
+wp-content/mu-plugins/drycured-batch01-quantity-profiles_before_*.php
+
+# Drycured source-lock generated outputs
+build/source_locked_json/
+build/source_lock_audit/
