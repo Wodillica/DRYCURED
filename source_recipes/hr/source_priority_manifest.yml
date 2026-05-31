@@ -1,0 +1,12 @@
+primary_source: TOM2_HR_SOURCE_LOCK_MASTER.md
+authority_mode: strict
+allowed_heading_levels:
+  - "###"
+  - "## HR-SL"
+  - "## HR-"
+forbidden_legacy_patterns:
+  - "Svinjski but i/ili plećka | 8,00 kg"
+  - "Tvrda leđna slanina | 2,00 kg"
+  - "Crni papar mljeveni"
+  - "goveđa slijepa / kate"
+  - "kalibar 55–80 mm"

@@ -19,3 +19,10 @@ Desktop.ini
 # Final curated reports are archived under 04_OPERATION/server-reports/
 server-reports/tech-security/
 server-reports/tech_security_baseline_*/
+
+# Drycured source-lock private recipe masters and generated outputs
+source_recipes/hr/TOM2_HR_SOURCE_LOCK_MASTER.md
+build/source_locked_json/
+build/source_lock_audit/
+__pycache__/
+*.pyc

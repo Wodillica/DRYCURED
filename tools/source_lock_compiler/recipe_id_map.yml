@@ -1,0 +1,79 @@
+HR-SL-001:
+  title: "Slavonski kulen"
+  source_heading: "### 1. Slavonski kulen (OZP EU)"
+  heading_status: "LOCKED"
+  authority_locked: true
+  title_aliases:
+    - "Slavonski kulen"
+    - "Slavonski kulen (OZP EU)"
+    - "Slavonski kulen / kulin"
+  recipe_number: 1
+  zone: "HR-SL"
+HR-SL-002:
+  title: "Kulenova seka"
+  source_heading: "### 4. Kulenova seka (slavonska)"
+  heading_status: "LOCKED"
+  authority_locked: true
+  title_aliases:
+    - "Kulenova seka"
+    - "Kulenova seka (slavonska)"
+    - "Kulenova seka slavonska"
+  recipe_number: 4
+  zone: "HR-SL"
+  inherits_from: "HR-SL-001"
+HR-SL-005:
+  source_heading: "## 5. Slavonska domaća kobasica"
+  title_aliases:
+    - "Slavonska domaća kobasica"
+    - "Slavonska domaca kobasica"
+  recipe_number: 5
+  zone: "HR-SL"
+HR-SL-009:
+  source_heading: "## 9. Baranjska salama"
+  title_aliases:
+    - "Baranjska salama"
+  recipe_number: 9
+  zone: "HR-SL"
+HR-SL-014:
+  title: "Slavonska dimljena šunka"
+  source_heading: "## 16. Slavonska dimljena šunka"
+  heading_status: "LOCKED"
+  authority_locked: true
+  title_aliases:
+    - "Slavonska dimljena šunka"
+    - "Dimljena šunka slavonska"
+  recipe_number: 16
+  zone: "HR-SL"
+HR-SL-012:
+  source_heading: "## 14. Slavonska dimljena slanina"
+  title_aliases:
+    - "Slavonska dimljena slanina"
+  recipe_number: 12
+  zone: "HR-SL"
+HR-SL-024:
+  source_heading: "## 28. Slavonski dimljeni svinjski vrat"
+  title_aliases:
+    - "Slavonski dimljeni svinjski vrat"
+  recipe_number: 24
+  zone: "HR-SL"
+HR-SL-017:
+  source_heading: "## 19. Slavonska jetrena kobasica"
+  title_aliases:
+    - "Slavonska jetrena kobasica"
+  recipe_number: 17
+  zone: "HR-SL"
+HR-SL-018:
+  source_heading: "## 20. Krvavica slavonska"
+  title_aliases:
+    - "Krvavica slavonska"
+  recipe_number: 18
+  zone: "HR-SL"
+HR-SL-019:
+  source_heading: "## 21. Tlačenica slavonska (švargl)"
+  title_aliases:
+    - "Tlačenica slavonska / švargl"
+    - "Tlacenica slavonska / svargl"
+    - "Tlačenica slavonska"
+    - "Švargl"
+  recipe_number: 19
+  zone: "HR-SL"
