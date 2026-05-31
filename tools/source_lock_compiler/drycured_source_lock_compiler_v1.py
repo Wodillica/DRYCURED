@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Drycured source-lock compiler v1.9E.
+"""Drycured source-lock compiler batch30 v2.2.
 
 Pilot scope: 10 HR-SL recipes from TOM2_HR_SOURCE_LOCK_MASTER.md.
 
@@ -40,6 +40,37 @@ PILOT10_IDS = [
     "HR-SL-017",
     "HR-SL-018",
     "HR-SL-019",
+]
+
+BATCH30_TARGET_COUNT = 30
+BATCH30_EXTRA_TARGET_COUNT = BATCH30_TARGET_COUNT - len(PILOT10_IDS)
+
+BATCH30_TYPE_KEYWORDS = [
+    "kulen",
+    "seka",
+    "kobasica",
+    "salama",
+    "šunka",
+    "sunka",
+    "slanina",
+    "vrat",
+    "plećka",
+    "plecka",
+    "rebra",
+    "krvavica",
+    "tlačenica",
+    "tlacenica",
+    "švargl",
+    "svargl",
+    "jetrena",
+    "barena",
+    "kuhana",
+    "češnjak",
+    "cesnjak",
+    "crijevo",
+    "omotač",
+    "omotac",
+    "pac",
 ]
 
 LEGACY_CONFLICT_VALUES = [
@@ -133,6 +164,14 @@ SPICE_TERMS = [
     "kumin",
     "korijander",
     "lovor",
+    "ružmarin",
+    "ruzmarin",
+    "kadulja",
+    "mirta",
+    "komorač",
+    "komorac",
+    "origano",
+    "timijan",
     "zacin",
 ]
 
@@ -433,6 +472,8 @@ def base_recipe(recipe_id: str, recipe_map: dict[str, Any], source_heading: str 
             "authority_block_heading": source_heading,
             "zone": recipe_map.get("zone"),
             "recipe_number": recipe_map.get("recipe_number"),
+            "expected_title": recipe_map.get("expected_title"),
+            "heading_status": recipe_map.get("heading_status"),
             "title_aliases": recipe_map.get("title_aliases", []),
             "inherited_from": recipe_map.get("inherits_from"),
         },
@@ -528,6 +569,222 @@ def discover_recipe_headings(source_text: str) -> list[dict[str, Any]]:
                 }
             )
     return headings
+
+
+def recipe_id_for_heading(candidate: dict[str, Any]) -> str:
+    number = candidate.get("number")
+    if number is None:
+        digest = hashlib.sha1(str(candidate.get("heading", "")).encode("utf-8")).hexdigest()[:6].upper()
+        return f"HR-SL-AUTO-{digest}"
+    return f"HR-SL-{int(number):03d}"
+
+
+def dynamic_recipe_map_from_heading(candidate: dict[str, Any]) -> dict[str, Any]:
+    title = str(candidate.get("title") or heading_title(str(candidate.get("heading", ""))))
+    return {
+        "title": title,
+        "source_heading": str(candidate["heading"]),
+        "heading_status": "DISCOVERED",
+        "authority_locked": False,
+        "title_aliases": [title],
+        "recipe_number": candidate.get("number"),
+        "zone": "HR-SL",
+    }
+
+
+def batch30_selection_score(candidate: dict[str, Any]) -> tuple[int, int]:
+    title = normalize_for_search(str(candidate.get("title") or "")).lower()
+    keyword_score = sum(1 for keyword in BATCH30_TYPE_KEYWORDS if normalize_for_search(keyword).lower() in title)
+    number = int(candidate.get("number") or 9999)
+    return keyword_score, -number
+
+
+def build_batch30_maps(root: Path, recipe_maps: dict[str, dict[str, Any]], manifest: dict[str, Any]) -> tuple[list[str], dict[str, dict[str, Any]], list[str]]:
+    warnings: list[str] = []
+    source = load_primary_source(root, manifest, warnings)
+    recipe_ids = list(PILOT10_IDS)
+    if source is None:
+        return recipe_ids, recipe_maps, warnings
+
+    locked_headings = {
+        normalize_for_search(str(recipe_maps.get(recipe_id, {}).get("source_heading") or "")).lower()
+        for recipe_id in PILOT10_IDS
+    }
+    existing_ids = set(recipe_maps)
+    candidates = []
+    for candidate in discover_recipe_headings(source.text):
+        heading_key = normalize_for_search(str(candidate.get("heading") or "")).lower()
+        candidate_id = recipe_id_for_heading(candidate)
+        if heading_key in locked_headings or candidate_id in recipe_ids:
+            continue
+        candidates.append(candidate)
+
+    candidates.sort(key=batch30_selection_score, reverse=True)
+    selected = candidates[:BATCH30_EXTRA_TARGET_COUNT]
+    for candidate in selected:
+        recipe_id = recipe_id_for_heading(candidate)
+        suffix = 1
+        base_id = recipe_id
+        while recipe_id in existing_ids or recipe_id in recipe_ids:
+            suffix += 1
+            recipe_id = f"{base_id}-{suffix}"
+        recipe_maps[recipe_id] = dynamic_recipe_map_from_heading(candidate)
+        recipe_ids.append(recipe_id)
+    if len(recipe_ids) < BATCH30_TARGET_COUNT:
+        warnings.append(f"Batch30 selected only {len(recipe_ids)} recipes; source had insufficient safe recipe headings.")
+    return recipe_ids, recipe_maps, warnings
+
+
+def parse_batch30_locked_entries(path: Path) -> list[dict[str, Any]]:
+    if not path.exists():
+        return []
+    entries: list[dict[str, Any]] = []
+    current: dict[str, Any] | None = None
+    for raw_line in read_text_file(path).splitlines():
+        line = raw_line.rstrip()
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#") or stripped == "recipes:":
+            continue
+        if stripped.startswith("- "):
+            if current:
+                entries.append(current)
+            current = {}
+            item = stripped[2:].strip()
+            if not item:
+                continue
+            if ":" in item:
+                key, value = item.split(":", 1)
+                current[key.strip()] = value.strip().strip('"')
+            else:
+                current["recipe_id"] = item.strip().strip('"')
+            continue
+        if current is not None and ":" in stripped:
+            key, value = stripped.split(":", 1)
+            current[key.strip()] = value.strip().strip('"')
+    if current:
+        entries.append(current)
+    return [entry for entry in entries if entry.get("recipe_id")]
+
+
+def load_batch30_locked_entries(root: Path) -> list[dict[str, Any]] | None:
+    path = root / "tools" / "source_lock_compiler" / "batch30_recipe_list.yml"
+    entries = parse_batch30_locked_entries(path)
+    if entries:
+        return entries
+    return None
+
+
+def title_matches_expected(parsed_title: str, expected_title: str) -> bool:
+    parsed = normalize_for_search(parsed_title).lower().strip()
+    expected = normalize_for_search(expected_title).lower().strip()
+    if not parsed or not expected:
+        return False
+    if parsed == expected:
+        return True
+    parsed_tokens = token_set(parsed)
+    expected_tokens = token_set(expected)
+    if expected_tokens and expected_tokens <= parsed_tokens:
+        return True
+    return SequenceMatcher(None, expected, parsed).ratio() >= 0.90
+
+
+def select_locked_heading(entry: dict[str, Any], headings: list[dict[str, Any]]) -> tuple[dict[str, Any] | None, str]:
+    expected_title = str(entry.get("expected_title") or "").strip()
+    source_heading = str(entry.get("source_heading") or "").strip()
+    recipe_id = str(entry.get("recipe_id") or "")
+    if source_heading:
+        for heading in headings:
+            if normalize_for_search(str(heading.get("heading") or "")) == normalize_for_search(source_heading):
+                if expected_title and not title_matches_expected(str(heading.get("title") or ""), expected_title):
+                    return heading, "title_mismatch"
+                return heading, "source_heading"
+        return None, "source_heading_not_found"
+    if expected_title:
+        exact = [heading for heading in headings if title_matches_expected(str(heading.get("title") or ""), expected_title)]
+        if len(exact) == 1:
+            return exact[0], "expected_title"
+        if len(exact) > 1:
+            return None, "ambiguous_expected_title"
+    match = re.match(r"^HR-SL-(\d+)(?:-(\d+))?$", recipe_id)
+    if match and expected_title:
+        number = int(match.group(1))
+        numbered = [heading for heading in headings if heading.get("number") == number and title_matches_expected(str(heading.get("title") or ""), expected_title)]
+        if len(numbered) == 1:
+            return numbered[0], "expected_title_and_number"
+        if len(numbered) > 1:
+            return None, "ambiguous_expected_title_and_number"
+    return None, "no_title_match"
+
+
+def build_locked_batch30_maps(root: Path, locked_entries: list[dict[str, Any]], recipe_maps: dict[str, dict[str, Any]], manifest: dict[str, Any]) -> tuple[dict[str, dict[str, Any]], list[str]]:
+    warnings: list[str] = []
+    source = load_primary_source(root, manifest, warnings)
+    if source is None:
+        for entry in locked_entries:
+            recipe_id = str(entry.get("recipe_id"))
+            if recipe_id in recipe_maps:
+                recipe_maps[recipe_id].update({key: value for key, value in entry.items() if key in {"expected_title", "source_heading"} and value})
+                continue
+            expected_title = str(entry.get("expected_title") or recipe_id)
+            recipe_maps[recipe_id] = {
+                "title": expected_title,
+                "expected_title": expected_title,
+                "heading_status": "REVIEW",
+                "title_aliases": [expected_title],
+                "zone": "HR-SL",
+            }
+        return recipe_maps, warnings
+    headings = discover_recipe_headings(source.text)
+    headings_by_number: dict[int, list[dict[str, Any]]] = {}
+    for heading in headings:
+        number = heading.get("number")
+        if number is not None:
+            headings_by_number.setdefault(int(number), []).append(heading)
+    occurrence_by_base: dict[str, int] = {}
+    for entry in locked_entries:
+        recipe_id = str(entry.get("recipe_id"))
+        expected_title = str(entry.get("expected_title") or "").strip()
+        if recipe_id in recipe_maps:
+            if expected_title:
+                recipe_maps[recipe_id]["expected_title"] = expected_title
+            if entry.get("source_heading"):
+                recipe_maps[recipe_id]["source_heading"] = str(entry["source_heading"])
+            continue
+        if not expected_title:
+            match = re.match(r"^HR-SL-(\d+)(?:-(\d+))?$", recipe_id)
+            if not match:
+                warnings.append(f"Locked batch30 entry has no expected_title and unsupported id format: {recipe_id}")
+                recipe_maps[recipe_id] = {"title": recipe_id, "heading_status": "REVIEW", "title_aliases": [recipe_id], "zone": "HR-SL"}
+                continue
+            number = int(match.group(1))
+            base_id = f"HR-SL-{number:03d}"
+            occurrence = int(match.group(2)) if match.group(2) else occurrence_by_base.get(base_id, 0) + 1
+            occurrence_by_base[base_id] = max(occurrence_by_base.get(base_id, 0), occurrence)
+            candidates = headings_by_number.get(number, [])
+            index = max(0, occurrence - 1)
+            if index >= len(candidates):
+                warnings.append(f"Locked batch30 heading not found for {recipe_id}")
+                recipe_maps[recipe_id] = {"title": recipe_id, "heading_status": "REVIEW", "title_aliases": [recipe_id], "zone": "HR-SL"}
+                continue
+            recipe_maps[recipe_id] = dynamic_recipe_map_from_heading(candidates[index])
+            continue
+        selected, reason = select_locked_heading(entry, headings)
+        if selected is None:
+            warnings.append(f"Locked batch30 heading not safely found for {recipe_id}: {reason}")
+            recipe_maps[recipe_id] = {
+                "title": expected_title,
+                "expected_title": expected_title,
+                "heading_status": "REVIEW",
+                "title_aliases": [expected_title],
+                "zone": "HR-SL",
+            }
+            continue
+        recipe_map = dynamic_recipe_map_from_heading(selected)
+        recipe_map["expected_title"] = expected_title
+        if reason == "title_mismatch":
+            recipe_map["heading_status"] = "FAIL_TITLE_MISMATCH"
+        recipe_maps[recipe_id] = recipe_map
+    return recipe_maps, warnings
 
 
 def token_set(text: str) -> set[str]:
@@ -1406,10 +1663,84 @@ def split_hr014_zrenje_cuvanje(recipe: dict[str, Any]) -> None:
             )
 
 
+def extract_hr038_compact_process(block: str, recipe: dict[str, Any]) -> None:
+    process_section = section_text(block, "Proces") or block
+    compact_line = evidence_lines(
+        process_section,
+        ["Miješanje na hladnom", "Mijesanje na hladnom", "odmor 24 h", "Punjenje u tanka crijeva", "dimljenje", "zrenje 30–60 dana", "zrenje 30-60 dana"],
+    )
+    if not compact_line:
+        recipe["audit"]["process_missing_fields"].append("process.compact")
+        recipe["audit"]["warnings"].append("HR-SL-038 compact process sentence not found")
+        return
+    recipe["audit"]["not_specified_in_source"].append("process.miješanje.temperature")
+    recipe["process"] = [
+        {
+            "title": "miješanje",
+            "duration": None,
+            "temperature": "hladno",
+            "humidity": None,
+            "action": "Miješanje na hladnom.",
+            "critical_control": "Miješanje na hladnom.",
+            "source_evidence": compact_line,
+        },
+        {
+            "title": "odmor nadjeva",
+            "duration": "24 h",
+            "temperature": None,
+            "humidity": None,
+            "action": "Odmor nadjeva nakon miješanja.",
+            "critical_control": "Odmor 24 h.",
+            "source_evidence": compact_line,
+        },
+        {
+            "title": "punjenje",
+            "duration": None,
+            "temperature": None,
+            "humidity": None,
+            "action": "Punjenje u tanka crijeva.",
+            "critical_control": "Punjenje u tanka crijeva.",
+            "source_evidence": compact_line,
+            "casing_evidence": "Svinjska tanka crijeva ili kate 40–50 mm",
+        },
+        {
+            "title": "dimljenje",
+            "duration": "3–5 ciklusa",
+            "temperature": None,
+            "humidity": None,
+            "action": "Kratko dimljenje, 3–5 ciklusa crnika.",
+            "critical_control": "Kratko dimljenje, 3–5 ciklusa crnika.",
+            "source_evidence": compact_line,
+            "wood_smoke_note": "crnika",
+        },
+        {
+            "title": "sušenje / zrenje",
+            "duration": "30–60 dana",
+            "temperature": None,
+            "humidity": None,
+            "action": "Zrenje 30–60 dana.",
+            "critical_control": "Zrenje 30–60 dana.",
+            "source_evidence": compact_line,
+        },
+        {
+            "title": "čuvanje / posluživanje",
+            "duration": "6 mjeseci",
+            "temperature": None,
+            "humidity": None,
+            "action": "Čuvanje: do 6 mjeseci.",
+            "critical_control": "Čuvanje: do 6 mjeseci.",
+            "source_evidence": compact_line,
+        },
+    ]
+
+
 def extract_process(block: str, recipe: dict[str, Any]) -> None:
     if recipe["recipe_id"] == "HR-SL-014":
         extract_hr014_process(block, recipe)
         split_hr014_zrenje_cuvanje(recipe)
+        return
+    if recipe["recipe_id"] == "HR-SL-038":
+        extract_hr038_compact_process(block, recipe)
         return
 
     warnings = recipe["audit"]["warnings"]
@@ -1702,6 +2033,8 @@ def audit_recipe(recipe: dict[str, Any]) -> None:
 def fail_recipe(recipe_id: str, recipe_map: dict[str, Any], message: str, source_heading: str | None = None) -> dict[str, Any]:
     recipe = base_recipe(recipe_id, recipe_map, source_heading)
     recipe["audit"]["warnings"].append(message)
+    if recipe_map.get("heading_status") == "FAIL_TITLE_MISMATCH":
+        recipe["audit"]["status_reason"].append("expected_title != parsed_title")
     recipe["audit"]["ingredient_missing_fields"].append("source.file")
     recipe["audit"]["process_missing_fields"].append("source.file")
     audit_recipe(recipe)
@@ -1717,6 +2050,11 @@ def build_recipe(root: Path, recipe_id: str, recipe_maps: dict[str, dict[str, An
     if not recipe_map:
         return fail_recipe(recipe_id, {}, f"Recipe ID {recipe_id} is missing from recipe_id_map.yml", None)
     source_heading = recipe_map.get("source_heading")
+    if recipe_map.get("heading_status") == "FAIL_TITLE_MISMATCH":
+        recipe = fail_recipe(recipe_id, recipe_map, "Locked batch30 expected_title != parsed_title.", str(source_heading) if source_heading else None)
+        recipe["audit"]["overall_status"] = "FAIL"
+        recipe["audit"]["status"] = "FAIL"
+        return recipe
     if recipe_map.get("heading_status") == "REVIEW":
         recipe = fail_recipe(recipe_id, recipe_map, "Recipe heading requires review; no safe authority heading selected.", str(source_heading) if source_heading else None)
         recipe["audit"]["overall_status"] = "FAIL"
@@ -1735,6 +2073,15 @@ def build_recipe(root: Path, recipe_id: str, recipe_maps: dict[str, dict[str, An
     recipe["source"]["sha256"] = source.sha256
     recipe["metadata"]["authority_mode"] = manifest.get("authority_mode", "strict")
     recipe["audit"]["legacy_conflict_block_found_outside_authority"] = "YES" if legacy_conflict_outside_authority(source.text, authority_block) else "NO"
+    expected_title = str(recipe_map.get("expected_title") or "").strip()
+    if heading:
+        recipe["metadata"]["parsed_title"] = heading_title(heading)
+    if expected_title and heading and not title_matches_expected(heading_title(heading), expected_title):
+        recipe["metadata"]["heading_status"] = "FAIL_TITLE_MISMATCH"
+        recipe["audit"]["warnings"].append(f"Locked batch30 title mismatch: expected {expected_title}; parsed {heading_title(heading)}")
+        recipe["audit"]["ingredient_missing_fields"].append("source.expected_title")
+        recipe["audit"]["process_fail_fields"].append("source.expected_title")
+        recipe["audit"]["status_reason"].append("expected_title != parsed_title")
 
     if authority_block is None:
         recipe["audit"]["warnings"].append(f"Authority block heading not found: {source_heading}")
@@ -1777,6 +2124,9 @@ def write_audit(path: Path, recipe: dict[str, Any]) -> None:
         f"Source file: {recipe['source']['file']}",
         f"Source hash: {recipe['source']['sha256']}",
         f"Authority block heading: {recipe['metadata'].get('authority_block_heading')}",
+        f"Heading status: {recipe['metadata'].get('heading_status')}",
+        f"Expected title: {recipe['metadata'].get('expected_title')}",
+        f"Parsed title: {recipe['metadata'].get('parsed_title')}",
         f"ingredient_status: {audit['ingredient_status']}",
         f"process_status: {audit['process_status']}",
         f"overall_status: {audit['overall_status']}",
@@ -1869,6 +2219,10 @@ def manifest_row(recipe: dict[str, Any], json_path: Path) -> dict[str, Any]:
         "warnings_count": len(audit["warnings"]),
         "missing_fields_count": len(audit["missing_fields"]),
         "forbidden_old_values_count": len(audit["forbidden_old_values_found"]),
+        "heading_status": recipe["metadata"].get("heading_status"),
+        "expected_title": recipe["metadata"].get("expected_title"),
+        "parsed_title": recipe["metadata"].get("parsed_title"),
+        "status_reason": "; ".join(audit.get("status_reason", [])),
     }
 
 
@@ -1886,11 +2240,27 @@ def write_manifest(path: Path, rows: list[dict[str, Any]]) -> None:
         "warnings_count",
         "missing_fields_count",
         "forbidden_old_values_count",
+        "heading_status",
+        "expected_title",
+        "parsed_title",
+        "status_reason",
     ]
     with path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
+
+
+def batch_summary(recipes: list[dict[str, Any]]) -> dict[str, int]:
+    return {
+        "total": len(recipes),
+        "pass_count": sum(1 for recipe in recipes if recipe["audit"]["overall_status"] == "PASS"),
+        "review_count": sum(1 for recipe in recipes if recipe["audit"]["overall_status"] == "REVIEW"),
+        "fail_count": sum(1 for recipe in recipes if recipe["audit"]["overall_status"] == "FAIL"),
+        "forbidden_total": sum(len(recipe["audit"].get("forbidden_old_values_found", [])) for recipe in recipes),
+        "missing_total": sum(len(recipe["audit"].get("missing_required_values", [])) for recipe in recipes),
+        "contamination_total": sum(len(recipe["audit"].get("process_contamination_errors", [])) for recipe in recipes),
+    }
 
 
 def print_report(recipes: list[dict[str, Any]]) -> None:
@@ -1934,17 +2304,22 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Compile source-locked Drycured recipe JSON.")
     parser.add_argument("--recipe", help="Recipe ID to compile.")
     parser.add_argument("--pilot10", action="store_true", help="Compile the 10-recipe source-lock pilot.")
+    parser.add_argument("--batch30", action="store_true", help="Compile pilot10 plus 20 additional discovered HR-SL source-lock recipes.")
     parser.add_argument("--discover-headings", action="store_true", help="Discover safe authority headings in the strict TOM2 master before compiling.")
     parser.add_argument("--root", default=None, help="Project root. Defaults to /root/DRYCURED_GITHUB if present, otherwise ./DRYCURED_GITHUB.")
     parser.add_argument("--dry-run", action="store_true", help="Do not touch WordPress. Build JSON and audit artifacts only.")
     return parser.parse_args(argv)
 
 
-def compile_recipes(root: Path, recipe_ids: list[str]) -> list[dict[str, Any]]:
+def compile_recipes(root: Path, recipe_ids: list[str], recipe_map_overrides: dict[str, dict[str, Any]] | None = None, load_warnings_extra: list[str] | None = None) -> list[dict[str, Any]]:
     ensure_dirs(root)
     manifest = parse_simple_yml(root / "source_recipes" / "hr" / "source_priority_manifest.yml")
     recipe_maps = parse_recipe_id_map(root / "tools" / "source_lock_compiler" / "recipe_id_map.yml")
+    if recipe_map_overrides:
+        recipe_maps.update(recipe_map_overrides)
     load_warnings: list[str] = []
+    if load_warnings_extra:
+        load_warnings.extend(load_warnings_extra)
     source = load_primary_source(root, manifest, load_warnings)
 
     recipes = []
@@ -1963,19 +2338,41 @@ def compile_recipes(root: Path, recipe_ids: list[str]) -> list[dict[str, Any]]:
 
 def main(argv: list[str]) -> int:
     args = parse_args(argv)
-    if not args.pilot10 and not args.recipe:
-        raise SystemExit("Pass --recipe RECIPE_ID or --pilot10")
+    if not args.pilot10 and not args.batch30 and not args.recipe:
+        raise SystemExit("Pass --recipe RECIPE_ID, --pilot10, or --batch30")
     root = Path(args.root).resolve() if args.root else project_root_from(Path.cwd()).resolve()
-    recipe_ids = PILOT10_IDS if args.pilot10 else [str(args.recipe)]
+    batch_recipe_maps: dict[str, dict[str, Any]] = {}
+    batch_warnings: list[str] = []
+    batch30_source = None
+    if args.batch30:
+        manifest = parse_simple_yml(root / "source_recipes" / "hr" / "source_priority_manifest.yml")
+        recipe_maps = parse_recipe_id_map(root / "tools" / "source_lock_compiler" / "recipe_id_map.yml")
+        locked_entries = load_batch30_locked_entries(root)
+        if locked_entries:
+            batch30_source = "locked_list"
+            recipe_ids = [str(entry["recipe_id"]) for entry in locked_entries]
+            batch_recipe_maps, batch_warnings = build_locked_batch30_maps(root, locked_entries, recipe_maps, manifest)
+        else:
+            batch30_source = "auto_discovery_fallback"
+            recipe_ids, batch_recipe_maps, batch_warnings = build_batch30_maps(root, recipe_maps, manifest)
+    elif args.pilot10:
+        recipe_ids = PILOT10_IDS
+    else:
+        recipe_ids = [str(args.recipe)]
 
     discovery = None
     if args.discover_headings:
         discovery = discover_for_pilot(root, recipe_ids)
 
-    recipes = compile_recipes(root, recipe_ids)
-    print("DRYCURED SOURCE LOCK COMPILER v1.9E")
+    recipes = compile_recipes(root, recipe_ids, batch_recipe_maps if args.batch30 else None, batch_warnings)
+    print("DRYCURED SOURCE LOCK COMPILER batch30 v2.2")
     print(f"dry_run: {bool(args.dry_run)}")
     print(f"project_root: {root}")
+    print(f"batch_mode: {'batch30' if args.batch30 else ('pilot10' if args.pilot10 else 'single')}")
+    if args.batch30:
+        print(f"batch30_source: {batch30_source}")
+    for warning in batch_warnings:
+        print(f"batch_warning: {warning}")
     if discovery:
         print(f"recipe_headings_found: {discovery['headings_count']}")
         for recipe_id in recipe_ids:
@@ -1983,7 +2380,12 @@ def main(argv: list[str]) -> int:
             print(f"heading_selection: {recipe_id} | {selected}")
         print(f"heading_candidates_path: {discovery['candidates_path']}")
     print_report(recipes)
+    if args.batch30:
+        for key, value in batch_summary(recipes).items():
+            print(f"{key}: {value}")
     if any(recipe["audit"]["overall_status"] != "PASS" for recipe in recipes):
+        print("wordpress_update_allowed: no")
+    else:
         print("wordpress_update_allowed: no")
     return 0
 

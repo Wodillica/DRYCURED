@@ -1,0 +1,71 @@
+recipes:
+  - recipe_id: HR-SL-001
+    expected_title: "Slavonski kulen"
+    source_heading: "### 1. Slavonski kulen (OZP EU)"
+  - recipe_id: HR-SL-002
+    expected_title: "Kulenova seka"
+    source_heading: "### 4. Kulenova seka (slavonska)"
+  - recipe_id: HR-SL-005
+    expected_title: "Slavonska domaća kobasica"
+    source_heading: "### 5. Slavonska domaća kobasica"
+  - recipe_id: HR-SL-009
+    expected_title: "Baranjska salama"
+    source_heading: "### 9. Baranjska salama"
+  - recipe_id: HR-SL-014
+    expected_title: "Slavonska dimljena šunka"
+    source_heading: "## 16. Slavonska dimljena šunka"
+  - recipe_id: HR-SL-012
+    expected_title: "Slavonska dimljena slanina"
+    source_heading: "### 12. Slavonska dimljena slanina"
+  - recipe_id: HR-SL-024
+    expected_title: "Slavonski dimljeni svinjski vrat"
+    source_heading: "### 24. Slavonski dimljeni svinjski vrat"
+  - recipe_id: HR-SL-017
+    expected_title: "Slavonska jetrena kobasica"
+    source_heading: "### 17. Slavonska jetrena kobasica"
+  - recipe_id: HR-SL-018
+    expected_title: "Krvavica slavonska"
+    source_heading: "### 18. Krvavica slavonska"
+  - recipe_id: HR-SL-019
+    expected_title: "Tlačenica slavonska / švargl"
+    source_heading: "### 19. Tlačenica slavonska / švargl"
+  - recipe_id: HR-SL-022
+    expected_title: ""
+  - recipe_id: HR-SL-034
+    expected_title: ""
+  - recipe_id: HR-SL-067
+    expected_title: ""
+  - recipe_id: HR-SL-083
+    expected_title: ""
+  - recipe_id: HR-SL-084
+    expected_title: ""
+  - recipe_id: HR-SL-091
+    expected_title: ""
+  - recipe_id: HR-SL-109
+    expected_title: ""
+  - recipe_id: HR-SL-115
+    expected_title: ""
+  - recipe_id: HR-SL-003
+    expected_title: ""
+  - recipe_id: HR-SL-003-2
+    expected_title: ""
+  - recipe_id: HR-SL-004
+    expected_title: "Đakovački kulen"
+  - recipe_id: HR-SL-006
+    expected_title: ""
+  - recipe_id: HR-SL-008
+    expected_title: ""
+  - recipe_id: HR-SL-010
+    expected_title: ""
+  - recipe_id: HR-SL-023
+    expected_title: ""
+  - recipe_id: HR-SL-025
+    expected_title: ""
+  - recipe_id: HR-SL-038
+    expected_title: "Dalmatinska suha kobasica"
+  - recipe_id: HR-SL-039
+    expected_title: ""
+  - recipe_id: HR-SL-040
+    expected_title: ""
+  - recipe_id: HR-SL-043
+    expected_title: ""
