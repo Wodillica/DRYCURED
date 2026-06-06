@@ -1,0 +1,21 @@
+---- Očekivani javni tragovi ----
+PASS | 95 % mesni
+PASS | 5 % tvrda
+PASS | 80–120
+PASS | hladni dim
+PASS | 150 dana
+PASS | 260–280
+PASS | 6,00 kg
+PASS | 2,50 kg
+PASS | 1,00 kg
+PASS | 0,50 kg
+
+---- Zabranjeni/stari javni tragovi ----
+PASS | 70 % meso
+PASS | 30 % slanina
+PASS | 55–60 mm
+PASS | 55-60 mm
+PASS | goveđa slijepa
+PASS | Crni papar
+PASS | 8,000 kg
+PASS | 2,000 kg

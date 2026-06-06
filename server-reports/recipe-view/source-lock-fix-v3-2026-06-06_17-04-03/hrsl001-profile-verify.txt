@@ -1,0 +1,23 @@
+HR-SL-001 ID: 2972
+URL: https://drycured.com/recepti-baza/hr-sl-001-slavonski-kulen-pdo-eu/
+Očekivane vrijednosti:
+PASS | Svinjski but I. kategorije
+PASS | 6,00 kg
+PASS | Svinjska plećka II. kategorije
+PASS | 2,50 kg
+PASS | Svinjski vrat III. kategorije
+PASS | 1,00 kg
+PASS | Tvrda leđna slanina
+PASS | 0,50 kg
+PASS | 260–280 g
+PASS | 80–120 mm
+PASS | 150 dana
+Zabranjeni tragovi:
+PASS | 70 % meso
+PASS | 30 % slanina
+PASS | 55–60 mm
+PASS | 55-60 mm
+PASS | goveđa slijepa
+PASS | Crni papar
+PASS | 8,000 kg
+PASS | 2,000 kg

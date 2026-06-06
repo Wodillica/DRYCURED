@@ -1,0 +1,1 @@
+PASS: repo i live MU-plugin su identični.

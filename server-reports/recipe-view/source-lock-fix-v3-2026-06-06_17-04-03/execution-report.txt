@@ -1,0 +1,81 @@
+============================================================
+DRYCURED — RECIPE VIEW SOURCE-LOCK FIX v3
+Cilj: rekurzivno očistiti HR-SL-001 profil i javni prikaz
+Vrijeme: Sat Jun  6 05:04:03 PM UTC 2026
+============================================================
+
+=== 1) PREFLIGHT ===
+PASS: nema staged promjena.
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== 3) PATCH REPO MU-PLUGINA — DCV31 ===
+Patch: PASS
+
+=== 4) PHP LINT REPO ===
+No syntax errors detected in /root/DRYCURED_GITHUB/wp-content/mu-plugins/drycured-recipe-view-v1.php
+
+=== 5) DEPLOY NA LIVE ===
+No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php
+Success: The cache was flushed.
+Deploy: PASS
+
+=== 6) PROFILNI TEST HR-SL-001 ===
+HR-SL-001 ID: 2972
+URL: https://drycured.com/recepti-baza/hr-sl-001-slavonski-kulen-pdo-eu/
+Očekivane vrijednosti:
+PASS | Svinjski but I. kategorije
+PASS | 6,00 kg
+PASS | Svinjska plećka II. kategorije
+PASS | 2,50 kg
+PASS | Svinjski vrat III. kategorije
+PASS | 1,00 kg
+PASS | Tvrda leđna slanina
+PASS | 0,50 kg
+PASS | 260–280 g
+PASS | 80–120 mm
+PASS | 150 dana
+Zabranjeni tragovi:
+PASS | 70 % meso
+PASS | 30 % slanina
+PASS | 55–60 mm
+PASS | 55-60 mm
+PASS | goveđa slijepa
+PASS | Crni papar
+PASS | 8,000 kg
+PASS | 2,000 kg
+
+=== 7) JAVNI TEST HR-SL-001 ===
+HR-SL-001 HTTP: 200 | https://drycured.com/recepti-baza/hr-sl-001-slavonski-kulen-pdo-eu/
+---- Očekivani javni tragovi ----
+PASS | 95 % mesni
+PASS | 5 % tvrda
+PASS | 80–120
+PASS | hladni dim
+PASS | 150 dana
+PASS | 260–280
+PASS | 6,00 kg
+PASS | 2,50 kg
+PASS | 1,00 kg
+PASS | 0,50 kg
+
+---- Zabranjeni/stari javni tragovi ----
+PASS | 70 % meso
+PASS | 30 % slanina
+PASS | 55–60 mm
+PASS | 55-60 mm
+PASS | goveđa slijepa
+PASS | Crni papar
+PASS | 8,000 kg
+PASS | 2,000 kg
+Public FAIL count: 0
+
+=== 8) JAVNI TEST UZORAKA ===
+200 | HR-SL-001 | ID 2972 | https://drycured.com/recepti-baza/hr-sl-001-slavonski-kulen-pdo-eu/
+200 | HR-SL-038 | ID 3003 | https://drycured.com/recepti-baza/hr-sl-038-slavonska-lovacka-kobasica-divljac-svinjetina/
+
+=== 9) REPO vs LIVE ===
+PASS: repo i live MU-plugin su identični.
+
+=== 10) GIT COMMIT ===
