@@ -1,0 +1,15 @@
+ID	post_title	post_name	post_status
+1470	Slavonski kulen: tradicija, tehnologija i zrenje	slavonski-domaci-kulen-ponos-hrvatske-tradicije	publish
+1472	Domaći čvarci: kako nastaju hrskavi, suhi i zlatnosmeđi	domaci-cvarci-iz-slavonije	publish
+2132	Fermentacija kobasica u kućnim uvjetima: kontrolirani početak sigurnog zrenja	fermentacija-kobasica-u-kucnim-uvjetima	publish
+2133	Case-hardening: tvrda kora, mekana sredina i kako zaustaviti problem	case-hardening-tvrda-kora-i-mekana-sredina	publish
+2134	Hladno, toplo i vruće dimljenje: tri postupka koja ne treba miješati	hladno-toplo-i-vruce-dimljenje-sto-nije-isto	publish
+2135	Drvo za dimljenje suhomesnatih proizvoda: kako dobiti čist i blag dim	koje-drvo-koristiti-za-dimljenje-suhomesnatih-proizvoda	publish
+2136	Zašto se kobasica ne smije sušiti prebrzo: tvrda kora nije znak gotovosti	zasto-se-kobasica-ne-smije-susiti-prebrzo	publish
+2137	Kako pratiti gubitak mase tijekom sušenja: vaga kao najjednostavniji instrument	kako-pratiti-gubitak-mase-tijekom-susenja	publish
+2138	Plemenita plijesan: kada je bijeli štit, a kada ozbiljno upozorenje	plemenita-plijesan-bijeli-stit-ili-upozorenje	publish
+2139	Temperatura, vlaga i zrak: tri stupa dobrog sušenja i zrenja	temperatura-vlaga-i-zrak-tri-stupa-zrenja	publish
+2141	Najčešće greške kod kobasica: uzroci, znakovi i konkretna rješenja	najcesce-greske-kod-kobasica-i-kako-ih-ispraviti	publish
+2837	Panceta: ravnoteža mesa, masti, soli i vremena	panceta-zasto-trbuh-trazi-strpljenje-i-ravnotezu	publish
+2842	Čuvanje nakon zrenja: kako ne pokvariti dobar suhomesnati proizvod na kraju	cuvanje-nakon-zrenja-kako-ne-pokvariti-dobar-proizvod	publish
+2854	Senzorska kontrola: što miris, dodir i presjek otkrivaju prije instrumenta	senzorska-kontrola-nos-oko-ruka-prije-instrumenta	publish
