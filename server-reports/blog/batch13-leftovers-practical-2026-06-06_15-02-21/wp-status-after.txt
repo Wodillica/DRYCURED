@@ -1,0 +1,6 @@
+ID	post_title	post_status
+464	Pasmine i tipovi svinja: zašto genetika, hranidba i mast mijenjaju proizvod	publish
+1438	Proljeće na tanjuru: kako suhomesnate proizvode koristiti lakše i pametnije	publish
+1462	Proljetni izbor suhomesnatih proizvoda: čuvanje, rezanje i laganije posluživanje	publish
+1632	Kalkulator i digitalni alati: kako recept pretvoriti u sigurnu šaržu	publish
+2130	Priprema i namakanje crijeva prije punjenja: mali korak koji čuva šaržu	publish

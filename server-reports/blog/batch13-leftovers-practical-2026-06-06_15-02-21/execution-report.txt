@@ -1,0 +1,84 @@
+============================================================
+DRYCURED BLOG — BATCH 13 ZAOSTALI PRAKTIČNI ČLANCI
+Vrijeme: Sat Jun  6 03:02:21 PM UTC 2026
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch13_leftovers_practical.php
+
+=== 2) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2130 | 1256 riječi | 19 H2 | 8 poveznica | Priprema i namakanje crijeva prije punjenja: mali korak koji čuva šaržu
+PASS | ID 464 | 1302 riječi | 20 H2 | 8 poveznica | Pasmine i tipovi svinja: zašto genetika, hranidba i mast mijenjaju proizvod
+PASS | ID 1438 | 1273 riječi | 20 H2 | 8 poveznica | Proljeće na tanjuru: kako suhomesnate proizvode koristiti lakše i pametnije
+PASS | ID 1462 | 1320 riječi | 21 H2 | 8 poveznica | Proljetni izbor suhomesnatih proizvoda: čuvanje, rezanje i laganije posluživanje
+PASS | ID 1632 | 1273 riječi | 20 H2 | 8 poveznica | Kalkulator i digitalni alati: kako recept pretvoriti u sigurnu šaržu
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 3) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 2130 | Priprema i namakanje crijeva prije punjenja | originalni naslov
+PASS | ID 464 | Types of Pigs | originalni naslov
+PASS | ID 1438 | Proljeće na tanjuru: kako sušeno meso oživljava sezonske recepte | originalni naslov
+PASS | ID 1462 | Proljetna ponuda suhomesnatih proizvoda | originalni naslov
+PASS | ID 1632 | Kalkulator novosti: v3 — 24 recepta, praćenje šarži, troubleshooter | originalni naslov
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== STVARNI QA PRIJE UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2130 | 1256 riječi | 19 H2 | 8 poveznica | Priprema i namakanje crijeva prije punjenja: mali korak koji čuva šaržu
+PASS | ID 464 | 1302 riječi | 20 H2 | 8 poveznica | Pasmine i tipovi svinja: zašto genetika, hranidba i mast mijenjaju proizvod
+PASS | ID 1438 | 1273 riječi | 20 H2 | 8 poveznica | Proljeće na tanjuru: kako suhomesnate proizvode koristiti lakše i pametnije
+PASS | ID 1462 | 1320 riječi | 21 H2 | 8 poveznica | Proljetni izbor suhomesnatih proizvoda: čuvanje, rezanje i laganije posluživanje
+PASS | ID 1632 | 1273 riječi | 20 H2 | 8 poveznica | Kalkulator i digitalni alati: kako recept pretvoriti u sigurnu šaržu
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 4) UPIS NOVOG SADRŽAJA U POSTOJEĆE ČLANKE ===
+UPDATED EXISTING | ID 2130 | Priprema i namakanje crijeva prije punjenja: mali korak koji čuva šaržu
+UPDATED EXISTING | ID 464 | Pasmine i tipovi svinja: zašto genetika, hranidba i mast mijenjaju proizvod
+UPDATED EXISTING | ID 1438 | Proljeće na tanjuru: kako suhomesnate proizvode koristiti lakše i pametnije
+UPDATED EXISTING | ID 1462 | Proljetni izbor suhomesnatih proizvoda: čuvanje, rezanje i laganije posluživanje
+UPDATED EXISTING | ID 1632 | Kalkulator i digitalni alati: kako recept pretvoriti u sigurnu šaržu
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 2130 | publish | 1256 riječi
+PASS | ID 464 | publish | 1302 riječi
+PASS | ID 1438 | publish | 1273 riječi
+PASS | ID 1462 | publish | 1320 riječi
+PASS | ID 1632 | publish | 1273 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 13 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA ===
+200 | ID 2130 | Crijeva prije punjenja | https://drycured.com/2024/01/15/priprema-i-namakanje-crijeva-prije-punjenja/
+200 | ID 464 | Pasmine i tipovi svinja | https://drycured.com/2025/02/23/vrste-svinja/
+200 | ID 1438 | Proljeće na tanjuru | https://drycured.com/2026/03/23/proljece-na-tanjuru-kako-suseno-meso-ozivljava-sezonske-recepte/
+200 | ID 1462 | Proljetni izbor | https://drycured.com/2026/03/28/proljetna-ponuda-suhomesnatih-proizvoda/
+200 | ID 1632 | Kalkulator i digitalni alati | https://drycured.com/2026/05/05/kalkulator-novosti-v3/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) WORDPRESS STATUS ===
+ID	post_title	post_status
+464	Pasmine i tipovi svinja: zašto genetika, hranidba i mast mijenjaju proizvod	publish
+1438	Proljeće na tanjuru: kako suhomesnate proizvode koristiti lakše i pametnije	publish
+1462	Proljetni izbor suhomesnatih proizvoda: čuvanje, rezanje i laganije posluživanje	publish
+1632	Kalkulator i digitalni alati: kako recept pretvoriti u sigurnu šaržu	publish
+2130	Priprema i namakanje crijeva prije punjenja: mali korak koji čuva šaržu	publish
+
+=== 6) PRIPREMA GIT REPORTA ===

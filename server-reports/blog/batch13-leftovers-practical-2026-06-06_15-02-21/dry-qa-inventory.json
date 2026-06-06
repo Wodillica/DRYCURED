@@ -1,0 +1,47 @@
+[
+    {
+        "id": 2130,
+        "title": "Priprema i namakanje crijeva prije punjenja: mali korak koji čuva šaržu",
+        "words": 1256,
+        "h2": 19,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "id": 464,
+        "title": "Pasmine i tipovi svinja: zašto genetika, hranidba i mast mijenjaju proizvod",
+        "words": 1302,
+        "h2": 20,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "id": 1438,
+        "title": "Proljeće na tanjuru: kako suhomesnate proizvode koristiti lakše i pametnije",
+        "words": 1273,
+        "h2": 20,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "id": 1462,
+        "title": "Proljetni izbor suhomesnatih proizvoda: čuvanje, rezanje i laganije posluživanje",
+        "words": 1320,
+        "h2": 21,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "id": 1632,
+        "title": "Kalkulator i digitalni alati: kako recept pretvoriti u sigurnu šaržu",
+        "words": 1273,
+        "h2": 20,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    }
+]
