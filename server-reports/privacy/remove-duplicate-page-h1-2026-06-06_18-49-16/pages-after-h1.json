@@ -1,0 +1,58 @@
+{
+    "o-projektu": {
+        "ID": 3399,
+        "title": "O projektu",
+        "url": "https://drycured.com/o-projektu/",
+        "content_h1_count": 0,
+        "content_start": "drycured.com je edukativni projekt posvećen tradicionalnim i suvremenim postupcima izrade suhomesnatih proizvoda. Cilj stranice je povezati znanje, praksu, rece"
+    },
+    "kontakt": {
+        "ID": 3400,
+        "title": "Kontakt",
+        "url": "https://drycured.com/kontakt/",
+        "content_h1_count": 0,
+        "content_start": "Za pitanja, prijedloge, suradnju, prijavu netočnosti ili tehničke probleme možete se javiti uredništvu drycured.com.\n\nZa opće upite, prijedloge i ispravke možet"
+    },
+    "sitemap": {
+        "ID": 3404,
+        "title": "Sitemap",
+        "url": "https://drycured.com/sitemap/",
+        "content_h1_count": 0,
+        "content_start": "Ova stranica služi kao jednostavan pregled važnih dijelova drycured.com.\n\nGlavne cjeline\n\nPočetna stranica\nRecepti\nBlog i vodiči\nKalkulator\nDrycured podcast\n\n\nP"
+    },
+    "prijavi-gresku": {
+        "ID": 3401,
+        "title": "Prijavi grešku",
+        "url": "https://drycured.com/prijavi-gresku/",
+        "content_h1_count": 0,
+        "content_start": "Ako primijetite netočan podatak, neispravnu poveznicu, tipfeler, problem u receptu, nejasnu uputu ili tehničku grešku, možete nam pomoći tako da je prijavite.\n\n"
+    },
+    "sigurnosna-napomena": {
+        "ID": 3402,
+        "title": "Sigurnosna napomena",
+        "url": "https://drycured.com/sigurnosna-napomena/",
+        "content_h1_count": 0,
+        "content_start": "Sadržaj na drycured.com služi za edukaciju, razumijevanje postupaka i bolju organizaciju rada. Izrada suhomesnatih proizvoda uključuje sirovo meso, sol, vlagu, "
+    },
+    "uvjeti-koristenja": {
+        "ID": 3403,
+        "title": "Uvjeti korištenja",
+        "url": "https://drycured.com/uvjeti-koristenja/",
+        "content_h1_count": 0,
+        "content_start": "Korištenjem web stranice drycured.com prihvaćate ove uvjete korištenja. Ako se s njima ne slažete, nemojte koristiti sadržaj stranice.\n\nEdukativna namjena\nSadrž"
+    },
+    "politika-privatnosti": {
+        "ID": 3398,
+        "title": "Politika privatnosti",
+        "url": "https://drycured.com/politika-privatnosti/",
+        "content_h1_count": 0,
+        "content_start": "Web stranica drycured.com obrađuje samo one podatke koji su potrebni za rad stranice, komunikaciju s korisnicima i pružanje sadržaja vezanog uz suhomesnate proi"
+    },
+    "politika-kolacica": {
+        "ID": 3397,
+        "title": "Politika kolačića",
+        "url": "https://drycured.com/politika-kolacica/",
+        "content_h1_count": 0,
+        "content_start": "Ova Politika kolačića objašnjava kako web stranica drycured.com koristi kolačiće i slične tehnologije. Cilj je da posjetitelj jasno zna što se koristi, zašto se"
+    }
+}

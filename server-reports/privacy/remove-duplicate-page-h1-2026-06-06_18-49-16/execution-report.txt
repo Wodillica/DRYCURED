@@ -1,0 +1,49 @@
+============================================================
+DRYCURED — REMOVE DUPLICATE PAGE H1 v1
+Uklanja H1 iz sadržaja servisnih/pravnih stranica
+Ostavlja samo naslov koji prikazuje tema.
+Vrijeme: Sat Jun  6 06:49:16 PM UTC 2026
+============================================================
+
+=== 1) PREFLIGHT ===
+PASS: Git radno stablo je čisto.
+
+=== 2) BACKUP BAZE ===
+Success: Exported to '/root/drycured-privacy-backups/remove-duplicate-page-h1-2026-06-06_18-49-16/db-before-remove-duplicate-page-h1.sql'.
+Backup: PASS
+
+=== 3) UKLANJANJE POČETNOG H1 IZ SADRŽAJA STRANICA ===
+UPDATED | o-projektu | uklonjen H1 iz sadržaja
+UPDATED | kontakt | uklonjen H1 iz sadržaja
+UPDATED | sitemap | uklonjen H1 iz sadržaja
+UPDATED | prijavi-gresku | uklonjen H1 iz sadržaja
+UPDATED | sigurnosna-napomena | uklonjen H1 iz sadržaja
+UPDATED | uvjeti-koristenja | uklonjen H1 iz sadržaja
+UPDATED | politika-privatnosti | uklonjen H1 iz sadržaja
+UPDATED | politika-kolacica | uklonjen H1 iz sadržaja
+H1 cleanup: PASS
+
+=== 4) CACHE ČIŠĆENJE ===
+Success: The cache was flushed.
+php8.3-fpm reload: done
+
+=== 5) JAVNI QA STRANICA ===
+200 | o-projektu | https://drycured.com/o-projektu/
+H1 count public | o-projektu | 1
+200 | kontakt | https://drycured.com/kontakt/
+H1 count public | kontakt | 1
+200 | sitemap | https://drycured.com/sitemap/
+H1 count public | sitemap | 1
+200 | prijavi-gresku | https://drycured.com/prijavi-gresku/
+H1 count public | prijavi-gresku | 1
+200 | sigurnosna-napomena | https://drycured.com/sigurnosna-napomena/
+H1 count public | sigurnosna-napomena | 1
+200 | uvjeti-koristenja | https://drycured.com/uvjeti-koristenja/
+H1 count public | uvjeti-koristenja | 1
+200 | politika-privatnosti | https://drycured.com/politika-privatnosti/
+H1 count public | politika-privatnosti | 1
+200 | politika-kolacica | https://drycured.com/politika-kolacica/
+H1 count public | politika-kolacica | 1
+Public H1 QA: PASS
+
+=== 6) GIT REPORT ===

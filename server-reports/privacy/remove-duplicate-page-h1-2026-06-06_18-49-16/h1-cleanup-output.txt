@@ -1,0 +1,9 @@
+UPDATED | o-projektu | uklonjen H1 iz sadržaja
+UPDATED | kontakt | uklonjen H1 iz sadržaja
+UPDATED | sitemap | uklonjen H1 iz sadržaja
+UPDATED | prijavi-gresku | uklonjen H1 iz sadržaja
+UPDATED | sigurnosna-napomena | uklonjen H1 iz sadržaja
+UPDATED | uvjeti-koristenja | uklonjen H1 iz sadržaja
+UPDATED | politika-privatnosti | uklonjen H1 iz sadržaja
+UPDATED | politika-kolacica | uklonjen H1 iz sadržaja
+H1 cleanup: PASS
