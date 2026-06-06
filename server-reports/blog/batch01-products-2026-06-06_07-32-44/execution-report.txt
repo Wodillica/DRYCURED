@@ -1,0 +1,114 @@
+============================================================
+DRYCURED BLOG — BATCH 01 PROIZVODI
+Kulen + panceta + čvarci
+Vrijeme: Fri Jun  5 07:53:19 PM UTC 2026
+============================================================
+No syntax errors detected in /tmp/drycured_blog_batch01_products.php
+
+=== 1) IZVRŠENJE PHP BATCHA ===
+
+=== 1) PREFLIGHT ===
+PASS | kanonski ID 1470 | slika 3248 | Slavonski Domaći Kulen – Ponos Hrvatske Tradicije
+PASS | kanonski ID 2837 | slika 3246 | Panceta: zašto trbuh traži strpljenje i ravnotežu
+PASS | kanonski ID 1472 | slika 3247 | Domaći čvarci iz Slavonije
+PASS | za draft ID 1466 | Tajna domaćeg slavonskog kulena
+PASS | za draft ID 1465 | Tajna tradicionalne recepture kulena
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== 3) QA NOVIH ČLANAKA PRIJE UPISA ===
+PASS | ID 1470 | 948 riječi | 9 H2
+PASS | ID 2837 | 810 riječi | 9 H2
+PASS | ID 1472 | 710 riječi | 8 H2
+QA tekstova: PASS
+
+=== 4) PRIPREMA REDIRECT PLUGINA I KATEGORIJE ===
+Redirect plugin: PASS
+Kategorija Enciklopedija znanja ID: 315
+
+=== 5) UPIS NOVIH KANONSKIH ČLANAKA ===
+UPDATED | ID 1470 | Slavonski kulen: tradicija, tehnologija i zrenje
+UPDATED | ID 2837 | Panceta: ravnoteža mesa, masti, soli i vremena
+UPDATED | ID 1472 | Domaći čvarci: kako nastaju hrskavi, suhi i zlatnosmeđi
+
+=== 6) 301 PREUSMJERENJA I DRAFT ZA SUVIŠNE KULEN ČLANKE ===
+DRAFT + 301 | ID 1466 | /2026/03/28/tajna-domaceg-slavonskog-kulena/ -> https://drycured.com/2026/03/28/slavonski-domaci-kulen-ponos-hrvatske-tradicije/
+DRAFT + 301 | ID 1465 | /2026/03/28/tajna-tradicionalne-recepture-kulena/ -> https://drycured.com/2026/03/28/slavonski-domaci-kulen-ponos-hrvatske-tradicije/
+
+=== 7) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 66 -> 64
+drycured_blog_core_profiles_v032: 66 -> 64
+
+=== 8) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 1470 | publish | 948 riječi | slika 3248
+PASS | ID 2837 | publish | 810 riječi | slika 3246
+PASS | ID 1472 | publish | 710 riječi | slika 3247
+PASS | ID 1466 | draft
+PASS | ID 1465 | draft
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 01 ZAVRŠEN — PASS
+============================================================
+
+=== 2) JAVNA HTTP PROVJERA ===
+200 | KULEN kanonski članak | https://drycured.com/2026/03/28/slavonski-domaci-kulen-ponos-hrvatske-tradicije/
+200 | PANCETA kanonski članak | https://drycured.com/2024/01/29/panceta-zasto-trbuh-trazi-strpljenje-i-ravnotezu/
+200 | ČVARCI kanonski članak | https://drycured.com/2026/03/28/domaci-cvarci-iz-slavonije/
+200 | Javni blog /vodici/ | https://drycured.com/vodici/
+301 -> 200 | kulen-1466 | https://drycured.com/2026/03/28/tajna-domaceg-slavonskog-kulena/
+Location: https://drycured.com/2026/03/28/slavonski-domaci-kulen-ponos-hrvatske-tradicije/
+301 -> 200 | kulen-1465 | https://drycured.com/2026/03/28/tajna-tradicionalne-recepture-kulena/
+Location: https://drycured.com/2026/03/28/slavonski-domaci-kulen-ponos-hrvatske-tradicije/
+Privatni toolbar na javnom /vodici/: 0
+
+=== 3) ZAVRŠNA WORDPRESS PROVJERA ===
+ID	post_title	post_status
+1465	Tajna tradicionalne recepture kulena	draft
+1466	Tajna domaćeg slavonskog kulena	draft
+1470	Slavonski kulen: tradicija, tehnologija i zrenje	publish
+1472	Domaći čvarci: kako nastaju hrskavi, suhi i zlatnosmeđi	publish
+2837	Panceta: ravnoteža mesa, masti, soli i vremena	publish
+
+=== 4) KONTROLNE SUME BACKUPA ===
+total 240K
+-rw-r--r-- 1 root root 7.4K Jun  5 19:53 article-1470-new.html
+-rw-r--r-- 1 root root 6.4K Jun  5 19:53 article-1470-new.txt
+-rw-r--r-- 1 root root 5.6K Jun  5 19:53 article-1472-new.html
+-rw-r--r-- 1 root root 4.8K Jun  5 19:53 article-1472-new.txt
+-rw-r--r-- 1 root root 6.4K Jun  5 19:53 article-2837-new.html
+-rw-r--r-- 1 root root 5.4K Jun  5 19:53 article-2837-new.txt
+-rw-r--r-- 1 root root 1.3K Jun  5 19:53 drycured-blog-editorial-redirects-before.php
+-rw-r--r-- 1 root root 3.5K Jun  5 19:53 execution-report.txt
+-rw-r--r-- 1 root root  42K Jun  5 19:53 full-after-state.json
+-rw-r--r-- 1 root root  53K Jun  5 19:53 full-before-state.json
+-rw-r--r-- 1 root root 1.3K Jun  5 19:53 headers-kulen-1465.txt
+-rw-r--r-- 1 root root 1.3K Jun  5 19:53 headers-kulen-1466.txt
+-rw-r--r-- 1 root root  21K Jun  5 19:53 option-drycured_blog_core_profiles_v031-before.json
+-rw-r--r-- 1 root root  21K Jun  5 19:53 option-drycured_blog_core_profiles_v032-before.json
+-rw-r--r-- 1 root root  185 Jun  5 19:53 option-drycured_blog_editorial_redirects_v1-before.json
+-rw-r--r-- 1 root root 2.1K Jun  5 19:53 post-1465-before.json
+-rw-r--r-- 1 root root 1.6K Jun  5 19:53 post-1466-before.json
+-rw-r--r-- 1 root root 1.7K Jun  5 19:53 post-1470-before.json
+-rw-r--r-- 1 root root 1.9K Jun  5 19:53 post-1472-before.json
+-rw-r--r-- 1 root root 2.4K Jun  5 19:53 post-2837-before.json
+-rw-r--r-- 1 root root 3.2K Jun  5 19:53 SHA256SUMS.txt
+
+============================================================
+BATCH 01 USPJEŠNO ZAVRŠEN
+
+Uređeni kanonski članci:
+ - ID 1470 — Slavonski kulen
+ - ID 2837 — Panceta
+ - ID 1472 — Domaći čvarci
+
+Prebačeno u draft uz 301:
+ - ID 1466 → ID 1470
+ - ID 1465 → ID 1470
+
+Backup:
+/root/drycured-blog-backups/blog-batch01-products-2026-06-05_19-53-19
+============================================================
