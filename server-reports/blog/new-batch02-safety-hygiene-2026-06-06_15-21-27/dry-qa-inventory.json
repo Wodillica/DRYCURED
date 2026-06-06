@@ -1,0 +1,47 @@
+[
+    {
+        "slug": "osnovni-higijenski-plan-za-kucnu-preradu-mesa",
+        "title": "Osnovni higijenski plan za kućnu preradu mesa",
+        "words": 1273,
+        "h2": 19,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "slug": "hladni-lanac-u-domacoj-preradi-mesa",
+        "title": "Hladni lanac u domaćoj preradi mesa: kako spriječiti topli nadjev i loš presjek",
+        "words": 1284,
+        "h2": 20,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "slug": "sigurnosni-semafor-suhomesnatih-proizvoda",
+        "title": "Sigurnosni semafor suhomesnatih proizvoda: kada nastaviti, usporiti ili odbaciti",
+        "words": 1280,
+        "h2": 20,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "slug": "kako-oznaciti-sarzu-suhomesnatih-proizvoda",
+        "title": "Kako označiti šaržu suhomesnatih proizvoda: naziv, datum, masa i trag procesa",
+        "words": 1294,
+        "h2": 20,
+        "links": 7,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "slug": "kada-ne-poceti-sarzu-suhomesnatih-proizvoda",
+        "title": "Kada ne početi šaržu: znakovi da proizvodnju treba odgoditi",
+        "words": 1284,
+        "h2": 20,
+        "links": 9,
+        "status": "PASS",
+        "errors": []
+    }
+]

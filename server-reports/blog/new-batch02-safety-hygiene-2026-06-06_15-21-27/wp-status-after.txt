@@ -1,0 +1,6 @@
+ID	post_title	post_name	post_status
+3332	Osnovni higijenski plan za kućnu preradu mesa	osnovni-higijenski-plan-za-kucnu-preradu-mesa	publish
+3333	Hladni lanac u domaćoj preradi mesa: kako spriječiti topli nadjev i loš presjek	hladni-lanac-u-domacoj-preradi-mesa	publish
+3334	Sigurnosni semafor suhomesnatih proizvoda: kada nastaviti, usporiti ili odbaciti	sigurnosni-semafor-suhomesnatih-proizvoda	publish
+3335	Kako označiti šaržu suhomesnatih proizvoda: naziv, datum, masa i trag procesa	kako-oznaciti-sarzu-suhomesnatih-proizvoda	publish
+3336	Kada ne početi šaržu: znakovi da proizvodnju treba odgoditi	kada-ne-poceti-sarzu-suhomesnatih-proizvoda	publish

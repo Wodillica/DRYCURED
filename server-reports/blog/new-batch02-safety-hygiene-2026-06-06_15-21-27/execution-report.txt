@@ -1,0 +1,89 @@
+============================================================
+DRYCURED BLOG — NEW BATCH 02
+KREIRANJE NOVIH ČLANAKA
+Tema: sigurnost, higijena i početnička kontrola rizika
+Vrijeme: Sat Jun  6 03:21:27 PM UTC 2026
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_new_batch02_safety_hygiene.php
+
+=== 2) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | osnovni-higijenski-plan-za-kucnu-preradu-mesa | 1273 riječi | 19 H2 | 8 poveznica | Osnovni higijenski plan za kućnu preradu mesa
+PASS | hladni-lanac-u-domacoj-preradi-mesa | 1284 riječi | 20 H2 | 8 poveznica | Hladni lanac u domaćoj preradi mesa: kako spriječiti topli nadjev i loš presjek
+PASS | sigurnosni-semafor-suhomesnatih-proizvoda | 1280 riječi | 20 H2 | 8 poveznica | Sigurnosni semafor suhomesnatih proizvoda: kada nastaviti, usporiti ili odbaciti
+PASS | kako-oznaciti-sarzu-suhomesnatih-proizvoda | 1294 riječi | 20 H2 | 7 poveznica | Kako označiti šaržu suhomesnatih proizvoda: naziv, datum, masa i trag procesa
+PASS | kada-ne-poceti-sarzu-suhomesnatih-proizvoda | 1284 riječi | 20 H2 | 9 poveznica | Kada ne početi šaržu: znakovi da proizvodnju treba odgoditi
+
+GLOBALNI QA: PASS — svi novi članci imaju sigurnosnu marginu.
+
+=== 3) STVARNO KREIRANJE NOVIH ČLANAKA ===
+
+=== 1) PREFLIGHT NOVIH SLUGOVA ===
+PASS | slug slobodan | osnovni-higijenski-plan-za-kucnu-preradu-mesa
+PASS | slug slobodan | hladni-lanac-u-domacoj-preradi-mesa
+PASS | slug slobodan | sigurnosni-semafor-suhomesnatih-proizvoda
+PASS | slug slobodan | kako-oznaciti-sarzu-suhomesnatih-proizvoda
+PASS | slug slobodan | kada-ne-poceti-sarzu-suhomesnatih-proizvoda
+Preflight slugova: PASS
+
+=== 2) BACKUP PROFILNIH INDEKSA ===
+Backup: PASS
+
+=== STVARNI QA PRIJE KREIRANJA — GLOBALNI QA INVENTAR ===
+PASS | osnovni-higijenski-plan-za-kucnu-preradu-mesa | 1273 riječi | 19 H2 | 8 poveznica | Osnovni higijenski plan za kućnu preradu mesa
+PASS | hladni-lanac-u-domacoj-preradi-mesa | 1284 riječi | 20 H2 | 8 poveznica | Hladni lanac u domaćoj preradi mesa: kako spriječiti topli nadjev i loš presjek
+PASS | sigurnosni-semafor-suhomesnatih-proizvoda | 1280 riječi | 20 H2 | 8 poveznica | Sigurnosni semafor suhomesnatih proizvoda: kada nastaviti, usporiti ili odbaciti
+PASS | kako-oznaciti-sarzu-suhomesnatih-proizvoda | 1294 riječi | 20 H2 | 7 poveznica | Kako označiti šaržu suhomesnatih proizvoda: naziv, datum, masa i trag procesa
+PASS | kada-ne-poceti-sarzu-suhomesnatih-proizvoda | 1284 riječi | 20 H2 | 9 poveznica | Kada ne početi šaržu: znakovi da proizvodnju treba odgoditi
+
+GLOBALNI QA: PASS — svi novi članci imaju sigurnosnu marginu.
+
+=== 4) KREIRANJE NOVIH ČLANAKA ===
+CREATED NEW | ID 3332 | osnovni-higijenski-plan-za-kucnu-preradu-mesa | Osnovni higijenski plan za kućnu preradu mesa
+CREATED NEW | ID 3333 | hladni-lanac-u-domacoj-preradi-mesa | Hladni lanac u domaćoj preradi mesa: kako spriječiti topli nadjev i loš presjek
+CREATED NEW | ID 3334 | sigurnosni-semafor-suhomesnatih-proizvoda | Sigurnosni semafor suhomesnatih proizvoda: kada nastaviti, usporiti ili odbaciti
+CREATED NEW | ID 3335 | kako-oznaciti-sarzu-suhomesnatih-proizvoda | Kako označiti šaržu suhomesnatih proizvoda: naziv, datum, masa i trag procesa
+CREATED NEW | ID 3336 | kada-ne-poceti-sarzu-suhomesnatih-proizvoda | Kada ne početi šaržu: znakovi da proizvodnju treba odgoditi
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 69 -> 74
+drycured_blog_core_profiles_v032: 69 -> 74
+
+=== 6) ZAVRŠNI QA NOVIH ČLANAKA ===
+PASS | NEW ID 3332 | osnovni-higijenski-plan-za-kucnu-preradu-mesa | 1273 riječi
+PASS | NEW ID 3333 | hladni-lanac-u-domacoj-preradi-mesa | 1284 riječi
+PASS | NEW ID 3334 | sigurnosni-semafor-suhomesnatih-proizvoda | 1280 riječi
+PASS | NEW ID 3335 | kako-oznaciti-sarzu-suhomesnatih-proizvoda | 1294 riječi
+PASS | NEW ID 3336 | kada-ne-poceti-sarzu-suhomesnatih-proizvoda | 1284 riječi
+PASS | drycured_blog_core_profiles_v031 | novi profili OK
+PASS | drycured_blog_core_profiles_v032 | novi profili OK
+
+============================================================
+PHP DIO NEW BATCH 02 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA NOVIH ČLANAKA ===
+200 | NEW ID 3332 | osnovni-higijenski-plan-za-kucnu-preradu-mesa | https://drycured.com/2026/06/06/osnovni-higijenski-plan-za-kucnu-preradu-mesa/
+200 | NEW ID 3333 | hladni-lanac-u-domacoj-preradi-mesa | https://drycured.com/2026/06/06/hladni-lanac-u-domacoj-preradi-mesa/
+200 | NEW ID 3334 | sigurnosni-semafor-suhomesnatih-proizvoda | https://drycured.com/2026/06/06/sigurnosni-semafor-suhomesnatih-proizvoda/
+200 | NEW ID 3335 | kako-oznaciti-sarzu-suhomesnatih-proizvoda | https://drycured.com/2026/06/06/kako-oznaciti-sarzu-suhomesnatih-proizvoda/
+200 | NEW ID 3336 | kada-ne-poceti-sarzu-suhomesnatih-proizvoda | https://drycured.com/2026/06/06/kada-ne-poceti-sarzu-suhomesnatih-proizvoda/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) WORDPRESS STATUS NOVIH ČLANAKA ===
+ID	post_title	post_name	post_status
+3332	Osnovni higijenski plan za kućnu preradu mesa	osnovni-higijenski-plan-za-kucnu-preradu-mesa	publish
+3333	Hladni lanac u domaćoj preradi mesa: kako spriječiti topli nadjev i loš presjek	hladni-lanac-u-domacoj-preradi-mesa	publish
+3334	Sigurnosni semafor suhomesnatih proizvoda: kada nastaviti, usporiti ili odbaciti	sigurnosni-semafor-suhomesnatih-proizvoda	publish
+3335	Kako označiti šaržu suhomesnatih proizvoda: naziv, datum, masa i trag procesa	kako-oznaciti-sarzu-suhomesnatih-proizvoda	publish
+3336	Kada ne početi šaržu: znakovi da proizvodnju treba odgoditi	kada-ne-poceti-sarzu-suhomesnatih-proizvoda	publish
+
+=== 6) BROJ AKTIVNIH PROFILA NAKON NOVIH ČLANAKA ===
+Aktivnih profila v032: 74
+
+=== 7) PRIPREMA GIT REPORTA ===
