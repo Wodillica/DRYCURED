@@ -1,0 +1,81 @@
+
+=== 1) PATCH SVIH BATCH 03 ČLANAKA + DRY QA MOD ===
+Patch svih članaka + DRY QA mod: PASS
+
+=== 2) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch03_fermentation_safety.php
+
+=== 3) DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA NOVIH TEKSTOVA — BEZ WORDPRESS UPISA ===
+PASS | ID 2132 | 610 riječi | 8 H2 | 3 poveznica
+PASS | ID 2852 | 599 riječi | 8 H2 | 3 poveznica
+PASS | ID 2144 | 568 riječi | 8 H2 | 3 poveznica
+PASS | ID 2851 | 578 riječi | 8 H2 | 3 poveznica
+PASS | ID 2843 | 576 riječi | 8 H2 | 3 poveznica
+DRY QA: PASS — može stvarni WordPress upis.
+
+=== 4) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 2132 | Fermentacija kobasica u kućnim uvjetima
+PASS | ID 2852 | Starter kulture: kada pomažu, a kada nisu čarobni štapić
+PASS | ID 2144 | Sigurnost hrane kod suhomesnatih proizvoda bez panike
+PASS | ID 2851 | Vodna aktivnost: zašto sama vlaga nije dovoljna za sigurnost
+PASS | ID 2843 | Kada proizvod treba odbaciti: granica između rizika i sigurnosti
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== 3) QA NOVIH TEKSTOVA ===
+PASS | ID 2132 | 610 riječi | 8 H2 | 3 poveznica
+PASS | ID 2852 | 599 riječi | 8 H2 | 3 poveznica
+PASS | ID 2144 | 568 riječi | 8 H2 | 3 poveznica
+PASS | ID 2851 | 578 riječi | 8 H2 | 3 poveznica
+PASS | ID 2843 | 576 riječi | 8 H2 | 3 poveznica
+QA tekstova: PASS
+
+=== 4) UPIS NOVIH ČLANAKA ===
+UPDATED | ID 2132 | Fermentacija kobasica u kućnim uvjetima: kontrolirani početak sigurnog zrenja
+UPDATED | ID 2852 | Starter kulture: pomoć za fermentaciju, ali ne zamjena za higijenu
+UPDATED | ID 2144 | Sigurnost hrane kod suhomesnatih proizvoda: bez panike, ali bez improvizacije
+UPDATED | ID 2851 | Vodna aktivnost: zašto suh izgled nije dovoljan dokaz sigurnosti
+UPDATED | ID 2843 | Kada suhomesnati proizvod treba odbaciti: jasna granica sigurnosti
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 2132 | publish | 610 riječi
+PASS | ID 2852 | publish | 599 riječi
+PASS | ID 2144 | publish | 568 riječi
+PASS | ID 2851 | publish | 578 riječi
+PASS | ID 2843 | publish | 576 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 03 ZAVRŠEN — PASS
+============================================================
+
+=== 5) JAVNA HTTP PROVJERA ===
+200 | ID 2132 | Fermentacija | https://drycured.com/2024/01/13/fermentacija-kobasica-u-kucnim-uvjetima/
+200 | ID 2852 | Starter kulture | https://drycured.com/2024/02/13/starter-kulture-kada-pomazu-a-kada-nisu-carobni-stapic/
+200 | ID 2144 | Sigurnost hrane | https://drycured.com/2024/01/01/sigurnost-hrane-kod-suhomesnatih-proizvoda-bez-panike/
+200 | ID 2851 | Vodna aktivnost | https://drycured.com/2024/02/12/vodna-aktivnost-zasto-sama-vlaga-nije-dovoljna/
+200 | ID 2843 | Kada odbaciti proizvod | https://drycured.com/2024/02/04/kada-proizvod-treba-odbaciti-rizik-i-sigurnost/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 6) WORDPRESS STATUS ===
+ID	post_title	post_status
+2132	Fermentacija kobasica u kućnim uvjetima: kontrolirani početak sigurnog zrenja	publish
+2144	Sigurnost hrane kod suhomesnatih proizvoda: bez panike, ali bez improvizacije	publish
+2843	Kada suhomesnati proizvod treba odbaciti: jasna granica sigurnosti	publish
+2851	Vodna aktivnost: zašto suh izgled nije dovoljan dokaz sigurnosti	publish
+2852	Starter kulture: pomoć za fermentaciju, ali ne zamjena za higijenu	publish
+
+=== 7) PRIPREMA GIT REPORTA ===
