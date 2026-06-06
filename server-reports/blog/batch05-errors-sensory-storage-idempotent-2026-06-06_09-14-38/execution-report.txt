@@ -1,0 +1,91 @@
+
+=== 1) PATCH: IDEMPOTENT PREFLIGHT NASLOVA ===
+Idempotent preflight patch: PASS
+
+=== 2) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch05_errors_sensory_storage.php
+
+=== 3) TRENUTNO WORDPRESS STANJE PRIJE UPISA ===
+ID	post_title	post_status
+2133	Case-hardening: tvrda kora, mekana sredina i kako zaustaviti problem	publish
+2138	Plemenita plijesan: kada je bijeli štit, a kada ozbiljno upozorenje	publish
+2141	Najčešće greške kod kobasica: uzroci, znakovi i konkretna rješenja	publish
+2842	Čuvanje nakon zrenja: kako ne pokvariti dobar suhomesnati proizvod na kraju	publish
+2854	Senzorska kontrola: što miris, dodir i presjek otkrivaju prije instrumenta	publish
+
+=== 4) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2133 | 783 riječi | 11 H2 | 4 poveznica | Case-hardening: tvrda kora, mekana sredina i kako zaustaviti problem
+PASS | ID 2138 | 741 riječi | 11 H2 | 5 poveznica | Plemenita plijesan: kada je bijeli štit, a kada ozbiljno upozorenje
+PASS | ID 2141 | 725 riječi | 10 H2 | 5 poveznica | Najčešće greške kod kobasica: uzroci, znakovi i konkretna rješenja
+PASS | ID 2854 | 741 riječi | 11 H2 | 5 poveznica | Senzorska kontrola: što miris, dodir i presjek otkrivaju prije instrumenta
+PASS | ID 2842 | 749 riječi | 11 H2 | 5 poveznica | Čuvanje nakon zrenja: kako ne pokvariti dobar suhomesnati proizvod na kraju
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 5) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 2133 | Case-hardening: tvrda kora, mekana sredina i kako zaustaviti problem | ciljni naslov
+PASS | ID 2138 | Plemenita plijesan: kada je bijeli štit, a kada ozbiljno upozorenje | ciljni naslov
+PASS | ID 2141 | Najčešće greške kod kobasica: uzroci, znakovi i konkretna rješenja | ciljni naslov
+PASS | ID 2854 | Senzorska kontrola: što miris, dodir i presjek otkrivaju prije instrumenta | ciljni naslov
+PASS | ID 2842 | Čuvanje nakon zrenja: kako ne pokvariti dobar suhomesnati proizvod na kraju | ciljni naslov
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== STVARNI QA PRIJE UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2133 | 783 riječi | 11 H2 | 4 poveznica | Case-hardening: tvrda kora, mekana sredina i kako zaustaviti problem
+PASS | ID 2138 | 741 riječi | 11 H2 | 5 poveznica | Plemenita plijesan: kada je bijeli štit, a kada ozbiljno upozorenje
+PASS | ID 2141 | 725 riječi | 10 H2 | 5 poveznica | Najčešće greške kod kobasica: uzroci, znakovi i konkretna rješenja
+PASS | ID 2854 | 741 riječi | 11 H2 | 5 poveznica | Senzorska kontrola: što miris, dodir i presjek otkrivaju prije instrumenta
+PASS | ID 2842 | 749 riječi | 11 H2 | 5 poveznica | Čuvanje nakon zrenja: kako ne pokvariti dobar suhomesnati proizvod na kraju
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 4) UPIS NOVIH ČLANAKA ===
+UPDATED | ID 2133 | Case-hardening: tvrda kora, mekana sredina i kako zaustaviti problem
+UPDATED | ID 2138 | Plemenita plijesan: kada je bijeli štit, a kada ozbiljno upozorenje
+UPDATED | ID 2141 | Najčešće greške kod kobasica: uzroci, znakovi i konkretna rješenja
+UPDATED | ID 2854 | Senzorska kontrola: što miris, dodir i presjek otkrivaju prije instrumenta
+UPDATED | ID 2842 | Čuvanje nakon zrenja: kako ne pokvariti dobar suhomesnati proizvod na kraju
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 2133 | publish | 783 riječi
+PASS | ID 2138 | publish | 741 riječi
+PASS | ID 2141 | publish | 725 riječi
+PASS | ID 2854 | publish | 741 riječi
+PASS | ID 2842 | publish | 749 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 05 ZAVRŠEN — PASS
+============================================================
+
+=== 6) JAVNA HTTP PROVJERA ===
+200 | ID 2133 | Case-hardening | https://drycured.com/2024/01/12/case-hardening-tvrda-kora-i-mekana-sredina/
+200 | ID 2138 | Plemenita plijesan | https://drycured.com/2024/01/08/plemenita-plijesan-bijeli-stit-ili-upozorenje/
+200 | ID 2141 | Greške kod kobasica | https://drycured.com/2024/01/04/najcesce-greske-kod-kobasica-i-kako-ih-ispraviti/
+200 | ID 2854 | Senzorska kontrola | https://drycured.com/2024/02/15/senzorska-kontrola-nos-oko-ruka-prije-instrumenta/
+200 | ID 2842 | Čuvanje nakon zrenja | https://drycured.com/2024/02/03/cuvanje-nakon-zrenja-kako-ne-pokvariti-dobar-proizvod/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 7) WORDPRESS STATUS NAKON UPISA ===
+ID	post_title	post_status
+2133	Case-hardening: tvrda kora, mekana sredina i kako zaustaviti problem	publish
+2138	Plemenita plijesan: kada je bijeli štit, a kada ozbiljno upozorenje	publish
+2141	Najčešće greške kod kobasica: uzroci, znakovi i konkretna rješenja	publish
+2842	Čuvanje nakon zrenja: kako ne pokvariti dobar suhomesnati proizvod na kraju	publish
+2854	Senzorska kontrola: što miris, dodir i presjek otkrivaju prije instrumenta	publish
+
+=== 8) PRIPREMA GIT REPORTA ===

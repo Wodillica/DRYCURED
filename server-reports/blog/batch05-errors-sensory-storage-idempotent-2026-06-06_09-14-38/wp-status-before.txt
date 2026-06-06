@@ -1,0 +1,6 @@
+ID	post_title	post_status
+2133	Case-hardening: tvrda kora, mekana sredina i kako zaustaviti problem	publish
+2138	Plemenita plijesan: kada je bijeli štit, a kada ozbiljno upozorenje	publish
+2141	Najčešće greške kod kobasica: uzroci, znakovi i konkretna rješenja	publish
+2842	Čuvanje nakon zrenja: kako ne pokvariti dobar suhomesnati proizvod na kraju	publish
+2854	Senzorska kontrola: što miris, dodir i presjek otkrivaju prije instrumenta	publish
