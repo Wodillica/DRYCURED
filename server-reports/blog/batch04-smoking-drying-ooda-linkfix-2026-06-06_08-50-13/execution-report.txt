@@ -1,0 +1,82 @@
+
+=== 1) PATCH NEDOSTAJUĆIH INTERNIH POVEZNICA ===
+Link-fix patch: PASS
+
+=== 2) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch04_smoking_drying.php
+
+=== 3) GLOBALNI DRY QA INVENTAR — BEZ WORDPRESS UPISA ===
+
+=== GLOBALNI DRY QA INVENTAR — BEZ WORDPRESS UPISA ===
+PASS | ID 2134 | 804 riječi | 10 H2 | 5 poveznica | Hladno, toplo i vruće dimljenje: tri postupka koja ne treba miješati
+PASS | ID 2135 | 791 riječi | 10 H2 | 4 poveznica | Drvo za dimljenje suhomesnatih proizvoda: kako dobiti čist i blag dim
+PASS | ID 2136 | 710 riječi | 9 H2 | 4 poveznica | Zašto se kobasica ne smije sušiti prebrzo: tvrda kora nije znak gotovosti
+PASS | ID 2137 | 752 riječi | 10 H2 | 4 poveznica | Kako pratiti gubitak mase tijekom sušenja: vaga kao najjednostavniji instrument
+PASS | ID 2139 | 712 riječi | 9 H2 | 4 poveznica | Temperatura, vlaga i zrak: tri stupa dobrog sušenja i zrenja
+
+DRY QA: PASS — svi članci imaju sigurnosnu marginu; može stvarni WordPress upis.
+
+=== 4) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 2134 | Hladno, toplo i vruće dimljenje: što nije isto
+PASS | ID 2135 | Koje drvo koristiti za dimljenje suhomesnatih proizvoda
+PASS | ID 2136 | Zašto se kobasica ne smije sušiti prebrzo
+PASS | ID 2137 | Kako pratiti gubitak mase tijekom sušenja
+PASS | ID 2139 | Temperatura, vlaga i zrak: tri stupa zrenja
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== 3) QA NOVIH TEKSTOVA ===
+PASS | ID 2134 | 804 riječi | 10 H2 | 5 poveznica
+PASS | ID 2135 | 791 riječi | 10 H2 | 4 poveznica
+PASS | ID 2136 | 710 riječi | 9 H2 | 4 poveznica
+PASS | ID 2137 | 752 riječi | 10 H2 | 4 poveznica
+PASS | ID 2139 | 712 riječi | 9 H2 | 4 poveznica
+QA tekstova: PASS
+
+=== 4) UPIS NOVIH ČLANAKA ===
+UPDATED | ID 2134 | Hladno, toplo i vruće dimljenje: tri postupka koja ne treba miješati
+UPDATED | ID 2135 | Drvo za dimljenje suhomesnatih proizvoda: kako dobiti čist i blag dim
+UPDATED | ID 2136 | Zašto se kobasica ne smije sušiti prebrzo: tvrda kora nije znak gotovosti
+UPDATED | ID 2137 | Kako pratiti gubitak mase tijekom sušenja: vaga kao najjednostavniji instrument
+UPDATED | ID 2139 | Temperatura, vlaga i zrak: tri stupa dobrog sušenja i zrenja
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 2134 | publish | 804 riječi
+PASS | ID 2135 | publish | 791 riječi
+PASS | ID 2136 | publish | 710 riječi
+PASS | ID 2137 | publish | 752 riječi
+PASS | ID 2139 | publish | 712 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 04 ZAVRŠEN — PASS
+============================================================
+
+=== 5) JAVNA HTTP PROVJERA ===
+200 | ID 2134 | Dimljenje | https://drycured.com/2024/01/11/hladno-toplo-i-vruce-dimljenje-sto-nije-isto/
+200 | ID 2135 | Drvo za dimljenje | https://drycured.com/2024/01/07/koje-drvo-koristiti-za-dimljenje-suhomesnatih-proizvoda/
+200 | ID 2136 | Prebrzo sušenje | https://drycured.com/2024/01/10/zasto-se-kobasica-ne-smije-susiti-prebrzo/
+200 | ID 2137 | Gubitak mase | https://drycured.com/2024/01/09/kako-pratiti-gubitak-mase-tijekom-susenja/
+200 | ID 2139 | Mikroklima | https://drycured.com/2024/01/06/temperatura-vlaga-i-zrak-tri-stupa-zrenja/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 6) WORDPRESS STATUS ===
+ID	post_title	post_status
+2134	Hladno, toplo i vruće dimljenje: tri postupka koja ne treba miješati	publish
+2135	Drvo za dimljenje suhomesnatih proizvoda: kako dobiti čist i blag dim	publish
+2136	Zašto se kobasica ne smije sušiti prebrzo: tvrda kora nije znak gotovosti	publish
+2137	Kako pratiti gubitak mase tijekom sušenja: vaga kao najjednostavniji instrument	publish
+2139	Temperatura, vlaga i zrak: tri stupa dobrog sušenja i zrenja	publish
+
+=== 7) PRIPREMA GIT REPORTA ===
