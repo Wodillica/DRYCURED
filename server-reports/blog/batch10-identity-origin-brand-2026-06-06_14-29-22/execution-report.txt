@@ -1,0 +1,84 @@
+============================================================
+DRYCURED BLOG — BATCH 10 IDENTITET, POVIJEST I MALI BREND
+Vrijeme: Sat Jun  6 02:29:22 PM UTC 2026
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch10_identity_origin_brand.php
+
+=== 2) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2829 | 1210 riječi | 18 H2 | 7 poveznica | Zašto suhomesnati proizvod nije samo recept
+PASS | ID 2830 | 1189 riječi | 18 H2 | 8 poveznica | Povijest sušenja mesa: kako su sol, dim i vrijeme čuvali hranu
+PASS | ID 2844 | 1181 riječi | 18 H2 | 6 poveznica | Kolinje kao škola zanata: kako se znanje prenosilo generacijama
+PASS | ID 2846 | 1188 riječi | 18 H2 | 5 poveznica | PDO, PGI i TSG: što znače europske oznake izvornosti
+PASS | ID 2847 | 1191 riječi | 19 H2 | 8 poveznica | Od hobija do malog brenda: kako predstaviti domaći suhomesnati proizvod
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 3) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 2829 | Zašto suhomesnati proizvod nije samo recept | originalni naslov
+PASS | ID 2830 | Povijest sušenja mesa: kako su sol, dim i vrijeme čuvali hranu | originalni naslov
+PASS | ID 2844 | Kolinje kao škola zanata: kako se znanje prenosilo generacijama | originalni naslov
+PASS | ID 2846 | PDO, PGI i TSG: što znače europske oznake izvornosti | originalni naslov
+PASS | ID 2847 | Od hobija do malog brenda: kako predstaviti domaći suhomesnati proizvod | originalni naslov
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== STVARNI QA PRIJE UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2829 | 1210 riječi | 18 H2 | 7 poveznica | Zašto suhomesnati proizvod nije samo recept
+PASS | ID 2830 | 1189 riječi | 18 H2 | 8 poveznica | Povijest sušenja mesa: kako su sol, dim i vrijeme čuvali hranu
+PASS | ID 2844 | 1181 riječi | 18 H2 | 6 poveznica | Kolinje kao škola zanata: kako se znanje prenosilo generacijama
+PASS | ID 2846 | 1188 riječi | 18 H2 | 5 poveznica | PDO, PGI i TSG: što znače europske oznake izvornosti
+PASS | ID 2847 | 1191 riječi | 19 H2 | 8 poveznica | Od hobija do malog brenda: kako predstaviti domaći suhomesnati proizvod
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 4) UPIS NOVIH ČLANAKA ===
+UPDATED | ID 2829 | Zašto suhomesnati proizvod nije samo recept
+UPDATED | ID 2830 | Povijest sušenja mesa: kako su sol, dim i vrijeme čuvali hranu
+UPDATED | ID 2844 | Kolinje kao škola zanata: kako se znanje prenosilo generacijama
+UPDATED | ID 2846 | PDO, PGI i TSG: što znače europske oznake izvornosti
+UPDATED | ID 2847 | Od hobija do malog brenda: kako predstaviti domaći suhomesnati proizvod
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 2829 | publish | 1210 riječi
+PASS | ID 2830 | publish | 1189 riječi
+PASS | ID 2844 | publish | 1181 riječi
+PASS | ID 2846 | publish | 1188 riječi
+PASS | ID 2847 | publish | 1191 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 10 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA ===
+200 | ID 2829 | Filozofija proizvoda | https://drycured.com/2024/01/21/zasto-suhomesnati-proizvod-nije-samo-recept/
+200 | ID 2830 | Povijest sušenja | https://drycured.com/2024/01/22/povijest-susenja-mesa-sol-dim-vrijeme/
+200 | ID 2844 | Kolinje | https://drycured.com/2024/02/05/kolinje-kao-skola-zanata-kako-se-znanje-prenosilo/
+200 | ID 2846 | PDO PGI TSG | https://drycured.com/2024/02/07/pdo-pgi-tsg-europske-oznake-izvornosti/
+200 | ID 2847 | Mali brend | https://drycured.com/2024/02/08/od-hobija-do-malog-brenda-domaci-suhomesnati-proizvod/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) WORDPRESS STATUS ===
+ID	post_title	post_status
+2829	Zašto suhomesnati proizvod nije samo recept	publish
+2830	Povijest sušenja mesa: kako su sol, dim i vrijeme čuvali hranu	publish
+2844	Kolinje kao škola zanata: kako se znanje prenosilo generacijama	publish
+2846	PDO, PGI i TSG: što znače europske oznake izvornosti	publish
+2847	Od hobija do malog brenda: kako predstaviti domaći suhomesnati proizvod	publish
+
+=== 6) PRIPREMA GIT REPORTA ===

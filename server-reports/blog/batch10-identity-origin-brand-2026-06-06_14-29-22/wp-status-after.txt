@@ -1,0 +1,6 @@
+ID	post_title	post_status
+2829	Zašto suhomesnati proizvod nije samo recept	publish
+2830	Povijest sušenja mesa: kako su sol, dim i vrijeme čuvali hranu	publish
+2844	Kolinje kao škola zanata: kako se znanje prenosilo generacijama	publish
+2846	PDO, PGI i TSG: što znače europske oznake izvornosti	publish
+2847	Od hobija do malog brenda: kako predstaviti domaći suhomesnati proizvod	publish
