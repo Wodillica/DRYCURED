@@ -1,0 +1,6 @@
+ID	post_title	post_status
+2128	Redoslijed izrade suhomesnatih proizvoda: zašto se faze ne smiju preskakati	publish
+2131	Tekućina od češnjaka: čista aroma bez zelenih mrlja u presjeku	publish
+2142	Dnevnik šarže: najjeftiniji alat za učenje i ponavljanje dobre proizvodnje	publish
+2143	Zašto svi recepti na drycured.com kreću od 10 kg mesa	publish
+2855	Higijena prostora i alata: nevidljivi temelj sigurne šarže	publish

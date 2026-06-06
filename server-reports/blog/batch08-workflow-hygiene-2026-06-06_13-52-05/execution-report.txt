@@ -1,0 +1,84 @@
+============================================================
+DRYCURED BLOG — BATCH 08 RADNI REDOSLIJED, HIGIJENA I DNEVNIK
+Vrijeme: Sat Jun  6 01:52:05 PM UTC 2026
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch08_workflow_hygiene.php
+
+=== 2) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2128 | 1269 riječi | 18 H2 | 16 poveznica | Redoslijed izrade suhomesnatih proizvoda: zašto se faze ne smiju preskakati
+PASS | ID 2131 | 1285 riječi | 17 H2 | 5 poveznica | Tekućina od češnjaka: čista aroma bez zelenih mrlja u presjeku
+PASS | ID 2142 | 1283 riječi | 19 H2 | 12 poveznica | Dnevnik šarže: najjeftiniji alat za učenje i ponavljanje dobre proizvodnje
+PASS | ID 2143 | 1321 riječi | 19 H2 | 6 poveznica | Zašto svi recepti na drycured.com kreću od 10 kg mesa
+PASS | ID 2855 | 1267 riječi | 19 H2 | 11 poveznica | Higijena prostora i alata: nevidljivi temelj sigurne šarže
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 3) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 2128 | Redoslijed izrade suhomesnatih proizvoda bez preskakanja faza | originalni naslov
+PASS | ID 2131 | Tekućina od češnjaka: čista aroma bez zelenih mrlja u presjeku | originalni naslov
+PASS | ID 2142 | Dnevnik šarže: najjeftiniji alat za učenje | originalni naslov
+PASS | ID 2143 | Zašto svi recepti na drycured.com kreću od 10 kg mesa | originalni naslov
+PASS | ID 2855 | Higijena prostora i alata: nevidljivi temelj sigurne šarže | originalni naslov
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== STVARNI QA PRIJE UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2128 | 1269 riječi | 18 H2 | 16 poveznica | Redoslijed izrade suhomesnatih proizvoda: zašto se faze ne smiju preskakati
+PASS | ID 2131 | 1285 riječi | 17 H2 | 5 poveznica | Tekućina od češnjaka: čista aroma bez zelenih mrlja u presjeku
+PASS | ID 2142 | 1283 riječi | 19 H2 | 12 poveznica | Dnevnik šarže: najjeftiniji alat za učenje i ponavljanje dobre proizvodnje
+PASS | ID 2143 | 1321 riječi | 19 H2 | 6 poveznica | Zašto svi recepti na drycured.com kreću od 10 kg mesa
+PASS | ID 2855 | 1267 riječi | 19 H2 | 11 poveznica | Higijena prostora i alata: nevidljivi temelj sigurne šarže
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 4) UPIS NOVIH ČLANAKA ===
+UPDATED | ID 2128 | Redoslijed izrade suhomesnatih proizvoda: zašto se faze ne smiju preskakati
+UPDATED | ID 2131 | Tekućina od češnjaka: čista aroma bez zelenih mrlja u presjeku
+UPDATED | ID 2142 | Dnevnik šarže: najjeftiniji alat za učenje i ponavljanje dobre proizvodnje
+UPDATED | ID 2143 | Zašto svi recepti na drycured.com kreću od 10 kg mesa
+UPDATED | ID 2855 | Higijena prostora i alata: nevidljivi temelj sigurne šarže
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 2128 | publish | 1269 riječi
+PASS | ID 2131 | publish | 1285 riječi
+PASS | ID 2142 | publish | 1283 riječi
+PASS | ID 2143 | publish | 1321 riječi
+PASS | ID 2855 | publish | 1267 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 08 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA ===
+200 | ID 2128 | Redoslijed | https://drycured.com/2024/01/17/redoslijed-izrade-suhomesnatih-proizvoda-bez-preskakanja-faza/
+200 | ID 2131 | Tekućina češnjaka | https://drycured.com/2024/01/14/tekucina-od-cesnjaka-cista-aroma-bez-zelenih-mrlja-u-presjeku/
+200 | ID 2142 | Dnevnik šarže | https://drycured.com/2024/01/03/dnevnik-sarze-najjeftiniji-alat-za-ucenje/
+200 | ID 2143 | Standard 10 kg | https://drycured.com/2024/01/02/zasto-svi-recepti-na-drycured-com-krecu-od-10-kg-mesa/
+200 | ID 2855 | Higijena | https://drycured.com/2024/02/16/higijena-prostora-i-alata-temelj-sigurne-sarze/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) WORDPRESS STATUS ===
+ID	post_title	post_status
+2128	Redoslijed izrade suhomesnatih proizvoda: zašto se faze ne smiju preskakati	publish
+2131	Tekućina od češnjaka: čista aroma bez zelenih mrlja u presjeku	publish
+2142	Dnevnik šarže: najjeftiniji alat za učenje i ponavljanje dobre proizvodnje	publish
+2143	Zašto svi recepti na drycured.com kreću od 10 kg mesa	publish
+2855	Higijena prostora i alata: nevidljivi temelj sigurne šarže	publish
+
+=== 6) PRIPREMA GIT REPORTA ===
