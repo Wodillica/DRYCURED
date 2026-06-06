@@ -1,0 +1,15 @@
+ID	post_title	post_name	post_status
+2125	Kako prepoznati dobro meso za suhomesnate proizvode	kako-prepoznati-dobro-meso-za-suhomesnate-proizvode	publish
+2126	Sol u suhomesnatim proizvodima: čuvar sigurnosti, okusa i strukture	sol-najstariji-cuvar-mesa	publish
+2127	Suho, mokro i kombinirano soljenje: kako odabrati pravi postupak	suho-mokro-i-kombinirano-soljenje-kada-koristiti-koju-metodu	publish
+2129	Kako sol putuje kroz meso: difuzija bez nagađanja	kako-sol-putuje-kroz-meso	publish
+2144	Sigurnost hrane kod suhomesnatih proizvoda: bez panike, ali bez improvizacije	sigurnost-hrane-kod-suhomesnatih-proizvoda-bez-panike	publish
+2831	Pasmina, prehrana i mast: zašto sirovina odlučuje o okusu	pasmina-prehrana-i-mast-zasto-sirovina-odlucuje-o-okusu	publish
+2832	Mast u suhomesnatim proizvodima: neprijatelj ili nositelj okusa	mast-u-suhomesnatim-proizvodima-nositelj-okusa	publish
+2833	PSE i DFD meso: kako loša sirovina pokvari dobar postupak	pse-i-dfd-meso-kako-losa-sirovina-pokvari-dobar-postupak	publish
+2843	Kada suhomesnati proizvod treba odbaciti: jasna granica sigurnosti	kada-proizvod-treba-odbaciti-rizik-i-sigurnost	publish
+2849	Ekvilibrijsko soljenje: preciznost umjesto soljenja od oka	ekvilibrijsko-soljenje-kako-soliti-precizno	publish
+2850	Equalizacija nakon soljenja: faza odmora koja spašava presjek	equalizacija-nakon-soljenja-zasto-meso-mora-odmoriti	publish
+2851	Vodna aktivnost: zašto suh izgled nije dovoljan dokaz sigurnosti	vodna-aktivnost-zasto-sama-vlaga-nije-dovoljna	publish
+2852	Starter kulture: pomoć za fermentaciju, ali ne zamjena za higijenu	starter-kulture-kada-pomazu-a-kada-nisu-carobni-stapic	publish
+2853	Rezanje mesa prema namjeni: zašto svaki komad ne ide u isti proizvod	rezanje-mesa-prema-namjeni	publish
