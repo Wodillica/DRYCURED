@@ -1,0 +1,6 @@
+ID	post_title	post_status
+2140	Punjenje kobasica bez zračnih džepova: pritisak, omotač i miran rad	publish
+2834	Oprema za kućnu proizvodnju: što početniku stvarno treba, a što može čekati	publish
+2835	Mljevenje mesa za kobasice: rešetka, temperatura i čist presjek	publish
+2836	Temperatura nadjeva: mala brojka koja čuva strukturu kobasice	publish
+2856	Kako odabrati crijevo prema vrsti kobasice: promjer, priprema i punjenje	publish

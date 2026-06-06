@@ -1,0 +1,83 @@
+
+=== 1) TOP-UP ČLANAKA ISPOD 1100 RIJEČI ===
+Final top-up patch: PASS
+
+=== 2) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch07_equipment_stuffing.php
+
+=== 3) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2834 | 1300 riječi | 17 H2 | 8 poveznica | Oprema za kućnu proizvodnju: što početniku stvarno treba, a što može čekati
+PASS | ID 2835 | 1115 riječi | 16 H2 | 5 poveznica | Mljevenje mesa za kobasice: rešetka, temperatura i čist presjek
+PASS | ID 2836 | 1136 riječi | 17 H2 | 7 poveznica | Temperatura nadjeva: mala brojka koja čuva strukturu kobasice
+PASS | ID 2140 | 1120 riječi | 18 H2 | 7 poveznica | Punjenje kobasica bez zračnih džepova: pritisak, omotač i miran rad
+PASS | ID 2856 | 1190 riječi | 18 H2 | 6 poveznica | Kako odabrati crijevo prema vrsti kobasice: promjer, priprema i punjenje
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 4) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 2834 | Oprema za kućnu proizvodnju: što stvarno treba početniku | originalni naslov
+PASS | ID 2835 | Mljevenje mesa za kobasice: zašto je rešetka u milimetrima važna | originalni naslov
+PASS | ID 2836 | Temperatura nadjeva: mala brojka koja čuva strukturu kobasice | originalni naslov
+PASS | ID 2140 | Punjenje kobasica bez zračnih džepova | originalni naslov
+PASS | ID 2856 | Kako odabrati crijevo prema vrsti kobasice | originalni naslov
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== STVARNI QA PRIJE UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2834 | 1300 riječi | 17 H2 | 8 poveznica | Oprema za kućnu proizvodnju: što početniku stvarno treba, a što može čekati
+PASS | ID 2835 | 1115 riječi | 16 H2 | 5 poveznica | Mljevenje mesa za kobasice: rešetka, temperatura i čist presjek
+PASS | ID 2836 | 1136 riječi | 17 H2 | 7 poveznica | Temperatura nadjeva: mala brojka koja čuva strukturu kobasice
+PASS | ID 2140 | 1120 riječi | 18 H2 | 7 poveznica | Punjenje kobasica bez zračnih džepova: pritisak, omotač i miran rad
+PASS | ID 2856 | 1190 riječi | 18 H2 | 6 poveznica | Kako odabrati crijevo prema vrsti kobasice: promjer, priprema i punjenje
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 4) UPIS NOVIH ČLANAKA ===
+UPDATED | ID 2834 | Oprema za kućnu proizvodnju: što početniku stvarno treba, a što može čekati
+UPDATED | ID 2835 | Mljevenje mesa za kobasice: rešetka, temperatura i čist presjek
+UPDATED | ID 2836 | Temperatura nadjeva: mala brojka koja čuva strukturu kobasice
+UPDATED | ID 2140 | Punjenje kobasica bez zračnih džepova: pritisak, omotač i miran rad
+UPDATED | ID 2856 | Kako odabrati crijevo prema vrsti kobasice: promjer, priprema i punjenje
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 2834 | publish | 1300 riječi
+PASS | ID 2835 | publish | 1115 riječi
+PASS | ID 2836 | publish | 1136 riječi
+PASS | ID 2140 | publish | 1120 riječi
+PASS | ID 2856 | publish | 1190 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 07 ZAVRŠEN — PASS
+============================================================
+
+=== 5) JAVNA HTTP PROVJERA ===
+200 | ID 2834 | Oprema | https://drycured.com/2024/01/26/oprema-za-kucnu-proizvodnju-sto-treba-pocetniku/
+200 | ID 2835 | Mljevenje | https://drycured.com/2024/01/27/mljevenje-mesa-za-kobasice-resetka-u-milimetrima/
+200 | ID 2836 | Temperatura nadjeva | https://drycured.com/2024/01/28/temperatura-nadjeva-cuva-strukturu-kobasice/
+200 | ID 2140 | Punjenje | https://drycured.com/2024/01/05/punjenje-kobasica-bez-zracnih-dzepova/
+200 | ID 2856 | Crijeva | https://drycured.com/2024/02/17/kako-odabrati-crijevo-prema-vrsti-kobasice/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 6) WORDPRESS STATUS ===
+ID	post_title	post_status
+2140	Punjenje kobasica bez zračnih džepova: pritisak, omotač i miran rad	publish
+2834	Oprema za kućnu proizvodnju: što početniku stvarno treba, a što može čekati	publish
+2835	Mljevenje mesa za kobasice: rešetka, temperatura i čist presjek	publish
+2836	Temperatura nadjeva: mala brojka koja čuva strukturu kobasice	publish
+2856	Kako odabrati crijevo prema vrsti kobasice: promjer, priprema i punjenje	publish
+
+=== 7) PRIPREMA GIT REPORTA ===
