@@ -1,0 +1,27 @@
+============================================================
+DRYCURED — LEGAL FOOTER LINKS v1
+Dodaje footer poveznice: Politika privatnosti, Politika kolačića, Postavke kolačića
+Vrijeme: Sat Jun  6 06:19:46 PM UTC 2026
+============================================================
+
+=== 1) PREFLIGHT ===
+PASS: Git radno stablo je čisto.
+
+=== 2) BACKUP POSTOJEĆEG PLUGINA AKO POSTOJI ===
+Backup: PASS
+
+=== 3) IZRADA MU-PLUGINA ===
+No syntax errors detected in /root/DRYCURED_GITHUB/wp-content/mu-plugins/drycured-legal-footer-links-v1.php
+
+=== 4) DEPLOY NA LIVE ===
+No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-legal-footer-links-v1.php
+Success: The cache was flushed.
+
+=== 5) JAVNI QA ===
+Politika kolačića: 200
+Politika privatnosti: 200
+Home: 200
+Vodici: 200
+Legal footer QA: PASS
+
+=== 6) GIT REPORT ===
