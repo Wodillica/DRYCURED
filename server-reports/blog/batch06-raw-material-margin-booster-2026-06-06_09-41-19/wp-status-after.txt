@@ -1,0 +1,6 @@
+ID	post_title	post_status
+2125	Kako prepoznati dobro meso za suhomesnate proizvode: miris, struktura i mast	publish
+2831	Pasmina, prehrana i mast: zašto sirovina odlučuje o okusu	publish
+2832	Mast u suhomesnatim proizvodima: nositelj okusa, teksture i dobrog presjeka	publish
+2833	PSE i DFD meso: kako loša sirovina pokvari dobar postupak	publish
+2853	Rezanje mesa prema namjeni: zašto svaki komad ne ide u isti proizvod	publish

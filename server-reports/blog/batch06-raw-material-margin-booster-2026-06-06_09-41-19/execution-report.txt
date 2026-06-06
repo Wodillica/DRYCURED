@@ -1,0 +1,83 @@
+
+=== 1) DODAVANJE SIGURNOSNE TEKSTUALNE MARGINE ===
+Margin booster patch: PASS
+
+=== 2) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch06_raw_material.php
+
+=== 3) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2125 | 1063 riječi | 13 H2 | 6 poveznica | Kako prepoznati dobro meso za suhomesnate proizvode: miris, struktura i mast
+PASS | ID 2831 | 978 riječi | 13 H2 | 6 poveznica | Pasmina, prehrana i mast: zašto sirovina odlučuje o okusu
+PASS | ID 2832 | 905 riječi | 13 H2 | 6 poveznica | Mast u suhomesnatim proizvodima: nositelj okusa, teksture i dobrog presjeka
+PASS | ID 2833 | 985 riječi | 14 H2 | 7 poveznica | PSE i DFD meso: kako loša sirovina pokvari dobar postupak
+PASS | ID 2853 | 925 riječi | 14 H2 | 6 poveznica | Rezanje mesa prema namjeni: zašto svaki komad ne ide u isti proizvod
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 4) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 2125 | Kako prepoznati dobro meso za suhomesnate proizvode | originalni naslov
+PASS | ID 2831 | Pasmina, prehrana i mast: zašto sirovina odlučuje o okusu | originalni naslov
+PASS | ID 2832 | Mast u suhomesnatim proizvodima: neprijatelj ili nositelj okusa | originalni naslov
+PASS | ID 2833 | PSE i DFD meso: kako loša sirovina pokvari dobar postupak | originalni naslov
+PASS | ID 2853 | Rezanje mesa prema namjeni: zašto svaki komad ne ide u isti proizvod | originalni naslov
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== STVARNI QA PRIJE UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2125 | 1063 riječi | 13 H2 | 6 poveznica | Kako prepoznati dobro meso za suhomesnate proizvode: miris, struktura i mast
+PASS | ID 2831 | 978 riječi | 13 H2 | 6 poveznica | Pasmina, prehrana i mast: zašto sirovina odlučuje o okusu
+PASS | ID 2832 | 905 riječi | 13 H2 | 6 poveznica | Mast u suhomesnatim proizvodima: nositelj okusa, teksture i dobrog presjeka
+PASS | ID 2833 | 985 riječi | 14 H2 | 7 poveznica | PSE i DFD meso: kako loša sirovina pokvari dobar postupak
+PASS | ID 2853 | 925 riječi | 14 H2 | 6 poveznica | Rezanje mesa prema namjeni: zašto svaki komad ne ide u isti proizvod
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 4) UPIS NOVIH ČLANAKA ===
+UPDATED | ID 2125 | Kako prepoznati dobro meso za suhomesnate proizvode: miris, struktura i mast
+UPDATED | ID 2831 | Pasmina, prehrana i mast: zašto sirovina odlučuje o okusu
+UPDATED | ID 2832 | Mast u suhomesnatim proizvodima: nositelj okusa, teksture i dobrog presjeka
+UPDATED | ID 2833 | PSE i DFD meso: kako loša sirovina pokvari dobar postupak
+UPDATED | ID 2853 | Rezanje mesa prema namjeni: zašto svaki komad ne ide u isti proizvod
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 2125 | publish | 1063 riječi
+PASS | ID 2831 | publish | 978 riječi
+PASS | ID 2832 | publish | 905 riječi
+PASS | ID 2833 | publish | 985 riječi
+PASS | ID 2853 | publish | 925 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 06 ZAVRŠEN — PASS
+============================================================
+
+=== 5) JAVNA HTTP PROVJERA ===
+200 | ID 2125 | Dobro meso | https://drycured.com/2024/01/19/kako-prepoznati-dobro-meso-za-suhomesnate-proizvode/
+200 | ID 2831 | Pasmina prehrana mast | https://drycured.com/2024/01/23/pasmina-prehrana-i-mast-zasto-sirovina-odlucuje-o-okusu/
+200 | ID 2832 | Mast | https://drycured.com/2024/01/24/mast-u-suhomesnatim-proizvodima-nositelj-okusa/
+200 | ID 2833 | PSE DFD | https://drycured.com/2024/01/25/pse-i-dfd-meso-kako-losa-sirovina-pokvari-dobar-postupak/
+200 | ID 2853 | Rezanje | https://drycured.com/2024/02/14/rezanje-mesa-prema-namjeni/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 6) WORDPRESS STATUS ===
+ID	post_title	post_status
+2125	Kako prepoznati dobro meso za suhomesnate proizvode: miris, struktura i mast	publish
+2831	Pasmina, prehrana i mast: zašto sirovina odlučuje o okusu	publish
+2832	Mast u suhomesnatim proizvodima: nositelj okusa, teksture i dobrog presjeka	publish
+2833	PSE i DFD meso: kako loša sirovina pokvari dobar postupak	publish
+2853	Rezanje mesa prema namjeni: zašto svaki komad ne ide u isti proizvod	publish
+
+=== 7) PRIPREMA GIT REPORTA ===
