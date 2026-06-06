@@ -1,0 +1,9 @@
+ID	post_title	post_status	post_date
+1470	Slavonski kulen: tradicija, tehnologija i zrenje	publish	2026-03-28 09:07:04
+1472	Domaći čvarci: kako nastaju hrskavi, suhi i zlatnosmeđi	publish	2026-03-28 09:08:25
+2126	Sol u suhomesnatim proizvodima: čuvar sigurnosti, okusa i strukture	publish	2024-01-20 08:00:00
+2127	Suho, mokro i kombinirano soljenje: kako odabrati pravi postupak	publish	2024-01-18 08:00:00
+2129	Kako sol putuje kroz meso: difuzija bez nagađanja	publish	2024-01-16 08:00:00
+2837	Panceta: ravnoteža mesa, masti, soli i vremena	publish	2024-01-29 08:00:00
+2849	Ekvilibrijsko soljenje: preciznost umjesto soljenja od oka	publish	2024-02-10 08:00:00
+2850	Equalizacija nakon soljenja: faza odmora koja spašava presjek	publish	2024-02-11 08:00:00
