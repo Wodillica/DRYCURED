@@ -1,0 +1,13 @@
+ID	post_title	post_name	post_status
+3337	Kako mjeriti temperaturu i vlagu u kućnoj sušionici	kako-mjeriti-temperaturu-i-vlagu-u-susionici	publish
+3338	Strujanje zraka u sušenju suhomesnatih proizvoda: razlika između zraka i propuha	strujanje-zraka-u-susenju-suhomesnatih-proizvoda	publish
+3339	Noćni i dnevni ritam sušionice: zašto prostor nikad nije isti cijeli dan	nocni-i-dnevni-ritam-susionice	publish
+3340	Kada otvoriti, a kada zatvoriti sušionicu	kada-otvoriti-a-kada-zatvoriti-susionicu	publish
+3341	Tanak plavi dim u domaćoj pušnici: znak mirnog dima, ne jakog dima	tanki-plavi-dim-u-domacoj-pusnici	publish
+3342	Raspored proizvoda u sušionici: zašto razmak odlučuje o ravnomjernom sušenju	raspored-proizvoda-u-susionici	publish
+3343	Prva 72 sata sušenja kobasica: najosjetljiviji početak procesa	prva-72-sata-susenja-kobasica	publish
+3344	Kako prepoznati presporo sušenje suhomesnatih proizvoda	kako-prepoznati-presporo-susenje	publish
+3345	Kako voditi dimljenje u ciklusima: dim, odmor i kontrola mirisa	kako-voditi-dimljenje-u-ciklusima	publish
+3346	Sezona sušenja i planiranje šarže: kada vrijeme radi za proizvod	sezona-susenja-i-planiranje-sarze	publish
+3347	Kako prepoznati dobar miris u sušionici	kako-prepoznati-dobar-miris-u-susionici	publish
+3348	Kada je suhomesnati proizvod spreman za pakiranje	kada-je-suhomesnati-proizvod-spreman-za-pakiranje	publish

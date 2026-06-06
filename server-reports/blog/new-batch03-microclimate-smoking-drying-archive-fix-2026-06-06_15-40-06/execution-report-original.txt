@@ -1,0 +1,139 @@
+============================================================
+DRYCURED BLOG — NEW BATCH 03
+KREIRANJE NOVIH ČLANAKA
+Tema: mikroklima, prostor, dimljenje i sušenje
+Vrijeme: Sat Jun  6 03:35:53 PM UTC 2026
+Profilni indeks prije: 74
+Očekivani profilni indeks nakon: 84
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_new_batch03_microclimate_smoking_drying.php
+
+=== 2) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | kako-mjeriti-temperaturu-i-vlagu-u-susionici | 1261 riječi | 21 H2 | 9 poveznica | Kako mjeriti temperaturu i vlagu u kućnoj sušionici
+PASS | strujanje-zraka-u-susenju-suhomesnatih-proizvoda | 1223 riječi | 21 H2 | 8 poveznica | Strujanje zraka u sušenju suhomesnatih proizvoda: razlika između zraka i propuha
+PASS | nocni-i-dnevni-ritam-susionice | 1204 riječi | 21 H2 | 8 poveznica | Noćni i dnevni ritam sušionice: zašto prostor nikad nije isti cijeli dan
+PASS | kada-otvoriti-a-kada-zatvoriti-susionicu | 1204 riječi | 21 H2 | 8 poveznica | Kada otvoriti, a kada zatvoriti sušionicu
+PASS | tanki-plavi-dim-u-domacoj-pusnici | 1264 riječi | 21 H2 | 8 poveznica | Tanak plavi dim u domaćoj pušnici: znak mirnog dima, ne jakog dima
+PASS | raspored-proizvoda-u-susionici | 1220 riječi | 21 H2 | 8 poveznica | Raspored proizvoda u sušionici: zašto razmak odlučuje o ravnomjernom sušenju
+PASS | prva-72-sata-susenja-kobasica | 1200 riječi | 21 H2 | 9 poveznica | Prva 72 sata sušenja kobasica: najosjetljiviji početak procesa
+PASS | kako-prepoznati-presporo-susenje | 1181 riječi | 21 H2 | 9 poveznica | Kako prepoznati presporo sušenje suhomesnatih proizvoda
+PASS | kako-voditi-dimljenje-u-ciklusima | 1207 riječi | 21 H2 | 7 poveznica | Kako voditi dimljenje u ciklusima: dim, odmor i kontrola mirisa
+PASS | sezona-susenja-i-planiranje-sarze | 1196 riječi | 21 H2 | 8 poveznica | Sezona sušenja i planiranje šarže: kada vrijeme radi za proizvod
+PASS | kako-prepoznati-dobar-miris-u-susionici | 1228 riječi | 21 H2 | 8 poveznica | Kako prepoznati dobar miris u sušionici
+PASS | kada-je-suhomesnati-proizvod-spreman-za-pakiranje | 1184 riječi | 21 H2 | 8 poveznica | Kada je suhomesnati proizvod spreman za pakiranje
+
+GLOBALNI QA: PASS — svih 10 novih članaka ima sigurnosnu marginu.
+
+=== 3) STVARNO KREIRANJE 10 NOVIH ČLANAKA ===
+
+=== 1) PREFLIGHT NOVIH SLUGOVA ===
+PASS | slug slobodan | kako-mjeriti-temperaturu-i-vlagu-u-susionici
+PASS | slug slobodan | strujanje-zraka-u-susenju-suhomesnatih-proizvoda
+PASS | slug slobodan | nocni-i-dnevni-ritam-susionice
+PASS | slug slobodan | kada-otvoriti-a-kada-zatvoriti-susionicu
+PASS | slug slobodan | tanki-plavi-dim-u-domacoj-pusnici
+PASS | slug slobodan | raspored-proizvoda-u-susionici
+PASS | slug slobodan | prva-72-sata-susenja-kobasica
+PASS | slug slobodan | kako-prepoznati-presporo-susenje
+PASS | slug slobodan | kako-voditi-dimljenje-u-ciklusima
+PASS | slug slobodan | sezona-susenja-i-planiranje-sarze
+PASS | slug slobodan | kako-prepoznati-dobar-miris-u-susionici
+PASS | slug slobodan | kada-je-suhomesnati-proizvod-spreman-za-pakiranje
+Preflight slugova: PASS
+
+=== 2) BACKUP PROFILNIH INDEKSA ===
+Backup: PASS
+
+=== STVARNI QA PRIJE KREIRANJA — GLOBALNI QA INVENTAR ===
+PASS | kako-mjeriti-temperaturu-i-vlagu-u-susionici | 1261 riječi | 21 H2 | 9 poveznica | Kako mjeriti temperaturu i vlagu u kućnoj sušionici
+PASS | strujanje-zraka-u-susenju-suhomesnatih-proizvoda | 1223 riječi | 21 H2 | 8 poveznica | Strujanje zraka u sušenju suhomesnatih proizvoda: razlika između zraka i propuha
+PASS | nocni-i-dnevni-ritam-susionice | 1204 riječi | 21 H2 | 8 poveznica | Noćni i dnevni ritam sušionice: zašto prostor nikad nije isti cijeli dan
+PASS | kada-otvoriti-a-kada-zatvoriti-susionicu | 1204 riječi | 21 H2 | 8 poveznica | Kada otvoriti, a kada zatvoriti sušionicu
+PASS | tanki-plavi-dim-u-domacoj-pusnici | 1264 riječi | 21 H2 | 8 poveznica | Tanak plavi dim u domaćoj pušnici: znak mirnog dima, ne jakog dima
+PASS | raspored-proizvoda-u-susionici | 1220 riječi | 21 H2 | 8 poveznica | Raspored proizvoda u sušionici: zašto razmak odlučuje o ravnomjernom sušenju
+PASS | prva-72-sata-susenja-kobasica | 1200 riječi | 21 H2 | 9 poveznica | Prva 72 sata sušenja kobasica: najosjetljiviji početak procesa
+PASS | kako-prepoznati-presporo-susenje | 1181 riječi | 21 H2 | 9 poveznica | Kako prepoznati presporo sušenje suhomesnatih proizvoda
+PASS | kako-voditi-dimljenje-u-ciklusima | 1207 riječi | 21 H2 | 7 poveznica | Kako voditi dimljenje u ciklusima: dim, odmor i kontrola mirisa
+PASS | sezona-susenja-i-planiranje-sarze | 1196 riječi | 21 H2 | 8 poveznica | Sezona sušenja i planiranje šarže: kada vrijeme radi za proizvod
+PASS | kako-prepoznati-dobar-miris-u-susionici | 1228 riječi | 21 H2 | 8 poveznica | Kako prepoznati dobar miris u sušionici
+PASS | kada-je-suhomesnati-proizvod-spreman-za-pakiranje | 1184 riječi | 21 H2 | 8 poveznica | Kada je suhomesnati proizvod spreman za pakiranje
+
+GLOBALNI QA: PASS — svih 10 novih članaka ima sigurnosnu marginu.
+
+=== 4) KREIRANJE 10 NOVIH ČLANAKA ===
+CREATED NEW | ID 3337 | kako-mjeriti-temperaturu-i-vlagu-u-susionici | Kako mjeriti temperaturu i vlagu u kućnoj sušionici
+CREATED NEW | ID 3338 | strujanje-zraka-u-susenju-suhomesnatih-proizvoda | Strujanje zraka u sušenju suhomesnatih proizvoda: razlika između zraka i propuha
+CREATED NEW | ID 3339 | nocni-i-dnevni-ritam-susionice | Noćni i dnevni ritam sušionice: zašto prostor nikad nije isti cijeli dan
+CREATED NEW | ID 3340 | kada-otvoriti-a-kada-zatvoriti-susionicu | Kada otvoriti, a kada zatvoriti sušionicu
+CREATED NEW | ID 3341 | tanki-plavi-dim-u-domacoj-pusnici | Tanak plavi dim u domaćoj pušnici: znak mirnog dima, ne jakog dima
+CREATED NEW | ID 3342 | raspored-proizvoda-u-susionici | Raspored proizvoda u sušionici: zašto razmak odlučuje o ravnomjernom sušenju
+CREATED NEW | ID 3343 | prva-72-sata-susenja-kobasica | Prva 72 sata sušenja kobasica: najosjetljiviji početak procesa
+CREATED NEW | ID 3344 | kako-prepoznati-presporo-susenje | Kako prepoznati presporo sušenje suhomesnatih proizvoda
+CREATED NEW | ID 3345 | kako-voditi-dimljenje-u-ciklusima | Kako voditi dimljenje u ciklusima: dim, odmor i kontrola mirisa
+CREATED NEW | ID 3346 | sezona-susenja-i-planiranje-sarze | Sezona sušenja i planiranje šarže: kada vrijeme radi za proizvod
+CREATED NEW | ID 3347 | kako-prepoznati-dobar-miris-u-susionici | Kako prepoznati dobar miris u sušionici
+CREATED NEW | ID 3348 | kada-je-suhomesnati-proizvod-spreman-za-pakiranje | Kada je suhomesnati proizvod spreman za pakiranje
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 74 -> 86
+drycured_blog_core_profiles_v032: 74 -> 86
+
+=== 6) ZAVRŠNI QA NOVIH ČLANAKA ===
+PASS | NEW ID 3337 | kako-mjeriti-temperaturu-i-vlagu-u-susionici | 1261 riječi
+PASS | NEW ID 3338 | strujanje-zraka-u-susenju-suhomesnatih-proizvoda | 1223 riječi
+PASS | NEW ID 3339 | nocni-i-dnevni-ritam-susionice | 1204 riječi
+PASS | NEW ID 3340 | kada-otvoriti-a-kada-zatvoriti-susionicu | 1204 riječi
+PASS | NEW ID 3341 | tanki-plavi-dim-u-domacoj-pusnici | 1264 riječi
+PASS | NEW ID 3342 | raspored-proizvoda-u-susionici | 1220 riječi
+PASS | NEW ID 3343 | prva-72-sata-susenja-kobasica | 1200 riječi
+PASS | NEW ID 3344 | kako-prepoznati-presporo-susenje | 1181 riječi
+PASS | NEW ID 3345 | kako-voditi-dimljenje-u-ciklusima | 1207 riječi
+PASS | NEW ID 3346 | sezona-susenja-i-planiranje-sarze | 1196 riječi
+PASS | NEW ID 3347 | kako-prepoznati-dobar-miris-u-susionici | 1228 riječi
+PASS | NEW ID 3348 | kada-je-suhomesnati-proizvod-spreman-za-pakiranje | 1184 riječi
+PASS | drycured_blog_core_profiles_v031 | novi profili OK
+PASS | drycured_blog_core_profiles_v032 | novi profili OK
+
+============================================================
+PHP DIO NEW BATCH 03 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA NOVIH ČLANAKA ===
+200 | NEW ID 3337 | kako-mjeriti-temperaturu-i-vlagu-u-susionici | https://drycured.com/2026/06/06/kako-mjeriti-temperaturu-i-vlagu-u-susionici/
+200 | NEW ID 3338 | strujanje-zraka-u-susenju-suhomesnatih-proizvoda | https://drycured.com/2026/06/06/strujanje-zraka-u-susenju-suhomesnatih-proizvoda/
+200 | NEW ID 3339 | nocni-i-dnevni-ritam-susionice | https://drycured.com/2026/06/06/nocni-i-dnevni-ritam-susionice/
+200 | NEW ID 3340 | kada-otvoriti-a-kada-zatvoriti-susionicu | https://drycured.com/2026/06/06/kada-otvoriti-a-kada-zatvoriti-susionicu/
+200 | NEW ID 3341 | tanki-plavi-dim-u-domacoj-pusnici | https://drycured.com/2026/06/06/tanki-plavi-dim-u-domacoj-pusnici/
+200 | NEW ID 3342 | raspored-proizvoda-u-susionici | https://drycured.com/2026/06/06/raspored-proizvoda-u-susionici/
+200 | NEW ID 3343 | prva-72-sata-susenja-kobasica | https://drycured.com/2026/06/06/prva-72-sata-susenja-kobasica/
+200 | NEW ID 3344 | kako-prepoznati-presporo-susenje | https://drycured.com/2026/06/06/kako-prepoznati-presporo-susenje/
+200 | NEW ID 3345 | kako-voditi-dimljenje-u-ciklusima | https://drycured.com/2026/06/06/kako-voditi-dimljenje-u-ciklusima/
+200 | NEW ID 3346 | sezona-susenja-i-planiranje-sarze | https://drycured.com/2026/06/06/sezona-susenja-i-planiranje-sarze/
+200 | NEW ID 3347 | kako-prepoznati-dobar-miris-u-susionici | https://drycured.com/2026/06/06/kako-prepoznati-dobar-miris-u-susionici/
+200 | NEW ID 3348 | kada-je-suhomesnati-proizvod-spreman-za-pakiranje | https://drycured.com/2026/06/06/kada-je-suhomesnati-proizvod-spreman-za-pakiranje/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) WORDPRESS STATUS NOVIH ČLANAKA ===
+ID	post_title	post_name	post_status
+3337	Kako mjeriti temperaturu i vlagu u kućnoj sušionici	kako-mjeriti-temperaturu-i-vlagu-u-susionici	publish
+3338	Strujanje zraka u sušenju suhomesnatih proizvoda: razlika između zraka i propuha	strujanje-zraka-u-susenju-suhomesnatih-proizvoda	publish
+3339	Noćni i dnevni ritam sušionice: zašto prostor nikad nije isti cijeli dan	nocni-i-dnevni-ritam-susionice	publish
+3340	Kada otvoriti, a kada zatvoriti sušionicu	kada-otvoriti-a-kada-zatvoriti-susionicu	publish
+3341	Tanak plavi dim u domaćoj pušnici: znak mirnog dima, ne jakog dima	tanki-plavi-dim-u-domacoj-pusnici	publish
+3342	Raspored proizvoda u sušionici: zašto razmak odlučuje o ravnomjernom sušenju	raspored-proizvoda-u-susionici	publish
+3343	Prva 72 sata sušenja kobasica: najosjetljiviji početak procesa	prva-72-sata-susenja-kobasica	publish
+3344	Kako prepoznati presporo sušenje suhomesnatih proizvoda	kako-prepoznati-presporo-susenje	publish
+3345	Kako voditi dimljenje u ciklusima: dim, odmor i kontrola mirisa	kako-voditi-dimljenje-u-ciklusima	publish
+3346	Sezona sušenja i planiranje šarže: kada vrijeme radi za proizvod	sezona-susenja-i-planiranje-sarze	publish
+3347	Kako prepoznati dobar miris u sušionici	kako-prepoznati-dobar-miris-u-susionici	publish
+3348	Kada je suhomesnati proizvod spreman za pakiranje	kada-je-suhomesnati-proizvod-spreman-za-pakiranje	publish
+
+=== 6) BROJ AKTIVNIH PROFILA NAKON NOVIH ČLANAKA ===
+Aktivnih profila v032: 86
+GREŠKA: očekivan rast profila na 84.
