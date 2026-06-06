@@ -1,0 +1,70 @@
+
+=== 1) PATCH ČLANKA ID 2129 — POJAČANJE TEKSTA I POVEZNICA ===
+Patch ID 2129: PASS
+
+=== 2) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch02_salting.php
+
+=== 3) IZVRŠENJE WORDPRESS BATCHA ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 2126 | Sol: najstariji čuvar mesa
+PASS | ID 2127 | Suho, mokro i kombinirano soljenje: kada koristiti koju metodu
+PASS | ID 2129 | Kako sol putuje kroz meso
+PASS | ID 2849 | Ekvilibrijsko soljenje: kako soliti precizno, a ne od oka
+PASS | ID 2850 | Equalizacija nakon soljenja: zašto meso mora odmoriti
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== 3) QA NOVIH TEKSTOVA ===
+PASS | ID 2126 | 546 riječi | 6 H2 | 3 poveznica
+PASS | ID 2127 | 542 riječi | 7 H2 | 3 poveznica
+PASS | ID 2129 | 487 riječi | 6 H2 | 3 poveznica
+PASS | ID 2849 | 462 riječi | 6 H2 | 2 poveznica
+PASS | ID 2850 | 472 riječi | 7 H2 | 2 poveznica
+QA tekstova: PASS
+
+=== 4) UPIS NOVIH ČLANAKA ===
+UPDATED | ID 2126 | Sol u suhomesnatim proizvodima: čuvar sigurnosti, okusa i strukture
+UPDATED | ID 2127 | Suho, mokro i kombinirano soljenje: kako odabrati pravi postupak
+UPDATED | ID 2129 | Kako sol putuje kroz meso: difuzija bez nagađanja
+UPDATED | ID 2849 | Ekvilibrijsko soljenje: preciznost umjesto soljenja od oka
+UPDATED | ID 2850 | Equalizacija nakon soljenja: faza odmora koja spašava presjek
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 2126 | publish | 546 riječi
+PASS | ID 2127 | publish | 542 riječi
+PASS | ID 2129 | publish | 487 riječi
+PASS | ID 2849 | publish | 462 riječi
+PASS | ID 2850 | publish | 472 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 02 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA ===
+200 | ID 2126 | Sol | https://drycured.com/2024/01/20/sol-najstariji-cuvar-mesa/
+200 | ID 2127 | Metode soljenja | https://drycured.com/2024/01/18/suho-mokro-i-kombinirano-soljenje-kada-koristiti-koju-metodu/
+200 | ID 2129 | Put soli kroz meso | https://drycured.com/2024/01/16/kako-sol-putuje-kroz-meso/
+200 | ID 2849 | Ekvilibrijsko soljenje | https://drycured.com/2024/02/10/ekvilibrijsko-soljenje-kako-soliti-precizno/
+200 | ID 2850 | Equalizacija | https://drycured.com/2024/02/11/equalizacija-nakon-soljenja-zasto-meso-mora-odmoriti/
+200 | Blog /vodici/
+Privatni toolbar na javnom /vodici/: 0
+
+=== 5) WORDPRESS STATUS ===
+ID	post_title	post_status
+2126	Sol u suhomesnatim proizvodima: čuvar sigurnosti, okusa i strukture	publish
+2127	Suho, mokro i kombinirano soljenje: kako odabrati pravi postupak	publish
+2129	Kako sol putuje kroz meso: difuzija bez nagađanja	publish
+2849	Ekvilibrijsko soljenje: preciznost umjesto soljenja od oka	publish
+2850	Equalizacija nakon soljenja: faza odmora koja spašava presjek	publish
+
+=== 6) PRIPREMA GIT REPORTA U PRAVOM REPOZITORIJU ===
