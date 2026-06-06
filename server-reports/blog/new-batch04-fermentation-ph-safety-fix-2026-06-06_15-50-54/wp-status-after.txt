@@ -1,0 +1,11 @@
+ID	post_title	post_name	post_status
+3349	pH u fermentiranim kobasicama: što brojka govori, a što ne govori	ph-u-fermentiranim-kobasicama	publish
+3350	Šećeri u fermentaciji kobasica: hrana za kulturu, ne slatki dodatak	seceri-u-fermentaciji-kobasica	publish
+3351	Prirodna fermentacija i starter kulture: dvije logike istog cilja	prirodna-fermentacija-i-starter-kulture	publish
+3352	Temperatura fermentacije kobasica: zašto topla prostorija nije uvijek dobra ideja	temperatura-fermentacije-kobasica	publish
+3353	Vlaga tijekom fermentacije kobasica: kako sačuvati površinu prije sušenja	vlaga-tijekom-fermentacije-kobasica	publish
+3354	Što ako fermentacija ne krene: mirna provjera prije panike	sto-ako-fermentacija-ne-krene	publish
+3355	Starter kulture: čuvanje, doziranje i pogreške koje početnik lako napravi	starter-kulture-cuvanje-i-doziranje	publish
+3356	pH metar ili pH trakice u domaćoj proizvodnji: što je dovoljno za početak	ph-metar-ili-ph-trakice-u-domacoj-proizvodnji	publish
+3357	Vodna aktivnost i gubitak mase: dvije različite stvari koje početnik lako pomiješa	vodna-aktivnost-i-gubitak-mase-zajedno	publish
+3358	Fermentirano ili pokvareno: kako razlikovati dobar proces od opasnog znaka	fermentirano-ili-pokvareno-kako-razlikovati	publish

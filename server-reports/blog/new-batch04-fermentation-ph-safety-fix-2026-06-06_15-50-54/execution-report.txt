@@ -1,0 +1,129 @@
+============================================================
+DRYCURED BLOG — NEW BATCH 04 MARGIN FIX
+Ne mijenja postojeće članke. Kreira istih 10 novih članaka nakon pojačanja safety enginea.
+Vrijeme: Sat Jun  6 03:50:55 PM UTC 2026
+Profilni indeks prije: 86
+Očekivani profilni indeks nakon: 96
+============================================================
+
+=== 1) PATCH SAFETY ENGINEA ===
+Patch: PASS — guard povećan na 12, cilj riječi povećan na 1350.
+
+=== 2) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_new_batch04_fermentation_ph_safety.php
+
+=== 3) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | ph-u-fermentiranim-kobasicama | 1328 riječi | 21 H2 | 8 poveznica | pH u fermentiranim kobasicama: što brojka govori, a što ne govori
+PASS | seceri-u-fermentaciji-kobasica | 1266 riječi | 21 H2 | 7 poveznica | Šećeri u fermentaciji kobasica: hrana za kulturu, ne slatki dodatak
+PASS | prirodna-fermentacija-i-starter-kulture | 1279 riječi | 21 H2 | 8 poveznica | Prirodna fermentacija i starter kulture: dvije logike istog cilja
+PASS | temperatura-fermentacije-kobasica | 1322 riječi | 22 H2 | 8 poveznica | Temperatura fermentacije kobasica: zašto topla prostorija nije uvijek dobra ideja
+PASS | vlaga-tijekom-fermentacije-kobasica | 1321 riječi | 22 H2 | 9 poveznica | Vlaga tijekom fermentacije kobasica: kako sačuvati površinu prije sušenja
+PASS | sto-ako-fermentacija-ne-krene | 1298 riječi | 22 H2 | 7 poveznica | Što ako fermentacija ne krene: mirna provjera prije panike
+PASS | starter-kulture-cuvanje-i-doziranje | 1319 riječi | 22 H2 | 8 poveznica | Starter kulture: čuvanje, doziranje i pogreške koje početnik lako napravi
+PASS | ph-metar-ili-ph-trakice-u-domacoj-proizvodnji | 1316 riječi | 22 H2 | 7 poveznica | pH metar ili pH trakice u domaćoj proizvodnji: što je dovoljno za početak
+PASS | vodna-aktivnost-i-gubitak-mase-zajedno | 1259 riječi | 21 H2 | 7 poveznica | Vodna aktivnost i gubitak mase: dvije različite stvari koje početnik lako pomiješa
+PASS | fermentirano-ili-pokvareno-kako-razlikovati | 1321 riječi | 22 H2 | 8 poveznica | Fermentirano ili pokvareno: kako razlikovati dobar proces od opasnog znaka
+
+GLOBALNI QA: PASS — svih 10 novih članaka ima sigurnosnu marginu.
+
+=== 4) STVARNO KREIRANJE 10 NOVIH ČLANAKA ===
+
+=== 1) PREFLIGHT NOVIH SLUGOVA ===
+PASS | slug slobodan | ph-u-fermentiranim-kobasicama
+PASS | slug slobodan | seceri-u-fermentaciji-kobasica
+PASS | slug slobodan | prirodna-fermentacija-i-starter-kulture
+PASS | slug slobodan | temperatura-fermentacije-kobasica
+PASS | slug slobodan | vlaga-tijekom-fermentacije-kobasica
+PASS | slug slobodan | sto-ako-fermentacija-ne-krene
+PASS | slug slobodan | starter-kulture-cuvanje-i-doziranje
+PASS | slug slobodan | ph-metar-ili-ph-trakice-u-domacoj-proizvodnji
+PASS | slug slobodan | vodna-aktivnost-i-gubitak-mase-zajedno
+PASS | slug slobodan | fermentirano-ili-pokvareno-kako-razlikovati
+Preflight slugova: PASS
+
+=== 2) BACKUP PROFILNIH INDEKSA ===
+Backup: PASS
+
+=== STVARNI QA PRIJE KREIRANJA — GLOBALNI QA INVENTAR ===
+PASS | ph-u-fermentiranim-kobasicama | 1328 riječi | 21 H2 | 8 poveznica | pH u fermentiranim kobasicama: što brojka govori, a što ne govori
+PASS | seceri-u-fermentaciji-kobasica | 1266 riječi | 21 H2 | 7 poveznica | Šećeri u fermentaciji kobasica: hrana za kulturu, ne slatki dodatak
+PASS | prirodna-fermentacija-i-starter-kulture | 1279 riječi | 21 H2 | 8 poveznica | Prirodna fermentacija i starter kulture: dvije logike istog cilja
+PASS | temperatura-fermentacije-kobasica | 1322 riječi | 22 H2 | 8 poveznica | Temperatura fermentacije kobasica: zašto topla prostorija nije uvijek dobra ideja
+PASS | vlaga-tijekom-fermentacije-kobasica | 1321 riječi | 22 H2 | 9 poveznica | Vlaga tijekom fermentacije kobasica: kako sačuvati površinu prije sušenja
+PASS | sto-ako-fermentacija-ne-krene | 1298 riječi | 22 H2 | 7 poveznica | Što ako fermentacija ne krene: mirna provjera prije panike
+PASS | starter-kulture-cuvanje-i-doziranje | 1319 riječi | 22 H2 | 8 poveznica | Starter kulture: čuvanje, doziranje i pogreške koje početnik lako napravi
+PASS | ph-metar-ili-ph-trakice-u-domacoj-proizvodnji | 1316 riječi | 22 H2 | 7 poveznica | pH metar ili pH trakice u domaćoj proizvodnji: što je dovoljno za početak
+PASS | vodna-aktivnost-i-gubitak-mase-zajedno | 1259 riječi | 21 H2 | 7 poveznica | Vodna aktivnost i gubitak mase: dvije različite stvari koje početnik lako pomiješa
+PASS | fermentirano-ili-pokvareno-kako-razlikovati | 1321 riječi | 22 H2 | 8 poveznica | Fermentirano ili pokvareno: kako razlikovati dobar proces od opasnog znaka
+
+GLOBALNI QA: PASS — svih 10 novih članaka ima sigurnosnu marginu.
+
+=== 4) KREIRANJE 10 NOVIH ČLANAKA ===
+CREATED NEW | ID 3349 | ph-u-fermentiranim-kobasicama | pH u fermentiranim kobasicama: što brojka govori, a što ne govori
+CREATED NEW | ID 3350 | seceri-u-fermentaciji-kobasica | Šećeri u fermentaciji kobasica: hrana za kulturu, ne slatki dodatak
+CREATED NEW | ID 3351 | prirodna-fermentacija-i-starter-kulture | Prirodna fermentacija i starter kulture: dvije logike istog cilja
+CREATED NEW | ID 3352 | temperatura-fermentacije-kobasica | Temperatura fermentacije kobasica: zašto topla prostorija nije uvijek dobra ideja
+CREATED NEW | ID 3353 | vlaga-tijekom-fermentacije-kobasica | Vlaga tijekom fermentacije kobasica: kako sačuvati površinu prije sušenja
+CREATED NEW | ID 3354 | sto-ako-fermentacija-ne-krene | Što ako fermentacija ne krene: mirna provjera prije panike
+CREATED NEW | ID 3355 | starter-kulture-cuvanje-i-doziranje | Starter kulture: čuvanje, doziranje i pogreške koje početnik lako napravi
+CREATED NEW | ID 3356 | ph-metar-ili-ph-trakice-u-domacoj-proizvodnji | pH metar ili pH trakice u domaćoj proizvodnji: što je dovoljno za početak
+CREATED NEW | ID 3357 | vodna-aktivnost-i-gubitak-mase-zajedno | Vodna aktivnost i gubitak mase: dvije različite stvari koje početnik lako pomiješa
+CREATED NEW | ID 3358 | fermentirano-ili-pokvareno-kako-razlikovati | Fermentirano ili pokvareno: kako razlikovati dobar proces od opasnog znaka
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 86 -> 96
+drycured_blog_core_profiles_v032: 86 -> 96
+
+=== 6) ZAVRŠNI QA NOVIH ČLANAKA ===
+PASS | NEW ID 3349 | ph-u-fermentiranim-kobasicama | 1328 riječi
+PASS | NEW ID 3350 | seceri-u-fermentaciji-kobasica | 1266 riječi
+PASS | NEW ID 3351 | prirodna-fermentacija-i-starter-kulture | 1279 riječi
+PASS | NEW ID 3352 | temperatura-fermentacije-kobasica | 1322 riječi
+PASS | NEW ID 3353 | vlaga-tijekom-fermentacije-kobasica | 1321 riječi
+PASS | NEW ID 3354 | sto-ako-fermentacija-ne-krene | 1298 riječi
+PASS | NEW ID 3355 | starter-kulture-cuvanje-i-doziranje | 1319 riječi
+PASS | NEW ID 3356 | ph-metar-ili-ph-trakice-u-domacoj-proizvodnji | 1316 riječi
+PASS | NEW ID 3357 | vodna-aktivnost-i-gubitak-mase-zajedno | 1259 riječi
+PASS | NEW ID 3358 | fermentirano-ili-pokvareno-kako-razlikovati | 1321 riječi
+PASS | drycured_blog_core_profiles_v031 | novi profili OK
+PASS | drycured_blog_core_profiles_v032 | novi profili OK
+
+============================================================
+PHP DIO NEW BATCH 04 ZAVRŠEN — PASS
+============================================================
+
+=== 5) JAVNA HTTP PROVJERA NOVIH ČLANAKA ===
+Kreiranih novih članaka: 10
+200 | NEW ID 3349 | ph-u-fermentiranim-kobasicama | https://drycured.com/2026/06/06/ph-u-fermentiranim-kobasicama/
+200 | NEW ID 3350 | seceri-u-fermentaciji-kobasica | https://drycured.com/2026/06/06/seceri-u-fermentaciji-kobasica/
+200 | NEW ID 3351 | prirodna-fermentacija-i-starter-kulture | https://drycured.com/2026/06/06/prirodna-fermentacija-i-starter-kulture/
+200 | NEW ID 3352 | temperatura-fermentacije-kobasica | https://drycured.com/2026/06/06/temperatura-fermentacije-kobasica/
+200 | NEW ID 3353 | vlaga-tijekom-fermentacije-kobasica | https://drycured.com/2026/06/06/vlaga-tijekom-fermentacije-kobasica/
+200 | NEW ID 3354 | sto-ako-fermentacija-ne-krene | https://drycured.com/2026/06/06/sto-ako-fermentacija-ne-krene/
+200 | NEW ID 3355 | starter-kulture-cuvanje-i-doziranje | https://drycured.com/2026/06/06/starter-kulture-cuvanje-i-doziranje/
+200 | NEW ID 3356 | ph-metar-ili-ph-trakice-u-domacoj-proizvodnji | https://drycured.com/2026/06/06/ph-metar-ili-ph-trakice-u-domacoj-proizvodnji/
+200 | NEW ID 3357 | vodna-aktivnost-i-gubitak-mase-zajedno | https://drycured.com/2026/06/06/vodna-aktivnost-i-gubitak-mase-zajedno/
+200 | NEW ID 3358 | fermentirano-ili-pokvareno-kako-razlikovati | https://drycured.com/2026/06/06/fermentirano-ili-pokvareno-kako-razlikovati/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 6) WORDPRESS STATUS NOVIH ČLANAKA ===
+ID	post_title	post_name	post_status
+3349	pH u fermentiranim kobasicama: što brojka govori, a što ne govori	ph-u-fermentiranim-kobasicama	publish
+3350	Šećeri u fermentaciji kobasica: hrana za kulturu, ne slatki dodatak	seceri-u-fermentaciji-kobasica	publish
+3351	Prirodna fermentacija i starter kulture: dvije logike istog cilja	prirodna-fermentacija-i-starter-kulture	publish
+3352	Temperatura fermentacije kobasica: zašto topla prostorija nije uvijek dobra ideja	temperatura-fermentacije-kobasica	publish
+3353	Vlaga tijekom fermentacije kobasica: kako sačuvati površinu prije sušenja	vlaga-tijekom-fermentacije-kobasica	publish
+3354	Što ako fermentacija ne krene: mirna provjera prije panike	sto-ako-fermentacija-ne-krene	publish
+3355	Starter kulture: čuvanje, doziranje i pogreške koje početnik lako napravi	starter-kulture-cuvanje-i-doziranje	publish
+3356	pH metar ili pH trakice u domaćoj proizvodnji: što je dovoljno za početak	ph-metar-ili-ph-trakice-u-domacoj-proizvodnji	publish
+3357	Vodna aktivnost i gubitak mase: dvije različite stvari koje početnik lako pomiješa	vodna-aktivnost-i-gubitak-mase-zajedno	publish
+3358	Fermentirano ili pokvareno: kako razlikovati dobar proces od opasnog znaka	fermentirano-ili-pokvareno-kako-razlikovati	publish
+
+=== 7) BROJ AKTIVNIH PROFILA NAKON NOVIH ČLANAKA ===
+Aktivnih profila v032: 96
+
+=== 8) PRIPREMA GIT REPORTA ===
