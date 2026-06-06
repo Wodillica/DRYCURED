@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Drycured Legal Footer Links v1
- * Description: Diskretne pravne poveznice u footeru: Politika privatnosti, Politika kolačića, Postavke kolačića.
- * Version: 1.0.0
+ * Description: Diskretne pravne poveznice u footeru: Politika privatnosti i Politika kolačića.
+ * Version: 1.1.0
  * Author: Drycured.com
  */
 
@@ -39,16 +39,10 @@ if (!function_exists('drycured_legal_footer_links_render')) {
                 gap: 10px;
                 flex-wrap: wrap;
             }
-            .dc-legal-footer a,
-            .dc-legal-footer button {
+            .dc-legal-footer a {
                 color: #6d3a18;
                 text-decoration: underline;
                 text-underline-offset: 3px;
-                background: transparent;
-                border: 0;
-                padding: 0;
-                cursor: pointer;
-                font: inherit;
             }
             .dc-legal-footer-sep {
                 color: rgba(91, 58, 37, .55);
@@ -69,41 +63,8 @@ if (!function_exists('drycured_legal_footer_links_render')) {
                 <a href="<?php echo $privacy_url; ?>">Politika privatnosti</a>
                 <span class="dc-legal-footer-sep">·</span>
                 <a href="<?php echo $cookies_url; ?>">Politika kolačića</a>
-                <span class="dc-legal-footer-sep">·</span>
-                <button type="button" class="dc-legal-cookie-settings" id="dc-legal-cookie-settings">
-                    Postavke kolačića
-                </button>
             </div>
         </div>
-
-        <script id="drycured-legal-footer-links-js">
-        (function () {
-            function openCookieSettings(ev) {
-                if (ev) ev.preventDefault();
-
-                var reopen = document.getElementById('dc-cookie-reopen');
-                var settingsButton = document.querySelector('[data-dc-cookie-action="settings"]');
-
-                if (reopen) {
-                    reopen.click();
-                    return;
-                }
-
-                if (settingsButton) {
-                    settingsButton.click();
-                    return;
-                }
-
-                window.location.href = '<?php echo $cookies_url; ?>';
-            }
-
-            document.addEventListener('click', function (ev) {
-                var btn = ev.target.closest('#dc-legal-cookie-settings');
-                if (!btn) return;
-                openCookieSettings(ev);
-            });
-        })();
-        </script>
         <?php
     }
 }

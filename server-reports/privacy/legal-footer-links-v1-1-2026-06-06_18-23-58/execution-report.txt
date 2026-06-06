@@ -1,0 +1,27 @@
+============================================================
+DRYCURED — LEGAL FOOTER LINKS v1.1
+Uklanja srednji link 'Postavke kolačića' iz footera
+Ostavlja lijevi plutajući gumb iz cookie privacy plugina
+Vrijeme: Sat Jun  6 06:23:58 PM UTC 2026
+============================================================
+
+=== 1) PREFLIGHT ===
+PASS: Git radno stablo je čisto.
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== 3) AŽURIRANJE MU-PLUGINA ===
+No syntax errors detected in /root/DRYCURED_GITHUB/wp-content/mu-plugins/drycured-legal-footer-links-v1.php
+
+=== 4) DEPLOY NA LIVE ===
+No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-legal-footer-links-v1.php
+Success: The cache was flushed.
+
+=== 5) JAVNI QA ===
+Home: 200
+Politika kolačića: 200
+Politika privatnosti: 200
+QA: PASS — footer ima samo dvije pravne poveznice, lijevi gumb postavki postoji.
+
+=== 6) GIT REPORT ===

@@ -1,0 +1,3 @@
+a23ee6783f46d2575d67c0b5d1c7a34e2af8ba1dea3ab7053abb18051d5df23b  /root/DRYCURED_GITHUB/server-reports/privacy/legal-footer-links-v1-1-2026-06-06_18-23-58/execution-report.txt
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /root/DRYCURED_GITHUB/server-reports/privacy/legal-footer-links-v1-1-2026-06-06_18-23-58/git-status-before.txt
+ac9cdbd5de3ef3b679534a76c744be1f5324a66621b2ea6e1db13d2ffb83fb7b  /root/DRYCURED_GITHUB/server-reports/privacy/legal-footer-links-v1-1-2026-06-06_18-23-58/summary.md
