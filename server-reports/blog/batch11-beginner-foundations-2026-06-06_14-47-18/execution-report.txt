@@ -1,0 +1,84 @@
+============================================================
+DRYCURED BLOG — BATCH 11 POČETNIČKI TEMELJI
+Vrijeme: Sat Jun  6 02:47:18 PM UTC 2026
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch11_beginner_foundations.php
+
+=== 2) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 1440 | 1316 riječi | 19 H2 | 7 poveznica | Što su suhomesnati proizvodi: osnovno objašnjenje za početnike
+PASS | ID 1439 | 1279 riječi | 19 H2 | 7 poveznica | Osnovna podjela suhomesnatih proizvoda: svježi, suhi, dimljeni i dugozreli
+PASS | ID 1441 | 1203 riječi | 19 H2 | 7 poveznica | Uvod u svijet suhomesnatih proizvoda: od osnovnih pojmova do prve šarže
+PASS | ID 97 | 1289 riječi | 20 H2 | 9 poveznica | Kako napraviti domaće kobasice: vodič za početnike
+PASS | ID 99 | 1270 riječi | 20 H2 | 10 poveznica | Vodič za domaću izradu kobasica i suhomesnatih proizvoda
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 3) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 1440 | Što su suhomesnati proizvodi | originalni naslov
+PASS | ID 1439 | Osnovna podjela suhomesnatih proizvoda | originalni naslov
+PASS | ID 1441 | Uvod u svijet suhomesnatih proizvoda | originalni naslov
+PASS | ID 97 | Kako napraviti domaće kobasice: Vodič za početnike | originalni naslov
+PASS | ID 99 | Vodič za domaću izradu kobasica i suhomesnatih proizvoda | originalni naslov
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== STVARNI QA PRIJE UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 1440 | 1316 riječi | 19 H2 | 7 poveznica | Što su suhomesnati proizvodi: osnovno objašnjenje za početnike
+PASS | ID 1439 | 1279 riječi | 19 H2 | 7 poveznica | Osnovna podjela suhomesnatih proizvoda: svježi, suhi, dimljeni i dugozreli
+PASS | ID 1441 | 1203 riječi | 19 H2 | 7 poveznica | Uvod u svijet suhomesnatih proizvoda: od osnovnih pojmova do prve šarže
+PASS | ID 97 | 1289 riječi | 20 H2 | 9 poveznica | Kako napraviti domaće kobasice: vodič za početnike
+PASS | ID 99 | 1270 riječi | 20 H2 | 10 poveznica | Vodič za domaću izradu kobasica i suhomesnatih proizvoda
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 4) UPIS NOVOG SADRŽAJA U POSTOJEĆE ČLANKE ===
+UPDATED EXISTING | ID 1440 | Što su suhomesnati proizvodi: osnovno objašnjenje za početnike
+UPDATED EXISTING | ID 1439 | Osnovna podjela suhomesnatih proizvoda: svježi, suhi, dimljeni i dugozreli
+UPDATED EXISTING | ID 1441 | Uvod u svijet suhomesnatih proizvoda: od osnovnih pojmova do prve šarže
+UPDATED EXISTING | ID 97 | Kako napraviti domaće kobasice: vodič za početnike
+UPDATED EXISTING | ID 99 | Vodič za domaću izradu kobasica i suhomesnatih proizvoda
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 1440 | publish | 1316 riječi
+PASS | ID 1439 | publish | 1279 riječi
+PASS | ID 1441 | publish | 1203 riječi
+PASS | ID 97 | publish | 1289 riječi
+PASS | ID 99 | publish | 1270 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 11 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA ===
+200 | ID 1440 | Što su suhomesnati proizvodi | https://drycured.com/2026/03/23/sto-su-suhomesnati-proizvodi/
+200 | ID 1439 | Osnovna podjela | https://drycured.com/2026/03/23/osnovna-podjela-suhomesnatih-proizvoda/
+200 | ID 1441 | Uvod | https://drycured.com/2026/03/23/uvod-u-svijet-suhomesnatih-proizvoda/
+200 | ID 97 | Domaće kobasice | https://drycured.com/2025/02/16/kako-napraviti-domace-kobasice-vodic-za-pocetnike/
+200 | ID 99 | Vodič domaća izrada | https://drycured.com/2025/02/16/vodic-za-domacu-izradu-kobasica-i-suhomesnatih-proizvoda/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) WORDPRESS STATUS ===
+ID	post_title	post_status
+97	Kako napraviti domaće kobasice: vodič za početnike	publish
+99	Vodič za domaću izradu kobasica i suhomesnatih proizvoda	publish
+1439	Osnovna podjela suhomesnatih proizvoda: svježi, suhi, dimljeni i dugozreli	publish
+1440	Što su suhomesnati proizvodi: osnovno objašnjenje za početnike	publish
+1441	Uvod u svijet suhomesnatih proizvoda: od osnovnih pojmova do prve šarže	publish
+
+=== 6) PRIPREMA GIT REPORTA ===

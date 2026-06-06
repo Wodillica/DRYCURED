@@ -1,0 +1,6 @@
+ID	post_title	post_status
+97	Kako napraviti domaće kobasice: vodič za početnike	publish
+99	Vodič za domaću izradu kobasica i suhomesnatih proizvoda	publish
+1439	Osnovna podjela suhomesnatih proizvoda: svježi, suhi, dimljeni i dugozreli	publish
+1440	Što su suhomesnati proizvodi: osnovno objašnjenje za početnike	publish
+1441	Uvod u svijet suhomesnatih proizvoda: od osnovnih pojmova do prve šarže	publish
