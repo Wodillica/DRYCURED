@@ -1,0 +1,62 @@
+============================================================
+DRYCURED BLOG — BATCH 14 FINALNI POSTOJEĆI ČLANAK
+Članak: ID 1480 — Domaća kobasica
+Vrijeme: Sat Jun  6 03:08:16 PM UTC 2026
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch14_final_existing_sausage.php
+
+=== 2) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 1480 | 1294 riječi | 19 H2 | 17 poveznica | Domaća kobasica: tradicija, postupak i siguran početnički redoslijed
+
+GLOBALNI QA: PASS — članak ima sigurnosnu marginu.
+
+=== 3) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 1480 | Domaća kobasica: Tradicija na vašem stolu | originalni naslov
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== STVARNI QA PRIJE UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 1480 | 1294 riječi | 19 H2 | 17 poveznica | Domaća kobasica: tradicija, postupak i siguran početnički redoslijed
+
+GLOBALNI QA: PASS — članak ima sigurnosnu marginu.
+
+=== 4) UPIS NOVOG SADRŽAJA U POSTOJEĆI ČLANAK ===
+UPDATED EXISTING | ID 1480 | Domaća kobasica: tradicija, postupak i siguran početnički redoslijed
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 1480 | publish | 1294 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 14 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA ===
+200 | ID 1480 | Domaća kobasica | https://drycured.com/2026/03/28/domaca-kobasica-tradicija-na-vasem-stolu/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) WORDPRESS STATUS ===
+ID	post_title	post_status
+1480	Domaća kobasica: tradicija, postupak i siguran početnički redoslijed	publish
+
+=== 6) FINALNA INVENTURA 64/64 ===
+Aktivnih profila: 64
+Preuređenih ID-jeva: 64
+Preostalo: 0
+
+=== 7) PRIPREMA GIT REPORTA ===
