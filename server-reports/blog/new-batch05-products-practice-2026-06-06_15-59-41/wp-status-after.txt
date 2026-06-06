@@ -1,0 +1,11 @@
+ID	post_title	post_name	post_status
+3359	Kobasica za pečenje ili sušenje: odluka koja se donosi prije mljevenja	kobasica-za-pecenje-ili-susenje	publish
+3360	Kako odabrati prvi suhomesnati proizvod za kućnu proizvodnju	kako-odabrati-prvi-suhomesnati-proizvod	publish
+3361	Slanina, panceta i špek: praktična razlika za početnike	slanina-panceta-spek-prakticna-razlika	publish
+3362	Kulen, kulenova seka i domaća kobasica: što je za početnika realno	kulen-kulenova-seka-domaca-kobasica-pocetnik	publish
+3363	Cijeli komadi ili kobasice: kako izabrati prema prostoru, vremenu i iskustvu	cijeli-komadi-ili-kobasice-kako-izabrati	publish
+3364	Prvo rezanje suhomesnatog proizvoda: što presjek govori o cijelom procesu	prvo-rezanje-suhomesnatog-proizvoda	publish
+3365	Mala degustacija šarže: kako ocijeniti proizvod bez zavaravanja	mala-degustacija-sarze-kako-ocijeniti-proizvod	publish
+3366	Usporedba dvije šarže: kako učiti iz razlike, a ne iz dojma	usporedba-dvije-sarze-suhomesnatih-proizvoda	publish
+3367	Najčešći mitovi o domaćim suhomesnatim proizvodima	najcesci-mitovi-o-domacim-suhomesnatim-proizvodima	publish
+3368	Kuhinjska upotreba suhomesnatih proizvoda bez pretjerivanja	kuhinjska-upotreba-suhomesnatih-proizvoda-bez-pretjerivanja	publish

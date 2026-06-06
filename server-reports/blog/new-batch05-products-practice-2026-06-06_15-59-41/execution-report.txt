@@ -1,0 +1,127 @@
+============================================================
+DRYCURED BLOG — NEW BATCH 05
+KREIRANJE NOVIH ČLANAKA
+Tema: proizvodi, odabir, posluživanje i učenje iz šarži
+Vrijeme: Sat Jun  6 03:59:41 PM UTC 2026
+Profilni indeks prije: 96
+Očekivani profilni indeks nakon: 106
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_new_batch05_products_practice.php
+
+=== 2) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | kobasica-za-pecenje-ili-susenje | 1461 riječi | 24 H2 | 9 poveznica | Kobasica za pečenje ili sušenje: odluka koja se donosi prije mljevenja
+PASS | kako-odabrati-prvi-suhomesnati-proizvod | 1423 riječi | 24 H2 | 9 poveznica | Kako odabrati prvi suhomesnati proizvod za kućnu proizvodnju
+PASS | slanina-panceta-spek-prakticna-razlika | 1416 riječi | 24 H2 | 9 poveznica | Slanina, panceta i špek: praktična razlika za početnike
+PASS | kulen-kulenova-seka-domaca-kobasica-pocetnik | 1465 riječi | 25 H2 | 9 poveznica | Kulen, kulenova seka i domaća kobasica: što je za početnika realno
+PASS | cijeli-komadi-ili-kobasice-kako-izabrati | 1478 riječi | 25 H2 | 8 poveznica | Cijeli komadi ili kobasice: kako izabrati prema prostoru, vremenu i iskustvu
+PASS | prvo-rezanje-suhomesnatog-proizvoda | 1452 riječi | 25 H2 | 9 poveznica | Prvo rezanje suhomesnatog proizvoda: što presjek govori o cijelom procesu
+PASS | mala-degustacija-sarze-kako-ocijeniti-proizvod | 1467 riječi | 25 H2 | 8 poveznica | Mala degustacija šarže: kako ocijeniti proizvod bez zavaravanja
+PASS | usporedba-dvije-sarze-suhomesnatih-proizvoda | 1470 riječi | 25 H2 | 8 poveznica | Usporedba dvije šarže: kako učiti iz razlike, a ne iz dojma
+PASS | najcesci-mitovi-o-domacim-suhomesnatim-proizvodima | 1423 riječi | 24 H2 | 8 poveznica | Najčešći mitovi o domaćim suhomesnatim proizvodima
+PASS | kuhinjska-upotreba-suhomesnatih-proizvoda-bez-pretjerivanja | 1418 riječi | 24 H2 | 9 poveznica | Kuhinjska upotreba suhomesnatih proizvoda bez pretjerivanja
+
+GLOBALNI QA: PASS — svih 10 novih članaka ima sigurnosnu marginu.
+
+=== 3) STVARNO KREIRANJE 10 NOVIH ČLANAKA ===
+
+=== 1) PREFLIGHT NOVIH SLUGOVA ===
+PASS | slug slobodan | kobasica-za-pecenje-ili-susenje
+PASS | slug slobodan | kako-odabrati-prvi-suhomesnati-proizvod
+PASS | slug slobodan | slanina-panceta-spek-prakticna-razlika
+PASS | slug slobodan | kulen-kulenova-seka-domaca-kobasica-pocetnik
+PASS | slug slobodan | cijeli-komadi-ili-kobasice-kako-izabrati
+PASS | slug slobodan | prvo-rezanje-suhomesnatog-proizvoda
+PASS | slug slobodan | mala-degustacija-sarze-kako-ocijeniti-proizvod
+PASS | slug slobodan | usporedba-dvije-sarze-suhomesnatih-proizvoda
+PASS | slug slobodan | najcesci-mitovi-o-domacim-suhomesnatim-proizvodima
+PASS | slug slobodan | kuhinjska-upotreba-suhomesnatih-proizvoda-bez-pretjerivanja
+Preflight slugova: PASS
+
+=== 2) BACKUP PROFILNIH INDEKSA ===
+Backup: PASS
+
+=== STVARNI QA PRIJE KREIRANJA — GLOBALNI QA INVENTAR ===
+PASS | kobasica-za-pecenje-ili-susenje | 1461 riječi | 24 H2 | 9 poveznica | Kobasica za pečenje ili sušenje: odluka koja se donosi prije mljevenja
+PASS | kako-odabrati-prvi-suhomesnati-proizvod | 1423 riječi | 24 H2 | 9 poveznica | Kako odabrati prvi suhomesnati proizvod za kućnu proizvodnju
+PASS | slanina-panceta-spek-prakticna-razlika | 1416 riječi | 24 H2 | 9 poveznica | Slanina, panceta i špek: praktična razlika za početnike
+PASS | kulen-kulenova-seka-domaca-kobasica-pocetnik | 1465 riječi | 25 H2 | 9 poveznica | Kulen, kulenova seka i domaća kobasica: što je za početnika realno
+PASS | cijeli-komadi-ili-kobasice-kako-izabrati | 1478 riječi | 25 H2 | 8 poveznica | Cijeli komadi ili kobasice: kako izabrati prema prostoru, vremenu i iskustvu
+PASS | prvo-rezanje-suhomesnatog-proizvoda | 1452 riječi | 25 H2 | 9 poveznica | Prvo rezanje suhomesnatog proizvoda: što presjek govori o cijelom procesu
+PASS | mala-degustacija-sarze-kako-ocijeniti-proizvod | 1467 riječi | 25 H2 | 8 poveznica | Mala degustacija šarže: kako ocijeniti proizvod bez zavaravanja
+PASS | usporedba-dvije-sarze-suhomesnatih-proizvoda | 1470 riječi | 25 H2 | 8 poveznica | Usporedba dvije šarže: kako učiti iz razlike, a ne iz dojma
+PASS | najcesci-mitovi-o-domacim-suhomesnatim-proizvodima | 1423 riječi | 24 H2 | 8 poveznica | Najčešći mitovi o domaćim suhomesnatim proizvodima
+PASS | kuhinjska-upotreba-suhomesnatih-proizvoda-bez-pretjerivanja | 1418 riječi | 24 H2 | 9 poveznica | Kuhinjska upotreba suhomesnatih proizvoda bez pretjerivanja
+
+GLOBALNI QA: PASS — svih 10 novih članaka ima sigurnosnu marginu.
+
+=== 4) KREIRANJE 10 NOVIH ČLANAKA ===
+CREATED NEW | ID 3359 | kobasica-za-pecenje-ili-susenje | Kobasica za pečenje ili sušenje: odluka koja se donosi prije mljevenja
+CREATED NEW | ID 3360 | kako-odabrati-prvi-suhomesnati-proizvod | Kako odabrati prvi suhomesnati proizvod za kućnu proizvodnju
+CREATED NEW | ID 3361 | slanina-panceta-spek-prakticna-razlika | Slanina, panceta i špek: praktična razlika za početnike
+CREATED NEW | ID 3362 | kulen-kulenova-seka-domaca-kobasica-pocetnik | Kulen, kulenova seka i domaća kobasica: što je za početnika realno
+CREATED NEW | ID 3363 | cijeli-komadi-ili-kobasice-kako-izabrati | Cijeli komadi ili kobasice: kako izabrati prema prostoru, vremenu i iskustvu
+CREATED NEW | ID 3364 | prvo-rezanje-suhomesnatog-proizvoda | Prvo rezanje suhomesnatog proizvoda: što presjek govori o cijelom procesu
+CREATED NEW | ID 3365 | mala-degustacija-sarze-kako-ocijeniti-proizvod | Mala degustacija šarže: kako ocijeniti proizvod bez zavaravanja
+CREATED NEW | ID 3366 | usporedba-dvije-sarze-suhomesnatih-proizvoda | Usporedba dvije šarže: kako učiti iz razlike, a ne iz dojma
+CREATED NEW | ID 3367 | najcesci-mitovi-o-domacim-suhomesnatim-proizvodima | Najčešći mitovi o domaćim suhomesnatim proizvodima
+CREATED NEW | ID 3368 | kuhinjska-upotreba-suhomesnatih-proizvoda-bez-pretjerivanja | Kuhinjska upotreba suhomesnatih proizvoda bez pretjerivanja
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 96 -> 106
+drycured_blog_core_profiles_v032: 96 -> 106
+
+=== 6) ZAVRŠNI QA NOVIH ČLANAKA ===
+PASS | NEW ID 3359 | kobasica-za-pecenje-ili-susenje | 1461 riječi
+PASS | NEW ID 3360 | kako-odabrati-prvi-suhomesnati-proizvod | 1423 riječi
+PASS | NEW ID 3361 | slanina-panceta-spek-prakticna-razlika | 1416 riječi
+PASS | NEW ID 3362 | kulen-kulenova-seka-domaca-kobasica-pocetnik | 1465 riječi
+PASS | NEW ID 3363 | cijeli-komadi-ili-kobasice-kako-izabrati | 1478 riječi
+PASS | NEW ID 3364 | prvo-rezanje-suhomesnatog-proizvoda | 1452 riječi
+PASS | NEW ID 3365 | mala-degustacija-sarze-kako-ocijeniti-proizvod | 1467 riječi
+PASS | NEW ID 3366 | usporedba-dvije-sarze-suhomesnatih-proizvoda | 1470 riječi
+PASS | NEW ID 3367 | najcesci-mitovi-o-domacim-suhomesnatim-proizvodima | 1423 riječi
+PASS | NEW ID 3368 | kuhinjska-upotreba-suhomesnatih-proizvoda-bez-pretjerivanja | 1418 riječi
+PASS | drycured_blog_core_profiles_v031 | novi profili OK
+PASS | drycured_blog_core_profiles_v032 | novi profili OK
+
+============================================================
+PHP DIO NEW BATCH 05 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA NOVIH ČLANAKA ===
+Kreiranih novih članaka: 10
+200 | NEW ID 3359 | kobasica-za-pecenje-ili-susenje | https://drycured.com/2026/06/06/kobasica-za-pecenje-ili-susenje/
+200 | NEW ID 3360 | kako-odabrati-prvi-suhomesnati-proizvod | https://drycured.com/2026/06/06/kako-odabrati-prvi-suhomesnati-proizvod/
+200 | NEW ID 3361 | slanina-panceta-spek-prakticna-razlika | https://drycured.com/2026/06/06/slanina-panceta-spek-prakticna-razlika/
+200 | NEW ID 3362 | kulen-kulenova-seka-domaca-kobasica-pocetnik | https://drycured.com/2026/06/06/kulen-kulenova-seka-domaca-kobasica-pocetnik/
+200 | NEW ID 3363 | cijeli-komadi-ili-kobasice-kako-izabrati | https://drycured.com/2026/06/06/cijeli-komadi-ili-kobasice-kako-izabrati/
+200 | NEW ID 3364 | prvo-rezanje-suhomesnatog-proizvoda | https://drycured.com/2026/06/06/prvo-rezanje-suhomesnatog-proizvoda/
+200 | NEW ID 3365 | mala-degustacija-sarze-kako-ocijeniti-proizvod | https://drycured.com/2026/06/06/mala-degustacija-sarze-kako-ocijeniti-proizvod/
+200 | NEW ID 3366 | usporedba-dvije-sarze-suhomesnatih-proizvoda | https://drycured.com/2026/06/06/usporedba-dvije-sarze-suhomesnatih-proizvoda/
+200 | NEW ID 3367 | najcesci-mitovi-o-domacim-suhomesnatim-proizvodima | https://drycured.com/2026/06/06/najcesci-mitovi-o-domacim-suhomesnatim-proizvodima/
+200 | NEW ID 3368 | kuhinjska-upotreba-suhomesnatih-proizvoda-bez-pretjerivanja | https://drycured.com/2026/06/06/kuhinjska-upotreba-suhomesnatih-proizvoda-bez-pretjerivanja/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) WORDPRESS STATUS NOVIH ČLANAKA ===
+ID	post_title	post_name	post_status
+3359	Kobasica za pečenje ili sušenje: odluka koja se donosi prije mljevenja	kobasica-za-pecenje-ili-susenje	publish
+3360	Kako odabrati prvi suhomesnati proizvod za kućnu proizvodnju	kako-odabrati-prvi-suhomesnati-proizvod	publish
+3361	Slanina, panceta i špek: praktična razlika za početnike	slanina-panceta-spek-prakticna-razlika	publish
+3362	Kulen, kulenova seka i domaća kobasica: što je za početnika realno	kulen-kulenova-seka-domaca-kobasica-pocetnik	publish
+3363	Cijeli komadi ili kobasice: kako izabrati prema prostoru, vremenu i iskustvu	cijeli-komadi-ili-kobasice-kako-izabrati	publish
+3364	Prvo rezanje suhomesnatog proizvoda: što presjek govori o cijelom procesu	prvo-rezanje-suhomesnatog-proizvoda	publish
+3365	Mala degustacija šarže: kako ocijeniti proizvod bez zavaravanja	mala-degustacija-sarze-kako-ocijeniti-proizvod	publish
+3366	Usporedba dvije šarže: kako učiti iz razlike, a ne iz dojma	usporedba-dvije-sarze-suhomesnatih-proizvoda	publish
+3367	Najčešći mitovi o domaćim suhomesnatim proizvodima	najcesci-mitovi-o-domacim-suhomesnatim-proizvodima	publish
+3368	Kuhinjska upotreba suhomesnatih proizvoda bez pretjerivanja	kuhinjska-upotreba-suhomesnatih-proizvoda-bez-pretjerivanja	publish
+
+=== 6) BROJ AKTIVNIH PROFILA NAKON NOVIH ČLANAKA ===
+Aktivnih profila v032: 106
+
+=== 7) PRIPREMA GIT REPORTA ===
