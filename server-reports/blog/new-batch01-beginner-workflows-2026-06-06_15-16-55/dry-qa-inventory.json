@@ -1,0 +1,47 @@
+[
+    {
+        "slug": "prva-probna-sarza-suhomesnati-proizvodi",
+        "title": "Prva probna šarža: zašto početnik ne treba odmah raditi veliku količinu",
+        "words": 1324,
+        "h2": 21,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "slug": "radni-dan-za-domace-kobasice",
+        "title": "Radni dan za domaće kobasice: kako složiti posao bez kaosa",
+        "words": 1245,
+        "h2": 21,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "slug": "kontrolna-lista-prije-punjenja-kobasica",
+        "title": "Kontrolna lista prije punjenja kobasica: što provjeriti prije nego nadjev uđe u crijevo",
+        "words": 1250,
+        "h2": 21,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "slug": "procjena-prostora-prije-susenja",
+        "title": "Procjena prostora prije sušenja: kako znati je li prostor spreman za suhomesnate proizvode",
+        "words": 1245,
+        "h2": 21,
+        "links": 7,
+        "status": "PASS",
+        "errors": []
+    },
+    {
+        "slug": "foto-dnevnik-sarze-suhomesnati-proizvodi",
+        "title": "Foto-dnevnik šarže: kako fotografije pomažu boljem suhomesnatom proizvodu",
+        "words": 1224,
+        "h2": 21,
+        "links": 8,
+        "status": "PASS",
+        "errors": []
+    }
+]

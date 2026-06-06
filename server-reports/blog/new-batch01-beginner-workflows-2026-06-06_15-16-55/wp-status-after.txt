@@ -1,0 +1,6 @@
+ID	post_title	post_name	post_status
+3327	Prva probna šarža: zašto početnik ne treba odmah raditi veliku količinu	prva-probna-sarza-suhomesnati-proizvodi	publish
+3328	Radni dan za domaće kobasice: kako složiti posao bez kaosa	radni-dan-za-domace-kobasice	publish
+3329	Kontrolna lista prije punjenja kobasica: što provjeriti prije nego nadjev uđe u crijevo	kontrolna-lista-prije-punjenja-kobasica	publish
+3330	Procjena prostora prije sušenja: kako znati je li prostor spreman za suhomesnate proizvode	procjena-prostora-prije-susenja	publish
+3331	Foto-dnevnik šarže: kako fotografije pomažu boljem suhomesnatom proizvodu	foto-dnevnik-sarze-suhomesnati-proizvodi	publish

@@ -1,0 +1,89 @@
+============================================================
+DRYCURED BLOG — NEW BATCH 01
+KREIRANJE NOVIH ČLANAKA
+Tema: početnički praktični alati i radni tokovi
+Vrijeme: Sat Jun  6 03:16:55 PM UTC 2026
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_new_batch01_beginner_workflows.php
+
+=== 2) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | prva-probna-sarza-suhomesnati-proizvodi | 1324 riječi | 21 H2 | 8 poveznica | Prva probna šarža: zašto početnik ne treba odmah raditi veliku količinu
+PASS | radni-dan-za-domace-kobasice | 1245 riječi | 21 H2 | 8 poveznica | Radni dan za domaće kobasice: kako složiti posao bez kaosa
+PASS | kontrolna-lista-prije-punjenja-kobasica | 1250 riječi | 21 H2 | 8 poveznica | Kontrolna lista prije punjenja kobasica: što provjeriti prije nego nadjev uđe u crijevo
+PASS | procjena-prostora-prije-susenja | 1245 riječi | 21 H2 | 7 poveznica | Procjena prostora prije sušenja: kako znati je li prostor spreman za suhomesnate proizvode
+PASS | foto-dnevnik-sarze-suhomesnati-proizvodi | 1224 riječi | 21 H2 | 8 poveznica | Foto-dnevnik šarže: kako fotografije pomažu boljem suhomesnatom proizvodu
+
+GLOBALNI QA: PASS — svi novi članci imaju sigurnosnu marginu.
+
+=== 3) STVARNO KREIRANJE NOVIH ČLANAKA ===
+
+=== 1) PREFLIGHT NOVIH SLUGOVA ===
+PASS | slug slobodan | prva-probna-sarza-suhomesnati-proizvodi
+PASS | slug slobodan | radni-dan-za-domace-kobasice
+PASS | slug slobodan | kontrolna-lista-prije-punjenja-kobasica
+PASS | slug slobodan | procjena-prostora-prije-susenja
+PASS | slug slobodan | foto-dnevnik-sarze-suhomesnati-proizvodi
+Preflight slugova: PASS
+
+=== 2) BACKUP PROFILNIH INDEKSA ===
+Backup: PASS
+
+=== STVARNI QA PRIJE KREIRANJA — GLOBALNI QA INVENTAR ===
+PASS | prva-probna-sarza-suhomesnati-proizvodi | 1324 riječi | 21 H2 | 8 poveznica | Prva probna šarža: zašto početnik ne treba odmah raditi veliku količinu
+PASS | radni-dan-za-domace-kobasice | 1245 riječi | 21 H2 | 8 poveznica | Radni dan za domaće kobasice: kako složiti posao bez kaosa
+PASS | kontrolna-lista-prije-punjenja-kobasica | 1250 riječi | 21 H2 | 8 poveznica | Kontrolna lista prije punjenja kobasica: što provjeriti prije nego nadjev uđe u crijevo
+PASS | procjena-prostora-prije-susenja | 1245 riječi | 21 H2 | 7 poveznica | Procjena prostora prije sušenja: kako znati je li prostor spreman za suhomesnate proizvode
+PASS | foto-dnevnik-sarze-suhomesnati-proizvodi | 1224 riječi | 21 H2 | 8 poveznica | Foto-dnevnik šarže: kako fotografije pomažu boljem suhomesnatom proizvodu
+
+GLOBALNI QA: PASS — svi novi članci imaju sigurnosnu marginu.
+
+=== 4) KREIRANJE NOVIH ČLANAKA ===
+CREATED NEW | ID 3327 | prva-probna-sarza-suhomesnati-proizvodi | Prva probna šarža: zašto početnik ne treba odmah raditi veliku količinu
+CREATED NEW | ID 3328 | radni-dan-za-domace-kobasice | Radni dan za domaće kobasice: kako složiti posao bez kaosa
+CREATED NEW | ID 3329 | kontrolna-lista-prije-punjenja-kobasica | Kontrolna lista prije punjenja kobasica: što provjeriti prije nego nadjev uđe u crijevo
+CREATED NEW | ID 3330 | procjena-prostora-prije-susenja | Procjena prostora prije sušenja: kako znati je li prostor spreman za suhomesnate proizvode
+CREATED NEW | ID 3331 | foto-dnevnik-sarze-suhomesnati-proizvodi | Foto-dnevnik šarže: kako fotografije pomažu boljem suhomesnatom proizvodu
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 69
+drycured_blog_core_profiles_v032: 64 -> 69
+
+=== 6) ZAVRŠNI QA NOVIH ČLANAKA ===
+PASS | NEW ID 3327 | prva-probna-sarza-suhomesnati-proizvodi | 1324 riječi
+PASS | NEW ID 3328 | radni-dan-za-domace-kobasice | 1245 riječi
+PASS | NEW ID 3329 | kontrolna-lista-prije-punjenja-kobasica | 1250 riječi
+PASS | NEW ID 3330 | procjena-prostora-prije-susenja | 1245 riječi
+PASS | NEW ID 3331 | foto-dnevnik-sarze-suhomesnati-proizvodi | 1224 riječi
+PASS | drycured_blog_core_profiles_v031 | novi profili OK
+PASS | drycured_blog_core_profiles_v032 | novi profili OK
+
+============================================================
+PHP DIO NEW BATCH 01 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA NOVIH ČLANAKA ===
+200 | NEW ID 3327 | prva-probna-sarza-suhomesnati-proizvodi | https://drycured.com/2026/06/06/prva-probna-sarza-suhomesnati-proizvodi/
+200 | NEW ID 3328 | radni-dan-za-domace-kobasice | https://drycured.com/2026/06/06/radni-dan-za-domace-kobasice/
+200 | NEW ID 3329 | kontrolna-lista-prije-punjenja-kobasica | https://drycured.com/2026/06/06/kontrolna-lista-prije-punjenja-kobasica/
+200 | NEW ID 3330 | procjena-prostora-prije-susenja | https://drycured.com/2026/06/06/procjena-prostora-prije-susenja/
+200 | NEW ID 3331 | foto-dnevnik-sarze-suhomesnati-proizvodi | https://drycured.com/2026/06/06/foto-dnevnik-sarze-suhomesnati-proizvodi/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) WORDPRESS STATUS NOVIH ČLANAKA ===
+ID	post_title	post_name	post_status
+3327	Prva probna šarža: zašto početnik ne treba odmah raditi veliku količinu	prva-probna-sarza-suhomesnati-proizvodi	publish
+3328	Radni dan za domaće kobasice: kako složiti posao bez kaosa	radni-dan-za-domace-kobasice	publish
+3329	Kontrolna lista prije punjenja kobasica: što provjeriti prije nego nadjev uđe u crijevo	kontrolna-lista-prije-punjenja-kobasica	publish
+3330	Procjena prostora prije sušenja: kako znati je li prostor spreman za suhomesnate proizvode	procjena-prostora-prije-susenja	publish
+3331	Foto-dnevnik šarže: kako fotografije pomažu boljem suhomesnatom proizvodu	foto-dnevnik-sarze-suhomesnati-proizvodi	publish
+
+=== 6) BROJ AKTIVNIH PROFILA NAKON NOVIH ČLANAKA ===
+Aktivnih profila v032: 69
+
+=== 7) PRIPREMA GIT REPORTA ===
