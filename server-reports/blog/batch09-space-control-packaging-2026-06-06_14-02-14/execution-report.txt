@@ -1,0 +1,84 @@
+============================================================
+DRYCURED BLOG — BATCH 09 PROSTOR, MIKROKLIMA I PAKIRANJE
+Vrijeme: Sat Jun  6 02:02:14 PM UTC 2026
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch09_space_control_packaging.php
+
+=== 2) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2857 | 1318 riječi | 20 H2 | 8 poveznica | Kućna sušionica: kako prepoznati dobar i loš prostor za zrenje
+PASS | ID 2845 | 1258 riječi | 19 H2 | 8 poveznica | Mikroklima regije: zašto Dalmacija, Slavonija i Alpe ne daju isti okus
+PASS | ID 2848 | 1222 riječi | 19 H2 | 7 poveznica | Digitalna pušnica: zašto bilješke, fotografije i podaci čuvaju tradiciju
+PASS | ID 2858 | 1224 riječi | 20 H2 | 8 poveznica | Miris, boja i presjek: kako čitati gotov suhomesnati proizvod
+PASS | ID 2841 | 1237 riječi | 20 H2 | 7 poveznica | Pakiranje suhomesnatih proizvoda: kada vakuum pomaže, a kada smeta
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 3) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 2857 | Kućna sušionica: kako prepoznati dobar i loš prostor | originalni naslov
+PASS | ID 2845 | Mikroklima regije: zašto Dalmacija, Slavonija i Alpe ne daju isti okus | originalni naslov
+PASS | ID 2848 | Digitalna pušnica: zašto bilješke, fotografije i podaci čuvaju tradiciju | originalni naslov
+PASS | ID 2858 | Miris, boja i presjek: kako čitati gotov proizvod | originalni naslov
+PASS | ID 2841 | Pakiranje suhomesnatih proizvoda: kada vakuum pomaže, a kada smeta | originalni naslov
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== STVARNI QA PRIJE UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2857 | 1318 riječi | 20 H2 | 8 poveznica | Kućna sušionica: kako prepoznati dobar i loš prostor za zrenje
+PASS | ID 2845 | 1258 riječi | 19 H2 | 8 poveznica | Mikroklima regije: zašto Dalmacija, Slavonija i Alpe ne daju isti okus
+PASS | ID 2848 | 1222 riječi | 19 H2 | 7 poveznica | Digitalna pušnica: zašto bilješke, fotografije i podaci čuvaju tradiciju
+PASS | ID 2858 | 1224 riječi | 20 H2 | 8 poveznica | Miris, boja i presjek: kako čitati gotov suhomesnati proizvod
+PASS | ID 2841 | 1237 riječi | 20 H2 | 7 poveznica | Pakiranje suhomesnatih proizvoda: kada vakuum pomaže, a kada smeta
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 4) UPIS NOVIH ČLANAKA ===
+UPDATED | ID 2857 | Kućna sušionica: kako prepoznati dobar i loš prostor za zrenje
+UPDATED | ID 2845 | Mikroklima regije: zašto Dalmacija, Slavonija i Alpe ne daju isti okus
+UPDATED | ID 2848 | Digitalna pušnica: zašto bilješke, fotografije i podaci čuvaju tradiciju
+UPDATED | ID 2858 | Miris, boja i presjek: kako čitati gotov suhomesnati proizvod
+UPDATED | ID 2841 | Pakiranje suhomesnatih proizvoda: kada vakuum pomaže, a kada smeta
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 2857 | publish | 1318 riječi
+PASS | ID 2845 | publish | 1258 riječi
+PASS | ID 2848 | publish | 1222 riječi
+PASS | ID 2858 | publish | 1224 riječi
+PASS | ID 2841 | publish | 1237 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 09 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA ===
+200 | ID 2857 | Kućna sušionica | https://drycured.com/2024/02/18/kucna-susionica-kako-prepoznati-dobar-i-los-prostor/
+200 | ID 2845 | Mikroklima | https://drycured.com/2024/02/06/mikroklima-regije-dalmacija-slavonija-alpe/
+200 | ID 2848 | Digitalna pušnica | https://drycured.com/2024/02/09/digitalna-pusnica-biljeske-fotografije-podaci-cuvaju-tradiciju/
+200 | ID 2858 | Miris boja presjek | https://drycured.com/2024/02/19/miris-boja-i-presjek-kako-citati-gotov-proizvod/
+200 | ID 2841 | Pakiranje | https://drycured.com/2024/02/02/pakiranje-suhomesnatih-proizvoda-kada-vakuum-pomaze/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) WORDPRESS STATUS ===
+ID	post_title	post_status
+2841	Pakiranje suhomesnatih proizvoda: kada vakuum pomaže, a kada smeta	publish
+2845	Mikroklima regije: zašto Dalmacija, Slavonija i Alpe ne daju isti okus	publish
+2848	Digitalna pušnica: zašto bilješke, fotografije i podaci čuvaju tradiciju	publish
+2857	Kućna sušionica: kako prepoznati dobar i loš prostor za zrenje	publish
+2858	Miris, boja i presjek: kako čitati gotov suhomesnati proizvod	publish
+
+=== 6) PRIPREMA GIT REPORTA ===
