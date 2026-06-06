@@ -1,0 +1,6 @@
+ID	post_title	post_status
+429	Domaće uzgojeno meso: kada pomaže u izradi suhomesnatih proizvoda	publish
+1464	Domaća slanina: prednosti, granice i pravilno čuvanje	publish
+2838	Slanina i mast: zaboravljeni temelji domaće prerade	publish
+2839	Pršut: dugi proces u kojem nema prečaca	publish
+2840	Buđola i vratina: ravnoteža mišića, masnoće, soli i vremena	publish

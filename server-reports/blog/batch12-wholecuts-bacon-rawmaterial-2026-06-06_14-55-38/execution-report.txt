@@ -1,0 +1,84 @@
+============================================================
+DRYCURED BLOG — BATCH 12 CIJELI KOMADI, SLANINA I SIROVINA
+Vrijeme: Sat Jun  6 02:55:38 PM UTC 2026
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_batch12_wholecuts_bacon_rawmaterial.php
+
+=== 2) GLOBALNI DRY QA — BEZ WORDPRESS UPISA ===
+
+=== DRY QA BEZ WORDPRESS UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2840 | 1322 riječi | 20 H2 | 8 poveznica | Buđola i vratina: ravnoteža mišića, masnoće, soli i vremena
+PASS | ID 2839 | 1256 riječi | 20 H2 | 8 poveznica | Pršut: dugi proces u kojem nema prečaca
+PASS | ID 2838 | 1214 riječi | 19 H2 | 7 poveznica | Slanina i mast: zaboravljeni temelji domaće prerade
+PASS | ID 1464 | 1201 riječi | 18 H2 | 6 poveznica | Domaća slanina: prednosti, granice i pravilno čuvanje
+PASS | ID 429 | 1203 riječi | 18 H2 | 6 poveznica | Domaće uzgojeno meso: kada pomaže u izradi suhomesnatih proizvoda
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 3) STVARNI WORDPRESS BATCH ===
+
+=== 1) PREFLIGHT ===
+PASS | ID 2840 | Buđola i vratina: zašto masnoća i mišić moraju raditi zajedno | originalni naslov
+PASS | ID 2839 | Pršut: dugi proces u kojem nema prečaca | originalni naslov
+PASS | ID 2838 | Slanina i mast: zaboravljeni temelji domaće prerade | originalni naslov
+PASS | ID 1464 | Prednosti domaće slanine | originalni naslov
+PASS | ID 429 | Prednosti domaće uzgojenog mesa kod izrade suhomesnatih proizvoda | originalni naslov
+Preflight: PASS
+
+=== 2) BACKUP ===
+Backup: PASS
+
+=== STVARNI QA PRIJE UPISA — GLOBALNI QA INVENTAR ===
+PASS | ID 2840 | 1322 riječi | 20 H2 | 8 poveznica | Buđola i vratina: ravnoteža mišića, masnoće, soli i vremena
+PASS | ID 2839 | 1256 riječi | 20 H2 | 8 poveznica | Pršut: dugi proces u kojem nema prečaca
+PASS | ID 2838 | 1214 riječi | 19 H2 | 7 poveznica | Slanina i mast: zaboravljeni temelji domaće prerade
+PASS | ID 1464 | 1201 riječi | 18 H2 | 6 poveznica | Domaća slanina: prednosti, granice i pravilno čuvanje
+PASS | ID 429 | 1203 riječi | 18 H2 | 6 poveznica | Domaće uzgojeno meso: kada pomaže u izradi suhomesnatih proizvoda
+
+GLOBALNI QA: PASS — svi članci imaju sigurnosnu marginu.
+
+=== 4) UPIS NOVOG SADRŽAJA U POSTOJEĆE ČLANKE ===
+UPDATED EXISTING | ID 2840 | Buđola i vratina: ravnoteža mišića, masnoće, soli i vremena
+UPDATED EXISTING | ID 2839 | Pršut: dugi proces u kojem nema prečaca
+UPDATED EXISTING | ID 2838 | Slanina i mast: zaboravljeni temelji domaće prerade
+UPDATED EXISTING | ID 1464 | Domaća slanina: prednosti, granice i pravilno čuvanje
+UPDATED EXISTING | ID 429 | Domaće uzgojeno meso: kada pomaže u izradi suhomesnatih proizvoda
+
+=== 5) AŽURIRANJE PROFILNIH INDEKSA ===
+drycured_blog_core_profiles_v031: 64 -> 64
+drycured_blog_core_profiles_v032: 64 -> 64
+
+=== 6) ZAVRŠNI QA WORDPRESS STANJA ===
+PASS | ID 2840 | publish | 1322 riječi
+PASS | ID 2839 | publish | 1256 riječi
+PASS | ID 2838 | publish | 1214 riječi
+PASS | ID 1464 | publish | 1201 riječi
+PASS | ID 429 | publish | 1203 riječi
+PASS | drycured_blog_core_profiles_v031 | profili OK
+PASS | drycured_blog_core_profiles_v032 | profili OK
+
+============================================================
+PHP DIO BATCH 12 ZAVRŠEN — PASS
+============================================================
+
+=== 4) JAVNA HTTP PROVJERA ===
+200 | ID 2840 | Buđola i vratina | https://drycured.com/2024/02/01/budola-i-vratina-masnoca-i-misic/
+200 | ID 2839 | Pršut | https://drycured.com/2024/01/31/prsut-dugi-proces-u-kojem-nema-precaca/
+200 | ID 2838 | Slanina i mast | https://drycured.com/2024/01/30/slanina-i-mast-zaboravljeni-temelji-domace-prerade/
+200 | ID 1464 | Domaća slanina | https://drycured.com/2026/03/28/prednosti-domace-slanine/
+200 | ID 429 | Domaće meso | https://drycured.com/2025/02/22/prednosti-domace-uzgojenog-mesa-kod-izrade-suhomesnatih-proizvoda/
+200 | Blog /vodici/
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) WORDPRESS STATUS ===
+ID	post_title	post_status
+429	Domaće uzgojeno meso: kada pomaže u izradi suhomesnatih proizvoda	publish
+1464	Domaća slanina: prednosti, granice i pravilno čuvanje	publish
+2838	Slanina i mast: zaboravljeni temelji domaće prerade	publish
+2839	Pršut: dugi proces u kojem nema prečaca	publish
+2840	Buđola i vratina: ravnoteža mišića, masnoće, soli i vremena	publish
+
+=== 6) PRIPREMA GIT REPORTA ===
