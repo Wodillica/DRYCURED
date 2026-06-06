@@ -1,0 +1,213 @@
+============================================================
+DRYCURED BLOG — FINALNA INVENTURA BAZE v1
+Način rada: READ-ONLY
+Vrijeme: Sat Jun  6 04:08:07 PM UTC 2026
+============================================================
+
+=== 1) PHP LINT ===
+No syntax errors detected in /tmp/drycured_blog_final_base_audit_v1.php
+
+=== 2) WORDPRESS READ-ONLY AUDIT ===
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 225
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 225
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 226
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 226
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 227
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 227
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 225
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 225
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 226
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 226
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 227
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 227
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 225
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 225
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 226
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 226
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 227
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 227
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 225
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 225
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 226
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 226
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 227
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 227
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 161
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 225
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 225
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 226
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 226
+PHP Warning:  Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 227
+Warning: Array to string conversion in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 227
+Aktivnih profila: 106
+Publish postova: 106
+Bez istaknute slike: 102
+Bez ALT opisa: 1
+Bez SEO naslova: 4
+Bez SEO opisa: 4
+Ispod 1100 riječi: 28
+Ispod 9 H2: 16
+Ispod 5 internih poveznica: 22
+Bez problem-rješenje bloka: 28
+Prioritetnih redaka: 105
+
+=== 3) JAVNA HTTP PROVJERA SVIH URL-OVA ===
+200 | 97 | kako-napraviti-domace-kobasice-vodic-za-pocetnike
+200 | 99 | vodic-za-domacu-izradu-kobasica-i-suhomesnatih-proizvoda
+200 | 429 | prednosti-domace-uzgojenog-mesa-kod-izrade-suhomesnatih-proizvoda
+200 | 464 | vrste-svinja
+200 | 1438 | proljece-na-tanjuru-kako-suseno-meso-ozivljava-sezonske-recepte
+200 | 1439 | osnovna-podjela-suhomesnatih-proizvoda
+200 | 1440 | sto-su-suhomesnati-proizvodi
+200 | 1441 | uvod-u-svijet-suhomesnatih-proizvoda
+200 | 1462 | proljetna-ponuda-suhomesnatih-proizvoda
+200 | 1464 | prednosti-domace-slanine
+200 | 1470 | slavonski-domaci-kulen-ponos-hrvatske-tradicije
+200 | 1472 | domaci-cvarci-iz-slavonije
+200 | 1480 | domaca-kobasica-tradicija-na-vasem-stolu
+200 | 1632 | kalkulator-novosti-v3
+200 | 2125 | kako-prepoznati-dobro-meso-za-suhomesnate-proizvode
+200 | 2126 | sol-najstariji-cuvar-mesa
+200 | 2127 | suho-mokro-i-kombinirano-soljenje-kada-koristiti-koju-metodu
+200 | 2128 | redoslijed-izrade-suhomesnatih-proizvoda-bez-preskakanja-faza
+200 | 2129 | kako-sol-putuje-kroz-meso
+200 | 2130 | priprema-i-namakanje-crijeva-prije-punjenja
+200 | 2131 | tekucina-od-cesnjaka-cista-aroma-bez-zelenih-mrlja-u-presjeku
+200 | 2132 | fermentacija-kobasica-u-kucnim-uvjetima
+200 | 2133 | case-hardening-tvrda-kora-i-mekana-sredina
+200 | 2134 | hladno-toplo-i-vruce-dimljenje-sto-nije-isto
+200 | 2135 | koje-drvo-koristiti-za-dimljenje-suhomesnatih-proizvoda
+200 | 2136 | zasto-se-kobasica-ne-smije-susiti-prebrzo
+200 | 2137 | kako-pratiti-gubitak-mase-tijekom-susenja
+200 | 2138 | plemenita-plijesan-bijeli-stit-ili-upozorenje
+200 | 2139 | temperatura-vlaga-i-zrak-tri-stupa-zrenja
+200 | 2140 | punjenje-kobasica-bez-zracnih-dzepova
+200 | 2141 | najcesce-greske-kod-kobasica-i-kako-ih-ispraviti
+200 | 2142 | dnevnik-sarze-najjeftiniji-alat-za-ucenje
+200 | 2143 | zasto-svi-recepti-na-drycured-com-krecu-od-10-kg-mesa
+200 | 2144 | sigurnost-hrane-kod-suhomesnatih-proizvoda-bez-panike
+200 | 2829 | zasto-suhomesnati-proizvod-nije-samo-recept
+200 | 2830 | povijest-susenja-mesa-sol-dim-vrijeme
+200 | 2831 | pasmina-prehrana-i-mast-zasto-sirovina-odlucuje-o-okusu
+200 | 2832 | mast-u-suhomesnatim-proizvodima-nositelj-okusa
+200 | 2833 | pse-i-dfd-meso-kako-losa-sirovina-pokvari-dobar-postupak
+200 | 2834 | oprema-za-kucnu-proizvodnju-sto-treba-pocetniku
+200 | 2835 | mljevenje-mesa-za-kobasice-resetka-u-milimetrima
+200 | 2836 | temperatura-nadjeva-cuva-strukturu-kobasice
+200 | 2837 | panceta-zasto-trbuh-trazi-strpljenje-i-ravnotezu
+200 | 2838 | slanina-i-mast-zaboravljeni-temelji-domace-prerade
+200 | 2839 | prsut-dugi-proces-u-kojem-nema-precaca
+200 | 2840 | budola-i-vratina-masnoca-i-misic
+200 | 2841 | pakiranje-suhomesnatih-proizvoda-kada-vakuum-pomaze
+200 | 2842 | cuvanje-nakon-zrenja-kako-ne-pokvariti-dobar-proizvod
+200 | 2843 | kada-proizvod-treba-odbaciti-rizik-i-sigurnost
+200 | 2844 | kolinje-kao-skola-zanata-kako-se-znanje-prenosilo
+200 | 2845 | mikroklima-regije-dalmacija-slavonija-alpe
+200 | 2846 | pdo-pgi-tsg-europske-oznake-izvornosti
+200 | 2847 | od-hobija-do-malog-brenda-domaci-suhomesnati-proizvod
+200 | 2848 | digitalna-pusnica-biljeske-fotografije-podaci-cuvaju-tradiciju
+200 | 2849 | ekvilibrijsko-soljenje-kako-soliti-precizno
+200 | 2850 | equalizacija-nakon-soljenja-zasto-meso-mora-odmoriti
+200 | 2851 | vodna-aktivnost-zasto-sama-vlaga-nije-dovoljna
+200 | 2852 | starter-kulture-kada-pomazu-a-kada-nisu-carobni-stapic
+200 | 2853 | rezanje-mesa-prema-namjeni
+200 | 2854 | senzorska-kontrola-nos-oko-ruka-prije-instrumenta
+200 | 2855 | higijena-prostora-i-alata-temelj-sigurne-sarze
+200 | 2856 | kako-odabrati-crijevo-prema-vrsti-kobasice
+200 | 2857 | kucna-susionica-kako-prepoznati-dobar-i-los-prostor
+200 | 2858 | miris-boja-i-presjek-kako-citati-gotov-proizvod
+200 | 3327 | prva-probna-sarza-suhomesnati-proizvodi
+200 | 3328 | radni-dan-za-domace-kobasice
+200 | 3329 | kontrolna-lista-prije-punjenja-kobasica
+200 | 3330 | procjena-prostora-prije-susenja
+200 | 3331 | foto-dnevnik-sarze-suhomesnati-proizvodi
+200 | 3332 | osnovni-higijenski-plan-za-kucnu-preradu-mesa
+200 | 3333 | hladni-lanac-u-domacoj-preradi-mesa
+200 | 3334 | sigurnosni-semafor-suhomesnatih-proizvoda
+200 | 3335 | kako-oznaciti-sarzu-suhomesnatih-proizvoda
+200 | 3336 | kada-ne-poceti-sarzu-suhomesnatih-proizvoda
+200 | 3337 | kako-mjeriti-temperaturu-i-vlagu-u-susionici
+200 | 3338 | strujanje-zraka-u-susenju-suhomesnatih-proizvoda
+200 | 3339 | nocni-i-dnevni-ritam-susionice
+200 | 3340 | kada-otvoriti-a-kada-zatvoriti-susionicu
+200 | 3341 | tanki-plavi-dim-u-domacoj-pusnici
+200 | 3342 | raspored-proizvoda-u-susionici
+200 | 3343 | prva-72-sata-susenja-kobasica
+200 | 3344 | kako-prepoznati-presporo-susenje
+200 | 3345 | kako-voditi-dimljenje-u-ciklusima
+200 | 3346 | sezona-susenja-i-planiranje-sarze
+200 | 3347 | kako-prepoznati-dobar-miris-u-susionici
+200 | 3348 | kada-je-suhomesnati-proizvod-spreman-za-pakiranje
+200 | 3349 | ph-u-fermentiranim-kobasicama
+200 | 3350 | seceri-u-fermentaciji-kobasica
+200 | 3351 | prirodna-fermentacija-i-starter-kulture
+200 | 3352 | temperatura-fermentacije-kobasica
+200 | 3353 | vlaga-tijekom-fermentacije-kobasica
+200 | 3354 | sto-ako-fermentacija-ne-krene
+200 | 3355 | starter-kulture-cuvanje-i-doziranje
+200 | 3356 | ph-metar-ili-ph-trakice-u-domacoj-proizvodnji
+200 | 3357 | vodna-aktivnost-i-gubitak-mase-zajedno
+200 | 3358 | fermentirano-ili-pokvareno-kako-razlikovati
+200 | 3359 | kobasica-za-pecenje-ili-susenje
+200 | 3360 | kako-odabrati-prvi-suhomesnati-proizvod
+200 | 3361 | slanina-panceta-spek-prakticna-razlika
+200 | 3362 | kulen-kulenova-seka-domaca-kobasica-pocetnik
+200 | 3363 | cijeli-komadi-ili-kobasice-kako-izabrati
+200 | 3364 | prvo-rezanje-suhomesnatog-proizvoda
+200 | 3365 | mala-degustacija-sarze-kako-ocijeniti-proizvod
+200 | 3366 | usporedba-dvije-sarze-suhomesnatih-proizvoda
+200 | 3367 | najcesci-mitovi-o-domacim-suhomesnatim-proizvodima
+200 | 3368 | kuhinjska-upotreba-suhomesnatih-proizvoda-bez-pretjerivanja
+Ukupno URL-ova: 106
+HTTP grešaka: 0
+
+=== 4) PROVJERA /vodici/ ===
+HTTP /vodici/: 200
+Javni filter naslov: 1
+Javni toolbar marker: 3
+
+=== 5) SHA256 I POPIS DATOTEKA ===
+total 712K
+-rw-r--r-- 1 root root  45K Jun  6 16:08 blog-final-audit.csv
+-rw-r--r-- 1 root root 1.3K Jun  6 16:08 blog-final-audit-distribution.json
+-rw-r--r-- 1 root root  63K Jun  6 16:08 blog-final-audit.html
+-rw-r--r-- 1 root root 106K Jun  6 16:08 blog-final-audit-priorities.json
+-rw-r--r-- 1 root root 107K Jun  6 16:08 blog-final-audit-rows.json
+-rw-r--r-- 1 root root  411 Jun  6 16:08 blog-final-audit-summary.json
+-rw-r--r-- 1 root root  44K Jun  6 16:08 blog-final-priority-actions.csv
+-rw-r--r-- 1 root root  16K Jun  6 16:08 execution-report.txt
+-rw-r--r-- 1 root root  15K Jun  6 16:08 public-http-check.csv
+-rw-r--r-- 1 root root  13K Jun  6 16:08 public-urls.txt
+-rw-r--r-- 1 root root 1.7K Jun  6 16:08 SHA256SUMS.txt
+-rw-r--r-- 1 root root 277K Jun  6 16:08 vodici-public.html
+
+=== 6) ARHIVIRANJE IZVJEŠTAJA U GIT ===

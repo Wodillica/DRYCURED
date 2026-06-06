@@ -1,0 +1,56 @@
+{
+    "content_type": {
+        "business": 1,
+        "general_article": 6,
+        "news_system": 1,
+        "practical_guide": 59,
+        "product_article": 7,
+        "scientific_explanation": 16,
+        "seasonal_promotional": 2,
+        "standards": 2,
+        "tradition_culture": 2,
+        "troubleshooting": 10
+    },
+    "intent": {
+        "Array": 5,
+        "basics": 9,
+        "business": 1,
+        "equipment": 5,
+        "inspiration": 3,
+        "planning": 3,
+        "problems": 7,
+        "process": 39,
+        "raw_material": 2,
+        "safety": 9,
+        "tools": 6,
+        "tradition": 3,
+        "understanding": 14
+    },
+    "phase": {
+        "Array": 5,
+        "drying_maturation": 22,
+        "fermentation": 11,
+        "general_process": 27,
+        "preparation": 11,
+        "raw_material": 3,
+        "salting": 5,
+        "smoking": 5,
+        "storage_packaging": 11,
+        "stuffing": 6
+    },
+    "product": {
+        "Array": 5,
+        "general_multiple_products": 65,
+        "ham_prosciutto": 1,
+        "kulen": 1,
+        "lard_cracklings": 1,
+        "pancetta_bacon": 4,
+        "sausages_salami": 27,
+        "whole_cuts": 2
+    },
+    "level": {
+        "advanced": 4,
+        "beginner": 67,
+        "intermediate": 35
+    }
+}

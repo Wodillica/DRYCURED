@@ -1,0 +1,15 @@
+{
+    "profile_option": "drycured_blog_core_profiles_v032",
+    "active_profiles": 106,
+    "publish_posts": 106,
+    "missing_posts": 0,
+    "non_publish": 0,
+    "missing_featured_image": 102,
+    "missing_alt": 1,
+    "missing_seo_title": 4,
+    "missing_seo_description": 4,
+    "low_words_under_1100": 28,
+    "low_h2_under_9": 16,
+    "low_internal_links_under_5": 22,
+    "missing_problem_solution": 28
+}
