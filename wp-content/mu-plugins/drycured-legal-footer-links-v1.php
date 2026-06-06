@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Drycured Legal Footer Links v1
  * Description: Servisni footer drycured.com: projekt, pomoć i pravila.
- * Version: 2.0.1
+ * Version: 2.0.2
  * Author: Drycured.com
  */
 
@@ -81,15 +81,6 @@ if (!function_exists('drycured_legal_footer_links_render')) {
                 text-decoration: underline;
                 text-underline-offset: 3px;
             }
-            .dc-legal-footer-note {
-                max-width: 1180px;
-                margin: 18px auto 0;
-                padding-top: 14px;
-                border-top: 1px solid rgba(92, 58, 28, .10);
-                text-align: center;
-                color: rgba(91, 58, 37, .78);
-                font-size: 12px;
-            }
             @media (max-width: 760px) {
                 .dc-legal-footer-inner {
                     grid-template-columns: 1fr;
@@ -102,7 +93,7 @@ if (!function_exists('drycured_legal_footer_links_render')) {
             }
         </style>
 
-        <div class="dc-legal-footer dc-service-footer-v2" id="dc-legal-footer" role="contentinfo" aria-label="Servisne i pravne informacije" data-dc-footer-version="2.0.1">
+        <div class="dc-legal-footer dc-service-footer-v2" id="dc-legal-footer" role="contentinfo" aria-label="Servisne i pravne informacije" data-dc-footer-version="2.0.2">
             <div class="dc-legal-footer-inner">
                 <?php foreach ($columns as $title => $links) : ?>
                     <section class="dc-legal-footer-col">
@@ -115,7 +106,6 @@ if (!function_exists('drycured_legal_footer_links_render')) {
                     </section>
                 <?php endforeach; ?>
             </div>
-            <p class="dc-legal-footer-note">Tradicija, znanje i sigurna praksa sušenja mesa.</p>
         </div>
         <?php
     }
