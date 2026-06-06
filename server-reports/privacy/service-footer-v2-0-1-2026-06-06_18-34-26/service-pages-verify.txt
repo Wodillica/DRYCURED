@@ -1,0 +1,8 @@
+PASS | o-projektu | ID 3399 | https://drycured.com/o-projektu/
+PASS | kontakt | ID 3400 | https://drycured.com/kontakt/
+PASS | sitemap | ID 3404 | https://drycured.com/sitemap/
+PASS | prijavi-gresku | ID 3401 | https://drycured.com/prijavi-gresku/
+PASS | sigurnosna-napomena | ID 3402 | https://drycured.com/sigurnosna-napomena/
+PASS | uvjeti-koristenja | ID 3403 | https://drycured.com/uvjeti-koristenja/
+PASS | politika-privatnosti | ID 3398 | https://drycured.com/politika-privatnosti/
+PASS | politika-kolacica | ID 3397 | https://drycured.com/politika-kolacica/
