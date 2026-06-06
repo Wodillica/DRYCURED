@@ -1,0 +1,52 @@
+============================================================
+DRYCURED — CLEAN COMMIT tools/global_recipe_database
+Premješta cache/backup izvan Gita, commita samo alat
+Vrijeme: Sat Jun  6 05:22:23 PM UTC 2026
+============================================================
+
+=== 1) PREFLIGHT ===
+?? tools/global_recipe_database/
+
+=== 2) BACKUP CIJELE MAPE PRIJE ČIŠĆENJA ===
+216K	/root/drycured-server-archive/global-recipe-database-cleanup-2026-06-06_17-22-23/global_recipe_database-before
+Backup: PASS
+
+=== 3) PREMJEŠTANJE RADNIH/GENERIRANIH STAVKI IZVAN GITA ===
+MOVED | tools/global_recipe_database/__pycache__ -> /root/drycured-server-archive/global-recipe-database-cleanup-2026-06-06_17-22-23/removed-from-repo/__pycache__
+MOVED | tools/global_recipe_database/drycured_mass_recipe_pipeline_config_v2.json.before_server_input_fix_2 -> /root/drycured-server-archive/global-recipe-database-cleanup-2026-06-06_17-22-23/removed-from-repo/
+
+=== 4) LINT NAKON ČIŠĆENJA ===
+No syntax errors detected in tools/global_recipe_database/drycured_batch001_private_post_patch_v2.php
+No syntax errors detected in tools/global_recipe_database/drycured_mass_recipe_pipeline_wp_import_v2.php
+No syntax errors detected in tools/global_recipe_database/drycured_private_draft_cleanup_v1_7_1.php
+No syntax errors detected in tools/global_recipe_database/drycured_renderer_meta_mapping_v1_7_2.php
+No syntax errors detected in tools/global_recipe_database/drycured_web_recipe_input_dry_run_v1_7.php
+No syntax errors detected in tools/global_recipe_database/drycured_web_recipe_private_import_v1_7.php
+Lint: PASS
+
+=== 5) PROVJERA OSJETLJIVIH TRAGOVA ===
+Osjetljivih tragova nakon čišćenja: 0
+
+=== 6) GIT ADD SAMO OČIŠĆENIH DATOTEKA ===
+
+=== 7) STAGED PROVJERA ===
+ .../drycured_batch001_private_post_patch_v2.php    |  459 ++++++++
+ .../drycured_mass_recipe_pipeline_config_v2.json   |   47 +
+ .../drycured_mass_recipe_pipeline_v2.py            | 1128 ++++++++++++++++++++
+ .../drycured_mass_recipe_pipeline_wp_import_v2.php |  172 +++
+ .../drycured_private_draft_cleanup_v1_7_1.php      |  236 ++++
+ .../drycured_renderer_meta_mapping_v1_7_2.php      |  378 +++++++
+ .../drycured_web_recipe_input_dry_run_v1_7.php     |  238 +++++
+ .../drycured_web_recipe_private_import_v1_7.php    |  282 +++++
+ 8 files changed, 2940 insertions(+)
+tools/global_recipe_database/drycured_batch001_private_post_patch_v2.php
+tools/global_recipe_database/drycured_mass_recipe_pipeline_config_v2.json
+tools/global_recipe_database/drycured_mass_recipe_pipeline_v2.py
+tools/global_recipe_database/drycured_mass_recipe_pipeline_wp_import_v2.php
+tools/global_recipe_database/drycured_private_draft_cleanup_v1_7_1.php
+tools/global_recipe_database/drycured_renderer_meta_mapping_v1_7_2.php
+tools/global_recipe_database/drycured_web_recipe_input_dry_run_v1_7.php
+tools/global_recipe_database/drycured_web_recipe_private_import_v1_7.php
+Staged provjera: PASS
+
+=== 8) IZVJEŠTAJ U GIT REPORT ===

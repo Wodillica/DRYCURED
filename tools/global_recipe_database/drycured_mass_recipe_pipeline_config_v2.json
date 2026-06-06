@@ -1,0 +1,47 @@
+{
+  "pipeline_version": "mass_pipeline_v2_0",
+  "batch_size": 50,
+  "default_batch": "batch_001",
+  "source_paths": {
+    "all_485_index_csv": "/root/DRYCURED_GITHUB/server-reports/recipes/mass-pipeline-v2/source_input/all_485_index.csv",
+    "all_485_index_json": "/root/DRYCURED_GITHUB/server-reports/recipes/mass-pipeline-v2/source_input/all_485_index.json",
+    "master_json": "/root/DRYCURED_GITHUB/server-reports/recipes/mass-pipeline-v2/source_input/drycured_recipes_clean_rebuild_v1_2.json",
+    "source_excerpt_dir": "/root/DRYCURED_GITHUB/server-reports/recipes/mass-pipeline-v2/source_input/source_excerpts",
+    "transfer_table_csv": "/root/DRYCURED_GITHUB/server-reports/recipes/web-recipe-input/v1_7/extracted/DRYCURED_ALL_485_SERVER_INPUT_TABLE_v1_7_WITH_9_INTEGRATED.csv",
+    "server_web_recipe_input": "server-reports/recipes/web-recipe-input"
+  },
+  "report_root": "server-reports/recipes/mass-pipeline-v2",
+  "post_type": "dry_recipe",
+  "hard_safety_defaults": {
+    "_dry_public_ready": "no",
+    "_dry_archive_ready": "no",
+    "_dry_calculator_ready": "no",
+    "_dry_canonical_status": "private_batch_draft",
+    "_dry_recipe_import_version": "mass_pipeline_v2_0",
+    "drycured_ready_for_import": "false",
+    "drycured_public_publish_allowed": "false",
+    "drycured_requires_final_human_check": "true",
+    "drycured_mass_pipeline_version": "v2.0"
+  },
+  "required_taxonomies": [
+    "dry_country",
+    "dry_region",
+    "dry_product_category",
+    "dry_meat_type",
+    "dry_process_type"
+  ],
+  "future_taxonomies": [
+    "dry_microregion",
+    "dry_product_type",
+    "dry_preparation_method",
+    "dry_difficulty",
+    "dry_recipe_status"
+  ],
+  "wp_term_audit_commands": [
+    "wp term list dry_country --fields=term_id,name,slug,count --allow-root",
+    "wp term list dry_region --fields=term_id,name,slug,count --allow-root",
+    "wp term list dry_product_category --fields=term_id,name,slug,count --allow-root",
+    "wp term list dry_meat_type --fields=term_id,name,slug,count --allow-root",
+    "wp term list dry_process_type --fields=term_id,name,slug,count --allow-root"
+  ]
+}
