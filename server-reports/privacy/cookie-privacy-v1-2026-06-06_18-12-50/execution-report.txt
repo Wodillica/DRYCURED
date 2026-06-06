@@ -1,0 +1,34 @@
+============================================================
+DRYCURED — COOKIE / PRIVACY LAYER v1
+Opći cookie sloj: stranice + mali cookie bar
+Ne radi GTranslate hardening u ovom prolazu.
+Vrijeme: Sat Jun  6 06:12:50 PM UTC 2026
+============================================================
+
+=== 1) PREFLIGHT ===
+PASS: Git radno stablo je čisto.
+
+=== 2) BACKUP ===
+Success: Exported to '/root/drycured-privacy-backups/cookie-privacy-v1-2026-06-06_18-12-50/db-before-cookie-privacy-v1.sql'.
+Backup: PASS
+
+=== 3) IZRADA MU-PLUGINA U REPOZITORIJU ===
+No syntax errors detected in /root/DRYCURED_GITHUB/wp-content/mu-plugins/drycured-cookie-privacy-v1.php
+
+=== 4) DEPLOY MU-PLUGINA NA LIVE ===
+No syntax errors detected in /var/www/html/wp-content/mu-plugins/drycured-cookie-privacy-v1.php
+Success: The cache was flushed.
+
+=== 5) KREIRANJE / AŽURIRANJE STRANICA ===
+CREATED | Politika kolačića | ID 3397
+CREATED | Politika privatnosti | ID 3398
+Pages: PASS
+
+=== 6) JAVNI QA ===
+200 | https://drycured.com/politika-kolacica/
+200 | https://drycured.com/politika-privatnosti/
+HOME: 200
+VODICI: 200
+Public cookie bar QA: PASS
+
+=== 7) GIT REPORT ===
