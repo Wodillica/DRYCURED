@@ -1,0 +1,7 @@
+Provjereno članaka: 117
+HIGH: 0
+REVIEW: 0
+OK: 117
+Javno objavljenih URL-ova za HTTP QA: 108
+Ne-javnih postova preskočeno u HTTP QA: 9
+Duplicate finish audit: PASS

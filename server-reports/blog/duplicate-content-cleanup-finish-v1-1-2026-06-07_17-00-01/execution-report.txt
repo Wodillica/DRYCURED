@@ -1,0 +1,149 @@
+============================================================
+DRYCURED BLOG — DUPLICATE CLEANUP FINISH v1.1
+Cilj: potvrditi cleanup i ispravno preskočiti ne-javne članke u HTTP QA
+Vrijeme: Sun Jun  7 05:00:01 PM UTC 2026
+============================================================
+
+=== 1) PREFLIGHT ===
+PASS: Git radno stablo je čisto.
+
+=== 2) SIGURNOSNI BACKUP BAZE PRIJE FINISH PROVJERE ===
+Success: Exported to '/root/drycured-blog-backups/duplicate-content-cleanup-finish-v1-1-2026-06-07_17-00-01/db-before-finish-v1-1.sql'.
+Backup: PASS
+
+=== 3) READ-ONLY DUPLICATE AUDIT NAKON CLEANUPA ===
+Provjereno članaka: 117
+HIGH: 0
+REVIEW: 0
+OK: 117
+Javno objavljenih URL-ova za HTTP QA: 108
+Ne-javnih postova preskočeno u HTTP QA: 9
+Duplicate finish audit: PASS
+
+=== 4) JAVNI HTTP QA — SAMO PUBLISH ČLANCI ===
+Publish URL-ova za provjeru: 108
+200 | ID 97 | https://drycured.com/2025/02/16/kako-napraviti-domace-kobasice-vodic-za-pocetnike/
+200 | ID 99 | https://drycured.com/2025/02/16/vodic-za-domacu-izradu-kobasica-i-suhomesnatih-proizvoda/
+200 | ID 429 | https://drycured.com/2025/02/22/prednosti-domace-uzgojenog-mesa-kod-izrade-suhomesnatih-proizvoda/
+200 | ID 464 | https://drycured.com/2025/02/23/vrste-svinja/
+200 | ID 1438 | https://drycured.com/2026/03/23/proljece-na-tanjuru-kako-suseno-meso-ozivljava-sezonske-recepte/
+200 | ID 1439 | https://drycured.com/2026/03/23/osnovna-podjela-suhomesnatih-proizvoda/
+200 | ID 1440 | https://drycured.com/2026/03/23/sto-su-suhomesnati-proizvodi/
+200 | ID 1441 | https://drycured.com/2026/03/23/uvod-u-svijet-suhomesnatih-proizvoda/
+200 | ID 1462 | https://drycured.com/2026/03/28/proljetna-ponuda-suhomesnatih-proizvoda/
+200 | ID 1464 | https://drycured.com/2026/03/28/prednosti-domace-slanine/
+200 | ID 1470 | https://drycured.com/2026/03/28/slavonski-domaci-kulen-ponos-hrvatske-tradicije/
+200 | ID 1472 | https://drycured.com/2026/03/28/domaci-cvarci-iz-slavonije/
+200 | ID 1480 | https://drycured.com/2026/03/28/domaca-kobasica-tradicija-na-vasem-stolu/
+200 | ID 1483 | https://drycured.com/2026/03/28/infografika-dana/
+200 | ID 1486 | https://drycured.com/2026/03/28/drycured-podcast-najnovija-epizoda/
+200 | ID 1632 | https://drycured.com/2026/05/05/kalkulator-novosti-v3/
+200 | ID 2125 | https://drycured.com/2024/01/19/kako-prepoznati-dobro-meso-za-suhomesnate-proizvode/
+200 | ID 2126 | https://drycured.com/2024/01/20/sol-najstariji-cuvar-mesa/
+200 | ID 2127 | https://drycured.com/2024/01/18/suho-mokro-i-kombinirano-soljenje-kada-koristiti-koju-metodu/
+200 | ID 2128 | https://drycured.com/2024/01/17/redoslijed-izrade-suhomesnatih-proizvoda-bez-preskakanja-faza/
+200 | ID 2129 | https://drycured.com/2024/01/16/kako-sol-putuje-kroz-meso/
+200 | ID 2130 | https://drycured.com/2024/01/15/priprema-i-namakanje-crijeva-prije-punjenja/
+200 | ID 2131 | https://drycured.com/2024/01/14/tekucina-od-cesnjaka-cista-aroma-bez-zelenih-mrlja-u-presjeku/
+200 | ID 2132 | https://drycured.com/2024/01/13/fermentacija-kobasica-u-kucnim-uvjetima/
+200 | ID 2133 | https://drycured.com/2024/01/12/case-hardening-tvrda-kora-i-mekana-sredina/
+200 | ID 2134 | https://drycured.com/2024/01/11/hladno-toplo-i-vruce-dimljenje-sto-nije-isto/
+200 | ID 2135 | https://drycured.com/2024/01/07/koje-drvo-koristiti-za-dimljenje-suhomesnatih-proizvoda/
+200 | ID 2136 | https://drycured.com/2024/01/10/zasto-se-kobasica-ne-smije-susiti-prebrzo/
+200 | ID 2137 | https://drycured.com/2024/01/09/kako-pratiti-gubitak-mase-tijekom-susenja/
+200 | ID 2138 | https://drycured.com/2024/01/08/plemenita-plijesan-bijeli-stit-ili-upozorenje/
+200 | ID 2139 | https://drycured.com/2024/01/06/temperatura-vlaga-i-zrak-tri-stupa-zrenja/
+200 | ID 2140 | https://drycured.com/2024/01/05/punjenje-kobasica-bez-zracnih-dzepova/
+200 | ID 2141 | https://drycured.com/2024/01/04/najcesce-greske-kod-kobasica-i-kako-ih-ispraviti/
+200 | ID 2142 | https://drycured.com/2024/01/03/dnevnik-sarze-najjeftiniji-alat-za-ucenje/
+200 | ID 2143 | https://drycured.com/2024/01/02/zasto-svi-recepti-na-drycured-com-krecu-od-10-kg-mesa/
+200 | ID 2144 | https://drycured.com/2024/01/01/sigurnost-hrane-kod-suhomesnatih-proizvoda-bez-panike/
+200 | ID 2829 | https://drycured.com/2024/01/21/zasto-suhomesnati-proizvod-nije-samo-recept/
+200 | ID 2830 | https://drycured.com/2024/01/22/povijest-susenja-mesa-sol-dim-vrijeme/
+200 | ID 2831 | https://drycured.com/2024/01/23/pasmina-prehrana-i-mast-zasto-sirovina-odlucuje-o-okusu/
+200 | ID 2832 | https://drycured.com/2024/01/24/mast-u-suhomesnatim-proizvodima-nositelj-okusa/
+200 | ID 2833 | https://drycured.com/2024/01/25/pse-i-dfd-meso-kako-losa-sirovina-pokvari-dobar-postupak/
+200 | ID 2834 | https://drycured.com/2024/01/26/oprema-za-kucnu-proizvodnju-sto-treba-pocetniku/
+200 | ID 2835 | https://drycured.com/2024/01/27/mljevenje-mesa-za-kobasice-resetka-u-milimetrima/
+200 | ID 2836 | https://drycured.com/2024/01/28/temperatura-nadjeva-cuva-strukturu-kobasice/
+200 | ID 2837 | https://drycured.com/2024/01/29/panceta-zasto-trbuh-trazi-strpljenje-i-ravnotezu/
+200 | ID 2838 | https://drycured.com/2024/01/30/slanina-i-mast-zaboravljeni-temelji-domace-prerade/
+200 | ID 2839 | https://drycured.com/2024/01/31/prsut-dugi-proces-u-kojem-nema-precaca/
+200 | ID 2840 | https://drycured.com/2024/02/01/budola-i-vratina-masnoca-i-misic/
+200 | ID 2841 | https://drycured.com/2024/02/02/pakiranje-suhomesnatih-proizvoda-kada-vakuum-pomaze/
+200 | ID 2842 | https://drycured.com/2024/02/03/cuvanje-nakon-zrenja-kako-ne-pokvariti-dobar-proizvod/
+200 | ID 2843 | https://drycured.com/2024/02/04/kada-proizvod-treba-odbaciti-rizik-i-sigurnost/
+200 | ID 2844 | https://drycured.com/2024/02/05/kolinje-kao-skola-zanata-kako-se-znanje-prenosilo/
+200 | ID 2845 | https://drycured.com/2024/02/06/mikroklima-regije-dalmacija-slavonija-alpe/
+200 | ID 2846 | https://drycured.com/2024/02/07/pdo-pgi-tsg-europske-oznake-izvornosti/
+200 | ID 2847 | https://drycured.com/2024/02/08/od-hobija-do-malog-brenda-domaci-suhomesnati-proizvod/
+200 | ID 2848 | https://drycured.com/2024/02/09/digitalna-pusnica-biljeske-fotografije-podaci-cuvaju-tradiciju/
+200 | ID 2849 | https://drycured.com/2024/02/10/ekvilibrijsko-soljenje-kako-soliti-precizno/
+200 | ID 2850 | https://drycured.com/2024/02/11/equalizacija-nakon-soljenja-zasto-meso-mora-odmoriti/
+200 | ID 2851 | https://drycured.com/2024/02/12/vodna-aktivnost-zasto-sama-vlaga-nije-dovoljna/
+200 | ID 2852 | https://drycured.com/2024/02/13/starter-kulture-kada-pomazu-a-kada-nisu-carobni-stapic/
+200 | ID 2853 | https://drycured.com/2024/02/14/rezanje-mesa-prema-namjeni/
+200 | ID 2854 | https://drycured.com/2024/02/15/senzorska-kontrola-nos-oko-ruka-prije-instrumenta/
+200 | ID 2855 | https://drycured.com/2024/02/16/higijena-prostora-i-alata-temelj-sigurne-sarze/
+200 | ID 2856 | https://drycured.com/2024/02/17/kako-odabrati-crijevo-prema-vrsti-kobasice/
+200 | ID 2857 | https://drycured.com/2024/02/18/kucna-susionica-kako-prepoznati-dobar-i-los-prostor/
+200 | ID 2858 | https://drycured.com/2024/02/19/miris-boja-i-presjek-kako-citati-gotov-proizvod/
+200 | ID 3327 | https://drycured.com/2026/06/06/prva-probna-sarza-suhomesnati-proizvodi/
+200 | ID 3328 | https://drycured.com/2026/06/06/radni-dan-za-domace-kobasice/
+200 | ID 3329 | https://drycured.com/2026/06/06/kontrolna-lista-prije-punjenja-kobasica/
+200 | ID 3330 | https://drycured.com/2026/06/06/procjena-prostora-prije-susenja/
+200 | ID 3331 | https://drycured.com/2026/06/06/foto-dnevnik-sarze-suhomesnati-proizvodi/
+200 | ID 3332 | https://drycured.com/2026/06/06/osnovni-higijenski-plan-za-kucnu-preradu-mesa/
+200 | ID 3333 | https://drycured.com/2026/06/06/hladni-lanac-u-domacoj-preradi-mesa/
+200 | ID 3334 | https://drycured.com/2026/06/06/sigurnosni-semafor-suhomesnatih-proizvoda/
+200 | ID 3335 | https://drycured.com/2026/06/06/kako-oznaciti-sarzu-suhomesnatih-proizvoda/
+200 | ID 3336 | https://drycured.com/2026/06/06/kada-ne-poceti-sarzu-suhomesnatih-proizvoda/
+200 | ID 3337 | https://drycured.com/2026/06/06/kako-mjeriti-temperaturu-i-vlagu-u-susionici/
+200 | ID 3338 | https://drycured.com/2026/06/06/strujanje-zraka-u-susenju-suhomesnatih-proizvoda/
+200 | ID 3339 | https://drycured.com/2026/06/06/nocni-i-dnevni-ritam-susionice/
+200 | ID 3340 | https://drycured.com/2026/06/06/kada-otvoriti-a-kada-zatvoriti-susionicu/
+200 | ID 3341 | https://drycured.com/2026/06/06/tanki-plavi-dim-u-domacoj-pusnici/
+200 | ID 3342 | https://drycured.com/2026/06/06/raspored-proizvoda-u-susionici/
+200 | ID 3343 | https://drycured.com/2026/06/06/prva-72-sata-susenja-kobasica/
+200 | ID 3344 | https://drycured.com/2026/06/06/kako-prepoznati-presporo-susenje/
+200 | ID 3345 | https://drycured.com/2026/06/06/kako-voditi-dimljenje-u-ciklusima/
+200 | ID 3346 | https://drycured.com/2026/06/06/sezona-susenja-i-planiranje-sarze/
+200 | ID 3347 | https://drycured.com/2026/06/06/kako-prepoznati-dobar-miris-u-susionici/
+200 | ID 3348 | https://drycured.com/2026/06/06/kada-je-suhomesnati-proizvod-spreman-za-pakiranje/
+200 | ID 3349 | https://drycured.com/2026/06/06/ph-u-fermentiranim-kobasicama/
+200 | ID 3350 | https://drycured.com/2026/06/06/seceri-u-fermentaciji-kobasica/
+200 | ID 3351 | https://drycured.com/2026/06/06/prirodna-fermentacija-i-starter-kulture/
+200 | ID 3352 | https://drycured.com/2026/06/06/temperatura-fermentacije-kobasica/
+200 | ID 3353 | https://drycured.com/2026/06/06/vlaga-tijekom-fermentacije-kobasica/
+200 | ID 3354 | https://drycured.com/2026/06/06/sto-ako-fermentacija-ne-krene/
+200 | ID 3355 | https://drycured.com/2026/06/06/starter-kulture-cuvanje-i-doziranje/
+200 | ID 3356 | https://drycured.com/2026/06/06/ph-metar-ili-ph-trakice-u-domacoj-proizvodnji/
+200 | ID 3357 | https://drycured.com/2026/06/06/vodna-aktivnost-i-gubitak-mase-zajedno/
+200 | ID 3358 | https://drycured.com/2026/06/06/fermentirano-ili-pokvareno-kako-razlikovati/
+200 | ID 3359 | https://drycured.com/2026/06/06/kobasica-za-pecenje-ili-susenje/
+200 | ID 3360 | https://drycured.com/2026/06/06/kako-odabrati-prvi-suhomesnati-proizvod/
+200 | ID 3361 | https://drycured.com/2026/06/06/slanina-panceta-spek-prakticna-razlika/
+200 | ID 3362 | https://drycured.com/2026/06/06/kulen-kulenova-seka-domaca-kobasica-pocetnik/
+200 | ID 3363 | https://drycured.com/2026/06/06/cijeli-komadi-ili-kobasice-kako-izabrati/
+200 | ID 3364 | https://drycured.com/2026/06/06/prvo-rezanje-suhomesnatog-proizvoda/
+200 | ID 3365 | https://drycured.com/2026/06/06/mala-degustacija-sarze-kako-ocijeniti-proizvod/
+200 | ID 3366 | https://drycured.com/2026/06/06/usporedba-dvije-sarze-suhomesnatih-proizvoda/
+200 | ID 3367 | https://drycured.com/2026/06/06/najcesci-mitovi-o-domacim-suhomesnatim-proizvodima/
+200 | ID 3368 | https://drycured.com/2026/06/06/kuhinjska-upotreba-suhomesnatih-proizvoda-bez-pretjerivanja/
+Public publish HTTP QA: PASS
+
+=== 5) PROVJERA ID 1465 — NE SMIJE BLOKIRATI AKO NIJE JAVAN ===
+Field	Value
+ID	1465
+post_title	Tajna tradicionalne recepture kulena
+post_status	draft
+post_name	tajna-tradicionalne-recepture-kulena
+ID 1465 status: draft
+ID 1465 je ne-javni post i zato se ne provjerava kao javni HTTP 200.
+
+=== 6) SAMPLE QA — MIRIS, BOJA I PRESJEK ===
+Sample: 200 | https://drycured.com/2024/02/19/miris-boja-i-presjek-kako-citati-gotov-proizvod/
+Dodatna radna napomena count u sample članku: 0
+Sample QA: PASS
+
+=== 7) GIT REPORT ===
