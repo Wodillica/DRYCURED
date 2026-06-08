@@ -1688,17 +1688,6 @@ function dcv5_get_recipe_profile($post_id, $code = '') {
 
 function dcv5_recipe_js_profile($recipe) {
     if (!$recipe || empty($recipe['code'])) {
-        /*
-         * DRYCURED_MD_V5_BRIDGE_PATCH_v010
-         * Ako standardni V5 profil nije pronađen, pokušaj ga dobiti iz MD → V5 bridgea.
-         */
-        if (function_exists('drycured_md_v5_bridge_profile')) {
-            $bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);
-            if ($bridge_profile) {
-                return $bridge_profile;
-            }
-        }
-
         return null;
     }
 
