@@ -11,6 +11,19 @@ function drycured_render_public_recipe_content($content) {
     wp_enqueue_style('drycured-recipes');
 
     $post_id = get_the_ID();
+
+    /*
+     * DRYCURED_LEGACY_RENDERER_HTTP500_GUARD_v010
+     *
+     * Privremeni sigurnosni guard za dva javna MD-only zapisa koji su
+     * rušili stari public renderer kroz memory exhaustion u WordPress
+     * formatting.php. Podaci se ne mijenjaju; zapisi se samo izuzimaju
+     * iz starog renderera dok ne dobiju kontrolirani V5/V6 prikaz.
+     */
+    if (in_array((int) $post_id, [3064, 3068], true)) {
+        return $content;
+    }
+
     $data_raw = get_post_meta($post_id, '_dry_recipe_data', true);
     $data = $data_raw ? json_decode($data_raw, true) : [];
 
