@@ -713,11 +713,25 @@ function dcv5_recipe_view_pilot_content($content) {
     $post_id = get_the_ID();
     $code = get_post_meta($post_id, '_dry_recipe_id', true);
 
-    if (!in_array($code, dcv5_supported_recipe_codes(), true)) {
+    /*
+     * DRYCURED_MD_V5_BRIDGE_PATCH_v010
+     * Omogućuje pilot MD-import receptima da prođu kroz postojeći V5 renderer
+     * bez promjene podataka recepta i bez paralelnog templatea.
+     */
+    $dcv5_bridge_profile = null;
+    if (function_exists('drycured_md_v5_bridge_profile')) {
+        $dcv5_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);
+    }
+
+    if (!in_array($code, dcv5_supported_recipe_codes(), true) && !$dcv5_bridge_profile) {
         return $content;
     }
 
     $recipe = dcv5_get_recipe_profile($post_id, $code);
+    if (!$recipe && $dcv5_bridge_profile) {
+        $recipe = $dcv5_bridge_profile;
+    }
+
     if (!$recipe) {
         return $content;
     }
@@ -1620,6 +1634,19 @@ function dcv5_supported_recipe_codes() {
 }
 
 function dcv5_get_recipe_profile($post_id, $code = '') {
+
+    /*
+     * DRYCURED_MD_V5_PROFILE_EARLY_BRIDGE_v011
+     * MD-import pilot profili moraju biti dostupni kroz samu dcv5_get_recipe_profile()
+     * kako bi svi postojeći V5/V6 slojevi koristili isti izvor profila.
+     */
+    if (function_exists('drycured_md_v5_bridge_profile')) {
+        $dcv5_md_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);
+        if ($dcv5_md_bridge_profile) {
+            return $dcv5_md_bridge_profile;
+        }
+    }
+
     if (!$code) {
         $code = get_post_meta($post_id, '_dry_recipe_id', true);
     }
@@ -1661,6 +1688,17 @@ function dcv5_get_recipe_profile($post_id, $code = '') {
 
 function dcv5_recipe_js_profile($recipe) {
     if (!$recipe || empty($recipe['code'])) {
+        /*
+         * DRYCURED_MD_V5_BRIDGE_PATCH_v010
+         * Ako standardni V5 profil nije pronađen, pokušaj ga dobiti iz MD → V5 bridgea.
+         */
+        if (function_exists('drycured_md_v5_bridge_profile')) {
+            $bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);
+            if ($bridge_profile) {
+                return $bridge_profile;
+            }
+        }
+
         return null;
     }
 
