@@ -1,0 +1,34 @@
+BLOCK_FILL_CANDIDATES_CREATED=YES
+MASTER=04_OPERATION/recipe_master/drycured_recipes_master_v1_pilot_cijeli_komadi_25.json
+EVIDENCE=04_OPERATION/recipe_master/evidence/batch01_cijeli_komadi_25/editorial_evidence_candidates.json
+MODE=EVIDENCE_TO_CANDIDATES_ONLY_NO_MASTER_WRITE
+
+3094 | MD-ELENA_FILET | candidate_blocks=15 | missing=4 | forbidden_review=1 | Elena filet (Еленски филе)
+3105 | MD-APOHTI_DIMLJENI_SVINJSKI_FILE | candidate_blocks=15 | missing=4 | forbidden_review=1 | Apohti (Απόχτι) – Dimljeni svinjski file
+3142 | MD-HEILHORNA_HANGIKJOT_SUSENA_JANJECA_REBRA | candidate_blocks=15 | missing=6 | forbidden_review=1 | Heilhornað Hangikjöt (Sušena janjeća rebra)
+3175 | MD-PINNEKJ_TT_SUSENA_REBRA | candidate_blocks=15 | missing=6 | forbidden_review=1 | PINNEKJØTT (SUŠENA REBRA)
+3188 | MD-LOUNTZA_KAFTERI_LJUTA_DIMLJENA_SVINJSKA_VRATINA | candidate_blocks=15 | missing=5 | forbidden_review=1 | Lountza Kafteri (Λούντζα Καυτερή) – Ljuta dimljena svinjska vratina
+3205 | MD-PASTRAM_DE_OAIE_SUSENA_OVCETINA | candidate_blocks=15 | missing=7 | forbidden_review=1 | PASTRAMĂ DE OAIE (Sušena ovčetina)
+3212 | MD-LOMO_EMBUCHADO_ZACINJENA_SUHA_SVINJSKA_LEDA | candidate_blocks=15 | missing=3 | forbidden_review=2 | Lomo Embuchado – Začinjena Suha Svinjska Leđa
+2037 | MD-HANGIKJOT_DIMLJENI_JANJETI_BUT | candidate_blocks=15 | missing=6 | forbidden_review=1 | Hangikjöt (Dimljeni janjeti but)
+2064 | MD-COPPA_CAPOCOLLO_TALIJANSKA_VRATINA | candidate_blocks=15 | missing=5 | forbidden_review=2 | COPPA (CAPOCOLLO) – TALIJANSKA VRATINA
+2552 | MD-OTOCAC_ZACINSKI_VRAT_S_PLANINE_MOUNTAINSKI_NARESAK | candidate_blocks=15 | missing=8 | forbidden_review=1 | Otočac Začinski Vrat s Planine (Mountainski naresak)
+2604 | MD-OSIJECKI_LJUTI_ZACINSKI_VRAT_S_DIVLJIM_TRAVKAMA | candidate_blocks=15 | missing=8 | forbidden_review=0 | Osiječki Ljuti Začinski Vrat s Divljim Travkama
+2606 | MD-POZESKI_AROMATICNI_SUSENI_VRAT_S_DIVLJIM_TRAVKAMA | candidate_blocks=15 | missing=8 | forbidden_review=0 | Požeški Aromatični Sušeni Vrat s Divljim Travkama
+2694 | MD-POZESKI_PIKANTNI_VRAT | candidate_blocks=15 | missing=8 | forbidden_review=0 | Požeški Pikantni Vrat
+2696 | MD-NASICKI_FERMENTIRANI_VRAT | candidate_blocks=15 | missing=8 | forbidden_review=0 | Nasički Fermentirani Vrat
+2703 | MD-ERDUTSKI_FERMENTIRANI_VRAT_S_PODUNAVSKIM_ZACINIMA | candidate_blocks=15 | missing=8 | forbidden_review=0 | Erdutski Fermentirani Vrat s Podunavskim Začinima
+2705 | MD-VUKOVARSKI_FERMENTIRANI_VRAT_S_PODUNAVSKIM_ZACINIMA | candidate_blocks=15 | missing=8 | forbidden_review=0 | Vukovarski Fermentirani Vrat s Podunavskim Začinima
+2780 | MD-SLAVONSKI_PIKANTNI_VRAT | candidate_blocks=15 | missing=8 | forbidden_review=0 | Slavonski pikantni vrat
+2781 | MD-ESENCIJALNI_SLAVONSKI_SUSENI_VRAT_S_DIVLJIM_ZACINIMA | candidate_blocks=15 | missing=8 | forbidden_review=0 | Esencijalni slavonski sušeni vrat s divljim začinima
+3027 | MD-ENGADINER_HATECLETT_SUSENI_KOZJI_BUT | candidate_blocks=15 | missing=7 | forbidden_review=1 | ENGADINER HATECLETT (SUŠENI KOZJI BUT)
+3083 | MD-ELENSKI_BUT | candidate_blocks=15 | missing=7 | forbidden_review=1 | ЕЛЕНСКИ БУТ (Elenski but)
+3106 | MD-PASTOURMA_CIPARSKI_ZACINJENI_SUSENI_GOVEDI_FILE | candidate_blocks=15 | missing=5 | forbidden_review=1 | Pastourma (Παστουρμάς) – Ciparski začinjeni sušeni goveđi file
+3135 | MD-PASTOURMAS | candidate_blocks=15 | missing=5 | forbidden_review=2 | Pastourmas (Παστουρμάς)
+3206 | MD-BASTURMA_ZACINJENO_SUSENO_GOVEDE_MESO | candidate_blocks=15 | missing=5 | forbidden_review=1 | Basturma (Бастурма – Začinjeno sušeno goveđe meso)
+3208 | MD-SVINAYA_VYREZKA_SUSENI_SVINJSKI_FILE | candidate_blocks=15 | missing=5 | forbidden_review=1 | Svinaya Vyrezka (Свиная вырезка – Sušeni svinjski file)
+3216 | MD-BUNDNERFLEISCH_GRAUBUNDENSKI_SUSENI_GOVEDI_BUT | candidate_blocks=15 | missing=6 | forbidden_review=1 | BÜNDNERFLEISCH (GRAUBÜNDENSKI SUŠENI GOVEĐI BUT)
+
+OUT=04_OPERATION/recipe_master/fill_candidates/batch01_cijeli_komadi_25/block_fill_candidates.json
+RECORD_COUNT=25
+WRITE_TO_MASTER_ALLOWED=NO
