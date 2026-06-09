@@ -1,0 +1,82 @@
+1724: function dcv5_slavonski_kulen_profile($post_id) {
+1725:     return [
+1726:         'code' => 'HR-SL-001',
+1727:         'title' => 'Slavonski kulen (PDO EU)',
+1728:         'region' => 'Slavonija, Baranja i Srijem',
+1729:         'type' => 'Kobasica',
+1730:         'lead' => 'Slavonski kulen je dugozreli slavonski proizvod snažnog paprikastog profila, izrađen od odabrane svinjske mišićine i tvrde slanine, punjen u širi prirodni omotač, hladno dimljen i sporo dozrijevan.',
+1731:         'quick' => [
+1732:             ['label' => 'Šarža', 'value' => '10 kg mesne sirovine'],
+1733:             ['label' => 'Trajanje', 'value' => '120–180 dana'],
+1734:             ['label' => 'Dimljenje', 'value' => 'hladni dim'],
+1735:             ['label' => 'Crijeva', 'value' => '55–80 mm'],
+1736:             ['label' => 'Gubitak mase', 'value' => '30–40 %'],
+1737:         ],
+1738:         'materials' => [
+1739:             ['name' => 'Svinjski but i/ili plećka', 'amount' => '8,000 kg', 'percent' => '80 %', 'rate' => '', 'note' => 'Čista mišićina bez tetiva i grubog veziva. Meso mora biti dobro ohlađeno i obrađeno bez nepotrebnog gnječenja.'],
+1740:             ['name' => 'Tvrda leđna slanina', 'amount' => '2,000 kg', 'percent' => '20 %', 'rate' => '', 'note' => 'Reže se ručno na kockice 8–12 mm. Ne melje se jer razmazana masnoća kvari presjek i teksturu.'],
+1741:         ],
+1742:         'spices' => [
+1743:             ['name' => 'Kuhinjska sol', 'amount' => '280 g', 'percent' => '2,80 %', 'rate' => '28 g/kg', 'note' => 'Srednja radna vrijednost za dugozreli proizvod. Sol mora biti potpuno ravnomjerno raspoređena.'],
+1744:             ['name' => 'Slatka mljevena paprika', 'amount' => '200 g', 'percent' => '2,00 %', 'rate' => '20 g/kg', 'note' => 'Nositelj boje, mirisa i slavonskog identiteta. Paprika mora biti svježa, suha i bez gorčine.'],
+1745:             ['name' => 'Ljuta mljevena paprika', 'amount' => '50 g', 'percent' => '0,50 %', 'rate' => '5 g/kg', 'note' => 'Daje toplinu i živost okusa. Količinu ne povećavati bez probne šarže.'],
+1746:             ['name' => 'Crni papar', 'amount' => '25 g', 'percent' => '0,25 %', 'rate' => '2,5 g/kg', 'note' => 'Najbolje grubo mljeven neposredno prije miješanja.'],
+1747:         ],
+1748:         'liquids' => [
+1749:             ['name' => 'Svježi češnjak za ekstrakciju', 'amount' => '50 g', 'percent' => '0,50 %', 'rate' => '5 g/kg', 'note' => 'Češnjak se zgnječi, kratko namače i procijedi. U nadjev se dodaje samo procijeđena tekućina.'],
+1750:             ['name' => 'Prokuhana i ohlađena voda', 'amount' => '0,070 L', 'percent' => '0,70 %', 'rate' => '7 ml/kg', 'note' => 'Služi samo za ekstrakciju češnjaka i lakše raspoređivanje arome.'],
+1751:         ],
+1752:         'profile' => [
+1753:             ['name' => 'Paprika', 'score' => 9],
+1754:             ['name' => 'Dim', 'score' => 7],
+1755:             ['name' => 'Ljutina', 'score' => 6],
+1756:             ['name' => 'Slanoća', 'score' => 7],
+1757:             ['name' => 'Masnoća', 'score' => 5],
+1758:             ['name' => 'Tekstura', 'score' => 8],
+1759:         ],
+1760:         'climate' => [
+1761:             ['title' => 'Izrada', 'text' => 'Sirovina mora ostati hladna, a rad miran i uredan. Kod kulena je posebno važno da se slanina ne razmaže i da paprika ravnomjerno obloži meso.'],
+1762:             ['title' => 'Odležavanje nadjeva', 'text' => 'Nadjev se odmara u hladnom prostoru kako bi se sol, paprika i miris češnjaka povezali s mesom. Miris mora ostati čist i paprikast.'],
+1763:             ['title' => 'Predsušenje', 'text' => 'Širi omotač traži strpljivo prosušivanje prije dima. Površina mora biti suha na dodir, ali ne smije postati tvrda.'],
+1764:             ['title' => 'Dimljenje', 'text' => 'Koristi se hladan, tanak i suh dim. Kulen ne treba agresivan dim, nego više blagih ciklusa s odmorom između njih.'],
+1765:             ['title' => 'Sušenje', 'text' => 'Sušenje mora biti postupno jer veliki promjer lako razvija tvrdu koru i vlažnu jezgru ako je zrak presuh ili prebrz.'],
+1766:             ['title' => 'Zrenje', 'text' => 'Dugo zrenje razvija dubinu okusa, povezanu teksturu i stabilan presjek. Presjek mora biti crven, povezan i bez šupljina.'],
+1767:         ],
+1768:         'timeline' => [
+1769:             ['day' => 'Dan 1', 'title' => 'Priprema mesa', 'text' => 'But i plećku očistiti od tetiva, grubog veziva i nepoželjnih dijelova. Slaninu držati vrlo hladnom.', 'critical' => 'Topla slanina i preduga obrada stvaraju razmazanu mast u presjeku.'],
+1770:             ['day' => 'Dan 1', 'title' => 'Mljevenje i rezanje', 'text' => 'Meso mljeti kroz rešetku 8–10 mm, a tvrdu slaninu rezati ručno na kockice 8–12 mm.', 'critical' => 'Slanina se ne melje. Kockice daju prepoznatljiv presjek kulena.'],
+1771:             ['day' => 'Dan 1', 'title' => 'Miješanje', 'text' => 'Meso, slaninu, sol, papriku, papar i procijeđenu češnjakovu tekućinu miješati dok masa ne postane ravnomjerna.', 'critical' => 'Masa se ne smije pregrijati niti pretvoriti u pastu.'],
+1772:             ['day' => 'Dan 1–5', 'title' => 'Odmor nadjeva', 'text' => 'Nadjev odmarati pokriven u hladnjaku na 2–6 °C, uz svakodnevnu provjeru mirisa.', 'critical' => 'Kiseo ili neugodan miris u ovoj fazi nije prihvatljiv.'],
+1773:             ['day' => 'Dan 5–6', 'title' => 'Punjenje', 'text' => 'Puniti u goveđa slijepa crijeva ili kate, čvrsto i bez zraka. Vidljive mjehuriće probosti čistom iglom.', 'critical' => 'Kod širokog omotača zračni džepovi su ozbiljan rizik kvarenja.'],
+1774:             ['day' => 'Dan 6–8', 'title' => 'Početna stabilizacija', 'text' => 'Kulen objesiti u hladan i prozračan prostor da se nadjev smiri, a površina pripremi za predsušenje.', 'critical' => 'Ne počinjati s dimom dok je površina mokra.'],
+1775:             ['day' => 'Dan 8–14', 'title' => 'Predsušenje', 'text' => 'Omotač se mora priljubiti uz masu i izgubiti površinsku vlagu.', 'critical' => 'Prebrzo sušenje u ovoj fazi zatvara površinu i usporava izlazak vlage iz jezgre.'],
+1776:             ['day' => 'Dan 14–44', 'title' => 'Dimljenje', 'text' => 'Dimiti hladnim dimom u blagim ciklusima, s odmorima između dimljenja.', 'critical' => 'Temperatura dima ne smije prelaziti hladni režim; prejak dim daje gorčinu.'],
+1777:             ['day' => 'Dan 44–120', 'title' => 'Sušenje', 'text' => 'Sušiti u tamnom i prozračnom prostoru uz kontrolu vlage, mirisa i tvrdoće površine.', 'critical' => 'Mekana jezgra i tvrda površina znak su prebrzog sušenja.'],
+1778:             ['day' => 'Dan 120–180', 'title' => 'Zrenje', 'text' => 'Kulen dozrijeva dok ne postigne stabilan gubitak mase, čvrst presjek i zaokružen paprikasto-dimljeni miris.', 'critical' => 'Ne rezati prerano; veliki promjer traži vrijeme.'],
+1779:             ['day' => 'Dan 180+', 'title' => 'Pakiranje i čuvanje', 'text' => 'Pakirati tek kada je kulen stabilan, površinski suh i više ne otpušta vlagu.', 'critical' => 'Prerano vakuumiranje može zarobiti vlagu i potaknuti kvarenje.'],
+1780:         ],
+1781:         'errors' => [
+1782:             ['problem' => 'Razmazana mast', 'phase' => 'Rezanje / miješanje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Slanina je bila pretopla ili je previše obrađivana.', 'solution' => 'Slaninu rezati hladnu na 8–12 mm i skratiti miješanje.'],
+1783:             ['problem' => 'Šupljine u presjeku', 'phase' => 'Punjenje', 'severity' => 'Rizik kvarenja', 'level' => 'danger', 'cause' => 'Zrak u nadjevu ili labavo punjenje.', 'solution' => 'Puniti čvrsto, probosti mjehuriće i vezati omotač bez praznih prostora.'],
+1784:             ['problem' => 'Pretvrda kora', 'phase' => 'Sušenje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Preniska vlaga ili prejak protok zraka.', 'solution' => 'Povisiti relativnu vlagu, smanjiti propuh i produljiti sušenje.'],
+1785:             ['problem' => 'Kiseo miris jezgre', 'phase' => 'Zrenje', 'severity' => 'Visok rizik', 'level' => 'danger', 'cause' => 'Nepravilna fermentacija, zrak u sredini ili presporo sušenje jezgre.', 'solution' => 'Proizvod ne prikrivati začinima; procijeniti sigurnost i odbaciti ako postoji sumnja.'],
+1786:         ],
+1787:         'done_when' => [
+1788:             ['title' => 'Gubitak mase je najmanje 30 %', 'text' => 'Za dulje zrenje može ići prema 40 %, ovisno o promjeru i željenoj suhoći.'],
+1789:             ['title' => 'Presjek je povezan', 'text' => 'Meso i slanina tvore čvrstu cjelinu bez šupljina i mokre jezgre.'],
+1790:             ['title' => 'Miris je čist', 'text' => 'Paprika, dim i meso moraju biti skladni, bez kiselih, truležnih ili užeglih nota.'],
+1791:             ['title' => 'Omotač je stabilan', 'text' => 'Omotač je suh, priljubljen i bez sluzavih mjesta.'],
+1792:         ],
+1793:         'safety' => [
+1794:             ['level' => 'green', 'title' => 'Zeleno — normalno', 'text' => 'Čist paprikasto-dimljeni miris, stabilna površina, povezan presjek i postupni gubitak mase.'],
+1795:             ['level' => 'yellow', 'title' => 'Žuto — oprez', 'text' => 'Pretvrda kora, neravnomjeran presjek, presporo sušenje ili blaga ljepljivost površine. Korigirati uvjete i pratiti.'],
+1796:             ['level' => 'red', 'title' => 'Crveno — odbaci', 'text' => 'Truležan, kiseo ili užegao miris, sluzava površina, šupljine neugodnog mirisa ili zelene/crne promjene u presjeku.'],
+1797:         ],
+1798:         'serving' => [
+1799:             ['title' => 'Rezanje', 'text' => 'Rezati tanko, najbolje nakon kratkog odmora na sobnoj temperaturi.'],
+1800:             ['title' => 'Uz što poslužiti', 'text' => 'Kruh, sir, luk, kiselo povrće i jednostavna slavonska plata.'],
+1801:             ['title' => 'Čuvanje cijelog proizvoda', 'text' => 'Čuvati na hladnom, tamnom i prozračnom mjestu, bez zatvaranja u plastiku dok proizvod otpušta vlagu.'],
+1802:             ['title' => 'Nakon rezanja', 'text' => 'Zamotati u papir ili krpu i potrošiti u razumnom roku.'],
+1803:         ],
+1804:     ];
+1805: }

@@ -1,0 +1,52 @@
+1636: function dcv5_get_recipe_profile($post_id, $code = '') {
+1637: 
+1638:     /*
+1639:      * DRYCURED_MD_V5_PROFILE_EARLY_BRIDGE_v011
+1640:      * MD-import pilot profili moraju biti dostupni kroz samu dcv5_get_recipe_profile()
+1641:      * kako bi svi postojeći V5/V6 slojevi koristili isti izvor profila.
+1642:      */
+1643:     if (function_exists('drycured_md_v5_bridge_profile')) {
+1644:         $dcv5_md_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);
+1645:         if ($dcv5_md_bridge_profile) {
+1646:             return $dcv5_md_bridge_profile;
+1647:         }
+1648:     }
+1649: 
+1650:     if (!$code) {
+1651:         $code = get_post_meta($post_id, '_dry_recipe_id', true);
+1652:     }
+1653: 
+1654:     $profile = null;
+1655: 
+1656:     if ($code === 'HR-SL-001') {
+1657:         $profile = dcv5_slavonski_kulen_profile($post_id);
+1658:     } elseif ($code === 'HR-SL-007') {
+1659:         $profile = dcv5_ratarske_kobasice_profile($post_id);
+1660:     } elseif ($code === 'HR-SL-020') {
+1661:         $profile = dcv5_vinkovacka_sunka_profile($post_id);
+1662:     } elseif (function_exists('dcv12_profile_from_post')) {
+1663:         $profile = dcv12_profile_from_post($post_id, $code);
+1664:     }
+1665: 
+1666:     if (function_exists('dcv12_apply_final_profile_overrides')) {
+1667:         $profile = dcv12_apply_final_profile_overrides($profile, $code);
+1668:     }
+1669: 
+1670:     if (function_exists('dcv14_final_ingredient_sanity_profile')) {
+1671:         $profile = dcv14_final_ingredient_sanity_profile($profile, $code);
+1672:     }
+1673: 
+1674:     if (function_exists('dcv16_whole_piece_profile_guard')) {
+1675:         $profile = dcv16_whole_piece_profile_guard($profile, $code, $post_id);
+1676:     }
+1677: 
+1678:     if (function_exists('dcv20_source_lock_profile')) {
+1679:         $profile = dcv20_source_lock_profile($profile, $code, $post_id);
+1680:     }
+1681: 
+1682:     if (function_exists('dcv31_hrsl001_final_profile_source_lock')) {
+1683:         $profile = dcv31_hrsl001_final_profile_source_lock($profile, $code, $post_id);
+1684:     }
+1685: 
+1686:     return $profile;
+1687: }

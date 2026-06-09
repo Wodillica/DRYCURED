@@ -1,0 +1,13 @@
+1582: function dcv5_card($item) {
+1583:     ?>
+1584:     <article class="dcv5-ingredient-card">
+1585:         <h3><?php echo esc_html($item['name']); ?></h3>
+1586:         <div class="dcv5-amount-line">
+1587:             <span class="dcv5-amount"><?php echo esc_html($item['amount']); ?></span>
+1588:             <?php if (!empty($item['percent'])) : ?><span class="dcv5-percent"><?php echo esc_html($item['percent']); ?></span><?php endif; ?>
+1589:             <?php if (!empty($item['rate'])) : ?><span class="dcv5-rate"><?php echo esc_html($item['rate']); ?></span><?php endif; ?>
+1590:         </div>
+1591:         <p><?php echo esc_html($item['note']); ?></p>
+1592:     </article>
+1593:     <?php
+1594: }

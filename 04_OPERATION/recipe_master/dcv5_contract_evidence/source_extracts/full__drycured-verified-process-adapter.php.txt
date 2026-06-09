@@ -1,0 +1,771 @@
+<?php
+/**
+ * Plugin Name: Drycured Verified Process Adapter for DCV5
+ * Description: Renderira recepte iz strukturiranog `_dry_verified_process` meta polja
+ *              kroz postojeći DCV5 layout. Override-a PG11/B001 generic builder kad
+ *              post ima verified strukturirane podatke. Bez DB writes.
+ * Version: 1.0
+ */
+if (!defined('ABSPATH')) { exit; }
+
+// ────── KONFIGURACIJA ──────
+const DRYCURED_VP_ADAPTER_VERSION  = '1.2';
+const DRYCURED_VP_ADAPTER_PRIORITY = 20000; // nakon PG11 (10090) — override ima zadnju riječ
+const DRYCURED_VP_META_KEY         = '_dry_verified_process';
+const DRYCURED_VP_VERSION_META     = '_dry_verified_process_version';
+
+// ────── REGISTRACIJA FILTERA ──────
+add_filter('dcv5_supported_recipe_codes', 'drycured_vp_supported_recipe_codes', DRYCURED_VP_ADAPTER_PRIORITY, 1);
+add_filter('dcv5_recipe_profile',        'drycured_vp_recipe_profile',         DRYCURED_VP_ADAPTER_PRIORITY, 3);
+
+// ════════════════════════════════════════════════════════════════════════════
+// 1. SUPPORTED CODES — registriraj sve recepte koji imaju _dry_verified_process
+// ════════════════════════════════════════════════════════════════════════════
+function drycured_vp_supported_recipe_codes($codes) {
+    if (!is_array($codes)) $codes = [];
+
+    global $wpdb;
+    $rows = $wpdb->get_results(
+        "SELECT pm1.post_id, pm2.meta_value AS code
+         FROM {$wpdb->postmeta} pm1
+         INNER JOIN {$wpdb->postmeta} pm2 ON pm2.post_id = pm1.post_id AND pm2.meta_key = '_dry_recipe_id'
+         INNER JOIN {$wpdb->posts} p ON p.ID = pm1.post_id
+         WHERE pm1.meta_key = '" . DRYCURED_VP_META_KEY . "'
+           AND pm1.meta_value != ''
+           AND p.post_type = 'dry_recipe'",
+        ARRAY_A
+    );
+
+    foreach ($rows as $row) {
+        $code = trim((string) $row['code']);
+        if ($code !== '' && !in_array($code, $codes, true)) {
+            $codes[] = $code;
+        }
+    }
+
+    return array_values(array_unique($codes));
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+// 2. RECIPE PROFILE — glavni hook
+// ════════════════════════════════════════════════════════════════════════════
+function drycured_vp_recipe_profile($profile, $post_id, $code) {
+    if (!$post_id || get_post_type($post_id) !== 'dry_recipe') {
+        return $profile;
+    }
+
+    // Učitaj verified process meta
+    $vp = drycured_vp_get_verified_data($post_id);
+    if (!$vp) {
+        return $profile; // nema verified data — pusti postojeći $profile
+    }
+
+    // Resolve master inheritance ako je varijanta
+    try {
+        $vp_resolved = drycured_vp_resolve_master($vp);
+        $built = drycured_vp_build_profile($vp_resolved, $post_id, $code);
+        return $built;
+    } catch (\Throwable $e) {
+        // Fail-safe: ako bilo što pukne, vrati originalni profile + log
+        error_log('[drycured-vp-adapter] ERROR for post ' . $post_id . ': ' . $e->getMessage());
+        return $profile;
+    }
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+// 3. DOHVAĆANJE VERIFIED DATA
+// ════════════════════════════════════════════════════════════════════════════
+function drycured_vp_get_verified_data($post_id) {
+    $raw = get_post_meta($post_id, DRYCURED_VP_META_KEY, true);
+    if (empty($raw)) return null;
+    $data = json_decode($raw, true);
+    return is_array($data) ? $data : null;
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+// 4. RESOLVE MASTER INHERITANCE
+//    Varijante (npr. Baranjski kulen) imaju phases_inherit_from_master=true
+//    Učitamo master phases i apply overrides
+// ════════════════════════════════════════════════════════════════════════════
+function drycured_vp_resolve_master($vp) {
+    // Ako je sam master, vrati kao jest
+    if (!empty($vp['is_master'])) {
+        return $vp;
+    }
+
+    $master_id = $vp['based_on_master'] ?? null;
+    if (!$master_id) {
+        return $vp;
+    }
+
+    $master = drycured_vp_get_verified_data($master_id);
+    if (!$master) {
+        return $vp;
+    }
+
+    $resolved = $vp;
+
+    // Phases: ako varijanta nasljeđuje, kopiraj iz mastera + apply overrides
+    if (!empty($vp['phases_inherit_from_master']) && empty($vp['phases'])) {
+        $phases = $master['phases'] ?? [];
+        if (!empty($vp['phases_override']) && is_array($vp['phases_override'])) {
+            foreach ($vp['phases_override'] as $override) {
+                $order = $override['order'] ?? null;
+                if (!$order) continue;
+                foreach ($phases as $idx => $p) {
+                    if (($p['order'] ?? null) == $order) {
+                        $phases[$idx] = array_merge($p, $override);
+                        break;
+                    }
+                }
+            }
+        }
+        $resolved['phases'] = $phases;
+    }
+
+    // Raw materials: ako "same_as_master", kopiraj
+    if (!empty($vp['raw_materials_same_as_master'])) {
+        $resolved['raw_materials'] = $master['raw_materials'] ?? [];
+    }
+
+    // Ingredients: ako "same_as_master", kopiraj
+    if (!empty($vp['ingredients_same_as_master'])) {
+        $resolved['ingredients'] = $master['ingredients'] ?? [];
+    }
+
+    // Mljevenje: ako "same_as_master", kopiraj
+    if (!empty($vp['mljevenje_same_as_master'])) {
+        $resolved['mljevenje'] = $master['mljevenje'] ?? [];
+    }
+
+    // Storage: ako "same_as_master" eksplicitno OR varijanta nema storage uopće — fallback na master
+    if (!empty($vp['storage_same_as_master']) || (empty($vp['storage']) && !empty($master['storage']))) {
+        $resolved['storage'] = $master['storage'] ?? [];
+    }
+
+    // Done when: ako "same_as_master" eksplicitno OR varijanta nema done_when uopće — fallback na master
+    if (!empty($vp['done_when_same_as_master']) || (empty($vp['done_when']) && !empty($master['done_when']))) {
+        $resolved['done_when'] = $master['done_when'] ?? [];
+    }
+
+    return $resolved;
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+// 5. BUILD DCV5 PROFILE
+// ════════════════════════════════════════════════════════════════════════════
+function drycured_vp_build_profile($vp, $post_id, $code) {
+    $region_full = $vp['regija'] ?? '';
+    $type = drycured_vp_resolve_product_type($vp);
+
+    return [
+        'code'      => $code,
+        'title'     => $vp['product_name'] ?? get_the_title($post_id),
+        'region'    => $region_full,
+        'type'      => $type,
+        'lead'      => $vp['karakter'] ?? '',
+        'quick'     => drycured_vp_build_quick($vp),
+        'materials' => drycured_vp_build_materials($vp),
+        'spices'    => drycured_vp_build_spices($vp),
+        'liquids'   => drycured_vp_build_liquids($vp),
+        'profile'   => drycured_vp_build_profile_sliders($vp),
+        'climate'   => drycured_vp_build_climate($vp),
+        'timeline'  => drycured_vp_build_timeline($vp),
+        'errors'    => drycured_vp_build_errors($vp),
+        'done_when' => drycured_vp_build_done_when($vp),
+        'safety'    => drycured_vp_build_safety($vp),
+        'serving'   => drycured_vp_build_serving($vp),
+    ];
+}
+
+// ────── QUICK metrika (5 stavki) ──────
+function drycured_vp_build_quick($vp) {
+    $batch_kg = $vp['batch_size_kg'] ?? 10;
+    $casing   = $vp['casing'] ?? [];
+    $phases   = $vp['phases'] ?? [];
+
+    // Trajanje: iz faze 7 ako postoji, inače "provjeriti"
+    $trajanje = 'provjeriti';
+    foreach ($phases as $p) {
+        if (($p['order'] ?? 0) === 7) {
+            $min = $p['duration_days_min'] ?? null;
+            $opt = $p['duration_days_optimal'] ?? null;
+            if ($opt) {
+                $trajanje = $opt . ' dana';
+            } elseif ($min) {
+                $trajanje = $min . '+ dana';
+            }
+            break;
+        }
+    }
+
+    // Dimljenje tip iz faze 6
+    $dimljenje = 'provjeriti';
+    foreach ($phases as $p) {
+        if (($p['order'] ?? 0) === 6) {
+            $name = mb_strtolower($p['name'] ?? '');
+            if (mb_strpos($name, 'hladn') !== false) $dimljenje = 'hladni dim';
+            elseif (mb_strpos($name, 'vruć') !== false || mb_strpos($name, 'topli') !== false) $dimljenje = 'topli dim';
+            elseif ($name) $dimljenje = $p['name'];
+            break;
+        }
+    }
+
+    // Gubitak iz done_when
+    $gubitak = 'provjeriti';
+    foreach (($vp['done_when'] ?? []) as $dw) {
+        if (mb_stripos($dw, 'gubitak') !== false) {
+            // Izvuci broj %
+            if (preg_match('/(\d+[\-–]\d+\s*%)/u', $dw, $m)) {
+                $gubitak = str_replace('-', '–', $m[1]);
+            }
+            break;
+        }
+    }
+
+    // Crijeva iz casing.diameter_mm
+    $crijeva = 'provjeriti';
+    if (!empty($casing['diameter_mm'])) {
+        $crijeva = $casing['diameter_mm'] . ' mm';
+    }
+
+    return [
+        ['label' => 'Šarža',         'value' => $batch_kg . ' kg mesne sirovine'],
+        ['label' => 'Trajanje',      'value' => $trajanje],
+        ['label' => 'Dimljenje',     'value' => $dimljenje],
+        ['label' => 'Crijeva',       'value' => $crijeva],
+        ['label' => 'Gubitak mase',  'value' => $gubitak],
+    ];
+}
+
+// ────── MATERIALS (krto meso + slanina po dijelovima) ──────
+function drycured_vp_build_materials($vp) {
+    $out = [];
+    $rm  = $vp['raw_materials'] ?? [];
+    $batch = (float)($vp['batch_size_kg'] ?? 10);
+
+    // Krto meso — po dijelovima
+    $krto_detalji = $rm['krto_meso_detalji'] ?? [];
+    foreach ($krto_detalji as $d) {
+        $name = $d['dio'] ?? '';
+        if (!$name) continue;
+
+        $kg_min = $d['kg_min'] ?? null;
+        $kg_max = $d['kg_max'] ?? null;
+        $kg     = $d['kg'] ?? null;
+
+        if ($kg !== null) {
+            $amount = drycured_vp_format_kg($kg);
+            $percent = drycured_vp_format_percent($kg / $batch * 100);
+        } elseif ($kg_min !== null && $kg_max !== null) {
+            $amount = drycured_vp_format_kg($kg_min) . '–' . drycured_vp_format_kg($kg_max);
+            $avg = ($kg_min + $kg_max) / 2;
+            $percent = drycured_vp_format_percent($avg / $batch * 100);
+        } else {
+            $amount = 'provjeriti';
+            $percent = '';
+        }
+
+        $out[] = [
+            'name'    => $name,
+            'amount'  => $amount,
+            'percent' => $percent,
+            'rate'    => '',
+            'note'    => $d['napomena'] ?? '',
+        ];
+    }
+
+    // Lovačka kobasica ima drukčiju strukturu — krto_meso_divljac + krto_meso_svinjsko
+    if (!empty($rm['krto_meso_divljac_kg'])) {
+        $divljac_kg = (float)$rm['krto_meso_divljac_kg'];
+        $svinj_kg   = (float)($rm['krto_meso_svinjsko_kg'] ?? 0);
+
+        $divljac_detalji = implode(', ', array_map(function($d) {
+            return $d['dio'] ?? '';
+        }, $rm['krto_meso_divljac_detalji'] ?? []));
+
+        $out[] = [
+            'name'    => 'Krto meso divljači (' . trim($divljac_detalji) . ')',
+            'amount'  => drycured_vp_format_kg($divljac_kg),
+            'percent' => drycured_vp_format_percent($divljac_kg / $batch * 100),
+            'rate'    => '',
+            'note'    => 'Veterinarski pregled obvezan — Trichinella spiralis za divlju svinju.',
+        ];
+
+        if ($svinj_kg > 0) {
+            $svinj_detalji = implode(', ', array_map(function($d) {
+                return $d['dio'] ?? '';
+            }, $rm['krto_meso_svinjsko_detalji'] ?? []));
+            $out[] = [
+                'name'    => 'Krto svinjsko meso (' . trim($svinj_detalji) . ')',
+                'amount'  => drycured_vp_format_kg($svinj_kg),
+                'percent' => drycured_vp_format_percent($svinj_kg / $batch * 100),
+                'rate'    => '',
+                'note'    => '',
+            ];
+        }
+    }
+
+    // Slanina
+    $slanina_detalji = $rm['slanina_detalji'] ?? [];
+    foreach ($slanina_detalji as $s) {
+        $kg = (float)($s['kg'] ?? 0);
+        if ($kg <= 0) continue;
+        $out[] = [
+            'name'    => $s['dio'] ?? 'tvrda leđna slanina',
+            'amount'  => drycured_vp_format_kg($kg),
+            'percent' => drycured_vp_format_percent($kg / $batch * 100),
+            'rate'    => '',
+            'note'    => $s['napomena'] ?? '',
+        ];
+    }
+
+    // Alternative masnoća (npr. čvarci za čvarkovaču)
+    if (!empty($rm['alternative_masnoca'])) {
+        $alt = $rm['alternative_masnoca'];
+        $kg = (float)($alt['kg'] ?? 0);
+        $out[] = [
+            'name'    => $alt['naziv'] ?? 'alternativna masnoća',
+            'amount'  => drycured_vp_format_kg($kg),
+            'percent' => drycured_vp_format_percent($kg / $batch * 100),
+            'rate'    => '',
+            'note'    => trim(($alt['priprema'] ?? '') . ' ' . ($alt['napomena'] ?? '')),
+        ];
+    }
+
+    return $out;
+}
+
+// ────── SPICES (sol, paprika, papar — ne češnjak) ──────
+function drycured_vp_build_spices($vp) {
+    $out = [];
+    $ingredients = $vp['ingredients'] ?? [];
+    $batch_kg = (float)($vp['batch_size_kg'] ?? 10);
+
+    foreach ($ingredients as $ing) {
+        $name = $ing['naziv'] ?? '';
+        if (!$name) continue;
+        // Češnjak ide u liquids
+        if (mb_stripos($name, 'češnjak') !== false) continue;
+        // Starter kultura nije začin
+        if (mb_stripos($name, 'starter') !== false) continue;
+
+        $g = $ing['kolicina_g'] ?? null;
+        $g_min = $ing['kolicina_g_min'] ?? null;
+        $g_max = $ing['kolicina_g_max'] ?? null;
+
+        if ($g !== null) {
+            $amount = drycured_vp_format_g($g);
+            $percent = drycured_vp_format_percent($g / ($batch_kg * 1000) * 100);
+            $rate = drycured_vp_format_number_hr($g / $batch_kg, 1) . ' g/kg';
+        } elseif ($g_min !== null && $g_max !== null) {
+            $amount = drycured_vp_format_g($g_min) . '–' . drycured_vp_format_g($g_max);
+            $avg = ($g_min + $g_max) / 2;
+            $percent = drycured_vp_format_percent($avg / ($batch_kg * 1000) * 100);
+            $rate = drycured_vp_format_number_hr($avg / $batch_kg, 1) . ' g/kg';
+        } else {
+            $amount = 'provjeriti';
+            $percent = '';
+            $rate = '';
+        }
+
+        $out[] = [
+            'name'    => $name,
+            'amount'  => $amount,
+            'percent' => $percent,
+            'rate'    => $rate,
+            'note'    => $ing['napomena'] ?? '',
+        ];
+    }
+
+    return $out;
+}
+
+// ────── LIQUIDS (samo češnjak — tradicionalno se priprema kao tekućina) ──────
+function drycured_vp_build_liquids($vp) {
+    $out = [];
+    $ingredients = $vp['ingredients'] ?? [];
+    $batch_kg = (float)($vp['batch_size_kg'] ?? 10);
+
+    foreach ($ingredients as $ing) {
+        $name = $ing['naziv'] ?? '';
+        if (mb_stripos($name, 'češnjak') === false) continue;
+
+        $g = $ing['kolicina_g'] ?? null;
+        $g_min = $ing['kolicina_g_min'] ?? null;
+        $g_max = $ing['kolicina_g_max'] ?? null;
+
+        if ($g !== null) {
+            $amount = drycured_vp_format_g($g);
+            $percent = drycured_vp_format_percent($g / ($batch_kg * 1000) * 100);
+            $rate = drycured_vp_format_number_hr($g / $batch_kg, 1) . ' g/kg';
+        } elseif ($g_min !== null && $g_max !== null) {
+            $amount = drycured_vp_format_g($g_min) . '–' . drycured_vp_format_g($g_max);
+            $avg = ($g_min + $g_max) / 2;
+            $percent = drycured_vp_format_percent($avg / ($batch_kg * 1000) * 100);
+            $rate = drycured_vp_format_number_hr($avg / $batch_kg, 1) . ' g/kg';
+        } else {
+            $amount = 'provjeriti';
+            $percent = '';
+            $rate = '';
+        }
+
+        $out[] = [
+            'name'    => $name,
+            'amount'  => $amount,
+            'percent' => $percent,
+            'rate'    => $rate,
+            'note'    => $ing['napomena'] ?? 'Češnjak se zgnječi, kratko namače u vodi, procijedi. U nadjev se dodaje samo procijeđena tekućina.',
+        ];
+    }
+
+    return $out;
+}
+
+// ────── PROFILE SLIDERI (kvaliteta izvora, jasnoća, itd.) ──────
+function drycured_vp_build_profile_sliders($vp) {
+    $eu_status = $vp['eu_status'] ?? '';
+    $eu_score = 5;
+    if ($eu_status && (mb_stripos($eu_status, 'PDO') !== false || mb_stripos($eu_status, 'ZOI') !== false)) {
+        $eu_score = 10;
+    } elseif ($eu_status && (mb_stripos($eu_status, 'ZOZP') !== false || mb_stripos($eu_status, 'OGP') !== false)) {
+        $eu_score = 8;
+    } elseif ($eu_status) {
+        $eu_score = 7;
+    }
+
+    return [
+        ['name' => 'Provjera izvora', 'score' => $eu_score],
+        ['name' => 'Procesna jasnoća', 'score' => 9],
+        ['name' => 'Sirovinski opis', 'score' => 9],
+        ['name' => 'Spremnost za objavu', 'score' => 9],
+    ];
+}
+
+// ────── CLIMATE (klimatski potpis iz faza 5, 6, 7) ──────
+function drycured_vp_build_climate($vp) {
+    $out = [];
+    $phases = $vp['phases'] ?? [];
+    $climate_phases = [5, 6, 7]; // fermentacija, dimljenje, sušenje
+
+    foreach ($climate_phases as $order) {
+        foreach ($phases as $p) {
+            if (($p['order'] ?? 0) !== $order) continue;
+            $name = $p['name'] ?? '';
+            $parts = [];
+            // T°
+            $tmin = $p['T_min_C'] ?? ($p['T_start_C'] ?? null);
+            $tmax = $p['T_max_C'] ?? ($p['T_end_C'] ?? null);
+            if ($tmin !== null || $tmax !== null) {
+                if ($tmin !== null && $tmax !== null) $parts[] = "T: {$tmin}–{$tmax} °C";
+                else $parts[] = "T: " . ($tmin ?? $tmax) . " °C";
+            }
+            // RH
+            $rhmin = $p['RH_min_pct'] ?? ($p['RH_start_pct'] ?? null);
+            $rhmax = $p['RH_max_pct'] ?? ($p['RH_end_pct'] ?? null);
+            if ($rhmin !== null || $rhmax !== null) {
+                if ($rhmin !== null && $rhmax !== null) $parts[] = "RH: {$rhmin}–{$rhmax} %";
+                else $parts[] = "RH: " . ($rhmin ?? $rhmax) . " %";
+            }
+            // Trajanje
+            $dur = $p['duration_days'] ?? ($p['duration_days_optimal'] ?? null);
+            if ($dur) $parts[] = "Trajanje: {$dur} dana";
+
+            $out[] = [
+                'title' => $name,
+                'text'  => $parts ? implode(' · ', $parts) : ($p['description'] ?? ''),
+            ];
+            break;
+        }
+    }
+
+    return $out;
+}
+
+// ────── TIMELINE (faze procesa) ──────
+function drycured_vp_build_timeline($vp) {
+    $out = [];
+    $phases = $vp['phases'] ?? [];
+
+    // Sortiraj po order
+    usort($phases, function($a, $b) {
+        return ($a['order'] ?? 0) - ($b['order'] ?? 0);
+    });
+
+    foreach ($phases as $p) {
+        $order = $p['order'] ?? 0;
+        if (!$order) continue;
+
+        $title = $p['name'] ?? "Faza $order";
+        $desc = $p['description'] ?? '';
+
+        // Build text iz desc + T/RH/trajanje
+        $meta_parts = [];
+        $tmin = $p['T_min_C'] ?? ($p['T_start_C'] ?? null);
+        $tmax = $p['T_max_C'] ?? ($p['T_end_C'] ?? null);
+        if ($tmin !== null && $tmax !== null) {
+            if ($tmin == $tmax) $meta_parts[] = "T: {$tmin} °C";
+            else $meta_parts[] = "T: {$tmin}–{$tmax} °C";
+        }
+
+        $rhmin = $p['RH_min_pct'] ?? ($p['RH_start_pct'] ?? null);
+        $rhmax = $p['RH_max_pct'] ?? ($p['RH_end_pct'] ?? null);
+        if ($rhmin !== null && $rhmax !== null) {
+            $meta_parts[] = "RH: {$rhmin}–{$rhmax} %";
+        }
+
+        $dur = $p['duration_hours'] ?? null;
+        if (!$dur) {
+            $dd = $p['duration_days'] ?? ($p['duration_days_optimal'] ?? ($p['duration_days_min'] ?? null));
+            if ($dd) $dur = $dd . ' dana';
+        }
+        if ($dur) {
+            // Ako je samo broj, dodaj 'h' ili 'dana' ovisno o kontekstu
+            if (preg_match('/^\d+(\.\d+)?$/', $dur)) {
+                $dur .= ' h';
+            }
+            $meta_parts[] = "Trajanje: {$dur}";
+        }
+
+        $text = $desc;
+        if ($meta_parts) {
+            $text = '[' . implode(' · ', $meta_parts) . '] ' . $desc;
+        }
+
+        $out[] = [
+            'day'      => "Faza $order",
+            'title'    => $title,
+            'text'     => $text,
+            'critical' => $p['critical_control'] ?? '',
+        ];
+    }
+
+    return $out;
+}
+
+// ────── PRODUCT TYPE ──────
+function drycured_vp_resolve_product_type($vp) {
+    $cid = $vp['cluster_id'] ?? '';
+    if (mb_strpos($cid, '01-A') !== false || mb_strpos($cid, 'slavonsko') !== false) {
+        return 'Suha fermentirana kobasica';
+    }
+    return 'Suhomesnati proizvod';
+}
+
+// ────── DONE WHEN (Gotovo je kad…) ──────
+function drycured_vp_build_done_when($vp) {
+    $out = [];
+    $items = $vp['done_when'] ?? [];
+
+    // Override iz varijante ima prioritet
+    if (!empty($vp['done_when_override']) && is_array($vp['done_when_override'])) {
+        $items = array_merge($items, $vp['done_when_override']);
+    }
+
+    foreach ($items as $item) {
+        if (!is_string($item) || trim($item) === '') continue;
+
+        [$title, $text] = drycured_vp_split_title_text($item);
+
+        // Kapitaliziraj prvo slovo title-a
+        if ($title !== '') {
+            $title = mb_strtoupper(mb_substr($title, 0, 1)) . mb_substr($title, 1);
+        }
+
+        $out[] = ['title' => $title, 'text' => $text];
+    }
+
+    return $out;
+}
+
+/**
+ * Heuristički split stringa na (title, text) bez lomljenja unutar decimalnih brojeva.
+ * Prioritet: zagrada > dvotočka > zarez (ali NE u "0,90"-tipu brojeva).
+ */
+function drycured_vp_split_title_text($item) {
+    $item = trim((string)$item);
+    if ($item === '') return ['', ''];
+
+    // 1. "Naslov (opis u zagradi)"
+    if (preg_match('/^(.+?)\s*\((.+)\)\s*$/u', $item, $m)) {
+        return [trim($m[1]), trim($m[2])];
+    }
+
+    // 2. "Naslov: opis"
+    if (mb_strpos($item, ':') !== false) {
+        $parts = explode(':', $item, 2);
+        return [trim($parts[0]), trim($parts[1])];
+    }
+
+    // 3. "Naslov, opis" — ALI NE unutar "0,90"-tipa decimalnih brojeva
+    // lookbehind (?<!\d) = prije zareza nije cifra; lookahead (?!\d) = poslije nije cifra
+    if (preg_match('/^(.+?)(?<!\d),\s*(?!\d)(.+)$/u', $item, $m)) {
+        return [trim($m[1]), trim($m[2])];
+    }
+
+    return [$item, ''];
+}
+
+// ────── SAFETY (Sigurnosni semafor) ──────
+function drycured_vp_build_safety($vp) {
+    $out = [
+        [
+            'level' => 'green',
+            'title' => 'Zeleno — proizvod je u redu',
+            'text'  => 'Čist paprikasto-dimljeni miris, stabilna i suho-pudrasta površina (bijela plemenita plijesan Penicillium nalgiovense je poželjna), povezan presjek s diskretnim kockicama slanine, postupni gubitak mase 35–40 %, pH 5,0–5,5 nakon fermentacije, Aw < 0,90 u zrelom proizvodu.',
+        ],
+        [
+            'level' => 'yellow',
+            'title' => 'Žuto — oprez, pratiti dalje',
+            'text'  => 'Pretvrda kora uz mekanu jezgru (case hardening), neravnomjeran presjek, presporo sušenje, blaga ljepljivost površine, pH iznad 5,5 nakon 7 dana fermentacije, ili plijesan koja nije čista bijela. Korigirati uvjete (RH, temperatura, ventilacija) i pojačati nadzor svaki dan.',
+        ],
+        [
+            'level' => 'red',
+            'title' => 'Crveno — proizvod odbaciti',
+            'text'  => 'Truležan, kiseo ili užegao miris; sluzava ili klizava površina; šupljine s neugodnim mirisom u presjeku; zelene, crne ili sivkasto-zelene promjene u presjeku; mokra jezgra nakon 30+ dana zrenja. Proizvod NE konzumirati niti uz toplinsku obradu — rizik botulizma i drugih ozbiljnih kvarenja.',
+        ],
+    ];
+
+    // Specifične safety napomene iz JSON-a (npr. lovačka — Trichinella, čvarkovača — krati rok)
+    $additional = $vp['safety_critical_points_additional'] ?? [];
+    if (!empty($additional) && is_array($additional)) {
+        $combined_text = implode(' ', $additional);
+        $out[] = [
+            'level' => 'red',
+            'title' => 'Specifično za ovaj recept — obavezno',
+            'text'  => $combined_text,
+        ];
+    }
+
+    return $out;
+}
+
+// ────── SERVING (Posluživanje i čuvanje) ──────
+function drycured_vp_build_serving($vp) {
+    $out = [];
+    $storage = $vp['storage'] ?? [];
+
+    // 1. Rezanje i posluživanje
+    $karakter = $vp['karakter_okusa'] ?? '';
+    $rezanje_text = 'Rezati tanko, najbolje nakon kratkog odmora na sobnoj temperaturi.';
+    if ($karakter !== '') {
+        $rezanje_text .= ' Karakter okusa: ' . $karakter . '.';
+    }
+    $out[] = ['title' => 'Rezanje i posluživanje', 'text' => $rezanje_text];
+
+    // 2. Cijeli, nerezani proizvod
+    if (!empty($storage['whole_T_C']) || !empty($storage['whole_shelf_life_months'])) {
+        $text = '';
+        if (!empty($storage['whole_T_C'])) {
+            $text .= 'Temperatura ' . $storage['whole_T_C'] . ' °C';
+        }
+        if (!empty($storage['whole_uvjeti'])) {
+            $text .= $text !== '' ? ', ' : '';
+            $text .= $storage['whole_uvjeti'];
+        }
+        if (!empty($storage['whole_shelf_life_months'])) {
+            $text .= '. Rok do ' . $storage['whole_shelf_life_months'] . ' mjeseci.';
+        }
+        $out[] = ['title' => 'Čuvanje cijelog, nerezanog proizvoda', 'text' => trim($text)];
+    }
+
+    // 3. Nakon prvog rezanja
+    if (!empty($storage['after_cut_T_C']) || !empty($storage['after_cut_shelf_life_days'])) {
+        $text = '';
+        if (!empty($storage['after_cut_uvjeti'])) {
+            $text .= $storage['after_cut_uvjeti'] . '. ';
+        }
+        if (!empty($storage['after_cut_T_C'])) {
+            $text .= 'Temperatura ' . $storage['after_cut_T_C'] . ' °C';
+        }
+        if (!empty($storage['after_cut_shelf_life_days'])) {
+            $text .= ', rok ' . $storage['after_cut_shelf_life_days'] . ' dana.';
+        }
+        $out[] = ['title' => 'Nakon prvog rezanja', 'text' => trim($text)];
+    }
+
+    // 4. Vakuumirano
+    if (!empty($storage['vacuum_sliced_T_C']) || !empty($storage['vacuum_sliced_shelf_life_months'])) {
+        $t = $storage['vacuum_sliced_T_C'] ?? '4';
+        $m = $storage['vacuum_sliced_shelf_life_months'] ?? '3';
+        $out[] = ['title' => 'Tanko narezan u vakuumu', 'text' => "Vakuumirati tek kad je proizvod potpuno stabilan i suho. Čuvati na {$t} °C, rok do {$m} mjeseca."];
+    }
+
+    // 5. Zamrzavanje
+    if (!empty($storage['freezing'])) {
+        $out[] = ['title' => 'Zamrzavanje', 'text' => $storage['freezing']];
+    }
+
+    return $out;
+}
+
+// ────── ERRORS (Anatomija greške) ──────
+function drycured_vp_build_errors($vp) {
+    // Standardni set 5 najčešćih grešaka za suhe fermentirane kobasice
+    $standard = [
+        [
+            'problem'  => 'Razmazana mast u presjeku',
+            'phase'    => 'Mljevenje / rezanje slanine',
+            'severity' => 'Oprez',
+            'level'    => 'warning',
+            'cause'    => 'Tvrda leđna slanina nije bila dovoljno hladna (≤ 0 °C polusmrznuta), ili je predugo obrađivana — masnoća se otopila i razmazala kroz smjesu.',
+            'solution' => 'Slaninu prethodno polusmrznuti 60–90 min u zamrzivaču. Rezati ručno na kockice (NE mljeti). Oprema i smjesa moraju biti ≤ 4 °C cijelo vrijeme obrade.',
+        ],
+        [
+            'problem'  => 'Šupljine u presjeku',
+            'phase'    => 'Punjenje u omotač',
+            'severity' => 'Rizik kvarenja',
+            'level'    => 'danger',
+            'cause'    => 'Zrak zarobljen u nadjevu zbog labavog punjenja, nepravilnog vezanja ili nepoštivanja prirodnog oblika omotača. Šupljine su mjesta gdje raste anaerobna patogena mikroflora.',
+            'solution' => 'Puniti čvrsto, bez zračnih džepova. Sve vidljive mjehure probosti sterilnom iglom (iglu prethodno preko plamena). Vezati prirodnim špagom oblikujući proizvod u prirodan oblik.',
+        ],
+        [
+            'problem'  => 'Pretvrda kora i mokra jezgra (case hardening)',
+            'phase'    => 'Predsušenje / sušenje',
+            'severity' => 'Oprez',
+            'level'    => 'warning',
+            'cause'    => 'Preniska relativna vlažnost ili prejak protok zraka u prvih 7–14 dana. Površina se zatvori (sušenjem) prije nego što vlaga iz unutrašnjosti uspije izaći — sredina ostaje mokra.',
+            'solution' => 'U prvih 7 dana držati RH 88–92 %. Smanjiti propuh, produljiti predsušenje. Ako je već nastala kora, snižiti temperaturu i podići RH na 85 % nekoliko dana da se ujednači.',
+        ],
+        [
+            'problem'  => 'Kiseo, truležan ili užegao miris jezgre',
+            'phase'    => 'Fermentacija / zrenje',
+            'severity' => 'Visok rizik',
+            'level'    => 'danger',
+            'cause'    => 'Nekontrolirana mliječno-kiselinska fermentacija (previsoka T° u fazi 5), kontaminacija nepoželjnom mikroflorom, ili nedovoljan pad pH u prvih 7 dana.',
+            'solution' => 'Ako miris nije čist i prijatan — NE konzumirati. Procijeniti sigurnost cijele šarže. Za sljedeću proizvodnju: koristiti komercijalnu starter kulturu (L. sakei + S. carnosus), strogo kontrolirati T° fermentacije (18–22 °C), mjeriti pH 7. dana.',
+        ],
+        [
+            'problem'  => 'Zelena, crna ili sluzava plijesan na površini',
+            'phase'    => 'Sušenje i zrenje',
+            'severity' => 'Visok rizik',
+            'level'    => 'danger',
+            'cause'    => 'Pretjerana vlažnost u komori (RH > 85 % dulje vrijeme), loša ventilacija, ili kontaminacija iz okoline. Plemenita Penicillium plijesan je bijela, suho-pudrasta — sve drugo je nepoželjno.',
+            'solution' => 'Plemenitu bijelu plijesan ostaviti. Nepoželjnu (zeleno, crno, sluzavo) obrisati 10 % otopinom octa, sniziti RH na 70–75 %, pojačati ventilaciju. Ako je plijesan prodrla u presjek, proizvod NE koristiti.',
+        ],
+    ];
+
+    return $standard;
+}
+
+// ════════════════════════════════════════════════════════════════════════════
+// FORMATTING HELPERS — hrvatske decimale (zarez umjesto točke)
+// ════════════════════════════════════════════════════════════════════════════
+function drycured_vp_format_number_hr($number, $decimals = 2) {
+    return number_format((float)$number, $decimals, ',', '.');
+}
+
+function drycured_vp_format_kg($kg) {
+    return drycured_vp_format_number_hr($kg, 3) . ' kg';
+}
+
+function drycured_vp_format_g($g) {
+    if ($g >= 1000) {
+        return drycured_vp_format_number_hr($g / 1000, 3) . ' kg';
+    }
+    return drycured_vp_format_number_hr($g, 0) . ' g';
+}
+
+function drycured_vp_format_percent($pct) {
+    return drycured_vp_format_number_hr($pct, 2) . ' %';
+}

@@ -1,0 +1,30 @@
+1596: function dcv5_render_recipe_schema($recipe) {
+1597:     $ingredients = [];
+1598: 
+1599:     foreach (['materials', 'spices', 'liquids'] as $group) {
+1600:         foreach ($recipe[$group] as $item) {
+1601:             $ingredients[] = $item['amount'] . ' ' . $item['name'];
+1602:         }
+1603:     }
+1604: 
+1605:     $schema = [
+1606:         '@context' => 'https://schema.org',
+1607:         '@type' => 'Recipe',
+1608:         'name' => $recipe['title'],
+1609:         'description' => $recipe['lead'],
+1610:         'recipeCategory' => 'Suhomesnati proizvod',
+1611:         'recipeCuisine' => 'Hrvatska',
+1612:         'recipeYield' => '10 kg mesne mase',
+1613:         'totalTime' => 'P60D',
+1614:         'recipeIngredient' => $ingredients,
+1615:         'recipeInstructions' => array_map(function ($step) {
+1616:             return [
+1617:                 '@type' => 'HowToStep',
+1618:                 'name' => $step['title'],
+1619:                 'text' => $step['text'] . ' Kritično: ' . $step['critical'],
+1620:             ];
+1621:         }, $recipe['timeline']),
+1622:     ];
+1623: 
+1624:     echo '<script type="application/ld+json">' . wp_json_encode($schema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>';
+1625: }

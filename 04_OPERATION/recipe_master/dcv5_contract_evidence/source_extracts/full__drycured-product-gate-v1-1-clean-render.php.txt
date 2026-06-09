@@ -1,0 +1,117 @@
+<?php
+/**
+ * Plugin Name: Drycured Product Gate v1.1 Force DCV5 Render
+ * Description: Forces product-gate v1.1 published recipes into the existing Drycured/DCV5 recipe layout. No DB writes.
+ */
+
+if (!defined('ABSPATH')) { exit; }
+
+add_filter('dcv5_supported_recipe_codes', 'drycured_pg11_supported_recipe_codes', 10090);
+add_filter('dcv5_recipe_profile', 'drycured_pg11_recipe_profile', 10090, 3);
+
+function drycured_pg11_supported_recipe_codes($codes) {
+    if (!is_array($codes)) { $codes = []; }
+
+    $ids = get_posts([
+        'post_type'      => 'dry_recipe',
+        'post_status'    => ['publish', 'private'],
+        'posts_per_page' => -1,
+        'fields'         => 'ids',
+        'meta_key'       => 'drycured_public_master_version',
+        'meta_value'     => 'v1.1_products_only',
+    ]);
+
+    foreach ($ids as $id) {
+        $code = (string) get_post_meta($id, '_dry_recipe_id', true);
+        if ($code !== '' && !in_array($code, $codes, true)) {
+            $codes[] = $code;
+        }
+    }
+
+    return $codes;
+}
+
+function drycured_pg11_recipe_profile($profile, $post_id, $code) {
+    if (!$post_id || get_post_type($post_id) !== 'dry_recipe') { return $profile; }
+
+    if (get_post_meta($post_id, 'drycured_public_master_version', true) !== 'v1.1_products_only') {
+        return $profile;
+    }
+
+    $status = get_post_status($post_id);
+    if (!in_array($status, ['publish', 'private'], true)) { return $profile; }
+
+    if ($status === 'private' && !defined('WP_CLI') && !current_user_can('edit_post', $post_id)) {
+        return $profile;
+    }
+
+    if (function_exists('drycured_b001_build_profile')) {
+        $real_code = (string) get_post_meta($post_id, '_dry_recipe_id', true);
+        if ($real_code === '') {
+            $real_code = $code ?: ('PRODUCT-GATE-11-' . $post_id);
+        }
+        return drycured_b001_build_profile($post_id, $real_code);
+    }
+
+    return $profile;
+}
+
+add_action('template_redirect', 'drycured_pg11_force_dcv5_template', 0);
+
+function drycured_pg11_force_dcv5_template() {
+    if (!is_singular('dry_recipe')) { return; }
+
+    $post_id = get_queried_object_id();
+    if (!$post_id) { return; }
+
+    if (get_post_meta($post_id, 'drycured_public_master_version', true) !== 'v1.1_products_only') {
+        return;
+    }
+
+    $status = get_post_status($post_id);
+    if ($status !== 'publish') { return; }
+
+    if (!function_exists('dcv5_recipe_view_pilot_content')) {
+        return;
+    }
+
+    $post = get_post($post_id);
+    if (!$post) { return; }
+
+    global $wp_query;
+
+    $GLOBALS['post'] = $post;
+    setup_postdata($post);
+
+    if ($wp_query) {
+        $wp_query->post = $post;
+        $wp_query->posts = [$post];
+        $wp_query->post_count = 1;
+        $wp_query->current_post = 0;
+        $wp_query->in_the_loop = true;
+        $wp_query->queried_object = $post;
+        $wp_query->queried_object_id = $post_id;
+        $wp_query->is_single = true;
+        $wp_query->is_singular = true;
+    }
+
+    $raw = (string) get_post_field('post_content', $post_id);
+    $html = dcv5_recipe_view_pilot_content($raw);
+
+    if (strpos($html, 'dcv5-recipe') === false) {
+        return;
+    }
+
+    status_header(200);
+    nocache_headers();
+
+    get_header();
+
+    echo '<main id="primary" class="site-main drycured-product-gate-v1-1">';
+    echo $html;
+    echo '</main>';
+
+    get_footer();
+
+    exit;
+}

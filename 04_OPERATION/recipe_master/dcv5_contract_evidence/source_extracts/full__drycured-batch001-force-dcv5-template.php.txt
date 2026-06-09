@@ -1,0 +1,92 @@
+<?php
+/**
+ * Plugin Name: Drycured Batch001 Force DCV5 Template
+ * Description: Batch_001 preview/public display using the existing DCV5 renderer. No DB writes.
+ */
+
+if (!defined('ABSPATH')) { exit; }
+
+add_action('template_redirect', 'drycured_b001_force_dcv5_template', 1);
+
+function drycured_b001_force_dcv5_template() {
+    if (!is_singular('dry_recipe')) { return; }
+
+    $post_id = get_queried_object_id();
+    if (!$post_id) { return; }
+
+    $status = get_post_status($post_id);
+
+    if (!in_array($status, ['private', 'publish'], true)) { return; }
+
+    if (get_post_meta($post_id, 'drycured_mass_pipeline_version', true) !== 'v2.0.2') { return; }
+    if (get_post_meta($post_id, 'drycured_mass_pipeline_batch', true) !== 'batch_001') { return; }
+
+    /*
+     * Private batch recept smije vidjeti samo korisnik koji može uređivati post.
+     * Published batch recept smije vidjeti javnost.
+     */
+    if ($status === 'private' && !current_user_can('edit_post', $post_id)) { return; }
+
+    if (!function_exists('dcv5_recipe_view_pilot_content') || !function_exists('dcv5_get_recipe_profile')) {
+        return;
+    }
+
+    $code = get_post_meta($post_id, '_dry_recipe_id', true);
+    $profile = dcv5_get_recipe_profile($post_id, $code);
+
+    if (!is_array($profile)) {
+        return;
+    }
+
+    $post = get_post($post_id);
+    if (!$post) { return; }
+
+    global $wp_query;
+
+    $old_post = $GLOBALS['post'] ?? null;
+    $old_in_loop = isset($wp_query) && isset($wp_query->in_the_loop) ? $wp_query->in_the_loop : null;
+    $old_current_post = isset($wp_query) && isset($wp_query->current_post) ? $wp_query->current_post : null;
+
+    $GLOBALS['post'] = $post;
+    setup_postdata($post);
+
+    if ($wp_query) {
+        $wp_query->post = $post;
+        $wp_query->posts = [$post];
+        $wp_query->post_count = 1;
+        $wp_query->current_post = 0;
+        $wp_query->in_the_loop = true;
+        $wp_query->queried_object = $post;
+        $wp_query->queried_object_id = $post_id;
+        $wp_query->is_single = true;
+        $wp_query->is_singular = true;
+    }
+
+    $raw = (string) get_post_field('post_content', $post_id);
+    $html = dcv5_recipe_view_pilot_content($raw);
+
+    if (strpos($html, 'dcv5-recipe') === false) {
+        if ($old_post) {
+            $GLOBALS['post'] = $old_post;
+            setup_postdata($old_post);
+        }
+        if ($wp_query) {
+            if ($old_in_loop !== null) { $wp_query->in_the_loop = $old_in_loop; }
+            if ($old_current_post !== null) { $wp_query->current_post = $old_current_post; }
+        }
+        return;
+    }
+
+    status_header(200);
+    nocache_headers();
+
+    get_header();
+
+    echo '<main id="primary" class="site-main drycured-b001-force-dcv5">';
+    echo $html;
+    echo '</main>';
+
+    get_footer();
+
+    exit;
+}

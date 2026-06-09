@@ -1,0 +1,369 @@
+132: function dc_canon_recipe_override_content($content) {
+133:     if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {
+134:         return $content;
+135:     }
+136: 
+137:     $post_id = get_the_ID();
+138:     if (!$post_id) {
+139:         return $content;
+140:     }
+141: 
+142:     $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+143:     if (!$markdown) {
+144:         return $content;
+145:     }
+146: 
+147:     $sections = dc_canon_recipe_parse_sections($markdown);
+148: 
+149:     $code        = dc_canon_meta($post_id, '_dry_recipe_id');
+150:     $country     = dc_canon_meta($post_id, '_dry_country', dc_canon_first_term($post_id, 'dry_country', 'Hrvatska'));
+151:     $region      = dc_canon_meta($post_id, '_dry_region', dc_canon_first_term($post_id, 'dry_region', ''));
+152:     $microregion = dc_canon_meta($post_id, '_dry_microregion', dc_canon_first_term($post_id, 'dry_microregion', ''));
+153:     $type        = dc_canon_meta($post_id, '_dry_product_type', dc_canon_first_term($post_id, 'dry_product_type', ''));
+154:     $category    = dc_canon_meta($post_id, '_dry_category', dc_canon_first_term($post_id, 'dry_product_category', ''));
+155: 
+156:     $lead = '';
+157:     if (isset($sections[2])) {
+158:         $lead = wp_strip_all_tags(dc_canon_recipe_render_body($sections[2]['body']));
+159:     }
+160: 
+161:     ob_start();
+162:     ?>
+163:     <style>
+164:         .single-dry_recipe .ast-container,
+165:         .single-dry_recipe .site-content .ast-container,
+166:         .single-dry_recipe .content-area,
+167:         .single-dry_recipe main.site-main {
+168:             max-width: 1280px !important;
+169:             width: 100% !important;
+170:             margin-left: auto !important;
+171:             margin-right: auto !important;
+172:         }
+173: 
+174:         .single-dry_recipe .entry-header,
+175:         .single-dry_recipe .entry-meta {
+176:             display: none !important;
+177:         }
+178: 
+179:         .dc-canon-recipe {
+180:             max-width: 1160px;
+181:             margin: 0 auto;
+182:             padding: 36px 18px 58px;
+183:             color: #142039;
+184:         }
+185: 
+186:         .dc-canon-hero,
+187:         .dc-canon-card,
+188:         .dc-canon-section,
+189:         .dc-canon-toc {
+190:             background: #fffaf0;
+191:             border: 1px solid #e2c98e;
+192:             border-radius: 18px;
+193:             box-shadow: 0 10px 28px rgba(25, 32, 48, .08);
+194:         }
+195: 
+196:         .dc-canon-hero {
+197:             padding: 30px 34px;
+198:             margin-bottom: 18px;
+199:         }
+200: 
+201:         .dc-canon-badges {
+202:             display: flex;
+203:             flex-wrap: wrap;
+204:             gap: 8px;
+205:             margin-bottom: 14px;
+206:         }
+207: 
+208:         .dc-canon-badge {
+209:             display: inline-flex;
+210:             align-items: center;
+211:             padding: 6px 11px;
+212:             border-radius: 999px;
+213:             background: #f2dfb5;
+214:             border: 1px solid #d5b46b;
+215:             color: #10182d;
+216:             font-size: 12px;
+217:             font-weight: 800;
+218:             letter-spacing: .02em;
+219:         }
+220: 
+221:         .dc-canon-hero h1 {
+222:             margin: 0 0 12px;
+223:             font-size: clamp(30px, 4vw, 48px);
+224:             line-height: 1.08;
+225:             color: #0f1930;
+226:         }
+227: 
+228:         .dc-canon-lead {
+229:             max-width: 860px;
+230:             margin: 0;
+231:             color: #42506a;
+232:             font-size: 17px;
+233:             line-height: 1.65;
+234:         }
+235: 
+236:         .dc-canon-meta-grid {
+237:             display: grid;
+238:             grid-template-columns: repeat(4, minmax(0, 1fr));
+239:             gap: 12px;
+240:             margin-bottom: 22px;
+241:         }
+242: 
+243:         .dc-canon-card {
+244:             padding: 15px 17px;
+245:         }
+246: 
+247:         .dc-canon-card small {
+248:             display: block;
+249:             margin-bottom: 5px;
+250:             color: #766843;
+251:             font-size: 11px;
+252:             font-weight: 800;
+253:             text-transform: uppercase;
+254:             letter-spacing: .06em;
+255:         }
+256: 
+257:         .dc-canon-card strong {
+258:             display: block;
+259:             color: #142039;
+260:             font-size: 15px;
+261:             line-height: 1.35;
+262:         }
+263: 
+264:         .dc-canon-layout {
+265:             display: grid;
+266:             grid-template-columns: minmax(0, 1fr) 285px;
+267:             gap: 22px;
+268:             align-items: start;
+269:         }
+270: 
+271:         .dc-canon-section {
+272:             padding: 24px 28px;
+273:             margin-bottom: 18px;
+274:         }
+275: 
+276:         .dc-canon-section h2 {
+277:             display: flex;
+278:             align-items: center;
+279:             gap: 10px;
+280:             margin: 0 0 16px;
+281:             color: #111b33;
+282:             font-size: 22px;
+283:             line-height: 1.25;
+284:         }
+285: 
+286:         .dc-canon-section h2 span {
+287:             width: 32px;
+288:             height: 32px;
+289:             flex: 0 0 32px;
+290:             display: inline-flex;
+291:             align-items: center;
+292:             justify-content: center;
+293:             border-radius: 999px;
+294:             background: #d8a63f;
+295:             color: #10182c;
+296:             font-size: 14px;
+297:             font-weight: 900;
+298:         }
+299: 
+300:         .dc-canon-section p {
+301:             margin: 0 0 12px;
+302:             color: #33415c;
+303:             font-size: 16px;
+304:             line-height: 1.7;
+305:         }
+306: 
+307:         .dc-canon-list {
+308:             margin: 0 0 14px;
+309:             padding: 0;
+310:             list-style: none;
+311:         }
+312: 
+313:         .dc-canon-list li {
+314:             position: relative;
+315:             margin: 8px 0;
+316:             padding: 10px 12px 10px 34px;
+317:             border: 1px solid #ecd9aa;
+318:             border-radius: 12px;
+319:             background: #fffdf7;
+320:             line-height: 1.55;
+321:         }
+322: 
+323:         .dc-canon-list li::before {
+324:             content: "•";
+325:             position: absolute;
+326:             left: 14px;
+327:             top: 9px;
+328:             color: #d8a63f;
+329:             font-weight: 900;
+330:         }
+331: 
+332:         .dc-canon-table-wrap {
+333:             width: 100%;
+334:             overflow-x: auto;
+335:             margin: 12px 0 18px;
+336:             border: 1px solid #e4c889;
+337:             border-radius: 14px;
+338:             background: #fff;
+339:         }
+340: 
+341:         .dc-canon-table {
+342:             width: 100%;
+343:             min-width: 680px;
+344:             border-collapse: collapse;
+345:         }
+346: 
+347:         .dc-canon-table th {
+348:             padding: 12px 14px;
+349:             text-align: left;
+350:             background: #d8a63f;
+351:             color: #10182c;
+352:             font-size: 14px;
+353:             font-weight: 900;
+354:         }
+355: 
+356:         .dc-canon-table td {
+357:             padding: 12px 14px;
+358:             border-top: 1px solid #ecd9aa;
+359:             color: #26344f;
+360:             font-size: 15px;
+361:             line-height: 1.55;
+362:             vertical-align: top;
+363:         }
+364: 
+365:         .dc-canon-toc {
+366:             position: sticky;
+367:             top: 94px;
+368:             padding: 16px;
+369:         }
+370: 
+371:         .dc-canon-toc h3 {
+372:             margin: 0 0 12px;
+373:             color: #111b33;
+374:             font-size: 15px;
+375:         }
+376: 
+377:         .dc-canon-toc a {
+378:             display: block;
+379:             padding: 8px 10px;
+380:             border-radius: 10px;
+381:             color: #26385c;
+382:             text-decoration: none;
+383:             font-size: 14px;
+384:         }
+385: 
+386:         .dc-canon-toc a:hover {
+387:             background: #f3e3bd;
+388:         }
+389: 
+390:         .dc-canon-admin {
+391:             border-style: dashed;
+392:             opacity: .96;
+393:         }
+394: 
+395:         @media (max-width: 980px) {
+396:             .dc-canon-layout {
+397:                 grid-template-columns: 1fr;
+398:             }
+399: 
+400:             .dc-canon-toc {
+401:                 position: static;
+402:             }
+403: 
+404:             .dc-canon-meta-grid {
+405:                 grid-template-columns: repeat(2, minmax(0, 1fr));
+406:             }
+407:         }
+408: 
+409:         @media (max-width: 640px) {
+410:             .dc-canon-recipe {
+411:                 padding: 24px 12px 42px;
+412:             }
+413: 
+414:             .dc-canon-hero,
+415:             .dc-canon-section {
+416:                 padding: 20px 18px;
+417:                 border-radius: 14px;
+418:             }
+419: 
+420:             .dc-canon-meta-grid {
+421:                 grid-template-columns: 1fr;
+422:             }
+423: 
+424:             .dc-canon-table {
+425:                 min-width: 560px;
+426:             }
+427:         }
+428:     </style>
+429: 
+430:     <div class="dc-canon-recipe">
+431:         <header class="dc-canon-hero">
+432:             <div class="dc-canon-badges">
+433:                 <span class="dc-canon-badge">RECEPT</span>
+434:                 <?php if ($code) : ?><span class="dc-canon-badge"><?php echo esc_html($code); ?></span><?php endif; ?>
+435:                 <?php if ($type) : ?><span class="dc-canon-badge"><?php echo esc_html($type); ?></span><?php endif; ?>
+436:                 <?php if ($region) : ?><span class="dc-canon-badge"><?php echo esc_html($region); ?></span><?php endif; ?>
+437:             </div>
+438: 
+439:             <h1><?php echo esc_html(get_the_title($post_id)); ?></h1>
+440: 
+441:             <?php if ($lead) : ?>
+442:                 <p class="dc-canon-lead"><?php echo esc_html($lead); ?></p>
+443:             <?php endif; ?>
+444:         </header>
+445: 
+446:         <div class="dc-canon-meta-grid">
+447:             <div class="dc-canon-card"><small>Država</small><strong><?php echo esc_html($country ?: '—'); ?></strong></div>
+448:             <div class="dc-canon-card"><small>Regija</small><strong><?php echo esc_html($region ?: '—'); ?></strong></div>
+449:             <div class="dc-canon-card"><small>Mikroregija</small><strong><?php echo esc_html($microregion ?: '—'); ?></strong></div>
+450:             <div class="dc-canon-card"><small>Vrsta proizvoda</small><strong><?php echo esc_html($type ?: $category ?: '—'); ?></strong></div>
+451:         </div>
+452: 
+453:         <div class="dc-canon-layout">
+454:             <main class="dc-canon-main">
+455:                 <?php
+456:                 echo dc_canon_recipe_section($sections, 5, 'Mesni sastav i anatomski dijelovi');
+457:                 echo dc_canon_recipe_section($sections, 6, 'Sastojci i začini');
+458:                 echo dc_canon_recipe_section($sections, 7, 'Crijeva / omotači');
+459:                 echo dc_canon_recipe_section($sections, 8, 'Češnjak');
+460:                 echo dc_canon_recipe_section($sections, 9, 'Oprema i alati');
+461:                 echo dc_canon_recipe_section($sections, 10, 'Priprema mesa');
+462:                 echo dc_canon_recipe_section($sections, 11, 'Mljevenje / rezanje');
+463:                 echo dc_canon_recipe_section($sections, 12, 'Miješanje i odležavanje');
+464:                 echo dc_canon_recipe_section($sections, 13, 'Punjenje i vezanje');
+465:                 echo dc_canon_recipe_section($sections, 14, 'Predsušenje / početna fermentacija');
+466:                 echo dc_canon_recipe_section($sections, 15, 'Dimljenje');
+467:                 echo dc_canon_recipe_section($sections, 16, 'Sušenje i zrenje');
+468:                 echo dc_canon_recipe_section($sections, 17, 'Najčešće greške i rješenja');
+469:                 echo dc_canon_recipe_section($sections, 18, 'Posluživanje i čuvanje');
+470:                 echo dc_canon_recipe_section($sections, 3, 'Regionalni identitet');
+471: 
+472:                 if (current_user_can('edit_posts')) {
+473:                     echo '<section class="dc-canon-section dc-canon-admin"><h2><span>i</span>Urednički podaci</h2>';
+474:                     echo dc_canon_recipe_section($sections, 1, 'Identitet recepta');
+475:                     echo dc_canon_recipe_section($sections, 19, 'Kalkulator status');
+476:                     echo dc_canon_recipe_section($sections, 20, 'Sljedivost izvora');
+477:                     echo '</section>';
+478:                 }
+479:                 ?>
+480:             </main>
+481: 
+482:             <aside>
+483:                 <nav class="dc-canon-toc" aria-label="Sadržaj recepta">
+484:                     <h3>Sadržaj recepta</h3>
+485:                     <a href="#dc-section-5">Mesni sastav</a>
+486:                     <a href="#dc-section-6">Sastojci i začini</a>
+487:                     <a href="#dc-section-7">Crijeva / omotači</a>
+488:                     <a href="#dc-section-8">Češnjak</a>
+489:                     <a href="#dc-section-10">Priprema</a>
+490:                     <a href="#dc-section-15">Dimljenje</a>
+491:                     <a href="#dc-section-16">Sušenje i zrenje</a>
+492:                     <a href="#dc-section-17">Greške i rješenja</a>
+493:                     <a href="#dc-section-18">Posluživanje</a>
+494:                 </nav>
+495:             </aside>
+496:         </div>
+497:     </div>
+498:     <?php
+499:     return ob_get_clean();
+500: }

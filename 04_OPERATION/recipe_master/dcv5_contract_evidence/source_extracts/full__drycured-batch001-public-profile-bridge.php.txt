@@ -1,0 +1,59 @@
+<?php
+/**
+ * Plugin Name: Drycured Batch001 Public DCV5 Profile Bridge
+ * Description: Allows corrected batch_001 v2.0.2 recipes to use existing DCV5 renderer after publishing. No DB writes.
+ */
+
+if (!defined('ABSPATH')) { exit; }
+
+add_filter('dcv5_supported_recipe_codes', 'drycured_b001_public_supported_codes', 10000);
+add_filter('dcv5_recipe_profile', 'drycured_b001_public_recipe_profile', 10000, 3);
+
+function drycured_b001_public_supported_codes($codes) {
+    if (!is_array($codes)) { $codes = []; }
+
+    $ids = get_posts([
+        'post_type'      => 'dry_recipe',
+        'post_status'    => ['private', 'publish'],
+        'posts_per_page' => -1,
+        'fields'         => 'ids',
+        'meta_query'     => [
+            ['key' => 'drycured_mass_pipeline_version', 'value' => 'v2.0.2'],
+            ['key' => 'drycured_mass_pipeline_batch', 'value' => 'batch_001'],
+        ],
+    ]);
+
+    foreach ($ids as $id) {
+        $code = (string) get_post_meta($id, '_dry_recipe_id', true);
+        if ($code !== '' && !in_array($code, $codes, true)) {
+            $codes[] = $code;
+        }
+    }
+
+    return $codes;
+}
+
+function drycured_b001_public_recipe_profile($profile, $post_id, $code) {
+    if (!$post_id || get_post_type($post_id) !== 'dry_recipe') { return $profile; }
+
+    $status = get_post_status($post_id);
+    if (!in_array($status, ['private', 'publish'], true)) { return $profile; }
+
+    if (get_post_meta($post_id, 'drycured_mass_pipeline_version', true) !== 'v2.0.2') { return $profile; }
+    if (get_post_meta($post_id, 'drycured_mass_pipeline_batch', true) !== 'batch_001') { return $profile; }
+
+    if ($status === 'private' && !defined('WP_CLI') && !current_user_can('edit_post', $post_id)) {
+        return $profile;
+    }
+
+    if (!function_exists('drycured_b001_build_profile')) {
+        return $profile;
+    }
+
+    $real_code = (string) get_post_meta($post_id, '_dry_recipe_id', true);
+    if ($real_code === '') {
+        $real_code = $code ?: ('BATCH001-' . $post_id);
+    }
+
+    return drycured_b001_build_profile($post_id, $real_code);
+}

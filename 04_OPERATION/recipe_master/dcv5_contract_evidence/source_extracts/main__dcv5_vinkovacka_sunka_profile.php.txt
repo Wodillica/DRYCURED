@@ -1,0 +1,77 @@
+1807: function dcv5_vinkovacka_sunka_profile($post_id) {
+1808:     return [
+1809:         'code' => 'HR-SL-020',
+1810:         'title' => 'Vinkovačka šunka — suho soljena varijanta',
+1811:         'region' => 'Vinkovci i srijemski prostor',
+1812:         'type' => 'Cijeli komad',
+1813:         'lead' => 'Vinkovačka šunka — suho soljena varijanta je slavonsko-srijemski proizvod od cijelog svinjskog buta, soljen suhim postupkom, hladno dimljen i dugim zrenjem doveden do čvrste teksture i čistog dimljenog mirisa.',
+1814:         'quick' => [
+1815:             ['label' => 'Šarža', 'value' => '1 but / 9–13 kg'],
+1816:             ['label' => 'Trajanje', 'value' => '10–14 mjeseci'],
+1817:             ['label' => 'Dimljenje', 'value' => 'hladni dim'],
+1818:             ['label' => 'Omotač', 'value' => 'bez crijeva'],
+1819:             ['label' => 'Gubitak mase', 'value' => 'postupno zrenje'],
+1820:         ],
+1821:         'materials' => [
+1822:             ['name' => 'Svinjski but s kosti i kožom', 'amount' => '9–13 kg', 'percent' => '', 'rate' => '', 'note' => 'Cijeli anatomski komad. Koža i kost usporavaju sušenje i traže dulje zrenje.'],
+1823:         ],
+1824:         'spices' => [
+1825:             ['name' => 'Kuhinjska sol', 'amount' => '550–650 g', 'percent' => '', 'rate' => '50–60 g/kg', 'note' => 'Količina se vodi prema masi buta. Sol se utrljava temeljito, osobito oko kosti i debljih dijelova.'],
+1826:             ['name' => 'Crni papar', 'amount' => '35–55 g', 'percent' => '', 'rate' => '3–5 g/kg', 'note' => 'Daje blagi začinski sloj bez prekrivanja mirisa mesa i dima.'],
+1827:             ['name' => 'Slatka paprika', 'amount' => '35–45 g', 'percent' => '', 'rate' => '3–4 g/kg', 'note' => 'Koristi se kao blagi slavonski začinski naglasak.'],
+1828:             ['name' => 'Suhi češnjak ili češnjakova aroma', 'amount' => '20–35 g', 'percent' => '', 'rate' => '2–3 g/kg', 'note' => 'Koristiti odmjereno. Kod cijelih komada češnjak ne smije stvarati mokre džepove na površini.'],
+1829:         ],
+1830:         'liquids' => [
+1831:             ['name' => 'Tekućina za češnjak', 'amount' => 'nije obvezna', 'percent' => '', 'rate' => '', 'note' => 'Kod ove suho soljene varijante tekućina se ne koristi kao dio nadjeva. Ako se koristi češnjakova aroma, površina mora ostati suha.'],
+1832:             ['name' => 'Crijeva / omotači', 'amount' => 'ne koriste se', 'percent' => '', 'rate' => '', 'note' => 'Šunka je cijeli komad i ne puni se u crijevo. Zaštitu čine koža, površinsko sušenje i pravilno zrenje.'],
+1833:         ],
+1834:         'profile' => [
+1835:             ['name' => 'Paprika', 'score' => 3],
+1836:             ['name' => 'Dim', 'score' => 7],
+1837:             ['name' => 'Ljutina', 'score' => 1],
+1838:             ['name' => 'Slanoća', 'score' => 7],
+1839:             ['name' => 'Masnoća', 'score' => 5],
+1840:             ['name' => 'Tekstura', 'score' => 8],
+1841:         ],
+1842:         'climate' => [
+1843:             ['title' => 'Suho soljenje', 'text' => 'Kod cijelog buta sol mora postupno prodirati prema sredini. Posebno se pazi područje oko kosti jer je to najosjetljivija zona.'],
+1844:             ['title' => 'Stabilizacija nakon soljenja', 'text' => 'Nakon soljenja šunku treba odmoriti i prosušiti prije dima. Površina ne smije biti mokra ni ljepljiva.'],
+1845:             ['title' => 'Dimljenje', 'text' => 'Dimljenje mora biti hladno, blago i postupno. Cilj je aroma i površinska stabilizacija, ne brzo sušenje.'],
+1846:             ['title' => 'Sušenje', 'text' => 'Veliki komad traži sporo i mirno sušenje. Prebrz zrak zatvara površinu dok sredina ostaje previše vlažna.'],
+1847:             ['title' => 'Zrenje', 'text' => 'Zrenjem se razvijaju čvrsta tekstura, zaokružen miris i stabilnost proizvoda. Kod šunke vrijeme ne treba požurivati.'],
+1848:             ['title' => 'Čuvanje', 'text' => 'Gotova šunka čuva se u hladnom, tamnom i prozračnom prostoru, zaštićena od prevelike vlage i naglih promjena temperature.'],
+1849:         ],
+1850:         'timeline' => [
+1851:             ['day' => 'Dan 1', 'title' => 'Obrada buta', 'text' => 'But očistiti, oblikovati i pregledati područje oko kosti, zglobova i kože.', 'critical' => 'Ne ostavljati nagnječene ili onečišćene dijelove.'],
+1852:             ['day' => 'Dan 1–28', 'title' => 'Suho soljenje', 'text' => 'Sol i začine ravnomjerno utrljati u površinu. But držati na 2–4 °C i okretati svakih nekoliko dana.', 'critical' => 'Premalo soli oko kosti povećava rizik kvarenja jezgre.'],
+1853:             ['day' => 'Dan 28–35', 'title' => 'Stabilizacija i predsušenje', 'text' => 'Nakon soljenja šunku objesiti da se površina smiri i prosuši prije dima.', 'critical' => 'Ne dimiti mokru površinu jer dim postaje grub i neujednačen.'],
+1854:             ['day' => 'Dan 35–90', 'title' => 'Dimljenje', 'text' => 'Dimiti hladnim dimom u blagim ciklusima, uz pauze i dobro provjetravanje.', 'critical' => 'Dim ne smije biti topao, gust ni gorak.'],
+1855:             ['day' => 'Mjesec 3–6', 'title' => 'Sušenje', 'text' => 'Šunku sušiti u stabilnim uvjetima, uz kontrolu površine, mirisa i sporog gubitka vlage.', 'critical' => 'Tvrda površina i mekana unutrašnjost znak su prebrzog sušenja.'],
+1856:             ['day' => 'Mjesec 6–12', 'title' => 'Zrenje', 'text' => 'Šunka dozrijeva dok tekstura ne postane čvrsta, miris čist, a rez stabilan.', 'critical' => 'Kod sumnje na neugodan miris uz kost proizvod ne treba spašavati.'],
+1857:             ['day' => 'Nakon zrenja', 'title' => 'Pakiranje i čuvanje', 'text' => 'Pakirati tek kada je proizvod stabilan i površinski suh. Za dulje čuvanje paziti da pakiranje ne zarobi vlagu.', 'critical' => 'Ako se u pakiranju pojavi vlaga ili neugodan miris, šunku izvaditi i provjeriti prije uporabe.'],
+1858:         ],
+1859:         'errors' => [
+1860:             ['problem' => 'Kvarenje uz kost', 'phase' => 'Soljenje / zrenje', 'severity' => 'Visok rizik', 'level' => 'danger', 'cause' => 'Nedovoljno prodiranje soli ili previsoka temperatura.', 'solution' => 'Soljenje voditi hladno i dovoljno dugo; kod neugodnog mirisa uz kost proizvod ne koristiti.'],
+1861:             ['problem' => 'Pretvrda površina', 'phase' => 'Sušenje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Prebrz zrak ili preniska relativna vlaga.', 'solution' => 'Smanjiti propuh, stabilizirati vlagu i produljiti sušenje.'],
+1862:             ['problem' => 'Gorak dim', 'phase' => 'Dimljenje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Gust dim, vlažno drvo ili previsoka temperatura dima.', 'solution' => 'Koristiti suho tvrdo drvo i tanak hladni dim u kraćim ciklusima.'],
+1863:             ['problem' => 'Ljepljiva površina', 'phase' => 'Predsušenje', 'severity' => 'Rizik', 'level' => 'danger', 'cause' => 'Previsoka vlaga i preslab protok zraka.', 'solution' => 'Poboljšati provjetravanje i ne nastavljati dimljenje dok površina nije stabilna.'],
+1864:         ],
+1865:         'done_when' => [
+1866:             ['title' => 'Miris je čist', 'text' => 'Miris je dimljen, mesnat i zaokružen, bez truležnih ili kiselih nota, osobito uz kost.'],
+1867:             ['title' => 'Tekstura je čvrsta', 'text' => 'Rez je stabilan, bez vlažne jezgre i bez ljepljivih dijelova.'],
+1868:             ['title' => 'Površina je suha', 'text' => 'Površina nije sluzava, mokra ni neugodnog mirisa.'],
+1869:             ['title' => 'Zrenje je završeno', 'text' => 'Vrijeme, tekstura, miris i rez pokazuju da proizvod više nije sirov u sredini.'],
+1870:         ],
+1871:         'safety' => [
+1872:             ['level' => 'green', 'title' => 'Zeleno — normalno', 'text' => 'Suha površina, čist dimljeni miris, stabilan rez i čvrsta tekstura.'],
+1873:             ['level' => 'yellow', 'title' => 'Žuto — oprez', 'text' => 'Pretvrda površina, sporo sušenje, blaga ljepljivost ili neujednačen miris. Popraviti uvjete i pratiti.'],
+1874:             ['level' => 'red', 'title' => 'Crveno — odbaci', 'text' => 'Neugodan miris uz kost, sluzava površina, truležne note, zelene/crne promjene ili vlažna jezgra neugodnog mirisa.'],
+1875:         ],
+1876:         'serving' => [
+1877:             ['title' => 'Rezanje', 'text' => 'Rezati tanko, oštrim nožem, nakon kratkog odmora komada na sobnoj temperaturi.'],
+1878:             ['title' => 'Uz što poslužiti', 'text' => 'Odgovara uz kruh, sir, mladi luk, kiselo povrće i tradicionalnu slavonsku zakusku.'],
+1879:             ['title' => 'Čuvanje cijele šunke', 'text' => 'Čuvati u hladnom, tamnom i prozračnom prostoru, bez zatvaranja dok proizvod otpušta vlagu.'],
+1880:             ['title' => 'Nakon rezanja', 'text' => 'Reznu površinu zaštititi papirom ili čistom krpom i pratiti miris.'],
+1881:         ],
+1882:     ];
+1883: }

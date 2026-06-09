@@ -1,0 +1,34 @@
+1689: function dcv5_recipe_js_profile($recipe) {
+1690:     if (!$recipe || empty($recipe['code'])) {
+1691:         return null;
+1692:     }
+1693: 
+1694:     $ingredients = [
+1695:         'materials' => [],
+1696:         'spices' => [],
+1697:         'liquids' => [],
+1698:     ];
+1699: 
+1700:     foreach (['materials', 'spices', 'liquids'] as $group) {
+1701:         if (empty($recipe[$group]) || !is_array($recipe[$group])) {
+1702:             continue;
+1703:         }
+1704: 
+1705:         foreach ($recipe[$group] as $item) {
+1706:             $ingredients[$group][] = [
+1707:                 'name' => $item['name'] ?? '',
+1708:                 'amount' => $item['amount'] ?? '',
+1709:                 'percent' => $item['percent'] ?? '',
+1710:                 'rate' => $item['rate'] ?? '',
+1711:             ];
+1712:         }
+1713:     }
+1714: 
+1715:     return [
+1716:         'code' => $recipe['code'],
+1717:         'title' => $recipe['title'],
+1718:         'baseKg' => 10,
+1719:         'type' => $recipe['type'] ?? '',
+1720:         'ingredients' => $ingredients,
+1721:     ];
+1722: }

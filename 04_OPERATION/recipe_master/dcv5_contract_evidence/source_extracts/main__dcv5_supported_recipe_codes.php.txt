@@ -1,0 +1,7 @@
+1628: function dcv5_supported_recipe_codes() {
+1629:     if (function_exists('dcv12_batch01_recipe_registry')) {
+1630:         return array_keys(dcv12_batch01_recipe_registry());
+1631:     }
+1632: 
+1633:     return ['HR-SL-001', 'HR-SL-007', 'HR-SL-020'];
+1634: }

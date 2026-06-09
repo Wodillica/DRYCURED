@@ -1,0 +1,1326 @@
+=== DCV5 ACTIVE RENDERER MAP ===
+DATE=20260609_164747
+MODE=READ_ONLY
+
+=== 1) RESUME DOCUMENT ===
+# START HERE — DCV5 recipe master / drycured.com
+
+Ovaj dokument je trajna početna točka za nastavak rada na receptnoj master bazi i postojećem Drycured/DCV5 prikazu recepata.
+
+## Ključna odluka
+
+- Ne razvijamo novi prikaz recepta.
+- Ne razvijamo novi renderer.
+- Ne mijenjamo postojeći dizajn koji već ispravno radi.
+- Master baza služi kao podatkovni sloj za postojeći Drycured/DCV5 prikaz.
+
+## Referentni ispravni javni prikazi
+
+### HR-SL-005 — Slavonska domaća kobasica
+
+- URL: `/recepti-baza/hr-sl-005-slavonska-domaca-kobasica/`
+- WP post ID: 2976
+- Status: publish
+- Potvrđen kao ispravan referentni prikaz.
+
+### HR-SL-010 — Slavonska kobasica (ZOI EU 2023)
+
+- URL: `/recepti-baza/hr-sl-010-slavonska-kobasica-zoi-eu-2023/`
+- WP post ID: 2981
+- Status: publish
+- Potvrđen kao drugi ispravan referentni prikaz, uz male dopuštene varijacije.
+
+## Važno tehničko opažanje
+
+Kod referentnih recepata `_dry_recipe_data` je prazan ili nije glavni izvor prikaza.
+
+Prikaz se oslanja na postojeći DCV5 sustav, osobito na:
+
+- `_dry_recipe_full_markdown`
+- `_dry_recipe_sections`
+- `_dry_verified_process`
+
+HTML prikaz koristi postojeće klase:
+
+- `dcv5-recipe`
+- `dcv5-hero`
+- `dcv5-timeline`
+- `dcv5-panel`
+- `dcv5-ingredient-card`
+- `dcv5-safety-card`
+- `dcv5-profile-row`
+- `dcv5-serving-card`
+- `dcv5-print-box`
+
+## Pravilo za master bazu
+
+Master baza nije novi layout. Ona mora proizvoditi podatke koje postojeći DCV5 renderer može ispravno prikazati.
+
+Kod kobasica, salama i kulena postojeći prikaz uključuje: hero, radni sažetak, procesnu kronologiju, omjer smjese, glavne sirovine, začine, tekućine i češnjak, profil proizvoda, tehnološki potpis, anatomiju greške, Gotovo je kad, sigurnosni semafor, posluživanje i dnevnik šarže.
+
+Kod cijelih komada isti vizualni sustav ostaje, ali blokovi moraju odgovarati tehnologiji cijelog komada.
+
+## Za cijele komade prikazivati
+
+- identitet proizvoda
+- država, regija i mikroregija
+- osnovna šarža 10 kg sirovine
+- anatomski komad
+- suhi pac, mokri pac, salamura ili marinada
+- sol i začini
+- utrljavanje, potapanje ili premazivanje
+- trajanje i temperatura paca
+- okretanje, prelaganje ili prešanje ako postoji
+- ispiranje, brisanje ili prosušivanje ako postoji
+- dimljenje ako postoji
+- sušenje
+- zrenje
+- gubitak mase i znakovi gotovosti
+- greške i rješenja
+- sigurnosni semafor
+- posluživanje i čuvanje
+- dnevnik šarže
+
+## Za cijele komade ne prikazivati
+
+- mljevenje
+- granulaciju
+- rešetku ili šajbu
+- crijeva
+- nadjev
+- miješanje nadjeva
+- punjenje
+
+Iznimka je dopuštena samo ako izvor izričito i tehnološki opravdano traži omotač ili poseban postupak.
+
+## Trenutni Git status rada
+
+Zadnji važni commitovi:
+
+- `a825178 Add block fill candidates for whole-cut recipe master pilot`
+- `f6496c9 Archive evidence matrix for whole-cut recipe master pilot`
+- `8bc78ab Add recipe master pilot for whole-cut products`
+- `4e6c090 Guard legacy recipe renderer for MD-only HTTP 500 posts`
+- `99e4bdc Remove invalid MD bridge call from recipe JS profile`
+
+## Važne datoteke
+
+- `04_OPERATION/recipe_master/drycured_recipes_master_v1_pilot_cijeli_komadi_25.json`
+- `04_OPERATION/recipe_master/drycured_recipes_master_v1_pilot_cijeli_komadi_25_summary.txt`
+- `04_OPERATION/recipe_master/evidence/batch01_cijeli_komadi_25/editorial_evidence_matrix.csv`
+- `04_OPERATION/recipe_master/evidence/batch01_cijeli_komadi_25/editorial_evidence_candidates.json`
+- `04_OPERATION/recipe_master/fill_candidates/batch01_cijeli_komadi_25/block_fill_candidates.json`
+- `server-reports/recipes/mass-pipeline-v2/source_input/drycured_recipes_clean_rebuild_v1_2.json`
+- `scraping_recepata/schema/recipe_schema_web_v1_1.json`
+
+## Pilot batch — cijeli komadi
+
+U master pilot uspješno je povezano 25 javnih recepata skupine `CIJELI_KOMAD`.
+
+Validacija:
+
+- `RECORD_COUNT=25`
+- `MISSING_MATCHES=0`
+- `DUPLICATE_WARNINGS=0`
+- `JSON_OK`
+- `GROUPS={CIJELI_KOMAD:25}`
+- `DUPLICATE_STABLE_IDS=0`
+- `DUPLICATE_WP_IDS=0`
+- `MASTER_PILOT_VALIDATION_OK`
+
+## Što NE raditi dalje
+
+- Ne nastavljati s izmišljanjem novog `editorial_draft` modela.
+- Ne raditi novi renderer.
+- Ne mijenjati javni izgled recepata.
+- Ne dirati live recepte.
+- Ne upisivati ništa u master dok ne postoji mapiran DCV5 data contract.
+
+## Sljedeći ispravan korak
+
+Mapirati aktivni DCV5 renderer i izraditi:
+
+`04_OPERATION/recipe_master/DCV5_DATA_CONTRACT.md`
+
+Treba dokumentirati koja datoteka generira postojeći DCV5 prikaz, koje funkcije čitaju `_dry_recipe_full_markdown`, `_dry_recipe_sections` i `_dry_verified_process`, te koji podatkovni format master baza mora proizvesti.
+
+## Naredba za početak novog razgovora
+
+```bash
+cat /root/DRYCURED_GITHUB/04_OPERATION/recipe_master/00_START_HERE_DCV5_RECIPE_MASTER.md
+```
+
+=== 2) LIVE MU-PLUGINS ROOT FILES ===
+drycured-admin-guard.php
+drycured-admin-private-recipes-view.php
+drycured-archive-seo-bridge.php
+drycured-auth.php
+drycured-batch001-force-dcv5-template.php
+drycured-batch001-profile-bridge.php
+drycured-batch001-public-profile-bridge.php
+drycured-batch01-quantity-profiles.php
+drycured-blog-canonical-redirects.php
+drycured-blog-core.php
+drycured-blog-editorial-redirects.php
+drycured-book-inquiry.php
+drycured-book-preview.php
+drycured-book-preview-style.php
+drycured-book-shadow-soft-fix.php
+drycured-cookie-privacy-v1.php
+drycured-diary-js.php
+drycured-ez-audience-home-cards.php
+drycured-granulation-display-core.php
+drycured-gt-killfloat.php
+drycured-gtranslate.php
+drycured-home-card-border-fix.php
+drycured-home-clean-css.php
+drycured-home-placeholder-redirects.php
+drycured-home-process-order-v021.php
+drycured-home-process-order-v022.php
+drycured-home-process-rail-hub-adapter.php
+drycured-infografike.php
+drycured-legal-footer-links-v1.php
+drycured-mail-debug.php
+drycured-md-single-template-pilot.php
+drycured-md-v5-bridge-pilot.php
+drycured-platform-loader.php
+drycured-process-dimljenje-core.php
+drycured-process-fermentacija-core.php
+drycured-process-hub.php
+drycured-process-large-cuts-core.php
+drycured-process-main-visual-upgrade.php
+drycured-process-mijesanje-core.php
+drycured-process-mljevenje-core.php
+drycured-process-obrada-vecijih-komada-core.php
+drycured-process-odlezavanje-core.php
+drycured-process-odlezavanje-text-fix-v011.php
+drycured-process-overview.php
+drycured-process-pakiranje-core.php
+drycured-process-phase-backlink.php
+drycured-process-punjenje-core.php
+drycured-process-rezanje-core.php
+drycured-process-seo-faq.php
+drycured-process-sirovina-core.php
+drycured-process-soljenje-core.php
+drycured-process-susenje-core.php
+drycured-process-zrenje-core.php
+drycured-product-gate-v1-1-clean-render.php
+drycured-profile-settings.php
+drycured-public-output-cleaner.php
+drycured-recipe-view-v1.php
+drycured-registry-01B.php
+drycured-savjet-home-injector.php
+drycured-savjeti-iz-pusnice.php
+drycured-search-assets.php
+drycured-search.php
+drycured-service-page-typography-v1.php
+drycured-starter-kulture-core.php
+drycured-tools-kalkulator-soli-anchor.php
+drycured-v17-dcv5-profile-adapter.php
+drycured-verified-process-adapter.php
+drycured-wpcode-migrated-small-fixes.php
+
+=== 3) LIVE PLUGIN FILES CONTAINING DCV5 MARKERS ===
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-canonical-recipe-view.php
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-content-cleanup.php
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-feature-pack.php
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-nav-polish.php
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-prevnext-position.php
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-balanced-stage.php
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-pilot.php
+/var/www/html/wp-content/mu-plugins/drycured-batch001-force-dcv5-template.php
+/var/www/html/wp-content/mu-plugins/drycured-batch001-force-dcv5-template.php.before_public_fix_2026-06-03_16-42-33
+/var/www/html/wp-content/mu-plugins/drycured-batch001-profile-bridge.php
+/var/www/html/wp-content/mu-plugins/drycured-granulation-display-core.php
+/var/www/html/wp-content/mu-plugins/drycured-granulation-display-core.php.broken.20260607_190225
+/var/www/html/wp-content/mu-plugins/drycured-granulation-preview-bridge.php.broken
+/var/www/html/wp-content/mu-plugins/drycured-granulation-preview-bridge.php.disabled.20260607_190015
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164014
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164425
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164943
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165413
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165744
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165934
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_170224
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.disabled.20260608_170632
+/var/www/html/wp-content/mu-plugins/drycured-md-single-template-pilot.php
+/var/www/html/wp-content/mu-plugins/drycured-md-single-template-pilot.php.disabled.20260608_171341
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_climate_belly_fix_20260608_175008
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_climate_space_signature_20260608_180313
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_parser_fix_20260608_174055
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_public_note_cleanup_20260608_185642
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_true_climate_signature_20260608_175931
+/var/www/html/wp-content/mu-plugins/drycured-product-gate-v1-1-clean-render.php
+/var/www/html/wp-content/mu-plugins/drycured-product-gate-v1-1-clean-render.php.before_dcv5_force_2026-06-04_07-22-51
+/var/www/html/wp-content/mu-plugins/drycured-public-master-v1-render.php.before_clean_public_md_2026-06-03_18-48-21
+/var/www/html/wp-content/mu-plugins/drycured-public-master-v1-render.php.disabled_2026-06-04_07-26-26
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_climate_timeline_v0_5_2.bak
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_done_safety_print_v0_5_6.bak
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_fermentation_v0_5_4.bak
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_image_calculator_v0_5_5.bak
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_packaging_v0_5_3.bak
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909
+/var/www/html/wp-content/mu-plugins/drycured-verified-process-adapter.php
+/var/www/html/wp-content/plugins/drycured-recipe-core/includes/importer.php
+/var/www/html/wp-content/plugins/drycured-recipe-core/public/single-template.php
+/var/www/html/wp-content/plugins/drycured-recipe-core/public/single-template.php.bak.before_http500_guard_20260608_194756
+
+=== 4) GIT FILES CONTAINING DCV5 MARKERS ===
+wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-canonical-recipe-view.php
+wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-content-cleanup.php
+wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-feature-pack.php
+wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-nav-polish.php
+wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-prevnext-position.php
+wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-balanced-stage.php
+wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-pilot.php
+wp-content/mu-plugins/drycured-batch001-force-dcv5-template.php
+wp-content/mu-plugins/drycured-batch001-profile-bridge.php
+wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_batch01_v1_2_2026-05-30_14-15-34.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_final_profile_override_2026-05-30_16-39-19.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_garlic_liquid_fix_2026-05-30_16-46-07.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_quantities_2026-05-30_16-16-29.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_late_source_render_2026-05-31_07-18-34.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-27-54.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hr_sl_006_rum_runtime_fix_2026-05-30_16-35-33.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_ingredient_sanity_layer_2026-05-30_17-29-08.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_no_liquid_fix_2026-05-30_16-27-08.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_phase_specs_2026-05-30_13-56-44.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_v1_1_2026-05-30_13-50-06.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_visual_lock_v1_2_2026-05-30_14-33-06.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php
+wp-content/mu-plugins/drycured-recipe-view-v1.php
+
+=== 5) LIVE FUNCTION MAP ===
+/var/www/html/wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:103:add_action('wp_head', 'dcpodltxt_assets', 180);
+/var/www/html/wp-content/mu-plugins/drycured-blog-editorial-redirects.php:21:add_action('template_redirect', static function (): void {
+/var/www/html/wp-content/mu-plugins/drycured-gt-killfloat.php:8:add_action('wp_head', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-gt-killfloat.php:44:add_action('wp_footer', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-blog-canonical-redirects.php:10:add_action('template_redirect', static function (): void {
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:346:add_filter('the_content', 'dcps_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-process-sirovina-core.php:1294:add_action('wp_head', 'dcps_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:358:add_filter('the_content', 'dcppackv010_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-process-pakiranje-core.php:652:add_action('wp_head', 'dcppackv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-savjeti-iz-pusnice.php:19:add_action('init', function() {
+/var/www/html/wp-content/mu-plugins/drycured-savjeti-iz-pusnice.php:51:add_action('init', function() {
+/var/www/html/wp-content/mu-plugins/drycured-savjeti-iz-pusnice.php:71:add_filter('manage_tip_pusnice_posts_columns', function($columns) {
+/var/www/html/wp-content/mu-plugins/drycured-savjeti-iz-pusnice.php:84:add_action('manage_tip_pusnice_posts_custom_column', function($col, $post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-wpcode-migrated-small-fixes.php:20:add_filter('excerpt_length', function ($length) {
+/var/www/html/wp-content/mu-plugins/drycured-wpcode-migrated-small-fixes.php:24:add_filter('excerpt_more', function ($more) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_done_safety_print_v0_5_6.bak:12:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_done_safety_print_v0_5_6.bak:14:function dcv5_recipe_view_pilot_content($content) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_done_safety_print_v0_5_6.bak:57:        .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_done_safety_print_v0_5_6.bak:529:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_done_safety_print_v0_5_6.bak:556:    <div class="dcv5-recipe">
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_done_safety_print_v0_5_6.bak:752:function dcv5_card($item) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_done_safety_print_v0_5_6.bak:766:function dcv5_render_recipe_schema($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_done_safety_print_v0_5_6.bak:797:function dcv5_ratarske_kobasice_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:57:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:708:function dcv5_recipe_view_pilot_content($content) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:768:        .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1267:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1324:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1353:    <div class="dcv5-recipe">
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1582:function dcv5_card($item) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1596:function dcv5_render_recipe_schema($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1628:function dcv5_supported_recipe_codes() {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1636:function dcv5_get_recipe_profile($post_id, $code = '') {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1676:function dcv5_recipe_js_profile($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1722:function dcv5_slavonski_kulen_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1805:function dcv5_vinkovacka_sunka_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1884:function dcv5_ratarske_kobasice_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:1987:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:2125:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:2163:        body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:2245:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:2270:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:2313:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:2569:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:2695:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:2913:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:2923:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:3263:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:3450:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:3628:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:3638:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:3750:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:3944:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:4009:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:4019:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:4062:            const recipe = document.querySelector('.dcv5-recipe');
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:4108:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:4281:            const recipe = document.querySelector('.dcv5-recipe');
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:4316:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:5093:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:5306:add_filter('the_content', 'dcv16_whole_piece_cure_content_cleanup', 1510);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:6139:add_filter('the_content', 'dcv17_whole_piece_late_content_cleanup', 9999);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:6168:        $markdown = $post_id ? get_post_meta($post_id, '_dry_recipe_full_markdown', true) : '';
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:6419:add_filter('the_content', 'dcv21_hrsl001_late_source_render_cleanup', 30000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:6466:add_filter('the_content', 'dcv22_hrsl001_process_omotac_fix', 40000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_mdv5_profile_early_bridge_20260608_173909:6688:add_filter('the_content', 'dcv31_hrsl001_final_public_cleanup', 50000);
+/var/www/html/wp-content/mu-plugins/drycured-savjet-home-injector.php:12:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-savjet-home-injector.php:64:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.disabled.20260608_170632:99:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.disabled.20260608_170632:102:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.disabled.20260608_170632:292:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.disabled.20260608_170632:325:         * Puni HTML sadrži dcv5-recipe u style/script tagovima, što ne znači
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.disabled.20260608_170632:331:        $has_real_v5 = preg_match('/<[^>]+class=["\'][^"\']*dcv5-recipe[^"\']*["\']/i', $html_without_assets);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.disabled.20260608_170632:374:add_action('send_headers', function () {
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:21:        add_action('wp_enqueue_scripts', [$this, 'enqueue_assets']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:22:        add_action('wp_footer',          [$this, 'render_auth_ui']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:23:        add_filter('wp_nav_menu_items',  [$this, 'remove_account_menu_item_html'], 20, 2);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:24:        add_filter('wp_get_nav_menu_items', [$this, 'remove_account_menu_item_obj'], 20, 3);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:27:        add_action('wp_ajax_nopriv_dc_login',    [$this, 'ajax_login']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:28:        add_action('wp_ajax_dc_login',           [$this, 'ajax_login']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:29:        add_action('wp_ajax_nopriv_dc_register', [$this, 'ajax_register']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:30:        add_action('wp_ajax_dc_logout',          [$this, 'ajax_logout']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:31:        add_action('wp_ajax_nopriv_dc_logout',   [$this, 'ajax_logout']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:32:        add_action('wp_ajax_dc_resend_verify',   [$this, 'ajax_resend_verify']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:33:        add_action('wp_ajax_nopriv_dc_resend_verify', [$this, 'ajax_resend_verify']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:36:        add_action('init', [$this, 'handle_verification_link']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:37:        add_filter('authenticate', [$this, 'block_unverified_login'], 30, 3);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:40:        add_filter('register_url', [$this, 'custom_register_url']);
+/var/www/html/wp-content/mu-plugins/drycured-auth.php:44:        add_filter('bp_get_default_options', [$this, 'bp_defaults']);
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:349:add_filter('the_content', 'dcpdimv010_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-process-dimljenje-core.php:664:add_action('wp_head', 'dcpdimv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-blog-core.php:454:add_action('pre_get_posts', static function (WP_Query $query): void {
+/var/www/html/wp-content/mu-plugins/drycured-blog-core.php:506:add_action('template_redirect', static function (): void {
+/var/www/html/wp-content/mu-plugins/drycured-blog-core.php:518:add_filter('get_pagenum_link', static function (string $url): string {
+/var/www/html/wp-content/mu-plugins/drycured-blog-core.php:544:add_action('astra_primary_content_top', static function (): void {
+/var/www/html/wp-content/mu-plugins/drycured-blog-core.php:828:add_action('wp_head', static function (): void {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164943:99:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164943:102:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164943:237:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164943:259:         * Puni HTML sadrži dcv5-recipe u style/script tagovima, što ne znači
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164943:265:        $has_real_v5 = preg_match('/<[^>]+class=["\'][^"\']*\bdcv5-recipe\b[^"\']*["\']/i', $html_without_assets);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164943:301:add_action('send_headers', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165413:99:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165413:102:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165413:237:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165413:270:         * Puni HTML sadrži dcv5-recipe u style/script tagovima, što ne znači
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165413:276:        $has_real_v5 = preg_match('/<[^>]+class=["\'][^"\']*dcv5-recipe[^"\']*["\']/i', $html_without_assets);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165413:319:add_action('send_headers', function () {
+/var/www/html/wp-content/mu-plugins/drycured-batch001-force-dcv5-template.php:9:add_action('template_redirect', 'drycured_b001_force_dcv5_template', 1);
+/var/www/html/wp-content/mu-plugins/drycured-batch001-force-dcv5-template.php:68:    if (strpos($html, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/drycured-book-shadow-soft-fix.php:12:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-home-clean-css.php:8:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v012.php:49:add_action('wp_head', 'dcpmvp12_assets', 170);
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:381:add_filter('the_content', 'dcpm_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-content-v010.php:1396:add_action('wp_head', 'dcpm_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-mljevenje-modules/drycured-process-mljevenje-visual-polish-v011.php:163:add_action('wp_head', 'dcpmvp_assets', 150);
+/var/www/html/wp-content/mu-plugins/drycured-md-single-template-pilot.php:46:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-single-template-pilot.php:49:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-single-template-pilot.php:188:add_filter('template_include', function ($template) {
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:263:add_filter('the_content', 'dcpo_append_to_process_page', 20);
+/var/www/html/wp-content/mu-plugins/drycured-process-overview.php:490:add_action('wp_head', 'dcpo_styles', 50);
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:131:        add_filter('aioseo_disable', '__return_true', 999);
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:132:        add_filter('aioseo_disable_title_rewrites', '__return_true', 999);
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:192:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:378:add_action('init', function () {
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:383:add_filter('query_vars', function ($vars) {
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:388:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:514:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-infografike.php:623:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-home-process-rail-hub-adapter.php:127:add_action('admin_menu', 'drycured_home_rail_hub_adapter_v015_admin_menu');
+/var/www/html/wp-content/mu-plugins/drycured-search.php:11:add_action('rest_api_init', function() {
+/var/www/html/wp-content/mu-plugins/drycured-search.php:192:add_action('wp_footer', 'drycured_search_inject_html');
+/var/www/html/wp-content/mu-plugins/drycured-search.php:207:add_action('wp_enqueue_scripts', function() {
+/var/www/html/wp-content/mu-plugins/drycured-process-hub.php:297:add_action('admin_menu', 'drycured_process_hub_admin_menu_v012');
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v022.php:245:add_action('wp_head', 'dchpo22_assets', 260);
+/var/www/html/wp-content/mu-plugins/drycured-granulation-preview-bridge.php.disabled.20260607_190015:16:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-granulation-preview-bridge.php.disabled.20260607_190015:31:    $raw = get_post_meta($post_id, '_dry_verified_process', true);
+/var/www/html/wp-content/mu-plugins/drycured-profile-settings.php:15:        add_action('wp_head', [$this, 'print_css']);
+/var/www/html/wp-content/mu-plugins/drycured-profile-settings.php:16:        add_filter('body_class', [$this, 'body_class']);
+/var/www/html/wp-content/mu-plugins/drycured-registry-01B.php:27:add_filter('dcv5_supported_recipe_codes', function($codes) {
+/var/www/html/wp-content/mu-plugins/drycured-search-assets.php:7:add_action('wp_head', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-search-assets.php:43:add_action('wp_footer', function() {
+/var/www/html/wp-content/mu-plugins/drycured-book-preview.php:62:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-archive-seo-bridge.php:55:add_filter('aioseo_title', 'drycured_archive_seo_bridge_filter_title', 100000, 1);
+/var/www/html/wp-content/mu-plugins/drycured-archive-seo-bridge.php:56:add_filter('aioseo_description', 'drycured_archive_seo_bridge_filter_description', 100000, 1);
+/var/www/html/wp-content/mu-plugins/drycured-archive-seo-bridge.php:57:add_filter('pre_get_document_title', 'drycured_archive_seo_bridge_filter_title', 100000, 1);
+/var/www/html/wp-content/mu-plugins/drycured-archive-seo-bridge.php:131:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:57:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:708:function dcv5_recipe_view_pilot_content($content) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:768:        .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:1267:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:1324:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:1353:    <div class="dcv5-recipe">
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:1582:function dcv5_card($item) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:1596:function dcv5_render_recipe_schema($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:1628:function dcv5_supported_recipe_codes() {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:1636:function dcv5_get_recipe_profile($post_id, $code = '') {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:1689:function dcv5_recipe_js_profile($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:1735:function dcv5_slavonski_kulen_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:1818:function dcv5_vinkovacka_sunka_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:1897:function dcv5_ratarske_kobasice_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:2000:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:2138:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:2176:        body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:2258:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:2283:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:2326:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:2582:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:2708:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:2926:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:2936:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:3276:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:3463:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:3641:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:3651:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:3763:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:3957:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:4022:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:4032:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:4075:            const recipe = document.querySelector('.dcv5-recipe');
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:4121:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:4294:            const recipe = document.querySelector('.dcv5-recipe');
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:4329:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:5106:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:5319:add_filter('the_content', 'dcv16_whole_piece_cure_content_cleanup', 1510);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:6152:add_filter('the_content', 'dcv17_whole_piece_late_content_cleanup', 9999);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:6181:        $markdown = $post_id ? get_post_meta($post_id, '_dry_recipe_full_markdown', true) : '';
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:6432:add_filter('the_content', 'dcv21_hrsl001_late_source_render_cleanup', 30000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:6479:add_filter('the_content', 'dcv22_hrsl001_process_omotac_fix', 40000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_js_profile_bridge_cleanup_20260608_193056:6701:add_filter('the_content', 'dcv31_hrsl001_final_public_cleanup', 50000);
+/var/www/html/wp-content/mu-plugins/drycured-granulation-preview-bridge.php.broken:17:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-granulation-preview-bridge.php.broken:32:    $raw = get_post_meta($post_id, '_dry_verified_process', true);
+/var/www/html/wp-content/mu-plugins/drycured-source-lock-render-v1.php.disabled:360:add_filter('the_content', function ($content) {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_170224:99:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_170224:102:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_170224:292:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_170224:325:         * Puni HTML sadrži dcv5-recipe u style/script tagovima, što ne znači
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_170224:331:        $has_real_v5 = preg_match('/<[^>]+class=["\'][^"\']*dcv5-recipe[^"\']*["\']/i', $html_without_assets);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_170224:374:add_action('send_headers', function () {
+/var/www/html/wp-content/mu-plugins/drycured-product-gate-v1-1-clean-render.php:9:add_filter('dcv5_supported_recipe_codes', 'drycured_pg11_supported_recipe_codes', 10090);
+/var/www/html/wp-content/mu-plugins/drycured-product-gate-v1-1-clean-render.php:10:add_filter('dcv5_recipe_profile', 'drycured_pg11_recipe_profile', 10090, 3);
+/var/www/html/wp-content/mu-plugins/drycured-product-gate-v1-1-clean-render.php:12:function drycured_pg11_supported_recipe_codes($codes) {
+/var/www/html/wp-content/mu-plugins/drycured-product-gate-v1-1-clean-render.php:34:function drycured_pg11_recipe_profile($profile, $post_id, $code) {
+/var/www/html/wp-content/mu-plugins/drycured-product-gate-v1-1-clean-render.php:59:add_action('template_redirect', 'drycured_pg11_force_dcv5_template', 0);
+/var/www/html/wp-content/mu-plugins/drycured-product-gate-v1-1-clean-render.php:101:    if (strpos($html, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:404:add_filter('the_content', 'dcpunv010_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-process-punjenje-core.php:1380:add_action('wp_head', 'dcpunv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:57:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:708:function dcv5_recipe_view_pilot_content($content) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:754:        .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1253:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1310:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1339:    <div class="dcv5-recipe">
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1568:function dcv5_card($item) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1582:function dcv5_render_recipe_schema($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1614:function dcv5_supported_recipe_codes() {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1662:function dcv5_recipe_js_profile($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1697:function dcv5_slavonski_kulen_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1780:function dcv5_vinkovacka_sunka_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1859:function dcv5_ratarske_kobasice_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:1962:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:2100:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:2138:        body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:2220:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:2245:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:2288:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:2544:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:2670:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:2888:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:2898:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:3238:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:3425:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:3603:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:3613:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:3725:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:3919:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:3984:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:3994:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:4037:            const recipe = document.querySelector('.dcv5-recipe');
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:4083:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:4256:            const recipe = document.querySelector('.dcv5-recipe');
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:4291:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:5068:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:5281:add_filter('the_content', 'dcv16_whole_piece_cure_content_cleanup', 1510);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:6114:add_filter('the_content', 'dcv17_whole_piece_late_content_cleanup', 9999);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:6143:        $markdown = $post_id ? get_post_meta($post_id, '_dry_recipe_full_markdown', true) : '';
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:6394:add_filter('the_content', 'dcv21_hrsl001_late_source_render_cleanup', 30000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:6441:add_filter('the_content', 'dcv22_hrsl001_process_omotac_fix', 40000);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php.bak.before_md_v5_bridge_20260608_173107:6663:add_filter('the_content', 'dcv31_hrsl001_final_public_cleanup', 50000);
+/var/www/html/wp-content/mu-plugins/drycured-cookie-privacy-v1.php:327:add_action('wp_footer', 'drycured_cookie_privacy_render', 999);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-ph-bridge-v016.php:151:add_filter('the_content', 'dcpfphb_append_to_page', 43);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-ph-bridge-v016.php:341:add_action('wp_head', 'dcpfphb_assets', 230);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-polish.php:473:add_action('wp_head', 'dcpftp_assets', 160);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-solutions-v015.php:294:add_action('wp_head', 'dcpfcs_assets', 220);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:87:add_filter('the_content', 'dcpfc_append_to_page', 45);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-checklist-v014.php:460:add_action('wp_head', 'dcpfc_assets', 210);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-simulator-v013.php:394:add_action('wp_head', 'dcpfs_assets', 190);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-top-fine-tune-v012.php:148:add_action('wp_head', 'dcpftt_assets', 180);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:230:add_filter('the_content', 'dcpf_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-process-fermentacija-modules/drycured-process-fermentacija-content-v010.php:544:add_action('wp_head', 'dcpf_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:319:add_filter('the_content', 'dcpzrnv010_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-process-zrenje-core.php:610:add_action('wp_head', 'dcpzrnv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-service-page-typography-v1.php:117:add_action('wp_head', 'drycured_service_page_typography_css', 40);
+/var/www/html/wp-content/mu-plugins/drycured-granulation-display-core.php.broken.20260607_190225:9: * - čita _dry_verified_process.mljevenje;
+/var/www/html/wp-content/mu-plugins/drycured-granulation-display-core.php.broken.20260607_190225:33:    $raw = get_post_meta($post_id, '_dry_verified_process', true);
+/var/www/html/wp-content/mu-plugins/drycured-granulation-display-core.php.broken.20260607_190225:138:  <strong>Uredničko upozorenje:</strong> Ovaj recept ima proces mljevenja ili rezanja, ali nema strukturirano polje <code>_dry_verified_process.mljevenje</code>. Prije javne oznake “spremno za objavu” treba upisati rešetku u mm i način obrade slanine/masnoće.
+/var/www/html/wp-content/mu-plugins/drycured-granulation-display-core.php.broken.20260607_190225:190:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-home-card-border-fix.php:12:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-process-obrada-vecijih-komada-core.php:186:add_filter('the_content', 'dcpovk_filter_content', 50);
+/var/www/html/wp-content/mu-plugins/drycured-process-obrada-vecijih-komada-core.php:429:add_action('wp_head', 'dcpovk_assets', 40);
+/var/www/html/wp-content/mu-plugins/drycured-home-placeholder-redirects.php:12:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-public-master-v1-render.php.before_clean_public_md_2026-06-03_18-48-21:9:add_filter('dcv5_supported_recipe_codes', function($codes) {
+/var/www/html/wp-content/mu-plugins/drycured-public-master-v1-render.php.before_clean_public_md_2026-06-03_18-48-21:31:add_filter('dcv5_recipe_profile', function($profile, $post_id, $code) {
+/var/www/html/wp-content/mu-plugins/drycured-public-master-v1-render.php.before_clean_public_md_2026-06-03_18-48-21:49:add_action('template_redirect', function() {
+/var/www/html/wp-content/mu-plugins/drycured-public-master-v1-render.php.before_clean_public_md_2026-06-03_18-48-21:88:    if (strpos($html, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/drycured-public-master-v1-render.php.before_clean_public_md_2026-06-03_18-48-21:89:        $html = '<article class="dcv5-recipe dcv5-panel drycured-public-master-fallback">';
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165934:99:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165934:102:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165934:292:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165934:325:         * Puni HTML sadrži dcv5-recipe u style/script tagovima, što ne znači
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165934:331:        $has_real_v5 = preg_match('/<[^>]+class=["\'][^"\']*dcv5-recipe[^"\']*["\']/i', $html_without_assets);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165934:374:add_action('send_headers', function () {
+/var/www/html/wp-content/mu-plugins/drycured-book-preview-style.php:12:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-verified-process-adapter.php:4: * Description: Renderira recepte iz strukturiranog `_dry_verified_process` meta polja
+/var/www/html/wp-content/mu-plugins/drycured-verified-process-adapter.php:14:const DRYCURED_VP_META_KEY         = '_dry_verified_process';
+/var/www/html/wp-content/mu-plugins/drycured-verified-process-adapter.php:15:const DRYCURED_VP_VERSION_META     = '_dry_verified_process_version';
+/var/www/html/wp-content/mu-plugins/drycured-verified-process-adapter.php:18:add_filter('dcv5_supported_recipe_codes', 'drycured_vp_supported_recipe_codes', DRYCURED_VP_ADAPTER_PRIORITY, 1);
+/var/www/html/wp-content/mu-plugins/drycured-verified-process-adapter.php:19:add_filter('dcv5_recipe_profile',        'drycured_vp_recipe_profile',         DRYCURED_VP_ADAPTER_PRIORITY, 3);
+/var/www/html/wp-content/mu-plugins/drycured-verified-process-adapter.php:22:// 1. SUPPORTED CODES — registriraj sve recepte koji imaju _dry_verified_process
+/var/www/html/wp-content/mu-plugins/drycured-verified-process-adapter.php:24:function drycured_vp_supported_recipe_codes($codes) {
+/var/www/html/wp-content/mu-plugins/drycured-verified-process-adapter.php:52:function drycured_vp_recipe_profile($profile, $post_id, $code) {
+/var/www/html/wp-content/mu-plugins/drycured-public-output-cleaner.php:9:add_action('template_redirect', function() {
+/var/www/html/wp-content/mu-plugins/drycured-platform/comparator/comparator.php:18:add_action( 'wp_enqueue_scripts', 'dc_comparator_enqueue' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/comparator/comparator.php:56:add_action( 'wp_footer', 'dc_inject_compare_fab' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/comparator/comparator.php:115:add_action( 'wp_footer', 'dc_comparator_inject_floating_bar' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/admin/pending-recipes.php:10:add_action( 'admin_menu', 'dc_admin_menu' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/cpt.php:8:add_action( 'init', 'dc_register_recipe_cpt' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/cpt.php:52:add_action( 'init', 'dc_seed_taxonomies', 20 );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/rest-api.php:9:add_action( 'rest_api_init', 'dc_register_recipe_endpoints' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/rest-api.php:266:add_filter( 'dc_recepti_dropdown_items', 'dc_add_dry_recipes_to_dropdown' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/meta-fields.php:67:add_action( 'init', 'dc_register_recipe_meta' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/meta-fields.php:88:add_action( 'add_meta_boxes', 'dc_add_recipe_metabox' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/meta-fields.php:157:add_action( 'save_post_dc_recept', 'dc_save_recipe_meta' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/approval.php:9:add_filter( 'wp_insert_post_data', 'dc_filter_recipe_submission', 10, 2 );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/approval.php:76:add_action( 'transition_post_status', 'dc_on_recipe_status_change', 10, 3 );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/approval.php:87:add_action( 'wp_ajax_dc_approve_recipe', 'dc_ajax_approve_recipe' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/approval.php:102:add_action( 'wp_ajax_dc_reject_recipe', 'dc_ajax_reject_recipe' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/recipes/approval.php:119:add_action( 'wp_ajax_dc_request_revision', 'dc_ajax_request_revision' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/tools/registry.php:38:add_action( 'init', 'dc_register_all_tools', 20 );
+/var/www/html/wp-content/mu-plugins/drycured-platform/core/user-meta.php:10:add_action( 'wp_ajax_dc_request_premium', 'dc_ajax_request_premium' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/core/user-meta.php:62:add_action( 'rest_api_init', 'dc_register_user_status_endpoint' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/core/gate.php:192:add_action( 'wp_enqueue_scripts', 'dc_gate_enqueue_styles' );
+/var/www/html/wp-content/mu-plugins/drycured-platform/drycured-platform.php:48:add_action( 'init', 'dc_maybe_init_roles', 1 );
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php:20:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php:23:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-single-template-pilot.php.disabled.20260608_171341:34:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-single-template-pilot.php.disabled.20260608_171341:37:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-single-template-pilot.php.disabled.20260608_171341:195:add_filter('template_include', function ($template) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_packaging_v0_5_3.bak:12:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_packaging_v0_5_3.bak:14:function dcv5_recipe_view_pilot_content($content) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_packaging_v0_5_3.bak:47:        .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_packaging_v0_5_3.bak:450:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_packaging_v0_5_3.bak:477:    <div class="dcv5-recipe">
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_packaging_v0_5_3.bak:656:function dcv5_card($item) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_packaging_v0_5_3.bak:670:function dcv5_render_recipe_schema($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_packaging_v0_5_3.bak:701:function dcv5_ratarske_kobasice_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_climate_belly_fix_20260608_175008:20:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_climate_belly_fix_20260608_175008:23:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-admin-private-recipes-view.php:33:add_action('admin_bar_menu', function ($wp_admin_bar) {
+/var/www/html/wp-content/mu-plugins/drycured-admin-private-recipes-view.php:48:add_action('admin_menu', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165744:99:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165744:102:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165744:271:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165744:304:         * Puni HTML sadrži dcv5-recipe u style/script tagovima, što ne znači
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165744:310:        $has_real_v5 = preg_match('/<[^>]+class=["\'][^"\']*dcv5-recipe[^"\']*["\']/i', $html_without_assets);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_165744:353:add_action('send_headers', function () {
+/var/www/html/wp-content/mu-plugins/drycured-home-process-order-v021.php:133:add_action('wp_head', 'dchpo_assets', 220);
+/var/www/html/wp-content/mu-plugins/drycured-batch001-force-dcv5-template.php.before_public_fix_2026-06-03_16-42-33:9:add_action('template_redirect', 'drycured_b001_force_dcv5_template', 1);
+/var/www/html/wp-content/mu-plugins/drycured-batch001-force-dcv5-template.php.before_public_fix_2026-06-03_16-42-33:60:    if (strpos($html, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/drycured-diary-js.php:13:add_action('wp_footer', 'drycured_diary_js_inject', 99);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_climate_timeline_v0_5_2.bak:12:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_climate_timeline_v0_5_2.bak:14:function dcv5_recipe_view_pilot_content($content) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_climate_timeline_v0_5_2.bak:47:        .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_climate_timeline_v0_5_2.bak:450:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_climate_timeline_v0_5_2.bak:477:    <div class="dcv5-recipe">
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_climate_timeline_v0_5_2.bak:656:function dcv5_card($item) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_climate_timeline_v0_5_2.bak:670:function dcv5_render_recipe_schema($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_climate_timeline_v0_5_2.bak:701:function dcv5_ratarske_kobasice_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-admin-guard.php:12:add_action('admin_init', function () {
+/var/www/html/wp-content/mu-plugins/drycured-admin-guard.php:32:add_filter('show_admin_bar', function ($show) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_fermentation_v0_5_4.bak:12:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_fermentation_v0_5_4.bak:14:function dcv5_recipe_view_pilot_content($content) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_fermentation_v0_5_4.bak:47:        .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_fermentation_v0_5_4.bak:450:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_fermentation_v0_5_4.bak:477:    <div class="dcv5-recipe">
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_fermentation_v0_5_4.bak:656:function dcv5_card($item) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_fermentation_v0_5_4.bak:670:function dcv5_render_recipe_schema($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_fermentation_v0_5_4.bak:701:function dcv5_ratarske_kobasice_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_parser_fix_20260608_174055:20:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_parser_fix_20260608_174055:23:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-process-main-visual-upgrade.php:582:add_action('wp_footer', 'dcpmvu_assets', 9999);
+/var/www/html/wp-content/mu-plugins/drycured-legal-footer-links-v1.php:184:add_action('wp_footer', 'drycured_service_footer_v3_render', 1001);
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:358:add_filter('the_content', 'dcpmi_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-process-mijesanje-core.php:1303:add_action('wp_head', 'dcpmi_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-product-gate-v1-1-clean-render.php.before_dcv5_force_2026-06-04_07-22-51:7:add_action('template_redirect', function() {
+/var/www/html/wp-content/mu-plugins/drycured-product-gate-v1-1-clean-render.php.before_dcv5_force_2026-06-04_07-22-51:19:    echo '<article class="dcv5-recipe drycured-clean-recipe">'.$html.'</article>';
+/var/www/html/wp-content/mu-plugins/drycured-product-gate-v1-1-clean-render.php.before_dcv5_force_2026-06-04_07-22-51:24:add_action('wp_head', function() {
+/var/www/html/wp-content/mu-plugins/drycured-batch001-public-profile-bridge.php:9:add_filter('dcv5_supported_recipe_codes', 'drycured_b001_public_supported_codes', 10000);
+/var/www/html/wp-content/mu-plugins/drycured-batch001-public-profile-bridge.php:10:add_filter('dcv5_recipe_profile', 'drycured_b001_public_recipe_profile', 10000, 3);
+/var/www/html/wp-content/mu-plugins/drycured-batch001-public-profile-bridge.php:36:function drycured_b001_public_recipe_profile($profile, $post_id, $code) {
+/var/www/html/wp-content/mu-plugins/drycured-v17-dcv5-profile-adapter.php:19:add_filter('dcv5_supported_recipe_codes', 'dcv17_add_private_recipe_codes', 10, 1);
+/var/www/html/wp-content/mu-plugins/drycured-v17-dcv5-profile-adapter.php:20:add_filter('dcv5_recipe_profile', 'dcv17_private_recipe_profile', 10, 3);
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:354:add_filter('the_content', 'dcpdryv010_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-process-susenje-core.php:648:add_action('wp_head', 'dcpdryv010_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164014:99:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164014:102:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164014:237:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164014:257:        if (stripos($html, 'dcv5-recipe') !== false ||
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_true_climate_signature_20260608_175931:20:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_true_climate_signature_20260608_175931:23:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-content-cleanup.php:12:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-content-cleanup.php:22:    if ($code !== 'HR-SL-007' || strpos($content, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-content-cleanup.php:98:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-prevnext-position.php:12:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-prevnext-position.php:22:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-prevnext-position.php:65:            const recipe = document.querySelector('.dcv5-recipe');
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-safety-marker.php:12:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-nav-polish.php:12:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-nav-polish.php:185:            const recipe = document.querySelector('.dcv5-recipe');
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-sensory-polish.php:12:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-canonical-recipe-view.php:12:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-canonical-recipe-view.php:24:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-canonical-recipe-tuning.php:12:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-pilot.php:12:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-pilot.php:14:function dcv5_recipe_view_pilot_content($content) {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-pilot.php:57:        .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-pilot.php:556:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-pilot.php:613:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-pilot.php:642:    <div class="dcv5-recipe">
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-pilot.php:871:function dcv5_card($item) {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-pilot.php:885:function dcv5_render_recipe_schema($recipe) {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-pilot.php:916:function dcv5_ratarske_kobasice_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-header-restore.php:12:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-clarity-fix.php:12:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-balanced-stage.php:12:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-balanced-stage.php:50:        body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-balanced-stage.php:132:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-balanced-stage.php:157:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-feature-pack.php:12:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-feature-pack.php:22:    if ($code !== 'HR-SL-007' || strpos($content, 'dcv5-recipe') === false) {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-feature-pack.php:359:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-v06-feature-pack.php:546:            body.single-dry_recipe .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/_archive_recipe_view_v1_2026-05-30_12-21-00/drycured-recipe-view-v05-card-polish.php:12:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164425:99:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164425:102:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164425:237:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164425:262:        if (stripos($html, 'dcv5-recipe') !== false ||
+/var/www/html/wp-content/mu-plugins/drycured-md-fallback-renderer.php.bak.20260608_164425:296:add_action('send_headers', function () {
+/var/www/html/wp-content/mu-plugins/drycured-ez-audience-home-cards.php:77:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-ez-audience-home-cards.php:215:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-tools-kalkulator-soli-anchor.php:72:add_action('wp_head', 'dctksa_assets', 220);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-modern.php:871:add_action('wp_head', 'dcskm_styles_scripts', 70);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-hero-polish.php:212:add_action('wp_head', 'dcskhp_assets', 140);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-hero-simulator.php:411:add_action('wp_head', 'dcskhs_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-cleanup-v073.php:69:add_action('wp_head', 'dcskcl_assets', 210);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-practical.php:211:add_filter('the_content', 'dcskp_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-practical.php:497:add_action('wp_head', 'dcskp_assets', 150);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-image-hotspots-v074.php:113:add_action('wp_head', 'dcskih_assets', 220);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-usage-v07.php:178:add_filter('the_content', 'dcsku_append_to_page', 45);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-usage-v07.php:727:add_action('wp_head', 'dcsku_assets', 170);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-mobile-fix.php:156:add_action('wp_head', 'dcskmf_assets', 160);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-image-v071.php:61:add_filter('the_content', 'dcskimg_append_to_page', 42);
+/var/www/html/wp-content/mu-plugins/drycured-starter-kulture-modules/drycured-starter-kulture-image-v071.php:135:add_action('wp_head', 'dcskimg_assets', 180);
+/var/www/html/wp-content/mu-plugins/drycured-public-master-v1-render.php.disabled_2026-06-04_07-26-26:9:add_action('template_redirect', function() {
+/var/www/html/wp-content/mu-plugins/drycured-public-master-v1-render.php.disabled_2026-06-04_07-26-26:32:    echo '<article class="dcv5-recipe drycured-clean-recipe">';
+/var/www/html/wp-content/mu-plugins/drycured-public-master-v1-render.php.disabled_2026-06-04_07-26-26:41:add_action('wp_head', function() {
+/var/www/html/wp-content/mu-plugins/drycured-mail-debug.php:11:add_action('wp_mail_failed', function ($wp_error) {
+/var/www/html/wp-content/mu-plugins/drycured-process-phase-backlink.php:452:add_action('wp_footer', 'dcpb_process_final_nav_assets', 9999);
+/var/www/html/wp-content/mu-plugins/drycured-process-large-cuts-core.php:553:add_filter('the_content', 'dclc_filter_content', 60);
+/var/www/html/wp-content/mu-plugins/drycured-process-large-cuts-core.php:1226:add_action('wp_head', 'dclc_assets', 45);
+/var/www/html/wp-content/mu-plugins/drycured-process-large-cuts-core.php:1511:add_action('wp_footer', 'dclc_parent_enhancer', 9999);
+/var/www/html/wp-content/mu-plugins/drycured-process-large-cuts-core.php:1545:add_action('template_redirect', 'dclc_virtual_topic_fallback', 0);
+/var/www/html/wp-content/mu-plugins/drycured-process-large-cuts-core.php:1798:add_action('wp_head', 'dclc_parent_howto_visual_fix', 99);
+/var/www/html/wp-content/mu-plugins/drycured-book-inquiry.php:15:add_action('init', function () {
+/var/www/html/wp-content/mu-plugins/drycured-book-inquiry.php:269:add_action('wp_head', function () {
+/var/www/html/wp-content/mu-plugins/drycured-batch001-profile-bridge.php:9:add_filter('dcv5_supported_recipe_codes', 'drycured_b001_supported_recipe_codes', 9999);
+/var/www/html/wp-content/mu-plugins/drycured-batch001-profile-bridge.php:10:add_filter('dcv5_recipe_profile', 'drycured_b001_recipe_profile', 9999, 3);
+/var/www/html/wp-content/mu-plugins/drycured-batch001-profile-bridge.php:12:function drycured_b001_supported_recipe_codes($codes) {
+/var/www/html/wp-content/mu-plugins/drycured-batch001-profile-bridge.php:44:function drycured_b001_recipe_profile($profile, $post_id, $code) {
+/var/www/html/wp-content/mu-plugins/drycured-batch001-profile-bridge.php:76:    $markdown = (string) get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-gtranslate.php:8:add_action('wp_head', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-gtranslate.php:34:add_action('wp_head', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-gtranslate.php:201:add_action('wp_footer', function() { ?>
+/var/www/html/wp-content/mu-plugins/drycured-gtranslate.php:424:add_action('init', function() {
+/var/www/html/wp-content/mu-plugins/drycured-gtranslate.php:454:add_action('init', function() {
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:395:add_filter('the_content', 'dcpsol_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-process-soljenje-core.php:1361:add_action('wp_head', 'dcpsol_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_climate_space_signature_20260608_180313:20:    $md = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-md-v5-bridge-pilot.php.bak.before_climate_space_signature_20260608_180313:23:        $sections = get_post_meta($post_id, '_dry_recipe_sections', true);
+/var/www/html/wp-content/mu-plugins/drycured-granulation-display-core.php:5: * Prikazuje obaveznu granulaciju iz _dry_verified_process.mljevenje.
+/var/www/html/wp-content/mu-plugins/drycured-granulation-display-core.php:20:    $raw = get_post_meta($post_id, '_dry_verified_process', true);
+/var/www/html/wp-content/mu-plugins/drycured-granulation-display-core.php:156:add_action('template_redirect', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_image_calculator_v0_5_5.bak:12:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_image_calculator_v0_5_5.bak:14:function dcv5_recipe_view_pilot_content($content) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_image_calculator_v0_5_5.bak:47:        .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_image_calculator_v0_5_5.bak:450:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_image_calculator_v0_5_5.bak:477:    <div class="dcv5-recipe">
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_image_calculator_v0_5_5.bak:656:function dcv5_card($item) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_image_calculator_v0_5_5.bak:670:function dcv5_render_recipe_schema($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v05-pilot_BEFORE_image_calculator_v0_5_5.bak:701:function dcv5_ratarske_kobasice_profile($post_id) {
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:355:add_filter('the_content', 'dcpr_append_to_page', 35);
+/var/www/html/wp-content/mu-plugins/drycured-process-rezanje-core.php:1299:add_action('wp_head', 'dcpr_assets', 120);
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:187:add_action('admin_menu', 'drycured_process_seo_faq_v017_admin_menu');
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:366:add_action('wp_head', 'drycured_process_seo_faq_v020_maybe_output_schema', 80);
+/var/www/html/wp-content/mu-plugins/drycured-process-seo-faq.php:377:add_action('admin_menu', 'drycured_process_seo_faq_v020_admin_menu');
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:57:add_action('wp_footer', function () {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:708:function dcv5_recipe_view_pilot_content($content) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:768:        .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:1267:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:1324:            .dcv5-recipe {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:1353:    <div class="dcv5-recipe">
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:1582:function dcv5_card($item) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:1596:function dcv5_render_recipe_schema($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:1628:function dcv5_supported_recipe_codes() {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:1636:function dcv5_get_recipe_profile($post_id, $code = '') {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:1689:function dcv5_recipe_js_profile($recipe) {
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:1724:function dcv5_slavonski_kulen_profile($post_id) {
+
+=== 6) GIT FUNCTION MAP ===
+04_OPERATION/wordpress_plugins/drycured-podcast-archive/drycured-podcast-archive.php:204:add_action('wp_head', function () {
+04_OPERATION/wordpress_plugins/drycured-podcast-card-shortcode/drycured-podcast-card-shortcode.php:70:add_action('wp_head', function () {
+04_OPERATION/wordpress_plugins/drycured-podcast-style/drycured-podcast-style.php:13:add_action('wp_head', function () {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php.bak.20260507_172814:9:function drycured_import_recipe_from_array(array $recipe): int {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php.bak.20260507_172814:96:function drycured_extract_recipe_sections(string $text, string $source): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php.bak.20260507_172814:161:function drycured_section_is_recipe(string $title, string $body): bool {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php.bak.20260507_172814:234:function drycured_parse_recipe(string $title, string $body, string $source): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php.bak.20260507_172814:388:function drycured_infer_terms(array &$recipe): void {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/rest-api.php:4:function drycured_register_recipe_rest_routes(){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/rest-api.php:11:function drycured_rest_get_recipes(WP_REST_Request $req){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/rest-api.php:20:function drycured_rest_get_recipe(WP_REST_Request $req){ $pid=drycured_find_recipe_by_recipe_id($req['recipe_id']); if(!$pid) return new WP_Error('not_found','Recept nije pronađen.',['status'=>404]); return rest_ensure_response(drycured_item($pid,true)); }
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/rest-api.php:32:function drycured_all_terms($pid){ $tax=['dry_country','dry_region','dry_microregion','dry_product_category','dry_product_type','dry_process_type','dry_meat_type','dry_preparation_method','dry_difficulty','dry_recipe_status']; $out=[]; foreach($tax as $t) $out[$t]=drycured_terms($pid,$t); return $out; }
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/rest-api.php:33:function drycured_rest_get_filters(){ $tax=['dry_country','dry_region','dry_microregion','dry_product_category','dry_product_type','dry_process_type','dry_meat_type','dry_preparation_method','dry_difficulty','dry_recipe_status']; $out=[]; foreach($tax as $t){ $terms=get_terms(['taxonomy'=>$t,'hide_empty'=>false]); $out[$t]=is_wp_error($terms)?[]:array_map(fn($x)=>['name'=>$x->name,'slug'=>$x->slug,'count'=>$x->count],$terms); } return rest_ensure_response($out); }
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-save-endpoint.php:8:add_action('rest_api_init', function () {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-save-endpoint.php:16:function drycured_calculator_save_recipe(WP_REST_Request $request) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-save-endpoint.php:55:function drycured_normalize_calculator_recipe_payload(array $payload): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-save-endpoint.php:196:function drycured_auto_review_calculator_recipe(array $recipe): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/taxonomies.php:3:function drycured_register_recipe_taxonomies(){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/helpers.php:6:function drycured_find_recipe_by_recipe_id($rid){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php.bak:4:function drycured_import_recipe_from_array($r){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php.bak:43:function drycured_extract_recipe_sections($text,$source){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php.bak:54:function drycured_looks_recipe($title,$body){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php.bak:121:function drycured_parse_recipe($title,$body,$source){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/meta.php:3:function drycured_register_recipe_meta(){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php:12:add_filter('the_content', 'drycured_merge_recipes_into_calculator_json', 30);
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php:14:function drycured_merge_recipes_into_calculator_json($content) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php:101:function drycured_build_calculator_product_from_recipe(int $post_id): ?array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php:147:function drycured_dynamic_country_label(array $recipe, int $post_id): string {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php:173:function drycured_dynamic_geo_path(array $recipe, int $post_id): string {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php:279:function drycured_guess_calculator_category(array $recipe): string {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php:301:function drycured_build_calculator_composition(array $recipe, float $batch_kg, string $category): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php:376:function drycured_build_calculator_ingredients(array $recipe, float $batch_kg): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php:429:function drycured_build_calculator_process(array $recipe): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/json-importer.php:71:function drycured_normalize_json_recipe(array $recipe, string $pack_name, int $index): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/json-importer.php:138:function drycured_validate_json_recipe(array $recipe): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/json-importer.php:196:function drycured_make_short_description(array $recipe): string {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/json-importer.php:210:function drycured_guess_meat_types(array $recipe): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/json-importer.php:236:function drycured_guess_processes(array $recipe): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/post-types.php:3:function drycured_register_recipe_post_types(){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php:12:function drycured_import_recipe_from_array(array $recipe): int {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php:95:function drycured_extract_recipe_sections(string $text, string $source): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php:160:function drycured_find_recipe_heading_before_line(array $headings, int $line_number): ?array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php:249:function drycured_parse_recipe(string $title, string $body, string $source, string $recipe_id): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/importer.php:393:function drycured_infer_terms(array &$recipe): void {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_063837:11:add_filter('the_content', 'drycured_merge_recipes_into_calculator_json', 30);
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_063837:13:function drycured_merge_recipes_into_calculator_json($content) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_063837:100:function drycured_build_calculator_product_from_recipe(int $post_id): ?array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_063837:144:function drycured_dynamic_calculator_region_label(array $recipe, int $post_id): string {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_063837:262:function drycured_guess_calculator_category(array $recipe): string {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_063837:284:function drycured_build_calculator_composition(array $recipe, float $batch_kg, string $category): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_063837:359:function drycured_build_calculator_ingredients(array $recipe, float $batch_kg): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_063837:412:function drycured_build_calculator_process(array $recipe): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_062548:11:add_filter('the_content', 'drycured_merge_recipes_into_calculator_json', 30);
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_062548:13:function drycured_merge_recipes_into_calculator_json($content) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_062548:100:function drycured_build_calculator_product_from_recipe(int $post_id): ?array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_062548:153:function drycured_guess_calculator_category(array $recipe): string {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_062548:175:function drycured_build_calculator_composition(array $recipe, float $batch_kg, string $category): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_062548:250:function drycured_build_calculator_ingredients(array $recipe, float $batch_kg): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/calculator-dynamic-registry.php.bak.20260509_062548:303:function drycured_build_calculator_process(array $recipe): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/geo-normalizer.php:60:function drycured_geo_text_from_recipe(array $recipe): string {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/geo-normalizer.php:139:function drycured_geo_detect_from_text(array $recipe, array $registry): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/includes/geo-normalizer.php:206:function drycured_geo_normalize_recipe(array $recipe): array {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/admin/import-page.php:3:function drycured_register_recipe_admin_pages(){ add_submenu_page('edit.php?post_type=dry_recipe','Uvoz MD/YAML','Uvoz MD/YAML','manage_options','drycured-md-import','drycured_render_import_page'); }
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_175512:4:add_filter('the_content', 'drycured_render_public_recipe_content', 20);
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_175512:6:function drycured_render_public_recipe_content($content) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_175512:192:function drycured_recipe_calculator_link($post_id, $data) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_175512:208:function drycured_recipe_term_name($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_175512:214:function drycured_recipe_terms_join($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_175512:220:function drycured_recipe_tag($value) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_175512:230:function drycured_render_recipe_rows($rows, $type = 'ingredient') {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_181526:3:add_filter('the_content','drycured_render_public_recipe_content',20);
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_181526:4:function drycured_render_public_recipe_content($content){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/shortcodes.php:6:function drycured_recipes_shortcode($atts = []) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183051:4:add_filter('the_content', 'drycured_render_public_recipe_content', 20);
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183051:6:function drycured_render_public_recipe_content($content) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183051:162:function drycured_recipe_term_name_v3($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183051:170:function drycured_recipe_terms_join_v3($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183051:178:function drycured_recipe_tag_v3($value) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183614:4:add_filter('the_content', 'drycured_render_public_recipe_content', 20);
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183614:6:function drycured_render_public_recipe_content($content) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183614:206:function drycured_recipe_term_name_v3($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183614:216:function drycured_recipe_terms_join_v3($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183614:226:function drycured_recipe_tag_v3($value) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_155953:4:add_filter('the_content', 'drycured_render_public_recipe_content', 20);
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_155953:6:function drycured_render_public_recipe_content($content) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_155953:185:function drycured_recipe_calculator_link($post_id, $data) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_155953:206:function drycured_recipe_term_name($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_155953:212:function drycured_recipe_terms_join($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_155953:218:function drycured_recipe_tag($value) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_155953:228:function drycured_render_recipe_rows($rows, $type = 'ingredient') {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183636:4:add_filter('the_content', 'drycured_render_public_recipe_content', 20);
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183636:6:function drycured_render_public_recipe_content($content) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183636:199:function drycured_recipe_term_name_v4($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183636:205:function drycured_recipe_terms_join_v4($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260507_183636:211:function drycured_recipe_tag_v4($value) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_153236:4:add_filter('the_content', 'drycured_render_public_recipe_content', 20);
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_153236:6:function drycured_render_public_recipe_content($content) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_153236:199:function drycured_recipe_term_name_v4($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_153236:205:function drycured_recipe_terms_join_v4($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php.bak.20260508_153236:211:function drycured_recipe_tag_v4($value) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php:4:add_filter('the_content', 'drycured_render_public_recipe_content', 20);
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php:6:function drycured_render_public_recipe_content($content) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php:206:function drycured_recipe_calculator_link($post_id, $data) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php:222:function drycured_recipe_term_name($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php:228:function drycured_recipe_terms_join($post_id, $taxonomy) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php:234:function drycured_recipe_tag($value) {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/public/single-template.php:244:function drycured_render_recipe_rows($rows, $type = 'ingredient') {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:29:add_action('init','drycured_register_recipe_post_types');
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:30:add_action('init','drycured_register_recipe_taxonomies');
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:31:add_action('init','drycured_register_recipe_meta');
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:32:add_action('rest_api_init','drycured_register_recipe_rest_routes');
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:33:add_action('admin_menu','drycured_register_recipe_admin_pages');
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:34:add_action('wp_enqueue_scripts','drycured_recipe_enqueue_assets');
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:39:function drycured_recipe_enqueue_assets(){
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:48:add_action('wp_enqueue_scripts', function () {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:65:add_action('wp_enqueue_scripts', function () {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:82:add_action('wp_enqueue_scripts', function () {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:99:add_action('wp_enqueue_scripts', function () {
+04_OPERATION/wordpress_plugins/drycured-recipe-core/drycured-recipe-core.php:123:add_action('wp_enqueue_scripts', function () {
+04_OPERATION/wordpress_plugins/drycured-home-podcast-runtime-card/drycured-home-podcast-runtime-card.php:58:add_action('wp_footer', function () {
+04_OPERATION/wordpress_plugins/drycured-home-podcast-runtime-card/drycured-home-podcast-runtime-card.php:229:add_action('wp_head', function () {
+04_OPERATION/wordpress_plugins/drycured-enciklopedija-znanja/drycured-enciklopedija-znanja.php:202:add_action('wp_head', 'drycured_ez_inline_styles');
+04_OPERATION/wordpress_plugins/drycured-enciklopedija-znanja/drycured-enciklopedija-znanja.php:336:    add_action('wp_footer', 'drycured_ez_home_injector', 9999);
+04_OPERATION/wordpress_plugins/drycured-enciklopedija-znanja/drycured-enciklopedija-znanja.php:384:    add_action('wp_head', 'drycured_ez_home_image_size_fix', 10000);
+04_OPERATION/wordpress_plugins/drycured-enciklopedija-znanja/drycured-enciklopedija-znanja.php:409:    add_action('wp_head', 'drycured_ez_home_image_size_fix_v2', 10001);
+04_OPERATION/wordpress_plugins/drycured-enciklopedija-znanja/drycured-enciklopedija-znanja.php:426:    add_filter('body_class', 'drycured_ez_single_body_class');
+04_OPERATION/wordpress_plugins/drycured-enciklopedija-znanja/drycured-enciklopedija-znanja.php:496:    add_action('wp_head', 'drycured_ez_single_article_styles', 10020);
+wp-content/mu-plugins/drycured-process-odlezavanje-text-fix-v011.php:103:add_action('wp_head', 'dcpodltxt_assets', 180);
+wp-content/mu-plugins/drycured-blog-editorial-redirects.php:21:add_action('template_redirect', static function (): void {
+wp-content/mu-plugins/drycured-blog-canonical-redirects.php:10:add_action('template_redirect', static function (): void {
+wp-content/mu-plugins/drycured-process-pakiranje-core.php:358:add_filter('the_content', 'dcppackv010_append_to_page', 35);
+wp-content/mu-plugins/drycured-process-pakiranje-core.php:652:add_action('wp_head', 'dcppackv010_assets', 120);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:57:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:708:function dcv5_recipe_view_pilot_content($content) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1568:function dcv5_card($item) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1582:function dcv5_render_recipe_schema($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1614:function dcv5_supported_recipe_codes() {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1646:function dcv5_recipe_js_profile($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1681:function dcv5_slavonski_kulen_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1764:function dcv5_vinkovacka_sunka_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1843:function dcv5_ratarske_kobasice_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1946:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2084:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2122:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2204:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2229:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2272:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2528:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2654:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2872:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3222:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3409:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3587:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3709:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3903:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3968:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3978:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:4021:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:4067:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:4240:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:4275:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:5052:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-wpcode-migrated-small-fixes.php:20:add_filter('excerpt_length', function ($length) {
+wp-content/mu-plugins/drycured-wpcode-migrated-small-fixes.php:24:add_filter('excerpt_more', function ($more) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:57:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:708:function dcv5_recipe_view_pilot_content($content) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1568:function dcv5_card($item) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1582:function dcv5_render_recipe_schema($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1614:function dcv5_supported_recipe_codes() {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1658:function dcv5_recipe_js_profile($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1693:function dcv5_slavonski_kulen_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1776:function dcv5_vinkovacka_sunka_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1855:function dcv5_ratarske_kobasice_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1958:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2096:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2134:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2216:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2241:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2284:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2540:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2666:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2884:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2894:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3234:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3421:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3599:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3609:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3721:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3915:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3980:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3990:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:4033:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:4079:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:4252:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:4287:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:5064:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:5277:add_filter('the_content', 'dcv16_whole_piece_cure_content_cleanup', 1510);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:6110:add_filter('the_content', 'dcv17_whole_piece_late_content_cleanup', 9999);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:6139:        $markdown = $post_id ? get_post_meta($post_id, '_dry_recipe_full_markdown', true) : '';
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:6390:add_filter('the_content', 'dcv21_hrsl001_late_source_render_cleanup', 30000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:6437:add_filter('the_content', 'dcv22_hrsl001_process_omotac_fix', 40000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:57:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:708:function dcv5_recipe_view_pilot_content($content) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1568:function dcv5_card($item) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1582:function dcv5_render_recipe_schema($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1614:function dcv5_supported_recipe_codes() {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1654:function dcv5_recipe_js_profile($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1689:function dcv5_slavonski_kulen_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1772:function dcv5_vinkovacka_sunka_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1851:function dcv5_ratarske_kobasice_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1954:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2092:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2130:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2212:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2237:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2280:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2536:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2662:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2880:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2890:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3230:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3417:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3595:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3605:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3717:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3911:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3976:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3986:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:4029:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:4075:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:4248:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:4283:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:5060:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:5120:        $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:5275:add_filter('the_content', 'dcv16_whole_piece_cure_content_cleanup', 1510);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:57:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:708:function dcv5_recipe_view_pilot_content($content) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1568:function dcv5_card($item) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1582:function dcv5_render_recipe_schema($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1614:function dcv5_supported_recipe_codes() {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1646:function dcv5_recipe_js_profile($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1681:function dcv5_slavonski_kulen_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1764:function dcv5_vinkovacka_sunka_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1843:function dcv5_ratarske_kobasice_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1946:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2084:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2122:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2204:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2229:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2272:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2528:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2654:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2872:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:3222:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:3409:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:3587:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:3709:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:3903:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:3968:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:3978:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:4021:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:4067:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:4240:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:4275:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:5052:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:57:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:708:function dcv5_recipe_view_pilot_content($content) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1568:function dcv5_card($item) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1582:function dcv5_render_recipe_schema($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1614:function dcv5_supported_recipe_codes() {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1654:function dcv5_recipe_js_profile($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1689:function dcv5_slavonski_kulen_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1772:function dcv5_vinkovacka_sunka_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1851:function dcv5_ratarske_kobasice_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1954:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:2092:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:2130:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:2212:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:2237:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:2280:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:2536:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:2662:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:2880:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:2890:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:3230:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:3417:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:3595:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:3605:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:3717:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:3911:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:3976:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:3986:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:4029:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:4075:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:4248:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:4283:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:5060:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:5120:        $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:5275:add_filter('the_content', 'dcv16_whole_piece_cure_content_cleanup', 1510);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:6108:add_filter('the_content', 'dcv17_whole_piece_late_content_cleanup', 9999);
+wp-content/mu-plugins/drycured-process-dimljenje-core.php:349:add_filter('the_content', 'dcpdimv010_append_to_page', 35);
+wp-content/mu-plugins/drycured-process-dimljenje-core.php:664:add_action('wp_head', 'dcpdimv010_assets', 120);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:48:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:121:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:133:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:697:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:699:function dcv5_recipe_view_pilot_content($content) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:745:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1244:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1301:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1330:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1559:function dcv5_card($item) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1573:function dcv5_render_recipe_schema($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1605:function dcv5_supported_recipe_codes() {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1613:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1637:function dcv5_recipe_js_profile($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1672:function dcv5_slavonski_kulen_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1755:function dcv5_vinkovacka_sunka_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1834:function dcv5_ratarske_kobasice_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1937:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:2075:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:2113:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:2195:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:2220:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:2263:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:2519:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:2645:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:2863:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:2873:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:3213:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:3400:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:3578:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:3588:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:3700:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:3894:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:3959:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:3969:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:4012:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:4058:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:4231:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:4266:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:4808:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-batch001-force-dcv5-template.php:9:add_action('template_redirect', 'drycured_b001_force_dcv5_template', 1);
+wp-content/mu-plugins/drycured-batch001-force-dcv5-template.php:60:    if (strpos($html, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:57:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:708:function dcv5_recipe_view_pilot_content($content) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1568:function dcv5_card($item) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1582:function dcv5_render_recipe_schema($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1614:function dcv5_supported_recipe_codes() {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1646:function dcv5_recipe_js_profile($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1681:function dcv5_slavonski_kulen_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1764:function dcv5_vinkovacka_sunka_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1843:function dcv5_ratarske_kobasice_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1946:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:2084:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:2122:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:2204:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:2229:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:2272:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:2528:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:2654:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:2872:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:3222:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:3409:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:3587:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:3709:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:3903:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:3968:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:3978:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:4021:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:4067:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:4240:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:4275:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:5052:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:57:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:708:function dcv5_recipe_view_pilot_content($content) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1568:function dcv5_card($item) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1582:function dcv5_render_recipe_schema($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1614:function dcv5_supported_recipe_codes() {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1650:function dcv5_recipe_js_profile($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1685:function dcv5_slavonski_kulen_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1768:function dcv5_vinkovacka_sunka_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1847:function dcv5_ratarske_kobasice_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1950:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:2088:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:2126:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:2208:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:2233:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:2276:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:2532:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:2658:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:2876:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:2886:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:3226:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:3413:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:3591:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:3601:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:3713:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:3907:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:3972:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:3982:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:4025:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:4071:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:4244:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:4279:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:5056:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:57:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:142:    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:708:function dcv5_recipe_view_pilot_content($content) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1568:function dcv5_card($item) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1582:function dcv5_render_recipe_schema($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1614:function dcv5_supported_recipe_codes() {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1654:function dcv5_recipe_js_profile($recipe) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1689:function dcv5_slavonski_kulen_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1772:function dcv5_vinkovacka_sunka_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1851:function dcv5_ratarske_kobasice_profile($post_id) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1954:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:2092:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:2130:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:2212:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:2237:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:2280:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:2536:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:2662:add_action('wp_footer', function () {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:2880:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:2890:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:3230:add_action('wp_footer', 'dcv6_feature_pack_footer', 100000);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:3417:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:3595:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:3605:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:3717:add_action('wp_footer', 'dcv62_recipe_content_cleanup_css_js', 250000);
+
+=== 7) ACTIVE REFERENCE POST META CONFIRMATION ===
+
+--- POST_ID=2976 ---
+Slavonska domaća kobasica
+HR-SL-005
+_dry_recipe_data | bytes=0
+_dry_recipe_full_markdown | bytes=5857
+_dry_recipe_sections | bytes=6137
+_dry_verified_process | bytes=1612
+
+--- POST_ID=2981 ---
+Slavonska kobasica (ZOI EU 2023)
+HR-SL-010
+_dry_recipe_data | bytes=0
+_dry_recipe_full_markdown | bytes=5772
+_dry_recipe_sections | bytes=6046
+_dry_verified_process | bytes=2150

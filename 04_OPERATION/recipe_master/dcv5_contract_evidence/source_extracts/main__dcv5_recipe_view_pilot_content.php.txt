@@ -1,0 +1,873 @@
+708: function dcv5_recipe_view_pilot_content($content) {
+709:     if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {
+710:         return $content;
+711:     }
+712: 
+713:     $post_id = get_the_ID();
+714:     $code = get_post_meta($post_id, '_dry_recipe_id', true);
+715: 
+716:     /*
+717:      * DRYCURED_MD_V5_BRIDGE_PATCH_v010
+718:      * Omogućuje pilot MD-import receptima da prođu kroz postojeći V5 renderer
+719:      * bez promjene podataka recepta i bez paralelnog templatea.
+720:      */
+721:     $dcv5_bridge_profile = null;
+722:     if (function_exists('drycured_md_v5_bridge_profile')) {
+723:         $dcv5_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);
+724:     }
+725: 
+726:     if (!in_array($code, dcv5_supported_recipe_codes(), true) && !$dcv5_bridge_profile) {
+727:         return $content;
+728:     }
+729: 
+730:     $recipe = dcv5_get_recipe_profile($post_id, $code);
+731:     if (!$recipe && $dcv5_bridge_profile) {
+732:         $recipe = $dcv5_bridge_profile;
+733:     }
+734: 
+735:     if (!$recipe) {
+736:         return $content;
+737:     }
+738: 
+739:     $image_url = get_the_post_thumbnail_url($post_id, 'large');
+740:     if (!$image_url) {
+741:         $image_url = get_post_meta($post_id, '_dry_recipe_image_url', true);
+742:     }
+743: 
+744:     $calculator_url = add_query_arg(
+745:         ['recipe' => $recipe['code']],
+746:         home_url('/kalkulator/')
+747:     );
+748: 
+749:     ob_start();
+750:     dcv5_render_recipe_schema($recipe);
+751:     ?>
+752:     <style>
+753:         .single-dry_recipe .entry-header,
+754:         .single-dry_recipe .entry-meta {
+755:             display: none !important;
+756:         }
+757: 
+758:         .single-dry_recipe .ast-container,
+759:         .single-dry_recipe .site-content .ast-container,
+760:         .single-dry_recipe .content-area,
+761:         .single-dry_recipe main.site-main {
+762:             max-width: 1340px !important;
+763:             width: 100% !important;
+764:             margin-left: auto !important;
+765:             margin-right: auto !important;
+766:         }
+767: 
+768:         .dcv5-recipe {
+769:             max-width: 1220px;
+770:             margin: 0 auto;
+771:             padding: 34px 18px 64px;
+772:             color: #111b33;
+773:         }
+774: 
+775:         .dcv5-hero,
+776:         .dcv5-panel,
+777:         .dcv5-side-panel {
+778:             background: #fffaf0;
+779:             border: 1px solid #e2c98e;
+780:             border-radius: 22px;
+781:             box-shadow: 0 14px 34px rgba(25, 32, 48, .08);
+782:         }
+783: 
+784:         .dcv5-hero {
+785:             padding: 30px 34px;
+786:             margin-bottom: 18px;
+787:             position: relative;
+788:             overflow: hidden;
+789:         }
+790: 
+791:         .dcv5-hero-grid {
+792:             position: relative;
+793:             z-index: 1;
+794:             display: grid;
+795:             grid-template-columns: minmax(0, 1fr) 360px;
+796:             gap: 26px;
+797:             align-items: center;
+798:         }
+799: 
+800:         .dcv5-hero-media {
+801:             border-radius: 20px;
+802:             overflow: hidden;
+803:             border: 1px solid #e2c98e;
+804:             background: #f5e7c5;
+805:             box-shadow: 0 12px 26px rgba(25, 32, 48, .10);
+806:         }
+807: 
+808:         .dcv5-hero-media img {
+809:             display: block;
+810:             width: 100%;
+811:             height: 280px;
+812:             object-fit: cover;
+813:         }
+814: 
+815:         .dcv5-actions {
+816:             display: flex;
+817:             flex-wrap: wrap;
+818:             gap: 10px;
+819:             margin-top: 18px;
+820:         }
+821: 
+822:         .dcv5-btn {
+823:             display: inline-flex;
+824:             align-items: center;
+825:             justify-content: center;
+826:             min-height: 42px;
+827:             padding: 10px 15px;
+828:             border-radius: 999px;
+829:             text-decoration: none;
+830:             font-size: 14px;
+831:             font-weight: 900;
+832:             border: 1px solid #d5b46b;
+833:             transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+834:         }
+835: 
+836:         .dcv5-btn:hover {
+837:             transform: translateY(-1px);
+838:             box-shadow: 0 8px 18px rgba(25, 32, 48, .12);
+839:         }
+840: 
+841:         .dcv5-btn-primary {
+842:             background: #111b33;
+843:             color: #fffaf0;
+844:             border-color: #111b33;
+845:         }
+846: 
+847:         .dcv5-btn-secondary {
+848:             background: #f1dfb6;
+849:             color: #111b33;
+850:         }
+851: 
+852:         .dcv5-hero:before {
+853:             content: "";
+854:             position: absolute;
+855:             inset: 0;
+856:             background: radial-gradient(circle at top right, rgba(216,166,63,.18), transparent 36%);
+857:             pointer-events: none;
+858:         }
+859: 
+860:         .dcv5-hero-inner {
+861:             position: relative;
+862:             z-index: 1;
+863:         }
+864: 
+865:         .dcv5-kicker {
+866:             display: flex;
+867:             flex-wrap: wrap;
+868:             gap: 8px;
+869:             margin-bottom: 14px;
+870:         }
+871: 
+872:         .dcv5-badge {
+873:             display: inline-flex;
+874:             align-items: center;
+875:             padding: 6px 11px;
+876:             border-radius: 999px;
+877:             background: #f1dfb6;
+878:             border: 1px solid #d5b46b;
+879:             color: #10182d;
+880:             font-size: 12px;
+881:             font-weight: 800;
+882:             letter-spacing: .02em;
+883:         }
+884: 
+885:         .dcv5-hero h1 {
+886:             margin: 0 0 12px;
+887:             font-size: clamp(34px, 4.5vw, 56px);
+888:             line-height: 1.04;
+889:             color: #0d172d;
+890:         }
+891: 
+892:         .dcv5-lead {
+893:             max-width: 880px;
+894:             margin: 0;
+895:             color: #3e4a63;
+896:             font-size: 17px;
+897:             line-height: 1.7;
+898:         }
+899: 
+900:         .dcv5-quick-strip {
+901:             display: grid;
+902:             grid-template-columns: repeat(5, minmax(0, 1fr));
+903:             gap: 10px;
+904:             margin: 18px 0 24px;
+905:         }
+906: 
+907:         .dcv5-quick-card {
+908:             background: #fffdf7;
+909:             border: 1px solid #e6cf97;
+910:             border-radius: 16px;
+911:             padding: 13px 14px;
+912:         }
+913: 
+914:         .dcv5-quick-card span,
+915:         .dcv5-field-label {
+916:             display: block;
+917:             margin-bottom: 5px;
+918:             color: #7d6a3c;
+919:             font-size: 11px;
+920:             font-weight: 900;
+921:             text-transform: uppercase;
+922:             letter-spacing: .06em;
+923:         }
+924: 
+925:         .dcv5-quick-card strong {
+926:             display: block;
+927:             color: #111b33;
+928:             font-size: 15px;
+929:             line-height: 1.35;
+930:         }
+931: 
+932:         .dcv5-layout {
+933:             display: grid;
+934:             grid-template-columns: minmax(0, 1fr) 300px;
+935:             gap: 22px;
+936:             align-items: start;
+937:         }
+938: 
+939:         .dcv5-panel {
+940:             padding: 24px 28px;
+941:             margin-bottom: 20px;
+942:         }
+943: 
+944:         .dcv5-panel h2 {
+945:             display: flex;
+946:             align-items: center;
+947:             gap: 10px;
+948:             margin: 0 0 16px;
+949:             font-size: 24px;
+950:             line-height: 1.2;
+951:             color: #111b33;
+952:         }
+953: 
+954:         .dcv5-panel h2 span {
+955:             width: 34px;
+956:             height: 34px;
+957:             flex: 0 0 34px;
+958:             display: inline-flex;
+959:             align-items: center;
+960:             justify-content: center;
+961:             border-radius: 999px;
+962:             background: #d8a63f;
+963:             color: #10182c;
+964:             font-size: 14px;
+965:             font-weight: 900;
+966:         }
+967: 
+968:         .dcv5-section-note {
+969:             margin: -4px 0 18px;
+970:             color: #4a566e;
+971:             font-size: 15px;
+972:             line-height: 1.6;
+973:         }
+974: 
+975:         .dcv5-composition {
+976:             display: grid;
+977:             grid-template-columns: 7fr 3fr;
+978:             gap: 8px;
+979:             margin: 12px 0 4px;
+980:         }
+981: 
+982:         .dcv5-comp-bar {
+983:             min-height: 46px;
+984:             border-radius: 14px;
+985:             padding: 12px 14px;
+986:             background: #d8a63f;
+987:             color: #10182c;
+988:             font-weight: 900;
+989:         }
+990: 
+991:         .dcv5-comp-bar:nth-child(2) {
+992:             background: #f0d99a;
+993:         }
+994: 
+995:         .dcv5-card-grid {
+996:             display: grid;
+997:             gap: 12px;
+998:         }
+999: 
+1000:         .dcv5-card-grid.two {
+1001:             grid-template-columns: repeat(2, minmax(0, 1fr));
+1002:         }
+1003: 
+1004:         .dcv5-card-grid.three {
+1005:             grid-template-columns: repeat(3, minmax(0, 1fr));
+1006:         }
+1007: 
+1008:         .dcv5-ingredient-card,
+1009:         .dcv5-process-card,
+1010:         .dcv5-error-card,
+1011:         .dcv5-serving-card,
+1012:         .dcv5-profile-row,
+1013:         .dcv5-climate-card {
+1014:             background: #fffdf7;
+1015:             border: 1px solid #ecd9aa;
+1016:             border-radius: 16px;
+1017:             padding: 15px;
+1018:         }
+1019: 
+1020:         .dcv5-ingredient-card h3,
+1021:         .dcv5-process-card h3,
+1022:         .dcv5-error-card h3,
+1023:         .dcv5-serving-card h3,
+1024:         .dcv5-climate-card h3 {
+1025:             margin: 0 0 9px;
+1026:             color: #111b33;
+1027:             font-size: 17px;
+1028:             line-height: 1.3;
+1029:         }
+1030: 
+1031:         .dcv5-amount-line {
+1032:             display: flex;
+1033:             flex-wrap: wrap;
+1034:             gap: 8px;
+1035:             align-items: center;
+1036:             margin-bottom: 10px;
+1037:         }
+1038: 
+1039:         .dcv5-amount {
+1040:             display: inline-flex;
+1041:             padding: 7px 10px;
+1042:             border-radius: 999px;
+1043:             background: #111b33;
+1044:             color: #fffaf0;
+1045:             font-weight: 900;
+1046:             font-size: 14px;
+1047:         }
+1048: 
+1049:         .dcv5-percent,
+1050:         .dcv5-rate {
+1051:             display: inline-flex;
+1052:             padding: 7px 10px;
+1053:             border-radius: 999px;
+1054:             background: #f1dfb6;
+1055:             border: 1px solid #d5b46b;
+1056:             color: #111b33;
+1057:             font-weight: 800;
+1058:             font-size: 13px;
+1059:         }
+1060: 
+1061:         .dcv5-ingredient-card p,
+1062:         .dcv5-process-card p,
+1063:         .dcv5-error-card p,
+1064:         .dcv5-serving-card p,
+1065:         .dcv5-climate-card p {
+1066:             margin: 0;
+1067:             color: #3b4861;
+1068:             font-size: 15.5px;
+1069:             line-height: 1.65;
+1070:         }
+1071: 
+1072:         .dcv5-profile-row {
+1073:             display: grid;
+1074:             grid-template-columns: 125px minmax(0, 1fr) 44px;
+1075:             gap: 10px;
+1076:             align-items: center;
+1077:             margin-bottom: 9px;
+1078:         }
+1079: 
+1080:         .dcv5-profile-name {
+1081:             font-weight: 800;
+1082:             color: #111b33;
+1083:             font-size: 14px;
+1084:         }
+1085: 
+1086:         .dcv5-profile-track {
+1087:             height: 10px;
+1088:             border-radius: 999px;
+1089:             background: #efe2c3;
+1090:             overflow: hidden;
+1091:         }
+1092: 
+1093:         .dcv5-profile-fill {
+1094:             height: 100%;
+1095:             border-radius: 999px;
+1096:             background: #d8a63f;
+1097:         }
+1098: 
+1099:         .dcv5-profile-score {
+1100:             font-size: 13px;
+1101:             font-weight: 900;
+1102:             color: #111b33;
+1103:         }
+1104: 
+1105:         .dcv5-timeline {
+1106:             position: relative;
+1107:             display: grid;
+1108:             gap: 12px;
+1109:         }
+1110: 
+1111:         .dcv5-timeline-item {
+1112:             display: grid;
+1113:             grid-template-columns: 104px minmax(0, 1fr);
+1114:             gap: 14px;
+1115:             background: #fffdf7;
+1116:             border: 1px solid #ecd9aa;
+1117:             border-radius: 16px;
+1118:             padding: 15px;
+1119:         }
+1120: 
+1121:         .dcv5-day {
+1122:             display: inline-flex;
+1123:             align-items: center;
+1124:             justify-content: center;
+1125:             min-height: 42px;
+1126:             border-radius: 14px;
+1127:             background: #d8a63f;
+1128:             color: #10182c;
+1129:             font-weight: 900;
+1130:             text-align: center;
+1131:             padding: 8px;
+1132:         }
+1133: 
+1134:         .dcv5-critical {
+1135:             margin-top: 10px;
+1136:             padding: 10px 12px;
+1137:             border-left: 4px solid #d8a63f;
+1138:             background: #fff6dd;
+1139:             border-radius: 10px;
+1140:             color: #3a455d;
+1141:             font-size: 14px;
+1142:             line-height: 1.55;
+1143:         }
+1144: 
+1145:         .dcv5-error-card {
+1146:             border-left: 5px solid #d8a63f;
+1147:         }
+1148: 
+1149:         .dcv5-error-card.danger {
+1150:             border-left-color: #9f2f2f;
+1151:         }
+1152: 
+1153:         .dcv5-error-card.warning {
+1154:             border-left-color: #d8a63f;
+1155:         }
+1156: 
+1157:         .dcv5-error-meta {
+1158:             display: flex;
+1159:             flex-wrap: wrap;
+1160:             gap: 8px;
+1161:             margin: 8px 0 10px;
+1162:         }
+1163: 
+1164:         .dcv5-small-pill {
+1165:             display: inline-flex;
+1166:             padding: 5px 8px;
+1167:             border-radius: 999px;
+1168:             background: #f1dfb6;
+1169:             border: 1px solid #d5b46b;
+1170:             font-size: 12px;
+1171:             font-weight: 800;
+1172:             color: #111b33;
+1173:         }
+1174: 
+1175:         .dcv5-side-panel {
+1176:             position: sticky;
+1177:             top: 96px;
+1178:             padding: 16px;
+1179:         }
+1180: 
+1181:         .dcv5-side-panel h3 {
+1182:             margin: 0 0 12px;
+1183:             color: #111b33;
+1184:             font-size: 15px;
+1185:         }
+1186: 
+1187:         .dcv5-side-panel a {
+1188:             display: block;
+1189:             padding: 8px 10px;
+1190:             border-radius: 10px;
+1191:             color: #26385c;
+1192:             text-decoration: none;
+1193:             font-size: 14px;
+1194:         }
+1195: 
+1196:         .dcv5-side-panel a:hover {
+1197:             background: #f3e3bd;
+1198:         }
+1199: 
+1200:         .dcv5-print-strip {
+1201:             display: grid;
+1202:             grid-template-columns: repeat(4, minmax(0, 1fr));
+1203:             gap: 10px;
+1204:         }
+1205: 
+1206:         .dcv5-check-grid,
+1207:         .dcv5-safety-grid {
+1208:             display: grid;
+1209:             grid-template-columns: repeat(3, minmax(0, 1fr));
+1210:             gap: 12px;
+1211:         }
+1212: 
+1213:         .dcv5-check-card,
+1214:         .dcv5-safety-card {
+1215:             background: #fffdf7;
+1216:             border: 1px solid #ecd9aa;
+1217:             border-radius: 16px;
+1218:             padding: 15px;
+1219:         }
+1220: 
+1221:         .dcv5-check-card h3,
+1222:         .dcv5-safety-card h3 {
+1223:             margin: 0 0 8px;
+1224:             font-size: 16px;
+1225:             color: #111b33;
+1226:             line-height: 1.3;
+1227:         }
+1228: 
+1229:         .dcv5-check-card p,
+1230:         .dcv5-safety-card p {
+1231:             margin: 0;
+1232:             color: #3b4861;
+1233:             font-size: 15px;
+1234:             line-height: 1.6;
+1235:         }
+1236: 
+1237:         .dcv5-safety-card.green {
+1238:             border-left: 6px solid #4b8f5a;
+1239:         }
+1240: 
+1241:         .dcv5-safety-card.yellow {
+1242:             border-left: 6px solid #d8a63f;
+1243:         }
+1244: 
+1245:         .dcv5-safety-card.red {
+1246:             border-left: 6px solid #a83a3a;
+1247:         }
+1248: 
+1249:         .dcv5-print-button-row {
+1250:             display: flex;
+1251:             flex-wrap: wrap;
+1252:             gap: 10px;
+1253:             margin: 18px 0 0;
+1254:         }
+1255: 
+1256:         @media print {
+1257:             header.site-header,
+1258:             footer.site-footer,
+1259:             .dcv5-side-panel,
+1260:             .dcv5-hero-media,
+1261:             .dcv5-actions,
+1262:             #profil,
+1263:             #klima {
+1264:                 display: none !important;
+1265:             }
+1266: 
+1267:             .dcv5-recipe {
+1268:                 max-width: none !important;
+1269:                 padding: 0 !important;
+1270:             }
+1271: 
+1272:             .dcv5-layout {
+1273:                 display: block !important;
+1274:             }
+1275: 
+1276:             .dcv5-panel,
+1277:             .dcv5-hero,
+1278:             .dcv5-quick-card {
+1279:                 box-shadow: none !important;
+1280:                 break-inside: avoid;
+1281:             }
+1282: 
+1283:             body {
+1284:                 background: #fff !important;
+1285:             }
+1286:         }
+1287: 
+1288:         .dcv5-print-box {
+1289:             min-height: 64px;
+1290:             border: 1px dashed #d5b46b;
+1291:             border-radius: 14px;
+1292:             padding: 10px;
+1293:             background: #fffdf7;
+1294:         }
+1295: 
+1296:         @media (max-width: 980px) {
+1297:             .dcv5-hero-grid {
+1298:                 grid-template-columns: 1fr;
+1299:             }
+1300: 
+1301:             .dcv5-hero-media img {
+1302:                 height: 240px;
+1303:             }
+1304: 
+1305:             .dcv5-layout {
+1306:                 grid-template-columns: 1fr;
+1307:             }
+1308: 
+1309:             .dcv5-side-panel {
+1310:                 position: static;
+1311:             }
+1312: 
+1313:             .dcv5-quick-strip,
+1314:             .dcv5-card-grid.three,
+1315:             .dcv5-card-grid.two,
+1316:             .dcv5-print-strip,
+1317:             .dcv5-check-grid,
+1318:             .dcv5-safety-grid {
+1319:                 grid-template-columns: repeat(2, minmax(0, 1fr));
+1320:             }
+1321:         }
+1322: 
+1323:         @media (max-width: 640px) {
+1324:             .dcv5-recipe {
+1325:                 padding: 24px 12px 42px;
+1326:             }
+1327: 
+1328:             .dcv5-hero,
+1329:             .dcv5-panel {
+1330:                 padding: 20px 18px;
+1331:                 border-radius: 16px;
+1332:             }
+1333: 
+1334:             .dcv5-quick-strip,
+1335:             .dcv5-card-grid.three,
+1336:             .dcv5-card-grid.two,
+1337:             .dcv5-print-strip,
+1338:             .dcv5-check-grid,
+1339:             .dcv5-safety-grid {
+1340:                 grid-template-columns: 1fr;
+1341:             }
+1342: 
+1343:             .dcv5-timeline-item {
+1344:                 grid-template-columns: 1fr;
+1345:             }
+1346: 
+1347:             .dcv5-profile-row {
+1348:                 grid-template-columns: 1fr;
+1349:             }
+1350:         }
+1351:     </style>
+1352: 
+1353:     <div class="dcv5-recipe">
+1354:         <header class="dcv5-hero" id="vrh">
+1355:             <div class="dcv5-hero-grid">
+1356:                 <div class="dcv5-hero-inner">
+1357:                     <div class="dcv5-kicker">
+1358:                         <span class="dcv5-badge">DIGITALNA PUŠNICA</span>
+1359:                         <span class="dcv5-badge"><?php echo esc_html($recipe['code']); ?></span>
+1360:                         <span class="dcv5-badge"><?php echo esc_html($recipe['region']); ?></span>
+1361:                         <span class="dcv5-badge"><?php echo esc_html($recipe['type']); ?></span>
+1362:                     </div>
+1363: 
+1364:                     <h1><?php echo esc_html($recipe['title']); ?></h1>
+1365:                     <p class="dcv5-lead"><?php echo esc_html($recipe['lead']); ?></p>
+1366: 
+1367:                     <div class="dcv5-actions">
+1368:                         <a class="dcv5-btn dcv5-btn-primary" href="<?php echo esc_url($calculator_url); ?>">
+1369:                             Otvori kalkulator za ovaj recept
+1370:                         </a>
+1371:                         <a class="dcv5-btn dcv5-btn-secondary" href="#dnevnik">
+1372:                             Dnevnik šarže
+1373:                         </a>
+1374:                         <a class="dcv5-btn dcv5-btn-secondary" href="javascript:window.print()">
+1375:                             Ispiši radnu verziju
+1376:                         </a>
+1377:                     </div>
+1378:                 </div>
+1379: 
+1380:                 <?php if ($image_url) : ?>
+1381:                     <figure class="dcv5-hero-media">
+1382:                         <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($recipe['title']); ?>">
+1383:                     </figure>
+1384:                 <?php endif; ?>
+1385:             </div>
+1386:         </header>
+1387: 
+1388:         <section class="dcv5-quick-strip" aria-label="Brzi proizvodni sažetak">
+1389:             <?php foreach ($recipe['quick'] as $item) : ?>
+1390:                 <article class="dcv5-quick-card">
+1391:                     <span><?php echo esc_html($item['label']); ?></span>
+1392:                     <strong><?php echo esc_html($item['value']); ?></strong>
+1393:                 </article>
+1394:             <?php endforeach; ?>
+1395:         </section>
+1396: 
+1397:         <div class="dcv5-layout">
+1398:             <main>
+1399:                 <section class="dcv5-panel" id="omjer">
+1400:                     <h2><span>1</span>Omjer smjese</h2>
+1401:                     <p class="dcv5-section-note">Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje.</p>
+1402: 
+1403:                     <div class="dcv5-composition">
+1404:                         <div class="dcv5-comp-bar">70 % meso</div>
+1405:                         <div class="dcv5-comp-bar">30 % slanina</div>
+1406:                     </div>
+1407:                 </section>
+1408: 
+1409:                 <section class="dcv5-panel" id="sirovine">
+1410:                     <h2><span>2</span>Glavne sirovine</h2>
+1411:                     <p class="dcv5-section-note">Meso i slanina prikazuju se u kilogramima jer čine osnovu smjese.</p>
+1412: 
+1413:                     <div class="dcv5-card-grid two">
+1414:                         <?php foreach ($recipe['materials'] as $item) : dcv5_card($item); endforeach; ?>
+1415:                     </div>
+1416:                 </section>
+1417: 
+1418:                 <section class="dcv5-panel" id="zacini">
+1419:                     <h2><span>3</span>Začini i dodaci</h2>
+1420:                     <p class="dcv5-section-note">Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer.</p>
+1421: 
+1422:                     <div class="dcv5-card-grid two">
+1423:                         <?php foreach ($recipe['spices'] as $item) : dcv5_card($item); endforeach; ?>
+1424:                     </div>
+1425:                 </section>
+1426: 
+1427:                 <section class="dcv5-panel" id="tekucine">
+1428:                     <h2><span>4</span>Tekućine i češnjak</h2>
+1429:                     <p class="dcv5-section-note">Tekućine se prikazuju u litrama. Češnjak se ne dodaje kao komadić, nego kao procijeđena aromatična tekućina.</p>
+1430: 
+1431:                     <div class="dcv5-card-grid two">
+1432:                         <?php foreach ($recipe['liquids'] as $item) : dcv5_card($item); endforeach; ?>
+1433:                     </div>
+1434:                 </section>
+1435: 
+1436:                 <section class="dcv5-panel" id="profil">
+1437:                     <h2><span>5</span>Profil proizvoda</h2>
+1438:                     <p class="dcv5-section-note">Senzorni profil pomaže korisniku da odmah razumije karakter proizvoda prije nego krene u izradu.</p>
+1439: 
+1440:                     <?php foreach ($recipe['profile'] as $item) : ?>
+1441:                         <div class="dcv5-profile-row">
+1442:                             <div class="dcv5-profile-name"><?php echo esc_html($item['name']); ?></div>
+1443:                             <div class="dcv5-profile-track"><div class="dcv5-profile-fill" style="width: <?php echo esc_attr($item['score'] * 10); ?>%"></div></div>
+1444:                             <div class="dcv5-profile-score"><?php echo esc_html($item['score']); ?>/10</div>
+1445:                         </div>
+1446:                     <?php endforeach; ?>
+1447:                 </section>
+1448: 
+1449:                 <section class="dcv5-panel" id="klima">
+1450:                     <h2><span>6</span>Klimatski i tehnološki potpis</h2>
+1451:                     <p class="dcv5-section-note">Uvjeti prostora važni su koliko i začini. Dobra kobasica nastaje iz ritma hladnoće, vlage, dima i vremena.</p>
+1452: 
+1453:                     <div class="dcv5-card-grid two">
+1454:                         <?php foreach ($recipe['climate'] as $item) : ?>
+1455:                             <article class="dcv5-climate-card">
+1456:                                 <h3><?php echo esc_html($item['title']); ?></h3>
+1457:                                 <p><?php echo esc_html($item['text']); ?></p>
+1458:                             </article>
+1459:                         <?php endforeach; ?>
+1460:                     </div>
+1461:                 </section>
+1462: 
+1463:                 <section class="dcv5-panel" id="kronologija">
+1464:                     <h2><span>7</span>Procesna kronologija</h2>
+1465:                     <p class="dcv5-section-note">Ovo je radni vodič od sirovine do stola. Svaka faza ima cilj i kritičnu točku kontrole.</p>
+1466: 
+1467:                     <div class="dcv5-timeline">
+1468:                         <?php foreach ($recipe['timeline'] as $step) : ?>
+1469:                             <article class="dcv5-timeline-item">
+1470:                                 <div class="dcv5-day"><?php echo esc_html($step['day']); ?></div>
+1471:                                 <div>
+1472:                                     <h3><?php echo esc_html($step['title']); ?></h3>
+1473:                                     <p><?php echo esc_html($step['text']); ?></p>
+1474:                                     <div class="dcv5-critical"><strong>Kritično:</strong> <?php echo esc_html($step['critical']); ?></div>
+1475:                                 </div>
+1476:                             </article>
+1477:                         <?php endforeach; ?>
+1478:                     </div>
+1479:                 </section>
+1480: 
+1481:                 <section class="dcv5-panel" id="greske">
+1482:                     <h2><span>8</span>Anatomija greške</h2>
+1483:                     <p class="dcv5-section-note">Svaki problem mora imati konkretno rješenje. Ovo je zaštitni dio recepta.</p>
+1484: 
+1485:                     <div class="dcv5-card-grid two">
+1486:                         <?php foreach ($recipe['errors'] as $error) : ?>
+1487:                             <article class="dcv5-error-card <?php echo esc_attr($error['level']); ?>">
+1488:                                 <h3><?php echo esc_html($error['problem']); ?></h3>
+1489:                                 <div class="dcv5-error-meta">
+1490:                                     <span class="dcv5-small-pill"><?php echo esc_html($error['phase']); ?></span>
+1491:                                     <span class="dcv5-small-pill"><?php echo esc_html($error['severity']); ?></span>
+1492:                                 </div>
+1493:                                 <p><strong>Uzrok:</strong> <?php echo esc_html($error['cause']); ?></p>
+1494:                                 <p><strong>Rješenje:</strong> <?php echo esc_html($error['solution']); ?></p>
+1495:                             </article>
+1496:                         <?php endforeach; ?>
+1497:                     </div>
+1498:                 </section>
+1499: 
+1500:                 <section class="dcv5-panel" id="gotovo">
+1501:                     <h2><span>9</span>Gotovo je kad…</h2>
+1502:                     <p class="dcv5-section-note">Ovaj blok pomaže korisniku procijeniti je li proizvod tehnološki stabilan za rezanje, čuvanje i posluživanje.</p>
+1503: 
+1504:                     <div class="dcv5-check-grid">
+1505:                         <?php foreach ($recipe['done_when'] as $item) : ?>
+1506:                             <article class="dcv5-check-card">
+1507:                                 <h3><?php echo esc_html($item['title']); ?></h3>
+1508:                                 <p><?php echo esc_html($item['text']); ?></p>
+1509:                             </article>
+1510:                         <?php endforeach; ?>
+1511:                     </div>
+1512:                 </section>
+1513: 
+1514:                 <section class="dcv5-panel" id="sigurnost">
+1515:                     <h2><span>10</span>Sigurnosni semafor</h2>
+1516:                     <p class="dcv5-section-note">Kod suhomesnatih proizvoda svaka sumnja mora imati praktičnu odluku. Bolje odbaciti rizičan proizvod nego spašavati nešto što se ne smije spašavati.</p>
+1517: 
+1518:                     <div class="dcv5-safety-grid">
+1519:                         <?php foreach ($recipe['safety'] as $item) : ?>
+1520:                             <article class="dcv5-safety-card <?php echo esc_attr($item['level']); ?>">
+1521:                                 <h3><?php echo esc_html($item['title']); ?></h3>
+1522:                                 <p><?php echo esc_html($item['text']); ?></p>
+1523:                             </article>
+1524:                         <?php endforeach; ?>
+1525:                     </div>
+1526:                 </section>
+1527: 
+1528:                 <section class="dcv5-panel" id="posluzivanje">
+1529:                     <h2><span>11</span>Posluživanje i čuvanje</h2>
+1530: 
+1531:                     <div class="dcv5-card-grid two">
+1532:                         <?php foreach ($recipe['serving'] as $item) : ?>
+1533:                             <article class="dcv5-serving-card">
+1534:                                 <h3><?php echo esc_html($item['title']); ?></h3>
+1535:                                 <p><?php echo esc_html($item['text']); ?></p>
+1536:                             </article>
+1537:                         <?php endforeach; ?>
+1538:                     </div>
+1539:                 </section>
+1540: 
+1541:                 <section class="dcv5-panel" id="dnevnik">
+1542:                     <h2><span>12</span>Dnevnik šarže</h2>
+1543:                     <p class="dcv5-section-note">Ovaj blok je priprema za budući print i digitalni dnevnik. Za ozbiljnu proizvodnju bilješke vrijede zlata.</p>
+1544: 
+1545:                     <div class="dcv5-print-strip">
+1546:                         <div class="dcv5-print-box"><span class="dcv5-field-label">Datum početka</span></div>
+1547:                         <div class="dcv5-print-box"><span class="dcv5-field-label">Masa šarže</span></div>
+1548:                         <div class="dcv5-print-box"><span class="dcv5-field-label">Kalibar crijeva</span></div>
+1549:                         <div class="dcv5-print-box"><span class="dcv5-field-label">T/RH prostora</span></div>
+1550:                         <div class="dcv5-print-box"><span class="dcv5-field-label">Broj dimljenja</span></div>
+1551:                         <div class="dcv5-print-box"><span class="dcv5-field-label">Gubitak mase</span></div>
+1552:                         <div class="dcv5-print-box"><span class="dcv5-field-label">Datum rezanja</span></div>
+1553:                         <div class="dcv5-print-box"><span class="dcv5-field-label">Ocjena 1–10</span></div>
+1554:                     </div>
+1555:                 </section>
+1556:             </main>
+1557: 
+1558:             <aside>
+1559:                 <nav class="dcv5-side-panel" aria-label="Sadržaj recepta">
+1560:                     <h3>Sadržaj recepta</h3>
+1561:                     <a href="#omjer">Omjer smjese</a>
+1562:                     <a href="#sirovine">Glavne sirovine</a>
+1563:                     <a href="#zacini">Začini i dodaci</a>
+1564:                     <a href="#tekucine">Tekućine i češnjak</a>
+1565:                     <a href="#profil">Profil proizvoda</a>
+1566:                     <a href="#klima">Tehnološki potpis</a>
+1567:                     <a href="#kronologija">Procesna kronologija</a>
+1568:                     <a href="#greske">Anatomija greške</a>
+1569:                     <a href="#gotovo">Gotovo je kad…</a>
+1570:                     <a href="#sigurnost">Sigurnosni semafor</a>
+1571:                     <a href="#posluzivanje">Posluživanje</a>
+1572:                     <a href="#dnevnik">Dnevnik šarže</a>
+1573:                 </nav>
+1574:             </aside>
+1575:         </div>
+1576:     </div>
+1577:     <?php
+1578: 
+1579:     return ob_get_clean();
+1580: }
