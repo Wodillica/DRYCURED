@@ -1,0 +1,36 @@
+EDITORIAL_EVIDENCE_MATRIX_CREATED=YES
+MASTER=04_OPERATION/recipe_master/drycured_recipes_master_v1_pilot_cijeli_komadi_25.json
+MASTER_SHA256_BEFORE=3491405549bde8fa9081a8bbc622474dedd808fe11cbd1e6698bef232b0be36b
+RECORD_COUNT=25
+CSV=server-reports/recipes/master_editorial_matrix_cijeli_komadi_25_manual/editorial_evidence_matrix.csv
+JSON=server-reports/recipes/master_editorial_matrix_cijeli_komadi_25_manual/editorial_evidence_candidates.json
+
+SUMMARY_BY_RECIPE
+3094 | MD-ELENA_FILET | found=11 | missing=4 | forbidden=grinding_granulation | priority=HIGH | Elena filet (Еленски филе)
+3105 | MD-APOHTI_DIMLJENI_SVINJSKI_FILE | found=11 | missing=4 | forbidden=grinding_granulation | priority=HIGH | Apohti (Απόχτι) – Dimljeni svinjski file
+3142 | MD-HEILHORNA_HANGIKJOT_SUSENA_JANJECA_REBRA | found=9 | missing=6 | forbidden=grinding_granulation | priority=HIGH | Heilhornað Hangikjöt (Sušena janjeća rebra)
+3175 | MD-PINNEKJ_TT_SUSENA_REBRA | found=9 | missing=6 | forbidden=grinding_granulation | priority=HIGH | PINNEKJØTT (SUŠENA REBRA)
+3188 | MD-LOUNTZA_KAFTERI_LJUTA_DIMLJENA_SVINJSKA_VRATINA | found=10 | missing=5 | forbidden=grinding_granulation | priority=HIGH | Lountza Kafteri (Λούντζα Καυτερή) – Ljuta dimljena svinjska vratina
+3205 | MD-PASTRAM_DE_OAIE_SUSENA_OVCETINA | found=8 | missing=7 | forbidden=grinding_granulation | priority=HIGH | PASTRAMĂ DE OAIE (Sušena ovčetina)
+3212 | MD-LOMO_EMBUCHADO_ZACINJENA_SUHA_SVINJSKA_LEDA | found=12 | missing=3 | forbidden=grinding_granulation|casing | priority=HIGH | Lomo Embuchado – Začinjena Suha Svinjska Leđa
+2037 | MD-HANGIKJOT_DIMLJENI_JANJETI_BUT | found=9 | missing=6 | forbidden=grinding_granulation | priority=HIGH | Hangikjöt (Dimljeni janjeti but)
+2064 | MD-COPPA_CAPOCOLLO_TALIJANSKA_VRATINA | found=10 | missing=5 | forbidden=grinding_granulation|casing | priority=HIGH | COPPA (CAPOCOLLO) – TALIJANSKA VRATINA
+2552 | MD-OTOCAC_ZACINSKI_VRAT_S_PLANINE_MOUNTAINSKI_NARESAK | found=7 | missing=8 | forbidden=grinding_granulation | priority=HIGH | Otočac Začinski Vrat s Planine (Mountainski naresak)
+2604 | MD-OSIJECKI_LJUTI_ZACINSKI_VRAT_S_DIVLJIM_TRAVKAMA | found=7 | missing=8 | forbidden=- | priority=HIGH | Osiječki Ljuti Začinski Vrat s Divljim Travkama
+2606 | MD-POZESKI_AROMATICNI_SUSENI_VRAT_S_DIVLJIM_TRAVKAMA | found=7 | missing=8 | forbidden=- | priority=HIGH | Požeški Aromatični Sušeni Vrat s Divljim Travkama
+2694 | MD-POZESKI_PIKANTNI_VRAT | found=7 | missing=8 | forbidden=- | priority=HIGH | Požeški Pikantni Vrat
+2696 | MD-NASICKI_FERMENTIRANI_VRAT | found=7 | missing=8 | forbidden=- | priority=HIGH | Nasički Fermentirani Vrat
+2703 | MD-ERDUTSKI_FERMENTIRANI_VRAT_S_PODUNAVSKIM_ZACINIMA | found=7 | missing=8 | forbidden=- | priority=HIGH | Erdutski Fermentirani Vrat s Podunavskim Začinima
+2705 | MD-VUKOVARSKI_FERMENTIRANI_VRAT_S_PODUNAVSKIM_ZACINIMA | found=7 | missing=8 | forbidden=- | priority=HIGH | Vukovarski Fermentirani Vrat s Podunavskim Začinima
+2780 | MD-SLAVONSKI_PIKANTNI_VRAT | found=7 | missing=8 | forbidden=- | priority=HIGH | Slavonski pikantni vrat
+2781 | MD-ESENCIJALNI_SLAVONSKI_SUSENI_VRAT_S_DIVLJIM_ZACINIMA | found=7 | missing=8 | forbidden=- | priority=HIGH | Esencijalni slavonski sušeni vrat s divljim začinima
+3027 | MD-ENGADINER_HATECLETT_SUSENI_KOZJI_BUT | found=8 | missing=7 | forbidden=grinding_granulation | priority=HIGH | ENGADINER HATECLETT (SUŠENI KOZJI BUT)
+3083 | MD-ELENSKI_BUT | found=8 | missing=7 | forbidden=grinding_granulation | priority=HIGH | ЕЛЕНСКИ БУТ (Elenski but)
+3106 | MD-PASTOURMA_CIPARSKI_ZACINJENI_SUSENI_GOVEDI_FILE | found=10 | missing=5 | forbidden=grinding_granulation | priority=HIGH | Pastourma (Παστουρμάς) – Ciparski začinjeni sušeni goveđi file
+3135 | MD-PASTOURMAS | found=10 | missing=5 | forbidden=grinding_granulation|stuffing_mixture | priority=HIGH | Pastourmas (Παστουρμάς)
+3206 | MD-BASTURMA_ZACINJENO_SUSENO_GOVEDE_MESO | found=10 | missing=5 | forbidden=grinding_granulation | priority=HIGH | Basturma (Бастурма – Začinjeno sušeno goveđe meso)
+3208 | MD-SVINAYA_VYREZKA_SUSENI_SVINJSKI_FILE | found=10 | missing=5 | forbidden=grinding_granulation | priority=HIGH | Svinaya Vyrezka (Свиная вырезка – Sušeni svinjski file)
+3216 | MD-BUNDNERFLEISCH_GRAUBUNDENSKI_SUSENI_GOVEDI_BUT | found=9 | missing=6 | forbidden=grinding_granulation | priority=HIGH | BÜNDNERFLEISCH (GRAUBÜNDENSKI SUŠENI GOVEĐI BUT)
+
+MASTER_SHA256_AFTER=3491405549bde8fa9081a8bbc622474dedd808fe11cbd1e6698bef232b0be36b
+MASTER_UNCHANGED=YES
