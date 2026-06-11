@@ -280,6 +280,21 @@ function dc_b001_find_posts_by_slug($slug, $post_type) {
 }
 
 
+
+function dc_b001_web_structure_regression_error($before_text, $after_text) {
+    $before = (string) $before_text;
+    $after = (string) $after_text;
+
+    $before_has_drycured_structure = preg_match('/Radni sažetak|Radni sazetak|Gotovo je kad|Najčešće greške|Najcesce greske|Sigurnosne smjernice/iu', $before);
+    $after_has_drycured_structure = preg_match('/Radni sažetak|Radni sazetak|Gotovo je kad|Najčešće greške|Najcesce greske|Sigurnosne smjernice/iu', $after);
+
+    if ($before_has_drycured_structure && !$after_has_drycured_structure) {
+        return 'web_structure_regression_refused';
+    }
+
+    return '';
+}
+
 function dc_b001_content_regression_error($before_bytes, $after_bytes) {
     $before = (int) $before_bytes;
     $after = (int) $after_bytes;
@@ -468,8 +483,11 @@ foreach (dc_b001_array($plan_rows) as $plan) {
         continue;
     }
 
-    $before_content_bytes = strlen((string) $post->post_content);
-    $after_content_bytes = strlen((string) ($source['markdown'] ?? ''));
+    $before_content_text = (string) $post->post_content;
+    $after_content_text = (string) ($source['markdown'] ?? '');
+    $before_content_bytes = strlen($before_content_text);
+    $after_content_bytes = strlen($after_content_text);
+
     $content_regression_error = dc_b001_content_regression_error($before_content_bytes, $after_content_bytes);
     if ($content_regression_error !== '') {
         $preflight_error_rows[] = array(
@@ -478,6 +496,18 @@ foreach (dc_b001_array($plan_rows) as $plan) {
             'error' => 'preflight_content_regression_refused',
             'post_id' => $post_id,
             'notes' => 'before_content_bytes=' . $before_content_bytes . '|after_content_bytes=' . $after_content_bytes
+        );
+        continue;
+    }
+
+    $web_structure_error = dc_b001_web_structure_regression_error($before_content_text, $after_content_text);
+    if ($web_structure_error !== '') {
+        $preflight_error_rows[] = array(
+            'recipe_id' => $recipe_id,
+            'expected_slug' => $expected_slug,
+            'error' => 'preflight_web_structure_regression_refused',
+            'post_id' => $post_id,
+            'notes' => 'existing_drycured_structure_would_be_replaced_by_raw_source'
         );
         continue;
     }
@@ -585,6 +615,19 @@ foreach (dc_b001_array($plan_rows) as $plan) {
             'error' => 'content_regression_refused',
             'post_id' => $post_id,
             'notes' => 'before_content_bytes=' . $before_content_bytes . '|after_content_bytes=' . strlen($markdown)
+        );
+        continue;
+    }
+
+    $web_structure_error = dc_b001_web_structure_regression_error((string) $post->post_content, $markdown);
+    if ($web_structure_error !== '') {
+        $errors++;
+        $error_rows[] = array(
+            'recipe_id' => $recipe_id,
+            'expected_slug' => $expected_slug,
+            'error' => 'web_structure_regression_refused',
+            'post_id' => $post_id,
+            'notes' => 'existing_drycured_structure_would_be_replaced_by_raw_source'
         );
         continue;
     }
