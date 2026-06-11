@@ -484,6 +484,13 @@ function drycured_mdv5_bridge_build_profile($post_id, $code = '') {
 }
 
 function drycured_md_v5_bridge_profile($post_id, $code = '') {
+    if (function_exists('drycured_b01_wholecut_v5_profile')) {
+        $wholecut_profile = drycured_b01_wholecut_v5_profile($post_id, $code);
+        if ($wholecut_profile) {
+            return $wholecut_profile;
+        }
+    }
+
     if (!drycured_mdv5_enabled()) return null;
 
     $pilot_ids = drycured_mdv5_pilot_ids();
