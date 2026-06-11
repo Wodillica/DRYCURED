@@ -163,3 +163,25 @@ Pravila uporabe:
 
 Status dodan: 2026-06-11T11:06:39.826682+00:00
 
+## WHOLE-CUT SOURCE-SAFE GATE
+
+Za sve buduće skripte koje rade s cijelim komadima obvezan je source-safe gate:
+
+`04_OPERATION/recipe_master/tools/whole_cut_source_safe_gate.py`
+
+Aktivni master:
+
+`04_OPERATION/recipe_master/drycured_recipes_master_v1_1_cijeli_komadi_25_source_safe.json`
+
+Pravilo:
+
+- stari pilot master ne smije biti aktivni render/import source
+- fill candidates ne smiju biti aktivni render/import source
+- masovni rebuild JSON ne smije biti aktivni render/import source za cijele komade
+- WordPress upis mora stati ako gate ne prođe
+
+Politika je zapisana u:
+
+`04_OPERATION/recipe_master/WHOLE_CUT_SOURCE_SAFE_POLICY.md`
+
+Status dodan: 2026-06-11T11:21:56.381746+00:00
