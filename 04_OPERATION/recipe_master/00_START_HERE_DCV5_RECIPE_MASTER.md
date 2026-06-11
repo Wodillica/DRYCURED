@@ -144,3 +144,22 @@ Treba dokumentirati koja datoteka generira postojeći DCV5 prikaz, koje funkcije
 ```bash
 cat /root/DRYCURED_GITHUB/04_OPERATION/recipe_master/00_START_HERE_DCV5_RECIPE_MASTER.md
 ```
+
+## SOURCE-SAFE MASTER v1.1 — cijeli komadi
+
+Aktivni sigurni podatkovni master za batch cijelih komada je:
+
+`04_OPERATION/recipe_master/drycured_recipes_master_v1_1_cijeli_komadi_25_source_safe.json`
+
+Ova datoteka je nastala nakon audita mastera i uklanjanja naslijeđenih procesnih tragova koji nisu smjeli biti aktivni izvor za javni prikaz cijelih komada.
+
+Pravila uporabe:
+
+- buduće skripte za cijele komade moraju čitati v1.1 source-safe master
+- stari pilot master ostaje samo forenzički trag i roditeljski izvor
+- legacy_source u v1.1 ne smije biti render-source
+- konkretni parametri procesa dodaju se tek nakon vanjske validacije izvora
+- WordPress se ne smije masovno osvježavati iz starog masovnog inputa bez source-safe gatea
+
+Status dodan: 2026-06-11T11:06:39.826682+00:00
+
