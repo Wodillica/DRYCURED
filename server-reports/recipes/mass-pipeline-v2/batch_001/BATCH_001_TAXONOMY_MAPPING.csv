@@ -1,378 +1,378 @@
 recipe_id,taxonomy,term_name,term_slug,term_status,existing_term_id,notes
-MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_region,Tirol,tirol,to_create_review,,review before creating clean term
-MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_product_category,Slanina,slanina,existing,699,existing WP term
-MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_region,Waldviertel,waldviertel,to_create_review,,review before creating clean term
-MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_product_category,Salama,salama,existing,686,existing WP term
-MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_country,Austrija,hrvatska,existing,159,existing WP term
-MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_region,Tirol,tirol,to_create_review,,review before creating clean term
-MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_country,Mađarska,madarska,existing,287,existing WP term
-MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_region,Szeged,szeged,to_create_review,,review before creating clean term
-MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-LUKANKA_IZ_PANAGYURISHTE,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-LUKANKA_IZ_PANAGYURISHTE,dry_region,Lika,lika,existing,704,existing WP term
-MD-LUKANKA_IZ_PANAGYURISHTE,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-LUKANKA_IZ_PANAGYURISHTE,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-LUKANKA_IZ_PANAGYURISHTE,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-LUKANKA_IZ_PANAGYURISHTE,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-LUKANKA_IZ_PANAGYURISHTE,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-BANSKA_KAPAMA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-BANSKA_KAPAMA,dry_region,Lika,lika,existing,704,existing WP term
-MD-BANSKA_KAPAMA,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-BANSKA_KAPAMA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-BANSKA_KAPAMA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-BANSKA_KAPAMA,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-BANSKA_KAPAMA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-BANSKA_KAPAMA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-STRANDZHANSKO_DYADO,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-STRANDZHANSKO_DYADO,dry_region,Strandzha,strandzha,existing,679,existing WP term
-MD-STRANDZHANSKO_DYADO,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-STRANDZHANSKO_DYADO,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-STRANDZHANSKO_DYADO,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-STRANDZHANSKO_DYADO,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-STRANDZHANSKO_DYADO,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-STRANDZHANSKO_DYADO,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-STRANDZHANSKO_DYADO,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-SREDNOGORSKA_KASKA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-SREDNOGORSKA_KASKA,dry_region,Lika,lika,existing,704,existing WP term
-MD-SREDNOGORSKA_KASKA,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-SREDNOGORSKA_KASKA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-SREDNOGORSKA_KASKA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-SREDNOGORSKA_KASKA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-SREDNOGORSKA_KASKA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-SREDNOGORSKA_KASKA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-DOBRUDZHANSKI_BABEK,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-DOBRUDZHANSKI_BABEK,dry_region,Istra,istra,existing,119,existing WP term
-MD-DOBRUDZHANSKI_BABEK,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-DOBRUDZHANSKI_BABEK,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-DOBRUDZHANSKI_BABEK,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-DOBRUDZHANSKI_BABEK,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-DOBRUDZHANSKI_BABEK,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-DOBRUDZHANSKI_BABEK,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-DOBRUDZHANSKI_BABEK,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_region,Lika,lika,existing,704,existing WP term
-MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-JOULUKINKKU_BOZICNA_SUNKA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-JOULUKINKKU_BOZICNA_SUNKA,dry_region,Lika,lika,existing,704,existing WP term
-MD-JOULUKINKKU_BOZICNA_SUNKA,dry_product_category,Šunka,sunka,existing,658,existing WP term
-MD-JOULUKINKKU_BOZICNA_SUNKA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-JOULUKINKKU_BOZICNA_SUNKA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-JOULUKINKKU_BOZICNA_SUNKA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_country,Finska,hrvatska,existing,159,existing WP term
-MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_region,Lika,lika,existing,704,existing WP term
-MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_product_category,Šunka,sunka,existing,658,existing WP term
-MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_country,Francuska,francuska,existing,235,existing WP term
-MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_region,Lyon,lyon,existing,279,existing WP term
-MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_region,Lyon,lyon,existing,279,existing WP term
-MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_country,Francuska,hrvatska,existing,159,existing WP term
-MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_region,Lyon,lyon,existing,279,existing WP term
-MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-JESUS_DE_LYON,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-JESUS_DE_LYON,dry_region,Lyon,lyon,existing,279,existing WP term
-MD-JESUS_DE_LYON,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-JESUS_DE_LYON,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-JESUS_DE_LYON,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-JESUS_DE_LYON,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-JESUS_DE_LYON,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-JESUS_DE_LYON,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-ROSETTE_DE_LYON,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-ROSETTE_DE_LYON,dry_region,Lyon,lyon,existing,279,existing WP term
-MD-ROSETTE_DE_LYON,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-ROSETTE_DE_LYON,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-ROSETTE_DE_LYON,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-ROSETTE_DE_LYON,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-ROSETTE_DE_LYON,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-RILLETTES_DU_MANS,dry_country,Francuska,hrvatska,existing,159,existing WP term
-MD-RILLETTES_DU_MANS,dry_region,Lika,lika,existing,704,existing WP term
-MD-RILLETTES_DU_MANS,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-RILLETTES_DU_MANS,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-RILLETTES_DU_MANS,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-RILLETTES_DU_MANS,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-SIGLINO_MESSINIAS,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-SIGLINO_MESSINIAS,dry_region,Lika,lika,existing,704,existing WP term
-MD-SIGLINO_MESSINIAS,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-SIGLINO_MESSINIAS,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-SIGLINO_MESSINIAS,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-SIGLINO_MESSINIAS,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-SIGLINO_MESSINIAS,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-TSIGARIDES,dry_country,Grčka,hrvatska,existing,159,existing WP term
-MD-TSIGARIDES,dry_region,Istra,istra,existing,119,existing WP term
-MD-TSIGARIDES,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-TSIGARIDES,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-TSIGARIDES,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-TSIGARIDES,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-TSIGARIDES,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_region,Lika,lika,existing,704,existing WP term
-MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_region,Lika,lika,existing,704,existing WP term
-MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_region,Szeged,szeged,to_create_review,,review before creating clean term
-MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_product_category,Salama,salama,existing,686,existing WP term
-MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-MADARSKA_KOBASICA_KOLBASZ,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-MADARSKA_KOBASICA_KOLBASZ,dry_region,Szeged,szeged,to_create_review,,review before creating clean term
-MD-MADARSKA_KOBASICA_KOLBASZ,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-MADARSKA_KOBASICA_KOLBASZ,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-MADARSKA_KOBASICA_KOLBASZ,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-MADARSKA_KOBASICA_KOLBASZ,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-MADARSKA_KOBASICA_KOLBASZ,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-MADARSKA_KOBASICA_KOLBASZ,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_region,Lika,lika,existing,704,existing WP term
-MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_product_category,Šunka,sunka,existing,658,existing WP term
-MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-ROVINJSKA_KOBASICA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-ROVINJSKA_KOBASICA,dry_region,Istra,istra,existing,119,existing WP term
-MD-ROVINJSKA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-ROVINJSKA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-ROVINJSKA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-ROVINJSKA_KOBASICA,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-ROVINJSKA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-SALO_SLANA_SVINJECA_SLANINA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-SALO_SLANA_SVINJECA_SLANINA,dry_region,Lika,lika,existing,704,existing WP term
-MD-SALO_SLANA_SVINJECA_SLANINA,dry_product_category,Slanina,slanina,existing,699,existing WP term
-MD-SALO_SLANA_SVINJECA_SLANINA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-SALO_SLANA_SVINJECA_SLANINA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-SALO_SLANA_SVINJECA_SLANINA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-SALO_SLANA_SVINJECA_SLANINA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_country,Ujedinjeno Kraljevstvo,hrvatska,existing,159,existing WP term
-MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_region,Lika,lika,existing,704,existing WP term
-MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_meat_type,Govedina,govedina,existing,218,existing WP term
-MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-BELOKRANJSKA_JAGENJCARA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-BELOKRANJSKA_JAGENJCARA,dry_region,Lika,lika,existing,704,existing WP term
-MD-BELOKRANJSKA_JAGENJCARA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-BELOKRANJSKA_JAGENJCARA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-BELOKRANJSKA_JAGENJCARA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-BELOKRANJSKA_JAGENJCARA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-BELOKRANJSKA_JAGENJCARA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-BELOKRANJSKA_JAGENJCARA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_region,Lika,lika,existing,704,existing WP term
-MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_country,Švedska,hrvatska,existing,159,existing WP term
-MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_region,Lika,lika,existing,704,existing WP term
-MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_product_category,Šunka,sunka,existing,658,existing WP term
-MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_country,Hrvatska,hrvatska,existing,159,existing WP term
-MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_region,Lika,lika,existing,704,existing WP term
-MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_meat_type,Govedina,govedina,existing,218,existing WP term
-MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-SPECK_ALTO_ADIGE,dry_country,Austrija,austrija,existing,251,existing WP term
-MD-SPECK_ALTO_ADIGE,dry_region,Tirol,tirol,to_create_review,,review before creating clean term
-MD-SPECK_ALTO_ADIGE,dry_product_category,Slanina,slanina,existing,699,existing WP term
-MD-SPECK_ALTO_ADIGE,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-SPECK_ALTO_ADIGE,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-SPECK_ALTO_ADIGE,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-SPECK_ALTO_ADIGE,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_country,Bugarska,hrvatska,existing,159,existing WP term
-MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_region,Lika,lika,existing,704,existing WP term
-MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_country,Albanija,albanija,existing,651,existing WP term
-MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_country,Albanija,albanija,existing,651,existing WP term
-MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_product_category,Šunka,sunka,existing,658,existing WP term
-MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_country,Albanija,albanija,existing,651,existing WP term
-MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_meat_type,Janjetina,janjetina,existing,655,existing WP term
-MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_country,Austrija,austrija,existing,251,existing WP term
-MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_product_category,Slanina,slanina,existing,699,existing WP term
-MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_country,Austrija,austrija,existing,251,existing WP term
-MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_product_category,Šunka,sunka,existing,658,existing WP term
-MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_country,Austrija,austrija,existing,251,existing WP term
-MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_meat_type,Govedina,govedina,existing,218,existing WP term
-MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_country,Finska,finska,existing,659,existing WP term
-MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_country,Belgija,belgija,existing,254,existing WP term
-MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_country,Belgija,belgija,existing,254,existing WP term
-MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_country,Belgija,belgija,existing,254,existing WP term
-MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_process_type,Fermentirano,fermentirano,existing,161,existing WP term
-MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_country,Belgija,belgija,existing,254,existing WP term
-MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_country,Belgija,belgija,existing,254,existing WP term
-MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_country,Belgija,belgija,existing,254,existing WP term
-MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_product_category,Šunka,sunka,existing,658,existing WP term
-MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-PATE_GAUMAIS_GAUME_PASTETA,dry_country,Belgija,belgija,existing,254,existing WP term
-MD-PATE_GAUMAIS_GAUME_PASTETA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-PATE_GAUMAIS_GAUME_PASTETA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-PATE_GAUMAIS_GAUME_PASTETA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-PATE_GAUMAIS_GAUME_PASTETA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-PATE_GAUMAIS_GAUME_PASTETA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-PATE_GAUMAIS_GAUME_PASTETA,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-TETE_PRESSEE_PREZVURST,dry_country,Belgija,hrvatska,existing,159,existing WP term
-MD-TETE_PRESSEE_PREZVURST,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-TETE_PRESSEE_PREZVURST,dry_product_category,Cijeli komad,cijeli-komad,existing,832,mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term
-MD-TETE_PRESSEE_PREZVURST,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-TETE_PRESSEE_PREZVURST,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
-MD-TETE_PRESSEE_PREZVURST,dry_process_type,Kuhano,kuhano,existing,301,existing WP term
-MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_country,Belgija,hrvatska,existing,159,existing WP term
-MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,review before creating clean term
-MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,existing WP term
-MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,existing WP term
-MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,existing WP term
-MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,existing WP term
-MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,existing WP term
+MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_country,Austrija,austrija,existing,251,"aligned with existing WP dry_country term from matched recipe post"
+MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_region,Tirol,tirol,to_create_review,,"review before creating clean term"
+MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_product_category,Slanina,slanina,existing,699,"existing WP term"
+MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-TIROLER_SPECK_TIROLSKA_SLANINA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_country,Austrija,austrija,existing,251,"aligned with existing WP dry_country term from matched recipe post"
+MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_region,Waldviertel,waldviertel,to_create_review,,"review before creating clean term"
+MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_product_category,Salama,salama,existing,686,"existing WP term"
+MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_country,Austrija,austrija,existing,251,"aligned with existing WP dry_country term from matched recipe post"
+MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_region,Tirol,tirol,to_create_review,,"review before creating clean term"
+MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_country,Mađarska,madarska,existing,287,"existing WP term"
+MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_region,Szeged,szeged,to_create_review,,"review before creating clean term"
+MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-LUKANKA_IZ_PANAGYURISHTE,dry_country,Bugarska,bugarska,existing,672,"aligned with existing WP dry_country term from matched recipe post"
+MD-LUKANKA_IZ_PANAGYURISHTE,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-LUKANKA_IZ_PANAGYURISHTE,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-LUKANKA_IZ_PANAGYURISHTE,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-LUKANKA_IZ_PANAGYURISHTE,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-LUKANKA_IZ_PANAGYURISHTE,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-LUKANKA_IZ_PANAGYURISHTE,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-BANSKA_KAPAMA,dry_country,Bugarska,bugarska,existing,672,"aligned with existing WP dry_country term from matched recipe post"
+MD-BANSKA_KAPAMA,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-BANSKA_KAPAMA,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-BANSKA_KAPAMA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-BANSKA_KAPAMA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-BANSKA_KAPAMA,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-BANSKA_KAPAMA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-BANSKA_KAPAMA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-STRANDZHANSKO_DYADO,dry_country,Bugarska,bugarska,existing,672,"aligned with existing WP dry_country term from matched recipe post"
+MD-STRANDZHANSKO_DYADO,dry_region,Strandzha,strandzha,existing,679,"existing WP term"
+MD-STRANDZHANSKO_DYADO,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-STRANDZHANSKO_DYADO,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-STRANDZHANSKO_DYADO,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-STRANDZHANSKO_DYADO,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-STRANDZHANSKO_DYADO,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-STRANDZHANSKO_DYADO,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-STRANDZHANSKO_DYADO,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-SREDNOGORSKA_KASKA,dry_country,Bugarska,bugarska,existing,672,"aligned with existing WP dry_country term from matched recipe post"
+MD-SREDNOGORSKA_KASKA,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-SREDNOGORSKA_KASKA,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-SREDNOGORSKA_KASKA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-SREDNOGORSKA_KASKA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-SREDNOGORSKA_KASKA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-SREDNOGORSKA_KASKA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-SREDNOGORSKA_KASKA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-DOBRUDZHANSKI_BABEK,dry_country,Bugarska,bugarska,existing,672,"aligned with existing WP dry_country term from matched recipe post"
+MD-DOBRUDZHANSKI_BABEK,dry_region,Istra,istra,existing,119,"existing WP term"
+MD-DOBRUDZHANSKI_BABEK,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-DOBRUDZHANSKI_BABEK,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-DOBRUDZHANSKI_BABEK,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-DOBRUDZHANSKI_BABEK,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-DOBRUDZHANSKI_BABEK,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-DOBRUDZHANSKI_BABEK,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-DOBRUDZHANSKI_BABEK,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_country,Grčka,grcka,existing,232,"aligned with existing WP dry_country term from matched recipe post"
+MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-JOULUKINKKU_BOZICNA_SUNKA,dry_country,Finska,finska,existing,659,"aligned with existing WP dry_country term from matched recipe post"
+MD-JOULUKINKKU_BOZICNA_SUNKA,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-JOULUKINKKU_BOZICNA_SUNKA,dry_product_category,Šunka,sunka,existing,658,"existing WP term"
+MD-JOULUKINKKU_BOZICNA_SUNKA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-JOULUKINKKU_BOZICNA_SUNKA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-JOULUKINKKU_BOZICNA_SUNKA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_country,Finska,finska,existing,659,"aligned with existing WP dry_country term from matched recipe post"
+MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_product_category,Šunka,sunka,existing,658,"existing WP term"
+MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-PALVIKINKKU_DIMLJENA_SUNKA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_country,Francuska,francuska,existing,235,"existing WP term"
+MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_region,Lyon,lyon,existing,279,"existing WP term"
+MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-SAUCISSON_SEC_SUHA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_country,Francuska,francuska,existing,235,"aligned with existing WP dry_country term from matched recipe post"
+MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_region,Lyon,lyon,existing,279,"existing WP term"
+MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_country,Francuska,francuska,existing,235,"aligned with existing WP dry_country term from matched recipe post"
+MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_region,Lyon,lyon,existing,279,"existing WP term"
+MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-JESUS_DE_LYON,dry_country,Francuska,francuska,existing,235,"aligned with existing WP dry_country term from matched recipe post"
+MD-JESUS_DE_LYON,dry_region,Lyon,lyon,existing,279,"existing WP term"
+MD-JESUS_DE_LYON,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-JESUS_DE_LYON,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-JESUS_DE_LYON,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-JESUS_DE_LYON,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-JESUS_DE_LYON,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-JESUS_DE_LYON,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-ROSETTE_DE_LYON,dry_country,Francuska,francuska,existing,235,"aligned with existing WP dry_country term from matched recipe post"
+MD-ROSETTE_DE_LYON,dry_region,Lyon,lyon,existing,279,"existing WP term"
+MD-ROSETTE_DE_LYON,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-ROSETTE_DE_LYON,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-ROSETTE_DE_LYON,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-ROSETTE_DE_LYON,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-ROSETTE_DE_LYON,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-RILLETTES_DU_MANS,dry_country,Francuska,francuska,existing,235,"aligned with existing WP dry_country term from matched recipe post"
+MD-RILLETTES_DU_MANS,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-RILLETTES_DU_MANS,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-RILLETTES_DU_MANS,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-RILLETTES_DU_MANS,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-RILLETTES_DU_MANS,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-SIGLINO_MESSINIAS,dry_country,Grčka,grcka,existing,232,"aligned with existing WP dry_country term from matched recipe post"
+MD-SIGLINO_MESSINIAS,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-SIGLINO_MESSINIAS,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-SIGLINO_MESSINIAS,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-SIGLINO_MESSINIAS,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-SIGLINO_MESSINIAS,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-SIGLINO_MESSINIAS,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-TSIGARIDES,dry_country,Grčka,grcka,existing,232,"aligned with existing WP dry_country term from matched recipe post"
+MD-TSIGARIDES,dry_region,Istra,istra,existing,119,"existing WP term"
+MD-TSIGARIDES,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-TSIGARIDES,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-TSIGARIDES,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-TSIGARIDES,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-TSIGARIDES,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_country,Kosovo,kosovo,existing,702,"aligned with existing WP dry_country term from matched recipe post"
+MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_country,Malta,malta,existing,256,"aligned with existing WP dry_country term from matched recipe post"
+MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_country,Mađarska,madarska,existing,287,"aligned with existing WP dry_country term from matched recipe post"
+MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_region,Szeged,szeged,to_create_review,,"review before creating clean term"
+MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_product_category,Salama,salama,existing,686,"existing WP term"
+MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-MADARSKA_KOBASICA_KOLBASZ,dry_country,Mađarska,madarska,existing,287,"aligned with existing WP dry_country term from matched recipe post"
+MD-MADARSKA_KOBASICA_KOLBASZ,dry_region,Szeged,szeged,to_create_review,,"review before creating clean term"
+MD-MADARSKA_KOBASICA_KOLBASZ,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-MADARSKA_KOBASICA_KOLBASZ,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-MADARSKA_KOBASICA_KOLBASZ,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-MADARSKA_KOBASICA_KOLBASZ,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-MADARSKA_KOBASICA_KOLBASZ,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-MADARSKA_KOBASICA_KOLBASZ,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_country,Njemačka,njemacka,existing,241,"aligned with existing WP dry_country term from matched recipe post"
+MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_product_category,Šunka,sunka,existing,658,"existing WP term"
+MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-ROVINJSKA_KOBASICA,dry_country,Hrvatska,hrvatska,existing,159,"existing WP term"
+MD-ROVINJSKA_KOBASICA,dry_region,Istra,istra,existing,119,"existing WP term"
+MD-ROVINJSKA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-ROVINJSKA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-ROVINJSKA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-ROVINJSKA_KOBASICA,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-ROVINJSKA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-SALO_SLANA_SVINJECA_SLANINA,dry_country,Ukrajina,ukrajina,existing,228,"aligned with existing WP dry_country term from matched recipe post"
+MD-SALO_SLANA_SVINJECA_SLANINA,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-SALO_SLANA_SVINJECA_SLANINA,dry_product_category,Slanina,slanina,existing,699,"existing WP term"
+MD-SALO_SLANA_SVINJECA_SLANINA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-SALO_SLANA_SVINJECA_SLANINA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-SALO_SLANA_SVINJECA_SLANINA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-SALO_SLANA_SVINJECA_SLANINA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_country,"Ujedinjeno Kraljevstvo",ujedinjeno-kraljevstvo,existing,272,"aligned with existing WP dry_country term from matched recipe post"
+MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_meat_type,Govedina,govedina,existing,218,"existing WP term"
+MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-BELOKRANJSKA_JAGENJCARA,dry_country,Slovenija,slovenija,existing,266,"aligned with existing WP dry_country term from matched recipe post"
+MD-BELOKRANJSKA_JAGENJCARA,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-BELOKRANJSKA_JAGENJCARA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-BELOKRANJSKA_JAGENJCARA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-BELOKRANJSKA_JAGENJCARA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-BELOKRANJSKA_JAGENJCARA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-BELOKRANJSKA_JAGENJCARA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-BELOKRANJSKA_JAGENJCARA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_country,Španjolska,spanjolska,existing,245,"aligned with existing WP dry_country term from matched recipe post"
+MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_country,Švedska,svedska,existing,728,"aligned with existing WP dry_country term from matched recipe post"
+MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_product_category,Šunka,sunka,existing,658,"existing WP term"
+MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_country,Švicarska,svicarska,existing,270,"aligned with existing WP dry_country term from matched recipe post"
+MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_meat_type,Govedina,govedina,existing,218,"existing WP term"
+MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-SPECK_ALTO_ADIGE,dry_country,Italija,italija,existing,209,"aligned with existing WP dry_country term from matched recipe post"
+MD-SPECK_ALTO_ADIGE,dry_region,Tirol,tirol,to_create_review,,"review before creating clean term"
+MD-SPECK_ALTO_ADIGE,dry_product_category,Slanina,slanina,existing,699,"existing WP term"
+MD-SPECK_ALTO_ADIGE,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-SPECK_ALTO_ADIGE,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-SPECK_ALTO_ADIGE,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-SPECK_ALTO_ADIGE,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_country,Bugarska,bugarska,existing,672,"aligned with existing WP dry_country term from matched recipe post"
+MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_region,Lika,lika,existing,704,"existing WP term"
+MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-PASHTETNA_PECENA_MESNA_PASTETA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_country,Albanija,albanija,existing,651,"existing WP term"
+MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_country,Albanija,albanija,existing,651,"existing WP term"
+MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_product_category,Šunka,sunka,existing,658,"existing WP term"
+MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_country,Albanija,albanija,existing,651,"existing WP term"
+MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_meat_type,Janjetina,janjetina,existing,655,"existing WP term"
+MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_country,Austrija,austrija,existing,251,"existing WP term"
+MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_product_category,Slanina,slanina,existing,699,"existing WP term"
+MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_country,Austrija,austrija,existing,251,"existing WP term"
+MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_product_category,Šunka,sunka,existing,658,"existing WP term"
+MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_country,Austrija,austrija,existing,251,"existing WP term"
+MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_meat_type,Govedina,govedina,existing,218,"existing WP term"
+MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_country,Finska,finska,existing,659,"existing WP term"
+MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_country,Belgija,belgija,existing,254,"existing WP term"
+MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-FILET_DANVERS_ANTVERPSKI_FILE,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_country,Belgija,belgija,existing,254,"existing WP term"
+MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_country,Belgija,belgija,existing,254,"existing WP term"
+MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_process_type,Fermentirano,fermentirano,existing,161,"existing WP term"
+MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_country,Belgija,belgija,existing,254,"existing WP term"
+MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_country,Belgija,belgija,existing,254,"existing WP term"
+MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_country,Belgija,belgija,existing,254,"existing WP term"
+MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_product_category,Šunka,sunka,existing,658,"existing WP term"
+MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-PATE_GAUMAIS_GAUME_PASTETA,dry_country,Belgija,belgija,existing,254,"existing WP term"
+MD-PATE_GAUMAIS_GAUME_PASTETA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-PATE_GAUMAIS_GAUME_PASTETA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-PATE_GAUMAIS_GAUME_PASTETA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-PATE_GAUMAIS_GAUME_PASTETA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-PATE_GAUMAIS_GAUME_PASTETA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-PATE_GAUMAIS_GAUME_PASTETA,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-TETE_PRESSEE_PREZVURST,dry_country,Belgija,belgija,existing,254,"aligned with existing WP dry_country term from matched recipe post"
+MD-TETE_PRESSEE_PREZVURST,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-TETE_PRESSEE_PREZVURST,dry_product_category,"Cijeli komad",cijeli-komad,existing,832,"mapped_from=Suho meso; existing broader whole-piece category used; no new Suho meso term"
+MD-TETE_PRESSEE_PREZVURST,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-TETE_PRESSEE_PREZVURST,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
+MD-TETE_PRESSEE_PREZVURST,dry_process_type,Kuhano,kuhano,existing,301,"existing WP term"
+MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_country,Belgija,belgija,existing,254,"aligned with existing WP dry_country term from matched recipe post"
+MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_region,not_specified_in_source,not-specified-in-source,not_mapped_review_value,,"review before creating clean term"
+MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_product_category,Kobasica,kobasica,existing,654,"existing WP term"
+MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_meat_type,Svinjetina,svinjetina,existing,171,"existing WP term"
+MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_process_type,Dimljeno,dimljeno,existing,166,"existing WP term"
+MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_process_type,Sušeno,suseno,existing,160,"existing WP term"
+MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,dry_process_type,Soljeno,soljeno,existing,653,"existing WP term"
