@@ -184,7 +184,7 @@ function dc_b001_detect_whole_cut_candidate($title, $expected_slug, $terms_by_ta
     }
 
     $md = (string) $markdown;
-    if (preg_match('/cijeli\s+komad|komad\s+bez\s+kosti|svinjske\s+vratine|svinjskog\s+filea|goveđi\s+but|govedi\s+but|janjeti\s+but|sušeni\s+vrat|suseni\s+vrat/iu', $md)) {
+    if (preg_match('/cijeli\s+komad(?![[:alpha:]])|komad\s+bez\s+kosti|svinjske\s+vratine|svinjskog\s+filea|goveđi\s+but|govedi\s+but|janjeti\s+but|sušeni\s+vrat|suseni\s+vrat/iu', $md)) {
         return true;
     }
 
