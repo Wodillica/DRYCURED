@@ -1,0 +1,3 @@
+mode,post_id,post_status,title,taxonomy,before_terms,after_terms,target_terms,result,reason
+EXECUTE,3067,publish,"Steirischer Rohschinken – štajerska sirova šunka",dry_product_category,"sušeni zreli sir|suseni-zreli-sir|1013","Sirova šunka|sirova-sunka|948","Sirova šunka",UPDATED_TAXONOMY_ONLY,"replace wrong cheese category for Austrian raw ham"
+EXECUTE,3078,private,"Boulette de Liège – lieške mesne okruglice",dry_product_category,"Suha kobasica|suha-kobasica|899","Mesna okruglica / kuhana mesna priprema|mesna-okruglica-kuhana-mesna-priprema|967","Mesna okruglica / kuhana mesna priprema",UPDATED_TAXONOMY_ONLY,"replace wrong dry sausage category for meatballs"
