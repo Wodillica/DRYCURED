@@ -1,0 +1,3 @@
+post_id,post_status,title,recipe_id,country,category,process,problem,recommended_action
+3067,publish,"Steirischer Rohschinken – štajerska sirova šunka",MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,Austrija,"sušeni zreli sir","suho soljeno|Sušeno|zreno",category_contains_cheese_for_meat_product,manual_taxonomy_review_only_no_content_change
+3078,private,"Boulette de Liège – lieške mesne okruglice",MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA,Belgija,"Suha kobasica","nije suhomesnati proizvod|svježe/kuhano",process_marks_not_dry_cured_product,manual_taxonomy_review_only_no_content_change
