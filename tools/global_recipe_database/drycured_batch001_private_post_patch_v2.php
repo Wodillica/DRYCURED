@@ -239,15 +239,84 @@ function dc_b001_source_gate_errors($recipe_id, $title, $expected_slug, $source,
     return array_values(array_unique($errors));
 }
 
-function dc_b001_find_private_post_by_slug($slug, $post_type) {
-    $posts = get_posts(array(
+function dc_b001_unique_posts_by_id($posts) {
+    $unique = array();
+    foreach (dc_b001_array($posts) as $post) {
+        if (!isset($post->ID)) {
+            continue;
+        }
+        $unique[(int) $post->ID] = $post;
+    }
+    return array_values($unique);
+}
+
+function dc_b001_find_posts_by_meta($meta_key, $meta_value, $post_type) {
+    if ((string) $meta_value === '') {
+        return array();
+    }
+
+    return dc_b001_unique_posts_by_id(get_posts(array(
+        'post_type' => $post_type,
+        'post_status' => array('private', 'publish', 'draft', 'pending', 'future'),
+        'meta_key' => $meta_key,
+        'meta_value' => $meta_value,
+        'numberposts' => -1,
+        'suppress_filters' => false,
+    )));
+}
+
+function dc_b001_find_posts_by_slug($slug, $post_type) {
+    if ((string) $slug === '') {
+        return array();
+    }
+
+    return dc_b001_unique_posts_by_id(get_posts(array(
         'name' => $slug,
         'post_type' => $post_type,
         'post_status' => array('private', 'publish', 'draft', 'pending', 'future'),
         'numberposts' => -1,
         'suppress_filters' => false,
-    ));
-    return dc_b001_array($posts);
+    )));
+}
+
+
+function dc_b001_content_regression_error($before_bytes, $after_bytes) {
+    $before = (int) $before_bytes;
+    $after = (int) $after_bytes;
+
+    if ($before >= 1000 && $after > 0 && $after < ($before * 0.80) && ($before - $after) >= 500) {
+        return 'content_regression_refused';
+    }
+
+    return '';
+}
+
+function dc_b001_find_existing_post_for_recipe($recipe_id, $slug, $post_type) {
+    $meta_keys = array('_dry_recipe_id', 'recipe_id', 'dry_recipe_code', 'drycured_source_recipe_id');
+    $ambiguous_meta_posts = array();
+
+    foreach ($meta_keys as $meta_key) {
+        $posts = dc_b001_find_posts_by_meta($meta_key, $recipe_id, $post_type);
+        if (count($posts) === 1) {
+            return $posts;
+        }
+        if (count($posts) > 1) {
+            foreach ($posts as $post) {
+                $ambiguous_meta_posts[(int) $post->ID] = $post;
+            }
+        }
+    }
+
+    $slug_posts = dc_b001_find_posts_by_slug($slug, $post_type);
+    if (count($slug_posts) === 1) {
+        return $slug_posts;
+    }
+
+    if ($ambiguous_meta_posts) {
+        return array_values($ambiguous_meta_posts);
+    }
+
+    return $slug_posts;
 }
 
 function dc_b001_taxonomy_terms_for_recipe($recipe_id, $taxonomy_rows, $allowed_taxonomies) {
@@ -376,7 +445,7 @@ foreach (dc_b001_array($plan_rows) as $plan) {
         continue;
     }
 
-    $posts = dc_b001_find_private_post_by_slug($expected_slug, $post_type);
+    $posts = dc_b001_find_existing_post_for_recipe($recipe_id, $expected_slug, $post_type);
     if (count($posts) !== 1) {
         $preflight_error_rows[] = array('recipe_id' => $recipe_id, 'expected_slug' => $expected_slug, 'error' => 'preflight_post_match_count_not_one', 'post_id' => '', 'notes' => 'candidate_count=' . count($posts));
         continue;
@@ -396,6 +465,20 @@ foreach (dc_b001_array($plan_rows) as $plan) {
 
     if ($source_gate_errors) {
         $preflight_error_rows[] = array('recipe_id' => $recipe_id, 'expected_slug' => $expected_slug, 'error' => 'preflight_source_gate_failed', 'post_id' => $post_id, 'notes' => implode('|', $source_gate_errors));
+        continue;
+    }
+
+    $before_content_bytes = strlen((string) $post->post_content);
+    $after_content_bytes = strlen((string) ($source['markdown'] ?? ''));
+    $content_regression_error = dc_b001_content_regression_error($before_content_bytes, $after_content_bytes);
+    if ($content_regression_error !== '') {
+        $preflight_error_rows[] = array(
+            'recipe_id' => $recipe_id,
+            'expected_slug' => $expected_slug,
+            'error' => 'preflight_content_regression_refused',
+            'post_id' => $post_id,
+            'notes' => 'before_content_bytes=' . $before_content_bytes . '|after_content_bytes=' . $after_content_bytes
+        );
         continue;
     }
 }
@@ -435,7 +518,7 @@ foreach (dc_b001_array($plan_rows) as $plan) {
         continue;
     }
 
-    $posts = dc_b001_find_private_post_by_slug($expected_slug, $post_type);
+    $posts = dc_b001_find_existing_post_for_recipe($recipe_id, $expected_slug, $post_type);
     if (count($posts) !== 1) {
         $errors++;
         $error_rows[] = array('recipe_id' => $recipe_id, 'expected_slug' => $expected_slug, 'error' => 'post_match_count_not_one', 'post_id' => '', 'notes' => 'candidate_count=' . count($posts));
@@ -468,11 +551,43 @@ foreach (dc_b001_array($plan_rows) as $plan) {
         continue;
     }
 
+    $source_gate_errors = dc_b001_source_gate_errors($recipe_id, $title, $expected_slug, $source, $terms_by_taxonomy);
+    if ($source_gate_errors) {
+        $errors++;
+        $error_rows[] = array('recipe_id' => $recipe_id, 'expected_slug' => $expected_slug, 'error' => 'source_gate_failed', 'post_id' => $post_id, 'notes' => implode('|', $source_gate_errors));
+        continue;
+    }
+
     $meta = dc_b001_meta_payload($recipe_id, $dry_row, $source, $terms_by_taxonomy, $pipeline_version, $batch_name);
     $before_content_bytes = strlen((string) $post->post_content);
     $current_country_terms = wp_get_object_terms($post_id, 'dry_country', array('fields' => 'names'));
     $before_country = is_wp_error($current_country_terms) ? '' : implode('|', dc_b001_array($current_country_terms));
     $target_country = dc_b001_first_term($terms_by_taxonomy, 'dry_country');
+
+    if ($before_country !== '' && $target_country !== '' && $before_country !== $target_country) {
+        $errors++;
+        $error_rows[] = array(
+            'recipe_id' => $recipe_id,
+            'expected_slug' => $expected_slug,
+            'error' => 'taxonomy_country_mismatch_refused',
+            'post_id' => $post_id,
+            'notes' => 'before_country=' . $before_country . '|target_country=' . $target_country
+        );
+        continue;
+    }
+
+    $content_regression_error = dc_b001_content_regression_error($before_content_bytes, strlen($markdown));
+    if ($content_regression_error !== '') {
+        $errors++;
+        $error_rows[] = array(
+            'recipe_id' => $recipe_id,
+            'expected_slug' => $expected_slug,
+            'error' => 'content_regression_refused',
+            'post_id' => $post_id,
+            'notes' => 'before_content_bytes=' . $before_content_bytes . '|after_content_bytes=' . strlen($markdown)
+        );
+        continue;
+    }
 
     $row_report = array(
         'recipe_id' => $recipe_id,
