@@ -165,6 +165,80 @@ function dc_b001_markdown_from_source($recipe_id, $record_number, $source_excerp
     );
 }
 
+
+function dc_b001_flatten_terms_text($terms_by_taxonomy) {
+    $parts = array();
+    foreach (dc_b001_array($terms_by_taxonomy) as $taxonomy => $terms) {
+        $parts[] = (string) $taxonomy;
+        foreach (dc_b001_array($terms) as $term) {
+            $parts[] = (string) $term;
+        }
+    }
+    return implode(' ', $parts);
+}
+
+function dc_b001_detect_whole_cut_candidate($title, $expected_slug, $terms_by_taxonomy, $markdown) {
+    $haystack = (string) $title . ' ' . (string) $expected_slug . ' ' . dc_b001_flatten_terms_text($terms_by_taxonomy);
+    if (preg_match('/cijeli\s*komad|whole[\s_-]*cut|vrat|file|but|rebra|lomo|coppa|capocollo|basturma|pastourma|pastourmas|pastrama|bündner|bundner|lountza|apohti|hangikj|elenski|elena\s+filet|vyrezka|hateclett/iu', $haystack)) {
+        return true;
+    }
+
+    $md = (string) $markdown;
+    if (preg_match('/cijeli\s+komad|komad\s+bez\s+kosti|svinjske\s+vratine|svinjskog\s+filea|goveđi\s+but|govedi\s+but|janjeti\s+but|sušeni\s+vrat|suseni\s+vrat/iu', $md)) {
+        return true;
+    }
+
+    return false;
+}
+
+function dc_b001_source_gate_errors($recipe_id, $title, $expected_slug, $source, $terms_by_taxonomy) {
+    $errors = array();
+    $markdown = (string) ($source['markdown'] ?? '');
+    $source_file = (string) ($source['source_file'] ?? '');
+    $raw_json = $source['raw_json'] ?? array();
+
+    if ($markdown === '') {
+        $errors[] = 'source_markdown_empty';
+    }
+
+    if (strlen($markdown) < 1000) {
+        $errors[] = 'source_markdown_too_short';
+    }
+
+    if (!preg_match('/sastojci|sirovine|meso|sol/iu', $markdown)) {
+        $errors[] = 'source_missing_ingredients_marker';
+    }
+
+    if (!preg_match('/postupak|priprema|proces|sušenje|susenje|zrenje|dimljenje|soljenje/iu', $markdown)) {
+        $errors[] = 'source_missing_process_marker';
+    }
+
+    $bad_false_product_patterns = array(
+        'false_seafood_marker' => '/riba\/morski\s+proizvodi|morski\s+proizvodi|neptunov\s+dar|planinsko-morski|trogirski\s+zephyr|makarski\s+jugo/iu',
+        'generic_placeholder_marker' => '/mesna\s+sirovina\s+prema\s+receptu|začini\s+prema\s+receptu|zacini\s+prema\s+receptu|postupak\s+prema\s+receptu/iu',
+        'internal_note_marker' => '/privatni\s+radni\s+recept|masovni\s+unos|treba\s+ga\s+završno\s+uskladiti|treba\s+ga\s+zavrsno\s+uskladiti/iu',
+    );
+
+    foreach ($bad_false_product_patterns as $code => $pattern) {
+        if (preg_match($pattern, $markdown) || preg_match($pattern, $source_file)) {
+            $errors[] = $code;
+        }
+    }
+
+    $is_whole_cut = dc_b001_detect_whole_cut_candidate($title, $expected_slug, $terms_by_taxonomy, $markdown);
+    if ($is_whole_cut) {
+        if (preg_match('/mljevenje|samljeti|nadjev|miješanje\s+nadjeva|mijesanje\s+nadjeva|punjenje|napuniti.{0,80}crijev|crijeva|crijevo|omotač|omotac/iu', $markdown)) {
+            $errors[] = 'whole_cut_contains_sausage_process_or_casing';
+        }
+    }
+
+    if (!is_array($raw_json) || !$raw_json) {
+        $errors[] = 'source_raw_json_missing';
+    }
+
+    return array_values(array_unique($errors));
+}
+
 function dc_b001_find_private_post_by_slug($slug, $post_type) {
     $posts = get_posts(array(
         'name' => $slug,
@@ -281,6 +355,59 @@ if (!$plan_rows) {
         );
     }
 }
+
+
+$preflight_error_rows = array();
+
+foreach (dc_b001_array($plan_rows) as $plan) {
+    $recipe_id = $plan['recipe_id'] ?? '';
+    $dry_row = $dry_by_recipe[$recipe_id] ?? array();
+    $title = $plan['source_title'] ?? ($dry_row['title'] ?? '');
+    $expected_slug = $plan['expected_slug'] ?? ($dry_row['slug'] ?? '');
+    $record_number = $dry_row['record_number'] ?? '';
+    $planned_action = $plan['planned_action'] ?? ($dry_row['dry_run_action'] ?? '');
+
+    if ($recipe_id === '' || $expected_slug === '') {
+        $preflight_error_rows[] = array('recipe_id' => $recipe_id, 'expected_slug' => $expected_slug, 'error' => 'missing_recipe_id_or_expected_slug', 'post_id' => '', 'notes' => '');
+        continue;
+    }
+
+    if ($planned_action !== '' && $planned_action !== 'WOULD_CREATE_PRIVATE') {
+        continue;
+    }
+
+    $posts = dc_b001_find_private_post_by_slug($expected_slug, $post_type);
+    if (count($posts) !== 1) {
+        $preflight_error_rows[] = array('recipe_id' => $recipe_id, 'expected_slug' => $expected_slug, 'error' => 'preflight_post_match_count_not_one', 'post_id' => '', 'notes' => 'candidate_count=' . count($posts));
+        continue;
+    }
+
+    $post = $posts[0];
+    $post_id = (int) $post->ID;
+
+    if ($post->post_status !== 'private') {
+        $preflight_error_rows[] = array('recipe_id' => $recipe_id, 'expected_slug' => $expected_slug, 'error' => 'preflight_refused_non_private_post', 'post_id' => $post_id, 'notes' => 'status=' . $post->post_status);
+        continue;
+    }
+
+    $source = dc_b001_markdown_from_source($recipe_id, $record_number, $source_excerpt_dir, $clean_index);
+    $terms_by_taxonomy = dc_b001_taxonomy_terms_for_recipe($recipe_id, $taxonomy_rows, $allowed_taxonomies);
+    $source_gate_errors = dc_b001_source_gate_errors($recipe_id, $title, $expected_slug, $source, $terms_by_taxonomy);
+
+    if ($source_gate_errors) {
+        $preflight_error_rows[] = array('recipe_id' => $recipe_id, 'expected_slug' => $expected_slug, 'error' => 'preflight_source_gate_failed', 'post_id' => $post_id, 'notes' => implode('|', $source_gate_errors));
+        continue;
+    }
+}
+
+$preflight_error_header = array('recipe_id', 'expected_slug', 'error', 'post_id', 'notes');
+dc_b001_write_csv($report_dir . '/BATCH_001_PATCH_PREFLIGHT_ERRORS.csv', $preflight_error_rows, $preflight_error_header);
+
+if ($execute && $preflight_error_rows) {
+    fwrite(STDERR, "EXECUTE refused: preflight source gate failed for " . count($preflight_error_rows) . " row(s). See BATCH_001_PATCH_PREFLIGHT_ERRORS.csv\n");
+    exit(1);
+}
+
 
 $dry_report_rows = array();
 $execute_report_rows = array();
