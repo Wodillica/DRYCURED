@@ -1237,6 +1237,35 @@ if (!function_exists('drycured_mdv5_garlic_liquid_normalize_v03')) {
             return $profile;
         }
 
+        $source_has_any_garlic = false;
+        foreach ($ingredient_lines as $line) {
+            if (preg_match('/češnjak|cesnjak|bijeli luk|garlic/iu', $line)) {
+                $source_has_any_garlic = true;
+                break;
+            }
+        }
+
+        if (!$source_garlic_direct && !$source_has_any_garlic) {
+            if (!empty($profile['liquids']) && is_array($profile['liquids'])) {
+                $new_liquids = [];
+                foreach ($profile['liquids'] as $item) {
+                    $txt = is_array($item)
+                        ? wp_json_encode($item, JSON_UNESCAPED_UNICODE)
+                        : (string)$item;
+
+                    if (preg_match('/češnjak|cesnjak|bijeli luk|garlic/iu', $txt)) {
+                        continue;
+                    }
+
+                    $new_liquids[] = $item;
+                }
+                $profile['liquids'] = $new_liquids;
+            }
+
+            $profile['_garlic_mode_v03'] = 'NO_GARLIC';
+            return $profile;
+        }
+
         if (!$source_garlic_direct) {
             return $profile;
         }
