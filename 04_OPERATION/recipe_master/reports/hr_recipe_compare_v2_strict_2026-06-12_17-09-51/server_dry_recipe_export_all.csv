@@ -1,0 +1,846 @@
+post_id,title,slug,status,url,country_meta,region_meta,code_meta
+1975,"Istarska kobasica",istarska-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=1975,,,HR-IST-KOB-VODIC-001
+1976,"Primorska kobasica",primorska-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=1976,,,HR-PRI-KOB-PRIMORSKA-001
+1977,"Creski udić — pršut od ovce",creski-udic-prsut-od-ovce,draft,https://drycured.com/?post_type=dry_recipe&p=1977,,,HR-CRES-UDIC-001
+1978,"Creska janjeća roštilj kobasica",creska-janjeca-rostilj-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=1978,,,HR-CRES-JANJECA-ROSTILJ-001
+1979,"Testni recept iz kalkulatora",testni-recept-iz-kalkulatora,draft,https://drycured.com/?post_type=dry_recipe&p=1979,,,DRY--24CBF503
+1980,"Davorova kobasa",davorova-kobasa,draft,https://drycured.com/?post_type=dry_recipe&p=1980,,,DRY--45E2E24F
+1981,"TRADICIJSKIH TALIJANSKIH RECEPATA ZA SUHOMESNATE PROIZVODE",tradicijskih-talijanskih-recepata-za-suhomesnate-proizvode,draft,https://drycured.com/?post_type=dry_recipe&p=1981,,,IT-TRADICIJSKIH_TALIJANSKIH_RECEPATA_ZA_SUHOM-0001
+1982,"FINOCCHIONA TOSCANA",finocchiona-toscana,publish,https://drycured.com/recepti-baza/finocchiona-toscana/,,,MD-FINOCCHIONA_TOSCANA
+1983,"PROSCIUTTO DI SAN DANIELE",prosciutto-di-san-daniele,publish,https://drycured.com/recepti-baza/prosciutto-di-san-daniele/,,,MD-PROSCIUTTO_DI_SAN_DANIELE
+1984,"NDUJA CALABRESE",nduja-calabrese,publish,https://drycured.com/recepti-baza/nduja-calabrese/,,,MD-NDUJA_CALABRESE
+1985,"SPECK ALTO ADIGE",speck-alto-adige,draft,https://drycured.com/?post_type=dry_recipe&p=1985,,,IT-SPECK_ALTO_ADIGE-0005
+1986,"LARDO DI COLONNATA",lardo-di-colonnata,publish,https://drycured.com/recepti-baza/lardo-di-colonnata/,,,MD-LARDO_DI_COLONNATA
+1987,"MORTADELLA BOLOGNA",mortadella-bologna,private,https://drycured.com/?post_type=dry_recipe&p=1987,,,MD-MORTADELLA_BOLOGNA
+1988,"SOPPRESSA VICENTINA",soppressa-vicentina,publish,https://drycured.com/recepti-baza/soppressa-vicentina/,,,MD-SOPPRESSA_VICENTINA
+1989,"PORCHETTA ROMANA",porchetta-romana,private,https://drycured.com/?post_type=dry_recipe&p=1989,,,MD-PORCHETTA_ROMANA
+1990,"SALAME DI FELINO",salame-di-felino,publish,https://drycured.com/recepti-baza/salame-di-felino/,,,MD-SALAME_DI_FELINO
+1991,"GUANCIALE ROMANO",guanciale-romano,publish,https://drycured.com/recepti-baza/guanciale-romano/,,,MD-GUANCIALE_ROMANO
+1992,"Engleska Cumberland Kobasica",engleska-cumberland-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=1992,,,UK-ENGLESKA_CUMBERLAND_KOBASICA-0012
+1993,"Škotska Lorne Kobasica",skotska-lorne-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=1993,,,UK-SKOTSKA_LORNE_KOBASICA-0013
+1994,"Islandska Hangikjöt Kobasica",islandska-hangikjot-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=1994,,,IS-ISLANDSKA_HANGIKJOT_KOBASICA-0015
+1995,"Posavska Krvavica sa Šumskim Začinima",posavska-krvavica-sa-sumskim-zacinima,private,https://drycured.com/?post_type=dry_recipe&p=1995,,,MD-POSAVSKA_KRVAVICA_SA_SUMSKIM_ZACINIMA
+1996,"Tradicionalni suhomesnati proizvodi Slavonije",tradicionalni-suhomesnati-proizvodi-slavonije,draft,https://drycured.com/?post_type=dry_recipe&p=1996,,,HR-TRADICIONALNI_SUHOMESNATI_PROIZVODI_SLAVON-0021
+1997,"Etnografska studija kulinarskog naslijeđa",etnografska-studija-kulinarskog-naslijeda,draft,https://drycured.com/?post_type=dry_recipe&p=1997,,,HR-ETNOGRAFSKA_STUDIJA_KULINARSKOG_NASLIJE_A-0022
+1998,"Tradicionalni suhomesnati proizvodi",tradicionalni-suhomesnati-proizvodi,draft,https://drycured.com/?post_type=dry_recipe&p=1998,,,HR-TRADICIONALNI_SUHOMESNATI_PROIZVODI-0023
+1999,"Salo (Сало) - Ukrajinska slanina",salo-%d1%81%d0%b0%d0%bb%d0%be-ukrajinska-slanina,draft,https://drycured.com/?post_type=dry_recipe&p=1999,,,UA-SALO_UKRAJINSKA_SLANINA-0024
+2000,"Domašnja Kovbasa (Домашня ковбаса) - Domaća kobasica",domasnja-kovbasa-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d1%8f-%d0%ba%d0%be%d0%b2%d0%b1%d0%b0%d1%81%d0%b0-domaca-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2000,,,UA-DOMASNJA_KOVBASA_DOMACA_KOBASICA-0025
+2001,"Kholodets (Холодець) - Hladetina od mesa",kholodets-%d1%85%d0%be%d0%bb%d0%be%d0%b4%d0%b5%d1%86%d1%8c-hladetina-od-mesa,draft,https://drycured.com/?post_type=dry_recipe&p=2001,,,UA-KHOLODETS_HLADETINA_OD_MESA-0027
+2002,"Solonina (Солонина) - Salamurena govedina",solonina-%d1%81%d0%be%d0%bb%d0%be%d0%bd%d0%b8%d0%bd%d0%b0-salamurena-govedina,draft,https://drycured.com/?post_type=dry_recipe&p=2002,,,UA-SOLONINA_SALAMURENA_GOVEDINA-0028
+2003,"Shukhevychivska Kovbasa (Шухевичівська ковбаса) - Sušena kobasica s paprom",shukhevychivska-kovbasa-%d1%88%d1%83%d1%85%d0%b5%d0%b2%d0%b8%d1%87%d1%96%d0%b2%d1%81%d1%8c%d0%ba%d0%b0-%d0%ba%d0%be%d0%b2%d0%b1%d0%b0%d1%81%d0%b0-susena-kobasica-s-paprom,draft,https://drycured.com/?post_type=dry_recipe&p=2003,,,UA-SHUKHEVYCHIVSKA_KOVBASA_SUSENA_KOBASICA_S_-0030
+2004,"Pashtetna (Паштетна) - Pečena mesna pašteta",pashtetna-%d0%bf%d0%b0%d1%88%d1%82%d0%b5%d1%82%d0%bd%d0%b0-pecena-mesna-pasteta,draft,https://drycured.com/?post_type=dry_recipe&p=2004,,,UA-PASHTETNA_PECENA_MESNA_PASTETA-0031
+2005,"UJEDINJENO KRALJEVSTVO - Tradicionalni recepti",ujedinjeno-kraljevstvo-tradicionalni-recepti,draft,https://drycured.com/?post_type=dry_recipe&p=2005,,,EU-UJEDINJENO_KRALJEVSTVO_TRADICIONALNI_RECEP-0051
+2006,"Cumberland Sausage",cumberland-sausage,draft,https://drycured.com/?post_type=dry_recipe&p=2006,,,EU-CUMBERLAND_SAUSAGE-0052
+2007,"Kompleksna zbirka tradicionalnih suhomesnatih recepata iz Europe",kompleksna-zbirka-tradicionalnih-suhomesnatih-recepata-iz-europe,draft,https://drycured.com/?post_type=dry_recipe&p=2007,,,GR-KOMPLEKSNA_ZBIRKA_TRADICIONALNIH_SUHOMESNA-0054
+2008,"GRČKA - Tradicionalni recepti za Loukaniko",grcka-tradicionalni-recepti-za-loukaniko,draft,https://drycured.com/?post_type=dry_recipe&p=2008,,,GR-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO-0055
+2009,"Tradicionalni Loukaniko sa Krete",tradicionalni-loukaniko-sa-krete,draft,https://drycured.com/?post_type=dry_recipe&p=2009,,,EU-TRADICIONALNI_LOUKANIKO_SA_KRETE-0056
+2010,"Makedončki Loukaniko sa Planinom",makedoncki-loukaniko-sa-planinom,draft,https://drycured.com/?post_type=dry_recipe&p=2010,,,EU-MAKEDONCKI_LOUKANIKO_SA_PLANINOM-0057
+2011,"Kompleksna zbirka tradicionalnih suhomesnatih recepata iz Europe",kompleksna-zbirka-tradicionalnih-suhomesnatih-recepata-iz-europe-2,draft,https://drycured.com/?post_type=dry_recipe&p=2011,,,FR-KOMPLEKSNA_ZBIRKA_TRADICIONALNIH_SUHOMESNA-0061
+2012,"FRANCUSKA - Tradicionalni recepti za saucisson",francuska-tradicionalni-recepti-za-saucisson,draft,https://drycured.com/?post_type=dry_recipe&p=2012,,,FR-FRANCUSKA_TRADICIONALNI_RECEPTI_ZA_SAUCISS-0062
+2013,"Saucisson sec iz Lyona",saucisson-sec-iz-lyona,draft,https://drycured.com/?post_type=dry_recipe&p=2013,,,EU-SAUCISSON_SEC_IZ_LYONA-0063
+2014,"Kompleksna zbirka tradicionalnih suhomesnatih recepata iz Europe",kompleksna-zbirka-tradicionalnih-suhomesnatih-recepata-iz-europe-3,draft,https://drycured.com/?post_type=dry_recipe&p=2014,,,CZ-KOMPLEKSNA_ZBIRKA_TRADICIONALNIH_SUHOMESNA-0064
+2015,"ČEŠKA - Tradicionalni recepti",ceska-tradicionalni-recepti,draft,https://drycured.com/?post_type=dry_recipe&p=2015,,,CZ-CESKA_TRADICIONALNI_RECEPTI-0065
+2016,"Lovecká Saláma (Lovačka salama)",lovecka-salama-lovacka-salama,draft,https://drycured.com/?post_type=dry_recipe&p=2016,,,EU-LOVECKA_SALAMA-0066
+2017,"Drisheen (Tradicionalna irska krvavica od ovčje krvi)",drisheen-tradicionalna-irska-krvavica-od-ovcje-krvi,private,https://drycured.com/?post_type=dry_recipe&p=2017,,,MD-DRISHEEN_TRADICIONALNA_IRSKA_KRVAVICA_OD_OVCJE_KRVI
+2018,"Irska salama (Spiced Irish Salami)",irska-salama-spiced-irish-salami,publish,https://drycured.com/recepti-baza/irska-salama-spiced-irish-salami/,,,MD-IRSKA_SALAMA_SPICED_IRISH_SALAMI
+2019,"Landjäger kobasice s bavarskom salatom od krumpira",landjager-kobasice-s-bavarskom-salatom-od-krumpira,private,https://drycured.com/?post_type=dry_recipe&p=2019,,,MD-LANDJAGER_KOBASICE_S_BAVARSKOM_SALATOM_OD_KRUMPIRA
+2020,"Mettwurst s toplom salatom od krumpira i zelenog graha",mettwurst-s-toplom-salatom-od-krumpira-i-zelenog-graha,private,https://drycured.com/?post_type=dry_recipe&p=2020,,,MD-METTWURST_S_TOPLOM_SALATOM_OD_KRUMPIRA_I_ZELENOG_GRAHA
+2021,"Cumberland kobasica",cumberland-kobasica,publish,https://drycured.com/recepti-baza/cumberland-kobasica/,,,MD-CUMBERLAND_KOBASICA
+2022,"Recepti za salame i suhomesnate proizvode iz europskih zemalja",recepti-za-salame-i-suhomesnate-proizvode-iz-europskih-zemalja,draft,https://drycured.com/?post_type=dry_recipe&p=2022,,,GR-RECEPTI_ZA_SALAME_I_SUHOMESNATE_PROIZVODE_-0098
+2023,"?? Grčki tradicionalni recept - Loukaniko",grcki-tradicionalni-recept-loukaniko,publish,https://drycured.com/recepti-baza/grcki-tradicionalni-recept-loukaniko/,,,MD-GRCKI_TRADICIONALNI_RECEPT_LOUKANIKO
+2024,"Slovački recept - Turistická Saláma",slovacki-recept-turisticka-salama,draft,https://drycured.com/?post_type=dry_recipe&p=2024,,,SK-SLOVACKI_RECEPT_TURISTICKA_SALAMA-0104
+2025,"Recepti za salame i suhomesnate proizvode iz evropskih zemalja",recepti-za-salame-i-suhomesnate-proizvode-iz-evropskih-zemalja,draft,https://drycured.com/?post_type=dry_recipe&p=2025,,,IT-RECEPTI_ZA_SALAME_I_SUHOMESNATE_PROIZVODE_-0108
+2026,"?? Španjolski recept za chorizo",spanjolski-recept-za-chorizo,publish,https://drycured.com/recepti-baza/spanjolski-recept-za-chorizo/,,,MD-SPANJOLSKI_RECEPT_ZA_CHORIZO
+2027,"Nemački recept za Mettwurst",nemacki-recept-za-mettwurst,draft,https://drycured.com/?post_type=dry_recipe&p=2027,,,EU-NEMACKI_RECEPT_ZA_METTWURST-0111
+2028,"Češki Špekáček (Špek Kobasica)",ceski-spekacek-spek-kobasica,publish,https://drycured.com/recepti-baza/ceski-spekacek-spek-kobasica/,,,MD-CESKI_SPEKACEK_SPEK_KOBASICA
+2029,"JAMBON DE BAYONNE",jambon-de-bayonne,publish,https://drycured.com/recepti-baza/jambon-de-bayonne/,,,MD-JAMBON_DE_BAYONNE
+2030,"Saucisson Sec (Suha kobasica)",saucisson-sec-suha-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2030,,,FR-SAUCISSON_SEC-0127
+2031,"RILLETTES DU MANS",rillettes-du-mans,draft,https://drycured.com/?post_type=dry_recipe&p=2031,,,FR-RILLETTES_DU_MANS-0128
+2032,"Coppa (Kapula)",coppa-kapula,publish,https://drycured.com/recepti-baza/coppa-kapula/,,,MD-COPPA_KAPULA
+2033,"Andouille de Guémené",andouille-de-guemene,publish,https://drycured.com/recepti-baza/andouille-de-guemene/,,,MD-ANDOUILLE_DE_GUEMENE
+2034,"JÉSUS DE LYON",jesus-de-lyon,draft,https://drycured.com/?post_type=dry_recipe&p=2034,,,FR-JESUS_DE_LYON-0133
+2035,"Tradicionalna irska krvavica (Black Pudding)",tradicionalna-irska-krvavica-black-pudding,private,https://drycured.com/?post_type=dry_recipe&p=2035,,,MD-TRADICIONALNA_IRSKA_KRVAVICA_BLACK_PUDDING
+2036,"Irska bijela krvavica (White Pudding)",irska-bijela-krvavica-white-pudding,private,https://drycured.com/?post_type=dry_recipe&p=2036,,,MD-IRSKA_BIJELA_KRVAVICA_WHITE_PUDDING
+2037,"Hangikjöt (Dimljeni janjeti but)",hangikjot-dimljeni-janjeti-but,publish,https://drycured.com/recepti-baza/hangikjot-dimljeni-janjeti-but/,,,MD-HANGIKJOT_DIMLJENI_JANJETI_BUT
+2038,"Heilhornað Hangikjöt (Sušena janjeća rebra)",heilhornad-hangikjot-susena-janjeca-rebra,draft,https://drycured.com/?post_type=dry_recipe&p=2038,,,IS-HEILHORNA_HANGIKJOT-0155
+2039,"Ukrajinska Domashnia Kovbasa (Domaća Kobasica)",ukrajinska-domashnia-kovbasa-domaca-kobasica,publish,https://drycured.com/recepti-baza/ukrajinska-domashnia-kovbasa-domaca-kobasica/,,,MD-UKRAJINSKA_DOMASHNIA_KOVBASA_DOMACA_KOBASICA
+2040,"Mađarski Pick Salami (Pick Szalámi)",madarski-pick-salami-pick-szalami,draft,https://drycured.com/?post_type=dry_recipe&p=2040,,,EU-MA_ARSKI_PICK_SALAMI-0170
+2041,"Mađarska Slanina (Szalonna)",madarska-slanina-szalonna,draft,https://drycured.com/?post_type=dry_recipe&p=2041,,,EU-MA_ARSKA_SLANINA-0172
+2042,"BALMOȘ CU SLANINĂ (PALENTA SA SLANINOM)",balmos-cu-slanina-palenta-sa-slaninom,publish,https://drycured.com/recepti-baza/balmos-cu-slanina-palenta-sa-slaninom/,,,MD-BALMO_CU_SLANIN_PALENTA_SA_SLANINOM
+2043,"PFÄLZER SAUMAGEN (FALAČKA SVINJSKA ŽELUDAC-KOBASICA)",pfalzer-saumagen-falacka-svinjska-zeludac-kobasica,publish,https://drycured.com/recepti-baza/pfalzer-saumagen-falacka-svinjska-zeludac-kobasica/,,,MD-PFALZER_SAUMAGEN_FALACKA_SVINJSKA_ZELUDAC_KOBASICA
+2044,"NÜRNBERGER BRATWURST (NIRNBERŠKA KOBASICA ZA PEČENJE)",nurnberger-bratwurst-nirnberska-kobasica-za-pecenje,private,https://drycured.com/?post_type=dry_recipe&p=2044,,,MD-NURNBERGER_BRATWURST_NIRNBERSKA_KOBASICA_ZA_PECENJE
+2045,"Salata sa Schinkenspeck kobasicama",salata-sa-schinkenspeck-kobasicama,private,https://drycured.com/?post_type=dry_recipe&p=2045,,,MD-SALATA_SA_SCHINKENSPECK_KOBASICAMA
+2046,"Rinderbeiried sendvič",rinderbeiried-sendvic,private,https://drycured.com/?post_type=dry_recipe&p=2046,,,MD-RINDERBEIRIED_SENDVIC
+2047,"Domaći Bratwurst",domaci-bratwurst,publish,https://drycured.com/recepti-baza/domaci-bratwurst/,,,MD-DOMACI_BRATWURST
+2048,"Domaći Leberwurst (Pašteta od jetre)",domaci-leberwurst-pasteta-od-jetre,private,https://drycured.com/?post_type=dry_recipe&p=2048,,,MD-DOMACI_LEBERWURST_PASTETA_OD_JETRE
+2049,"Hausmacher Mettwurst (Domaća dimljena kobasica za mazanje)",hausmacher-mettwurst-domaca-dimljena-kobasica-za-mazanje,publish,https://drycured.com/recepti-baza/hausmacher-mettwurst-domaca-dimljena-kobasica-za-mazanje/,,,MD-HAUSMACHER_METTWURST_DOMACA_DIMLJENA_KOBASICA_ZA_MAZANJE
+2050,"Secallona - Tradicionalna Katalonska Sušena Slanina",secallona-tradicionalna-katalonska-susena-slanina,draft,https://drycured.com/?post_type=dry_recipe&p=2050,,,EU-SECALLONA_TRADICIONALNA_KATALONSKA_SUSENA_-0216
+2051,"ŠKOTSKI LORNE SAUSAGE (ČETVRTASTI KOBASIČASTI ODREZAK)",skotski-lorne-sausage-cetvrtasti-kobasicasti-odrezak,publish,https://drycured.com/recepti-baza/skotski-lorne-sausage-cetvrtasti-kobasicasti-odrezak/,,,MD-SKOTSKI_LORNE_SAUSAGE_CETVRTASTI_KOBASICASTI_ODREZAK
+2052,"Jamón Ibérico de Bellota - Iberijski Pršut od Žira",jamon-iberico-de-bellota-iberijski-prsut-od-zira,publish,https://drycured.com/recepti-baza/jamon-iberico-de-bellota-iberijski-prsut-od-zira/,,,MD-JAMON_IBERICO_DE_BELLOTA_IBERIJSKI_PRSUT_OD_ZIRA
+2053,"Chorizo de Pamplona - Čorizo iz Pamplone",chorizo-de-pamplona-corizo-iz-pamplone,publish,https://drycured.com/recepti-baza/chorizo-de-pamplona-corizo-iz-pamplone/,,,MD-CHORIZO_DE_PAMPLONA_CORIZO_IZ_PAMPLONE
+2054,"Sobrasada Mallorquina - Majorška Sobrasada",sobrasada-mallorquina-majorska-sobrasada,draft,https://drycured.com/?post_type=dry_recipe&p=2054,,,ES-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA-0233
+2055,"Coppa Piacentina - Piacentinska Coppa",coppa-piacentina-piacentinska-coppa,publish,https://drycured.com/recepti-baza/coppa-piacentina-piacentinska-coppa/,,,MD-COPPA_PIACENTINA_PIACENTINSKA_COPPA
+2056,"Nduja Calabrese - Kalabrijska Nduja",nduja-calabrese-kalabrijska-nduja,publish,https://drycured.com/recepti-baza/nduja-calabrese-kalabrijska-nduja/,,,MD-NDUJA_CALABRESE_KALABRIJSKA_NDUJA
+2057,"Bresaola Valtellinese - Valtelinska Bresaola",bresaola-valtellinese-valtelinska-bresaola,publish,https://drycured.com/recepti-baza/bresaola-valtellinese-valtelinska-bresaola/,,,MD-BRESAOLA_VALTELLINESE_VALTELINSKA_BRESAOLA
+2058,"Guanciale Romano - Rimski Guanciale",guanciale-romano-rimski-guanciale,publish,https://drycured.com/recepti-baza/guanciale-romano-rimski-guanciale/,,,MD-GUANCIALE_ROMANO_RIMSKI_GUANCIALE
+2059,"SALAME MILANO - MILANSKA SALAMA",salame-milano-milanska-salama,publish,https://drycured.com/recepti-baza/salame-milano-milanska-salama/,,,MD-SALAME_MILANO_MILANSKA_SALAMA
+2060,"SOPPRESSATA CALABRESE - KALABRIJSKA SOPPRESSATA",soppressata-calabrese-kalabrijska-soppressata,publish,https://drycured.com/recepti-baza/soppressata-calabrese-kalabrijska-soppressata/,,,MD-SOPPRESSATA_CALABRESE_KALABRIJSKA_SOPPRESSATA
+2061,"PROSCIUTTO DI PARMA - PARMSKA ŠUNKA",prosciutto-di-parma-parmska-sunka,publish,https://drycured.com/recepti-baza/prosciutto-di-parma-parmska-sunka/,,,MD-PROSCIUTTO_DI_PARMA_PARMSKA_SUNKA
+2062,"PANCETTA ARROTOLATA - ROLANA PANCETA",pancetta-arrotolata-rolana-panceta,publish,https://drycured.com/recepti-baza/pancetta-arrotolata-rolana-panceta/,,,MD-PANCETTA_ARROTOLATA_ROLANA_PANCETA
+2063,"FINOCCHIONA TOSCANA - TOSKANSKA KOBASICA S KOMORAČEM",finocchiona-toscana-toskanska-kobasica-s-komoracem,publish,https://drycured.com/recepti-baza/finocchiona-toscana-toskanska-kobasica-s-komoracem/,,,MD-FINOCCHIONA_TOSCANA_TOSKANSKA_KOBASICA_S_KOMORACEM
+2064,"COPPA (CAPOCOLLO) - TALIJANSKA VRATINA",coppa-capocollo-talijanska-vratina,publish,https://drycured.com/recepti-baza/coppa-capocollo-talijanska-vratina/,,,MD-COPPA_CAPOCOLLO_TALIJANSKA_VRATINA
+2065,"Tiroler Speck (Tirolska slanina)",tiroler-speck-tirolska-slanina,draft,https://drycured.com/?post_type=dry_recipe&p=2065,,,AT-TIROLER_SPECK-0261
+2066,"Kärntner Wurzelspeck (Koruška korijenska slanina)",karntner-wurzelspeck-koruska-korijenska-slanina,draft,https://drycured.com/?post_type=dry_recipe&p=2066,,,AT-KARNTNER_WURZELSPECK-0262
+2067,"Waldviertler Hirschsalami (Salama od jelena iz Waldviertela)",waldviertler-hirschsalami-salama-od-jelena-iz-waldviertela,draft,https://drycured.com/?post_type=dry_recipe&p=2067,,,AT-WALDVIERTLER_HIRSCHSALAMI-0264
+2068,"SAUCISSON D'ARDENNE (ARDENSKI KULEN)",saucisson-dardenne-ardenski-kulen,draft,https://drycured.com/?post_type=dry_recipe&p=2068,,,BE-SAUCISSON_D_ARDENNE-0270
+2069,"LARD FUMÉ DE FLANDRE (FLAMANSKO DIMLJENO SALO)",lard-fume-de-flandre-flamansko-dimljeno-salo,draft,https://drycured.com/?post_type=dry_recipe&p=2069,,,BE-LARD_FUME_DE_FLANDRE-0272
+2070,"BOUDIN BLANC DE BRUXELLES (BIJELA KRVAVICA IZ BRUXELLESA)",boudin-blanc-de-bruxelles-bijela-krvavica-iz-bruxellesa,draft,https://drycured.com/?post_type=dry_recipe&p=2070,,,BE-BOUDIN_BLANC_DE_BRUXELLES-0275
+2071,"Butifarra Blanca - Tradicionalna Bijela Katalonska Kobasica",butifarra-blanca-tradicionalna-bijela-katalonska-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2071,,,EU-BUTIFARRA_BLANCA_TRADICIONALNA_BIJELA_KATA-0292
+2072,"Njeguški pršut",njeguski-prsut,publish,https://drycured.com/recepti-baza/njeguski-prsut/,,,MD-NJEGUSKI_PRSUT
+2073,"Kistanje Začinjena Panceta (Specifični sušeni vrat)",kistanje-zacinjena-panceta-specificni-suseni-vrat,private,https://drycured.com/?post_type=dry_recipe&p=2073,,,MD-KISTANJE_ZACINJENA_PANCETA_SPECIFICNI_SUSENI_VRAT
+2074,"Petrovo Polje Začinska Slanina (Specifični začinjeni komad)",petrovo-polje-zacinska-slanina-specificni-zacinjeni-komad,private,https://drycured.com/?post_type=dry_recipe&p=2074,,,MD-PETROVO_POLJE_ZACINSKA_SLANINA_SPECIFICNI_ZACINJENI_KOMAD
+2075,"Vrgorački kulen iz zaboravljenih recepata",vrgoracki-kulen-iz-zaboravljenih-recepata,publish,https://drycured.com/recepti-baza/vrgoracki-kulen-iz-zaboravljenih-recepata/,,,MD-VRGORACKI_KULEN_IZ_ZABORAVLJENIH_RECEPATA
+2076,"Senjska Morska Panceta ""Bura Intenzitet""",senjska-morska-panceta-bura-intenzitet,publish,https://drycured.com/recepti-baza/senjska-morska-panceta-bura-intenzitet/,,,MD-SENJSKA_MORSKA_PANCETA_BURA_INTENZITET
+2077,"SAUCISSON SEC D'AUVERGNE",saucisson-sec-dauvergne,draft,https://drycured.com/?post_type=dry_recipe&p=2077,,,FR-SAUCISSON_SEC_D_AUVERGNE-0338
+2078,"ANDOUILLE DE VIRE",andouille-de-vire,publish,https://drycured.com/recepti-baza/andouille-de-vire/,,,MD-ANDOUILLE_DE_VIRE
+2079,"COPPA CORSE",coppa-corse,publish,https://drycured.com/recepti-baza/coppa-corse/,,,MD-COPPA_CORSE
+2080,"SAUCISSE DE MORTEAU",saucisse-de-morteau,publish,https://drycured.com/recepti-baza/saucisse-de-morteau/,,,MD-SAUCISSE_DE_MORTEAU
+2081,"PÂTÉ DE CAMPAGNE BRETON",pate-de-campagne-breton,private,https://drycured.com/?post_type=dry_recipe&p=2081,,,MD-PATE_DE_CAMPAGNE_BRETON
+2082,"Loukaniko (Λουκάνικο)",loukaniko-%ce%bb%ce%bf%cf%85%ce%ba%ce%ac%ce%bd%ce%b9%ce%ba%ce%bf,draft,https://drycured.com/?post_type=dry_recipe&p=2082,,,GR-LOUKANIKO-0346
+2083,"Gračac Začinjena Panceta (Specifični sušeni vrat)",gracac-zacinjena-panceta-specificni-suseni-vrat,private,https://drycured.com/?post_type=dry_recipe&p=2083,,,MD-GRACAC_ZACINJENA_PANCETA_SPECIFICNI_SUSENI_VRAT
+2084,"Plitvice Začinska Slanina (Specifični začinjeni komad)",plitvice-zacinska-slanina-specificni-zacinjeni-komad,private,https://drycured.com/?post_type=dry_recipe&p=2084,,,MD-PLITVICE_ZACINSKA_SLANINA_SPECIFICNI_ZACINJENI_KOMAD
+2085,"Maltežanska panceta (Pancetta Maltija)",maltezanska-panceta-pancetta-maltija,draft,https://drycured.com/?post_type=dry_recipe&p=2085,,,MT-MALTEZANSKA_PANCETA-0374
+2086,"Prekomurska Slaninska Rolada ""Trnčova""",prekomurska-slaninska-rolada-trncova,publish,https://drycured.com/recepti-baza/prekomurska-slaninska-rolada-trncova/,,,MD-PREKOMURSKA_SLANINSKA_ROLADA_TRNCOVA
+2087,"Podravska Krvavica",podravska-krvavica,private,https://drycured.com/?post_type=dry_recipe&p=2087,,,MD-PODRAVSKA_KRVAVICA
+2088,"Koprivnička Kulen",koprivnicka-kulen,publish,https://drycured.com/recepti-baza/koprivnicka-kulen/,,,MD-KOPRIVNICKA_KULEN
+2089,"KABANOSY (TANKE SUHE KOBASICE)",kabanosy-tanke-suhe-kobasice,publish,https://drycured.com/recepti-baza/kabanosy-tanke-suhe-kobasice/,,,MD-KABANOSY_TANKE_SUHE_KOBASICE
+2090,"KASZANKA (POLJSKA KRVAVICA)",kaszanka-poljska-krvavica,private,https://drycured.com/?post_type=dry_recipe&p=2090,,,MD-KASZANKA_POLJSKA_KRVAVICA
+2091,"Morcela de Assar (Krvavica za Pečenje)",morcela-de-assar-krvavica-za-pecenje,private,https://drycured.com/?post_type=dry_recipe&p=2091,,,MD-MORCELA_DE_ASSAR_KRVAVICA_ZA_PECENJE
+2092,"Crikvenička Panceta",crikvenicka-panceta,publish,https://drycured.com/recepti-baza/crikvenicka-panceta/,,,MD-CRIKVENICKA_PANCETA
+2093,"Stara Koprivnička Salama ""Šokačka Priča""",stara-koprivnicka-salama-sokacka-prica,publish,https://drycured.com/recepti-baza/stara-koprivnicka-salama-sokacka-prica/,,,MD-STARA_KOPRIVNICKA_SALAMA_SOKACKA_PRICA
+2094,"Pitomački ""Divlji Kulen""",pitomacki-divlji-kulen,publish,https://drycured.com/recepti-baza/pitomacki-divlji-kulen/,,,MD-PITOMACKI_DIVLJI_KULEN
+2095,"Posebne tehnike i napomene",posebne-tehnike-i-napomene,draft,https://drycured.com/?post_type=dry_recipe&p=2095,,,RO-POSEBNE_TEHNIKE_I_NAPOMENE-0448
+2096,"SLĂNINĂ AFUMATĂ (Dimljena slanina)",slanina-afumata-dimljena-slanina,publish,https://drycured.com/recepti-baza/slanina-afumata-dimljena-slanina/,,,MD-SL_NIN_AFUMAT_DIMLJENA_SLANINA
+2097,"CHIȘCĂ (Puhana želuca s krvlju)",chisca-puhana-zeluca-s-krvlju,publish,https://drycured.com/recepti-baza/chisca-puhana-zeluca-s-krvlju/,,,MD-CHI_C_PUHANA_ZELUCA_S_KRVLJU
+2098,"Novih Ruskih Recepata za Suhomesnate Proizvode",novih-ruskih-recepata-za-suhomesnate-proizvode,draft,https://drycured.com/?post_type=dry_recipe&p=2098,,,EU-NOVIH_RUSKIH_RECEPATA_ZA_SUHOMESNATE_PROIZ-0456
+2099,"Salo (Сало - Slana svinjeća slanina)",salo-%d1%81%d0%b0%d0%bb%d0%be-slana-svinjeca-slanina,draft,https://drycured.com/?post_type=dry_recipe&p=2099,,,EU-SALO-0457
+2100,"Miholjačka Začinska Salama",miholjacka-zacinska-salama,publish,https://drycured.com/recepti-baza/miholjacka-zacinska-salama/,,,MD-MIHOLJACKA_ZACINSKA_SALAMA
+2101,"Vinkovački Slavonski Kulen - Stara obiteljska receptura",vinkovacki-slavonski-kulen-stara-obiteljska-receptura,publish,https://drycured.com/recepti-baza/vinkovacki-slavonski-kulen-stara-obiteljska-receptura/,,,MD-VINKOVACKI_SLAVONSKI_KULEN_STARA_OBITELJSKA_RECEPTURA
+2102,"Slovačka slanina (Slovenská slanina)",slovacka-slanina-slovenska-slanina,publish,https://drycured.com/recepti-baza/slovacka-slanina-slovenska-slanina/,,,MD-SLOVACKA_SLANINA_SLOVENSKA_SLANINA
+2103,"Kranjska klobasa (Kranjska kobasica)",kranjska-klobasa-kranjska-kobasica,publish,https://drycured.com/recepti-baza/kranjska-klobasa-kranjska-kobasica/,,,MD-KRANJSKA_KLOBASA_KRANJSKA_KOBASICA
+2104,"Kraški pršut",kraski-prsut,publish,https://drycured.com/recepti-baza/kraski-prsut/,,,MD-KRASKI_PRSUT
+2105,"Belokranjska jagenjčara",belokranjska-jagenjcara,draft,https://drycured.com/?post_type=dry_recipe&p=2105,,,SI-BELOKRANJSKA_JAGENJCARA-0500
+2106,"Gorenjska zaseka",gorenjska-zaseka,publish,https://drycured.com/recepti-baza/gorenjska-zaseka/,,,MD-GORENJSKA_ZASEKA
+2107,"Vipavska panceta",vipavska-panceta,publish,https://drycured.com/recepti-baza/vipavska-panceta/,,,MD-VIPAVSKA_PANCETA
+2108,"Tolminska salama",tolminska-salama,publish,https://drycured.com/recepti-baza/tolminska-salama/,,,MD-TOLMINSKA_SALAMA
+2109,"Recepata za Suhomesnate Proizvode iz Crne Gore - Dokument #1",recepata-za-suhomesnate-proizvode-iz-crne-gore-dokument-1,draft,https://drycured.com/?post_type=dry_recipe&p=2109,,,ME-RECEPATA_ZA_SUHOMESNATE_PROIZVODE_IZ_CRNE_-0507
+2110,"Crnogorska Slanina (Durmitorska panćeta)",crnogorska-slanina-durmitorska-panceta,publish,https://drycured.com/recepti-baza/crnogorska-slanina-durmitorska-panceta/,,,MD-CRNOGORSKA_SLANINA_DURMITORSKA_PANCETA
+2111,"LANDJÄGER (TRADICIONALNE DIMLJENE KOBASICE)",landjager-tradicionalne-dimljene-kobasice,publish,https://drycured.com/recepti-baza/landjager-tradicionalne-dimljene-kobasice/,,,MD-LANDJAGER_TRADICIONALNE_DIMLJENE_KOBASICE
+2112,"NOVIH ŠVICARSKIH RECEPATA ZA SUHOMESNATE PROIZVODE",novih-svicarskih-recepata-za-suhomesnate-proizvode,draft,https://drycured.com/?post_type=dry_recipe&p=2112,,,CH-NOVIH_SVICARSKIH_RECEPATA_ZA_SUHOMESNATE_P-0524
+2113,"VACHERIN FRIBOURGEOIS METTWURST (DIMLJENA KOBASICA S ALPSKIM SIROM)",vacherin-fribourgeois-mettwurst-dimljena-kobasica-s-alpskim-sirom,publish,https://drycured.com/recepti-baza/vacherin-fribourgeois-mettwurst-dimljena-kobasica-s-alpskim-sirom/,,,MD-VACHERIN_FRIBOURGEOIS_METTWURST_DIMLJENA_KOBASICA_S_ALPSKIM_SIROM
+2114,"ST. GALLER OLMA-BRATWURST (TELEĆA KOBASICA ZA PEČENJE)",st-galler-olma-bratwurst-teleca-kobasica-za-pecenje,private,https://drycured.com/?post_type=dry_recipe&p=2114,,,MD-ST_GALLER_OLMA_BRATWURST_TELECA_KOBASICA_ZA_PECENJE
+2115,"BRESAOLA DELLA VALTELLINA",bresaola-della-valtellina,publish,https://drycured.com/recepti-baza/bresaola-della-valtellina/,,,MD-BRESAOLA_DELLA_VALTELLINA
+2116,"COPPA PIACENTINA",coppa-piacentina,publish,https://drycured.com/recepti-baza/coppa-piacentina/,,,MD-COPPA_PIACENTINA
+2117,"Finocchiona Toscana IGP — edukativni profil",finocchiona-toscana-igp-edukativni-profil,draft,https://drycured.com/?post_type=dry_recipe&p=2117,,,IT-TOS-FINOCCHIONA-IGP-001
+2118,"Mortadella Bologna IGP — edukativni profil",mortadella-bologna-igp-edukativni-profil,draft,https://drycured.com/?post_type=dry_recipe&p=2118,,,IT-ER-MORTADELLA-BOLOGNA-IGP-001
+2119,"Prosciutto di San Daniele DOP — edukativni profil",prosciutto-di-san-daniele-dop-edukativni-profil,draft,https://drycured.com/?post_type=dry_recipe&p=2119,,,IT-FVG-PROSCIUTTO-SAN-DANIELE-DOP-001
+2120,"Lardo di Colonnata IGP — edukativni profil",lardo-di-colonnata-igp-edukativni-profil,draft,https://drycured.com/?post_type=dry_recipe&p=2120,,,IT-TOS-LARDO-COLONNATA-IGP-001
+2121,"Chorizo Riojano IGP — edukativni profil",chorizo-riojano-igp-edukativni-profil,draft,https://drycured.com/?post_type=dry_recipe&p=2121,,,ES-RIO-CHORIZO-RIOJANO-IGP-001
+2122,"Traditional Cumberland Sausage PGI — edukativni profil",traditional-cumberland-sausage-pgi-edukativni-profil,draft,https://drycured.com/?post_type=dry_recipe&p=2122,,,UK-ENG-CUMBERLAND-SAUSAGE-PGI-001
+2123,"Kabanosy staropolskie TSG — edukativni profil",kabanosy-staropolskie-tsg-edukativni-profil,draft,https://drycured.com/?post_type=dry_recipe&p=2123,,,PL-KABANOSY-TSG-001
+2124,"Kraški pršut PGI — edukativni profil",kraski-prsut-pgi-edukativni-profil,draft,https://drycured.com/?post_type=dry_recipe&p=2124,,,SI-KRAS-PRUT-PGI-001
+2186,"Slavonski kulen / Slavonski kulin — ZOZP",hr-slv-kul-zozp-001,draft,https://drycured.com/?post_type=dry_recipe&p=2186,,,HR-SLV-KUL-ZOZP-001
+2187,"Slavonska kobasica — ZOZP",hr-slv-kob-zozp-001,draft,https://drycured.com/?post_type=dry_recipe&p=2187,,,HR-SLV-KOB-ZOZP-001
+2188,"Slavonska cajna kobasica — tradicijska",hr-slv-caj-trad-001,draft,https://drycured.com/?post_type=dry_recipe&p=2188,,,HR-SLV-CAJ-TRAD-001
+2189,"Slavonska sušena slanina / Slavonski špek",hr-slv-sla-trad-001,draft,https://drycured.com/?post_type=dry_recipe&p=2189,,,HR-SLV-SLA-TRAD-001
+2224,"Domaći pršut",hr-cjp-prs-001,draft,https://drycured.com/?post_type=dry_recipe&p=2224,,,HR-CJP-PRS-001
+2225,"Suha šunka",hr-cjp-sun-001,draft,https://drycured.com/?post_type=dry_recipe&p=2225,,,HR-CJP-SUN-001
+2226,"Suha lopatica / plećka",hr-cjp-ple-001,draft,https://drycured.com/?post_type=dry_recipe&p=2226,,,HR-CJP-PLE-001
+2227,"Svinjska rolanka",hr-cjp-rol-001,draft,https://drycured.com/?post_type=dry_recipe&p=2227,,,HR-CJP-ROL-001
+2228,"Domaća slanina / panceta",hr-cjp-pan-001,draft,https://drycured.com/?post_type=dry_recipe&p=2228,,,HR-CJP-PAN-001
+2229,"Suha vratina",hr-cjp-vra-001,draft,https://drycured.com/?post_type=dry_recipe&p=2229,,,HR-CJP-VRA-001
+2230,"Suhi kare / pečenica",hr-cjp-kar-001,draft,https://drycured.com/?post_type=dry_recipe&p=2230,,,HR-CJP-KAR-001
+2231,"Suha rebra",hr-cjp-reb-001,draft,https://drycured.com/?post_type=dry_recipe&p=2231,,,HR-CJP-REB-001
+2232,"Suhe koljenice",hr-cjp-kol-001,draft,https://drycured.com/?post_type=dry_recipe&p=2232,,,HR-CJP-KOL-001
+2233,"Suhe nogice i rep",hr-cjp-nor-001,draft,https://drycured.com/?post_type=dry_recipe&p=2233,,,HR-CJP-NOR-001
+2235,"Domaće Svinjske Kobasice",hr-rec-001,draft,https://drycured.com/?post_type=dry_recipe&p=2235,,,HR-REC-001
+2236,"Domaće Slaninske Kobasice",hr-rec-002,draft,https://drycured.com/?post_type=dry_recipe&p=2236,,,HR-REC-002
+2237,"Slavonske Kobasice",hr-rec-003,draft,https://drycured.com/?post_type=dry_recipe&p=2237,,,HR-REC-003
+2238,"Velikogoričke Kobasice",hr-rec-004,draft,https://drycured.com/?post_type=dry_recipe&p=2238,,,HR-REC-004
+2239,"Kranjske Kobasice",hr-rec-005,draft,https://drycured.com/?post_type=dry_recipe&p=2239,,,HR-REC-005
+2240,"Ratarske Kobasice",hr-rec-006,draft,https://drycured.com/?post_type=dry_recipe&p=2240,,,HR-REC-006
+2241,"Turopoljske Kobasice",hr-rec-007,draft,https://drycured.com/?post_type=dry_recipe&p=2241,,,HR-REC-007
+2242,"Prokupljanske Kobasice",hr-rec-008,draft,https://drycured.com/?post_type=dry_recipe&p=2242,,,HR-REC-008
+2243,"Vinogradarske Kobasice",hr-rec-009,draft,https://drycured.com/?post_type=dry_recipe&p=2243,,,HR-REC-009
+2244,"Šestinske Kobasice",hr-rec-010,draft,https://drycured.com/?post_type=dry_recipe&p=2244,,,HR-REC-010
+2245,"Gračanske Kobasice",hr-rec-011,draft,https://drycured.com/?post_type=dry_recipe&p=2245,,,HR-REC-011
+2246,"Horgoške Kobasice",hr-rec-012,draft,https://drycured.com/?post_type=dry_recipe&p=2246,,,HR-REC-012
+2247,"Uskrsne Kobasice",hr-rec-013,draft,https://drycured.com/?post_type=dry_recipe&p=2247,,,HR-REC-013
+2248,"Kukuruzne Kobasice",hr-rec-014,draft,https://drycured.com/?post_type=dry_recipe&p=2248,,,HR-REC-014
+2249,"Primorske Kobasice",hr-rec-015,draft,https://drycured.com/?post_type=dry_recipe&p=2249,,,HR-REC-015
+2250,"Sinjske Kobasice",hr-rec-016,draft,https://drycured.com/?post_type=dry_recipe&p=2250,,,HR-REC-016
+2251,"Podravske Kobasice",hr-rec-017,draft,https://drycured.com/?post_type=dry_recipe&p=2251,,,HR-REC-017
+2252,"Proljetne Kobasice",hr-rec-018,draft,https://drycured.com/?post_type=dry_recipe&p=2252,,,HR-REC-018
+2253,"Ljetne Kobasice",hr-rec-019,draft,https://drycured.com/?post_type=dry_recipe&p=2253,,,HR-REC-019
+2254,"Đakovačke Kobasice",hr-rec-020,draft,https://drycured.com/?post_type=dry_recipe&p=2254,,,HR-REC-020
+2255,"Ličke Kobasice",hr-rec-021,draft,https://drycured.com/?post_type=dry_recipe&p=2255,,,HR-REC-021
+2256,"Istarske Kobasice",hr-rec-022,draft,https://drycured.com/?post_type=dry_recipe&p=2256,,,HR-REC-022
+2257,"Pokupske Kobasice",hr-rec-023,draft,https://drycured.com/?post_type=dry_recipe&p=2257,,,HR-REC-023
+2258,"Ljute Kobasice",hr-rec-024,draft,https://drycured.com/?post_type=dry_recipe&p=2258,,,HR-REC-024
+2259,"Salaške Kobasice",hr-rec-025,draft,https://drycured.com/?post_type=dry_recipe&p=2259,,,HR-REC-025
+2260,"Srijemske Kobasice",hr-rec-026,draft,https://drycured.com/?post_type=dry_recipe&p=2260,,,HR-REC-026
+2261,"Slatinske Kobasice",hr-rec-027,draft,https://drycured.com/?post_type=dry_recipe&p=2261,,,HR-REC-027
+2262,"Kolinjske Kobasice",hr-rec-028,draft,https://drycured.com/?post_type=dry_recipe&p=2262,,,HR-REC-028
+2263,"Velebitske Kobasice",hr-rec-029,draft,https://drycured.com/?post_type=dry_recipe&p=2263,,,HR-REC-029
+2264,"Pučke Kobasice",hr-rec-030,draft,https://drycured.com/?post_type=dry_recipe&p=2264,,,HR-REC-030
+2265,"Domaće Kratke Kobasice",hr-rec-031,draft,https://drycured.com/?post_type=dry_recipe&p=2265,,,HR-REC-031
+2266,"Zagorske Kobasice",hr-rec-032,draft,https://drycured.com/?post_type=dry_recipe&p=2266,,,HR-REC-032
+2267,"Roštilj Kobasice",hr-rec-033,draft,https://drycured.com/?post_type=dry_recipe&p=2267,,,HR-REC-033
+2268,"Seljačke Kobasice",hr-rec-034,draft,https://drycured.com/?post_type=dry_recipe&p=2268,,,HR-REC-034
+2269,"Starogradske Kobasice",hr-rec-035,draft,https://drycured.com/?post_type=dry_recipe&p=2269,,,HR-REC-035
+2270,"Začinske Kobasice",hr-rec-036,draft,https://drycured.com/?post_type=dry_recipe&p=2270,,,HR-REC-036
+2271,"Pivske Kobasice",hr-rec-037,draft,https://drycured.com/?post_type=dry_recipe&p=2271,,,HR-REC-037
+2272,"Gurmanske Kobasice",hr-rec-038,draft,https://drycured.com/?post_type=dry_recipe&p=2272,,,HR-REC-038
+2273,"Domaći Kulin",hr-rec-039,draft,https://drycured.com/?post_type=dry_recipe&p=2273,,,HR-REC-039
+2274,"Kulinova Seka",hr-rec-040,draft,https://drycured.com/?post_type=dry_recipe&p=2274,,,HR-REC-040
+2275,"Sinjski Sudžuk",hr-rec-041,draft,https://drycured.com/?post_type=dry_recipe&p=2275,,,HR-REC-041
+2276,"Domaća Salama",hr-rec-042,draft,https://drycured.com/?post_type=dry_recipe&p=2276,,,HR-REC-042
+2277,"Baranjska Salama",hr-rec-043,draft,https://drycured.com/?post_type=dry_recipe&p=2277,,,HR-REC-043
+2278,"Samoborske Češnjovke",hr-rec-044,draft,https://drycured.com/?post_type=dry_recipe&p=2278,,,HR-REC-044
+2279,"Domaće Pečenice",hr-rec-045,draft,https://drycured.com/?post_type=dry_recipe&p=2279,,,HR-REC-045
+2280,"Goriške Pečenice",hr-rec-046,draft,https://drycured.com/?post_type=dry_recipe&p=2280,,,HR-REC-046
+2281,"Obiteljske Pečenice",hr-rec-047,draft,https://drycured.com/?post_type=dry_recipe&p=2281,,,HR-REC-047
+2282,"Seoske Pečenice",hr-rec-048,draft,https://drycured.com/?post_type=dry_recipe&p=2282,,,HR-REC-048
+2283,"Krepke Pečenice",hr-rec-049,draft,https://drycured.com/?post_type=dry_recipe&p=2283,,,HR-REC-049
+2284,"Dijetne Pečenice",hr-rec-050,draft,https://drycured.com/?post_type=dry_recipe&p=2284,,,HR-REC-050
+2285,"Alpske Pečenice",hr-rec-051,draft,https://drycured.com/?post_type=dry_recipe&p=2285,,,HR-REC-051
+2286,"Domaće Krvavice",hr-rec-052,draft,https://drycured.com/?post_type=dry_recipe&p=2286,,,HR-REC-052
+2287,"Zagorske Krvavice",hr-rec-053,draft,https://drycured.com/?post_type=dry_recipe&p=2287,,,HR-REC-053
+2288,"Zagrebačke Krvavice",hr-rec-054,draft,https://drycured.com/?post_type=dry_recipe&p=2288,,,HR-REC-054
+2289,"Domaće Bijele Krvavice",hr-rec-055,draft,https://drycured.com/?post_type=dry_recipe&p=2289,,,HR-REC-055
+2290,"Pikantne Krvavice",hr-rec-056,draft,https://drycured.com/?post_type=dry_recipe&p=2290,,,HR-REC-056
+2291,"Dijetne Krvavice",hr-rec-057,draft,https://drycured.com/?post_type=dry_recipe&p=2291,,,HR-REC-057
+2292,"Međimurske Crne Čurke",hr-rec-058,draft,https://drycured.com/?post_type=dry_recipe&p=2292,,,HR-REC-058
+2293,"Turopoljske Devenice",hr-rec-059,draft,https://drycured.com/?post_type=dry_recipe&p=2293,,,HR-REC-059
+2294,"Domaće Tlačenice",hr-rec-060,draft,https://drycured.com/?post_type=dry_recipe&p=2294,,,HR-REC-060
+2295,"Domaće Jetrenjače",hr-rec-061,draft,https://drycured.com/?post_type=dry_recipe&p=2295,,,HR-REC-061
+2353,"Pastërma (Albansko suho meso)",pasterma-albansko-suho-meso,publish,https://drycured.com/recepti-baza/pasterma-albansko-suho-meso/,,,MD-PASTERMA_ALBANSKO_SUHO_MESO
+2354,"Suxhuk (Albanska suha kobasica)",suxhuk-albanska-suha-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2354,,,ALB-SUXHUK-ALBANSKA-SUHA-KOBASICA
+2355,"Proshuta Shqiptare – albanska pršuta",proshuta-shqiptare-albanska-prsuta,publish,https://drycured.com/recepti-baza/proshuta-shqiptare-albanska-prsuta/,,,MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA
+2356,"Kackavall i thatë (Albanski suhi sir)",kackavall-i-thate-albanski-suhi-sir,private,https://drycured.com/?post_type=dry_recipe&p=2356,,,MD-KACKAVALL_I_THATE_ALBANSKI_SUHI_SIR
+2357,"Mish i thatë (Albanska suha janjetina)",mish-i-thate-albanska-suha-janjetina,draft,https://drycured.com/?post_type=dry_recipe&p=2357,,,ALB-MISH-I-THATE-ALBANSKA
+2358,"Steirischer Rohschinken (Štajerska sirova šunka)",steirischer-rohschinken-stajerska-sirova-sunka,draft,https://drycured.com/?post_type=dry_recipe&p=2358,,,AUS-STEIRISCHER-ROHSCHINKEN-STAJER
+2359,"Vorarlberger Mostbröckle – vorarlberška dimljena govedina",vorarlberger-mostbrockle-vorarlberska-dimljena-govedina,publish,https://drycured.com/recepti-baza/vorarlberger-mostbrockle-vorarlberska-dimljena-govedina/,,,MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA
+2360,"Austrijska Käsekrainer (Kobasica sa sirom)",austrijska-kasekrainer-kobasica-sa-sirom,draft,https://drycured.com/?post_type=dry_recipe&p=2360,,,FIN-AUSTRIJSKA-KASEKRAINER-KOBASIC
+2361,"Mađarska Gyulai Kolbász (Gyulai kobasica)",madarska-gyulai-kolbasz-gyulai-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2361,,,FIN-MAARSKA-GYULAI-KOLBASZ-GYULAI
+2362,"Finska Meetvursti (Suha kobasica)",finska-meetvursti-suha-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2362,,,FIN-FINSKA-MEETVURSTI-SUHA-KOBASIC
+2363,"Sastojci za 10 kg mesa:",sastojci-za-10-kg-mesa,draft,https://drycured.com/?post_type=dry_recipe&p=2363,,,BAL-SASTOJCI-ZA-10-KG
+2373,"FILET D'ANVERS (ANTVERPSKI FILE)",filet-danvers-antverpski-file,draft,https://drycured.com/?post_type=dry_recipe&p=2373,,,BEL-FILET-DANVERS-ANTVERPSKI-FILE
+2374,"SAUCISSE AU FROMAGE DE HERVE (KOBASICA SA SIROM HERVE)",saucisse-au-fromage-de-herve-kobasica-sa-sirom-herve,draft,https://drycured.com/?post_type=dry_recipe&p=2374,,,BEL-SAUCISSE-AU-FROMAGE-DE
+2375,"COLLIER FUMÉ DE WALLONIE (DIMLJENI SVINJSKI VRAT IZ VALONIJE)",collier-fume-de-wallonie-dimljeni-svinjski-vrat-iz-valonije,draft,https://drycured.com/?post_type=dry_recipe&p=2375,,,BEL-COLLIER-FUME-DE-WALLONIE
+2376,"JAMBON D'ARDENNE (ARDENSKI PRŠUT)",jambon-dardenne-ardenski-prsut,draft,https://drycured.com/?post_type=dry_recipe&p=2376,,,BEL-JAMBON-DARDENNE-ARDENSKI-PRSUT
+2377,"PÂTÉ GAUMAIS (GAUME PAŠTETA)",pate-gaumais-gaume-pasteta,draft,https://drycured.com/?post_type=dry_recipe&p=2377,,,BEL-PATE-GAUMAIS-GAUME-PASTETA
+2378,"TÊTE PRESSÉE (PREZVURŠT)",tete-pressee-prezvurst,draft,https://drycured.com/?post_type=dry_recipe&p=2378,,,BEL-TETE-PRESSEE-PREZVURST
+2379,"BOULETTE DE LIÈGE (LIEŠKA MESNA KOBASICA)",boulette-de-liege-lieska-mesna-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2379,,,BEL-BOULETTE-DE-LIEGE-LIESKA
+2380,"SAUCISSON D'ARDENNE (ARDENSKI KULEN)",saucisson-dardenne-ardenski-kulen-2,draft,https://drycured.com/?post_type=dry_recipe&p=2380,,,BEL-SAUCISSON-DARDENNE-ARDENSKI-KU
+2381,"Nadenitsa (Наденица)",nadenitsa-%d0%bd%d0%b0%d0%b4%d0%b5%d0%bd%d0%b8%d1%86%d0%b0,draft,https://drycured.com/?post_type=dry_recipe&p=2381,,,BUG-NADENITSA
+2382,"Rulopep (Рулопеп)",rulopep-%d1%80%d1%83%d0%bb%d0%be%d0%bf%d0%b5%d0%bf,draft,https://drycured.com/?post_type=dry_recipe&p=2382,,,BUG-RULOPEP
+2383,"Banska Kapama (Банска капама)",banska-kapama-%d0%b1%d0%b0%d0%bd%d1%81%d0%ba%d0%b0-%d0%ba%d0%b0%d0%bf%d0%b0%d0%bc%d0%b0,draft,https://drycured.com/?post_type=dry_recipe&p=2383,,,BUG-BANSKA-KAPAMA
+2384,"Katino Meze (Катино мезе)",katino-meze-%d0%ba%d0%b0%d1%82%d0%b8%d0%bd%d0%be-%d0%bc%d0%b5%d0%b7%d0%b5,draft,https://drycured.com/?post_type=dry_recipe&p=2384,,,BUG-KATINO-MEZE
+2385,"Drobsarma (Дробсарма)",drobsarma-%d0%b4%d1%80%d0%be%d0%b1%d1%81%d0%b0%d1%80%d0%bc%d0%b0,draft,https://drycured.com/?post_type=dry_recipe&p=2385,,,BUG-DROBSARMA
+2386,"Maleshevska Babichka (Малешевска бабичка)",maleshevska-babichka-%d0%bc%d0%b0%d0%bb%d0%b5%d1%88%d0%b5%d0%b2%d1%81%d0%ba%d0%b0-%d0%b1%d0%b0%d0%b1%d0%b8%d1%87%d0%ba%d0%b0,draft,https://drycured.com/?post_type=dry_recipe&p=2386,,,BUG-MALESHEVSKA-BABICHKA
+2387,"Kraishte Pastarma (Краищенска пастърма)",kraishte-pastarma-%d0%ba%d1%80%d0%b0%d0%b8%d1%89%d0%b5%d0%bd%d1%81%d0%ba%d0%b0-%d0%bf%d0%b0%d1%81%d1%82%d1%8a%d1%80%d0%bc%d0%b0,draft,https://drycured.com/?post_type=dry_recipe&p=2387,,,BUG-KRAISHTE-PASTARMA
+2388,"Strandzhansko Dyado (Странджанско дядо)",strandzhansko-dyado-%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b4%d0%b6%d0%b0%d0%bd%d1%81%d0%ba%d0%be-%d0%b4%d1%8f%d0%b4%d0%be,draft,https://drycured.com/?post_type=dry_recipe&p=2388,,,BUG-STRANDZHANSKO-DYADO
+2389,"Srednogorska Kaska (Средногорска каска)",srednogorska-kaska-%d1%81%d1%80%d0%b5%d0%b4%d0%bd%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b0-%d0%ba%d0%b0%d1%81%d0%ba%d0%b0,draft,https://drycured.com/?post_type=dry_recipe&p=2389,,,BUG-SREDNOGORSKA-KASKA
+2390,"Dobrudzhanski Babek (Добруджански бабек)",dobrudzhanski-babek-%d0%b4%d0%be%d0%b1%d1%80%d1%83%d0%b4%d0%b6%d0%b0%d0%bd%d1%81%d0%ba%d0%b8-%d0%b1%d0%b0%d0%b1%d0%b5%d0%ba,draft,https://drycured.com/?post_type=dry_recipe&p=2390,,,BUG-DOBRUDZHANSKI-BABEK
+2391,"Lukanka (Луканка)",lukanka-%d0%bb%d1%83%d0%ba%d0%b0%d0%bd%d0%ba%d0%b0,draft,https://drycured.com/?post_type=dry_recipe&p=2391,,,BUG-LUKANKA
+2392,"Sudjuk (Суджук)",sudjuk-%d1%81%d1%83%d0%b4%d0%b6%d1%83%d0%ba,draft,https://drycured.com/?post_type=dry_recipe&p=2392,,,BUG-SUDJUK
+2393,"Elena filet (Еленски филе)",elena-filet-%d0%b5%d0%bb%d0%b5%d0%bd%d1%81%d0%ba%d0%b8-%d1%84%d0%b8%d0%bb%d0%b5,draft,https://drycured.com/?post_type=dry_recipe&p=2393,,,BUG-ELENA-FILET
+2394,"Pastarma (Пастърма)",pastarma-%d0%bf%d0%b0%d1%81%d1%82%d1%8a%d1%80%d0%bc%d0%b0,draft,https://drycured.com/?post_type=dry_recipe&p=2394,,,BUG-PASTARMA
+2395,"Banski Starec (Бански старец)",banski-starec-%d0%b1%d0%b0%d0%bd%d1%81%d0%ba%d0%b8-%d1%81%d1%82%d0%b0%d1%80%d0%b5%d1%86,draft,https://drycured.com/?post_type=dry_recipe&p=2395,,,BUG-BANSKI-STAREC
+2396,"Sastojci (za 5 kg kobasica)",sastojci-za-5-kg-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2396,,,NEP-SASTOJCI-ZA-5-KG
+2398,"Traditionele Droge Worst (Klasična suha kobasica)",traditionele-droge-worst-klasicna-suha-kobasica,publish,https://drycured.com/recepti-baza/traditionele-droge-worst-klasicna-suha-kobasica/,,,MD-TRADITIONELE_DROGE_WORST_KLASICNA_SUHA_KOBASICA
+2399,"Rookworst (Dimljena kobasica)",rookworst-dimljena-kobasica,publish,https://drycured.com/recepti-baza/rookworst-dimljena-kobasica/,,,MD-ROOKWORST_DIMLJENA_KOBASICA
+2402,"Lountza (Λούντζα)",lountza-%ce%bb%ce%bf%cf%8d%ce%bd%cf%84%ce%b6%ce%b1,draft,https://drycured.com/?post_type=dry_recipe&p=2402,,,CIP-LOUNTZA
+2403,"Hiromeri (Χοιρομέρι)",hiromeri-%cf%87%ce%bf%ce%b9%cf%81%ce%bf%ce%bc%ce%ad%cf%81%ce%b9,draft,https://drycured.com/?post_type=dry_recipe&p=2403,,,CIP-HIROMERI
+2407,"Lounza (Λούντζα) - Dimljena svinjska potrbušina",lounza-%ce%bb%ce%bf%cf%8d%ce%bd%cf%84%ce%b6%ce%b1-dimljena-svinjska-potrbusina,draft,https://drycured.com/?post_type=dry_recipe&p=2407,,,CIP-LOUNZA-DIMLJENA-SVINJSKA-POTRB
+2408,"Tsamarella (Τσαμαρέλλα) - Sušena kozletina",tsamarella-%cf%84%cf%83%ce%b1%ce%bc%ce%b1%cf%81%ce%ad%ce%bb%ce%bb%ce%b1-susena-kozletina,draft,https://drycured.com/?post_type=dry_recipe&p=2408,,,CIP-TSAMARELLA-SUSENA-KOZLETINA
+2409,"Hiromeri (Χοιρομέρι) - Ciparski pršut",hiromeri-%cf%87%ce%bf%ce%b9%cf%81%ce%bf%ce%bc%ce%ad%cf%81%ce%b9-ciparski-prsut,draft,https://drycured.com/?post_type=dry_recipe&p=2409,,,CIP-HIROMERI-CIPARSKI-PRSUT
+2410,"Apohti (Απόχτι) - Dimljeni svinjski file",apohti-%ce%b1%cf%80%cf%8c%cf%87%cf%84%ce%b9-dimljeni-svinjski-file,draft,https://drycured.com/?post_type=dry_recipe&p=2410,,,CIP-APOHTI-DIMLJENI-SVINJSKI-FILE
+2411,"Pastourma (Παστουρμάς) - Ciparski začinjeni sušeni goveđi file",pastourma-%cf%80%ce%b1%cf%83%cf%84%ce%bf%cf%85%cf%81%ce%bc%ce%ac%cf%82-ciparski-zacinjeni-suseni-govedi-file,draft,https://drycured.com/?post_type=dry_recipe&p=2411,,,CIP-PASTOURMA-CIPARSKI-ZACINJENI-S
+2412,"?? GRČKA - Tradicionalni recepti za Loukaniko",%f0%9f%87%ac%f0%9f%87%b7-grcka-tradicionalni-recepti-za-loukaniko,draft,https://drycured.com/?post_type=dry_recipe&p=2412,,,NEP-GRCKA-TRADICIONALNI-RECEPTI-ZA
+2413,"?? ALBANIJA - Tradicionalni recepti za Salçe",%f0%9f%87%a6%f0%9f%87%b1-albanija-tradicionalni-recepti-za-salce,draft,https://drycured.com/?post_type=dry_recipe&p=2413,,,NEP-ALBANIJA-TRADICIONALNI-RECEPTI
+2414,"?? FRANCUSKA - Tradicionalni recepti za saucisson",%f0%9f%87%ab%f0%9f%87%b7-francuska-tradicionalni-recepti-za-saucisson,draft,https://drycured.com/?post_type=dry_recipe&p=2414,,,NEP-FRANCUSKA-TRADICIONALNI-RECEPT
+2415,"?? NJEMAČKA - Tradicionalni recepti za Wurst",%f0%9f%87%a9%f0%9f%87%aa-njemacka-tradicionalni-recepti-za-wurst,draft,https://drycured.com/?post_type=dry_recipe&p=2415,,,NEP-NJEMACKA-TRADICIONALNI-RECEPTI
+2416,"?? ITALIJA - Tradicionalni recepti za salame",%f0%9f%87%ae%f0%9f%87%b9-italija-tradicionalni-recepti-za-salame,draft,https://drycured.com/?post_type=dry_recipe&p=2416,,,NEP-ITALIJA-TRADICIONALNI-RECEPTI-
+2417,"?? PORTUGAL - Tradicionalni recepti za Linguiça",%f0%9f%87%b5%f0%9f%87%b9-portugal-tradicionalni-recepti-za-linguica,draft,https://drycured.com/?post_type=dry_recipe&p=2417,,,NEP-PORTUGAL-TRADICIONALNI-RECEPTI
+2418,"?? FRANCUSKA - Tradicijski recepti za saucisson (30 recepata)",%f0%9f%87%ab%f0%9f%87%b7-francuska-tradicijski-recepti-za-saucisson-30-recepata,draft,https://drycured.com/?post_type=dry_recipe&p=2418,,,NEP-FRANCUSKA-TRADICIJSKI-RECEPTI-
+2419,"?? ČEŠKA - Tradicionalni recepti",%f0%9f%87%a8%f0%9f%87%bf-ceska-tradicionalni-recepti,draft,https://drycured.com/?post_type=dry_recipe&p=2419,,,NEP-CESKA-TRADICIONALNI-RECEPTI
+2420,"?? SLOVAČKA - Tradicionalni recepti",%f0%9f%87%b8%f0%9f%87%b0-slovacka-tradicionalni-recepti,draft,https://drycured.com/?post_type=dry_recipe&p=2420,,,NEP-SLOVACKA-TRADICIONALNI-RECEPTI
+2421,"?? POLJSKA - Tradicionalni recepti",%f0%9f%87%b5%f0%9f%87%b1-poljska-tradicionalni-recepti,draft,https://drycured.com/?post_type=dry_recipe&p=2421,,,NEP-POLJSKA-TRADICIONALNI-RECEPTI
+2422,"?? UKRAJINA - Tradicionalni recepti",%f0%9f%87%ba%f0%9f%87%a6-ukrajina-tradicionalni-recepti,draft,https://drycured.com/?post_type=dry_recipe&p=2422,,,NEP-UKRAJINA-TRADICIONALNI-RECEPTI
+2423,"?? ŠVEDSKA - Tradicionalni recepti",%f0%9f%87%b8%f0%9f%87%aa-svedska-tradicionalni-recepti,draft,https://drycured.com/?post_type=dry_recipe&p=2423,,,NEP-SVEDSKA-TRADICIONALNI-RECEPTI
+2424,"?? LATVIJA - Tradicionalni recepti",%f0%9f%87%b1%f0%9f%87%bb-latvija-tradicionalni-recepti,draft,https://drycured.com/?post_type=dry_recipe&p=2424,,,NEP-LATVIJA-TRADICIONALNI-RECEPTI
+2425,"?? NIZOZEMSKA - Tradicionalni recepti",%f0%9f%87%b3%f0%9f%87%b1-nizozemska-tradicionalni-recepti,draft,https://drycured.com/?post_type=dry_recipe&p=2425,,,NEP-NIZOZEMSKA-TRADICIONALNI-RECEP
+2426,"?? BELGIJA - Tradicionalni recepti",%f0%9f%87%a7%f0%9f%87%aa-belgija-tradicionalni-recepti,draft,https://drycured.com/?post_type=dry_recipe&p=2426,,,NEP-BELGIJA-TRADICIONALNI-RECEPTI
+2427,"?? LUKSEMBURG - Tradicionalni recepti",%f0%9f%87%b1%f0%9f%87%ba-luksemburg-tradicionalni-recepti,draft,https://drycured.com/?post_type=dry_recipe&p=2427,,,NEP-LUKSEMBURG-TRADICIONALNI-RECEP
+2428,"Durmitorska kastradina",durmitorska-kastradina,publish,https://drycured.com/recepti-baza/durmitorska-kastradina/,,,MD-DURMITORSKA_KASTRADINA
+2429,"Crmničke goveđe pastrve",crmnicke-govede-pastrve,draft,https://drycured.com/?post_type=dry_recipe&p=2429,,,CRN-CRMNICKE-GOVEE-PASTRVE
+2430,"Vasojevićka preukuša",vasojevicka-preukusa,publish,https://drycured.com/recepti-baza/vasojevicka-preukusa/,,,MD-VASOJEVICKA_PREUKUSA
+2432,"Kučka pršura",kucka-prsura,publish,https://drycured.com/recepti-baza/kucka-prsura/,,,MD-KUCKA_PRSURA
+2433,"Crnogorska pečenica",crnogorska-pecenica,private,https://drycured.com/?post_type=dry_recipe&p=2433,,,MD-CRNOGORSKA_PECENICA
+2434,"Crnogorska kobasica",crnogorska-kobasica,publish,https://drycured.com/recepti-baza/crnogorska-kobasica/,,,MD-CRNOGORSKA_KOBASICA
+2435,"Crnogorska stelja",crnogorska-stelja,publish,https://drycured.com/recepti-baza/crnogorska-stelja/,,,MD-CRNOGORSKA_STELJA
+2436,"Crnogorski suđuk",crnogorski-suduk,draft,https://drycured.com/?post_type=dry_recipe&p=2436,,,CRN-CRNOGORSKI-SUUK
+2437,"Drniški Začinjeni Vrat s Planine (Specifični mountainski naresak)",drniski-zacinjeni-vrat-s-planine-specificni-mountainski-naresak,private,https://drycured.com/?post_type=dry_recipe&p=2437,,,MD-DRNISKI_ZACINJENI_VRAT_S_PLANINE_SPECIFICNI_MOUNTAINSKI_NARESAK
+2438,"Komiški Brudet Narezak",komiski-brudet-narezak,private,https://drycured.com/?post_type=dry_recipe&p=2438,,,MD-KOMISKI_BRUDET_NAREZAK
+2439,"Šibenski Vjetrenjak",sibenski-vjetrenjak,private,https://drycured.com/?post_type=dry_recipe&p=2439,,,MD-SIBENSKI_VJETRENJAK
+2440,"Splitski Maestral Narezak",splitski-maestral-narezak,publish,https://drycured.com/recepti-baza/splitski-maestral-narezak/,,,MD-SPLITSKI_MAESTRAL_NAREZAK
+2441,"Trogirski Zephyr",trogirski-zephyr,publish,https://drycured.com/recepti-baza/trogirski-zephyr/,,,MD-TROGIRSKI_ZEPHYR
+2442,"Makarski Jugo Narezak",makarski-jugo-narezak,publish,https://drycured.com/recepti-baza/makarski-jugo-narezak/,,,MD-MAKARSKI_JUGO_NAREZAK
+2444,"Drniški pršut iz zaleđa (rijetka varijanta)",drniski-prsut-iz-zaleda-rijetka-varijanta,draft,https://drycured.com/?post_type=dry_recipe&p=2444,,,HRV-DRNISKI-PRSUT-IZ-ZALEA
+2445,"Hvarski stolen (zaboravljena delicija)",hvarski-stolen-zaboravljena-delicija,publish,https://drycured.com/recepti-baza/hvarski-stolen-zaboravljena-delicija/,,,MD-HVARSKI_STOLEN_ZABORAVLJENA_DELICIJA
+2447,"Leverpostej (Danska pašteta od svinjske jetre)",leverpostej-danska-pasteta-od-svinjske-jetre,private,https://drycured.com/?post_type=dry_recipe&p=2447,,,MD-LEVERPOSTEJ_DANSKA_PASTETA_OD_SVINJSKE_JETRE
+2448,"Medisterpølse (Danska svježa začinjena kobasica)",medisterpolse-danska-svjeza-zacinjena-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2448,,,DAN-MEDISTERPLSE-DANSKA-SVJEZA-ZAC
+2449,"Ribbenssteg (Danska dimljena svinjska rebra)",ribbenssteg-danska-dimljena-svinjska-rebra,publish,https://drycured.com/recepti-baza/ribbenssteg-danska-dimljena-svinjska-rebra/,,,MD-RIBBENSSTEG_DANSKA_DIMLJENA_SVINJSKA_REBRA
+2450,"Bayonneskinke (Danska zasoljena i dimljena šunka)",bayonneskinke-danska-zasoljena-i-dimljena-sunka,publish,https://drycured.com/recepti-baza/bayonneskinke-danska-zasoljena-i-dimljena-sunka/,,,MD-BAYONNESKINKE_DANSKA_ZASOLJENA_I_DIMLJENA_SUNKA
+2451,"Blodpølse (Danska krvavica)",blodpolse-danska-krvavica,draft,https://drycured.com/?post_type=dry_recipe&p=2451,,,DAN-BLODPLSE-DANSKA-KRVAVICA
+2452,"Rullepølse (Danska rolana šunka)",rullepolse-danska-rolana-sunka,draft,https://drycured.com/?post_type=dry_recipe&p=2452,,,DAN-RULLEPLSE-DANSKA-ROLANA-SUNKA
+2453,"Flæskesteg (Danska pečena svinjetina s hrskavom kožom)",flaeskesteg-danska-pecena-svinjetina-s-hrskavom-kozom,draft,https://drycured.com/?post_type=dry_recipe&p=2453,,,DAN-FLSKESTEG-DANSKA-PECENA-SVINJE
+2454,"Spegepølse (Danska fermentirana kobasica)",spegepolse-danska-fermentirana-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2454,,,DAN-SPEGEPLSE-DANSKA-FERMENTIRANA-
+2455,"Sylte (Danska hladetina od svinjske glave)",sylte-danska-hladetina-od-svinjske-glave,private,https://drycured.com/?post_type=dry_recipe&p=2455,,,MD-SYLTE_DANSKA_HLADETINA_OD_SVINJSKE_GLAVE
+2456,"Spegeskinke (Danska sušena šunka)",spegeskinke-danska-susena-sunka,publish,https://drycured.com/recepti-baza/spegeskinke-danska-susena-sunka/,,,MD-SPEGESKINKE_DANSKA_SUSENA_SUNKA
+2457,"Irski spiced beef (Začinjeno sušeno goveđe meso)",irski-spiced-beef-zacinjeno-suseno-govede-meso,draft,https://drycured.com/?post_type=dry_recipe&p=2457,,,IRS-IRSKI-SPICED-BEEF-ZACINJENO
+2458,"Crubeens (Salamurena i dimljena svinjska stopala)",crubeens-salamurena-i-dimljena-svinjska-stopala,publish,https://drycured.com/recepti-baza/crubeens-salamurena-i-dimljena-svinjska-stopala/,,,MD-CRUBEENS_SALAMURENA_I_DIMLJENA_SVINJSKA_STOPALA
+2459,"Boiled Ham (Tradicionalna irska kuhana šunka)",boiled-ham-tradicionalna-irska-kuhana-sunka,private,https://drycured.com/?post_type=dry_recipe&p=2459,,,MD-BOILED_HAM_TRADICIONALNA_IRSKA_KUHANA_SUNKA
+2464,"StarohrvatskiMore-Kopno Salamet (Salama Maritima)",starohrvatskimore-kopno-salamet-salama-maritima,publish,https://drycured.com/recepti-baza/starohrvatskimore-kopno-salamet-salama-maritima/,,,MD-STAROHRVATSKIMORE_KOPNO_SALAMET_SALAMA_MARITIMA
+2465,"Krčki Ovčji Dimljeni Raritet",krcki-ovcji-dimljeni-raritet,publish,https://drycured.com/recepti-baza/krcki-ovcji-dimljeni-raritet/,,,MD-KRCKI_OVCJI_DIMLJENI_RARITET
+2466,"Kvarnerski Divovski Salamet",kvarnerski-divovski-salamet,publish,https://drycured.com/recepti-baza/kvarnerski-divovski-salamet/,,,MD-KVARNERSKI_DIVOVSKI_SALAMET
+2468,"Lincolnshire kobasica",lincolnshire-kobasica,publish,https://drycured.com/recepti-baza/lincolnshire-kobasica/,,,MD-LINCOLNSHIRE_KOBASICA
+2469,"Haslet (tradicionalna engleska pašteta od svinjskih iznutrica)",haslet-tradicionalna-engleska-pasteta-od-svinjskih-iznutrica,private,https://drycured.com/?post_type=dry_recipe&p=2469,,,MD-HASLET_TRADICIONALNA_ENGLESKA_PASTETA_OD_SVINJSKIH_IZNUTRICA
+2470,"Bath Chaps (ukiseljene svinjske obrazine)",bath-chaps-ukiseljene-svinjske-obrazine,publish,https://drycured.com/recepti-baza/bath-chaps-ukiseljene-svinjske-obrazine/,,,MD-BATH_CHAPS_UKISELJENE_SVINJSKE_OBRAZINE
+2471,"Potted Beef (konzervirano goveđe meso)",potted-beef-konzervirano-govede-meso,draft,https://drycured.com/?post_type=dry_recipe&p=2471,,,ENG-POTTED-BEEF-KONZERVIRANO-GOVEE
+2472,"Oxford Brawn (hladetina od svinjske glave)",oxford-brawn-hladetina-od-svinjske-glave,private,https://drycured.com/?post_type=dry_recipe&p=2472,,,MD-OXFORD_BRAWN_HLADETINA_OD_SVINJSKE_GLAVE
+2474,"Tradicionalna engleska šunka (Wiltshire Ham)",tradicionalna-engleska-sunka-wiltshire-ham,publish,https://drycured.com/recepti-baza/tradicionalna-engleska-sunka-wiltshire-ham/,,,MD-TRADICIONALNA_ENGLESKA_SUNKA_WILTSHIRE_HAM
+2475,"Engleski sušeni goveđi jezik (Potted Ox Tongue)",engleski-suseni-govedi-jezik-potted-ox-tongue,draft,https://drycured.com/?post_type=dry_recipe&p=2475,,,ENG-ENGLESKI-SUSENI-GOVEI-JEZIK
+2476,"Engleski pork pie (svinjetina u tijestu)",engleski-pork-pie-svinjetina-u-tijestu,publish,https://drycured.com/recepti-baza/engleski-pork-pie-svinjetina-u-tijestu/,,,MD-ENGLESKI_PORK_PIE_SVINJETINA_U_TIJESTU
+2477,"Sült (Hladetina od svinjskog mesa)",sult-hladetina-od-svinjskog-mesa,private,https://drycured.com/?post_type=dry_recipe&p=2477,,,MD-SULT_HLADETINA_OD_SVINJSKOG_MESA
+2478,"Suitsink (Dimljena svinjska šunka)",suitsink-dimljena-svinjska-sunka,publish,https://drycured.com/recepti-baza/suitsink-dimljena-svinjska-sunka/,,,MD-SUITSINK_DIMLJENA_SVINJSKA_SUNKA
+2479,"Verikäkk (Krvavica s ječmom)",verikakk-krvavica-s-jecmom,private,https://drycured.com/?post_type=dry_recipe&p=2479,,,MD-VERIKAKK_KRVAVICA_S_JECMOM
+2480,"Talleliha (Polutrajno sušena govedina)",talleliha-polutrajno-susena-govedina,publish,https://drycured.com/recepti-baza/talleliha-polutrajno-susena-govedina/,,,MD-TALLELIHA_POLUTRAJNO_SUSENA_GOVEDINA
+2481,"Sealiha õlis (Svinjsko meso u ulju)",sealiha-olis-svinjsko-meso-u-ulju,publish,https://drycured.com/recepti-baza/sealiha-olis-svinjsko-meso-u-ulju/,,,MD-SEALIHA_OLIS_SVINJSKO_MESO_U_ULJU
+2482,"?? Grčki tradicionalni recept - Loukaniko",%f0%9f%87%ac%f0%9f%87%b7-grcki-tradicionalni-recept-loukaniko,draft,https://drycured.com/?post_type=dry_recipe&p=2482,,,NEP-GRCKI-TRADICIONALNI-RECEPT-LOU
+2483,"?? Albanski recept - Salçe",%f0%9f%87%a6%f0%9f%87%b1-albanski-recept-salce,draft,https://drycured.com/?post_type=dry_recipe&p=2483,,,NEP-ALBANSKI-RECEPT-SALCE
+2484,"?? Nizozemski recept - Droge Worst",%f0%9f%87%b3%f0%9f%87%b1-nizozemski-recept-droge-worst,draft,https://drycured.com/?post_type=dry_recipe&p=2484,,,NEP-NIZOZEMSKI-RECEPT-DROGE-WORST
+2485,"?? Britanski recept - Cumberland Sausage",%f0%9f%87%ac%f0%9f%87%a7-britanski-recept-cumberland-sausage,draft,https://drycured.com/?post_type=dry_recipe&p=2485,,,NEP-BRITANSKI-RECEPT-CUMBERLAND-SA
+2486,"?? Bugarski recept - Lukanka",%f0%9f%87%a7%f0%9f%87%ac-bugarski-recept-lukanka,draft,https://drycured.com/?post_type=dry_recipe&p=2486,,,NEP-BUGARSKI-RECEPT-LUKANKA
+2487,"?? Rumunjski recept - Salam de Sibiu",%f0%9f%87%b7%f0%9f%87%b4-rumunjski-recept-salam-de-sibiu,draft,https://drycured.com/?post_type=dry_recipe&p=2487,,,NEP-RUMUNJSKI-RECEPT-SALAM-DE
+2488,"?? Češki recept - Lovecká Salám",%f0%9f%87%a8%f0%9f%87%bf-ceski-recept-lovecka-salam,draft,https://drycured.com/?post_type=dry_recipe&p=2488,,,NEP-CESKI-RECEPT-LOVECKA-SALAM
+2489,"?? Slovački recept - Turistická Saláma",%f0%9f%87%b8%f0%9f%87%b0-slovacki-recept-turisticka-salama,draft,https://drycured.com/?post_type=dry_recipe&p=2489,,,NEP-SLOVACKI-RECEPT-TURISTICKA-SAL
+2490,"?? Poljski recept - Kiełbasa",%f0%9f%87%b5%f0%9f%87%b1-poljski-recept-kielbasa,draft,https://drycured.com/?post_type=dry_recipe&p=2490,,,NEP-POLJSKI-RECEPT-KIEBASA
+2491,"?? Ukrajinski recept - Kobasa",%f0%9f%87%ba%f0%9f%87%a6-ukrajinski-recept-kobasa,draft,https://drycured.com/?post_type=dry_recipe&p=2491,,,NEP-UKRAJINSKI-RECEPT-KOBASA
+2492,"?? Švedski recept - Tunnbrödsrulle",%f0%9f%87%b8%f0%9f%87%aa-svedski-recept-tunnbrodsrulle,draft,https://drycured.com/?post_type=dry_recipe&p=2492,,,NEP-SVEDSKI-RECEPT-TUNNBRODSRULLE
+2493,"?? Latvijski recept - Mājas Desa",%f0%9f%87%b1%f0%9f%87%bb-latvijski-recept-majas-desa,draft,https://drycured.com/?post_type=dry_recipe&p=2493,,,NEP-LATVIJSKI-RECEPT-MAJAS-DESA
+2495,"?? Talijansko-toskanski recept za salamu (Salame Toscano)",%f0%9f%87%ae%f0%9f%87%b9-talijansko-toskanski-recept-za-salamu-salame-toscano,draft,https://drycured.com/?post_type=dry_recipe&p=2495,,,NEP-TALIJANSKOTOSKANSKI-RECEPT-ZA-
+2496,"?? Tradicionalni recept za saucisson sec",%f0%9f%87%ab%f0%9f%87%b7-tradicionalni-recept-za-saucisson-sec,draft,https://drycured.com/?post_type=dry_recipe&p=2496,,,NEP-TRADICIONALNI-RECEPT-ZA-SAUCIS
+2497,"?? Portugalski recept za Linguiçu",%f0%9f%87%b5%f0%9f%87%b9-portugalski-recept-za-linguicu,draft,https://drycured.com/?post_type=dry_recipe&p=2497,,,NEP-PORTUGALSKI-RECEPT-ZA-LINGUICU
+2498,"?? Austrijski recept za Kmetzelsuppe kobasicu",%f0%9f%87%a6%f0%9f%87%b9-austrijski-recept-za-kmetzelsuppe-kobasicu,draft,https://drycured.com/?post_type=dry_recipe&p=2498,,,NEP-AUSTRIJSKI-RECEPT-ZA-KMETZELSU
+2500,"Poljska Kiełbasa Lisiecka (Lisiecka Kobasica)",poljska-kielbasa-lisiecka-lisiecka-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2500,,,EUR-POLJSKA-KIEBASA-LISIECKA-LISIE
+2501,"Slovačka Klobása (Slovenská Klobása)",slovacka-klobasa-slovenska-klobasa,publish,https://drycured.com/recepti-baza/slovacka-klobasa-slovenska-klobasa/,,,MD-SLOVACKA_KLOBASA_SLOVENSKA_KLOBASA
+2502,"JOULUKINKKU (BOŽIĆNA ŠUNKA)",joulukinkku-bozicna-sunka,draft,https://drycured.com/?post_type=dry_recipe&p=2502,,,FIN-JOULUKINKKU-BOZICNA-SUNKA
+2503,"RIIPUTETTU HIRVENLIHA (SUHO-ZRELA JELENOVINA)",riiputettu-hirvenliha-suho-zrela-jelenovina,publish,https://drycured.com/recepti-baza/riiputettu-hirvenliha-suho-zrela-jelenovina/,,,MD-RIIPUTETTU_HIRVENLIHA_SUHO_ZRELA_JELENOVINA
+2504,"SAVUSIIKA (DIMLJENI SIIKA - BIJELA RIBA)",savusiika-dimljeni-siika-bijela-riba,publish,https://drycured.com/recepti-baza/savusiika-dimljeni-siika-bijela-riba/,,,MD-SAVUSIIKA_DIMLJENI_SIIKA_BIJELA_RIBA
+2505,"METSOPAISTI (SUHO-SALAMURENI TETRIJEB)",metsopaisti-suho-salamureni-tetrijeb,publish,https://drycured.com/recepti-baza/metsopaisti-suho-salamureni-tetrijeb/,,,MD-METSOPAISTI_SUHO_SALAMURENI_TETRIJEB
+2506,"LAMPAAN ILMAKUIVATTU KYLKI (ZRAČNO-SUŠENA JANJEĆJA PRSA)",lampaan-ilmakuivattu-kylki-zracno-susena-janjecja-prsa,publish,https://drycured.com/recepti-baza/lampaan-ilmakuivattu-kylki-zracno-susena-janjecja-prsa/,,,MD-LAMPAAN_ILMAKUIVATTU_KYLKI_ZRACNO_SUSENA_JANJECJA_PRSA
+2507,"PALVIKINKKU (DIMLJENA ŠUNKA)",palvikinkku-dimljena-sunka,draft,https://drycured.com/?post_type=dry_recipe&p=2507,,,FIN-PALVIKINKKU-DIMLJENA-SUNKA
+2508,"SAVUPORONLIHA (DIMLJENO SOBOVO MESO)",savuporonliha-dimljeno-sobovo-meso,publish,https://drycured.com/recepti-baza/savuporonliha-dimljeno-sobovo-meso/,,,MD-SAVUPORONLIHA_DIMLJENO_SOBOVO_MESO
+2510,"ILMAKUIVATTU PORONPAISTI (ZRAČNO-SUŠENI SOBOV BUT)",ilmakuivattu-poronpaisti-zracno-suseni-sobov-but,publish,https://drycured.com/recepti-baza/ilmakuivattu-poronpaisti-zracno-suseni-sobov-but/,,,MD-ILMAKUIVATTU_PORONPAISTI_ZRACNO_SUSENI_SOBOV_BUT
+2511,"GRAAVILOHI (GRAVLAX - FINSKI MARINIRANI LOSOS)",graavilohi-gravlax-finski-marinirani-losos,publish,https://drycured.com/recepti-baza/graavilohi-gravlax-finski-marinirani-losos/,,,MD-GRAAVILOHI_GRAVLAX_FINSKI_MARINIRANI_LOSOS
+2512,"ROSETTE DE LYON",rosette-de-lyon,draft,https://drycured.com/?post_type=dry_recipe&p=2512,,,FRA-ROSETTE-DE-LYON
+2513,"LONZO CORSE",lonzo-corse,publish,https://drycured.com/recepti-baza/lonzo-corse/,,,MD-LONZO_CORSE
+2514,"SAUCISSON SEC D'AUVERGNE",saucisson-sec-dauvergne-2,draft,https://drycured.com/?post_type=dry_recipe&p=2514,,,FRA-SAUCISSON-SEC-DAUVERGNE
+2515,"Siglino Messinias (Σύγκλινο Μεσσηνίας)",siglino-messinias-%cf%83%cf%8d%ce%b3%ce%ba%ce%bb%ce%b9%ce%bd%ce%bf-%ce%bc%ce%b5%cf%83%cf%83%ce%b7%ce%bd%ce%af%ce%b1%cf%82,draft,https://drycured.com/?post_type=dry_recipe&p=2515,,,GRČ-SIGLINO-MESSINIAS
+2516,"Tsigarides (Τσιγαρίδες)",tsigarides-%cf%84%cf%83%ce%b9%ce%b3%ce%b1%cf%81%ce%af%ce%b4%ce%b5%cf%82,draft,https://drycured.com/?post_type=dry_recipe&p=2516,,,GRČ-TSIGARIDES
+2517,"Armatia (Αρματιά)",armatia-%ce%b1%cf%81%ce%bc%ce%b1%cf%84%ce%b9%ce%ac,draft,https://drycured.com/?post_type=dry_recipe&p=2517,,,GRČ-ARMATIA
+2518,"Pihti (Πηχτή)",pihti-%cf%80%ce%b7%cf%87%cf%84%ce%ae,draft,https://drycured.com/?post_type=dry_recipe&p=2518,,,GRČ-PIHTI
+2519,"Kavourmas (Καβουρμάς)",kavourmas-%ce%ba%ce%b1%ce%b2%ce%bf%cf%85%cf%81%ce%bc%ce%ac%cf%82,draft,https://drycured.com/?post_type=dry_recipe&p=2519,,,GRČ-KAVOURMAS
+2520,"Pastourmas (Παστουρμάς)",pastourmas-%cf%80%ce%b1%cf%83%cf%84%ce%bf%cf%85%cf%81%ce%bc%ce%ac%cf%82,draft,https://drycured.com/?post_type=dry_recipe&p=2520,,,GRČ-PASTOURMAS
+2521,"Apaki (Απάκι)",apaki-%ce%b1%cf%80%ce%ac%ce%ba%ce%b9,draft,https://drycured.com/?post_type=dry_recipe&p=2521,,,GRČ-APAKI
+2522,"Noumboulo (Νούμπουλο)",noumboulo-%ce%bd%ce%bf%cf%8d%ce%bc%cf%80%ce%bf%cf%85%ce%bb%ce%bf,draft,https://drycured.com/?post_type=dry_recipe&p=2522,,,GRČ-NOUMBOULO
+2523,"Syglino (Σύγκλινο)",syglino-%cf%83%cf%8d%ce%b3%ce%ba%ce%bb%ce%b9%ce%bd%ce%bf,draft,https://drycured.com/?post_type=dry_recipe&p=2523,,,GRČ-SYGLINO
+2524,"Skirts and Kidneys (Tradicionalna irska marinirana goveđa dijafragma)",skirts-and-kidneys-tradicionalna-irska-marinirana-goveda-dijafragma,draft,https://drycured.com/?post_type=dry_recipe&p=2524,,,IRS-SKIRTS-AND-KIDNEYS-TRADICIONAL
+2525,"Dulse and Yellowman Bacon (Slanina s morskom travom)",dulse-and-yellowman-bacon-slanina-s-morskom-travom,publish,https://drycured.com/recepti-baza/dulse-and-yellowman-bacon-slanina-s-morskom-travom/,,,MD-DULSE_AND_YELLOWMAN_BACON_SLANINA_S_MORSKOM_TRAVOM
+2526,"Caillín Báin (Bieli spek - Irska verzija slanine sa začinima)",caillin-bain-bieli-spek-irska-verzija-slanine-sa-zacinima,publish,https://drycured.com/recepti-baza/caillin-bain-bieli-spek-irska-verzija-slanine-sa-zacinima/,,,MD-CAILLIN_BAIN_BIELI_SPEK_IRSKA_VERZIJA_SLANINE_SA_ZACINIMA
+2527,"Marrowbone Roll (Rolana kobasica s koštanom srži)",marrowbone-roll-rolana-kobasica-s-kostanom-srzi,publish,https://drycured.com/recepti-baza/marrowbone-roll-rolana-kobasica-s-kostanom-srzi/,,,MD-MARROWBONE_ROLL_ROLANA_KOBASICA_S_KOSTANOM_SRZI
+2528,"Fadge Pudding (Krumpirovo-krvna kobasica)",fadge-pudding-krumpirovo-krvna-kobasica,private,https://drycured.com/?post_type=dry_recipe&p=2528,,,MD-FADGE_PUDDING_KRUMPIROVO_KRVNA_KOBASICA
+2529,"Irski soljena govedina (Corned Beef)",irski-soljena-govedina-corned-beef,publish,https://drycured.com/recepti-baza/irski-soljena-govedina-corned-beef/,,,MD-IRSKI_SOLJENA_GOVEDINA_CORNED_BEEF
+2530,"Irska šunka u pivu (Beer-Cured Ham)",irska-sunka-u-pivu-beer-cured-ham,publish,https://drycured.com/recepti-baza/irska-sunka-u-pivu-beer-cured-ham/,,,MD-IRSKA_SUNKA_U_PIVU_BEER_CURED_HAM
+2531,"Slátur (Islandska krvavica)",slatur-islandska-krvavica,private,https://drycured.com/?post_type=dry_recipe&p=2531,,,MD-SLATUR_ISLANDSKA_KRVAVICA
+2532,"Svið (Dimljena janjeća glava)",svid-dimljena-janjeca-glava,draft,https://drycured.com/?post_type=dry_recipe&p=2532,,,ISL-SVI-DIMLJENA-JANJECA-GLAVA
+2533,"Bjúgu (Islandska dimljena kobasica)",bjugu-islandska-dimljena-kobasica,publish,https://drycured.com/recepti-baza/bjugu-islandska-dimljena-kobasica/,,,MD-BJUGU_ISLANDSKA_DIMLJENA_KOBASICA
+2534,"Torfær​ður Lambahryggur (Zakopana janjeća leđa)",torfaerdur-lambahryggur-zakopana-janjeca-leda,draft,https://drycured.com/?post_type=dry_recipe&p=2534,,,ISL-TORFRUR-LAMBAHRYGGUR-ZAKOPANA-
+2539,"Sviðasulta (Želatinizirano janjeće meso s glave)",svidasulta-zelatinizirano-janjece-meso-s-glave,draft,https://drycured.com/?post_type=dry_recipe&p=2539,,,ISL-SVIASULTA-ZELATINIZIRANO-JANJE
+2540,"Hrútspungar (Prešana janjeća muda)",hrutspungar-presana-janjeca-muda,publish,https://drycured.com/recepti-baza/hrutspungar-presana-janjeca-muda/,,,MD-HRUTSPUNGAR_PRESANA_JANJECA_MUDA
+2543,"Lundabaggar (Dimljena prskalina od janjetine)",lundabaggar-dimljena-prskalina-od-janjetine,publish,https://drycured.com/recepti-baza/lundabaggar-dimljena-prskalina-od-janjetine/,,,MD-LUNDABAGGAR_DIMLJENA_PRSKALINA_OD_JANJETINE
+2544,"Moldavska Cârnaţi de Oaie (Kobasica od Ovčetine)",moldavska-carnati-de-oaie-kobasica-od-ovcetine,publish,https://drycured.com/recepti-baza/moldavska-carnati-de-oaie-kobasica-od-ovcetine/,,,MD-MOLDAVSKA_CARNA_I_DE_OAIE_KOBASICA_OD_OVCETINE
+2545,"Estonska Suitsusink (Dimljena Šunka)",estonska-suitsusink-dimljena-sunka,publish,https://drycured.com/recepti-baza/estonska-suitsusink-dimljena-sunka/,,,MD-ESTONSKA_SUITSUSINK_DIMLJENA_SUNKA
+2546,"Sudžuk (Sudžuk Kosovar)",sudzuk-sudzuk-kosovar,publish,https://drycured.com/recepti-baza/sudzuk-sudzuk-kosovar/,,,MD-SUDZUK_SUDZUK_KOSOVAR
+2547,"Pršuta e Kosovës (Kosovska pršuta)",prsuta-e-kosoves-kosovska-prsuta,draft,https://drycured.com/?post_type=dry_recipe&p=2547,,,KOS-PRSUTA-E-KOSOVES-KOSOVSKA
+2548,"Llokum Kosove (Kosovski delikates)",llokum-kosove-kosovski-delikates,draft,https://drycured.com/?post_type=dry_recipe&p=2548,,,KOS-LLOKUM-KOSOVE-KOSOVSKI-DELIKAT
+2549,"Suxhuk me Spec (Sudžuk s paprikom)",suxhuk-me-spec-sudzuk-s-paprikom,publish,https://drycured.com/recepti-baza/suxhuk-me-spec-sudzuk-s-paprikom/,,,MD-SUXHUK_ME_SPEC_SUDZUK_S_PAPRIKOM
+2550,"Gospićki Vjetromet (Specifični mesni naresak)",gospicki-vjetromet-specificni-mesni-naresak,private,https://drycured.com/?post_type=dry_recipe&p=2550,,,MD-GOSPICKI_VJETROMET_SPECIFICNI_MESNI_NARESAK
+2551,"Senj Začinski Vrat (Specifični nasoljavani vrat)",senj-zacinski-vrat-specificni-nasoljavani-vrat,private,https://drycured.com/?post_type=dry_recipe&p=2551,,,MD-SENJ_ZACINSKI_VRAT_SPECIFICNI_NASOLJAVANI_VRAT
+2552,"Otočac Začinski Vrat s Planine (Mountainski naresak)",otocac-zacinski-vrat-s-planine-mountainski-naresak,publish,https://drycured.com/recepti-baza/otocac-zacinski-vrat-s-planine-mountainski-naresak/,,,MD-OTOCAC_ZACINSKI_VRAT_S_PLANINE_MOUNTAINSKI_NARESAK
+2553,"Skilandis (litavska dimljena kobasica)",skilandis-litavska-dimljena-kobasica,publish,https://drycured.com/recepti-baza/skilandis-litavska-dimljena-kobasica/,,,MD-SKILANDIS_LITAVSKA_DIMLJENA_KOBASICA
+2554,"Kindziukas (litavska dimljena šunka)",kindziukas-litavska-dimljena-sunka,publish,https://drycured.com/recepti-baza/kindziukas-litavska-dimljena-sunka/,,,MD-KINDZIUKAS_LITAVSKA_DIMLJENA_SUNKA
+2555,"Lašiniai (litavska slanina)",lasiniai-litavska-slanina,publish,https://drycured.com/recepti-baza/lasiniai-litavska-slanina/,,,MD-LASINIAI_LITAVSKA_SLANINA
+2556,"Vytinta dešra (litavska suha kobasica)",vytinta-desra-litavska-suha-kobasica,publish,https://drycured.com/recepti-baza/vytinta-desra-litavska-suha-kobasica/,,,MD-VYTINTA_DESRA_LITAVSKA_SUHA_KOBASICA
+2557,"Rūkyti lašišos (dimljen losos na litavski način)",rukyti-lasisos-dimljen-losos-na-litavski-nacin,publish,https://drycured.com/recepti-baza/rukyti-lasisos-dimljen-losos-na-litavski-nacin/,,,MD-R_KYTI_LASISOS_DIMLJEN_LOSOS_NA_LITAVSKI_NACIN
+2558,"Pounje Planinski Vrtlog",pounje-planinski-vrtlog,publish,https://drycured.com/recepti-baza/pounje-planinski-vrtlog/,,,MD-POUNJE_PLANINSKI_VRTLOG
+2559,"Gackanski Vjetrenjak",gackanski-vjetrenjak,private,https://drycured.com/?post_type=dry_recipe&p=2559,,,MD-GACKANSKI_VJETRENJAK
+2560,"Drežnički Šušanj",dreznicki-susanj,publish,https://drycured.com/recepti-baza/dreznicki-susanj/,,,MD-DREZNICKI_SUSANJ
+2561,"Gospićki Vjetar",gospicki-vjetar,publish,https://drycured.com/recepti-baza/gospicki-vjetar/,,,MD-GOSPICKI_VJETAR
+2563,"Maltežanska kobasica (Zalzett Malti)",maltezanska-kobasica-zalzett-malti,publish,https://drycured.com/recepti-baza/maltezanska-kobasica-zalzett-malti/,,,MD-MALTEZANSKA_KOBASICA_ZALZETT_MALTI
+2564,"Maltežanski pršut (Prosciutto Malti)",maltezanski-prsut-prosciutto-malti,publish,https://drycured.com/recepti-baza/maltezanski-prsut-prosciutto-malti/,,,MD-MALTEZANSKI_PRSUT_PROSCIUTTO_MALTI
+2565,"Maltežanska suha govedina (Carne Secca Maltija)",maltezanska-suha-govedina-carne-secca-maltija,publish,https://drycured.com/recepti-baza/maltezanska-suha-govedina-carne-secca-maltija/,,,MD-MALTEZANSKA_SUHA_GOVEDINA_CARNE_SECCA_MALTIJA
+2567,"Mađarska Kobasica (Kolbász)",madarska-kobasica-kolbasz,draft,https://drycured.com/?post_type=dry_recipe&p=2567,,,NEP-MAARSKA-KOBASICA-KOLBASZ
+2568,"Mađarska Dimljena Šunka (Füstölt Sonka)",madarska-dimljena-sunka-fustolt-sonka,draft,https://drycured.com/?post_type=dry_recipe&p=2568,,,NEP-MAARSKA-DIMLJENA-SUNKA-FUSTOLT
+2569,"Mađarski Dimljeni Jezik (Füstölt Nyelv)",madarski-dimljeni-jezik-fustolt-nyelv,draft,https://drycured.com/?post_type=dry_recipe&p=2569,,,NEP-MAARSKI-DIMLJENI-JEZIK-FUSTOLT
+2570,"Štruki od Svetog Martina - Specifična Vrste Kobasice",struki-od-svetog-martina-specificna-vrste-kobasice,private,https://drycured.com/?post_type=dry_recipe&p=2570,,,MD-STRUKI_OD_SVETOG_MARTINA_SPECIFICNA_VRSTE_KOBASICE
+2571,"Zaprešićki Vrganjevi Narezak",zapresicki-vrganjevi-narezak,publish,https://drycured.com/recepti-baza/zapresicki-vrganjevi-narezak/,,,MD-ZAPRESICKI_VRGANJEVI_NAREZAK
+2572,"Medžimurski Divljač Narezak",medzimurski-divljac-narezak,publish,https://drycured.com/recepti-baza/medzimurski-divljac-narezak/,,,MD-MEDZIMURSKI_DIVLJAC_NAREZAK
+2573,"Gornjomurečki Začinski Narezak",gornjomurecki-zacinski-narezak,publish,https://drycured.com/recepti-baza/gornjomurecki-zacinski-narezak/,,,MD-GORNJOMURECKI_ZACINSKI_NAREZAK
+2574,"ȘUNCĂ AFUMATĂ (DIMLJENA ŠUNKA)",sunca-afumata-dimljena-sunka,publish,https://drycured.com/recepti-baza/sunca-afumata-dimljena-sunka/,,,MD-UNC_AFUMAT_DIMLJENA_SUNKA
+2575,"PASTRAMĂ DE OAIE (OVČJA PASTRAMA)",pastrama-de-oaie-ovcja-pastrama,publish,https://drycured.com/recepti-baza/pastrama-de-oaie-ovcja-pastrama/,,,MD-PASTRAM_DE_OAIE_OVCJA_PASTRAMA
+2576,"CÂRNAȚ AFUMAT (DIMLJENE KOBASICE)",carnat-afumat-dimljene-kobasice,publish,https://drycured.com/recepti-baza/carnat-afumat-dimljene-kobasice/,,,MD-CARNA_AFUMAT_DIMLJENE_KOBASICE
+2577,"Droge Worst (Suha kobasica)",droge-worst-suha-kobasica,publish,https://drycured.com/recepti-baza/droge-worst-suha-kobasica/,,,MD-DROGE_WORST_SUHA_KOBASICA
+2578,"Leverworst (Jetrena pašteta)",leverworst-jetrena-pasteta,private,https://drycured.com/?post_type=dry_recipe&p=2578,,,MD-LEVERWORST_JETRENA_PASTETA
+2579,"Spekdikken (Slanina s medom)",spekdikken-slanina-s-medom,publish,https://drycured.com/recepti-baza/spekdikken-slanina-s-medom/,,,MD-SPEKDIKKEN_SLANINA_S_MEDOM
+2580,"Ossenworst (Goveđa sirova kobasica)",ossenworst-goveda-sirova-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2580,,,NIZ-OSSENWORST-GOVEA-SIROVA-KOBASI
+2587,"VOSSAKORV (TRADICIONALNA DIMLJENA KOBASICA IZ VOSSA)",vossakorv-tradicionalna-dimljena-kobasica-iz-vossa,publish,https://drycured.com/recepti-baza/vossakorv-tradicionalna-dimljena-kobasica-iz-vossa/,,,MD-VOSSAKORV_TRADICIONALNA_DIMLJENA_KOBASICA_IZ_VOSSA
+2589,"SPEKELÅR (SUŠENA I DIMLJENA JELEN/SRNETINA)",spekelar-susena-i-dimljena-jelen-srnetina,publish,https://drycured.com/recepti-baza/spekelar-susena-i-dimljena-jelen-srnetina/,,,MD-SPEKELAR_SUSENA_I_DIMLJENA_JELEN_SRNETINA
+2592,"FÅREPØLSE (TRADICIONALNA OVČJA KOBASICA)",farepolse-tradicionalna-ovcja-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2592,,,NOR-FAREPLSE-TRADICIONALNA-OVCJA-K
+2593,"ELGKJØTT SPEKEMAT (SUHO MESO LOSA)",elgkjott-spekemat-suho-meso-losa,draft,https://drycured.com/?post_type=dry_recipe&p=2593,,,NOR-ELGKJTT-SPEKEMAT-SUHO-MESO
+2594,"GRAVET LAKS (GRAVLAKS - MARINIRANI LOSOS)",gravet-laks-gravlaks-marinirani-losos,publish,https://drycured.com/recepti-baza/gravet-laks-gravlaks-marinirani-losos/,,,MD-GRAVET_LAKS_GRAVLAKS_MARINIRANI_LOSOS
+2595,"TJUKKMJØLKSPØLSE (FERMENTIRANA KOBASICA S MLIJEČNOM KULTUROM)",tjukkmjolkspolse-fermentirana-kobasica-s-mlijecnom-kulturom,draft,https://drycured.com/?post_type=dry_recipe&p=2595,,,NOR-TJUKKMJLKSPLSE-FERMENTIRANA-KO
+2597,"FENALÅR (SUŠENI BUT JANJETA)",fenalar-suseni-but-janjeta,publish,https://drycured.com/recepti-baza/fenalar-suseni-but-janjeta/,,,MD-FENALAR_SUSENI_BUT_JANJETA
+2598,"SPEKESKINKE (NORŠKA PRŠUTA)",spekeskinke-norska-prsuta,publish,https://drycured.com/recepti-baza/spekeskinke-norska-prsuta/,,,MD-SPEKESKINKE_NORSKA_PRSUTA
+2599,"PINNEKJØTT (SUŠENA REBRA)",pinnekjott-susena-rebra,draft,https://drycured.com/?post_type=dry_recipe&p=2599,,,NOR-PINNEKJTT-SUSENA-REBRA
+2600,"MORR (NORVEŠKA KOBASICA)",morr-norveska-kobasica,publish,https://drycured.com/recepti-baza/morr-norveska-kobasica/,,,MD-MORR_NORVESKA_KOBASICA
+2601,"RØKELAKS (DIMLJENI LOSOS)",rokelaks-dimljeni-losos,draft,https://drycured.com/?post_type=dry_recipe&p=2601,,,NOR-RKELAKS-DIMLJENI-LOSOS
+2602,"Đakovački Specijalni Fermentirani Vrat",dakovacki-specijalni-fermentirani-vrat,draft,https://drycured.com/?post_type=dry_recipe&p=2602,,,HRV-AKOVACKI-SPECIJALNI-FERMENTIRA
+2603,"Vinkovački Aromatični Začinski Špek",vinkovacki-aromaticni-zacinski-spek,publish,https://drycured.com/recepti-baza/vinkovacki-aromaticni-zacinski-spek/,,,MD-VINKOVACKI_AROMATICNI_ZACINSKI_SPEK
+2604,"Osiječki Ljuti Začinski Vrat s Divljim Travkama",osijecki-ljuti-zacinski-vrat-s-divljim-travkama,publish,https://drycured.com/recepti-baza/osijecki-ljuti-zacinski-vrat-s-divljim-travkama/,,,MD-OSIJECKI_LJUTI_ZACINSKI_VRAT_S_DIVLJIM_TRAVKAMA
+2605,"Podunavski Specijalni Fermentirani Špek",podunavski-specijalni-fermentirani-spek,private,https://drycured.com/?post_type=dry_recipe&p=2605,,,MD-PODUNAVSKI_SPECIJALNI_FERMENTIRANI_SPEK
+2606,"Požeški Aromatični Sušeni Vrat s Divljim Travkama",pozeski-aromaticni-suseni-vrat-s-divljim-travkama,publish,https://drycured.com/recepti-baza/pozeski-aromaticni-suseni-vrat-s-divljim-travkama/,,,MD-POZESKI_AROMATICNI_SUSENI_VRAT_S_DIVLJIM_TRAVKAMA
+2607,"Çiğ Köfte (Fermentirana mesna smjesa za sirovo konzumiranje)",cig-kofte-fermentirana-mesna-smjesa-za-sirovo-konzumiranje,private,https://drycured.com/?post_type=dry_recipe&p=2607,,,MD-CI_KOFTE_FERMENTIRANA_MESNA_SMJESA_ZA_SIROVO_KONZUMIRANJE
+2608,"Kuru Et (Suho meso sa smrekom)",kuru-et-suho-meso-sa-smrekom,publish,https://drycured.com/recepti-baza/kuru-et-suho-meso-sa-smrekom/,,,MD-KURU_ET_SUHO_MESO_SA_SMREKOM
+2609,"Kuşbaşı Jerky (Turski goveđi jerky)",kusbasi-jerky-turski-govedi-jerky,draft,https://drycured.com/?post_type=dry_recipe&p=2609,,,TUR-KUSBAS-JERKY-TURSKI-GOVEI
+2610,"Tulum Peyniri Dolgulu Et (Meso punjeno sirom)",tulum-peyniri-dolgulu-et-meso-punjeno-sirom,publish,https://drycured.com/recepti-baza/tulum-peyniri-dolgulu-et-meso-punjeno-sirom/,,,MD-TULUM_PEYNIRI_DOLGULU_ET_MESO_PUNJENO_SIROM
+2611,"Işkembe Dolması (Punjeni goveđi burag)",iskembe-dolmasi-punjeni-govedi-burag,draft,https://drycured.com/?post_type=dry_recipe&p=2611,,,TUR-ISKEMBE-DOLMAS-PUNJENI-GOVEI
+2612,"Varaždinski Š(p)ek",varazdinski-spek,draft,https://drycured.com/?post_type=dry_recipe&p=2612,,,HRV-VARAZDINSKI-SPEK
+2613,"Đurđevački Zelenjak",durdevacki-zelenjak,draft,https://drycured.com/?post_type=dry_recipe&p=2613,,,HRV-UREVACKI-ZELENJAK
+2614,"Virovski Čvarci",virovski-cvarci,publish,https://drycured.com/recepti-baza/virovski-cvarci/,,,MD-VIROVSKI_CVARCI
+2615,"SALCESON OZORKOWY (POLJSKA TLAČENICA)",salceson-ozorkowy-poljska-tlacenica,private,https://drycured.com/?post_type=dry_recipe&p=2615,,,MD-SALCESON_OZORKOWY_POLJSKA_TLACENICA
+2616,"BALERON (POLJSKA DIMLJENA VRATINA)",baleron-poljska-dimljena-vratina,publish,https://drycured.com/recepti-baza/baleron-poljska-dimljena-vratina/,,,MD-BALERON_POLJSKA_DIMLJENA_VRATINA
+2617,"PASZTETOWA (POLJSKA JETRENA PAŠTETA U CRIJEVU)",pasztetowa-poljska-jetrena-pasteta-u-crijevu,private,https://drycured.com/?post_type=dry_recipe&p=2617,,,MD-PASZTETOWA_POLJSKA_JETRENA_PASTETA_U_CRIJEVU
+2618,"KIEŁBASA WĘDZONA (DIMLJENA POLJSKA KOBASICA)",kielbasa-wedzona-dimljena-poljska-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2618,,,POL-KIEBASA-WEDZONA-DIMLJENA-POLJS
+2619,"POLĘDWICA SOPOCKA (SUŠENA SVINJSKA PEČENICA)",poledwica-sopocka-susena-svinjska-pecenica,private,https://drycured.com/?post_type=dry_recipe&p=2619,,,MD-POL_DWICA_SOPOCKA_SUSENA_SVINJSKA_PECENICA
+2620,"SZYNKA WĘDZONA (DIMLJENA ŠUNKA)",szynka-wedzona-dimljena-sunka,publish,https://drycured.com/recepti-baza/szynka-wedzona-dimljena-sunka/,,,MD-SZYNKA_W_DZONA_DIMLJENA_SUNKA
+2621,"BOCZEK WĘDZONY (DIMLJENA SLANINA)",boczek-wedzony-dimljena-slanina,publish,https://drycured.com/recepti-baza/boczek-wedzony-dimljena-slanina/,,,MD-BOCZEK_W_DZONY_DIMLJENA_SLANINA
+2622,"Chouriço Tradicional Português (Tradicionalna portugalska kobasica)",chourico-tradicional-portugues-tradicionalna-portugalska-kobasica,publish,https://drycured.com/recepti-baza/chourico-tradicional-portugues-tradicionalna-portugalska-kobasica/,,,MD-CHOURICO_TRADICIONAL_PORTUGUES_TRADICIONALNA_PORTUGALSKA_KOBASICA
+2623,"Presunto Português (Portugalska pršuta)",presunto-portugues-portugalska-prsuta,publish,https://drycured.com/recepti-baza/presunto-portugues-portugalska-prsuta/,,,MD-PRESUNTO_PORTUGUES_PORTUGALSKA_PRSUTA
+2624,"Paio Alentejano (Alentejanska kobasica)",paio-alentejano-alentejanska-kobasica,publish,https://drycured.com/recepti-baza/paio-alentejano-alentejanska-kobasica/,,,MD-PAIO_ALENTEJANO_ALENTEJANSKA_KOBASICA
+2625,"Farinheira Alentejana (Kobasica s brašnom iz Alenteja)",farinheira-alentejana-kobasica-s-brasnom-iz-alenteja,publish,https://drycured.com/recepti-baza/farinheira-alentejana-kobasica-s-brasnom-iz-alenteja/,,,MD-FARINHEIRA_ALENTEJANA_KOBASICA_S_BRASNOM_IZ_ALENTEJA
+2627,"Chouriço de Vinho (Kobasica s Vinom)",chourico-de-vinho-kobasica-s-vinom,publish,https://drycured.com/recepti-baza/chourico-de-vinho-kobasica-s-vinom/,,,MD-CHOURICO_DE_VINHO_KOBASICA_S_VINOM
+2628,"Paio do Alentejo (Alentejo Dimljena Kobasica)",paio-do-alentejo-alentejo-dimljena-kobasica,publish,https://drycured.com/recepti-baza/paio-do-alentejo-alentejo-dimljena-kobasica/,,,MD-PAIO_DO_ALENTEJO_ALENTEJO_DIMLJENA_KOBASICA
+2629,"Alheira de Mirandela (Kobasica iz Mirandele)",alheira-de-mirandela-kobasica-iz-mirandele,publish,https://drycured.com/recepti-baza/alheira-de-mirandela-kobasica-iz-mirandele/,,,MD-ALHEIRA_DE_MIRANDELA_KOBASICA_IZ_MIRANDELE
+2631,"Rovinjska Kobasica",rovinjska-kobasica,publish,https://drycured.com/recepti-baza/rovinjska-kobasica/,,,MD-ROVINJSKA_KOBASICA
+2632,"Krčki Sir-Kobasica",krcki-sir-kobasica,publish,https://drycured.com/recepti-baza/krcki-sir-kobasica/,,,MD-KRCKI_SIR_KOBASICA
+2633,"Senjska Šunka",senjska-sunka,publish,https://drycured.com/recepti-baza/senjska-sunka/,,,MD-SENJSKA_SUNKA
+2637,"Tradicionalni Thüringer Schinken (Tirinška šunka)",tradicionalni-thuringer-schinken-tirinska-sunka,publish,https://drycured.com/recepti-baza/tradicionalni-thuringer-schinken-tirinska-sunka/,,,MD-TRADICIONALNI_THURINGER_SCHINKEN_TIRINSKA_SUNKA
+2638,"Bavarski Bierschinken (Šunka od piva)",bavarski-bierschinken-sunka-od-piva,publish,https://drycured.com/recepti-baza/bavarski-bierschinken-sunka-od-piva/,,,MD-BAVARSKI_BIERSCHINKEN_SUNKA_OD_PIVA
+2639,"Zalatina (Ζαλατίνα) - Ciparski hladetinasti svinjski narezak",zalatina-%ce%b6%ce%b1%ce%bb%ce%b1%cf%84%ce%af%ce%bd%ce%b1-ciparski-hladetinasti-svinjski-narezak,draft,https://drycured.com/?post_type=dry_recipe&p=2639,,,CIP-ZALATINA-CIPARSKI-HLADETINASTI
+2642,"Afelia Pastarma (Αφέλια Παστάρμα) - Ciparska marinirana goveđa pisanica",afelia-pastarma-%ce%b1%cf%86%ce%ad%ce%bb%ce%b9%ce%b1-%cf%80%ce%b1%cf%83%cf%84%ce%ac%cf%81%ce%bc%ce%b1-ciparska-marinirana-goveda-pisanica,draft,https://drycured.com/?post_type=dry_recipe&p=2642,,,CIP-AFELIA-PASTARMA-CIPARSKA-MARIN
+2644,"Fažanski morski salamur (Specijalitet s morskom travom)",fazanski-morski-salamur-specijalitet-s-morskom-travom,private,https://drycured.com/?post_type=dry_recipe&p=2644,,,MD-FAZANSKI_MORSKI_SALAMUR_SPECIJALITET_S_MORSKOM_TRAVOM
+2645,"Viganjska kobasica od divlje svinje s tavom",viganjska-kobasica-od-divlje-svinje-s-tavom,publish,https://drycured.com/recepti-baza/viganjska-kobasica-od-divlje-svinje-s-tavom/,,,MD-VIGANJSKA_KOBASICA_OD_DIVLJE_SVINJE_S_TAVOM
+2646,"Bujski janjetinski specijalitet s lavandom",bujski-janjetinski-specijalitet-s-lavandom,private,https://drycured.com/?post_type=dry_recipe&p=2646,,,MD-BUJSKI_JANJETINSKI_SPECIJALITET_S_LAVANDOM
+2647,"Pazinski specijalitet od kozjeg mesa s kestenom",pazinski-specijalitet-od-kozjeg-mesa-s-kestenom,private,https://drycured.com/?post_type=dry_recipe&p=2647,,,MD-PAZINSKI_SPECIJALITET_OD_KOZJEG_MESA_S_KESTENOM
+2648,"Rovinjski specijalitet od sardele s ružom",rovinjski-specijalitet-od-sardele-s-ruzom,private,https://drycured.com/?post_type=dry_recipe&p=2648,,,MD-ROVINJSKI_SPECIJALITET_OD_SARDELE_S_RUZOM
+2664,"BABIC (Tradicionalna babić kobasica)",babic-tradicionalna-babic-kobasica,publish,https://drycured.com/recepti-baza/babic-tradicionalna-babic-kobasica/,,,MD-BABIC_TRADICIONALNA_BABIC_KOBASICA
+2665,"MUȘCHI ȚIGĂNESC (Ciganski vrat)",muschi-tiganesc-ciganski-vrat,publish,https://drycured.com/recepti-baza/muschi-tiganesc-ciganski-vrat/,,,MD-MU_CHI_IG_NESC_CIGANSKI_VRAT
+2666,"CÂRNAȚI DE BURDUF (Sirnate kobasice)",carnati-de-burduf-sirnate-kobasice,publish,https://drycured.com/recepti-baza/carnati-de-burduf-sirnate-kobasice/,,,MD-CARNA_I_DE_BURDUF_SIRNATE_KOBASICE
+2667,"ȘUNCĂ DE MANGALIȚA AFUMATĂ (Dimljena mangulica šunka)",sunca-de-mangalita-afumata-dimljena-mangulica-sunka,publish,https://drycured.com/recepti-baza/sunca-de-mangalita-afumata-dimljena-mangulica-sunka/,,,MD-UNC_DE_MANGALI_A_AFUMAT_DIMLJENA_MANGULICA_SUNKA
+2668,"CÂRNAŢI DE PLEŞCOI (Pleščojske kobasice)",carnati-de-plescoi-plescojske-kobasice,publish,https://drycured.com/recepti-baza/carnati-de-plescoi-plescojske-kobasice/,,,MD-CARNA_I_DE_PLE_COI_PLESCOJSKE_KOBASICE
+2669,"TOBĂ (Tradidicionalna rumunjska tlačenica)",toba-tradidicionalna-rumunjska-tlacenica,private,https://drycured.com/?post_type=dry_recipe&p=2669,,,MD-TOB_TRADIDICIONALNA_RUMUNJSKA_TLACENICA
+2670,"GHIUDEM (Suha kobasica od ovčetine)",ghiudem-suha-kobasica-od-ovcetine,publish,https://drycured.com/recepti-baza/ghiudem-suha-kobasica-od-ovcetine/,,,MD-GHIUDEM_SUHA_KOBASICA_OD_OVCETINE
+2671,"Basturma (Бастурма - Začinjeno sušeno goveđe meso)",basturma-%d0%b1%d0%b0%d1%81%d1%82%d1%83%d1%80%d0%bc%d0%b0-zacinjeno-suseno-govede-meso,draft,https://drycured.com/?post_type=dry_recipe&p=2671,,,RUS-BASTURMA-ZACINJENO-SUSENO-GOVE
+2672,"Koryushka (Корюшка - Dimljena mala riba)",koryushka-%d0%ba%d0%be%d1%80%d1%8e%d1%88%d0%ba%d0%b0-dimljena-mala-riba,draft,https://drycured.com/?post_type=dry_recipe&p=2672,,,RUS-KORYUSHKA-DIMLJENA-MALA-RIBA
+2673,"Svinaya Vyrezka (Свиная вырезка - Sušeni svinjski file)",svinaya-vyrezka-%d1%81%d0%b2%d0%b8%d0%bd%d0%b0%d1%8f-%d0%b2%d1%8b%d1%80%d0%b5%d0%b7%d0%ba%d0%b0-suseni-svinjski-file,draft,https://drycured.com/?post_type=dry_recipe&p=2673,,,RUS-SVINAYA-VYREZKA-SUSENI-SVINJSK
+2674,"Vetchina (Ветчина - Domaća kuhana šunka)",vetchina-%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d0%b0-domaca-kuhana-sunka,draft,https://drycured.com/?post_type=dry_recipe&p=2674,,,RUS-VETCHINA-DOMACA-KUHANA-SUNKA
+2678,"Sastojci za 4 kg smjese:",sastojci-za-4-kg-smjese,draft,https://drycured.com/?post_type=dry_recipe&p=2678,,,SKA-SASTOJCI-ZA-4-KG
+2680,"ŠKOTSKI STOVIES MEAT (KONZERVIRANO USOLJENO MESO)",skotski-stovies-meat-konzervirano-usoljeno-meso,draft,https://drycured.com/?post_type=dry_recipe&p=2680,,,ŠKO-SKOTSKI-STOVIES-MEAT-KONZERVIR
+2681,"FORFAR BRIDIE (ŠKOTSKA MESNA PAŠTETA)",forfar-bridie-skotska-mesna-pasteta,private,https://drycured.com/?post_type=dry_recipe&p=2681,,,MD-FORFAR_BRIDIE_SKOTSKA_MESNA_PASTETA
+2682,"HIGHLAND VENISON HAM (DIMLJENA ŠUNKA OD JELENA)",highland-venison-ham-dimljena-sunka-od-jelena,publish,https://drycured.com/recepti-baza/highland-venison-ham-dimljena-sunka-od-jelena/,,,MD-HIGHLAND_VENISON_HAM_DIMLJENA_SUNKA_OD_JELENA
+2683,"EDINBURGH POTTED HOG (KONZERVIRANO SVINJSKO MESO)",edinburgh-potted-hog-konzervirano-svinjsko-meso,publish,https://drycured.com/recepti-baza/edinburgh-potted-hog-konzervirano-svinjsko-meso/,,,MD-EDINBURGH_POTTED_HOG_KONZERVIRANO_SVINJSKO_MESO
+2684,"ŠKOTSKI HAGGIS",skotski-haggis,publish,https://drycured.com/recepti-baza/skotski-haggis/,,,MD-SKOTSKI_HAGGIS
+2685,"ŠKOTSKI BLACK PUDDING (KRVAVICA)",skotski-black-pudding-krvavica,private,https://drycured.com/?post_type=dry_recipe&p=2685,,,MD-SKOTSKI_BLACK_PUDDING_KRVAVICA
+2687,"AYRSHIRE PRESAVICA (AYRSHIRE MIDDLE CUT)",ayrshire-presavica-ayrshire-middle-cut,publish,https://drycured.com/recepti-baza/ayrshire-presavica-ayrshire-middle-cut/,,,MD-AYRSHIRE_PRESAVICA_AYRSHIRE_MIDDLE_CUT
+2688,"HIGHLANDS JERKY (SUŠENA DIVLJAČ)",highlands-jerky-susena-divljac,publish,https://drycured.com/recepti-baza/highlands-jerky-susena-divljac/,,,MD-HIGHLANDS_JERKY_SUSENA_DIVLJAC
+2689,"KopačkiRib Začinska Štruca",kopackirib-zacinska-struca,publish,https://drycured.com/recepti-baza/kopackirib-zacinska-struca/,,,MD-KOPACKIRIB_ZACINSKA_STRUCA
+2691,"Valpovačka Zimska Devenica",valpovacka-zimska-devenica,publish,https://drycured.com/recepti-baza/valpovacka-zimska-devenica/,,,MD-VALPOVACKA_ZIMSKA_DEVENICA
+2692,"Požeška Začinska Štruca",pozeska-zacinska-struca,publish,https://drycured.com/recepti-baza/pozeska-zacinska-struca/,,,MD-POZESKA_ZACINSKA_STRUCA
+2693,"Osječki Začinski Špek",osjecki-zacinski-spek,publish,https://drycured.com/recepti-baza/osjecki-zacinski-spek/,,,MD-OSJECKI_ZACINSKI_SPEK
+2694,"Požeški Pikantni Vrat",pozeski-pikantni-vrat,publish,https://drycured.com/recepti-baza/pozeski-pikantni-vrat/,,,MD-POZESKI_PIKANTNI_VRAT
+2695,"Slavonsko-Brodski Ljuti Čvarci",slavonsko-brodski-ljuti-cvarci,publish,https://drycured.com/recepti-baza/slavonsko-brodski-ljuti-cvarci/,,,MD-SLAVONSKO_BRODSKI_LJUTI_CVARCI
+2696,"Nasički Fermentirani Vrat",nasicki-fermentirani-vrat,publish,https://drycured.com/recepti-baza/nasicki-fermentirani-vrat/,,,MD-NASICKI_FERMENTIRANI_VRAT
+2697,"Baranjska Ljuta Slavonska Kobasica",baranjska-ljuta-slavonska-kobasica,publish,https://drycured.com/recepti-baza/baranjska-ljuta-slavonska-kobasica/,,,MD-BARANJSKA_LJUTA_SLAVONSKA_KOBASICA
+2698,"Slavonska Domaća Suhomesnata Salama",slavonska-domaca-suhomesnata-salama,publish,https://drycured.com/recepti-baza/slavonska-domaca-suhomesnata-salama/,,,MD-SLAVONSKA_DOMACA_SUHOMESNATA_SALAMA
+2699,"Baranjska Fermenetirana Kobasica",baranjska-fermenetirana-kobasica,publish,https://drycured.com/recepti-baza/baranjska-fermenetirana-kobasica/,,,MD-BARANJSKA_FERMENETIRANA_KOBASICA
+2700,"Osječka Specijalna Suhomesnata Salama",osjecka-specijalna-suhomesnata-salama,private,https://drycured.com/?post_type=dry_recipe&p=2700,,,MD-OSJECKA_SPECIJALNA_SUHOMESNATA_SALAMA
+2701,"Vukovarska Tradicionalna Kobasica",vukovarska-tradicionalna-kobasica,publish,https://drycured.com/recepti-baza/vukovarska-tradicionalna-kobasica/,,,MD-VUKOVARSKA_TRADICIONALNA_KOBASICA
+2702,"Baranjski Začinski Špek s Pustara Začinima",baranjski-zacinski-spek-s-pustara-zacinima,publish,https://drycured.com/recepti-baza/baranjski-zacinski-spek-s-pustara-zacinima/,,,MD-BARANJSKI_ZACINSKI_SPEK_S_PUSTARA_ZACINIMA
+2703,"Erdutski Fermentirani Vrat s Podunavskim Začinima",erdutski-fermentirani-vrat-s-podunavskim-zacinima,publish,https://drycured.com/recepti-baza/erdutski-fermentirani-vrat-s-podunavskim-zacinima/,,,MD-ERDUTSKI_FERMENTIRANI_VRAT_S_PODUNAVSKIM_ZACINIMA
+2704,"Osječko-Baranjski Ljuti Špek s Divljim Travama",osjecko-baranjski-ljuti-spek-s-divljim-travama,publish,https://drycured.com/recepti-baza/osjecko-baranjski-ljuti-spek-s-divljim-travama/,,,MD-OSJECKO_BARANJSKI_LJUTI_SPEK_S_DIVLJIM_TRAVAMA
+2705,"Vukovarski Fermentirani Vrat s Podunavskim Začinima",vukovarski-fermentirani-vrat-s-podunavskim-zacinima,publish,https://drycured.com/recepti-baza/vukovarski-fermentirani-vrat-s-podunavskim-zacinima/,,,MD-VUKOVARSKI_FERMENTIRANI_VRAT_S_PODUNAVSKIM_ZACINIMA
+2706,"Tradicijski Baranjski Specijalni Fermentirani Špek",tradicijski-baranjski-specijalni-fermentirani-spek,private,https://drycured.com/?post_type=dry_recipe&p=2706,,,MD-TRADICIJSKI_BARANJSKI_SPECIJALNI_FERMENTIRANI_SPEK
+2707,"Klobása (slovačka kobasica)",klobasa-slovacka-kobasica,publish,https://drycured.com/recepti-baza/klobasa-slovacka-kobasica/,,,MD-KLOBASA_SLOVACKA_KOBASICA
+2708,"Údené mäso (dimljeno meso)",udene-maso-dimljeno-meso,publish,https://drycured.com/recepti-baza/udene-maso-dimljeno-meso/,,,MD-UDENE_MASO_DIMLJENO_MESO
+2709,"Huspenina (slovačka hladetina)",huspenina-slovacka-hladetina,private,https://drycured.com/?post_type=dry_recipe&p=2709,,,MD-HUSPENINA_SLOVACKA_HLADETINA
+2710,"Jaternice (slovačke krvavice)",jaternice-slovacke-krvavice,private,https://drycured.com/?post_type=dry_recipe&p=2710,,,MD-JATERNICE_SLOVACKE_KRVAVICE
+2711,"Posoška bunka",pososka-bunka,private,https://drycured.com/?post_type=dry_recipe&p=2711,,,MD-POSOSKA_BUNKA
+2712,"Koroška tunka",koroska-tunka,publish,https://drycured.com/recepti-baza/koroska-tunka/,,,MD-KOROSKA_TUNKA
+2713,"Zasavska klobasa (Zasavska kobasica)",zasavska-klobasa-zasavska-kobasica,publish,https://drycured.com/recepti-baza/zasavska-klobasa-zasavska-kobasica/,,,MD-ZASAVSKA_KLOBASA_ZASAVSKA_KOBASICA
+2714,"Prleška tünka",prleska-tunka,publish,https://drycured.com/recepti-baza/prleska-tunka/,,,MD-PRLESKA_TUNKA
+2715,"Idrijsko kosilo",idrijsko-kosilo,publish,https://drycured.com/recepti-baza/idrijsko-kosilo/,,,MD-IDRIJSKO_KOSILO
+2716,"Dolenjska tlačenka (prezvuršt)",dolenjska-tlacenka-prezvurst,private,https://drycured.com/?post_type=dry_recipe&p=2716,,,MD-DOLENJSKA_TLACENKA_PREZVURST
+2717,"Savinjski želodec (Savinjski želudac)",savinjski-zelodec-savinjski-zeludac,publish,https://drycured.com/recepti-baza/savinjski-zelodec-savinjski-zeludac/,,,MD-SAVINJSKI_ZELODEC_SAVINJSKI_ZELUDAC
+2718,"Prekmurska šunka",prekmurska-sunka,publish,https://drycured.com/recepti-baza/prekmurska-sunka/,,,MD-PREKMURSKA_SUNKA
+2720,"Lomo Embuchado - Začinjena Suha Svinjska Leđa",lomo-embuchado-zacinjena-suha-svinjska-leda,draft,https://drycured.com/?post_type=dry_recipe&p=2720,,,ŠPA-LOMO-EMBUCHADO-ZACINJENA-SUHA
+2722,"Crnogorska Pršuta (Njeguška pršuta)",crnogorska-prsuta-njeguska-prsuta,publish,https://drycured.com/recepti-baza/crnogorska-prsuta-njeguska-prsuta/,,,MD-CRNOGORSKA_PRSUTA_NJEGUSKA_PRSUTA
+2723,"Crnogorska Kastradina",crnogorska-kastradina,publish,https://drycured.com/recepti-baza/crnogorska-kastradina/,,,MD-CRNOGORSKA_KASTRADINA
+2724,"PRINSKORV (ŠVEDSKE TANKE DIMLJENE KOBASICE)",prinskorv-svedske-tanke-dimljene-kobasice,publish,https://drycured.com/recepti-baza/prinskorv-svedske-tanke-dimljene-kobasice/,,,MD-PRINSKORV_SVEDSKE_TANKE_DIMLJENE_KOBASICE
+2725,"FLÄSKLÄGG (DIMLJENA SVINJSKA KOLJENICA)",flasklagg-dimljena-svinjska-koljenica,publish,https://drycured.com/recepti-baza/flasklagg-dimljena-svinjska-koljenica/,,,MD-FLASKLAGG_DIMLJENA_SVINJSKA_KOLJENICA
+2726,"ÖLÄNDSK GETKORV (ÖLANDSKA KOZJA KOBASICA)",olandsk-getkorv-olandska-kozja-kobasica,publish,https://drycured.com/recepti-baza/olandsk-getkorv-olandska-kozja-kobasica/,,,MD-OLANDSK_GETKORV_OLANDSKA_KOZJA_KOBASICA
+2727,"KRONOBERGSKORV (KRONOBERGŠKA KOBASICA)",kronobergskorv-kronobergska-kobasica,publish,https://drycured.com/recepti-baza/kronobergskorv-kronobergska-kobasica/,,,MD-KRONOBERGSKORV_KRONOBERGSKA_KOBASICA
+2728,"VÄRMLANDSKORV (VÄRMLANDSKA DIMLJENA KOBASICA)",varmlandskorv-varmlandska-dimljena-kobasica,publish,https://drycured.com/recepti-baza/varmlandskorv-varmlandska-dimljena-kobasica/,,,MD-VARMLANDSKORV_VARMLANDSKA_DIMLJENA_KOBASICA
+2729,"FALUKORV (TRADICIONALNA ŠVEDSKA KOBASICA)",falukorv-tradicionalna-svedska-kobasica,publish,https://drycured.com/recepti-baza/falukorv-tradicionalna-svedska-kobasica/,,,MD-FALUKORV_TRADICIONALNA_SVEDSKA_KOBASICA
+2730,"GRAVAD LAX (ŠVEDSKI GRAVLJENI LOSOS)",gravad-lax-svedski-gravljeni-losos,publish,https://drycured.com/recepti-baza/gravad-lax-svedski-gravljeni-losos/,,,MD-GRAVAD_LAX_SVEDSKI_GRAVLJENI_LOSOS
+2731,"JULSKINKA (ŠVEDSKA BOŽIĆNA ŠUNKA)",julskinka-svedska-bozicna-sunka,draft,https://drycured.com/?post_type=dry_recipe&p=2731,,,ŠVE-JULSKINKA-SVEDSKA-BOZICNA-SUNK
+2732,"ISTERBAND (ŠVEDSKA FERMENTIRANA KOBASICA)",isterband-svedska-fermentirana-kobasica,publish,https://drycured.com/recepti-baza/isterband-svedska-fermentirana-kobasica/,,,MD-ISTERBAND_SVEDSKA_FERMENTIRANA_KOBASICA
+2733,"SPICKESKINKA (ŠVEDSKA SUHA ŠUNKA)",spickeskinka-svedska-suha-sunka,publish,https://drycured.com/recepti-baza/spickeskinka-svedska-suha-sunka/,,,MD-SPICKESKINKA_SVEDSKA_SUHA_SUNKA
+2734,"ENGADINER HATECLETT (SUŠENI KOZJI BUT)",engadiner-hateclett-suseni-kozji-but,draft,https://drycured.com/?post_type=dry_recipe&p=2734,,,ŠVI-ENGADINER-HATECLETT-SUSENI-KOZ
+2735,"BASLER LÄBERLI (SUHA JETRENA KOBASICA IZ BASELA)",basler-laberli-suha-jetrena-kobasica-iz-basela,private,https://drycured.com/?post_type=dry_recipe&p=2735,,,MD-BASLER_LABERLI_SUHA_JETRENA_KOBASICA_IZ_BASELA
+2736,"GLARNER KALBERWURST (TELEĆA KOBASICA IZ GLARUSA)",glarner-kalberwurst-teleca-kobasica-iz-glarusa,publish,https://drycured.com/recepti-baza/glarner-kalberwurst-teleca-kobasica-iz-glarusa/,,,MD-GLARNER_KALBERWURST_TELECA_KOBASICA_IZ_GLARUSA
+2737,"CHURER SALSIZ (DIVLJAČKA KOBASICA IZ CHURA)",churer-salsiz-divljacka-kobasica-iz-chura,publish,https://drycured.com/recepti-baza/churer-salsiz-divljacka-kobasica-iz-chura/,,,MD-CHURER_SALSIZ_DIVLJACKA_KOBASICA_IZ_CHURA
+2738,"TESSINER LUGANIGHETTA (SVJEŽA KOBASICA IZ TICINA)",tessiner-luganighetta-svjeza-kobasica-iz-ticina,private,https://drycured.com/?post_type=dry_recipe&p=2738,,,MD-TESSINER_LUGANIGHETTA_SVJEZA_KOBASICA_IZ_TICINA
+2739,"ZUGER HIRSCHTROCKENWURST (KOBASICA OD JELENA IZ ZUGA)",zuger-hirschtrockenwurst-kobasica-od-jelena-iz-zuga,draft,https://drycured.com/?post_type=dry_recipe&p=2739,,,ŠVI-ZUGER-HIRSCHTROCKENWURST-KOBAS
+2740,"SCHAFFHAUSER SCHÜBLIG (DIMLJENA GOVEĐA KOBASICA)",schaffhauser-schublig-dimljena-goveda-kobasica,draft,https://drycured.com/?post_type=dry_recipe&p=2740,,,ŠVI-SCHAFFHAUSER-SCHUBLIG-DIMLJENA
+2741,"AARGAUER RÜEBLIWURST (MESNATA KOBASICA S MRKVOM)",aargauer-ruebliwurst-mesnata-kobasica-s-mrkvom,publish,https://drycured.com/recepti-baza/aargauer-ruebliwurst-mesnata-kobasica-s-mrkvom/,,,MD-AARGAUER_RUEBLIWURST_MESNATA_KOBASICA_S_MRKVOM
+2742,"BÜNDNERFLEISCH (GRAUBÜNDENSKI SUŠENI GOVEĐI BUT)",bundnerfleisch-graubundenski-suseni-govedi-but,draft,https://drycured.com/?post_type=dry_recipe&p=2742,,,ŠVI-BUNDNERFLEISCH-GRAUBUNDENSKI-S
+2744,"WALLISER TROCKENFLEISCH (SUŠENA GOVEDINA IZ VALAISA)",walliser-trockenfleisch-susena-govedina-iz-valaisa,publish,https://drycured.com/recepti-baza/walliser-trockenfleisch-susena-govedina-iz-valaisa/,,,MD-WALLISER_TROCKENFLEISCH_SUSENA_GOVEDINA_IZ_VALAISA
+2745,"SALSIZ (ALPSKA SUHA KOBASICA)",salsiz-alpska-suha-kobasica,publish,https://drycured.com/recepti-baza/salsiz-alpska-suha-kobasica/,,,MD-SALSIZ_ALPSKA_SUHA_KOBASICA
+2746,"CULATELLO DI ZIBELLO",culatello-di-zibello,publish,https://drycured.com/recepti-baza/culatello-di-zibello/,,,MD-CULATELLO_DI_ZIBELLO
+2747,"LONZINO (LOMBO)",lonzino-lombo,publish,https://drycured.com/recepti-baza/lonzino-lombo/,,,MD-LONZINO_LOMBO
+2758,"Polendvytsia (Полендвиця) - Sušeni svinjski file",polendvytsia-%d0%bf%d0%be%d0%bb%d0%b5%d0%bd%d0%b4%d0%b2%d0%b8%d1%86%d1%8f-suseni-svinjski-file,draft,https://drycured.com/?post_type=dry_recipe&p=2758,,,UKR-POLENDVYTSIA-SUSENI-SVINJSKI-F
+2759,"Pashtetna (Паштетна) - Pečena mesna pašteta",pashtetna-%d0%bf%d0%b0%d1%88%d1%82%d0%b5%d1%82%d0%bd%d0%b0-pecena-mesna-pasteta-2,draft,https://drycured.com/?post_type=dry_recipe&p=2759,,,UKR-PASHTETNA-PECENA-MESNA-PASTETA
+2760,"Miasnyi Khlib (М'ясний хліб) - Mesni kruh",miasnyi-khlib-%d0%bc%d1%8f%d1%81%d0%bd%d0%b8%d0%b9-%d1%85%d0%bb%d1%96%d0%b1-mesni-kruh,draft,https://drycured.com/?post_type=dry_recipe&p=2760,,,UKR-MIASNYI-KHLIB-MESNI-KRUH
+2761,"Dimlenyi Yazyk (Димлений язик) - Dimljeni goveđi jezik",dimlenyi-yazyk-%d0%b4%d0%b8%d0%bc%d0%bb%d0%b5%d0%bd%d0%b8%d0%b9-%d1%8f%d0%b7%d0%b8%d0%ba-dimljeni-govedi-jezik,draft,https://drycured.com/?post_type=dry_recipe&p=2761,,,UKR-DIMLENYI-YAZYK-DIMLJENI-GOVEI
+2762,"Salo (Сало) - Ukrajinska slanina",salo-%d1%81%d0%b0%d0%bb%d0%be-ukrajinska-slanina-2,draft,https://drycured.com/?post_type=dry_recipe&p=2762,,,UKR-SALO-UKRAJINSKA-SLANINA
+2763,"Domašnja Kovbasa (Домашня ковбаса) - Domaća kobasica",domasnja-kovbasa-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d1%8f-%d0%ba%d0%be%d0%b2%d0%b1%d0%b0%d1%81%d0%b0-domaca-kobasica-2,draft,https://drycured.com/?post_type=dry_recipe&p=2763,,,UKR-DOMASNJA-KOVBASA-DOMACA-KOBASI
+2764,"Buženina (Буженина) - Pečena i sušena svinjetina",buzenina-%d0%b1%d1%83%d0%b6%d0%b5%d0%bd%d0%b8%d0%bd%d0%b0-pecena-i-susena-svinjetina,draft,https://drycured.com/?post_type=dry_recipe&p=2764,,,UKR-BUZENINA-PECENA-I-SUSENA
+2765,"Kholodets (Холодець) - Hladetina od mesa",kholodets-%d1%85%d0%be%d0%bb%d0%be%d0%b4%d0%b5%d1%86%d1%8c-hladetina-od-mesa-2,draft,https://drycured.com/?post_type=dry_recipe&p=2765,,,UKR-KHOLODETS-HLADETINA-OD-MESA
+2766,"Solonina (Солонина) - Salamurena govedina",solonina-%d1%81%d0%be%d0%bb%d0%be%d0%bd%d0%b8%d0%bd%d0%b0-salamurena-govedina-2,draft,https://drycured.com/?post_type=dry_recipe&p=2766,,,UKR-SOLONINA-SALAMURENA-GOVEDINA
+2772,"Pâté de Campagne (Seljački pašteta)",pate-de-campagne-seljacki-pasteta,private,https://drycured.com/?post_type=dry_recipe&p=2772,,,MD-PATE_DE_CAMPAGNE_SELJACKI_PASTETA
+2773,"Boudin Noir (Krvavica)",boudin-noir-krvavica,private,https://drycured.com/?post_type=dry_recipe&p=2773,,,MD-BOUDIN_NOIR_KRVAVICA
+2774,"Jambon Persillé (Šunka u želeu s peršinom)",jambon-persille-sunka-u-zeleu-s-persinom,publish,https://drycured.com/recepti-baza/jambon-persille-sunka-u-zeleu-s-persinom/,,,MD-JAMBON_PERSILLE_SUNKA_U_ZELEU_S_PERSINOM
+2776,"Kepeninė dešra (Litavska jetrena kobasica)",kepenine-desra-litavska-jetrena-kobasica,private,https://drycured.com/?post_type=dry_recipe&p=2776,,,MD-KEPENIN_DESRA_LITAVSKA_JETRENA_KOBASICA
+2777,"Kulen iz Požeške doline - Specijalna varijanta s divljim začinima",kulen-iz-pozeske-doline-specijalna-varijanta-s-divljim-zacinima,private,https://drycured.com/?post_type=dry_recipe&p=2777,,,MD-KULEN_IZ_POZESKE_DOLINE_SPECIJALNA_VARIJANTA_S_DIVLJIM_ZACINIMA
+2778,"Čvarci s Papuka - Planinski recept",cvarci-s-papuka-planinski-recept,publish,https://drycured.com/recepti-baza/cvarci-s-papuka-planinski-recept/,,,MD-CVARCI_S_PAPUKA_PLANINSKI_RECEPT
+2779,"Slavonski cviček (suhomesnati narez)",slavonski-cvicek-suhomesnati-narez,publish,https://drycured.com/recepti-baza/slavonski-cvicek-suhomesnati-narez/,,,MD-SLAVONSKI_CVICEK_SUHOMESNATI_NAREZ
+2780,"Slavonski pikantni vrat",slavonski-pikantni-vrat,publish,https://drycured.com/recepti-baza/slavonski-pikantni-vrat/,,,MD-SLAVONSKI_PIKANTNI_VRAT
+2781,"Esencijalni slavonski sušeni vrat s divljim začinima",esencijalni-slavonski-suseni-vrat-s-divljim-zacinima,publish,https://drycured.com/recepti-baza/esencijalni-slavonski-suseni-vrat-s-divljim-zacinima/,,,MD-ESENCIJALNI_SLAVONSKI_SUSENI_VRAT_S_DIVLJIM_ZACINIMA
+2783,"Nduja Calabrese - Kalabrijska Nduja",nduja-calabrese-kalabrijska-nduja-2,draft,https://drycured.com/?post_type=dry_recipe&p=2783,,,ITA-NDUJA-CALABRESE-KALABRIJSKA-ND
+2784,"Guanciale Romano - Rimski Guanciale",guanciale-romano-rimski-guanciale-2,draft,https://drycured.com/?post_type=dry_recipe&p=2784,,,ITA-GUANCIALE-ROMANO-RIMSKI-GUANCI
+2785,"SALAME MILANO - MILANSKA SALAMA",salame-milano-milanska-salama-2,draft,https://drycured.com/?post_type=dry_recipe&p=2785,,,ITA-SALAME-MILANO-MILANSKA-SALAMA
+2786,"COPPA (CAPOCOLLO) - TALIJANSKA VRATINA",coppa-capocollo-talijanska-vratina-2,draft,https://drycured.com/?post_type=dry_recipe&p=2786,,,ITA-COPPA-CAPOCOLLO-TALIJANSKA-VRA
+2859,"IstARSKA KOBASICA",istarska-kobasica-2,draft,https://drycured.com/?post_type=dry_recipe&p=2859,,,DRY--5423F8C7
+2860,"Šokačka kobasica by Davor",sokacka-kobasica-by-davor,draft,https://drycured.com/?post_type=dry_recipe&p=2860,,,DRY--CD04B118
+2972,"Slavonski kulen (PDO EU)",hr-sl-001-slavonski-kulen-pdo-eu,publish,https://drycured.com/recepti-baza/hr-sl-001-slavonski-kulen-pdo-eu/,,,HR-SL-001
+2973,"Kulenova seka",hr-sl-002-kulenova-seka,publish,https://drycured.com/recepti-baza/hr-sl-002-kulenova-seka/,,,HR-SL-002
+2974,"Baranjski kulen (ZOZP EU)",hr-sl-003-baranjski-kulen-zozp-eu,publish,https://drycured.com/recepti-baza/hr-sl-003-baranjski-kulen-zozp-eu/,,,HR-SL-003
+2975,"Đakovački kulen",hr-sl-004-dakovacki-kulen,publish,https://drycured.com/recepti-baza/hr-sl-004-dakovacki-kulen/,,,HR-SL-004
+2976,"Slavonska domaća kobasica",hr-sl-005-slavonska-domaca-kobasica,publish,https://drycured.com/recepti-baza/hr-sl-005-slavonska-domaca-kobasica/,,,HR-SL-005
+2977,"Srijemska kobasica (OGP)",hr-sl-006-srijemska-kobasica-ogp,publish,https://drycured.com/recepti-baza/hr-sl-006-srijemska-kobasica-ogp/,,,HR-SL-006
+2978,"Ratarske kobasice",hr-sl-007-ratarske-kobasice,private,https://drycured.com/?post_type=dry_recipe&p=2978,,,HR-SL-007
+2979,"Baranjska kobasica",hr-sl-008-baranjska-kobasica,publish,https://drycured.com/recepti-baza/hr-sl-008-baranjska-kobasica/,,,HR-SL-008
+2980,"Baranjska salama",hr-sl-009-baranjska-salama,private,https://drycured.com/?post_type=dry_recipe&p=2980,,,HR-SL-009
+2981,"Slavonska kobasica (ZOI EU 2023)",hr-sl-010-slavonska-kobasica-zoi-eu-2023,publish,https://drycured.com/recepti-baza/hr-sl-010-slavonska-kobasica-zoi-eu-2023/,,,HR-SL-010
+2982,"Slavonska dimljena slanina",hr-sl-012-slavonska-dimljena-slanina,private,https://drycured.com/?post_type=dry_recipe&p=2982,,,HR-SL-012
+2983,"Slavonska dimljena šunka",hr-sl-014-slavonska-dimljena-sunka,private,https://drycured.com/?post_type=dry_recipe&p=2983,,,HR-SL-014
+2984,"Suha plećka slavonska",hr-sl-015-suha-plecka-slavonska,private,https://drycured.com/?post_type=dry_recipe&p=2984,,,HR-SL-015
+2985,"Suha rebra slavonska",hr-sl-016-suha-rebra-slavonska,private,https://drycured.com/?post_type=dry_recipe&p=2985,,,HR-SL-016
+2986,"Slavonska jetrena kobasica",hr-sl-017-slavonska-jetrena-kobasica,private,https://drycured.com/?post_type=dry_recipe&p=2986,,,HR-SL-017
+2987,"Krvavica slavonska",hr-sl-018-krvavica-slavonska,private,https://drycured.com/?post_type=dry_recipe&p=2987,,,HR-SL-018
+2988,"Tlačenica slavonska (švargl)",hr-sl-019-tlacenica-slavonska-svargl,private,https://drycured.com/?post_type=dry_recipe&p=2988,,,HR-SL-019
+2989,"Vinkovačka šunka — suho soljena varijanta",hr-sl-020-vinkovacka-sunka-suho-soljena-varijanta,private,https://drycured.com/?post_type=dry_recipe&p=2989,,,HR-SL-020
+2990,"Slavonski lovački kulen (divljač + svinjetina)",hr-sl-021-slavonski-lovacki-kulen-divljac-svinjetina,private,https://drycured.com/?post_type=dry_recipe&p=2990,,,HR-SL-021
+2991,"Konjska salama Ploštine (talijanska manjina, Pakrac)",hr-sl-022-konjska-salama-plostine-talijanska-manjina-pakrac,private,https://drycured.com/?post_type=dry_recipe&p=2991,,,HR-SL-022
+2992,"Slavonski dimljeni svinjski vrat",hr-sl-024-slavonski-dimljeni-svinjski-vrat,private,https://drycured.com/?post_type=dry_recipe&p=2992,,,HR-SL-024
+2993,"Slavonski suhi vrat (ovratina)",hr-sl-027-slavonski-suhi-vrat-ovratina,private,https://drycured.com/?post_type=dry_recipe&p=2993,,,HR-SL-027
+2994,"Baranjska šunka",hr-sl-028-baranjska-sunka,private,https://drycured.com/?post_type=dry_recipe&p=2994,,,HR-SL-028
+2995,"Đakovačka šunka",hr-sl-029-dakovacka-sunka,private,https://drycured.com/?post_type=dry_recipe&p=2995,,,HR-SL-029
+2996,"Brodska kobasica (Slavonski Brod)",hr-sl-030-brodska-kobasica-slavonski-brod,publish,https://drycured.com/recepti-baza/hr-sl-030-brodska-kobasica-slavonski-brod/,,,HR-SL-030
+2997,"Osječka kobasica",hr-sl-031-osjecka-kobasica,publish,https://drycured.com/recepti-baza/hr-sl-031-osjecka-kobasica/,,,HR-SL-031
+2998,"Slavonska krvavica od prosa (bijela)",hr-sl-032-slavonska-krvavica-od-prosa-bijela,private,https://drycured.com/?post_type=dry_recipe&p=2998,,,HR-SL-032
+2999,"Slavonska šunka od crne slavonske svinje",hr-sl-033-slavonska-sunka-od-crne-slavonske-svinje,private,https://drycured.com/?post_type=dry_recipe&p=2999,,,HR-SL-033
+3000,"Slavonska domaća salama",hr-sl-034-slavonska-domaca-salama,publish,https://drycured.com/recepti-baza/hr-sl-034-slavonska-domaca-salama/,,,HR-SL-034
+3001,"Slavonska čvarkovača (kobasica od čvaraka)",hr-sl-036-slavonska-cvarkovaca-kobasica-od-cvaraka,publish,https://drycured.com/recepti-baza/hr-sl-036-slavonska-cvarkovaca-kobasica-od-cvaraka/,,,HR-SL-036
+3002,"Vinkovačka kobasica",hr-sl-037-vinkovacka-kobasica,publish,https://drycured.com/recepti-baza/hr-sl-037-vinkovacka-kobasica/,,,HR-SL-037
+3003,"Slavonska lovačka kobasica (divljač + svinjetina)",hr-sl-038-slavonska-lovacka-kobasica-divljac-svinjetina,publish,https://drycured.com/recepti-baza/hr-sl-038-slavonska-lovacka-kobasica-divljac-svinjetina/,,,HR-SL-038
+3005,"Cvelferija kulen — varijanta bez slanine",hr-sl-003,private,https://drycured.com/?post_type=dry_recipe&p=3005,,,HR-SL-003
+3006,"Vinkovačka šunka",hr-sl-022,private,https://drycured.com/?post_type=dry_recipe&p=3006,,,HR-SL-022
+3007,"Samoborska salama (županijska robna marka)",hr-sl-025,private,https://drycured.com/?post_type=dry_recipe&p=3007,,,HR-SL-025
+3008,"Dalmatinska suha šunka",hr-sl-034,private,https://drycured.com/?post_type=dry_recipe&p=3008,,,HR-SL-034
+3009,"Dalmatinska suha kobasica",hr-sl-038,private,https://drycured.com/?post_type=dry_recipe&p=3009,,,HR-SL-038
+3010,"Hvarska prstena kobasica",hr-sl-039,private,https://drycured.com/?post_type=dry_recipe&p=3010,,,HR-SL-039
+3011,"Sinjaška kobasica (Cetinska krajina)",hr-sl-040,private,https://drycured.com/?post_type=dry_recipe&p=3011,,,HR-SL-040
+3012,"Dalmatinska dimljena slanina",hr-sl-043,private,https://drycured.com/?post_type=dry_recipe&p=3012,,,HR-SL-043
+3013,"Istarska špaleta (suha plećka)",hr-sl-067,private,https://drycured.com/?post_type=dry_recipe&p=3013,,,HR-SL-067
+3014,"Zagorska dimljena šunka",hr-sl-083,private,https://drycured.com/?post_type=dry_recipe&p=3014,,,HR-SL-083
+3015,"Međimurska šunka",hr-sl-084,private,https://drycured.com/?post_type=dry_recipe&p=3015,,,HR-SL-084
+3016,"Zagorska tlačenica",hr-sl-091,private,https://drycured.com/?post_type=dry_recipe&p=3016,,,HR-SL-091
+3017,"Gospićka suha plećka",hr-sl-109,private,https://drycured.com/?post_type=dry_recipe&p=3017,,,HR-SL-109
+3018,"Banovinska tlačenica",hr-sl-115,private,https://drycured.com/?post_type=dry_recipe&p=3018,,,HR-SL-115
+3020,"Albanska proshutë / sušena šunka – kategorijski radni zapis",albanska-proshute-susena-sunka-radni-zapis,private,https://drycured.com/?post_type=dry_recipe&p=3020,,,MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA
+3021,"Vorarlberger Mostbröckle – sušena i dimljena govedina",vorarlberger-mostbroeckle-susena-dimljena-govedina,private,https://drycured.com/?post_type=dry_recipe&p=3021,,,MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA
+3022,"Westfälischer Schinken s krumpirom u ljusci i hrenom",westfalischer-schinken-s-krumpirom-u-ljusci-i-hrenom,private,https://drycured.com/?post_type=dry_recipe&p=3022,,,MD-WESTFALISCHER_SCHINKEN_S_KRUMPIROM_U_LJUSCI_I_HRENOM
+3023,"Bonus: Pfefferbeis s prženim krumpirom i umkom od kiselog vrhnja",bonus-pfefferbeis-s-przenim-krumpirom-i-umkom-od-kiselog-vrhnja,private,https://drycured.com/?post_type=dry_recipe&p=3023,,,MD-BONUS_PFEFFERBEIS_S_PRZENIM_KRUMPIROM_I_UMKOM_OD_KISELOG_VRHNJA
+3024,"Irska dimljena kobasica (Smoked Sausage)",irska-dimljena-kobasica-smoked-sausage,publish,https://drycured.com/recepti-baza/irska-dimljena-kobasica-smoked-sausage/,,,MD-IRSKA_DIMLJENA_KOBASICA_SMOKED_SAUSAGE
+3025,"Pršuta e Kosovës (Kosovska pršuta)",prsuta-e-kosoves-kosovska-prsuta-2,publish,https://drycured.com/recepti-baza/prsuta-e-kosoves-kosovska-prsuta-2/,,,MD-PRSUTA_E_KOSOVES_KOSOVSKA_PRSUTA
+3026,"Scharfe Edelrohwurst s povrćem na žaru",scharfe-edelrohwurst-s-povrcem-na-zaru,publish,https://drycured.com/recepti-baza/scharfe-edelrohwurst-s-povrcem-na-zaru/,,,MD-SCHARFE_EDELROHWURST_S_POVRCEM_NA_ZARU
+3027,"ENGADINER HATECLETT (SUŠENI KOZJI BUT)",engadiner-hateclett-suseni-kozji-but-2,publish,https://drycured.com/recepti-baza/engadiner-hateclett-suseni-kozji-but-2/,,,MD-ENGADINER_HATECLETT_SUSENI_KOZJI_BUT
+3028,"ZUGER HIRSCHTROCKENWURST (KOBASICA OD JELENA IZ ZUGA)",zuger-hirschtrockenwurst-kobasica-od-jelena-iz-zuga-2,publish,https://drycured.com/recepti-baza/zuger-hirschtrockenwurst-kobasica-od-jelena-iz-zuga-2/,,,MD-ZUGER_HIRSCHTROCKENWURST_KOBASICA_OD_JELENA_IZ_ZUGA
+3029,"Tiroler Speck – tirolski sušeni dimljeni svinjski but",tiroler-speck-tirolska-slanina-2,publish,https://drycured.com/recepti-baza/tiroler-speck-tirolska-slanina-2/,,,MD-TIROLER_SPECK_TIROLSKA_SLANINA
+3030,"Waldviertler Hirschsalami – salama od jelena iz Waldviertela",waldviertler-hirschsalami-salama-od-jelena-iz-waldviertela-2,publish,https://drycured.com/recepti-baza/waldviertler-hirschsalami-salama-od-jelena-iz-waldviertela-2/,,,MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA
+3031,"Austrijska Käsekrainer – kobasica sa sirom",austrijska-kasekrainer-kobasica-sa-sirom-2,private,https://drycured.com/?post_type=dry_recipe&p=3031,,,MD-AUSTRIJSKA_KASEKRAINER_KOBASICA_SA_SIROM
+3032,"Mađarska Gyulai Kolbász – Gyulai kobasica",maarska-gyulai-kolbasz-gyulai-kobasica,publish,https://drycured.com/recepti-baza/maarska-gyulai-kolbasz-gyulai-kobasica/,,,MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA
+3033,"Lukanka iz Panagyurishte – bugarska prešana suha kobasica",lukanka-iz-panagyurishte,publish,https://drycured.com/recepti-baza/lukanka-iz-panagyurishte/,,,MD-LUKANKA_IZ_PANAGYURISHTE
+3034,"Banska Kapama – bugarski mesni specijalitet",banska-kapama,private,https://drycured.com/?post_type=dry_recipe&p=3034,,,MD-BANSKA_KAPAMA
+3035,"Strandzhansko Dyado – bugarski sušeni punjeni proizvod",strandzhansko-dyado,publish,https://drycured.com/recepti-baza/strandzhansko-dyado/,,,MD-STRANDZHANSKO_DYADO
+3036,"Srednogorska Kaska – bugarski punjeni mesni proizvod",srednogorska-kaska,private,https://drycured.com/?post_type=dry_recipe&p=3036,,,MD-SREDNOGORSKA_KASKA
+3037,"Dobrudzhanski Babek – bugarski sušeni babek",dobrudzhanski-babek,publish,https://drycured.com/recepti-baza/dobrudzhanski-babek/,,,MD-DOBRUDZHANSKI_BABEK
+3038,"Grčki Loukaniko – tradicionalna grčka kobasica",grcka-tradicionalni-recepti-za-loukaniko-2,publish,https://drycured.com/recepti-baza/grcka-tradicionalni-recepti-za-loukaniko-2/,,,MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO
+3039,"Joulukinkku – finska božićna šunka",joulukinkku-bozicna-sunka-2,publish,https://drycured.com/recepti-baza/joulukinkku-bozicna-sunka-2/,,,MD-JOULUKINKKU_BOZICNA_SUNKA
+3040,"Palvikinkku – finska dimljena šunka",palvikinkku-dimljena-sunka-2,private,https://drycured.com/?post_type=dry_recipe&p=3040,,,MD-PALVIKINKKU_DIMLJENA_SUNKA
+3041,"Saucisson Sec – francuska suha kobasica",saucisson-sec-suha-kobasica-2,publish,https://drycured.com/recepti-baza/saucisson-sec-suha-kobasica-2/,,,MD-SAUCISSON_SEC_SUHA_KOBASICA
+3042,"Jésus de Lyon – debela suha kobasica",jesus-de-lyon-debela-suha-kobasica,publish,https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/,,,MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA
+3043,"Cervelas de Lyon – lionska kobasica",cervelas-de-lyon-lionska-kobasica,private,https://drycured.com/?post_type=dry_recipe&p=3043,,,MD-CERVELAS_DE_LYON_LIONSKA_KOBASICA
+3044,"Jésus de Lyon – velika lionska suha kobasica",jesus-de-lyon-2,publish,https://drycured.com/recepti-baza/jesus-de-lyon-2/,,,MD-JESUS_DE_LYON
+3045,"Rosette de Lyon – lionska suha kobasica",rosette-de-lyon-2,publish,https://drycured.com/recepti-baza/rosette-de-lyon-2/,,,MD-ROSETTE_DE_LYON
+3046,"Rillettes du Mans – kuhani mesni namaz",rillettes-du-mans-2,private,https://drycured.com/?post_type=dry_recipe&p=3046,,,MD-RILLETTES_DU_MANS
+3047,"Siglino Messinias – grčka dimljena svinjetina",siglino-messinias,publish,https://drycured.com/recepti-baza/siglino-messinias/,,,MD-SIGLINO_MESSINIAS
+3048,"Tsigarides – grčki čvarci / mesni pripravak",tsigarides,private,https://drycured.com/?post_type=dry_recipe&p=3048,,,MD-TSIGARIDES
+3049,"Llokum Kosove – kosovski mesni delikates",llokum-kosove-kosovski-delikates-2,private,https://drycured.com/?post_type=dry_recipe&p=3049,,,MD-LLOKUM_KOSOVE_KOSOVSKI_DELIKATES
+3050,"Pancetta Maltija – malteška panceta",maltezanska-panceta-pancetta-maltija-2,publish,https://drycured.com/recepti-baza/maltezanska-panceta-pancetta-maltija-2/,,,MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA
+3051,"Pick Szalámi – mađarski Pick salami",maarski-pick-salami-pick-szalami,publish,https://drycured.com/recepti-baza/maarski-pick-salami-pick-szalami/,,,MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI
+3052,"Mađarska Kolbász – mađarska kobasica",maarska-kobasica-kolbasz,publish,https://drycured.com/recepti-baza/maarska-kobasica-kolbasz/,,,MD-MADARSKA_KOBASICA_KOLBASZ
+3053,"Westfälischer Knochenschinken – vestfalska šunka s kosti",westfalischer-knochenschinken-vestfalska-sunka-s-kosti,publish,https://drycured.com/recepti-baza/westfalischer-knochenschinken-vestfalska-sunka-s-kosti/,,,MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI
+3054,"Rovinjska kobasica",0306-rovinjska-kobasica,private,https://drycured.com/?post_type=dry_recipe&p=3054,,,
+3055,"Salo – ukrajinska slana svinjska slanina",salo-slana-svinjeca-slanina,publish,https://drycured.com/recepti-baza/salo-slana-svinjeca-slanina/,,,MD-SALO_SLANA_SVINJECA_SLANINA
+3056,"Škotski stovies meat – usoljeno kuhano meso",skotski-stovies-meat-konzervirano-usoljeno-meso-2,private,https://drycured.com/?post_type=dry_recipe&p=3056,,,MD-SKOTSKI_STOVIES_MEAT_KONZERVIRANO_USOLJENO_MESO
+3057,"Belokranjska jagenjčara",belokranjska-jagenjcara-2,publish,https://drycured.com/recepti-baza/belokranjska-jagenjcara-2/,,,MD-BELOKRANJSKA_JAGENJCARA
+3058,"Sobrasada Mallorquina – majorška sobrasada",sobrasada-mallorquina-majorska-sobrasada-2,publish,https://drycured.com/recepti-baza/sobrasada-mallorquina-majorska-sobrasada-2/,,,MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA
+3059,"Julskinka – švedska božićna šunka",julskinka-svedska-bozicna-sunka-2,private,https://drycured.com/?post_type=dry_recipe&p=3059,,,MD-JULSKINKA_SVEDSKA_BOZICNA_SUNKA
+3060,"Appenzeller Mostbröckli – švicarska sušena dimljena govedina",appenzeller-mostbrockli-dimljena-govedina,publish,https://drycured.com/recepti-baza/appenzeller-mostbrockli-dimljena-govedina/,,,MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA
+3061,"Speck Alto Adige – južnotirolski sušeni dimljeni but",speck-alto-adige-2,publish,https://drycured.com/recepti-baza/speck-alto-adige-2/,,,MD-SPECK_ALTO_ADIGE
+3062,"Pashtetna – pečena mesna pašteta",pashtetna-pecena-mesna-pasteta,private,https://drycured.com/?post_type=dry_recipe&p=3062,,,MD-PASHTETNA_PECENA_MESNA_PASTETA
+3063,"Suxhuk – albanska suha kobasica",suxhuk-albanska-suha-kobasica-2,publish,https://drycured.com/recepti-baza/suxhuk-albanska-suha-kobasica-2/,,,MD-SUXHUK_ALBANSKA_SUHA_KOBASICA
+3064,"Proshuta Shqiptare – albanska pršuta",0003-proshuta-shqiptare-albanska-prsuta,publish,https://drycured.com/recepti-baza/0003-proshuta-shqiptare-albanska-prsuta/,,,MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA
+3065,"Mish i thatë – albanska suha janjetina",mish-i-thate-albanska-suha-janjetina-2,publish,https://drycured.com/recepti-baza/mish-i-thate-albanska-suha-janjetina-2/,,,MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA
+3066,"Kärntner Wurzelspeck – koruški sušeni dimljeni vrat",karntner-wurzelspeck-koruska-korijenska-slanina-2,publish,https://drycured.com/recepti-baza/karntner-wurzelspeck-koruska-korijenska-slanina-2/,,,MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA
+3067,"Steirischer Rohschinken – štajerska sirova šunka",steirischer-rohschinken-stajerska-sirova-sunka-2,publish,https://drycured.com/recepti-baza/steirischer-rohschinken-stajerska-sirova-sunka-2/,,,MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA
+3068,"Vorarlberger Mostbröckle – vorarlberška dimljena govedina",0010-vorarlberger-mostbrockle-vorarlberska-dimljena-govedina,publish,https://drycured.com/recepti-baza/0010-vorarlberger-mostbrockle-vorarlberska-dimljena-govedina/,,,MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA
+3069,"Finska Meetvursti – suha kobasica",finska-meetvursti-suha-kobasica-2,publish,https://drycured.com/recepti-baza/finska-meetvursti-suha-kobasica-2/,,,MD-FINSKA_MEETVURSTI_SUHA_KOBASICA
+3070,"Filet d’Anvers – antverpski file",filet-d-anvers-antverpski-file,publish,https://drycured.com/recepti-baza/filet-d-anvers-antverpski-file/,,,MD-FILET_DANVERS_ANTVERPSKI_FILE
+3071,"Lard fumé de Flandre – flamanska dimljena slanina",lard-fume-de-flandre-flamansko-dimljeno-salo-2,publish,https://drycured.com/recepti-baza/lard-fume-de-flandre-flamansko-dimljeno-salo-2/,,,MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO
+3072,"Saucisse au fromage de Herve – kobasica sa sirom Herve",saucisse-au-fromage-de-herve-kobasica-sa-sirom-herve-2,private,https://drycured.com/?post_type=dry_recipe&p=3072,,,MD-SAUCISSE_AU_FROMAGE_DE_HERVE_KOBASICA_SA_SIROM_HERVE
+3073,"Collier fumé de Wallonie – dimljeni svinjski vrat iz Valonije",collier-fume-de-wallonie-dimljeni-svinjski-vrat-iz-valonije-2,publish,https://drycured.com/recepti-baza/collier-fume-de-wallonie-dimljeni-svinjski-vrat-iz-valonije-2/,,,MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE
+3074,"Boudin blanc de Bruxelles – bijela kuhana kobasica iz Bruxellesa",boudin-blanc-de-bruxelles-bijela-krvavica-iz-bruxellesa-2,private,https://drycured.com/?post_type=dry_recipe&p=3074,,,MD-BOUDIN_BLANC_DE_BRUXELLES_BIJELA_KRVAVICA_IZ_BRUXELLESA
+3075,"Jambon d’Ardenne – ardenska šunka",jambon-d-ardenne-ardenski-prsut,publish,https://drycured.com/recepti-baza/jambon-d-ardenne-ardenski-prsut/,,,MD-JAMBON_DARDENNE_ARDENSKI_PRSUT
+3076,"Pâté gaumais – gaume pašteta",pate-gaumais-gaume-pasteta-2,private,https://drycured.com/?post_type=dry_recipe&p=3076,,,MD-PATE_GAUMAIS_GAUME_PASTETA
+3077,"Tête pressée – prešana svinjska glava / prezvuršt",tete-pressee-prezvurst-2,private,https://drycured.com/?post_type=dry_recipe&p=3077,,,MD-TETE_PRESSEE_PREZVURST
+3078,"Boulette de Liège – lieške mesne okruglice",boulette-de-liege-lieska-mesna-kobasica-2,private,https://drycured.com/?post_type=dry_recipe&p=3078,,,MD-BOULETTE_DE_LIEGE_LIESKA_MESNA_KOBASICA
+3081,"SAUCISSON D'ARDENNE (ARDENSKI KULEN)",saucisson-d-ardenne-ardenski-kulen,publish,https://drycured.com/recepti-baza/saucisson-d-ardenne-ardenski-kulen/,,,MD-SAUCISSON_DARDENNE_ARDENSKI_KULEN
+3082,"НАНИЖЕН СУДЖУК (Nanižen Sudžuk)",nanizen-sudzuk,publish,https://drycured.com/recepti-baza/nanizen-sudzuk/,,,MD-NANIZEN_SUDZUK
+3083,"ЕЛЕНСКИ БУТ (Elenski but)",elenski-but,publish,https://drycured.com/recepti-baza/elenski-but/,,,MD-ELENSKI_BUT
+3084,"СМЯДОВСКА ЛУКАНКА (Smyadovska lukanka)",smyadovska-lukanka,publish,https://drycured.com/recepti-baza/smyadovska-lukanka/,,,MD-SMYADOVSKA_LUKANKA
+3085,"СТАРОПЛАНИНСКИ ПАСТЪРМА (Staroplaninska pastrma)",staroplaninska-pastrma,publish,https://drycured.com/recepti-baza/staroplaninska-pastrma/,,,MD-STAROPLANINSKA_PASTRMA
+3086,"Nadenitsa (Наденица)",nadenitsa,publish,https://drycured.com/recepti-baza/nadenitsa/,,,MD-NADENITSA
+3087,"Rulopep (Рулопеп)",rulopep,publish,https://drycured.com/recepti-baza/rulopep/,,,MD-RULOPEP
+3088,"Katino Meze (Катино мезе)",katino-meze,publish,https://drycured.com/recepti-baza/katino-meze/,,,MD-KATINO_MEZE
+3089,"Drobsarma (Дробсарма)",drobsarma,publish,https://drycured.com/recepti-baza/drobsarma/,,,MD-DROBSARMA
+3090,"Maleshevska Babichka (Малешевска бабичка)",maleshevska-babichka,publish,https://drycured.com/recepti-baza/maleshevska-babichka/,,,MD-MALESHEVSKA_BABICHKA
+3091,"Kraishte Pastarma (Краищенска пастърма)",kraishte-pastarma,publish,https://drycured.com/recepti-baza/kraishte-pastarma/,,,MD-KRAISHTE_PASTARMA
+3092,"Lukanka (Луканка)",lukanka,publish,https://drycured.com/recepti-baza/lukanka/,,,MD-LUKANKA
+3093,"Sudjuk (Суджук)",sudjuk,publish,https://drycured.com/recepti-baza/sudjuk/,,,MD-SUDJUK
+3094,"Elena filet (Еленски филе)",elena-filet,publish,https://drycured.com/recepti-baza/elena-filet/,,,MD-ELENA_FILET
+3095,"Pastarma (Пастърма)",pastarma,publish,https://drycured.com/recepti-baza/pastarma/,,,MD-PASTARMA
+3096,"Banski Starec (Бански старец)",banski-starec,publish,https://drycured.com/recepti-baza/banski-starec/,,,MD-BANSKI_STAREC
+3097,"Lountza (Λούντζα)",lountza,publish,https://drycured.com/recepti-baza/lountza/,,,MD-LOUNTZA
+3098,"Hiromeri (Χοιρομέρι)",hiromeri,publish,https://drycured.com/recepti-baza/hiromeri/,,,MD-HIROMERI
+3099,"Tsamarella (Τσαμαρέλλα)",tsamarella,publish,https://drycured.com/recepti-baza/tsamarella/,,,MD-TSAMARELLA
+3100,"Posyrti (Ποσυρτή)",posyrti,publish,https://drycured.com/recepti-baza/posyrti/,,,MD-POSYRTI
+3101,"Apohtin (Αποχτίν)",apohtin,publish,https://drycured.com/recepti-baza/apohtin/,,,MD-APOHTIN
+3102,"Lounza (Λούντζα) - Dimljena svinjska potrbušina",lounza-dimljena-svinjska-potrbusina,publish,https://drycured.com/recepti-baza/lounza-dimljena-svinjska-potrbusina/,,,MD-LOUNZA_DIMLJENA_SVINJSKA_POTRBUSINA
+3103,"Tsamarella (Τσαμαρέλλα) - Sušena kozletina",tsamarella-susena-kozletina,publish,https://drycured.com/recepti-baza/tsamarella-susena-kozletina/,,,MD-TSAMARELLA_SUSENA_KOZLETINA
+3104,"Hiromeri (Χοιρομέρι) - Ciparski pršut",hiromeri-ciparski-prsut,publish,https://drycured.com/recepti-baza/hiromeri-ciparski-prsut/,,,MD-HIROMERI_CIPARSKI_PRSUT
+3105,"Apohti (Απόχτι) - Dimljeni svinjski file",apohti-dimljeni-svinjski-file,publish,https://drycured.com/recepti-baza/apohti-dimljeni-svinjski-file/,,,MD-APOHTI_DIMLJENI_SVINJSKI_FILE
+3106,"Pastourma (Παστουρμάς) - Ciparski začinjeni sušeni goveđi file",pastourma-ciparski-zacinjeni-suseni-govei-file,publish,https://drycured.com/recepti-baza/pastourma-ciparski-zacinjeni-suseni-govei-file/,,,MD-PASTOURMA_CIPARSKI_ZACINJENI_SUSENI_GOVEDI_FILE
+3107,"?? NIZOZEMSKA - Tradicionalni recepti",nizozemska-tradicionalni-recepti,publish,https://drycured.com/recepti-baza/nizozemska-tradicionalni-recepti/,,,MD-NIZOZEMSKA_TRADICIONALNI_RECEPTI
+3108,"Crmničke goveđe pastrve",crmnicke-govee-pastrve,publish,https://drycured.com/recepti-baza/crmnicke-govee-pastrve/,,,MD-CRMNICKE_GOVEDE_PASTRVE
+3109,"Bjelopavlićka bumbar-pita",bjelopavlicka-bumbar-pita,private,https://drycured.com/?post_type=dry_recipe&p=3109,,,MD-BJELOPAVLICKA_BUMBAR_PITA
+3110,"Crnogorski suđuk",crnogorski-suuk,publish,https://drycured.com/recepti-baza/crnogorski-suuk/,,,MD-CRNOGORSKI_SUDUK
+3111,"Pagaški sir (rijetka regionalna varijanta)",pagaski-sir-rijetka-regionalna-varijanta,private,https://drycured.com/?post_type=dry_recipe&p=3111,,,MD-PAGASKI_SIR_RIJETKA_REGIONALNA_VARIJANTA
+3112,"Medisterpølse (Danska svježa začinjena kobasica)",medisterplse-danska-svjeza-zacinjena-kobasica,publish,https://drycured.com/recepti-baza/medisterplse-danska-svjeza-zacinjena-kobasica/,,,MD-MEDISTERP_LSE_DANSKA_SVJEZA_ZACINJENA_KOBASICA
+3113,"Blodpølse (Danska krvavica)",blodplse-danska-krvavica,private,https://drycured.com/?post_type=dry_recipe&p=3113,,,MD-BLODP_LSE_DANSKA_KRVAVICA
+3114,"Rullepølse (Danska rolana šunka)",rulleplse-danska-rolana-sunka,publish,https://drycured.com/recepti-baza/rulleplse-danska-rolana-sunka/,,,MD-RULLEP_LSE_DANSKA_ROLANA_SUNKA
+3115,"Flæskesteg (Danska pečena svinjetina s hrskavom kožom)",flskesteg-danska-pecena-svinjetina-s-hrskavom-kozom,publish,https://drycured.com/recepti-baza/flskesteg-danska-pecena-svinjetina-s-hrskavom-kozom/,,,MD-FL_SKESTEG_DANSKA_PECENA_SVINJETINA_S_HRSKAVOM_KOZOM
+3116,"Spegepølse (Danska fermentirana kobasica)",spegeplse-danska-fermentirana-kobasica,publish,https://drycured.com/recepti-baza/spegeplse-danska-fermentirana-kobasica/,,,MD-SPEGEP_LSE_DANSKA_FERMENTIRANA_KOBASICA
+3117,"Irski spiced beef (Začinjeno sušeno goveđe meso)",irski-spiced-beef-zacinjeno-suseno-govee-meso,publish,https://drycured.com/recepti-baza/irski-spiced-beef-zacinjeno-suseno-govee-meso/,,,MD-IRSKI_SPICED_BEEF_ZACINJENO_SUSENO_GOVEDE_MESO
+3118,"Kasseler pečenka s pireom od jabuka i krupir knedlama",kasseler-pecenka-s-pireom-od-jabuka-i-krupir-knedlama,publish,https://drycured.com/recepti-baza/kasseler-pecenka-s-pireom-od-jabuka-i-krupir-knedlama/,,,MD-KASSELER_PECENKA_S_PIREOM_OD_JABUKA_I_KRUPIR_KNEDLAMA
+3119,"Leberkäse s prženim jajima i bavarskim röstijem",leberkase-s-przenim-jajima-i-bavarskim-rostijem,private,https://drycured.com/?post_type=dry_recipe&p=3119,,,MD-LEBERKASE_S_PRZENIM_JAJIMA_I_BAVARSKIM_ROSTIJEM
+3120,"Rogatički Planinsko-Morski Raritet ""Vjetar i More""",rogaticki-planinsko-morski-raritet-vjetar-i-more,publish,https://drycured.com/recepti-baza/rogaticki-planinsko-morski-raritet-vjetar-i-more/,,,MD-ROGATICKI_PLANINSKO_MORSKI_RARITET_VJETAR_I_MORE
+3121,"Istarski Morski Pršut ""Neptunov Dar""",istarski-morski-prsut-neptunov-dar,publish,https://drycured.com/recepti-baza/istarski-morski-prsut-neptunov-dar/,,,MD-ISTARSKI_MORSKI_PRSUT_NEPTUNOV_DAR
+3122,"Potted Beef (konzervirano goveđe meso)",potted-beef-konzervirano-govee-meso,publish,https://drycured.com/recepti-baza/potted-beef-konzervirano-govee-meso/,,,MD-POTTED_BEEF_KONZERVIRANO_GOVEDE_MESO
+3123,"Tradicionalni engleski Black Pudding (krvavica)",tradicionalni-engleski-black-pudding-krvavica,private,https://drycured.com/?post_type=dry_recipe&p=3123,,,MD-TRADICIONALNI_ENGLESKI_BLACK_PUDDING_KRVAVICA
+3124,"Engleski sušeni goveđi jezik (Potted Ox Tongue)",engleski-suseni-govei-jezik-potted-ox-tongue,publish,https://drycured.com/recepti-baza/engleski-suseni-govei-jezik-potted-ox-tongue/,,,MD-ENGLESKI_SUSENI_GOVEDI_JEZIK_POTTED_OX_TONGUE
+3125,"?? Talijansko-toskanski recept za salamu (Salame Toscano)",talijansko-toskanski-recept-za-salamu-salame-toscano,publish,https://drycured.com/recepti-baza/talijansko-toskanski-recept-za-salamu-salame-toscano/,,,MD-TALIJANSKO_TOSKANSKI_RECEPT_ZA_SALAMU_SALAME_TOSCANO
+3126,"?? Austrijski recept za Kmetzelsuppe kobasicu",austrijski-recept-za-kmetzelsuppe-kobasicu,publish,https://drycured.com/recepti-baza/austrijski-recept-za-kmetzelsuppe-kobasicu/,,,MD-AUSTRIJSKI_RECEPT_ZA_KMETZELSUPPE_KOBASICU
+3127,"Poljska Kiełbasa Lisiecka (Lisiecka Kobasica)",poljska-kiebasa-lisiecka-lisiecka-kobasica,publish,https://drycured.com/recepti-baza/poljska-kiebasa-lisiecka-lisiecka-kobasica/,,,MD-POLJSKA_KIE_BASA_LISIECKA_LISIECKA_KOBASICA
+3128,"KYLMÄSAVULOHI (HLADNO DIMLJENI LOSOS)",kylmasavulohi-hladno-dimljeni-losos,publish,https://drycured.com/recepti-baza/kylmasavulohi-hladno-dimljeni-losos/,,,MD-KYLMASAVULOHI_HLADNO_DIMLJENI_LOSOS
+3129,"Jambon de Bayonne (Bajonska šunka)",jambon-de-bayonne-bajonska-sunka,publish,https://drycured.com/recepti-baza/jambon-de-bayonne-bajonska-sunka/,,,MD-JAMBON_DE_BAYONNE_BAJONSKA_SUNKA
+3130,"Rillettes du Mans (Pašteta od konfitiranog mesa)",rillettes-du-mans-pasteta-od-konfitiranog-mesa,private,https://drycured.com/?post_type=dry_recipe&p=3130,,,MD-RILLETTES_DU_MANS_PASTETA_OD_KONFITIRANOG_MESA
+3131,"SAUCISSON SEC D'AUVERGNE",saucisson-sec-d-auvergne,publish,https://drycured.com/recepti-baza/saucisson-sec-d-auvergne/,,,MD-SAUCISSON_SEC_DAUVERGNE
+3132,"Armatia (Αρματιά)",armatia,publish,https://drycured.com/recepti-baza/armatia/,,,MD-ARMATIA
+3133,"Pihti (Πηχτή)",pihti,publish,https://drycured.com/recepti-baza/pihti/,,,MD-PIHTI
+3134,"Kavourmas (Καβουρμάς)",kavourmas,publish,https://drycured.com/recepti-baza/kavourmas/,,,MD-KAVOURMAS
+3135,"Pastourmas (Παστουρμάς)",pastourmas,publish,https://drycured.com/recepti-baza/pastourmas/,,,MD-PASTOURMAS
+3136,"Loukaniko (Λουκάνικο)",loukaniko,publish,https://drycured.com/recepti-baza/loukaniko/,,,MD-LOUKANIKO
+3137,"Apaki (Απάκι)",apaki,publish,https://drycured.com/recepti-baza/apaki/,,,MD-APAKI
+3138,"Noumboulo (Νούμπουλο)",noumboulo,publish,https://drycured.com/recepti-baza/noumboulo/,,,MD-NOUMBOULO
+3139,"Syglino (Σύγκλινο)",syglino,publish,https://drycured.com/recepti-baza/syglino/,,,MD-SYGLINO
+3140,"Skirts and Kidneys (Tradicionalna irska marinirana goveđa dijafragma)",skirts-and-kidneys-tradicionalna-irska-marinirana-govea-dijafragma,publish,https://drycured.com/recepti-baza/skirts-and-kidneys-tradicionalna-irska-marinirana-govea-dijafragma/,,,MD-SKIRTS_AND_KIDNEYS_TRADICIONALNA_IRSKA_MARINIRANA_GOVEDA_DIJAFRAGMA
+3141,"Svið (Dimljena janjeća glava)",svi-dimljena-janjeca-glava,publish,https://drycured.com/recepti-baza/svi-dimljena-janjeca-glava/,,,MD-SVI_DIMLJENA_JANJECA_GLAVA
+3142,"Heilhornað Hangikjöt (Sušena janjeća rebra)",heilhorna-hangikjot-susena-janjeca-rebra,publish,https://drycured.com/recepti-baza/heilhorna-hangikjot-susena-janjeca-rebra/,,,MD-HEILHORNA_HANGIKJOT_SUSENA_JANJECA_REBRA
+3143,"Torfær​ður Lambahryggur (Zakopana janjeća leđa)",torfrur-lambahryggur-zakopana-janjeca-lea,publish,https://drycured.com/recepti-baza/torfrur-lambahryggur-zakopana-janjeca-lea/,,,MD-TORF_R_UR_LAMBAHRYGGUR_ZAKOPANA_JANJECA_LEDA
+3144,"Selshreifar (Sušeni tuljanovi peraji)",selshreifar-suseni-tuljanovi-peraji,publish,https://drycured.com/recepti-baza/selshreifar-suseni-tuljanovi-peraji/,,,MD-SELSHREIFAR_SUSENI_TULJANOVI_PERAJI
+3145,"Hákarlasullur (Fermentirani trbuh grenlandskog morskog psa)",hakarlasullur-fermentirani-trbuh-grenlandskog-morskog-psa,publish,https://drycured.com/recepti-baza/hakarlasullur-fermentirani-trbuh-grenlandskog-morskog-psa/,,,MD-HAKARLASULLUR_FERMENTIRANI_TRBUH_GRENLANDSKOG_MORSKOG_PSA
+3146,"Gellur (Sušeni riblji jezici)",gellur-suseni-riblji-jezici,publish,https://drycured.com/recepti-baza/gellur-suseni-riblji-jezici/,,,MD-GELLUR_SUSENI_RIBLJI_JEZICI
+3147,"Súrsaðir Hrútspungar Með Lyngi (Fermentirani ovnovski testisi s vrijeskom)",sursair-hrutspungar-me-lyngi-fermentirani-ovnovski-testisi-s-vrijeskom,publish,https://drycured.com/recepti-baza/sursair-hrutspungar-me-lyngi-fermentirani-ovnovski-testisi-s-vrijeskom/,,,MD-SURSA_IR_HRUTSPUNGAR_ME_LYNGI_FERMENTIRANI_OVNOVSKI_TESTISI_S_VRIJESKOM
+3148,"Sviðasulta (Želatinizirano janjeće meso s glave)",sviasulta-zelatinizirano-janjece-meso-s-glave,publish,https://drycured.com/recepti-baza/sviasulta-zelatinizirano-janjece-meso-s-glave/,,,MD-SVI_ASULTA_ZELATINIZIRANO_JANJECE_MESO_S_GLAVE
+3149,"Harðfiskur (Sušeni oslić)",harfiskur-suseni-oslic,publish,https://drycured.com/recepti-baza/harfiskur-suseni-oslic/,,,MD-HAR_FISKUR_SUSENI_OSLIC
+3150,"Kæstur Hákarl (Fermentirano meso grenlandskog morskog psa)",kstur-hakarl-fermentirano-meso-grenlandskog-morskog-psa,publish,https://drycured.com/recepti-baza/kstur-hakarl-fermentirano-meso-grenlandskog-morskog-psa/,,,MD-K_STUR_HAKARL_FERMENTIRANO_MESO_GRENLANDSKOG_MORSKOG_PSA
+3151,"Pastërma (Sušena govedina)",pasterma-susena-govedina,publish,https://drycured.com/recepti-baza/pasterma-susena-govedina/,,,MD-PASTERMA_SUSENA_GOVEDINA
+3152,"Skilandis (Tradicinis lietuviškas skilandis)",skilandis-tradicinis-lietuviskas-skilandis,publish,https://drycured.com/recepti-baza/skilandis-tradicinis-lietuviskas-skilandis/,,,MD-SKILANDIS_TRADICINIS_LIETUVISKAS_SKILANDIS
+3153,"Kindziukas (Kindzius)",kindziukas-kindzius,publish,https://drycured.com/recepti-baza/kindziukas-kindzius/,,,MD-KINDZIUKAS_KINDZIUS
+3154,"Lašiniai (Tradicionalna litavska slanina)",lasiniai-tradicionalna-litavska-slanina,publish,https://drycured.com/recepti-baza/lasiniai-tradicionalna-litavska-slanina/,,,MD-LASINIAI_TRADICIONALNA_LITAVSKA_SLANINA
+3155,"Vytinta dešra (Sušena litavska kobasica)",vytinta-desra-susena-litavska-kobasica,publish,https://drycured.com/recepti-baza/vytinta-desra-susena-litavska-kobasica/,,,MD-VYTINTA_DESRA_SUSENA_LITAVSKA_KOBASICA
+3156,"Lički Planinarski Navršak",licki-planinarski-navrsak,publish,https://drycured.com/recepti-baza/licki-planinarski-navrsak/,,,MD-LICKI_PLANINARSKI_NAVRSAK
+3157,"Maltežanski sušeni ovčji sir (Ġbejna Mnixxfa)",maltezanski-suseni-ovcji-sir-gbejna-mnixxfa,private,https://drycured.com/?post_type=dry_recipe&p=3157,,,MD-MALTEZANSKI_SUSENI_OVCJI_SIR_BEJNA_MNIXXFA
+3158,"Mađarska Slanina (Szalonna)",maarska-slanina-szalonna,publish,https://drycured.com/recepti-baza/maarska-slanina-szalonna/,,,MD-MADARSKA_SLANINA_SZALONNA
+3159,"Mađarska Dimljena Šunka (Füstölt Sonka)",maarska-dimljena-sunka-fustolt-sonka,publish,https://drycured.com/recepti-baza/maarska-dimljena-sunka-fustolt-sonka/,,,MD-MADARSKA_DIMLJENA_SUNKA_FUSTOLT_SONKA
+3160,"Mađarski Dimljeni Jezik (Füstölt Nyelv)",maarski-dimljeni-jezik-fustolt-nyelv,publish,https://drycured.com/recepti-baza/maarski-dimljeni-jezik-fustolt-nyelv/,,,MD-MADARSKI_DIMLJENI_JEZIK_FUSTOLT_NYELV
+3161,"CHIȘCĂ (MOLDAVSKA KRVAVICA)",chisca-moldavska-krvavica,private,https://drycured.com/?post_type=dry_recipe&p=3161,,,MD-CHI_C_MOLDAVSKA_KRVAVICA
+3162,"Ossenworst (Goveđa sirova kobasica)",ossenworst-govea-sirova-kobasica,publish,https://drycured.com/recepti-baza/ossenworst-govea-sirova-kobasica/,,,MD-OSSENWORST_GOVEDA_SIROVA_KOBASICA
+3163,"MOSTBRÖCKLI (ALPSKA SUŠENA GOVEDINA)",mostbrockli-alpska-susena-govedina,publish,https://drycured.com/recepti-baza/mostbrockli-alpska-susena-govedina/,,,MD-MOSTBROCKLI_ALPSKA_SUSENA_GOVEDINA
+3164,"HOLSTEINER KATENSCHINKEN (HOLŠTAJNSKA DIMLJENA ŠUNKA)",holsteiner-katenschinken-holstajnska-dimljena-sunka,publish,https://drycured.com/recepti-baza/holsteiner-katenschinken-holstajnska-dimljena-sunka/,,,MD-HOLSTEINER_KATENSCHINKEN_HOLSTAJNSKA_DIMLJENA_SUNKA
+3165,"Schwarzwaldska šunka s kiselim kupusom i krumpirom",schwarzwaldska-sunka-s-kiselim-kupusom-i-krumpirom,private,https://drycured.com/?post_type=dry_recipe&p=3165,,,MD-SCHWARZWALDSKA_SUNKA_S_KISELIM_KUPUSOM_I_KRUMPIROM
+3166,"Leichter Karreeschinken s povrćem u eintopfu",leichter-karreeschinken-s-povrcem-u-eintopfu,publish,https://drycured.com/recepti-baza/leichter-karreeschinken-s-povrcem-u-eintopfu/,,,MD-LEICHTER_KARREESCHINKEN_S_POVRCEM_U_EINTOPFU
+3167,"Bonus: Juha od povrća s Schinkenspeck kobasicama",bonus-juha-od-povrca-s-schinkenspeck-kobasicama,private,https://drycured.com/?post_type=dry_recipe&p=3167,,,MD-BONUS_JUHA_OD_POVRCA_S_SCHINKENSPECK_KOBASICAMA
+3168,"RAKFISK (FERMENTIRANI SLATKOVODNI LOSOS)",rakfisk-fermentirani-slatkovodni-losos,publish,https://drycured.com/recepti-baza/rakfisk-fermentirani-slatkovodni-losos/,,,MD-RAKFISK_FERMENTIRANI_SLATKOVODNI_LOSOS
+3169,"LUTEFISK (SUŠENI BAKALAR)",lutefisk-suseni-bakalar,publish,https://drycured.com/recepti-baza/lutefisk-suseni-bakalar/,,,MD-LUTEFISK_SUSENI_BAKALAR
+3170,"SMALAHOVE (SUŠENA OVČJA GLAVA)",smalahove-susena-ovcja-glava,publish,https://drycured.com/recepti-baza/smalahove-susena-ovcja-glava/,,,MD-SMALAHOVE_SUSENA_OVCJA_GLAVA
+3171,"FÅREPØLSE (TRADICIONALNA OVČJA KOBASICA)",fareplse-tradicionalna-ovcja-kobasica,publish,https://drycured.com/recepti-baza/fareplse-tradicionalna-ovcja-kobasica/,,,MD-FAREP_LSE_TRADICIONALNA_OVCJA_KOBASICA
+3172,"ELGKJØTT SPEKEMAT (SUHO MESO LOSA)",elgkjtt-spekemat-suho-meso-losa,publish,https://drycured.com/recepti-baza/elgkjtt-spekemat-suho-meso-losa/,,,MD-ELGKJ_TT_SPEKEMAT_SUHO_MESO_LOSA
+3173,"TJUKKMJØLKSPØLSE (FERMENTIRANA KOBASICA S MLIJEČNOM KULTUROM)",tjukkmjlksplse-fermentirana-kobasica-s-mlijecnom-kulturom,publish,https://drycured.com/recepti-baza/tjukkmjlksplse-fermentirana-kobasica-s-mlijecnom-kulturom/,,,MD-TJUKKMJ_LKSP_LSE_FERMENTIRANA_KOBASICA_S_MLIJECNOM_KULTUROM
+3174,"REINSDYRHJERTE (SUŠENO SRCE SOBA)",reinsdyrhjerte-suseno-srce-soba,publish,https://drycured.com/recepti-baza/reinsdyrhjerte-suseno-srce-soba/,,,MD-REINSDYRHJERTE_SUSENO_SRCE_SOBA
+3175,"PINNEKJØTT (SUŠENA REBRA)",pinnekjtt-susena-rebra,publish,https://drycured.com/recepti-baza/pinnekjtt-susena-rebra/,,,MD-PINNEKJ_TT_SUSENA_REBRA
+3176,"RØKELAKS (DIMLJENI LOSOS)",rkelaks-dimljeni-losos,publish,https://drycured.com/recepti-baza/rkelaks-dimljeni-losos/,,,MD-R_KELAKS_DIMLJENI_LOSOS
+3177,"Đakovački Specijalni Fermentirani Vrat",akovacki-specijalni-fermentirani-vrat,private,https://drycured.com/?post_type=dry_recipe&p=3177,,,MD-DAKOVACKI_SPECIJALNI_FERMENTIRANI_VRAT
+3178,"Kuşbaşı Jerky (Turski goveđi jerky)",kusbas-jerky-turski-govei-jerky,publish,https://drycured.com/recepti-baza/kusbas-jerky-turski-govei-jerky/,,,MD-KU_BA_JERKY_TURSKI_GOVEDI_JERKY
+3179,"Işkembe Dolması (Punjeni goveđi burag)",iskembe-dolmas-punjeni-govei-burag,publish,https://drycured.com/recepti-baza/iskembe-dolmas-punjeni-govei-burag/,,,MD-I_KEMBE_DOLMAS_PUNJENI_GOVEDI_BURAG
+3180,"Varaždinski Š(p)ek",varazdinski-s-p-ek,publish,https://drycured.com/recepti-baza/varazdinski-s-p-ek/,,,MD-VARAZDINSKI_S_P_EK
+3181,"Đurđevački Zelenjak",urevacki-zelenjak,publish,https://drycured.com/recepti-baza/urevacki-zelenjak/,,,MD-DURDEVACKI_ZELENJAK
+3182,"KINDZIUK (POLJSKO-LITAVSKA SUHA KOBASICA)",kindziuk-poljsko-litavska-suha-kobasica,publish,https://drycured.com/recepti-baza/kindziuk-poljsko-litavska-suha-kobasica/,,,MD-KINDZIUK_POLJSKO_LITAVSKA_SUHA_KOBASICA
+3183,"KIEŁBASA WĘDZONA (DIMLJENA POLJSKA KOBASICA)",kiebasa-wedzona-dimljena-poljska-kobasica,publish,https://drycured.com/recepti-baza/kiebasa-wedzona-dimljena-poljska-kobasica/,,,MD-KIE_BASA_W_DZONA_DIMLJENA_POLJSKA_KOBASICA
+3184,"Morcela de Assar (Portugalska krvavica za pečenje)",morcela-de-assar-portugalska-krvavica-za-pecenje,private,https://drycured.com/?post_type=dry_recipe&p=3184,,,MD-MORCELA_DE_ASSAR_PORTUGALSKA_KRVAVICA_ZA_PECENJE
+3185,"Presunto de Porco Preto (Pršut od Crne Iberijske Svinje)",presunto-de-porco-preto-prsut-od-crne-iberijske-svinje,publish,https://drycured.com/recepti-baza/presunto-de-porco-preto-prsut-od-crne-iberijske-svinje/,,,MD-PRESUNTO_DE_PORCO_PRETO_PRSUT_OD_CRNE_IBERIJSKE_SVINJE
+3186,"Bonus: Schwarzwälder Speck (Crnogorska slanina)",bonus-schwarzwalder-speck-crnogorska-slanina,private,https://drycured.com/?post_type=dry_recipe&p=3186,,,MD-BONUS_SCHWARZWALDER_SPECK_CRNOGORSKA_SLANINA
+3187,"Zalatina (Ζαλατίνα) - Ciparski hladetinasti svinjski narezak",zalatina-ciparski-hladetinasti-svinjski-narezak,private,https://drycured.com/?post_type=dry_recipe&p=3187,,,MD-ZALATINA_CIPARSKI_HLADETINASTI_SVINJSKI_NAREZAK
+3188,"Lountza Kafteri (Λούντζα Καυτερή) - Ljuta dimljena svinjska vratina",lountza-kafteri-ljuta-dimljena-svinjska-vratina,publish,https://drycured.com/recepti-baza/lountza-kafteri-ljuta-dimljena-svinjska-vratina/,,,MD-LOUNTZA_KAFTERI_LJUTA_DIMLJENA_SVINJSKA_VRATINA
+3189,"Posyrti (Ποσυρτή) - Ciparska suha kobasica s divljim biljem",posyrti-ciparska-suha-kobasica-s-divljim-biljem,publish,https://drycured.com/recepti-baza/posyrti-ciparska-suha-kobasica-s-divljim-biljem/,,,MD-POSYRTI_CIPARSKA_SUHA_KOBASICA_S_DIVLJIM_BILJEM
+3190,"Afelia Pastarma (Αφέλια Παστάρμα) - Ciparska marinirana goveđa pisanica",afelia-pastarma-ciparska-marinirana-govea-pisanica,publish,https://drycured.com/recepti-baza/afelia-pastarma-ciparska-marinirana-govea-pisanica/,,,MD-AFELIA_PASTARMA_CIPARSKA_MARINIRANA_GOVEDA_PISANICA
+3191,"Ofto Lountza (Οφτή Λούντζα) - Ciparska zračno sušena janjetina",ofto-lountza-ciparska-zracno-susena-janjetina,publish,https://drycured.com/recepti-baza/ofto-lountza-ciparska-zracno-susena-janjetina/,,,MD-OFTO_LOUNTZA_CIPARSKA_ZRACNO_SUSENA_JANJETINA
+3192,"Virovski ""Živi Čvarci""",virovski-zivi-cvarci,publish,https://drycured.com/recepti-baza/virovski-zivi-cvarci/,,,MD-VIROVSKI_ZIVI_CVARCI
+3193,"Ludbreška ""Tajna Kobasica""",ludbreska-tajna-kobasica,publish,https://drycured.com/recepti-baza/ludbreska-tajna-kobasica/,,,MD-LUDBRESKA_TAJNA_KOBASICA
+3194,"Đurđevački ""Zaboravljeni Š(p)ek""",urevacki-zaboravljeni-s-p-ek,publish,https://drycured.com/recepti-baza/urevacki-zaboravljeni-s-p-ek/,,,MD-DURDEVACKI_ZABORAVLJENI_S_P_EK
+3195,"Pregradski ""Šumski Šaptat""",pregradski-sumski-saptat,publish,https://drycured.com/recepti-baza/pregradski-sumski-saptat/,,,MD-PREGRADSKI_SUMSKI_SAPTAT
+3196,"Križevački ""Začinski Vjetar""",krizevacki-zacinski-vjetar,publish,https://drycured.com/recepti-baza/krizevacki-zacinski-vjetar/,,,MD-KRIZEVACKI_ZACINSKI_VJETAR
+3197,"Našički ""Ratarski Sjećaj""",nasicki-ratarski-sjecaj,publish,https://drycured.com/recepti-baza/nasicki-ratarski-sjecaj/,,,MD-NASICKI_RATARSKI_SJECAJ
+3198,"Draževački ""Veteranski Sjećaj""",drazevacki-veteranski-sjecaj,publish,https://drycured.com/recepti-baza/drazevacki-veteranski-sjecaj/,,,MD-DRAZEVACKI_VETERANSKI_SJECAJ
+3199,"Kalničkog ""Gorski Trag""",kalnickog-gorski-trag,publish,https://drycured.com/recepti-baza/kalnickog-gorski-trag/,,,MD-KALNICKOG_GORSKI_TRAG
+3200,"Podravski ""Zaboravljeni Vrbovec""",podravski-zaboravljeni-vrbovec,publish,https://drycured.com/recepti-baza/podravski-zaboravljeni-vrbovec/,,,MD-PODRAVSKI_ZABORAVLJENI_VRBOVEC
+3201,"Koprivnički ""Seoski Izvor""",koprivnicki-seoski-izvor,publish,https://drycured.com/recepti-baza/koprivnicki-seoski-izvor/,,,MD-KOPRIVNICKI_SEOSKI_IZVOR
+3202,"Đurđevački ""Ribarski Sjaj""",urevacki-ribarski-sjaj,publish,https://drycured.com/recepti-baza/urevacki-ribarski-sjaj/,,,MD-DURDEVACKI_RIBARSKI_SJAJ
+3203,"Ludbreški ""Planinski Trag""",ludbreski-planinski-trag,publish,https://drycured.com/recepti-baza/ludbreski-planinski-trag/,,,MD-LUDBRESKI_PLANINSKI_TRAG
+3204,"Virovski ""Šumski Biseri""",virovski-sumski-biseri,publish,https://drycured.com/recepti-baza/virovski-sumski-biseri/,,,MD-VIROVSKI_SUMSKI_BISERI
+3205,"PASTRAMĂ DE OAIE (Sušena ovčetina)",pastrama-de-oaie-susena-ovcetina,publish,https://drycured.com/recepti-baza/pastrama-de-oaie-susena-ovcetina/,,,MD-PASTRAM_DE_OAIE_SUSENA_OVCETINA
+3206,"Basturma (Бастурма - Začinjeno sušeno goveđe meso)",basturma-zacinjeno-suseno-govee-meso,publish,https://drycured.com/recepti-baza/basturma-zacinjeno-suseno-govee-meso/,,,MD-BASTURMA_ZACINJENO_SUSENO_GOVEDE_MESO
+3207,"Koryushka (Корюшка - Dimljena mala riba)",koryushka-dimljena-mala-riba,publish,https://drycured.com/recepti-baza/koryushka-dimljena-mala-riba/,,,MD-KORYUSHKA_DIMLJENA_MALA_RIBA
+3208,"Svinaya Vyrezka (Свиная вырезка - Sušeni svinjski file)",svinaya-vyrezka-suseni-svinjski-file,publish,https://drycured.com/recepti-baza/svinaya-vyrezka-suseni-svinjski-file/,,,MD-SVINAYA_VYREZKA_SUSENI_SVINJSKI_FILE
+3209,"Vetchina (Ветчина - Domaća kuhana šunka)",vetchina-domaca-kuhana-sunka,private,https://drycured.com/?post_type=dry_recipe&p=3209,,,MD-VETCHINA_DOMACA_KUHANA_SUNKA
+3210,"ARBROATH SMOKIES (DIMLJENA HARINGA)",arbroath-smokies-dimljena-haringa,publish,https://drycured.com/recepti-baza/arbroath-smokies-dimljena-haringa/,,,MD-ARBROATH_SMOKIES_DIMLJENA_HARINGA
+3211,"Zgornjesavinjski želodec",zgornjesavinjski-zelodec,publish,https://drycured.com/recepti-baza/zgornjesavinjski-zelodec/,,,MD-ZGORNJESAVINJSKI_ZELODEC
+3212,"Lomo Embuchado - Začinjena Suha Svinjska Leđa",lomo-embuchado-zacinjena-suha-svinjska-lea,publish,https://drycured.com/recepti-baza/lomo-embuchado-zacinjena-suha-svinjska-lea/,,,MD-LOMO_EMBUCHADO_ZACINJENA_SUHA_SVINJSKA_LEDA
+3213,"Cecina de León - Sušena Goveđa Cecina",cecina-de-leon-susena-govea-cecina,publish,https://drycured.com/recepti-baza/cecina-de-leon-susena-govea-cecina/,,,MD-CECINA_DE_LEON_SUSENA_GOVEDA_CECINA
+3214,"Crnogorski Sudžuk",crnogorski-sudzuk,publish,https://drycured.com/recepti-baza/crnogorski-sudzuk/,,,MD-CRNOGORSKI_SUDZUK
+3215,"SCHAFFHAUSER SCHÜBLIG (DIMLJENA GOVEĐA KOBASICA)",schaffhauser-schublig-dimljena-govea-kobasica,publish,https://drycured.com/recepti-baza/schaffhauser-schublig-dimljena-govea-kobasica/,,,MD-SCHAFFHAUSER_SCHUBLIG_DIMLJENA_GOVEDA_KOBASICA
+3216,"BÜNDNERFLEISCH (GRAUBÜNDENSKI SUŠENI GOVEĐI BUT)",bundnerfleisch-graubundenski-suseni-govei-but,publish,https://drycured.com/recepti-baza/bundnerfleisch-graubundenski-suseni-govei-but/,,,MD-BUNDNERFLEISCH_GRAUBUNDENSKI_SUSENI_GOVEDI_BUT
+3217,"Culatello di Zibello - Kulatelo iz Zibella",culatello-di-zibello-kulatelo-iz-zibella,publish,https://drycured.com/recepti-baza/culatello-di-zibello-kulatelo-iz-zibella/,,,MD-CULATELLO_DI_ZIBELLO_KULATELO_IZ_ZIBELLA
+3218,"PANCETTA ARROTOLATA",pancetta-arrotolata,publish,https://drycured.com/recepti-baza/pancetta-arrotolata/,,,MD-PANCETTA_ARROTOLATA
+3219,"Herzegovina Livanjska Devenica",herzegovina-livanjska-devenica,publish,https://drycured.com/recepti-baza/herzegovina-livanjska-devenica/,,,MD-HERZEGOVINA_LIVANJSKA_DEVENICA
+3220,"Tuzlanski Švargli",tuzlanski-svargli,private,https://drycured.com/?post_type=dry_recipe&p=3220,,,MD-TUZLANSKI_SVARGLI
+3221,"Zeleni Burek Kobasica (Specifičnost Cazinske doline)",zeleni-burek-kobasica-specificnost-cazinske-doline,private,https://drycured.com/?post_type=dry_recipe&p=3221,,,MD-ZELENI_BUREK_KOBASICA_SPECIFICNOST_CAZINSKE_DOLINE
+3222,"Mostarsko Zrno - Unikatna Mesna Kombinacija",mostarsko-zrno-unikatna-mesna-kombinacija,publish,https://drycured.com/recepti-baza/mostarsko-zrno-unikatna-mesna-kombinacija/,,,MD-MOSTARSKO_ZRNO_UNIKATNA_MESNA_KOMBINACIJA
+3223,"Etnografska studija kulinarskog naslijeđa",etnografska-studija-kulinarskog-naslijea,publish,https://drycured.com/recepti-baza/etnografska-studija-kulinarskog-naslijea/,,,MD-ETNOGRAFSKA_STUDIJA_KULINARSKOG_NASLIJEDA
+3224,"Polendvytsia (Полендвиця) - Sušeni svinjski file",polendvytsia-suseni-svinjski-file,publish,https://drycured.com/recepti-baza/polendvytsia-suseni-svinjski-file/,,,MD-POLENDVYTSIA_SUSENI_SVINJSKI_FILE
+3225,"Shukhevychivska Kovbasa (Шухевичівська ковбаса) - Sušena kobasica s paprom",shukhevychivska-kovbasa-susena-kobasica-s-paprom,publish,https://drycured.com/recepti-baza/shukhevychivska-kovbasa-susena-kobasica-s-paprom/,,,MD-SHUKHEVYCHIVSKA_KOVBASA_SUSENA_KOBASICA_S_PAPROM
+3226,"Miasnyi Khlib (М'ясний хліб) - Mesni kruh",miasnyi-khlib-mesni-kruh,publish,https://drycured.com/recepti-baza/miasnyi-khlib-mesni-kruh/,,,MD-MIASNYI_KHLIB_MESNI_KRUH
+3227,"Dimlenyi Yazyk (Димлений язик) - Dimljeni goveđi jezik",dimlenyi-yazyk-dimljeni-govei-jezik,publish,https://drycured.com/recepti-baza/dimlenyi-yazyk-dimljeni-govei-jezik/,,,MD-DIMLENYI_YAZYK_DIMLJENI_GOVEDI_JEZIK
+3228,"Salo (Сало) - Ukrajinska slanina",salo-ukrajinska-slanina,publish,https://drycured.com/recepti-baza/salo-ukrajinska-slanina/,,,MD-SALO_UKRAJINSKA_SLANINA
+3229,"Domašnja Kovbasa (Домашня ковбаса) - Domaća kobasica",domasnja-kovbasa-domaca-kobasica,publish,https://drycured.com/recepti-baza/domasnja-kovbasa-domaca-kobasica/,,,MD-DOMASNJA_KOVBASA_DOMACA_KOBASICA
+3230,"Buženina (Буженина) - Pečena i sušena svinjetina",buzenina-pecena-i-susena-svinjetina,publish,https://drycured.com/recepti-baza/buzenina-pecena-i-susena-svinjetina/,,,MD-BUZENINA_PECENA_I_SUSENA_SVINJETINA
+3231,"Kholodets (Холодець) - Hladetina od mesa",kholodets-hladetina-od-mesa,private,https://drycured.com/?post_type=dry_recipe&p=3231,,,MD-KHOLODETS_HLADETINA_OD_MESA
+3232,"Solonina (Солонина) - Salamurena govedina",solonina-salamurena-govedina,publish,https://drycured.com/recepti-baza/solonina-salamurena-govedina/,,,MD-SOLONINA_SALAMURENA_GOVEDINA
+3233,"Češnjovke 1.2021 – domaća varijanta",e-njovke-1-2021-doma-a-varijanta,publish,https://drycured.com/recepti-baza/e-njovke-1-2021-doma-a-varijanta/,,,NEW-CESNJOVKE-2021
+3234,"Kranjska 1.2021 – domaća varijanta",kranjska-1-2021-doma-a-varijanta,publish,https://drycured.com/recepti-baza/kranjska-1-2021-doma-a-varijanta/,,,NEW-KRANJSKA-2021
+3235,"Pečenice 1.2021 – domaća varijanta",pe-enice-1-2021-doma-a-varijanta,private,https://drycured.com/?post_type=dry_recipe&p=3235,,,NEW-PECENICE-2021
+3236,"Pečena salamurena slanina s toplim dimom",pe-ena-salamurena-slanina-s-toplim-dimom,publish,https://drycured.com/recepti-baza/pe-ena-salamurena-slanina-s-toplim-dimom/,,,NEW-PECENA-SALAMURENA-SLANINA
+3308,"Istarska kobasica",hr-is-001-istarska-kobasica,publish,https://drycured.com/recepti-baza/hr-is-001-istarska-kobasica/,,,HR-IS-001
+3309,"Rovinjska kobasica",hr-is-002-rovinjska-kobasica,publish,https://drycured.com/recepti-baza/hr-is-002-rovinjska-kobasica/,,,HR-IS-002
+3310,"Pazinska kobasica",hr-is-003-pazinska-kobasica,publish,https://drycured.com/recepti-baza/hr-is-003-pazinska-kobasica/,,,HR-IS-003
+3311,"Lička kobasica",hr-li-001-licka-kobasica,publish,https://drycured.com/recepti-baza/hr-li-001-licka-kobasica/,,,HR-LI-001
+3312,"Sinjska kobasica",hr-da-001-sinjska-kobasica,publish,https://drycured.com/recepti-baza/hr-da-001-sinjska-kobasica/,,,HR-DA-001
+3313,"Korčulanska kobasica",hr-da-002-korculanska-kobasica,publish,https://drycured.com/recepti-baza/hr-da-002-korculanska-kobasica/,,,HR-DA-002
+3314,"Hvarska prstena kobasica",hr-da-003-hvarska-prstena-kobasica,publish,https://drycured.com/recepti-baza/hr-da-003-hvarska-prstena-kobasica/,,,HR-DA-003
+3315,"Vrgorački kulen",hr-da-004-vrgoracki-kulen,publish,https://drycured.com/recepti-baza/hr-da-004-vrgoracki-kulen/,,,HR-DA-004
+3524,"PREVIEW CANON — Slavonska kobasica",preview-canon-preview-canon-slavonska-kobasica-src-2976,private,https://drycured.com/?post_type=dry_recipe&p=3524,,,HR-SL-005
+3525,"PREVIEW CANON — Prosciutto di Parma",preview-canon-preview-canon-prosciutto-di-parma-src-2061,private,https://drycured.com/?post_type=dry_recipe&p=3525,,,MD-PROSCIUTTO_DI_PARMA_PARMSKA_SUNKA
+3526,"PREVIEW CANON — Prosciutto di San Daniele",preview-canon-preview-canon-prosciutto-di-san-daniele-src-1983,private,https://drycured.com/?post_type=dry_recipe&p=3526,,,MD-PROSCIUTTO_DI_SAN_DANIELE
+3527,"PREVIEW CANON — Bresaola della Valtellina",preview-canon-preview-canon-bresaola-della-valtellina-src-2115,private,https://drycured.com/?post_type=dry_recipe&p=3527,,,MD-BRESAOLA_DELLA_VALTELLINA
+3528,"PREVIEW CANON — Kraški pršut",preview-canon-preview-canon-kraski-prsut-src-2104,private,https://drycured.com/?post_type=dry_recipe&p=3528,,,MD-KRASKI_PRSUT
+3529,"PREVIEW CANON — Lardo di Colonnata",preview-canon-preview-canon-lardo-di-colonnata-src-1986,private,https://drycured.com/?post_type=dry_recipe&p=3529,,,MD-LARDO_DI_COLONNATA
+3530,"PREVIEW CANON — Coppa Piacentina",preview-canon-preview-canon-coppa-piacentina-src-2116,private,https://drycured.com/?post_type=dry_recipe&p=3530,,,MD-COPPA_PIACENTINA
+3531,"PREVIEW CANON — Pancetta Arrotolata",preview-canon-preview-canon-pancetta-arrotolata-src-3218,private,https://drycured.com/?post_type=dry_recipe&p=3531,,,MD-PANCETTA_ARROTOLATA
+3532,"PREVIEW GRANULACIJA — Kulenova seka",preview-granulation-kulenova-seka-src-2973,private,https://drycured.com/?post_type=dry_recipe&p=3532,,,HR-SL-002

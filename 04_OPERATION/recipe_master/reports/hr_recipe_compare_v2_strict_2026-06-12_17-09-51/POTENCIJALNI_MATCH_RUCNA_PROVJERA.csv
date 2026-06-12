@@ -1,0 +1,22 @@
+side,server_post_id,server_title,server_slug,source_candidate,score,source_name,server_candidate
+SERVER_TO_SOURCE,1975,Istarska kobasica,istarska-kobasica,Istarske kobasice,0.882,,
+SERVER_TO_SOURCE,1976,Primorska kobasica,primorska-kobasica,Primorske kobasice,0.889,,
+SERVER_TO_SOURCE,2187,Slavonska kobasica — ZOZP,hr-slv-kob-zozp-001,Slavonske kobasice,0.889,,
+SERVER_TO_SOURCE,2275,Sinjski Sudžuk,hr-rec-041,Sirijski sudžuk,0.897,,
+SERVER_TO_SOURCE,2294,Domaće Tlačenice,hr-rec-060,Domaće pečenice,0.839,,
+SERVER_TO_SOURCE,2973,Kulenova seka,hr-sl-002-kulenova-seka,Kulinova seka,0.923,,
+SERVER_TO_SOURCE,2977,Srijemska kobasica (OGP),hr-sl-006-srijemska-kobasica-ogp,Srijemske kobasice,0.889,,
+SERVER_TO_SOURCE,2981,Slavonska kobasica (ZOI EU 2023),hr-sl-010-slavonska-kobasica-zoi-eu-2023,Slavonske kobasice,0.889,,
+SERVER_TO_SOURCE,2994,Baranjska šunka,hr-sl-028-baranjska-sunka,Domaća baranjska šunka,0.811,,
+SERVER_TO_SOURCE,2996,Brodska kobasica (Slavonski Brod),hr-sl-030-brodska-kobasica-slavonski-brod,Baranjska kobasica,0.824,,
+SERVER_TO_SOURCE,3011,Sinjaška kobasica (Cetinska krajina),hr-sl-040,Sinjske kobasice,0.848,,
+SERVER_TO_SOURCE,3308,Istarska kobasica,hr-is-001-istarska-kobasica,Istarske kobasice,0.882,,
+SERVER_TO_SOURCE,3309,Rovinjska kobasica,hr-is-002-rovinjska-kobasica,Baranjska kobasica,0.833,,
+SERVER_TO_SOURCE,3310,Pazinska kobasica,hr-is-003-pazinska-kobasica,Baranjska kobasica,0.800,,
+SERVER_TO_SOURCE,3311,Lička kobasica,hr-li-001-licka-kobasica,Ličke kobasice,0.857,,
+SERVER_TO_SOURCE,3312,Sinjska kobasica,hr-da-001-sinjska-kobasica,Sinjske kobasice,0.875,,
+SERVER_TO_SOURCE,3313,Korčulanska kobasica,hr-da-002-korculanska-kobasica,Baranjska kobasica,0.789,,
+SOURCE_TO_SERVER,2994,,hr-sl-028-baranjska-sunka,,0.811,Domaća baranjska šunka,Baranjska šunka
+SOURCE_TO_SERVER,2254,,hr-rec-020,,0.848,Domaće kobasice,Đakovačke Kobasice
+SOURCE_TO_SERVER,2275,,hr-rec-041,,0.897,Sirijski sudžuk,Sinjski Sudžuk
+SOURCE_TO_SERVER,2270,,hr-rec-036,,0.824,Zapečene kobasice,Začinske Kobasice
