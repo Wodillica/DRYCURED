@@ -1,0 +1,1419 @@
+[
+  {
+    "post_id": 1982,
+    "title": "FINOCCHIONA TOSCANA",
+    "url": "https://drycured.com/recepti-baza/finocchiona-toscana/",
+    "checks": {
+      "has_profile": true,
+      "has_code": true,
+      "has_title": true,
+      "has_materials": true,
+      "has_spices": true,
+      "has_timeline": true,
+      "has_errors": true,
+      "has_safety": true
+    },
+    "profile": {
+      "code": "MD-FINOCCHIONA_TOSCANA",
+      "title": "FINOCCHIONA TOSCANA",
+      "region": "Italija · Toskana",
+      "type": "Kobasica / salama",
+      "lead": "FINOCCHIONA TOSCANA je suha kobasica ili salama područja Italija · Toskana, prikazana kao proizvodni vodič s omjerima sirovine, začinima, punjenjem, sušenjem i kontrolnim točkama.",
+      "quick": [
+        {
+          "label": "Šarža",
+          "value": "10 kg"
+        },
+        {
+          "label": "Trajanje",
+          "value": "prema kalibru i zrenju"
+        },
+        {
+          "label": "Dimljenje",
+          "value": "hladni dim gdje je primjenjivo"
+        },
+        {
+          "label": "Omotač",
+          "value": "prirodni ili jestivi omotač"
+        },
+        {
+          "label": "Gubitak mase",
+          "value": "30–40 %"
+        }
+      ],
+      "materials": [
+        {
+          "name": "svinjskog mesa (70% but, 30% lopatica)",
+          "amount": "3 kg",
+          "percent": "75,0 %",
+          "rate": "",
+          "note": ""
+        },
+        {
+          "name": "svinjske čvrste masnoće (potrbušina ili leđna mast)",
+          "amount": "1 kg",
+          "percent": "25,0 %",
+          "rate": "",
+          "note": ""
+        }
+      ],
+      "spices": [
+        {
+          "name": "morske soli",
+          "amount": "80 g",
+          "percent": "2,00 %",
+          "rate": "20,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "nitritne soli",
+          "amount": "18 g",
+          "percent": "0,45 %",
+          "rate": "4,5 g/kg",
+          "note": ""
+        },
+        {
+          "name": "sjemenki komorača (finocchio)",
+          "amount": "30 g",
+          "percent": "0,75 %",
+          "rate": "7,5 g/kg",
+          "note": ""
+        },
+        {
+          "name": "crnog papra, grubo mljevenog",
+          "amount": "15 g",
+          "percent": "0,38 %",
+          "rate": "3,8 g/kg",
+          "note": ""
+        },
+        {
+          "name": "bijelog papra, mljevenog",
+          "amount": "8 g",
+          "percent": "0,20 %",
+          "rate": "2,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "sušenog čilija (opcija za pikantnu verziju)",
+          "amount": "5 g",
+          "percent": "0,13 %",
+          "rate": "1,3 g/kg",
+          "note": ""
+        },
+        {
+          "name": "šećera",
+          "amount": "10 g",
+          "percent": "0,25 %",
+          "rate": "2,5 g/kg",
+          "note": ""
+        }
+      ],
+      "liquids": [
+        {
+          "name": "češnjaka, sitno sjeckanog",
+          "amount": "5 g",
+          "percent": "0,13 %",
+          "rate": "1,3 g/kg",
+          "note": ""
+        },
+        {
+          "name": "crnog vina, najbolje Chianti",
+          "amount": "100 ml",
+          "percent": "",
+          "rate": "25,0 ml/kg",
+          "note": ""
+        }
+      ],
+      "profile": [
+        {
+          "name": "Začini",
+          "score": 7
+        },
+        {
+          "name": "Dim",
+          "score": 5
+        },
+        {
+          "name": "Ljutina",
+          "score": 3
+        },
+        {
+          "name": "Slanoća",
+          "score": 6
+        },
+        {
+          "name": "Masnoća",
+          "score": 5
+        },
+        {
+          "name": "Tekstura",
+          "score": 6
+        }
+      ],
+      "climate": [
+        {
+          "title": "Izrada",
+          "text": "Raditi hladno, uredno i s dobro ohlađenom sirovinom."
+        },
+        {
+          "title": "Soljenje",
+          "text": "Sol mora biti ravnomjerno raspoređena i prilagođena tipu proizvoda."
+        },
+        {
+          "title": "Sušenje",
+          "text": "Sušenje mora biti postupno, bez naglog zatvaranja površine."
+        },
+        {
+          "title": "Zrenje",
+          "text": "Zrenje završava tek kad su miris, tekstura i presjek stabilni."
+        }
+      ],
+      "timeline": [
+        {
+          "day": "Faza 1",
+          "title": "Faza 1",
+          "text": "Ohladite meso i masnoću na 0-2°C (idealno 24 sata u hladnjaku)",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 2",
+          "title": "Faza 2",
+          "text": "Narežite meso i masnoću na kockice veličine 3-4 cm",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 3",
+          "title": "Faza 3",
+          "text": "Sameljite meso kroz ploču s otvorima 6-8 mm",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 4",
+          "title": "Faza 4",
+          "text": "Sameljite masnoću na istoj ploči, ali odvojeno",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 5",
+          "title": "Faza 5",
+          "text": "U veliku posudu stavite mljeveno meso",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 6",
+          "title": "Faza 6",
+          "text": "Dodajte sol i nitritnu sol, temeljito izmiješajte rukama (3-5 minuta)",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 7",
+          "title": "Faza 7",
+          "text": "Dodajte sjemenke komorača i ostale začine",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 8",
+          "title": "Faza 8",
+          "text": "Postepeno ulijevajte vino tijekom miješanja",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        }
+      ],
+      "errors": [
+        {
+          "problem": "Pretvrda površina",
+          "phase": "Sušenje",
+          "severity": "Oprez",
+          "level": "warning",
+          "cause": "Prebrz protok zraka ili preniska vlaga.",
+          "solution": "Smanjiti propuh, stabilizirati vlagu i produljiti zrenje."
+        },
+        {
+          "problem": "Razmazana mast",
+          "phase": "Mljevenje / miješanje",
+          "severity": "Oprez",
+          "level": "warning",
+          "cause": "Sirovina ili masnoća bile su pretopla.",
+          "solution": "Raditi hladno i po potrebi prekinuti proces radi hlađenja."
+        },
+        {
+          "problem": "Neugodan miris",
+          "phase": "Zrenje / čuvanje",
+          "severity": "Visok rizik",
+          "level": "danger",
+          "cause": "Kvarenje, previsoka temperatura ili higijenski problem.",
+          "solution": "Ne koristiti proizvod ako postoji sumnja u zdravstvenu ispravnost."
+        }
+      ],
+      "done_when": [
+        {
+          "title": "Miris je čist",
+          "text": "Nema truležnih, kiselih ni užeglih nota."
+        },
+        {
+          "title": "Tekstura je stabilna",
+          "text": "Presjek ili komad djeluju povezano, bez vlažne jezgre."
+        },
+        {
+          "title": "Površina je pravilna",
+          "text": "Površina je suha i stabilna, bez sluzi i sumnjivih promjena."
+        }
+      ],
+      "safety": [
+        {
+          "level": "green",
+          "title": "Zeleno — normalno",
+          "text": "Čist miris, stabilna površina i očekivan tijek sušenja."
+        },
+        {
+          "level": "yellow",
+          "title": "Žuto — oprez",
+          "text": "Pretvrda površina, blaga ljepljivost ili sporo sušenje. Korigirati uvjete."
+        },
+        {
+          "level": "red",
+          "title": "Crveno — odbaci",
+          "text": "Truležan, kiseo ili užegao miris, sluzava površina ili sumnjiv presjek."
+        }
+      ],
+      "serving": [
+        {
+          "title": "Rezanje",
+          "text": "Rezati tanko ili prema tipu proizvoda, čistim nožem."
+        },
+        {
+          "title": "Čuvanje",
+          "text": "Čuvati hladno, tamno i prozračno; vakuumirati tek kad je proizvod stabilan."
+        }
+      ],
+      "_dryrun_family": "SAUSAGE_SALAMI",
+      "_dryrun_source": "_dry_recipe_data"
+    }
+  },
+  {
+    "post_id": 1983,
+    "title": "PROSCIUTTO DI SAN DANIELE",
+    "url": "https://drycured.com/recepti-baza/prosciutto-di-san-daniele/",
+    "checks": {
+      "has_profile": true,
+      "has_code": true,
+      "has_title": true,
+      "has_materials": true,
+      "has_spices": true,
+      "has_timeline": true,
+      "has_errors": true,
+      "has_safety": true
+    },
+    "profile": {
+      "code": "MD-PROSCIUTTO_DI_SAN_DANIELE",
+      "title": "PROSCIUTTO DI SAN DANIELE",
+      "region": "",
+      "type": "Cijeli komad — šunka / pršut",
+      "lead": "PROSCIUTTO DI SAN DANIELE je sušeni cijeli komad iz skupine šunki i pršuta, prikazan kroz soljenje, odmor, sušenje, zrenje i sigurnosne kontrole.",
+      "quick": [
+        {
+          "label": "Šarža",
+          "value": "10 kg / cijeli komad"
+        },
+        {
+          "label": "Trajanje",
+          "value": "prema debljini komada"
+        },
+        {
+          "label": "Dimljenje",
+          "value": "po receptu"
+        },
+        {
+          "label": "Omotač",
+          "value": "bez crijeva"
+        },
+        {
+          "label": "Gubitak mase",
+          "value": "postupno sušenje"
+        }
+      ],
+      "materials": [
+        {
+          "name": "9,091 kg–10,909 kg svinjskog buta s kosti i kožom (idealno od svinja starijih od 9 mjeseci)",
+          "amount": "",
+          "percent": "",
+          "rate": "",
+          "note": ""
+        }
+      ],
+      "spices": [
+        {
+          "name": "morske soli (grubo mljevene)",
+          "amount": "318 g",
+          "percent": "3,18 %",
+          "rate": "31,8 g/kg",
+          "note": ""
+        },
+        {
+          "name": "nitritne soli",
+          "amount": "27 g",
+          "percent": "0,27 %",
+          "rate": "2,7 g/kg",
+          "note": ""
+        },
+        {
+          "name": "crnog papra, mljevenog",
+          "amount": "14 g",
+          "percent": "0,14 %",
+          "rate": "1,4 g/kg",
+          "note": ""
+        },
+        {
+          "name": "Svinjska mast za premazivanje (sugna): 455 g svinjske masti, 45 g rižinog brašna, 27 g soli, 9 g papra",
+          "amount": "",
+          "percent": "",
+          "rate": "",
+          "note": ""
+        }
+      ],
+      "liquids": [
+        {
+          "name": "češnjaka u prahu (opcija)",
+          "amount": "9 g",
+          "percent": "0,09 %",
+          "rate": "0,9 g/kg",
+          "note": ""
+        },
+        {
+          "name": "bijelog vina (najbolje Friulano ili Pinot Grigio)",
+          "amount": "100 ml",
+          "percent": "",
+          "rate": "10,0 ml/kg",
+          "note": ""
+        }
+      ],
+      "profile": [
+        {
+          "name": "Sol",
+          "score": 7
+        },
+        {
+          "name": "Dim",
+          "score": 4
+        },
+        {
+          "name": "Zrenje",
+          "score": 8
+        },
+        {
+          "name": "Slanoća",
+          "score": 6
+        },
+        {
+          "name": "Masnoća",
+          "score": 5
+        },
+        {
+          "name": "Tekstura",
+          "score": 7
+        }
+      ],
+      "climate": [
+        {
+          "title": "Izrada",
+          "text": "Raditi hladno, uredno i s dobro ohlađenom sirovinom."
+        },
+        {
+          "title": "Soljenje",
+          "text": "Sol mora biti ravnomjerno raspoređena i prilagođena tipu proizvoda."
+        },
+        {
+          "title": "Sušenje",
+          "text": "Sušenje mora biti postupno, bez naglog zatvaranja površine."
+        },
+        {
+          "title": "Zrenje",
+          "text": "Zrenje završava tek kad su miris, tekstura i presjek stabilni."
+        }
+      ],
+      "timeline": [
+        {
+          "day": "Faza 1",
+          "title": "Priprema komada",
+          "text": "meso očistiti od krvnih podljeva, labavih dijelova i grubih opni. Komade oblikovati što ujednačenije po debljini.",
+          "critical": "Kontrolirati temperaturu, miris, površinu i tempo sušenja. Ako se pojavi odstupanje, usporiti proces i korigirati uvjete."
+        },
+        {
+          "day": "Faza 2",
+          "title": "Soljenje/pac",
+          "text": "sol i začine ravnomjerno utrljati u sve strane komada ili pripremiti salamuru ako recept traži mokri pac. Držati na 2–4 °C i redovito okretati.",
+          "critical": "Kontrolirati temperaturu, miris, površinu i tempo sušenja. Ako se pojavi odstupanje, usporiti proces i korigirati uvjete."
+        },
+        {
+          "day": "Faza 3",
+          "title": "Odmor nakon paca",
+          "text": "nakon soljenja površinu kratko obrisati ili isprati ako je preslana. Ostaviti da se ocijedi i prosuši 12–24 sata na 8–12 °C.",
+          "critical": "Kontrolirati temperaturu, miris, površinu i tempo sušenja. Ako se pojavi odstupanje, usporiti proces i korigirati uvjete."
+        },
+        {
+          "day": "Faza 4",
+          "title": "Dimljenje",
+          "text": "ako se dimi, koristiti hladni dim 15–22 °C u više kraćih ciklusa, s pauzama i prozračivanjem između dimljenja.",
+          "critical": "Kontrolirati temperaturu, miris, površinu i tempo sušenja. Ako se pojavi odstupanje, usporiti proces i korigirati uvjete."
+        },
+        {
+          "day": "Faza 5",
+          "title": "Sušenje i zrenje",
+          "text": "držati na 10–15 °C i 65–75 % relativne vlage dok proizvod ne izgubi približno 30–40 % početne mase ili dok presjek ne postane stabilan.",
+          "critical": "Kontrolirati temperaturu, miris, površinu i tempo sušenja. Ako se pojavi odstupanje, usporiti proces i korigirati uvjete."
+        },
+        {
+          "day": "Faza 6",
+          "title": "Kritična kontrola",
+          "text": "prebrzo sušenje zatvara površinu i ostavlja vlažnu jezgru; rješenje je smanjiti propuh, povisiti vlagu i produžiti zrenje.",
+          "critical": "Kontrolirati temperaturu, miris, površinu i tempo sušenja. Ako se pojavi odstupanje, usporiti proces i korigirati uvjete."
+        }
+      ],
+      "errors": [
+        {
+          "problem": "Pretvrda površina",
+          "phase": "Sušenje",
+          "severity": "Oprez",
+          "level": "warning",
+          "cause": "Prebrz protok zraka ili preniska vlaga.",
+          "solution": "Smanjiti propuh, stabilizirati vlagu i produljiti zrenje."
+        },
+        {
+          "problem": "Razmazana mast",
+          "phase": "Mljevenje / miješanje",
+          "severity": "Oprez",
+          "level": "warning",
+          "cause": "Sirovina ili masnoća bile su pretopla.",
+          "solution": "Raditi hladno i po potrebi prekinuti proces radi hlađenja."
+        },
+        {
+          "problem": "Neugodan miris",
+          "phase": "Zrenje / čuvanje",
+          "severity": "Visok rizik",
+          "level": "danger",
+          "cause": "Kvarenje, previsoka temperatura ili higijenski problem.",
+          "solution": "Ne koristiti proizvod ako postoji sumnja u zdravstvenu ispravnost."
+        }
+      ],
+      "done_when": [
+        {
+          "title": "Miris je čist",
+          "text": "Nema truležnih, kiselih ni užeglih nota."
+        },
+        {
+          "title": "Tekstura je stabilna",
+          "text": "Presjek ili komad djeluju povezano, bez vlažne jezgre."
+        },
+        {
+          "title": "Površina je pravilna",
+          "text": "Površina je suha i stabilna, bez sluzi i sumnjivih promjena."
+        }
+      ],
+      "safety": [
+        {
+          "level": "green",
+          "title": "Zeleno — normalno",
+          "text": "Čist miris, stabilna površina i očekivan tijek sušenja."
+        },
+        {
+          "level": "yellow",
+          "title": "Žuto — oprez",
+          "text": "Pretvrda površina, blaga ljepljivost ili sporo sušenje. Korigirati uvjete."
+        },
+        {
+          "level": "red",
+          "title": "Crveno — odbaci",
+          "text": "Truležan, kiseo ili užegao miris, sluzava površina ili sumnjiv presjek."
+        }
+      ],
+      "serving": [
+        {
+          "title": "Rezanje",
+          "text": "Rezati tanko ili prema tipu proizvoda, čistim nožem."
+        },
+        {
+          "title": "Čuvanje",
+          "text": "Čuvati hladno, tamno i prozračno; vakuumirati tek kad je proizvod stabilan."
+        }
+      ],
+      "_dryrun_family": "HAM_PROSCIUTTO",
+      "_dryrun_source": "_dry_recipe_full_markdown"
+    }
+  },
+  {
+    "post_id": 1984,
+    "title": "NDUJA CALABRESE",
+    "url": "https://drycured.com/recepti-baza/nduja-calabrese/",
+    "checks": {
+      "has_profile": true,
+      "has_code": true,
+      "has_title": true,
+      "has_materials": true,
+      "has_spices": true,
+      "has_timeline": true,
+      "has_errors": true,
+      "has_safety": true
+    },
+    "profile": {
+      "code": "MD-NDUJA_CALABRESE",
+      "title": "NDUJA CALABRESE",
+      "region": "Italija · Kalabrija",
+      "type": "Kobasica / salama",
+      "lead": "NDUJA CALABRESE je suha kobasica ili salama područja Italija · Kalabrija, prikazana kao proizvodni vodič s omjerima sirovine, začinima, punjenjem, sušenjem i kontrolnim točkama.",
+      "quick": [
+        {
+          "label": "Šarža",
+          "value": "10 kg"
+        },
+        {
+          "label": "Trajanje",
+          "value": "prema kalibru i zrenju"
+        },
+        {
+          "label": "Dimljenje",
+          "value": "hladni dim gdje je primjenjivo"
+        },
+        {
+          "label": "Omotač",
+          "value": "prirodni ili jestivi omotač"
+        },
+        {
+          "label": "Gubitak mase",
+          "value": "30–40 %"
+        }
+      ],
+      "materials": [
+        {
+          "name": "svinjske potrbušine",
+          "amount": "3 kg",
+          "percent": "75,0 %",
+          "rate": "",
+          "note": ""
+        },
+        {
+          "name": "svinjskog mesa (lopatica)",
+          "amount": "1 kg",
+          "percent": "25,0 %",
+          "rate": "",
+          "note": ""
+        },
+        {
+          "name": "svinjske masnoće",
+          "amount": "800 g",
+          "percent": "20,00 %",
+          "rate": "200,0 g/kg",
+          "note": ""
+        }
+      ],
+      "spices": [
+        {
+          "name": "200-300 g ljute paprike (calabrese peperoncino)",
+          "amount": "",
+          "percent": "",
+          "rate": "",
+          "note": ""
+        },
+        {
+          "name": "slatke paprike",
+          "amount": "80 g",
+          "percent": "2,00 %",
+          "rate": "20,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "morske soli",
+          "amount": "60 g",
+          "percent": "1,50 %",
+          "rate": "15,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "nitritne soli",
+          "amount": "15 g",
+          "percent": "0,38 %",
+          "rate": "3,8 g/kg",
+          "note": ""
+        },
+        {
+          "name": "crnog papra, mljevenog",
+          "amount": "10 g",
+          "percent": "0,25 %",
+          "rate": "2,5 g/kg",
+          "note": ""
+        },
+        {
+          "name": "fenikal sjemenki, mljevenih",
+          "amount": "5 g",
+          "percent": "0,13 %",
+          "rate": "1,3 g/kg",
+          "note": ""
+        }
+      ],
+      "liquids": [
+        {
+          "name": "češnjaka, sitno sjeckanog",
+          "amount": "8 g",
+          "percent": "0,20 %",
+          "rate": "2,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "crnog vina",
+          "amount": "80 ml",
+          "percent": "",
+          "rate": "20,0 ml/kg",
+          "note": ""
+        }
+      ],
+      "profile": [
+        {
+          "name": "Začini",
+          "score": 7
+        },
+        {
+          "name": "Dim",
+          "score": 5
+        },
+        {
+          "name": "Ljutina",
+          "score": 3
+        },
+        {
+          "name": "Slanoća",
+          "score": 6
+        },
+        {
+          "name": "Masnoća",
+          "score": 5
+        },
+        {
+          "name": "Tekstura",
+          "score": 6
+        }
+      ],
+      "climate": [
+        {
+          "title": "Izrada",
+          "text": "Raditi hladno, uredno i s dobro ohlađenom sirovinom."
+        },
+        {
+          "title": "Soljenje",
+          "text": "Sol mora biti ravnomjerno raspoređena i prilagođena tipu proizvoda."
+        },
+        {
+          "title": "Sušenje",
+          "text": "Sušenje mora biti postupno, bez naglog zatvaranja površine."
+        },
+        {
+          "title": "Zrenje",
+          "text": "Zrenje završava tek kad su miris, tekstura i presjek stabilni."
+        }
+      ],
+      "timeline": [
+        {
+          "day": "Faza 1",
+          "title": "Faza 1",
+          "text": "Ohladite meso i masnoću na 0-2°C",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 2",
+          "title": "Faza 2",
+          "text": "Narežite meso i masnoću na kockice veličine 2-3 cm",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 3",
+          "title": "Faza 3",
+          "text": "Sameljite sve tri komponente zajedno kroz ploču s otvorima 3-4 mm",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 4",
+          "title": "Faza 4",
+          "text": "Za tradicionalniju teksturu, dio sastojaka možete samljeti kroz ploču s manjim otvorima (2 mm)",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 5",
+          "title": "Faza 5",
+          "text": "U veliku posudu stavite mljeveno meso i masnoću",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 6",
+          "title": "Faza 6",
+          "text": "Dodajte sol, nitritnu sol i dobro promiješajte rukama (5 minuta)",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 7",
+          "title": "Faza 7",
+          "text": "Dodajte ljutu i slatku papriku (količinu ljute paprike prilagodite željenoj pikantnosti)",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 8",
+          "title": "Faza 8",
+          "text": "Dodajte ostale začine i vino",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        }
+      ],
+      "errors": [
+        {
+          "problem": "Pretvrda površina",
+          "phase": "Sušenje",
+          "severity": "Oprez",
+          "level": "warning",
+          "cause": "Prebrz protok zraka ili preniska vlaga.",
+          "solution": "Smanjiti propuh, stabilizirati vlagu i produljiti zrenje."
+        },
+        {
+          "problem": "Razmazana mast",
+          "phase": "Mljevenje / miješanje",
+          "severity": "Oprez",
+          "level": "warning",
+          "cause": "Sirovina ili masnoća bile su pretopla.",
+          "solution": "Raditi hladno i po potrebi prekinuti proces radi hlađenja."
+        },
+        {
+          "problem": "Neugodan miris",
+          "phase": "Zrenje / čuvanje",
+          "severity": "Visok rizik",
+          "level": "danger",
+          "cause": "Kvarenje, previsoka temperatura ili higijenski problem.",
+          "solution": "Ne koristiti proizvod ako postoji sumnja u zdravstvenu ispravnost."
+        }
+      ],
+      "done_when": [
+        {
+          "title": "Miris je čist",
+          "text": "Nema truležnih, kiselih ni užeglih nota."
+        },
+        {
+          "title": "Tekstura je stabilna",
+          "text": "Presjek ili komad djeluju povezano, bez vlažne jezgre."
+        },
+        {
+          "title": "Površina je pravilna",
+          "text": "Površina je suha i stabilna, bez sluzi i sumnjivih promjena."
+        }
+      ],
+      "safety": [
+        {
+          "level": "green",
+          "title": "Zeleno — normalno",
+          "text": "Čist miris, stabilna površina i očekivan tijek sušenja."
+        },
+        {
+          "level": "yellow",
+          "title": "Žuto — oprez",
+          "text": "Pretvrda površina, blaga ljepljivost ili sporo sušenje. Korigirati uvjete."
+        },
+        {
+          "level": "red",
+          "title": "Crveno — odbaci",
+          "text": "Truležan, kiseo ili užegao miris, sluzava površina ili sumnjiv presjek."
+        }
+      ],
+      "serving": [
+        {
+          "title": "Rezanje",
+          "text": "Rezati tanko ili prema tipu proizvoda, čistim nožem."
+        },
+        {
+          "title": "Čuvanje",
+          "text": "Čuvati hladno, tamno i prozračno; vakuumirati tek kad je proizvod stabilan."
+        }
+      ],
+      "_dryrun_family": "SAUSAGE_SALAMI",
+      "_dryrun_source": "_dry_recipe_data"
+    }
+  },
+  {
+    "post_id": 1986,
+    "title": "LARDO DI COLONNATA",
+    "url": "https://drycured.com/recepti-baza/lardo-di-colonnata/",
+    "checks": {
+      "has_profile": true,
+      "has_code": true,
+      "has_title": true,
+      "has_materials": true,
+      "has_spices": true,
+      "has_timeline": true,
+      "has_errors": true,
+      "has_safety": true
+    },
+    "profile": {
+      "code": "MD-LARDO_DI_COLONNATA",
+      "title": "LARDO DI COLONNATA",
+      "region": "Italija · Emilia-Romagna",
+      "type": "Slanina / panceta / masno tkivo",
+      "lead": "LARDO DI COLONNATA je proizvod od slanine, pancete ili masnog tkiva područja Italija · Emilia-Romagna, prikazan kroz soljenje, začinski sloj, sušenje, zrenje i kontrolu površine.",
+      "quick": [
+        {
+          "label": "Šarža",
+          "value": "10 kg / cijeli komad"
+        },
+        {
+          "label": "Trajanje",
+          "value": "prema debljini komada"
+        },
+        {
+          "label": "Dimljenje",
+          "value": "po receptu"
+        },
+        {
+          "label": "Omotač",
+          "value": "bez crijeva"
+        },
+        {
+          "label": "Gubitak mase",
+          "value": "postupno sušenje"
+        }
+      ],
+      "materials": [
+        {
+          "name": "3-4 kg svinjske leđne slanine (idealno debljine 5-7 cm)",
+          "amount": "",
+          "percent": "",
+          "rate": "",
+          "note": ""
+        }
+      ],
+      "spices": [
+        {
+          "name": "morske soli",
+          "amount": "100 g",
+          "percent": "2,50 %",
+          "rate": "25,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "crnog papra, grubo mljevenog",
+          "amount": "20 g",
+          "percent": "0,50 %",
+          "rate": "5,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "svježeg ružmarina, nasjeckanog",
+          "amount": "15 g",
+          "percent": "0,38 %",
+          "rate": "3,8 g/kg",
+          "note": ""
+        },
+        {
+          "name": "svježeg timijana",
+          "amount": "10 g",
+          "percent": "0,25 %",
+          "rate": "2,5 g/kg",
+          "note": ""
+        },
+        {
+          "name": "sušenog mažurana",
+          "amount": "8 g",
+          "percent": "0,20 %",
+          "rate": "2,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "korijandra u zrnu",
+          "amount": "5 g",
+          "percent": "0,13 %",
+          "rate": "1,3 g/kg",
+          "note": ""
+        },
+        {
+          "name": "klinčića, usitnjenih",
+          "amount": "5 g",
+          "percent": "0,13 %",
+          "rate": "1,3 g/kg",
+          "note": ""
+        },
+        {
+          "name": "cimeta, mljevenog",
+          "amount": "5 g",
+          "percent": "0,13 %",
+          "rate": "1,3 g/kg",
+          "note": ""
+        },
+        {
+          "name": "lovorovog lista, usitnjenog",
+          "amount": "8 g",
+          "percent": "0,20 %",
+          "rate": "2,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "meda (najbolje kestenovog)",
+          "amount": "60 g",
+          "percent": "1,50 %",
+          "rate": "15,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "Mramorna posuda (Conca) za tradicionalnu proizvodnju",
+          "amount": "",
+          "percent": "",
+          "rate": "",
+          "note": ""
+        }
+      ],
+      "liquids": [
+        {
+          "name": "češnjaka, sitno nasjeckanog",
+          "amount": "10 g",
+          "percent": "0,25 %",
+          "rate": "2,5 g/kg",
+          "note": ""
+        },
+        {
+          "name": "bijelog vina",
+          "amount": "30 ml",
+          "percent": "",
+          "rate": "7,5 ml/kg",
+          "note": ""
+        }
+      ],
+      "profile": [
+        {
+          "name": "Sol",
+          "score": 7
+        },
+        {
+          "name": "Dim",
+          "score": 4
+        },
+        {
+          "name": "Zrenje",
+          "score": 8
+        },
+        {
+          "name": "Slanoća",
+          "score": 6
+        },
+        {
+          "name": "Masnoća",
+          "score": 5
+        },
+        {
+          "name": "Tekstura",
+          "score": 7
+        }
+      ],
+      "climate": [
+        {
+          "title": "Izrada",
+          "text": "Raditi hladno, uredno i s dobro ohlađenom sirovinom."
+        },
+        {
+          "title": "Soljenje",
+          "text": "Sol mora biti ravnomjerno raspoređena i prilagođena tipu proizvoda."
+        },
+        {
+          "title": "Sušenje",
+          "text": "Sušenje mora biti postupno, bez naglog zatvaranja površine."
+        },
+        {
+          "title": "Zrenje",
+          "text": "Zrenje završava tek kad su miris, tekstura i presjek stabilni."
+        }
+      ],
+      "timeline": [
+        {
+          "day": "Faza 1",
+          "title": "Faza 1",
+          "text": "Očistite slaninu od ostataka mesa i nečistoća",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 2",
+          "title": "Faza 2",
+          "text": "Pravilno je oblikujte u pravokutne komade",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 3",
+          "title": "Faza 3",
+          "text": "Prethodno ohladite na 1-3°C (24 sata)",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 4",
+          "title": "Faza 4",
+          "text": "Temeljito očistite mramornu posudu vodom i bijelim vinom",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 5",
+          "title": "Faza 5",
+          "text": "Oribajte česnakom unutrašnjost posude",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 6",
+          "title": "Faza 6",
+          "text": "Pospite dno posude tankim slojem soli",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 7",
+          "title": "Faza 7",
+          "text": "Pomiješajte sve začine, sol, med i češnjak",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 8",
+          "title": "Faza 8",
+          "text": "Podijelite mješavinu na tri dijela",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        }
+      ],
+      "errors": [
+        {
+          "problem": "Pretvrda površina",
+          "phase": "Sušenje",
+          "severity": "Oprez",
+          "level": "warning",
+          "cause": "Prebrz protok zraka ili preniska vlaga.",
+          "solution": "Smanjiti propuh, stabilizirati vlagu i produljiti zrenje."
+        },
+        {
+          "problem": "Razmazana mast",
+          "phase": "Mljevenje / miješanje",
+          "severity": "Oprez",
+          "level": "warning",
+          "cause": "Sirovina ili masnoća bile su pretopla.",
+          "solution": "Raditi hladno i po potrebi prekinuti proces radi hlađenja."
+        },
+        {
+          "problem": "Neugodan miris",
+          "phase": "Zrenje / čuvanje",
+          "severity": "Visok rizik",
+          "level": "danger",
+          "cause": "Kvarenje, previsoka temperatura ili higijenski problem.",
+          "solution": "Ne koristiti proizvod ako postoji sumnja u zdravstvenu ispravnost."
+        }
+      ],
+      "done_when": [
+        {
+          "title": "Miris je čist",
+          "text": "Nema truležnih, kiselih ni užeglih nota."
+        },
+        {
+          "title": "Tekstura je stabilna",
+          "text": "Presjek ili komad djeluju povezano, bez vlažne jezgre."
+        },
+        {
+          "title": "Površina je pravilna",
+          "text": "Površina je suha i stabilna, bez sluzi i sumnjivih promjena."
+        }
+      ],
+      "safety": [
+        {
+          "level": "green",
+          "title": "Zeleno — normalno",
+          "text": "Čist miris, stabilna površina i očekivan tijek sušenja."
+        },
+        {
+          "level": "yellow",
+          "title": "Žuto — oprez",
+          "text": "Pretvrda površina, blaga ljepljivost ili sporo sušenje. Korigirati uvjete."
+        },
+        {
+          "level": "red",
+          "title": "Crveno — odbaci",
+          "text": "Truležan, kiseo ili užegao miris, sluzava površina ili sumnjiv presjek."
+        }
+      ],
+      "serving": [
+        {
+          "title": "Rezanje",
+          "text": "Rezati tanko ili prema tipu proizvoda, čistim nožem."
+        },
+        {
+          "title": "Čuvanje",
+          "text": "Čuvati hladno, tamno i prozračno; vakuumirati tek kad je proizvod stabilan."
+        }
+      ],
+      "_dryrun_family": "BACON_FAT",
+      "_dryrun_source": "_dry_recipe_data"
+    }
+  },
+  {
+    "post_id": 1990,
+    "title": "SALAME DI FELINO",
+    "url": "https://drycured.com/recepti-baza/salame-di-felino/",
+    "checks": {
+      "has_profile": true,
+      "has_code": true,
+      "has_title": true,
+      "has_materials": true,
+      "has_spices": true,
+      "has_timeline": true,
+      "has_errors": true,
+      "has_safety": true
+    },
+    "profile": {
+      "code": "MD-SALAME_DI_FELINO",
+      "title": "SALAME DI FELINO",
+      "region": "Italija · Emilia-Romagna",
+      "type": "Kobasica / salama",
+      "lead": "SALAME DI FELINO je suha kobasica ili salama područja Italija · Emilia-Romagna, prikazana kao proizvodni vodič s omjerima sirovine, začinima, punjenjem, sušenjem i kontrolnim točkama.",
+      "quick": [
+        {
+          "label": "Šarža",
+          "value": "10 kg"
+        },
+        {
+          "label": "Trajanje",
+          "value": "prema kalibru i zrenju"
+        },
+        {
+          "label": "Dimljenje",
+          "value": "hladni dim gdje je primjenjivo"
+        },
+        {
+          "label": "Omotač",
+          "value": "prirodni ili jestivi omotač"
+        },
+        {
+          "label": "Gubitak mase",
+          "value": "30–40 %"
+        }
+      ],
+      "materials": [
+        {
+          "name": "svinjskog mesa (70% butt, 30% lopatica)",
+          "amount": "3,5 kg",
+          "percent": "70,0 %",
+          "rate": "",
+          "note": ""
+        },
+        {
+          "name": "čvrste svinjske masnoće (grlo ili leđna masnoća)",
+          "amount": "1,5 kg",
+          "percent": "30,0 %",
+          "rate": "",
+          "note": ""
+        }
+      ],
+      "spices": [
+        {
+          "name": "morske soli",
+          "amount": "90 g",
+          "percent": "1,80 %",
+          "rate": "18,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "nitritne soli",
+          "amount": "20 g",
+          "percent": "0,40 %",
+          "rate": "4,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "crnog papra u zrnu, grubo mlevenog",
+          "amount": "25 g",
+          "percent": "0,50 %",
+          "rate": "5,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "bijelog papra, mljevenog",
+          "amount": "10 g",
+          "percent": "0,20 %",
+          "rate": "2,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "sušenog ružmarina (opcija)",
+          "amount": "5 g",
+          "percent": "0,10 %",
+          "rate": "1,0 g/kg",
+          "note": ""
+        }
+      ],
+      "liquids": [
+        {
+          "name": "češnjaka, sitno nasjeckanog",
+          "amount": "10 g",
+          "percent": "0,20 %",
+          "rate": "2,0 g/kg",
+          "note": ""
+        },
+        {
+          "name": "suhog bijelog vina (najbolje Malvasia)",
+          "amount": "150 ml",
+          "percent": "",
+          "rate": "30,0 ml/kg",
+          "note": ""
+        }
+      ],
+      "profile": [
+        {
+          "name": "Začini",
+          "score": 7
+        },
+        {
+          "name": "Dim",
+          "score": 5
+        },
+        {
+          "name": "Ljutina",
+          "score": 3
+        },
+        {
+          "name": "Slanoća",
+          "score": 6
+        },
+        {
+          "name": "Masnoća",
+          "score": 5
+        },
+        {
+          "name": "Tekstura",
+          "score": 6
+        }
+      ],
+      "climate": [
+        {
+          "title": "Izrada",
+          "text": "Raditi hladno, uredno i s dobro ohlađenom sirovinom."
+        },
+        {
+          "title": "Soljenje",
+          "text": "Sol mora biti ravnomjerno raspoređena i prilagođena tipu proizvoda."
+        },
+        {
+          "title": "Sušenje",
+          "text": "Sušenje mora biti postupno, bez naglog zatvaranja površine."
+        },
+        {
+          "title": "Zrenje",
+          "text": "Zrenje završava tek kad su miris, tekstura i presjek stabilni."
+        }
+      ],
+      "timeline": [
+        {
+          "day": "Faza 1",
+          "title": "Faza 1",
+          "text": "Ohladite meso i masnoću na 0-2°C",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 2",
+          "title": "Faza 2",
+          "text": "Narežite meso na kockice veličine 3-4 cm",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 3",
+          "title": "Faza 3",
+          "text": "Narežite masnoću na kockice veličine 1-1.5 cm",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 4",
+          "title": "Faza 4",
+          "text": "Sameljite meso kroz ploču s otvorima 6-8 mm",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 5",
+          "title": "Faza 5",
+          "text": "Masnoću ostavite narezanu na kockice (ne mljeti)",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 6",
+          "title": "Faza 6",
+          "text": "U veliku posudu stavite mljeveno meso",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 7",
+          "title": "Faza 7",
+          "text": "Dodajte sol, nitritnu sol i dobro promiješajte rukama (5 minuta)",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        },
+        {
+          "day": "Faza 8",
+          "title": "Faza 8",
+          "text": "Dodajte papar i češnjak",
+          "critical": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade. Rizik: Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture. Rješenje: Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka."
+        }
+      ],
+      "errors": [
+        {
+          "problem": "Pretvrda površina",
+          "phase": "Sušenje",
+          "severity": "Oprez",
+          "level": "warning",
+          "cause": "Prebrz protok zraka ili preniska vlaga.",
+          "solution": "Smanjiti propuh, stabilizirati vlagu i produljiti zrenje."
+        },
+        {
+          "problem": "Razmazana mast",
+          "phase": "Mljevenje / miješanje",
+          "severity": "Oprez",
+          "level": "warning",
+          "cause": "Sirovina ili masnoća bile su pretopla.",
+          "solution": "Raditi hladno i po potrebi prekinuti proces radi hlađenja."
+        },
+        {
+          "problem": "Neugodan miris",
+          "phase": "Zrenje / čuvanje",
+          "severity": "Visok rizik",
+          "level": "danger",
+          "cause": "Kvarenje, previsoka temperatura ili higijenski problem.",
+          "solution": "Ne koristiti proizvod ako postoji sumnja u zdravstvenu ispravnost."
+        }
+      ],
+      "done_when": [
+        {
+          "title": "Miris je čist",
+          "text": "Nema truležnih, kiselih ni užeglih nota."
+        },
+        {
+          "title": "Tekstura je stabilna",
+          "text": "Presjek ili komad djeluju povezano, bez vlažne jezgre."
+        },
+        {
+          "title": "Površina je pravilna",
+          "text": "Površina je suha i stabilna, bez sluzi i sumnjivih promjena."
+        }
+      ],
+      "safety": [
+        {
+          "level": "green",
+          "title": "Zeleno — normalno",
+          "text": "Čist miris, stabilna površina i očekivan tijek sušenja."
+        },
+        {
+          "level": "yellow",
+          "title": "Žuto — oprez",
+          "text": "Pretvrda površina, blaga ljepljivost ili sporo sušenje. Korigirati uvjete."
+        },
+        {
+          "level": "red",
+          "title": "Crveno — odbaci",
+          "text": "Truležan, kiseo ili užegao miris, sluzava površina ili sumnjiv presjek."
+        }
+      ],
+      "serving": [
+        {
+          "title": "Rezanje",
+          "text": "Rezati tanko ili prema tipu proizvoda, čistim nožem."
+        },
+        {
+          "title": "Čuvanje",
+          "text": "Čuvati hladno, tamno i prozračno; vakuumirati tek kad je proizvod stabilan."
+        }
+      ],
+      "_dryrun_family": "SAUSAGE_SALAMI",
+      "_dryrun_source": "_dry_recipe_data"
+    }
+  }
+]

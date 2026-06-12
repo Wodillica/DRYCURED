@@ -1,0 +1,48 @@
+=== MD TO DCV5 PROFILE DRYRUN v0.3 LEAD QA ===
+
+POST_ID: 1982
+TITLE: FINOCCHIONA TOSCANA
+SOURCE: _dry_recipe_data
+FAMILY: SAUSAGE_SALAMI
+LEAD_CHARS: 179
+FORBIDDEN: NONE
+RESULT: OK_LEAD_CLEAN
+LEAD: FINOCCHIONA TOSCANA je suha kobasica ili salama područja Italija · Toskana, prikazana kao proizvodni vodič s omjerima sirovine, začinima, punjenjem, sušenjem i kontrolnim točkama.
+
+POST_ID: 1983
+TITLE: PROSCIUTTO DI SAN DANIELE
+SOURCE: _dry_recipe_full_markdown
+FAMILY: HAM_PROSCIUTTO
+LEAD_CHARS: 145
+FORBIDDEN: NONE
+RESULT: OK_LEAD_CLEAN
+LEAD: PROSCIUTTO DI SAN DANIELE je sušeni cijeli komad iz skupine šunki i pršuta, prikazan kroz soljenje, odmor, sušenje, zrenje i sigurnosne kontrole.
+
+POST_ID: 1984
+TITLE: NDUJA CALABRESE
+SOURCE: _dry_recipe_data
+FAMILY: SAUSAGE_SALAMI
+LEAD_CHARS: 177
+FORBIDDEN: NONE
+RESULT: OK_LEAD_CLEAN
+LEAD: NDUJA CALABRESE je suha kobasica ili salama područja Italija · Kalabrija, prikazana kao proizvodni vodič s omjerima sirovine, začinima, punjenjem, sušenjem i kontrolnim točkama.
+
+POST_ID: 1986
+TITLE: LARDO DI COLONNATA
+SOURCE: _dry_recipe_data
+FAMILY: BACON_FAT
+LEAD_CHARS: 178
+FORBIDDEN: NONE
+RESULT: OK_LEAD_CLEAN
+LEAD: LARDO DI COLONNATA je proizvod od slanine, pancete ili masnog tkiva područja Italija · Emilia-Romagna, prikazan kroz soljenje, začinski sloj, sušenje, zrenje i kontrolu površine.
+
+POST_ID: 1990
+TITLE: SALAME DI FELINO
+SOURCE: _dry_recipe_data
+FAMILY: SAUSAGE_SALAMI
+LEAD_CHARS: 183
+FORBIDDEN: NONE
+RESULT: OK_LEAD_CLEAN
+LEAD: SALAME DI FELINO je suha kobasica ili salama područja Italija · Emilia-Romagna, prikazana kao proizvodni vodič s omjerima sirovine, začinima, punjenjem, sušenjem i kontrolnim točkama.
+
+BAD_LEADS=0
