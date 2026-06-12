@@ -359,7 +359,8 @@ function dcmdfr_render_page($post_id, $markdown, $code, $mode) {
         }
 
         .dc-md-fallback-recipe.dcv5-recipe {
-            width:min(1080px, calc(100vw - 36px));
+            width:min(1280px, calc(100vw - 56px));
+            max-width:1280px;
             margin:72px auto 90px;
             color:#111b33;
             font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
@@ -403,7 +404,7 @@ function dcmdfr_render_page($post_id, $markdown, $code, $mode) {
 
         .dc-md-fallback-recipe .dcv5-hero h1 {
             margin:0 0 14px;
-            max-width:850px;
+            max-width:1040px;
             color:#07142d;
             font-size:clamp(38px,4.8vw,58px);
             line-height:1.02;
@@ -412,7 +413,7 @@ function dcmdfr_render_page($post_id, $markdown, $code, $mode) {
         }
 
         .dc-md-fallback-recipe .dcv5-lead {
-            max-width:860px;
+            max-width:1040px;
             margin:0 0 24px;
             color:#44506a;
             font-size:18px;
@@ -681,12 +682,12 @@ function dcmdfr_render_page($post_id, $markdown, $code, $mode) {
             <article class="dcv5-quick-card"><span>Tip proizvoda</span><strong><?php echo esc_html($type_label); ?></strong></article>
             <article class="dcv5-quick-card"><span>Proces</span><strong><?php echo esc_html($process_label); ?></strong></article>
             <article class="dcv5-quick-card"><span>Omotač</span><strong><?php echo esc_html($cover_label); ?></strong></article>
-            <article class="dcv5-quick-card"><span>Status</span><strong>fallback prikaz</strong></article>
+            <article class="dcv5-quick-card"><span>Status</span><strong>javni prikaz</strong></article>
         </section>
 
         <section class="dcv5-panel dcv6-work-summary" id="radni-sazetak">
             <h2 class="dcv5-section-title"><span class="dcv5-section-no">✓</span>Radni sažetak prije izrade</h2>
-            <p class="dcv5-section-note">Ovaj blok služi kao brza provjera prije rada. Detaljni izvorni zapis nalazi se u nastavku recepta.</p>
+            <p class="dcv5-section-note">Ovaj blok služi kao brza provjera prije rada i sažetak najvažnijih kontrolnih točaka.</p>
 
             <div class="dcv6-summary-grid">
                 <article class="dcv6-summary-card">

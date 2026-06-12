@@ -1,0 +1,6 @@
+url,http,has_visible_fallback_status,has_bad_public_notes,has_dcv5_recipe,result
+https://drycured.com/recepti-baza/salame-di-felino/,200,NO,NO,YES,OK_PUBLIC_FALLBACK_CLEAN
+https://drycured.com/recepti-baza/finocchiona-toscana/,200,NO,NO,YES,OK_PUBLIC_FALLBACK_CLEAN
+https://drycured.com/recepti-baza/prosciutto-di-san-daniele/,200,NO,NO,YES,OK_PUBLIC_FALLBACK_CLEAN
+https://drycured.com/recepti-baza/nduja-calabrese/,200,NO,NO,YES,OK_PUBLIC_FALLBACK_CLEAN
+https://drycured.com/recepti-baza/lardo-di-colonnata/,200,NO,NO,YES,OK_PUBLIC_FALLBACK_CLEAN
