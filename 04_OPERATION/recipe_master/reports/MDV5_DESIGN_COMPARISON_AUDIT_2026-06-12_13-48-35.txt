@@ -1,0 +1,320 @@
+=== MDV5 DESIGN COMPARISON AUDIT ===
+
+=== URLS ===
+REFERENCE: https://drycured.com/recepti-baza/hr-sl-010-slavonska-kobasica-zoi-eu-2023/
+PUBLIC_FALLBACK: https://drycured.com/recepti-baza/salame-di-felino/
+PREVIEW_DCV5: https://drycured.com/recepti-baza/salame-di-felino/?mdv5_preview=5LLCsLSlqV5mCjP682IyXJNa8XvKn2Ap
+
+=== REFERENCE ===
+URL: https://drycured.com/recepti-baza/hr-sl-010-slavonska-kobasica-zoi-eu-2023/
+--- HTTP / SIZE ---
+HTTP:200 SIZE:358176 TIME:0.216692
+--- MARKERS ---
+dcv5-recipe: 11
+fallback: 2
+preview: 1
+privatni radni: 0
+fotografija će biti dodana: 0
+--- BODY CLASS ---
+<body itemtype='https://schema.org/Blog' itemscope='itemscope' class="dry_recipe-template-default single single-dry_recipe postid-2981 wp-custom-logo ast-desktop ast-separate-container ast-two-container ast-no-sidebar astra-4.8.13 group-blog ast-blog-single-style-1 ast-custom-post-type ast-single-post ast-replace-site-logo-transparent ast-inherit-site-logo-transparent ast-hfb-header ast-normal-title-enabled">
+--- MAIN WRAPPERS / CLASSES AROUND RECIPE ---
+class="dcv5-actions"
+class="dcv5-amount"
+class="dcv5-amount-line"
+class="dcv5-badge"
+class="dcv5-btn dcv5-btn-primary"
+class="dcv5-btn dcv5-btn-secondary"
+class="dcv5-card-grid two"
+class="dcv5-check-card"
+class="dcv5-check-grid"
+class="dcv5-climate-card"
+class="dcv5-comp-bar"
+class="dcv5-composition"
+class="dcv5-critical"
+class="dcv5-day"
+class="dcv5-error-card danger"
+class="dcv5-error-card warning"
+class="dcv5-error-meta"
+class="dcv5-field-label"
+class="dcv5-hero"
+class="dcv5-hero-grid"
+class="dcv5-hero-inner"
+class="dcv5-ingredient-card"
+class="dcv5-kicker"
+class="dcv5-layout"
+class="dcv5-lead"
+class="dcv5-panel"
+class="dcv5-percent"
+class="dcv5-print-box"
+class="dcv5-print-strip"
+class="dcv5-profile-fill"
+class="dcv5-profile-name"
+class="dcv5-profile-row"
+class="dcv5-profile-score"
+class="dcv5-profile-track"
+class="dcv5-quick-card"
+class="dcv5-quick-strip"
+class="dcv5-rate"
+class="dcv5-recipe"
+class="dcv5-safety-card green"
+class="dcv5-safety-card red"
+class="drycured-granulation-display-core"
+class="site-main drycured-product-gate-v1-1"
+--- FIRST TEXT SNIPPET ---
+Slavonska kobasica (ZOI EU 2023) - drycured.com Skip to content drycured.com RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja drycured.com Main Menu RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja DIGITALNA PUŠNICA HR-SL-010 Slavonija, Baranja i Srijem Suhomesnati proizvod Slavonska kobasica (ZOI EU 2023) # HR-SL-010 — Slavonska kobasica (ZOI EU 2023) ## 1. Identitet recepta - Kanonski naziv: Slavonska kobasica (ZOI EU 2023) - Alternativni nazivi: nisu posebno zabilježeni u primarnom izvoru - Država: Hrvatska - Regija: Slavonija - Mikroregija: širi prostor Slav... Otvori kalkulator za ovaj recept Dnevnik šarže Ispiši radnu verziju Šarža 10 kg / prema receptu Trajanje prema tipu proizvoda Dimljenje hladni dim gdje je primjenjivo Omotač pr
+
+=== PUBLIC_FALLBACK ===
+URL: https://drycured.com/recepti-baza/salame-di-felino/
+--- HTTP / SIZE ---
+HTTP:200 SIZE:269516 TIME:0.264971
+--- MARKERS ---
+dcv5-recipe: 10
+fallback: 60
+preview: 1
+privatni radni: 0
+fotografija će biti dodana: 0
+--- BODY CLASS ---
+<body itemtype='https://schema.org/Blog' itemscope='itemscope' class="dry_recipe-template-default single single-dry_recipe postid-1990 wp-custom-logo ast-desktop ast-separate-container ast-two-container ast-no-sidebar astra-4.8.13 group-blog ast-blog-single-style-1 ast-custom-post-type ast-single-post ast-replace-site-logo-transparent ast-inherit-site-logo-transparent ast-hfb-header ast-normal-title-enabled">
+--- MAIN WRAPPERS / CLASSES AROUND RECIPE ---
+class="dc-md-fallback-recipe dcv5-recipe dcv5-fallback-view"
+class="dcv5-actions"
+class="dcv5-badge"
+class="dcv5-btn dcv5-btn-primary"
+class="dcv5-btn dcv5-btn-secondary"
+class="dcv5-hero"
+class="dcv5-kicker"
+class="dcv5-layout"
+class="dcv5-lead"
+class="dcv5-main"
+class="dcv5-panel"
+class="dcv5-panel dcv6-work-summary"
+class="dcv5-quick-card"
+class="dcv5-quick-strip"
+class="dcv5-section-no"
+class="dcv5-section-note"
+class="dcv5-section-title"
+class="dcv5-sidecard"
+--- FIRST TEXT SNIPPET ---
+SALAME DI FELINO - drycured.com Skip to content drycured.com RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja drycured.com Main Menu RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja DIGITALNA PUŠNICA Italija suha salama SALAME DI FELINO SALAME DI FELINO je prikazan kao radni recept za malu proizvodnju, s osnovnim omjerima, kontrolama i postupkom prilagođenim šarži od 10 kg. Otvori kalkulator za ovaj recept Sadržaj recepta Ispiši radnu verziju Šarža 10 kg osnovne sirovine Tip proizvoda suha kobasica ili salama Proces fermentacija + sušenje + zrenje Omotač prirodno / jestivo crijevo Status fallback prikaz ✓ Radni sažetak prije izrade Ovaj blok služi kao brza provjera prije rada. Detaljni izvorni zapis nalazi se u nastavku recepta. Za koga j
+
+=== PREVIEW_DCV5 ===
+URL: https://drycured.com/recepti-baza/salame-di-felino/?mdv5_preview=5LLCsLSlqV5mCjP682IyXJNa8XvKn2Ap
+--- HTTP / SIZE ---
+HTTP:200 SIZE:348199 TIME:0.201134
+--- MARKERS ---
+dcv5-recipe: 11
+fallback: 2
+preview: 1
+privatni radni: 0
+fotografija će biti dodana: 0
+--- BODY CLASS ---
+<body itemtype='https://schema.org/Blog' itemscope='itemscope' class="dry_recipe-template-default single single-dry_recipe postid-1990 wp-custom-logo ast-desktop ast-separate-container ast-two-container ast-no-sidebar astra-4.8.13 group-blog ast-blog-single-style-1 ast-custom-post-type ast-single-post ast-replace-site-logo-transparent ast-inherit-site-logo-transparent ast-hfb-header ast-normal-title-enabled">
+--- MAIN WRAPPERS / CLASSES AROUND RECIPE ---
+class="dcv5-actions"
+class="dcv5-amount"
+class="dcv5-amount-line"
+class="dcv5-badge"
+class="dcv5-btn dcv5-btn-primary"
+class="dcv5-btn dcv5-btn-secondary"
+class="dcv5-card-grid two"
+class="dcv5-check-card"
+class="dcv5-check-grid"
+class="dcv5-climate-card"
+class="dcv5-comp-bar"
+class="dcv5-composition"
+class="dcv5-critical"
+class="dcv5-day"
+class="dcv5-error-card danger"
+class="dcv5-error-card warning"
+class="dcv5-error-meta"
+class="dcv5-field-label"
+class="dcv5-hero"
+class="dcv5-hero-grid"
+class="dcv5-hero-inner"
+class="dcv5-ingredient-card"
+class="dcv5-kicker"
+class="dcv5-layout"
+class="dcv5-lead"
+class="dcv5-panel"
+class="dcv5-percent"
+class="dcv5-print-box"
+class="dcv5-print-strip"
+class="dcv5-profile-fill"
+class="dcv5-profile-name"
+class="dcv5-profile-row"
+class="dcv5-profile-score"
+class="dcv5-profile-track"
+class="dcv5-quick-card"
+class="dcv5-quick-strip"
+class="dcv5-rate"
+class="dcv5-recipe"
+class="dcv5-safety-card green"
+class="dcv5-safety-card red"
+class="site-main drycured-product-gate-v1-1"
+--- FIRST TEXT SNIPPET ---
+SALAME DI FELINO - drycured.com Skip to content drycured.com RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja drycured.com Main Menu RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja DIGITALNA PUŠNICA MD-SALAME_DI_FELINO Italija · Emilia-Romagna Kobasica / salama SALAME DI FELINO SALAME DI FELINO je suha kobasica ili salama područja Italija · Emilia-Romagna, prikazana kao proizvodni vodič s omjerima sirovine, začinima, punjenjem, sušenjem i kontrolnim točkama. Otvori kalkulator za ovaj recept Dnevnik šarže Ispiši radnu verziju Šarža 10 kg Trajanje prema kalibru i zrenju Dimljenje hladni dim gdje je primjenjivo Omotač prirodni ili jestivi omotač Gubitak mase 30–40 % 1 Omjer smjese Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj 
+
+=== CSS / PHP FILES THAT MAY CONTROL WIDTH OR LAYOUT ===
+wp-content/mu-plugins/drycured-recipe-view-v1.php:63:        @media (min-width: 641px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:69:                min-width: 0 !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:70:                width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:83:                width: 36% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:88:                width: 22% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:93:                width: 42% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:168:            max-width: 1280px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:169:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:180:            max-width: 1160px;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:229:            max-width: 860px;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:287:            width: 32px;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:333:            width: 100%;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:342:            width: 100%;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:343:            min-width: 680px;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:395:        @media (max-width: 980px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:409:        @media (max-width: 640px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:425:                min-width: 560px;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:502:function dc_canon_meta($post_id, $key, $fallback = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:504:    return $value !== '' ? $value : $fallback;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:507:function dc_canon_first_term($post_id, $tax, $fallback = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:512:    return $fallback;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:762:            max-width: 1340px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:763:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:768:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:769:            max-width: 1220px;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:810:            width: 100%;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:893:            max-width: 880px;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:955:            width: 34px;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:1267:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:1268:                max-width: none !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:1296:        @media (max-width: 980px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:1323:        @media (max-width: 640px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:1324:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:1353:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1.php:1443:                            <div class="dcv5-profile-track"><div class="dcv5-profile-fill" style="width: <?php echo esc_attr($item['score'] * 10); ?>%"></div></div>
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2044:            min-width: 96px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2096:        @media (max-width: 980px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2148:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2149:            max-width: none !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2165:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2167:            width: min(1280px, calc(100vw - 56px)) !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2168:            max-width: 1280px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2177:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2178:            max-width: none !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2191:            min-width: 0 !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2192:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2196:            width: 250px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2197:            max-width: 250px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2210:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2211:            max-width: none !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2229:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2230:            max-width: none !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2246:        @media (min-width: 1500px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2247:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2248:                width: min(1360px, calc(100vw - 96px)) !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2249:                max-width: 1360px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2258:                width: 260px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2259:                max-width: 260px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2271:        @media (max-width: 1179px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2272:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2273:                width: min(100%, calc(100vw - 28px)) !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2282:                width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2283:                max-width: none !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2330:            max-width: 920px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2410:            min-width: 118px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2537:        @media (max-width: 980px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2543:        @media (max-width: 640px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2595:            width: 28px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2799:        @media (max-width: 980px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2925:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3073:    foreach ($related as $code => $fallback_title) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3329:            min-width: 76px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3384:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3452:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3453:                width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3454:                max-width: none !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3466:        @media (max-width: 980px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3640:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3678:function dcv62_recipe_link_by_slug($slug, $fallback) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3685:    return home_url('/recepti-baza/' . trim($fallback, '/') . '/');
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3787:            border-width: 2px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3851:        @media (max-width: 760px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3962:            max-width: 1240px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3963:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3989:            max-width: none !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3990:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4021:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4022:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4023:            max-width: none !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4055:        @media (max-width: 760px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4064:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4122:            width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4123:            max-width: 100% !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4204:            width: 34px !important;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4252:        @media (max-width: 760px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4283:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4363:        @media (max-width: 780px) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4777:    function dcv12_short_lead_from_post($post_id, $fallback) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:4783:            return $fallback;
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:4: * Description: Public fallback renderer for dry_recipe posts without a valid DCV5 profile.
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:14:    return (string)get_option('drycured_md_fallback_public_enabled', '0') === '1';
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:18:    $expected = (string)get_option('drycured_md_fallback_preview_token', '');
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:19:    $provided = isset($_GET['dc_md_fallback_preview']) ? (string)wp_unslash($_GET['dc_md_fallback_preview']) : '';
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:297:function dcmdfr_clean_full_fallback_html($html, $ctx = []) {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:298:    if (stripos($html, 'dc-md-fallback-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:361:        .dc-md-fallback-recipe.dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:362:            width:min(1080px, calc(100vw - 36px));
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:368:        .dc-md-fallback-recipe .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:369:        .dc-md-fallback-recipe .dcv5-panel,
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:370:        .dc-md-fallback-recipe .dcv5-quick-card,
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:371:        .dc-md-fallback-recipe .dcv5-sidecard {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:378:        .dc-md-fallback-recipe .dcv5-hero {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:383:        .dc-md-fallback-recipe .dcv5-kicker {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:390:        .dc-md-fallback-recipe .dcv5-badge {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:404:        .dc-md-fallback-recipe .dcv5-hero h1 {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:406:            max-width:850px;
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:414:        .dc-md-fallback-recipe .dcv5-lead {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:415:            max-width:860px;
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:422:        .dc-md-fallback-recipe .dcv5-actions {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:428:        .dc-md-fallback-recipe .dcv5-btn {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:441:        .dc-md-fallback-recipe .dcv5-btn-primary {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:447:        .dc-md-fallback-recipe .dcv5-btn-secondary {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:452:        .dc-md-fallback-recipe .dcv5-quick-strip {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:459:        .dc-md-fallback-recipe .dcv5-quick-card {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:464:        .dc-md-fallback-recipe .dcv5-quick-card span {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:474:        .dc-md-fallback-recipe .dcv5-quick-card strong {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:481:        .dc-md-fallback-recipe .dcv5-panel {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:486:        .dc-md-fallback-recipe .dcv5-section-title {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:496:        .dc-md-fallback-recipe .dcv5-section-no {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:500:            width:32px;
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:510:        .dc-md-fallback-recipe .dcv5-section-note {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:517:        .dc-md-fallback-recipe .dcv6-summary-grid {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:523:        .dc-md-fallback-recipe .dcv6-summary-card {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:530:        .dc-md-fallback-recipe .dcv6-summary-card h3 {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:536:        .dc-md-fallback-recipe .dcv6-summary-card p {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:543:        .dc-md-fallback-recipe .dcv5-layout {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:550:        .dc-md-fallback-recipe .dcv5-sidecard {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:556:        .dc-md-fallback-recipe .dcv5-sidecard h3 {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:562:        .dc-md-fallback-recipe .dcv5-sidecard a {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:571:        .dc-md-fallback-recipe .dc-md-section {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:579:        .dc-md-fallback-recipe .dc-md-section h2,
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:580:        .dc-md-fallback-recipe .dc-md-section h3,
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:581:        .dc-md-fallback-recipe .dc-md-section h4 {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:587:        .dc-md-fallback-recipe .dc-md-section h2 { font-size:23px; }
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:588:        .dc-md-fallback-recipe .dc-md-section h3 { font-size:20px; }
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:589:        .dc-md-fallback-recipe .dc-md-section h4 { font-size:18px; }
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:591:        .dc-md-fallback-recipe .dc-md-section p,
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:592:        .dc-md-fallback-recipe .dc-md-section li {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:598:        .dc-md-fallback-recipe .dc-md-section p {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:602:        .dc-md-fallback-recipe .dc-md-section ul,
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:603:        .dc-md-fallback-recipe .dc-md-section ol {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:608:        .dc-md-fallback-recipe .dc-md-section li {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:612:        .dc-md-fallback-recipe .dc-md-section strong {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:616:        @media (max-width:960px) {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:617:            .dc-md-fallback-recipe.dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:618:                width:min(100%, calc(100vw - 24px));
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:622:            .dc-md-fallback-recipe .dcv5-quick-strip {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:626:            .dc-md-fallback-recipe .dcv5-layout {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:630:            .dc-md-fallback-recipe .dcv5-sidecard {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:634:            .dc-md-fallback-recipe .dcv6-summary-grid {
+
+=== GIT STATUS ===
+?? 04_OPERATION/recipe_master/reports/MDV5_DESIGN_COMPARISON_AUDIT_2026-06-12_13-48-35.txt
