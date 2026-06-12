@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Drycured Recipe MD Fallback Renderer
- * Description: Preview-only fallback renderer for dry_recipe posts without a DCV5 profile.
- * Version: 0.1.0
+ * Description: Fallback renderer for dry_recipe posts without a valid DCV5 profile. Public mode is controlled by option.
+ * Version: 0.2.0
  * Author: drycured.com
  */
 
@@ -10,7 +10,11 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-add_action('template_redirect', 'dcmdfr_maybe_render_preview', 1);
+add_action('template_redirect', 'dcmdfr_maybe_render', 1);
+
+function dcmdfr_public_enabled() {
+    return (string) get_option('drycured_md_fallback_public_enabled', '0') === '1';
+}
 
 function dcmdfr_has_valid_preview_token() {
     $expected = (string) get_option('drycured_md_fallback_preview_token', '');
@@ -18,11 +22,7 @@ function dcmdfr_has_valid_preview_token() {
         ? (string) wp_unslash($_GET['dc_md_fallback_preview'])
         : '';
 
-    if ($expected !== '' && $provided !== '' && hash_equals($expected, $provided)) {
-        return true;
-    }
-
-    return false;
+    return $expected !== '' && $provided !== '' && hash_equals($expected, $provided);
 }
 
 function dcmdfr_recipe_code($post_id) {
@@ -45,13 +45,21 @@ function dcmdfr_recipe_code($post_id) {
     return '';
 }
 
-function dcmdfr_has_dcv5_profile($post_id, $code) {
+function dcmdfr_has_valid_dcv5_profile($post_id, $code) {
     if (!function_exists('dcv5_get_recipe_profile')) {
         return false;
     }
 
     $profile = dcv5_get_recipe_profile($post_id, $code);
-    return is_array($profile) && !empty($profile);
+
+    if (!is_array($profile) || empty($profile)) {
+        return false;
+    }
+
+    $title = trim((string)($profile['title'] ?? $profile['name'] ?? ''));
+    $profile_code = trim((string)($profile['code'] ?? $profile['recipe_code'] ?? ''));
+
+    return $title !== '' || $profile_code !== '';
 }
 
 function dcmdfr_source_markdown($post_id) {
@@ -96,26 +104,14 @@ function dcmdfr_markdown_to_html($markdown) {
         $trim = trim($line);
 
         if ($trim === '') {
-            if ($in_ul) {
-                $html .= "</ul>\n";
-                $in_ul = false;
-            }
-            if ($in_ol) {
-                $html .= "</ol>\n";
-                $in_ol = false;
-            }
+            if ($in_ul) { $html .= "</ul>\n"; $in_ul = false; }
+            if ($in_ol) { $html .= "</ol>\n"; $in_ol = false; }
             continue;
         }
 
         if (preg_match('/^(#{1,4})\s+(.+)$/u', $trim, $m)) {
-            if ($in_ul) {
-                $html .= "</ul>\n";
-                $in_ul = false;
-            }
-            if ($in_ol) {
-                $html .= "</ol>\n";
-                $in_ol = false;
-            }
+            if ($in_ul) { $html .= "</ul>\n"; $in_ul = false; }
+            if ($in_ol) { $html .= "</ol>\n"; $in_ol = false; }
 
             $level = min(4, max(2, strlen($m[1]) + 1));
             $html .= '<h' . $level . '>' . dcmdfr_inline_format($m[2]) . '</h' . $level . ">\n";
@@ -123,54 +119,32 @@ function dcmdfr_markdown_to_html($markdown) {
         }
 
         if (preg_match('/^[-*•]\s+(.+)$/u', $trim, $m)) {
-            if ($in_ol) {
-                $html .= "</ol>\n";
-                $in_ol = false;
-            }
-            if (!$in_ul) {
-                $html .= "<ul>\n";
-                $in_ul = true;
-            }
+            if ($in_ol) { $html .= "</ol>\n"; $in_ol = false; }
+            if (!$in_ul) { $html .= "<ul>\n"; $in_ul = true; }
             $html .= '<li>' . dcmdfr_inline_format($m[1]) . "</li>\n";
             continue;
         }
 
         if (preg_match('/^\d+\.\s+(.+)$/u', $trim, $m)) {
-            if ($in_ul) {
-                $html .= "</ul>\n";
-                $in_ul = false;
-            }
-            if (!$in_ol) {
-                $html .= "<ol>\n";
-                $in_ol = true;
-            }
+            if ($in_ul) { $html .= "</ul>\n"; $in_ul = false; }
+            if (!$in_ol) { $html .= "<ol>\n"; $in_ol = true; }
             $html .= '<li>' . dcmdfr_inline_format($m[1]) . "</li>\n";
             continue;
         }
 
-        if ($in_ul) {
-            $html .= "</ul>\n";
-            $in_ul = false;
-        }
-        if ($in_ol) {
-            $html .= "</ol>\n";
-            $in_ol = false;
-        }
+        if ($in_ul) { $html .= "</ul>\n"; $in_ul = false; }
+        if ($in_ol) { $html .= "</ol>\n"; $in_ol = false; }
 
         $html .= '<p>' . dcmdfr_inline_format($trim) . "</p>\n";
     }
 
-    if ($in_ul) {
-        $html .= "</ul>\n";
-    }
-    if ($in_ol) {
-        $html .= "</ol>\n";
-    }
+    if ($in_ul) { $html .= "</ul>\n"; }
+    if ($in_ol) { $html .= "</ol>\n"; }
 
     return $html;
 }
 
-function dcmdfr_render_preview_page($post_id, $markdown, $code) {
+function dcmdfr_render_page($post_id, $markdown, $code, $mode) {
     $country = dcmdfr_terms_line($post_id, 'dry_country');
     $category = dcmdfr_terms_line($post_id, 'dry_product_category');
     $process = dcmdfr_terms_line($post_id, 'dry_process_type');
@@ -178,9 +152,7 @@ function dcmdfr_render_preview_page($post_id, $markdown, $code) {
     ob_start();
     ?>
     <style>
-        body.single-dry_recipe .site-content {
-            background: #f8f0de !important;
-        }
+        body.single-dry_recipe .site-content { background: #f8f0de !important; }
 
         .dc-md-fallback-recipe {
             box-sizing: border-box;
@@ -275,9 +247,7 @@ function dcmdfr_render_preview_page($post_id, $markdown, $code) {
             line-height: 1.22;
         }
 
-        .dc-md-fallback-body p {
-            margin: 0 0 14px;
-        }
+        .dc-md-fallback-body p { margin: 0 0 14px; }
 
         .dc-md-fallback-body ul,
         .dc-md-fallback-body ol {
@@ -285,9 +255,7 @@ function dcmdfr_render_preview_page($post_id, $markdown, $code) {
             padding: 0;
         }
 
-        .dc-md-fallback-body li {
-            margin: 6px 0;
-        }
+        .dc-md-fallback-body li { margin: 6px 0; }
 
         @media (max-width: 780px) {
             .dc-md-fallback-recipe {
@@ -307,12 +275,14 @@ function dcmdfr_render_preview_page($post_id, $markdown, $code) {
     </style>
 
     <article class="dc-md-fallback-recipe" id="dc-md-fallback-recipe-<?php echo esc_attr($post_id); ?>">
-        <div class="dc-md-fallback-banner">
-            PREVIEW FALLBACK PRIKAZ — ovaj prikaz je vidljiv samo s privatnim tokenom i ne mijenja javnu stranicu.
-        </div>
+        <?php if ($mode === 'preview') : ?>
+            <div class="dc-md-fallback-banner">
+                PREVIEW FALLBACK PRIKAZ — vidljivo samo s privatnim tokenom.
+            </div>
+        <?php endif; ?>
 
         <header class="dc-md-fallback-hero">
-            <p class="dc-md-fallback-kicker">Drycured recept · fallback renderer</p>
+            <p class="dc-md-fallback-kicker">Drycured recept</p>
             <h1><?php echo esc_html(get_the_title($post_id)); ?></h1>
         </header>
 
@@ -331,12 +301,19 @@ function dcmdfr_render_preview_page($post_id, $markdown, $code) {
     return ob_get_clean();
 }
 
-function dcmdfr_maybe_render_preview() {
+function dcmdfr_maybe_render() {
     if (is_admin() || !is_singular('dry_recipe')) {
         return;
     }
 
-    if (!dcmdfr_has_valid_preview_token()) {
+    $mode = '';
+    if (dcmdfr_has_valid_preview_token()) {
+        $mode = 'preview';
+    } elseif (dcmdfr_public_enabled()) {
+        $mode = 'public';
+    }
+
+    if ($mode === '') {
         return;
     }
 
@@ -347,7 +324,7 @@ function dcmdfr_maybe_render_preview() {
 
     $code = dcmdfr_recipe_code($post_id);
 
-    if (dcmdfr_has_dcv5_profile($post_id, $code)) {
+    if (dcmdfr_has_valid_dcv5_profile($post_id, $code)) {
         return;
     }
 
@@ -362,7 +339,7 @@ function dcmdfr_maybe_render_preview() {
     nocache_headers();
 
     get_header();
-    echo dcmdfr_render_preview_page($post_id, $markdown, $code);
+    echo dcmdfr_render_page($post_id, $markdown, $code, $mode);
     get_footer();
     exit;
 }

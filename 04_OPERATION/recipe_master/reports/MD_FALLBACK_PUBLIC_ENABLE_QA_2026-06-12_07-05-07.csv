@@ -1,0 +1,413 @@
+post_id,title,url,code,source_len,valid_dcv5_profile,public_fallback_marker,public_dcv5_marker,internal_text_visible,result
+1982,"FINOCCHIONA TOSCANA",https://drycured.com/recepti-baza/finocchiona-toscana/,MD-FINOCCHIONA_TOSCANA,4378,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+1983,"PROSCIUTTO DI SAN DANIELE",https://drycured.com/recepti-baza/prosciutto-di-san-daniele/,MD-PROSCIUTTO_DI_SAN_DANIELE,3426,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+1984,"NDUJA CALABRESE",https://drycured.com/recepti-baza/nduja-calabrese/,MD-NDUJA_CALABRESE,4217,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+1986,"LARDO DI COLONNATA",https://drycured.com/recepti-baza/lardo-di-colonnata/,MD-LARDO_DI_COLONNATA,3965,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+1988,"SOPPRESSA VICENTINA",https://drycured.com/recepti-baza/soppressa-vicentina/,MD-SOPPRESSA_VICENTINA,3806,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+1990,"SALAME DI FELINO",https://drycured.com/recepti-baza/salame-di-felino/,MD-SALAME_DI_FELINO,4314,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+1991,"GUANCIALE ROMANO",https://drycured.com/recepti-baza/guanciale-romano/,MD-GUANCIALE_ROMANO,3632,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2018,"Irska salama (Spiced Irish Salami)",https://drycured.com/recepti-baza/irska-salama-spiced-irish-salami/,MD-IRSKA_SALAMA_SPICED_IRISH_SALAMI,4359,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2021,"Cumberland kobasica",https://drycured.com/recepti-baza/cumberland-kobasica/,MD-CUMBERLAND_KOBASICA,4280,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2023,"?? Grčki tradicionalni recept - Loukaniko",https://drycured.com/recepti-baza/grcki-tradicionalni-recept-loukaniko/,MD-GRCKI_TRADICIONALNI_RECEPT_LOUKANIKO,3437,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2026,"?? Španjolski recept za chorizo",https://drycured.com/recepti-baza/spanjolski-recept-za-chorizo/,MD-SPANJOLSKI_RECEPT_ZA_CHORIZO,3790,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2028,"Češki Špekáček (Špek Kobasica)",https://drycured.com/recepti-baza/ceski-spekacek-spek-kobasica/,MD-CESKI_SPEKACEK_SPEK_KOBASICA,4378,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2029,"JAMBON DE BAYONNE",https://drycured.com/recepti-baza/jambon-de-bayonne/,MD-JAMBON_DE_BAYONNE,3482,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2032,"Coppa (Kapula)",https://drycured.com/recepti-baza/coppa-kapula/,MD-COPPA_KAPULA,3683,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2033,"Andouille de Guémené",https://drycured.com/recepti-baza/andouille-de-guemene/,MD-ANDOUILLE_DE_GUEMENE,3761,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2037,"Hangikjöt (Dimljeni janjeti but)",https://drycured.com/recepti-baza/hangikjot-dimljeni-janjeti-but/,MD-HANGIKJOT_DIMLJENI_JANJETI_BUT,3564,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2039,"Ukrajinska Domashnia Kovbasa (Domaća Kobasica)",https://drycured.com/recepti-baza/ukrajinska-domashnia-kovbasa-domaca-kobasica/,MD-UKRAJINSKA_DOMASHNIA_KOVBASA_DOMACA_KOBASICA,4281,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2042,"BALMOȘ CU SLANINĂ (PALENTA SA SLANINOM)",https://drycured.com/recepti-baza/balmos-cu-slanina-palenta-sa-slaninom/,MD-BALMO_CU_SLANIN_PALENTA_SA_SLANINOM,3503,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2043,"PFÄLZER SAUMAGEN (FALAČKA SVINJSKA ŽELUDAC-KOBASICA)",https://drycured.com/recepti-baza/pfalzer-saumagen-falacka-svinjska-zeludac-kobasica/,MD-PFALZER_SAUMAGEN_FALACKA_SVINJSKA_ZELUDAC_KOBASICA,4741,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2047,"Domaći Bratwurst",https://drycured.com/recepti-baza/domaci-bratwurst/,MD-DOMACI_BRATWURST,3704,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2049,"Hausmacher Mettwurst (Domaća dimljena kobasica za mazanje)",https://drycured.com/recepti-baza/hausmacher-mettwurst-domaca-dimljena-kobasica-za-mazanje/,MD-HAUSMACHER_METTWURST_DOMACA_DIMLJENA_KOBASICA_ZA_MAZANJE,4079,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2051,"ŠKOTSKI LORNE SAUSAGE (ČETVRTASTI KOBASIČASTI ODREZAK)",https://drycured.com/recepti-baza/skotski-lorne-sausage-cetvrtasti-kobasicasti-odrezak/,MD-SKOTSKI_LORNE_SAUSAGE_CETVRTASTI_KOBASICASTI_ODREZAK,4267,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2052,"Jamón Ibérico de Bellota - Iberijski Pršut od Žira",https://drycured.com/recepti-baza/jamon-iberico-de-bellota-iberijski-prsut-od-zira/,MD-JAMON_IBERICO_DE_BELLOTA_IBERIJSKI_PRSUT_OD_ZIRA,3757,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2053,"Chorizo de Pamplona - Čorizo iz Pamplone",https://drycured.com/recepti-baza/chorizo-de-pamplona-corizo-iz-pamplone/,MD-CHORIZO_DE_PAMPLONA_CORIZO_IZ_PAMPLONE,4504,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2055,"Coppa Piacentina - Piacentinska Coppa",https://drycured.com/recepti-baza/coppa-piacentina-piacentinska-coppa/,MD-COPPA_PIACENTINA_PIACENTINSKA_COPPA,3950,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2056,"Nduja Calabrese - Kalabrijska Nduja",https://drycured.com/recepti-baza/nduja-calabrese-kalabrijska-nduja/,MD-NDUJA_CALABRESE_KALABRIJSKA_NDUJA,3775,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2057,"Bresaola Valtellinese - Valtelinska Bresaola",https://drycured.com/recepti-baza/bresaola-valtellinese-valtelinska-bresaola/,MD-BRESAOLA_VALTELLINESE_VALTELINSKA_BRESAOLA,3710,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2058,"Guanciale Romano - Rimski Guanciale",https://drycured.com/recepti-baza/guanciale-romano-rimski-guanciale/,MD-GUANCIALE_ROMANO_RIMSKI_GUANCIALE,3831,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2059,"SALAME MILANO - MILANSKA SALAMA",https://drycured.com/recepti-baza/salame-milano-milanska-salama/,MD-SALAME_MILANO_MILANSKA_SALAMA,4400,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2060,"SOPPRESSATA CALABRESE - KALABRIJSKA SOPPRESSATA",https://drycured.com/recepti-baza/soppressata-calabrese-kalabrijska-soppressata/,MD-SOPPRESSATA_CALABRESE_KALABRIJSKA_SOPPRESSATA,4071,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2061,"PROSCIUTTO DI PARMA - PARMSKA ŠUNKA",https://drycured.com/recepti-baza/prosciutto-di-parma-parmska-sunka/,MD-PROSCIUTTO_DI_PARMA_PARMSKA_SUNKA,3344,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2062,"PANCETTA ARROTOLATA - ROLANA PANCETA",https://drycured.com/recepti-baza/pancetta-arrotolata-rolana-panceta/,MD-PANCETTA_ARROTOLATA_ROLANA_PANCETA,3816,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2063,"FINOCCHIONA TOSCANA - TOSKANSKA KOBASICA S KOMORAČEM",https://drycured.com/recepti-baza/finocchiona-toscana-toskanska-kobasica-s-komoracem/,MD-FINOCCHIONA_TOSCANA_TOSKANSKA_KOBASICA_S_KOMORACEM,4344,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2064,"COPPA (CAPOCOLLO) - TALIJANSKA VRATINA",https://drycured.com/recepti-baza/coppa-capocollo-talijanska-vratina/,MD-COPPA_CAPOCOLLO_TALIJANSKA_VRATINA,3766,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2072,"Njeguški pršut",https://drycured.com/recepti-baza/njeguski-prsut/,MD-NJEGUSKI_PRSUT,3257,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2075,"Vrgorački kulen iz zaboravljenih recepata",https://drycured.com/recepti-baza/vrgoracki-kulen-iz-zaboravljenih-recepata/,MD-VRGORACKI_KULEN_IZ_ZABORAVLJENIH_RECEPATA,3995,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2076,"Senjska Morska Panceta ""Bura Intenzitet""",https://drycured.com/recepti-baza/senjska-morska-panceta-bura-intenzitet/,MD-SENJSKA_MORSKA_PANCETA_BURA_INTENZITET,3370,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2078,"ANDOUILLE DE VIRE",https://drycured.com/recepti-baza/andouille-de-vire/,MD-ANDOUILLE_DE_VIRE,4161,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2079,"COPPA CORSE",https://drycured.com/recepti-baza/coppa-corse/,MD-COPPA_CORSE,3900,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2080,"SAUCISSE DE MORTEAU",https://drycured.com/recepti-baza/saucisse-de-morteau/,MD-SAUCISSE_DE_MORTEAU,4163,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2086,"Prekomurska Slaninska Rolada ""Trnčova""",https://drycured.com/recepti-baza/prekomurska-slaninska-rolada-trncova/,MD-PREKOMURSKA_SLANINSKA_ROLADA_TRNCOVA,3340,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2088,"Koprivnička Kulen",https://drycured.com/recepti-baza/koprivnicka-kulen/,MD-KOPRIVNICKA_KULEN,3955,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2089,"KABANOSY (TANKE SUHE KOBASICE)",https://drycured.com/recepti-baza/kabanosy-tanke-suhe-kobasice/,MD-KABANOSY_TANKE_SUHE_KOBASICE,4151,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2092,"Crikvenička Panceta",https://drycured.com/recepti-baza/crikvenicka-panceta/,MD-CRIKVENICKA_PANCETA,3249,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2093,"Stara Koprivnička Salama ""Šokačka Priča""",https://drycured.com/recepti-baza/stara-koprivnicka-salama-sokacka-prica/,MD-STARA_KOPRIVNICKA_SALAMA_SOKACKA_PRICA,4115,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2094,"Pitomački ""Divlji Kulen""",https://drycured.com/recepti-baza/pitomacki-divlji-kulen/,MD-PITOMACKI_DIVLJI_KULEN,3995,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2096,"SLĂNINĂ AFUMATĂ (Dimljena slanina)",https://drycured.com/recepti-baza/slanina-afumata-dimljena-slanina/,MD-SL_NIN_AFUMAT_DIMLJENA_SLANINA,3643,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2097,"CHIȘCĂ (Puhana želuca s krvlju)",https://drycured.com/recepti-baza/chisca-puhana-zeluca-s-krvlju/,MD-CHI_C_PUHANA_ZELUCA_S_KRVLJU,3895,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2100,"Miholjačka Začinska Salama",https://drycured.com/recepti-baza/miholjacka-zacinska-salama/,MD-MIHOLJACKA_ZACINSKA_SALAMA,3963,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2101,"Vinkovački Slavonski Kulen - Stara obiteljska receptura",https://drycured.com/recepti-baza/vinkovacki-slavonski-kulen-stara-obiteljska-receptura/,MD-VINKOVACKI_SLAVONSKI_KULEN_STARA_OBITELJSKA_RECEPTURA,4105,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2102,"Slovačka slanina (Slovenská slanina)",https://drycured.com/recepti-baza/slovacka-slanina-slovenska-slanina/,MD-SLOVACKA_SLANINA_SLOVENSKA_SLANINA,3485,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2103,"Kranjska klobasa (Kranjska kobasica)",https://drycured.com/recepti-baza/kranjska-klobasa-kranjska-kobasica/,MD-KRANJSKA_KLOBASA_KRANJSKA_KOBASICA,4072,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2104,"Kraški pršut",https://drycured.com/recepti-baza/kraski-prsut/,MD-KRASKI_PRSUT,3270,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2106,"Gorenjska zaseka",https://drycured.com/recepti-baza/gorenjska-zaseka/,MD-GORENJSKA_ZASEKA,3534,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2107,"Vipavska panceta",https://drycured.com/recepti-baza/vipavska-panceta/,MD-VIPAVSKA_PANCETA,3704,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2108,"Tolminska salama",https://drycured.com/recepti-baza/tolminska-salama/,MD-TOLMINSKA_SALAMA,4277,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2110,"Crnogorska Slanina (Durmitorska panćeta)",https://drycured.com/recepti-baza/crnogorska-slanina-durmitorska-panceta/,MD-CRNOGORSKA_SLANINA_DURMITORSKA_PANCETA,3320,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2111,"LANDJÄGER (TRADICIONALNE DIMLJENE KOBASICE)",https://drycured.com/recepti-baza/landjager-tradicionalne-dimljene-kobasice/,MD-LANDJAGER_TRADICIONALNE_DIMLJENE_KOBASICE,4138,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2113,"VACHERIN FRIBOURGEOIS METTWURST (DIMLJENA KOBASICA S ALPSKIM SIROM)",https://drycured.com/recepti-baza/vacherin-fribourgeois-mettwurst-dimljena-kobasica-s-alpskim-sirom/,MD-VACHERIN_FRIBOURGEOIS_METTWURST_DIMLJENA_KOBASICA_S_ALPSKIM_SIROM,4251,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2115,"BRESAOLA DELLA VALTELLINA",https://drycured.com/recepti-baza/bresaola-della-valtellina/,MD-BRESAOLA_DELLA_VALTELLINA,3511,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2116,"COPPA PIACENTINA",https://drycured.com/recepti-baza/coppa-piacentina/,MD-COPPA_PIACENTINA,3777,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2353,"Pastërma (Albansko suho meso)",https://drycured.com/recepti-baza/pasterma-albansko-suho-meso/,MD-PASTERMA_ALBANSKO_SUHO_MESO,3504,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2355,"Proshuta Shqiptare – albanska pršuta",https://drycured.com/recepti-baza/proshuta-shqiptare-albanska-prsuta/,MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,3494,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2359,"Vorarlberger Mostbröckle – vorarlberška dimljena govedina",https://drycured.com/recepti-baza/vorarlberger-mostbrockle-vorarlberska-dimljena-govedina/,MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,3466,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2398,"Traditionele Droge Worst (Klasična suha kobasica)",https://drycured.com/recepti-baza/traditionele-droge-worst-klasicna-suha-kobasica/,MD-TRADITIONELE_DROGE_WORST_KLASICNA_SUHA_KOBASICA,4004,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2399,"Rookworst (Dimljena kobasica)",https://drycured.com/recepti-baza/rookworst-dimljena-kobasica/,MD-ROOKWORST_DIMLJENA_KOBASICA,3958,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2428,"Durmitorska kastradina",https://drycured.com/recepti-baza/durmitorska-kastradina/,MD-DURMITORSKA_KASTRADINA,3504,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2430,"Vasojevićka preukuša",https://drycured.com/recepti-baza/vasojevicka-preukusa/,MD-VASOJEVICKA_PREUKUSA,4092,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2432,"Kučka pršura",https://drycured.com/recepti-baza/kucka-prsura/,MD-KUCKA_PRSURA,3730,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2434,"Crnogorska kobasica",https://drycured.com/recepti-baza/crnogorska-kobasica/,MD-CRNOGORSKA_KOBASICA,3959,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2435,"Crnogorska stelja",https://drycured.com/recepti-baza/crnogorska-stelja/,MD-CRNOGORSKA_STELJA,3453,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2440,"Splitski Maestral Narezak",https://drycured.com/recepti-baza/splitski-maestral-narezak/,MD-SPLITSKI_MAESTRAL_NAREZAK,3485,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2441,"Trogirski Zephyr",https://drycured.com/recepti-baza/trogirski-zephyr/,MD-TROGIRSKI_ZEPHYR,3442,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2442,"Makarski Jugo Narezak",https://drycured.com/recepti-baza/makarski-jugo-narezak/,MD-MAKARSKI_JUGO_NAREZAK,3474,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2445,"Hvarski stolen (zaboravljena delicija)",https://drycured.com/recepti-baza/hvarski-stolen-zaboravljena-delicija/,MD-HVARSKI_STOLEN_ZABORAVLJENA_DELICIJA,3461,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2449,"Ribbenssteg (Danska dimljena svinjska rebra)",https://drycured.com/recepti-baza/ribbenssteg-danska-dimljena-svinjska-rebra/,MD-RIBBENSSTEG_DANSKA_DIMLJENA_SVINJSKA_REBRA,3735,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2450,"Bayonneskinke (Danska zasoljena i dimljena šunka)",https://drycured.com/recepti-baza/bayonneskinke-danska-zasoljena-i-dimljena-sunka/,MD-BAYONNESKINKE_DANSKA_ZASOLJENA_I_DIMLJENA_SUNKA,3729,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2456,"Spegeskinke (Danska sušena šunka)",https://drycured.com/recepti-baza/spegeskinke-danska-susena-sunka/,MD-SPEGESKINKE_DANSKA_SUSENA_SUNKA,3551,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2458,"Crubeens (Salamurena i dimljena svinjska stopala)",https://drycured.com/recepti-baza/crubeens-salamurena-i-dimljena-svinjska-stopala/,MD-CRUBEENS_SALAMURENA_I_DIMLJENA_SVINJSKA_STOPALA,4131,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2464,"StarohrvatskiMore-Kopno Salamet (Salama Maritima)",https://drycured.com/recepti-baza/starohrvatskimore-kopno-salamet-salama-maritima/,MD-STAROHRVATSKIMORE_KOPNO_SALAMET_SALAMA_MARITIMA,4075,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2465,"Krčki Ovčji Dimljeni Raritet",https://drycured.com/recepti-baza/krcki-ovcji-dimljeni-raritet/,MD-KRCKI_OVCJI_DIMLJENI_RARITET,3483,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2466,"Kvarnerski Divovski Salamet",https://drycured.com/recepti-baza/kvarnerski-divovski-salamet/,MD-KVARNERSKI_DIVOVSKI_SALAMET,3900,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2468,"Lincolnshire kobasica",https://drycured.com/recepti-baza/lincolnshire-kobasica/,MD-LINCOLNSHIRE_KOBASICA,4313,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2470,"Bath Chaps (ukiseljene svinjske obrazine)",https://drycured.com/recepti-baza/bath-chaps-ukiseljene-svinjske-obrazine/,MD-BATH_CHAPS_UKISELJENE_SVINJSKE_OBRAZINE,4044,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2474,"Tradicionalna engleska šunka (Wiltshire Ham)",https://drycured.com/recepti-baza/tradicionalna-engleska-sunka-wiltshire-ham/,MD-TRADICIONALNA_ENGLESKA_SUNKA_WILTSHIRE_HAM,3828,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2476,"Engleski pork pie (svinjetina u tijestu)",https://drycured.com/recepti-baza/engleski-pork-pie-svinjetina-u-tijestu/,MD-ENGLESKI_PORK_PIE_SVINJETINA_U_TIJESTU,4171,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2478,"Suitsink (Dimljena svinjska šunka)",https://drycured.com/recepti-baza/suitsink-dimljena-svinjska-sunka/,MD-SUITSINK_DIMLJENA_SVINJSKA_SUNKA,3528,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2480,"Talleliha (Polutrajno sušena govedina)",https://drycured.com/recepti-baza/talleliha-polutrajno-susena-govedina/,MD-TALLELIHA_POLUTRAJNO_SUSENA_GOVEDINA,3637,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2481,"Sealiha õlis (Svinjsko meso u ulju)",https://drycured.com/recepti-baza/sealiha-olis-svinjsko-meso-u-ulju/,MD-SEALIHA_OLIS_SVINJSKO_MESO_U_ULJU,3810,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2501,"Slovačka Klobása (Slovenská Klobása)",https://drycured.com/recepti-baza/slovacka-klobasa-slovenska-klobasa/,MD-SLOVACKA_KLOBASA_SLOVENSKA_KLOBASA,4324,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2503,"RIIPUTETTU HIRVENLIHA (SUHO-ZRELA JELENOVINA)",https://drycured.com/recepti-baza/riiputettu-hirvenliha-suho-zrela-jelenovina/,MD-RIIPUTETTU_HIRVENLIHA_SUHO_ZRELA_JELENOVINA,3535,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2504,"SAVUSIIKA (DIMLJENI SIIKA - BIJELA RIBA)",https://drycured.com/recepti-baza/savusiika-dimljeni-siika-bijela-riba/,MD-SAVUSIIKA_DIMLJENI_SIIKA_BIJELA_RIBA,3568,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2505,"METSOPAISTI (SUHO-SALAMURENI TETRIJEB)",https://drycured.com/recepti-baza/metsopaisti-suho-salamureni-tetrijeb/,MD-METSOPAISTI_SUHO_SALAMURENI_TETRIJEB,4003,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2506,"LAMPAAN ILMAKUIVATTU KYLKI (ZRAČNO-SUŠENA JANJEĆJA PRSA)",https://drycured.com/recepti-baza/lampaan-ilmakuivattu-kylki-zracno-susena-janjecja-prsa/,MD-LAMPAAN_ILMAKUIVATTU_KYLKI_ZRACNO_SUSENA_JANJECJA_PRSA,3604,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2508,"SAVUPORONLIHA (DIMLJENO SOBOVO MESO)",https://drycured.com/recepti-baza/savuporonliha-dimljeno-sobovo-meso/,MD-SAVUPORONLIHA_DIMLJENO_SOBOVO_MESO,3508,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2510,"ILMAKUIVATTU PORONPAISTI (ZRAČNO-SUŠENI SOBOV BUT)",https://drycured.com/recepti-baza/ilmakuivattu-poronpaisti-zracno-suseni-sobov-but/,MD-ILMAKUIVATTU_PORONPAISTI_ZRACNO_SUSENI_SOBOV_BUT,3540,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2511,"GRAAVILOHI (GRAVLAX - FINSKI MARINIRANI LOSOS)",https://drycured.com/recepti-baza/graavilohi-gravlax-finski-marinirani-losos/,MD-GRAAVILOHI_GRAVLAX_FINSKI_MARINIRANI_LOSOS,3601,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2513,"LONZO CORSE",https://drycured.com/recepti-baza/lonzo-corse/,MD-LONZO_CORSE,4156,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2525,"Dulse and Yellowman Bacon (Slanina s morskom travom)",https://drycured.com/recepti-baza/dulse-and-yellowman-bacon-slanina-s-morskom-travom/,MD-DULSE_AND_YELLOWMAN_BACON_SLANINA_S_MORSKOM_TRAVOM,3578,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2526,"Caillín Báin (Bieli spek - Irska verzija slanine sa začinima)",https://drycured.com/recepti-baza/caillin-bain-bieli-spek-irska-verzija-slanine-sa-zacinima/,MD-CAILLIN_BAIN_BIELI_SPEK_IRSKA_VERZIJA_SLANINE_SA_ZACINIMA,3800,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2527,"Marrowbone Roll (Rolana kobasica s koštanom srži)",https://drycured.com/recepti-baza/marrowbone-roll-rolana-kobasica-s-kostanom-srzi/,MD-MARROWBONE_ROLL_ROLANA_KOBASICA_S_KOSTANOM_SRZI,4217,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2529,"Irski soljena govedina (Corned Beef)",https://drycured.com/recepti-baza/irski-soljena-govedina-corned-beef/,MD-IRSKI_SOLJENA_GOVEDINA_CORNED_BEEF,3501,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2530,"Irska šunka u pivu (Beer-Cured Ham)",https://drycured.com/recepti-baza/irska-sunka-u-pivu-beer-cured-ham/,MD-IRSKA_SUNKA_U_PIVU_BEER_CURED_HAM,3557,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2533,"Bjúgu (Islandska dimljena kobasica)",https://drycured.com/recepti-baza/bjugu-islandska-dimljena-kobasica/,MD-BJUGU_ISLANDSKA_DIMLJENA_KOBASICA,4144,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2540,"Hrútspungar (Prešana janjeća muda)",https://drycured.com/recepti-baza/hrutspungar-presana-janjeca-muda/,MD-HRUTSPUNGAR_PRESANA_JANJECA_MUDA,3601,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2543,"Lundabaggar (Dimljena prskalina od janjetine)",https://drycured.com/recepti-baza/lundabaggar-dimljena-prskalina-od-janjetine/,MD-LUNDABAGGAR_DIMLJENA_PRSKALINA_OD_JANJETINE,3653,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2544,"Moldavska Cârnaţi de Oaie (Kobasica od Ovčetine)",https://drycured.com/recepti-baza/moldavska-carnati-de-oaie-kobasica-od-ovcetine/,MD-MOLDAVSKA_CARNA_I_DE_OAIE_KOBASICA_OD_OVCETINE,4463,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2545,"Estonska Suitsusink (Dimljena Šunka)",https://drycured.com/recepti-baza/estonska-suitsusink-dimljena-sunka/,MD-ESTONSKA_SUITSUSINK_DIMLJENA_SUNKA,3631,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2546,"Sudžuk (Sudžuk Kosovar)",https://drycured.com/recepti-baza/sudzuk-sudzuk-kosovar/,MD-SUDZUK_SUDZUK_KOSOVAR,4067,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2549,"Suxhuk me Spec (Sudžuk s paprikom)",https://drycured.com/recepti-baza/suxhuk-me-spec-sudzuk-s-paprikom/,MD-SUXHUK_ME_SPEC_SUDZUK_S_PAPRIKOM,4076,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2552,"Otočac Začinski Vrat s Planine (Mountainski naresak)",https://drycured.com/recepti-baza/otocac-zacinski-vrat-s-planine-mountainski-naresak/,MD-OTOCAC_ZACINSKI_VRAT_S_PLANINE_MOUNTAINSKI_NARESAK,3541,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2553,"Skilandis (litavska dimljena kobasica)",https://drycured.com/recepti-baza/skilandis-litavska-dimljena-kobasica/,MD-SKILANDIS_LITAVSKA_DIMLJENA_KOBASICA,4381,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2554,"Kindziukas (litavska dimljena šunka)",https://drycured.com/recepti-baza/kindziukas-litavska-dimljena-sunka/,MD-KINDZIUKAS_LITAVSKA_DIMLJENA_SUNKA,3691,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2555,"Lašiniai (litavska slanina)",https://drycured.com/recepti-baza/lasiniai-litavska-slanina/,MD-LASINIAI_LITAVSKA_SLANINA,3470,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2556,"Vytinta dešra (litavska suha kobasica)",https://drycured.com/recepti-baza/vytinta-desra-litavska-suha-kobasica/,MD-VYTINTA_DESRA_LITAVSKA_SUHA_KOBASICA,4361,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2557,"Rūkyti lašišos (dimljen losos na litavski način)",https://drycured.com/recepti-baza/rukyti-lasisos-dimljen-losos-na-litavski-nacin/,MD-R_KYTI_LASISOS_DIMLJEN_LOSOS_NA_LITAVSKI_NACIN,3683,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2558,"Pounje Planinski Vrtlog",https://drycured.com/recepti-baza/pounje-planinski-vrtlog/,MD-POUNJE_PLANINSKI_VRTLOG,3529,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2560,"Drežnički Šušanj",https://drycured.com/recepti-baza/dreznicki-susanj/,MD-DREZNICKI_SUSANJ,3481,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2561,"Gospićki Vjetar",https://drycured.com/recepti-baza/gospicki-vjetar/,MD-GOSPICKI_VJETAR,3451,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2563,"Maltežanska kobasica (Zalzett Malti)",https://drycured.com/recepti-baza/maltezanska-kobasica-zalzett-malti/,MD-MALTEZANSKA_KOBASICA_ZALZETT_MALTI,4000,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2564,"Maltežanski pršut (Prosciutto Malti)",https://drycured.com/recepti-baza/maltezanski-prsut-prosciutto-malti/,MD-MALTEZANSKI_PRSUT_PROSCIUTTO_MALTI,3502,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2565,"Maltežanska suha govedina (Carne Secca Maltija)",https://drycured.com/recepti-baza/maltezanska-suha-govedina-carne-secca-maltija/,MD-MALTEZANSKA_SUHA_GOVEDINA_CARNE_SECCA_MALTIJA,3469,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2571,"Zaprešićki Vrganjevi Narezak",https://drycured.com/recepti-baza/zapresicki-vrganjevi-narezak/,MD-ZAPRESICKI_VRGANJEVI_NAREZAK,3530,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2572,"Medžimurski Divljač Narezak",https://drycured.com/recepti-baza/medzimurski-divljac-narezak/,MD-MEDZIMURSKI_DIVLJAC_NAREZAK,3513,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2573,"Gornjomurečki Začinski Narezak",https://drycured.com/recepti-baza/gornjomurecki-zacinski-narezak/,MD-GORNJOMURECKI_ZACINSKI_NAREZAK,3492,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2574,"ȘUNCĂ AFUMATĂ (DIMLJENA ŠUNKA)",https://drycured.com/recepti-baza/sunca-afumata-dimljena-sunka/,MD-UNC_AFUMAT_DIMLJENA_SUNKA,3396,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2575,"PASTRAMĂ DE OAIE (OVČJA PASTRAMA)",https://drycured.com/recepti-baza/pastrama-de-oaie-ovcja-pastrama/,MD-PASTRAM_DE_OAIE_OVCJA_PASTRAMA,3659,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2576,"CÂRNAȚ AFUMAT (DIMLJENE KOBASICE)",https://drycured.com/recepti-baza/carnat-afumat-dimljene-kobasice/,MD-CARNA_AFUMAT_DIMLJENE_KOBASICE,4263,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2577,"Droge Worst (Suha kobasica)",https://drycured.com/recepti-baza/droge-worst-suha-kobasica/,MD-DROGE_WORST_SUHA_KOBASICA,4064,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2579,"Spekdikken (Slanina s medom)",https://drycured.com/recepti-baza/spekdikken-slanina-s-medom/,MD-SPEKDIKKEN_SLANINA_S_MEDOM,3442,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2587,"VOSSAKORV (TRADICIONALNA DIMLJENA KOBASICA IZ VOSSA)",https://drycured.com/recepti-baza/vossakorv-tradicionalna-dimljena-kobasica-iz-vossa/,MD-VOSSAKORV_TRADICIONALNA_DIMLJENA_KOBASICA_IZ_VOSSA,4413,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2589,"SPEKELÅR (SUŠENA I DIMLJENA JELEN/SRNETINA)",https://drycured.com/recepti-baza/spekelar-susena-i-dimljena-jelen-srnetina/,MD-SPEKELAR_SUSENA_I_DIMLJENA_JELEN_SRNETINA,3819,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2594,"GRAVET LAKS (GRAVLAKS - MARINIRANI LOSOS)",https://drycured.com/recepti-baza/gravet-laks-gravlaks-marinirani-losos/,MD-GRAVET_LAKS_GRAVLAKS_MARINIRANI_LOSOS,3686,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2597,"FENALÅR (SUŠENI BUT JANJETA)",https://drycured.com/recepti-baza/fenalar-suseni-but-janjeta/,MD-FENALAR_SUSENI_BUT_JANJETA,3642,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2598,"SPEKESKINKE (NORŠKA PRŠUTA)",https://drycured.com/recepti-baza/spekeskinke-norska-prsuta/,MD-SPEKESKINKE_NORSKA_PRSUTA,3571,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2600,"MORR (NORVEŠKA KOBASICA)",https://drycured.com/recepti-baza/morr-norveska-kobasica/,MD-MORR_NORVESKA_KOBASICA,4136,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2603,"Vinkovački Aromatični Začinski Špek",https://drycured.com/recepti-baza/vinkovacki-aromaticni-zacinski-spek/,MD-VINKOVACKI_AROMATICNI_ZACINSKI_SPEK,3492,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2604,"Osiječki Ljuti Začinski Vrat s Divljim Travkama",https://drycured.com/recepti-baza/osijecki-ljuti-zacinski-vrat-s-divljim-travkama/,MD-OSIJECKI_LJUTI_ZACINSKI_VRAT_S_DIVLJIM_TRAVKAMA,3645,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2606,"Požeški Aromatični Sušeni Vrat s Divljim Travkama",https://drycured.com/recepti-baza/pozeski-aromaticni-suseni-vrat-s-divljim-travkama/,MD-POZESKI_AROMATICNI_SUSENI_VRAT_S_DIVLJIM_TRAVKAMA,3642,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2608,"Kuru Et (Suho meso sa smrekom)",https://drycured.com/recepti-baza/kuru-et-suho-meso-sa-smrekom/,MD-KURU_ET_SUHO_MESO_SA_SMREKOM,3459,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2610,"Tulum Peyniri Dolgulu Et (Meso punjeno sirom)",https://drycured.com/recepti-baza/tulum-peyniri-dolgulu-et-meso-punjeno-sirom/,MD-TULUM_PEYNIRI_DOLGULU_ET_MESO_PUNJENO_SIROM,3614,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2614,"Virovski Čvarci",https://drycured.com/recepti-baza/virovski-cvarci/,MD-VIROVSKI_CVARCI,3320,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2616,"BALERON (POLJSKA DIMLJENA VRATINA)",https://drycured.com/recepti-baza/baleron-poljska-dimljena-vratina/,MD-BALERON_POLJSKA_DIMLJENA_VRATINA,3655,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2620,"SZYNKA WĘDZONA (DIMLJENA ŠUNKA)",https://drycured.com/recepti-baza/szynka-wedzona-dimljena-sunka/,MD-SZYNKA_W_DZONA_DIMLJENA_SUNKA,3470,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2621,"BOCZEK WĘDZONY (DIMLJENA SLANINA)",https://drycured.com/recepti-baza/boczek-wedzony-dimljena-slanina/,MD-BOCZEK_W_DZONY_DIMLJENA_SLANINA,3467,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2622,"Chouriço Tradicional Português (Tradicionalna portugalska kobasica)",https://drycured.com/recepti-baza/chourico-tradicional-portugues-tradicionalna-portugalska-kobasica/,MD-CHOURICO_TRADICIONAL_PORTUGUES_TRADICIONALNA_PORTUGALSKA_KOBASICA,4224,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2623,"Presunto Português (Portugalska pršuta)",https://drycured.com/recepti-baza/presunto-portugues-portugalska-prsuta/,MD-PRESUNTO_PORTUGUES_PORTUGALSKA_PRSUTA,3526,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2624,"Paio Alentejano (Alentejanska kobasica)",https://drycured.com/recepti-baza/paio-alentejano-alentejanska-kobasica/,MD-PAIO_ALENTEJANO_ALENTEJANSKA_KOBASICA,4379,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2625,"Farinheira Alentejana (Kobasica s brašnom iz Alenteja)",https://drycured.com/recepti-baza/farinheira-alentejana-kobasica-s-brasnom-iz-alenteja/,MD-FARINHEIRA_ALENTEJANA_KOBASICA_S_BRASNOM_IZ_ALENTEJA,4497,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2627,"Chouriço de Vinho (Kobasica s Vinom)",https://drycured.com/recepti-baza/chourico-de-vinho-kobasica-s-vinom/,MD-CHOURICO_DE_VINHO_KOBASICA_S_VINOM,4221,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2628,"Paio do Alentejo (Alentejo Dimljena Kobasica)",https://drycured.com/recepti-baza/paio-do-alentejo-alentejo-dimljena-kobasica/,MD-PAIO_DO_ALENTEJO_ALENTEJO_DIMLJENA_KOBASICA,4195,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2629,"Alheira de Mirandela (Kobasica iz Mirandele)",https://drycured.com/recepti-baza/alheira-de-mirandela-kobasica-iz-mirandele/,MD-ALHEIRA_DE_MIRANDELA_KOBASICA_IZ_MIRANDELE,4299,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2631,"Rovinjska Kobasica",https://drycured.com/recepti-baza/rovinjska-kobasica/,MD-ROVINJSKA_KOBASICA,3869,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2632,"Krčki Sir-Kobasica",https://drycured.com/recepti-baza/krcki-sir-kobasica/,MD-KRCKI_SIR_KOBASICA,3928,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2633,"Senjska Šunka",https://drycured.com/recepti-baza/senjska-sunka/,MD-SENJSKA_SUNKA,3242,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2637,"Tradicionalni Thüringer Schinken (Tirinška šunka)",https://drycured.com/recepti-baza/tradicionalni-thuringer-schinken-tirinska-sunka/,MD-TRADICIONALNI_THURINGER_SCHINKEN_TIRINSKA_SUNKA,3450,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2638,"Bavarski Bierschinken (Šunka od piva)",https://drycured.com/recepti-baza/bavarski-bierschinken-sunka-od-piva/,MD-BAVARSKI_BIERSCHINKEN_SUNKA_OD_PIVA,3510,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2645,"Viganjska kobasica od divlje svinje s tavom",https://drycured.com/recepti-baza/viganjska-kobasica-od-divlje-svinje-s-tavom/,MD-VIGANJSKA_KOBASICA_OD_DIVLJE_SVINJE_S_TAVOM,3953,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2664,"BABIC (Tradicionalna babić kobasica)",https://drycured.com/recepti-baza/babic-tradicionalna-babic-kobasica/,MD-BABIC_TRADICIONALNA_BABIC_KOBASICA,4432,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2665,"MUȘCHI ȚIGĂNESC (Ciganski vrat)",https://drycured.com/recepti-baza/muschi-tiganesc-ciganski-vrat/,MD-MU_CHI_IG_NESC_CIGANSKI_VRAT,3869,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2666,"CÂRNAȚI DE BURDUF (Sirnate kobasice)",https://drycured.com/recepti-baza/carnati-de-burduf-sirnate-kobasice/,MD-CARNA_I_DE_BURDUF_SIRNATE_KOBASICE,4285,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2667,"ȘUNCĂ DE MANGALIȚA AFUMATĂ (Dimljena mangulica šunka)",https://drycured.com/recepti-baza/sunca-de-mangalita-afumata-dimljena-mangulica-sunka/,MD-UNC_DE_MANGALI_A_AFUMAT_DIMLJENA_MANGULICA_SUNKA,3829,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2668,"CÂRNAŢI DE PLEŞCOI (Pleščojske kobasice)",https://drycured.com/recepti-baza/carnati-de-plescoi-plescojske-kobasice/,MD-CARNA_I_DE_PLE_COI_PLESCOJSKE_KOBASICE,4270,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2670,"GHIUDEM (Suha kobasica od ovčetine)",https://drycured.com/recepti-baza/ghiudem-suha-kobasica-od-ovcetine/,MD-GHIUDEM_SUHA_KOBASICA_OD_OVCETINE,4177,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2682,"HIGHLAND VENISON HAM (DIMLJENA ŠUNKA OD JELENA)",https://drycured.com/recepti-baza/highland-venison-ham-dimljena-sunka-od-jelena/,MD-HIGHLAND_VENISON_HAM_DIMLJENA_SUNKA_OD_JELENA,3736,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2683,"EDINBURGH POTTED HOG (KONZERVIRANO SVINJSKO MESO)",https://drycured.com/recepti-baza/edinburgh-potted-hog-konzervirano-svinjsko-meso/,MD-EDINBURGH_POTTED_HOG_KONZERVIRANO_SVINJSKO_MESO,3964,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2684,"ŠKOTSKI HAGGIS",https://drycured.com/recepti-baza/skotski-haggis/,MD-SKOTSKI_HAGGIS,3665,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2687,"AYRSHIRE PRESAVICA (AYRSHIRE MIDDLE CUT)",https://drycured.com/recepti-baza/ayrshire-presavica-ayrshire-middle-cut/,MD-AYRSHIRE_PRESAVICA_AYRSHIRE_MIDDLE_CUT,3761,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2688,"HIGHLANDS JERKY (SUŠENA DIVLJAČ)",https://drycured.com/recepti-baza/highlands-jerky-susena-divljac/,MD-HIGHLANDS_JERKY_SUSENA_DIVLJAC,3760,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2689,"KopačkiRib Začinska Štruca",https://drycured.com/recepti-baza/kopackirib-zacinska-struca/,MD-KOPACKIRIB_ZACINSKA_STRUCA,3544,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2691,"Valpovačka Zimska Devenica",https://drycured.com/recepti-baza/valpovacka-zimska-devenica/,MD-VALPOVACKA_ZIMSKA_DEVENICA,3487,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2692,"Požeška Začinska Štruca",https://drycured.com/recepti-baza/pozeska-zacinska-struca/,MD-POZESKA_ZACINSKA_STRUCA,3486,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2693,"Osječki Začinski Špek",https://drycured.com/recepti-baza/osjecki-zacinski-spek/,MD-OSJECKI_ZACINSKI_SPEK,3442,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2694,"Požeški Pikantni Vrat",https://drycured.com/recepti-baza/pozeski-pikantni-vrat/,MD-POZESKI_PIKANTNI_VRAT,3573,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2695,"Slavonsko-Brodski Ljuti Čvarci",https://drycured.com/recepti-baza/slavonsko-brodski-ljuti-cvarci/,MD-SLAVONSKO_BRODSKI_LJUTI_CVARCI,3568,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2696,"Nasički Fermentirani Vrat",https://drycured.com/recepti-baza/nasicki-fermentirani-vrat/,MD-NASICKI_FERMENTIRANI_VRAT,3552,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2697,"Baranjska Ljuta Slavonska Kobasica",https://drycured.com/recepti-baza/baranjska-ljuta-slavonska-kobasica/,MD-BARANJSKA_LJUTA_SLAVONSKA_KOBASICA,3937,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2698,"Slavonska Domaća Suhomesnata Salama",https://drycured.com/recepti-baza/slavonska-domaca-suhomesnata-salama/,MD-SLAVONSKA_DOMACA_SUHOMESNATA_SALAMA,3972,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2699,"Baranjska Fermenetirana Kobasica",https://drycured.com/recepti-baza/baranjska-fermenetirana-kobasica/,MD-BARANJSKA_FERMENETIRANA_KOBASICA,3849,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2701,"Vukovarska Tradicionalna Kobasica",https://drycured.com/recepti-baza/vukovarska-tradicionalna-kobasica/,MD-VUKOVARSKA_TRADICIONALNA_KOBASICA,3823,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2702,"Baranjski Začinski Špek s Pustara Začinima",https://drycured.com/recepti-baza/baranjski-zacinski-spek-s-pustara-zacinima/,MD-BARANJSKI_ZACINSKI_SPEK_S_PUSTARA_ZACINIMA,3409,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2703,"Erdutski Fermentirani Vrat s Podunavskim Začinima",https://drycured.com/recepti-baza/erdutski-fermentirani-vrat-s-podunavskim-zacinima/,MD-ERDUTSKI_FERMENTIRANI_VRAT_S_PODUNAVSKIM_ZACINIMA,3705,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2704,"Osječko-Baranjski Ljuti Špek s Divljim Travama",https://drycured.com/recepti-baza/osjecko-baranjski-ljuti-spek-s-divljim-travama/,MD-OSJECKO_BARANJSKI_LJUTI_SPEK_S_DIVLJIM_TRAVAMA,3343,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2705,"Vukovarski Fermentirani Vrat s Podunavskim Začinima",https://drycured.com/recepti-baza/vukovarski-fermentirani-vrat-s-podunavskim-zacinima/,MD-VUKOVARSKI_FERMENTIRANI_VRAT_S_PODUNAVSKIM_ZACINIMA,3678,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2707,"Klobása (slovačka kobasica)",https://drycured.com/recepti-baza/klobasa-slovacka-kobasica/,MD-KLOBASA_SLOVACKA_KOBASICA,4343,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2708,"Údené mäso (dimljeno meso)",https://drycured.com/recepti-baza/udene-maso-dimljeno-meso/,MD-UDENE_MASO_DIMLJENO_MESO,3834,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2712,"Koroška tunka",https://drycured.com/recepti-baza/koroska-tunka/,MD-KOROSKA_TUNKA,4221,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2713,"Zasavska klobasa (Zasavska kobasica)",https://drycured.com/recepti-baza/zasavska-klobasa-zasavska-kobasica/,MD-ZASAVSKA_KLOBASA_ZASAVSKA_KOBASICA,4243,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2714,"Prleška tünka",https://drycured.com/recepti-baza/prleska-tunka/,MD-PRLESKA_TUNKA,3894,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2715,"Idrijsko kosilo",https://drycured.com/recepti-baza/idrijsko-kosilo/,MD-IDRIJSKO_KOSILO,3795,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2717,"Savinjski želodec (Savinjski želudac)",https://drycured.com/recepti-baza/savinjski-zelodec-savinjski-zeludac/,MD-SAVINJSKI_ZELODEC_SAVINJSKI_ZELUDAC,3567,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2718,"Prekmurska šunka",https://drycured.com/recepti-baza/prekmurska-sunka/,MD-PREKMURSKA_SUNKA,3311,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2722,"Crnogorska Pršuta (Njeguška pršuta)",https://drycured.com/recepti-baza/crnogorska-prsuta-njeguska-prsuta/,MD-CRNOGORSKA_PRSUTA_NJEGUSKA_PRSUTA,3330,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2723,"Crnogorska Kastradina",https://drycured.com/recepti-baza/crnogorska-kastradina/,MD-CRNOGORSKA_KASTRADINA,3459,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2724,"PRINSKORV (ŠVEDSKE TANKE DIMLJENE KOBASICE)",https://drycured.com/recepti-baza/prinskorv-svedske-tanke-dimljene-kobasice/,MD-PRINSKORV_SVEDSKE_TANKE_DIMLJENE_KOBASICE,4124,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2725,"FLÄSKLÄGG (DIMLJENA SVINJSKA KOLJENICA)",https://drycured.com/recepti-baza/flasklagg-dimljena-svinjska-koljenica/,MD-FLASKLAGG_DIMLJENA_SVINJSKA_KOLJENICA,3704,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2726,"ÖLÄNDSK GETKORV (ÖLANDSKA KOZJA KOBASICA)",https://drycured.com/recepti-baza/olandsk-getkorv-olandska-kozja-kobasica/,MD-OLANDSK_GETKORV_OLANDSKA_KOZJA_KOBASICA,4059,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2727,"KRONOBERGSKORV (KRONOBERGŠKA KOBASICA)",https://drycured.com/recepti-baza/kronobergskorv-kronobergska-kobasica/,MD-KRONOBERGSKORV_KRONOBERGSKA_KOBASICA,4158,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2728,"VÄRMLANDSKORV (VÄRMLANDSKA DIMLJENA KOBASICA)",https://drycured.com/recepti-baza/varmlandskorv-varmlandska-dimljena-kobasica/,MD-VARMLANDSKORV_VARMLANDSKA_DIMLJENA_KOBASICA,4166,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2729,"FALUKORV (TRADICIONALNA ŠVEDSKA KOBASICA)",https://drycured.com/recepti-baza/falukorv-tradicionalna-svedska-kobasica/,MD-FALUKORV_TRADICIONALNA_SVEDSKA_KOBASICA,3977,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2730,"GRAVAD LAX (ŠVEDSKI GRAVLJENI LOSOS)",https://drycured.com/recepti-baza/gravad-lax-svedski-gravljeni-losos/,MD-GRAVAD_LAX_SVEDSKI_GRAVLJENI_LOSOS,3579,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2732,"ISTERBAND (ŠVEDSKA FERMENTIRANA KOBASICA)",https://drycured.com/recepti-baza/isterband-svedska-fermentirana-kobasica/,MD-ISTERBAND_SVEDSKA_FERMENTIRANA_KOBASICA,4166,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2733,"SPICKESKINKA (ŠVEDSKA SUHA ŠUNKA)",https://drycured.com/recepti-baza/spickeskinka-svedska-suha-sunka/,MD-SPICKESKINKA_SVEDSKA_SUHA_SUNKA,3418,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2736,"GLARNER KALBERWURST (TELEĆA KOBASICA IZ GLARUSA)",https://drycured.com/recepti-baza/glarner-kalberwurst-teleca-kobasica-iz-glarusa/,MD-GLARNER_KALBERWURST_TELECA_KOBASICA_IZ_GLARUSA,4359,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2737,"CHURER SALSIZ (DIVLJAČKA KOBASICA IZ CHURA)",https://drycured.com/recepti-baza/churer-salsiz-divljacka-kobasica-iz-chura/,MD-CHURER_SALSIZ_DIVLJACKA_KOBASICA_IZ_CHURA,4550,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2741,"AARGAUER RÜEBLIWURST (MESNATA KOBASICA S MRKVOM)",https://drycured.com/recepti-baza/aargauer-ruebliwurst-mesnata-kobasica-s-mrkvom/,MD-AARGAUER_RUEBLIWURST_MESNATA_KOBASICA_S_MRKVOM,4277,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2744,"WALLISER TROCKENFLEISCH (SUŠENA GOVEDINA IZ VALAISA)",https://drycured.com/recepti-baza/walliser-trockenfleisch-susena-govedina-iz-valaisa/,MD-WALLISER_TROCKENFLEISCH_SUSENA_GOVEDINA_IZ_VALAISA,3449,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2745,"SALSIZ (ALPSKA SUHA KOBASICA)",https://drycured.com/recepti-baza/salsiz-alpska-suha-kobasica/,MD-SALSIZ_ALPSKA_SUHA_KOBASICA,4379,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2746,"CULATELLO DI ZIBELLO",https://drycured.com/recepti-baza/culatello-di-zibello/,MD-CULATELLO_DI_ZIBELLO,3706,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2747,"LONZINO (LOMBO)",https://drycured.com/recepti-baza/lonzino-lombo/,MD-LONZINO_LOMBO,3582,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2774,"Jambon Persillé (Šunka u želeu s peršinom)",https://drycured.com/recepti-baza/jambon-persille-sunka-u-zeleu-s-persinom/,MD-JAMBON_PERSILLE_SUNKA_U_ZELEU_S_PERSINOM,3638,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2778,"Čvarci s Papuka - Planinski recept",https://drycured.com/recepti-baza/cvarci-s-papuka-planinski-recept/,MD-CVARCI_S_PAPUKA_PLANINSKI_RECEPT,3621,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2779,"Slavonski cviček (suhomesnati narez)",https://drycured.com/recepti-baza/slavonski-cvicek-suhomesnati-narez/,MD-SLAVONSKI_CVICEK_SUHOMESNATI_NAREZ,3420,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+2780,"Slavonski pikantni vrat",https://drycured.com/recepti-baza/slavonski-pikantni-vrat/,MD-SLAVONSKI_PIKANTNI_VRAT,3556,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2781,"Esencijalni slavonski sušeni vrat s divljim začinima",https://drycured.com/recepti-baza/esencijalni-slavonski-suseni-vrat-s-divljim-zacinima/,MD-ESENCIJALNI_SLAVONSKI_SUSENI_VRAT_S_DIVLJIM_ZACINIMA,3440,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2972,"Slavonski kulen (PDO EU)",https://drycured.com/recepti-baza/hr-sl-001-slavonski-kulen-pdo-eu/,HR-SL-001,6032,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2973,"Kulenova seka",https://drycured.com/recepti-baza/hr-sl-002-kulenova-seka/,HR-SL-002,5470,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2974,"Baranjski kulen (ZOZP EU)",https://drycured.com/recepti-baza/hr-sl-003-baranjski-kulen-zozp-eu/,HR-SL-003,5742,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2975,"Đakovački kulen",https://drycured.com/recepti-baza/hr-sl-004-dakovacki-kulen/,HR-SL-004,5597,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2976,"Slavonska domaća kobasica",https://drycured.com/recepti-baza/hr-sl-005-slavonska-domaca-kobasica/,HR-SL-005,5855,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2977,"Srijemska kobasica (OGP)",https://drycured.com/recepti-baza/hr-sl-006-srijemska-kobasica-ogp/,HR-SL-006,5797,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2979,"Baranjska kobasica",https://drycured.com/recepti-baza/hr-sl-008-baranjska-kobasica/,HR-SL-008,5719,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2981,"Slavonska kobasica (ZOI EU 2023)",https://drycured.com/recepti-baza/hr-sl-010-slavonska-kobasica-zoi-eu-2023/,HR-SL-010,5770,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2996,"Brodska kobasica (Slavonski Brod)",https://drycured.com/recepti-baza/hr-sl-030-brodska-kobasica-slavonski-brod/,HR-SL-030,5676,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+2997,"Osječka kobasica",https://drycured.com/recepti-baza/hr-sl-031-osjecka-kobasica/,HR-SL-031,5815,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3000,"Slavonska domaća salama",https://drycured.com/recepti-baza/hr-sl-034-slavonska-domaca-salama/,HR-SL-034,5610,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3001,"Slavonska čvarkovača (kobasica od čvaraka)",https://drycured.com/recepti-baza/hr-sl-036-slavonska-cvarkovaca-kobasica-od-cvaraka/,HR-SL-036,5681,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3002,"Vinkovačka kobasica",https://drycured.com/recepti-baza/hr-sl-037-vinkovacka-kobasica/,HR-SL-037,5687,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3003,"Slavonska lovačka kobasica (divljač + svinjetina)",https://drycured.com/recepti-baza/hr-sl-038-slavonska-lovacka-kobasica-divljac-svinjetina/,HR-SL-038,6094,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3024,"Irska dimljena kobasica (Smoked Sausage)",https://drycured.com/recepti-baza/irska-dimljena-kobasica-smoked-sausage/,MD-IRSKA_DIMLJENA_KOBASICA_SMOKED_SAUSAGE,4119,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3025,"Pršuta e Kosovës (Kosovska pršuta)",https://drycured.com/recepti-baza/prsuta-e-kosoves-kosovska-prsuta-2/,MD-PRSUTA_E_KOSOVES_KOSOVSKA_PRSUTA,3433,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3026,"Scharfe Edelrohwurst s povrćem na žaru",https://drycured.com/recepti-baza/scharfe-edelrohwurst-s-povrcem-na-zaru/,MD-SCHARFE_EDELROHWURST_S_POVRCEM_NA_ZARU,4360,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3027,"ENGADINER HATECLETT (SUŠENI KOZJI BUT)",https://drycured.com/recepti-baza/engadiner-hateclett-suseni-kozji-but-2/,MD-ENGADINER_HATECLETT_SUSENI_KOZJI_BUT,3612,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3028,"ZUGER HIRSCHTROCKENWURST (KOBASICA OD JELENA IZ ZUGA)",https://drycured.com/recepti-baza/zuger-hirschtrockenwurst-kobasica-od-jelena-iz-zuga-2/,MD-ZUGER_HIRSCHTROCKENWURST_KOBASICA_OD_JELENA_IZ_ZUGA,4442,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3029,"Tiroler Speck – tirolski sušeni dimljeni svinjski but",https://drycured.com/recepti-baza/tiroler-speck-tirolska-slanina-2/,MD-TIROLER_SPECK_TIROLSKA_SLANINA,3385,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3030,"Waldviertler Hirschsalami – salama od jelena iz Waldviertela",https://drycured.com/recepti-baza/waldviertler-hirschsalami-salama-od-jelena-iz-waldviertela-2/,MD-WALDVIERTLER_HIRSCHSALAMI_SALAMA_OD_JELENA_IZ_WALDVIERTELA,4216,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3032,"Mađarska Gyulai Kolbász – Gyulai kobasica",https://drycured.com/recepti-baza/maarska-gyulai-kolbasz-gyulai-kobasica/,MD-MADARSKA_GYULAI_KOLBASZ_GYULAI_KOBASICA,4374,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3033,"Lukanka iz Panagyurishte – bugarska prešana suha kobasica",https://drycured.com/recepti-baza/lukanka-iz-panagyurishte/,MD-LUKANKA_IZ_PANAGYURISHTE,4189,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3035,"Strandzhansko Dyado – bugarski sušeni punjeni proizvod",https://drycured.com/recepti-baza/strandzhansko-dyado/,MD-STRANDZHANSKO_DYADO,4377,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3037,"Dobrudzhanski Babek – bugarski sušeni babek",https://drycured.com/recepti-baza/dobrudzhanski-babek/,MD-DOBRUDZHANSKI_BABEK,4296,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3038,"Grčki Loukaniko – tradicionalna grčka kobasica",https://drycured.com/recepti-baza/grcka-tradicionalni-recepti-za-loukaniko-2/,MD-GRCKA_TRADICIONALNI_RECEPTI_ZA_LOUKANIKO,3978,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3039,"Joulukinkku – finska božićna šunka",https://drycured.com/recepti-baza/joulukinkku-bozicna-sunka-2/,MD-JOULUKINKKU_BOZICNA_SUNKA,3386,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3041,"Saucisson Sec – francuska suha kobasica",https://drycured.com/recepti-baza/saucisson-sec-suha-kobasica-2/,MD-SAUCISSON_SEC_SUHA_KOBASICA,4138,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3042,"Jésus de Lyon – debela suha kobasica",https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/,MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA,4123,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3044,"Jésus de Lyon – velika lionska suha kobasica",https://drycured.com/recepti-baza/jesus-de-lyon-2/,MD-JESUS_DE_LYON,4232,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3045,"Rosette de Lyon – lionska suha kobasica",https://drycured.com/recepti-baza/rosette-de-lyon-2/,MD-ROSETTE_DE_LYON,4369,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3047,"Siglino Messinias – grčka dimljena svinjetina",https://drycured.com/recepti-baza/siglino-messinias/,MD-SIGLINO_MESSINIAS,3596,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3050,"Pancetta Maltija – malteška panceta",https://drycured.com/recepti-baza/maltezanska-panceta-pancetta-maltija-2/,MD-MALTEZANSKA_PANCETA_PANCETTA_MALTIJA,3411,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3051,"Pick Szalámi – mađarski Pick salami",https://drycured.com/recepti-baza/maarski-pick-salami-pick-szalami/,MD-MADARSKI_PICK_SALAMI_PICK_SZALAMI,4076,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3052,"Mađarska Kolbász – mađarska kobasica",https://drycured.com/recepti-baza/maarska-kobasica-kolbasz/,MD-MADARSKA_KOBASICA_KOLBASZ,4204,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3053,"Westfälischer Knochenschinken – vestfalska šunka s kosti",https://drycured.com/recepti-baza/westfalischer-knochenschinken-vestfalska-sunka-s-kosti/,MD-WESTFALISCHER_KNOCHENSCHINKEN_VESTFALSKA_SUNKA_S_KOSTI,3735,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3055,"Salo – ukrajinska slana svinjska slanina",https://drycured.com/recepti-baza/salo-slana-svinjeca-slanina/,MD-SALO_SLANA_SVINJECA_SLANINA,3596,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3057,"Belokranjska jagenjčara",https://drycured.com/recepti-baza/belokranjska-jagenjcara-2/,MD-BELOKRANJSKA_JAGENJCARA,4217,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3058,"Sobrasada Mallorquina – majorška sobrasada",https://drycured.com/recepti-baza/sobrasada-mallorquina-majorska-sobrasada-2/,MD-SOBRASADA_MALLORQUINA_MAJORSKA_SOBRASADA,4399,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3060,"Appenzeller Mostbröckli – švicarska sušena dimljena govedina",https://drycured.com/recepti-baza/appenzeller-mostbrockli-dimljena-govedina/,MD-APPENZELLER_MOSTBROCKLI_DIMLJENA_GOVEDINA,3473,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3061,"Speck Alto Adige – južnotirolski sušeni dimljeni but",https://drycured.com/recepti-baza/speck-alto-adige-2/,MD-SPECK_ALTO_ADIGE,3610,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3063,"Suxhuk – albanska suha kobasica",https://drycured.com/recepti-baza/suxhuk-albanska-suha-kobasica-2/,MD-SUXHUK_ALBANSKA_SUHA_KOBASICA,4129,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3064,"Proshuta Shqiptare – albanska pršuta",https://drycured.com/recepti-baza/0003-proshuta-shqiptare-albanska-prsuta/,MD-PROSHUTA_SHQIPTARE_ALBANSKA_PRSUTA,2581,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3065,"Mish i thatë – albanska suha janjetina",https://drycured.com/recepti-baza/mish-i-thate-albanska-suha-janjetina-2/,MD-MISH_I_THATE_ALBANSKA_SUHA_JANJETINA,3521,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3066,"Kärntner Wurzelspeck – koruški sušeni dimljeni vrat",https://drycured.com/recepti-baza/karntner-wurzelspeck-koruska-korijenska-slanina-2/,MD-KARNTNER_WURZELSPECK_KORUSKA_KORIJENSKA_SLANINA,3448,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3067,"Steirischer Rohschinken – štajerska sirova šunka",https://drycured.com/recepti-baza/steirischer-rohschinken-stajerska-sirova-sunka-2/,MD-STEIRISCHER_ROHSCHINKEN_STAJERSKA_SIROVA_SUNKA,3393,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3068,"Vorarlberger Mostbröckle – vorarlberška dimljena govedina",https://drycured.com/recepti-baza/0010-vorarlberger-mostbrockle-vorarlberska-dimljena-govedina/,MD-VORARLBERGER_MOSTBROCKLE_VORARLBERSKA_DIMLJENA_GOVEDINA,2654,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3069,"Finska Meetvursti – suha kobasica",https://drycured.com/recepti-baza/finska-meetvursti-suha-kobasica-2/,MD-FINSKA_MEETVURSTI_SUHA_KOBASICA,4364,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3070,"Filet d’Anvers – antverpski file",https://drycured.com/recepti-baza/filet-d-anvers-antverpski-file/,MD-FILET_DANVERS_ANTVERPSKI_FILE,3436,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3071,"Lard fumé de Flandre – flamanska dimljena slanina",https://drycured.com/recepti-baza/lard-fume-de-flandre-flamansko-dimljeno-salo-2/,MD-LARD_FUME_DE_FLANDRE_FLAMANSKO_DIMLJENO_SALO,3409,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3073,"Collier fumé de Wallonie – dimljeni svinjski vrat iz Valonije",https://drycured.com/recepti-baza/collier-fume-de-wallonie-dimljeni-svinjski-vrat-iz-valonije-2/,MD-COLLIER_FUME_DE_WALLONIE_DIMLJENI_SVINJSKI_VRAT_IZ_VALONIJE,3775,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3075,"Jambon d’Ardenne – ardenska šunka",https://drycured.com/recepti-baza/jambon-d-ardenne-ardenski-prsut/,MD-JAMBON_DARDENNE_ARDENSKI_PRSUT,3670,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3081,"SAUCISSON D'ARDENNE (ARDENSKI KULEN)",https://drycured.com/recepti-baza/saucisson-d-ardenne-ardenski-kulen/,MD-SAUCISSON_DARDENNE_ARDENSKI_KULEN,4238,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3082,"НАНИЖЕН СУДЖУК (Nanižen Sudžuk)",https://drycured.com/recepti-baza/nanizen-sudzuk/,MD-NANIZEN_SUDZUK,4172,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3083,"ЕЛЕНСКИ БУТ (Elenski but)",https://drycured.com/recepti-baza/elenski-but/,MD-ELENSKI_BUT,3907,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3084,"СМЯДОВСКА ЛУКАНКА (Smyadovska lukanka)",https://drycured.com/recepti-baza/smyadovska-lukanka/,MD-SMYADOVSKA_LUKANKA,4297,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3085,"СТАРОПЛАНИНСКИ ПАСТЪРМА (Staroplaninska pastrma)",https://drycured.com/recepti-baza/staroplaninska-pastrma/,MD-STAROPLANINSKA_PASTRMA,3646,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3086,"Nadenitsa (Наденица)",https://drycured.com/recepti-baza/nadenitsa/,MD-NADENITSA,3839,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3087,"Rulopep (Рулопеп)",https://drycured.com/recepti-baza/rulopep/,MD-RULOPEP,3679,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3088,"Katino Meze (Катино мезе)",https://drycured.com/recepti-baza/katino-meze/,MD-KATINO_MEZE,3678,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3089,"Drobsarma (Дробсарма)",https://drycured.com/recepti-baza/drobsarma/,MD-DROBSARMA,4277,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3090,"Maleshevska Babichka (Малешевска бабичка)",https://drycured.com/recepti-baza/maleshevska-babichka/,MD-MALESHEVSKA_BABICHKA,3957,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3091,"Kraishte Pastarma (Краищенска пастърма)",https://drycured.com/recepti-baza/kraishte-pastarma/,MD-KRAISHTE_PASTARMA,3928,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3092,"Lukanka (Луканка)",https://drycured.com/recepti-baza/lukanka/,MD-LUKANKA,4035,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3093,"Sudjuk (Суджук)",https://drycured.com/recepti-baza/sudjuk/,MD-SUDJUK,4197,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3094,"Elena filet (Еленски филе)",https://drycured.com/recepti-baza/elena-filet/,MD-ELENA_FILET,3606,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3095,"Pastarma (Пастърма)",https://drycured.com/recepti-baza/pastarma/,MD-PASTARMA,3457,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3096,"Banski Starec (Бански старец)",https://drycured.com/recepti-baza/banski-starec/,MD-BANSKI_STAREC,4147,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3097,"Lountza (Λούντζα)",https://drycured.com/recepti-baza/lountza/,MD-LOUNTZA,3796,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3098,"Hiromeri (Χοιρομέρι)",https://drycured.com/recepti-baza/hiromeri/,MD-HIROMERI,3526,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3099,"Tsamarella (Τσαμαρέλλα)",https://drycured.com/recepti-baza/tsamarella/,MD-TSAMARELLA,3603,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3100,"Posyrti (Ποσυρτή)",https://drycured.com/recepti-baza/posyrti/,MD-POSYRTI,3640,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3101,"Apohtin (Αποχτίν)",https://drycured.com/recepti-baza/apohtin/,MD-APOHTIN,3700,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3102,"Lounza (Λούντζα) - Dimljena svinjska potrbušina",https://drycured.com/recepti-baza/lounza-dimljena-svinjska-potrbusina/,MD-LOUNZA_DIMLJENA_SVINJSKA_POTRBUSINA,3623,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3103,"Tsamarella (Τσαμαρέλλα) - Sušena kozletina",https://drycured.com/recepti-baza/tsamarella-susena-kozletina/,MD-TSAMARELLA_SUSENA_KOZLETINA,3566,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3104,"Hiromeri (Χοιρομέρι) - Ciparski pršut",https://drycured.com/recepti-baza/hiromeri-ciparski-prsut/,MD-HIROMERI_CIPARSKI_PRSUT,3531,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3105,"Apohti (Απόχτι) - Dimljeni svinjski file",https://drycured.com/recepti-baza/apohti-dimljeni-svinjski-file/,MD-APOHTI_DIMLJENI_SVINJSKI_FILE,3633,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3106,"Pastourma (Παστουρμάς) - Ciparski začinjeni sušeni goveđi file",https://drycured.com/recepti-baza/pastourma-ciparski-zacinjeni-suseni-govei-file/,MD-PASTOURMA_CIPARSKI_ZACINJENI_SUSENI_GOVEDI_FILE,3673,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3107,"?? NIZOZEMSKA - Tradicionalni recepti",https://drycured.com/recepti-baza/nizozemska-tradicionalni-recepti/,MD-NIZOZEMSKA_TRADICIONALNI_RECEPTI,3982,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3108,"Crmničke goveđe pastrve",https://drycured.com/recepti-baza/crmnicke-govee-pastrve/,MD-CRMNICKE_GOVEDE_PASTRVE,3640,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3110,"Crnogorski suđuk",https://drycured.com/recepti-baza/crnogorski-suuk/,MD-CRNOGORSKI_SUDUK,3483,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3112,"Medisterpølse (Danska svježa začinjena kobasica)",https://drycured.com/recepti-baza/medisterplse-danska-svjeza-zacinjena-kobasica/,MD-MEDISTERP_LSE_DANSKA_SVJEZA_ZACINJENA_KOBASICA,4055,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3114,"Rullepølse (Danska rolana šunka)",https://drycured.com/recepti-baza/rulleplse-danska-rolana-sunka/,MD-RULLEP_LSE_DANSKA_ROLANA_SUNKA,3381,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3115,"Flæskesteg (Danska pečena svinjetina s hrskavom kožom)",https://drycured.com/recepti-baza/flskesteg-danska-pecena-svinjetina-s-hrskavom-kozom/,MD-FL_SKESTEG_DANSKA_PECENA_SVINJETINA_S_HRSKAVOM_KOZOM,3635,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3116,"Spegepølse (Danska fermentirana kobasica)",https://drycured.com/recepti-baza/spegeplse-danska-fermentirana-kobasica/,MD-SPEGEP_LSE_DANSKA_FERMENTIRANA_KOBASICA,4112,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3117,"Irski spiced beef (Začinjeno sušeno goveđe meso)",https://drycured.com/recepti-baza/irski-spiced-beef-zacinjeno-suseno-govee-meso/,MD-IRSKI_SPICED_BEEF_ZACINJENO_SUSENO_GOVEDE_MESO,3765,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3118,"Kasseler pečenka s pireom od jabuka i krupir knedlama",https://drycured.com/recepti-baza/kasseler-pecenka-s-pireom-od-jabuka-i-krupir-knedlama/,MD-KASSELER_PECENKA_S_PIREOM_OD_JABUKA_I_KRUPIR_KNEDLAMA,3865,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3120,"Rogatički Planinsko-Morski Raritet ""Vjetar i More""",https://drycured.com/recepti-baza/rogaticki-planinsko-morski-raritet-vjetar-i-more/,MD-ROGATICKI_PLANINSKO_MORSKI_RARITET_VJETAR_I_MORE,3662,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3121,"Istarski Morski Pršut ""Neptunov Dar""",https://drycured.com/recepti-baza/istarski-morski-prsut-neptunov-dar/,MD-ISTARSKI_MORSKI_PRSUT_NEPTUNOV_DAR,3326,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3122,"Potted Beef (konzervirano goveđe meso)",https://drycured.com/recepti-baza/potted-beef-konzervirano-govee-meso/,MD-POTTED_BEEF_KONZERVIRANO_GOVEDE_MESO,3789,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3124,"Engleski sušeni goveđi jezik (Potted Ox Tongue)",https://drycured.com/recepti-baza/engleski-suseni-govei-jezik-potted-ox-tongue/,MD-ENGLESKI_SUSENI_GOVEDI_JEZIK_POTTED_OX_TONGUE,3872,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3125,"?? Talijansko-toskanski recept za salamu (Salame Toscano)",https://drycured.com/recepti-baza/talijansko-toskanski-recept-za-salamu-salame-toscano/,MD-TALIJANSKO_TOSKANSKI_RECEPT_ZA_SALAMU_SALAME_TOSCANO,3847,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3126,"?? Austrijski recept za Kmetzelsuppe kobasicu",https://drycured.com/recepti-baza/austrijski-recept-za-kmetzelsuppe-kobasicu/,MD-AUSTRIJSKI_RECEPT_ZA_KMETZELSUPPE_KOBASICU,3850,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3127,"Poljska Kiełbasa Lisiecka (Lisiecka Kobasica)",https://drycured.com/recepti-baza/poljska-kiebasa-lisiecka-lisiecka-kobasica/,MD-POLJSKA_KIE_BASA_LISIECKA_LISIECKA_KOBASICA,4504,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3128,"KYLMÄSAVULOHI (HLADNO DIMLJENI LOSOS)",https://drycured.com/recepti-baza/kylmasavulohi-hladno-dimljeni-losos/,MD-KYLMASAVULOHI_HLADNO_DIMLJENI_LOSOS,3499,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3129,"Jambon de Bayonne (Bajonska šunka)",https://drycured.com/recepti-baza/jambon-de-bayonne-bajonska-sunka/,MD-JAMBON_DE_BAYONNE_BAJONSKA_SUNKA,3656,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3131,"SAUCISSON SEC D'AUVERGNE",https://drycured.com/recepti-baza/saucisson-sec-d-auvergne/,MD-SAUCISSON_SEC_DAUVERGNE,4281,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3132,"Armatia (Αρματιά)",https://drycured.com/recepti-baza/armatia/,MD-ARMATIA,3849,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3133,"Pihti (Πηχτή)",https://drycured.com/recepti-baza/pihti/,MD-PIHTI,3707,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3134,"Kavourmas (Καβουρμάς)",https://drycured.com/recepti-baza/kavourmas/,MD-KAVOURMAS,3881,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3135,"Pastourmas (Παστουρμάς)",https://drycured.com/recepti-baza/pastourmas/,MD-PASTOURMAS,3608,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3136,"Loukaniko (Λουκάνικο)",https://drycured.com/recepti-baza/loukaniko/,MD-LOUKANIKO,3865,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3137,"Apaki (Απάκι)",https://drycured.com/recepti-baza/apaki/,MD-APAKI,3626,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3138,"Noumboulo (Νούμπουλο)",https://drycured.com/recepti-baza/noumboulo/,MD-NOUMBOULO,3875,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3139,"Syglino (Σύγκλινο)",https://drycured.com/recepti-baza/syglino/,MD-SYGLINO,3678,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3140,"Skirts and Kidneys (Tradicionalna irska marinirana goveđa dijafragma)",https://drycured.com/recepti-baza/skirts-and-kidneys-tradicionalna-irska-marinirana-govea-dijafragma/,MD-SKIRTS_AND_KIDNEYS_TRADICIONALNA_IRSKA_MARINIRANA_GOVEDA_DIJAFRAGMA,3782,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3141,"Svið (Dimljena janjeća glava)",https://drycured.com/recepti-baza/svi-dimljena-janjeca-glava/,MD-SVI_DIMLJENA_JANJECA_GLAVA,3567,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3142,"Heilhornað Hangikjöt (Sušena janjeća rebra)",https://drycured.com/recepti-baza/heilhorna-hangikjot-susena-janjeca-rebra/,MD-HEILHORNA_HANGIKJOT_SUSENA_JANJECA_REBRA,3614,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3143,"Torfær​ður Lambahryggur (Zakopana janjeća leđa)",https://drycured.com/recepti-baza/torfrur-lambahryggur-zakopana-janjeca-lea/,MD-TORF_R_UR_LAMBAHRYGGUR_ZAKOPANA_JANJECA_LEDA,3715,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3144,"Selshreifar (Sušeni tuljanovi peraji)",https://drycured.com/recepti-baza/selshreifar-suseni-tuljanovi-peraji/,MD-SELSHREIFAR_SUSENI_TULJANOVI_PERAJI,3692,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3145,"Hákarlasullur (Fermentirani trbuh grenlandskog morskog psa)",https://drycured.com/recepti-baza/hakarlasullur-fermentirani-trbuh-grenlandskog-morskog-psa/,MD-HAKARLASULLUR_FERMENTIRANI_TRBUH_GRENLANDSKOG_MORSKOG_PSA,3632,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3146,"Gellur (Sušeni riblji jezici)",https://drycured.com/recepti-baza/gellur-suseni-riblji-jezici/,MD-GELLUR_SUSENI_RIBLJI_JEZICI,3674,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3147,"Súrsaðir Hrútspungar Með Lyngi (Fermentirani ovnovski testisi s vrijeskom)",https://drycured.com/recepti-baza/sursair-hrutspungar-me-lyngi-fermentirani-ovnovski-testisi-s-vrijeskom/,MD-SURSA_IR_HRUTSPUNGAR_ME_LYNGI_FERMENTIRANI_OVNOVSKI_TESTISI_S_VRIJESKOM,3764,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3148,"Sviðasulta (Želatinizirano janjeće meso s glave)",https://drycured.com/recepti-baza/sviasulta-zelatinizirano-janjece-meso-s-glave/,MD-SVI_ASULTA_ZELATINIZIRANO_JANJECE_MESO_S_GLAVE,3800,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3149,"Harðfiskur (Sušeni oslić)",https://drycured.com/recepti-baza/harfiskur-suseni-oslic/,MD-HAR_FISKUR_SUSENI_OSLIC,3437,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3150,"Kæstur Hákarl (Fermentirano meso grenlandskog morskog psa)",https://drycured.com/recepti-baza/kstur-hakarl-fermentirano-meso-grenlandskog-morskog-psa/,MD-K_STUR_HAKARL_FERMENTIRANO_MESO_GRENLANDSKOG_MORSKOG_PSA,3440,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3151,"Pastërma (Sušena govedina)",https://drycured.com/recepti-baza/pasterma-susena-govedina/,MD-PASTERMA_SUSENA_GOVEDINA,3425,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3152,"Skilandis (Tradicinis lietuviškas skilandis)",https://drycured.com/recepti-baza/skilandis-tradicinis-lietuviskas-skilandis/,MD-SKILANDIS_TRADICINIS_LIETUVISKAS_SKILANDIS,3567,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3153,"Kindziukas (Kindzius)",https://drycured.com/recepti-baza/kindziukas-kindzius/,MD-KINDZIUKAS_KINDZIUS,3664,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3154,"Lašiniai (Tradicionalna litavska slanina)",https://drycured.com/recepti-baza/lasiniai-tradicionalna-litavska-slanina/,MD-LASINIAI_TRADICIONALNA_LITAVSKA_SLANINA,3321,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3155,"Vytinta dešra (Sušena litavska kobasica)",https://drycured.com/recepti-baza/vytinta-desra-susena-litavska-kobasica/,MD-VYTINTA_DESRA_SUSENA_LITAVSKA_KOBASICA,4010,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3156,"Lički Planinarski Navršak",https://drycured.com/recepti-baza/licki-planinarski-navrsak/,MD-LICKI_PLANINARSKI_NAVRSAK,3472,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3158,"Mađarska Slanina (Szalonna)",https://drycured.com/recepti-baza/maarska-slanina-szalonna/,MD-MADARSKA_SLANINA_SZALONNA,3332,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3159,"Mađarska Dimljena Šunka (Füstölt Sonka)",https://drycured.com/recepti-baza/maarska-dimljena-sunka-fustolt-sonka/,MD-MADARSKA_DIMLJENA_SUNKA_FUSTOLT_SONKA,3457,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3160,"Mađarski Dimljeni Jezik (Füstölt Nyelv)",https://drycured.com/recepti-baza/maarski-dimljeni-jezik-fustolt-nyelv/,MD-MADARSKI_DIMLJENI_JEZIK_FUSTOLT_NYELV,3535,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3162,"Ossenworst (Goveđa sirova kobasica)",https://drycured.com/recepti-baza/ossenworst-govea-sirova-kobasica/,MD-OSSENWORST_GOVEDA_SIROVA_KOBASICA,4058,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3163,"MOSTBRÖCKLI (ALPSKA SUŠENA GOVEDINA)",https://drycured.com/recepti-baza/mostbrockli-alpska-susena-govedina/,MD-MOSTBROCKLI_ALPSKA_SUSENA_GOVEDINA,4005,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3164,"HOLSTEINER KATENSCHINKEN (HOLŠTAJNSKA DIMLJENA ŠUNKA)",https://drycured.com/recepti-baza/holsteiner-katenschinken-holstajnska-dimljena-sunka/,MD-HOLSTEINER_KATENSCHINKEN_HOLSTAJNSKA_DIMLJENA_SUNKA,3972,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3166,"Leichter Karreeschinken s povrćem u eintopfu",https://drycured.com/recepti-baza/leichter-karreeschinken-s-povrcem-u-eintopfu/,MD-LEICHTER_KARREESCHINKEN_S_POVRCEM_U_EINTOPFU,4001,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3168,"RAKFISK (FERMENTIRANI SLATKOVODNI LOSOS)",https://drycured.com/recepti-baza/rakfisk-fermentirani-slatkovodni-losos/,MD-RAKFISK_FERMENTIRANI_SLATKOVODNI_LOSOS,3587,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3169,"LUTEFISK (SUŠENI BAKALAR)",https://drycured.com/recepti-baza/lutefisk-suseni-bakalar/,MD-LUTEFISK_SUSENI_BAKALAR,3487,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3170,"SMALAHOVE (SUŠENA OVČJA GLAVA)",https://drycured.com/recepti-baza/smalahove-susena-ovcja-glava/,MD-SMALAHOVE_SUSENA_OVCJA_GLAVA,3575,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3171,"FÅREPØLSE (TRADICIONALNA OVČJA KOBASICA)",https://drycured.com/recepti-baza/fareplse-tradicionalna-ovcja-kobasica/,MD-FAREP_LSE_TRADICIONALNA_OVCJA_KOBASICA,4247,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3172,"ELGKJØTT SPEKEMAT (SUHO MESO LOSA)",https://drycured.com/recepti-baza/elgkjtt-spekemat-suho-meso-losa/,MD-ELGKJ_TT_SPEKEMAT_SUHO_MESO_LOSA,3483,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3173,"TJUKKMJØLKSPØLSE (FERMENTIRANA KOBASICA S MLIJEČNOM KULTUROM)",https://drycured.com/recepti-baza/tjukkmjlksplse-fermentirana-kobasica-s-mlijecnom-kulturom/,MD-TJUKKMJ_LKSP_LSE_FERMENTIRANA_KOBASICA_S_MLIJECNOM_KULTUROM,4494,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3174,"REINSDYRHJERTE (SUŠENO SRCE SOBA)",https://drycured.com/recepti-baza/reinsdyrhjerte-suseno-srce-soba/,MD-REINSDYRHJERTE_SUSENO_SRCE_SOBA,3622,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3175,"PINNEKJØTT (SUŠENA REBRA)",https://drycured.com/recepti-baza/pinnekjtt-susena-rebra/,MD-PINNEKJ_TT_SUSENA_REBRA,3566,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3176,"RØKELAKS (DIMLJENI LOSOS)",https://drycured.com/recepti-baza/rkelaks-dimljeni-losos/,MD-R_KELAKS_DIMLJENI_LOSOS,3711,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3178,"Kuşbaşı Jerky (Turski goveđi jerky)",https://drycured.com/recepti-baza/kusbas-jerky-turski-govei-jerky/,MD-KU_BA_JERKY_TURSKI_GOVEDI_JERKY,3831,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3179,"Işkembe Dolması (Punjeni goveđi burag)",https://drycured.com/recepti-baza/iskembe-dolmas-punjeni-govei-burag/,MD-I_KEMBE_DOLMAS_PUNJENI_GOVEDI_BURAG,3829,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3180,"Varaždinski Š(p)ek",https://drycured.com/recepti-baza/varazdinski-s-p-ek/,MD-VARAZDINSKI_S_P_EK,3474,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3181,"Đurđevački Zelenjak",https://drycured.com/recepti-baza/urevacki-zelenjak/,MD-DURDEVACKI_ZELENJAK,3394,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3182,"KINDZIUK (POLJSKO-LITAVSKA SUHA KOBASICA)",https://drycured.com/recepti-baza/kindziuk-poljsko-litavska-suha-kobasica/,MD-KINDZIUK_POLJSKO_LITAVSKA_SUHA_KOBASICA,4086,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3183,"KIEŁBASA WĘDZONA (DIMLJENA POLJSKA KOBASICA)",https://drycured.com/recepti-baza/kiebasa-wedzona-dimljena-poljska-kobasica/,MD-KIE_BASA_W_DZONA_DIMLJENA_POLJSKA_KOBASICA,4003,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3185,"Presunto de Porco Preto (Pršut od Crne Iberijske Svinje)",https://drycured.com/recepti-baza/presunto-de-porco-preto-prsut-od-crne-iberijske-svinje/,MD-PRESUNTO_DE_PORCO_PRETO_PRSUT_OD_CRNE_IBERIJSKE_SVINJE,3415,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3188,"Lountza Kafteri (Λούντζα Καυτερή) - Ljuta dimljena svinjska vratina",https://drycured.com/recepti-baza/lountza-kafteri-ljuta-dimljena-svinjska-vratina/,MD-LOUNTZA_KAFTERI_LJUTA_DIMLJENA_SVINJSKA_VRATINA,3907,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3189,"Posyrti (Ποσυρτή) - Ciparska suha kobasica s divljim biljem",https://drycured.com/recepti-baza/posyrti-ciparska-suha-kobasica-s-divljim-biljem/,MD-POSYRTI_CIPARSKA_SUHA_KOBASICA_S_DIVLJIM_BILJEM,4326,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3190,"Afelia Pastarma (Αφέλια Παστάρμα) - Ciparska marinirana goveđa pisanica",https://drycured.com/recepti-baza/afelia-pastarma-ciparska-marinirana-govea-pisanica/,MD-AFELIA_PASTARMA_CIPARSKA_MARINIRANA_GOVEDA_PISANICA,3964,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3191,"Ofto Lountza (Οφτή Λούντζα) - Ciparska zračno sušena janjetina",https://drycured.com/recepti-baza/ofto-lountza-ciparska-zracno-susena-janjetina/,MD-OFTO_LOUNTZA_CIPARSKA_ZRACNO_SUSENA_JANJETINA,3968,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3192,"Virovski ""Živi Čvarci""",https://drycured.com/recepti-baza/virovski-zivi-cvarci/,MD-VIROVSKI_ZIVI_CVARCI,3613,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3193,"Ludbreška ""Tajna Kobasica""",https://drycured.com/recepti-baza/ludbreska-tajna-kobasica/,MD-LUDBRESKA_TAJNA_KOBASICA,4044,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3194,"Đurđevački ""Zaboravljeni Š(p)ek""",https://drycured.com/recepti-baza/urevacki-zaboravljeni-s-p-ek/,MD-DURDEVACKI_ZABORAVLJENI_S_P_EK,3490,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3195,"Pregradski ""Šumski Šaptat""",https://drycured.com/recepti-baza/pregradski-sumski-saptat/,MD-PREGRADSKI_SUMSKI_SAPTAT,3480,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3196,"Križevački ""Začinski Vjetar""",https://drycured.com/recepti-baza/krizevacki-zacinski-vjetar/,MD-KRIZEVACKI_ZACINSKI_VJETAR,3449,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3197,"Našički ""Ratarski Sjećaj""",https://drycured.com/recepti-baza/nasicki-ratarski-sjecaj/,MD-NASICKI_RATARSKI_SJECAJ,3465,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3198,"Draževački ""Veteranski Sjećaj""",https://drycured.com/recepti-baza/drazevacki-veteranski-sjecaj/,MD-DRAZEVACKI_VETERANSKI_SJECAJ,3473,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3199,"Kalničkog ""Gorski Trag""",https://drycured.com/recepti-baza/kalnickog-gorski-trag/,MD-KALNICKOG_GORSKI_TRAG,3459,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3200,"Podravski ""Zaboravljeni Vrbovec""",https://drycured.com/recepti-baza/podravski-zaboravljeni-vrbovec/,MD-PODRAVSKI_ZABORAVLJENI_VRBOVEC,3511,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3201,"Koprivnički ""Seoski Izvor""",https://drycured.com/recepti-baza/koprivnicki-seoski-izvor/,MD-KOPRIVNICKI_SEOSKI_IZVOR,3655,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3202,"Đurđevački ""Ribarski Sjaj""",https://drycured.com/recepti-baza/urevacki-ribarski-sjaj/,MD-DURDEVACKI_RIBARSKI_SJAJ,3453,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3203,"Ludbreški ""Planinski Trag""",https://drycured.com/recepti-baza/ludbreski-planinski-trag/,MD-LUDBRESKI_PLANINSKI_TRAG,3479,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3204,"Virovski ""Šumski Biseri""",https://drycured.com/recepti-baza/virovski-sumski-biseri/,MD-VIROVSKI_SUMSKI_BISERI,3457,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3205,"PASTRAMĂ DE OAIE (Sušena ovčetina)",https://drycured.com/recepti-baza/pastrama-de-oaie-susena-ovcetina/,MD-PASTRAM_DE_OAIE_SUSENA_OVCETINA,3796,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3206,"Basturma (Бастурма - Začinjeno sušeno goveđe meso)",https://drycured.com/recepti-baza/basturma-zacinjeno-suseno-govee-meso/,MD-BASTURMA_ZACINJENO_SUSENO_GOVEDE_MESO,3808,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3207,"Koryushka (Корюшка - Dimljena mala riba)",https://drycured.com/recepti-baza/koryushka-dimljena-mala-riba/,MD-KORYUSHKA_DIMLJENA_MALA_RIBA,3613,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3208,"Svinaya Vyrezka (Свиная вырезка - Sušeni svinjski file)",https://drycured.com/recepti-baza/svinaya-vyrezka-suseni-svinjski-file/,MD-SVINAYA_VYREZKA_SUSENI_SVINJSKI_FILE,3737,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3210,"ARBROATH SMOKIES (DIMLJENA HARINGA)",https://drycured.com/recepti-baza/arbroath-smokies-dimljena-haringa/,MD-ARBROATH_SMOKIES_DIMLJENA_HARINGA,3575,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3211,"Zgornjesavinjski želodec",https://drycured.com/recepti-baza/zgornjesavinjski-zelodec/,MD-ZGORNJESAVINJSKI_ZELODEC,3801,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3212,"Lomo Embuchado - Začinjena Suha Svinjska Leđa",https://drycured.com/recepti-baza/lomo-embuchado-zacinjena-suha-svinjska-lea/,MD-LOMO_EMBUCHADO_ZACINJENA_SUHA_SVINJSKA_LEDA,4025,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3213,"Cecina de León - Sušena Goveđa Cecina",https://drycured.com/recepti-baza/cecina-de-leon-susena-govea-cecina/,MD-CECINA_DE_LEON_SUSENA_GOVEDA_CECINA,3857,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3214,"Crnogorski Sudžuk",https://drycured.com/recepti-baza/crnogorski-sudzuk/,MD-CRNOGORSKI_SUDZUK,3982,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3215,"SCHAFFHAUSER SCHÜBLIG (DIMLJENA GOVEĐA KOBASICA)",https://drycured.com/recepti-baza/schaffhauser-schublig-dimljena-govea-kobasica/,MD-SCHAFFHAUSER_SCHUBLIG_DIMLJENA_GOVEDA_KOBASICA,4312,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3216,"BÜNDNERFLEISCH (GRAUBÜNDENSKI SUŠENI GOVEĐI BUT)",https://drycured.com/recepti-baza/bundnerfleisch-graubundenski-suseni-govei-but/,MD-BUNDNERFLEISCH_GRAUBUNDENSKI_SUSENI_GOVEDI_BUT,3517,YES,NO,YES,NO,OK_DCV5_NOT_TOUCHED
+3217,"Culatello di Zibello - Kulatelo iz Zibella",https://drycured.com/recepti-baza/culatello-di-zibello-kulatelo-iz-zibella/,MD-CULATELLO_DI_ZIBELLO_KULATELO_IZ_ZIBELLA,4044,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3218,"PANCETTA ARROTOLATA",https://drycured.com/recepti-baza/pancetta-arrotolata/,MD-PANCETTA_ARROTOLATA,3542,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3219,"Herzegovina Livanjska Devenica",https://drycured.com/recepti-baza/herzegovina-livanjska-devenica/,MD-HERZEGOVINA_LIVANJSKA_DEVENICA,3500,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3222,"Mostarsko Zrno - Unikatna Mesna Kombinacija",https://drycured.com/recepti-baza/mostarsko-zrno-unikatna-mesna-kombinacija/,MD-MOSTARSKO_ZRNO_UNIKATNA_MESNA_KOMBINACIJA,3451,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3223,"Etnografska studija kulinarskog naslijeđa",https://drycured.com/recepti-baza/etnografska-studija-kulinarskog-naslijea/,MD-ETNOGRAFSKA_STUDIJA_KULINARSKOG_NASLIJEDA,4001,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3224,"Polendvytsia (Полендвиця) - Sušeni svinjski file",https://drycured.com/recepti-baza/polendvytsia-suseni-svinjski-file/,MD-POLENDVYTSIA_SUSENI_SVINJSKI_FILE,3596,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3225,"Shukhevychivska Kovbasa (Шухевичівська ковбаса) - Sušena kobasica s paprom",https://drycured.com/recepti-baza/shukhevychivska-kovbasa-susena-kobasica-s-paprom/,MD-SHUKHEVYCHIVSKA_KOVBASA_SUSENA_KOBASICA_S_PAPROM,4353,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3226,"Miasnyi Khlib (М'ясний хліб) - Mesni kruh",https://drycured.com/recepti-baza/miasnyi-khlib-mesni-kruh/,MD-MIASNYI_KHLIB_MESNI_KRUH,3902,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3227,"Dimlenyi Yazyk (Димлений язик) - Dimljeni goveđi jezik",https://drycured.com/recepti-baza/dimlenyi-yazyk-dimljeni-govei-jezik/,MD-DIMLENYI_YAZYK_DIMLJENI_GOVEDI_JEZIK,3686,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3228,"Salo (Сало) - Ukrajinska slanina",https://drycured.com/recepti-baza/salo-ukrajinska-slanina/,MD-SALO_UKRAJINSKA_SLANINA,3553,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3229,"Domašnja Kovbasa (Домашня ковбаса) - Domaća kobasica",https://drycured.com/recepti-baza/domasnja-kovbasa-domaca-kobasica/,MD-DOMASNJA_KOVBASA_DOMACA_KOBASICA,4276,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3230,"Buženina (Буженина) - Pečena i sušena svinjetina",https://drycured.com/recepti-baza/buzenina-pecena-i-susena-svinjetina/,MD-BUZENINA_PECENA_I_SUSENA_SVINJETINA,3647,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3232,"Solonina (Солонина) - Salamurena govedina",https://drycured.com/recepti-baza/solonina-salamurena-govedina/,MD-SOLONINA_SALAMURENA_GOVEDINA,4012,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3233,"Češnjovke 1.2021 – domaća varijanta",https://drycured.com/recepti-baza/e-njovke-1-2021-doma-a-varijanta/,NEW-CESNJOVKE-2021,3916,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3234,"Kranjska 1.2021 – domaća varijanta",https://drycured.com/recepti-baza/kranjska-1-2021-doma-a-varijanta/,NEW-KRANJSKA-2021,4117,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3236,"Pečena salamurena slanina s toplim dimom",https://drycured.com/recepti-baza/pe-ena-salamurena-slanina-s-toplim-dimom/,NEW-PECENA-SALAMURENA-SLANINA,3820,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3308,"Istarska kobasica",https://drycured.com/recepti-baza/hr-is-001-istarska-kobasica/,HR-IS-001,5855,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3309,"Rovinjska kobasica",https://drycured.com/recepti-baza/hr-is-002-rovinjska-kobasica/,HR-IS-002,5855,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3310,"Pazinska kobasica",https://drycured.com/recepti-baza/hr-is-003-pazinska-kobasica/,HR-IS-003,5855,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3311,"Lička kobasica",https://drycured.com/recepti-baza/hr-li-001-licka-kobasica/,HR-LI-001,5855,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3312,"Sinjska kobasica",https://drycured.com/recepti-baza/hr-da-001-sinjska-kobasica/,HR-DA-001,5855,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3313,"Korčulanska kobasica",https://drycured.com/recepti-baza/hr-da-002-korculanska-kobasica/,HR-DA-002,5855,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3314,"Hvarska prstena kobasica",https://drycured.com/recepti-baza/hr-da-003-hvarska-prstena-kobasica/,HR-DA-003,5855,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
+3315,"Vrgorački kulen",https://drycured.com/recepti-baza/hr-da-004-vrgoracki-kulen/,HR-DA-004,5855,NO,YES,NO,NO,OK_PUBLIC_FALLBACK_RENDERED
