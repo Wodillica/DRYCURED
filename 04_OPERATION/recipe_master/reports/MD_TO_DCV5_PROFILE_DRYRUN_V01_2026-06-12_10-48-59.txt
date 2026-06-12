@@ -1,0 +1,56 @@
+=== MD TO DCV5 PROFILE DRYRUN v0.1 ===
+
+POST_ID: 1982
+TITLE: FINOCCHIONA TOSCANA
+URL: https://drycured.com/recepti-baza/finocchiona-toscana/
+FAMILY: SAUSAGE_SALAMI
+CHECKS: {"has_profile":true,"has_code":true,"has_title":true,"has_materials":true,"has_spices":true,"has_timeline":true,"has_errors":true,"has_safety":true}
+PROFILE_KEYS: code, title, region, type, lead, quick, materials, spices, liquids, profile, climate, timeline, errors, done_when, safety, serving, _dryrun_family
+MATERIALS_COUNT: 3
+SPICES_COUNT: 7
+LIQUIDS_COUNT: 2
+TIMELINE_COUNT: 8
+SAMPLE_LEAD: FINOCCHIONA TOSCANA — radni zapis iz europske baze. Status autentifikacije: approved.
+
+POST_ID: 1983
+TITLE: PROSCIUTTO DI SAN DANIELE
+URL: https://drycured.com/recepti-baza/prosciutto-di-san-daniele/
+FAMILY: NONE
+CHECKS: {"has_profile":false,"has_code":false,"has_title":false,"has_materials":false,"has_spices":false,"has_timeline":false,"has_errors":false,"has_safety":false}
+
+POST_ID: 1984
+TITLE: NDUJA CALABRESE
+URL: https://drycured.com/recepti-baza/nduja-calabrese/
+FAMILY: SAUSAGE_SALAMI
+CHECKS: {"has_profile":true,"has_code":true,"has_title":true,"has_materials":true,"has_spices":true,"has_timeline":true,"has_errors":true,"has_safety":true}
+PROFILE_KEYS: code, title, region, type, lead, quick, materials, spices, liquids, profile, climate, timeline, errors, done_when, safety, serving, _dryrun_family
+MATERIALS_COUNT: 4
+SPICES_COUNT: 6
+LIQUIDS_COUNT: 2
+TIMELINE_COUNT: 8
+SAMPLE_LEAD: NDUJA CALABRESE — radni zapis iz europske baze. Status autentifikacije: approved.
+
+POST_ID: 1986
+TITLE: LARDO DI COLONNATA
+URL: https://drycured.com/recepti-baza/lardo-di-colonnata/
+FAMILY: BACON_FAT
+CHECKS: {"has_profile":true,"has_code":true,"has_title":true,"has_materials":true,"has_spices":true,"has_timeline":true,"has_errors":true,"has_safety":true}
+PROFILE_KEYS: code, title, region, type, lead, quick, materials, spices, liquids, profile, climate, timeline, errors, done_when, safety, serving, _dryrun_family
+MATERIALS_COUNT: 1
+SPICES_COUNT: 11
+LIQUIDS_COUNT: 2
+TIMELINE_COUNT: 8
+SAMPLE_LEAD: LARDO DI COLONNATA — radni zapis iz europske baze. Status autentifikacije: approved.
+
+POST_ID: 1990
+TITLE: SALAME DI FELINO
+URL: https://drycured.com/recepti-baza/salame-di-felino/
+FAMILY: SAUSAGE_SALAMI
+CHECKS: {"has_profile":true,"has_code":true,"has_title":true,"has_materials":true,"has_spices":true,"has_timeline":true,"has_errors":true,"has_safety":true}
+PROFILE_KEYS: code, title, region, type, lead, quick, materials, spices, liquids, profile, climate, timeline, errors, done_when, safety, serving, _dryrun_family
+MATERIALS_COUNT: 3
+SPICES_COUNT: 5
+LIQUIDS_COUNT: 2
+TIMELINE_COUNT: 8
+SAMPLE_LEAD: SALAME DI FELINO — radni zapis iz europske baze. Status autentifikacije: approved.
+
