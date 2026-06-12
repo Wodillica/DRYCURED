@@ -1,0 +1,68 @@
+=== MD TO DCV5 PROFILE DRYRUN v0.2 ===
+
+POST_ID: 1982
+TITLE: FINOCCHIONA TOSCANA
+URL: https://drycured.com/recepti-baza/finocchiona-toscana/
+SOURCE: _dry_recipe_data
+FAMILY: SAUSAGE_SALAMI
+CHECKS: {"has_profile":true,"has_code":true,"has_title":true,"has_materials":true,"has_spices":true,"has_timeline":true,"has_errors":true,"has_safety":true}
+PROFILE_KEYS: code, title, region, type, lead, quick, materials, spices, liquids, profile, climate, timeline, errors, done_when, safety, serving, _dryrun_family, _dryrun_source
+MATERIALS_COUNT: 2
+SPICES_COUNT: 7
+LIQUIDS_COUNT: 2
+TIMELINE_COUNT: 8
+SAMPLE_LEAD: FINOCCHIONA TOSCANA —
+
+POST_ID: 1983
+TITLE: PROSCIUTTO DI SAN DANIELE
+URL: https://drycured.com/recepti-baza/prosciutto-di-san-daniele/
+SOURCE: _dry_recipe_full_markdown
+FAMILY: HAM_PROSCIUTTO
+CHECKS: {"has_profile":true,"has_code":true,"has_title":true,"has_materials":true,"has_spices":true,"has_timeline":true,"has_errors":true,"has_safety":true}
+PROFILE_KEYS: code, title, region, type, lead, quick, materials, spices, liquids, profile, climate, timeline, errors, done_when, safety, serving, _dryrun_family, _dryrun_source
+MATERIALS_COUNT: 1
+SPICES_COUNT: 4
+LIQUIDS_COUNT: 2
+TIMELINE_COUNT: 6
+SAMPLE_LEAD: ## PROSCIUTTO DI SAN DANIELE PROSCIUTTO DI SAN DANIELE pripada skupini suhomesnatih i mesnih prerađevina. Recept je prilagođen šarži od 10 kg osnovne sirovine, s jasnim omjerima, postupkom i kontrolnim točkama za sigurnu
+
+POST_ID: 1984
+TITLE: NDUJA CALABRESE
+URL: https://drycured.com/recepti-baza/nduja-calabrese/
+SOURCE: _dry_recipe_data
+FAMILY: SAUSAGE_SALAMI
+CHECKS: {"has_profile":true,"has_code":true,"has_title":true,"has_materials":true,"has_spices":true,"has_timeline":true,"has_errors":true,"has_safety":true}
+PROFILE_KEYS: code, title, region, type, lead, quick, materials, spices, liquids, profile, climate, timeline, errors, done_when, safety, serving, _dryrun_family, _dryrun_source
+MATERIALS_COUNT: 3
+SPICES_COUNT: 6
+LIQUIDS_COUNT: 2
+TIMELINE_COUNT: 8
+SAMPLE_LEAD: NDUJA CALABRESE —
+
+POST_ID: 1986
+TITLE: LARDO DI COLONNATA
+URL: https://drycured.com/recepti-baza/lardo-di-colonnata/
+SOURCE: _dry_recipe_data
+FAMILY: BACON_FAT
+CHECKS: {"has_profile":true,"has_code":true,"has_title":true,"has_materials":true,"has_spices":true,"has_timeline":true,"has_errors":true,"has_safety":true}
+PROFILE_KEYS: code, title, region, type, lead, quick, materials, spices, liquids, profile, climate, timeline, errors, done_when, safety, serving, _dryrun_family, _dryrun_source
+MATERIALS_COUNT: 1
+SPICES_COUNT: 11
+LIQUIDS_COUNT: 2
+TIMELINE_COUNT: 8
+SAMPLE_LEAD: LARDO DI COLONNATA —
+
+POST_ID: 1990
+TITLE: SALAME DI FELINO
+URL: https://drycured.com/recepti-baza/salame-di-felino/
+SOURCE: _dry_recipe_data
+FAMILY: SAUSAGE_SALAMI
+CHECKS: {"has_profile":true,"has_code":true,"has_title":true,"has_materials":true,"has_spices":true,"has_timeline":true,"has_errors":true,"has_safety":true}
+PROFILE_KEYS: code, title, region, type, lead, quick, materials, spices, liquids, profile, climate, timeline, errors, done_when, safety, serving, _dryrun_family, _dryrun_source
+MATERIALS_COUNT: 2
+SPICES_COUNT: 5
+LIQUIDS_COUNT: 2
+TIMELINE_COUNT: 8
+SAMPLE_LEAD: SALAME DI FELINO —
+
+BAD_PROFILES=0
