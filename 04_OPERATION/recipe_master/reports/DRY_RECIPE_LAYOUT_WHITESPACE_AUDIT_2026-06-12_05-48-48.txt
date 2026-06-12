@@ -1,0 +1,487 @@
+=== DRY_RECIPE LAYOUT / LARGE TOP WHITESPACE AUDIT ===
+DATE=Fri Jun 12 05:48:48 AM UTC 2026
+
+=== 1) LIVE FILE SIZE / HASH ===
+-rw-r--r-- 1 root root 260K Jun  8 19:30 /var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php
+f23c54683f7302d473e961750185a7f3b4e98734c229028f81829beb0279ed26  /var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php
+
+=== 2) GIT FILE SIZE / HASH ===
+-rw-r--r-- 1 root root 260K Jun  8 19:33 wp-content/mu-plugins/drycured-recipe-view-v1.php
+f23c54683f7302d473e961750185a7f3b4e98734c229028f81829beb0279ed26  wp-content/mu-plugins/drycured-recipe-view-v1.php
+
+=== 3) ACTIVE THE_CONTENT HOOKS ===
+130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+2915:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+3630:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+5308:add_filter('the_content', 'dcv16_whole_piece_cure_content_cleanup', 1510);
+6141:add_filter('the_content', 'dcv17_whole_piece_late_content_cleanup', 9999);
+6421:add_filter('the_content', 'dcv21_hrsl001_late_source_render_cleanup', 30000);
+6468:add_filter('the_content', 'dcv22_hrsl001_process_omotac_fix', 40000);
+6690:add_filter('the_content', 'dcv31_hrsl001_final_public_cleanup', 50000);
+
+=== 4) RULES THAT CAN CREATE TOP EMPTY SPACE ===
+105:            line-height: 1.65 !important;
+164:        .single-dry_recipe .ast-container,
+165:        .single-dry_recipe .site-content .ast-container,
+174:        .single-dry_recipe .entry-header,
+181:            margin: 0 auto;
+182:            padding: 36px 18px 58px;
+197:            padding: 30px 34px;
+211:            padding: 6px 11px;
+222:            margin: 0 0 12px;
+224:            line-height: 1.08;
+230:            margin: 0;
+233:            line-height: 1.65;
+244:            padding: 15px 17px;
+261:            line-height: 1.35;
+272:            padding: 24px 28px;
+280:            margin: 0 0 16px;
+283:            line-height: 1.25;
+288:            height: 32px;
+301:            margin: 0 0 12px;
+304:            line-height: 1.7;
+308:            margin: 0 0 14px;
+309:            padding: 0;
+315:            margin: 8px 0;
+316:            padding: 10px 12px 10px 34px;
+320:            line-height: 1.55;
+335:            margin: 12px 0 18px;
+348:            padding: 12px 14px;
+357:            padding: 12px 14px;
+361:            line-height: 1.55;
+368:            padding: 16px;
+372:            margin: 0 0 12px;
+379:            padding: 8px 10px;
+411:                padding: 24px 12px 42px;
+416:                padding: 20px 18px;
+753:        .single-dry_recipe .entry-header,
+758:        .single-dry_recipe .ast-container,
+759:        .single-dry_recipe .site-content .ast-container,
+768:        .dcv5-recipe {
+770:            margin: 0 auto;
+771:            padding: 34px 18px 64px;
+775:        .dcv5-hero,
+776:        .dcv5-panel,
+784:        .dcv5-hero {
+785:            padding: 30px 34px;
+791:        .dcv5-hero-grid {
+800:        .dcv5-hero-media {
+808:        .dcv5-hero-media img {
+811:            height: 280px;
+819:            margin-top: 18px;
+826:            min-height: 42px;
+827:            padding: 10px 15px;
+852:        .dcv5-hero:before {
+860:        .dcv5-hero-inner {
+875:            padding: 6px 11px;
+885:        .dcv5-hero h1 {
+886:            margin: 0 0 12px;
+888:            line-height: 1.04;
+894:            margin: 0;
+897:            line-height: 1.7;
+904:            margin: 18px 0 24px;
+911:            padding: 13px 14px;
+929:            line-height: 1.35;
+932:        .dcv5-layout {
+939:        .dcv5-panel {
+940:            padding: 24px 28px;
+944:        .dcv5-panel h2 {
+948:            margin: 0 0 16px;
+950:            line-height: 1.2;
+954:        .dcv5-panel h2 span {
+956:            height: 34px;
+969:            margin: -4px 0 18px;
+972:            line-height: 1.6;
+979:            margin: 12px 0 4px;
+983:            min-height: 46px;
+985:            padding: 12px 14px;
+1017:            padding: 15px;
+1025:            margin: 0 0 9px;
+1028:            line-height: 1.3;
+1041:            padding: 7px 10px;
+1052:            padding: 7px 10px;
+1066:            margin: 0;
+1069:            line-height: 1.65;
+1087:            height: 10px;
+1094:            height: 100%;
+1118:            padding: 15px;
+1125:            min-height: 42px;
+1131:            padding: 8px;
+1135:            margin-top: 10px;
+1136:            padding: 10px 12px;
+1142:            line-height: 1.55;
+1161:            margin: 8px 0 10px;
+1166:            padding: 5px 8px;
+1178:            padding: 16px;
+1182:            margin: 0 0 12px;
+1189:            padding: 8px 10px;
+1218:            padding: 15px;
+1223:            margin: 0 0 8px;
+1226:            line-height: 1.3;
+1231:            margin: 0;
+1234:            line-height: 1.6;
+1253:            margin: 18px 0 0;
+1260:            .dcv5-hero-media,
+1267:            .dcv5-recipe {
+1269:                padding: 0 !important;
+1272:            .dcv5-layout {
+1276:            .dcv5-panel,
+1277:            .dcv5-hero,
+1289:            min-height: 64px;
+1292:            padding: 10px;
+1297:            .dcv5-hero-grid {
+1301:            .dcv5-hero-media img {
+1302:                height: 240px;
+1305:            .dcv5-layout {
+1324:            .dcv5-recipe {
+1325:                padding: 24px 12px 42px;
+1328:            .dcv5-hero,
+1329:            .dcv5-panel {
+1330:                padding: 20px 18px;
+1353:    <div class="dcv5-recipe">
+1354:        <header class="dcv5-hero" id="vrh">
+1355:            <div class="dcv5-hero-grid">
+1356:                <div class="dcv5-hero-inner">
+1381:                    <figure class="dcv5-hero-media">
+1397:        <div class="dcv5-layout">
+1399:                <section class="dcv5-panel" id="omjer">
+1409:                <section class="dcv5-panel" id="sirovine">
+1418:                <section class="dcv5-panel" id="zacini">
+1427:                <section class="dcv5-panel" id="tekucine">
+1436:                <section class="dcv5-panel" id="profil">
+1449:                <section class="dcv5-panel" id="klima">
+1463:                <section class="dcv5-panel" id="kronologija">
+1481:                <section class="dcv5-panel" id="greske">
+1500:                <section class="dcv5-panel" id="gotovo">
+1514:                <section class="dcv5-panel" id="sigurnost">
+1528:                <section class="dcv5-panel" id="posluzivanje">
+1541:                <section class="dcv5-panel" id="dnevnik">
+2000:        .single-dry_recipe .dcv5-layout {
+2019:            padding: 16px 18px !important;
+2025:            margin: 0 !important;
+2027:            line-height: 1.35 !important;
+2036:            margin: 0 !important;
+2045:            padding: 9px 13px !important;
+2050:            line-height: 1.1 !important;
+2057:            padding: 0 !important;
+2062:            line-height: 1.35 !important;
+2081:            margin: 0 !important;
+2083:            line-height: 1.62 !important;
+2088:            padding: 14px !important;
+2093:            padding: 7px 8px !important;
+2097:            .single-dry_recipe .dcv5-layout {
+2138:        body.single-dry_recipe .site-content {
+2142:        body.single-dry_recipe .ast-container,
+2143:        body.single-dry_recipe .site-content .ast-container,
+2147:        body.single-dry_recipe .entry-content {
+2157:        body.single-dry_recipe .entry-content::before,
+2158:        body.single-dry_recipe .entry-content::after,
+2165:        body.single-dry_recipe .dcv5-recipe {
+2169:            margin: 0 auto !important;
+2170:            padding: 44px 0 72px !important;
+2174:        body.single-dry_recipe .dcv5-hero,
+2176:        body.single-dry_recipe .dcv5-layout {
+2183:        body.single-dry_recipe .dcv5-layout {
+2190:        body.single-dry_recipe .dcv5-layout > main {
+2200:        body.single-dry_recipe .dcv5-hero-grid {
+2205:        body.single-dry_recipe .dcv5-hero-media img {
+2206:            height: 285px !important;
+2209:        body.single-dry_recipe .dcv5-panel {
+2212:            padding: 28px 30px !important;
+2231:            padding: 18px 20px !important;
+2243:            margin: 0 !important;
+2247:            body.single-dry_recipe .dcv5-recipe {
+2252:            body.single-dry_recipe .dcv5-layout {
+2262:            body.single-dry_recipe .dcv5-hero-grid {
+2266:            body.single-dry_recipe .dcv5-hero-media img {
+2267:                height: 305px !important;
+2272:            body.single-dry_recipe .dcv5-recipe {
+2274:                padding: 28px 0 52px !important;
+2277:            body.single-dry_recipe .dcv5-layout {
+2286:            body.single-dry_recipe .dcv5-hero-grid {
+2325:        body.single-dry_recipe .dcv5-panel {
+2326:            line-height: 1.65 !important;
+2334:            line-height: 1.7 !important;
+2345:            margin: 18px 0 24px !important;
+2349:            min-height: 82px !important;
+2350:            padding: 16px 18px !important;
+2361:            margin: 0 0 7px !important;
+2364:            line-height: 1.1 !important;
+2373:            line-height: 1.25 !important;
+2386:            padding: 20px 22px !important;
+2396:            line-height: 1.35 !important;
+2404:            line-height: 1.7 !important;
+2409:            padding: 10px 15px !important;
+2419:            line-height: 1.45 !important;
+2431:            padding: 18px 19px !important;
+2443:            line-height: 1.3 !important;
+2449:            line-height: 1.72 !important;
+2460:            padding: 18px !important;
+2468:            margin: 0 0 10px !important;
+2472:            line-height: 1.25 !important;
+2478:            line-height: 1.7 !important;
+2482:            margin-top: 14px !important;
+2483:            padding: 12px 14px !important;
+2487:            line-height: 1.6 !important;
+2497:            padding: 18px 19px !important;
+2511:            line-height: 1.32 !important;
+2520:            line-height: 1.68 !important;
+2524:            margin-top: 8px !important;
+2528:            padding: 6px 9px !important;
+2530:            line-height: 1.15 !important;
+2549:                min-height: auto !important;
+2596:            height: 28px !important;
+2605:            line-height: 1 !important;
+2613:            padding: 6px 9px !important;
+2708:            margin: 0 0 18px !important;
+2709:            padding: 15px 17px !important;
+2715:            line-height: 1.65 !important;
+2729:            padding: 15px 16px !important;
+2738:            margin-top: 0 !important;
+2746:            line-height: 1.25 !important;
+2760:            line-height: 1.2 !important;
+2769:            line-height: 1.45 !important;
+2778:            margin-top: 6px !important;
+2925:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+2968:    return str_replace('<div class="dcv5-layout">', $html . "\n" . '<div class="dcv5-layout">', $content);
+2976:    $pattern = '/(<section class="dcv5-panel" id="' . preg_quote($section_id, '/') . '">.*?<\/section>)/s';
+2986:    $pattern = '/(<section class="dcv5-panel" id="' . preg_quote($section_id, '/') . '">.*?)(<\/section>)/s';
+3002:    <section class="dcv5-panel dcv6-work-summary" id="radni-sazetak">
+3033:    <section class="dcv5-panel dcv6-variations" id="varijacije">
+3106:    <section class="dcv5-panel dcv6-related" id="povezani">
+3128:    <section class="dcv5-panel dcv6-compare" id="usporedba">
+3200:    <section class="dcv5-panel dcv6-admin-block" id="admin-status">
+3285:            padding: 18px 19px !important;
+3292:            margin: 0 0 10px !important;
+3296:            line-height: 1.32 !important;
+3302:            margin: 0 !important;
+3305:            line-height: 1.68 !important;
+3318:            padding: 15px 17px !important;
+3331:            padding: 7px 9px !important;
+3341:            line-height: 1.35 !important;
+3351:            padding: 11px 16px !important;
+3363:            margin: 12px 0 0 !important;
+3372:            margin: 16px 0 !important;
+3379:            line-height: 1.35 !important;
+3385:            margin-top: 7px !important;
+3388:            padding: 10px 11px !important;
+3394:            margin: 12px 0 !important;
+3395:            padding: 14px 15px !important;
+3407:            margin-top: 12px !important;
+3434:            body.single-dry_recipe .dcv5-hero-media,
+3448:            body.single-dry_recipe .site-content {
+3452:            body.single-dry_recipe .dcv5-recipe {
+3455:                padding: 0 !important;
+3458:            body.single-dry_recipe .dcv5-panel,
+3459:            body.single-dry_recipe .dcv5-hero,
+3640:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+3645:    $content = preg_replace('/\s*<section class="dcv5-panel dcv6-compare" id="usporedba">.*?<\/section>/s', '', $content);
+3646:    $content = preg_replace('/\s*<section class="dcv5-panel dcv6-related" id="povezani">.*?<\/section>/s', '', $content);
+3649:    if (preg_match('/(<section class="dcv5-panel" id="kronologija">.*?<\/section>)/s', $content, $match)) {
+3653:            '<section class="dcv5-panel" id="omjer">',
+3654:            $kronologija . "\n" . '<section class="dcv5-panel" id="omjer">',
+
+=== 5) LARGE NUMERIC SPACING RULES ===
+2267:                height: 305px !important;
+
+=== 6) IMAGE / HERO FALLBACK LOGIC ===
+190:            background: #fffaf0;
+213:            background: #f2dfb5;
+294:            background: #d8a63f;
+319:            background: #fffdf7;
+338:            background: #fff;
+350:            background: #d8a63f;
+387:            background: #f3e3bd;
+739:    $image_url = get_the_post_thumbnail_url($post_id, 'large');
+740:    if (!$image_url) {
+741:        $image_url = get_post_meta($post_id, '_dry_recipe_image_url', true);
+778:            background: #fffaf0;
+800:        .dcv5-hero-media {
+804:            background: #f5e7c5;
+808:        .dcv5-hero-media img {
+833:            transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+842:            background: #111b33;
+848:            background: #f1dfb6;
+856:            background: radial-gradient(circle at top right, rgba(216,166,63,.18), transparent 36%);
+877:            background: #f1dfb6;
+908:            background: #fffdf7;
+962:            background: #d8a63f;
+986:            background: #d8a63f;
+992:            background: #f0d99a;
+1014:            background: #fffdf7;
+1043:            background: #111b33;
+1054:            background: #f1dfb6;
+1089:            background: #efe2c3;
+1096:            background: #d8a63f;
+1115:            background: #fffdf7;
+1127:            background: #d8a63f;
+1138:            background: #fff6dd;
+1168:            background: #f1dfb6;
+1197:            background: #f3e3bd;
+1215:            background: #fffdf7;
+1260:            .dcv5-hero-media,
+1284:                background: #fff !important;
+1293:            background: #fffdf7;
+1301:            .dcv5-hero-media img {
+1380:                <?php if ($image_url) : ?>
+1381:                    <figure class="dcv5-hero-media">
+1382:                        <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($recipe['title']); ?>">
+2047:            background: #111b33 !important;
+2059:            background: transparent !important;
+2139:            background: #f8f0de !important;
+2154:            background: transparent !important;
+2171:            background: transparent !important;
+2205:        body.single-dry_recipe .dcv5-hero-media img {
+2266:            body.single-dry_recipe .dcv5-hero-media img {
+2352:            background: #fffaf0 !important;
+2384:            background: #fffdf7 !important;
+2433:            background: #fffdf7 !important;
+2462:            background: #fffdf7 !important;
+2499:            background: #fffdf7 !important;
+2610:            background: rgba(255, 250, 240, .9) !important;
+2617:            background: #2e9b57 !important;
+2621:            background: #f2c230 !important;
+2625:            background: #c93636 !important;
+2712:            background: #fff8e8 !important;
+2733:            background: #fffdf7 !important;
+3160:                <input type="number" step="0.001" min="0" class="dcv6-diary-input" id="dcv6-start-mass" placeholder="10.000">
+3165:                <input type="number" step="0.001" min="0" class="dcv6-diary-input" id="dcv6-current-mass" placeholder="7.300">
+3178:        <textarea class="dcv6-diary-notes" id="dcv6-diary-notes" rows="4" placeholder="Bilješke: miris, površina, boja, vlaga, dimljenje, korekcije uvjeta..."></textarea>
+3195:    $thumb_id = get_post_thumbnail_id($post_id);
+3227:    $image = get_the_post_thumbnail_url($post_id, 'large');
+3282:            background: #fffdf7 !important;
+3321:            background: #fffdf7 !important;
+3333:            background: #111b33 !important;
+3348:            background: #111b33 !important;
+3357:            background: #f1dfb6 !important;
+3389:            background: #fffaf0 !important;
+3398:            background: #fff8e8 !important;
+3434:            body.single-dry_recipe .dcv5-hero-media,
+3449:                background: #fff !important;
+3792:            background: #fffdf8 !important;
+3813:            background: #fffaf0 !important;
+3817:            transition: transform .15s ease, box-shadow .15s ease, background .15s ease !important;
+3823:            background: #fff7e4 !important;
+3968:            background: transparent !important;
+3972:            background: #ffffff !important;
+4137:            background:
+4152:            background: radial-gradient(circle at top left, rgba(216,166,63,.18), transparent 36%) !important;
+4161:            background:
+4210:            background: #111b33 !important;
+4333:            background: #fff7df !important;
+4360:            background: #fffaf0 !important;
+
+=== 7) SAMPLE FRONTEND MARKER POSITIONS ===
+
+--- POST 3067 ---
+TITLE=Steirischer Rohschinken – štajerska sirova šunka
+URL=https://drycured.com/recepti-baza/steirischer-rohschinken-stajerska-sirova-sunka-2/
+HTML_BYTES=304989
+dcv5-recipe=230091
+dcv5-hero=230432
+entry-content=12125
+Radni sažetak=670
+Gotovo je kad=240953
+Najčešće greške=-1
+Sigurnosne smjernice=-1
+DODAJ U USPOREDBU=-1
+TITLE_HITS:
+      1 kobasica
+     13 rohschinken
+     14 Rohschinken
+     27 sirova
+     13 steirischer
+     14 Steirischer
+      9 šunka
+
+--- POST 3032 ---
+TITLE=Mađarska Gyulai Kolbász – Gyulai kobasica
+URL=https://drycured.com/recepti-baza/maarska-gyulai-kolbasz-gyulai-kobasica/
+HTML_BYTES=304790
+dcv5-recipe=229886
+dcv5-hero=230227
+entry-content=11950
+Radni sažetak=-1
+Gotovo je kad=240748
+Najčešće greške=-1
+Sigurnosne smjernice=-1
+DODAJ U USPOREDBU=-1
+TITLE_HITS:
+     26 gyulai
+     28 Gyulai
+     32 kobasica
+
+--- POST 3041 ---
+TITLE=Saucisson Sec – francuska suha kobasica
+URL=https://drycured.com/recepti-baza/saucisson-sec-suha-kobasica-2/
+HTML_BYTES=304608
+dcv5-recipe=229731
+dcv5-hero=230072
+entry-content=11822
+Radni sažetak=-1
+Gotovo je kad=240593
+Najčešće greške=-1
+Sigurnosne smjernice=-1
+DODAJ U USPOREDBU=-1
+TITLE_HITS:
+     32 kobasica
+     13 saucisson
+     14 Saucisson
+
+--- POST 3051 ---
+TITLE=Pick Szalámi – mađarski Pick salami
+URL=https://drycured.com/recepti-baza/maarski-pick-salami-pick-szalami/
+HTML_BYTES=304643
+dcv5-recipe=229745
+dcv5-hero=230086
+entry-content=11827
+Radni sažetak=-1
+Gotovo je kad=240607
+Najčešće greške=-1
+Sigurnosne smjernice=-1
+DODAJ U USPOREDBU=-1
+TITLE_HITS:
+      1 kobasica
+     26 pick
+     28 Pick
+
+--- POST 3061 ---
+TITLE=Speck Alto Adige – južnotirolski sušeni dimljeni but
+URL=https://drycured.com/recepti-baza/speck-alto-adige-2/
+HTML_BYTES=304480
+dcv5-recipe=229588
+dcv5-hero=229929
+entry-content=11712
+Radni sažetak=-1
+Gotovo je kad=240450
+Najčešće greške=-1
+Sigurnosne smjernice=-1
+DODAJ U USPOREDBU=-1
+TITLE_HITS:
+      1 kobasica
+     13 speck
+     14 Speck
+
+--- POST 3312 ---
+TITLE=Sinjska kobasica
+URL=https://drycured.com/recepti-baza/hr-da-001-sinjska-kobasica/
+HTML_BYTES=304339
+dcv5-recipe=228170
+dcv5-hero=228511
+entry-content=10270
+Radni sažetak=-1
+Gotovo je kad=239032
+Najčešće greške=-1
+Sigurnosne smjernice=-1
+DODAJ U USPOREDBU=-1
+TITLE_HITS:
+     24 kobasica
+     13 sinjska
+      6 Sinjska
+
+=== 8) OPTIONAL BROWSER TOOL CHECK ===
+NODE=NO
+
+=== 9) GIT STATUS ===
+?? 04_OPERATION/recipe_master/reports/DRY_RECIPE_LAYOUT_WHITESPACE_AUDIT_2026-06-12_05-48-48.txt
