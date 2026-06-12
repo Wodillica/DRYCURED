@@ -913,6 +913,28 @@ function drycured_md_v5_bridge_profile($post_id, $code = '') {
         }
     }
 
+
+    /*
+     * DRYCURED_MDV5_PUBLIC_BRIDGE_GATE_v03
+     * Public takeover only for explicitly approved IDs.
+     * Rollback: wp option update drycured_md_v5_public_bridge_enabled 0
+     */
+    if (
+        get_option('drycured_md_v5_public_bridge_enabled', '0') === '1' &&
+        function_exists('drycured_mdv5_bridge_build_profile_v03')
+    ) {
+        $raw_public_ids = (string)get_option('drycured_md_v5_public_bridge_ids', '');
+        $public_ids = array_filter(array_map('absint', preg_split('/\s*,\s*/', $raw_public_ids)));
+
+        if ($public_ids && in_array((int)$post_id, $public_ids, true)) {
+            $public_profile = drycured_mdv5_bridge_build_profile_v03($post_id, $code);
+            if ($public_profile) {
+                $public_profile['_mdv5_public_bridge_v03'] = true;
+                return $public_profile;
+            }
+        }
+    }
+
     if (!drycured_mdv5_enabled()) return null;
 
     $pilot_ids = drycured_mdv5_pilot_ids();
