@@ -1,0 +1,938 @@
+=== DCV5 RENDERER SOURCE CONTRACT AUDIT ===
+
+=== 1) FILES CONTAINING dcv5_get_recipe_profile ===
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3178:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3439:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2894:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3190:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3451:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3609:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2890:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3186:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3447:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3605:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:3178:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:3439:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:2890:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:3186:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:3447:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_cure_model_lock_2026-05-30_17-51-16.php:3605:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:711:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:1613:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:2873:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:3169:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:3430:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_quantity_parser_2026-05-30_16-13-26.php:3588:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-batch001-force-dcv5-template.php:22:    if (!function_exists('dcv5_recipe_view_pilot_content') || !function_exists('dcv5_get_recipe_profile')) {
+wp-content/mu-plugins/drycured-batch001-force-dcv5-template.php:27:    $profile = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:3178:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:3439:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_formula_only_0200L_2026-05-30_17-15-10.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:2886:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:3182:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:3443:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_cure_model_2026-05-30_17-36-16.php:3601:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:2890:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:3186:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:3447:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_source_lock_hr_sl_001_2026-05-31_07-05-53.php:3605:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_no_liquid_fix_2026-05-30_16-27-08.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_no_liquid_fix_2026-05-30_16-27-08.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_no_liquid_fix_2026-05-30_16-27-08.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_no_liquid_fix_2026-05-30_16-27-08.php:3178:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_no_liquid_fix_2026-05-30_16-27-08.php:3439:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_no_liquid_fix_2026-05-30_16-27-08.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_garlic_liquid_fix_2026-05-30_16-46-07.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_garlic_liquid_fix_2026-05-30_16-46-07.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_garlic_liquid_fix_2026-05-30_16-46-07.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_garlic_liquid_fix_2026-05-30_16-46-07.php:3178:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_garlic_liquid_fix_2026-05-30_16-46-07.php:3439:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_garlic_liquid_fix_2026-05-30_16-46-07.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hr_sl_006_rum_runtime_fix_2026-05-30_16-35-33.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hr_sl_006_rum_runtime_fix_2026-05-30_16-35-33.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hr_sl_006_rum_runtime_fix_2026-05-30_16-35-33.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hr_sl_006_rum_runtime_fix_2026-05-30_16-35-33.php:3178:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hr_sl_006_rum_runtime_fix_2026-05-30_16-35-33.php:3439:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hr_sl_006_rum_runtime_fix_2026-05-30_16-35-33.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_final_profile_override_2026-05-30_16-39-19.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_final_profile_override_2026-05-30_16-39-19.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_final_profile_override_2026-05-30_16-39-19.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_final_profile_override_2026-05-30_16-39-19.php:3178:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_final_profile_override_2026-05-30_16-39-19.php:3439:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_final_profile_override_2026-05-30_16-39-19.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_quantities_2026-05-30_16-16-29.php:711:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_quantities_2026-05-30_16-16-29.php:1613:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_quantities_2026-05-30_16-16-29.php:2873:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_quantities_2026-05-30_16-16-29.php:3169:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_quantities_2026-05-30_16-16-29.php:3430:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_global_quantities_2026-05-30_16-16-29.php:3588:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_phase_specs_2026-05-30_13-56-44.php:711:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_phase_specs_2026-05-30_13-56-44.php:1609:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_phase_specs_2026-05-30_13-56-44.php:2865:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_phase_specs_2026-05-30_13-56-44.php:3161:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_phase_specs_2026-05-30_13-56-44.php:3422:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_phase_specs_2026-05-30_13-56-44.php:3580:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_batch01_v1_2_2026-05-30_14-15-34.php:711:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_batch01_v1_2_2026-05-30_14-15-34.php:1609:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_batch01_v1_2_2026-05-30_14-15-34.php:2865:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_batch01_v1_2_2026-05-30_14-15-34.php:3161:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_batch01_v1_2_2026-05-30_14-15-34.php:3422:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_batch01_v1_2_2026-05-30_14-15-34.php:3580:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_visual_lock_v1_2_2026-05-30_14-33-06.php:711:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_visual_lock_v1_2_2026-05-30_14-33-06.php:1609:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_visual_lock_v1_2_2026-05-30_14-33-06.php:2865:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_visual_lock_v1_2_2026-05-30_14-33-06.php:3161:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_visual_lock_v1_2_2026-05-30_14-33-06.php:3422:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_visual_lock_v1_2_2026-05-30_14-33-06.php:3580:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:48:    if (!function_exists('dcv5_get_recipe_profile')) return false;
+wp-content/mu-plugins/drycured-recipe-md-fallback-renderer.php:49:    $profile = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_late_source_render_2026-05-31_07-18-34.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_late_source_render_2026-05-31_07-18-34.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_late_source_render_2026-05-31_07-18-34.php:2894:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_late_source_render_2026-05-31_07-18-34.php:3190:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_late_source_render_2026-05-31_07-18-34.php:3451:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_late_source_render_2026-05-31_07-18-34.php:3609:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-27-54.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-27-54.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-27-54.php:2894:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-27-54.php:3190:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-27-54.php:3451:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-27-54.php:3609:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_ingredient_sanity_layer_2026-05-30_17-29-08.php:720:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_ingredient_sanity_layer_2026-05-30_17-29-08.php:1622:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_ingredient_sanity_layer_2026-05-30_17-29-08.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_ingredient_sanity_layer_2026-05-30_17-29-08.php:3178:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1_before_ingredient_sanity_layer_2026-05-30_17-29-08.php:3439:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1_before_ingredient_sanity_layer_2026-05-30_17-29-08.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:730:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1.php:1636:function dcv5_get_recipe_profile($post_id, $code = '') {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:1640:     * MD-import pilot profili moraju biti dostupni kroz samu dcv5_get_recipe_profile()
+wp-content/mu-plugins/drycured-recipe-view-v1.php:2925:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3221:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3482:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+wp-content/mu-plugins/drycured-recipe-view-v1.php:3640:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+
+=== 2) FILES CONTAINING dcv5-recipe MARKUP ===
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:761:        .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:770:        .dcv5-hero {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:777:        .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:786:        .dcv5-hero-media {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:794:        .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:838:        .dcv5-hero:before {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:846:        .dcv5-hero-inner {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:871:        .dcv5-hero h1 {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:954:        .dcv5-section-note {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1246:            .dcv5-hero-media,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1263:            .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1283:            .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1287:            .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1314:            .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1340:        <header class="dcv5-hero" id="vrh">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1341:            <div class="dcv5-hero-grid">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1342:                <div class="dcv5-hero-inner">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1367:                    <figure class="dcv5-hero-media">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1387:                    <p class="dcv5-section-note">Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1397:                    <p class="dcv5-section-note">Meso i slanina prikazuju se u kilogramima jer čine osnovu smjese.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1406:                    <p class="dcv5-section-note">Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1415:                    <p class="dcv5-section-note">Tekućine se prikazuju u litrama. Češnjak se ne dodaje kao komadić, nego kao procijeđena aromatična tekućina.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1424:                    <p class="dcv5-section-note">Senzorni profil pomaže korisniku da odmah razumije karakter proizvoda prije nego krene u izradu.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1437:                    <p class="dcv5-section-note">Uvjeti prostora važni su koliko i začini. Dobra kobasica nastaje iz ritma hladnoće, vlage, dima i vremena.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1451:                    <p class="dcv5-section-note">Ovo je radni vodič od sirovine do stola. Svaka faza ima cilj i kritičnu točku kontrole.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1469:                    <p class="dcv5-section-note">Svaki problem mora imati konkretno rješenje. Ovo je zaštitni dio recepta.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1488:                    <p class="dcv5-section-note">Ovaj blok pomaže korisniku procijeniti je li proizvod tehnološki stabilan za rezanje, čuvanje i posluživanje.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1502:                    <p class="dcv5-section-note">Kod suhomesnatih proizvoda svaka sumnja mora imati praktičnu odluku. Bolje odbaciti rizičan proizvod nego spašavati nešto što se ne smije spašavati.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:1529:                    <p class="dcv5-section-note">Ovaj blok je priprema za budući print i digitalni dnevnik. Za ozbiljnu proizvodnju bilješke vrijede zlata.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2122:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2131:        body.single-dry_recipe .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2157:        body.single-dry_recipe .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2162:        body.single-dry_recipe .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2204:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2219:            body.single-dry_recipe .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2223:            body.single-dry_recipe .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2229:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2243:            body.single-dry_recipe .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2286:        body.single-dry_recipe .dcv5-section-note {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2781:                const note = profile.querySelector('.dcv5-section-note');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2882:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2961:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:2992:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3065:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3087:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3159:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3391:            body.single-dry_recipe .dcv5-hero-media,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3409:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3416:            body.single-dry_recipe .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3597:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3731:        body.single-dry_recipe #dnevnik > .dcv5-section-note,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3848:                const staticNote = diary.querySelector(':scope > .dcv5-section-note');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:3978:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:4021:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_safe_2026-05-30_17-13-08.php:4240:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:761:        .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:770:        .dcv5-hero {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:777:        .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:786:        .dcv5-hero-media {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:794:        .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:838:        .dcv5-hero:before {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:846:        .dcv5-hero-inner {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:871:        .dcv5-hero h1 {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:954:        .dcv5-section-note {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1246:            .dcv5-hero-media,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1263:            .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1283:            .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1287:            .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1314:            .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1340:        <header class="dcv5-hero" id="vrh">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1341:            <div class="dcv5-hero-grid">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1342:                <div class="dcv5-hero-inner">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1367:                    <figure class="dcv5-hero-media">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1387:                    <p class="dcv5-section-note">Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1397:                    <p class="dcv5-section-note">Meso i slanina prikazuju se u kilogramima jer čine osnovu smjese.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1406:                    <p class="dcv5-section-note">Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1415:                    <p class="dcv5-section-note">Tekućine se prikazuju u litrama. Češnjak se ne dodaje kao komadić, nego kao procijeđena aromatična tekućina.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1424:                    <p class="dcv5-section-note">Senzorni profil pomaže korisniku da odmah razumije karakter proizvoda prije nego krene u izradu.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1437:                    <p class="dcv5-section-note">Uvjeti prostora važni su koliko i začini. Dobra kobasica nastaje iz ritma hladnoće, vlage, dima i vremena.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1451:                    <p class="dcv5-section-note">Ovo je radni vodič od sirovine do stola. Svaka faza ima cilj i kritičnu točku kontrole.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1469:                    <p class="dcv5-section-note">Svaki problem mora imati konkretno rješenje. Ovo je zaštitni dio recepta.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1488:                    <p class="dcv5-section-note">Ovaj blok pomaže korisniku procijeniti je li proizvod tehnološki stabilan za rezanje, čuvanje i posluživanje.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1502:                    <p class="dcv5-section-note">Kod suhomesnatih proizvoda svaka sumnja mora imati praktičnu odluku. Bolje odbaciti rizičan proizvod nego spašavati nešto što se ne smije spašavati.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:1529:                    <p class="dcv5-section-note">Ovaj blok je priprema za budući print i digitalni dnevnik. Za ozbiljnu proizvodnju bilješke vrijede zlata.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2134:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2143:        body.single-dry_recipe .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2169:        body.single-dry_recipe .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2174:        body.single-dry_recipe .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2216:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2231:            body.single-dry_recipe .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2235:            body.single-dry_recipe .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2241:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2255:            body.single-dry_recipe .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2298:        body.single-dry_recipe .dcv5-section-note {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2793:                const note = profile.querySelector('.dcv5-section-note');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2894:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:2973:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3004:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3077:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3099:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3171:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3403:            body.single-dry_recipe .dcv5-hero-media,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3421:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3428:            body.single-dry_recipe .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3609:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3743:        body.single-dry_recipe #dnevnik > .dcv5-section-note,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3860:                const staticNote = diary.querySelector(':scope > .dcv5-section-note');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:3990:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:4033:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:4252:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:6348:            <div class="dcv5-section-head">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_hrsl001_process_omotac_fix_2026-05-31_07-36-09.php:6349:                <span class="dcv5-section-no">1</span>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:761:        .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:770:        .dcv5-hero {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:777:        .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:786:        .dcv5-hero-media {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:794:        .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:838:        .dcv5-hero:before {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:846:        .dcv5-hero-inner {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:871:        .dcv5-hero h1 {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:954:        .dcv5-section-note {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1246:            .dcv5-hero-media,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1263:            .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1283:            .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1287:            .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1314:            .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1340:        <header class="dcv5-hero" id="vrh">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1341:            <div class="dcv5-hero-grid">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1342:                <div class="dcv5-hero-inner">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1367:                    <figure class="dcv5-hero-media">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1387:                    <p class="dcv5-section-note">Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1397:                    <p class="dcv5-section-note">Meso i slanina prikazuju se u kilogramima jer čine osnovu smjese.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1406:                    <p class="dcv5-section-note">Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1415:                    <p class="dcv5-section-note">Tekućine se prikazuju u litrama. Češnjak se ne dodaje kao komadić, nego kao procijeđena aromatična tekućina.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1424:                    <p class="dcv5-section-note">Senzorni profil pomaže korisniku da odmah razumije karakter proizvoda prije nego krene u izradu.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1437:                    <p class="dcv5-section-note">Uvjeti prostora važni su koliko i začini. Dobra kobasica nastaje iz ritma hladnoće, vlage, dima i vremena.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1451:                    <p class="dcv5-section-note">Ovo je radni vodič od sirovine do stola. Svaka faza ima cilj i kritičnu točku kontrole.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1469:                    <p class="dcv5-section-note">Svaki problem mora imati konkretno rješenje. Ovo je zaštitni dio recepta.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1488:                    <p class="dcv5-section-note">Ovaj blok pomaže korisniku procijeniti je li proizvod tehnološki stabilan za rezanje, čuvanje i posluživanje.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1502:                    <p class="dcv5-section-note">Kod suhomesnatih proizvoda svaka sumnja mora imati praktičnu odluku. Bolje odbaciti rizičan proizvod nego spašavati nešto što se ne smije spašavati.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:1529:                    <p class="dcv5-section-note">Ovaj blok je priprema za budući print i digitalni dnevnik. Za ozbiljnu proizvodnju bilješke vrijede zlata.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2130:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2139:        body.single-dry_recipe .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2165:        body.single-dry_recipe .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2170:        body.single-dry_recipe .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2212:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2227:            body.single-dry_recipe .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2231:            body.single-dry_recipe .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2237:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2251:            body.single-dry_recipe .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2294:        body.single-dry_recipe .dcv5-section-note {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2789:                const note = profile.querySelector('.dcv5-section-note');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2890:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:2969:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3000:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3073:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3095:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3167:        <p class="dcv5-section-note">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3399:            body.single-dry_recipe .dcv5-hero-media,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3417:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3424:            body.single-dry_recipe .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3605:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3739:        body.single-dry_recipe #dnevnik > .dcv5-section-note,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3856:                const staticNote = diary.querySelector(':scope > .dcv5-section-note');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:3986:        body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:4029:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_whole_piece_late_cleanup_2026-05-30_17-40-05.php:4248:            const recipe = document.querySelector('.dcv5-recipe');
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:754:        .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:761:        .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:770:        .dcv5-hero {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:777:        .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:786:        .dcv5-hero-media {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:794:        .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:838:        .dcv5-hero:before {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:846:        .dcv5-hero-inner {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:871:        .dcv5-hero h1 {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:954:        .dcv5-section-note {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1246:            .dcv5-hero-media,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1253:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1263:            .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1283:            .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1287:            .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1310:            .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1314:            .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1339:    <div class="dcv5-recipe">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1340:        <header class="dcv5-hero" id="vrh">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1341:            <div class="dcv5-hero-grid">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1342:                <div class="dcv5-hero-inner">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1367:                    <figure class="dcv5-hero-media">
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1387:                    <p class="dcv5-section-note">Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1397:                    <p class="dcv5-section-note">Meso i slanina prikazuju se u kilogramima jer čine osnovu smjese.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1406:                    <p class="dcv5-section-note">Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1415:                    <p class="dcv5-section-note">Tekućine se prikazuju u litrama. Češnjak se ne dodaje kao komadić, nego kao procijeđena aromatična tekućina.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1424:                    <p class="dcv5-section-note">Senzorni profil pomaže korisniku da odmah razumije karakter proizvoda prije nego krene u izradu.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1437:                    <p class="dcv5-section-note">Uvjeti prostora važni su koliko i začini. Dobra kobasica nastaje iz ritma hladnoće, vlage, dima i vremena.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1451:                    <p class="dcv5-section-note">Ovo je radni vodič od sirovine do stola. Svaka faza ima cilj i kritičnu točku kontrole.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1469:                    <p class="dcv5-section-note">Svaki problem mora imati konkretno rješenje. Ovo je zaštitni dio recepta.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1488:                    <p class="dcv5-section-note">Ovaj blok pomaže korisniku procijeniti je li proizvod tehnološki stabilan za rezanje, čuvanje i posluživanje.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1502:                    <p class="dcv5-section-note">Kod suhomesnatih proizvoda svaka sumnja mora imati praktičnu odluku. Bolje odbaciti rizičan proizvod nego spašavati nešto što se ne smije spašavati.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:1529:                    <p class="dcv5-section-note">Ovaj blok je priprema za budući print i digitalni dnevnik. Za ozbiljnu proizvodnju bilješke vrijede zlata.</p>
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2122:        body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2131:        body.single-dry_recipe .dcv5-hero,
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2157:        body.single-dry_recipe .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2162:        body.single-dry_recipe .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2204:            body.single-dry_recipe .dcv5-recipe {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2219:            body.single-dry_recipe .dcv5-hero-grid {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2223:            body.single-dry_recipe .dcv5-hero-media img {
+wp-content/mu-plugins/drycured-recipe-view-v1_before_garlic_default_0200L_2026-05-30_17-09-22.php:2229:            body.single-dry_recipe .dcv5-recipe {
+
+=== 3) MAIN DCV5 FILE VERSION / HEADER ===
+<?php
+
+// DRYCURED v1.2 quantity profiles — global Batch 01 data layer.
+if (!function_exists('dcv12_batch01_quantity_profiles')) {
+    $dcv12_quantity_file = __DIR__ . '/drycured-batch01-quantity-profiles.php';
+    if (file_exists($dcv12_quantity_file)) {
+        require_once $dcv12_quantity_file;
+    }
+}
+
+/**
+ * Plugin Name: Drycured Recipe View v1.0
+ * Description: Produkcijski konsolidirani prikaz kanonskih drycured recepata s početnom v1.1 podrškom za HR-SL-001, HR-SL-007 i HR-SL-020. Nastao spajanjem potvrđenog HR-SL-007 pilot prikaza v0.5/v0.6.
+ * Version: 1.2.0-visual-lock
+ * Author: drycured.com
+ *
+ * Napomena:
+ * Ova datoteka je funkcionalna konsolidacija prethodnih MU-plugin slojeva.
+ * Stare datoteke se nakon uspješnog audita premještaju u _archive_recipe_view_v1_*.
+ */
+
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+/*
+ * ============================================================
+ * DRYCURED RECIPE VIEW v1.0 — CONSOLIDATED FUNCTIONAL MIRROR
+ * ============================================================
+ *
+ * Redoslijed blokova prati stabilno testirano stanje iz audita:
+ * - osnovni kanonski renderer
+ * - pilot HR-SL-007 renderer
+ * - clarity/layout/card/safety/sensory polish
+ * - v0.6 feature pack
+ * - content cleanup
+ * - header restore
+ * - prev/next position
+ * - navigation polish
+ */
+
+
+/* ============================================================
+ * SOURCE: wp-content/mu-plugins/drycured-canonical-recipe-tuning.php
+ * ============================================================ */
+
+/**
+ * Plugin Name: Drycured Canonical Recipe Tuning
+ * Description: Dodatna dorada javnog prikaza kanonskih recepata.
+ * Version: 0.1.0
+ */
+
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+add_action('wp_footer', function () {
+    if (!is_singular('dry_recipe')) {
+        return;
+    }
+    ?>
+    <style>
+        @media (min-width: 641px) {
+            .single-dry_recipe .dc-canon-table-wrap {
+                overflow-x: visible !important;
+            }
+
+            .single-dry_recipe .dc-canon-table {
+                min-width: 0 !important;
+                width: 100% !important;
+                table-layout: fixed !important;
+            }
+
+            .single-dry_recipe .dc-canon-table th,
+            .single-dry_recipe .dc-canon-table td {
+                white-space: normal !important;
+                overflow-wrap: break-word !important;
+                word-break: normal !important;
+            }
+
+            .single-dry_recipe .dc-canon-table th:nth-child(1),
+            .single-dry_recipe .dc-canon-table td:nth-child(1) {
+                width: 36% !important;
+            }
+
+            .single-dry_recipe .dc-canon-table th:nth-child(2),
+            .single-dry_recipe .dc-canon-table td:nth-child(2) {
+                width: 22% !important;
+            }
+
+            .single-dry_recipe .dc-canon-table th:nth-child(3),
+            .single-dry_recipe .dc-canon-table td:nth-child(3) {
+                width: 42% !important;
+            }
+        }
+
+        .single-dry_recipe .dc-canon-admin {
+            display: none !important;
+        }
+
+        .single-dry_recipe .dc-canon-section p,
+        .single-dry_recipe .dc-canon-list li,
+        .single-dry_recipe .dc-canon-table td {
+            font-size: 16px !important;
+            line-height: 1.65 !important;
+        }
+
+        .single-dry_recipe .dc-canon-section {
+            margin-bottom: 22px !important;
+        }
+    </style>
+    <?php
+}, 999);
+
+
+/* ============================================================
+ * SOURCE: wp-content/mu-plugins/drycured-canonical-recipe-view.php
+ * ============================================================ */
+
+/**
+
+=== 4) DCV5 PROFILE FUNCTION BLOCK ===
+            return [
+                '@type' => 'HowToStep',
+                'name' => $step['title'],
+                'text' => $step['text'] . ' Kritično: ' . $step['critical'],
+            ];
+        }, $recipe['timeline']),
+    ];
+
+    echo '<script type="application/ld+json">' . wp_json_encode($schema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>';
+}
+
+
+function dcv5_supported_recipe_codes() {
+    if (function_exists('dcv12_batch01_recipe_registry')) {
+        return array_keys(dcv12_batch01_recipe_registry());
+    }
+
+    return ['HR-SL-001', 'HR-SL-007', 'HR-SL-020'];
+}
+
+function dcv5_get_recipe_profile($post_id, $code = '') {
+
+    /*
+     * DRYCURED_MD_V5_PROFILE_EARLY_BRIDGE_v011
+     * MD-import pilot profili moraju biti dostupni kroz samu dcv5_get_recipe_profile()
+     * kako bi svi postojeći V5/V6 slojevi koristili isti izvor profila.
+     */
+    if (function_exists('drycured_md_v5_bridge_profile')) {
+        $dcv5_md_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);
+        if ($dcv5_md_bridge_profile) {
+            return $dcv5_md_bridge_profile;
+        }
+    }
+
+    if (!$code) {
+        $code = get_post_meta($post_id, '_dry_recipe_id', true);
+    }
+
+    $profile = null;
+
+    if ($code === 'HR-SL-001') {
+        $profile = dcv5_slavonski_kulen_profile($post_id);
+    } elseif ($code === 'HR-SL-007') {
+        $profile = dcv5_ratarske_kobasice_profile($post_id);
+    } elseif ($code === 'HR-SL-020') {
+        $profile = dcv5_vinkovacka_sunka_profile($post_id);
+    } elseif (function_exists('dcv12_profile_from_post')) {
+        $profile = dcv12_profile_from_post($post_id, $code);
+    }
+
+    if (function_exists('dcv12_apply_final_profile_overrides')) {
+        $profile = dcv12_apply_final_profile_overrides($profile, $code);
+    }
+
+    if (function_exists('dcv14_final_ingredient_sanity_profile')) {
+        $profile = dcv14_final_ingredient_sanity_profile($profile, $code);
+    }
+
+    if (function_exists('dcv16_whole_piece_profile_guard')) {
+        $profile = dcv16_whole_piece_profile_guard($profile, $code, $post_id);
+    }
+
+    if (function_exists('dcv20_source_lock_profile')) {
+        $profile = dcv20_source_lock_profile($profile, $code, $post_id);
+    }
+
+    if (function_exists('dcv31_hrsl001_final_profile_source_lock')) {
+        $profile = dcv31_hrsl001_final_profile_source_lock($profile, $code, $post_id);
+    }
+
+    return $profile;
+}
+
+function dcv5_recipe_js_profile($recipe) {
+    if (!$recipe || empty($recipe['code'])) {
+        return null;
+    }
+
+    $ingredients = [
+        'materials' => [],
+        'spices' => [],
+        'liquids' => [],
+    ];
+
+    foreach (['materials', 'spices', 'liquids'] as $group) {
+        if (empty($recipe[$group]) || !is_array($recipe[$group])) {
+            continue;
+        }
+
+        foreach ($recipe[$group] as $item) {
+            $ingredients[$group][] = [
+                'name' => $item['name'] ?? '',
+                'amount' => $item['amount'] ?? '',
+                'percent' => $item['percent'] ?? '',
+                'rate' => $item['rate'] ?? '',
+            ];
+        }
+    }
+
+    return [
+        'code' => $recipe['code'],
+        'title' => $recipe['title'],
+        'baseKg' => 10,
+        'type' => $recipe['type'] ?? '',
+        'ingredients' => $ingredients,
+    ];
+}
+
+function dcv5_slavonski_kulen_profile($post_id) {
+    return [
+        'code' => 'HR-SL-001',
+        'title' => 'Slavonski kulen (PDO EU)',
+        'region' => 'Slavonija, Baranja i Srijem',
+        'type' => 'Kobasica',
+        'lead' => 'Slavonski kulen je dugozreli slavonski proizvod snažnog paprikastog profila, izrađen od odabrane svinjske mišićine i tvrde slanine, punjen u širi prirodni omotač, hladno dimljen i sporo dozrijevan.',
+        'quick' => [
+            ['label' => 'Šarža', 'value' => '10 kg mesne sirovine'],
+            ['label' => 'Trajanje', 'value' => '120–180 dana'],
+            ['label' => 'Dimljenje', 'value' => 'hladni dim'],
+            ['label' => 'Crijeva', 'value' => '55–80 mm'],
+            ['label' => 'Gubitak mase', 'value' => '30–40 %'],
+        ],
+        'materials' => [
+            ['name' => 'Svinjski but i/ili plećka', 'amount' => '8,000 kg', 'percent' => '80 %', 'rate' => '', 'note' => 'Čista mišićina bez tetiva i grubog veziva. Meso mora biti dobro ohlađeno i obrađeno bez nepotrebnog gnječenja.'],
+            ['name' => 'Tvrda leđna slanina', 'amount' => '2,000 kg', 'percent' => '20 %', 'rate' => '', 'note' => 'Reže se ručno na kockice 8–12 mm. Ne melje se jer razmazana masnoća kvari presjek i teksturu.'],
+        ],
+        'spices' => [
+            ['name' => 'Kuhinjska sol', 'amount' => '280 g', 'percent' => '2,80 %', 'rate' => '28 g/kg', 'note' => 'Srednja radna vrijednost za dugozreli proizvod. Sol mora biti potpuno ravnomjerno raspoređena.'],
+            ['name' => 'Slatka mljevena paprika', 'amount' => '200 g', 'percent' => '2,00 %', 'rate' => '20 g/kg', 'note' => 'Nositelj boje, mirisa i slavonskog identiteta. Paprika mora biti svježa, suha i bez gorčine.'],
+            ['name' => 'Ljuta mljevena paprika', 'amount' => '50 g', 'percent' => '0,50 %', 'rate' => '5 g/kg', 'note' => 'Daje toplinu i živost okusa. Količinu ne povećavati bez probne šarže.'],
+            ['name' => 'Crni papar', 'amount' => '25 g', 'percent' => '0,25 %', 'rate' => '2,5 g/kg', 'note' => 'Najbolje grubo mljeven neposredno prije miješanja.'],
+        ],
+        'liquids' => [
+            ['name' => 'Svježi češnjak za ekstrakciju', 'amount' => '50 g', 'percent' => '0,50 %', 'rate' => '5 g/kg', 'note' => 'Češnjak se zgnječi, kratko namače i procijedi. U nadjev se dodaje samo procijeđena tekućina.'],
+            ['name' => 'Prokuhana i ohlađena voda', 'amount' => '0,070 L', 'percent' => '0,70 %', 'rate' => '7 ml/kg', 'note' => 'Služi samo za ekstrakciju češnjaka i lakše raspoređivanje arome.'],
+        ],
+        'profile' => [
+            ['name' => 'Paprika', 'score' => 9],
+            ['name' => 'Dim', 'score' => 7],
+            ['name' => 'Ljutina', 'score' => 6],
+            ['name' => 'Slanoća', 'score' => 7],
+            ['name' => 'Masnoća', 'score' => 5],
+            ['name' => 'Tekstura', 'score' => 8],
+        ],
+        'climate' => [
+            ['title' => 'Izrada', 'text' => 'Sirovina mora ostati hladna, a rad miran i uredan. Kod kulena je posebno važno da se slanina ne razmaže i da paprika ravnomjerno obloži meso.'],
+            ['title' => 'Odležavanje nadjeva', 'text' => 'Nadjev se odmara u hladnom prostoru kako bi se sol, paprika i miris češnjaka povezali s mesom. Miris mora ostati čist i paprikast.'],
+            ['title' => 'Predsušenje', 'text' => 'Širi omotač traži strpljivo prosušivanje prije dima. Površina mora biti suha na dodir, ali ne smije postati tvrda.'],
+            ['title' => 'Dimljenje', 'text' => 'Koristi se hladan, tanak i suh dim. Kulen ne treba agresivan dim, nego više blagih ciklusa s odmorom između njih.'],
+            ['title' => 'Sušenje', 'text' => 'Sušenje mora biti postupno jer veliki promjer lako razvija tvrdu koru i vlažnu jezgru ako je zrak presuh ili prebrz.'],
+            ['title' => 'Zrenje', 'text' => 'Dugo zrenje razvija dubinu okusa, povezanu teksturu i stabilan presjek. Presjek mora biti crven, povezan i bez šupljina.'],
+        ],
+        'timeline' => [
+            ['day' => 'Dan 1', 'title' => 'Priprema mesa', 'text' => 'But i plećku očistiti od tetiva, grubog veziva i nepoželjnih dijelova. Slaninu držati vrlo hladnom.', 'critical' => 'Topla slanina i preduga obrada stvaraju razmazanu mast u presjeku.'],
+            ['day' => 'Dan 1', 'title' => 'Mljevenje i rezanje', 'text' => 'Meso mljeti kroz rešetku 8–10 mm, a tvrdu slaninu rezati ručno na kockice 8–12 mm.', 'critical' => 'Slanina se ne melje. Kockice daju prepoznatljiv presjek kulena.'],
+            ['day' => 'Dan 1', 'title' => 'Miješanje', 'text' => 'Meso, slaninu, sol, papriku, papar i procijeđenu češnjakovu tekućinu miješati dok masa ne postane ravnomjerna.', 'critical' => 'Masa se ne smije pregrijati niti pretvoriti u pastu.'],
+            ['day' => 'Dan 1–5', 'title' => 'Odmor nadjeva', 'text' => 'Nadjev odmarati pokriven u hladnjaku na 2–6 °C, uz svakodnevnu provjeru mirisa.', 'critical' => 'Kiseo ili neugodan miris u ovoj fazi nije prihvatljiv.'],
+            ['day' => 'Dan 5–6', 'title' => 'Punjenje', 'text' => 'Puniti u goveđa slijepa crijeva ili kate, čvrsto i bez zraka. Vidljive mjehuriće probosti čistom iglom.', 'critical' => 'Kod širokog omotača zračni džepovi su ozbiljan rizik kvarenja.'],
+            ['day' => 'Dan 6–8', 'title' => 'Početna stabilizacija', 'text' => 'Kulen objesiti u hladan i prozračan prostor da se nadjev smiri, a površina pripremi za predsušenje.', 'critical' => 'Ne počinjati s dimom dok je površina mokra.'],
+            ['day' => 'Dan 8–14', 'title' => 'Predsušenje', 'text' => 'Omotač se mora priljubiti uz masu i izgubiti površinsku vlagu.', 'critical' => 'Prebrzo sušenje u ovoj fazi zatvara površinu i usporava izlazak vlage iz jezgre.'],
+            ['day' => 'Dan 14–44', 'title' => 'Dimljenje', 'text' => 'Dimiti hladnim dimom u blagim ciklusima, s odmorima između dimljenja.', 'critical' => 'Temperatura dima ne smije prelaziti hladni režim; prejak dim daje gorčinu.'],
+            ['day' => 'Dan 44–120', 'title' => 'Sušenje', 'text' => 'Sušiti u tamnom i prozračnom prostoru uz kontrolu vlage, mirisa i tvrdoće površine.', 'critical' => 'Mekana jezgra i tvrda površina znak su prebrzog sušenja.'],
+            ['day' => 'Dan 120–180', 'title' => 'Zrenje', 'text' => 'Kulen dozrijeva dok ne postigne stabilan gubitak mase, čvrst presjek i zaokružen paprikasto-dimljeni miris.', 'critical' => 'Ne rezati prerano; veliki promjer traži vrijeme.'],
+            ['day' => 'Dan 180+', 'title' => 'Pakiranje i čuvanje', 'text' => 'Pakirati tek kada je kulen stabilan, površinski suh i više ne otpušta vlagu.', 'critical' => 'Prerano vakuumiranje može zarobiti vlagu i potaknuti kvarenje.'],
+        ],
+        'errors' => [
+            ['problem' => 'Razmazana mast', 'phase' => 'Rezanje / miješanje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Slanina je bila pretopla ili je previše obrađivana.', 'solution' => 'Slaninu rezati hladnu na 8–12 mm i skratiti miješanje.'],
+            ['problem' => 'Šupljine u presjeku', 'phase' => 'Punjenje', 'severity' => 'Rizik kvarenja', 'level' => 'danger', 'cause' => 'Zrak u nadjevu ili labavo punjenje.', 'solution' => 'Puniti čvrsto, probosti mjehuriće i vezati omotač bez praznih prostora.'],
+            ['problem' => 'Pretvrda kora', 'phase' => 'Sušenje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Preniska vlaga ili prejak protok zraka.', 'solution' => 'Povisiti relativnu vlagu, smanjiti propuh i produljiti sušenje.'],
+            ['problem' => 'Kiseo miris jezgre', 'phase' => 'Zrenje', 'severity' => 'Visok rizik', 'level' => 'danger', 'cause' => 'Nepravilna fermentacija, zrak u sredini ili presporo sušenje jezgre.', 'solution' => 'Proizvod ne prikrivati začinima; procijeniti sigurnost i odbaciti ako postoji sumnja.'],
+        ],
+        'done_when' => [
+            ['title' => 'Gubitak mase je najmanje 30 %', 'text' => 'Za dulje zrenje može ići prema 40 %, ovisno o promjeru i željenoj suhoći.'],
+            ['title' => 'Presjek je povezan', 'text' => 'Meso i slanina tvore čvrstu cjelinu bez šupljina i mokre jezgre.'],
+            ['title' => 'Miris je čist', 'text' => 'Paprika, dim i meso moraju biti skladni, bez kiselih, truležnih ili užeglih nota.'],
+            ['title' => 'Omotač je stabilan', 'text' => 'Omotač je suh, priljubljen i bez sluzavih mjesta.'],
+        ],
+        'safety' => [
+            ['level' => 'green', 'title' => 'Zeleno — normalno', 'text' => 'Čist paprikasto-dimljeni miris, stabilna površina, povezan presjek i postupni gubitak mase.'],
+            ['level' => 'yellow', 'title' => 'Žuto — oprez', 'text' => 'Pretvrda kora, neravnomjeran presjek, presporo sušenje ili blaga ljepljivost površine. Korigirati uvjete i pratiti.'],
+            ['level' => 'red', 'title' => 'Crveno — odbaci', 'text' => 'Truležan, kiseo ili užegao miris, sluzava površina, šupljine neugodnog mirisa ili zelene/crne promjene u presjeku.'],
+        ],
+        'serving' => [
+            ['title' => 'Rezanje', 'text' => 'Rezati tanko, najbolje nakon kratkog odmora na sobnoj temperaturi.'],
+            ['title' => 'Uz što poslužiti', 'text' => 'Kruh, sir, luk, kiselo povrće i jednostavna slavonska plata.'],
+            ['title' => 'Čuvanje cijelog proizvoda', 'text' => 'Čuvati na hladnom, tamnom i prozračnom mjestu, bez zatvaranja u plastiku dok proizvod otpušta vlagu.'],
+            ['title' => 'Nakon rezanja', 'text' => 'Zamotati u papir ili krpu i potrošiti u razumnom roku.'],
+        ],
+    ];
+}
+
+function dcv5_vinkovacka_sunka_profile($post_id) {
+    return [
+        'code' => 'HR-SL-020',
+        'title' => 'Vinkovačka šunka — suho soljena varijanta',
+        'region' => 'Vinkovci i srijemski prostor',
+        'type' => 'Cijeli komad',
+        'lead' => 'Vinkovačka šunka — suho soljena varijanta je slavonsko-srijemski proizvod od cijelog svinjskog buta, soljen suhim postupkom, hladno dimljen i dugim zrenjem doveden do čvrste teksture i čistog dimljenog mirisa.',
+        'quick' => [
+            ['label' => 'Šarža', 'value' => '1 but / 9–13 kg'],
+            ['label' => 'Trajanje', 'value' => '10–14 mjeseci'],
+            ['label' => 'Dimljenje', 'value' => 'hladni dim'],
+            ['label' => 'Omotač', 'value' => 'bez crijeva'],
+            ['label' => 'Gubitak mase', 'value' => 'postupno zrenje'],
+        ],
+        'materials' => [
+            ['name' => 'Svinjski but s kosti i kožom', 'amount' => '9–13 kg', 'percent' => '', 'rate' => '', 'note' => 'Cijeli anatomski komad. Koža i kost usporavaju sušenje i traže dulje zrenje.'],
+        ],
+        'spices' => [
+            ['name' => 'Kuhinjska sol', 'amount' => '550–650 g', 'percent' => '', 'rate' => '50–60 g/kg', 'note' => 'Količina se vodi prema masi buta. Sol se utrljava temeljito, osobito oko kosti i debljih dijelova.'],
+            ['name' => 'Crni papar', 'amount' => '35–55 g', 'percent' => '', 'rate' => '3–5 g/kg', 'note' => 'Daje blagi začinski sloj bez prekrivanja mirisa mesa i dima.'],
+            ['name' => 'Slatka paprika', 'amount' => '35–45 g', 'percent' => '', 'rate' => '3–4 g/kg', 'note' => 'Koristi se kao blagi slavonski začinski naglasak.'],
+            ['name' => 'Suhi češnjak ili češnjakova aroma', 'amount' => '20–35 g', 'percent' => '', 'rate' => '2–3 g/kg', 'note' => 'Koristiti odmjereno. Kod cijelih komada češnjak ne smije stvarati mokre džepove na površini.'],
+        ],
+        'liquids' => [
+            ['name' => 'Tekućina za češnjak', 'amount' => 'nije obvezna', 'percent' => '', 'rate' => '', 'note' => 'Kod ove suho soljene varijante tekućina se ne koristi kao dio nadjeva. Ako se koristi češnjakova aroma, površina mora ostati suha.'],
+            ['name' => 'Crijeva / omotači', 'amount' => 'ne koriste se', 'percent' => '', 'rate' => '', 'note' => 'Šunka je cijeli komad i ne puni se u crijevo. Zaštitu čine koža, površinsko sušenje i pravilno zrenje.'],
+        ],
+        'profile' => [
+            ['name' => 'Paprika', 'score' => 3],
+            ['name' => 'Dim', 'score' => 7],
+            ['name' => 'Ljutina', 'score' => 1],
+            ['name' => 'Slanoća', 'score' => 7],
+            ['name' => 'Masnoća', 'score' => 5],
+            ['name' => 'Tekstura', 'score' => 8],
+        ],
+        'climate' => [
+            ['title' => 'Suho soljenje', 'text' => 'Kod cijelog buta sol mora postupno prodirati prema sredini. Posebno se pazi područje oko kosti jer je to najosjetljivija zona.'],
+            ['title' => 'Stabilizacija nakon soljenja', 'text' => 'Nakon soljenja šunku treba odmoriti i prosušiti prije dima. Površina ne smije biti mokra ni ljepljiva.'],
+            ['title' => 'Dimljenje', 'text' => 'Dimljenje mora biti hladno, blago i postupno. Cilj je aroma i površinska stabilizacija, ne brzo sušenje.'],
+            ['title' => 'Sušenje', 'text' => 'Veliki komad traži sporo i mirno sušenje. Prebrz zrak zatvara površinu dok sredina ostaje previše vlažna.'],
+            ['title' => 'Zrenje', 'text' => 'Zrenjem se razvijaju čvrsta tekstura, zaokružen miris i stabilnost proizvoda. Kod šunke vrijeme ne treba požurivati.'],
+            ['title' => 'Čuvanje', 'text' => 'Gotova šunka čuva se u hladnom, tamnom i prozračnom prostoru, zaštićena od prevelike vlage i naglih promjena temperature.'],
+        ],
+        'timeline' => [
+            ['day' => 'Dan 1', 'title' => 'Obrada buta', 'text' => 'But očistiti, oblikovati i pregledati područje oko kosti, zglobova i kože.', 'critical' => 'Ne ostavljati nagnječene ili onečišćene dijelove.'],
+            ['day' => 'Dan 1–28', 'title' => 'Suho soljenje', 'text' => 'Sol i začine ravnomjerno utrljati u površinu. But držati na 2–4 °C i okretati svakih nekoliko dana.', 'critical' => 'Premalo soli oko kosti povećava rizik kvarenja jezgre.'],
+            ['day' => 'Dan 28–35', 'title' => 'Stabilizacija i predsušenje', 'text' => 'Nakon soljenja šunku objesiti da se površina smiri i prosuši prije dima.', 'critical' => 'Ne dimiti mokru površinu jer dim postaje grub i neujednačen.'],
+            ['day' => 'Dan 35–90', 'title' => 'Dimljenje', 'text' => 'Dimiti hladnim dimom u blagim ciklusima, uz pauze i dobro provjetravanje.', 'critical' => 'Dim ne smije biti topao, gust ni gorak.'],
+            ['day' => 'Mjesec 3–6', 'title' => 'Sušenje', 'text' => 'Šunku sušiti u stabilnim uvjetima, uz kontrolu površine, mirisa i sporog gubitka vlage.', 'critical' => 'Tvrda površina i mekana unutrašnjost znak su prebrzog sušenja.'],
+            ['day' => 'Mjesec 6–12', 'title' => 'Zrenje', 'text' => 'Šunka dozrijeva dok tekstura ne postane čvrsta, miris čist, a rez stabilan.', 'critical' => 'Kod sumnje na neugodan miris uz kost proizvod ne treba spašavati.'],
+            ['day' => 'Nakon zrenja', 'title' => 'Pakiranje i čuvanje', 'text' => 'Pakirati tek kada je proizvod stabilan i površinski suh. Za dulje čuvanje paziti da pakiranje ne zarobi vlagu.', 'critical' => 'Ako se u pakiranju pojavi vlaga ili neugodan miris, šunku izvaditi i provjeriti prije uporabe.'],
+        ],
+        'errors' => [
+            ['problem' => 'Kvarenje uz kost', 'phase' => 'Soljenje / zrenje', 'severity' => 'Visok rizik', 'level' => 'danger', 'cause' => 'Nedovoljno prodiranje soli ili previsoka temperatura.', 'solution' => 'Soljenje voditi hladno i dovoljno dugo; kod neugodnog mirisa uz kost proizvod ne koristiti.'],
+            ['problem' => 'Pretvrda površina', 'phase' => 'Sušenje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Prebrz zrak ili preniska relativna vlaga.', 'solution' => 'Smanjiti propuh, stabilizirati vlagu i produljiti sušenje.'],
+            ['problem' => 'Gorak dim', 'phase' => 'Dimljenje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Gust dim, vlažno drvo ili previsoka temperatura dima.', 'solution' => 'Koristiti suho tvrdo drvo i tanak hladni dim u kraćim ciklusima.'],
+            ['problem' => 'Ljepljiva površina', 'phase' => 'Predsušenje', 'severity' => 'Rizik', 'level' => 'danger', 'cause' => 'Previsoka vlaga i preslab protok zraka.', 'solution' => 'Poboljšati provjetravanje i ne nastavljati dimljenje dok površina nije stabilna.'],
+        ],
+        'done_when' => [
+            ['title' => 'Miris je čist', 'text' => 'Miris je dimljen, mesnat i zaokružen, bez truležnih ili kiselih nota, osobito uz kost.'],
+            ['title' => 'Tekstura je čvrsta', 'text' => 'Rez je stabilan, bez vlažne jezgre i bez ljepljivih dijelova.'],
+            ['title' => 'Površina je suha', 'text' => 'Površina nije sluzava, mokra ni neugodnog mirisa.'],
+            ['title' => 'Zrenje je završeno', 'text' => 'Vrijeme, tekstura, miris i rez pokazuju da proizvod više nije sirov u sredini.'],
+        ],
+        'safety' => [
+            ['level' => 'green', 'title' => 'Zeleno — normalno', 'text' => 'Suha površina, čist dimljeni miris, stabilan rez i čvrsta tekstura.'],
+            ['level' => 'yellow', 'title' => 'Žuto — oprez', 'text' => 'Pretvrda površina, sporo sušenje, blaga ljepljivost ili neujednačen miris. Popraviti uvjete i pratiti.'],
+            ['level' => 'red', 'title' => 'Crveno — odbaci', 'text' => 'Neugodan miris uz kost, sluzava površina, truležne note, zelene/crne promjene ili vlažna jezgra neugodnog mirisa.'],
+        ],
+        'serving' => [
+            ['title' => 'Rezanje', 'text' => 'Rezati tanko, oštrim nožem, nakon kratkog odmora komada na sobnoj temperaturi.'],
+            ['title' => 'Uz što poslužiti', 'text' => 'Odgovara uz kruh, sir, mladi luk, kiselo povrće i tradicionalnu slavonsku zakusku.'],
+            ['title' => 'Čuvanje cijele šunke', 'text' => 'Čuvati u hladnom, tamnom i prozračnom prostoru, bez zatvaranja dok proizvod otpušta vlagu.'],
+            ['title' => 'Nakon rezanja', 'text' => 'Reznu površinu zaštititi papirom ili čistom krpom i pratiti miris.'],
+        ],
+    ];
+}
+
+
+function dcv5_ratarske_kobasice_profile($post_id) {
+    return [
+        'code' => 'HR-SL-007',
+        'title' => 'Ratarske kobasice',
+        'region' => 'Slavonija',
+        'type' => 'Kobasica',
+        'lead' => 'Ratarske kobasice su slavonske trajne kobasice za šaržu od 10 kg mesne mase, s jasnim omjerom mesa i masnoće, začinima u gramima, hladnim dimljenjem i postupnim sušenjem.',
+        'quick' => [
+            ['label' => 'Šarža', 'value' => '10 kg mesne mase'],
+            ['label' => 'Trajanje', 'value' => '30–60 dana'],
+            ['label' => 'Dimljenje', 'value' => 'hladni dim'],
+
+=== 5) DCV5 RENDER ENTRY POINTS ===
+3:// DRYCURED v1.2 quantity profiles — global Batch 01 data layer.
+4:if (!function_exists('dcv12_batch01_quantity_profiles')) {
+5:    $dcv12_quantity_file = __DIR__ . '/drycured-batch01-quantity-profiles.php';
+32: * - osnovni kanonski renderer
+33: * - pilot HR-SL-007 renderer
+130:add_filter('the_content', 'dc_canon_recipe_override_content', 999);
+158:        $lead = wp_strip_all_tags(dc_canon_recipe_render_body($sections[2]['body']));
+556:        dc_canon_recipe_render_body($body) .
+560:function dc_canon_recipe_render_body($body_lines) {
+567:            $html .= dc_canon_recipe_render_table($table_lines);
+620:function dc_canon_recipe_render_table($lines) {
+648:    // samo kao semantičku pomoć, ali ne renderiramo klasičnu HTML tablicu.
+706:add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);
+718:     * Omogućuje pilot MD-import receptima da prođu kroz postojeći V5 renderer
+721:    $dcv5_bridge_profile = null;
+722:    if (function_exists('drycured_md_v5_bridge_profile')) {
+723:        $dcv5_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);
+726:    if (!in_array($code, dcv5_supported_recipe_codes(), true) && !$dcv5_bridge_profile) {
+730:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+731:    if (!$recipe && $dcv5_bridge_profile) {
+732:        $recipe = $dcv5_bridge_profile;
+750:    dcv5_render_recipe_schema($recipe);
+1012:        .dcv5-profile-row,
+1072:        .dcv5-profile-row {
+1080:        .dcv5-profile-name {
+1086:        .dcv5-profile-track {
+1093:        .dcv5-profile-fill {
+1099:        .dcv5-profile-score {
+1347:            .dcv5-profile-row {
+1440:                    <?php foreach ($recipe['profile'] as $item) : ?>
+1441:                        <div class="dcv5-profile-row">
+1442:                            <div class="dcv5-profile-name"><?php echo esc_html($item['name']); ?></div>
+1443:                            <div class="dcv5-profile-track"><div class="dcv5-profile-fill" style="width: <?php echo esc_attr($item['score'] * 10); ?>%"></div></div>
+1444:                            <div class="dcv5-profile-score"><?php echo esc_html($item['score']); ?>/10</div>
+1596:function dcv5_render_recipe_schema($recipe) {
+1636:function dcv5_get_recipe_profile($post_id, $code = '') {
+1640:     * MD-import pilot profili moraju biti dostupni kroz samu dcv5_get_recipe_profile()
+1643:    if (function_exists('drycured_md_v5_bridge_profile')) {
+1644:        $dcv5_md_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);
+1645:        if ($dcv5_md_bridge_profile) {
+1646:            return $dcv5_md_bridge_profile;
+1654:    $profile = null;
+1657:        $profile = dcv5_slavonski_kulen_profile($post_id);
+1659:        $profile = dcv5_ratarske_kobasice_profile($post_id);
+1661:        $profile = dcv5_vinkovacka_sunka_profile($post_id);
+1662:    } elseif (function_exists('dcv12_profile_from_post')) {
+1663:        $profile = dcv12_profile_from_post($post_id, $code);
+1666:    if (function_exists('dcv12_apply_final_profile_overrides')) {
+1667:        $profile = dcv12_apply_final_profile_overrides($profile, $code);
+1670:    if (function_exists('dcv14_final_ingredient_sanity_profile')) {
+1671:        $profile = dcv14_final_ingredient_sanity_profile($profile, $code);
+1674:    if (function_exists('dcv16_whole_piece_profile_guard')) {
+1675:        $profile = dcv16_whole_piece_profile_guard($profile, $code, $post_id);
+1678:    if (function_exists('dcv20_source_lock_profile')) {
+1679:        $profile = dcv20_source_lock_profile($profile, $code, $post_id);
+1682:    if (function_exists('dcv31_hrsl001_final_profile_source_lock')) {
+1683:        $profile = dcv31_hrsl001_final_profile_source_lock($profile, $code, $post_id);
+1686:    return $profile;
+1689:function dcv5_recipe_js_profile($recipe) {
+1724:function dcv5_slavonski_kulen_profile($post_id) {
+1752:        'profile' => [
+1807:function dcv5_vinkovacka_sunka_profile($post_id) {
+1834:        'profile' => [
+1886:function dcv5_ratarske_kobasice_profile($post_id) {
+1915:        'profile' => [
+2818:            const profile = document.querySelector('#profil');
+2819:            if (!profile) {
+2823:            if (!profile.querySelector('.dcv5-sensory-summary')) {
+2824:                const note = profile.querySelector('.dcv5-section-note');
+2831:                    profile.insertBefore(summary, profile.firstChild);
+2862:            const candidates = Array.from(profile.querySelectorAll('div, article, li'))
+2915:add_filter('the_content', 'dcv6_feature_pack_content', 1250);
+2925:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+2930:    $content = dcv6_insert_before_layout($content, dcv6_render_work_summary());
+2931:    $content = dcv6_insert_after_section($content, 'klima', dcv6_render_micro_variations());
+2932:    $content = dcv6_insert_after_section($content, 'posluzivanje', dcv6_render_related_recipes($post_id));
+2933:    $content = dcv6_insert_after_section($content, 'posluzivanje', dcv6_render_compare_block());
+2934:    $content = dcv6_insert_before_section_close($content, 'dnevnik', dcv6_render_digital_batch_diary());
+2935:    $content = dcv6_insert_before_main_close($content, dcv6_render_admin_block($post_id));
+2936:    $content .= dcv6_render_enhanced_schema($post_id);
+2999:function dcv6_render_work_summary() {
+3030:function dcv6_render_micro_variations() {
+3060:function dcv6_render_related_recipes($current_post_id) {
+3125:function dcv6_render_compare_block() {
+3145:function dcv6_render_digital_batch_diary() {
+3189:function dcv6_render_admin_block($post_id) {
+3219:function dcv6_render_enhanced_schema($post_id) {
+3221:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+3479:            const profile = <?php
+3482:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+3483:                echo wp_json_encode(dcv5_recipe_js_profile($dcv6_footer_profile), JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+3486:            if (!profile || !profile.code) {
+3490:            window.drycuredRecipeProfile = profile;
+3492:                localStorage.setItem('drycured_recipe_profile_' + profile.code, JSON.stringify(profile));
+3560:                const key = 'drycured_batch_diary_' + profile.code;
+3604:                if (new URLSearchParams(window.location.search).get('recipe') === profile.code) {
+3606:                        localStorage.setItem('drycured_calculator_requested_recipe', profile.code);
+3630:add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+3640:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+3871:            // JS sigurnosni sloj ako je neki raniji filter već renderirao blokove.
+4081:             * Sigurnosno ukloni defaultne navigacije koje tema može renderirati kasnije.
+4384:            const profile = window.drycuredRecipeProfile || {};
+4385:            const code = profile.code || '';
+4643: * - Ne renderira novi HTML prikaz.
+4644: * - Svi Batch 01 recepti hrane postojeći potvrđeni dcv5/dcv6 renderer.
+4723:            'profile' => [
+4890:if (!function_exists('dcv12_recipe_quantity_profile_from_content')) {
+4891:    function dcv12_recipe_quantity_profile_from_content($post_id) {
+4997:if (!function_exists('dcv12_profile_from_post')) {
+4998:    function dcv12_profile_from_post($post_id, $code) {
+5009:        $quant = dcv12_recipe_quantity_profile_from_content($post_id);
+5011:        $global_quant = function_exists('dcv12_quantity_profile_for_code') ? dcv12_quantity_profile_for_code($code) : null;
+5054:            'profile' => $defaults['profile'],
+5198:if (!function_exists('dcv16_whole_piece_profile_guard')) {
+5199:    function dcv16_whole_piece_profile_guard($profile, $code, $post_id = 0) {
+5200:        if (!is_array($profile) || !dcv16_is_whole_piece_recipe($code, $post_id)) {
+5201:            return $profile;
+5206:        $spices = array_values($profile['spices'] ?? []);
+5207:        $liquids = array_values($profile['liquids'] ?? []);
+5243:        $profile['spices'] = array_values($spices);
+5244:        $profile['liquids'] = array_values($clean_liquids);
+5246:        return $profile;
+5308:add_filter('the_content', 'dcv16_whole_piece_cure_content_cleanup', 1510);
+5436:if (!function_exists('dcv12_apply_final_profile_overrides')) {
+5437:    function dcv12_apply_final_profile_overrides($profile, $code) {
+5438:    if (!is_array($profile)) {
+5439:        return $profile;
+5442:    $spices = array_values($profile['spices'] ?? []);
+5443:    $liquids = array_values($profile['liquids'] ?? []);
+5596:    $profile['spices'] = array_values($spices);
+5597:    $profile['liquids'] = array_values($liquids);
+5599:    return $profile;
+5899:if (!function_exists('dcv14_final_ingredient_sanity_profile')) {
+5900:    function dcv14_final_ingredient_sanity_profile($profile, $code) {
+5901:        if (!is_array($profile)) {
+5902:            return $profile;
+5910:            $profile['materials'] = [
+5927:            $profile['spices'] = [
+5958:            $profile['liquids'] = [
+5975:            return $profile;
+5982:        foreach (($profile['materials'] ?? []) as $item) {
+5990:        foreach (($profile['spices'] ?? []) as $item) {
+6015:        foreach (($profile['liquids'] ?? []) as $item) {
+6035:        $profile['materials'] = dcv14_dedupe_items($materials);
+6036:        $profile['spices'] = dcv14_dedupe_items($spices);
+6037:        $profile['liquids'] = dcv14_dedupe_items($liquids);
+6039:        return $profile;
+6141:add_filter('the_content', 'dcv17_whole_piece_late_content_cleanup', 9999);
+6227:if (!function_exists('dcv20_source_lock_profile')) {
+6228:    function dcv20_source_lock_profile($profile, $code, $post_id = 0) {
+6230:            return $profile;
+6238:        $profile['materials'] = [
+6269:        $profile['spices'] = [
+6293:        $profile['liquids'] = [
+6303:        $profile['casings'] = [
+6316:        $profile['source_lock'] = [
+6323:        return $profile;
+6330:if (!function_exists('dcv21_hrsl001_late_source_render_cleanup')) {
+6331:    function dcv21_hrsl001_late_source_render_cleanup($content) {
+6421:add_filter('the_content', 'dcv21_hrsl001_late_source_render_cleanup', 30000);
+6468:add_filter('the_content', 'dcv22_hrsl001_process_omotac_fix', 40000);
+6553:if (!function_exists('dcv31_hrsl001_final_profile_source_lock')) {
+6554:    function dcv31_hrsl001_final_profile_source_lock($profile, $code, $post_id = 0) {
+6556:            return $profile;
+6559:        $profile['materials'] = [
+6590:        $profile['spices'] = [
+6614:        $profile['liquids'] = [
+6624:        $profile['casings'] = [
+6637:        $profile['process_summary'] = [
+6644:        $profile['source_lock'] = [
+6650:        return dcv31_hrsl001_sanitize_value($profile);
+6690:add_filter('the_content', 'dcv31_hrsl001_final_public_cleanup', 50000);
+
+=== 6) GIT STATUS ===
+?? 04_OPERATION/recipe_master/reports/DCV5_RENDERER_SOURCE_CONTRACT_AUDIT_2026-06-12_10-41-53.txt
