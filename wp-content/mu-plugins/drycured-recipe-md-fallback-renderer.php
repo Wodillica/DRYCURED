@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Drycured Recipe MD Fallback Renderer
  * Description: Public fallback renderer for dry_recipe posts without a valid DCV5 profile.
- * Version: 0.3.1
+ * Version: 0.3.2
  * Author: drycured.com
  */
 
@@ -66,15 +66,142 @@ function dcmdfr_terms_line($post_id, $taxonomy) {
     return implode(' · ', array_map('sanitize_text_field', $terms));
 }
 
+function dcmdfr_detect_context($title, $category, $process) {
+    $all = mb_strtolower($title . ' ' . $category . ' ' . $process, 'UTF-8');
+
+    $is_fish = preg_match('/riba|losos|laks|lax|siika|šaran|saran|pastrv|koryushka|rakfisk|gravlax|graavilohi|lašiš|lasis|kylmäsavulohi|røkelaks|dimljeni siika/iu', $all);
+    $is_cheese = preg_match('/sir|peynir|vacherin|fribourgeois|burduf|sirnate|sir-kobasica/iu', $all);
+    $is_whole_cut = preg_match('/šunka|sunka|rohschinken|prosciutto|pršut|prsut|jamón|jamon|jambon|pancet|slanina|lardo|bresaola|lonz|coppa|guanciale|vrat|but|rebra|stelja|chaps|suitsink|spegeskinke/iu', $all);
+    $is_fat = preg_match('/lardo|slanina|panceta|guanciale|leđna mast|ledna mast|bacon/iu', $all);
+    $is_sausage = preg_match('/kobas|salama|salame|salami|saucisson|wurst|chorizo|loukaniko|kulen|mettwurst|salsiccia|carnati|cârnați|nduja|andouille|landjäger|landjager/iu', $all);
+
+    $family = 'meat';
+    if ($is_fish) $family = 'fish';
+    elseif ($is_cheese && !$is_sausage && !$is_whole_cut) $family = 'cheese';
+    elseif ($is_sausage) $family = 'sausage';
+    elseif ($is_fat) $family = 'fat_or_bacon';
+    elseif ($is_whole_cut) $family = 'whole_cut';
+
+    $type_label = 'suhomesnati proizvod';
+    $raw_material = 'meso';
+
+    if ($family === 'fish') {
+        $type_label = 'riblji proizvod za soljenje, mariniranje ili dimljenje';
+        $raw_material = 'riba';
+    } elseif ($family === 'cheese') {
+        $type_label = 'sirni ili punjeni proizvod za zasebnu provjeru';
+        $raw_material = 'sir ili punjeno meso';
+    } elseif ($family === 'sausage') {
+        $type_label = 'suha kobasica ili salama';
+        $raw_material = 'svinjetina ili drugo meso prema receptu';
+    } elseif ($family === 'fat_or_bacon') {
+        $type_label = 'sušena slanina, panceta ili masno tkivo';
+        $raw_material = 'svinjetina / masno tkivo';
+    } elseif ($family === 'whole_cut') {
+        $type_label = 'sušeni ili dimljeni cijeli komad mesa';
+        if (preg_match('/šunka|sunka|rohschinken|prosciutto|pršut|prsut|jamón|jamon|jambon|suitsink|spegeskinke/iu', $all)) {
+            $type_label = 'sirova, sušena ili dimljena šunka';
+        }
+        $raw_material = 'cijeli komad mesa';
+    }
+
+    return [
+        'family' => $family,
+        'is_fish' => (bool)$is_fish,
+        'is_cheese' => (bool)$is_cheese,
+        'is_whole_cut' => (bool)$is_whole_cut,
+        'is_sausage' => (bool)$is_sausage,
+        'type_label' => $type_label,
+        'raw_material' => $raw_material,
+    ];
+}
+
+function dcmdfr_clean_meta_category($category, $ctx) {
+    $category = trim((string)$category);
+
+    if ($category === '' || preg_match('/sušeni zreli sir|suseni zreli sir/iu', $category)) {
+        return $ctx['type_label'];
+    }
+
+    if (!$ctx['is_fish']) {
+        $category = preg_replace('/\s*riba\/morski proizvodi\s*/iu', '', $category);
+    }
+
+    if (!$ctx['is_cheese'] && preg_match('/sir/iu', $category)) {
+        return $ctx['type_label'];
+    }
+
+    return trim($category, " \t\n\r\0\x0B·|,");
+}
+
+function dcmdfr_clean_meta_process($process) {
+    $process = trim((string)$process);
+    $process = preg_replace('/\s*\|\s*/u', ' · ', $process);
+    $process = preg_replace('/\s+/u', ' ', $process);
+    return $process;
+}
+
+function dcmdfr_sanitize_line_for_context($line, $ctx) {
+    $line = dcmdfr_clean_public_text_line($line);
+    if ($line === '') return '';
+
+    if (preg_match('/^\s*Tip proizvoda\s*:/iu', $line)) {
+        return 'Tip proizvoda: ' . $ctx['type_label'] . '.';
+    }
+
+    if (preg_match('/^\s*Glavna sirovina\s*:/iu', $line)) {
+        return 'Glavna sirovina: ' . $ctx['raw_material'] . '.';
+    }
+
+    if (preg_match('/^\s*Crijeva\/omotač\s*:/iu', $line) || preg_match('/^\s*Crijeva\/omotac\s*:/iu', $line)) {
+        if ($ctx['family'] === 'whole_cut' || $ctx['family'] === 'fat_or_bacon') {
+            return 'Omotač: ne koristi se; proizvod se obrađuje kao cijeli komad mesa.';
+        }
+        if ($ctx['family'] === 'fish') {
+            return 'Omotač: ne koristi se; proizvod se soli, marinira ili dimi kao file ili komad.';
+        }
+        if ($ctx['family'] === 'sausage') {
+            return 'Crijeva/omotač: koristiti prirodno ili odgovarajuće jestivo crijevo te puniti bez zračnih džepova.';
+        }
+    }
+
+    if (!$ctx['is_fish']) {
+        $line = preg_replace('/svinjetina\/svinjski proizvodi,\s*riba\/morski proizvodi/iu', $ctx['raw_material'], $line);
+        $line = preg_replace('/,\s*riba\/morski proizvodi/iu', '', $line);
+        $line = preg_replace('/riba\/morski proizvodi,\s*/iu', '', $line);
+        $line = preg_replace('/riba\/morski proizvodi/iu', $ctx['raw_material'], $line);
+        $line = preg_replace('/\briba\b|morski proizvodi/iu', $ctx['raw_material'], $line);
+    }
+
+    if (!$ctx['is_cheese']) {
+        $line = preg_replace('/sušeni zreli sir|suseni zreli sir/iu', $ctx['type_label'], $line);
+        $line = preg_replace('/sirni proizvod|sirnate kobasice/iu', $ctx['type_label'], $line);
+    }
+
+    if (($ctx['family'] === 'whole_cut' || $ctx['family'] === 'fat_or_bacon') && preg_match('/puniti bez zračnih džepova|puniti bez zracnih dzepova/iu', $line)) {
+        $line = 'Oblikovanje: komad mora biti ravnomjerno nasoljen, pravilno okretan i sušen bez zatvaranja površine.';
+    }
+
+    if ($ctx['family'] === 'sausage') {
+        $line = preg_replace('/crijeva\/omotač:\s*ne koriste se[^.]*\./iu', 'Crijeva/omotač: koristiti prirodno ili odgovarajuće jestivo crijevo te puniti bez zračnih džepova.', $line);
+        $line = preg_replace('/crijeva\/omotac:\s*ne koriste se[^.]*\./iu', 'Crijeva/omotač: koristiti prirodno ili odgovarajuće jestivo crijevo te puniti bez zračnih džepova.', $line);
+    }
+
+    $line = preg_replace('/\s+,/u', ',', $line);
+    $line = preg_replace('/,\s*\./u', '.', $line);
+    $line = preg_replace('/\s{2,}/u', ' ', $line);
+
+    return trim($line);
+}
+
 function dcmdfr_inline_format($text) {
-    $text = dcmdfr_clean_public_text_line($text);
     $text = esc_html($text);
     $text = preg_replace('/\*\*(.*?)\*\*/u', '<strong>$1</strong>', $text);
     $text = preg_replace('/\*(.*?)\*/u', '<em>$1</em>', $text);
     return $text;
 }
 
-function dcmdfr_markdown_to_html($markdown, $display_title = '') {
+function dcmdfr_markdown_to_html($markdown, $display_title = '', $ctx = []) {
     $markdown = str_replace(["\r\n", "\r"], "\n", trim((string)$markdown));
     $lines = explode("\n", $markdown);
 
@@ -90,8 +217,7 @@ function dcmdfr_markdown_to_html($markdown, $display_title = '') {
     };
 
     foreach ($lines as $line) {
-        $trim = dcmdfr_clean_public_text_line($line);
-
+        $trim = dcmdfr_sanitize_line_for_context($line, $ctx);
         if ($trim === '') {
             $close_lists();
             continue;
@@ -99,6 +225,7 @@ function dcmdfr_markdown_to_html($markdown, $display_title = '') {
 
         if (preg_match('/^(#{1,4})\s+(.+)$/u', $trim, $m)) {
             $heading_text = dcmdfr_clean_display_title($m[2]);
+            $heading_text = dcmdfr_sanitize_line_for_context($heading_text, $ctx);
 
             if (!$first_heading_skipped && $display_title !== '' && mb_strtolower($heading_text, 'UTF-8') === mb_strtolower($display_title, 'UTF-8')) {
                 $first_heading_skipped = true;
@@ -123,6 +250,7 @@ function dcmdfr_markdown_to_html($markdown, $display_title = '') {
             $section_open = true;
 
             $heading = trim($m[1] . ($m[2] ?? ''));
+            $heading = dcmdfr_sanitize_line_for_context($heading, $ctx);
             $html .= '<section class="dc-md-section"><h2>' . dcmdfr_inline_format($heading) . "</h2>\n";
             continue;
         }
@@ -133,16 +261,22 @@ function dcmdfr_markdown_to_html($markdown, $display_title = '') {
         }
 
         if (preg_match('/^[-*•]\s+(.+)$/u', $trim, $m)) {
+            $item = dcmdfr_sanitize_line_for_context($m[1], $ctx);
+            if ($item === '') continue;
+
             if ($in_ol) { $html .= "</ol>\n"; $in_ol = false; }
             if (!$in_ul) { $html .= "<ul>\n"; $in_ul = true; }
-            $html .= '<li>' . dcmdfr_inline_format($m[1]) . "</li>\n";
+            $html .= '<li>' . dcmdfr_inline_format($item) . "</li>\n";
             continue;
         }
 
         if (preg_match('/^\d+\.\s+(.+)$/u', $trim, $m)) {
+            $item = dcmdfr_sanitize_line_for_context($m[1], $ctx);
+            if ($item === '') continue;
+
             if ($in_ul) { $html .= "</ul>\n"; $in_ul = false; }
             if (!$in_ol) { $html .= "<ol>\n"; $in_ol = true; }
-            $html .= '<li>' . dcmdfr_inline_format($m[1]) . "</li>\n";
+            $html .= '<li>' . dcmdfr_inline_format($item) . "</li>\n";
             continue;
         }
 
@@ -156,12 +290,41 @@ function dcmdfr_markdown_to_html($markdown, $display_title = '') {
     return $html;
 }
 
+function dcmdfr_clean_full_fallback_html($html, $ctx = []) {
+    if (stripos($html, 'dc-md-fallback-recipe') === false) {
+        return $html;
+    }
+
+    $html = preg_replace('/\?{2,}\s*/u', '', $html);
+
+    if (empty($ctx['is_fish'])) {
+        $html = preg_replace('/svinjetina\/svinjski proizvodi,\s*riba\/morski proizvodi/iu', $ctx['raw_material'] ?? 'meso', $html);
+        $html = preg_replace('/,\s*riba\/morski proizvodi/iu', '', $html);
+        $html = preg_replace('/riba\/morski proizvodi,\s*/iu', '', $html);
+        $html = preg_replace('/riba\/morski proizvodi/iu', $ctx['raw_material'] ?? 'meso', $html);
+    }
+
+    if (empty($ctx['is_cheese'])) {
+        $html = preg_replace('/sušeni zreli sir|suseni zreli sir/iu', $ctx['type_label'] ?? 'suhomesnati proizvod', $html);
+    }
+
+    $html = preg_replace('/\s{2,}/u', ' ', $html);
+
+    return $html;
+}
+
 function dcmdfr_render_page($post_id, $markdown, $code, $mode) {
     $title = dcmdfr_clean_display_title(get_the_title($post_id));
     $country = dcmdfr_terms_line($post_id, 'dry_country');
-    $category = dcmdfr_terms_line($post_id, 'dry_product_category');
-    $process = dcmdfr_terms_line($post_id, 'dry_process_type');
-    $html_body = dcmdfr_markdown_to_html($markdown, $title);
+    $category_raw = dcmdfr_terms_line($post_id, 'dry_product_category');
+    $process_raw = dcmdfr_terms_line($post_id, 'dry_process_type');
+
+    $ctx = dcmdfr_detect_context($title, $category_raw, $process_raw);
+
+    $category = dcmdfr_clean_meta_category($category_raw, $ctx);
+    $process = dcmdfr_clean_meta_process($process_raw);
+
+    $html_body = dcmdfr_markdown_to_html($markdown, $title, $ctx);
 
     ob_start();
     ?>
@@ -250,9 +413,7 @@ function dcmdfr_render_page($post_id, $markdown, $code, $mode) {
             color:#07142d;
         }
 
-        .dc-md-body {
-            padding:26px;
-        }
+        .dc-md-body { padding:26px; }
 
         .dc-md-section {
             background:#fffdf7;
@@ -290,7 +451,6 @@ function dcmdfr_render_page($post_id, $markdown, $code, $mode) {
         }
 
         .dc-md-section li { margin:6px 0; }
-
         .dc-md-section strong { color:#07142d; }
 
         @media (max-width:780px) {
@@ -303,12 +463,8 @@ function dcmdfr_render_page($post_id, $markdown, $code, $mode) {
             .dc-md-section {
                 padding:20px 17px;
             }
-            .dc-md-meta {
-                grid-template-columns:1fr;
-            }
-            .dc-md-hero h1 {
-                font-size:34px;
-            }
+            .dc-md-meta { grid-template-columns:1fr; }
+            .dc-md-hero h1 { font-size:34px; }
         }
     </style>
 
@@ -325,8 +481,8 @@ function dcmdfr_render_page($post_id, $markdown, $code, $mode) {
         <section class="dc-md-meta" aria-label="Osnovni podaci recepta">
             <div><span>Šifra</span><strong><?php echo esc_html($code ?: 'nije navedeno'); ?></strong></div>
             <div><span>Zemlja</span><strong><?php echo esc_html($country ?: 'nije navedeno'); ?></strong></div>
-            <div><span>Kategorija</span><strong><?php echo esc_html($category ?: 'nije navedeno'); ?></strong></div>
-            <div><span>Proces</span><strong><?php echo esc_html($process ?: 'nije navedeno'); ?></strong></div>
+            <div><span>Kategorija</span><strong><?php echo esc_html($category ?: $ctx['type_label']); ?></strong></div>
+            <div><span>Proces</span><strong><?php echo esc_html($process ?: 'prema tipu proizvoda'); ?></strong></div>
         </section>
 
         <main class="dc-md-body">
@@ -334,31 +490,20 @@ function dcmdfr_render_page($post_id, $markdown, $code, $mode) {
         </main>
     </article>
     <?php
-    return ob_get_clean();
-}
-
-
-function dcmdfr_clean_full_fallback_html($html) {
-    // Clean only fallback-rendered output. This removes imported dirty title markers
-    // such as "??" from document title, SEO fragments, breadcrumbs and visible text.
-    if (stripos($html, 'dc-md-fallback-recipe') === false) {
-        return $html;
-    }
-
-    $html = preg_replace('/\?{2,}\s*/u', '', $html);
-    $html = preg_replace('/\s{2,}/u', ' ', $html);
-
-    return $html;
+    return [ob_get_clean(), $ctx];
 }
 
 function dcmdfr_output_fallback_page($post_id, $markdown, $code, $mode) {
     ob_start();
     get_header();
-    echo dcmdfr_render_page($post_id, $markdown, $code, $mode);
-    get_footer();
 
+    [$page, $ctx] = dcmdfr_render_page($post_id, $markdown, $code, $mode);
+    echo $page;
+
+    get_footer();
     $html = ob_get_clean();
-    echo dcmdfr_clean_full_fallback_html($html);
+
+    echo dcmdfr_clean_full_fallback_html($html, $ctx);
 }
 
 function dcmdfr_maybe_render() {
