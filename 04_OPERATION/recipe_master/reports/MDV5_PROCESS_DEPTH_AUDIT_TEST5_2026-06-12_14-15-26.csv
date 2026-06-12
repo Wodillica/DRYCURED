@@ -1,0 +1,6 @@
+post_id,title,family,has_grinding_mm,has_cutting_mm,has_casing_caliber_mm,has_casing_soak,has_fermentation_time,has_fermentation_temp_rh,has_smoke_cycles,has_smoke_time,has_drying_days,has_drying_temp_rh,has_maturation_days,has_weight_loss,missing_summary,result
+1982,"FINOCCHIONA TOSCANA",SAUSAGE_SALAMI,YES,YES,YES,YES,YES,YES,NO,YES,YES,YES,YES,YES,broj_ciklusa_dimljenja,MISSING_PROCESS_DETAIL
+1983,"PROSCIUTTO DI SAN DANIELE",HAM_PROSCIUTTO,NO,NO,NO,YES,NO,NO,NO,YES,YES,YES,YES,YES,,OK_PROCESS_DETAIL
+1984,"NDUJA CALABRESE",SAUSAGE_SALAMI,YES,YES,YES,YES,YES,YES,NO,YES,YES,YES,YES,YES,broj_ciklusa_dimljenja,MISSING_PROCESS_DETAIL
+1986,"LARDO DI COLONNATA",BACON_FAT,YES,YES,NO,YES,YES,YES,NO,YES,NO,YES,NO,YES,trajanje_susenja_zrenja,MISSING_PROCESS_DETAIL
+1990,"SALAME DI FELINO",SAUSAGE_SALAMI,YES,YES,YES,YES,YES,YES,NO,YES,YES,YES,YES,YES,broj_ciklusa_dimljenja,MISSING_PROCESS_DETAIL
