@@ -1426,7 +1426,7 @@ function dcv5_recipe_view_pilot_content($content) {
 
                 <section class="dcv5-panel" id="tekucine">
                     <h2><span>4</span>Tekućine i češnjak</h2>
-                    <p class="dcv5-section-note">Tekućine se prikazuju u litrama. Češnjak se ne dodaje kao komadić, nego kao procijeđena aromatična tekućina.</p>
+                    <p class="dcv5-section-note">Tekućine se prikazuju prema izvornom receptu. Češnjak se prikazuje kao izravni dodatak, macerat ili procijeđena tekućina samo kada je takav postupak jasno naveden.</p>
 
                     <div class="dcv5-card-grid two">
                         <?php foreach ($recipe['liquids'] as $item) : dcv5_card($item); endforeach; ?>

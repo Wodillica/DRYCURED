@@ -1,0 +1,6 @@
+post_id,title,ingredients_garlic_line,ingredients_liquid_line,phase_garlic_line,strict_mode,public_bad_auto_liquid_text,public_direct_garlic_visible,missing_required_details,result
+1982,"FINOCCHIONA TOSCANA","5 g češnjaka, sitno sjeckanog","15 g crnog papra, grubo mljevenog",NO,DIRECT_GARLIC,YES,NO,,BAD_PUBLIC_GARLIC_TEXT
+1983,"PROSCIUTTO DI SAN DANIELE",NO,NO,NO,NO_GARLIC,YES,NO,,BAD_PUBLIC_GARLIC_TEXT
+1984,"NDUJA CALABRESE","8 g češnjaka, sitno sjeckanog","10 g crnog papra, mljevenog",NO,DIRECT_GARLIC,YES,NO,,BAD_PUBLIC_GARLIC_TEXT
+1986,"LARDO DI COLONNATA","10 g češnjaka, sitno nasjeckanog","20 g crnog papra, grubo mljevenog","Pomiješajte sve začine, sol, med i češnjak Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.",GARLIC_MACERATE,YES,YES,"količina češnjaka|količina tekućine|vrijeme namakanja|hladno/prokuhano|procijediti ili koristiti sve",BAD_GARLIC_REQUIRED_DETAILS
+1990,"SALAME DI FELINO","10 g češnjaka, sitno nasjeckanog","25 g crnog papra u zrnu, grubo mlevenog","Dodajte papar i češnjak Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.",GARLIC_MACERATE,YES,YES,"količina češnjaka|količina tekućine|vrijeme namakanja|hladno/prokuhano|procijediti ili koristiti sve",BAD_GARLIC_REQUIRED_DETAILS

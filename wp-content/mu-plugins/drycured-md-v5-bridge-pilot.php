@@ -1174,6 +1174,133 @@ JSON;
 }
 
 
+
+/*
+ * DRYCURED_MDV5_GARLIC_LIQUID_NORMALIZER_v03
+ * Direct garlic must not be displayed as aromatic strained liquid.
+ */
+if (!function_exists('drycured_mdv5_garlic_liquid_normalize_v03')) {
+    function drycured_mdv5_garlic_liquid_normalize_v03($post_id, $profile) {
+        if (!is_array($profile)) {
+            return $profile;
+        }
+
+        $raw_data = (string)get_post_meta($post_id, '_dry_recipe_data', true);
+        $data = json_decode($raw_data, true);
+
+        $ingredient_lines = [];
+        if (is_array($data) && !empty($data['public_recipe']['ingredients']) && is_array($data['public_recipe']['ingredients'])) {
+            foreach ($data['public_recipe']['ingredients'] as $row) {
+                if (is_array($row)) {
+                    $ingredient_lines[] = trim((string)($row['name'] ?? '') . ' ' . (string)($row['amount'] ?? ''));
+                }
+            }
+        }
+
+        $source_garlic_direct = false;
+        foreach ($ingredient_lines as $line) {
+            if (
+                preg_match('/češnjak|cesnjak|bijeli luk|garlic/iu', $line) &&
+                preg_match('/sitno|sjeckan|nasjeckan|mljeven|protisnut|pasta/iu', $line)
+            ) {
+                $source_garlic_direct = true;
+                break;
+            }
+        }
+
+        $source_has_any_garlic = false;
+        foreach ($ingredient_lines as $line) {
+            if (preg_match('/češnjak|cesnjak|bijeli luk|garlic/iu', $line)) {
+                $source_has_any_garlic = true;
+                break;
+            }
+        }
+
+        if (!$source_garlic_direct && !$source_has_any_garlic) {
+            if (!empty($profile['liquids']) && is_array($profile['liquids'])) {
+                $new_liquids = [];
+                foreach ($profile['liquids'] as $item) {
+                    $txt = is_array($item)
+                        ? wp_json_encode($item, JSON_UNESCAPED_UNICODE)
+                        : (string)$item;
+
+                    if (preg_match('/češnjak|cesnjak|bijeli luk|garlic/iu', $txt)) {
+                        continue;
+                    }
+
+                    $new_liquids[] = $item;
+                }
+                $profile['liquids'] = $new_liquids;
+            }
+
+            $profile['_garlic_mode_v03'] = 'NO_GARLIC';
+            return $profile;
+        }
+
+        if (!$source_garlic_direct) {
+            return $profile;
+        }
+
+        $moved = [];
+
+        if (!empty($profile['liquids']) && is_array($profile['liquids'])) {
+            $new_liquids = [];
+
+            foreach ($profile['liquids'] as $item) {
+                $txt = is_array($item)
+                    ? wp_json_encode($item, JSON_UNESCAPED_UNICODE)
+                    : (string)$item;
+
+                if (preg_match('/češnjak|cesnjak|bijeli luk|garlic/iu', $txt)) {
+                    $moved[] = $item;
+                    continue;
+                }
+
+                $new_liquids[] = $item;
+            }
+
+            $profile['liquids'] = $new_liquids;
+        }
+
+        if (!empty($moved)) {
+            if (empty($profile['spices']) || !is_array($profile['spices'])) {
+                $profile['spices'] = [];
+            }
+
+            foreach ($moved as $item) {
+                $exists = false;
+                $moved_txt = is_array($item)
+                    ? wp_json_encode($item, JSON_UNESCAPED_UNICODE)
+                    : (string)$item;
+
+                foreach ($profile['spices'] as $sp) {
+                    $sp_txt = is_array($sp)
+                        ? wp_json_encode($sp, JSON_UNESCAPED_UNICODE)
+                        : (string)$sp;
+
+                    if (
+                        preg_match('/češnjak|cesnjak|bijeli luk|garlic/iu', $sp_txt) &&
+                        preg_match('/češnjak|cesnjak|bijeli luk|garlic/iu', $moved_txt)
+                    ) {
+                        $exists = true;
+                        break;
+                    }
+                }
+
+                if (!$exists) {
+                    $profile['spices'][] = $item;
+                }
+            }
+        }
+
+        $profile['_garlic_mode_v03'] = 'DIRECT_GARLIC';
+        $profile['_garlic_note_v03'] = 'Češnjak je u izvoru naveden kao izravni dodatak. Ne prikazuje se kao procijeđena aromatična tekućina ako maceriranje i procjeđivanje nisu jasno navedeni.';
+
+        return $profile;
+    }
+}
+
+
 if (!function_exists('drycured_mdv5_bridge_build_profile_v03')) {
     function drycured_mdv5_bridge_build_profile_v03($post_id, $code = '') {
         $post = get_post($post_id);
@@ -1307,6 +1434,7 @@ function drycured_md_v5_bridge_profile($post_id, $code = '') {
         if ($public_ids && in_array((int)$post_id, $public_ids, true)) {
             $public_profile = drycured_mdv5_bridge_build_profile_v03($post_id, $code);
             if ($public_profile) {
+                $public_profile = drycured_mdv5_garlic_liquid_normalize_v03($post_id, $public_profile);
                 $public_profile['_mdv5_public_bridge_v03'] = true;
                 return $public_profile;
             }
