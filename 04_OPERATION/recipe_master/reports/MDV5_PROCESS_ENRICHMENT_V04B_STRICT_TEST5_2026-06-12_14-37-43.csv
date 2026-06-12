@@ -1,0 +1,6 @@
+post_id,title,family,timeline_count,has_smoke_cycles_text,has_casing_mm_text,has_drying_maturation_text,inferred_fields,needs_review_fields,result
+1982,"FINOCCHIONA TOSCANA",SAUSAGE_SALAMI,7,YES,YES,YES,smoking:source_markdown_plus_inferred_cycles|drying_maturation:source_markdown_plus_duration_guidance,,OK_ENRICHED_PROCESS
+1983,"PROSCIUTTO DI SAN DANIELE",HAM_PROSCIUTTO,3,YES,YES,YES,,,OK_ENRICHED_PROCESS
+1984,"NDUJA CALABRESE",SAUSAGE_SALAMI,7,YES,YES,YES,smoking:source_markdown_plus_inferred_cycles|drying_maturation:source_markdown_plus_duration_guidance,,OK_ENRICHED_PROCESS
+1986,"LARDO DI COLONNATA",BACON_FAT,3,YES,YES,YES,drying_maturation:source_recipe_data_plus_family_model|done_when:family_model,,OK_ENRICHED_PROCESS
+1990,"SALAME DI FELINO",SAUSAGE_SALAMI,7,YES,YES,YES,smoking:source_markdown_plus_inferred_cycles|drying_maturation:source_markdown_plus_duration_guidance,,OK_ENRICHED_PROCESS
