@@ -1,0 +1,1232 @@
+=== MDV5 PROCESS SOURCE SNIPPETS — TEST 5 ===
+
+============================================================
+POST_ID: 1982
+TITLE: FINOCCHIONA TOSCANA
+URL: https://drycured.com/recepti-baza/finocchiona-toscana/
+============================================================
+
+---- MLJEVENJE_REZANJE ----
+[SNIPPET 1]
+- Tip proizvoda: suha salama.
+- Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi.
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+
+[SNIPPET 2]
+- * 45 g nitritne soli
+- * 75 g sjemenki komorača (finocchio)
+- * 38 g crnog papra, grubo mljevenog
+- * 20 g bijelog papra, mljevenog
+- * 12 g češnjaka, sitno sjeckanog
+
+[SNIPPET 3]
+- * 75 g sjemenki komorača (finocchio)
+- * 38 g crnog papra, grubo mljevenog
+- * 20 g bijelog papra, mljevenog
+- * 12 g češnjaka, sitno sjeckanog
+- * 12 g sušenog čilija (opcija za pikantnu verziju)
+
+[SNIPPET 4]
+### Crijeva / omotač:
+Koristiti goveđa ravna crijeva ili odgovarajući kolagenski omotač promjera 40–50 mm, a za kulen i veće salame prema potrebi 50–60 mm. Omotače isprati od soli i namočiti 45–60 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja isprati ih iznutra i izvana. Omotači se ne prokuhavaju.
+### Češnjak i tekućine:
+
+[SNIPPET 5]
+### Postupak:
+- Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C.
+- Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C.
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+
+[SNIPPET 6]
+- Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C.
+- Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C.
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+
+[SNIPPET 7]
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+### Najčešći problemi i rješenja:
+
+[SNIPPET 8]
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+Rješenje: proizvod ne koristiti; pregledati higijenu, temperaturu, soljenje i uvjete zrenja.
+
+---- CRIJEVA_OMOTAC ----
+[SNIPPET 1]
+## FINOCCHIONA TOSCANA
+FINOCCHIONA TOSCANA pripada tradiciji područja Toskana, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi.
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- * 25 g šećera
+### Crijeva / omotač:
+Koristiti goveđa ravna crijeva ili odgovarajući kolagenski omotač promjera 40–50 mm, a za kulen i veće salame prema potrebi 50–60 mm. Omotače isprati od soli i namočiti 45–60 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja isprati ih iznutra i izvana. Omotači se ne prokuhavaju.
+
+[SNIPPET 4]
+### Crijeva / omotač:
+Koristiti goveđa ravna crijeva ili odgovarajući kolagenski omotač promjera 40–50 mm, a za kulen i veće salame prema potrebi 50–60 mm. Omotače isprati od soli i namočiti 45–60 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja isprati ih iznutra i izvana. Omotači se ne prokuhavaju.
+### Češnjak i tekućine:
+
+[SNIPPET 5]
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+
+[SNIPPET 6]
+RECIPE_DATA:
+{"recipe_id":"IT-FINOCCHIONA_TOSCANA-0002","title":"FINOCCHIONA TOSCANA","country_hr":"Italija","region":"Toskana","microregion":"","category":"Ostalo","product_type":"Ostalo","meat_types":["svinjetina"],"processes":["sušeno"],"batch_weight_kg":4,"authenticity_status":"approved","authenticity_note":"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.","source_file":"talijanski-suhomesnati-proizvodi-2.md","calculator_ready":true,"public_ready":true,"calculator":{"enabled":true,"calculator_key":"finocchiona_toscana","calculator_mode":"sastojci"},"public_recipe":{"intro":"FINOCCHIONA TOSCANA — radni zapis iz europske baze. Status autentifikacije: approved.","quick_facts":{"Zemlja":"Italija","Vrsta":"Ostalo","Status":"approved","Kalkulator":"dostupan"},"meat_composition":[],"ingredients":[{"name":"3 kg svinjskog mesa (70% but, 30% lopatica)","amount":""},{"name":"1 kg svinjske čvrste masnoće (potrbušina ili leđna mast)","amount":""},{"name":"80 g morske soli","amount":""},{"name":"18 g nitritne soli","amount":""},{"name":"30 g sjemenki komorača (finocchio)","amount":""},{"name":"15 g crnog papra, grubo mljevenog","amount":""},{"name":"8 g bijelog papra, mljevenog","amount":""},{"name":"5 g češnjaka, sitno sjeckanog","amount":""},{"name":"5 g sušenog čilija (opcija za pikantnu verziju)","amount":""},{"name":"100 ml crnog vina, najbolje Chianti","amount":""},{"name":"10 g šećera","amount":""},{"name":"Prirodna svinjska crijeva (promjera 60-80 mm)","amount":""}],"process_phases":[{"title":"Faza 1","what":"Ohladite meso i masnoću na 0-2°C (idealno 24 sata u hladnjaku)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 2","what":"Narežite meso i masnoću na kockice veličine 3-4 cm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 3","what":"Sameljite meso kroz ploču s otvorima 6-8 mm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 4","what":"Sameljite masnoću na istoj ploči, ali odvojeno","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 5","what":"U veliku posudu stavite mljeveno meso","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 6","what":"Dodajte sol i nitritnu sol, temeljito izmiješajte rukama (3-5 minuta)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 7","what":"Dodajte sjemenke komorača i ostale začine","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 8","what":"Postepeno ulijevajte vino tijekom miješanja","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]}],"mistakes":[{"problem":"Varijacije u tehnologiji","cause":"Regionalni i obiteljski stilovi mogu se razlikovati.","solution":"U prikazu jasno označiti da je riječ o edukativnom stilu ili varijanti."}]},"calculator_data":{"batch_weight_kg":4,"ingredients":[{"name":"3 kg svinjskog mesa (70% but, 30% lopatica)","amount":""},{"name":"1 kg svinjske čvrste masnoće (potrbušina ili leđna mast)","amount":""},{"name":"80 g morske soli","amount":""},{"name":"18 g nitritne soli","amount":""},{"name":"30 g sjemenki komorača (finocchio)","amount":""},{"name":"15 g crnog papra, grubo mljevenog","amount":""},{"name":"8 g bijelog papra, mljevenog","amount":""},{"name":"5 g češnjaka, sitno sjeckanog","amount":""},{"name":"5 g sušenog čilija (opcija za pikantnu verziju)","amount":""},{"name":"100 ml crnog vina, najbolje Chianti","amount":""},{"name":"10 g šećera","amount":""},{"name":"Prirodna svinjska crijeva (promjera 60-80 mm)","amount":""}]},"review_status":"approved","short_description":"Ostalo · Italija.","public_html":"","country_key":"italija","country":"Italija","region_key":"toscana","geo_path":"Italija / Toskana"}
+SECTIONS:
+
+---- FERMENTACIJA ----
+[SNIPPET 1]
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+
+[SNIPPET 2]
+RECIPE_DATA:
+{"recipe_id":"IT-FINOCCHIONA_TOSCANA-0002","title":"FINOCCHIONA TOSCANA","country_hr":"Italija","region":"Toskana","microregion":"","category":"Ostalo","product_type":"Ostalo","meat_types":["svinjetina"],"processes":["sušeno"],"batch_weight_kg":4,"authenticity_status":"approved","authenticity_note":"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.","source_file":"talijanski-suhomesnati-proizvodi-2.md","calculator_ready":true,"public_ready":true,"calculator":{"enabled":true,"calculator_key":"finocchiona_toscana","calculator_mode":"sastojci"},"public_recipe":{"intro":"FINOCCHIONA TOSCANA — radni zapis iz europske baze. Status autentifikacije: approved.","quick_facts":{"Zemlja":"Italija","Vrsta":"Ostalo","Status":"approved","Kalkulator":"dostupan"},"meat_composition":[],"ingredients":[{"name":"3 kg svinjskog mesa (70% but, 30% lopatica)","amount":""},{"name":"1 kg svinjske čvrste masnoće (potrbušina ili leđna mast)","amount":""},{"name":"80 g morske soli","amount":""},{"name":"18 g nitritne soli","amount":""},{"name":"30 g sjemenki komorača (finocchio)","amount":""},{"name":"15 g crnog papra, grubo mljevenog","amount":""},{"name":"8 g bijelog papra, mljevenog","amount":""},{"name":"5 g češnjaka, sitno sjeckanog","amount":""},{"name":"5 g sušenog čilija (opcija za pikantnu verziju)","amount":""},{"name":"100 ml crnog vina, najbolje Chianti","amount":""},{"name":"10 g šećera","amount":""},{"name":"Prirodna svinjska crijeva (promjera 60-80 mm)","amount":""}],"process_phases":[{"title":"Faza 1","what":"Ohladite meso i masnoću na 0-2°C (idealno 24 sata u hladnjaku)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 2","what":"Narežite meso i masnoću na kockice veličine 3-4 cm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 3","what":"Sameljite meso kroz ploču s otvorima 6-8 mm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 4","what":"Sameljite masnoću na istoj ploči, ali odvojeno","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 5","what":"U veliku posudu stavite mljeveno meso","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 6","what":"Dodajte sol i nitritnu sol, temeljito izmiješajte rukama (3-5 minuta)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 7","what":"Dodajte sjemenke komorača i ostale začine","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 8","what":"Postepeno ulijevajte vino tijekom miješanja","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]}],"mistakes":[{"problem":"Varijacije u tehnologiji","cause":"Regionalni i obiteljski stilovi mogu se razlikovati.","solution":"U prikazu jasno označiti da je riječ o edukativnom stilu ili varijanti."}]},"calculator_data":{"batch_weight_kg":4,"ingredients":[{"name":"3 kg svinjskog mesa (70% but, 30% lopatica)","amount":""},{"name":"1 kg svinjske čvrste masnoće (potrbušina ili leđna mast)","amount":""},{"name":"80 g morske soli","amount":""},{"name":"18 g nitritne soli","amount":""},{"name":"30 g sjemenki komorača (finocchio)","amount":""},{"name":"15 g crnog papra, grubo mljevenog","amount":""},{"name":"8 g bijelog papra, mljevenog","amount":""},{"name":"5 g češnjaka, sitno sjeckanog","amount":""},{"name":"5 g sušenog čilija (opcija za pikantnu verziju)","amount":""},{"name":"100 ml crnog vina, najbolje Chianti","amount":""},{"name":"10 g šećera","amount":""},{"name":"Prirodna svinjska crijeva (promjera 60-80 mm)","amount":""}]},"review_status":"approved","short_description":"Ostalo · Italija.","public_html":"","country_key":"italija","country":"Italija","region_key":"toscana","geo_path":"Italija / Toskana"}
+SECTIONS:
+
+---- DIMLJENJE ----
+[SNIPPET 1]
+## FINOCCHIONA TOSCANA
+FINOCCHIONA TOSCANA pripada tradiciji područja Toskana, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 4]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+---- SUSENJE ----
+[SNIPPET 1]
+## FINOCCHIONA TOSCANA
+FINOCCHIONA TOSCANA pripada tradiciji područja Toskana, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- * 20 g bijelog papra, mljevenog
+- * 12 g češnjaka, sitno sjeckanog
+- * 12 g sušenog čilija (opcija za pikantnu verziju)
+- * 100 ml crnog vina, najbolje Chianti
+- * 25 g šećera
+
+[SNIPPET 4]
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+
+[SNIPPET 5]
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 6]
+### Čuvanje i posluživanje:
+Zreli proizvod čuvati na 8–12 °C u tamnom i prozračnom prostoru. Za dulje čuvanje može se vakuumirati tek kad je potpuno stabilan i dovoljno osušen. Potpuno suha kobasica poslužuje se tanko narezana; za pečenje se koristi samo svježa ili najviše 1–2 dana prosušena kobasica.
+RECIPE_DATA:
+
+[SNIPPET 7]
+RECIPE_DATA:
+{"recipe_id":"IT-FINOCCHIONA_TOSCANA-0002","title":"FINOCCHIONA TOSCANA","country_hr":"Italija","region":"Toskana","microregion":"","category":"Ostalo","product_type":"Ostalo","meat_types":["svinjetina"],"processes":["sušeno"],"batch_weight_kg":4,"authenticity_status":"approved","authenticity_note":"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.","source_file":"talijanski-suhomesnati-proizvodi-2.md","calculator_ready":true,"public_ready":true,"calculator":{"enabled":true,"calculator_key":"finocchiona_toscana","calculator_mode":"sastojci"},"public_recipe":{"intro":"FINOCCHIONA TOSCANA — radni zapis iz europske baze. Status autentifikacije: approved.","quick_facts":{"Zemlja":"Italija","Vrsta":"Ostalo","Status":"approved","Kalkulator":"dostupan"},"meat_composition":[],"ingredients":[{"name":"3 kg svinjskog mesa (70% but, 30% lopatica)","amount":""},{"name":"1 kg svinjske čvrste masnoće (potrbušina ili leđna mast)","amount":""},{"name":"80 g morske soli","amount":""},{"name":"18 g nitritne soli","amount":""},{"name":"30 g sjemenki komorača (finocchio)","amount":""},{"name":"15 g crnog papra, grubo mljevenog","amount":""},{"name":"8 g bijelog papra, mljevenog","amount":""},{"name":"5 g češnjaka, sitno sjeckanog","amount":""},{"name":"5 g sušenog čilija (opcija za pikantnu verziju)","amount":""},{"name":"100 ml crnog vina, najbolje Chianti","amount":""},{"name":"10 g šećera","amount":""},{"name":"Prirodna svinjska crijeva (promjera 60-80 mm)","amount":""}],"process_phases":[{"title":"Faza 1","what":"Ohladite meso i masnoću na 0-2°C (idealno 24 sata u hladnjaku)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 2","what":"Narežite meso i masnoću na kockice veličine 3-4 cm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 3","what":"Sameljite meso kroz ploču s otvorima 6-8 mm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 4","what":"Sameljite masnoću na istoj ploči, ali odvojeno","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 5","what":"U veliku posudu stavite mljeveno meso","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 6","what":"Dodajte sol i nitritnu sol, temeljito izmiješajte rukama (3-5 minuta)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 7","what":"Dodajte sjemenke komorača i ostale začine","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 8","what":"Postepeno ulijevajte vino tijekom miješanja","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]}],"mistakes":[{"problem":"Varijacije u tehnologiji","cause":"Regionalni i obiteljski stilovi mogu se razlikovati.","solution":"U prikazu jasno označiti da je riječ o edukativnom stilu ili varijanti."}]},"calculator_data":{"batch_weight_kg":4,"ingredients":[{"name":"3 kg svinjskog mesa (70% but, 30% lopatica)","amount":""},{"name":"1 kg svinjske čvrste masnoće (potrbušina ili leđna mast)","amount":""},{"name":"80 g morske soli","amount":""},{"name":"18 g nitritne soli","amount":""},{"name":"30 g sjemenki komorača (finocchio)","amount":""},{"name":"15 g crnog papra, grubo mljevenog","amount":""},{"name":"8 g bijelog papra, mljevenog","amount":""},{"name":"5 g češnjaka, sitno sjeckanog","amount":""},{"name":"5 g sušenog čilija (opcija za pikantnu verziju)","amount":""},{"name":"100 ml crnog vina, najbolje Chianti","amount":""},{"name":"10 g šećera","amount":""},{"name":"Prirodna svinjska crijeva (promjera 60-80 mm)","amount":""}]},"review_status":"approved","short_description":"Ostalo · Italija.","public_html":"","country_key":"italija","country":"Italija","region_key":"toscana","geo_path":"Italija / Toskana"}
+SECTIONS:
+
+---- ZRENJE ----
+[SNIPPET 1]
+## FINOCCHIONA TOSCANA
+FINOCCHIONA TOSCANA pripada tradiciji područja Toskana, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 4]
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+
+[SNIPPET 5]
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+
+[SNIPPET 6]
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+Rješenje: proizvod ne koristiti; pregledati higijenu, temperaturu, soljenje i uvjete zrenja.
+### Čuvanje i posluživanje:
+
+[SNIPPET 7]
+### Čuvanje i posluživanje:
+Zreli proizvod čuvati na 8–12 °C u tamnom i prozračnom prostoru. Za dulje čuvanje može se vakuumirati tek kad je potpuno stabilan i dovoljno osušen. Potpuno suha kobasica poslužuje se tanko narezana; za pečenje se koristi samo svježa ili najviše 1–2 dana prosušena kobasica.
+RECIPE_DATA:
+
+---- GOTOVO ----
+[SNIPPET 1]
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+### Sastojci:
+
+[SNIPPET 2]
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+
+[SNIPPET 3]
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+- proizvod je izgubio približno 30–40 % početne mase
+
+[SNIPPET 4]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+
+[SNIPPET 5]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+[SNIPPET 6]
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+[SNIPPET 7]
+### Najčešći problemi i rješenja:
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+
+[SNIPPET 8]
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+
+
+============================================================
+POST_ID: 1983
+TITLE: PROSCIUTTO DI SAN DANIELE
+URL: https://drycured.com/recepti-baza/prosciutto-di-san-daniele/
+============================================================
+
+---- MLJEVENJE_REZANJE ----
+[SNIPPET 1]
+- * 9,091 kg–10,909 kg svinjskog buta s kosti i kožom (idealno od svinja starijih od 9 mjeseci)
+- * 318 g morske soli (grubo mljevene)
+- * 27 g nitritne soli
+- * 14 g crnog papra, mljevenog
+
+[SNIPPET 2]
+- * 318 g morske soli (grubo mljevene)
+- * 27 g nitritne soli
+- * 14 g crnog papra, mljevenog
+- * 9 g češnjaka u prahu (opcija)
+- * 100 ml bijelog vina (najbolje Friulano ili Pinot Grigio)
+
+[SNIPPET 3]
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+### Najčešći problemi i rješenja:
+
+[SNIPPET 4]
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+Rješenje: proizvod ne koristiti; pregledati higijenu, temperaturu, soljenje i uvjete zrenja.
+
+[SNIPPET 5]
+### Čuvanje i posluživanje:
+Zreli komad čuvati na 8–12 °C u tamnom i prozračnom prostoru. Za dulje čuvanje može se vakuumirati tek kad je potpuno stabilan. Prije posluživanja vakuumirani komad kratko prozračiti i rezati tanko.
+RECIPE_DATA:
+
+[SNIPPET 6]
+},
+{
+"name": "350 g morske soli (grubo mljevene)",
+"amount": ""
+},
+
+[SNIPPET 7]
+},
+{
+"name": "15 g crnog papra, mljevenog",
+"amount": ""
+},
+
+---- CRIJEVA_OMOTAC ----
+[SNIPPET 1]
+- Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi.
+- Oblikovanje: komade ujednačiti po debljini kako bi soljenje i sušenje bili ravnomjerni.
+- Crijeva/omotač: ne koriste se, osim mrežice ili špage za oblikovanje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 2]
+- * Svinjska mast za premazivanje (sugna): 455 g svinjske masti, 45 g rižinog brašna, 27 g soli, 9 g papra
+### Crijeva / omotač:
+Crijeva se ne koriste. Proizvod se obrađuje kao cijeli komad mesa ili oblikovana mesna cjelina. Po potrebi se veže prehrambenom špagom ili stavlja u čistu mrežicu radi pravilnog oblika.
+
+[SNIPPET 3]
+### Crijeva / omotač:
+Crijeva se ne koriste. Proizvod se obrađuje kao cijeli komad mesa ili oblikovana mesna cjelina. Po potrebi se veže prehrambenom špagom ili stavlja u čistu mrežicu radi pravilnog oblika.
+### Češnjak i tekućine:
+
+[SNIPPET 4]
+- Priprema komada: meso očistiti od krvnih podljeva, labavih dijelova i grubih opni. Komade oblikovati što ujednačenije po debljini.
+- Soljenje/pac: sol i začine ravnomjerno utrljati u sve strane komada ili pripremiti salamuru ako recept traži mokri pac. Držati na 2–4 °C i redovito okretati.
+- Odmor nakon paca: nakon soljenja površinu kratko obrisati ili isprati ako je preslana. Ostaviti da se ocijedi i prosuši 12–24 sata na 8–12 °C.
+- Dimljenje: ako se dimi, koristiti hladni dim 15–22 °C u više kraćih ciklusa, s pauzama i prozračivanjem između dimljenja.
+- Sušenje i zrenje: držati na 10–15 °C i 65–75 % relativne vlage dok proizvod ne izgubi približno 30–40 % početne mase ili dok presjek ne postane stabilan.
+
+---- FERMENTACIJA ----
+[SNIPPET 1]
+}
+],
+"process_phases": [
+{
+"title": "Faza 1",
+
+---- DIMLJENJE ----
+[SNIPPET 1]
+- Soljenje/pac: sol i začine ravnomjerno utrljati u sve strane komada ili pripremiti salamuru ako recept traži mokri pac. Držati na 2–4 °C i redovito okretati.
+- Odmor nakon paca: nakon soljenja površinu kratko obrisati ili isprati ako je preslana. Ostaviti da se ocijedi i prosuši 12–24 sata na 8–12 °C.
+- Dimljenje: ako se dimi, koristiti hladni dim 15–22 °C u više kraćih ciklusa, s pauzama i prozračivanjem između dimljenja.
+- Sušenje i zrenje: držati na 10–15 °C i 65–75 % relativne vlage dok proizvod ne izgubi približno 30–40 % početne mase ili dok presjek ne postane stabilan.
+- Kritična kontrola: prebrzo sušenje zatvara površinu i ostavlja vlažnu jezgru; rješenje je smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 2]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+---- SUSENJE ----
+[SNIPPET 1]
+- Šarža: 10 kg osnovne sirovine ili mesne smjese.
+- Tip proizvoda: sušeni zreli sir.
+- Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi.
+- Oblikovanje: komade ujednačiti po debljini kako bi soljenje i sušenje bili ravnomjerni.
+
+[SNIPPET 2]
+- Tip proizvoda: sušeni zreli sir.
+- Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi.
+- Oblikovanje: komade ujednačiti po debljini kako bi soljenje i sušenje bili ravnomjerni.
+- Crijeva/omotač: ne koriste se, osim mrežice ili špage za oblikovanje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- Odmor nakon paca: nakon soljenja površinu kratko obrisati ili isprati ako je preslana. Ostaviti da se ocijedi i prosuši 12–24 sata na 8–12 °C.
+- Dimljenje: ako se dimi, koristiti hladni dim 15–22 °C u više kraćih ciklusa, s pauzama i prozračivanjem između dimljenja.
+- Sušenje i zrenje: držati na 10–15 °C i 65–75 % relativne vlage dok proizvod ne izgubi približno 30–40 % početne mase ili dok presjek ne postane stabilan.
+- Kritična kontrola: prebrzo sušenje zatvara površinu i ostavlja vlažnu jezgru; rješenje je smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 4]
+- Dimljenje: ako se dimi, koristiti hladni dim 15–22 °C u više kraćih ciklusa, s pauzama i prozračivanjem između dimljenja.
+- Sušenje i zrenje: držati na 10–15 °C i 65–75 % relativne vlage dok proizvod ne izgubi približno 30–40 % početne mase ili dok presjek ne postane stabilan.
+- Kritična kontrola: prebrzo sušenje zatvara površinu i ostavlja vlažnu jezgru; rješenje je smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+
+---- ZRENJE ----
+[SNIPPET 1]
+### Sastojci:
+- * 9,091 kg–10,909 kg svinjskog buta s kosti i kožom (idealno od svinja starijih od 9 mjeseci)
+- * 318 g morske soli (grubo mljevene)
+- * 27 g nitritne soli
+
+[SNIPPET 2]
+- Odmor nakon paca: nakon soljenja površinu kratko obrisati ili isprati ako je preslana. Ostaviti da se ocijedi i prosuši 12–24 sata na 8–12 °C.
+- Dimljenje: ako se dimi, koristiti hladni dim 15–22 °C u više kraćih ciklusa, s pauzama i prozračivanjem između dimljenja.
+- Sušenje i zrenje: držati na 10–15 °C i 65–75 % relativne vlage dok proizvod ne izgubi približno 30–40 % početne mase ili dok presjek ne postane stabilan.
+- Kritična kontrola: prebrzo sušenje zatvara površinu i ostavlja vlažnu jezgru; rješenje je smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 3]
+- Dimljenje: ako se dimi, koristiti hladni dim 15–22 °C u više kraćih ciklusa, s pauzama i prozračivanjem između dimljenja.
+- Sušenje i zrenje: držati na 10–15 °C i 65–75 % relativne vlage dok proizvod ne izgubi približno 30–40 % početne mase ili dok presjek ne postane stabilan.
+- Kritična kontrola: prebrzo sušenje zatvara površinu i ostavlja vlažnu jezgru; rješenje je smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+
+[SNIPPET 4]
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+
+[SNIPPET 5]
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+Rješenje: proizvod ne koristiti; pregledati higijenu, temperaturu, soljenje i uvjete zrenja.
+### Čuvanje i posluživanje:
+
+[SNIPPET 6]
+"ingredients": [
+{
+"name": "10-12 kg svinjskog buta s kosti i kožom (idealno od svinja starijih od 9 mjeseci)",
+"amount": ""
+},
+
+[SNIPPET 7]
+{
+"title": "Faza 7",
+"what": "Držite 7 dana na 1-4°C i relativnoj vlažnosti 75-85%",
+"why": "Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.",
+"control": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.",
+
+[SNIPPET 8]
+{
+"title": "Faza 8",
+"what": "Nakon 7 dana odstranite staru sol, ponovno masirajte i nanesite novu sol",
+"why": "Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.",
+"control": "Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.",
+
+---- GOTOVO ----
+[SNIPPET 1]
+- Oblikovanje: komade ujednačiti po debljini kako bi soljenje i sušenje bili ravnomjerni.
+- Crijeva/omotač: ne koriste se, osim mrežice ili špage za oblikovanje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+### Sastojci:
+
+[SNIPPET 2]
+- Odmor nakon paca: nakon soljenja površinu kratko obrisati ili isprati ako je preslana. Ostaviti da se ocijedi i prosuši 12–24 sata na 8–12 °C.
+- Dimljenje: ako se dimi, koristiti hladni dim 15–22 °C u više kraćih ciklusa, s pauzama i prozračivanjem između dimljenja.
+- Sušenje i zrenje: držati na 10–15 °C i 65–75 % relativne vlage dok proizvod ne izgubi približno 30–40 % početne mase ili dok presjek ne postane stabilan.
+- Kritična kontrola: prebrzo sušenje zatvara površinu i ostavlja vlažnu jezgru; rješenje je smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 3]
+- Kritična kontrola: prebrzo sušenje zatvara površinu i ostavlja vlažnu jezgru; rješenje je smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+- proizvod je izgubio približno 30–40 % početne mase
+
+[SNIPPET 4]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+
+[SNIPPET 5]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+[SNIPPET 6]
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+[SNIPPET 7]
+### Najčešći problemi i rješenja:
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+
+[SNIPPET 8]
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+
+
+============================================================
+POST_ID: 1984
+TITLE: NDUJA CALABRESE
+URL: https://drycured.com/recepti-baza/nduja-calabrese/
+============================================================
+
+---- MLJEVENJE_REZANJE ----
+[SNIPPET 1]
+- Tip proizvoda: suha kobasica.
+- Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi.
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+
+[SNIPPET 2]
+- * 150 g morske soli
+- * 38 g nitritne soli
+- * 25 g crnog papra, mljevenog
+- * 12 g fenikal sjemenki, mljevenih
+- * 20 g češnjaka, sitno sjeckanog
+
+[SNIPPET 3]
+- * 38 g nitritne soli
+- * 25 g crnog papra, mljevenog
+- * 12 g fenikal sjemenki, mljevenih
+- * 20 g češnjaka, sitno sjeckanog
+- * 80 ml crnog vina
+
+[SNIPPET 4]
+### Crijeva / omotač:
+Koristiti svinjska crijeva promjera 28–32 mm. Crijeva isprati od soli i namočiti 30–45 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja još jednom ih isprati iznutra i izvana. Crijeva se ne prokuhavaju.
+### Češnjak i tekućine:
+
+[SNIPPET 5]
+### Postupak:
+- Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C.
+- Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C.
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+
+[SNIPPET 6]
+- Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C.
+- Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C.
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+
+[SNIPPET 7]
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+### Najčešći problemi i rješenja:
+
+[SNIPPET 8]
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+Rješenje: proizvod ne koristiti; pregledati higijenu, temperaturu, soljenje i uvjete zrenja.
+
+---- CRIJEVA_OMOTAC ----
+[SNIPPET 1]
+## NDUJA CALABRESE
+NDUJA CALABRESE pripada tradiciji područja Italija, Italija. Radi se kao suha kobasica od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi.
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- * 80 ml crnog vina
+### Crijeva / omotač:
+Koristiti svinjska crijeva promjera 28–32 mm. Crijeva isprati od soli i namočiti 30–45 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja još jednom ih isprati iznutra i izvana. Crijeva se ne prokuhavaju.
+
+[SNIPPET 4]
+### Crijeva / omotač:
+Koristiti svinjska crijeva promjera 28–32 mm. Crijeva isprati od soli i namočiti 30–45 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja još jednom ih isprati iznutra i izvana. Crijeva se ne prokuhavaju.
+### Češnjak i tekućine:
+
+[SNIPPET 5]
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+
+[SNIPPET 6]
+RECIPE_DATA:
+{"recipe_id":"IT-NDUJA_CALABRESE-0004","title":"NDUJA CALABRESE","country_hr":"Italija","region":"Kalabrija","microregion":"","category":"Salame","product_type":"Salame","meat_types":["svinjetina"],"processes":[],"batch_weight_kg":4,"authenticity_status":"approved","authenticity_note":"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.","source_file":"talijanski-suhomesnati-proizvodi-2.md","calculator_ready":true,"public_ready":true,"calculator":{"enabled":true,"calculator_key":"nduja_calabrese","calculator_mode":"sastojci"},"public_recipe":{"intro":"NDUJA CALABRESE — radni zapis iz europske baze. Status autentifikacije: approved.","quick_facts":{"Zemlja":"Italija","Vrsta":"Salame","Status":"approved","Kalkulator":"dostupan"},"meat_composition":[],"ingredients":[{"name":"3 kg svinjske potrbušine","amount":""},{"name":"1 kg svinjskog mesa (lopatica)","amount":""},{"name":"800 g svinjske masnoće","amount":""},{"name":"200-300 g ljute paprike (calabrese peperoncino)","amount":""},{"name":"80 g slatke paprike","amount":""},{"name":"60 g morske soli","amount":""},{"name":"15 g nitritne soli","amount":""},{"name":"10 g crnog papra, mljevenog","amount":""},{"name":"5 g fenikal sjemenki, mljevenih","amount":""},{"name":"8 g češnjaka, sitno sjeckanog","amount":""},{"name":"80 ml crnog vina","amount":""},{"name":"Svinjska crijeva ili mjehur za punjenje","amount":""}],"process_phases":[{"title":"Faza 1","what":"Ohladite meso i masnoću na 0-2°C","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 2","what":"Narežite meso i masnoću na kockice veličine 2-3 cm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 3","what":"Sameljite sve tri komponente zajedno kroz ploču s otvorima 3-4 mm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 4","what":"Za tradicionalniju teksturu, dio sastojaka možete samljeti kroz ploču s manjim otvorima (2 mm)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 5","what":"U veliku posudu stavite mljeveno meso i masnoću","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 6","what":"Dodajte sol, nitritnu sol i dobro promiješajte rukama (5 minuta)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 7","what":"Dodajte ljutu i slatku papriku (količinu ljute paprike prilagodite željenoj pikantnosti)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 8","what":"Dodajte ostale začine i vino","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]}],"mistakes":[{"problem":"Varijacije u tehnologiji","cause":"Regionalni i obiteljski stilovi mogu se razlikovati.","solution":"U prikazu jasno označiti da je riječ o edukativnom stilu ili varijanti."}]},"calculator_data":{"batch_weight_kg":4,"ingredients":[{"name":"3 kg svinjske potrbušine","amount":""},{"name":"1 kg svinjskog mesa (lopatica)","amount":""},{"name":"800 g svinjske masnoće","amount":""},{"name":"200-300 g ljute paprike (calabrese peperoncino)","amount":""},{"name":"80 g slatke paprike","amount":""},{"name":"60 g morske soli","amount":""},{"name":"15 g nitritne soli","amount":""},{"name":"10 g crnog papra, mljevenog","amount":""},{"name":"5 g fenikal sjemenki, mljevenih","amount":""},{"name":"8 g češnjaka, sitno sjeckanog","amount":""},{"name":"80 ml crnog vina","amount":""},{"name":"Svinjska crijeva ili mjehur za punjenje","amount":""}]},"review_status":"approved","short_description":"Salame · Italija.","public_html":"","country_key":"italija","country":"Italija","region_key":"kalabrija","geo_path":"Italija / Kalabrija"}
+SECTIONS:
+
+---- FERMENTACIJA ----
+[SNIPPET 1]
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+
+[SNIPPET 2]
+RECIPE_DATA:
+{"recipe_id":"IT-NDUJA_CALABRESE-0004","title":"NDUJA CALABRESE","country_hr":"Italija","region":"Kalabrija","microregion":"","category":"Salame","product_type":"Salame","meat_types":["svinjetina"],"processes":[],"batch_weight_kg":4,"authenticity_status":"approved","authenticity_note":"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.","source_file":"talijanski-suhomesnati-proizvodi-2.md","calculator_ready":true,"public_ready":true,"calculator":{"enabled":true,"calculator_key":"nduja_calabrese","calculator_mode":"sastojci"},"public_recipe":{"intro":"NDUJA CALABRESE — radni zapis iz europske baze. Status autentifikacije: approved.","quick_facts":{"Zemlja":"Italija","Vrsta":"Salame","Status":"approved","Kalkulator":"dostupan"},"meat_composition":[],"ingredients":[{"name":"3 kg svinjske potrbušine","amount":""},{"name":"1 kg svinjskog mesa (lopatica)","amount":""},{"name":"800 g svinjske masnoće","amount":""},{"name":"200-300 g ljute paprike (calabrese peperoncino)","amount":""},{"name":"80 g slatke paprike","amount":""},{"name":"60 g morske soli","amount":""},{"name":"15 g nitritne soli","amount":""},{"name":"10 g crnog papra, mljevenog","amount":""},{"name":"5 g fenikal sjemenki, mljevenih","amount":""},{"name":"8 g češnjaka, sitno sjeckanog","amount":""},{"name":"80 ml crnog vina","amount":""},{"name":"Svinjska crijeva ili mjehur za punjenje","amount":""}],"process_phases":[{"title":"Faza 1","what":"Ohladite meso i masnoću na 0-2°C","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 2","what":"Narežite meso i masnoću na kockice veličine 2-3 cm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 3","what":"Sameljite sve tri komponente zajedno kroz ploču s otvorima 3-4 mm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 4","what":"Za tradicionalniju teksturu, dio sastojaka možete samljeti kroz ploču s manjim otvorima (2 mm)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 5","what":"U veliku posudu stavite mljeveno meso i masnoću","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 6","what":"Dodajte sol, nitritnu sol i dobro promiješajte rukama (5 minuta)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 7","what":"Dodajte ljutu i slatku papriku (količinu ljute paprike prilagodite željenoj pikantnosti)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 8","what":"Dodajte ostale začine i vino","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]}],"mistakes":[{"problem":"Varijacije u tehnologiji","cause":"Regionalni i obiteljski stilovi mogu se razlikovati.","solution":"U prikazu jasno označiti da je riječ o edukativnom stilu ili varijanti."}]},"calculator_data":{"batch_weight_kg":4,"ingredients":[{"name":"3 kg svinjske potrbušine","amount":""},{"name":"1 kg svinjskog mesa (lopatica)","amount":""},{"name":"800 g svinjske masnoće","amount":""},{"name":"200-300 g ljute paprike (calabrese peperoncino)","amount":""},{"name":"80 g slatke paprike","amount":""},{"name":"60 g morske soli","amount":""},{"name":"15 g nitritne soli","amount":""},{"name":"10 g crnog papra, mljevenog","amount":""},{"name":"5 g fenikal sjemenki, mljevenih","amount":""},{"name":"8 g češnjaka, sitno sjeckanog","amount":""},{"name":"80 ml crnog vina","amount":""},{"name":"Svinjska crijeva ili mjehur za punjenje","amount":""}]},"review_status":"approved","short_description":"Salame · Italija.","public_html":"","country_key":"italija","country":"Italija","region_key":"kalabrija","geo_path":"Italija / Kalabrija"}
+SECTIONS:
+
+---- DIMLJENJE ----
+[SNIPPET 1]
+## NDUJA CALABRESE
+NDUJA CALABRESE pripada tradiciji područja Italija, Italija. Radi se kao suha kobasica od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 4]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+---- SUSENJE ----
+[SNIPPET 1]
+## NDUJA CALABRESE
+NDUJA CALABRESE pripada tradiciji područja Italija, Italija. Radi se kao suha kobasica od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+
+[SNIPPET 4]
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 5]
+### Čuvanje i posluživanje:
+Zreli proizvod čuvati na 8–12 °C u tamnom i prozračnom prostoru. Za dulje čuvanje može se vakuumirati tek kad je potpuno stabilan i dovoljno osušen. Potpuno suha kobasica poslužuje se tanko narezana; za pečenje se koristi samo svježa ili najviše 1–2 dana prosušena kobasica.
+RECIPE_DATA:
+
+---- ZRENJE ----
+[SNIPPET 1]
+## NDUJA CALABRESE
+NDUJA CALABRESE pripada tradiciji područja Italija, Italija. Radi se kao suha kobasica od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 4]
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+
+[SNIPPET 5]
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+
+[SNIPPET 6]
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+Rješenje: proizvod ne koristiti; pregledati higijenu, temperaturu, soljenje i uvjete zrenja.
+### Čuvanje i posluživanje:
+
+[SNIPPET 7]
+### Čuvanje i posluživanje:
+Zreli proizvod čuvati na 8–12 °C u tamnom i prozračnom prostoru. Za dulje čuvanje može se vakuumirati tek kad je potpuno stabilan i dovoljno osušen. Potpuno suha kobasica poslužuje se tanko narezana; za pečenje se koristi samo svježa ili najviše 1–2 dana prosušena kobasica.
+RECIPE_DATA:
+
+---- GOTOVO ----
+[SNIPPET 1]
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+### Sastojci:
+
+[SNIPPET 2]
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+
+[SNIPPET 3]
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+- proizvod je izgubio približno 30–40 % početne mase
+
+[SNIPPET 4]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+
+[SNIPPET 5]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+[SNIPPET 6]
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+[SNIPPET 7]
+### Najčešći problemi i rješenja:
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+
+[SNIPPET 8]
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+
+
+============================================================
+POST_ID: 1986
+TITLE: LARDO DI COLONNATA
+URL: https://drycured.com/recepti-baza/lardo-di-colonnata/
+============================================================
+
+---- MLJEVENJE_REZANJE ----
+[SNIPPET 1]
+- * 8,571 kg–11,429 kg svinjske leđne slanine (idealno debljine 5-7 cm)
+- * 286 g morske soli
+- * 57 g crnog papra, grubo mljevenog
+- * 43 g svježeg ružmarina, nasjeckanog
+- * 29 g svježeg timijana
+
+[SNIPPET 2]
+- * 14 g korijandra u zrnu
+- * 14 g klinčića, usitnjenih
+- * 14 g cimeta, mljevenog
+- * 29 g češnjaka, sitno nasjeckanog
+- * 23 g lovorovog lista, usitnjenog
+
+[SNIPPET 3]
+### Postupak:
+- Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C.
+- Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C.
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+
+[SNIPPET 4]
+- Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C.
+- Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C.
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+
+[SNIPPET 5]
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+### Najčešći problemi i rješenja:
+
+[SNIPPET 6]
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+Rješenje: proizvod ne koristiti; pregledati higijenu, temperaturu, soljenje i uvjete zrenja.
+
+[SNIPPET 7]
+### Čuvanje i posluživanje:
+Zreli komad čuvati na 8–12 °C u tamnom i prozračnom prostoru. Za dulje čuvanje može se vakuumirati tek kad je potpuno stabilan. Prije posluživanja vakuumirani komad kratko prozračiti i rezati tanko.
+RECIPE_DATA:
+
+[SNIPPET 8]
+RECIPE_DATA:
+{"recipe_id":"IT-LARDO_DI_COLONNATA-0006","title":"LARDO DI COLONNATA","country_hr":"Italija","region":"Emilia-Romagna","microregion":"","category":"Pancete i slanine","product_type":"Pancete i slanine","meat_types":["svinjetina","riba"],"processes":["sušeno"],"batch_weight_kg":4,"authenticity_status":"approved","authenticity_note":"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.","source_file":"talijanski-suhomesnati-proizvodi-2.md","calculator_ready":true,"public_ready":true,"calculator":{"enabled":true,"calculator_key":"lardo_di_colonnata","calculator_mode":"sastojci"},"public_recipe":{"intro":"LARDO DI COLONNATA — radni zapis iz europske baze. Status autentifikacije: approved.","quick_facts":{"Zemlja":"Italija","Vrsta":"Pancete i slanine","Status":"approved","Kalkulator":"dostupan"},"meat_composition":[],"ingredients":[{"name":"3-4 kg svinjske leđne slanine (idealno debljine 5-7 cm)","amount":""},{"name":"100 g morske soli","amount":""},{"name":"20 g crnog papra, grubo mljevenog","amount":""},{"name":"15 g svježeg ružmarina, nasjeckanog","amount":""},{"name":"10 g svježeg timijana","amount":""},{"name":"8 g sušenog mažurana","amount":""},{"name":"5 g korijandra u zrnu","amount":""},{"name":"5 g klinčića, usitnjenih","amount":""},{"name":"5 g cimeta, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"8 g lovorovog lista, usitnjenog","amount":""},{"name":"30 ml bijelog vina","amount":""},{"name":"60 g meda (najbolje kestenovog)","amount":""},{"name":"Mramorna posuda (Conca) za tradicionalnu proizvodnju","amount":""}],"process_phases":[{"title":"Faza 1","what":"Očistite slaninu od ostataka mesa i nečistoća","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 2","what":"Pravilno je oblikujte u pravokutne komade","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 3","what":"Prethodno ohladite na 1-3°C (24 sata)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 4","what":"Temeljito očistite mramornu posudu vodom i bijelim vinom","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 5","what":"Oribajte česnakom unutrašnjost posude","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 6","what":"Pospite dno posude tankim slojem soli","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 7","what":"Pomiješajte sve začine, sol, med i češnjak","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 8","what":"Podijelite mješavinu na tri dijela","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]}],"mistakes":[{"problem":"Varijacije u tehnologiji","cause":"Regionalni i obiteljski stilovi mogu se razlikovati.","solution":"U prikazu jasno označiti da je riječ o edukativnom stilu ili varijanti."}]},"calculator_data":{"batch_weight_kg":4,"ingredients":[{"name":"3-4 kg svinjske leđne slanine (idealno debljine 5-7 cm)","amount":""},{"name":"100 g morske soli","amount":""},{"name":"20 g crnog papra, grubo mljevenog","amount":""},{"name":"15 g svježeg ružmarina, nasjeckanog","amount":""},{"name":"10 g svježeg timijana","amount":""},{"name":"8 g sušenog mažurana","amount":""},{"name":"5 g korijandra u zrnu","amount":""},{"name":"5 g klinčića, usitnjenih","amount":""},{"name":"5 g cimeta, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"8 g lovorovog lista, usitnjenog","amount":""},{"name":"30 ml bijelog vina","amount":""},{"name":"60 g meda (najbolje kestenovog)","amount":""},{"name":"Mramorna posuda (Conca) za tradicionalnu proizvodnju","amount":""}]},"review_status":"approved","short_description":"Pancete i slanine · Italija.","public_html":"","country_key":"italija","country":"Italija","region_key":"emilia_romagna","geo_path":"Italija / Emilia-Romagna"}
+SECTIONS:
+
+---- CRIJEVA_OMOTAC ----
+[SNIPPET 1]
+- Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi.
+- Oblikovanje: komade ujednačiti po debljini kako bi soljenje i sušenje bili ravnomjerni.
+- Crijeva/omotač: ne koriste se, osim mrežice ili špage za oblikovanje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 2]
+- * Mramorna posuda (Conca) za tradicionalnu proizvodnju
+### Crijeva / omotač:
+Crijeva se ne koriste. Proizvod se obrađuje kao cijeli komad mesa ili oblikovana mesna cjelina. Po potrebi se veže prehrambenom špagom ili stavlja u čistu mrežicu radi pravilnog oblika.
+
+[SNIPPET 3]
+### Crijeva / omotač:
+Crijeva se ne koriste. Proizvod se obrađuje kao cijeli komad mesa ili oblikovana mesna cjelina. Po potrebi se veže prehrambenom špagom ili stavlja u čistu mrežicu radi pravilnog oblika.
+### Češnjak i tekućine:
+
+[SNIPPET 4]
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+
+---- FERMENTACIJA ----
+[SNIPPET 1]
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+
+[SNIPPET 2]
+RECIPE_DATA:
+{"recipe_id":"IT-LARDO_DI_COLONNATA-0006","title":"LARDO DI COLONNATA","country_hr":"Italija","region":"Emilia-Romagna","microregion":"","category":"Pancete i slanine","product_type":"Pancete i slanine","meat_types":["svinjetina","riba"],"processes":["sušeno"],"batch_weight_kg":4,"authenticity_status":"approved","authenticity_note":"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.","source_file":"talijanski-suhomesnati-proizvodi-2.md","calculator_ready":true,"public_ready":true,"calculator":{"enabled":true,"calculator_key":"lardo_di_colonnata","calculator_mode":"sastojci"},"public_recipe":{"intro":"LARDO DI COLONNATA — radni zapis iz europske baze. Status autentifikacije: approved.","quick_facts":{"Zemlja":"Italija","Vrsta":"Pancete i slanine","Status":"approved","Kalkulator":"dostupan"},"meat_composition":[],"ingredients":[{"name":"3-4 kg svinjske leđne slanine (idealno debljine 5-7 cm)","amount":""},{"name":"100 g morske soli","amount":""},{"name":"20 g crnog papra, grubo mljevenog","amount":""},{"name":"15 g svježeg ružmarina, nasjeckanog","amount":""},{"name":"10 g svježeg timijana","amount":""},{"name":"8 g sušenog mažurana","amount":""},{"name":"5 g korijandra u zrnu","amount":""},{"name":"5 g klinčića, usitnjenih","amount":""},{"name":"5 g cimeta, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"8 g lovorovog lista, usitnjenog","amount":""},{"name":"30 ml bijelog vina","amount":""},{"name":"60 g meda (najbolje kestenovog)","amount":""},{"name":"Mramorna posuda (Conca) za tradicionalnu proizvodnju","amount":""}],"process_phases":[{"title":"Faza 1","what":"Očistite slaninu od ostataka mesa i nečistoća","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 2","what":"Pravilno je oblikujte u pravokutne komade","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 3","what":"Prethodno ohladite na 1-3°C (24 sata)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 4","what":"Temeljito očistite mramornu posudu vodom i bijelim vinom","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 5","what":"Oribajte česnakom unutrašnjost posude","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 6","what":"Pospite dno posude tankim slojem soli","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 7","what":"Pomiješajte sve začine, sol, med i češnjak","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 8","what":"Podijelite mješavinu na tri dijela","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]}],"mistakes":[{"problem":"Varijacije u tehnologiji","cause":"Regionalni i obiteljski stilovi mogu se razlikovati.","solution":"U prikazu jasno označiti da je riječ o edukativnom stilu ili varijanti."}]},"calculator_data":{"batch_weight_kg":4,"ingredients":[{"name":"3-4 kg svinjske leđne slanine (idealno debljine 5-7 cm)","amount":""},{"name":"100 g morske soli","amount":""},{"name":"20 g crnog papra, grubo mljevenog","amount":""},{"name":"15 g svježeg ružmarina, nasjeckanog","amount":""},{"name":"10 g svježeg timijana","amount":""},{"name":"8 g sušenog mažurana","amount":""},{"name":"5 g korijandra u zrnu","amount":""},{"name":"5 g klinčića, usitnjenih","amount":""},{"name":"5 g cimeta, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"8 g lovorovog lista, usitnjenog","amount":""},{"name":"30 ml bijelog vina","amount":""},{"name":"60 g meda (najbolje kestenovog)","amount":""},{"name":"Mramorna posuda (Conca) za tradicionalnu proizvodnju","amount":""}]},"review_status":"approved","short_description":"Pancete i slanine · Italija.","public_html":"","country_key":"italija","country":"Italija","region_key":"emilia_romagna","geo_path":"Italija / Emilia-Romagna"}
+SECTIONS:
+
+---- DIMLJENJE ----
+[SNIPPET 1]
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 2]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+---- SUSENJE ----
+[SNIPPET 1]
+- Tip proizvoda: sazrela svinjska leđna mast.
+- Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi.
+- Oblikovanje: komade ujednačiti po debljini kako bi soljenje i sušenje bili ravnomjerni.
+- Crijeva/omotač: ne koriste se, osim mrežice ili špage za oblikovanje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 2]
+- * 43 g svježeg ružmarina, nasjeckanog
+- * 29 g svježeg timijana
+- * 23 g sušenog mažurana
+- * 14 g korijandra u zrnu
+- * 14 g klinčića, usitnjenih
+
+[SNIPPET 3]
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+
+[SNIPPET 4]
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 5]
+RECIPE_DATA:
+{"recipe_id":"IT-LARDO_DI_COLONNATA-0006","title":"LARDO DI COLONNATA","country_hr":"Italija","region":"Emilia-Romagna","microregion":"","category":"Pancete i slanine","product_type":"Pancete i slanine","meat_types":["svinjetina","riba"],"processes":["sušeno"],"batch_weight_kg":4,"authenticity_status":"approved","authenticity_note":"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.","source_file":"talijanski-suhomesnati-proizvodi-2.md","calculator_ready":true,"public_ready":true,"calculator":{"enabled":true,"calculator_key":"lardo_di_colonnata","calculator_mode":"sastojci"},"public_recipe":{"intro":"LARDO DI COLONNATA — radni zapis iz europske baze. Status autentifikacije: approved.","quick_facts":{"Zemlja":"Italija","Vrsta":"Pancete i slanine","Status":"approved","Kalkulator":"dostupan"},"meat_composition":[],"ingredients":[{"name":"3-4 kg svinjske leđne slanine (idealno debljine 5-7 cm)","amount":""},{"name":"100 g morske soli","amount":""},{"name":"20 g crnog papra, grubo mljevenog","amount":""},{"name":"15 g svježeg ružmarina, nasjeckanog","amount":""},{"name":"10 g svježeg timijana","amount":""},{"name":"8 g sušenog mažurana","amount":""},{"name":"5 g korijandra u zrnu","amount":""},{"name":"5 g klinčića, usitnjenih","amount":""},{"name":"5 g cimeta, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"8 g lovorovog lista, usitnjenog","amount":""},{"name":"30 ml bijelog vina","amount":""},{"name":"60 g meda (najbolje kestenovog)","amount":""},{"name":"Mramorna posuda (Conca) za tradicionalnu proizvodnju","amount":""}],"process_phases":[{"title":"Faza 1","what":"Očistite slaninu od ostataka mesa i nečistoća","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 2","what":"Pravilno je oblikujte u pravokutne komade","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 3","what":"Prethodno ohladite na 1-3°C (24 sata)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 4","what":"Temeljito očistite mramornu posudu vodom i bijelim vinom","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 5","what":"Oribajte česnakom unutrašnjost posude","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 6","what":"Pospite dno posude tankim slojem soli","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 7","what":"Pomiješajte sve začine, sol, med i češnjak","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 8","what":"Podijelite mješavinu na tri dijela","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]}],"mistakes":[{"problem":"Varijacije u tehnologiji","cause":"Regionalni i obiteljski stilovi mogu se razlikovati.","solution":"U prikazu jasno označiti da je riječ o edukativnom stilu ili varijanti."}]},"calculator_data":{"batch_weight_kg":4,"ingredients":[{"name":"3-4 kg svinjske leđne slanine (idealno debljine 5-7 cm)","amount":""},{"name":"100 g morske soli","amount":""},{"name":"20 g crnog papra, grubo mljevenog","amount":""},{"name":"15 g svježeg ružmarina, nasjeckanog","amount":""},{"name":"10 g svježeg timijana","amount":""},{"name":"8 g sušenog mažurana","amount":""},{"name":"5 g korijandra u zrnu","amount":""},{"name":"5 g klinčića, usitnjenih","amount":""},{"name":"5 g cimeta, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"8 g lovorovog lista, usitnjenog","amount":""},{"name":"30 ml bijelog vina","amount":""},{"name":"60 g meda (najbolje kestenovog)","amount":""},{"name":"Mramorna posuda (Conca) za tradicionalnu proizvodnju","amount":""}]},"review_status":"approved","short_description":"Pancete i slanine · Italija.","public_html":"","country_key":"italija","country":"Italija","region_key":"emilia_romagna","geo_path":"Italija / Emilia-Romagna"}
+SECTIONS:
+
+---- ZRENJE ----
+[SNIPPET 1]
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 2]
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+
+[SNIPPET 3]
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+
+[SNIPPET 4]
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+Rješenje: proizvod ne koristiti; pregledati higijenu, temperaturu, soljenje i uvjete zrenja.
+### Čuvanje i posluživanje:
+
+---- GOTOVO ----
+[SNIPPET 1]
+- Oblikovanje: komade ujednačiti po debljini kako bi soljenje i sušenje bili ravnomjerni.
+- Crijeva/omotač: ne koriste se, osim mrežice ili špage za oblikovanje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+### Sastojci:
+
+[SNIPPET 2]
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+
+[SNIPPET 3]
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+- proizvod je izgubio približno 30–40 % početne mase
+
+[SNIPPET 4]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+
+[SNIPPET 5]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+[SNIPPET 6]
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+[SNIPPET 7]
+### Najčešći problemi i rješenja:
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+
+[SNIPPET 8]
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+
+
+============================================================
+POST_ID: 1990
+TITLE: SALAME DI FELINO
+URL: https://drycured.com/recepti-baza/salame-di-felino/
+============================================================
+
+---- MLJEVENJE_REZANJE ----
+[SNIPPET 1]
+- Tip proizvoda: suha salama.
+- Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi.
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+
+[SNIPPET 2]
+- * 180 g morske soli
+- * 40 g nitritne soli
+- * 50 g crnog papra u zrnu, grubo mljevenog
+- * 20 g bijelog papra, mljevenog
+- * 20 g češnjaka, sitno nasjeckanog
+
+[SNIPPET 3]
+- * 40 g nitritne soli
+- * 50 g crnog papra u zrnu, grubo mljevenog
+- * 20 g bijelog papra, mljevenog
+- * 20 g češnjaka, sitno nasjeckanog
+- * 150 ml suhog bijelog vina (najbolje Malvasia)
+
+[SNIPPET 4]
+### Crijeva / omotač:
+Koristiti goveđa ravna crijeva ili odgovarajući kolagenski omotač promjera 40–50 mm, a za kulen i veće salame prema potrebi 50–60 mm. Omotače isprati od soli i namočiti 45–60 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja isprati ih iznutra i izvana. Omotači se ne prokuhavaju.
+### Češnjak i tekućine:
+
+[SNIPPET 5]
+### Postupak:
+- Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C.
+- Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C.
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+
+[SNIPPET 6]
+- Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C.
+- Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C.
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+
+[SNIPPET 7]
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+### Najčešći problemi i rješenja:
+
+[SNIPPET 8]
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+Rješenje: proizvod ne koristiti; pregledati higijenu, temperaturu, soljenje i uvjete zrenja.
+
+---- CRIJEVA_OMOTAC ----
+[SNIPPET 1]
+## SALAME DI FELINO
+SALAME DI FELINO pripada tradiciji područja Italija, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi.
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- * 10 g sušenog ružmarina (opcija)
+### Crijeva / omotač:
+Koristiti goveđa ravna crijeva ili odgovarajući kolagenski omotač promjera 40–50 mm, a za kulen i veće salame prema potrebi 50–60 mm. Omotače isprati od soli i namočiti 45–60 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja isprati ih iznutra i izvana. Omotači se ne prokuhavaju.
+
+[SNIPPET 4]
+### Crijeva / omotač:
+Koristiti goveđa ravna crijeva ili odgovarajući kolagenski omotač promjera 40–50 mm, a za kulen i veće salame prema potrebi 50–60 mm. Omotače isprati od soli i namočiti 45–60 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja isprati ih iznutra i izvana. Omotači se ne prokuhavaju.
+### Češnjak i tekućine:
+
+[SNIPPET 5]
+- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+
+[SNIPPET 6]
+RECIPE_DATA:
+{"recipe_id":"IT-SALAME_DI_FELINO-0010","title":"SALAME DI FELINO","country_hr":"Italija","region":"Emilia-Romagna","microregion":"","category":"Salame","product_type":"Salame","meat_types":["svinjetina"],"processes":["sušeno"],"batch_weight_kg":5,"authenticity_status":"approved","authenticity_note":"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.","source_file":"talijanski-suhomesnati-proizvodi-3.md","calculator_ready":true,"public_ready":true,"calculator":{"enabled":true,"calculator_key":"salame_di_felino","calculator_mode":"sastojci"},"public_recipe":{"intro":"SALAME DI FELINO — radni zapis iz europske baze. Status autentifikacije: approved.","quick_facts":{"Zemlja":"Italija","Vrsta":"Salame","Status":"approved","Kalkulator":"dostupan"},"meat_composition":[],"ingredients":[{"name":"3.5 kg svinjskog mesa (70% butt, 30% lopatica)","amount":""},{"name":"1.5 kg čvrste svinjske masnoće (grlo ili leđna masnoća)","amount":""},{"name":"90 g morske soli","amount":""},{"name":"20 g nitritne soli","amount":""},{"name":"25 g crnog papra u zrnu, grubo mlevenog","amount":""},{"name":"10 g bijelog papra, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"150 ml suhog bijelog vina (najbolje Malvasia)","amount":""},{"name":"5 g sušenog ružmarina (opcija)","amount":""},{"name":"Svinjska crijeva promjera 40-50 mm","amount":""}],"process_phases":[{"title":"Faza 1","what":"Ohladite meso i masnoću na 0-2°C","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 2","what":"Narežite meso na kockice veličine 3-4 cm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 3","what":"Narežite masnoću na kockice veličine 1-1.5 cm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 4","what":"Sameljite meso kroz ploču s otvorima 6-8 mm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 5","what":"Masnoću ostavite narezanu na kockice (ne mljeti)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 6","what":"U veliku posudu stavite mljeveno meso","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 7","what":"Dodajte sol, nitritnu sol i dobro promiješajte rukama (5 minuta)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 8","what":"Dodajte papar i češnjak","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]}],"mistakes":[{"problem":"Varijacije u tehnologiji","cause":"Regionalni i obiteljski stilovi mogu se razlikovati.","solution":"U prikazu jasno označiti da je riječ o edukativnom stilu ili varijanti."}]},"calculator_data":{"batch_weight_kg":5,"ingredients":[{"name":"3.5 kg svinjskog mesa (70% butt, 30% lopatica)","amount":""},{"name":"1.5 kg čvrste svinjske masnoće (grlo ili leđna masnoća)","amount":""},{"name":"90 g morske soli","amount":""},{"name":"20 g nitritne soli","amount":""},{"name":"25 g crnog papra u zrnu, grubo mlevenog","amount":""},{"name":"10 g bijelog papra, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"150 ml suhog bijelog vina (najbolje Malvasia)","amount":""},{"name":"5 g sušenog ružmarina (opcija)","amount":""},{"name":"Svinjska crijeva promjera 40-50 mm","amount":""}]},"review_status":"approved","short_description":"Salame · Italija.","public_html":"","country_key":"italija","country":"Italija","region_key":"emilia_romagna","geo_path":"Italija / Emilia-Romagna"}
+SECTIONS:
+
+---- FERMENTACIJA ----
+[SNIPPET 1]
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+
+[SNIPPET 2]
+RECIPE_DATA:
+{"recipe_id":"IT-SALAME_DI_FELINO-0010","title":"SALAME DI FELINO","country_hr":"Italija","region":"Emilia-Romagna","microregion":"","category":"Salame","product_type":"Salame","meat_types":["svinjetina"],"processes":["sušeno"],"batch_weight_kg":5,"authenticity_status":"approved","authenticity_note":"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.","source_file":"talijanski-suhomesnati-proizvodi-3.md","calculator_ready":true,"public_ready":true,"calculator":{"enabled":true,"calculator_key":"salame_di_felino","calculator_mode":"sastojci"},"public_recipe":{"intro":"SALAME DI FELINO — radni zapis iz europske baze. Status autentifikacije: approved.","quick_facts":{"Zemlja":"Italija","Vrsta":"Salame","Status":"approved","Kalkulator":"dostupan"},"meat_composition":[],"ingredients":[{"name":"3.5 kg svinjskog mesa (70% butt, 30% lopatica)","amount":""},{"name":"1.5 kg čvrste svinjske masnoće (grlo ili leđna masnoća)","amount":""},{"name":"90 g morske soli","amount":""},{"name":"20 g nitritne soli","amount":""},{"name":"25 g crnog papra u zrnu, grubo mlevenog","amount":""},{"name":"10 g bijelog papra, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"150 ml suhog bijelog vina (najbolje Malvasia)","amount":""},{"name":"5 g sušenog ružmarina (opcija)","amount":""},{"name":"Svinjska crijeva promjera 40-50 mm","amount":""}],"process_phases":[{"title":"Faza 1","what":"Ohladite meso i masnoću na 0-2°C","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 2","what":"Narežite meso na kockice veličine 3-4 cm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 3","what":"Narežite masnoću na kockice veličine 1-1.5 cm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 4","what":"Sameljite meso kroz ploču s otvorima 6-8 mm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 5","what":"Masnoću ostavite narezanu na kockice (ne mljeti)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 6","what":"U veliku posudu stavite mljeveno meso","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 7","what":"Dodajte sol, nitritnu sol i dobro promiješajte rukama (5 minuta)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 8","what":"Dodajte papar i češnjak","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]}],"mistakes":[{"problem":"Varijacije u tehnologiji","cause":"Regionalni i obiteljski stilovi mogu se razlikovati.","solution":"U prikazu jasno označiti da je riječ o edukativnom stilu ili varijanti."}]},"calculator_data":{"batch_weight_kg":5,"ingredients":[{"name":"3.5 kg svinjskog mesa (70% butt, 30% lopatica)","amount":""},{"name":"1.5 kg čvrste svinjske masnoće (grlo ili leđna masnoća)","amount":""},{"name":"90 g morske soli","amount":""},{"name":"20 g nitritne soli","amount":""},{"name":"25 g crnog papra u zrnu, grubo mlevenog","amount":""},{"name":"10 g bijelog papra, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"150 ml suhog bijelog vina (najbolje Malvasia)","amount":""},{"name":"5 g sušenog ružmarina (opcija)","amount":""},{"name":"Svinjska crijeva promjera 40-50 mm","amount":""}]},"review_status":"approved","short_description":"Salame · Italija.","public_html":"","country_key":"italija","country":"Italija","region_key":"emilia_romagna","geo_path":"Italija / Emilia-Romagna"}
+SECTIONS:
+
+---- DIMLJENJE ----
+[SNIPPET 1]
+## SALAME DI FELINO
+SALAME DI FELINO pripada tradiciji područja Italija, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 4]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+---- SUSENJE ----
+[SNIPPET 1]
+## SALAME DI FELINO
+SALAME DI FELINO pripada tradiciji područja Italija, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- * 20 g češnjaka, sitno nasjeckanog
+- * 150 ml suhog bijelog vina (najbolje Malvasia)
+- * 10 g sušenog ružmarina (opcija)
+### Crijeva / omotač:
+
+[SNIPPET 4]
+- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.
+- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+
+[SNIPPET 5]
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 6]
+### Čuvanje i posluživanje:
+Zreli proizvod čuvati na 8–12 °C u tamnom i prozračnom prostoru. Za dulje čuvanje može se vakuumirati tek kad je potpuno stabilan i dovoljno osušen. Potpuno suha kobasica poslužuje se tanko narezana; za pečenje se koristi samo svježa ili najviše 1–2 dana prosušena kobasica.
+RECIPE_DATA:
+
+[SNIPPET 7]
+RECIPE_DATA:
+{"recipe_id":"IT-SALAME_DI_FELINO-0010","title":"SALAME DI FELINO","country_hr":"Italija","region":"Emilia-Romagna","microregion":"","category":"Salame","product_type":"Salame","meat_types":["svinjetina"],"processes":["sušeno"],"batch_weight_kg":5,"authenticity_status":"approved","authenticity_note":"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.","source_file":"talijanski-suhomesnati-proizvodi-3.md","calculator_ready":true,"public_ready":true,"calculator":{"enabled":true,"calculator_key":"salame_di_felino","calculator_mode":"sastojci"},"public_recipe":{"intro":"SALAME DI FELINO — radni zapis iz europske baze. Status autentifikacije: approved.","quick_facts":{"Zemlja":"Italija","Vrsta":"Salame","Status":"approved","Kalkulator":"dostupan"},"meat_composition":[],"ingredients":[{"name":"3.5 kg svinjskog mesa (70% butt, 30% lopatica)","amount":""},{"name":"1.5 kg čvrste svinjske masnoće (grlo ili leđna masnoća)","amount":""},{"name":"90 g morske soli","amount":""},{"name":"20 g nitritne soli","amount":""},{"name":"25 g crnog papra u zrnu, grubo mlevenog","amount":""},{"name":"10 g bijelog papra, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"150 ml suhog bijelog vina (najbolje Malvasia)","amount":""},{"name":"5 g sušenog ružmarina (opcija)","amount":""},{"name":"Svinjska crijeva promjera 40-50 mm","amount":""}],"process_phases":[{"title":"Faza 1","what":"Ohladite meso i masnoću na 0-2°C","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 2","what":"Narežite meso na kockice veličine 3-4 cm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 3","what":"Narežite masnoću na kockice veličine 1-1.5 cm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 4","what":"Sameljite meso kroz ploču s otvorima 6-8 mm","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 5","what":"Masnoću ostavite narezanu na kockice (ne mljeti)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 6","what":"U veliku posudu stavite mljeveno meso","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 7","what":"Dodajte sol, nitritnu sol i dobro promiješajte rukama (5 minuta)","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]},{"title":"Faza 8","what":"Dodajte papar i češnjak","why":"Ova faza utječe na sigurnost, strukturu i konačan okus proizvoda.","control":"Provjeriti miris, temperaturu, čistoću sirovine i ujednačenost obrade.","risk":"Ako se faza skrati ili izvede na previsokoj temperaturi, raste rizik kvarenja ili loše teksture.","fix":"Vratiti proizvod u kontrolirane uvjete, usporiti proces i provjeriti sljedeću fazu prije nastavka.","parameters":[]}],"mistakes":[{"problem":"Varijacije u tehnologiji","cause":"Regionalni i obiteljski stilovi mogu se razlikovati.","solution":"U prikazu jasno označiti da je riječ o edukativnom stilu ili varijanti."}]},"calculator_data":{"batch_weight_kg":5,"ingredients":[{"name":"3.5 kg svinjskog mesa (70% butt, 30% lopatica)","amount":""},{"name":"1.5 kg čvrste svinjske masnoće (grlo ili leđna masnoća)","amount":""},{"name":"90 g morske soli","amount":""},{"name":"20 g nitritne soli","amount":""},{"name":"25 g crnog papra u zrnu, grubo mlevenog","amount":""},{"name":"10 g bijelog papra, mljevenog","amount":""},{"name":"10 g češnjaka, sitno nasjeckanog","amount":""},{"name":"150 ml suhog bijelog vina (najbolje Malvasia)","amount":""},{"name":"5 g sušenog ružmarina (opcija)","amount":""},{"name":"Svinjska crijeva promjera 40-50 mm","amount":""}]},"review_status":"approved","short_description":"Salame · Italija.","public_html":"","country_key":"italija","country":"Italija","region_key":"emilia_romagna","geo_path":"Italija / Emilia-Romagna"}
+SECTIONS:
+
+---- ZRENJE ----
+[SNIPPET 1]
+## SALAME DI FELINO
+SALAME DI FELINO pripada tradiciji područja Italija, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+### Radni sažetak
+
+[SNIPPET 2]
+- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+
+[SNIPPET 3]
+- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+
+[SNIPPET 4]
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+
+[SNIPPET 5]
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+
+[SNIPPET 6]
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+Rješenje: proizvod ne koristiti; pregledati higijenu, temperaturu, soljenje i uvjete zrenja.
+### Čuvanje i posluživanje:
+
+[SNIPPET 7]
+### Čuvanje i posluživanje:
+Zreli proizvod čuvati na 8–12 °C u tamnom i prozračnom prostoru. Za dulje čuvanje može se vakuumirati tek kad je potpuno stabilan i dovoljno osušen. Potpuno suha kobasica poslužuje se tanko narezana; za pečenje se koristi samo svježa ili najviše 1–2 dana prosušena kobasica.
+RECIPE_DATA:
+
+---- GOTOVO ----
+[SNIPPET 1]
+- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.
+- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.
+- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.
+### Sastojci:
+
+[SNIPPET 2]
+- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.
+- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+
+[SNIPPET 3]
+- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.
+### Gotovo je kad:
+- proizvod je izgubio približno 30–40 % početne mase
+
+[SNIPPET 4]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+
+[SNIPPET 5]
+- proizvod je izgubio približno 30–40 % početne mase
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+[SNIPPET 6]
+- presjek je stabilan, bez vlažne jezgre
+- miris je čist, dimljen i začinski
+- površina je suha, ali nije pretvrdo zapečena
+- proizvod se može rezati tanko bez razmazivanja masnoće
+
+[SNIPPET 7]
+### Najčešći problemi i rješenja:
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+
+[SNIPPET 8]
+- Problem: površina se prebrzo stvrdnula, a sredina je mekana.
+Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.
+- Problem: mast se razmazuje u presjeku.
+Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.
+- Problem: pojavio se neugodan, truo ili sluzav miris.
+
+
