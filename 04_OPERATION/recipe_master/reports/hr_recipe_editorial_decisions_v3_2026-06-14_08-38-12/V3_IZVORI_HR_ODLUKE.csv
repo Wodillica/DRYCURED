@@ -1,0 +1,17 @@
+naziv_iz_izvora,preporucena_odluka,ciljni_server_recept_ili_grupa,best_server_candidate,best_score,urednicka_napomena,sljedeci_korak
+Domaća baranjska šunka,POSTOJI_ALI_DRUGI_NAZIV_RUCNO_POTVRDITI,Baranjska šunka,Baranjska šunka,0.811,"Vjerojatno nije novi recept, nego izvorna varijanta za postojeći server recept.",ručno otvoriti dosje prije javne izmjene
+Domaće kobasice,GENERICNI_NAZIV_NE_UNOSITI_KAO_POSEBAN_RECEPT,Domaće svinjske kobasice / osnovni model,Đakovačke Kobasice,0.848,"Preširok naziv. Koristi se kao izvor za opće upute, ne kao zaseban javni recept.",ručno otvoriti dosje prije javne izmjene
+Gurmanska pašteta,NOVI_KANDIDAT_SCOPE_REVIEW,,Gurmanske Kobasice,0.686,"Mogući novi proizvod, ali provjeriti pripada li receptnoj bazi proizvoda ili kulinarskoj rubrici.",ručno otvoriti dosje prije javne izmjene
+Jetrena pašteta sa sardelama,NOVI_KANDIDAT_SCOPE_REVIEW,,Slavonska domaća salama,0.471,"Pašteta je proizvod, ali sardele traže ručnu provjeru teme i prikaza.",ručno otvoriti dosje prije javne izmjene
+Jetrenjača,POSTOJI_ALI_DRUGI_NAZIV_RUCNO_POTVRDITI,Domaće Jetrenjače,Domaće Jetrenjače,0.667,Vjerojatno se spaja s postojećim receptom kao izvorna varijanta.,ručno otvoriti dosje prije javne izmjene
+Kulen Baranjac,POSTOJI_ALI_DRUGI_NAZIV_RUCNO_POTVRDITI,Baranjski kulen / Kulen Baranjac,Kulenova seka,0.519,Ne unositi automatski; usporediti s postojećim Baranjskim kulenom.,ručno otvoriti dosje prije javne izmjene
+Lovačka pašteta,NOVI_KANDIDAT_SCOPE_REVIEW,,Vinkovačka kobasica,0.588,"Mogući novi proizvod, ali treba potvrditi da nije kulinarski namaz iz poglavlja jela.",ručno otvoriti dosje prije javne izmjene
+Pečenica,POSTOJI_ALI_DRUGI_NAZIV_RUCNO_POTVRDITI,Suhi kare / pečenica ili Domaće pečenice,Suhi kare / pečenica,0.615,Naziv je dvosmislen: može biti suhi komad ili svježa kobasica za pečenje.,ručno otvoriti dosje prije javne izmjene
+Primorska šunka,NOVI_KANDIDAT_ILI_POSTOJI_POD_REGIONALNIM_NAZIVOM,,Međimurska šunka,0.774,"Provjeriti odnos prema Domaći pršut, Senjska šunka i Dalmatinska suha šunka.",ručno otvoriti dosje prije javne izmjene
+Pršuta,GENERICNI_NAZIV_NE_UNOSITI_KAO_POSEBAN_RECEPT,Domaći pršut / regionalni pršuti,Domaći pršut,0.556,Preširok naziv; koristi se samo kao pomoćni izvor.,ručno otvoriti dosje prije javne izmjene
+Sirijski sudžuk,NIJE_HR_FAZA_PREBACITI_U_EXYU_ILI_MEĐUNARODNO,,Sinjski Sudžuk,0.897,Ne obrađuje se u hrvatskom batchu.,ručno otvoriti dosje prije javne izmjene
+Sudžuk,NIJE_HR_FAZA_PREBACITI_U_EXYU_ILI_MEĐUNARODNO,,Sinjski Sudžuk,0.600,Preširok naziv i nije hrvatski prioritet.,ručno otvoriti dosje prije javne izmjene
+Teleća ili svinjska jetrena pašteta,NOVI_KANDIDAT_SCOPE_REVIEW,,Slavonska jetrena kobasica,0.623,Mogući novi proizvod; provjeriti zasebno kao paštetni proizvod.,ručno otvoriti dosje prije javne izmjene
+Zapečene kobasice,ISKLJUCENO_JELO,,Začinske Kobasice,0.824,"Jelo s kobasicama, ne proizvod za receptnu bazu drycured.com.",ručno otvoriti dosje prije javne izmjene
+Češnjovke,POSTOJI_ALI_DRUGI_NAZIV_RUCNO_POTVRDITI,Samoborske Češnjovke / Češnjovke,Samoborske Češnjovke,0.621,Ne unositi kao novi recept dok se ne usporedi s postojećim češnjovkama.,ručno otvoriti dosje prije javne izmjene
+Češnjovke 1. 2021,VARIJANTA_IZVORA_ZA_CESNJOVKE,Češnjovke / Samoborske Češnjovke,Samoborske Češnjovke,0.500,"Koristiti kao izvor za detalje češnjaka, vina i omjera, ne nužno kao zaseban javni recept.",ručno otvoriti dosje prije javne izmjene

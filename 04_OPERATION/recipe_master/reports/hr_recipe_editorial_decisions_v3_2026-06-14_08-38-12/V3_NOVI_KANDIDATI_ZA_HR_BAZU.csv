@@ -1,0 +1,6 @@
+naziv_iz_izvora,preporucena_odluka,ciljni_server_recept_ili_grupa,best_server_candidate,best_score,urednicka_napomena,sljedeci_korak
+Gurmanska pašteta,NOVI_KANDIDAT_SCOPE_REVIEW,,Gurmanske Kobasice,0.686,"Mogući novi proizvod, ali provjeriti pripada li receptnoj bazi proizvoda ili kulinarskoj rubrici.",ručno otvoriti dosje prije javne izmjene
+Jetrena pašteta sa sardelama,NOVI_KANDIDAT_SCOPE_REVIEW,,Slavonska domaća salama,0.471,"Pašteta je proizvod, ali sardele traže ručnu provjeru teme i prikaza.",ručno otvoriti dosje prije javne izmjene
+Lovačka pašteta,NOVI_KANDIDAT_SCOPE_REVIEW,,Vinkovačka kobasica,0.588,"Mogući novi proizvod, ali treba potvrditi da nije kulinarski namaz iz poglavlja jela.",ručno otvoriti dosje prije javne izmjene
+Primorska šunka,NOVI_KANDIDAT_ILI_POSTOJI_POD_REGIONALNIM_NAZIVOM,,Međimurska šunka,0.774,"Provjeriti odnos prema Domaći pršut, Senjska šunka i Dalmatinska suha šunka.",ručno otvoriti dosje prije javne izmjene
+Teleća ili svinjska jetrena pašteta,NOVI_KANDIDAT_SCOPE_REVIEW,,Slavonska jetrena kobasica,0.623,Mogući novi proizvod; provjeriti zasebno kao paštetni proizvod.,ručno otvoriti dosje prije javne izmjene

@@ -1,0 +1,6 @@
+naziv_iz_izvora,preporucena_odluka,ciljni_server_recept_ili_grupa,best_server_candidate,best_score,urednicka_napomena,sljedeci_korak
+Domaće kobasice,GENERICNI_NAZIV_NE_UNOSITI_KAO_POSEBAN_RECEPT,Domaće svinjske kobasice / osnovni model,Đakovačke Kobasice,0.848,"Preširok naziv. Koristi se kao izvor za opće upute, ne kao zaseban javni recept.",ručno otvoriti dosje prije javne izmjene
+Pršuta,GENERICNI_NAZIV_NE_UNOSITI_KAO_POSEBAN_RECEPT,Domaći pršut / regionalni pršuti,Domaći pršut,0.556,Preširok naziv; koristi se samo kao pomoćni izvor.,ručno otvoriti dosje prije javne izmjene
+Sirijski sudžuk,NIJE_HR_FAZA_PREBACITI_U_EXYU_ILI_MEĐUNARODNO,,Sinjski Sudžuk,0.897,Ne obrađuje se u hrvatskom batchu.,ručno otvoriti dosje prije javne izmjene
+Sudžuk,NIJE_HR_FAZA_PREBACITI_U_EXYU_ILI_MEĐUNARODNO,,Sinjski Sudžuk,0.600,Preširok naziv i nije hrvatski prioritet.,ručno otvoriti dosje prije javne izmjene
+Zapečene kobasice,ISKLJUCENO_JELO,,Začinske Kobasice,0.824,"Jelo s kobasicama, ne proizvod za receptnu bazu drycured.com.",ručno otvoriti dosje prije javne izmjene

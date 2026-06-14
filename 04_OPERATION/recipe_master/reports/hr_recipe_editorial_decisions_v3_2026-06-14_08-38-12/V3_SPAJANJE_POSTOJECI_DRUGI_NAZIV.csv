@@ -1,0 +1,7 @@
+naziv_iz_izvora,preporucena_odluka,ciljni_server_recept_ili_grupa,best_server_candidate,best_score,urednicka_napomena,sljedeci_korak
+Domaća baranjska šunka,POSTOJI_ALI_DRUGI_NAZIV_RUCNO_POTVRDITI,Baranjska šunka,Baranjska šunka,0.811,"Vjerojatno nije novi recept, nego izvorna varijanta za postojeći server recept.",ručno otvoriti dosje prije javne izmjene
+Jetrenjača,POSTOJI_ALI_DRUGI_NAZIV_RUCNO_POTVRDITI,Domaće Jetrenjače,Domaće Jetrenjače,0.667,Vjerojatno se spaja s postojećim receptom kao izvorna varijanta.,ručno otvoriti dosje prije javne izmjene
+Kulen Baranjac,POSTOJI_ALI_DRUGI_NAZIV_RUCNO_POTVRDITI,Baranjski kulen / Kulen Baranjac,Kulenova seka,0.519,Ne unositi automatski; usporediti s postojećim Baranjskim kulenom.,ručno otvoriti dosje prije javne izmjene
+Pečenica,POSTOJI_ALI_DRUGI_NAZIV_RUCNO_POTVRDITI,Suhi kare / pečenica ili Domaće pečenice,Suhi kare / pečenica,0.615,Naziv je dvosmislen: može biti suhi komad ili svježa kobasica za pečenje.,ručno otvoriti dosje prije javne izmjene
+Češnjovke,POSTOJI_ALI_DRUGI_NAZIV_RUCNO_POTVRDITI,Samoborske Češnjovke / Češnjovke,Samoborske Češnjovke,0.621,Ne unositi kao novi recept dok se ne usporedi s postojećim češnjovkama.,ručno otvoriti dosje prije javne izmjene
+Češnjovke 1. 2021,VARIJANTA_IZVORA_ZA_CESNJOVKE,Češnjovke / Samoborske Češnjovke,Samoborske Češnjovke,0.500,"Koristiti kao izvor za detalje češnjaka, vina i omjera, ne nužno kao zaseban javni recept.",ručno otvoriti dosje prije javne izmjene
