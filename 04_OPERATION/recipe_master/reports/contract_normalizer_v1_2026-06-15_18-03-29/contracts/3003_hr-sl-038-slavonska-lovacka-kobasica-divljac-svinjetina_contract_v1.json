@@ -1,0 +1,71 @@
+{
+  "contract_version": "dry_recipe_contract_v1.0",
+  "source_wp": {
+    "post_id": 3003,
+    "title": "Slavonska lovačka kobasica (divljač + svinjetina)",
+    "slug": "hr-sl-038-slavonska-lovacka-kobasica-divljac-svinjetina",
+    "status": "publish",
+    "permalink": "https://drycured.com/recepti-baza/hr-sl-038-slavonska-lovacka-kobasica-divljac-svinjetina/"
+  },
+  "identity": {
+    "canonical_name": "Slavonska lovačka kobasica (divljač + svinjetina)",
+    "batch_size_kg": 10,
+    "public_status": "IN_REVIEW",
+    "qa_status": "CONTRACT_DRAFT_READ_ONLY"
+  },
+  "materials": {
+    "status": "detected",
+    "raw_source_available": true
+  },
+  "spices": {
+    "status": "detected"
+  },
+  "liquids": {
+    "status": "detected"
+  },
+  "garlic": {
+    "status": "detected",
+    "needs_classification": true
+  },
+  "granulation": {
+    "status": "detected",
+    "has_mm": true
+  },
+  "casing": {
+    "status": "detected",
+    "has_diameter_mm": true,
+    "needs_soaking_details": true
+  },
+  "process": {
+    "status": "detected"
+  },
+  "smoking": {
+    "status": "detected"
+  },
+  "drying": {
+    "status": "detected"
+  },
+  "maturation": {
+    "status": "detected"
+  },
+  "errors": {
+    "status": "detected"
+  },
+  "safety": {
+    "status": "missing"
+  },
+  "qa": {
+    "forbidden_public_terms": [],
+    "source_mentions_allowed_internal_only": true,
+    "public_ready": false,
+    "missing_or_review_groups": [
+      "safety"
+    ],
+    "contract_build_status": "PASS_DRAFT"
+  },
+  "raw_presence": {
+    "has_full_markdown": true,
+    "has_sections": true,
+    "has_verified_process": true
+  }
+}
