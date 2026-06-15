@@ -1,0 +1,413 @@
+ID,post_title,post_name,url,http_code,html_forbidden_count,html_forbidden_terms,has_granulation_mm_html,has_casing_html,has_garlic_html
+1982,FINOCCHIONA TOSCANA,finocchiona-toscana,https://drycured.com/recepti-baza/finocchiona-toscana/,200,5,hladna masa; fallback,1,1,1
+1983,PROSCIUTTO DI SAN DANIELE,prosciutto-di-san-daniele,https://drycured.com/recepti-baza/prosciutto-di-san-daniele/,200,5,hladna masa; fallback,1,1,1
+1984,NDUJA CALABRESE,nduja-calabrese,https://drycured.com/recepti-baza/nduja-calabrese/,200,5,hladna masa; fallback,1,1,1
+1986,LARDO DI COLONNATA,lardo-di-colonnata,https://drycured.com/recepti-baza/lardo-di-colonnata/,200,5,hladna masa; fallback,1,1,1
+1988,SOPPRESSA VICENTINA,soppressa-vicentina,https://drycured.com/recepti-baza/soppressa-vicentina/,200,63,hladna masa; fallback; radni recept,1,1,1
+1990,SALAME DI FELINO,salame-di-felino,https://drycured.com/recepti-baza/salame-di-felino/,200,5,hladna masa; fallback,1,1,1
+1991,GUANCIALE ROMANO,guanciale-romano,https://drycured.com/recepti-baza/guanciale-romano/,200,63,hladna masa; fallback; radni recept,1,1,1
+2018,Irska salama (Spiced Irish Salami),irska-salama-spiced-irish-salami,https://drycured.com/recepti-baza/irska-salama-spiced-irish-salami/,200,65,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2021,Cumberland kobasica,cumberland-kobasica,https://drycured.com/recepti-baza/cumberland-kobasica/,200,66,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2023,?? Grčki tradicionalni recept &#8211; Loukaniko,grcki-tradicionalni-recept-loukaniko,https://drycured.com/recepti-baza/grcki-tradicionalni-recept-loukaniko/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2026,?? Španjolski recept za chorizo,spanjolski-recept-za-chorizo,https://drycured.com/recepti-baza/spanjolski-recept-za-chorizo/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2028,Češki Špekáček (Špek Kobasica),ceski-spekacek-spek-kobasica,https://drycured.com/recepti-baza/ceski-spekacek-spek-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2029,JAMBON DE BAYONNE,jambon-de-bayonne,https://drycured.com/recepti-baza/jambon-de-bayonne/,200,63,hladna masa; fallback; radni recept,1,1,1
+2032,Coppa (Kapula),coppa-kapula,https://drycured.com/recepti-baza/coppa-kapula/,200,63,hladna masa; fallback; radni recept,1,1,1
+2033,Andouille de Guémené,andouille-de-guemene,https://drycured.com/recepti-baza/andouille-de-guemene/,200,65,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2037,Hangikjöt (Dimljeni janjeti but),hangikjot-dimljeni-janjeti-but,https://drycured.com/recepti-baza/hangikjot-dimljeni-janjeti-but/,200,5,hladna masa; fallback,1,1,1
+2039,Ukrajinska Domashnia Kovbasa (Domaća Kobasica),ukrajinska-domashnia-kovbasa-domaca-kobasica,https://drycured.com/recepti-baza/ukrajinska-domashnia-kovbasa-domaca-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2042,BALMOȘ CU SLANINĂ (PALENTA SA SLANINOM),balmos-cu-slanina-palenta-sa-slaninom,https://drycured.com/recepti-baza/balmos-cu-slanina-palenta-sa-slaninom/,200,63,hladna masa; fallback; radni recept,1,1,1
+2043,PFÄLZER SAUMAGEN (FALAČKA SVINJSKA ŽELUDAC-KOBASICA),pfalzer-saumagen-falacka-svinjska-zeludac-kobasica,https://drycured.com/recepti-baza/pfalzer-saumagen-falacka-svinjska-zeludac-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2047,Domaći Bratwurst,domaci-bratwurst,https://drycured.com/recepti-baza/domaci-bratwurst/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2049,Hausmacher Mettwurst (Domaća dimljena kobasica za mazanje),hausmacher-mettwurst-domaca-dimljena-kobasica-za-mazanje,https://drycured.com/recepti-baza/hausmacher-mettwurst-domaca-dimljena-kobasica-za-mazanje/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2051,ŠKOTSKI LORNE SAUSAGE (ČETVRTASTI KOBASIČASTI ODREZAK),skotski-lorne-sausage-cetvrtasti-kobasicasti-odrezak,https://drycured.com/recepti-baza/skotski-lorne-sausage-cetvrtasti-kobasicasti-odrezak/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2052,Jamón Ibérico de Bellota &#8211; Iberijski Pršut od Žira,jamon-iberico-de-bellota-iberijski-prsut-od-zira,https://drycured.com/recepti-baza/jamon-iberico-de-bellota-iberijski-prsut-od-zira/,200,63,hladna masa; fallback; radni recept,1,1,1
+2053,Chorizo de Pamplona &#8211; Čorizo iz Pamplone,chorizo-de-pamplona-corizo-iz-pamplone,https://drycured.com/recepti-baza/chorizo-de-pamplona-corizo-iz-pamplone/,200,65,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2055,Coppa Piacentina &#8211; Piacentinska Coppa,coppa-piacentina-piacentinska-coppa,https://drycured.com/recepti-baza/coppa-piacentina-piacentinska-coppa/,200,63,hladna masa; fallback; radni recept,1,1,1
+2056,Nduja Calabrese &#8211; Kalabrijska Nduja,nduja-calabrese-kalabrijska-nduja,https://drycured.com/recepti-baza/nduja-calabrese-kalabrijska-nduja/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2057,Bresaola Valtellinese &#8211; Valtelinska Bresaola,bresaola-valtellinese-valtelinska-bresaola,https://drycured.com/recepti-baza/bresaola-valtellinese-valtelinska-bresaola/,200,63,hladna masa; fallback; radni recept,1,1,1
+2058,Guanciale Romano &#8211; Rimski Guanciale,guanciale-romano-rimski-guanciale,https://drycured.com/recepti-baza/guanciale-romano-rimski-guanciale/,200,63,hladna masa; fallback; radni recept,1,1,1
+2059,SALAME MILANO &#8211; MILANSKA SALAMA,salame-milano-milanska-salama,https://drycured.com/recepti-baza/salame-milano-milanska-salama/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2060,SOPPRESSATA CALABRESE &#8211; KALABRIJSKA SOPPRESSATA,soppressata-calabrese-kalabrijska-soppressata,https://drycured.com/recepti-baza/soppressata-calabrese-kalabrijska-soppressata/,200,63,hladna masa; fallback; radni recept,1,1,1
+2061,PROSCIUTTO DI PARMA &#8211; PARMSKA ŠUNKA,prosciutto-di-parma-parmska-sunka,https://drycured.com/recepti-baza/prosciutto-di-parma-parmska-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2062,PANCETTA ARROTOLATA &#8211; ROLANA PANCETA,pancetta-arrotolata-rolana-panceta,https://drycured.com/recepti-baza/pancetta-arrotolata-rolana-panceta/,200,63,hladna masa; fallback; radni recept,1,1,1
+2063,FINOCCHIONA TOSCANA &#8211; TOSKANSKA KOBASICA S KOMORAČEM,finocchiona-toscana-toskanska-kobasica-s-komoracem,https://drycured.com/recepti-baza/finocchiona-toscana-toskanska-kobasica-s-komoracem/,200,65,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2064,COPPA (CAPOCOLLO) &#8211; TALIJANSKA VRATINA,coppa-capocollo-talijanska-vratina,https://drycured.com/recepti-baza/coppa-capocollo-talijanska-vratina/,200,5,hladna masa; fallback,1,1,1
+2072,Njeguški pršut,njeguski-prsut,https://drycured.com/recepti-baza/njeguski-prsut/,200,63,hladna masa; fallback; radni recept,1,1,1
+2075,Vrgorački kulen iz zaboravljenih recepata,vrgoracki-kulen-iz-zaboravljenih-recepata,https://drycured.com/recepti-baza/vrgoracki-kulen-iz-zaboravljenih-recepata/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2076,Senjska Morska Panceta &#8220;Bura Intenzitet&#8221;,senjska-morska-panceta-bura-intenzitet,https://drycured.com/recepti-baza/senjska-morska-panceta-bura-intenzitet/,200,63,hladna masa; fallback; radni recept,1,1,1
+2078,ANDOUILLE DE VIRE,andouille-de-vire,https://drycured.com/recepti-baza/andouille-de-vire/,200,66,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2079,COPPA CORSE,coppa-corse,https://drycured.com/recepti-baza/coppa-corse/,200,63,hladna masa; fallback; radni recept,1,1,1
+2080,SAUCISSE DE MORTEAU,saucisse-de-morteau,https://drycured.com/recepti-baza/saucisse-de-morteau/,200,65,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2086,Prekomurska Slaninska Rolada &#8220;Trnčova&#8221;,prekomurska-slaninska-rolada-trncova,https://drycured.com/recepti-baza/prekomurska-slaninska-rolada-trncova/,200,63,hladna masa; fallback; radni recept,1,1,1
+2088,Koprivnička Kulen,koprivnicka-kulen,https://drycured.com/recepti-baza/koprivnicka-kulen/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2089,KABANOSY (TANKE SUHE KOBASICE),kabanosy-tanke-suhe-kobasice,https://drycured.com/recepti-baza/kabanosy-tanke-suhe-kobasice/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2092,Crikvenička Panceta,crikvenicka-panceta,https://drycured.com/recepti-baza/crikvenicka-panceta/,200,63,hladna masa; fallback; radni recept,1,1,1
+2093,Stara Koprivnička Salama &#8220;Šokačka Priča&#8221;,stara-koprivnicka-salama-sokacka-prica,https://drycured.com/recepti-baza/stara-koprivnicka-salama-sokacka-prica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2094,Pitomački &#8220;Divlji Kulen&#8221;,pitomacki-divlji-kulen,https://drycured.com/recepti-baza/pitomacki-divlji-kulen/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2096,SLĂNINĂ AFUMATĂ (Dimljena slanina),slanina-afumata-dimljena-slanina,https://drycured.com/recepti-baza/slanina-afumata-dimljena-slanina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2097,CHIȘCĂ (Puhana želuca s krvlju),chisca-puhana-zeluca-s-krvlju,https://drycured.com/recepti-baza/chisca-puhana-zeluca-s-krvlju/,200,63,hladna masa; fallback; radni recept,1,1,1
+2100,Miholjačka Začinska Salama,miholjacka-zacinska-salama,https://drycured.com/recepti-baza/miholjacka-zacinska-salama/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2101,Vinkovački Slavonski Kulen &#8211; Stara obiteljska receptura,vinkovacki-slavonski-kulen-stara-obiteljska-receptura,https://drycured.com/recepti-baza/vinkovacki-slavonski-kulen-stara-obiteljska-receptura/,200,65,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2102,Slovačka slanina (Slovenská slanina),slovacka-slanina-slovenska-slanina,https://drycured.com/recepti-baza/slovacka-slanina-slovenska-slanina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2103,Kranjska klobasa (Kranjska kobasica),kranjska-klobasa-kranjska-kobasica,https://drycured.com/recepti-baza/kranjska-klobasa-kranjska-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2104,Kraški pršut,kraski-prsut,https://drycured.com/recepti-baza/kraski-prsut/,200,63,hladna masa; fallback; radni recept,1,1,1
+2106,Gorenjska zaseka,gorenjska-zaseka,https://drycured.com/recepti-baza/gorenjska-zaseka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2107,Vipavska panceta,vipavska-panceta,https://drycured.com/recepti-baza/vipavska-panceta/,200,63,hladna masa; fallback; radni recept,1,1,1
+2108,Tolminska salama,tolminska-salama,https://drycured.com/recepti-baza/tolminska-salama/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2110,Crnogorska Slanina (Durmitorska panćeta),crnogorska-slanina-durmitorska-panceta,https://drycured.com/recepti-baza/crnogorska-slanina-durmitorska-panceta/,200,63,hladna masa; fallback; radni recept,1,1,1
+2111,LANDJÄGER (TRADICIONALNE DIMLJENE KOBASICE),landjager-tradicionalne-dimljene-kobasice,https://drycured.com/recepti-baza/landjager-tradicionalne-dimljene-kobasice/,200,65,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2113,VACHERIN FRIBOURGEOIS METTWURST (DIMLJENA KOBASICA S ALPSKIM SIROM),vacherin-fribourgeois-mettwurst-dimljena-kobasica-s-alpskim-sirom,https://drycured.com/recepti-baza/vacherin-fribourgeois-mettwurst-dimljena-kobasica-s-alpskim-sirom/,200,65,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2115,BRESAOLA DELLA VALTELLINA,bresaola-della-valtellina,https://drycured.com/recepti-baza/bresaola-della-valtellina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2116,COPPA PIACENTINA,coppa-piacentina,https://drycured.com/recepti-baza/coppa-piacentina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2353,Pastërma (Albansko suho meso),pasterma-albansko-suho-meso,https://drycured.com/recepti-baza/pasterma-albansko-suho-meso/,200,63,hladna masa; fallback; radni recept,1,1,1
+2355,Proshuta Shqiptare – albanska pršuta,proshuta-shqiptare-albanska-prsuta,https://drycured.com/recepti-baza/proshuta-shqiptare-albanska-prsuta/,200,63,hladna masa; fallback; radni recept,1,1,1
+2359,Vorarlberger Mostbröckle – vorarlberška dimljena govedina,vorarlberger-mostbrockle-vorarlberska-dimljena-govedina,https://drycured.com/recepti-baza/vorarlberger-mostbrockle-vorarlberska-dimljena-govedina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2398,Traditionele Droge Worst (Klasična suha kobasica),traditionele-droge-worst-klasicna-suha-kobasica,https://drycured.com/recepti-baza/traditionele-droge-worst-klasicna-suha-kobasica/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2399,Rookworst (Dimljena kobasica),rookworst-dimljena-kobasica,https://drycured.com/recepti-baza/rookworst-dimljena-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2428,Durmitorska kastradina,durmitorska-kastradina,https://drycured.com/recepti-baza/durmitorska-kastradina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2430,Vasojevićka preukuša,vasojevicka-preukusa,https://drycured.com/recepti-baza/vasojevicka-preukusa/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2432,Kučka pršura,kucka-prsura,https://drycured.com/recepti-baza/kucka-prsura/,200,63,hladna masa; fallback; radni recept,1,1,1
+2434,Crnogorska kobasica,crnogorska-kobasica,https://drycured.com/recepti-baza/crnogorska-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2435,Crnogorska stelja,crnogorska-stelja,https://drycured.com/recepti-baza/crnogorska-stelja/,200,63,hladna masa; fallback; radni recept,1,1,1
+2440,Splitski Maestral Narezak,splitski-maestral-narezak,https://drycured.com/recepti-baza/splitski-maestral-narezak/,200,63,hladna masa; fallback; radni recept,1,1,1
+2441,Trogirski Zephyr,trogirski-zephyr,https://drycured.com/recepti-baza/trogirski-zephyr/,200,63,hladna masa; fallback; radni recept,1,1,1
+2442,Makarski Jugo Narezak,makarski-jugo-narezak,https://drycured.com/recepti-baza/makarski-jugo-narezak/,200,63,hladna masa; fallback; radni recept,1,1,1
+2445,Hvarski stolen (zaboravljena delicija),hvarski-stolen-zaboravljena-delicija,https://drycured.com/recepti-baza/hvarski-stolen-zaboravljena-delicija/,200,63,hladna masa; fallback; radni recept,1,1,1
+2449,Ribbenssteg (Danska dimljena svinjska rebra),ribbenssteg-danska-dimljena-svinjska-rebra,https://drycured.com/recepti-baza/ribbenssteg-danska-dimljena-svinjska-rebra/,200,63,hladna masa; fallback; radni recept,1,1,1
+2450,Bayonneskinke (Danska zasoljena i dimljena šunka),bayonneskinke-danska-zasoljena-i-dimljena-sunka,https://drycured.com/recepti-baza/bayonneskinke-danska-zasoljena-i-dimljena-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2456,Spegeskinke (Danska sušena šunka),spegeskinke-danska-susena-sunka,https://drycured.com/recepti-baza/spegeskinke-danska-susena-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2458,Crubeens (Salamurena i dimljena svinjska stopala),crubeens-salamurena-i-dimljena-svinjska-stopala,https://drycured.com/recepti-baza/crubeens-salamurena-i-dimljena-svinjska-stopala/,200,69,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2464,StarohrvatskiMore-Kopno Salamet (Salama Maritima),starohrvatskimore-kopno-salamet-salama-maritima,https://drycured.com/recepti-baza/starohrvatskimore-kopno-salamet-salama-maritima/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2465,Krčki Ovčji Dimljeni Raritet,krcki-ovcji-dimljeni-raritet,https://drycured.com/recepti-baza/krcki-ovcji-dimljeni-raritet/,200,63,hladna masa; fallback; radni recept,1,1,1
+2466,Kvarnerski Divovski Salamet,kvarnerski-divovski-salamet,https://drycured.com/recepti-baza/kvarnerski-divovski-salamet/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2468,Lincolnshire kobasica,lincolnshire-kobasica,https://drycured.com/recepti-baza/lincolnshire-kobasica/,200,69,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2470,Bath Chaps (ukiseljene svinjske obrazine),bath-chaps-ukiseljene-svinjske-obrazine,https://drycured.com/recepti-baza/bath-chaps-ukiseljene-svinjske-obrazine/,200,63,hladna masa; fallback; radni recept,1,1,1
+2474,Tradicionalna engleska šunka (Wiltshire Ham),tradicionalna-engleska-sunka-wiltshire-ham,https://drycured.com/recepti-baza/tradicionalna-engleska-sunka-wiltshire-ham/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2476,Engleski pork pie (svinjetina u tijestu),engleski-pork-pie-svinjetina-u-tijestu,https://drycured.com/recepti-baza/engleski-pork-pie-svinjetina-u-tijestu/,200,63,hladna masa; fallback; radni recept,1,1,1
+2478,Suitsink (Dimljena svinjska šunka),suitsink-dimljena-svinjska-sunka,https://drycured.com/recepti-baza/suitsink-dimljena-svinjska-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2480,Talleliha (Polutrajno sušena govedina),talleliha-polutrajno-susena-govedina,https://drycured.com/recepti-baza/talleliha-polutrajno-susena-govedina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2481,Sealiha õlis (Svinjsko meso u ulju),sealiha-olis-svinjsko-meso-u-ulju,https://drycured.com/recepti-baza/sealiha-olis-svinjsko-meso-u-ulju/,200,63,hladna masa; fallback; radni recept,1,1,1
+2501,Slovačka Klobása (Slovenská Klobása),slovacka-klobasa-slovenska-klobasa,https://drycured.com/recepti-baza/slovacka-klobasa-slovenska-klobasa/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2503,RIIPUTETTU HIRVENLIHA (SUHO-ZRELA JELENOVINA),riiputettu-hirvenliha-suho-zrela-jelenovina,https://drycured.com/recepti-baza/riiputettu-hirvenliha-suho-zrela-jelenovina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2504,SAVUSIIKA (DIMLJENI SIIKA &#8211; BIJELA RIBA),savusiika-dimljeni-siika-bijela-riba,https://drycured.com/recepti-baza/savusiika-dimljeni-siika-bijela-riba/,200,63,hladna masa; fallback; radni recept,1,1,1
+2505,METSOPAISTI (SUHO-SALAMURENI TETRIJEB),metsopaisti-suho-salamureni-tetrijeb,https://drycured.com/recepti-baza/metsopaisti-suho-salamureni-tetrijeb/,200,69,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2506,LAMPAAN ILMAKUIVATTU KYLKI (ZRAČNO-SUŠENA JANJEĆJA PRSA),lampaan-ilmakuivattu-kylki-zracno-susena-janjecja-prsa,https://drycured.com/recepti-baza/lampaan-ilmakuivattu-kylki-zracno-susena-janjecja-prsa/,200,63,hladna masa; fallback; radni recept,1,1,1
+2508,SAVUPORONLIHA (DIMLJENO SOBOVO MESO),savuporonliha-dimljeno-sobovo-meso,https://drycured.com/recepti-baza/savuporonliha-dimljeno-sobovo-meso/,200,63,hladna masa; fallback; radni recept,1,1,1
+2510,ILMAKUIVATTU PORONPAISTI (ZRAČNO-SUŠENI SOBOV BUT),ilmakuivattu-poronpaisti-zracno-suseni-sobov-but,https://drycured.com/recepti-baza/ilmakuivattu-poronpaisti-zracno-suseni-sobov-but/,200,63,hladna masa; fallback; radni recept,1,1,1
+2511,GRAAVILOHI (GRAVLAX &#8211; FINSKI MARINIRANI LOSOS),graavilohi-gravlax-finski-marinirani-losos,https://drycured.com/recepti-baza/graavilohi-gravlax-finski-marinirani-losos/,200,63,hladna masa; fallback; radni recept,1,1,1
+2513,LONZO CORSE,lonzo-corse,https://drycured.com/recepti-baza/lonzo-corse/,200,63,hladna masa; fallback; radni recept,1,1,1
+2525,Dulse and Yellowman Bacon (Slanina s morskom travom),dulse-and-yellowman-bacon-slanina-s-morskom-travom,https://drycured.com/recepti-baza/dulse-and-yellowman-bacon-slanina-s-morskom-travom/,200,63,hladna masa; fallback; radni recept,1,1,1
+2526,Caillín Báin (Bieli spek &#8211; Irska verzija slanine sa začinima),caillin-bain-bieli-spek-irska-verzija-slanine-sa-zacinima,https://drycured.com/recepti-baza/caillin-bain-bieli-spek-irska-verzija-slanine-sa-zacinima/,200,63,hladna masa; fallback; radni recept,1,1,1
+2527,Marrowbone Roll (Rolana kobasica s koštanom srži),marrowbone-roll-rolana-kobasica-s-kostanom-srzi,https://drycured.com/recepti-baza/marrowbone-roll-rolana-kobasica-s-kostanom-srzi/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2529,Irski soljena govedina (Corned Beef),irski-soljena-govedina-corned-beef,https://drycured.com/recepti-baza/irski-soljena-govedina-corned-beef/,200,63,hladna masa; fallback; radni recept,1,1,1
+2530,Irska šunka u pivu (Beer-Cured Ham),irska-sunka-u-pivu-beer-cured-ham,https://drycured.com/recepti-baza/irska-sunka-u-pivu-beer-cured-ham/,200,63,hladna masa; fallback; radni recept,1,1,1
+2533,Bjúgu (Islandska dimljena kobasica),bjugu-islandska-dimljena-kobasica,https://drycured.com/recepti-baza/bjugu-islandska-dimljena-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2540,Hrútspungar (Prešana janjeća muda),hrutspungar-presana-janjeca-muda,https://drycured.com/recepti-baza/hrutspungar-presana-janjeca-muda/,200,63,hladna masa; fallback; radni recept,1,1,1
+2543,Lundabaggar (Dimljena prskalina od janjetine),lundabaggar-dimljena-prskalina-od-janjetine,https://drycured.com/recepti-baza/lundabaggar-dimljena-prskalina-od-janjetine/,200,63,hladna masa; fallback; radni recept,1,1,1
+2544,Moldavska Cârnaţi de Oaie (Kobasica od Ovčetine),moldavska-carnati-de-oaie-kobasica-od-ovcetine,https://drycured.com/recepti-baza/moldavska-carnati-de-oaie-kobasica-od-ovcetine/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2545,Estonska Suitsusink (Dimljena Šunka),estonska-suitsusink-dimljena-sunka,https://drycured.com/recepti-baza/estonska-suitsusink-dimljena-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2546,Sudžuk (Sudžuk Kosovar),sudzuk-sudzuk-kosovar,https://drycured.com/recepti-baza/sudzuk-sudzuk-kosovar/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2549,Suxhuk me Spec (Sudžuk s paprikom),suxhuk-me-spec-sudzuk-s-paprikom,https://drycured.com/recepti-baza/suxhuk-me-spec-sudzuk-s-paprikom/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2552,Otočac Začinski Vrat s Planine (Mountainski naresak),otocac-zacinski-vrat-s-planine-mountainski-naresak,https://drycured.com/recepti-baza/otocac-zacinski-vrat-s-planine-mountainski-naresak/,200,5,hladna masa; fallback,1,1,1
+2553,Skilandis (litavska dimljena kobasica),skilandis-litavska-dimljena-kobasica,https://drycured.com/recepti-baza/skilandis-litavska-dimljena-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2554,Kindziukas (litavska dimljena šunka),kindziukas-litavska-dimljena-sunka,https://drycured.com/recepti-baza/kindziukas-litavska-dimljena-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2555,Lašiniai (litavska slanina),lasiniai-litavska-slanina,https://drycured.com/recepti-baza/lasiniai-litavska-slanina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2556,Vytinta dešra (litavska suha kobasica),vytinta-desra-litavska-suha-kobasica,https://drycured.com/recepti-baza/vytinta-desra-litavska-suha-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2557,Rūkyti lašišos (dimljen losos na litavski način),rukyti-lasisos-dimljen-losos-na-litavski-nacin,https://drycured.com/recepti-baza/rukyti-lasisos-dimljen-losos-na-litavski-nacin/,200,63,hladna masa; fallback; radni recept,1,1,1
+2558,Pounje Planinski Vrtlog,pounje-planinski-vrtlog,https://drycured.com/recepti-baza/pounje-planinski-vrtlog/,200,63,hladna masa; fallback; radni recept,1,1,1
+2560,Drežnički Šušanj,dreznicki-susanj,https://drycured.com/recepti-baza/dreznicki-susanj/,200,63,hladna masa; fallback; radni recept,1,1,1
+2561,Gospićki Vjetar,gospicki-vjetar,https://drycured.com/recepti-baza/gospicki-vjetar/,200,63,hladna masa; fallback; radni recept,1,1,1
+2563,Maltežanska kobasica (Zalzett Malti),maltezanska-kobasica-zalzett-malti,https://drycured.com/recepti-baza/maltezanska-kobasica-zalzett-malti/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2564,Maltežanski pršut (Prosciutto Malti),maltezanski-prsut-prosciutto-malti,https://drycured.com/recepti-baza/maltezanski-prsut-prosciutto-malti/,200,63,hladna masa; fallback; radni recept,1,1,1
+2565,Maltežanska suha govedina (Carne Secca Maltija),maltezanska-suha-govedina-carne-secca-maltija,https://drycured.com/recepti-baza/maltezanska-suha-govedina-carne-secca-maltija/,200,63,hladna masa; fallback; radni recept,1,1,1
+2571,Zaprešićki Vrganjevi Narezak,zapresicki-vrganjevi-narezak,https://drycured.com/recepti-baza/zapresicki-vrganjevi-narezak/,200,63,hladna masa; fallback; radni recept,1,1,1
+2572,Medžimurski Divljač Narezak,medzimurski-divljac-narezak,https://drycured.com/recepti-baza/medzimurski-divljac-narezak/,200,63,hladna masa; fallback; radni recept,1,1,1
+2573,Gornjomurečki Začinski Narezak,gornjomurecki-zacinski-narezak,https://drycured.com/recepti-baza/gornjomurecki-zacinski-narezak/,200,63,hladna masa; fallback; radni recept,1,1,1
+2574,ȘUNCĂ AFUMATĂ (DIMLJENA ŠUNKA),sunca-afumata-dimljena-sunka,https://drycured.com/recepti-baza/sunca-afumata-dimljena-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2575,PASTRAMĂ DE OAIE (OVČJA PASTRAMA),pastrama-de-oaie-ovcja-pastrama,https://drycured.com/recepti-baza/pastrama-de-oaie-ovcja-pastrama/,200,63,hladna masa; fallback; radni recept,1,1,1
+2576,CÂRNAȚ AFUMAT (DIMLJENE KOBASICE),carnat-afumat-dimljene-kobasice,https://drycured.com/recepti-baza/carnat-afumat-dimljene-kobasice/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2577,Droge Worst (Suha kobasica),droge-worst-suha-kobasica,https://drycured.com/recepti-baza/droge-worst-suha-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2579,Spekdikken (Slanina s medom),spekdikken-slanina-s-medom,https://drycured.com/recepti-baza/spekdikken-slanina-s-medom/,200,63,hladna masa; fallback; radni recept,1,1,1
+2587,VOSSAKORV (TRADICIONALNA DIMLJENA KOBASICA IZ VOSSA),vossakorv-tradicionalna-dimljena-kobasica-iz-vossa,https://drycured.com/recepti-baza/vossakorv-tradicionalna-dimljena-kobasica-iz-vossa/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2589,SPEKELÅR (SUŠENA I DIMLJENA JELEN/SRNETINA),spekelar-susena-i-dimljena-jelen-srnetina,https://drycured.com/recepti-baza/spekelar-susena-i-dimljena-jelen-srnetina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2594,GRAVET LAKS (GRAVLAKS &#8211; MARINIRANI LOSOS),gravet-laks-gravlaks-marinirani-losos,https://drycured.com/recepti-baza/gravet-laks-gravlaks-marinirani-losos/,200,63,hladna masa; fallback; radni recept,1,1,1
+2597,FENALÅR (SUŠENI BUT JANJETA),fenalar-suseni-but-janjeta,https://drycured.com/recepti-baza/fenalar-suseni-but-janjeta/,200,63,hladna masa; fallback; radni recept,1,1,1
+2598,SPEKESKINKE (NORŠKA PRŠUTA),spekeskinke-norska-prsuta,https://drycured.com/recepti-baza/spekeskinke-norska-prsuta/,200,63,hladna masa; fallback; radni recept,1,1,1
+2600,MORR (NORVEŠKA KOBASICA),morr-norveska-kobasica,https://drycured.com/recepti-baza/morr-norveska-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2603,Vinkovački Aromatični Začinski Špek,vinkovacki-aromaticni-zacinski-spek,https://drycured.com/recepti-baza/vinkovacki-aromaticni-zacinski-spek/,200,63,hladna masa; fallback; radni recept,1,1,1
+2604,Osiječki Ljuti Začinski Vrat s Divljim Travkama,osijecki-ljuti-zacinski-vrat-s-divljim-travkama,https://drycured.com/recepti-baza/osijecki-ljuti-zacinski-vrat-s-divljim-travkama/,200,5,hladna masa; fallback,1,1,1
+2606,Požeški Aromatični Sušeni Vrat s Divljim Travkama,pozeski-aromaticni-suseni-vrat-s-divljim-travkama,https://drycured.com/recepti-baza/pozeski-aromaticni-suseni-vrat-s-divljim-travkama/,200,5,hladna masa; fallback,1,1,1
+2608,Kuru Et (Suho meso sa smrekom),kuru-et-suho-meso-sa-smrekom,https://drycured.com/recepti-baza/kuru-et-suho-meso-sa-smrekom/,200,63,hladna masa; fallback; radni recept,1,1,1
+2610,Tulum Peyniri Dolgulu Et (Meso punjeno sirom),tulum-peyniri-dolgulu-et-meso-punjeno-sirom,https://drycured.com/recepti-baza/tulum-peyniri-dolgulu-et-meso-punjeno-sirom/,200,63,hladna masa; fallback; radni recept,1,1,1
+2614,Virovski Čvarci,virovski-cvarci,https://drycured.com/recepti-baza/virovski-cvarci/,200,63,hladna masa; fallback; radni recept,1,1,1
+2616,BALERON (POLJSKA DIMLJENA VRATINA),baleron-poljska-dimljena-vratina,https://drycured.com/recepti-baza/baleron-poljska-dimljena-vratina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2620,SZYNKA WĘDZONA (DIMLJENA ŠUNKA),szynka-wedzona-dimljena-sunka,https://drycured.com/recepti-baza/szynka-wedzona-dimljena-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2621,BOCZEK WĘDZONY (DIMLJENA SLANINA),boczek-wedzony-dimljena-slanina,https://drycured.com/recepti-baza/boczek-wedzony-dimljena-slanina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2622,Chouriço Tradicional Português (Tradicionalna portugalska kobasica),chourico-tradicional-portugues-tradicionalna-portugalska-kobasica,https://drycured.com/recepti-baza/chourico-tradicional-portugues-tradicionalna-portugalska-kobasica/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2623,Presunto Português (Portugalska pršuta),presunto-portugues-portugalska-prsuta,https://drycured.com/recepti-baza/presunto-portugues-portugalska-prsuta/,200,63,hladna masa; fallback; radni recept,1,1,1
+2624,Paio Alentejano (Alentejanska kobasica),paio-alentejano-alentejanska-kobasica,https://drycured.com/recepti-baza/paio-alentejano-alentejanska-kobasica/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2625,Farinheira Alentejana (Kobasica s brašnom iz Alenteja),farinheira-alentejana-kobasica-s-brasnom-iz-alenteja,https://drycured.com/recepti-baza/farinheira-alentejana-kobasica-s-brasnom-iz-alenteja/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2627,Chouriço de Vinho (Kobasica s Vinom),chourico-de-vinho-kobasica-s-vinom,https://drycured.com/recepti-baza/chourico-de-vinho-kobasica-s-vinom/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2628,Paio do Alentejo (Alentejo Dimljena Kobasica),paio-do-alentejo-alentejo-dimljena-kobasica,https://drycured.com/recepti-baza/paio-do-alentejo-alentejo-dimljena-kobasica/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2629,Alheira de Mirandela (Kobasica iz Mirandele),alheira-de-mirandela-kobasica-iz-mirandele,https://drycured.com/recepti-baza/alheira-de-mirandela-kobasica-iz-mirandele/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2631,Rovinjska Kobasica,rovinjska-kobasica,https://drycured.com/recepti-baza/rovinjska-kobasica/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2632,Krčki Sir-Kobasica,krcki-sir-kobasica,https://drycured.com/recepti-baza/krcki-sir-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2633,Senjska Šunka,senjska-sunka,https://drycured.com/recepti-baza/senjska-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2637,Tradicionalni Thüringer Schinken (Tirinška šunka),tradicionalni-thuringer-schinken-tirinska-sunka,https://drycured.com/recepti-baza/tradicionalni-thuringer-schinken-tirinska-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2638,Bavarski Bierschinken (Šunka od piva),bavarski-bierschinken-sunka-od-piva,https://drycured.com/recepti-baza/bavarski-bierschinken-sunka-od-piva/,200,63,hladna masa; fallback; radni recept,1,1,1
+2645,Viganjska kobasica od divlje svinje s tavom,viganjska-kobasica-od-divlje-svinje-s-tavom,https://drycured.com/recepti-baza/viganjska-kobasica-od-divlje-svinje-s-tavom/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2664,BABIC (Tradicionalna babić kobasica),babic-tradicionalna-babic-kobasica,https://drycured.com/recepti-baza/babic-tradicionalna-babic-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2665,MUȘCHI ȚIGĂNESC (Ciganski vrat),muschi-tiganesc-ciganski-vrat,https://drycured.com/recepti-baza/muschi-tiganesc-ciganski-vrat/,200,63,hladna masa; fallback; radni recept,1,1,1
+2666,CÂRNAȚI DE BURDUF (Sirnate kobasice),carnati-de-burduf-sirnate-kobasice,https://drycured.com/recepti-baza/carnati-de-burduf-sirnate-kobasice/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2667,ȘUNCĂ DE MANGALIȚA AFUMATĂ (Dimljena mangulica šunka),sunca-de-mangalita-afumata-dimljena-mangulica-sunka,https://drycured.com/recepti-baza/sunca-de-mangalita-afumata-dimljena-mangulica-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2668,CÂRNAŢI DE PLEŞCOI (Pleščojske kobasice),carnati-de-plescoi-plescojske-kobasice,https://drycured.com/recepti-baza/carnati-de-plescoi-plescojske-kobasice/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2670,GHIUDEM (Suha kobasica od ovčetine),ghiudem-suha-kobasica-od-ovcetine,https://drycured.com/recepti-baza/ghiudem-suha-kobasica-od-ovcetine/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2682,HIGHLAND VENISON HAM (DIMLJENA ŠUNKA OD JELENA),highland-venison-ham-dimljena-sunka-od-jelena,https://drycured.com/recepti-baza/highland-venison-ham-dimljena-sunka-od-jelena/,200,63,hladna masa; fallback; radni recept,1,1,1
+2683,EDINBURGH POTTED HOG (KONZERVIRANO SVINJSKO MESO),edinburgh-potted-hog-konzervirano-svinjsko-meso,https://drycured.com/recepti-baza/edinburgh-potted-hog-konzervirano-svinjsko-meso/,200,63,hladna masa; fallback; radni recept,1,1,1
+2684,ŠKOTSKI HAGGIS,skotski-haggis,https://drycured.com/recepti-baza/skotski-haggis/,200,63,hladna masa; fallback; radni recept,1,1,1
+2687,AYRSHIRE PRESAVICA (AYRSHIRE MIDDLE CUT),ayrshire-presavica-ayrshire-middle-cut,https://drycured.com/recepti-baza/ayrshire-presavica-ayrshire-middle-cut/,200,63,hladna masa; fallback; radni recept,1,1,1
+2688,HIGHLANDS JERKY (SUŠENA DIVLJAČ),highlands-jerky-susena-divljac,https://drycured.com/recepti-baza/highlands-jerky-susena-divljac/,200,63,hladna masa; fallback; radni recept,1,1,1
+2689,KopačkiRib Začinska Štruca,kopackirib-zacinska-struca,https://drycured.com/recepti-baza/kopackirib-zacinska-struca/,200,63,hladna masa; fallback; radni recept,1,1,1
+2691,Valpovačka Zimska Devenica,valpovacka-zimska-devenica,https://drycured.com/recepti-baza/valpovacka-zimska-devenica/,200,63,hladna masa; fallback; radni recept,1,1,1
+2692,Požeška Začinska Štruca,pozeska-zacinska-struca,https://drycured.com/recepti-baza/pozeska-zacinska-struca/,200,63,hladna masa; fallback; radni recept,1,1,1
+2693,Osječki Začinski Špek,osjecki-zacinski-spek,https://drycured.com/recepti-baza/osjecki-zacinski-spek/,200,63,hladna masa; fallback; radni recept,1,1,1
+2694,Požeški Pikantni Vrat,pozeski-pikantni-vrat,https://drycured.com/recepti-baza/pozeski-pikantni-vrat/,200,5,hladna masa; fallback,1,1,1
+2695,Slavonsko-Brodski Ljuti Čvarci,slavonsko-brodski-ljuti-cvarci,https://drycured.com/recepti-baza/slavonsko-brodski-ljuti-cvarci/,200,63,hladna masa; fallback; radni recept,1,1,1
+2696,Nasički Fermentirani Vrat,nasicki-fermentirani-vrat,https://drycured.com/recepti-baza/nasicki-fermentirani-vrat/,200,5,hladna masa; fallback,1,1,1
+2697,Baranjska Ljuta Slavonska Kobasica,baranjska-ljuta-slavonska-kobasica,https://drycured.com/recepti-baza/baranjska-ljuta-slavonska-kobasica/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2698,Slavonska Domaća Suhomesnata Salama,slavonska-domaca-suhomesnata-salama,https://drycured.com/recepti-baza/slavonska-domaca-suhomesnata-salama/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2699,Baranjska Fermenetirana Kobasica,baranjska-fermenetirana-kobasica,https://drycured.com/recepti-baza/baranjska-fermenetirana-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2701,Vukovarska Tradicionalna Kobasica,vukovarska-tradicionalna-kobasica,https://drycured.com/recepti-baza/vukovarska-tradicionalna-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2702,Baranjski Začinski Špek s Pustara Začinima,baranjski-zacinski-spek-s-pustara-zacinima,https://drycured.com/recepti-baza/baranjski-zacinski-spek-s-pustara-zacinima/,200,63,hladna masa; fallback; radni recept,1,1,1
+2703,Erdutski Fermentirani Vrat s Podunavskim Začinima,erdutski-fermentirani-vrat-s-podunavskim-zacinima,https://drycured.com/recepti-baza/erdutski-fermentirani-vrat-s-podunavskim-zacinima/,200,5,hladna masa; fallback,1,1,1
+2704,Osječko-Baranjski Ljuti Špek s Divljim Travama,osjecko-baranjski-ljuti-spek-s-divljim-travama,https://drycured.com/recepti-baza/osjecko-baranjski-ljuti-spek-s-divljim-travama/,200,63,hladna masa; fallback; radni recept,1,1,1
+2705,Vukovarski Fermentirani Vrat s Podunavskim Začinima,vukovarski-fermentirani-vrat-s-podunavskim-zacinima,https://drycured.com/recepti-baza/vukovarski-fermentirani-vrat-s-podunavskim-zacinima/,200,5,hladna masa; fallback,1,1,1
+2707,Klobása (slovačka kobasica),klobasa-slovacka-kobasica,https://drycured.com/recepti-baza/klobasa-slovacka-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2708,Údené mäso (dimljeno meso),udene-maso-dimljeno-meso,https://drycured.com/recepti-baza/udene-maso-dimljeno-meso/,200,63,hladna masa; fallback; radni recept,1,1,1
+2712,Koroška tunka,koroska-tunka,https://drycured.com/recepti-baza/koroska-tunka/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2713,Zasavska klobasa (Zasavska kobasica),zasavska-klobasa-zasavska-kobasica,https://drycured.com/recepti-baza/zasavska-klobasa-zasavska-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2714,Prleška tünka,prleska-tunka,https://drycured.com/recepti-baza/prleska-tunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2715,Idrijsko kosilo,idrijsko-kosilo,https://drycured.com/recepti-baza/idrijsko-kosilo/,200,63,hladna masa; fallback; radni recept,1,1,1
+2717,Savinjski želodec (Savinjski želudac),savinjski-zelodec-savinjski-zeludac,https://drycured.com/recepti-baza/savinjski-zelodec-savinjski-zeludac/,200,63,hladna masa; fallback; radni recept,1,1,1
+2718,Prekmurska šunka,prekmurska-sunka,https://drycured.com/recepti-baza/prekmurska-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2722,Crnogorska Pršuta (Njeguška pršuta),crnogorska-prsuta-njeguska-prsuta,https://drycured.com/recepti-baza/crnogorska-prsuta-njeguska-prsuta/,200,63,hladna masa; fallback; radni recept,1,1,1
+2723,Crnogorska Kastradina,crnogorska-kastradina,https://drycured.com/recepti-baza/crnogorska-kastradina/,200,63,hladna masa; fallback; radni recept,1,1,1
+2724,PRINSKORV (ŠVEDSKE TANKE DIMLJENE KOBASICE),prinskorv-svedske-tanke-dimljene-kobasice,https://drycured.com/recepti-baza/prinskorv-svedske-tanke-dimljene-kobasice/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2725,FLÄSKLÄGG (DIMLJENA SVINJSKA KOLJENICA),flasklagg-dimljena-svinjska-koljenica,https://drycured.com/recepti-baza/flasklagg-dimljena-svinjska-koljenica/,200,63,hladna masa; fallback; radni recept,1,1,1
+2726,ÖLÄNDSK GETKORV (ÖLANDSKA KOZJA KOBASICA),olandsk-getkorv-olandska-kozja-kobasica,https://drycured.com/recepti-baza/olandsk-getkorv-olandska-kozja-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2727,KRONOBERGSKORV (KRONOBERGŠKA KOBASICA),kronobergskorv-kronobergska-kobasica,https://drycured.com/recepti-baza/kronobergskorv-kronobergska-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2728,VÄRMLANDSKORV (VÄRMLANDSKA DIMLJENA KOBASICA),varmlandskorv-varmlandska-dimljena-kobasica,https://drycured.com/recepti-baza/varmlandskorv-varmlandska-dimljena-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2729,FALUKORV (TRADICIONALNA ŠVEDSKA KOBASICA),falukorv-tradicionalna-svedska-kobasica,https://drycured.com/recepti-baza/falukorv-tradicionalna-svedska-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2730,GRAVAD LAX (ŠVEDSKI GRAVLJENI LOSOS),gravad-lax-svedski-gravljeni-losos,https://drycured.com/recepti-baza/gravad-lax-svedski-gravljeni-losos/,200,63,hladna masa; fallback; radni recept,1,1,1
+2732,ISTERBAND (ŠVEDSKA FERMENTIRANA KOBASICA),isterband-svedska-fermentirana-kobasica,https://drycured.com/recepti-baza/isterband-svedska-fermentirana-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2733,SPICKESKINKA (ŠVEDSKA SUHA ŠUNKA),spickeskinka-svedska-suha-sunka,https://drycured.com/recepti-baza/spickeskinka-svedska-suha-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+2736,GLARNER KALBERWURST (TELEĆA KOBASICA IZ GLARUSA),glarner-kalberwurst-teleca-kobasica-iz-glarusa,https://drycured.com/recepti-baza/glarner-kalberwurst-teleca-kobasica-iz-glarusa/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2737,CHURER SALSIZ (DIVLJAČKA KOBASICA IZ CHURA),churer-salsiz-divljacka-kobasica-iz-chura,https://drycured.com/recepti-baza/churer-salsiz-divljacka-kobasica-iz-chura/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2741,AARGAUER RÜEBLIWURST (MESNATA KOBASICA S MRKVOM),aargauer-ruebliwurst-mesnata-kobasica-s-mrkvom,https://drycured.com/recepti-baza/aargauer-ruebliwurst-mesnata-kobasica-s-mrkvom/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2744,WALLISER TROCKENFLEISCH (SUŠENA GOVEDINA IZ VALAISA),walliser-trockenfleisch-susena-govedina-iz-valaisa,https://drycured.com/recepti-baza/walliser-trockenfleisch-susena-govedina-iz-valaisa/,200,63,hladna masa; fallback; radni recept,1,1,1
+2745,SALSIZ (ALPSKA SUHA KOBASICA),salsiz-alpska-suha-kobasica,https://drycured.com/recepti-baza/salsiz-alpska-suha-kobasica/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+2746,CULATELLO DI ZIBELLO,culatello-di-zibello,https://drycured.com/recepti-baza/culatello-di-zibello/,200,63,hladna masa; fallback; radni recept,1,1,1
+2747,LONZINO (LOMBO),lonzino-lombo,https://drycured.com/recepti-baza/lonzino-lombo/,200,63,hladna masa; fallback; radni recept,1,1,1
+2774,Jambon Persillé (Šunka u želeu s peršinom),jambon-persille-sunka-u-zeleu-s-persinom,https://drycured.com/recepti-baza/jambon-persille-sunka-u-zeleu-s-persinom/,200,63,hladna masa; fallback; radni recept,1,1,1
+2778,Čvarci s Papuka &#8211; Planinski recept,cvarci-s-papuka-planinski-recept,https://drycured.com/recepti-baza/cvarci-s-papuka-planinski-recept/,200,63,hladna masa; fallback; radni recept,1,1,1
+2779,Slavonski cviček (suhomesnati narez),slavonski-cvicek-suhomesnati-narez,https://drycured.com/recepti-baza/slavonski-cvicek-suhomesnati-narez/,200,63,hladna masa; fallback; radni recept,1,1,1
+2780,Slavonski pikantni vrat,slavonski-pikantni-vrat,https://drycured.com/recepti-baza/slavonski-pikantni-vrat/,200,5,hladna masa; fallback,1,1,1
+2781,Esencijalni slavonski sušeni vrat s divljim začinima,esencijalni-slavonski-suseni-vrat-s-divljim-zacinima,https://drycured.com/recepti-baza/esencijalni-slavonski-suseni-vrat-s-divljim-zacinima/,200,5,hladna masa; fallback,1,1,1
+2972,Slavonski kulen (PDO EU),hr-sl-001-slavonski-kulen-pdo-eu,https://drycured.com/recepti-baza/hr-sl-001-slavonski-kulen-pdo-eu/,200,9,prema receptu; hladna masa; fallback,1,1,1
+2973,Kulenova seka,hr-sl-002-kulenova-seka,https://drycured.com/recepti-baza/hr-sl-002-kulenova-seka/,200,11,prema receptu; hladna masa; fallback,1,1,1
+2974,Baranjski kulen (ZOZP EU),hr-sl-003-baranjski-kulen-zozp-eu,https://drycured.com/recepti-baza/hr-sl-003-baranjski-kulen-zozp-eu/,200,11,prema receptu; hladna masa; fallback,1,1,1
+2975,Đakovački kulen,hr-sl-004-dakovacki-kulen,https://drycured.com/recepti-baza/hr-sl-004-dakovacki-kulen/,200,11,prema receptu; hladna masa; fallback,1,1,1
+2976,Slavonska domaća kobasica,hr-sl-005-slavonska-domaca-kobasica,https://drycured.com/recepti-baza/hr-sl-005-slavonska-domaca-kobasica/,200,13,prema receptu; hladna masa; fallback,1,1,1
+2977,Srijemska kobasica (OGP),hr-sl-006-srijemska-kobasica-ogp,https://drycured.com/recepti-baza/hr-sl-006-srijemska-kobasica-ogp/,200,13,prema receptu; hladna masa; fallback,1,1,1
+2979,Baranjska kobasica,hr-sl-008-baranjska-kobasica,https://drycured.com/recepti-baza/hr-sl-008-baranjska-kobasica/,200,13,prema receptu; hladna masa; fallback,1,1,1
+2981,Slavonska kobasica (ZOI EU 2023),hr-sl-010-slavonska-kobasica-zoi-eu-2023,https://drycured.com/recepti-baza/hr-sl-010-slavonska-kobasica-zoi-eu-2023/,200,13,prema receptu; hladna masa; fallback,1,1,1
+2996,Brodska kobasica (Slavonski Brod),hr-sl-030-brodska-kobasica-slavonski-brod,https://drycured.com/recepti-baza/hr-sl-030-brodska-kobasica-slavonski-brod/,200,13,prema receptu; hladna masa; fallback,1,1,1
+2997,Osječka kobasica,hr-sl-031-osjecka-kobasica,https://drycured.com/recepti-baza/hr-sl-031-osjecka-kobasica/,200,13,prema receptu; hladna masa; fallback,1,1,1
+3000,Slavonska domaća salama,hr-sl-034-slavonska-domaca-salama,https://drycured.com/recepti-baza/hr-sl-034-slavonska-domaca-salama/,200,11,prema receptu; hladna masa; fallback,1,1,1
+3001,Slavonska čvarkovača (kobasica od čvaraka),hr-sl-036-slavonska-cvarkovaca-kobasica-od-cvaraka,https://drycured.com/recepti-baza/hr-sl-036-slavonska-cvarkovaca-kobasica-od-cvaraka/,200,13,prema receptu; hladna masa; fallback,1,1,1
+3002,Vinkovačka kobasica,hr-sl-037-vinkovacka-kobasica,https://drycured.com/recepti-baza/hr-sl-037-vinkovacka-kobasica/,200,13,prema receptu; hladna masa; fallback,1,1,1
+3003,Slavonska lovačka kobasica (divljač + svinjetina),hr-sl-038-slavonska-lovacka-kobasica-divljac-svinjetina,https://drycured.com/recepti-baza/hr-sl-038-slavonska-lovacka-kobasica-divljac-svinjetina/,200,13,prema receptu; hladna masa; fallback,1,1,1
+3024,Irska dimljena kobasica (Smoked Sausage),irska-dimljena-kobasica-smoked-sausage,https://drycured.com/recepti-baza/irska-dimljena-kobasica-smoked-sausage/,200,65,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3025,Pršuta e Kosovës (Kosovska pršuta),prsuta-e-kosoves-kosovska-prsuta-2,https://drycured.com/recepti-baza/prsuta-e-kosoves-kosovska-prsuta-2/,200,63,hladna masa; fallback; radni recept,1,1,1
+3026,Scharfe Edelrohwurst s povrćem na žaru,scharfe-edelrohwurst-s-povrcem-na-zaru,https://drycured.com/recepti-baza/scharfe-edelrohwurst-s-povrcem-na-zaru/,200,66,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3027,ENGADINER HATECLETT (SUŠENI KOZJI BUT),engadiner-hateclett-suseni-kozji-but-2,https://drycured.com/recepti-baza/engadiner-hateclett-suseni-kozji-but-2/,200,5,hladna masa; fallback,1,1,1
+3028,ZUGER HIRSCHTROCKENWURST (KOBASICA OD JELENA IZ ZUGA),zuger-hirschtrockenwurst-kobasica-od-jelena-iz-zuga-2,https://drycured.com/recepti-baza/zuger-hirschtrockenwurst-kobasica-od-jelena-iz-zuga-2/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3029,Tiroler Speck – tirolski sušeni dimljeni svinjski but,tiroler-speck-tirolska-slanina-2,https://drycured.com/recepti-baza/tiroler-speck-tirolska-slanina-2/,200,63,hladna masa; fallback; radni recept,1,1,1
+3030,Waldviertler Hirschsalami – salama od jelena iz Waldviertela,waldviertler-hirschsalami-salama-od-jelena-iz-waldviertela-2,https://drycured.com/recepti-baza/waldviertler-hirschsalami-salama-od-jelena-iz-waldviertela-2/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3032,Mađarska Gyulai Kolbász – Gyulai kobasica,maarska-gyulai-kolbasz-gyulai-kobasica,https://drycured.com/recepti-baza/maarska-gyulai-kolbasz-gyulai-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3033,Lukanka iz Panagyurishte – bugarska prešana suha kobasica,lukanka-iz-panagyurishte,https://drycured.com/recepti-baza/lukanka-iz-panagyurishte/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3035,Strandzhansko Dyado – bugarski sušeni punjeni proizvod,strandzhansko-dyado,https://drycured.com/recepti-baza/strandzhansko-dyado/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3037,Dobrudzhanski Babek – bugarski sušeni babek,dobrudzhanski-babek,https://drycured.com/recepti-baza/dobrudzhanski-babek/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3038,Grčki Loukaniko – tradicionalna grčka kobasica,grcka-tradicionalni-recepti-za-loukaniko-2,https://drycured.com/recepti-baza/grcka-tradicionalni-recepti-za-loukaniko-2/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3039,Joulukinkku – finska božićna šunka,joulukinkku-bozicna-sunka-2,https://drycured.com/recepti-baza/joulukinkku-bozicna-sunka-2/,200,63,hladna masa; fallback; radni recept,1,1,1
+3041,Saucisson Sec – francuska suha kobasica,saucisson-sec-suha-kobasica-2,https://drycured.com/recepti-baza/saucisson-sec-suha-kobasica-2/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3042,Jésus de Lyon – debela suha kobasica,jesus-de-lyon-debela-suha-kobasica,https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/,200,6,prema receptu; hladna masa; fallback,1,1,1
+3044,Jésus de Lyon – velika lionska suha kobasica,jesus-de-lyon-2,https://drycured.com/recepti-baza/jesus-de-lyon-2/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3045,Rosette de Lyon – lionska suha kobasica,rosette-de-lyon-2,https://drycured.com/recepti-baza/rosette-de-lyon-2/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3047,Siglino Messinias – grčka dimljena svinjetina,siglino-messinias,https://drycured.com/recepti-baza/siglino-messinias/,200,63,hladna masa; fallback; radni recept,1,1,1
+3050,Pancetta Maltija – malteška panceta,maltezanska-panceta-pancetta-maltija-2,https://drycured.com/recepti-baza/maltezanska-panceta-pancetta-maltija-2/,200,63,hladna masa; fallback; radni recept,1,1,1
+3051,Pick Szalámi – mađarski Pick salami,maarski-pick-salami-pick-szalami,https://drycured.com/recepti-baza/maarski-pick-salami-pick-szalami/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3052,Mađarska Kolbász – mađarska kobasica,maarska-kobasica-kolbasz,https://drycured.com/recepti-baza/maarska-kobasica-kolbasz/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3053,Westfälischer Knochenschinken – vestfalska šunka s kosti,westfalischer-knochenschinken-vestfalska-sunka-s-kosti,https://drycured.com/recepti-baza/westfalischer-knochenschinken-vestfalska-sunka-s-kosti/,200,63,hladna masa; fallback; radni recept,1,1,1
+3055,Salo – ukrajinska slana svinjska slanina,salo-slana-svinjeca-slanina,https://drycured.com/recepti-baza/salo-slana-svinjeca-slanina/,200,63,hladna masa; fallback; radni recept,1,1,1
+3057,Belokranjska jagenjčara,belokranjska-jagenjcara-2,https://drycured.com/recepti-baza/belokranjska-jagenjcara-2/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3058,Sobrasada Mallorquina – majorška sobrasada,sobrasada-mallorquina-majorska-sobrasada-2,https://drycured.com/recepti-baza/sobrasada-mallorquina-majorska-sobrasada-2/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3060,Appenzeller Mostbröckli – švicarska sušena dimljena govedina,appenzeller-mostbrockli-dimljena-govedina,https://drycured.com/recepti-baza/appenzeller-mostbrockli-dimljena-govedina/,200,63,hladna masa; fallback; radni recept,1,1,1
+3061,Speck Alto Adige – južnotirolski sušeni dimljeni but,speck-alto-adige-2,https://drycured.com/recepti-baza/speck-alto-adige-2/,200,63,hladna masa; fallback; radni recept,1,1,1
+3063,Suxhuk – albanska suha kobasica,suxhuk-albanska-suha-kobasica-2,https://drycured.com/recepti-baza/suxhuk-albanska-suha-kobasica-2/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3064,Proshuta Shqiptare – albanska pršuta,0003-proshuta-shqiptare-albanska-prsuta,https://drycured.com/recepti-baza/0003-proshuta-shqiptare-albanska-prsuta/,200,68,hladna masa; fallback; radni recept,1,1,1
+3065,Mish i thatë – albanska suha janjetina,mish-i-thate-albanska-suha-janjetina-2,https://drycured.com/recepti-baza/mish-i-thate-albanska-suha-janjetina-2/,200,63,hladna masa; fallback; radni recept,1,1,1
+3066,Kärntner Wurzelspeck – koruški sušeni dimljeni vrat,karntner-wurzelspeck-koruska-korijenska-slanina-2,https://drycured.com/recepti-baza/karntner-wurzelspeck-koruska-korijenska-slanina-2/,200,63,hladna masa; fallback; radni recept,1,1,1
+3067,Steirischer Rohschinken – štajerska sirova šunka,steirischer-rohschinken-stajerska-sirova-sunka-2,https://drycured.com/recepti-baza/steirischer-rohschinken-stajerska-sirova-sunka-2/,200,63,hladna masa; fallback; radni recept,1,1,1
+3068,Vorarlberger Mostbröckle – vorarlberška dimljena govedina,0010-vorarlberger-mostbrockle-vorarlberska-dimljena-govedina,https://drycured.com/recepti-baza/0010-vorarlberger-mostbrockle-vorarlberska-dimljena-govedina/,200,68,hladna masa; fallback; radni recept,1,1,1
+3069,Finska Meetvursti – suha kobasica,finska-meetvursti-suha-kobasica-2,https://drycured.com/recepti-baza/finska-meetvursti-suha-kobasica-2/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3070,Filet d’Anvers – antverpski file,filet-d-anvers-antverpski-file,https://drycured.com/recepti-baza/filet-d-anvers-antverpski-file/,200,63,hladna masa; fallback; radni recept,1,1,1
+3071,Lard fumé de Flandre – flamanska dimljena slanina,lard-fume-de-flandre-flamansko-dimljeno-salo-2,https://drycured.com/recepti-baza/lard-fume-de-flandre-flamansko-dimljeno-salo-2/,200,63,hladna masa; fallback; radni recept,1,1,1
+3073,Collier fumé de Wallonie – dimljeni svinjski vrat iz Valonije,collier-fume-de-wallonie-dimljeni-svinjski-vrat-iz-valonije-2,https://drycured.com/recepti-baza/collier-fume-de-wallonie-dimljeni-svinjski-vrat-iz-valonije-2/,200,63,hladna masa; fallback; radni recept,1,1,1
+3075,Jambon d’Ardenne – ardenska šunka,jambon-d-ardenne-ardenski-prsut,https://drycured.com/recepti-baza/jambon-d-ardenne-ardenski-prsut/,200,63,hladna masa; fallback; radni recept,1,1,1
+3081,SAUCISSON D&#8217;ARDENNE (ARDENSKI KULEN),saucisson-d-ardenne-ardenski-kulen,https://drycured.com/recepti-baza/saucisson-d-ardenne-ardenski-kulen/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3082,НАНИЖЕН СУДЖУК (Nanižen Sudžuk),nanizen-sudzuk,https://drycured.com/recepti-baza/nanizen-sudzuk/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3083,ЕЛЕНСКИ БУТ (Elenski but),elenski-but,https://drycured.com/recepti-baza/elenski-but/,200,5,hladna masa; fallback,1,1,1
+3084,СМЯДОВСКА ЛУКАНКА (Smyadovska lukanka),smyadovska-lukanka,https://drycured.com/recepti-baza/smyadovska-lukanka/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3085,СТАРОПЛАНИНСКИ ПАСТЪРМА (Staroplaninska pastrma),staroplaninska-pastrma,https://drycured.com/recepti-baza/staroplaninska-pastrma/,200,63,hladna masa; fallback; radni recept,1,1,1
+3086,Nadenitsa (Наденица),nadenitsa,https://drycured.com/recepti-baza/nadenitsa/,200,63,hladna masa; fallback; radni recept,1,1,1
+3087,Rulopep (Рулопеп),rulopep,https://drycured.com/recepti-baza/rulopep/,200,63,hladna masa; fallback; radni recept,1,1,1
+3088,Katino Meze (Катино мезе),katino-meze,https://drycured.com/recepti-baza/katino-meze/,200,63,hladna masa; fallback; radni recept,1,1,1
+3089,Drobsarma (Дробсарма),drobsarma,https://drycured.com/recepti-baza/drobsarma/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3090,Maleshevska Babichka (Малешевска бабичка),maleshevska-babichka,https://drycured.com/recepti-baza/maleshevska-babichka/,200,63,hladna masa; fallback; radni recept,1,1,1
+3091,Kraishte Pastarma (Краищенска пастърма),kraishte-pastarma,https://drycured.com/recepti-baza/kraishte-pastarma/,200,63,hladna masa; fallback; radni recept,1,1,1
+3092,Lukanka (Луканка),lukanka,https://drycured.com/recepti-baza/lukanka/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3093,Sudjuk (Суджук),sudjuk,https://drycured.com/recepti-baza/sudjuk/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3094,Elena filet (Еленски филе),elena-filet,https://drycured.com/recepti-baza/elena-filet/,200,5,hladna masa; fallback,1,1,1
+3095,Pastarma (Пастърма),pastarma,https://drycured.com/recepti-baza/pastarma/,200,63,hladna masa; fallback; radni recept,1,1,1
+3096,Banski Starec (Бански старец),banski-starec,https://drycured.com/recepti-baza/banski-starec/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3097,Lountza (Λούντζα),lountza,https://drycured.com/recepti-baza/lountza/,200,63,hladna masa; fallback; radni recept,1,1,1
+3098,Hiromeri (Χοιρομέρι),hiromeri,https://drycured.com/recepti-baza/hiromeri/,200,63,hladna masa; fallback; radni recept,1,1,1
+3099,Tsamarella (Τσαμαρέλλα),tsamarella,https://drycured.com/recepti-baza/tsamarella/,200,67,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3100,Posyrti (Ποσυρτή),posyrti,https://drycured.com/recepti-baza/posyrti/,200,63,hladna masa; fallback; radni recept,1,1,1
+3101,Apohtin (Αποχτίν),apohtin,https://drycured.com/recepti-baza/apohtin/,200,63,hladna masa; fallback; radni recept,1,1,1
+3102,Lounza (Λούντζα) &#8211; Dimljena svinjska potrbušina,lounza-dimljena-svinjska-potrbusina,https://drycured.com/recepti-baza/lounza-dimljena-svinjska-potrbusina/,200,63,hladna masa; fallback; radni recept,1,1,1
+3103,Tsamarella (Τσαμαρέλλα) &#8211; Sušena kozletina,tsamarella-susena-kozletina,https://drycured.com/recepti-baza/tsamarella-susena-kozletina/,200,63,hladna masa; fallback; radni recept,1,1,1
+3104,Hiromeri (Χοιρομέρι) &#8211; Ciparski pršut,hiromeri-ciparski-prsut,https://drycured.com/recepti-baza/hiromeri-ciparski-prsut/,200,63,hladna masa; fallback; radni recept,1,1,1
+3105,Apohti (Απόχτι) &#8211; Dimljeni svinjski file,apohti-dimljeni-svinjski-file,https://drycured.com/recepti-baza/apohti-dimljeni-svinjski-file/,200,5,hladna masa; fallback,1,1,1
+3106,Pastourma (Παστουρμάς) &#8211; Ciparski začinjeni sušeni goveđi file,pastourma-ciparski-zacinjeni-suseni-govei-file,https://drycured.com/recepti-baza/pastourma-ciparski-zacinjeni-suseni-govei-file/,200,5,hladna masa; fallback,1,1,1
+3107,?? NIZOZEMSKA &#8211; Tradicionalni recepti,nizozemska-tradicionalni-recepti,https://drycured.com/recepti-baza/nizozemska-tradicionalni-recepti/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3108,Crmničke goveđe pastrve,crmnicke-govee-pastrve,https://drycured.com/recepti-baza/crmnicke-govee-pastrve/,200,63,hladna masa; fallback; radni recept,1,1,1
+3110,Crnogorski suđuk,crnogorski-suuk,https://drycured.com/recepti-baza/crnogorski-suuk/,200,63,hladna masa; fallback; radni recept,1,1,1
+3112,Medisterpølse (Danska svježa začinjena kobasica),medisterplse-danska-svjeza-zacinjena-kobasica,https://drycured.com/recepti-baza/medisterplse-danska-svjeza-zacinjena-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3114,Rullepølse (Danska rolana šunka),rulleplse-danska-rolana-sunka,https://drycured.com/recepti-baza/rulleplse-danska-rolana-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+3115,Flæskesteg (Danska pečena svinjetina s hrskavom kožom),flskesteg-danska-pecena-svinjetina-s-hrskavom-kozom,https://drycured.com/recepti-baza/flskesteg-danska-pecena-svinjetina-s-hrskavom-kozom/,200,63,hladna masa; fallback; radni recept,1,1,1
+3116,Spegepølse (Danska fermentirana kobasica),spegeplse-danska-fermentirana-kobasica,https://drycured.com/recepti-baza/spegeplse-danska-fermentirana-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3117,Irski spiced beef (Začinjeno sušeno goveđe meso),irski-spiced-beef-zacinjeno-suseno-govee-meso,https://drycured.com/recepti-baza/irski-spiced-beef-zacinjeno-suseno-govee-meso/,200,63,hladna masa; fallback; radni recept,1,1,1
+3118,Kasseler pečenka s pireom od jabuka i krupir knedlama,kasseler-pecenka-s-pireom-od-jabuka-i-krupir-knedlama,https://drycured.com/recepti-baza/kasseler-pecenka-s-pireom-od-jabuka-i-krupir-knedlama/,200,63,hladna masa; fallback; radni recept,1,1,1
+3120,Rogatički Planinsko-Morski Raritet &#8220;Vjetar i More&#8221;,rogaticki-planinsko-morski-raritet-vjetar-i-more,https://drycured.com/recepti-baza/rogaticki-planinsko-morski-raritet-vjetar-i-more/,200,63,hladna masa; fallback; radni recept,1,1,1
+3121,Istarski Morski Pršut &#8220;Neptunov Dar&#8221;,istarski-morski-prsut-neptunov-dar,https://drycured.com/recepti-baza/istarski-morski-prsut-neptunov-dar/,200,63,hladna masa; fallback; radni recept,1,1,1
+3122,Potted Beef (konzervirano goveđe meso),potted-beef-konzervirano-govee-meso,https://drycured.com/recepti-baza/potted-beef-konzervirano-govee-meso/,200,63,hladna masa; fallback; radni recept,1,1,1
+3124,Engleski sušeni goveđi jezik (Potted Ox Tongue),engleski-suseni-govei-jezik-potted-ox-tongue,https://drycured.com/recepti-baza/engleski-suseni-govei-jezik-potted-ox-tongue/,200,63,hladna masa; fallback; radni recept,1,1,1
+3125,?? Talijansko-toskanski recept za salamu (Salame Toscano),talijansko-toskanski-recept-za-salamu-salame-toscano,https://drycured.com/recepti-baza/talijansko-toskanski-recept-za-salamu-salame-toscano/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3126,?? Austrijski recept za Kmetzelsuppe kobasicu,austrijski-recept-za-kmetzelsuppe-kobasicu,https://drycured.com/recepti-baza/austrijski-recept-za-kmetzelsuppe-kobasicu/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3127,Poljska Kiełbasa Lisiecka (Lisiecka Kobasica),poljska-kiebasa-lisiecka-lisiecka-kobasica,https://drycured.com/recepti-baza/poljska-kiebasa-lisiecka-lisiecka-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3128,KYLMÄSAVULOHI (HLADNO DIMLJENI LOSOS),kylmasavulohi-hladno-dimljeni-losos,https://drycured.com/recepti-baza/kylmasavulohi-hladno-dimljeni-losos/,200,63,hladna masa; fallback; radni recept,1,1,1
+3129,Jambon de Bayonne (Bajonska šunka),jambon-de-bayonne-bajonska-sunka,https://drycured.com/recepti-baza/jambon-de-bayonne-bajonska-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+3131,SAUCISSON SEC D&#8217;AUVERGNE,saucisson-sec-d-auvergne,https://drycured.com/recepti-baza/saucisson-sec-d-auvergne/,200,69,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3132,Armatia (Αρματιά),armatia,https://drycured.com/recepti-baza/armatia/,200,63,hladna masa; fallback; radni recept,1,1,1
+3133,Pihti (Πηχτή),pihti,https://drycured.com/recepti-baza/pihti/,200,63,hladna masa; fallback; radni recept,1,1,1
+3134,Kavourmas (Καβουρμάς),kavourmas,https://drycured.com/recepti-baza/kavourmas/,200,63,hladna masa; fallback; radni recept,1,1,1
+3135,Pastourmas (Παστουρμάς),pastourmas,https://drycured.com/recepti-baza/pastourmas/,200,5,hladna masa; fallback,1,1,1
+3136,Loukaniko (Λουκάνικο),loukaniko,https://drycured.com/recepti-baza/loukaniko/,200,67,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3137,Apaki (Απάκι),apaki,https://drycured.com/recepti-baza/apaki/,200,63,hladna masa; fallback; radni recept,1,1,1
+3138,Noumboulo (Νούμπουλο),noumboulo,https://drycured.com/recepti-baza/noumboulo/,200,63,hladna masa; fallback; radni recept,1,1,1
+3139,Syglino (Σύγκλινο),syglino,https://drycured.com/recepti-baza/syglino/,200,63,hladna masa; fallback; radni recept,1,1,1
+3140,Skirts and Kidneys (Tradicionalna irska marinirana goveđa dijafragma),skirts-and-kidneys-tradicionalna-irska-marinirana-govea-dijafragma,https://drycured.com/recepti-baza/skirts-and-kidneys-tradicionalna-irska-marinirana-govea-dijafragma/,200,63,hladna masa; fallback; radni recept,1,1,1
+3141,Svið (Dimljena janjeća glava),svi-dimljena-janjeca-glava,https://drycured.com/recepti-baza/svi-dimljena-janjeca-glava/,200,63,hladna masa; fallback; radni recept,1,1,1
+3142,Heilhornað Hangikjöt (Sušena janjeća rebra),heilhorna-hangikjot-susena-janjeca-rebra,https://drycured.com/recepti-baza/heilhorna-hangikjot-susena-janjeca-rebra/,200,5,hladna masa; fallback,1,1,1
+3143,Torfær​ður Lambahryggur (Zakopana janjeća leđa),torfrur-lambahryggur-zakopana-janjeca-lea,https://drycured.com/recepti-baza/torfrur-lambahryggur-zakopana-janjeca-lea/,200,63,hladna masa; fallback; radni recept,1,1,1
+3144,Selshreifar (Sušeni tuljanovi peraji),selshreifar-suseni-tuljanovi-peraji,https://drycured.com/recepti-baza/selshreifar-suseni-tuljanovi-peraji/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3145,Hákarlasullur (Fermentirani trbuh grenlandskog morskog psa),hakarlasullur-fermentirani-trbuh-grenlandskog-morskog-psa,https://drycured.com/recepti-baza/hakarlasullur-fermentirani-trbuh-grenlandskog-morskog-psa/,200,63,hladna masa; fallback; radni recept,1,1,1
+3146,Gellur (Sušeni riblji jezici),gellur-suseni-riblji-jezici,https://drycured.com/recepti-baza/gellur-suseni-riblji-jezici/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3147,Súrsaðir Hrútspungar Með Lyngi (Fermentirani ovnovski testisi s vrijeskom),sursair-hrutspungar-me-lyngi-fermentirani-ovnovski-testisi-s-vrijeskom,https://drycured.com/recepti-baza/sursair-hrutspungar-me-lyngi-fermentirani-ovnovski-testisi-s-vrijeskom/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3148,Sviðasulta (Želatinizirano janjeće meso s glave),sviasulta-zelatinizirano-janjece-meso-s-glave,https://drycured.com/recepti-baza/sviasulta-zelatinizirano-janjece-meso-s-glave/,200,63,hladna masa; fallback; radni recept,1,1,1
+3149,Harðfiskur (Sušeni oslić),harfiskur-suseni-oslic,https://drycured.com/recepti-baza/harfiskur-suseni-oslic/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3150,Kæstur Hákarl (Fermentirano meso grenlandskog morskog psa),kstur-hakarl-fermentirano-meso-grenlandskog-morskog-psa,https://drycured.com/recepti-baza/kstur-hakarl-fermentirano-meso-grenlandskog-morskog-psa/,200,63,hladna masa; fallback; radni recept,1,1,1
+3151,Pastërma (Sušena govedina),pasterma-susena-govedina,https://drycured.com/recepti-baza/pasterma-susena-govedina/,200,63,hladna masa; fallback; radni recept,1,1,1
+3152,Skilandis (Tradicinis lietuviškas skilandis),skilandis-tradicinis-lietuviskas-skilandis,https://drycured.com/recepti-baza/skilandis-tradicinis-lietuviskas-skilandis/,200,63,hladna masa; fallback; radni recept,1,1,1
+3153,Kindziukas (Kindzius),kindziukas-kindzius,https://drycured.com/recepti-baza/kindziukas-kindzius/,200,63,hladna masa; fallback; radni recept,1,1,1
+3154,Lašiniai (Tradicionalna litavska slanina),lasiniai-tradicionalna-litavska-slanina,https://drycured.com/recepti-baza/lasiniai-tradicionalna-litavska-slanina/,200,63,hladna masa; fallback; radni recept,1,1,1
+3155,Vytinta dešra (Sušena litavska kobasica),vytinta-desra-susena-litavska-kobasica,https://drycured.com/recepti-baza/vytinta-desra-susena-litavska-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3156,Lički Planinarski Navršak,licki-planinarski-navrsak,https://drycured.com/recepti-baza/licki-planinarski-navrsak/,200,63,hladna masa; fallback; radni recept,1,1,1
+3158,Mađarska Slanina (Szalonna),maarska-slanina-szalonna,https://drycured.com/recepti-baza/maarska-slanina-szalonna/,200,63,hladna masa; fallback; radni recept,1,1,1
+3159,Mađarska Dimljena Šunka (Füstölt Sonka),maarska-dimljena-sunka-fustolt-sonka,https://drycured.com/recepti-baza/maarska-dimljena-sunka-fustolt-sonka/,200,63,hladna masa; fallback; radni recept,1,1,1
+3160,Mađarski Dimljeni Jezik (Füstölt Nyelv),maarski-dimljeni-jezik-fustolt-nyelv,https://drycured.com/recepti-baza/maarski-dimljeni-jezik-fustolt-nyelv/,200,63,hladna masa; fallback; radni recept,1,1,1
+3162,Ossenworst (Goveđa sirova kobasica),ossenworst-govea-sirova-kobasica,https://drycured.com/recepti-baza/ossenworst-govea-sirova-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3163,MOSTBRÖCKLI (ALPSKA SUŠENA GOVEDINA),mostbrockli-alpska-susena-govedina,https://drycured.com/recepti-baza/mostbrockli-alpska-susena-govedina/,200,63,hladna masa; fallback; radni recept,1,1,1
+3164,HOLSTEINER KATENSCHINKEN (HOLŠTAJNSKA DIMLJENA ŠUNKA),holsteiner-katenschinken-holstajnska-dimljena-sunka,https://drycured.com/recepti-baza/holsteiner-katenschinken-holstajnska-dimljena-sunka/,200,63,hladna masa; fallback; radni recept,1,1,1
+3166,Leichter Karreeschinken s povrćem u eintopfu,leichter-karreeschinken-s-povrcem-u-eintopfu,https://drycured.com/recepti-baza/leichter-karreeschinken-s-povrcem-u-eintopfu/,200,63,hladna masa; fallback; radni recept,1,1,1
+3168,RAKFISK (FERMENTIRANI SLATKOVODNI LOSOS),rakfisk-fermentirani-slatkovodni-losos,https://drycured.com/recepti-baza/rakfisk-fermentirani-slatkovodni-losos/,200,63,hladna masa; fallback; radni recept,1,1,1
+3169,LUTEFISK (SUŠENI BAKALAR),lutefisk-suseni-bakalar,https://drycured.com/recepti-baza/lutefisk-suseni-bakalar/,200,63,hladna masa; fallback; radni recept,1,1,1
+3170,SMALAHOVE (SUŠENA OVČJA GLAVA),smalahove-susena-ovcja-glava,https://drycured.com/recepti-baza/smalahove-susena-ovcja-glava/,200,63,hladna masa; fallback; radni recept,1,1,1
+3171,FÅREPØLSE (TRADICIONALNA OVČJA KOBASICA),fareplse-tradicionalna-ovcja-kobasica,https://drycured.com/recepti-baza/fareplse-tradicionalna-ovcja-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3172,ELGKJØTT SPEKEMAT (SUHO MESO LOSA),elgkjtt-spekemat-suho-meso-losa,https://drycured.com/recepti-baza/elgkjtt-spekemat-suho-meso-losa/,200,63,hladna masa; fallback; radni recept,1,1,1
+3173,TJUKKMJØLKSPØLSE (FERMENTIRANA KOBASICA S MLIJEČNOM KULTUROM),tjukkmjlksplse-fermentirana-kobasica-s-mlijecnom-kulturom,https://drycured.com/recepti-baza/tjukkmjlksplse-fermentirana-kobasica-s-mlijecnom-kulturom/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3174,REINSDYRHJERTE (SUŠENO SRCE SOBA),reinsdyrhjerte-suseno-srce-soba,https://drycured.com/recepti-baza/reinsdyrhjerte-suseno-srce-soba/,200,63,hladna masa; fallback; radni recept,1,1,1
+3175,PINNEKJØTT (SUŠENA REBRA),pinnekjtt-susena-rebra,https://drycured.com/recepti-baza/pinnekjtt-susena-rebra/,200,5,hladna masa; fallback,1,1,1
+3176,RØKELAKS (DIMLJENI LOSOS),rkelaks-dimljeni-losos,https://drycured.com/recepti-baza/rkelaks-dimljeni-losos/,200,63,hladna masa; fallback; radni recept,1,1,1
+3178,Kuşbaşı Jerky (Turski goveđi jerky),kusbas-jerky-turski-govei-jerky,https://drycured.com/recepti-baza/kusbas-jerky-turski-govei-jerky/,200,63,hladna masa; fallback; radni recept,1,1,1
+3179,Işkembe Dolması (Punjeni goveđi burag),iskembe-dolmas-punjeni-govei-burag,https://drycured.com/recepti-baza/iskembe-dolmas-punjeni-govei-burag/,200,63,hladna masa; fallback; radni recept,1,1,1
+3180,Varaždinski Š(p)ek,varazdinski-s-p-ek,https://drycured.com/recepti-baza/varazdinski-s-p-ek/,200,63,hladna masa; fallback; radni recept,1,1,1
+3181,Đurđevački Zelenjak,urevacki-zelenjak,https://drycured.com/recepti-baza/urevacki-zelenjak/,200,63,hladna masa; fallback; radni recept,1,1,1
+3182,KINDZIUK (POLJSKO-LITAVSKA SUHA KOBASICA),kindziuk-poljsko-litavska-suha-kobasica,https://drycured.com/recepti-baza/kindziuk-poljsko-litavska-suha-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3183,KIEŁBASA WĘDZONA (DIMLJENA POLJSKA KOBASICA),kiebasa-wedzona-dimljena-poljska-kobasica,https://drycured.com/recepti-baza/kiebasa-wedzona-dimljena-poljska-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3185,Presunto de Porco Preto (Pršut od Crne Iberijske Svinje),presunto-de-porco-preto-prsut-od-crne-iberijske-svinje,https://drycured.com/recepti-baza/presunto-de-porco-preto-prsut-od-crne-iberijske-svinje/,200,63,hladna masa; fallback; radni recept,1,1,1
+3188,Lountza Kafteri (Λούντζα Καυτερή) &#8211; Ljuta dimljena svinjska vratina,lountza-kafteri-ljuta-dimljena-svinjska-vratina,https://drycured.com/recepti-baza/lountza-kafteri-ljuta-dimljena-svinjska-vratina/,200,5,hladna masa; fallback,1,1,1
+3189,Posyrti (Ποσυρτή) &#8211; Ciparska suha kobasica s divljim biljem,posyrti-ciparska-suha-kobasica-s-divljim-biljem,https://drycured.com/recepti-baza/posyrti-ciparska-suha-kobasica-s-divljim-biljem/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3190,Afelia Pastarma (Αφέλια Παστάρμα) &#8211; Ciparska marinirana goveđa pisanica,afelia-pastarma-ciparska-marinirana-govea-pisanica,https://drycured.com/recepti-baza/afelia-pastarma-ciparska-marinirana-govea-pisanica/,200,63,hladna masa; fallback; radni recept,1,1,1
+3191,Ofto Lountza (Οφτή Λούντζα) &#8211; Ciparska zračno sušena janjetina,ofto-lountza-ciparska-zracno-susena-janjetina,https://drycured.com/recepti-baza/ofto-lountza-ciparska-zracno-susena-janjetina/,200,63,hladna masa; fallback; radni recept,1,1,1
+3192,Virovski &#8220;Živi Čvarci&#8221;,virovski-zivi-cvarci,https://drycured.com/recepti-baza/virovski-zivi-cvarci/,200,63,hladna masa; fallback; radni recept,1,1,1
+3193,Ludbreška &#8220;Tajna Kobasica&#8221;,ludbreska-tajna-kobasica,https://drycured.com/recepti-baza/ludbreska-tajna-kobasica/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3194,Đurđevački &#8220;Zaboravljeni Š(p)ek&#8221;,urevacki-zaboravljeni-s-p-ek,https://drycured.com/recepti-baza/urevacki-zaboravljeni-s-p-ek/,200,63,hladna masa; fallback; radni recept,1,1,1
+3195,Pregradski &#8220;Šumski Šaptat&#8221;,pregradski-sumski-saptat,https://drycured.com/recepti-baza/pregradski-sumski-saptat/,200,63,hladna masa; fallback; radni recept,1,1,1
+3196,Križevački &#8220;Začinski Vjetar&#8221;,krizevacki-zacinski-vjetar,https://drycured.com/recepti-baza/krizevacki-zacinski-vjetar/,200,63,hladna masa; fallback; radni recept,1,1,1
+3197,Našički &#8220;Ratarski Sjećaj&#8221;,nasicki-ratarski-sjecaj,https://drycured.com/recepti-baza/nasicki-ratarski-sjecaj/,200,63,hladna masa; fallback; radni recept,1,1,1
+3198,Draževački &#8220;Veteranski Sjećaj&#8221;,drazevacki-veteranski-sjecaj,https://drycured.com/recepti-baza/drazevacki-veteranski-sjecaj/,200,63,hladna masa; fallback; radni recept,1,1,1
+3199,Kalničkog &#8220;Gorski Trag&#8221;,kalnickog-gorski-trag,https://drycured.com/recepti-baza/kalnickog-gorski-trag/,200,63,hladna masa; fallback; radni recept,1,1,1
+3200,Podravski &#8220;Zaboravljeni Vrbovec&#8221;,podravski-zaboravljeni-vrbovec,https://drycured.com/recepti-baza/podravski-zaboravljeni-vrbovec/,200,63,hladna masa; fallback; radni recept,1,1,1
+3201,Koprivnički &#8220;Seoski Izvor&#8221;,koprivnicki-seoski-izvor,https://drycured.com/recepti-baza/koprivnicki-seoski-izvor/,200,63,hladna masa; fallback; radni recept,1,1,1
+3202,Đurđevački &#8220;Ribarski Sjaj&#8221;,urevacki-ribarski-sjaj,https://drycured.com/recepti-baza/urevacki-ribarski-sjaj/,200,63,hladna masa; fallback; radni recept,1,1,1
+3203,Ludbreški &#8220;Planinski Trag&#8221;,ludbreski-planinski-trag,https://drycured.com/recepti-baza/ludbreski-planinski-trag/,200,63,hladna masa; fallback; radni recept,1,1,1
+3204,Virovski &#8220;Šumski Biseri&#8221;,virovski-sumski-biseri,https://drycured.com/recepti-baza/virovski-sumski-biseri/,200,63,hladna masa; fallback; radni recept,1,1,1
+3205,PASTRAMĂ DE OAIE (Sušena ovčetina),pastrama-de-oaie-susena-ovcetina,https://drycured.com/recepti-baza/pastrama-de-oaie-susena-ovcetina/,200,5,hladna masa; fallback,1,1,1
+3206,Basturma (Бастурма &#8211; Začinjeno sušeno goveđe meso),basturma-zacinjeno-suseno-govee-meso,https://drycured.com/recepti-baza/basturma-zacinjeno-suseno-govee-meso/,200,5,hladna masa; fallback,1,1,1
+3207,Koryushka (Корюшка &#8211; Dimljena mala riba),koryushka-dimljena-mala-riba,https://drycured.com/recepti-baza/koryushka-dimljena-mala-riba/,200,63,hladna masa; fallback; radni recept,1,1,1
+3208,Svinaya Vyrezka (Свиная вырезка &#8211; Sušeni svinjski file),svinaya-vyrezka-suseni-svinjski-file,https://drycured.com/recepti-baza/svinaya-vyrezka-suseni-svinjski-file/,200,5,hladna masa; fallback,1,1,1
+3210,ARBROATH SMOKIES (DIMLJENA HARINGA),arbroath-smokies-dimljena-haringa,https://drycured.com/recepti-baza/arbroath-smokies-dimljena-haringa/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3211,Zgornjesavinjski želodec,zgornjesavinjski-zelodec,https://drycured.com/recepti-baza/zgornjesavinjski-zelodec/,200,63,hladna masa; fallback; radni recept,1,1,1
+3212,Lomo Embuchado &#8211; Začinjena Suha Svinjska Leđa,lomo-embuchado-zacinjena-suha-svinjska-lea,https://drycured.com/recepti-baza/lomo-embuchado-zacinjena-suha-svinjska-lea/,200,5,hladna masa; fallback,1,1,1
+3213,Cecina de León &#8211; Sušena Goveđa Cecina,cecina-de-leon-susena-govea-cecina,https://drycured.com/recepti-baza/cecina-de-leon-susena-govea-cecina/,200,63,hladna masa; fallback; radni recept,1,1,1
+3214,Crnogorski Sudžuk,crnogorski-sudzuk,https://drycured.com/recepti-baza/crnogorski-sudzuk/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3215,SCHAFFHAUSER SCHÜBLIG (DIMLJENA GOVEĐA KOBASICA),schaffhauser-schublig-dimljena-govea-kobasica,https://drycured.com/recepti-baza/schaffhauser-schublig-dimljena-govea-kobasica/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3216,BÜNDNERFLEISCH (GRAUBÜNDENSKI SUŠENI GOVEĐI BUT),bundnerfleisch-graubundenski-suseni-govei-but,https://drycured.com/recepti-baza/bundnerfleisch-graubundenski-suseni-govei-but/,200,5,hladna masa; fallback,1,1,1
+3217,Culatello di Zibello &#8211; Kulatelo iz Zibella,culatello-di-zibello-kulatelo-iz-zibella,https://drycured.com/recepti-baza/culatello-di-zibello-kulatelo-iz-zibella/,200,63,hladna masa; fallback; radni recept,1,1,1
+3218,PANCETTA ARROTOLATA,pancetta-arrotolata,https://drycured.com/recepti-baza/pancetta-arrotolata/,200,63,hladna masa; fallback; radni recept,1,1,1
+3219,Herzegovina Livanjska Devenica,herzegovina-livanjska-devenica,https://drycured.com/recepti-baza/herzegovina-livanjska-devenica/,200,63,hladna masa; fallback; radni recept,1,1,1
+3222,Mostarsko Zrno &#8211; Unikatna Mesna Kombinacija,mostarsko-zrno-unikatna-mesna-kombinacija,https://drycured.com/recepti-baza/mostarsko-zrno-unikatna-mesna-kombinacija/,200,63,hladna masa; fallback; radni recept,1,1,1
+3223,Etnografska studija kulinarskog naslijeđa,etnografska-studija-kulinarskog-naslijea,https://drycured.com/recepti-baza/etnografska-studija-kulinarskog-naslijea/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3224,Polendvytsia (Полендвиця) &#8211; Sušeni svinjski file,polendvytsia-suseni-svinjski-file,https://drycured.com/recepti-baza/polendvytsia-suseni-svinjski-file/,200,63,hladna masa; fallback; radni recept,1,1,1
+3225,Shukhevychivska Kovbasa (Шухевичівська ковбаса) &#8211; Sušena kobasica s paprom,shukhevychivska-kovbasa-susena-kobasica-s-paprom,https://drycured.com/recepti-baza/shukhevychivska-kovbasa-susena-kobasica-s-paprom/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3226,Miasnyi Khlib (М&#8217;ясний хліб) &#8211; Mesni kruh,miasnyi-khlib-mesni-kruh,https://drycured.com/recepti-baza/miasnyi-khlib-mesni-kruh/,200,63,hladna masa; fallback; radni recept,1,1,1
+3227,Dimlenyi Yazyk (Димлений язик) &#8211; Dimljeni goveđi jezik,dimlenyi-yazyk-dimljeni-govei-jezik,https://drycured.com/recepti-baza/dimlenyi-yazyk-dimljeni-govei-jezik/,200,63,hladna masa; fallback; radni recept,1,1,1
+3228,Salo (Сало) &#8211; Ukrajinska slanina,salo-ukrajinska-slanina,https://drycured.com/recepti-baza/salo-ukrajinska-slanina/,200,63,hladna masa; fallback; radni recept,1,1,1
+3229,Domašnja Kovbasa (Домашня ковбаса) &#8211; Domaća kobasica,domasnja-kovbasa-domaca-kobasica,https://drycured.com/recepti-baza/domasnja-kovbasa-domaca-kobasica/,200,68,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3230,Buženina (Буженина) &#8211; Pečena i sušena svinjetina,buzenina-pecena-i-susena-svinjetina,https://drycured.com/recepti-baza/buzenina-pecena-i-susena-svinjetina/,200,63,hladna masa; fallback; radni recept,1,1,1
+3232,Solonina (Солонина) &#8211; Salamurena govedina,solonina-salamurena-govedina,https://drycured.com/recepti-baza/solonina-salamurena-govedina/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3233,Češnjovke 1.2021 – domaća varijanta,e-njovke-1-2021-doma-a-varijanta,https://drycured.com/recepti-baza/e-njovke-1-2021-doma-a-varijanta/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3234,Kranjska 1.2021 – domaća varijanta,kranjska-1-2021-doma-a-varijanta,https://drycured.com/recepti-baza/kranjska-1-2021-doma-a-varijanta/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3236,Pečena salamurena slanina s toplim dimom,pe-ena-salamurena-slanina-s-toplim-dimom,https://drycured.com/recepti-baza/pe-ena-salamurena-slanina-s-toplim-dimom/,200,64,prema receptu; hladna masa; fallback; radni recept,1,1,1
+3308,Istarska kobasica,hr-is-001-istarska-kobasica,https://drycured.com/recepti-baza/hr-is-001-istarska-kobasica/,200,63,hladna masa; fallback; radni recept,1,1,1
+3309,Rovinjska kobasica,hr-is-002-rovinjska-kobasica,https://drycured.com/recepti-baza/hr-is-002-rovinjska-kobasica/,200,63,hladna masa; fallback; radni recept,1,1,1
+3310,Pazinska kobasica,hr-is-003-pazinska-kobasica,https://drycured.com/recepti-baza/hr-is-003-pazinska-kobasica/,200,63,hladna masa; fallback; radni recept,1,1,1
+3311,Lička kobasica,hr-li-001-licka-kobasica,https://drycured.com/recepti-baza/hr-li-001-licka-kobasica/,200,63,hladna masa; fallback; radni recept,1,1,1
+3312,Sinjska kobasica,hr-da-001-sinjska-kobasica,https://drycured.com/recepti-baza/hr-da-001-sinjska-kobasica/,200,63,hladna masa; fallback; radni recept,1,1,1
+3313,Korčulanska kobasica,hr-da-002-korculanska-kobasica,https://drycured.com/recepti-baza/hr-da-002-korculanska-kobasica/,200,63,hladna masa; fallback; radni recept,1,1,1
+3314,Hvarska prstena kobasica,hr-da-003-hvarska-prstena-kobasica,https://drycured.com/recepti-baza/hr-da-003-hvarska-prstena-kobasica/,200,63,hladna masa; fallback; radni recept,1,1,1
+3315,Vrgorački kulen,hr-da-004-vrgoracki-kulen,https://drycured.com/recepti-baza/hr-da-004-vrgoracki-kulen/,200,63,hladna masa; fallback; radni recept,1,1,1
