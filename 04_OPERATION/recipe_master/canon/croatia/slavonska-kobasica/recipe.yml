@@ -1,0 +1,270 @@
+recipe_id: HR-SL-005-CANON-PILOT-01
+wp_target_post_id: 2976
+title: Slavonska domaća kobasica
+country: Hrvatska
+region: Slavonija
+product_family: fermentirana_susena_kobasica
+batch_size_kg: 10
+status: CANON_DRAFT_SOURCE_CONFIRMED
+public_action: no_public_update_yet
+
+identity:
+  short_description: >
+    Slavonska domaća kobasica je tradicionalna sušena i dimljena kobasica
+    od svinjskog mesa, tvrde leđne slanine, paprike, soli i češnjaka.
+    U ovom dosjeu obrađuje se domaća, neregulirana varijanta, odvojeno
+    od ZOI/EU recepta.
+  traditional_context: >
+    Recept pripada slavonskom kobasičarskom modelu u kojem paprika,
+    češnjak, hladni dim i postupno zrenje određuju prepoznatljiv miris,
+    boju i okus.
+  protected_status: nije_ZOI_prikaz
+  source_confidence: high
+  source_note: >
+    Kanonski draft temelji se na projektnom izvoru Slavonske kobasice
+    i Pavičićevu receptu za Slavonske kobasice. Javni tekst mora biti
+    preoblikovan, bez doslovnog prepisivanja.
+
+raw_materials:
+  - name: svinjsko meso od vrata ili lopatice, očišćeno od grubljeg vezivnog tkiva
+    quantity_kg: 8.0
+    percent: 80
+    preparation: narezati na manje komade prije mljevenja
+    grinding_plate_mm: 14
+    source_status: confirmed_pavicic
+    note: >
+      Meso mora biti dobro ohlađeno. Pregrijavanje tijekom mljevenja
+      povećava rizik razmazivanja masnoće i lošeg presjeka.
+  - name: svježa tvrda leđna slanina bez kožice
+    quantity_kg: 2.0
+    percent: 20
+    preparation: narezati na manje komade prije mljevenja
+    grinding_plate_mm: 8
+    source_status: confirmed_pavicic
+    note: >
+      Koristi se čvrsta leđna slanina. Meka trbušna masnoća nije jednako
+      prikladna za sušenu kobasicu jer lakše razmazuje presjek.
+
+spices:
+  - name: kuhinjska sol
+    quantity_g: 200
+    g_per_kg: 20
+    percent: 2.0
+    form: sitna ili srednje krupna sol
+    application: dodati u smjesu pri glavnom miješanju
+    source_status: confirmed_pavicic
+  - name: slatka mljevena paprika
+    quantity_g: 100
+    g_per_kg: 10
+    percent: 1.0
+    form: svježa, prosijana, bez grudica
+    application: ravnomjerno rasporediti po mesu prije miješanja
+    source_status: confirmed_pavicic
+  - name: ljuta mljevena paprika
+    quantity_g: 50
+    g_per_kg: 5
+    percent: 0.5
+    form: mljevena ljuta paprika
+    application: dodati zajedno sa slatkom paprikom
+    source_status: confirmed_pavicic
+  - name: češnjak
+    quantity_g: 100
+    g_per_kg: 10
+    percent: 1.0
+    form: sitno tučen ili usitnjen
+    application: dodati u smjesu tijekom miješanja
+    source_status: confirmed_pavicic
+  - name: bijeli papar
+    quantity_g: 25
+    g_per_kg: 2.5
+    percent: 0.25
+    form: mljeveni
+    application: izborna dopuna prema drugom projektnom izvoru
+    source_status: supporting_source_slavonske_kobasice_txt
+    note: >
+      Drugi projektni izvor za 20 kg smjese navodi žlicu bijelog bibera,
+      odnosno 50 g na 20 kg. Za 10 kg to je 25 g.
+  - name: šećer
+    quantity_g: 25
+    g_per_kg: 2.5
+    percent: 0.25
+    form: kristal šećer
+    application: izborna dopuna prema drugom projektnom izvoru
+    source_status: supporting_source_slavonske_kobasice_txt
+    note: >
+      Drugi projektni izvor navodi 50 g na 20 kg smjese. Za 10 kg to je 25 g.
+
+liquids:
+  - name: topla voda za češnjak
+    quantity_l: null
+    ml_per_kg: null
+    application: samo ako se slijedi varijanta u kojoj se bijeli luk otapa u toploj vodi
+    source_status: mentioned_but_quantity_not_stated
+    public_display_rule: >
+      Ne prikazivati kao procijeđenu aromatičnu tekućinu jer izvor ne daje
+      količinu vode ni postupak procjeđivanja.
+
+garlic:
+  mode: direct_with_source_variant
+  primary_display: direktni usitnjeni češnjak
+  garlic_quantity_g: 100
+  liquid_type: topla voda samo u varijanti drugog izvora
+  liquid_quantity_l: not_stated_in_source
+  soaking_time: not_stated_in_source
+  hot_or_cold: topla voda spomenuta samo u jednom izvoru
+  boiled: not_stated_in_source
+  strained: not_stated_in_source
+  used_quantity_l: not_stated_in_source
+  public_explanation: >
+    U osnovnom prikazu češnjak se vodi kao izravni začinski dodatak.
+    Drugi izvor spominje otapanje bijelog luka u toploj vodi, ali bez količine
+    vode i bez jasnog postupka procjeđivanja, pa se ne smije prikazati kao
+    procijeđena češnjakova tekućina.
+  source_status: confirmed_direct_plus_unclear_liquid_variant
+
+casings_or_mould:
+  type: tanka svinjska crijeva
+  caliber_mm: not_stated_in_source
+  soaking_time: not_stated_in_source
+  soaking_liquid: voda
+  soaking_temperature: not_stated_in_source
+  boiled: no
+  rinsing: oprati i namočiti da omekšaju prije punjenja
+  filling_note: puniti punilicom, bez zračnih džepova
+  source_status: confirmed_type_only
+  public_explanation: >
+    Izvori potvrđuju tanka svinjska crijeva i namakanje/pripremu u vodi,
+    ali ne navode točan kalibar ni trajanje namakanja.
+
+process:
+  - phase_no: 1
+    title: Hlađenje i priprema sirovine
+    duration: prije mljevenja, dok sirovina ne bude čvrsta i hladna
+    temperature_c: hladno/prohladno, točna temperatura nije navedena u izvoru
+    action: >
+      Meso očistiti od grubljeg vezivnog tkiva i narezati na komade prikladne
+      za mljevenje. Leđnu slaninu očistiti od kožice i također pripremiti za mljevenje.
+    goal: čista, hladna sirovina koja se može samljeti bez razmazivanja masnoće
+    critical_control: sirovina ne smije omekšati ni postati ljepljiva
+    problem: razmazana masnoća i mutan presjek
+    solution: prekinuti rad, vratiti meso i slaninu na hlađenje, nastaviti tek kad su čvrsti
+    source_status: derived_from_process_and_project_rules
+  - phase_no: 2
+    title: Mljevenje mesa i slanine
+    duration: neposredno prije miješanja
+    temperature_c: hladna sirovina
+    action: >
+      Svinjsko meso samljeti kroz rešetku 14 mm, a tvrdu leđnu slaninu
+      kroz rešetku 8 mm.
+    goal: dobiti jasno vidljivu, krupniju strukturu slavonske kobasice
+    critical_control: ne raditi s toplom masnoćom
+    problem: mast se razmaže po mesu
+    solution: ohladiti sirovinu i dijelove stroja, zatim ponoviti mljevenje sporije
+    source_status: confirmed_pavicic
+  - phase_no: 3
+    title: Začinjavanje i miješanje nadjeva
+    duration: 30 minuta
+    temperature_c: prohladna prostorija
+    action: >
+      U mljeveno meso i slaninu dodati sol, papriku i češnjak te miješati
+      dok nadjev ne postane jednoličan. Ako se koristi varijanta s bijelim
+      paprom i šećerom, dodaju se zajedno s ostalim začinima.
+    goal: ravnomjerno raspoređeni začini i povezan nadjev
+    critical_control: začini ne smiju ostati u nakupinama
+    problem: neujednačen okus i boja
+    solution: miješati dulje, razbijati nakupine paprike i raditi u širokoj posudi
+    source_status: confirmed_pavicic_plus_supporting_source
+  - phase_no: 4
+    title: Kratko odležavanje nadjeva
+    duration: 1–2 sata
+    temperature_c: prohladna prostorija
+    action: >
+      Nakon miješanja nadjev ostaviti kratko u prohladnoj prostoriji da se
+      smjesa smiri i da se začini ravnomjernije povežu s mesom.
+    goal: stabilniji nadjev prije punjenja
+    critical_control: nadjev ne smije stajati na toplom
+    problem: kiselkast ili neugodan miris prije punjenja
+    solution: takav nadjev ne puniti; ubuduće skratiti stajanje i raditi hladnije
+    source_status: confirmed_pavicic
+  - phase_no: 5
+    title: Punjenje u tanka svinjska crijeva
+    duration: odmah nakon odležavanja nadjeva
+    temperature_c: prohladno
+    action: >
+      Nadjev puniti u dobro oprana i namočena tanka svinjska crijeva.
+      Oblikovati parove dužine 40–60 cm i krajeve povezati špagom.
+    goal: čvrsto, ravnomjerno napunjena kobasica bez zračnih džepova
+    critical_control: ne ostavljati praznine u crijevu
+    problem: zračni džepovi
+    solution: puniti ujednačeno; vidljive mjehuriće probosti čistom iglom
+    source_status: confirmed_pavicic
+  - phase_no: 6
+    title: Predsušenje nakon punjenja
+    duration: 1–2 dana
+    temperature_c: zračna, čista i prohladna prostorija
+    action: >
+      Svježe kobasice objesiti na drvene štapove da se površina osuši,
+      stegne i pripremi za dimljenje.
+    goal: suha i stabilna površina prije dima
+    critical_control: kobasice se ne smiju međusobno dodirivati
+    problem: ljepljiva površina
+    solution: pojačati razmak, osigurati blago strujanje zraka i ne žuriti s dimom
+    source_status: confirmed_pavicic
+  - phase_no: 7
+    title: Hladno dimljenje
+    duration: 5–7 dana svakodnevno prema Pavičiću; alternativno 4–5 dimova svaki drugi dan prema drugom izvoru
+    temperature_c: hladni dim, točna temperatura nije navedena u izvoru
+    smoke: hladni dim
+    action: >
+      Kobasice dimiti blagim hladnim dimom. Jedan izvor navodi svakodnevno
+      dimljenje 5–7 dana, a drugi 4–5 dimova svaki drugi dan, ukupno 8–10 dana.
+    goal: blaga dimna aroma, površinska zaštita i postupno sušenje
+    critical_control: dim ne smije biti gust, vruć ni gorak
+    problem: gorka aroma i pretamna površina
+    solution: smanjiti dim, koristiti suho tvrdo drvo i ostaviti dovoljno prozračivanja
+    source_status: confirmed_two_source_variants
+  - phase_no: 8
+    title: Sušenje i zrenje
+    duration: do 60 dana
+    temperature_c: suha, zračna i umjereno hladna prostorija
+    action: >
+      Nakon dimljenja kobasice premjestiti u prostor za sušenje i zrenje.
+      Proces voditi polako, uz zračnost i bez naglog isušivanja površine.
+    goal: razviti čvrstoću, stabilan presjek, miris i okus zrele slavonske kobasice
+    critical_control: ne izlagati jakom propuhu ni previsokoj toplini
+    problem: tvrda kora, a mekana sredina
+    solution: smanjiti propuh, usporiti sušenje i omogućiti ravnomjernije zrenje
+    source_status: confirmed_pavicic
+
+done_when:
+  - criterion: kobasica je umjereno čvrsta i stabilna na dodir
+    explanation: ne smije biti vlažna, ljepljiva ni mekana u sredini
+  - criterion: presjek je povezan i bez razmazane masti
+    explanation: vidljiva struktura mesa i slanine potvrđuje dobru temperaturu obrade
+  - criterion: miris je čist, dimno-začinski i bez kiselih ili truležnih nota
+    explanation: neugodan miris znači da se proizvod ne smije konzumirati
+
+safety:
+  - risk: pretopla smjesa tijekom mljevenja i miješanja
+    control: raditi s dobro ohlađenim mesom i slaninom
+    action_if_problem: prekinuti rad i vratiti sirovinu na hlađenje
+  - risk: zračni džepovi u crijevu
+    control: ravnomjerno punjenje i probadanje čistom iglom
+    action_if_problem: odmah ispustiti zrak prije predsušenja
+  - risk: prejak ili vruć dim
+    control: koristiti blagi hladni dim i dovoljno zraka
+    action_if_problem: prekinuti dimljenje, prozračiti pušnicu i nastaviti blaže
+  - risk: neujednačeno sušenje
+    control: održavati razmak između kobasica i stabilan protok zraka
+    action_if_problem: premjestiti kobasice, smanjiti propuh i produljiti zrenje
+
+serving_storage:
+  serving: >
+    Zrela slavonska domaća kobasica poslužuje se tanko narezana kao narezak,
+    uz kruh, sir, kiselo povrće i druge suhomesnate proizvode. Svježa ili kratko
+    prosušena varijanta može se termički pripremati, ali potpuno suha kobasica
+    ne tretira se kao kobasica za pečenje.
+  storage: >
+    Čuvati u hladnom, tamnom, suhom i prozračnom prostoru. Nakon rezanja
+    zaštititi presjek i pratiti miris.
+  shelf_life: ovisi o stupnju osušenosti i uvjetima čuvanja

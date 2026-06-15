@@ -1,0 +1,66 @@
+recipe_work_id: HR-SLAVONSKA-KOBASICA-PILOT-01
+title: Slavonska kobasica / Slavonske kobasice
+status: IN_REVIEW
+scope: hrvatski recepti / Slavonija
+
+target_server_candidates:
+  - post_id: 2976
+    title: Slavonska domaća kobasica
+    role: referentni postojeći prikaz / moguća domaća varijanta
+  - post_id: 2981
+    title: Slavonska kobasica (ZOI EU 2023)
+    role: referentni postojeći prikaz / mogući javni kanonski cilj
+
+source_policy:
+  - Koristiti samo potvrđene projektne dokumente.
+  - Ne prepisivati doslovno; javni tekst mora biti preoblikovan.
+  - Ne izmišljati začine, procese, crijeva, dimljenje ni trajanja.
+  - Ako izvor ne navodi podatak, polje ostaje needs_review ili not_stated_in_source.
+
+source_candidates:
+  - file: 117608623-SLAVONSKE-KOBASICE.txt
+    status: PRIMARY_SOURCE_CANDIDATE
+    confirmed:
+      - 20 kg svinjskog mesa od plećke i leđne slanine
+      - 1,8 % soli
+      - 1,5 % paprike, slatke i ljute
+      - 1 % bijelog luka otopljenog u toploj vodi
+      - bijeli biber i šećer
+      - svinjska crijeva
+      - 4–5 dimova svaki drugi dan, ukupno 8–10 dana
+  - file: 219570442-Željko-Pavičić-Kolinje-i-Mesni-Specijaliteti.pdf
+    status: PRIMARY_SUPPORTING_SOURCE
+    confirmed:
+      - 8 kg svinjskog mesa od vrata ili lopatice
+      - 2 kg svježe leđne slanine
+      - 20 dag soli
+      - 10 dag slatke paprike
+      - 5 dag ljute paprike
+      - 10 dag sitno tučenog češnjaka
+      - tanka svinjska crijeva
+      - meso kroz 14 mm, slanina kroz 8 mm
+      - 1–2 sata odležavanja nadjeva
+      - 40–60 cm parovi kobasica
+      - 1–2 dana prosušivanja
+      - 5–7 dana hladnog dimljenja
+      - sušenje/zrenje do 60 dana
+
+confirmed_facts:
+  - Recept pripada slavonskom kobasičarskom modelu.
+  - Osnovu čini svinjsko meso s leđnom slaninom.
+  - Začinski profil temelji se na soli, slatkoj i ljutoj paprici te češnjaku.
+  - Koriste se tanka svinjska crijeva.
+  - Dimljenje je hladno i višednevno.
+  - Nakon dimljenja slijedi sušenje i zrenje.
+
+uncertain_facts:
+  - Točan kalibar crijeva nije naveden u izvorima.
+  - Izvor 117608623 spominje bijeli luk otopljen u toploj vodi, ali ne daje količinu vode.
+  - Izvor Pavičić navodi sitno tučeni češnjak, bez macerata.
+  - Treba odlučiti prikazujemo li češnjak kao direktni dodatak ili kao dvije varijante izvora.
+
+editorial_decisions_pending:
+  - Odabrati ciljni javni post: 2976 ili 2981.
+  - Razdvojiti domaću varijantu od ZOI/EU varijante.
+  - Ne unositi kalibar crijeva ako nije potvrđen.
+  - Ne prikazivati češnjak kao procijeđenu aromatičnu tekućinu ako izvor to ne kaže.

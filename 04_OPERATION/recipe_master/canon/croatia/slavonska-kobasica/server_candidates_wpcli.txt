@@ -1,0 +1,22 @@
+ID	post_title	post_name	post_status
+3524	PREVIEW CANON — Slavonska kobasica	preview-canon-preview-canon-slavonska-kobasica-src-2976	private
+2981	Slavonska kobasica (ZOI EU 2023)	hr-sl-010-slavonska-kobasica-zoi-eu-2023	publish
+2697	Baranjska Ljuta Slavonska Kobasica	baranjska-ljuta-slavonska-kobasica	publish
+2187	Slavonska kobasica — ZOZP	hr-slv-kob-zozp-001	draft
+3003	Slavonska lovačka kobasica (divljač + svinjetina)	hr-sl-038-slavonska-lovacka-kobasica-divljac-svinjetina	publish
+3001	Slavonska čvarkovača (kobasica od čvaraka)	hr-sl-036-slavonska-cvarkovaca-kobasica-od-cvaraka	publish
+2986	Slavonska jetrena kobasica	hr-sl-017-slavonska-jetrena-kobasica	private
+2976	Slavonska domaća kobasica	hr-sl-005-slavonska-domaca-kobasica	publish
+2188	Slavonska cajna kobasica — tradicijska	hr-slv-caj-trad-001	draft
+2999	Slavonska šunka od crne slavonske svinje	hr-sl-033-slavonska-sunka-od-crne-slavonske-svinje	private
+2996	Brodska kobasica (Slavonski Brod)	hr-sl-030-brodska-kobasica-slavonski-brod	publish
+2997	Osječka kobasica	hr-sl-031-osjecka-kobasica	publish
+3000	Slavonska domaća salama	hr-sl-034-slavonska-domaca-salama	publish
+3002	Vinkovačka kobasica	hr-sl-037-vinkovacka-kobasica	publish
+2988	Tlačenica slavonska (švargl)	hr-sl-019-tlacenica-slavonska-svargl	private
+2983	Slavonska dimljena šunka	hr-sl-014-slavonska-dimljena-sunka	private
+2977	Srijemska kobasica (OGP)	hr-sl-006-srijemska-kobasica-ogp	publish
+2979	Baranjska kobasica	hr-sl-008-baranjska-kobasica	publish
+2698	Slavonska Domaća Suhomesnata Salama	slavonska-domaca-suhomesnata-salama	publish
+2978	Ratarske kobasice	hr-sl-007-ratarske-kobasice	private
+2777	Kulen iz Požeške doline - Specijalna varijanta s divljim začinima	kulen-iz-pozeske-doline-specijalna-varijanta-s-divljim-zacinima	private
