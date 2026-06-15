@@ -1,0 +1,695 @@
+{
+  "contract_version": "dry_recipe_contract_v1.0_field_extracted_v2",
+  "source_wp": {
+    "post_id": 2972,
+    "title": "Slavonski kulen (PDO EU)",
+    "slug": "hr-sl-001-slavonski-kulen-pdo-eu",
+    "status": "publish",
+    "url": "https://drycured.com/recepti-baza/hr-sl-001-slavonski-kulen-pdo-eu/"
+  },
+  "identity": {
+    "canonical_name": "Slavonski kulen (PDO EU)",
+    "batch_size_kg": 10,
+    "public_status": "IN_REVIEW",
+    "qa_status": "CONTRACT_V2_READ_ONLY"
+  },
+  "materials": [
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_kg_total",
+      "value": "6.5"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_napomena",
+      "value": "iz crne slavonske svinje (CSP), životinje min. 18 mj, težine min. 180 kg"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[0]/dio",
+      "value": "plećka (rame)"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[0]/kg_min",
+      "value": "2"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[0]/kg_max",
+      "value": "2.5"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[0]/napomena",
+      "value": "glavni nositelj teksture"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[1]/dio",
+      "value": "but (gornji dio, bez koštica)"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[1]/kg_min",
+      "value": "1.5"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[1]/kg_max",
+      "value": "2"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[1]/napomena",
+      "value": "premium krto, daje finu strukturu"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[2]/dio",
+      "value": "vratina"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[2]/kg_min",
+      "value": "1"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[2]/kg_max",
+      "value": "1.5"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[2]/napomena",
+      "value": "aromatična dubina, blaga intramuskularna masnoća"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[3]/dio",
+      "value": "obresci od komadanja/trančiranja"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[3]/kg_min",
+      "value": "1"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[3]/kg_max",
+      "value": "1.5"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/krto_meso_detalji[3]/napomena",
+      "value": "čisti, bez vezivnog tkiva"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/slanina_kg_total",
+      "value": "3.5"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/slanina_detalji[0]/dio",
+      "value": "tvrda leđna slanina"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/slanina_detalji[0]/kg",
+      "value": "3.5"
+    },
+    {
+      "source": "verified_process",
+      "path": "raw_materials/slanina_detalji[0]/napomena",
+      "value": "bez kožice, ohlađena, čvrsta; NE meka trbušna"
+    },
+    {
+      "source": "verified_process",
+      "path": "mljevenje/krto_meso_resetka_mm",
+      "value": "8"
+    },
+    {
+      "source": "verified_process",
+      "path": "mljevenje/slanina_rezanje",
+      "value": "ručno na kockice 6–8 mm; NE melje se"
+    },
+    {
+      "source": "verified_process",
+      "path": "mljevenje/slanina_preduvjet",
+      "value": "polusmrznuta (60–90 min u zamrzivaču do čvrstog ruba)"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[0]/name",
+      "value": "Priprema sirovine"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[0]/description",
+      "value": "Cijele komade krtog mesa (plećka, but, vratina, obresci) i tvrdu leđnu slaninu ohladiti na ispod 4 °C najmanje 12 h prije početka obrade. Sve dijelove krtog mesa temeljito očistiti od vidljivih žila, masnih džepova, krvnih nakupina i ostataka vezivnog tkiva. Tvrdu leđnu slaninu odvojiti zasebno — ukloniti kožicu i unutarnju membranu."
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[1]/description",
+      "value": "Krto meso (plećka + but + vratina + obresci) samljeti zajedno kroz rešetku 8 mm. Tvrdu leđnu slaninu prethodno staviti u zamrzivač 60–90 min da postane čvrsta, zatim ručno rezati na kocke 6–8 mm. NE mljeti slaninu — mora ostati diskretna u presjeku. Mljeveno meso i rezana slanina drže se odvojeno na ≤ 4 °C."
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[1]/critical_control",
+      "value": "Ako se slanina počinje razmazivati pri rezanju, sve ohladiti dodatno. T° smjese u svakom trenutku ≤ 4 °C."
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[2]/description",
+      "value": "Pripremiti češnjakovu tekućinu: 50 g zdrobljenog češnjaka preliti s 250 ml hladne vode, ostaviti na 0–4 °C 6–8 h, procijediti kroz gusto sito (krupni komadi se odbacuju). U veliku ohlađenu posudu dodati: mljeveno krto meso, kockice tvrde leđne slanine, sol, nitritnu sol, slatku papriku, ljutu papriku, papar, češnjakovu tekućinu, starter kulturu (ako se koristi). Miješati ručno ili sporim mikserom 15–20 min dok smjesa ne postane lagano ljepljiva. Pokriti i odložiti u hladnjak 12–24 h."
+    }
+  ],
+  "spices": [
+    {
+      "source": "verified_process",
+      "path": "ingredients[0]/naziv",
+      "value": "morska ili kamena sol (NaCl)"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[1]/naziv",
+      "value": "nitritna sol (0,6 % NaNO₂)"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[2]/naziv",
+      "value": "slatka slavonska paprika"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[3]/naziv",
+      "value": "ljuta slavonska paprika"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[5]/naziv",
+      "value": "crni papar"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[2]/name",
+      "value": "Soljenje, začinjavanje i miješanje"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[2]/description",
+      "value": "Pripremiti češnjakovu tekućinu: 50 g zdrobljenog češnjaka preliti s 250 ml hladne vode, ostaviti na 0–4 °C 6–8 h, procijediti kroz gusto sito (krupni komadi se odbacuju). U veliku ohlađenu posudu dodati: mljeveno krto meso, kockice tvrde leđne slanine, sol, nitritnu sol, slatku papriku, ljutu papriku, papar, češnjakovu tekućinu, starter kulturu (ako se koristi). Miješati ručno ili sporim mikserom 15–20 min dok smjesa ne postane lagano ljepljiva. Pokriti i odložiti u hladnjak 12–24 h."
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[2]/critical_control",
+      "value": "Nitritna sol mora biti precizno odmjerena (vaga rezolucije 0,1 g). Predoziranje nitrita = ozbiljan zdravstveni rizik."
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[5]/T_absolute_max_C",
+      "value": "25"
+    },
+    {
+      "source": "sections",
+      "path": "short_description",
+      "value": "## 2. Kratki opisnSlavonski kulen (PDO EU) pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonski kulen (PDO EU) je dugozreli slavonski proizvod snažnog paprikastog profila, izrađen od odabranog mesa i masnoće uz hladno dimljenje i sporo zrenje."
+    },
+    {
+      "source": "sections",
+      "path": "regional_identity",
+      "value": "## 3. Regionalni identitetnRecept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo."
+    },
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Kuhinjska sol | 0,260–0,300 | 26–30 g/kg mesa |n| Slatka mljevena paprika | 0,180–0,220 | Slavonski tip, svježe mljevena pred upotrebu |n| Ljuta mljevena paprika | 0,030–0,080 | Po željenom stupnju pikantnosti |n| Bijeli luk | 0,040–0,060 | Tekući — zgnječen, procijeđen kroz gazu |n| Crni papar mljeveni | 0,020–0,030 | Grubo mljeven tik pred rad |"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    }
+  ],
+  "liquids": [
+    {
+      "source": "sections",
+      "path": "identity",
+      "value": "## 1. Identitet receptan- Kanonski naziv: Slavonski kulen (PDO EU)n- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Slavonija, Baranja i Srijemn- Mikroregija: širi prostor Slavonije, Baranje i Srijeman- Tip proizvoda: Kobasican- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finalizirani tekst v0.3n- Izvor primarnog recepta: NEW_HR_V2, linija 649n- Povezani WP zapisi: neman- Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak."
+    },
+    {
+      "source": "sections",
+      "path": "short_description",
+      "value": "## 2. Kratki opisnSlavonski kulen (PDO EU) pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonski kulen (PDO EU) je dugozreli slavonski proizvod snažnog paprikastog profila, izrađen od odabranog mesa i masnoće uz hladno dimljenje i sporo zrenje."
+    },
+    {
+      "source": "sections",
+      "path": "casings",
+      "value": "## 7. Crijeva / omotačin- Vrsta i kalibar: širi prirodni omotač, slijepo crijevo ili kate; kalibar 55–80 mm, prema dostupnom prirodnom omotačun- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "garlic",
+      "value": "## 8. Češnjakn- Oblik: procijeđena tekućina od češnjakan- Količina češnjaka: 0,040–0,060 (Tekući — zgnječen, procijeđen kroz gazu)n- Tekućina za ekstrakciju: prokuhana i ohlađena vodan- Vrijeme ekstrakcije: 20–30 minutan- Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazun- Napomena: vlakna češnjaka ne dodavati izravno u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "grinding_cutting",
+      "value": "## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: meso 8–10 mm; tvrda slanina ručno na 8–12 mm ako je prisutnan- Temperatura sirovine: što bliže 0–4 °C tijekom rada"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    }
+  ],
+  "garlic": [
+    {
+      "source": "verified_process",
+      "path": "ingredients[4]/naziv",
+      "value": "češnjak"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[2]/description",
+      "value": "Pripremiti češnjakovu tekućinu: 50 g zdrobljenog češnjaka preliti s 250 ml hladne vode, ostaviti na 0–4 °C 6–8 h, procijediti kroz gusto sito (krupni komadi se odbacuju). U veliku ohlađenu posudu dodati: mljeveno krto meso, kockice tvrde leđne slanine, sol, nitritnu sol, slatku papriku, ljutu papriku, papar, češnjakovu tekućinu, starter kulturu (ako se koristi). Miješati ručno ili sporim mikserom 15–20 min dok smjesa ne postane lagano ljepljiva. Pokriti i odložiti u hladnjak 12–24 h."
+    },
+    {
+      "source": "verified_process",
+      "path": "done_when[5]",
+      "value": "aroma: dimljena, paprenkasta, sladunjavo-češnjakasta, bez kiselih ili truliih nota"
+    },
+    {
+      "source": "verified_process",
+      "path": "karakter_okusa",
+      "value": "dimljen, papren, sladunjav s češnjakom, srednje masan presjek s diskretnim česticama slanine"
+    },
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Kuhinjska sol | 0,260–0,300 | 26–30 g/kg mesa |n| Slatka mljevena paprika | 0,180–0,220 | Slavonski tip, svježe mljevena pred upotrebu |n| Ljuta mljevena paprika | 0,030–0,080 | Po željenom stupnju pikantnosti |n| Bijeli luk | 0,040–0,060 | Tekući — zgnječen, procijeđen kroz gazu |n| Crni papar mljeveni | 0,020–0,030 | Grubo mljeven tik pred rad |"
+    },
+    {
+      "source": "sections",
+      "path": "garlic",
+      "value": "## 8. Češnjakn- Oblik: procijeđena tekućina od češnjakan- Količina češnjaka: 0,040–0,060 (Tekući — zgnječen, procijeđen kroz gazu)n- Tekućina za ekstrakciju: prokuhana i ohlađena vodan- Vrijeme ekstrakcije: 20–30 minutan- Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazun- Napomena: vlakna češnjaka ne dodavati izravno u nadjev"
+    }
+  ],
+  "granulation": [
+    {
+      "source": "verified_process",
+      "path": "karakter",
+      "value": "Najveći i najduže zreni hrvatski tradicionalni proizvod ovog tipa. Cilindrično-kruškast, debljine 70–90 mm, duljine 25–35 cm, zrenja minimalno 90 dana, najčešće 5–7 mjeseci. Boja presjeka tamno-crvena s diskretnim bijelim česticama tvrde leđne slanine, izraženo papren-paprenkasti i lagano dimljeni okus."
+    },
+    {
+      "source": "verified_process",
+      "path": "mljevenje/krto_meso_resetka_mm",
+      "value": "8"
+    },
+    {
+      "source": "verified_process",
+      "path": "mljevenje/slanina_rezanje",
+      "value": "ručno na kockice 6–8 mm; NE melje se"
+    },
+    {
+      "source": "verified_process",
+      "path": "mljevenje/slanina_preduvjet",
+      "value": "polusmrznuta (60–90 min u zamrzivaču do čvrstog ruba)"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/diameter_mm",
+      "value": "70–90"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[1]/name",
+      "value": "Mljevenje krtog mesa i ručno rezanje slanine"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[1]/description",
+      "value": "Krto meso (plećka + but + vratina + obresci) samljeti zajedno kroz rešetku 8 mm. Tvrdu leđnu slaninu prethodno staviti u zamrzivač 60–90 min da postane čvrsta, zatim ručno rezati na kocke 6–8 mm. NE mljeti slaninu — mora ostati diskretna u presjeku. Mljeveno meso i rezana slanina drže se odvojeno na ≤ 4 °C."
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[3]/description",
+      "value": "Svinjski slijepi crijevak (krompir, promjer 70–90 mm) prethodno namočiti u mlakoj vodi 2 h, isprati, provjeriti propusnost. Smjesu napuniti ručnom punilicom ili klasičnom punjačicom čvrsto, bez zračnih džepova. Vezati prirodnim špagom u oblik viseće cipele duljine 25–35 cm. Sve zračne mjehure probosti sterilnom iglom (igla obvezno sterilizirana plamenom)."
+    },
+    {
+      "source": "sections",
+      "path": "meat_composition",
+      "value": "## 5. Mesni sastav i anatomski dijelovin| Dio / sirovina | Količina (kg) | Uloga |n|---|---:|---|n| Svinjski but i/ili plećka | 8,00 kg | Čista mišićina bez tetiva, T ≤ 4 °C |n| Tvrda leđna slanina | 2,00 kg | Ručno na kockice 8–12 mm, nikad mljevena |"
+    },
+    {
+      "source": "sections",
+      "path": "casings",
+      "value": "## 7. Crijeva / omotačin- Vrsta i kalibar: širi prirodni omotač, slijepo crijevo ili kate; kalibar 55–80 mm, prema dostupnom prirodnom omotačun- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "tools",
+      "value": "## 9. Oprema i alatin- Noževi, daska, posude, vaga, mlin za meso, punilica, igla za probadanje, konop/špaga, pušnica, termometar i higrometarn- Mljevenje / rezanje: meso 8–10 mm; tvrda slanina ručno na 8–12 mm ako je prisutna"
+    },
+    {
+      "source": "sections",
+      "path": "grinding_cutting",
+      "value": "## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: meso 8–10 mm; tvrda slanina ručno na 8–12 mm ako je prisutnan- Temperatura sirovine: što bliže 0–4 °C tijekom rada"
+    }
+  ],
+  "casing": [
+    {
+      "source": "verified_process",
+      "path": "casing/type",
+      "value": "svinjski slijepi crijevak (krompir)"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/anatomy",
+      "value": "Caecum"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/diameter_mm",
+      "value": "70–90"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/length_cm",
+      "value": "25–35"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/shape",
+      "value": "viseća cipela / kruška"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/tying",
+      "value": "prirodni špag"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/priprema",
+      "value": "namočiti u mlakoj vodi 2 h, isprati, provjeriti propusnost"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[3]/name",
+      "value": "Punjenje u svinjski slijepi crijevak (krompir)"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[3]/description",
+      "value": "Svinjski slijepi crijevak (krompir, promjer 70–90 mm) prethodno namočiti u mlakoj vodi 2 h, isprati, provjeriti propusnost. Smjesu napuniti ručnom punilicom ili klasičnom punjačicom čvrsto, bez zračnih džepova. Vezati prirodnim špagom u oblik viseće cipele duljine 25–35 cm. Sve zračne mjehure probosti sterilnom iglom (igla obvezno sterilizirana plamenom)."
+    },
+    {
+      "source": "sections",
+      "path": "identity",
+      "value": "## 1. Identitet receptan- Kanonski naziv: Slavonski kulen (PDO EU)n- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Slavonija, Baranja i Srijemn- Mikroregija: širi prostor Slavonije, Baranje i Srijeman- Tip proizvoda: Kobasican- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finalizirani tekst v0.3n- Izvor primarnog recepta: NEW_HR_V2, linija 649n- Povezani WP zapisi: neman- Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak."
+    },
+    {
+      "source": "sections",
+      "path": "casings",
+      "value": "## 7. Crijeva / omotačin- Vrsta i kalibar: širi prirodni omotač, slijepo crijevo ili kate; kalibar 55–80 mm, prema dostupnom prirodnom omotačun- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "stuffing_tying",
+      "value": "## 13. Punjenje i vezanjen- Oblik / duljina: 35–45 cm ili prema omotačun- Puniti kompaktno, bez zraka; vidljive mjehuriće odmah probosti čistom iglom"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    }
+  ],
+  "process": [
+    {
+      "source": "verified_process",
+      "path": "casing/priprema",
+      "value": "namočiti u mlakoj vodi 2 h, isprati, provjeriti propusnost"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[0]/name",
+      "value": "Priprema sirovine"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[2]/name",
+      "value": "Soljenje, začinjavanje i miješanje"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[2]/duration_hours",
+      "value": "miješanje 15–20 min + 12–24 h odležavanja"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[3]/name",
+      "value": "Punjenje u svinjski slijepi crijevak (krompir)"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[4]/name",
+      "value": "Fermentacija (predsušenje)"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[5]/name",
+      "value": "Hladno dimljenje"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[6]/name",
+      "value": "Sušenje i zrenje"
+    },
+    {
+      "source": "sections",
+      "path": "short_description",
+      "value": "## 2. Kratki opisnSlavonski kulen (PDO EU) pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonski kulen (PDO EU) je dugozreli slavonski proizvod snažnog paprikastog profila, izrađen od odabranog mesa i masnoće uz hladno dimljenje i sporo zrenje."
+    },
+    {
+      "source": "sections",
+      "path": "regional_identity",
+      "value": "## 3. Regionalni identitetnRecept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo."
+    },
+    {
+      "source": "sections",
+      "path": "meat_preparation",
+      "value": "## 10. Priprema mesanSirovinu dobro ohladiti, odstraniti neželjeno vezivo i raditi u čistim uvjetima. Masnije dijelove obrađivati dok su čvrsti i hladni."
+    },
+    {
+      "source": "sections",
+      "path": "mixing_resting",
+      "value": "## 12. Miješanje i odležavanjenZačine ravnomjerno rasporediti po mesu i masnoći. Miješati dok se masa ne poveže i ujednačeno oboji. Kod recepata s odležavanjem nadjeva, masu držati pokrivenu na 2–6 °C."
+    },
+    {
+      "source": "sections",
+      "path": "stuffing_tying",
+      "value": "## 13. Punjenje i vezanjen- Oblik / duljina: 35–45 cm ili prema omotačun- Puniti kompaktno, bez zraka; vidljive mjehuriće odmah probosti čistom iglom"
+    },
+    {
+      "source": "sections",
+      "path": "predrying",
+      "value": "## 14. Predsušenje / početna fermentacijan- Trajanje: 5–10 dana prije jačeg dimljenjan- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti"
+    },
+    {
+      "source": "sections",
+      "path": "smoking",
+      "value": "## 15. Dimljenjen- Protokol: hladni dim u više ciklusa, uz obavezne pauzen- Dim mora biti hladan i blag; koristiti suho tvrdo drvo"
+    },
+    {
+      "source": "sections",
+      "path": "drying_aging",
+      "value": "## 16. Sušenje i zrenjen- Trajanje: 120–180 dana za ozbiljno zrelu varijantun- Uvjeti: hladan, taman i prozračan prostor, bez naglog isušivanja površine"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    },
+    {
+      "source": "sections",
+      "path": "serving_storage",
+      "value": "## 18. Posluživanje i čuvanjen### Zrenje i čuvanjen- Minimalno zrenje: 60 dana (lakša varijanta)n- Optimalno: 120–180 danan- Čuvanje: suho, tamno, 10–15 °C, do 12 mjesecin- Nakon rezanja: zamotati u papir, potrošiti u 2–3 tjednann---"
+    }
+  ],
+  "errors": [
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    }
+  ],
+  "safety": [
+    {
+      "source": "verified_process",
+      "path": "ingredients[0]/naziv",
+      "value": "morska ili kamena sol (NaCl)"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[0]/kolicina_g",
+      "value": "220"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[0]/napomena",
+      "value": "nejodirana"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[1]/naziv",
+      "value": "nitritna sol (0,6 % NaNO₂)"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[1]/kolicina_g",
+      "value": "20"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[1]/napomena",
+      "value": "EU max 150 mg/kg gotovog; ovo daje ~120 mg/kg polazno"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[2]/naziv",
+      "value": "slatka slavonska paprika"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[2]/kolicina_g",
+      "value": "250"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[2]/napomena",
+      "value": "dimljena, sorta Budimska / Šokačka; sezona 1.10.–1.12."
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[3]/naziv",
+      "value": "ljuta slavonska paprika"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[3]/kolicina_g",
+      "value": "60"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[3]/napomena",
+      "value": "po izboru; bez nje ide u Đakovački karakter"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[4]/naziv",
+      "value": "češnjak"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[4]/kolicina_g",
+      "value": "50"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[4]/napomena",
+      "value": "svjež; pripremiti kao procijeđenu tekućinu (vidi fazu 3)"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[5]/naziv",
+      "value": "crni papar"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[5]/kolicina_g",
+      "value": "12"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[5]/napomena",
+      "value": "grubo mljeven"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[6]/naziv",
+      "value": "starter kultura (po izboru)"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[6]/kolicina_g",
+      "value": ""
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[6]/napomena",
+      "value": "Lactobacillus sakei + Staphylococcus carnosus; preporuča se za kućnu proizvodnju"
+    },
+    {
+      "source": "verified_process",
+      "path": "mljevenje/slanina_preduvjet",
+      "value": "polusmrznuta (60–90 min u zamrzivaču do čvrstog ruba)"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[2]/critical_control",
+      "value": "Nitritna sol mora biti precizno odmjerena (vaga rezolucije 0,1 g). Predoziranje nitrita = ozbiljan zdravstveni rizik."
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[4]/name",
+      "value": "Fermentacija (predsušenje)"
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[4]/description",
+      "value": "Kulen visiti u toploj komori. Cilj: razvoj kontrolirane mliječno-kiselinske mikroflore i pad pH s polazne vrijednosti ≈ 5,8 na ciljnu 5,2–5,4. Bez dimljenja u ovoj fazi. Ako je RH preniska, kora se prerano formira ('case hardening') i sredina ostaje sirova."
+    },
+    {
+      "source": "verified_process",
+      "path": "phases[4]/critical_control",
+      "value": "pH na kraju 7. dana mora biti ≤ 5,4. Mjerenje pH-metrom s ubodnom sondom u sredinu kulena (ne na površini). Ako pH nije postignut, fermentacija je neuspjela — proizvod treba dodatno ocijeniti."
+    },
+    {
+      "source": "verified_process",
+      "path": "done_when[1]",
+      "value": "Aw < 0,90 (mjereno aw-metrom u sredini)"
+    },
+    {
+      "source": "verified_process",
+      "path": "done_when[2]",
+      "value": "pH 5,2–5,6 u sredini"
+    },
+    {
+      "source": "verified_process",
+      "path": "karakter_okusa",
+      "value": "dimljen, papren, sladunjav s češnjakom, srednje masan presjek s diskretnim česticama slanine"
+    },
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Kuhinjska sol | 0,260–0,300 | 26–30 g/kg mesa |n| Slatka mljevena paprika | 0,180–0,220 | Slavonski tip, svježe mljevena pred upotrebu |n| Ljuta mljevena paprika | 0,030–0,080 | Po željenom stupnju pikantnosti |n| Bijeli luk | 0,040–0,060 | Tekući — zgnječen, procijeđen kroz gazu |n| Crni papar mljeveni | 0,020–0,030 | Grubo mljeven tik pred rad |"
+    }
+  ],
+  "qa": {
+    "forbidden_terms": [],
+    "counts": {
+      "materials": 34,
+      "spices": 13,
+      "liquids": 6,
+      "garlic": 6,
+      "granulation": 12,
+      "casing": 13,
+      "process": 18,
+      "errors": 1,
+      "safety": 35
+    },
+    "v2_status": "RENDER_ADAPTER_CANDIDATE",
+    "missing_critical_groups": []
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "contract_version": "dry_recipe_contract_v1.0_field_extracted_v2",
+  "source_wp": {
+    "post_id": 2980,
+    "title": "Privatno: Baranjska salama",
+    "slug": "hr-sl-009-baranjska-salama",
+    "status": "private",
+    "url": "https://drycured.com/?post_type=dry_recipe&p=2980"
+  },
+  "identity": {
+    "canonical_name": "Baranjska salama",
+    "batch_size_kg": 10,
+    "public_status": "IN_REVIEW",
+    "qa_status": "CONTRACT_V2_READ_ONLY"
+  },
+  "materials": [
+    {
+      "source": "sections",
+      "path": "batch",
+      "value": "## 4. Standardna šaržan- Osnovna šarža: 10,00 kg mesne sirovine / osnovne sirovine, osim kod cijelih komada gdje se masa vodi prema komadun- Napomena o preračunavanju: količine iz izvora pretvoriti i prikazati u kg gdje je primjenjivo"
+    },
+    {
+      "source": "sections",
+      "path": "meat_composition",
+      "value": "## 5. Mesni sastav i anatomski dijelovin| Dio / sirovina | Količina (kg) | Uloga |n|---|---:|---|n| Svinjski but + govedina (70/30) | 8,00 kg | Govedina daje čvrstoću presjeku |n| Tvrda slanina | 2,00 kg | Sitne kockice 4–6 mm |"
+    },
+    {
+      "source": "sections",
+      "path": "tools",
+      "value": "## 9. Oprema i alatin- Noževi, daska, posude, vaga, mlin za meso, punilica, igla za probadanje, konop/špaga, pušnica, termometar i higrometarn- Mljevenje / rezanje: meso 6–8 mm; slanina rezana na 5–8 mm ako se želi jasniji mozaik presjeka"
+    },
+    {
+      "source": "sections",
+      "path": "grinding_cutting",
+      "value": "## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: meso 6–8 mm; slanina rezana na 5–8 mm ako se želi jasniji mozaik presjekan- Temperatura sirovine: što bliže 0–4 °C tijekom rada"
+    }
+  ],
+  "spices": [
+    {
+      "source": "sections",
+      "path": "regional_identity",
+      "value": "## 3. Regionalni identitetnRecept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo."
+    },
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,240–0,260 |  |n| Crni papar grubo mljeveni | 0,020–0,030 | Dominantna začinska nota |n| Bijeli luk | 0,020–0,035 | Tekući |n| Šećer | 0,005–0,008 | Potiče fermentaciju |n| Askorbinska kiselina | 0,001 | Stabilizirator boje |n| Šajba za punjenje | kate kalibar 60–70 mm |  |"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    }
+  ],
+  "liquids": [
+    {
+      "source": "sections",
+      "path": "identity",
+      "value": "## 1. Identitet receptan- Kanonski naziv: Baranjska salaman- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Baranjan- Mikroregija: Baranjan- Tip proizvoda: Kobasica/Salaman- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finalizirani tekst v0.3n- Izvor primarnog recepta: NEW_HR_V2, linija 943n- Povezani WP zapisi: 2276:HR-REC-042 | 2277:HR-REC-043n- Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak."
+    },
+    {
+      "source": "sections",
+      "path": "short_description",
+      "value": "## 2. Kratki opisnBaranjska salama pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Baranjska salama je trajniji proizvod šireg presjeka, s naglaskom na ravnomjerno zrenje, stabilan rez i puniji začinski profil."
+    },
+    {
+      "source": "sections",
+      "path": "casings",
+      "value": "## 7. Crijeva / omotačin- Vrsta i kalibar: širi prirodni ili kolagenski omotač prikladan za salamu, najčešće 45–70 mmn- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "garlic",
+      "value": "## 8. Češnjakn- Oblik: procijeđena tekućina od češnjakan- Količina češnjaka: 0,020–0,035 (Tekući)n- Tekućina za ekstrakciju: prokuhana i ohlađena vodan- Vrijeme ekstrakcije: 20–30 minutan- Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazun- Napomena: vlakna češnjaka ne dodavati izravno u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "grinding_cutting",
+      "value": "## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: meso 6–8 mm; slanina rezana na 5–8 mm ako se želi jasniji mozaik presjekan- Temperatura sirovine: što bliže 0–4 °C tijekom rada"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    }
+  ],
+  "garlic": [
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,240–0,260 |  |n| Crni papar grubo mljeveni | 0,020–0,030 | Dominantna začinska nota |n| Bijeli luk | 0,020–0,035 | Tekući |n| Šećer | 0,005–0,008 | Potiče fermentaciju |n| Askorbinska kiselina | 0,001 | Stabilizirator boje |n| Šajba za punjenje | kate kalibar 60–70 mm |  |"
+    },
+    {
+      "source": "sections",
+      "path": "garlic",
+      "value": "## 8. Češnjakn- Oblik: procijeđena tekućina od češnjakan- Količina češnjaka: 0,020–0,035 (Tekući)n- Tekućina za ekstrakciju: prokuhana i ohlađena vodan- Vrijeme ekstrakcije: 20–30 minutan- Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazun- Napomena: vlakna češnjaka ne dodavati izravno u nadjev"
+    }
+  ],
+  "granulation": [
+    {
+      "source": "sections",
+      "path": "meat_composition",
+      "value": "## 5. Mesni sastav i anatomski dijelovin| Dio / sirovina | Količina (kg) | Uloga |n|---|---:|---|n| Svinjski but + govedina (70/30) | 8,00 kg | Govedina daje čvrstoću presjeku |n| Tvrda slanina | 2,00 kg | Sitne kockice 4–6 mm |"
+    },
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,240–0,260 |  |n| Crni papar grubo mljeveni | 0,020–0,030 | Dominantna začinska nota |n| Bijeli luk | 0,020–0,035 | Tekući |n| Šećer | 0,005–0,008 | Potiče fermentaciju |n| Askorbinska kiselina | 0,001 | Stabilizirator boje |n| Šajba za punjenje | kate kalibar 60–70 mm |  |"
+    },
+    {
+      "source": "sections",
+      "path": "casings",
+      "value": "## 7. Crijeva / omotačin- Vrsta i kalibar: širi prirodni ili kolagenski omotač prikladan za salamu, najčešće 45–70 mmn- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "tools",
+      "value": "## 9. Oprema i alatin- Noževi, daska, posude, vaga, mlin za meso, punilica, igla za probadanje, konop/špaga, pušnica, termometar i higrometarn- Mljevenje / rezanje: meso 6–8 mm; slanina rezana na 5–8 mm ako se želi jasniji mozaik presjeka"
+    },
+    {
+      "source": "sections",
+      "path": "grinding_cutting",
+      "value": "## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: meso 6–8 mm; slanina rezana na 5–8 mm ako se želi jasniji mozaik presjekan- Temperatura sirovine: što bliže 0–4 °C tijekom rada"
+    }
+  ],
+  "casing": [
+    {
+      "source": "sections",
+      "path": "identity",
+      "value": "## 1. Identitet receptan- Kanonski naziv: Baranjska salaman- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Baranjan- Mikroregija: Baranjan- Tip proizvoda: Kobasica/Salaman- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finalizirani tekst v0.3n- Izvor primarnog recepta: NEW_HR_V2, linija 943n- Povezani WP zapisi: 2276:HR-REC-042 | 2277:HR-REC-043n- Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak."
+    },
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,240–0,260 |  |n| Crni papar grubo mljeveni | 0,020–0,030 | Dominantna začinska nota |n| Bijeli luk | 0,020–0,035 | Tekući |n| Šećer | 0,005–0,008 | Potiče fermentaciju |n| Askorbinska kiselina | 0,001 | Stabilizirator boje |n| Šajba za punjenje | kate kalibar 60–70 mm |  |"
+    },
+    {
+      "source": "sections",
+      "path": "casings",
+      "value": "## 7. Crijeva / omotačin- Vrsta i kalibar: širi prirodni ili kolagenski omotač prikladan za salamu, najčešće 45–70 mmn- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "stuffing_tying",
+      "value": "## 13. Punjenje i vezanjen- Oblik / duljina: 30–45 cm ili prema širini omotačan- Puniti kompaktno, bez zraka; vidljive mjehuriće odmah probosti čistom iglom"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    }
+  ],
+  "process": [
+    {
+      "source": "sections",
+      "path": "short_description",
+      "value": "## 2. Kratki opisnBaranjska salama pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Baranjska salama je trajniji proizvod šireg presjeka, s naglaskom na ravnomjerno zrenje, stabilan rez i puniji začinski profil."
+    },
+    {
+      "source": "sections",
+      "path": "regional_identity",
+      "value": "## 3. Regionalni identitetnRecept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo."
+    },
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,240–0,260 |  |n| Crni papar grubo mljeveni | 0,020–0,030 | Dominantna začinska nota |n| Bijeli luk | 0,020–0,035 | Tekući |n| Šećer | 0,005–0,008 | Potiče fermentaciju |n| Askorbinska kiselina | 0,001 | Stabilizirator boje |n| Šajba za punjenje | kate kalibar 60–70 mm |  |"
+    },
+    {
+      "source": "sections",
+      "path": "meat_preparation",
+      "value": "## 10. Priprema mesanSirovinu dobro ohladiti, odstraniti neželjeno vezivo i raditi u čistim uvjetima. Masnije dijelove obrađivati dok su čvrsti i hladni."
+    },
+    {
+      "source": "sections",
+      "path": "mixing_resting",
+      "value": "## 12. Miješanje i odležavanjenZačine ravnomjerno rasporediti po mesu i masnoći. Miješati dok se masa ne poveže i ujednačeno oboji. Kod recepata s odležavanjem nadjeva, masu držati pokrivenu na 2–6 °C."
+    },
+    {
+      "source": "sections",
+      "path": "stuffing_tying",
+      "value": "## 13. Punjenje i vezanjen- Oblik / duljina: 30–45 cm ili prema širini omotačan- Puniti kompaktno, bez zraka; vidljive mjehuriće odmah probosti čistom iglom"
+    },
+    {
+      "source": "sections",
+      "path": "predrying",
+      "value": "## 14. Predsušenje / početna fermentacijan- Trajanje: 3–7 dana prije dimljenja ili sušenjan- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti"
+    },
+    {
+      "source": "sections",
+      "path": "smoking",
+      "value": "## 15. Dimljenjen- Protokol: blagi hladni dim, najčešće 5–10 ciklusa, bez pregrijavanja površinen- Dim mora biti hladan i blag; koristiti suho tvrdo drvo"
+    },
+    {
+      "source": "sections",
+      "path": "drying_aging",
+      "value": "## 16. Sušenje i zrenjen- Trajanje: 60–120 dana, uz sporije i ravnomjernije sušenje nego kod tanjih kobasican- Uvjeti: hladan, taman i prozračan prostor, bez naglog isušivanja površine"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    },
+    {
+      "source": "sections",
+      "path": "serving_storage",
+      "value": "## 18. Posluživanje i čuvanjen### Zrenje i čuvanjen- Zrenje: 60–100 danan- Čuvanje: do 10 mjesecinn---"
+    }
+  ],
+  "errors": [
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    }
+  ],
+  "safety": [
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,240–0,260 |  |n| Crni papar grubo mljeveni | 0,020–0,030 | Dominantna začinska nota |n| Bijeli luk | 0,020–0,035 | Tekući |n| Šećer | 0,005–0,008 | Potiče fermentaciju |n| Askorbinska kiselina | 0,001 | Stabilizirator boje |n| Šajba za punjenje | kate kalibar 60–70 mm |  |"
+    },
+    {
+      "source": "sections",
+      "path": "mixing_resting",
+      "value": "## 12. Miješanje i odležavanjenZačine ravnomjerno rasporediti po mesu i masnoći. Miješati dok se masa ne poveže i ujednačeno oboji. Kod recepata s odležavanjem nadjeva, masu držati pokrivenu na 2–6 °C."
+    },
+    {
+      "source": "sections",
+      "path": "predrying",
+      "value": "## 14. Predsušenje / početna fermentacijan- Trajanje: 3–7 dana prije dimljenja ili sušenjan- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    },
+    {
+      "source": "sections",
+      "path": "calculator_status",
+      "value": "## 19. Kalkulator statusn- Spremno za kalkulator: da, uz korištenje srednje vrijednosti raspona i prikaz izvornog raspona korisnikun- Nedostaje: završna kalkulatorska vrijednost za automatski izračun ako se ne koristi raspon"
+    },
+    {
+      "source": "sections",
+      "path": "traceability",
+      "value": "## 20. Sljedivost izvoran| Izvor | Linija / ID | Uloga |n|---|---|---|n| NEW_HR_V2 | linija 943 | Primarni izvor recepta |n| HR_BATCH_01_FINAL_GATE_v0.3 | proizvodni plan | Urednički status |n| HR-SL-001 — Slavonski kulen | model v1 | Strukturni model kanonskog recepta |"
+    }
+  ],
+  "qa": {
+    "forbidden_terms": [],
+    "counts": {
+      "materials": 4,
+      "spices": 3,
+      "liquids": 6,
+      "garlic": 2,
+      "granulation": 5,
+      "casing": 5,
+      "process": 11,
+      "errors": 1,
+      "safety": 6
+    },
+    "v2_status": "RENDER_ADAPTER_CANDIDATE",
+    "missing_critical_groups": []
+  }
+}

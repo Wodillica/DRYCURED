@@ -1,0 +1,47 @@
+{
+  "contract_version": "dry_recipe_contract_v1.0_field_extracted_v2",
+  "source_wp": {
+    "post_id": 2978,
+    "title": "Privatno: Ratarske kobasice",
+    "slug": "hr-sl-007-ratarske-kobasice",
+    "status": "private",
+    "url": "https://drycured.com/?post_type=dry_recipe&p=2978"
+  },
+  "identity": {
+    "canonical_name": "Ratarske kobasice",
+    "batch_size_kg": 10,
+    "public_status": "IN_REVIEW",
+    "qa_status": "CONTRACT_V2_READ_ONLY"
+  },
+  "materials": [],
+  "spices": [],
+  "liquids": [],
+  "garlic": [],
+  "granulation": [],
+  "casing": [],
+  "process": [],
+  "errors": [],
+  "safety": [],
+  "qa": {
+    "forbidden_terms": [],
+    "counts": {
+      "materials": 0,
+      "spices": 0,
+      "liquids": 0,
+      "garlic": 0,
+      "granulation": 0,
+      "casing": 0,
+      "process": 0,
+      "errors": 0,
+      "safety": 0
+    },
+    "v2_status": "FIELD_EXTRACTION_INCOMPLETE",
+    "missing_critical_groups": [
+      "materials",
+      "spices",
+      "granulation",
+      "casing",
+      "process"
+    ]
+  }
+}

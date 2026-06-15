@@ -1,0 +1,255 @@
+{
+  "contract_version": "dry_recipe_contract_v1.0_field_extracted_v2",
+  "source_wp": {
+    "post_id": 2982,
+    "title": "Privatno: Slavonska dimljena slanina",
+    "slug": "hr-sl-012-slavonska-dimljena-slanina",
+    "status": "private",
+    "url": "https://drycured.com/?post_type=dry_recipe&p=2982"
+  },
+  "identity": {
+    "canonical_name": "Slavonska dimljena slanina",
+    "batch_size_kg": 10,
+    "public_status": "IN_REVIEW",
+    "qa_status": "CONTRACT_V2_READ_ONLY"
+  },
+  "materials": [
+    {
+      "source": "sections",
+      "path": "identity",
+      "value": "## 1. Identitet receptan- Kanonski naziv: Slavonska dimljena slaninan- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Slavonijan- Mikroregija: širi prostor Slavonije, Baranje i Srijeman- Tip proizvoda: Slaninan- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finalizirani tekst v0.3n- Izvor primarnog recepta: NEW_HR_V2, linija 1050n- Povezani WP zapisi: neman- Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak."
+    },
+    {
+      "source": "sections",
+      "path": "short_description",
+      "value": "## 2. Kratki opisnSlavonska dimljena slanina pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska dimljena slanina je cijelorezni proizvod od masnijeg komada, soljen i dimljen tako da očuva čistu aromu masti i stabilnu teksturu."
+    },
+    {
+      "source": "sections",
+      "path": "batch",
+      "value": "## 4. Standardna šaržan- Osnovna šarža: 10,00 kg mesne sirovine / osnovne sirovine, osim kod cijelih komada gdje se masa vodi prema komadun- Napomena o preračunavanju: količine iz izvora pretvoriti i prikazati u kg gdje je primjenjivo"
+    },
+    {
+      "source": "sections",
+      "path": "meat_composition",
+      "value": "## 5. Mesni sastav i anatomski dijelovin| Dio / sirovina | Količina (kg) | Uloga |n|---|---:|---|n| Svježa leđna slanina (s kožom) | 5,00 kg | Debljina min. 4 cm |"
+    },
+    {
+      "source": "sections",
+      "path": "tools",
+      "value": "## 9. Oprema i alatin- Noževi, daska, posude, vaga, mlin za meso, punilica, igla za probadanje, konop/špaga, pušnica, termometar i higrometarn- Mljevenje / rezanje: ne melje se; komad se obrađuje cijeli ili u pravilne ploče"
+    },
+    {
+      "source": "sections",
+      "path": "grinding_cutting",
+      "value": "## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: ne melje se; komad se obrađuje cijeli ili u pravilne pločen- Temperatura sirovine: što bliže 0–4 °C tijekom rada"
+    }
+  ],
+  "spices": [
+    {
+      "source": "sections",
+      "path": "short_description",
+      "value": "## 2. Kratki opisnSlavonska dimljena slanina pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska dimljena slanina je cijelorezni proizvod od masnijeg komada, soljen i dimljen tako da očuva čistu aromu masti i stabilnu teksturu."
+    },
+    {
+      "source": "sections",
+      "path": "regional_identity",
+      "value": "## 3. Regionalni identitetnRecept se oslanja na obradu cijelog anatomskog komada, odmjereno soljenje, hladno dimljenje i sporo sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo."
+    },
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,045–0,055 |  |n| Bijeli luk suhi | 0,003–0,005 |  |n| Crni papar | 0,002–0,003 |  |n| Slatka paprika (po želji) | 0,002–0,004 | Neki dodaju, neki ne |"
+    },
+    {
+      "source": "sections",
+      "path": "predrying",
+      "value": "## 14. Predsušenje / početna fermentacijan- Trajanje: 1–3 dana nakon soljenja, prije dimljenjan- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    }
+  ],
+  "liquids": [
+    {
+      "source": "sections",
+      "path": "identity",
+      "value": "## 1. Identitet receptan- Kanonski naziv: Slavonska dimljena slaninan- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Slavonijan- Mikroregija: širi prostor Slavonije, Baranje i Srijeman- Tip proizvoda: Slaninan- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finalizirani tekst v0.3n- Izvor primarnog recepta: NEW_HR_V2, linija 1050n- Povezani WP zapisi: neman- Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak."
+    },
+    {
+      "source": "sections",
+      "path": "short_description",
+      "value": "## 2. Kratki opisnSlavonska dimljena slanina pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska dimljena slanina je cijelorezni proizvod od masnijeg komada, soljen i dimljen tako da očuva čistu aromu masti i stabilnu teksturu."
+    },
+    {
+      "source": "sections",
+      "path": "casings",
+      "value": "## 7. Crijeva / omotačin- Vrsta i kalibar: nema crijeva; proizvod je ploča potrbušine, leđne slanine ili panceten- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "garlic",
+      "value": "## 8. Češnjakn- Oblik: procijeđena tekućina od češnjakan- Količina češnjaka: 0,003–0,005 (prema tablici sastojaka)n- Tekućina za ekstrakciju: prokuhana i ohlađena vodan- Vrijeme ekstrakcije: 20–30 minutan- Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazun- Napomena: vlakna češnjaka ne dodavati izravno u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "grinding_cutting",
+      "value": "## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: ne melje se; komad se obrađuje cijeli ili u pravilne pločen- Temperatura sirovine: što bliže 0–4 °C tijekom rada"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    }
+  ],
+  "garlic": [
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,045–0,055 |  |n| Bijeli luk suhi | 0,003–0,005 |  |n| Crni papar | 0,002–0,003 |  |n| Slatka paprika (po želji) | 0,002–0,004 | Neki dodaju, neki ne |"
+    },
+    {
+      "source": "sections",
+      "path": "garlic",
+      "value": "## 8. Češnjakn- Oblik: procijeđena tekućina od češnjakan- Količina češnjaka: 0,003–0,005 (prema tablici sastojaka)n- Tekućina za ekstrakciju: prokuhana i ohlađena vodan- Vrijeme ekstrakcije: 20–30 minutan- Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazun- Napomena: vlakna češnjaka ne dodavati izravno u nadjev"
+    }
+  ],
+  "granulation": [
+    {
+      "source": "sections",
+      "path": "tools",
+      "value": "## 9. Oprema i alatin- Noževi, daska, posude, vaga, mlin za meso, punilica, igla za probadanje, konop/špaga, pušnica, termometar i higrometarn- Mljevenje / rezanje: ne melje se; komad se obrađuje cijeli ili u pravilne ploče"
+    },
+    {
+      "source": "sections",
+      "path": "grinding_cutting",
+      "value": "## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: ne melje se; komad se obrađuje cijeli ili u pravilne pločen- Temperatura sirovine: što bliže 0–4 °C tijekom rada"
+    }
+  ],
+  "casing": [
+    {
+      "source": "sections",
+      "path": "identity",
+      "value": "## 1. Identitet receptan- Kanonski naziv: Slavonska dimljena slaninan- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Slavonijan- Mikroregija: širi prostor Slavonije, Baranje i Srijeman- Tip proizvoda: Slaninan- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finalizirani tekst v0.3n- Izvor primarnog recepta: NEW_HR_V2, linija 1050n- Povezani WP zapisi: neman- Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak."
+    },
+    {
+      "source": "sections",
+      "path": "casings",
+      "value": "## 7. Crijeva / omotačin- Vrsta i kalibar: nema crijeva; proizvod je ploča potrbušine, leđne slanine ili panceten- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "stuffing_tying",
+      "value": "## 13. Punjenje i vezanjen- Oblik / duljina: ploče ili trake prema veličini komadan- Puniti kompaktno, bez zraka; vidljive mjehuriće odmah probosti čistom iglom"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    }
+  ],
+  "process": [
+    {
+      "source": "sections",
+      "path": "regional_identity",
+      "value": "## 3. Regionalni identitetnRecept se oslanja na obradu cijelog anatomskog komada, odmjereno soljenje, hladno dimljenje i sporo sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo."
+    },
+    {
+      "source": "sections",
+      "path": "meat_preparation",
+      "value": "## 10. Priprema mesanSirovinu dobro ohladiti, odstraniti neželjeno vezivo i raditi u čistim uvjetima. Masnije dijelove obrađivati dok su čvrsti i hladni."
+    },
+    {
+      "source": "sections",
+      "path": "mixing_resting",
+      "value": "## 12. Miješanje i odležavanjenZačine ravnomjerno rasporediti po mesu i masnoći. Miješati dok se masa ne poveže i ujednačeno oboji. Kod recepata s odležavanjem nadjeva, masu držati pokrivenu na 2–6 °C."
+    },
+    {
+      "source": "sections",
+      "path": "stuffing_tying",
+      "value": "## 13. Punjenje i vezanjen- Oblik / duljina: ploče ili trake prema veličini komadan- Puniti kompaktno, bez zraka; vidljive mjehuriće odmah probosti čistom iglom"
+    },
+    {
+      "source": "sections",
+      "path": "predrying",
+      "value": "## 14. Predsušenje / početna fermentacijan- Trajanje: 1–3 dana nakon soljenja, prije dimljenjan- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti"
+    },
+    {
+      "source": "sections",
+      "path": "smoking",
+      "value": "## 15. Dimljenjen- Protokol: hladni dim u blagim ciklusima, najčešće 5–15 ciklusan- Dim mora biti hladan i blag; koristiti suho tvrdo drvo"
+    },
+    {
+      "source": "sections",
+      "path": "drying_aging",
+      "value": "## 16. Sušenje i zrenjen- Trajanje: 30–90 dana, ovisno o debljini i željenoj čvrstoćin- Uvjeti: hladan, taman i prozračan prostor, bez naglog isušivanja površine"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    },
+    {
+      "source": "sections",
+      "path": "serving_storage",
+      "value": "## 18. Posluživanje i čuvanjen### Zrenje i čuvanjen- Zrenje: 30–60 danan- Čuvanje: do 9 mjeseci u suhom i hladnomnn---"
+    }
+  ],
+  "errors": [
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    }
+  ],
+  "safety": [
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,045–0,055 |  |n| Bijeli luk suhi | 0,003–0,005 |  |n| Crni papar | 0,002–0,003 |  |n| Slatka paprika (po želji) | 0,002–0,004 | Neki dodaju, neki ne |"
+    },
+    {
+      "source": "sections",
+      "path": "mixing_resting",
+      "value": "## 12. Miješanje i odležavanjenZačine ravnomjerno rasporediti po mesu i masnoći. Miješati dok se masa ne poveže i ujednačeno oboji. Kod recepata s odležavanjem nadjeva, masu držati pokrivenu na 2–6 °C."
+    },
+    {
+      "source": "sections",
+      "path": "predrying",
+      "value": "## 14. Predsušenje / početna fermentacijan- Trajanje: 1–3 dana nakon soljenja, prije dimljenjan- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |"
+    },
+    {
+      "source": "sections",
+      "path": "calculator_status",
+      "value": "## 19. Kalkulator statusn- Spremno za kalkulator: da, uz korištenje srednje vrijednosti raspona i prikaz izvornog raspona korisnikun- Nedostaje: završna kalkulatorska vrijednost za automatski izračun ako se ne koristi raspon"
+    },
+    {
+      "source": "sections",
+      "path": "traceability",
+      "value": "## 20. Sljedivost izvoran| Izvor | Linija / ID | Uloga |n|---|---|---|n| NEW_HR_V2 | linija 1050 | Primarni izvor recepta |n| HR_BATCH_01_FINAL_GATE_v0.3 | proizvodni plan | Urednički status |n| HR-SL-001 — Slavonski kulen | model v1 | Strukturni model kanonskog recepta |"
+    }
+  ],
+  "qa": {
+    "forbidden_terms": [],
+    "counts": {
+      "materials": 6,
+      "spices": 5,
+      "liquids": 6,
+      "garlic": 2,
+      "granulation": 2,
+      "casing": 4,
+      "process": 9,
+      "errors": 1,
+      "safety": 6
+    },
+    "v2_status": "RENDER_ADAPTER_CANDIDATE",
+    "missing_critical_groups": []
+  }
+}
