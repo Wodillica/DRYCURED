@@ -1,0 +1,90 @@
+----- POST 2976 -----
+Field	Value
+ID	2976
+post_title	Slavonska domaća kobasica
+post_status	publish
+post_name	hr-sl-005-slavonska-domaca-kobasica
+post_type	dry_recipe
+_dry_recipe_full_markdown bytes=5857
+_dry_recipe_sections bytes=6137
+_dry_verified_process bytes=1612
+_dry_recipe_data bytes=0
+_dry_recipe_public_casing_display bytes=0
+_dry_recipe_public_publish_allowed bytes=0
+_dry_recipe_requires_final_human_check bytes=0
+
+----- POST 2981 -----
+Field	Value
+ID	2981
+post_title	Slavonska kobasica (ZOI EU 2023)
+post_status	publish
+post_name	hr-sl-010-slavonska-kobasica-zoi-eu-2023
+post_type	dry_recipe
+_dry_recipe_full_markdown bytes=5772
+_dry_recipe_sections bytes=6046
+_dry_verified_process bytes=2150
+_dry_recipe_data bytes=0
+_dry_recipe_public_casing_display bytes=0
+_dry_recipe_public_publish_allowed bytes=0
+_dry_recipe_requires_final_human_check bytes=0
+
+----- POST 3524 -----
+Field	Value
+ID	3524
+post_title	PREVIEW CANON — Slavonska domaća kobasica
+post_status	private
+post_name	preview-canon-preview-canon-slavonska-kobasica-src-2976
+post_type	dry_recipe
+_dry_recipe_full_markdown bytes=6705
+_dry_recipe_sections bytes=6580
+_dry_verified_process bytes=2546
+_dry_recipe_data bytes=0
+_dry_recipe_public_casing_display bytes=37
+_dry_recipe_public_publish_allowed bytes=3
+_dry_recipe_requires_final_human_check bytes=4
+
+----- POST 2977 -----
+Field	Value
+ID	2977
+post_title	Srijemska kobasica (OGP)
+post_status	publish
+post_name	hr-sl-006-srijemska-kobasica-ogp
+post_type	dry_recipe
+_dry_recipe_full_markdown bytes=5799
+_dry_recipe_sections bytes=6081
+_dry_verified_process bytes=1713
+_dry_recipe_data bytes=0
+_dry_recipe_public_casing_display bytes=0
+_dry_recipe_public_publish_allowed bytes=0
+_dry_recipe_requires_final_human_check bytes=0
+
+----- POST 2978 -----
+Field	Value
+ID	2978
+post_title	Ratarske kobasice
+post_status	private
+post_name	hr-sl-007-ratarske-kobasice
+post_type	dry_recipe
+_dry_recipe_full_markdown bytes=11039
+_dry_recipe_sections bytes=5943
+_dry_verified_process bytes=0
+_dry_recipe_data bytes=0
+_dry_recipe_public_casing_display bytes=0
+_dry_recipe_public_publish_allowed bytes=0
+_dry_recipe_requires_final_human_check bytes=0
+
+----- POST 2979 -----
+Field	Value
+ID	2979
+post_title	Baranjska kobasica
+post_status	publish
+post_name	hr-sl-008-baranjska-kobasica
+post_type	dry_recipe
+_dry_recipe_full_markdown bytes=5721
+_dry_recipe_sections bytes=6009
+_dry_verified_process bytes=1376
+_dry_recipe_data bytes=0
+_dry_recipe_public_casing_display bytes=0
+_dry_recipe_public_publish_allowed bytes=0
+_dry_recipe_requires_final_human_check bytes=0
+

@@ -1,0 +1,583 @@
+454-            <main class="dc-canon-main">
+455-                <?php
+456-                echo dc_canon_recipe_section($sections, 5, 'Mesni sastav i anatomski dijelovi');
+457-                echo dc_canon_recipe_section($sections, 6, 'Sastojci i začini');
+458:                echo dc_canon_recipe_section($sections, 7, 'Crijeva / omotači');
+459-                echo dc_canon_recipe_section($sections, 8, 'Češnjak');
+460-                echo dc_canon_recipe_section($sections, 9, 'Oprema i alati');
+461-                echo dc_canon_recipe_section($sections, 10, 'Priprema mesa');
+462:                echo dc_canon_recipe_section($sections, 11, 'Mljevenje / rezanje');
+463-                echo dc_canon_recipe_section($sections, 12, 'Miješanje i odležavanje');
+464:                echo dc_canon_recipe_section($sections, 13, 'Punjenje i vezanje');
+465-                echo dc_canon_recipe_section($sections, 14, 'Predsušenje / početna fermentacija');
+466-                echo dc_canon_recipe_section($sections, 15, 'Dimljenje');
+467-                echo dc_canon_recipe_section($sections, 16, 'Sušenje i zrenje');
+468-                echo dc_canon_recipe_section($sections, 17, 'Najčešće greške i rješenja');
+--
+483-                <nav class="dc-canon-toc" aria-label="Sadržaj recepta">
+484-                    <h3>Sadržaj recepta</h3>
+485-                    <a href="#dc-section-5">Mesni sastav</a>
+486-                    <a href="#dc-section-6">Sastojci i začini</a>
+487:                    <a href="#dc-section-7">Crijeva / omotači</a>
+488-                    <a href="#dc-section-8">Češnjak</a>
+489-                    <a href="#dc-section-10">Priprema</a>
+490-                    <a href="#dc-section-15">Dimljenje</a>
+491-                    <a href="#dc-section-16">Sušenje i zrenje</a>
+--
+1424-                    </div>
+1425-                </section>
+1426-
+1427-                <section class="dcv5-panel" id="tekucine">
+1428:                    <h2><span>4</span>Tekućine i češnjak</h2>
+1429-                    <p class="dcv5-section-note">Tekućine se prikazuju prema izvornom receptu. Češnjak se prikazuje kao izravni dodatak, macerat ili procijeđena tekućina samo kada je takav postupak jasno naveden.</p>
+1430-
+1431-                    <div class="dcv5-card-grid two">
+1432-                        <?php foreach ($recipe['liquids'] as $item) : dcv5_card($item); endforeach; ?>
+--
+1560-                    <h3>Sadržaj recepta</h3>
+1561-                    <a href="#omjer">Omjer smjese</a>
+1562-                    <a href="#sirovine">Glavne sirovine</a>
+1563-                    <a href="#zacini">Začini i dodaci</a>
+1564:                    <a href="#tekucine">Tekućine i češnjak</a>
+1565-                    <a href="#profil">Profil proizvoda</a>
+1566-                    <a href="#klima">Tehnološki potpis</a>
+1567-                    <a href="#kronologija">Procesna kronologija</a>
+1568-                    <a href="#greske">Anatomija greške</a>
+--
+1731-        'quick' => [
+1732-            ['label' => 'Šarža', 'value' => '10 kg mesne sirovine'],
+1733-            ['label' => 'Trajanje', 'value' => '120–180 dana'],
+1734-            ['label' => 'Dimljenje', 'value' => 'hladni dim'],
+1735:            ['label' => 'Crijeva', 'value' => '55–80 mm'],
+1736-            ['label' => 'Gubitak mase', 'value' => '30–40 %'],
+1737-        ],
+1738-        'materials' => [
+1739-            ['name' => 'Svinjski but i/ili plećka', 'amount' => '8,000 kg', 'percent' => '80 %', 'rate' => '', 'note' => 'Čista mišićina bez tetiva i grubog veziva. Meso mora biti dobro ohlađeno i obrađeno bez nepotrebnog gnječenja.'],
+--
+1745-            ['name' => 'Ljuta mljevena paprika', 'amount' => '50 g', 'percent' => '0,50 %', 'rate' => '5 g/kg', 'note' => 'Daje toplinu i živost okusa. Količinu ne povećavati bez probne šarže.'],
+1746-            ['name' => 'Crni papar', 'amount' => '25 g', 'percent' => '0,25 %', 'rate' => '2,5 g/kg', 'note' => 'Najbolje grubo mljeven neposredno prije miješanja.'],
+1747-        ],
+1748-        'liquids' => [
+1749:            ['name' => 'Svježi češnjak za ekstrakciju', 'amount' => '50 g', 'percent' => '0,50 %', 'rate' => '5 g/kg', 'note' => 'Češnjak se zgnječi, kratko namače i procijedi. U nadjev se dodaje samo procijeđena tekućina.'],
+1750:            ['name' => 'Prokuhana i ohlađena voda', 'amount' => '0,070 L', 'percent' => '0,70 %', 'rate' => '7 ml/kg', 'note' => 'Služi samo za ekstrakciju češnjaka i lakše raspoređivanje arome.'],
+1751-        ],
+1752-        'profile' => [
+1753-            ['name' => 'Paprika', 'score' => 9],
+1754-            ['name' => 'Dim', 'score' => 7],
+--
+1758-            ['name' => 'Tekstura', 'score' => 8],
+1759-        ],
+1760-        'climate' => [
+1761-            ['title' => 'Izrada', 'text' => 'Sirovina mora ostati hladna, a rad miran i uredan. Kod kulena je posebno važno da se slanina ne razmaže i da paprika ravnomjerno obloži meso.'],
+1762:            ['title' => 'Odležavanje nadjeva', 'text' => 'Nadjev se odmara u hladnom prostoru kako bi se sol, paprika i miris češnjaka povezali s mesom. Miris mora ostati čist i paprikast.'],
+1763-            ['title' => 'Predsušenje', 'text' => 'Širi omotač traži strpljivo prosušivanje prije dima. Površina mora biti suha na dodir, ali ne smije postati tvrda.'],
+1764-            ['title' => 'Dimljenje', 'text' => 'Koristi se hladan, tanak i suh dim. Kulen ne treba agresivan dim, nego više blagih ciklusa s odmorom između njih.'],
+1765-            ['title' => 'Sušenje', 'text' => 'Sušenje mora biti postupno jer veliki promjer lako razvija tvrdu koru i vlažnu jezgru ako je zrak presuh ili prebrz.'],
+1766-            ['title' => 'Zrenje', 'text' => 'Dugo zrenje razvija dubinu okusa, povezanu teksturu i stabilan presjek. Presjek mora biti crven, povezan i bez šupljina.'],
+1767-        ],
+1768-        'timeline' => [
+1769-            ['day' => 'Dan 1', 'title' => 'Priprema mesa', 'text' => 'But i plećku očistiti od tetiva, grubog veziva i nepoželjnih dijelova. Slaninu držati vrlo hladnom.', 'critical' => 'Topla slanina i preduga obrada stvaraju razmazanu mast u presjeku.'],
+1770:            ['day' => 'Dan 1', 'title' => 'Mljevenje i rezanje', 'text' => 'Meso mljeti kroz rešetku 8–10 mm, a tvrdu slaninu rezati ručno na kockice 8–12 mm.', 'critical' => 'Slanina se ne melje. Kockice daju prepoznatljiv presjek kulena.'],
+1771:            ['day' => 'Dan 1', 'title' => 'Miješanje', 'text' => 'Meso, slaninu, sol, papriku, papar i procijeđenu češnjakovu tekućinu miješati dok masa ne postane ravnomjerna.', 'critical' => 'Masa se ne smije pregrijati niti pretvoriti u pastu.'],
+1772-            ['day' => 'Dan 1–5', 'title' => 'Odmor nadjeva', 'text' => 'Nadjev odmarati pokriven u hladnjaku na 2–6 °C, uz svakodnevnu provjeru mirisa.', 'critical' => 'Kiseo ili neugodan miris u ovoj fazi nije prihvatljiv.'],
+1773:            ['day' => 'Dan 5–6', 'title' => 'Punjenje', 'text' => 'Puniti u goveđa slijepa crijeva ili kate, čvrsto i bez zraka. Vidljive mjehuriće probosti čistom iglom.', 'critical' => 'Kod širokog omotača zračni džepovi su ozbiljan rizik kvarenja.'],
+1774-            ['day' => 'Dan 6–8', 'title' => 'Početna stabilizacija', 'text' => 'Kulen objesiti u hladan i prozračan prostor da se nadjev smiri, a površina pripremi za predsušenje.', 'critical' => 'Ne počinjati s dimom dok je površina mokra.'],
+1775:            ['day' => 'Dan 8–14', 'title' => 'Predsušenje', 'text' => 'Omotač se mora priljubiti uz masu i izgubiti površinsku vlagu.', 'critical' => 'Prebrzo sušenje u ovoj fazi zatvara površinu i usporava izlazak vlage iz jezgre.'],
+1776-            ['day' => 'Dan 14–44', 'title' => 'Dimljenje', 'text' => 'Dimiti hladnim dimom u blagim ciklusima, s odmorima između dimljenja.', 'critical' => 'Temperatura dima ne smije prelaziti hladni režim; prejak dim daje gorčinu.'],
+1777-            ['day' => 'Dan 44–120', 'title' => 'Sušenje', 'text' => 'Sušiti u tamnom i prozračnom prostoru uz kontrolu vlage, mirisa i tvrdoće površine.', 'critical' => 'Mekana jezgra i tvrda površina znak su prebrzog sušenja.'],
+1778-            ['day' => 'Dan 120–180', 'title' => 'Zrenje', 'text' => 'Kulen dozrijeva dok ne postigne stabilan gubitak mase, čvrst presjek i zaokružen paprikasto-dimljeni miris.', 'critical' => 'Ne rezati prerano; veliki promjer traži vrijeme.'],
+1779-            ['day' => 'Dan 180+', 'title' => 'Pakiranje i čuvanje', 'text' => 'Pakirati tek kada je kulen stabilan, površinski suh i više ne otpušta vlagu.', 'critical' => 'Prerano vakuumiranje može zarobiti vlagu i potaknuti kvarenje.'],
+1780-        ],
+1781-        'errors' => [
+1782-            ['problem' => 'Razmazana mast', 'phase' => 'Rezanje / miješanje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Slanina je bila pretopla ili je previše obrađivana.', 'solution' => 'Slaninu rezati hladnu na 8–12 mm i skratiti miješanje.'],
+1783:            ['problem' => 'Šupljine u presjeku', 'phase' => 'Punjenje', 'severity' => 'Rizik kvarenja', 'level' => 'danger', 'cause' => 'Zrak u nadjevu ili labavo punjenje.', 'solution' => 'Puniti čvrsto, probosti mjehuriće i vezati omotač bez praznih prostora.'],
+1784-            ['problem' => 'Pretvrda kora', 'phase' => 'Sušenje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Preniska vlaga ili prejak protok zraka.', 'solution' => 'Povisiti relativnu vlagu, smanjiti propuh i produljiti sušenje.'],
+1785-            ['problem' => 'Kiseo miris jezgre', 'phase' => 'Zrenje', 'severity' => 'Visok rizik', 'level' => 'danger', 'cause' => 'Nepravilna fermentacija, zrak u sredini ili presporo sušenje jezgre.', 'solution' => 'Proizvod ne prikrivati začinima; procijeniti sigurnost i odbaciti ako postoji sumnja.'],
+1786-        ],
+1787-        'done_when' => [
+1788-            ['title' => 'Gubitak mase je najmanje 30 %', 'text' => 'Za dulje zrenje može ići prema 40 %, ovisno o promjeru i željenoj suhoći.'],
+1789-            ['title' => 'Presjek je povezan', 'text' => 'Meso i slanina tvore čvrstu cjelinu bez šupljina i mokre jezgre.'],
+1790-            ['title' => 'Miris je čist', 'text' => 'Paprika, dim i meso moraju biti skladni, bez kiselih, truležnih ili užeglih nota.'],
+1791:            ['title' => 'Omotač je stabilan', 'text' => 'Omotač je suh, priljubljen i bez sluzavih mjesta.'],
+1792-        ],
+1793-        'safety' => [
+1794-            ['level' => 'green', 'title' => 'Zeleno — normalno', 'text' => 'Čist paprikasto-dimljeni miris, stabilna površina, povezan presjek i postupni gubitak mase.'],
+1795-            ['level' => 'yellow', 'title' => 'Žuto — oprez', 'text' => 'Pretvrda kora, neravnomjeran presjek, presporo sušenje ili blaga ljepljivost površine. Korigirati uvjete i pratiti.'],
+--
+1814-        'quick' => [
+1815-            ['label' => 'Šarža', 'value' => '1 but / 9–13 kg'],
+1816-            ['label' => 'Trajanje', 'value' => '10–14 mjeseci'],
+1817-            ['label' => 'Dimljenje', 'value' => 'hladni dim'],
+1818:            ['label' => 'Omotač', 'value' => 'bez crijeva'],
+1819-            ['label' => 'Gubitak mase', 'value' => 'postupno zrenje'],
+1820-        ],
+1821-        'materials' => [
+1822-            ['name' => 'Svinjski but s kosti i kožom', 'amount' => '9–13 kg', 'percent' => '', 'rate' => '', 'note' => 'Cijeli anatomski komad. Koža i kost usporavaju sušenje i traže dulje zrenje.'],
+--
+1824-        'spices' => [
+1825-            ['name' => 'Kuhinjska sol', 'amount' => '550–650 g', 'percent' => '', 'rate' => '50–60 g/kg', 'note' => 'Količina se vodi prema masi buta. Sol se utrljava temeljito, osobito oko kosti i debljih dijelova.'],
+1826-            ['name' => 'Crni papar', 'amount' => '35–55 g', 'percent' => '', 'rate' => '3–5 g/kg', 'note' => 'Daje blagi začinski sloj bez prekrivanja mirisa mesa i dima.'],
+1827-            ['name' => 'Slatka paprika', 'amount' => '35–45 g', 'percent' => '', 'rate' => '3–4 g/kg', 'note' => 'Koristi se kao blagi slavonski začinski naglasak.'],
+1828:            ['name' => 'Suhi češnjak ili češnjakova aroma', 'amount' => '20–35 g', 'percent' => '', 'rate' => '2–3 g/kg', 'note' => 'Koristiti odmjereno. Kod cijelih komada češnjak ne smije stvarati mokre džepove na površini.'],
+1829-        ],
+1830-        'liquids' => [
+1831:            ['name' => 'Tekućina za češnjak', 'amount' => 'nije obvezna', 'percent' => '', 'rate' => '', 'note' => 'Kod ove suho soljene varijante tekućina se ne koristi kao dio nadjeva. Ako se koristi češnjakova aroma, površina mora ostati suha.'],
+1832:            ['name' => 'Crijeva / omotači', 'amount' => 'ne koriste se', 'percent' => '', 'rate' => '', 'note' => 'Šunka je cijeli komad i ne puni se u crijevo. Zaštitu čine koža, površinsko sušenje i pravilno zrenje.'],
+1833-        ],
+1834-        'profile' => [
+1835-            ['name' => 'Paprika', 'score' => 3],
+1836-            ['name' => 'Dim', 'score' => 7],
+--
+1893-        'quick' => [
+1894-            ['label' => 'Šarža', 'value' => '10 kg mesne mase'],
+1895-            ['label' => 'Trajanje', 'value' => '30–60 dana'],
+1896-            ['label' => 'Dimljenje', 'value' => 'hladni dim'],
+1897:            ['label' => 'Crijeva', 'value' => '32–42 mm'],
+1898-            ['label' => 'Gubitak mase', 'value' => '25–30 %'],
+1899-        ],
+1900-        'materials' => [
+1901-            ['name' => 'Mješovito svinjsko meso', 'amount' => '7,000 kg', 'percent' => '70 %', 'rate' => '', 'note' => 'Vrat, obresci rebara, plećka i čisti dijelovi glave. Osnova okusa, strukture i vezanja nadjeva.'],
+--
+1908-            ['name' => 'Crni papar', 'amount' => '12 g', 'percent' => '0,12 %', 'rate' => '1,2 g/kg', 'note' => 'Najbolje grubo mljeven neposredno prije rada.'],
+1909-            ['name' => 'Kim', 'amount' => '7 g', 'percent' => '0,07 %', 'rate' => '0,7 g/kg', 'note' => 'Prepoznatljiv dodatak ratarskom stilu; ne smije preuzeti okus kobasice.'],
+1910-        ],
+1911-        'liquids' => [
+1912:            ['name' => 'Svježi češnjak za ekstrakciju', 'amount' => '30 g', 'percent' => '0,30 %', 'rate' => '3 g/kg', 'note' => 'Češnjak se zgnječi, namače i procijedi. U nadjev se ne dodaju vlakna češnjaka.'],
+1913:            ['name' => 'Prokuhana i ohlađena voda', 'amount' => '0,060 L', 'percent' => '0,60 %', 'rate' => '6 ml/kg', 'note' => 'Koristi se za ekstrakciju češnjaka. U nadjev ide samo procijeđena tekućina.'],
+1914-        ],
+1915-        'profile' => [
+1916-            ['name' => 'Paprika', 'score' => 7],
+1917-            ['name' => 'Dim', 'score' => 6],
+--
+1929-            ['title' => 'Zrenje', 'text' => 'Zrenje počinje kada je proizvod površinski stabilan i kada se gubitak vlage uspori. U ovoj fazi razvijaju se aroma, boja presjeka i tekstura. Miris mora ostati čist, paprikast i dimljen, bez kiselih ili truležnih nota.'],
+1930-        ],
+1931-        'timeline' => [
+1932-            ['day' => 'Dan 1', 'title' => 'Priprema mesa', 'text' => 'Očistiti meso, ukloniti žilave dijelove i raditi s dobro ohlađenom sirovinom.', 'critical' => 'Temperatura sirovine mora ostati niska da se masnoća ne razmaže.'],
+1933:            ['day' => 'Dan 1', 'title' => 'Mljevenje', 'text' => 'Meso i masnije dijelove mljeti kroz rešetku 6–8 mm, bez ponavljanja mljevenja.', 'critical' => 'Ako se masa lijepi i maže, treba prekinuti rad i ohladiti sirovinu.'],
+1934:            ['day' => 'Dan 1', 'title' => 'Miješanje', 'text' => 'Dodati sol, papriku, papar, kim i procijeđenu češnjakovu tekućinu. Miješati 8–12 minuta.', 'critical' => 'Začini moraju biti ravnomjerni, ali nadjev se ne smije pregrijati.'],
+1935-            ['day' => 'Dan 1–2', 'title' => 'Odležavanje nadjeva', 'text' => 'Nadjev držati 12 sati na 2–6 °C, pokriven i zaštićen od isušivanja.', 'critical' => 'Miris mora ostati čist, paprikast i bez kiselih nota.'],
+1936:            ['day' => 'Dan 2', 'title' => 'Punjenje', 'text' => 'Puniti u svinjska crijeva 32–42 mm, čvrsto, ali bez pucanja.', 'critical' => 'Zračne džepove odmah probosti čistom iglom.'],
+1937-            ['day' => 'Dan 2–3', 'title' => 'Početna fermentacija / stabilizacija', 'text' => 'Nakon punjenja kobasice miruju u hladnom i prozračnom prostoru. Nadjev se stabilizira, sol i začini se dodatno povezuju s masom, a površina se priprema za predsušenje.', 'critical' => 'Fermentacija ne smije krenuti naglo. Ako se pojavi izražen kiseo miris, sluzavost ili napuhavanje crijeva, postupak treba zaustaviti i proizvod ne koristiti bez sigurne procjene.'],
+1938-            ['day' => 'Dan 3–5', 'title' => 'Predsušenje', 'text' => 'Kobasice objesiti tako da se ne dodiruju. Površina se mora prosušiti prije prvog dima.', 'critical' => 'Ne dimiti dok je površina mokra, sjajna ili ljepljiva.'],
+1939-            ['day' => 'Dan 5–15', 'title' => 'Dimljenje', 'text' => 'Dimiti hladnim dimom u 3–6 blagih ciklusa, uz pauze između dimljenja.', 'critical' => 'Prejak dim daje gorčinu i pretamnu površinu. Dim mora biti tanak, suh i mirisan.'],
+1940-            ['day' => 'Dan 15–35', 'title' => 'Sušenje', 'text' => 'Nakon dimljenja kobasice sušiti na 10–15 °C i 70–80 % relativne vlage, uz blago strujanje zraka.', 'critical' => 'Pretvrda površina i mekana sredina znače prebrzo sušenje ili prenizku vlagu.'],
+1941-            ['day' => 'Dan 35–60', 'title' => 'Zrenje', 'text' => 'U završnoj fazi proizvod se stabilizira, okus se zaokružuje, a presjek postaje povezan i mirisan.', 'critical' => 'Ako se pojavi neugodan kiseo, truležan ili užegao miris, proizvod ne treba spašavati začinima.'],
+1942-            ['day' => 'Dan 60+', 'title' => 'Pakiranje i čuvanje', 'text' => 'Gotove kobasice pakirati tek kada su stabilne, površinski suhe i mirisno čiste. Za kratko čuvanje prikladan je papir ili prozračna ambalaža, a vakuumiranje se koristi samo kada proizvod više ne otpušta vlagu.', 'critical' => 'Ne vakuumirati prerano. Ako se u pakiranju pojavi vlaga, neugodan miris ili ljepljiva površina, proizvod izvaditi, provjeriti i ne konzumirati ako postoji sumnja u kvarenje.'],
+1943-        ],
+1944-        'errors' => [
+1945:            ['problem' => 'Razmazana mast', 'phase' => 'Mljevenje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Sirovina je bila pretopla ili je masnoća previše obrađivana.', 'solution' => 'Raditi s ohlađenom sirovinom, mljeti samo jednom i napraviti pauzu ako se masnoća počne mazati.'],
+1946:            ['problem' => 'Zračni džepovi', 'phase' => 'Punjenje', 'severity' => 'Rizik kvarenja', 'level' => 'danger', 'cause' => 'Labavo punjenje ili neprobušeni mjehurići zraka.', 'solution' => 'Puniti sporije, kontrolirati pritisak i svaki mjehurić odmah probosti čistom iglom.'],
+1947-            ['problem' => 'Gorka aroma dima', 'phase' => 'Dimljenje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Previše dima, vlažno drvo ili premale pauze.', 'solution' => 'Koristiti suho tvrdo drvo, skratiti cikluse i produljiti pauze između dimljenja.'],
+1948-            ['problem' => 'Sluzava površina', 'phase' => 'Predsušenje / zrenje', 'severity' => 'Visok rizik', 'level' => 'danger', 'cause' => 'Previsoka vlaga bez dovoljno zraka ili loše predsušenje.', 'solution' => 'Premjestiti kobasice u prozračniji prostor, osušiti površinu i ne nastavljati dimljenje dok površina nije stabilna.'],
+1949-        ],
+1950-        'done_when' => [
+--
+4391-                        'Temperatura': '0–4 °C',
+4392-                        'Vlaga / prostor': 'hladan radni prostor',
+4393-                        'Cilj': 'čista, hladna sirovina bez grubog veziva i razmazane masnoće'
+4394-                    },
+4395:                    'Mljevenje i rezanje': {
+4396-                        'Trajanje': 'odmah nakon hlađenja',
+4397-                        'Temperatura': '0–4 °C',
+4398:                        'Rešetka / rez': 'meso 8–10 mm; slanina 8–12 mm ručno',
+4399-                        'Cilj': 'čitljiv presjek i odvojena zrna mesa i slanine'
+4400-                    },
+4401-                    'Miješanje': {
+4402-                        'Trajanje': '8–12 min',
+4403-                        'Temperatura': 'masa što hladnija',
+4404-                        'Kontrola': 'bez pregrijavanja i bez pastozne strukture',
+4405:                        'Cilj': 'ravnomjerna paprika, sol i češnjakova aroma'
+4406-                    },
+4407-                    'Odmor nadjeva': {
+4408-                        'Trajanje': '3–5 dana',
+4409-                        'Temperatura': '2–6 °C',
+4410-                        'Kontrola': 'svakodnevno provjeriti miris',
+4411-                        'Cilj': 'povezivanje soli, paprike i mesa prije punjenja'
+4412-                    },
+4413:                    'Punjenje': {
+4414-                        'Trajanje': 'isti dan',
+4415:                        'Temperatura': 'hladna masa',
+4416:                        'Omotač': 'širi prirodni omotač 55–80 mm',
+4417:                        'Cilj': 'čvrsto punjenje bez zračnih džepova'
+4418-                    },
+4419-                    'Početna stabilizacija': {
+4420-                        'Trajanje': '24–48 h',
+4421-                        'Temperatura': '8–12 °C',
+--
+4460-                        'Temperatura': '0–4 °C',
+4461-                        'Kontrola': 'raditi brzo i hladno',
+4462-                        'Cilj': 'spriječiti razmazivanje masnoće'
+4463-                    },
+4464:                    'Mljevenje': {
+4465-                        'Trajanje': 'odmah nakon hlađenja',
+4466-                        'Temperatura': '0–4 °C',
+4467:                        'Rešetka': '6–8 mm',
+4468-                        'Cilj': 'ravnomjerna granulacija bez kašaste mase'
+4469-                    },
+4470-                    'Miješanje': {
+4471-                        'Trajanje': '8–12 min',
+4472:                        'Temperatura': 'hladna masa',
+4473-                        'Kontrola': 'nadjev ne smije postati topao i ljepljiv',
+4474:                        'Cilj': 'ravnomjerna sol, paprika i češnjakova tekućina'
+4475-                    },
+4476-                    'Odležavanje nadjeva': {
+4477-                        'Trajanje': 'oko 12 h',
+4478-                        'Temperatura': '2–6 °C',
+4479-                        'Kontrola': 'pokriveno, bez isušivanja',
+4480-                        'Cilj': 'stabilan miris i povezivanje začina'
+4481-                    },
+4482:                    'Punjenje': {
+4483-                        'Trajanje': 'isti dan',
+4484:                        'Temperatura': 'hladna masa',
+4485:                        'Crijeva': 'svinjska 32–42 mm',
+4486-                        'Cilj': 'čvrsto punjenje bez zraka'
+4487-                    },
+4488-                    'Početna fermentacija / stabilizacija': {
+4489-                        'Trajanje': '12–24 h',
+--
+4687-if (!function_exists('dcv12_defaults_for_family')) {
+4688-    function dcv12_defaults_for_family($family) {
+4689-        $kobasica_timeline = [
+4690-            ['day'=>'Dan 1','title'=>'Priprema mesa','text'=>'Sirovinu očistiti, ohladiti i pripremiti za mljevenje ili rezanje.','critical'=>'Meso i masnoća moraju ostati hladni.'],
+4691:            ['day'=>'Dan 1','title'=>'Mljevenje','text'=>'Meso mljeti prema receptu, bez nepotrebnog ponavljanja mljevenja.','critical'=>'Ako se masa lijepi i maže, rad prekinuti i ohladiti sirovinu.'],
+4692:            ['day'=>'Dan 1','title'=>'Miješanje','text'=>'Dodati sol, začine i predviđenu češnjakovu tekućinu te miješati do ravnomjernog rasporeda.','critical'=>'Nadjev ne smije postati topao ni pastozan.'],
+4693-            ['day'=>'Dan 1–2','title'=>'Odležavanje nadjeva','text'=>'Nadjev kratko odmoriti u hladnom prostoru.','critical'=>'Miris mora ostati čist, bez kiselih nota.'],
+4694:            ['day'=>'Dan 2','title'=>'Punjenje','text'=>'Puniti u pripremljena crijeva bez zračnih džepova.','critical'=>'Svaki mjehurić zraka treba probosti čistom iglom.'],
+4695-            ['day'=>'Dan 2–3','title'=>'Početna fermentacija / stabilizacija','text'=>'Kobasice objesiti u hladan i prozračan prostor da se nadjev smiri.','critical'=>'Ne počinjati dimljenje dok je površina mokra.'],
+4696-            ['day'=>'Dan 3–5','title'=>'Predsušenje','text'=>'Površinu prosušiti prije prvog dima.','critical'=>'Mokra površina prima dim nepravilno.'],
+4697-            ['day'=>'Dan 5–20','title'=>'Dimljenje','text'=>'Dimiti hladnim, tankim i suhim dimom u blagim ciklusima.','critical'=>'Dim ne smije biti topao, gust ni gorak.'],
+4698-            ['day'=>'Dan 20–50','title'=>'Sušenje','text'=>'Sušiti postupno u stabilnim uvjetima.','critical'=>'Izbjegavati tvrdu koru i presporo sušenje jezgre.'],
+--
+4712-
+4713-        $defaults = [
+4714-            'type' => 'Suhomesnati proizvod',
+4715-            'quick' => [
+4716:                ['label'=>'Šarža','value'=>'10 kg / prema receptu'],
+4717-                ['label'=>'Trajanje','value'=>'prema tipu proizvoda'],
+4718-                ['label'=>'Dimljenje','value'=>'hladni dim gdje je primjenjivo'],
+4719:                ['label'=>'Omotač','value'=>'prema receptu'],
+4720-                ['label'=>'Gubitak mase','value'=>'postupno sušenje'],
+4721-            ],
+4722-            'timeline' => $kobasica_timeline,
+4723-            'profile' => [
+--
+4735-            $defaults['quick'] = [
+4736-                ['label'=>'Šarža','value'=>'10 kg mesne sirovine'],
+4737-                ['label'=>'Trajanje','value'=>'120–180 dana'],
+4738-                ['label'=>'Dimljenje','value'=>'hladni dim'],
+4739:                ['label'=>'Crijeva','value'=>'širi omotač'],
+4740-                ['label'=>'Gubitak mase','value'=>'30–40 %'],
+4741-            ];
+4742-        } elseif ($family === 'salama') {
+4743-            $defaults['type'] = 'Kobasica/Salama';
+4744-            $defaults['quick'] = [
+4745-                ['label'=>'Šarža','value'=>'10 kg mesne mase'],
+4746-                ['label'=>'Trajanje','value'=>'60–120 dana'],
+4747-                ['label'=>'Dimljenje','value'=>'hladni dim'],
+4748:                ['label'=>'Omotač','value'=>'širi omotač'],
+4749-                ['label'=>'Gubitak mase','value'=>'30–35 %'],
+4750-            ];
+4751-        } elseif (in_array($family, ['sunka','cijeli_komad','slanina_panceta'], true)) {
+4752-            $defaults['type'] = ($family === 'slanina_panceta') ? 'Slanina' : 'Cijeli komad';
+4753-            $defaults['quick'] = [
+4754-                ['label'=>'Šarža','value'=>'prema komadu'],
+4755-                ['label'=>'Trajanje','value'=>'45 dana – 12 mjeseci'],
+4756-                ['label'=>'Dimljenje','value'=>'hladni dim'],
+4757:                ['label'=>'Omotač','value'=>'bez crijeva'],
+4758-                ['label'=>'Gubitak mase','value'=>'postupno zrenje'],
+4759-            ];
+4760-            $defaults['timeline'] = $whole_timeline;
+4761-        } elseif (in_array($family, ['krvavica','iznutrice','tlacenica_svargl'], true)) {
+4762-            $defaults['type'] = 'Iznutrice';
+4763-            $defaults['quick'] = [
+4764-                ['label'=>'Šarža','value'=>'10 kg mase'],
+4765:                ['label'=>'Trajanje','value'=>'prema receptu'],
+4766:                ['label'=>'Toplinska obrada','value'=>'prema receptu'],
+4767:                ['label'=>'Omotač','value'=>'prema receptu'],
+4768-                ['label'=>'Čuvanje','value'=>'hladno'],
+4769-            ];
+4770-        }
+4771-
+--
+4893-
+4894-        $meso_sec = dcv12_extract_md_section($content, 5);
+4895-        $zacini_sec = dcv12_extract_md_section($content, 6);
+4896-        $crijeva_sec = dcv12_extract_md_section($content, 7);
+4897:        $cesnjak_sec = dcv12_extract_md_section($content, 8);
+4898-
+4899-        $materials = [];
+4900-        $spices = [];
+4901-        $liquids = [];
+--
+4937-
+4938-            $lower = mb_strtolower($name, 'UTF-8');
+4939-
+4940-            $is_garlic_or_liquid =
+4941:                strpos($lower, 'češnjak') !== false ||
+4942:                strpos($lower, 'cesnjak') !== false ||
+4943-                strpos($lower, 'bijeli luk') !== false ||
+4944-                strpos($lower, 'procije') !== false ||
+4945-                strpos($lower, 'voda') !== false ||
+4946-                strpos($lower, 'vino') !== false ||
+--
+4952-                    'name' => $name,
+4953-                    'amount' => $grams . ' g',
+4954-                    'percent' => $percent,
+4955-                    'rate' => $gkg,
+4956:                    'note' => $note ?: 'Koristi se kao procijeđena češnjakova aroma; vlakna češnjaka ne dodavati izravno u nadjev.',
+4957-                ];
+4958-            } else {
+4959-                $spices[] = [
+4960-                    'name' => $name,
+--
+4965-                ];
+4966-            }
+4967-        }
+4968-
+4969:        if ($cesnjak_sec && empty($liquids)) {
+4970:            $clean = wp_strip_all_tags($cesnjak_sec);
+4971-            $clean = preg_replace('/\s+/u', ' ', $clean);
+4972-            $liquids[] = [
+4973-                'name' => 'Češnjakova tekućina',
+4974-                'amount' => 'prema tablici',
+--
+5036-                'name' => 'Češnjak se ne dodaje',
+5037-                'amount' => '0 g',
+5038-                'percent' => '0 %',
+5039-                'rate' => '0 g/kg',
+5040:                'note' => 'U ovom receptu češnjak nije naveden kao sastojak.',
+5041-            ],
+5042-        ];
+5043-
+5044-        return [
+--
+5062-            ],
+5063-            'timeline' => $defaults['timeline'],
+5064-            'errors' => [
+5065-                ['problem'=>'Neujednačen presjek ili tekstura','phase'=>'Izrada','severity'=>'Oprez','level'=>'warning','cause'=>'Sirovina je bila pretopla ili nepravilno obrađena.','solution'=>'Raditi hladno, skratiti obradu i po potrebi vratiti sirovinu na hlađenje.'],
+5066:                ['problem'=>'Zrak u proizvodu','phase'=>'Punjenje / oblikovanje','severity'=>'Rizik kvarenja','level'=>'danger','cause'=>'Labavo punjenje ili loše oblikovanje.','solution'=>'Puniti i oblikovati čvrsto te ukloniti zračne džepove gdje je moguće.'],
+5067-                ['problem'=>'Pretvrda površina','phase'=>'Sušenje','severity'=>'Oprez','level'=>'warning','cause'=>'Prebrz zrak ili preniska relativna vlaga.','solution'=>'Smanjiti propuh, stabilizirati vlagu i produljiti sušenje.'],
+5068-                ['problem'=>'Neugodan miris','phase'=>'Zrenje / čuvanje','severity'=>'Visok rizik','level'=>'danger','cause'=>'Kvarenje, previsoka temperatura ili presporo sušenje.','solution'=>'Ne prikrivati začinima. Odbaciti ako postoji sumnja u zdravstvenu ispravnost.'],
+5069-            ],
+5070-            'done_when' => [
+--
+5170-            return false;
+5171-        }
+5172-
+5173-        return (
+5174:            strpos($name, 'češnjak') !== false ||
+5175:            strpos($name, 'cesnjak') !== false ||
+5176-            strpos($name, 'bijeli luk') !== false
+5177-        );
+5178-    }
+5179-}
+--
+5184-        $note = mb_strtolower(trim($item['note'] ?? ''), 'UTF-8');
+5185-        $text = $name . ' ' . $note;
+5186-
+5187-        return (
+5188:            strpos($text, 'ekstrakciju češnjaka') !== false ||
+5189:            strpos($text, 'ekstrakcija češnjaka') !== false ||
+5190-            strpos($text, 'voda za ekstrakciju') !== false ||
+5191-            strpos($text, 'vino za ekstrakciju') !== false ||
+5192-            strpos($text, 'procijeđena tekućina') !== false ||
+5193-            strpos($text, 'procijedena tekućina') !== false
+--
+5224-                continue;
+5225-            }
+5226-
+5227-            if (dcv16_is_garlic_like($name)) {
+5228:                $item['note'] = 'Sastojak paca ili začinskog premaza za cijeli komad. Ne prikazuje se kao zasebna češnjakova tekućina osim ako recept izričito navodi mokri pac ili salamuru.';
+5229-                $spices[] = $item;
+5230-                continue;
+5231-            }
+5232-
+--
+5266-        $intro = $wet
+5267-            ? 'Sastojci salamure ili mokrog paca prikazuju se odvojeno od osnovnog komada. Navesti omjer soli, tekućinu, temperaturu, vrijeme držanja i način okretanja ili potapanja.'
+5268-            : 'Sastojci suhog paca i začinskog premaza prikazuju se u gramima i g/kg. Pac se ravnomjerno utrljava u površinu, a komad se drži na hladnom i povremeno okreće.';
+5269-
+5270:        // Sidebar link: za cijele komade nema generičkog bloka "Tekućine i češnjak".
+5271:        $content = str_replace('<a href="#tekucine">Tekućine i češnjak</a>', '', $content);
+5272-
+5273-        // Naslov sekcije začina pretvaramo u pac/premaz.
+5274-        $content = preg_replace(
+5275-            '/(<section[^>]+id="zacini"[^>]*>.*?<h2>)(.*?)(<\/h2>)/s',
+--
+5283-            $intro,
+5284-            $content
+5285-        );
+5286-
+5287:        // Kod suhih cijelih komada uklanja se generička sekcija tekućina/češnjak.
+5288-        if (!$wet) {
+5289-            $content = preg_replace(
+5290-                '/<section[^>]+id="tekucine"[^>]*>.*?<\/section>/s',
+5291-                '',
+--
+5315-
+5316-            const specs = {
+5317-                kobasica: {
+5318-                    'Priprema mesa': {'Trajanje':'isti dan','Temperatura':'0–4 °C','Kontrola':'raditi brzo i hladno','Cilj':'spriječiti razmazivanje masnoće'},
+5319:                    'Mljevenje': {'Trajanje':'odmah nakon hlađenja','Temperatura':'0–4 °C','Rešetka':'prema receptu','Cilj':'ravnomjerna granulacija bez kašaste mase'},
+5320:                    'Miješanje': {'Trajanje':'8–12 min','Temperatura':'hladna masa','Kontrola':'nadjev ne smije postati topao','Cilj':'ravnomjeran raspored soli i začina'},
+5321-                    'Odležavanje nadjeva': {'Trajanje':'12–24 h','Temperatura':'2–6 °C','Kontrola':'pokriveno, bez isušivanja','Cilj':'stabilan miris i povezivanje začina'},
+5322:                    'Punjenje': {'Trajanje':'isti dan','Temperatura':'hladna masa','Crijeva':'prema receptu','Cilj':'čvrsto punjenje bez zraka'},
+5323-                    'Početna fermentacija / stabilizacija': {'Trajanje':'12–24 h','Temperatura':'8–12 °C','Relativna vlaga':'80–85 %','Cilj':'blaga stabilizacija boje, mirisa i vezanja nadjeva'},
+5324-                    'Predsušenje': {'Trajanje':'24–48 h','Temperatura':'8–12 °C','Relativna vlaga':'80–85 %','Cilj':'površina suha na dodir prije prvog dima'},
+5325-                    'Dimljenje': {'Trajanje':'3–6 blagih ciklusa','Temperatura dima':'hladni dim, najviše 20–22 °C','Pauze':'obavezne između ciklusa','Cilj':'tanka dimna aroma bez gorčine'},
+5326-                    'Sušenje': {'Trajanje':'20–40 dana nakon dimljenja','Temperatura':'10–15 °C','Relativna vlaga':'70–80 %','Cilj':'gubitak mase bez tvrde kore'},
+--
+5460-            strpos($name_lower, 'tekuć') !== false ||
+5461-            strpos($name_lower, 'tekuc') !== false;
+5462-
+5463-        if ($is_liquid_spice) {
+5464:            $note = $item['note'] ?? 'Aromatska tekućina dodaje se u maloj količini prema receptu.';
+5465-
+5466-            if ($code === 'HR-SL-006' && strpos($name_lower, 'rum') !== false) {
+5467-                $liquids[] = [
+5468-                    'name' => 'Rum',
+--
+5513-
+5514-    $liquids = $deduped_liquids;
+5515-
+5516-    /*
+5517:     * 3) Globalno pravilo za češnjak:
+5518:     * Ako postoji češnjak/bijeli luk, ali nema zasebne tekućine za ekstrakciju,
+5519-     * automatski dodaj izračunatu tekućinu.
+5520-     *
+5521-     * Radno pravilo za standardizirani prikaz:
+5522:     * 1 g češnjaka ≈ 2 ml tekućine za ekstrakciju.
+5523-     */
+5524-    $has_garlic = false;
+5525-    $garlic_grams = null;
+5526-    $garlic_note = '';
+--
+5530-        $name_lower = mb_strtolower(trim($item['name'] ?? ''), 'UTF-8');
+5531-        $note_lower = mb_strtolower(trim($item['note'] ?? ''), 'UTF-8');
+5532-
+5533-        $is_garlic =
+5534:            strpos($name_lower, 'češnjak') !== false ||
+5535:            strpos($name_lower, 'cesnjak') !== false ||
+5536-            strpos($name_lower, 'bijeli luk') !== false;
+5537-
+5538-        $is_extraction_liquid =
+5539-            strpos($name_lower, 'voda') !== false ||
+--
+5573-
+5574-        $note_lower = mb_strtolower($garlic_note, 'UTF-8');
+5575-
+5576-        if (strpos($note_lower, 'vino') !== false && strpos($note_lower, 'voda') !== false) {
+5577:            $liquid_name = 'Mješavina vode i vina za ekstrakciju češnjaka';
+5578:            $liquid_note = 'Tekućinu pripremiti prema receptu: voda mora biti prokuhana i potpuno ohlađena, vino hladno. Češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu tekućinu.';
+5579-        } elseif (strpos($note_lower, 'vino') !== false) {
+5580:            $liquid_name = 'Vino za ekstrakciju češnjaka';
+5581:            $liquid_note = 'Češnjak zgnječiti, namakati 20–30 minuta u hladnom vinu, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu tekućinu, bez vlakana češnjaka.';
+5582-        } else {
+5583:            $liquid_name = 'Prokuhana i ohlađena voda za ekstrakciju češnjaka';
+5584:            $liquid_note = 'Vodu prvo prokuhati i potpuno ohladiti. Češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu aromatsku tekućinu, bez vlakana češnjaka.';
+5585-        }
+5586-
+5587-        $liquids[] = [
+5588-            'name' => $liquid_name,
+5589-            'amount' => dcv12_format_liters_hr($liters),
+5590-            'percent' => dcv12_format_percent_hr(($liters / 10) * 100, 2),
+5591-            'rate' => dcv12_format_mlkg_hr($ml / 10),
+5592:            'note' => 'Radna količina za ' . (int)round($garlic_grams) . ' g češnjaka: približno ' . (int)$ml . ' ml tekućine. ' . $liquid_note,
+5593-        ];
+5594-    }
+5595-
+5596-    $profile['spices'] = array_values($spices);
+--
+5751-            return false;
+5752-        }
+5753-
+5754-        return (
+5755:            strpos($name, 'češnjak') !== false ||
+5756:            strpos($name, 'cesnjak') !== false ||
+5757-            strpos($name, 'bijeli luk') !== false
+5758-        );
+5759-    }
+5760-}
+--
+5960-                    'name' => 'Bijeli luk (tekući)',
+5961-                    'amount' => '250 g',
+5962-                    'percent' => '2,50 %',
+5963-                    'rate' => '25 g/kg',
+5964:                    'note' => 'Procijeđena aromatska komponenta; vlakna češnjaka ne dodavati u nadjev.',
+5965-                ],
+5966-                [
+5967:                    'name' => 'Prokuhana i ohlađena voda za ekstrakciju češnjaka',
+5968-                    'amount' => '0,200 L',
+5969-                    'percent' => '2 %',
+5970-                    'rate' => '20 ml/kg',
+5971:                    'note' => 'Standardna količina za češnjakovu ekstrakciju kod šarže od 10 kg. Vodu prokuhati i potpuno ohladiti; češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu.',
+5972-                ],
+5973-            ];
+5974-
+5975-            return $profile;
+--
+6083-        }
+6084-
+6085-        /*
+6086-         * Cijeli komadi ne smiju imati generički kobasičarski blok
+6087:         * "Tekućine i češnjak". Češnjak, paprika i papar kod njih pripadaju
+6088-         * suhom pacu/premazu, osim ako je izvorno jasno naveden mokri pac.
+6089-         */
+6090-
+6091-        // Ukloni link iz bočne navigacije u svim varijantama razmaka/atributa.
+6092-        $content = preg_replace(
+6093:            '/<a\b[^>]*href=["\']#tekucine["\'][^>]*>\s*Tekućine i češnjak\s*<\/a>/iu',
+6094-            '',
+6095-            $content
+6096-        );
+6097-
+--
+6101-            '',
+6102-            $content
+6103-        );
+6104-
+6105:        // Ukloni samu sekciju Tekućine i češnjak po ID-u.
+6106-        $content = preg_replace(
+6107-            '/\s*<section\b[^>]*id=["\']tekucine["\'][^>]*>.*?<\/section>/isu',
+6108-            '',
+6109-            $content,
+6110-            1
+6111-        );
+6112-
+6113:        // Ako je negdje ostao tekst bez ID-a, ukloni panel koji ima naslov Tekućine i češnjak.
+6114-        $content = preg_replace(
+6115:            '/\s*<section\b[^>]*class=["\'][^"\']*dcv5-panel[^"\']*["\'][^>]*>\s*<[^>]*>\s*(?:<span[^>]*>.*?<\/span>\s*)?Tekućine i češnjak\s*<\/[^>]+>.*?<\/section>/isu',
+6116-            '',
+6117-            $content,
+6118-            1
+6119-        );
+--
+6128-
+6129-        // Preimenuj opis bloka, ali samo kod cijelih komada.
+6130-        $content = str_replace(
+6131-            'Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer.',
+6132:            'Sastojci suhog paca i začinskog premaza prikazuju se u gramima i g/kg. Pac se ravnomjerno utrljava u površinu komada, a meso se drži na hladnom i okreće prema receptu.',
+6133-            $content
+6134-        );
+6135-
+6136-        return $content;
+--
+6616-                'name' => 'Bijeli luk — svježi cijeđeni sok',
+6617-                'amount' => '50–70 g',
+6618-                'percent' => '0,50–0,70 %',
+6619-                'rate' => '5–7 g/kg',
+6620:                'note' => 'Samo procijeđeni sok bez vlakana; vlakna češnjaka ne idu u nadjev.',
+6621-            ],
+6622-        ];
+6623-
+6624-        $profile['casings'] = [
+--
+6676-                    <h2>Zaključani sastav i ključni parametri</h2>
+6677-                </div>
+6678-                <p>Ovaj prikaz koristi zaključani izvor za HR-SL-001 Slavonski kulen. Za šaržu od 10 kg: svinjski but I. kategorije 6,00 kg, svinjska plećka II. kategorije 2,50 kg, svinjski vrat III. kategorije 1,00 kg i tvrda leđna slanina 0,50 kg.</p>
+6679-                <p>Začini: sol 260–280 g, ljuta mljevena paprika 80–120 g, slatka mljevena paprika 120–160 g i svježi cijeđeni sok bijelog luka 50–70 g.</p>
+6680:                <p>Omotač: svinjsko slijepo crijevo / kate, promjer 80–120 mm. Dimljenje: hladni dim ≤25 °C. Zrenje: minimalno 150 dana, optimalno 6–9 mjeseci. Minimalni gubitak mase: 30 %.</p>
+6681-            </section>';
+6682-
+6683-            $content = $panel . "\n\n" . $content;
+6684-        }

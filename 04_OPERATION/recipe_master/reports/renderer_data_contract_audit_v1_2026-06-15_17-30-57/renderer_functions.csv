@@ -1,0 +1,91 @@
+line,function,text
+132,dc_canon_recipe_override_content,function dc_canon_recipe_override_content($content) {
+502,dc_canon_meta,"function dc_canon_meta($post_id, $key, $fallback = '') {"
+507,dc_canon_first_term,"function dc_canon_first_term($post_id, $tax, $fallback = '') {"
+515,dc_canon_recipe_parse_sections,function dc_canon_recipe_parse_sections($markdown) {
+546,dc_canon_recipe_section,"function dc_canon_recipe_section($sections, $num, $title = '') {"
+560,dc_canon_recipe_render_body,function dc_canon_recipe_render_body($body_lines) {
+620,dc_canon_recipe_render_table,function dc_canon_recipe_render_table($lines) {
+685,dc_canon_recipe_inline,function dc_canon_recipe_inline($text) {
+708,dcv5_recipe_view_pilot_content,function dcv5_recipe_view_pilot_content($content) {
+1582,dcv5_card,function dcv5_card($item) {
+1596,dcv5_render_recipe_schema,function dcv5_render_recipe_schema($recipe) {
+1628,dcv5_supported_recipe_codes,function dcv5_supported_recipe_codes() {
+1636,dcv5_get_recipe_profile,"function dcv5_get_recipe_profile($post_id, $code = '') {"
+1689,dcv5_recipe_js_profile,function dcv5_recipe_js_profile($recipe) {
+1724,dcv5_slavonski_kulen_profile,function dcv5_slavonski_kulen_profile($post_id) {
+1807,dcv5_vinkovacka_sunka_profile,function dcv5_vinkovacka_sunka_profile($post_id) {
+1886,dcv5_ratarske_kobasice_profile,function dcv5_ratarske_kobasice_profile($post_id) {
+2917,dcv6_feature_pack_content,function dcv6_feature_pack_content($content) {
+2941,dcv6_add_nav_links,function dcv6_add_nav_links($content) {
+2963,dcv6_insert_before_layout,"function dcv6_insert_before_layout($content, $html) {"
+2971,dcv6_insert_after_section,"function dcv6_insert_after_section($content, $section_id, $html) {"
+2981,dcv6_insert_before_section_close,"function dcv6_insert_before_section_close($content, $section_id, $html) {"
+2991,dcv6_insert_before_main_close,"function dcv6_insert_before_main_close($content, $html) {"
+2999,dcv6_render_work_summary,function dcv6_render_work_summary() {
+3030,dcv6_render_micro_variations,function dcv6_render_micro_variations() {
+3060,dcv6_render_related_recipes,function dcv6_render_related_recipes($current_post_id) {
+3125,dcv6_render_compare_block,function dcv6_render_compare_block() {
+3145,dcv6_render_digital_batch_diary,function dcv6_render_digital_batch_diary() {
+3189,dcv6_render_admin_block,function dcv6_render_admin_block($post_id) {
+3219,dcv6_render_enhanced_schema,function dcv6_render_enhanced_schema($post_id) {
+3267,dcv6_feature_pack_footer,function dcv6_feature_pack_footer() {
+3532,updateLoss,function updateLoss() {
+3562,loadDiary,function loadDiary() {
+3574,saveDiary,function saveDiary() {
+3586,clearDiary,function clearDiary() {
+3632,dcv62_recipe_content_cleanup,function dcv62_recipe_content_cleanup($content) {
+3678,dcv62_recipe_link_by_slug,"function dcv62_recipe_link_by_slug($slug, $fallback) {"
+3688,dcv62_recipe_nav_registry,function dcv62_recipe_nav_registry() {
+3709,dcv62_prev_next_recipe_nav,function dcv62_prev_next_recipe_nav() {
+3754,dcv62_recipe_content_cleanup_css_js,function dcv62_recipe_content_cleanup_css_js() {
+4649,dcv12_batch01_recipe_registry,function dcv12_batch01_recipe_registry() {
+4688,dcv12_defaults_for_family,function dcv12_defaults_for_family($family) {
+4777,dcv12_short_lead_from_post,"function dcv12_short_lead_from_post($post_id, $fallback) {"
+4791,dcv12_decimal_from_hr,function dcv12_decimal_from_hr($value) {
+4810,dcv12_format_decimal_hr,"function dcv12_format_decimal_hr($number, $decimals = 1) {"
+4826,dcv12_format_kg,function dcv12_format_kg($kg) {
+4832,dcv12_extract_md_section,"function dcv12_extract_md_section($text, $section_number) {"
+4852,dcv12_parse_md_table,function dcv12_parse_md_table($section) {
+4891,dcv12_recipe_quantity_profile_from_content,function dcv12_recipe_quantity_profile_from_content($post_id) {
+4998,dcv12_profile_from_post,"function dcv12_profile_from_post($post_id, $code) {"
+5116,dcv16_recipe_family,"function dcv16_recipe_family($code, $post_id = 0) {"
+5146,dcv16_is_whole_piece_recipe,"function dcv16_is_whole_piece_recipe($code, $post_id = 0) {"
+5154,dcv16_is_wet_cure_recipe,function dcv16_is_wet_cure_recipe($post_id) {
+5166,dcv16_is_garlic_like,function dcv16_is_garlic_like($name) {
+5182,dcv16_is_extraction_liquid,function dcv16_is_extraction_liquid($item) {
+5199,dcv16_whole_piece_profile_guard,"function dcv16_whole_piece_profile_guard($profile, $code, $post_id = 0) {"
+5251,dcv16_whole_piece_cure_content_cleanup,function dcv16_whole_piece_cure_content_cleanup($content) {
+5388,dcv12_apply_recipe_quantity_overrides,"function dcv12_apply_recipe_quantity_overrides($code, $materials, $spices, $liquids) {"
+5437,dcv12_apply_final_profile_overrides,"function dcv12_apply_final_profile_overrides($profile, $code) {"
+5607,dcv12_hr_number_to_float,function dcv12_hr_number_to_float($value) {
+5620,dcv12_amount_to_grams,function dcv12_amount_to_grams($amount) {
+5643,dcv12_format_liters_hr,function dcv12_format_liters_hr($liters) {
+5649,dcv12_format_percent_hr,"function dcv12_format_percent_hr($value, $decimals = 2) {"
+5657,dcv12_format_mlkg_hr,function dcv12_format_mlkg_hr($value) {
+5668,dcv14_lower,function dcv14_lower($value) {
+5674,dcv14_amount_grams,function dcv14_amount_grams($amount) {
+5698,dcv14_format_kg,function dcv14_format_kg($kg) {
+5704,dcv14_format_percent,function dcv14_format_percent($value) {
+5712,dcv14_format_gkg,function dcv14_format_gkg($grams_per_kg) {
+5720,dcv14_format_liters,function dcv14_format_liters($liters) {
+5726,dcv14_is_tool_or_process_item,function dcv14_is_tool_or_process_item($name) {
+5747,dcv14_is_real_garlic,function dcv14_is_real_garlic($name) {
+5763,dcv14_is_liquid_name,function dcv14_is_liquid_name($name) {
+5779,dcv14_is_base_component,function dcv14_is_base_component($name) {
+5806,dcv14_material_from_item,"function dcv14_material_from_item($item, $note_suffix = '') {"
+5831,dcv14_liquid_from_item,function dcv14_liquid_from_item($item) {
+5877,dcv14_dedupe_items,function dcv14_dedupe_items($items) {
+5900,dcv14_final_ingredient_sanity_profile,"function dcv14_final_ingredient_sanity_profile($profile, $code) {"
+6047,dcv17_is_whole_piece_recipe,"function dcv17_is_whole_piece_recipe($code, $post_id = 0) {"
+6073,dcv17_whole_piece_late_content_cleanup,function dcv17_whole_piece_late_content_cleanup($content) {
+6147,dcv18_whole_piece_cure_model,"function dcv18_whole_piece_cure_model($code, $post_id = 0) {"
+6215,dcv18_is_wet_cure_recipe,"function dcv18_is_wet_cure_recipe($post_id, $code = '') {"
+6228,dcv20_source_lock_profile,"function dcv20_source_lock_profile($profile, $code, $post_id = 0) {"
+6331,dcv21_hrsl001_late_source_render_cleanup,function dcv21_hrsl001_late_source_render_cleanup($content) {
+6427,dcv22_hrsl001_process_omotac_fix,function dcv22_hrsl001_process_omotac_fix($content) {
+6477,dcv31_hrsl001_is_target,"function dcv31_hrsl001_is_target($post_id = 0, $code = '') {"
+6502,dcv31_hrsl001_clean_string,function dcv31_hrsl001_clean_string($text) {
+6530,dcv31_hrsl001_sanitize_value,function dcv31_hrsl001_sanitize_value($value) {
+6554,dcv31_hrsl001_final_profile_source_lock,"function dcv31_hrsl001_final_profile_source_lock($profile, $code, $post_id = 0) {"
+6655,dcv31_hrsl001_final_public_cleanup,function dcv31_hrsl001_final_public_cleanup($content) {

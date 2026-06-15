@@ -1,0 +1,86 @@
+132:function dc_canon_recipe_override_content($content) {
+502:function dc_canon_meta($post_id, $key, $fallback = '') {
+507:function dc_canon_first_term($post_id, $tax, $fallback = '') {
+515:function dc_canon_recipe_parse_sections($markdown) {
+546:function dc_canon_recipe_section($sections, $num, $title = '') {
+560:function dc_canon_recipe_render_body($body_lines) {
+620:function dc_canon_recipe_render_table($lines) {
+685:function dc_canon_recipe_inline($text) {
+708:function dcv5_recipe_view_pilot_content($content) {
+1582:function dcv5_card($item) {
+1596:function dcv5_render_recipe_schema($recipe) {
+1628:function dcv5_supported_recipe_codes() {
+1636:function dcv5_get_recipe_profile($post_id, $code = '') {
+1689:function dcv5_recipe_js_profile($recipe) {
+1724:function dcv5_slavonski_kulen_profile($post_id) {
+1807:function dcv5_vinkovacka_sunka_profile($post_id) {
+1886:function dcv5_ratarske_kobasice_profile($post_id) {
+2917:function dcv6_feature_pack_content($content) {
+2941:function dcv6_add_nav_links($content) {
+2963:function dcv6_insert_before_layout($content, $html) {
+2971:function dcv6_insert_after_section($content, $section_id, $html) {
+2981:function dcv6_insert_before_section_close($content, $section_id, $html) {
+2991:function dcv6_insert_before_main_close($content, $html) {
+2999:function dcv6_render_work_summary() {
+3030:function dcv6_render_micro_variations() {
+3060:function dcv6_render_related_recipes($current_post_id) {
+3125:function dcv6_render_compare_block() {
+3145:function dcv6_render_digital_batch_diary() {
+3189:function dcv6_render_admin_block($post_id) {
+3219:function dcv6_render_enhanced_schema($post_id) {
+3267:function dcv6_feature_pack_footer() {
+3632:function dcv62_recipe_content_cleanup($content) {
+3678:function dcv62_recipe_link_by_slug($slug, $fallback) {
+3688:function dcv62_recipe_nav_registry() {
+3709:function dcv62_prev_next_recipe_nav() {
+3754:function dcv62_recipe_content_cleanup_css_js() {
+4649:    function dcv12_batch01_recipe_registry() {
+4688:    function dcv12_defaults_for_family($family) {
+4777:    function dcv12_short_lead_from_post($post_id, $fallback) {
+4791:    function dcv12_decimal_from_hr($value) {
+4810:    function dcv12_format_decimal_hr($number, $decimals = 1) {
+4826:    function dcv12_format_kg($kg) {
+4832:    function dcv12_extract_md_section($text, $section_number) {
+4852:    function dcv12_parse_md_table($section) {
+4891:    function dcv12_recipe_quantity_profile_from_content($post_id) {
+4998:    function dcv12_profile_from_post($post_id, $code) {
+5116:    function dcv16_recipe_family($code, $post_id = 0) {
+5146:    function dcv16_is_whole_piece_recipe($code, $post_id = 0) {
+5154:    function dcv16_is_wet_cure_recipe($post_id) {
+5166:    function dcv16_is_garlic_like($name) {
+5182:    function dcv16_is_extraction_liquid($item) {
+5199:    function dcv16_whole_piece_profile_guard($profile, $code, $post_id = 0) {
+5251:    function dcv16_whole_piece_cure_content_cleanup($content) {
+5388:    function dcv12_apply_recipe_quantity_overrides($code, $materials, $spices, $liquids) {
+5437:    function dcv12_apply_final_profile_overrides($profile, $code) {
+5607:    function dcv12_hr_number_to_float($value) {
+5620:    function dcv12_amount_to_grams($amount) {
+5643:    function dcv12_format_liters_hr($liters) {
+5649:    function dcv12_format_percent_hr($value, $decimals = 2) {
+5657:    function dcv12_format_mlkg_hr($value) {
+5668:    function dcv14_lower($value) {
+5674:    function dcv14_amount_grams($amount) {
+5698:    function dcv14_format_kg($kg) {
+5704:    function dcv14_format_percent($value) {
+5712:    function dcv14_format_gkg($grams_per_kg) {
+5720:    function dcv14_format_liters($liters) {
+5726:    function dcv14_is_tool_or_process_item($name) {
+5747:    function dcv14_is_real_garlic($name) {
+5763:    function dcv14_is_liquid_name($name) {
+5779:    function dcv14_is_base_component($name) {
+5806:    function dcv14_material_from_item($item, $note_suffix = '') {
+5831:    function dcv14_liquid_from_item($item) {
+5877:    function dcv14_dedupe_items($items) {
+5900:    function dcv14_final_ingredient_sanity_profile($profile, $code) {
+6047:    function dcv17_is_whole_piece_recipe($code, $post_id = 0) {
+6073:    function dcv17_whole_piece_late_content_cleanup($content) {
+6147:    function dcv18_whole_piece_cure_model($code, $post_id = 0) {
+6215:    function dcv18_is_wet_cure_recipe($post_id, $code = '') {
+6228:    function dcv20_source_lock_profile($profile, $code, $post_id = 0) {
+6331:    function dcv21_hrsl001_late_source_render_cleanup($content) {
+6427:    function dcv22_hrsl001_process_omotac_fix($content) {
+6477:    function dcv31_hrsl001_is_target($post_id = 0, $code = '') {
+6502:    function dcv31_hrsl001_clean_string($text) {
+6530:    function dcv31_hrsl001_sanitize_value($value) {
+6554:    function dcv31_hrsl001_final_profile_source_lock($profile, $code, $post_id = 0) {
+6655:    function dcv31_hrsl001_final_public_cleanup($content) {
