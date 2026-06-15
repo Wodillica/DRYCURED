@@ -1,0 +1,98 @@
+458:                echo dc_canon_recipe_section($sections, 7, 'Crijeva / omotači');
+462:                echo dc_canon_recipe_section($sections, 11, 'Mljevenje / rezanje');
+464:                echo dc_canon_recipe_section($sections, 13, 'Punjenje i vezanje');
+487:                    <a href="#dc-section-7">Crijeva / omotači</a>
+1428:                    <h2><span>4</span>Tekućine i češnjak</h2>
+1564:                    <a href="#tekucine">Tekućine i češnjak</a>
+1735:            ['label' => 'Crijeva', 'value' => '55–80 mm'],
+1749:            ['name' => 'Svježi češnjak za ekstrakciju', 'amount' => '50 g', 'percent' => '0,50 %', 'rate' => '5 g/kg', 'note' => 'Češnjak se zgnječi, kratko namače i procijedi. U nadjev se dodaje samo procijeđena tekućina.'],
+1750:            ['name' => 'Prokuhana i ohlađena voda', 'amount' => '0,070 L', 'percent' => '0,70 %', 'rate' => '7 ml/kg', 'note' => 'Služi samo za ekstrakciju češnjaka i lakše raspoređivanje arome.'],
+1762:            ['title' => 'Odležavanje nadjeva', 'text' => 'Nadjev se odmara u hladnom prostoru kako bi se sol, paprika i miris češnjaka povezali s mesom. Miris mora ostati čist i paprikast.'],
+1770:            ['day' => 'Dan 1', 'title' => 'Mljevenje i rezanje', 'text' => 'Meso mljeti kroz rešetku 8–10 mm, a tvrdu slaninu rezati ručno na kockice 8–12 mm.', 'critical' => 'Slanina se ne melje. Kockice daju prepoznatljiv presjek kulena.'],
+1771:            ['day' => 'Dan 1', 'title' => 'Miješanje', 'text' => 'Meso, slaninu, sol, papriku, papar i procijeđenu češnjakovu tekućinu miješati dok masa ne postane ravnomjerna.', 'critical' => 'Masa se ne smije pregrijati niti pretvoriti u pastu.'],
+1773:            ['day' => 'Dan 5–6', 'title' => 'Punjenje', 'text' => 'Puniti u goveđa slijepa crijeva ili kate, čvrsto i bez zraka. Vidljive mjehuriće probosti čistom iglom.', 'critical' => 'Kod širokog omotača zračni džepovi su ozbiljan rizik kvarenja.'],
+1775:            ['day' => 'Dan 8–14', 'title' => 'Predsušenje', 'text' => 'Omotač se mora priljubiti uz masu i izgubiti površinsku vlagu.', 'critical' => 'Prebrzo sušenje u ovoj fazi zatvara površinu i usporava izlazak vlage iz jezgre.'],
+1783:            ['problem' => 'Šupljine u presjeku', 'phase' => 'Punjenje', 'severity' => 'Rizik kvarenja', 'level' => 'danger', 'cause' => 'Zrak u nadjevu ili labavo punjenje.', 'solution' => 'Puniti čvrsto, probosti mjehuriće i vezati omotač bez praznih prostora.'],
+1791:            ['title' => 'Omotač je stabilan', 'text' => 'Omotač je suh, priljubljen i bez sluzavih mjesta.'],
+1818:            ['label' => 'Omotač', 'value' => 'bez crijeva'],
+1828:            ['name' => 'Suhi češnjak ili češnjakova aroma', 'amount' => '20–35 g', 'percent' => '', 'rate' => '2–3 g/kg', 'note' => 'Koristiti odmjereno. Kod cijelih komada češnjak ne smije stvarati mokre džepove na površini.'],
+1831:            ['name' => 'Tekućina za češnjak', 'amount' => 'nije obvezna', 'percent' => '', 'rate' => '', 'note' => 'Kod ove suho soljene varijante tekućina se ne koristi kao dio nadjeva. Ako se koristi češnjakova aroma, površina mora ostati suha.'],
+1832:            ['name' => 'Crijeva / omotači', 'amount' => 'ne koriste se', 'percent' => '', 'rate' => '', 'note' => 'Šunka je cijeli komad i ne puni se u crijevo. Zaštitu čine koža, površinsko sušenje i pravilno zrenje.'],
+1897:            ['label' => 'Crijeva', 'value' => '32–42 mm'],
+1912:            ['name' => 'Svježi češnjak za ekstrakciju', 'amount' => '30 g', 'percent' => '0,30 %', 'rate' => '3 g/kg', 'note' => 'Češnjak se zgnječi, namače i procijedi. U nadjev se ne dodaju vlakna češnjaka.'],
+1913:            ['name' => 'Prokuhana i ohlađena voda', 'amount' => '0,060 L', 'percent' => '0,60 %', 'rate' => '6 ml/kg', 'note' => 'Koristi se za ekstrakciju češnjaka. U nadjev ide samo procijeđena tekućina.'],
+1933:            ['day' => 'Dan 1', 'title' => 'Mljevenje', 'text' => 'Meso i masnije dijelove mljeti kroz rešetku 6–8 mm, bez ponavljanja mljevenja.', 'critical' => 'Ako se masa lijepi i maže, treba prekinuti rad i ohladiti sirovinu.'],
+1934:            ['day' => 'Dan 1', 'title' => 'Miješanje', 'text' => 'Dodati sol, papriku, papar, kim i procijeđenu češnjakovu tekućinu. Miješati 8–12 minuta.', 'critical' => 'Začini moraju biti ravnomjerni, ali nadjev se ne smije pregrijati.'],
+1936:            ['day' => 'Dan 2', 'title' => 'Punjenje', 'text' => 'Puniti u svinjska crijeva 32–42 mm, čvrsto, ali bez pucanja.', 'critical' => 'Zračne džepove odmah probosti čistom iglom.'],
+1945:            ['problem' => 'Razmazana mast', 'phase' => 'Mljevenje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Sirovina je bila pretopla ili je masnoća previše obrađivana.', 'solution' => 'Raditi s ohlađenom sirovinom, mljeti samo jednom i napraviti pauzu ako se masnoća počne mazati.'],
+1946:            ['problem' => 'Zračni džepovi', 'phase' => 'Punjenje', 'severity' => 'Rizik kvarenja', 'level' => 'danger', 'cause' => 'Labavo punjenje ili neprobušeni mjehurići zraka.', 'solution' => 'Puniti sporije, kontrolirati pritisak i svaki mjehurić odmah probosti čistom iglom.'],
+4395:                    'Mljevenje i rezanje': {
+4398:                        'Rešetka / rez': 'meso 8–10 mm; slanina 8–12 mm ručno',
+4405:                        'Cilj': 'ravnomjerna paprika, sol i češnjakova aroma'
+4413:                    'Punjenje': {
+4415:                        'Temperatura': 'hladna masa',
+4416:                        'Omotač': 'širi prirodni omotač 55–80 mm',
+4417:                        'Cilj': 'čvrsto punjenje bez zračnih džepova'
+4464:                    'Mljevenje': {
+4467:                        'Rešetka': '6–8 mm',
+4472:                        'Temperatura': 'hladna masa',
+4474:                        'Cilj': 'ravnomjerna sol, paprika i češnjakova tekućina'
+4482:                    'Punjenje': {
+4484:                        'Temperatura': 'hladna masa',
+4485:                        'Crijeva': 'svinjska 32–42 mm',
+4691:            ['day'=>'Dan 1','title'=>'Mljevenje','text'=>'Meso mljeti prema receptu, bez nepotrebnog ponavljanja mljevenja.','critical'=>'Ako se masa lijepi i maže, rad prekinuti i ohladiti sirovinu.'],
+4692:            ['day'=>'Dan 1','title'=>'Miješanje','text'=>'Dodati sol, začine i predviđenu češnjakovu tekućinu te miješati do ravnomjernog rasporeda.','critical'=>'Nadjev ne smije postati topao ni pastozan.'],
+4694:            ['day'=>'Dan 2','title'=>'Punjenje','text'=>'Puniti u pripremljena crijeva bez zračnih džepova.','critical'=>'Svaki mjehurić zraka treba probosti čistom iglom.'],
+4716:                ['label'=>'Šarža','value'=>'10 kg / prema receptu'],
+4719:                ['label'=>'Omotač','value'=>'prema receptu'],
+4739:                ['label'=>'Crijeva','value'=>'širi omotač'],
+4748:                ['label'=>'Omotač','value'=>'širi omotač'],
+4757:                ['label'=>'Omotač','value'=>'bez crijeva'],
+4765:                ['label'=>'Trajanje','value'=>'prema receptu'],
+4766:                ['label'=>'Toplinska obrada','value'=>'prema receptu'],
+4767:                ['label'=>'Omotač','value'=>'prema receptu'],
+4897:        $cesnjak_sec = dcv12_extract_md_section($content, 8);
+4941:                strpos($lower, 'češnjak') !== false ||
+4942:                strpos($lower, 'cesnjak') !== false ||
+4956:                    'note' => $note ?: 'Koristi se kao procijeđena češnjakova aroma; vlakna češnjaka ne dodavati izravno u nadjev.',
+4969:        if ($cesnjak_sec && empty($liquids)) {
+4970:            $clean = wp_strip_all_tags($cesnjak_sec);
+5040:                'note' => 'U ovom receptu češnjak nije naveden kao sastojak.',
+5066:                ['problem'=>'Zrak u proizvodu','phase'=>'Punjenje / oblikovanje','severity'=>'Rizik kvarenja','level'=>'danger','cause'=>'Labavo punjenje ili loše oblikovanje.','solution'=>'Puniti i oblikovati čvrsto te ukloniti zračne džepove gdje je moguće.'],
+5174:            strpos($name, 'češnjak') !== false ||
+5175:            strpos($name, 'cesnjak') !== false ||
+5188:            strpos($text, 'ekstrakciju češnjaka') !== false ||
+5189:            strpos($text, 'ekstrakcija češnjaka') !== false ||
+5228:                $item['note'] = 'Sastojak paca ili začinskog premaza za cijeli komad. Ne prikazuje se kao zasebna češnjakova tekućina osim ako recept izričito navodi mokri pac ili salamuru.';
+5270:        // Sidebar link: za cijele komade nema generičkog bloka "Tekućine i češnjak".
+5271:        $content = str_replace('<a href="#tekucine">Tekućine i češnjak</a>', '', $content);
+5287:        // Kod suhih cijelih komada uklanja se generička sekcija tekućina/češnjak.
+5319:                    'Mljevenje': {'Trajanje':'odmah nakon hlađenja','Temperatura':'0–4 °C','Rešetka':'prema receptu','Cilj':'ravnomjerna granulacija bez kašaste mase'},
+5320:                    'Miješanje': {'Trajanje':'8–12 min','Temperatura':'hladna masa','Kontrola':'nadjev ne smije postati topao','Cilj':'ravnomjeran raspored soli i začina'},
+5322:                    'Punjenje': {'Trajanje':'isti dan','Temperatura':'hladna masa','Crijeva':'prema receptu','Cilj':'čvrsto punjenje bez zraka'},
+5464:            $note = $item['note'] ?? 'Aromatska tekućina dodaje se u maloj količini prema receptu.';
+5517:     * 3) Globalno pravilo za češnjak:
+5518:     * Ako postoji češnjak/bijeli luk, ali nema zasebne tekućine za ekstrakciju,
+5522:     * 1 g češnjaka ≈ 2 ml tekućine za ekstrakciju.
+5534:            strpos($name_lower, 'češnjak') !== false ||
+5535:            strpos($name_lower, 'cesnjak') !== false ||
+5577:            $liquid_name = 'Mješavina vode i vina za ekstrakciju češnjaka';
+5578:            $liquid_note = 'Tekućinu pripremiti prema receptu: voda mora biti prokuhana i potpuno ohlađena, vino hladno. Češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu tekućinu.';
+5580:            $liquid_name = 'Vino za ekstrakciju češnjaka';
+5581:            $liquid_note = 'Češnjak zgnječiti, namakati 20–30 minuta u hladnom vinu, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu tekućinu, bez vlakana češnjaka.';
+5583:            $liquid_name = 'Prokuhana i ohlađena voda za ekstrakciju češnjaka';
+5584:            $liquid_note = 'Vodu prvo prokuhati i potpuno ohladiti. Češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu aromatsku tekućinu, bez vlakana češnjaka.';
+5592:            'note' => 'Radna količina za ' . (int)round($garlic_grams) . ' g češnjaka: približno ' . (int)$ml . ' ml tekućine. ' . $liquid_note,
+5755:            strpos($name, 'češnjak') !== false ||
+5756:            strpos($name, 'cesnjak') !== false ||
+5964:                    'note' => 'Procijeđena aromatska komponenta; vlakna češnjaka ne dodavati u nadjev.',
+5967:                    'name' => 'Prokuhana i ohlađena voda za ekstrakciju češnjaka',
+5971:                    'note' => 'Standardna količina za češnjakovu ekstrakciju kod šarže od 10 kg. Vodu prokuhati i potpuno ohladiti; češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu.',
+6087:         * "Tekućine i češnjak". Češnjak, paprika i papar kod njih pripadaju
+6093:            '/<a\b[^>]*href=["\']#tekucine["\'][^>]*>\s*Tekućine i češnjak\s*<\/a>/iu',
+6105:        // Ukloni samu sekciju Tekućine i češnjak po ID-u.
+6113:        // Ako je negdje ostao tekst bez ID-a, ukloni panel koji ima naslov Tekućine i češnjak.
+6115:            '/\s*<section\b[^>]*class=["\'][^"\']*dcv5-panel[^"\']*["\'][^>]*>\s*<[^>]*>\s*(?:<span[^>]*>.*?<\/span>\s*)?Tekućine i češnjak\s*<\/[^>]+>.*?<\/section>/isu',
+6132:            'Sastojci suhog paca i začinskog premaza prikazuju se u gramima i g/kg. Pac se ravnomjerno utrljava u površinu komada, a meso se drži na hladnom i okreće prema receptu.',
+6620:                'note' => 'Samo procijeđeni sok bez vlakana; vlakna češnjaka ne idu u nadjev.',
+6680:                <p>Omotač: svinjsko slijepo crijevo / kate, promjer 80–120 mm. Dimljenje: hladni dim ≤25 °C. Zrenje: minimalno 150 dana, optimalno 6–9 mjeseci. Minimalni gubitak mase: 30 %.</p>

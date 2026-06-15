@@ -1,0 +1,232 @@
+line,kind,text
+142,meta_read,"$markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);"
+149,meta_read,"$code        = dc_canon_meta($post_id, '_dry_recipe_id');"
+458,field_crijeva,"echo dc_canon_recipe_section($sections, 7, 'Crijeva / omotači');"
+459,garlic,"echo dc_canon_recipe_section($sections, 8, 'Češnjak');"
+462,field_granulation,"echo dc_canon_recipe_section($sections, 11, 'Mljevenje / rezanje');"
+464,process_punjenje,"echo dc_canon_recipe_section($sections, 13, 'Punjenje i vezanje');"
+487,field_crijeva,"<a href=""#dc-section-7"">Crijeva / omotači</a>"
+488,garlic,"<a href=""#dc-section-8"">Češnjak</a>"
+502,defaults,"function dc_canon_meta($post_id, $key, $fallback = '') {"
+503,meta_read,"$value = get_post_meta($post_id, $key, true);"
+504,defaults,return $value !== '' ? $value : $fallback;
+507,defaults,"function dc_canon_first_term($post_id, $tax, $fallback = '') {"
+512,defaults,return $fallback;
+714,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+741,meta_read,"$image_url = get_post_meta($post_id, '_dry_recipe_image_url', true);"
+1105,timeline,.dcv5-timeline {
+1111,timeline,.dcv5-timeline-item {
+1343,timeline,.dcv5-timeline-item {
+1428,garlic,<h2><span>4</span>Tekućine i češnjak</h2>
+1429,garlic,"<p class=""dcv5-section-note"">Tekućine se prikazuju prema izvornom receptu. Češnjak se prikazuje kao izravni dodatak, macerat ili procijeđena tekućina samo kada je takav postupak jasno naveden.</p>"
+1467,timeline,"<div class=""dcv5-timeline"">"
+1468,timeline,<?php foreach ($recipe['timeline'] as $step) : ?>
+1469,timeline,"<article class=""dcv5-timeline-item"">"
+1548,field_crijeva,"<div class=""dcv5-print-box""><span class=""dcv5-field-label"">Kalibar crijeva</span></div>"
+1564,garlic,"<a href=""#tekucine"">Tekućine i češnjak</a>"
+1621,timeline,"}, $recipe['timeline']),"
+1651,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+1730,field_crijeva,"'lead' => 'Slavonski kulen je dugozreli slavonski proizvod snažnog paprikastog profila, izrađen od odabrane svinjske mišićine i tvrde slanine, punjen u širi prirodni omotač, hladno dimljen i sporo dozrijevan.',"
+1735,field_crijeva,"['label' => 'Crijeva', 'value' => '55–80 mm'],"
+1749,garlic,"['name' => 'Svježi češnjak za ekstrakciju', 'amount' => '50 g', 'percent' => '0,50 %', 'rate' => '5 g/kg', 'note' => 'Češnjak se zgnječi, kratko namače i procijedi. U nadjev se dodaje samo procijeđena tekućina.'],"
+1750,garlic,"['name' => 'Prokuhana i ohlađena voda', 'amount' => '0,070 L', 'percent' => '0,70 %', 'rate' => '7 ml/kg', 'note' => 'Služi samo za ekstrakciju češnjaka i lakše raspoređivanje arome.'],"
+1762,garlic,"['title' => 'Odležavanje nadjeva', 'text' => 'Nadjev se odmara u hladnom prostoru kako bi se sol, paprika i miris češnjaka povezali s mesom. Miris mora ostati čist i paprikast.'],"
+1763,field_crijeva,"['title' => 'Predsušenje', 'text' => 'Širi omotač traži strpljivo prosušivanje prije dima. Površina mora biti suha na dodir, ali ne smije postati tvrda.'],"
+1768,timeline,'timeline' => [
+1770,field_granulation,"['day' => 'Dan 1', 'title' => 'Mljevenje i rezanje', 'text' => 'Meso mljeti kroz rešetku 8–10 mm, a tvrdu slaninu rezati ručno na kockice 8–12 mm.', 'critical' => 'Slanina se ne melje. Kockice daju prepoznatljiv presjek kulena.'],"
+1771,garlic,"['day' => 'Dan 1', 'title' => 'Miješanje', 'text' => 'Meso, slaninu, sol, papriku, papar i procijeđenu češnjakovu tekućinu miješati dok masa ne postane ravnomjerna.', 'critical' => 'Masa se ne smije pregrijati niti pretvoriti u pastu.'],"
+1773,process_punjenje,"['day' => 'Dan 5–6', 'title' => 'Punjenje', 'text' => 'Puniti u goveđa slijepa crijeva ili kate, čvrsto i bez zraka. Vidljive mjehuriće probosti čistom iglom.', 'critical' => 'Kod širokog omotača zračni džepovi su ozbiljan rizik kvarenja.'],"
+1773,field_crijeva,"['day' => 'Dan 5–6', 'title' => 'Punjenje', 'text' => 'Puniti u goveđa slijepa crijeva ili kate, čvrsto i bez zraka. Vidljive mjehuriće probosti čistom iglom.', 'critical' => 'Kod širokog omotača zračni džepovi su ozbiljan rizik kvarenja.'],"
+1775,field_crijeva,"['day' => 'Dan 8–14', 'title' => 'Predsušenje', 'text' => 'Omotač se mora priljubiti uz masu i izgubiti površinsku vlagu.', 'critical' => 'Prebrzo sušenje u ovoj fazi zatvara površinu i usporava izlazak vlage iz jezgre.'],"
+1783,process_punjenje,"['problem' => 'Šupljine u presjeku', 'phase' => 'Punjenje', 'severity' => 'Rizik kvarenja', 'level' => 'danger', 'cause' => 'Zrak u nadjevu ili labavo punjenje.', 'solution' => 'Puniti čvrsto, probosti mjehuriće i vezati omotač bez praznih prostora.'],"
+1783,field_crijeva,"['problem' => 'Šupljine u presjeku', 'phase' => 'Punjenje', 'severity' => 'Rizik kvarenja', 'level' => 'danger', 'cause' => 'Zrak u nadjevu ili labavo punjenje.', 'solution' => 'Puniti čvrsto, probosti mjehuriće i vezati omotač bez praznih prostora.'],"
+1791,field_crijeva,"['title' => 'Omotač je stabilan', 'text' => 'Omotač je suh, priljubljen i bez sluzavih mjesta.'],"
+1818,field_crijeva,"['label' => 'Omotač', 'value' => 'bez crijeva'],"
+1828,garlic,"['name' => 'Suhi češnjak ili češnjakova aroma', 'amount' => '20–35 g', 'percent' => '', 'rate' => '2–3 g/kg', 'note' => 'Koristiti odmjereno. Kod cijelih komada češnjak ne smije stvarati mokre džepove na površini.'],"
+1831,garlic,"['name' => 'Tekućina za češnjak', 'amount' => 'nije obvezna', 'percent' => '', 'rate' => '', 'note' => 'Kod ove suho soljene varijante tekućina se ne koristi kao dio nadjeva. Ako se koristi češnjakova aroma, površina mora ostati suha.'],"
+1832,field_crijeva,"['name' => 'Crijeva / omotači', 'amount' => 'ne koriste se', 'percent' => '', 'rate' => '', 'note' => 'Šunka je cijeli komad i ne puni se u crijevo. Zaštitu čine koža, površinsko sušenje i pravilno zrenje.'],"
+1850,timeline,'timeline' => [
+1897,field_crijeva,"['label' => 'Crijeva', 'value' => '32–42 mm'],"
+1912,garlic,"['name' => 'Svježi češnjak za ekstrakciju', 'amount' => '30 g', 'percent' => '0,30 %', 'rate' => '3 g/kg', 'note' => 'Češnjak se zgnječi, namače i procijedi. U nadjev se ne dodaju vlakna češnjaka.'],"
+1913,garlic,"['name' => 'Prokuhana i ohlađena voda', 'amount' => '0,060 L', 'percent' => '0,60 %', 'rate' => '6 ml/kg', 'note' => 'Koristi se za ekstrakciju češnjaka. U nadjev ide samo procijeđena tekućina.'],"
+1931,timeline,'timeline' => [
+1933,field_granulation,"['day' => 'Dan 1', 'title' => 'Mljevenje', 'text' => 'Meso i masnije dijelove mljeti kroz rešetku 6–8 mm, bez ponavljanja mljevenja.', 'critical' => 'Ako se masa lijepi i maže, treba prekinuti rad i ohladiti sirovinu.'],"
+1934,garlic,"['day' => 'Dan 1', 'title' => 'Miješanje', 'text' => 'Dodati sol, papriku, papar, kim i procijeđenu češnjakovu tekućinu. Miješati 8–12 minuta.', 'critical' => 'Začini moraju biti ravnomjerni, ali nadjev se ne smije pregrijati.'],"
+1936,process_punjenje,"['day' => 'Dan 2', 'title' => 'Punjenje', 'text' => 'Puniti u svinjska crijeva 32–42 mm, čvrsto, ali bez pucanja.', 'critical' => 'Zračne džepove odmah probosti čistom iglom.'],"
+1936,field_crijeva,"['day' => 'Dan 2', 'title' => 'Punjenje', 'text' => 'Puniti u svinjska crijeva 32–42 mm, čvrsto, ali bez pucanja.', 'critical' => 'Zračne džepove odmah probosti čistom iglom.'],"
+1937,field_crijeva,"['day' => 'Dan 2–3', 'title' => 'Početna fermentacija / stabilizacija', 'text' => 'Nakon punjenja kobasice miruju u hladnom i prozračnom prostoru. Nadjev se stabilizira, sol i začini se dodatno povezuju s masom, a površina se priprema za predsušenje.', 'critical' => 'Fermentacija ne smije krenuti naglo. Ako se pojavi izražen kiseo miris, sluzavost ili napuhavanje crijeva, postupak treba zaustaviti i proizvod ne koristiti bez sigurne procjene.'],"
+1945,field_granulation,"['problem' => 'Razmazana mast', 'phase' => 'Mljevenje', 'severity' => 'Oprez', 'level' => 'warning', 'cause' => 'Sirovina je bila pretopla ili je masnoća previše obrađivana.', 'solution' => 'Raditi s ohlađenom sirovinom, mljeti samo jednom i napraviti pauzu ako se masnoća počne mazati.'],"
+1946,process_punjenje,"['problem' => 'Zračni džepovi', 'phase' => 'Punjenje', 'severity' => 'Rizik kvarenja', 'level' => 'danger', 'cause' => 'Labavo punjenje ili neprobušeni mjehurići zraka.', 'solution' => 'Puniti sporije, kontrolirati pritisak i svaki mjehurić odmah probosti čistom iglom.'],"
+2455,timeline,body.single-dry_recipe .dcv5-timeline {
+2459,timeline,body.single-dry_recipe .dcv5-timeline-item {
+2467,timeline,body.single-dry_recipe .dcv5-timeline-item h3 {
+2475,timeline,body.single-dry_recipe .dcv5-timeline-item p {
+2923,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+3017,process_punjenje,"<p>Hladna sirovina, ravnomjerno miješanje, punjenje bez zraka, mirno predsušenje, blagi hladni dim i sporo sušenje bez tvrde kore.</p>"
+3073,defaults,foreach ($related as $code => $fallback_title) {
+3080,meta_read,"'key' => '_dry_recipe_id',"
+3131,field_crijeva,"Ovaj recept može se spremiti za buduću usporedbu s drugim receptima. Usporedba će koristiti omjer mesa i masnoće, začinski profil, dimljenje, trajanje, kalibar crijeva i gubitak mase."
+3194,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+3220,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+3259,timeline,"}, $recipe['timeline'] ?? []),"
+3481,meta_read,"$dcv6_footer_code = get_post_meta($dcv6_footer_post_id, '_dry_recipe_id', true);"
+3638,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+3678,defaults,"function dcv62_recipe_link_by_slug($slug, $fallback) {"
+3685,defaults,"return home_url('/recepti-baza/' . trim($fallback, '/') . '/');"
+3711,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+3791,timeline,body.single-dry_recipe #kronologija .dcv5-timeline-item {
+4003,defaults,* Description: Premješta prethodni/sljedeći recept ispod glavnog recipe layouta i skriva defaultnu WP/Astra navigaciju.
+4032,defaults,* Sakrij defaultnu WP/Astra single post navigaciju.
+4081,defaults,* Sigurnosno ukloni defaultne navigacije koje tema može renderirati kasnije.
+4395,field_granulation,'Mljevenje i rezanje': {
+4398,field_granulation,"'Rešetka / rez': 'meso 8–10 mm; slanina 8–12 mm ručno',"
+4405,garlic,"'Cilj': 'ravnomjerna paprika, sol i češnjakova aroma'"
+4413,process_punjenje,'Punjenje': {
+4415,fallback_hladna_masa,"'Temperatura': 'hladna masa',"
+4416,field_crijeva,"'Omotač': 'širi prirodni omotač 55–80 mm',"
+4417,process_punjenje,'Cilj': 'čvrsto punjenje bez zračnih džepova'
+4464,field_granulation,'Mljevenje': {
+4467,field_granulation,"'Rešetka': '6–8 mm',"
+4472,fallback_hladna_masa,"'Temperatura': 'hladna masa',"
+4474,garlic,"'Cilj': 'ravnomjerna sol, paprika i češnjakova tekućina'"
+4482,process_punjenje,'Punjenje': {
+4484,fallback_hladna_masa,"'Temperatura': 'hladna masa',"
+4485,field_crijeva,"'Crijeva': 'svinjska 32–42 mm',"
+4486,process_punjenje,'Cilj': 'čvrsto punjenje bez zraka'
+4585,timeline,const timelineCards = document.querySelectorAll(
+4586,timeline,"'#kronologija .dcv5-timeline-item, #kronologija article, #kronologija .dcv5-step'"
+4589,timeline,timelineCards.forEach(function (card) {
+4594,timeline,"const heading = card.querySelector('h3, h4, .dcv5-timeline-title');"
+4624,timeline,"const critical = card.querySelector('.dcv5-critical, .dcv5-timeline-critical');"
+4687,defaults,if (!function_exists('dcv12_defaults_for_family')) {
+4688,defaults,function dcv12_defaults_for_family($family) {
+4689,timeline,$kobasica_timeline = [
+4690,field_granulation,"['day'=>'Dan 1','title'=>'Priprema mesa','text'=>'Sirovinu očistiti, ohladiti i pripremiti za mljevenje ili rezanje.','critical'=>'Meso i masnoća moraju ostati hladni.'],"
+4691,fallback_prema_receptu,"['day'=>'Dan 1','title'=>'Mljevenje','text'=>'Meso mljeti prema receptu, bez nepotrebnog ponavljanja mljevenja.','critical'=>'Ako se masa lijepi i maže, rad prekinuti i ohladiti sirovinu.'],"
+4691,field_granulation,"['day'=>'Dan 1','title'=>'Mljevenje','text'=>'Meso mljeti prema receptu, bez nepotrebnog ponavljanja mljevenja.','critical'=>'Ako se masa lijepi i maže, rad prekinuti i ohladiti sirovinu.'],"
+4692,garlic,"['day'=>'Dan 1','title'=>'Miješanje','text'=>'Dodati sol, začine i predviđenu češnjakovu tekućinu te miješati do ravnomjernog rasporeda.','critical'=>'Nadjev ne smije postati topao ni pastozan.'],"
+4694,process_punjenje,"['day'=>'Dan 2','title'=>'Punjenje','text'=>'Puniti u pripremljena crijeva bez zračnih džepova.','critical'=>'Svaki mjehurić zraka treba probosti čistom iglom.'],"
+4694,field_crijeva,"['day'=>'Dan 2','title'=>'Punjenje','text'=>'Puniti u pripremljena crijeva bez zračnih džepova.','critical'=>'Svaki mjehurić zraka treba probosti čistom iglom.'],"
+4703,timeline,$whole_timeline = [
+4713,defaults,$defaults = [
+4716,fallback_prema_receptu,"['label'=>'Šarža','value'=>'10 kg / prema receptu'],"
+4719,fallback_prema_receptu,"['label'=>'Omotač','value'=>'prema receptu'],"
+4719,field_crijeva,"['label'=>'Omotač','value'=>'prema receptu'],"
+4722,timeline,"'timeline' => $kobasica_timeline,"
+4734,defaults,$defaults['type'] = 'Kobasica';
+4735,defaults,$defaults['quick'] = [
+4739,field_crijeva,"['label'=>'Crijeva','value'=>'širi omotač'],"
+4743,defaults,$defaults['type'] = 'Kobasica/Salama';
+4744,defaults,$defaults['quick'] = [
+4748,field_crijeva,"['label'=>'Omotač','value'=>'širi omotač'],"
+4752,defaults,$defaults['type'] = ($family === 'slanina_panceta') ? 'Slanina' : 'Cijeli komad';
+4753,defaults,$defaults['quick'] = [
+4757,field_crijeva,"['label'=>'Omotač','value'=>'bez crijeva'],"
+4760,timeline,$defaults['timeline'] = $whole_timeline;
+4760,defaults,$defaults['timeline'] = $whole_timeline;
+4762,defaults,$defaults['type'] = 'Iznutrice';
+4763,defaults,$defaults['quick'] = [
+4765,fallback_prema_receptu,"['label'=>'Trajanje','value'=>'prema receptu'],"
+4766,fallback_prema_receptu,"['label'=>'Toplinska obrada','value'=>'prema receptu'],"
+4767,fallback_prema_receptu,"['label'=>'Omotač','value'=>'prema receptu'],"
+4767,field_crijeva,"['label'=>'Omotač','value'=>'prema receptu'],"
+4772,defaults,return $defaults;
+4777,defaults,"function dcv12_short_lead_from_post($post_id, $fallback) {"
+4783,defaults,return $fallback;
+4896,field_crijeva,"$crijeva_sec = dcv12_extract_md_section($content, 7);"
+4897,garlic,"$cesnjak_sec = dcv12_extract_md_section($content, 8);"
+4941,garlic,"strpos($lower, 'češnjak') !== false ||"
+4942,garlic,"strpos($lower, 'cesnjak') !== false ||"
+4956,garlic,"'note' => $note ?: 'Koristi se kao procijeđena češnjakova aroma; vlakna češnjaka ne dodavati izravno u nadjev.',"
+4969,garlic,if ($cesnjak_sec && empty($liquids)) {
+4970,garlic,$clean = wp_strip_all_tags($cesnjak_sec);
+4973,garlic,"'name' => 'Češnjakova tekućina',"
+4982,field_crijeva,if ($crijeva_sec) {
+4983,field_crijeva,$casings_note = wp_strip_all_tags($crijeva_sec);
+5007,defaults,$defaults = dcv12_defaults_for_family($family);
+5036,garlic,"'name' => 'Češnjak se ne dodaje',"
+5040,garlic,"'note' => 'U ovom receptu češnjak nije naveden kao sastojak.',"
+5048,defaults,"'type' => $defaults['type'],"
+5050,defaults,"'quick' => $defaults['quick'],"
+5054,defaults,"'profile' => $defaults['profile'],"
+5056,field_crijeva,"['title'=>'Izrada','text'=>'Raditi hladno, uredno i bez žurbe. Sirovina i omotači moraju biti pripremljeni prije početka.'],"
+5063,timeline,"'timeline' => $defaults['timeline'],"
+5063,defaults,"'timeline' => $defaults['timeline'],"
+5066,process_punjenje,"['problem'=>'Zrak u proizvodu','phase'=>'Punjenje / oblikovanje','severity'=>'Rizik kvarenja','level'=>'danger','cause'=>'Labavo punjenje ili loše oblikovanje.','solution'=>'Puniti i oblikovati čvrsto te ukloniti zračne džepove gdje je moguće.'],"
+5101,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+5125,meta_read,"$type = get_post_meta($post_id, '_dry_product_type', true);"
+5155,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+5174,garlic,"strpos($name, 'češnjak') !== false ||"
+5175,garlic,"strpos($name, 'cesnjak') !== false ||"
+5188,garlic,"strpos($text, 'ekstrakciju češnjaka') !== false ||"
+5189,garlic,"strpos($text, 'ekstrakcija češnjaka') !== false ||"
+5228,garlic,$item['note'] = 'Sastojak paca ili začinskog premaza za cijeli komad. Ne prikazuje se kao zasebna češnjakova tekućina osim ako recept izričito navodi mokri pac ili salamuru.';
+5257,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+5270,garlic,"// Sidebar link: za cijele komade nema generičkog bloka ""Tekućine i češnjak""."
+5271,garlic,"$content = str_replace('<a href=""#tekucine"">Tekućine i češnjak</a>', '', $content);"
+5287,garlic,// Kod suhih cijelih komada uklanja se generička sekcija tekućina/češnjak.
+5319,fallback_prema_receptu,"'Mljevenje': {'Trajanje':'odmah nakon hlađenja','Temperatura':'0–4 °C','Rešetka':'prema receptu','Cilj':'ravnomjerna granulacija bez kašaste mase'},"
+5319,field_granulation,"'Mljevenje': {'Trajanje':'odmah nakon hlađenja','Temperatura':'0–4 °C','Rešetka':'prema receptu','Cilj':'ravnomjerna granulacija bez kašaste mase'},"
+5320,fallback_hladna_masa,"'Miješanje': {'Trajanje':'8–12 min','Temperatura':'hladna masa','Kontrola':'nadjev ne smije postati topao','Cilj':'ravnomjeran raspored soli i začina'},"
+5322,fallback_prema_receptu,"'Punjenje': {'Trajanje':'isti dan','Temperatura':'hladna masa','Crijeva':'prema receptu','Cilj':'čvrsto punjenje bez zraka'},"
+5322,fallback_hladna_masa,"'Punjenje': {'Trajanje':'isti dan','Temperatura':'hladna masa','Crijeva':'prema receptu','Cilj':'čvrsto punjenje bez zraka'},"
+5322,process_punjenje,"'Punjenje': {'Trajanje':'isti dan','Temperatura':'hladna masa','Crijeva':'prema receptu','Cilj':'čvrsto punjenje bez zraka'},"
+5322,field_crijeva,"'Punjenje': {'Trajanje':'isti dan','Temperatura':'hladna masa','Crijeva':'prema receptu','Cilj':'čvrsto punjenje bez zraka'},"
+5345,timeline,document.querySelectorAll('#kronologija .dcv5-timeline-item').forEach(function (card) {
+5348,timeline,"const heading = card.querySelector('h3, h4, .dcv5-timeline-title');"
+5372,timeline,"const critical = card.querySelector('.dcv5-critical, .dcv5-timeline-critical');"
+5464,fallback_prema_receptu,$note = $item['note'] ?? 'Aromatska tekućina dodaje se u maloj količini prema receptu.';
+5517,garlic,* 3) Globalno pravilo za češnjak:
+5518,garlic,"* Ako postoji češnjak/bijeli luk, ali nema zasebne tekućine za ekstrakciju,"
+5522,garlic,* 1 g češnjaka ≈ 2 ml tekućine za ekstrakciju.
+5534,garlic,"strpos($name_lower, 'češnjak') !== false ||"
+5535,garlic,"strpos($name_lower, 'cesnjak') !== false ||"
+5577,garlic,$liquid_name = 'Mješavina vode i vina za ekstrakciju češnjaka';
+5578,fallback_prema_receptu,"$liquid_note = 'Tekućinu pripremiti prema receptu: voda mora biti prokuhana i potpuno ohlađena, vino hladno. Češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu tekućinu.';"
+5578,garlic,"$liquid_note = 'Tekućinu pripremiti prema receptu: voda mora biti prokuhana i potpuno ohlađena, vino hladno. Češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu tekućinu.';"
+5580,garlic,$liquid_name = 'Vino za ekstrakciju češnjaka';
+5581,garlic,"$liquid_note = 'Češnjak zgnječiti, namakati 20–30 minuta u hladnom vinu, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu tekućinu, bez vlakana češnjaka.';"
+5583,garlic,$liquid_name = 'Prokuhana i ohlađena voda za ekstrakciju češnjaka';
+5584,garlic,"$liquid_note = 'Vodu prvo prokuhati i potpuno ohladiti. Češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu aromatsku tekućinu, bez vlakana češnjaka.';"
+5592,garlic,"'note' => 'Radna količina za ' . (int)round($garlic_grams) . ' g češnjaka: približno ' . (int)$ml . ' ml tekućine. ' . $liquid_note,"
+5730,field_granulation,"'šajba', 'sajba', 'rešetka', 'resetka',"
+5733,field_crijeva,"'crijevo', 'crijeva', 'omotač', 'omotac', 'omotači', 'omotaci'"
+5755,garlic,"strpos($name, 'češnjak') !== false ||"
+5756,garlic,"strpos($name, 'cesnjak') !== false ||"
+5964,garlic,"'note' => 'Procijeđena aromatska komponenta; vlakna češnjaka ne dodavati u nadjev.',"
+5967,garlic,"'name' => 'Prokuhana i ohlađena voda za ekstrakciju češnjaka',"
+5971,garlic,"'note' => 'Standardna količina za češnjakovu ekstrakciju kod šarže od 10 kg. Vodu prokuhati i potpuno ohladiti; češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu.',"
+6059,meta_read,"$type = $post_id ? get_post_meta($post_id, '_dry_product_type', true) : '';"
+6079,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+6087,garlic,"* ""Tekućine i češnjak"". Češnjak, paprika i papar kod njih pripadaju"
+6093,garlic,"'/<a\b[^>]*href=[""\']#tekucine[""\'][^>]*>\s*Tekućine i češnjak\s*<\/a>/iu',"
+6105,garlic,// Ukloni samu sekciju Tekućine i češnjak po ID-u.
+6113,garlic,"// Ako je negdje ostao tekst bez ID-a, ukloni panel koji ima naslov Tekućine i češnjak."
+6115,garlic,"'/\s*<section\b[^>]*class=[""\'][^""\']*dcv5-panel[^""\']*[""\'][^>]*>\s*<[^>]*>\s*(?:<span[^>]*>.*?<\/span>\s*)?Tekućine i češnjak\s*<\/[^>]+>.*?<\/section>/isu',"
+6132,fallback_prema_receptu,"'Sastojci suhog paca i začinskog premaza prikazuju se u gramima i g/kg. Pac se ravnomjerno utrljava u površinu komada, a meso se drži na hladnom i okreće prema receptu.',"
+6170,meta_read,"$markdown = $post_id ? get_post_meta($post_id, '_dry_recipe_full_markdown', true) : '';"
+6217,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+6299,garlic,"'note' => 'Samo sok, bez vlakana. Češnjak se zgnječi i procijedi kroz gazu; vlakna se ne dodaju u nadjev.',"
+6307,field_crijeva,"'note' => 'Minimalni promjer 80–120 mm; isključivo prirodni omotač. Namakati i pripremiti prema tehnološkoj uputi, ali ne prikazivati kao sastojak nadjeva.',"
+6337,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+6347,field_crijeva,* - pogrešan kalibar crijeva
+6404,field_crijeva,"'goveđa slijepa crijeva ili kate' => 'svinjsko slijepo crijevo / kate',"
+6433,meta_read,"$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+6441,field_crijeva,"* Izvorni omotač je svinjsko slijepo crijevo / kate, promjer 80–120 mm."
+6442,field_crijeva,"* Stare vrijednosti 55–60 mm, 55–80 mm i generički ""širi prirodni omotač"""
+6446,field_crijeva,"'širi prirodni omotač 55–80 mm' => 'svinjsko slijepo crijevo / kate, 80–120 mm',"
+6447,field_crijeva,"'širi prirodni omotač 55-80 mm' => 'svinjsko slijepo crijevo / kate, 80–120 mm',"
+6448,field_crijeva,"'širi prirodni omotač' => 'svinjsko slijepo crijevo / kate',"
+6449,field_crijeva,"'prirodni omotač 55–80 mm' => 'svinjsko slijepo crijevo / kate, 80–120 mm',"
+6450,field_crijeva,"'prirodni omotač 55-80 mm' => 'svinjsko slijepo crijevo / kate, 80–120 mm',"
+6456,field_crijeva,"'goveđa slijepa crijeva ili kate' => 'svinjsko slijepo crijevo / kate',"
+6457,field_crijeva,"'Kod širokog omotača zračni džepovi su ozbiljan rizik kvarenja.' => 'Kod svinjskog slijepog crijeva / kate zračni džepovi su ozbiljan rizik kvarenja.',"
+6485,meta_read,"foreach (['_dry_recipe_id', 'dry_recipe_id', '_recipe_id'] as $key) {"
+6486,meta_read,"if ((string)get_post_meta($post_id, $key, true) === 'HR-SL-001') {"
+6510,field_crijeva,"'goveđa slijepa crijeva ili kate' => 'svinjsko slijepo crijevo / kate',"
+6513,field_crijeva,"'širi prirodni omotač 55–80 mm' => 'svinjsko slijepo crijevo / kate, 80–120 mm',"
+6514,field_crijeva,"'širi prirodni omotač 55-80 mm' => 'svinjsko slijepo crijevo / kate, 80–120 mm',"
+6620,garlic,"'note' => 'Samo procijeđeni sok bez vlakana; vlakna češnjaka ne idu u nadjev.',"
+6628,field_crijeva,"'note' => 'Prirodni omotač promjera 80–120 mm. Namakanje i priprema prema tehnološkoj uputi.',"
+6661,meta_read,"$code = (string)get_post_meta($post_id, '_dry_recipe_id', true);"
+6680,field_crijeva,"<p>Omotač: svinjsko slijepo crijevo / kate, promjer 80–120 mm. Dimljenje: hladni dim ≤25 °C. Zrenje: minimalno 150 dana, optimalno 6–9 mjeseci. Minimalni gubitak mase: 30 %.</p>"
