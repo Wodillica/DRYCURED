@@ -6714,11 +6714,6 @@ if (!function_exists('dcv40_existing_display_data_adapter_preview_enabled')) {
             return false;
         }
 
-        $public_enabled = get_option('drycured_dcv40_public_2976_enabled', '0') === '1';
-        if ($public_enabled) {
-            return true;
-        }
-
         return isset($_GET['dc_data_adapter_preview']) && sanitize_text_field(wp_unslash($_GET['dc_data_adapter_preview'])) === '2976';
     }
 }
