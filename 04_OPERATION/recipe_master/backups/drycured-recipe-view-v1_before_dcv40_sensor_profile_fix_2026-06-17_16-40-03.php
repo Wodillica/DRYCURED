@@ -6857,12 +6857,13 @@ if (!function_exists('dcv40_existing_display_data_adapter_profile')) {
         $casing_length = $vp['casing']['length_cm'] ?? '';
 
         $profile['profile'] = [
-            ['name' => 'Paprika', 'score' => 7],
-            ['name' => 'Dim', 'score' => 6],
-            ['name' => 'Ljutina', 'score' => 3],
-            ['name' => 'Slanoća', 'score' => 6],
-            ['name' => 'Masnoća', 'score' => 5],
-            ['name' => 'Tekstura', 'score' => 6],
+            ['label' => 'Šarža', 'value' => '10 kg'],
+            ['label' => 'Regija', 'value' => $profile['region']],
+            ['label' => 'Tip', 'value' => 'trajna domaća kobasica'],
+            ['label' => 'Omotač', 'value' => trim($casing_type . ($casing_diameter ? ' ' . $casing_diameter . ' mm' : ''))],
+            ['label' => 'Mljevenje', 'value' => trim('meso ' . $meat_plate . ' mm; slanina ' . $fat_cut)],
+            ['label' => 'Dimljenje', 'value' => 'hladni dim u blagim ciklusima'],
+            ['label' => 'Sušenje i zrenje', 'value' => 'postupno, do stabilnog presjeka i čistog mirisa'],
         ];
 
         $profile['quick'] = [

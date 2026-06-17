@@ -1,0 +1,12 @@
+Paprika: PASS
+Dim: PASS
+Ljutina: FAIL
+Slanoća: FAIL
+Masnoća: FAIL
+Tekstura: PASS
+10 kg / prema receptu: PASS
+prema receptu: PASS
+hladna masa: PASS
+Meso mljeti prema receptu: PASS
+Puniti u pripremljena crijeva: PASS
+BAD=3

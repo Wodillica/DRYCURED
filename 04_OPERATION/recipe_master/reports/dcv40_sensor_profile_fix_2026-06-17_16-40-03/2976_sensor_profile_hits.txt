@@ -1,0 +1,67 @@
+10:	<meta name="description" content="Slavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje." />
+19:		<meta property="og:description" content="Slavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje." />
+27:		<meta name="twitter:description" content="Slavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje." />
+30:			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/drycured.com\/#listItem","position":1,"name":"Home","item":"https:\/\/drycured.com\/","nextItem":{"@type":"ListItem","@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#listItem","name":"Slavonska doma\u0107a kobasica"}},{"@type":"ListItem","@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#listItem","position":2,"name":"Slavonska doma\u0107a kobasica","previousItem":{"@type":"ListItem","@id":"https:\/\/drycured.com\/#listItem","name":"Home"}}]},{"@type":"Organization","@id":"https:\/\/drycured.com\/#organization","name":"drycured.com","description":"Napravi vlastiti suhomesnati specijalitet \u2013 lak\u0161e nego \u0161to misli\u0161!","url":"https:\/\/drycured.com\/","logo":{"@type":"ImageObject","url":"https:\/\/drycured.com\/wp-content\/uploads\/2025\/03\/cropped-www.drycured.com_-1.png","@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#organizationLogo","width":499,"height":213},"image":{"@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#webpage","url":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/","name":"Slavonska doma\u0107a kobasica - drycured.com","description":"Slavonska doma\u0107a kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska doma\u0107a kobasica je slavonska trajna kobasica s paprikastim za\u010dinskim profilom, oblikovana za hladno dimljenje i postupno su\u0161enje.","inLanguage":"hr","isPartOf":{"@id":"https:\/\/drycured.com\/#website"},"breadcrumb":{"@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#breadcrumblist"},"datePublished":"2026-05-30T08:31:06+00:00","dateModified":"2026-06-05T02:40:27+00:00"},{"@type":"WebSite","@id":"https:\/\/drycured.com\/#website","url":"https:\/\/drycured.com\/","name":"drycured.com","description":"Napravi vlastiti suhomesnati specijalitet \u2013 lak\u0161e nego \u0161to misli\u0161!","inLanguage":"hr","publisher":{"@id":"https:\/\/drycured.com\/#organization"}}]}
+1424:	<li id="menu-item-2807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2807"><a href="https://drycured.com/planer-dimljenja/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+1426:                </svg></span>Planer dimljenja</a></li>
+1517:	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2807"><a href="https://drycured.com/planer-dimljenja/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+1519:                </svg></span>Planer dimljenja</a></li>
+1549:		<main id="primary" class="site-main drycured-product-gate-v1-1"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Recipe","name":"Slavonska domaća kobasica","description":"# HR-SL-005 — Slavonska domaća kobasica ## 1. Identitet recepta - Kanonski naziv: Slavonska domaća kobasica - Alternativni nazivi: nisu posebno zabilježeni u primarnom izvoru - Država: Hrvatska - Regija: Slavonija - Mikroregija: širi prostor Slavonije, Baranje...","recipeCategory":"Suhomesnati proizvod","recipeCuisine":"Hrvatska","recipeYield":"10 kg mesne mase","totalTime":"P60D","recipeIngredient":["3,00 kg plećka (rame)","1,50 kg but (gornji dio)","1,50 kg vratina","1,50 kg obresci od komadanja","2,50 kg tvrda leđna slanina","220 g morska ili kamena sol","20 g nitritna sol (0,6 % NaNO₂)","180–230 g slatka paprika","30 g ljuta paprika","12 g crni papar","30–50 g Češnjak za procijeđenu aromatsku tekućinu"],"recipeInstructions":[{"@type":"HowToStep","name":"Priprema mesa","text":"Sirovinu dobro ohladiti, očistiti od neželjenog veziva i pripremiti za mljevenje ili rezanje. Kritično: Meso i slanina moraju ostati hladni tijekom cijele obrade."},{"@type":"HowToStep","name":"Mljevenje i obrada slanine","text":"Krto meso mljeti na rešetku 6 mm. Tvrdu leđnu slaninu obraditi: ručno na kockice 4–6 mm. Kritično: Slanina treba biti polusmrznuta; ako se masa počne lijepiti, obradu prekinuti i sirovinu vratiti na hlađenje."},{"@type":"HowToStep","name":"Miješanje","text":"Dodati sol, papriku, papar i procijeđenu aromatsku tekućinu od češnjaka te miješati dok se masa ne poveže i ravnomjerno oboji. Kritično: Nadjev mora ostati hladan i ne smije postati pastozan."},{"@type":"HowToStep","name":"Punjenje","text":"Puniti u svinjska tanka crijeva kalibra 32–40 mm, oblikovati komade duljine 25–35 cm i odmah ukloniti vidljive mjehuriće zraka. Kritično: Puniti ravnomjerno i čvrsto, ali bez pucanja crijeva."},{"@type":"HowToStep","name":"Predsušenje","text":"Kobasice objesiti u hladan i prozračan prostor dok površina ne bude suha na dodir. Kritično: Ne počinjati dimljenje dok je površina mokra."},{"@type":"HowToStep","name":"Dimljenje","text":"Dimiti hladnim i blagim dimom u više ciklusa, uz pauze između dimljenja. Kritično: Dim mora biti tanak, suh i hladan; gust ili topao dim daje gorčinu i površinske greške."},{"@type":"HowToStep","name":"Sušenje i zrenje","text":"Sušiti i zreti postupno, bez naglog isušivanja površine, do povezanog presjeka i čistog mirisa. Kritično: Ako se pojave neugodan miris, sluz ili pretvrda površina uz mekanu sredinu, uvjete treba korigirati ili proizvod izdvojiti."}]}</script>    <style>
+2190:                    <span>Dimljenje</span>
+2191:                    <strong>hladni dim u blagim ciklusima</strong>
+2278:        <h3>slatka paprika</h3>
+2285:        <h3>ljuta paprika</h3>
+2323:                            <div class="dcv5-profile-score">/10</div>
+2328:                            <div class="dcv5-profile-score">/10</div>
+2333:                            <div class="dcv5-profile-score">/10</div>
+2338:                            <div class="dcv5-profile-score">/10</div>
+2343:                            <div class="dcv5-profile-score">/10</div>
+2348:                            <div class="dcv5-profile-score">/10</div>
+2353:                            <div class="dcv5-profile-score">/10</div>
+2359:                    <p class="dcv5-section-note">Uvjeti prostora važni su koliko i začini. Dobra kobasica nastaje iz ritma hladnoće, vlage, dima i vremena.</p>
+2371:                                <h3>Dimljenje</h3>
+2372:                                <p>Dim mora biti hladan, tanak i čist. Prejak dim ne popravlja proizvod, nego ga opterećuje.</p>
+2431:                                    <div class="dcv5-critical"><strong>Kritično:</strong> Ne počinjati dimljenje dok je površina mokra.</div>
+2437:                                    <h3>Dimljenje</h3>
+2438:                                    <p>Dimiti hladnim i blagim dimom u više ciklusa, uz pauze između dimljenja.</p>
+2439:                                    <div class="dcv5-critical"><strong>Kritično:</strong> Dim mora biti tanak, suh i hladan; gust ili topao dim daje gorčinu i površinske greške.</div>
+2459:                                <h3>Neujednačen presjek ili tekstura</h3>
+2511:                                <h3>Tekstura odgovara tipu proizvoda</h3>
+2573:                        <div class="dcv5-print-box"><span class="dcv5-field-label">Broj dimljenja</span></div>
+2998:                '<textarea class="dcv6-diary-notes" id="dcv6-diary-notes" rows="4" placeholder="Bilješke: miris, površina, boja, vlaga, dimljenje, korekcije uvjeta..."></textarea>' +
+3942:         * Brzi proizvodni sažetak: šarža, trajanje, dimljenje...
+4385:                summary.innerHTML = '<strong>Senzorski potpis:</strong> paprikasto-dimljena kobasica srednje masnoće, blage do umjerene ljutine i čvrstog, ali ne presuhog presjeka.';
+4394:                'Paprika': {
+4396:                    text: 'Paprika je vodeća aroma i nosi regionalni karakter proizvoda.'
+4398:                'Dim': {
+4400:                    text: 'Dim je prisutan, ali ne smije prekriti meso i papriku.'
+4402:                'Ljutina': {
+4404:                    text: 'Ljutina daje živost, ali ne dominira zalogajem.'
+4406:                'Slanoća': {
+4410:                'Masnoća': {
+4412:                    text: 'Masnoća daje sočnost i mekši presjek bez masnog dojma.'
+4414:                'Tekstura': {
+4422:                    return /\b\d{1,2}\/10\b/.test(el.textContent || '') &&
+4665:            const profile = {"code":"HR-SL-005","title":"Slavonska domaća kobasica","baseKg":10,"type":"Suhomesnati proizvod","ingredients":{"materials":[{"name":"plećka (rame)","amount":"3,00 kg","percent":"30 %","rate":""},{"name":"but (gornji dio)","amount":"1,50 kg","percent":"15 %","rate":""},{"name":"vratina","amount":"1,50 kg","percent":"15 %","rate":""},{"name":"obresci od komadanja","amount":"1,50 kg","percent":"15 %","rate":""},{"name":"tvrda leđna slanina","amount":"2,50 kg","percent":"25 %","rate":""}],"spices":[{"name":"morska ili kamena sol","amount":"220 g","percent":"2,2 %","rate":"22 g/kg"},{"name":"nitritna sol (0,6 % NaNO₂)","amount":"20 g","percent":"0,2 %","rate":"2 g/kg"},{"name":"slatka paprika","amount":"180–230 g","percent":"1,8–2,3 %","rate":"18–23 g/kg"},{"name":"ljuta paprika","amount":"30 g","percent":"0,3 %","rate":"3 g/kg"},{"name":"crni papar","amount":"12 g","percent":"0,12 %","rate":"1,2 g/kg"}],"liquids":[{"name":"Češnjak za procijeđenu aromatsku tekućinu","amount":"30–50 g","percent":"0,3–0,5 %","rate":"3–5 g/kg"}]}};
+5354:                        'Cilj': 'ravnomjerna paprika, sol i češnjakova aroma'
+5378:                        'Cilj': 'suha, ali ne tvrda površina prije prvog dima'
+5380:                    'Dimljenje': {
+5382:                        'Temperatura dima': 'hladni dim, najviše 20–22 °C',
+5396:                        'Cilj': 'čvrst, povezan presjek i zaokružen paprikasto-dimljeni miris'
+5423:                        'Cilj': 'ravnomjerna sol, paprika i češnjakova tekućina'
+5447:                        'Cilj': 'površina suha na dodir prije prvog dima'
+5449:                    'Dimljenje': {
+5451:                        'Temperatura dima': 'hladni dim, najviše 20–22 °C',
+5453:                        'Cilj': 'tanka dimna aroma bez gorčine'
+5456:                        'Trajanje': '20–40 dana nakon dimljenja',
+5492:                        'Cilj': 'površina se mora smiriti i prosušiti prije dima'
+5494:                    'Dimljenje': {
+5496:                        'Temperatura dima': 'hladni dim, najviše 20–22 °C',
+5498:                        'Cilj': 'aromatski sloj i površinska stabilizacija, bez toplog dima'
+5510:                        'Cilj': 'čvrsta tekstura, čist miris i stabilan rez do kosti'
+5598:                    'Predsušenje': {'Trajanje':'24–48 h','Temperatura':'8–12 °C','Relativna vlaga':'80–85 %','Cilj':'površina suha na dodir prije prvog dima'},
+5599:                    'Dimljenje': {'Trajanje':'3–6 blagih ciklusa','Temperatura dima':'hladni dim, najviše 20–22 °C','Pauze':'obavezne između ciklusa','Cilj':'tanka dimna aroma bez gorčine'},
+5600:                    'Sušenje': {'Trajanje':'20–40 dana nakon dimljenja','Temperatura':'10–15 °C','Relativna vlaga':'70–80 %','Cilj':'gubitak mase bez tvrde kore'},
+5607:                    'Stabilizacija i predsušenje': {'Trajanje':'5–7 dana','Temperatura':'6–10 °C','Relativna vlaga':'75–85 %','Cilj':'površina suha prije dima'},
+5608:                    'Dimljenje': {'Trajanje':'više blagih ciklusa','Temperatura dima':'hladni dim, najviše 20–22 °C','Pauze':'24–48 h između ciklusa','Cilj':'aroma i površinska stabilizacija'},
+5610:                    'Zrenje': {'Trajanje':'do stabilnog reza','Temperatura':'10–15 °C','Relativna vlaga':'65–75 %','Cilj':'čvrsta tekstura i čist miris'},
