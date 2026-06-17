@@ -6861,14 +6861,6 @@ if (!function_exists('dcv40_existing_display_data_adapter_profile')) {
             ['label' => 'Sušenje i zrenje', 'value' => 'postupno, do stabilnog presjeka i čistog mirisa'],
         ];
 
-        $profile['quick'] = [
-            ['label' => 'Šarža', 'value' => '10 kg mesne mase'],
-            ['label' => 'Trajanje', 'value' => '70–100 dana'],
-            ['label' => 'Dimljenje', 'value' => 'hladni dim u blagim ciklusima'],
-            ['label' => 'Crijeva', 'value' => trim($casing_type . ($casing_diameter ? ' ' . $casing_diameter . ' mm' : ''))],
-            ['label' => 'Gubitak mase', 'value' => 'postupno sušenje i zrenje'],
-        ];
-
         $profile['timeline'] = [
             [
                 'day' => 'Dan 0',

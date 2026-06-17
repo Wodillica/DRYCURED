@@ -1,0 +1,6 @@
+10 kg / prema receptu: PASS
+prema receptu: PASS
+hladna masa: PASS
+Meso mljeti prema receptu: PASS
+Puniti u pripremljena crijeva: PASS
+VISIBLE_BAD=0
