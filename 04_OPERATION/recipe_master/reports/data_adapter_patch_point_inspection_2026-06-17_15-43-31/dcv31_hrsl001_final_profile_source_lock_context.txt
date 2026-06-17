@@ -1,0 +1,76 @@
+                $value->{$k} = dcv31_hrsl001_sanitize_value($v);
+            }
+            return $value;
+        }
+
+        if (is_string($value)) {
+            return dcv31_hrsl001_clean_string($value);
+        }
+
+        return $value;
+    }
+}
+
+if (!function_exists('dcv31_hrsl001_final_profile_source_lock')) {
+    function dcv31_hrsl001_final_profile_source_lock($profile, $code, $post_id = 0) {
+        if (!dcv31_hrsl001_is_target($post_id, $code)) {
+            return $profile;
+        }
+
+        $profile['materials'] = [
+            [
+                'name' => 'Svinjski but I. kategorije (bez kosti, bez kože)',
+                'amount' => '6,00 kg',
+                'percent' => '60 %',
+                'rate' => '',
+                'note' => 'Crna slavonska svinja ili domaća pasmina min. 140 kg; proizvodnja u hladnom dijelu godine.',
+            ],
+            [
+                'name' => 'Svinjska plećka II. kategorije (bez podlaktice)',
+                'amount' => '2,50 kg',
+                'percent' => '25 %',
+                'rate' => '',
+                'note' => 'Dio zaključanog izvornog sastava nadjeva.',
+            ],
+            [
+                'name' => 'Svinjski vrat III. kategorije',
+                'amount' => '1,00 kg',
+                'percent' => '10 %',
+                'rate' => '',
+                'note' => 'Dio zaključanog izvornog sastava nadjeva.',
+            ],
+            [
+                'name' => 'Tvrda leđna slanina',
+                'amount' => '0,50 kg',
+                'percent' => '5 %',
+                'rate' => '',
+                'note' => 'Zaključani udio tvrdog masnog tkiva.',
+            ],
+        ];
+
+        $profile['spices'] = [
+            [
+                'name' => 'Sol (kuhinjska)',
+                'amount' => '260–280 g',
+                'percent' => '2,60–2,80 %',
+                'rate' => '26–28 g/kg',
+                'note' => 'Zaključani raspon soli za šaržu od 10 kg.',
+            ],
+            [
+                'name' => 'Ljuta mljevena paprika',
+                'amount' => '80–120 g',
+                'percent' => '0,80–1,20 %',
+                'rate' => '8–12 g/kg',
+                'note' => 'Domaća slavonska paprika.',
+            ],
+            [
+                'name' => 'Slatka mljevena paprika',
+                'amount' => '120–160 g',
+                'percent' => '1,20–1,60 %',
+                'rate' => '12–16 g/kg',
+                'note' => 'Zaključani raspon slatke paprike.',
+            ],
+        ];
+
+        $profile['liquids'] = [
+            [

@@ -1,0 +1,76 @@
+    }
+}
+
+
+
+
+if (!function_exists('dcv12_apply_final_profile_overrides')) {
+    function dcv12_apply_final_profile_overrides($profile, $code) {
+    if (!is_array($profile)) {
+        return $profile;
+    }
+
+    $spices = array_values($profile['spices'] ?? []);
+    $liquids = array_values($profile['liquids'] ?? []);
+
+    /*
+     * 1) Globalno pravilo:
+     * Sve očite tekućine ne smiju ostati u bloku začina.
+     * Posebno važno za rum, rakiju, vino, vodu i slične aromatske tekućine.
+     */
+    $clean_spices = [];
+
+    foreach ($spices as $item) {
+        $name_lower = mb_strtolower(trim($item['name'] ?? ''), 'UTF-8');
+
+        $is_liquid_spice =
+            strpos($name_lower, 'rum') !== false ||
+            strpos($name_lower, 'rakija') !== false ||
+            strpos($name_lower, 'vino') !== false ||
+            strpos($name_lower, 'voda') !== false ||
+            strpos($name_lower, 'tekuć') !== false ||
+            strpos($name_lower, 'tekuc') !== false;
+
+        if ($is_liquid_spice) {
+            $note = $item['note'] ?? 'Aromatska tekućina dodaje se u maloj količini prema receptu.';
+
+            if ($code === 'HR-SL-006' && strpos($name_lower, 'rum') !== false) {
+                $liquids[] = [
+                    'name' => 'Rum',
+                    'amount' => '0,040 L',
+                    'percent' => '0,40 %',
+                    'rate' => '4 ml/kg',
+                    'note' => $note,
+                ];
+            } else {
+                $liquids[] = [
+                    'name' => $item['name'] ?? 'Aromatska tekućina',
+                    'amount' => $item['amount'] ?? 'provjeriti',
+                    'percent' => $item['percent'] ?? '',
+                    'rate' => $item['rate'] ?? '',
+                    'note' => $note,
+                ];
+            }
+
+            continue;
+        }
+
+        $clean_spices[] = $item;
+    }
+
+    $spices = $clean_spices;
+
+    /*
+     * 2) Ukloni duple tekućinske stavke istog naziva.
+     */
+    $deduped_liquids = [];
+    $seen_liquids = [];
+
+    foreach ($liquids as $item) {
+        $key = mb_strtolower(trim($item['name'] ?? ''), 'UTF-8');
+
+        if ($key === '') {
+            $deduped_liquids[] = $item;
+            continue;
+        }
+

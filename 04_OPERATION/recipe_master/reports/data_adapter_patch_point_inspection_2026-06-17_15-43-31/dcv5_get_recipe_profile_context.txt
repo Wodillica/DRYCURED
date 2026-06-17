@@ -1,0 +1,91 @@
+function dcv5_supported_recipe_codes() {
+    if (function_exists('dcv12_batch01_recipe_registry')) {
+        return array_keys(dcv12_batch01_recipe_registry());
+    }
+
+    return ['HR-SL-001', 'HR-SL-007', 'HR-SL-020'];
+}
+
+function dcv5_get_recipe_profile($post_id, $code = '') {
+
+    /*
+     * DRYCURED_MD_V5_PROFILE_EARLY_BRIDGE_v011
+     * MD-import pilot profili moraju biti dostupni kroz samu dcv5_get_recipe_profile()
+     * kako bi svi postojeći V5/V6 slojevi koristili isti izvor profila.
+     */
+    if (function_exists('drycured_md_v5_bridge_profile')) {
+        $dcv5_md_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);
+        if ($dcv5_md_bridge_profile) {
+            return $dcv5_md_bridge_profile;
+        }
+    }
+
+    if (!$code) {
+        $code = get_post_meta($post_id, '_dry_recipe_id', true);
+    }
+
+    $profile = null;
+
+    if ($code === 'HR-SL-001') {
+        $profile = dcv5_slavonski_kulen_profile($post_id);
+    } elseif ($code === 'HR-SL-007') {
+        $profile = dcv5_ratarske_kobasice_profile($post_id);
+    } elseif ($code === 'HR-SL-020') {
+        $profile = dcv5_vinkovacka_sunka_profile($post_id);
+    } elseif (function_exists('dcv12_profile_from_post')) {
+        $profile = dcv12_profile_from_post($post_id, $code);
+    }
+
+    if (function_exists('dcv12_apply_final_profile_overrides')) {
+        $profile = dcv12_apply_final_profile_overrides($profile, $code);
+    }
+
+    if (function_exists('dcv14_final_ingredient_sanity_profile')) {
+        $profile = dcv14_final_ingredient_sanity_profile($profile, $code);
+    }
+
+    if (function_exists('dcv16_whole_piece_profile_guard')) {
+        $profile = dcv16_whole_piece_profile_guard($profile, $code, $post_id);
+    }
+
+    if (function_exists('dcv20_source_lock_profile')) {
+        $profile = dcv20_source_lock_profile($profile, $code, $post_id);
+    }
+
+    if (function_exists('dcv31_hrsl001_final_profile_source_lock')) {
+        $profile = dcv31_hrsl001_final_profile_source_lock($profile, $code, $post_id);
+    }
+
+    return $profile;
+}
+
+function dcv5_recipe_js_profile($recipe) {
+    if (!$recipe || empty($recipe['code'])) {
+        return null;
+    }
+
+    $ingredients = [
+        'materials' => [],
+        'spices' => [],
+        'liquids' => [],
+    ];
+
+    foreach (['materials', 'spices', 'liquids'] as $group) {
+        if (empty($recipe[$group]) || !is_array($recipe[$group])) {
+            continue;
+        }
+
+        foreach ($recipe[$group] as $item) {
+            $ingredients[$group][] = [
+                'name' => $item['name'] ?? '',
+                'amount' => $item['amount'] ?? '',
+                'percent' => $item['percent'] ?? '',
+                'rate' => $item['rate'] ?? '',
+            ];
+        }
+    }
+
+    return [
+        'code' => $recipe['code'],
+        'title' => $recipe['title'],
+        'baseKg' => 10,

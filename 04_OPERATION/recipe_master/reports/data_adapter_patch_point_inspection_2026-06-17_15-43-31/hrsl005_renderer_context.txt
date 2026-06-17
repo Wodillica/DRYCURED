@@ -1,0 +1,53 @@
+3055-    </section>
+3056-    <?php
+3057-    return ob_get_clean();
+3058-}
+3059-
+3060-function dcv6_render_related_recipes($current_post_id) {
+3061-    $related = [
+3062-        'HR-SL-001' => 'Slavonski kulen',
+3063:        'HR-SL-005' => 'Slavonska domaća kobasica',
+3064-        'HR-SL-006' => 'Srijemska kobasica',
+3065-        'HR-SL-030' => 'Brodska kobasica',
+3066-        'HR-SL-031' => 'Osječka kobasica',
+3067-        'HR-SL-037' => 'Vinkovačka kobasica',
+3068-        'HR-SL-020' => 'Vinkovačka šunka',
+3069-    ];
+3070-
+3071-    $found = [];
+--
+4647-
+4648-if (!function_exists('dcv12_batch01_recipe_registry')) {
+4649-    function dcv12_batch01_recipe_registry() {
+4650-        return [
+4651-            'HR-SL-001' => ['order' => 1, 'title' => 'Slavonski kulen (PDO EU)', 'family' => 'kulen', 'slug' => 'hr-sl-001-slavonski-kulen-pdo-eu', 'region' => 'Slavonija, Baranja i Srijem'],
+4652-            'HR-SL-002' => ['order' => 2, 'title' => 'Kulenova seka', 'family' => 'kulen', 'slug' => 'hr-sl-002-kulenova-seka', 'region' => 'Slavonija, Baranja i Srijem'],
+4653-            'HR-SL-003' => ['order' => 3, 'title' => 'Baranjski kulen (ZOZP EU)', 'family' => 'kulen', 'slug' => 'hr-sl-003-baranjski-kulen-zozp-eu', 'region' => 'Baranja'],
+4654-            'HR-SL-004' => ['order' => 4, 'title' => 'Đakovački kulen', 'family' => 'kulen', 'slug' => 'hr-sl-004-dakovacki-kulen', 'region' => 'Đakovština'],
+4655:            'HR-SL-005' => ['order' => 5, 'title' => 'Slavonska domaća kobasica', 'family' => 'kobasica', 'slug' => 'hr-sl-005-slavonska-domaca-kobasica', 'region' => 'Slavonija, Baranja i Srijem'],
+4656-            'HR-SL-006' => ['order' => 6, 'title' => 'Srijemska kobasica (OGP)', 'family' => 'kobasica', 'slug' => 'hr-sl-006-srijemska-kobasica-ogp', 'region' => 'Srijem'],
+4657-            'HR-SL-007' => ['order' => 7, 'title' => 'Ratarske kobasice', 'family' => 'kobasica', 'slug' => 'hr-sl-007-ratarske-kobasice', 'region' => 'Slavonija, Baranja i Srijem'],
+4658-            'HR-SL-008' => ['order' => 8, 'title' => 'Baranjska kobasica', 'family' => 'kobasica', 'slug' => 'hr-sl-008-baranjska-kobasica', 'region' => 'Baranja'],
+4659-            'HR-SL-009' => ['order' => 9, 'title' => 'Baranjska salama', 'family' => 'salama', 'slug' => 'hr-sl-009-baranjska-salama', 'region' => 'Baranja'],
+4660-            'HR-SL-010' => ['order' => 10, 'title' => 'Slavonska kobasica (ZOI EU 2023)', 'family' => 'kobasica', 'slug' => 'hr-sl-010-slavonska-kobasica-zoi-eu-2023', 'region' => 'Slavonija, Baranja i Srijem'],
+4661-            'HR-SL-012' => ['order' => 11, 'title' => 'Slavonska dimljena slanina', 'family' => 'slanina_panceta', 'slug' => 'hr-sl-012-slavonska-dimljena-slanina', 'region' => 'Slavonija, Baranja i Srijem'],
+4662-            'HR-SL-014' => ['order' => 12, 'title' => 'Slavonska dimljena šunka', 'family' => 'sunka', 'slug' => 'hr-sl-014-slavonska-dimljena-sunka', 'region' => 'Slavonija, Baranja i Srijem'],
+4663-            'HR-SL-015' => ['order' => 13, 'title' => 'Suha plećka slavonska', 'family' => 'cijeli_komad', 'slug' => 'hr-sl-015-suha-plecka-slavonska', 'region' => 'Slavonija, Baranja i Srijem'],
+--
+4671-            'HR-SL-024' => ['order' => 21, 'title' => 'Slavonski dimljeni svinjski vrat', 'family' => 'cijeli_komad', 'slug' => 'hr-sl-024-slavonski-dimljeni-svinjski-vrat', 'region' => 'Slavonija, Baranja i Srijem'],
+4672-            'HR-SL-027' => ['order' => 22, 'title' => 'Slavonski suhi vrat (ovratina)', 'family' => 'cijeli_komad', 'slug' => 'hr-sl-027-slavonski-suhi-vrat-ovratina', 'region' => 'Slavonija, Baranja i Srijem'],
+4673-            'HR-SL-028' => ['order' => 23, 'title' => 'Baranjska šunka', 'family' => 'sunka', 'slug' => 'hr-sl-028-baranjska-sunka', 'region' => 'Baranja'],
+4674-            'HR-SL-029' => ['order' => 24, 'title' => 'Đakovačka šunka', 'family' => 'sunka', 'slug' => 'hr-sl-029-dakovacka-sunka', 'region' => 'Đakovština'],
+4675-            'HR-SL-030' => ['order' => 25, 'title' => 'Brodska kobasica (Slavonski Brod)', 'family' => 'kobasica', 'slug' => 'hr-sl-030-brodska-kobasica-slavonski-brod', 'region' => 'Slavonski Brod'],
+4676-            'HR-SL-031' => ['order' => 26, 'title' => 'Osječka kobasica', 'family' => 'kobasica', 'slug' => 'hr-sl-031-osjecka-kobasica', 'region' => 'Osijek'],
+4677-            'HR-SL-032' => ['order' => 27, 'title' => 'Slavonska krvavica od prosa (bijela)', 'family' => 'krvavica', 'slug' => 'hr-sl-032-slavonska-krvavica-od-prosa-bijela', 'region' => 'Slavonija, Baranja i Srijem'],
+4678-            'HR-SL-033' => ['order' => 28, 'title' => 'Slavonska šunka od crne slavonske svinje', 'family' => 'sunka', 'slug' => 'hr-sl-033-slavonska-sunka-od-crne-slavonske-svinje', 'region' => 'Slavonija, Baranja i Srijem'],
+4679:            'HR-SL-034' => ['order' => 29, 'title' => 'Slavonska domaća salama', 'family' => 'salama', 'slug' => 'hr-sl-034-slavonska-domaca-salama', 'region' => 'Slavonija, Baranja i Srijem'],
+4680-            'HR-SL-036' => ['order' => 30, 'title' => 'Slavonska čvarkovača (kobasica od čvaraka)', 'family' => 'kobasica', 'slug' => 'hr-sl-036-slavonska-cvarkovaca-kobasica-od-cvaraka', 'region' => 'Slavonija, Baranja i Srijem'],
+4681-            'HR-SL-037' => ['order' => 31, 'title' => 'Vinkovačka kobasica', 'family' => 'kobasica', 'slug' => 'hr-sl-037-vinkovacka-kobasica', 'region' => 'Vinkovci i Srijem'],
+4682-            'HR-SL-038' => ['order' => 32, 'title' => 'Slavonska lovačka kobasica (divljač + svinjetina)', 'family' => 'kobasica', 'slug' => 'hr-sl-038-slavonska-lovacka-kobasica-divljac-svinjetina', 'region' => 'Slavonija, Baranja i Srijem'],
+4683-        ];
+4684-    }
+4685-}
+4686-
+4687-if (!function_exists('dcv12_defaults_for_family')) {

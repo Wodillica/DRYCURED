@@ -1,0 +1,74 @@
+    function dcv18_is_wet_cure_recipe($post_id, $code = '') {
+        if (!$code && $post_id) {
+            $code = get_post_meta($post_id, '_dry_recipe_id', true);
+        }
+
+        return dcv18_whole_piece_cure_model($code, $post_id) === 'mokri_pac';
+    }
+}
+
+
+
+
+if (!function_exists('dcv20_source_lock_profile')) {
+    function dcv20_source_lock_profile($profile, $code, $post_id = 0) {
+        if ($code !== 'HR-SL-001') {
+            return $profile;
+        }
+
+        /*
+         * SOURCE LOCK — HR-SL-001 Slavonski kulen (OZP/PDO)
+         * Autoritativni izvor: korisnikov ispravni dokument.
+         * Renderer smije mijenjati izgled, ali ne smije mijenjati sastojke ni količine.
+         */
+        $profile['materials'] = [
+            [
+                'name' => 'Svinjski but I. kategorije (bez kosti, bez kože)',
+                'amount' => '6,00 kg',
+                'percent' => '60 %',
+                'rate' => '',
+                'note' => 'Crna slavonska svinja ili domaća pasmina min. 140 kg; samo zimi 1.11.–31.3.',
+            ],
+            [
+                'name' => 'Svinjska plećka II. kategorije (bez podlaktice)',
+                'amount' => '2,50 kg',
+                'percent' => '25 %',
+                'rate' => '',
+                'note' => 'Izvorni sastav nadjeva za slavonski kulen.',
+            ],
+            [
+                'name' => 'Svinjski vrat III. kategorije',
+                'amount' => '1,00 kg',
+                'percent' => '10 %',
+                'rate' => '',
+                'note' => 'Izvorni sastav nadjeva za slavonski kulen.',
+            ],
+            [
+                'name' => 'Tvrda leđna slanina',
+                'amount' => '0,50 kg',
+                'percent' => '5 %',
+                'rate' => '',
+                'note' => 'Maksimalno 10 % ukupne mase prema izvorniku.',
+            ],
+        ];
+
+        $profile['spices'] = [
+            [
+                'name' => 'Sol (kuhinjska)',
+                'amount' => '260–280 g',
+                'percent' => '2,60–2,80 %',
+                'rate' => '26–28 g/kg',
+                'note' => 'Bez nitrata — tradicijska metoda.',
+            ],
+            [
+                'name' => 'Ljuta mljevena paprika',
+                'amount' => '80–120 g',
+                'percent' => '0,80–1,20 %',
+                'rate' => '8–12 g/kg',
+                'note' => 'Domaća slavonska paprika.',
+            ],
+            [
+                'name' => 'Slatka mljevena paprika',
+                'amount' => '120–160 g',
+                'percent' => '1,20–1,60 %',
+                'rate' => '12–16 g/kg',
