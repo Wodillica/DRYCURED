@@ -1,0 +1,84 @@
+10:	<meta name="description" content="Slavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje." />
+19:		<meta property="og:description" content="Slavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje." />
+27:		<meta name="twitter:description" content="Slavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje." />
+30:			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/drycured.com\/#listItem","position":1,"name":"Home","item":"https:\/\/drycured.com\/","nextItem":{"@type":"ListItem","@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#listItem","name":"Slavonska doma\u0107a kobasica"}},{"@type":"ListItem","@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#listItem","position":2,"name":"Slavonska doma\u0107a kobasica","previousItem":{"@type":"ListItem","@id":"https:\/\/drycured.com\/#listItem","name":"Home"}}]},{"@type":"Organization","@id":"https:\/\/drycured.com\/#organization","name":"drycured.com","description":"Napravi vlastiti suhomesnati specijalitet \u2013 lak\u0161e nego \u0161to misli\u0161!","url":"https:\/\/drycured.com\/","logo":{"@type":"ImageObject","url":"https:\/\/drycured.com\/wp-content\/uploads\/2025\/03\/cropped-www.drycured.com_-1.png","@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#organizationLogo","width":499,"height":213},"image":{"@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#webpage","url":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/","name":"Slavonska doma\u0107a kobasica - drycured.com","description":"Slavonska doma\u0107a kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska doma\u0107a kobasica je slavonska trajna kobasica s paprikastim za\u010dinskim profilom, oblikovana za hladno dimljenje i postupno su\u0161enje.","inLanguage":"hr","isPartOf":{"@id":"https:\/\/drycured.com\/#website"},"breadcrumb":{"@id":"https:\/\/drycured.com\/recepti-baza\/hr-sl-005-slavonska-domaca-kobasica\/#breadcrumblist"},"datePublished":"2026-05-30T08:31:06+00:00","dateModified":"2026-06-05T02:40:27+00:00"},{"@type":"WebSite","@id":"https:\/\/drycured.com\/#website","url":"https:\/\/drycured.com\/","name":"drycured.com","description":"Napravi vlastiti suhomesnati specijalitet \u2013 lak\u0161e nego \u0161to misli\u0161!","inLanguage":"hr","publisher":{"@id":"https:\/\/drycured.com\/#organization"}}]}
+1549:		<main id="primary" class="site-main drycured-product-gate-v1-1"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Recipe","name":"Slavonska domaća kobasica","description":"# HR-SL-005 — Slavonska domaća kobasica ## 1. Identitet recepta - Kanonski naziv: Slavonska domaća kobasica - Alternativni nazivi: nisu posebno zabilježeni u primarnom izvoru - Država: Hrvatska - Regija: Slavonija - Mikroregija: širi prostor Slavonije, Baranje...","recipeCategory":"Suhomesnati proizvod","recipeCuisine":"Hrvatska","recipeYield":"10 kg mesne mase","totalTime":"P60D","recipeIngredient":["7,000 kg Svinjska plećka + vrat","3,000 kg Tvrda slanina","235 g Sol","135 g Slatka paprika","35 g Ljuta paprika","18 g Crni papar","40 g Bijeli luk","0,200 L Prokuhana i ohlađena voda za ekstrakciju češnjaka"],"recipeInstructions":[{"@type":"HowToStep","name":"Priprema mesa","text":"Sirovinu očistiti, ohladiti i pripremiti za mljevenje ili rezanje. Kritično: Meso i masnoća moraju ostati hladni."},{"@type":"HowToStep","name":"Mljevenje","text":"Meso mljeti prema receptu, bez nepotrebnog ponavljanja mljevenja. Kritično: Ako se masa lijepi i maže, rad prekinuti i ohladiti sirovinu."},{"@type":"HowToStep","name":"Miješanje","text":"Dodati sol, začine i predviđenu češnjakovu tekućinu te miješati do ravnomjernog rasporeda. Kritično: Nadjev ne smije postati topao ni pastozan."},{"@type":"HowToStep","name":"Odležavanje nadjeva","text":"Nadjev kratko odmoriti u hladnom prostoru. Kritično: Miris mora ostati čist, bez kiselih nota."},{"@type":"HowToStep","name":"Punjenje","text":"Puniti u pripremljena crijeva bez zračnih džepova. Kritično: Svaki mjehurić zraka treba probosti čistom iglom."},{"@type":"HowToStep","name":"Početna fermentacija / stabilizacija","text":"Kobasice objesiti u hladan i prozračan prostor da se nadjev smiri. Kritično: Ne počinjati dimljenje dok je površina mokra."},{"@type":"HowToStep","name":"Predsušenje","text":"Površinu prosušiti prije prvog dima. Kritično: Mokra površina prima dim nepravilno."},{"@type":"HowToStep","name":"Dimljenje","text":"Dimiti hladnim, tankim i suhim dimom u blagim ciklusima. Kritično: Dim ne smije biti topao, gust ni gorak."},{"@type":"HowToStep","name":"Sušenje","text":"Sušiti postupno u stabilnim uvjetima. Kritično: Izbjegavati tvrdu koru i presporo sušenje jezgre."},{"@type":"HowToStep","name":"Zrenje","text":"Zreti dok se presjek ne poveže, a miris ne zaokruži. Kritično: Ne koristiti proizvod ako se pojavi neugodan miris."},{"@type":"HowToStep","name":"Pakiranje i čuvanje","text":"Pakirati tek kad je proizvod stabilan i više ne otpušta vlagu. Kritično: Vakuum koristiti samo za potpuno stabilan proizvod."}]}</script>    <style>
+2183:                    <strong>10 kg / prema receptu</strong>
+2190:                    <span>Dimljenje</span>
+2195:                    <strong>prema receptu</strong>
+2199:                    <strong>postupno sušenje</strong>
+2207:                    <p class="dcv5-section-note">Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje.</p>
+2274:                    <h2><span>4</span>Tekućine i češnjak</h2>
+2275:                    <p class="dcv5-section-note">Tekućine se prikazuju prema izvornom receptu. Češnjak se prikazuje kao izravni dodatak, macerat ili procijeđena tekućina samo kada je takav postupak jasno naveden.</p>
+2283:        <p>8. Češnjak - Oblik: procijeđena tekućina od češnjaka - Količina češnjaka: 0,030–0,050 (Tekući) - Tekućina za ekstrakciju: prokuhana i ohlađena voda - Vrijeme ekstrakcije: 20–30 minuta - Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazu - Napomena: vlakna češnjaka ne dodavati izravno u nadjev</p>
+2286:        <h3>Prokuhana i ohlađena voda za ekstrakciju češnjaka</h3>
+2290:        <p>Radna količina za 40 g češnjaka: približno 200 ml tekućine. Vodu prvo prokuhati i potpuno ohladiti. Češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu aromatsku tekućinu, bez vlakana češnjaka.</p>
+2345:                                <h3>Dimljenje</h3>
+2349:                                <h3>Sušenje</h3>
+2350:                                <p>Sušenje mora biti postupno, bez tvrde kore i bez zadržavanja vlage u sredini.</p>
+2353:                                <h3>Zrenje</h3>
+2354:                                <p>Zrenje razvija miris, teksturu i stabilnost proizvoda.</p>
+2372:                                    <p>Sirovinu očistiti, ohladiti i pripremiti za mljevenje ili rezanje.</p>
+2379:                                    <h3>Mljevenje</h3><div class="drycured-granulation-display-core" style="margin:14px 0 18px;padding:16px 18px;border:1px solid #e0b45f;border-radius:16px;background:#fff6df;box-shadow:0 6px 18px rgba(90,60,20,.08);"><div style="font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:#8b5b18;font-weight:800;margin-bottom:8px;">Obavezna granulacija</div><h3 style="margin:0 0 10px;font-size:21px;line-height:1.25;">Mljevenje i obrada tvrde slanine</h3><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;"><div style="background:#fff;border:1px solid #efd9aa;border-radius:12px;padding:10px 12px;"><strong>Meso</strong><br>mljeti na rešetku 6 mm</div><div style="background:#fff;border:1px solid #efd9aa;border-radius:12px;padding:10px 12px;"><strong>Tvrda leđna slanina / masnoća</strong><br>ručno na kockice 4–6 mm</div><div style="background:#fff;border:1px solid #efd9aa;border-radius:12px;padding:10px 12px;"><strong>Preduvjet</strong><br>polusmrznuta</div></div><p style="margin:12px 0 0;"><strong>Cilj:</strong> jasan presjek bez razmazane masti</p><p style="margin:6px 0 0;"><strong>Kontrola:</strong> ako se masa počne lijepiti ili mast ostavlja film po posudi, obradu treba prekinuti i sirovinu vratiti na hlađenje</p></div>
+2380:                                    <p>Meso mljeti prema receptu, bez nepotrebnog ponavljanja mljevenja.</p>
+2388:                                    <p>Dodati sol, začine i predviđenu češnjakovu tekućinu te miješati do ravnomjernog rasporeda.</p>
+2403:                                    <h3>Punjenje</h3>
+2404:                                    <p>Puniti u pripremljena crijeva bez zračnih džepova.</p>
+2413:                                    <div class="dcv5-critical"><strong>Kritično:</strong> Ne počinjati dimljenje dok je površina mokra.</div>
+2419:                                    <h3>Predsušenje</h3>
+2427:                                    <h3>Dimljenje</h3>
+2435:                                    <h3>Sušenje</h3>
+2437:                                    <div class="dcv5-critical"><strong>Kritično:</strong> Izbjegavati tvrdu koru i presporo sušenje jezgre.</div>
+2443:                                    <h3>Zrenje</h3>
+2476:                                    <span class="dcv5-small-pill">Punjenje / oblikovanje</span>
+2479:                                <p><strong>Uzrok:</strong> Labavo punjenje ili loše oblikovanje.</p>
+2485:                                    <span class="dcv5-small-pill">Sušenje</span>
+2489:                                <p><strong>Rješenje:</strong> Smanjiti propuh, stabilizirati vlagu i produljiti sušenje.</p>
+2494:                                    <span class="dcv5-small-pill">Zrenje / čuvanje</span>
+2497:                                <p><strong>Uzrok:</strong> Kvarenje, previsoka temperatura ili presporo sušenje.</p>
+2538:                                <p>Neujednačena boja, pretvrda površina, blaga ljepljivost ili presporo sušenje. Korigirati uvjete i pratiti.</p>
+2577:                        <div class="dcv5-print-box"><span class="dcv5-field-label">Kalibar crijeva</span></div>
+2593:                    <a href="#tekucine">Tekućine i češnjak</a>
+2996:                '<p>Unesi početnu i trenutnu masu. Sustav izračunava gubitak mase i pomaže pratiti sušenje.</p>' +
+3004:                '<textarea class="dcv6-diary-notes" id="dcv6-diary-notes" rows="4" placeholder="Bilješke: miris, površina, boja, vlaga, dimljenje, korekcije uvjeta..."></textarea>' +
+3948:         * Brzi proizvodni sažetak: šarža, trajanje, dimljenje...
+4671:            const profile = {"code":"HR-SL-005","title":"Slavonska domaća kobasica","baseKg":10,"type":"Suhomesnati proizvod","ingredients":{"materials":[{"name":"Svinjska plećka + vrat","amount":"7,000 kg","percent":"70 %","rate":""},{"name":"Tvrda slanina","amount":"3,000 kg","percent":"30 %","rate":""}],"spices":[{"name":"Sol","amount":"235 g","percent":"2,35 %","rate":"23,5 g/kg"},{"name":"Slatka paprika","amount":"135 g","percent":"1,35 %","rate":"13,5 g/kg"},{"name":"Ljuta paprika","amount":"35 g","percent":"0,35 %","rate":"3,5 g/kg"},{"name":"Crni papar","amount":"18 g","percent":"0,18 %","rate":"1,8 g/kg"}],"liquids":[{"name":"Bijeli luk","amount":"40 g","percent":"0,4 %","rate":"4 g/kg"},{"name":"Prokuhana i ohlađena voda za ekstrakciju češnjaka","amount":"0,200 L","percent":"2 %","rate":"20 ml/kg"}]}};
+5350:                    'Mljevenje i rezanje': {
+5353:                        'Rešetka / rez': 'meso 8–10 mm; slanina 8–12 mm ručno',
+5360:                        'Cilj': 'ravnomjerna paprika, sol i češnjakova aroma'
+5368:                    'Punjenje': {
+5370:                        'Temperatura': 'hladna masa',
+5372:                        'Cilj': 'čvrsto punjenje bez zračnih džepova'
+5378:                        'Cilj': 'smirivanje nadjeva i priprema površine za predsušenje'
+5380:                    'Predsušenje': {
+5386:                    'Dimljenje': {
+5390:                        'Cilj': 'aroma i stabilizacija površine, ne brzo sušenje'
+5392:                    'Sušenje': {
+5398:                    'Zrenje': {
+5419:                    'Mljevenje': {
+5422:                        'Rešetka': '6–8 mm',
+5427:                        'Temperatura': 'hladna masa',
+5429:                        'Cilj': 'ravnomjerna sol, paprika i češnjakova tekućina'
+5437:                    'Punjenje': {
+5439:                        'Temperatura': 'hladna masa',
+5440:                        'Crijeva': 'svinjska 32–42 mm',
+5441:                        'Cilj': 'čvrsto punjenje bez zraka'
+5449:                    'Predsušenje': {
+5455:                    'Dimljenje': {
+5461:                    'Sušenje': {
+5467:                    'Zrenje': {
+5494:                    'Stabilizacija i predsušenje': {
+5500:                    'Dimljenje': {
+5506:                    'Sušenje': {
+5512:                    'Zrenje': {
+5599:                    'Mljevenje': {'Trajanje':'odmah nakon hlađenja','Temperatura':'0–4 °C','Rešetka':'prema receptu','Cilj':'ravnomjerna granulacija bez kašaste mase'},
+5600:                    'Miješanje': {'Trajanje':'8–12 min','Temperatura':'hladna masa','Kontrola':'nadjev ne smije postati topao','Cilj':'ravnomjeran raspored soli i začina'},
+5602:                    'Punjenje': {'Trajanje':'isti dan','Temperatura':'hladna masa','Crijeva':'prema receptu','Cilj':'čvrsto punjenje bez zraka'},
+5604:                    'Predsušenje': {'Trajanje':'24–48 h','Temperatura':'8–12 °C','Relativna vlaga':'80–85 %','Cilj':'površina suha na dodir prije prvog dima'},
+5605:                    'Dimljenje': {'Trajanje':'3–6 blagih ciklusa','Temperatura dima':'hladni dim, najviše 20–22 °C','Pauze':'obavezne između ciklusa','Cilj':'tanka dimna aroma bez gorčine'},
+5606:                    'Sušenje': {'Trajanje':'20–40 dana nakon dimljenja','Temperatura':'10–15 °C','Relativna vlaga':'70–80 %','Cilj':'gubitak mase bez tvrde kore'},
+5607:                    'Zrenje': {'Trajanje':'do stabilnog presjeka','Temperatura':'10–15 °C','Relativna vlaga':'65–75 %','Cilj':'povezan presjek, čist miris i zaokružen okus'},
+5613:                    'Stabilizacija i predsušenje': {'Trajanje':'5–7 dana','Temperatura':'6–10 °C','Relativna vlaga':'75–85 %','Cilj':'površina suha prije dima'},
+5614:                    'Dimljenje': {'Trajanje':'više blagih ciklusa','Temperatura dima':'hladni dim, najviše 20–22 °C','Pauze':'24–48 h između ciklusa','Cilj':'aroma i površinska stabilizacija'},
+5615:                    'Sušenje': {'Trajanje':'mjeseci, prema komadu','Temperatura':'10–15 °C','Relativna vlaga':'70–80 %','Cilj':'spori gubitak vlage bez tvrde kore'},
+5616:                    'Zrenje': {'Trajanje':'do stabilnog reza','Temperatura':'10–15 °C','Relativna vlaga':'65–75 %','Cilj':'čvrsta tekstura i čist miris'},
