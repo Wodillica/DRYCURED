@@ -1,0 +1,315 @@
+{
+  "contract_version": "dry_recipe_contract_v1.0_field_extracted_v2",
+  "source_wp": {
+    "post_id": 2973,
+    "title": "Kulenova seka",
+    "slug": "hr-sl-002-kulenova-seka",
+    "status": "publish",
+    "url": "https://drycured.com/recepti-baza/hr-sl-002-kulenova-seka/"
+  },
+  "identity": {
+    "canonical_name": "Kulenova seka",
+    "batch_size_kg": 10,
+    "public_status": "IN_REVIEW",
+    "qa_status": "CONTRACT_V2_READ_ONLY"
+  },
+  "materials": [
+    {
+      "source": "verified_process",
+      "path": "raw_materials_same_as_master",
+      "value": "True"
+    },
+    {
+      "source": "sections",
+      "path": "batch",
+      "value": "## 4. Standardna šaržan- Osnovna šarža: 10,00 kg mesne sirovine / osnovne sirovine, osim kod cijelih komada gdje se masa vodi prema komadun- Napomena o preračunavanju: količine iz izvora pretvoriti i prikazati u kg gdje je primjenjivo"
+    },
+    {
+      "source": "sections",
+      "path": "meat_composition",
+      "value": "## 5. Mesni sastav i anatomski dijelovin| Dio / sirovina | Količina (kg) | Uloga |n|---|---:|---|n| Svinjska plećka (masna) | 6,50 kg | Više masnoće nego u kulenu, T ≤ 4 °C |n| Tvrda slanina | 3,50 kg | Kockice 6–8 mm |"
+    },
+    {
+      "source": "sections",
+      "path": "tools",
+      "value": "## 9. Oprema i alatin- Noževi, daska, posude, vaga, mlin za meso, punilica, igla za probadanje, konop/špaga, pušnica, termometar i higrometarn- Mljevenje / rezanje: meso 8 mm; slanina ručno na 6–8 mm"
+    },
+    {
+      "source": "sections",
+      "path": "grinding_cutting",
+      "value": "## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: meso 8 mm; slanina ručno na 6–8 mmn- Temperatura sirovine: što bliže 0–4 °C tijekom rada"
+    }
+  ],
+  "spices": [
+    {
+      "source": "sections",
+      "path": "regional_identity",
+      "value": "## 3. Regionalni identitetnRecept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo."
+    },
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Kuhinjska sol | 0,240–0,260 | Nešto manje nego kulen |n| Slatka mljevena paprika | 0,140–0,180 | Slavonski tip |n| Ljuta mljevena paprika | 0,040–0,070 | Nešto ljuće od kulena |n| Bijeli luk | 0,030–0,050 | Tekući |n| Crni papar | 0,015–0,025 | Grubo mljeveni |"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    }
+  ],
+  "liquids": [
+    {
+      "source": "sections",
+      "path": "identity",
+      "value": "## 1. Identitet receptan- Kanonski naziv: Kulenova sekan- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Slavonijan- Mikroregija: širi prostor Slavonije, Baranje i Srijeman- Tip proizvoda: Kobasican- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finalizirani tekst v0.3n- Izvor primarnog recepta: NEW_HR_V2, linija 701n- Povezani WP zapisi: neman- Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak."
+    },
+    {
+      "source": "sections",
+      "path": "short_description",
+      "value": "## 2. Kratki opisnKulenova seka pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Kulenova seka je manja i brže zrela srodnica kulena, punjena u tanji omotač i namijenjena kraćem sušenju."
+    },
+    {
+      "source": "sections",
+      "path": "casings",
+      "value": "## 7. Crijeva / omotačin- Vrsta i kalibar: svinjska ravna ili tanka crijeva, najčešće 40–50 mmn- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "garlic",
+      "value": "## 8. Češnjakn- Oblik: procijeđena tekućina od češnjakan- Količina češnjaka: 0,030–0,050 (Tekući)n- Tekućina za ekstrakciju: prokuhana i ohlađena vodan- Vrijeme ekstrakcije: 20–30 minutan- Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazun- Napomena: vlakna češnjaka ne dodavati izravno u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "grinding_cutting",
+      "value": "## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: meso 8 mm; slanina ručno na 6–8 mmn- Temperatura sirovine: što bliže 0–4 °C tijekom rada"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    }
+  ],
+  "garlic": [
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Kuhinjska sol | 0,240–0,260 | Nešto manje nego kulen |n| Slatka mljevena paprika | 0,140–0,180 | Slavonski tip |n| Ljuta mljevena paprika | 0,040–0,070 | Nešto ljuće od kulena |n| Bijeli luk | 0,030–0,050 | Tekući |n| Crni papar | 0,015–0,025 | Grubo mljeveni |"
+    },
+    {
+      "source": "sections",
+      "path": "garlic",
+      "value": "## 8. Češnjakn- Oblik: procijeđena tekućina od češnjakan- Količina češnjaka: 0,030–0,050 (Tekući)n- Tekućina za ekstrakciju: prokuhana i ohlađena vodan- Vrijeme ekstrakcije: 20–30 minutan- Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazun- Napomena: vlakna češnjaka ne dodavati izravno u nadjev"
+    }
+  ],
+  "granulation": [
+    {
+      "source": "verified_process",
+      "path": "mljevenje_same_as_master",
+      "value": "True"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/diameter_mm",
+      "value": "40–55"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/napomena",
+      "value": "NE svinjski krompir (cekum 70–90 mm prevelik); kata je idealna za tanji presjek"
+    },
+    {
+      "source": "sections",
+      "path": "meat_composition",
+      "value": "## 5. Mesni sastav i anatomski dijelovin| Dio / sirovina | Količina (kg) | Uloga |n|---|---:|---|n| Svinjska plećka (masna) | 6,50 kg | Više masnoće nego u kulenu, T ≤ 4 °C |n| Tvrda slanina | 3,50 kg | Kockice 6–8 mm |"
+    },
+    {
+      "source": "sections",
+      "path": "casings",
+      "value": "## 7. Crijeva / omotačin- Vrsta i kalibar: svinjska ravna ili tanka crijeva, najčešće 40–50 mmn- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "tools",
+      "value": "## 9. Oprema i alatin- Noževi, daska, posude, vaga, mlin za meso, punilica, igla za probadanje, konop/špaga, pušnica, termometar i higrometarn- Mljevenje / rezanje: meso 8 mm; slanina ručno na 6–8 mm"
+    },
+    {
+      "source": "sections",
+      "path": "grinding_cutting",
+      "value": "## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: meso 8 mm; slanina ručno na 6–8 mmn- Temperatura sirovine: što bliže 0–4 °C tijekom rada"
+    }
+  ],
+  "casing": [
+    {
+      "source": "verified_process",
+      "path": "karakter",
+      "value": "Mlađa sestra kulena — identična smjesa kao slavonski kulen, ali u tanjem omotaču i s kraćim ciklusom. Namijenjena bržoj konzumaciji (2–3 mj), tradicionalno se jede na proljeće dok matični kulen još zri."
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/type",
+      "value": "svinjska kata (guzno crijevo) ili svinjski srednji slijepi crijevak"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/anatomy",
+      "value": "Rectum ili distalni Caecum"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/diameter_mm",
+      "value": "40–55"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/length_cm",
+      "value": "30–40"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/napomena",
+      "value": "NE svinjski krompir (cekum 70–90 mm prevelik); kata je idealna za tanji presjek"
+    },
+    {
+      "source": "sections",
+      "path": "identity",
+      "value": "## 1. Identitet receptan- Kanonski naziv: Kulenova sekan- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Slavonijan- Mikroregija: širi prostor Slavonije, Baranje i Srijeman- Tip proizvoda: Kobasican- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finalizirani tekst v0.3n- Izvor primarnog recepta: NEW_HR_V2, linija 701n- Povezani WP zapisi: neman- Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak."
+    },
+    {
+      "source": "sections",
+      "path": "short_description",
+      "value": "## 2. Kratki opisnKulenova seka pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Kulenova seka je manja i brže zrela srodnica kulena, punjena u tanji omotač i namijenjena kraćem sušenju."
+    },
+    {
+      "source": "sections",
+      "path": "casings",
+      "value": "## 7. Crijeva / omotačin- Vrsta i kalibar: svinjska ravna ili tanka crijeva, najčešće 40–50 mmn- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+    },
+    {
+      "source": "sections",
+      "path": "stuffing_tying",
+      "value": "## 13. Punjenje i vezanjen- Oblik / duljina: 20–30 cmn- Puniti kompaktno, bez zraka; vidljive mjehuriće odmah probosti čistom iglom"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    }
+  ],
+  "process": [
+    {
+      "source": "verified_process",
+      "path": "phases_override[0]/name",
+      "value": "Sušenje i zrenje"
+    },
+    {
+      "source": "sections",
+      "path": "regional_identity",
+      "value": "## 3. Regionalni identitetnRecept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo."
+    },
+    {
+      "source": "sections",
+      "path": "meat_preparation",
+      "value": "## 10. Priprema mesanSirovinu dobro ohladiti, odstraniti neželjeno vezivo i raditi u čistim uvjetima. Masnije dijelove obrađivati dok su čvrsti i hladni."
+    },
+    {
+      "source": "sections",
+      "path": "mixing_resting",
+      "value": "## 12. Miješanje i odležavanjenZačine ravnomjerno rasporediti po mesu i masnoći. Miješati dok se masa ne poveže i ujednačeno oboji. Kod recepata s odležavanjem nadjeva, masu držati pokrivenu na 2–6 °C."
+    },
+    {
+      "source": "sections",
+      "path": "stuffing_tying",
+      "value": "## 13. Punjenje i vezanjen- Oblik / duljina: 20–30 cmn- Puniti kompaktno, bez zraka; vidljive mjehuriće odmah probosti čistom iglom"
+    },
+    {
+      "source": "sections",
+      "path": "predrying",
+      "value": "## 14. Predsušenje / početna fermentacijan- Trajanje: 3–7 dana prije dimljenjan- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti"
+    },
+    {
+      "source": "sections",
+      "path": "smoking",
+      "value": "## 15. Dimljenjen- Protokol: hladni dim, najčešće 10–15 ciklusan- Dim mora biti hladan i blag; koristiti suho tvrdo drvo"
+    },
+    {
+      "source": "sections",
+      "path": "drying_aging",
+      "value": "## 16. Sušenje i zrenjen- Trajanje: 40–90 danan- Uvjeti: hladan, taman i prozračan prostor, bez naglog isušivanja površine"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    },
+    {
+      "source": "sections",
+      "path": "serving_storage",
+      "value": "## 18. Posluživanje i čuvanjen### Zrenje i čuvanjen- Zrenje: 40–90 danan- Čuvanje: suho, tamno, do 8 mjesecinn---"
+    }
+  ],
+  "errors": [
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    }
+  ],
+  "safety": [
+    {
+      "source": "verified_process",
+      "path": "ingredients_same_as_master",
+      "value": "True"
+    },
+    {
+      "source": "verified_process",
+      "path": "casing/type",
+      "value": "svinjska kata (guzno crijevo) ili svinjski srednji slijepi crijevak"
+    },
+    {
+      "source": "sections",
+      "path": "ingredients",
+      "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Kuhinjska sol | 0,240–0,260 | Nešto manje nego kulen |n| Slatka mljevena paprika | 0,140–0,180 | Slavonski tip |n| Ljuta mljevena paprika | 0,040–0,070 | Nešto ljuće od kulena |n| Bijeli luk | 0,030–0,050 | Tekući |n| Crni papar | 0,015–0,025 | Grubo mljeveni |"
+    },
+    {
+      "source": "sections",
+      "path": "mixing_resting",
+      "value": "## 12. Miješanje i odležavanjenZačine ravnomjerno rasporediti po mesu i masnoći. Miješati dok se masa ne poveže i ujednačeno oboji. Kod recepata s odležavanjem nadjeva, masu držati pokrivenu na 2–6 °C."
+    },
+    {
+      "source": "sections",
+      "path": "predrying",
+      "value": "## 14. Predsušenje / početna fermentacijan- Trajanje: 3–7 dana prije dimljenjan- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti"
+    },
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    },
+    {
+      "source": "sections",
+      "path": "calculator_status",
+      "value": "## 19. Kalkulator statusn- Spremno za kalkulator: da, uz korištenje srednje vrijednosti raspona i prikaz izvornog raspona korisnikun- Nedostaje: završna kalkulatorska vrijednost za automatski izračun ako se ne koristi raspon"
+    },
+    {
+      "source": "sections",
+      "path": "traceability",
+      "value": "## 20. Sljedivost izvoran| Izvor | Linija / ID | Uloga |n|---|---|---|n| NEW_HR_V2 | linija 701 | Primarni izvor recepta |n| HR_BATCH_01_FINAL_GATE_v0.3 | proizvodni plan | Urednički status |n| HR-SL-001 — Slavonski kulen | model v1 | Strukturni model kanonskog recepta |"
+    }
+  ],
+  "qa": {
+    "forbidden_terms": [],
+    "counts": {
+      "materials": 5,
+      "spices": 3,
+      "liquids": 6,
+      "garlic": 2,
+      "granulation": 7,
+      "casing": 11,
+      "process": 10,
+      "errors": 1,
+      "safety": 8
+    },
+    "v2_status": "RENDER_ADAPTER_CANDIDATE",
+    "missing_critical_groups": []
+  }
+}
