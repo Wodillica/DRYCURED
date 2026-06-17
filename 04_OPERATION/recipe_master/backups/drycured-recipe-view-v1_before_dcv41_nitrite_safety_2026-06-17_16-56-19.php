@@ -1646,9 +1646,6 @@ function dcv5_get_recipe_profile($post_id, $code = '') {
             if (function_exists('dcv40_existing_display_data_adapter_profile')) {
                 $dcv5_md_bridge_profile = dcv40_existing_display_data_adapter_profile($dcv5_md_bridge_profile, $code, $post_id);
             }
-            if (function_exists('dcv41_nitrite_safety_adapter_profile')) {
-                $dcv5_md_bridge_profile = dcv41_nitrite_safety_adapter_profile($dcv5_md_bridge_profile);
-            }
             return $dcv5_md_bridge_profile;
         }
     }
@@ -6957,76 +6954,6 @@ if (!function_exists('dcv40_existing_display_data_adapter_profile')) {
         ];
 
         $profile['dcv40_adapter_preview'] = true;
-
-        return $profile;
-    }
-}
-
-
-/**
- * DCV41 — Nitrite safety note adapter
- *
- * Ne mijenja dizajn.
- * Ne mijenja redoslijed blokova.
- * Dodaje sigurnosnu napomenu samo u postojeće note polje kod sastojka koji sadrži nitritnu sol.
- */
-if (!function_exists('dcv41_nitrite_safety_note_text')) {
-    function dcv41_nitrite_safety_note_text() {
-        return 'Oprez: nitritnu sol vagati precizno i ne prekoračiti navedenu količinu. Ne dodavati je od oka i ne kombinirati s drugim nitritnim mješavinama ako recept to izričito ne traži. Koristi se za stabilniju boju, prepoznatljiv suhomesnati profil i dodatnu sigurnost proizvoda. U kućnoj izradi može se izostaviti samo ako je recept vođen kao varijanta bez nitrita.';
-    }
-}
-
-if (!function_exists('dcv41_apply_nitrite_safety_notes_to_items')) {
-    function dcv41_apply_nitrite_safety_notes_to_items($items) {
-        if (!is_array($items)) {
-            return $items;
-        }
-
-        $note = dcv41_nitrite_safety_note_text();
-
-        foreach ($items as $i => $item) {
-            if (!is_array($item)) {
-                continue;
-            }
-
-            $name = isset($item['name']) ? (string) $item['name'] : '';
-            if ($name === '' && isset($item['naziv'])) {
-                $name = (string) $item['naziv'];
-            }
-
-            $name_lower = function_exists('mb_strtolower') ? mb_strtolower($name, 'UTF-8') : strtolower($name);
-
-            if (strpos($name_lower, 'nitrit') === false) {
-                continue;
-            }
-
-            $old_note = isset($item['note']) ? trim((string) $item['note']) : '';
-            $old_note_lower = function_exists('mb_strtolower') ? mb_strtolower($old_note, 'UTF-8') : strtolower($old_note);
-
-            if (strpos($old_note_lower, 'nitritnu sol vagati precizno') === false) {
-                $item['note'] = $old_note ? ($old_note . ' ' . $note) : $note;
-            }
-
-            $items[$i] = $item;
-        }
-
-        return $items;
-    }
-}
-
-if (!function_exists('dcv41_nitrite_safety_adapter_profile')) {
-    function dcv41_nitrite_safety_adapter_profile($profile) {
-        if (!is_array($profile)) {
-            return $profile;
-        }
-
-        if (isset($profile['spices']) && is_array($profile['spices'])) {
-            $profile['spices'] = dcv41_apply_nitrite_safety_notes_to_items($profile['spices']);
-        }
-
-        if (isset($profile['ingredients']['spices']) && is_array($profile['ingredients']['spices'])) {
-            $profile['ingredients']['spices'] = dcv41_apply_nitrite_safety_notes_to_items($profile['ingredients']['spices']);
-        }
 
         return $profile;
     }
