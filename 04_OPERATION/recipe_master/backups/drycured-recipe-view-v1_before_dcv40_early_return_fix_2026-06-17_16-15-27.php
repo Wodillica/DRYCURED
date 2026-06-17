@@ -1643,9 +1643,6 @@ function dcv5_get_recipe_profile($post_id, $code = '') {
     if (function_exists('drycured_md_v5_bridge_profile')) {
         $dcv5_md_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);
         if ($dcv5_md_bridge_profile) {
-            if (function_exists('dcv40_existing_display_data_adapter_profile')) {
-                $dcv5_md_bridge_profile = dcv40_existing_display_data_adapter_profile($dcv5_md_bridge_profile, $code, $post_id);
-            }
             return $dcv5_md_bridge_profile;
         }
     }

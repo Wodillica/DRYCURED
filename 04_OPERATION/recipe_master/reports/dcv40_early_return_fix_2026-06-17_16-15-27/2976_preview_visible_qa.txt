@@ -1,0 +1,6 @@
+10 kg / prema receptu: FAIL
+prema receptu: FAIL
+hladna masa: PASS
+Meso mljeti prema receptu: PASS
+Puniti u pripremljena crijeva: PASS
+BAD=2
