@@ -1,0 +1,13 @@
+4717-            ['day'=>'Nakon zrenja','title'=>'Pakiranje i čuvanje','text'=>'Pakirati tek kada je proizvod stabilan i površinski suh.','critical'=>'Pakiranje ne smije zarobiti vlagu.'],
+4718-        ];
+4719-
+4720-        $defaults = [
+4721-            'type' => 'Suhomesnati proizvod',
+4722-            'quick' => [
+4723:                ['label'=>'Šarža','value'=>'10 kg / prema receptu'],
+4724-                ['label'=>'Trajanje','value'=>'prema tipu proizvoda'],
+4725-                ['label'=>'Dimljenje','value'=>'hladni dim gdje je primjenjivo'],
+4726-                ['label'=>'Omotač','value'=>'prema receptu'],
+4727-                ['label'=>'Gubitak mase','value'=>'postupno sušenje'],
+4728-            ],
+4729-            'timeline' => $kobasica_timeline,

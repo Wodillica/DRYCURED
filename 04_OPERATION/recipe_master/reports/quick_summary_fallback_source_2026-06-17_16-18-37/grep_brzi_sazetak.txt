@@ -1,0 +1,35 @@
+1380-                <?php if ($image_url) : ?>
+1381-                    <figure class="dcv5-hero-media">
+1382-                        <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($recipe['title']); ?>">
+1383-                    </figure>
+1384-                <?php endif; ?>
+1385-            </div>
+1386-        </header>
+1387-
+1388:        <section class="dcv5-quick-strip" aria-label="Brzi proizvodni sažetak">
+1389-            <?php foreach ($recipe['quick'] as $item) : ?>
+1390-                <article class="dcv5-quick-card">
+1391-                    <span><?php echo esc_html($item['label']); ?></span>
+1392-                    <strong><?php echo esc_html($item['value']); ?></strong>
+1393-                </article>
+1394-            <?php endforeach; ?>
+1395-        </section>
+1396-
+--
+2337-            max-width: 920px !important;
+2338-            margin-bottom: 22px !important;
+2339-            color: #46536b !important;
+2340-            font-size: 15.5px !important;
+2341-            line-height: 1.7 !important;
+2342-        }
+2343-
+2344-        /*
+2345:         * Brzi proizvodni sažetak: šarža, trajanje, dimljenje...
+2346-         * Vrijednost mora biti glavna informacija.
+2347-         */
+2348-        body.single-dry_recipe .dcv5-quick-strip {
+2349-            display: grid !important;
+2350-            grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+2351-            gap: 12px !important;
+2352-            margin: 18px 0 24px !important;
+2353-        }

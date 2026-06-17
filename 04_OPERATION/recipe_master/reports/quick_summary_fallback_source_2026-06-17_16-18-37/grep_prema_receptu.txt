@@ -1,0 +1,133 @@
+4690-        ];
+4691-    }
+4692-}
+4693-
+4694-if (!function_exists('dcv12_defaults_for_family')) {
+4695-    function dcv12_defaults_for_family($family) {
+4696-        $kobasica_timeline = [
+4697-            ['day'=>'Dan 1','title'=>'Priprema mesa','text'=>'Sirovinu očistiti, ohladiti i pripremiti za mljevenje ili rezanje.','critical'=>'Meso i masnoća moraju ostati hladni.'],
+4698:            ['day'=>'Dan 1','title'=>'Mljevenje','text'=>'Meso mljeti prema receptu, bez nepotrebnog ponavljanja mljevenja.','critical'=>'Ako se masa lijepi i maže, rad prekinuti i ohladiti sirovinu.'],
+4699-            ['day'=>'Dan 1','title'=>'Miješanje','text'=>'Dodati sol, začine i predviđenu češnjakovu tekućinu te miješati do ravnomjernog rasporeda.','critical'=>'Nadjev ne smije postati topao ni pastozan.'],
+4700-            ['day'=>'Dan 1–2','title'=>'Odležavanje nadjeva','text'=>'Nadjev kratko odmoriti u hladnom prostoru.','critical'=>'Miris mora ostati čist, bez kiselih nota.'],
+4701-            ['day'=>'Dan 2','title'=>'Punjenje','text'=>'Puniti u pripremljena crijeva bez zračnih džepova.','critical'=>'Svaki mjehurić zraka treba probosti čistom iglom.'],
+4702-            ['day'=>'Dan 2–3','title'=>'Početna fermentacija / stabilizacija','text'=>'Kobasice objesiti u hladan i prozračan prostor da se nadjev smiri.','critical'=>'Ne počinjati dimljenje dok je površina mokra.'],
+4703-            ['day'=>'Dan 3–5','title'=>'Predsušenje','text'=>'Površinu prosušiti prije prvog dima.','critical'=>'Mokra površina prima dim nepravilno.'],
+4704-            ['day'=>'Dan 5–20','title'=>'Dimljenje','text'=>'Dimiti hladnim, tankim i suhim dimom u blagim ciklusima.','critical'=>'Dim ne smije biti topao, gust ni gorak.'],
+4705-            ['day'=>'Dan 20–50','title'=>'Sušenje','text'=>'Sušiti postupno u stabilnim uvjetima.','critical'=>'Izbjegavati tvrdu koru i presporo sušenje jezgre.'],
+4706-            ['day'=>'Dan 50–60','title'=>'Zrenje','text'=>'Zreti dok se presjek ne poveže, a miris ne zaokruži.','critical'=>'Ne koristiti proizvod ako se pojavi neugodan miris.'],
+--
+4715-            ['day'=>'Mjesec 3–6','title'=>'Sušenje','text'=>'Sušiti u stabilnim uvjetima, uz kontrolu površine, mirisa i sporog gubitka vlage.','critical'=>'Tvrda površina i mekana unutrašnjost znak su prebrzog sušenja.'],
+4716-            ['day'=>'Mjesec 6–12','title'=>'Zrenje','text'=>'Zriti dok tekstura ne postane čvrsta, miris čist, a rez stabilan.','critical'=>'Kod neugodnog mirisa proizvod ne treba spašavati.'],
+4717-            ['day'=>'Nakon zrenja','title'=>'Pakiranje i čuvanje','text'=>'Pakirati tek kada je proizvod stabilan i površinski suh.','critical'=>'Pakiranje ne smije zarobiti vlagu.'],
+4718-        ];
+4719-
+4720-        $defaults = [
+4721-            'type' => 'Suhomesnati proizvod',
+4722-            'quick' => [
+4723:                ['label'=>'Šarža','value'=>'10 kg / prema receptu'],
+4724-                ['label'=>'Trajanje','value'=>'prema tipu proizvoda'],
+4725-                ['label'=>'Dimljenje','value'=>'hladni dim gdje je primjenjivo'],
+4726:                ['label'=>'Omotač','value'=>'prema receptu'],
+4727-                ['label'=>'Gubitak mase','value'=>'postupno sušenje'],
+4728-            ],
+4729-            'timeline' => $kobasica_timeline,
+4730-            'profile' => [
+4731-                ['name'=>'Paprika','score'=>6],
+4732-                ['name'=>'Dim','score'=>6],
+4733-                ['name'=>'Ljutina','score'=>3],
+4734-                ['name'=>'Slanoća','score'=>6],
+--
+4764-                ['label'=>'Omotač','value'=>'bez crijeva'],
+4765-                ['label'=>'Gubitak mase','value'=>'postupno zrenje'],
+4766-            ];
+4767-            $defaults['timeline'] = $whole_timeline;
+4768-        } elseif (in_array($family, ['krvavica','iznutrice','tlacenica_svargl'], true)) {
+4769-            $defaults['type'] = 'Iznutrice';
+4770-            $defaults['quick'] = [
+4771-                ['label'=>'Šarža','value'=>'10 kg mase'],
+4772:                ['label'=>'Trajanje','value'=>'prema receptu'],
+4773:                ['label'=>'Toplinska obrada','value'=>'prema receptu'],
+4774:                ['label'=>'Omotač','value'=>'prema receptu'],
+4775-                ['label'=>'Čuvanje','value'=>'hladno'],
+4776-            ];
+4777-        }
+4778-
+4779-        return $defaults;
+4780-    }
+4781-}
+4782-
+--
+5318-
+5319-            if (document.querySelector('#kronologija .dcv111-phase-specs')) {
+5320-                return;
+5321-            }
+5322-
+5323-            const specs = {
+5324-                kobasica: {
+5325-                    'Priprema mesa': {'Trajanje':'isti dan','Temperatura':'0–4 °C','Kontrola':'raditi brzo i hladno','Cilj':'spriječiti razmazivanje masnoće'},
+5326:                    'Mljevenje': {'Trajanje':'odmah nakon hlađenja','Temperatura':'0–4 °C','Rešetka':'prema receptu','Cilj':'ravnomjerna granulacija bez kašaste mase'},
+5327-                    'Miješanje': {'Trajanje':'8–12 min','Temperatura':'hladna masa','Kontrola':'nadjev ne smije postati topao','Cilj':'ravnomjeran raspored soli i začina'},
+5328-                    'Odležavanje nadjeva': {'Trajanje':'12–24 h','Temperatura':'2–6 °C','Kontrola':'pokriveno, bez isušivanja','Cilj':'stabilan miris i povezivanje začina'},
+5329:                    'Punjenje': {'Trajanje':'isti dan','Temperatura':'hladna masa','Crijeva':'prema receptu','Cilj':'čvrsto punjenje bez zraka'},
+5330-                    'Početna fermentacija / stabilizacija': {'Trajanje':'12–24 h','Temperatura':'8–12 °C','Relativna vlaga':'80–85 %','Cilj':'blaga stabilizacija boje, mirisa i vezanja nadjeva'},
+5331-                    'Predsušenje': {'Trajanje':'24–48 h','Temperatura':'8–12 °C','Relativna vlaga':'80–85 %','Cilj':'površina suha na dodir prije prvog dima'},
+5332-                    'Dimljenje': {'Trajanje':'3–6 blagih ciklusa','Temperatura dima':'hladni dim, najviše 20–22 °C','Pauze':'obavezne između ciklusa','Cilj':'tanka dimna aroma bez gorčine'},
+5333-                    'Sušenje': {'Trajanje':'20–40 dana nakon dimljenja','Temperatura':'10–15 °C','Relativna vlaga':'70–80 %','Cilj':'gubitak mase bez tvrde kore'},
+5334-                    'Zrenje': {'Trajanje':'do stabilnog presjeka','Temperatura':'10–15 °C','Relativna vlaga':'65–75 %','Cilj':'povezan presjek, čist miris i zaokružen okus'},
+5335-                    'Pakiranje i čuvanje': {'Trajanje':'nakon stabilnog sušenja','Uvjet':'bez otpuštanja vlage','Pakiranje':'papir/prozračno; vakuum samo za stabilan proizvod','Cilj':'čuvanje bez kondenzacije'}
+5336-                },
+5337-                whole: {
+--
+5463-            strpos($name_lower, 'rum') !== false ||
+5464-            strpos($name_lower, 'rakija') !== false ||
+5465-            strpos($name_lower, 'vino') !== false ||
+5466-            strpos($name_lower, 'voda') !== false ||
+5467-            strpos($name_lower, 'tekuć') !== false ||
+5468-            strpos($name_lower, 'tekuc') !== false;
+5469-
+5470-        if ($is_liquid_spice) {
+5471:            $note = $item['note'] ?? 'Aromatska tekućina dodaje se u maloj količini prema receptu.';
+5472-
+5473-            if ($code === 'HR-SL-006' && strpos($name_lower, 'rum') !== false) {
+5474-                $liquids[] = [
+5475-                    'name' => 'Rum',
+5476-                    'amount' => '0,040 L',
+5477-                    'percent' => '0,40 %',
+5478-                    'rate' => '4 ml/kg',
+5479-                    'note' => $note,
+--
+5577-    if ($has_garlic && !$has_extraction_liquid && $garlic_grams !== null && $garlic_grams > 0) {
+5578-        $ml = 200;
+5579-        $liters = $ml / 1000;
+5580-
+5581-        $note_lower = mb_strtolower($garlic_note, 'UTF-8');
+5582-
+5583-        if (strpos($note_lower, 'vino') !== false && strpos($note_lower, 'voda') !== false) {
+5584-            $liquid_name = 'Mješavina vode i vina za ekstrakciju češnjaka';
+5585:            $liquid_note = 'Tekućinu pripremiti prema receptu: voda mora biti prokuhana i potpuno ohlađena, vino hladno. Češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu tekućinu.';
+5586-        } elseif (strpos($note_lower, 'vino') !== false) {
+5587-            $liquid_name = 'Vino za ekstrakciju češnjaka';
+5588-            $liquid_note = 'Češnjak zgnječiti, namakati 20–30 minuta u hladnom vinu, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu tekućinu, bez vlakana češnjaka.';
+5589-        } else {
+5590-            $liquid_name = 'Prokuhana i ohlađena voda za ekstrakciju češnjaka';
+5591-            $liquid_note = 'Vodu prvo prokuhati i potpuno ohladiti. Češnjak zgnječiti, namakati 20–30 minuta, promiješati i procijediti kroz gazu. U smjesu dodati samo procijeđenu aromatsku tekućinu, bez vlakana češnjaka.';
+5592-        }
+5593-
+--
+6131-            '$1Suhi pac i začinski premaz$3',
+6132-            $content,
+6133-            1
+6134-        );
+6135-
+6136-        // Preimenuj opis bloka, ali samo kod cijelih komada.
+6137-        $content = str_replace(
+6138-            'Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer.',
+6139:            'Sastojci suhog paca i začinskog premaza prikazuju se u gramima i g/kg. Pac se ravnomjerno utrljava u površinu komada, a meso se drži na hladnom i okreće prema receptu.',
+6140-            $content
+6141-        );
+6142-
+6143-        return $content;
+6144-    }
+6145-}
+6146-
+6147-// Vrlo kasno, nakon ranijih v0.5/v0.6/v1.1 cleanup slojeva.
