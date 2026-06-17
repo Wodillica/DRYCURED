@@ -1,0 +1,276 @@
+{
+  "post_id": 2976,
+  "title": "Slavonska domaća kobasica",
+  "display_lock": "EXISTING_DISPLAY_ONLY",
+  "quick_summary": {
+    "batch": "10 kg",
+    "type": "Kobasica",
+    "casing": "32–40"
+  },
+  "materials_block": {
+    "lean_meat_total_kg": "7.5",
+    "fat_total_kg": "2.5",
+    "details": [
+      {
+        "part": "plećka (rame)",
+        "kg": "3"
+      },
+      {
+        "part": "but (gornji dio)",
+        "kg": "1.5"
+      },
+      {
+        "part": "vratina",
+        "kg": "1.5"
+      },
+      {
+        "part": "obresci od komadanja",
+        "kg": "1.5"
+      },
+      {
+        "part": "tvrda leđna slanina",
+        "kg": "2.5"
+      }
+    ]
+  },
+  "spices_block": {
+    "items_detected": [
+      {
+        "source": "verified_process",
+        "path": "ingredients[0]/naziv",
+        "value": "morska ili kamena sol"
+      },
+      {
+        "source": "verified_process",
+        "path": "ingredients[1]/naziv",
+        "value": "nitritna sol (0,6 % NaNO₂)"
+      },
+      {
+        "source": "verified_process",
+        "path": "ingredients[2]/naziv",
+        "value": "slatka paprika"
+      },
+      {
+        "source": "verified_process",
+        "path": "ingredients[3]/naziv",
+        "value": "ljuta paprika"
+      },
+      {
+        "source": "verified_process",
+        "path": "ingredients[5]/naziv",
+        "value": "crni papar"
+      },
+      {
+        "source": "sections",
+        "path": "short_description",
+        "value": "## 2. Kratki opisnSlavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje."
+      },
+      {
+        "source": "sections",
+        "path": "regional_identity",
+        "value": "## 3. Regionalni identitetnRecept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo."
+      },
+      {
+        "source": "sections",
+        "path": "ingredients",
+        "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,220–0,250 |  |n| Slatka paprika | 0,120–0,150 |  |n| Ljuta paprika | 0,020–0,050 |  |n| Bijeli luk | 0,030–0,050 | Tekući |n| Crni papar | 0,015–0,020 |  |"
+      },
+      {
+        "source": "sections",
+        "path": "mistakes_solutions",
+        "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+      }
+    ]
+  },
+  "garlic_block": {
+    "mode": "procijeđena tekućina od češnjaka",
+    "evidence": [
+      {
+        "source": "verified_process",
+        "path": "ingredients[4]/naziv",
+        "value": "češnjak"
+      },
+      {
+        "source": "sections",
+        "path": "ingredients",
+        "value": "## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,220–0,250 |  |n| Slatka paprika | 0,120–0,150 |  |n| Ljuta paprika | 0,020–0,050 |  |n| Bijeli luk | 0,030–0,050 | Tekući |n| Crni papar | 0,015–0,020 |  |"
+      },
+      {
+        "source": "sections",
+        "path": "garlic",
+        "value": "## 8. Češnjakn- Oblik: procijeđena tekućina od češnjakan- Količina češnjaka: 0,030–0,050 (Tekući)n- Tekućina za ekstrakciju: prokuhana i ohlađena vodan- Vrijeme ekstrakcije: 20–30 minutan- Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazun- Napomena: vlakna češnjaka ne dodavati izravno u nadjev"
+      }
+    ]
+  },
+  "granulation_block": {
+    "meat_plate_mm": "6",
+    "fat_processing": "ručno na kockice 4–6 mm",
+    "fat_condition": "polusmrznuta"
+  },
+  "casing_block": {
+    "type": "svinjska tanka crijeva",
+    "anatomy": "Jejunum/ileum",
+    "diameter_mm": "32–40",
+    "length_cm": "25–35",
+    "soaking_text": "## 7. Crijeva / omotačin- Vrsta i kalibar: svinjska tanka ili ravna crijeva, najčešće 32–42 mm; kada recept navodi drukčiji kalibar, zadržati izvorni kalibarn- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev"
+  },
+  "process_blocks": {
+    "stuffing": [
+      {
+        "source": "sections",
+        "path": "stuffing_tying",
+        "value": "## 13. Punjenje i vezanjen- Oblik / duljina: 20–35 cm, ovisno o lokalnom običaju i crijevun- Puniti kompaktno, bez zraka; vidljive mjehuriće odmah probosti čistom iglom"
+      },
+      {
+        "source": "sections",
+        "path": "mistakes_solutions",
+        "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+      }
+    ],
+    "smoking": [
+      {
+        "source": "sections",
+        "path": "short_description",
+        "value": "## 2. Kratki opisnSlavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje."
+      },
+      {
+        "source": "sections",
+        "path": "predrying",
+        "value": "## 14. Predsušenje / početna fermentacijan- Trajanje: 1–3 dana prije dimljenja, dok površina ne bude suha na dodirn- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti"
+      },
+      {
+        "source": "sections",
+        "path": "smoking",
+        "value": "## 15. Dimljenjen- Protokol: hladni dim u više blagih ciklusa, najčešće 3–10 ciklusa, uz pauze između dimljenjan- Dim mora biti hladan i blag; koristiti suho tvrdo drvo"
+      },
+      {
+        "source": "sections",
+        "path": "mistakes_solutions",
+        "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+      },
+      {
+        "source": "sections",
+        "path": "serving_storage",
+        "value": "## 18. Posluživanje i čuvanjen### Zrenje i čuvanjen- Sušena varijanta: 2–4 tjednan- Svježa (nedimljena): potrošiti u 3–5 dana ili zamrznutin- Dimljena: do 6 mjeseci na suhom i hladnomnn---"
+      }
+    ],
+    "drying_aging": [
+      {
+        "source": "verified_process",
+        "path": "phases_override[0]/name",
+        "value": "Sušenje i zrenje"
+      },
+      {
+        "source": "sections",
+        "path": "short_description",
+        "value": "## 2. Kratki opisnSlavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje."
+      },
+      {
+        "source": "sections",
+        "path": "regional_identity",
+        "value": "## 3. Regionalni identitetnRecept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo."
+      },
+      {
+        "source": "sections",
+        "path": "predrying",
+        "value": "## 14. Predsušenje / početna fermentacijan- Trajanje: 1–3 dana prije dimljenja, dok površina ne bude suha na dodirn- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti"
+      },
+      {
+        "source": "sections",
+        "path": "drying_aging",
+        "value": "## 16. Sušenje i zrenjen- Trajanje: 30–90 dana, ovisno o kalibru, masnoći i željenoj suhoćin- Uvjeti: hladan, taman i prozračan prostor, bez naglog isušivanja površine"
+      },
+      {
+        "source": "verified_process",
+        "path": "phases_override[0]/name",
+        "value": "Sušenje i zrenje"
+      },
+      {
+        "source": "sections",
+        "path": "regional_identity",
+        "value": "## 3. Regionalni identitetnRecept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo."
+      },
+      {
+        "source": "sections",
+        "path": "drying_aging",
+        "value": "## 16. Sušenje i zrenjen- Trajanje: 30–90 dana, ovisno o kalibru, masnoći i željenoj suhoćin- Uvjeti: hladan, taman i prozračan prostor, bez naglog isušivanja površine"
+      },
+      {
+        "source": "sections",
+        "path": "mistakes_solutions",
+        "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+      },
+      {
+        "source": "sections",
+        "path": "serving_storage",
+        "value": "## 18. Posluživanje i čuvanjen### Zrenje i čuvanjen- Sušena varijanta: 2–4 tjednan- Svježa (nedimljena): potrošiti u 3–5 dana ili zamrznutin- Dimljena: do 6 mjeseci na suhom i hladnomnn---"
+      }
+    ]
+  },
+  "errors_block": [
+    {
+      "source": "sections",
+      "path": "mistakes_solutions",
+      "value": "## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše"
+    }
+  ],
+  "safety_block": [
+    {
+      "source": "verified_process",
+      "path": "ingredients[0]/naziv",
+      "value": "morska ili kamena sol"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[0]/kolicina_g",
+      "value": "220"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[1]/naziv",
+      "value": "nitritna sol (0,6 % NaNO₂)"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[1]/kolicina_g",
+      "value": "20"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[2]/naziv",
+      "value": "slatka paprika"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[2]/kolicina_g_min",
+      "value": "180"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[2]/kolicina_g_max",
+      "value": "230"
+    },
+    {
+      "source": "verified_process",
+      "path": "ingredients[2]/napomena",
+      "value": "tradicionalno svaka kuća ima vlastiti omjer"
+    }
+  ],
+  "qa": {
+    "bad": 0,
+    "required_checks": {
+      "lean_meat_total_kg": true,
+      "fat_total_kg": true,
+      "meat_plate_mm": true,
+      "fat_processing": true,
+      "casing_type": true,
+      "casing_diameter": true,
+      "stuffing_process": true,
+      "smoking_process": true,
+      "drying_aging_process": true,
+      "errors": true
+    },
+    "forbidden_hits": [],
+    "pilot_status": "ADAPTER_PAYLOAD_READY"
+  }
+}

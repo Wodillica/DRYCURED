@@ -1,0 +1,14 @@
+field,status
+lean_meat_total_kg,PASS
+fat_total_kg,PASS
+meat_plate_mm,PASS
+fat_processing,PASS
+casing_type,PASS
+casing_diameter,PASS
+stuffing_process,PASS
+smoking_process,PASS
+drying_aging_process,PASS
+errors,PASS
+forbidden_hits,
+BAD,0
+pilot_status,ADAPTER_PAYLOAD_READY
