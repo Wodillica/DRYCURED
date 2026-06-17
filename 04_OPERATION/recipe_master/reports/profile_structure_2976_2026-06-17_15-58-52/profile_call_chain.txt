@@ -1,0 +1,32 @@
+730:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+1636:function dcv5_get_recipe_profile($post_id, $code = '') {
+1640:     * MD-import pilot profili moraju biti dostupni kroz samu dcv5_get_recipe_profile()
+1646:            return $dcv5_md_bridge_profile;
+1666:    if (function_exists('dcv12_apply_final_profile_overrides')) {
+1667:        $profile = dcv12_apply_final_profile_overrides($profile, $code);
+1678:    if (function_exists('dcv20_source_lock_profile')) {
+1679:        $profile = dcv20_source_lock_profile($profile, $code, $post_id);
+1682:    if (function_exists('dcv31_hrsl001_final_profile_source_lock')) {
+1683:        $profile = dcv31_hrsl001_final_profile_source_lock($profile, $code, $post_id);
+1686:    return $profile;
+2925:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+3221:    $recipe = dcv5_get_recipe_profile($post_id, $code);
+3482:                $dcv6_footer_profile = function_exists('dcv5_get_recipe_profile') ? dcv5_get_recipe_profile($dcv6_footer_post_id, $dcv6_footer_code) : null;
+3640:    if (!dcv5_get_recipe_profile($post_id, $code) || strpos($content, 'dcv5-recipe') === false) {
+5201:            return $profile;
+5246:        return $profile;
+5436:if (!function_exists('dcv12_apply_final_profile_overrides')) {
+5437:    function dcv12_apply_final_profile_overrides($profile, $code) {
+5439:        return $profile;
+5599:    return $profile;
+5902:            return $profile;
+5975:            return $profile;
+6039:        return $profile;
+6227:if (!function_exists('dcv20_source_lock_profile')) {
+6228:    function dcv20_source_lock_profile($profile, $code, $post_id = 0) {
+6230:            return $profile;
+6323:        return $profile;
+6553:if (!function_exists('dcv31_hrsl001_final_profile_source_lock')) {
+6554:    function dcv31_hrsl001_final_profile_source_lock($profile, $code, $post_id = 0) {
+6556:            return $profile;
+6650:        return dcv31_hrsl001_sanitize_value($profile);
