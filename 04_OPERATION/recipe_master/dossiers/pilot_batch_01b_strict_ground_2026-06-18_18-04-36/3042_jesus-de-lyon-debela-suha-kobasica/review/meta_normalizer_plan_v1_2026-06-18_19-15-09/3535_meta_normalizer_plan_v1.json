@@ -1,0 +1,412 @@
+{
+    "generated_at": "2026-06-18T19:15:09+00:00",
+    "plan_status": "PLAN_READY_PRIVATE_CLONE_ONLY",
+    "mode": "READ_ONLY_META_NORMALIZER_PLAN",
+    "wordpress_write_allowed_now": false,
+    "public_update_allowed": false,
+    "source_post_write_allowed": false,
+    "allowed_future_target": "PRIVATE_CLONE_3535_ONLY",
+    "forbidden_target": "PUBLIC_SOURCE_3042",
+    "posts": {
+        "reference_2976": {
+            "ID": 2976,
+            "title": "Slavonska domaća kobasica",
+            "name": "hr-sl-005-slavonska-domaca-kobasica",
+            "status": "publish",
+            "type": "dry_recipe",
+            "permalink": "https://drycured.com/recepti-baza/hr-sl-005-slavonska-domaca-kobasica/"
+        },
+        "source_3042": {
+            "ID": 3042,
+            "title": "Jésus de Lyon – debela suha kobasica",
+            "name": "jesus-de-lyon-debela-suha-kobasica",
+            "status": "publish",
+            "type": "dry_recipe",
+            "permalink": "https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/"
+        },
+        "clone_3535": {
+            "ID": 3535,
+            "title": "PRIVATE PREVIEW — Jésus de Lyon – debela suha kobasica",
+            "name": "private-preview-3042-jesus-de-lyon-dossier-only-20260618-184742",
+            "status": "private",
+            "type": "dry_recipe",
+            "permalink": "https://drycured.com/?post_type=dry_recipe&p=3535"
+        }
+    },
+    "meta_comparison": {
+        "2976": {
+            "_dry_recipe_id": {
+                "exists": true,
+                "length": 9,
+                "value": "HR-SL-005",
+                "preview": "HR-SL-005",
+                "json_valid": false
+            },
+            "dry_recipe_id": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_recipe_id": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_image_url": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_full_markdown": {
+                "exists": true,
+                "length": 5856,
+                "value": "# HR-SL-005 — Slavonska domaća kobasica\n\n## 1. Identitet recepta\n- Kanonski naziv: Slavonska domaća kobasica\n- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvoru\n- Država: Hrvatska\n- Regija: Slavonija\n- Mikroregija: širi prostor Slavonije, Baranje i Srijema\n- Tip proizvoda: Kobasica\n- Kategorija: trajni suhomesnati proizvod\n- Status: kanonski recept Batch 01 — finalizirani tekst v0.3\n- Izvor primarnog recepta: NEW_HR_V2, linija 823\n- Povezani WP zapisi: 2187:HR-SLV-KOB-ZOZP-001\n- Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak.\n\n## 2. Kratki opis\nSlavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje.\n\n## 3. Regionalni identitet\nRecept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo.\n\n## 4. Standardna šarža\n- Osnovna šarža: 10,00 kg mesne sirovine / osnovne sirovine, osim kod cijelih komada gdje se masa vodi prema komadu\n- Napomena o preračunavanju: količine iz izvora pretvoriti i prikazati u kg gdje je primjenjivo\n\n## 5. Mesni sastav i anatomski dijelovi\n| Dio / sirovina | Količina (kg) | Uloga |\n|---|---:|---|\n| Svinjska plećka + vrat | 7,00 kg | Mješavina, malo masnoće |\n| Tvrda slanina | 3,00 kg | osnovna sirovina |\n\n## 6. Sastojci i začini\n| Sastojak | Količina za 10 kg (kg) | Napomena |\n|---|---:|---|\n| Sol | 0,220–0,250 |  |\n| Slatka paprika | 0,120–0,150 |  |\n| Ljuta paprika | 0,020–0,050 |  |\n| Bijeli luk | 0,030–0,050 | Tekući |\n| Crni papar | 0,015–0,020 |  |\n\n## 7. Crijeva / omotači\n- Vrsta i kalibar: svinjska tanka ili ravna crijeva, najčešće 32–42 mm; kada recept navodi drukčiji kalibar, zadržati izvorni kalibar\n- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotača\n- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisa\n- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev\n\n## 8. Češnjak\n- Oblik: procijeđena tekućina od češnjaka\n- Količina češnjaka: 0,030–0,050 (Tekući)\n- Tekućina za ekstrakciju: prokuhana i ohlađena voda\n- Vrijeme ekstrakcije: 20–30 minuta\n- Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazu\n- Napomena: vlakna češnjaka ne dodavati izravno u nadjev\n\n## 9. Oprema i alati\n- Noževi, daska, posude, vaga, mlin za meso, punilica, igla za probadanje, konop/špaga, pušnica, termometar i higrometar\n- Mljevenje / rezanje: meso najčešće 6–8 mm; masniji dio sitnije rezati ili mljeti prema tipu kobasice\n\n## 10. Priprema mesa\nSirovinu dobro ohladiti, odstraniti neželjeno vezivo i raditi u čistim uvjetima. Masnije dijelove obrađivati dok su čvrsti i hladni.\n\n## 11. Mljevenje / rezanje\n- Standard prema tipu proizvoda: meso najčešće 6–8 mm; masniji dio sitnije rezati ili mljeti prema tipu kobasice\n- Temperatura sirovine: što bliže 0–4 °C tijekom rada\n\n## 12. Miješanje i odležavanje\nZačine ravnomjerno rasporediti po mesu i masnoći. Miješati dok se masa ne poveže i ujednačeno oboji. Kod recepata s odležavanjem nadjeva, masu držati pokrivenu na 2–6 °C.\n\n## 13. Punjenje i vezanje\n- Oblik / duljina: 20–35 cm, ovisno o lokalnom običaju i crijevu\n- Puniti kompaktno, bez zraka; vidljive mjehuriće odmah probosti čistom iglom\n\n## 14. Predsušenje / početna fermentacija\n- Trajanje: 1–3 dana prije dimljenja, dok površina ne bude suha na dodir\n- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti\n\n## 15. Dimljenje\n- Protokol: hladni dim u više blagih ciklusa, najčešće 3–10 ciklusa, uz pauze između dimljenja\n- Dim mora biti hladan i blag; koristiti suho tvrdo drvo\n\n## 16. Sušenje i zrenje\n- Trajanje: 30–90 dana, ovisno o kalibru, masnoći i željenoj suhoći\n- Uvjeti: hladan, taman i prozračan prostor, bez naglog isušivanja površine\n\n## 17. Najčešće greške i rješenja\n| Problem | Mogući uzrok | Konkretno rješenje |\n|---|---|---|\n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |\n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |\n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |\n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |\n| Prejak dim i gorka aroma | Previše dima, vlažno drvo ili premale pauze između ciklusa | Koristiti suho tvrdo drvo, dimiti kraće i ostaviti dovoljno pauze između ciklusa |\n\n## 18. Posluživanje i čuvanje\n### Zrenje i čuvanje\n- Sušena varijanta: 2–4 tjedna\n- Svježa (nedimljena): potrošiti u 3–5 dana ili zamrznuti\n- Dimljena: do 6 mjeseci na suhom i hladnom\n\n---\n\n## 19. Kalkulator status\n- Spremno za kalkulator: da, uz korištenje srednje vrijednosti raspona i prikaz izvornog raspona korisniku\n- Nedostaje: završna kalkulatorska vrijednost za automatski izračun ako se ne koristi raspon\n\n## 20. Sljedivost izvora\n| Izvor | Linija / ID | Uloga |\n|---|---|---|\n| NEW_HR_V2 | linija 823 | Primarni izvor recepta |\n| HR_BATCH_01_FINAL_GATE_v0.3 | proizvodni plan | Urednički status |\n| HR-SL-001 — Slavonski kulen | model v1 | Strukturni model kanonskog recepta |\n",
+                "preview": "# HR-SL-005 — Slavonska domaća kobasica\n\n## 1. Identitet recepta\n- Kanonski naziv: Slavonska domaća kobasica\n- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvoru\n- Država: Hrvatska\n- Regija: Slavonija\n- Mikroregija: širi prostor Slavonije, Baranje i Srijema\n- Tip proizvoda: Kobasica\n- Kategorija: trajni suhomesnati proizvod\n- Status: kanonski r",
+                "json_valid": false
+            },
+            "_dry_recipe_sections": {
+                "exists": true,
+                "length": 6136,
+                "value": "{\"identity\":\"## 1. Identitet receptan- Kanonski naziv: Slavonska domaća kobasican- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Slavonijan- Mikroregija: širi prostor Slavonije, Baranje i Srijeman- Tip proizvoda: Kobasican- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finalizirani tekst v0.3n- Izvor primarnog recepta: NEW_HR_V2, linija 823n- Povezani WP zapisi: 2187:HR-SLV-KOB-ZOZP-001n- Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak.\",\"short_description\":\"## 2. Kratki opisnSlavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje.\",\"regional_identity\":\"## 3. Regionalni identitetnRecept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo.\",\"batch\":\"## 4. Standardna šaržan- Osnovna šarža: 10,00 kg mesne sirovine / osnovne sirovine, osim kod cijelih komada gdje se masa vodi prema komadun- Napomena o preračunavanju: količine iz izvora pretvoriti i prikazati u kg gdje je primjenjivo\",\"meat_composition\":\"## 5. Mesni sastav i anatomski dijelovin| Dio / sirovina | Količina (kg) | Uloga |n|---|---:|---|n| Svinjska plećka + vrat | 7,00 kg | Mješavina, malo masnoće |n| Tvrda slanina | 3,00 kg | osnovna sirovina |\",\"ingredients\":\"## 6. Sastojci i začinin| Sastojak | Količina za 10 kg (kg) | Napomena |n|---|---:|---|n| Sol | 0,220–0,250 |  |n| Slatka paprika | 0,120–0,150 |  |n| Ljuta paprika | 0,020–0,050 |  |n| Bijeli luk | 0,030–0,050 | Tekući |n| Crni papar | 0,015–0,020 |  |\",\"casings\":\"## 7. Crijeva / omotačin- Vrsta i kalibar: svinjska tanka ili ravna crijeva, najčešće 32–42 mm; kada recept navodi drukčiji kalibar, zadržati izvorni kalibarn- Namakanje: 2–12 sati, ovisno o vrsti i stanju omotačan- Tekućina: hladna voda; po potrebi dodati malu količinu octa radi ispiranja mirisan- Prokuhano / hladno: voda za crijeva koristi se hladna i ne dodaje se u nadjev\",\"garlic\":\"## 8. Češnjakn- Oblik: procijeđena tekućina od češnjakan- Količina češnjaka: 0,030–0,050 (Tekući)n- Tekućina za ekstrakciju: prokuhana i ohlađena vodan- Vrijeme ekstrakcije: 20–30 minutan- Postupak: zgnječiti, preliti ohlađenom vodom, promiješati i procijediti kroz gazun- Napomena: vlakna češnjaka ne dodavati izravno u nadjev\",\"tools\":\"## 9. Oprema i alatin- Noževi, daska, posude, vaga, mlin za meso, punilica, igla za probadanje, konop/špaga, pušnica, termometar i higrometarn- Mljevenje / rezanje: meso najčešće 6–8 mm; masniji dio sitnije rezati ili mljeti prema tipu kobasice\",\"meat_preparation\":\"## 10. Priprema mesanSirovinu dobro ohladiti, odstraniti neželjeno vezivo i raditi u čistim uvjetima. Masnije dijelove obrađivati dok su čvrsti i hladni.\",\"grinding_cutting\":\"## 11. Mljevenje / rezanjen- Standard prema tipu proizvoda: meso najčešće 6–8 mm; masniji dio sitnije rezati ili mljeti prema tipu kobasicen- Temperatura sirovine: što bliže 0–4 °C tijekom rada\",\"mixing_resting\":\"## 12. Miješanje i odležavanjenZačine ravnomjerno rasporediti po mesu i masnoći. Miješati dok se masa ne poveže i ujednačeno oboji. Kod recepata s odležavanjem nadjeva, masu držati pokrivenu na 2–6 °C.\",\"stuffing_tying\":\"## 13. Punjenje i vezanjen- Oblik / duljina: 20–35 cm, ovisno o lokalnom običaju i crijevun- Puniti kompaktno, bez zraka; vidljive mjehuriće odmah probosti čistom iglom\",\"predrying\":\"## 14. Predsušenje / početna fermentacijan- Trajanje: 1–3 dana prije dimljenja, dok površina ne bude suha na dodirn- Kontrolni znakovi: površina se postupno suši, miris ostaje čist, bez sluzi i bez kiselosti\",\"smoking\":\"## 15. Dimljenjen- Protokol: hladni dim u više blagih ciklusa, najčešće 3–10 ciklusa, uz pauze između dimljenjan- Dim mora biti hladan i blag; koristiti suho tvrdo drvo\",\"drying_aging\":\"## 16. Sušenje i zrenjen- Trajanje: 30–90 dana, ovisno o kalibru, masnoći i željenoj suhoćin- Uvjeti: hladan, taman i prozračan prostor, bez naglog isušivanja površine\",\"mistakes_solutions\":\"## 17. Najčešće greške i rješenjan| Problem | Mogući uzrok | Konkretno rješenje |n|---|---|---|n| Razmazana mast u presjeku | Sirovina je bila pretopla ili je masnoća previše obrađivana | Raditi s ohlađenom sirovinom, masnoću rezati ručno gdje je predviđeno i skratiti miješanje |n| Zračni džepovi | Nedovoljno kompaktno punjenje ili neprobušeni mjehurići zraka | Puniti sporije i čvršće, vidljive mjehuriće odmah probosti čistom iglom |n| Kiseli miris | Previsoka temperatura, nečisto posuđe ili predugo stajanje nadjeva | Odvojiti sumnjiv proizvod; ubuduće držati masu na 2–6 °C i raditi u čistim uvjetima |n| Pretvrda površina, mekana sredina | Prebrzo sušenje, propuh ili preniska vlaga | Smanjiti propuh, stabilizirati vlagu i produljiti ravnomjerno zrenje |n| Prejak dim i gorka aroma | Previše dima, vlažno drvo ili premale pauze između ciklusa | Koristiti suho tvrdo drvo, dimiti kraće i ostaviti dovoljno pauze između ciklusa |\",\"serving_storage\":\"## 18. Posluživanje i čuvanjen### Zrenje i čuvanjen- Sušena varijanta: 2–4 tjednan- Svježa (nedimljena): potrošiti u 3–5 dana ili zamrznutin- Dimljena: do 6 mjeseci na suhom i hladnomnn---\",\"calculator_status\":\"## 19. Kalkulator statusn- Spremno za kalkulator: da, uz korištenje srednje vrijednosti raspona i prikaz izvornog raspona korisnikun- Nedostaje: završna kalkulatorska vrijednost za automatski izračun ako se ne koristi raspon\",\"traceability\":\"## 20. Sljedivost izvoran| Izvor | Linija / ID | Uloga |n|---|---|---|n| NEW_HR_V2 | linija 823 | Primarni izvor recepta |n| HR_BATCH_01_FINAL_GATE_v0.3 | proizvodni plan | Urednički status |n| HR-SL-001 — Slavonski kulen | model v1 | Strukturni model kanonskog recepta |\"}",
+                "preview": "{\"identity\":\"## 1. Identitet receptan- Kanonski naziv: Slavonska domaća kobasican- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Slavonijan- Mikroregija: širi prostor Slavonije, Baranje i Srijeman- Tip proizvoda: Kobasican- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finaliziran",
+                "json_valid": true
+            },
+            "_dry_verified_process": {
+                "exists": true,
+                "length": 1611,
+                "value": "{\"post_id\":2976,\"is_master\":false,\"based_on_master\":2972,\"product_name\":\"Slavonska domaća kobasica\",\"regija\":\"Slavonija (široko)\",\"eu_status\":null,\"karakter\":\"Kućna, nestrogo regulirana varijanta Slavonske kobasice (ZOI). Tehnološki gotovo identična, ali bez EU certifikacijskih obveza glede porijekla sirovina.\",\"batch_size_kg\":10,\"raw_materials\":{\"krto_meso_kg_total\":7.5,\"krto_meso_napomena\":\"kućna kombinacija, omjeri varijabilni\",\"krto_meso_detalji\":[{\"dio\":\"plećka (rame)\",\"kg\":3},{\"dio\":\"but (gornji dio)\",\"kg\":1.5},{\"dio\":\"vratina\",\"kg\":1.5},{\"dio\":\"obresci od komadanja\",\"kg\":1.5}],\"slanina_kg_total\":2.5,\"slanina_detalji\":[{\"dio\":\"tvrda leđna slanina\",\"kg\":2.5}]},\"ingredients\":[{\"naziv\":\"morska ili kamena sol\",\"kolicina_g\":220},{\"naziv\":\"nitritna sol (0,6 % NaNO₂)\",\"kolicina_g\":20},{\"naziv\":\"slatka paprika\",\"kolicina_g_min\":180,\"kolicina_g_max\":230,\"napomena\":\"tradicionalno svaka kuća ima vlastiti omjer\"},{\"naziv\":\"ljuta paprika\",\"kolicina_g\":30},{\"naziv\":\"češnjak\",\"kolicina_g_min\":30,\"kolicina_g_max\":50},{\"naziv\":\"crni papar\",\"kolicina_g\":12}],\"mljevenje\":{\"krto_meso_resetka_mm\":6,\"slanina_rezanje\":\"ručno na kockice 4–6 mm\",\"slanina_preduvjet\":\"polusmrznuta\"},\"casing\":{\"type\":\"svinjska tanka crijeva\",\"anatomy\":\"Jejunum/ileum\",\"diameter_mm\":\"32–40\",\"length_cm\":\"25–35\"},\"phases_inherit_from\":\"Slavonska kobasica ZOI (post_id 2981)\",\"phases_override\":[{\"order\":7,\"name\":\"Sušenje i zrenje\",\"duration_days_min\":70,\"duration_days_optimal\":\"70–100\",\"napomena\":\"kraće od EU regulirane verzije (90–120)\"}],\"karakter_okusa\":\"slično ZOI verziji, varijabilno po obitelji\"}",
+                "preview": "{\"post_id\":2976,\"is_master\":false,\"based_on_master\":2972,\"product_name\":\"Slavonska domaća kobasica\",\"regija\":\"Slavonija (široko)\",\"eu_status\":null,\"karakter\":\"Kućna, nestrogo regulirana varijanta Slavonske kobasice (ZOI). Tehnološki gotovo identična, ali bez EU certifikacijskih obveza glede porijekla sirovina.\",\"batch_size_kg\":10,\"raw_materials\":{\"krto_meso_",
+                "json_valid": true
+            },
+            "_dry_recipe_public_update_allowed": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_public_verified": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_preview_source_post_id": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_preview_mode": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_source_validation_status": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_type_router": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            }
+        },
+        "3042": {
+            "_dry_recipe_id": {
+                "exists": true,
+                "length": 37,
+                "value": "MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA",
+                "preview": "MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA",
+                "json_valid": false
+            },
+            "dry_recipe_id": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_recipe_id": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_image_url": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_full_markdown": {
+                "exists": true,
+                "length": 4123,
+                "value": "## Jésus de Lyon – debela suha kobasica\n\nJésus de Lyon – debela suha kobasica pripada tradiciji područja Lyon, Francuska. Radi se kao suha kobasica od Svinjetina, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.\n\n### Radni sažetak\n\n- Šarža: 10 kg osnovne sirovine ili mesne smjese.\n- Tip proizvoda: suha kobasica.\n- Glavna sirovina: Svinjetina.\n- Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm.\n- Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova.\n- Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje.\n- Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine.\n\n### Sastojci:\n\n- 10,000 kg Svinjetina\n- * 700 g svinjske lopatice\n- * 300 g svinjske potrbušine s kožom\n- * 200 g svinjske masnoće (leđne slanine)\n- * 24 g morske soli (2% od ukupne težine mesa)\n- * 5 g šećera\n- * 6 g mljevenog crnog papra\n- * 3 g mljevenog bijelog papra\n- * 5 g sušenog češnjaka u prahu\n- * 3 g mljevenog pimenta (allspice)\n- * 2 g sjemenki gorušice, mljevenih\n- * 25 ml konjaka\n- * 5 g starter kulture (T-SPX ili sličan)\n- * 10 ml mlake destilirane vode (za razrjeđivanje startera)\n\n### Crijeva / omotač:\n\nKoristiti svinjska crijeva promjera 28–32 mm. Crijeva isprati od soli i namočiti 30–45 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja još jednom ih isprati iznutra i izvana. Crijeva se ne prokuhavaju.\n\n### Češnjak i tekućine:\n\nU receptu se koristi češnjak u prahu ili granulama. Dodaje se zajedno sa suhim začinima i ravnomjerno raspoređuje kroz nadjev ili utrljava po površini komada.\n\n### Postupak:\n\n- Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C.\n- Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C.\n- Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv.\n- Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili.\n- Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom.\n- Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda.\n- Dimljenje: dimiti hladnim dimom ispod 25 °C u više ciklusa. Dim mora biti tanak, čist i bez gorčine.\n- Sušenje i zrenje: zriti na 10–15 °C i 70–80 % relativne vlage dok proizvod ne izgubi 35–40 % početne mase.\n- Kritična kontrola: ako se površina prebrzo suši, smanjiti propuh, povisiti vlagu i produžiti zrenje.\n\n### Gotovo je kad:\n\n- proizvod je izgubio približno 30–40 % početne mase\n- presjek je stabilan, bez vlažne jezgre\n- miris je čist, dimljen i začinski\n- površina je suha, ali nije pretvrdo zapečena\n- proizvod se može rezati tanko bez razmazivanja masnoće\n\n### Najčešći problemi i rješenja:\n\n- Problem: površina se prebrzo stvrdnula, a sredina je mekana.\n  Rješenje: smanjiti propuh, povisiti relativnu vlagu i produžiti zrenje.\n- Problem: mast se razmazuje u presjeku.\n  Rješenje: kod sljedeće izrade bolje ohladiti meso, masnoću, nož i pužnicu stroja za mljevenje.\n- Problem: pojavio se neugodan, truo ili sluzav miris.\n  Rješenje: proizvod ne koristiti; pregledati higijenu, temperaturu, soljenje i uvjete zrenja.\n\n### Čuvanje i posluživanje:\n\nZreli proizvod čuvati na 8–12 °C u tamnom i prozračnom prostoru. Za dulje čuvanje može se vakuumirati tek kad je potpuno stabilan i dovoljno osušen. Potpuno suha kobasica poslužuje se tanko narezana; za pečenje se koristi samo svježa ili najviše 1–2 dana prosušena kobasica.",
+                "preview": "## Jésus de Lyon – debela suha kobasica\n\nJésus de Lyon – debela suha kobasica pripada tradiciji područja Lyon, Francuska. Radi se kao suha kobasica od Svinjetina, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.\n\n#",
+                "json_valid": false
+            },
+            "_dry_recipe_sections": {
+                "exists": true,
+                "length": 8517,
+                "value": "{\"full_markdown\":\"## 3. Jésus de Lyon (Debela suha kobasica)nn### Sastojcin* 700 g svinjske lopaticen* 300 g svinjske potrbušine s kožomn* 200 g svinjske masnoće (leđne slanine)n* 24 g morske soli (2% od ukupne težine mesa)n* 5 g šećeran* 6 g mljevenog crnog papran* 3 g mljevenog bijelog papran* 5 g sušenog češnjaka u prahun* 3 g mljevenog pimenta (allspice)n* 2 g sjemenki gorušice, mljevenihn* 25 ml konjakan* 5 g starter kulture (T-SPX ili sličan)n* 10 ml mlake destilirane vode (za razrjeđivanje startera)n* Debela prirodna svinjska crijeva (promjer 65-75 mm)nn### Posebne tehnike i napomenen* Jésus de Lyon dobiva ime po svom obliku koji podsjeća na zamotano dijete u jaslicama.n* Visok udio masnoće je ključan za karakterističnu teksturu i okus.n* Neobična debljina zahtijeva posebnu pažnju tijekom fermentacije i sušenja.nn### Postupak izraden1. **Priprema mesa (1. dan)**:n   - Ohladite svo meso na temperaturu blizu smrzavanja (0-2°C).n   - Narežite svinjetinu i masnoću na kockice od 1-1.5 cm.nn2. **Miješanje i začinjavanje (1. dan)**:n   - U veliku posudu stavite narezano meso i masnoću.n   - Dodajte sol, šećer i sve suhe začine.n   - Dodajte konjak i temeljito promiješajte rukama 5-7 minuta.n   - Čuvajte smjesu na hladnom dok pripremate starter kulturu.nn3. **Priprema startera (1. dan)**:n   - Otopite starter kulturu u 10 ml mlake destilirane vode (temperatura prema uputama proizvođača, obično oko 20°C).n   - Ostavite da se aktivira 30 minuta.n   - Dodajte aktivirani starter u smjesu mesa i temeljito izmiješajte još 2-3 minute.nn4. **Punjenje (1. dan)**:n   - Napunite debela crijeva smjesom, osiguravajući da nema mjehurića zraka.n   - Punite labavije nego uobičajeno, ostavljajući prostor za ekspanziju tijekom fermentacije.n   - Zavežite krajeve, formirajući jedinstvenu kratku i debelu kobasicu duljine 25-30 cm.n   - Probušite crijevo na nekoliko mjesta sterilnom iglom da izađe zrak.nn5. **Priprema za vješanje (1. dan)**:n   - Namotajte čvrsti, ali ne pretjesni konopac oko kobasice u spiralnom uzorku.n   - Ostavite petlju na vrhu za vješanje.n   - Vagajte i zabilježite početnu težinu (važno za praćenje gubitka vode).nn6. **Fermentacija (2-4. dan)**:n   - Objesite kobasicu u prostoriji temperature 20-24°C s vlažnošću 85-90%.n   - Ostavite 72 sata da fermentira i razvije karakteristični pH.n   - Pazite da se razvije bijela plemenita plijesan na površini.nn7. **Prva faza sušenja (5-19. dan)**:n   - Premjestite u prostoriju za sušenje temperature 14-16°C s vlažnošću 75-80%.n   - Ostavite 14 dana, provjeravajući težinu jednom tjedno.nn8. **Druga faza sušenja (20-50. dan)**:n   - Smanjite vlažnost na 65-70%, održavajući istu temperaturu.n   - Nastavite sušiti dok kobasica ne izgubi 30-35% svoje početne težine.nnUkupno trajanje izrade: 7-8 tjedana.nn### Regionalne varijacijen* **Jésus de Morteau**: Varijanta iz regije Franche-Comté, obično dimljena i s geografskom oznakom.n* **Jésus du Pays Basque**: Baskijska varijanta s dodatkom lokalne crvene paprike (Piment d'Espelette).n* **Jésus de Marseille**: Mediteranska varijanta s dodatkom suhih začina.n* **Jésus de Noël**: Bogatija varijanta koja se tradicionalno priprema za božićne blagdane, često s dodatkom orašastih plodova.nn### Čuvanje i rok trajanjan* Cijeli Jésus de Lyon može se čuvati u hladnom (10-14°C), suhom i prozračnom mjestu do 6 mjeseci.n* Nakon rezanja, čuvajte u hladnjaku umotano u papir za pečenje do 3 tjedna.n* Za dulje čuvanje, možete vakuumirati komade i držati u hladnjaku do 2 mjeseca.n* Nije preporučljivo zamrzavanje zbog visokog udjela masnoće.nn---\",\"source_excerpt_file\":\"R144_source_excerpt.json\",\"source_file\":\"francuski-suhomesnati-proizvodi-2 (1).md\",\"raw_json\":{\"recipe_id\":\"MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA\",\"title\":\"Jésus de Lyon (Debela suha kobasica)\",\"slug\":\"jesus-de-lyon-debela-suha-kobasica\",\"source_file\":\"francuski-suhomesnati-proizvodi-2 (1).md\",\"batch_weight_kg\":10,\"public_ready\":true,\"calculator_ready\":false,\"review_status\":\"ready_import_from_cleaned_md_v1_2\",\"full_markdown_file\":\"recipes_md/0144_jesus-de-lyon-debela-suha-kobasica.md\",\"full_markdown\":\"## 3. Jésus de Lyon (Debela suha kobasica)nn### Sastojcin* 700 g svinjske lopaticen* 300 g svinjske potrbušine s kožomn* 200 g svinjske masnoće (leđne slanine)n* 24 g morske soli (2% od ukupne težine mesa)n* 5 g šećeran* 6 g mljevenog crnog papran* 3 g mljevenog bijelog papran* 5 g sušenog češnjaka u prahun* 3 g mljevenog pimenta (allspice)n* 2 g sjemenki gorušice, mljevenihn* 25 ml konjakan* 5 g starter kulture (T-SPX ili sličan)n* 10 ml mlake destilirane vode (za razrjeđivanje startera)n* Debela prirodna svinjska crijeva (promjer 65-75 mm)nn### Posebne tehnike i napomenen* Jésus de Lyon dobiva ime po svom obliku koji podsjeća na zamotano dijete u jaslicama.n* Visok udio masnoće je ključan za karakterističnu teksturu i okus.n* Neobična debljina zahtijeva posebnu pažnju tijekom fermentacije i sušenja.nn### Postupak izraden1. **Priprema mesa (1. dan)**:n   - Ohladite svo meso na temperaturu blizu smrzavanja (0-2°C).n   - Narežite svinjetinu i masnoću na kockice od 1-1.5 cm.nn2. **Miješanje i začinjavanje (1. dan)**:n   - U veliku posudu stavite narezano meso i masnoću.n   - Dodajte sol, šećer i sve suhe začine.n   - Dodajte konjak i temeljito promiješajte rukama 5-7 minuta.n   - Čuvajte smjesu na hladnom dok pripremate starter kulturu.nn3. **Priprema startera (1. dan)**:n   - Otopite starter kulturu u 10 ml mlake destilirane vode (temperatura prema uputama proizvođača, obično oko 20°C).n   - Ostavite da se aktivira 30 minuta.n   - Dodajte aktivirani starter u smjesu mesa i temeljito izmiješajte još 2-3 minute.nn4. **Punjenje (1. dan)**:n   - Napunite debela crijeva smjesom, osiguravajući da nema mjehurića zraka.n   - Punite labavije nego uobičajeno, ostavljajući prostor za ekspanziju tijekom fermentacije.n   - Zavežite krajeve, formirajući jedinstvenu kratku i debelu kobasicu duljine 25-30 cm.n   - Probušite crijevo na nekoliko mjesta sterilnom iglom da izađe zrak.nn5. **Priprema za vješanje (1. dan)**:n   - Namotajte čvrsti, ali ne pretjesni konopac oko kobasice u spiralnom uzorku.n   - Ostavite petlju na vrhu za vješanje.n   - Vagajte i zabilježite početnu težinu (važno za praćenje gubitka vode).nn6. **Fermentacija (2-4. dan)**:n   - Objesite kobasicu u prostoriji temperature 20-24°C s vlažnošću 85-90%.n   - Ostavite 72 sata da fermentira i razvije karakteristični pH.n   - Pazite da se razvije bijela plemenita plijesan na površini.nn7. **Prva faza sušenja (5-19. dan)**:n   - Premjestite u prostoriju za sušenje temperature 14-16°C s vlažnošću 75-80%.n   - Ostavite 14 dana, provjeravajući težinu jednom tjedno.nn8. **Druga faza sušenja (20-50. dan)**:n   - Smanjite vlažnost na 65-70%, održavajući istu temperaturu.n   - Nastavite sušiti dok kobasica ne izgubi 30-35% svoje početne težine.nnUkupno trajanje izrade: 7-8 tjedana.nn### Regionalne varijacijen* **Jésus de Morteau**: Varijanta iz regije Franche-Comté, obično dimljena i s geografskom oznakom.n* **Jésus du Pays Basque**: Baskijska varijanta s dodatkom lokalne crvene paprike (Piment d'Espelette).n* **Jésus de Marseille**: Mediteranska varijanta s dodatkom suhih začina.n* **Jésus de Noël**: Bogatija varijanta koja se tradicionalno priprema za božićne blagdane, često s dodatkom orašastih plodova.nn### Čuvanje i rok trajanjan* Cijeli Jésus de Lyon može se čuvati u hladnom (10-14°C), suhom i prozračnom mjestu do 6 mjeseci.n* Nakon rezanja, čuvajte u hladnjaku umotano u papir za pečenje do 3 tjedna.n* Za dulje čuvanje, možete vakuumirati komade i držati u hladnjaku do 2 mjeseca.n* Nije preporučljivo zamrzavanje zbog visokog udjela masnoće.nn---\",\"public_recipe\":{\"intro\":\"\",\"quick_facts\":{\"Osnovna šarža\":\"10 kg\",\"Izvor\":\"obrađeni MD paket v1.2\"},\"meat_composition\":[],\"ingredients\":[],\"process_phases\":[{\"title\":\"Radni koraci\",\"what\":\"**Priprema mesa (1. dan)**: **Miješanje i začinjavanje (1. dan)**: **Priprema startera (1. dan)**: **Punjenje (1. dan)**: **Priprema za vješanje (1. dan)**: **Fermentacija (2-4. dan)**: **Prva faza sušenja (5-19. dan)**: **Druga faza sušenja (20-50. dan)**:\",\"why\":\"\",\"control\":\"\",\"risk\":\"\",\"fix\":\"\"}],\"mistakes\":[]},\"import_note\":\"v1.2 preserves original recipe headings; import script updates existing posts only by title/slug unless DRY_CREATE=1.\"}}",
+                "preview": "{\"full_markdown\":\"## 3. Jésus de Lyon (Debela suha kobasica)nn### Sastojcin* 700 g svinjske lopaticen* 300 g svinjske potrbušine s kožomn* 200 g svinjske masnoće (leđne slanine)n* 24 g morske soli (2% od ukupne težine mesa)n* 5 g šećeran* 6 g mljevenog crnog papran* 3 g mljevenog bijelog papran* 5 g sušenog češnjaka u prahun* 3 g mljevenog pimenta (allspice)",
+                "json_valid": true
+            },
+            "_dry_verified_process": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_public_update_allowed": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_public_verified": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_preview_source_post_id": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_preview_mode": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_source_validation_status": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_type_router": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            }
+        },
+        "3535": {
+            "_dry_recipe_id": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "dry_recipe_id": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_recipe_id": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_image_url": {
+                "exists": false,
+                "length": 0,
+                "value": "",
+                "preview": "",
+                "json_valid": false
+            },
+            "_dry_recipe_full_markdown": {
+                "exists": true,
+                "length": 2682,
+                "value": "# Jésus de Lyon – debela suha kobasica\n\n> PRIVATNI PREVIEW — DOSJE. Ovo nije javni recept i ne smije se objaviti dok su blokade aktivne.\n\n## Brzi sažetak\n\n- Tip: mljeveno/usitnjeno meso u prirodnom ovitku\n- Šarža: 10 kg\n- Status: CANON_DRAFT_V1_NOT_PUBLIC\n- Javni update: zabranjen\n\n## Glavne sirovine\n\n- svinjska lopatica: 5.833 kg\n- svinjska potrbušina bez kože: 2.500 kg\n- tvrda leđna slanina / svinjska masnoća: 1.667 kg\n\n## Začini i dodaci\n\n- morska sol: 200 g (20.0 g/kg)\n- šećer: 42 g (4.2 g/kg)\n- mljeveni crni papar: 50 g (5.0 g/kg)\n- mljeveni bijeli papar: 25 g (2.5 g/kg)\n- sušeni češnjak u prahu: 42 g (4.2 g/kg)\n- mljeveni piment / allspice: 25 g (2.5 g/kg)\n- sjemenke gorušice, mljevene: 17 g (1.7 g/kg)\n- starter kultura T-SPX ili slična: 42 g ( g/kg)\n\n## Tekućine i češnjak\n\n- konjak: 208 ml\n- mlaka destilirana voda za razrjeđivanje startera: 83 ml\n- Češnjak: sušeni češnjak u prahu dodaje se izravno\n\n## Mljevenje i obrada masnoće\n\n- Rešetka: 6–8 mm\n- Obrada masnoće: meso, potrbušinu i leđnu slaninu držati vrlo hladnima; masnoća mora biti čvrsta prije mljevenja\n- Temperaturna kontrola: temperatura smjese ne smije prijeći 8 °C\n\n## Crijeva\n\n- Tip: svinjska crijeva\n- Promjer: 28–32 mm\n- Namakanje: 30–45 minuta, mlaka voda, 25–30 °C\n- Prokuhavanje: ne prokuhavati\n\n## Gotovo je kad\n\n- proizvod je izgubio približno 35–40 % početne mase\n- presjek je stabilan, bez vlažne jezgre\n- miris je čist, bez truležnog, sluzavog, užeglog ili neugodnog tona\n- površina je suha, ali nije pretvrdo zapečena\n- može se rezati tanko bez razmazivanja masnoće\n\n## Greške i rješenja\n\n- Problem: mast se razmazuje u presjeku\n  - Uzrok: meso ili slanina nisu bili dovoljno hladni tijekom mljevenja i miješanja\n  - Rješenje: prekinuti obradu, ohladiti sirovinu, nož, pužnicu i posudu te nastaviti tek kada je masa ponovno čvrsta\n- Problem: zračni džepovi u ovitku\n  - Uzrok: neravnomjerno punjenje ili nedovoljno odzračivanje\n  - Rješenje: puniti čvrsto, ali bez pucanja ovitka; zračne džepove probosti sterilnom iglom\n- Problem: neugodan, truo, sluzav ili sumnjiv miris\n  - Uzrok: previsoka temperatura, kvarenje, loša higijena ili presporo sušenje\n  - Rješenje: proizvod ne koristiti; ne prikrivati začinima; pregledati higijenu, soljenje, temperaturu i uvjete zrenja prije nove izrade\n\n## Aktivne blokade\n\n- kanonski izvor za točne količine nije potvrđen\n- količina starter kulture zahtijeva tehničku provjeru\n- dimljenje je označeno kao needs_confirmation\n- javni tekst još sadrži interne tragove prema intake izvještaju\n- potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea\n",
+                "preview": "# Jésus de Lyon – debela suha kobasica\n\n> PRIVATNI PREVIEW — DOSJE. Ovo nije javni recept i ne smije se objaviti dok su blokade aktivne.\n\n## Brzi sažetak\n\n- Tip: mljeveno/usitnjeno meso u prirodnom ovitku\n- Šarža: 10 kg\n- Status: CANON_DRAFT_V1_NOT_PUBLIC\n- Javni update: zabranjen\n\n## Glavne sirovine\n\n- svinjska lopatica: 5.833 kg\n- svinjska potrbušina bez k",
+                "json_valid": false
+            },
+            "_dry_recipe_sections": {
+                "exists": true,
+                "length": 5996,
+                "value": "{\"hero\": {\"title\": \"Jésus de Lyon – debela suha kobasica\", \"region_country\": \"Lyon, Francuska\", \"product_family\": \"suhi saucisson / debela suha kobasica\", \"product_type\": \"mljeveno/usitnjeno meso u prirodnom ovitku\", \"status_note\": \"Proizvod je potvrđen kao lyonški suhi saucisson; aktualni zaštićeni status nije potvrđen za javno navođenje.\"}, \"quick_summary\": {\"batch\": \"10 kg\", \"type\": \"mljeveno/usitnjeno meso u prirodnom ovitku\", \"duration\": \"oko 45–60 dana\", \"public_status\": \"NOT_PUBLIC_DOSSIER_ONLY\"}, \"raw_materials_kg\": [{\"item\": \"svinjska lopatica\", \"amount_kg\": \"5.833\", \"percent\": \"58.33\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"svinjska potrbušina bez kože\", \"amount_kg\": \"2.500\", \"percent\": \"25.00\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\", \"note\": \"Kožu ukloniti prije mljevenja; u nadjev ulazi samo mesno-masni dio.\"}, {\"item\": \"tvrda leđna slanina / svinjska masnoća\", \"amount_kg\": \"1.667\", \"percent\": \"16.67\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\", \"note\": \"Masnoća mora ostati hladna i čvrsta kako se ne bi razmazala u presjeku.\"}], \"spices_and_additives_g\": [{\"item\": \"morska sol\", \"amount_g\": \"200\", \"percent\": \"2.00\", \"g_per_kg\": \"20.0\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"šećer\", \"amount_g\": \"42\", \"percent\": \"0.42\", \"g_per_kg\": \"4.2\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"mljeveni crni papar\", \"amount_g\": \"50\", \"percent\": \"0.50\", \"g_per_kg\": \"5.0\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"mljeveni bijeli papar\", \"amount_g\": \"25\", \"percent\": \"0.25\", \"g_per_kg\": \"2.5\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"sušeni češnjak u prahu\", \"amount_g\": \"42\", \"percent\": \"0.42\", \"g_per_kg\": \"4.2\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\", \"garlic_mode\": \"direct_powder\"}, {\"item\": \"mljeveni piment / allspice\", \"amount_g\": \"25\", \"percent\": \"0.25\", \"g_per_kg\": \"2.5\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"sjemenke gorušice, mljevene\", \"amount_g\": \"17\", \"percent\": \"0.17\", \"g_per_kg\": \"1.7\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"starter kultura T-SPX ili slična\", \"amount_g\": \"42\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD_REQUIRES_TECHNICAL_REVIEW\", \"warning\": \"Količina starter kulture je mehanički skalirana iz WP/MD nacrta i mora se provjeriti prema deklaraciji proizvođača starter kulture prije javne objave.\"}], \"liquids\": [{\"item\": \"konjak\", \"amount_l\": \"0.208\", \"amount_ml\": \"208\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"mlaka destilirana voda za razrjeđivanje startera\", \"amount_l\": \"0.083\", \"amount_ml\": \"83\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD_REQUIRES_TECHNICAL_REVIEW\"}], \"garlic\": {\"used\": \"false\", \"mode\": \"sušeni češnjak u prahu dodaje se izravno\", \"garlic_amount_g\": \"42\", \"note\": \"U ovom radnom nacrtu ne koristi se procijeđena tekućina od češnjaka. Ako se u kasnijem izvoru pojavi svježi češnjak, treba izraditi varijantu s procijeđenom tekućinom i svim detaljima.\"}, \"grinding\": {\"pre_cut\": \"meso narezati na kocke 2–3 cm\", \"meat_plate_mm\": \"6–8\", \"fat_handling\": \"meso, potrbušinu i leđnu slaninu držati vrlo hladnima; masnoća mora biti čvrsta prije mljevenja\", \"temperature_control\": \"temperatura smjese ne smije prijeći 8 °C\", \"qa_note\": \"Za javnu objavu dodatno odlučiti treba li tvrdu leđnu slaninu mljeti zajedno s mesom ili rezati na sitnije kockice; postojeći WP nacrt navodi mljevenje 6–8 mm.\"}, \"casing\": {\"type\": \"svinjska crijeva\", \"diameter_mm\": \"28–32\", \"soaking_liquid\": \"mlaka voda\", \"soaking_time\": \"30–45 minuta\", \"soaking_temperature_c\": \"25–30\", \"boiled_or_cold_liquid\": \"ne prokuhavati\"}, \"nitrite_salt\": {\"used\": \"false\", \"note\": \"U ovom radnom nacrtu navedena je morska sol, a nitritna sol nije navedena. Ako se doda varijanta s nitritnom soli, obavezno uključiti sigurnosnu napomenu o preciznom vaganju i zabrani prekoračenja.\"}, \"sensory_profile\": {\"texture\": \"čvrsta, reziva suha kobasica, bez vlažne jezgre\", \"cut_surface\": \"stabilan presjek; masnoća ne smije biti razmazana\", \"aroma\": \"čist suhomesnati miris, papar, blagi češnjak, začinski tonovi i eventualno blaga nota konjaka\"}, \"done_when\": [\"proizvod je izgubio približno 35–40 % početne mase\", \"presjek je stabilan, bez vlažne jezgre\", \"miris je čist, bez truležnog, sluzavog, užeglog ili neugodnog tona\", \"površina je suha, ali nije pretvrdo zapečena\", \"može se rezati tanko bez razmazivanja masnoće\"], \"common_errors_and_solutions\": [{\"problem\": \"mast se razmazuje u presjeku\", \"cause\": \"meso ili slanina nisu bili dovoljno hladni tijekom mljevenja i miješanja\", \"solution\": \"prekinuti obradu, ohladiti sirovinu, nož, pužnicu i posudu te nastaviti tek kada je masa ponovno čvrsta\", \"risk\": \"medium\"}, {\"problem\": \"zračni džepovi u ovitku\", \"cause\": \"neravnomjerno punjenje ili nedovoljno odzračivanje\", \"solution\": \"puniti čvrsto, ali bez pucanja ovitka; zračne džepove probosti sterilnom iglom\", \"risk\": \"medium\"}, {\"problem\": \"neugodan, truo, sluzav ili sumnjiv miris\", \"cause\": \"previsoka temperatura, kvarenje, loša higijena ili presporo sušenje\", \"solution\": \"proizvod ne koristiti; ne prikrivati začinima; pregledati higijenu, soljenje, temperaturu i uvjete zrenja prije nove izrade\", \"risk\": \"high\"}], \"serving_and_storage\": {\"serving\": \"rezati tanko čistim nožem nakon kratkog odmora na sobnoj temperaturi\", \"pairing\": \"poslužiti uz kruh, sir, ukiseljeno povrće ili jednostavnu zakusku\", \"storage\": \"čuvati na 8–12 °C u tamnom i prozračnom prostoru bez kondenzacije\", \"safety_discard\": \"ne konzumirati ako se pojavi neugodan miris, sluzava površina ili sumnjiva promjena boje\"}, \"active_blockers\": [\"kanonski izvor za točne količine nije potvrđen\", \"količina starter kulture zahtijeva tehničku provjeru\", \"dimljenje je označeno kao needs_confirmation\", \"javni tekst još sadrži interne tragove prema intake izvještaju\", \"potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea\"]}",
+                "preview": "{\"hero\": {\"title\": \"Jésus de Lyon – debela suha kobasica\", \"region_country\": \"Lyon, Francuska\", \"product_family\": \"suhi saucisson / debela suha kobasica\", \"product_type\": \"mljeveno/usitnjeno meso u prirodnom ovitku\", \"status_note\": \"Proizvod je potvrđen kao lyonški suhi saucisson; aktualni zaštićeni status nije potvrđen za javno navođenje.\"}, \"quick_summary\"",
+                "json_valid": true
+            },
+            "_dry_verified_process": {
+                "exists": true,
+                "length": 1491,
+                "value": "{\"recipe_type\": \"GROUND_MEAT_OR_CASING\", \"status\": \"PRIVATE_PREVIEW_ONLY\", \"public_update_allowed\": false, \"source_post_id\": 3042, \"source_recipe_yml\": \"/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/recipe.yml\", \"phases\": [{\"key\": \"preparation\", \"title\": \"Priprema sirovine\", \"summary\": \"Meso narezati na kocke 2–3 cm i držati vrlo hladnim.\", \"status\": \"draft_from_recipe_yml\"}, {\"key\": \"grinding\", \"title\": \"Mljevenje\", \"summary\": \"Meso i masnoću obraditi kroz rešetku 6–8 mm; temperatura smjese ne smije prijeći 8 °C.\", \"status\": \"draft_from_recipe_yml\"}, {\"key\": \"stuffing\", \"title\": \"Punjenje\", \"summary\": \"Puniti u svinjska crijeva 28–32 mm, prethodno namočena 30–45 minuta u mlakoj vodi.\", \"status\": \"draft_from_recipe_yml\"}, {\"key\": \"drying_aging\", \"title\": \"Sušenje i zrenje\", \"summary\": \"Radna smjernica: 10–15 °C, 70–80 % RH, do gubitka 35–40 % mase.\", \"status\": \"draft_guideline\"}, {\"key\": \"smoking\", \"title\": \"Dimljenje\", \"summary\": \"Nije potvrđeno kao obvezna faza; ostaje needs_confirmation.\", \"status\": \"blocked_needs_confirmation\"}], \"blockers\": [\"kanonski izvor za točne količine nije potvrđen\", \"količina starter kulture zahtijeva tehničku provjeru\", \"dimljenje je označeno kao needs_confirmation\", \"javni tekst još sadrži interne tragove prema intake izvještaju\", \"potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea\"]}",
+                "preview": "{\"recipe_type\": \"GROUND_MEAT_OR_CASING\", \"status\": \"PRIVATE_PREVIEW_ONLY\", \"public_update_allowed\": false, \"source_post_id\": 3042, \"source_recipe_yml\": \"/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/recipe.yml\", \"phases\": [{\"key\": \"preparation\", \"title\": \"Pr",
+                "json_valid": true
+            },
+            "_dry_recipe_public_update_allowed": {
+                "exists": true,
+                "length": 1,
+                "value": "0",
+                "preview": "0",
+                "json_valid": true
+            },
+            "_dry_recipe_public_verified": {
+                "exists": true,
+                "length": 1,
+                "value": "0",
+                "preview": "0",
+                "json_valid": true
+            },
+            "_dry_recipe_preview_source_post_id": {
+                "exists": true,
+                "length": 4,
+                "value": "3042",
+                "preview": "3042",
+                "json_valid": true
+            },
+            "_dry_recipe_preview_mode": {
+                "exists": true,
+                "length": 18,
+                "value": "PRIVATE_CLONE_ONLY",
+                "preview": "PRIVATE_CLONE_ONLY",
+                "json_valid": false
+            },
+            "_dry_recipe_source_validation_status": {
+                "exists": true,
+                "length": 44,
+                "value": "PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED",
+                "preview": "PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED",
+                "json_valid": false
+            },
+            "_dry_recipe_type_router": {
+                "exists": true,
+                "length": 21,
+                "value": "GROUND_MEAT_OR_CASING",
+                "preview": "GROUND_MEAT_OR_CASING",
+                "json_valid": false
+            }
+        }
+    },
+    "meta_patch_plan_for_future_step": {
+        "_dry_recipe_id": {
+            "action": "ADD_TO_PRIVATE_CLONE_ONLY",
+            "recommended_value": "MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA",
+            "source": "COPY_FROM_SOURCE_3042__dry_recipe_id",
+            "reason": "Renderer i cleanup funkcije na više mjesta čitaju _dry_recipe_id. Bez tog ključa clone se ne može pouzdano ponašati kao recipe renderer kandidat.",
+            "risk": "Ako se kopira isti kod kao javni source, ne smije se koristiti za javno mapiranje ni globalne query operacije. Primjena smije biti samo na private cloneu."
+        },
+        "_dry_recipe_image_url": {
+            "action": "SKIP_NO_VALUE",
+            "recommended_value": "",
+            "source": "NO_IMAGE_AVAILABLE",
+            "reason": "Plugin referencira _dry_recipe_image_url za hero/sliku. Nije blocker za podatke, ali je važan za vizualni preview.",
+            "risk": "Ne koristiti pogrešnu javnu sliku kao konačnu. Ako se koristi privremena slika, mora biti označena kao preview-only."
+        },
+        "_dry_recipe_public_update_allowed": {
+            "action": "KEEP_OR_ENFORCE_PRIVATE_CLONE_ONLY",
+            "recommended_value": "0",
+            "source": "SAFETY_GUARD",
+            "reason": "Privatni clone nikada ne smije signalizirati javni update.",
+            "risk": "Bez ovog guarda može doći do pogrešnog javnog update toka."
+        },
+        "_dry_recipe_public_verified": {
+            "action": "KEEP_OR_ENFORCE_PRIVATE_CLONE_ONLY",
+            "recommended_value": "0",
+            "source": "SAFETY_GUARD",
+            "reason": "Recept nije public verified jer su aktivne blokade izvora, startera i dimljenja.",
+            "risk": "Ako se označi verified, javni sustav može pogrešno tretirati recept kao završen."
+        },
+        "_dry_recipe_preview_mode": {
+            "action": "KEEP_OR_ENFORCE_PRIVATE_CLONE_ONLY",
+            "recommended_value": "PRIVATE_CLONE_ONLY",
+            "source": "SAFETY_GUARD",
+            "reason": "Clone mora ostati jasno označen kao privatni preview.",
+            "risk": "Bez oznake može se zamijeniti s javnim zapisom."
+        }
+    },
+    "deep_inspection_input": {
+        "path": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/renderer_activation_deep_inspection_v1_2026-06-18_19-10-16/renderer_activation_deep_inspection_v1.json",
+        "post_3535_has_dry_recipe_id_from_deep": false,
+        "post_3535_has_image_url_from_deep": false
+    },
+    "safety_rules": [
+        "Ne pisati u javni post 3042.",
+        "Ne mijenjati title, slug, status ni URL javnog posta.",
+        "Ne mijenjati renderer.",
+        "Meta patch smije se primijeniti samo na post 3535 ako je post_status=private.",
+        "Ako 3535 prestane biti private, patch mora stati.",
+        "Ako _dry_recipe_public_update_allowed nije 0, patch mora stati.",
+        "Ovaj plan nije javna verifikacija recepta."
+    ],
+    "checks": [
+        {
+            "key": "source_publish",
+            "label": "Source 3042 je publish",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Source ostaje javni referentni zapis, ali se ne smije mijenjati."
+        },
+        {
+            "key": "clone_private",
+            "label": "Clone 3535 je private",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Normalizer se smije planirati samo za privatni clone."
+        },
+        {
+            "key": "clone_missing_id_confirmed",
+            "label": "Clone 3535 nema _dry_recipe_id",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "To potvrđuje razlog za meta-normalizer."
+        },
+        {
+            "key": "source_code_available_or_fallback",
+            "label": "Postoji source code ili fallback",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Plan mora imati vrijednost za _dry_recipe_id."
+        },
+        {
+            "key": "public_update_remains_false",
+            "label": "Plan ne dopušta javni update",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Ovaj plan ne smije pisati u javni 3042."
+        },
+        {
+            "key": "no_wp_write_now",
+            "label": "Plan je read-only",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Ovaj alat ne smije upisivati meta podatke."
+        }
+    ]
+}

@@ -161,3 +161,16 @@ Status: **READ_ONLY_DEEP_INSPECTION_COMPLETE**
 - Report: `review/renderer_activation_deep_inspection_v1_2026-06-18_19-10-16/RENDERER_ACTIVATION_DEEP_INSPECTION_REPORT.md`
 - JSON: `review/renderer_activation_deep_inspection_v1_2026-06-18_19-10-16/renderer_activation_deep_inspection_v1.json`
 
+<!-- DC_3535_META_NORMALIZER_PLAN_V1 -->
+
+## 3535 meta-normalizer plan v1
+
+Status: **PLAN_READY_PRIVATE_CLONE_ONLY**
+
+- WordPress write allowed now: `false`
+- Public update allowed: `false`
+- Future target: `PRIVATE_CLONE_3535_ONLY`
+- Forbidden target: `PUBLIC_SOURCE_3042`
+- Report: `review/meta_normalizer_plan_v1_2026-06-18_19-15-09/3535_META_NORMALIZER_PLAN_REPORT.md`
+- Plan JSON: `review/meta_normalizer_plan_v1_2026-06-18_19-15-09/3535_meta_normalizer_plan_v1.json`
+
