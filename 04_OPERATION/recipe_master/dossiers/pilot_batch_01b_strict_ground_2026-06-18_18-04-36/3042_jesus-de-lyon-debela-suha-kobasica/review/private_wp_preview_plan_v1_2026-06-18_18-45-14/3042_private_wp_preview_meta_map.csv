@@ -1,0 +1,20 @@
+meta_key,target,write_allowed_now,future_write_scope,value_preview
+_dry_recipe_preview_mode,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,PRIVATE_CLONE_ONLY
+_dry_recipe_preview_source_post_id,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,3042
+_dry_recipe_public_update_allowed,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,0
+_dry_recipe_dossier_status,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,CANON_DRAFT_V1_NOT_PUBLIC
+_dry_recipe_public_verified,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,0
+_dry_recipe_source_validation_status,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED
+_dry_recipe_type_router,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,GROUND_MEAT_OR_CASING
+_dry_recipe_adapter_payload_version,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,3042_private_preview_adapter_dryrun_v1
+_dry_recipe_dossier_path,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica
+_dry_recipe_active_blockers,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,"[""kanonski izvor za točne količine nije potvrđen"", ""količina starter kulture zahtijeva tehničku provjeru"", ""dimljenje je označeno kao needs_confirmation"", ""javni tekst još sadrži i..."
+_dry_recipe_sections,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,"{""hero"": {""title"": ""Jésus de Lyon – debela suha kobasica"", ""region_country"": ""Lyon, Francuska"", ""product_family"": ""suhi saucisson / debela suha kobasica"", ""product_type"": ""mljeveno..."
+_dry_verified_process,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,"{""recipe_type"": ""GROUND_MEAT_OR_CASING"", ""status"": ""PRIVATE_PREVIEW_ONLY"", ""public_update_allowed"": false, ""source_post_id"": 3042, ""source_recipe_yml"": ""/root/DRYCURED_GITHUB/04_OP..."
+_dry_recipe_full_markdown,FUTURE_PRIVATE_CLONE_ONLY,false,after_explicit_approval_only,"# Jésus de Lyon – debela suha kobasica
+
+> PRIVATNI PREVIEW — DOSJE. Ovo nije javni recept i ne smije se objaviti dok su blokade aktivne.
+
+## Brzi sažetak
+
+- Tip: mljeveno/usitnjeno..."

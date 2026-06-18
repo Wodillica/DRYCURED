@@ -107,3 +107,19 @@ Status: **PRIVATE_PREVIEW_PAYLOAD_READY — PUBLIC_UPDATE_FORBIDDEN**
 Report: `review/private_preview_adapter_dryrun_v1_2026-06-18_18-27-54/3042_PRIVATE_PREVIEW_ADAPTER_DRYRUN_REPORT.md`
 Payload: `review/private_preview_adapter_dryrun_v1_2026-06-18_18-27-54/3042_private_preview_adapter_payload.json`
 HTML preview: `review/private_preview_adapter_dryrun_v1_2026-06-18_18-27-54/3042_PRIVATE_PREVIEW_ADAPTER_DRYRUN.html`
+
+<!-- DC_3042_PRIVATE_WP_PREVIEW_PLAN_V1 -->
+
+## Private WordPress preview plan dry-run v1
+
+Status: **PLAN_ONLY — NO_WORDPRESS_WRITE**
+
+- Source public post: `3042`
+- Source post write allowed: `false`
+- Future target: `PRIVATE_CLONE_ONLY`
+- Planned meta keys: `13`
+- Public update allowed: `false`
+
+Report: `review/private_wp_preview_plan_v1_2026-06-18_18-45-14/3042_PRIVATE_WP_PREVIEW_PLAN_REPORT.md`
+Meta map: `review/private_wp_preview_plan_v1_2026-06-18_18-45-14/3042_private_wp_preview_meta_map.json`
+Checklist: `review/private_wp_preview_plan_v1_2026-06-18_18-45-14/3042_PRIVATE_WP_PREVIEW_EXECUTION_CHECKLIST.md`

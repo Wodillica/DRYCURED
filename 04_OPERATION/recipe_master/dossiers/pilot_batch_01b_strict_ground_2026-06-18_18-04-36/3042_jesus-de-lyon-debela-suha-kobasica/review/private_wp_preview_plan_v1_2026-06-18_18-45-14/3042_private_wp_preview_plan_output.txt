@@ -1,0 +1,10 @@
+=== 3042 PRIVATE WP PREVIEW PLAN COMPLETE ===
+PLAN_STATUS=PLAN_ONLY_NO_WORDPRESS_WRITE
+SOURCE_POST_ID=3042
+SOURCE_POST_WRITE_ALLOWED=false
+FUTURE_TARGET=PRIVATE_CLONE_ONLY
+PLANNED_META_KEYS=13
+PUBLIC_UPDATE_ALLOWED=false
+PLAN=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/private_wp_preview_plan_v1_2026-06-18_18-45-14/3042_private_wp_preview_plan_v1.json
+META_MAP=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/private_wp_preview_plan_v1_2026-06-18_18-45-14/3042_private_wp_preview_meta_map.json
+REPORT=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/private_wp_preview_plan_v1_2026-06-18_18-45-14/3042_PRIVATE_WP_PREVIEW_PLAN_REPORT.md
