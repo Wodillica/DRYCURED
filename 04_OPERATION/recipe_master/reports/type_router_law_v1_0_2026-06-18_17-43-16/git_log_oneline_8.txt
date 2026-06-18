@@ -1,0 +1,8 @@
+c4d78cf Add smoking cycle duration for 2976
+3d5dbb8 Add visible timeframes to smoking drying and aging for 2976
+d7db4f8 Add timeframes to smoking drying and aging phases for 2976
+442585e Show nitrite safety note in existing spice row
+26a7d04 Add nitrite safety notes to recipe profile data
+012cb70 Fix sensor profile data shape for 2976 adapter
+6e75d7f Enable public data adapter pilot for 2976
+929cb4d Fix preview data adapter quick strip values
