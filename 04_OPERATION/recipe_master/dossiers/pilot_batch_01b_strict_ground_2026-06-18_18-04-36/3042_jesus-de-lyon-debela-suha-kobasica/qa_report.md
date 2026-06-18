@@ -123,3 +123,17 @@ Status: **PLAN_ONLY — NO_WORDPRESS_WRITE**
 Report: `review/private_wp_preview_plan_v1_2026-06-18_18-45-14/3042_PRIVATE_WP_PREVIEW_PLAN_REPORT.md`
 Meta map: `review/private_wp_preview_plan_v1_2026-06-18_18-45-14/3042_private_wp_preview_meta_map.json`
 Checklist: `review/private_wp_preview_plan_v1_2026-06-18_18-45-14/3042_PRIVATE_WP_PREVIEW_EXECUTION_CHECKLIST.md`
+
+<!-- DC_3535_RENDER_QUALITY_AUDIT_V1 -->
+
+## 3535 render quality audit v1
+
+Status: **PASS_CONTENT_READY_RENDERER_NOT_PROVEN**
+
+- DCV/Drycured marker present: `false`
+- Raw markdown detected: `true`
+- Private notice present: `true`
+- Major/blocker fail total: `0`
+- Public update allowed: `false`
+
+Report: `review/render_quality_audit_v1_2026-06-18_19-05-10/3535_RENDER_QUALITY_AUDIT_REPORT.md`

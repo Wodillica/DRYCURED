@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-06-18T19:05:10.525176+00:00",
+  "clone_id": 3535,
+  "source_post_id": 3042,
+  "render_status": "PASS_CONTENT_READY_RENDERER_NOT_PROVEN",
+  "render_html_length": 3189,
+  "render_plain_length": 2562,
+  "dcv_marker_present": false,
+  "wprm_marker_present": false,
+  "raw_markdown_detected": true,
+  "private_notice_present": true,
+  "required_content": {
+    "title": true,
+    "raw_materials": true,
+    "spices": true,
+    "liquids_garlic": true,
+    "grinding": true,
+    "casing": true,
+    "done_when": true,
+    "errors": true,
+    "blockers": true
+  },
+  "checks": [
+    {
+      "key": "clone_private",
+      "label": "Clone je private prema prethodnom QA-u",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Privatni clone mora ostati private."
+    },
+    {
+      "key": "public_404",
+      "label": "Privatni clone nije javno dostupan",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Javni fetch mora biti 404 ili bez izlaganja recepta."
+    },
+    {
+      "key": "render_snapshot_not_empty",
+      "label": "Render snapshot nije prazan",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "HTML duljina: 3189."
+    },
+    {
+      "key": "render_has_title",
+      "label": "Render sadrži naslov recepta",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Interni render mora sadržavati naziv."
+    },
+    {
+      "key": "render_has_private_notice",
+      "label": "Render jasno označava privatni status",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Privatni sadržaj ne smije izgledati kao javni recept."
+    },
+    {
+      "key": "meta_sections_json_present",
+      "label": "_dry_recipe_sections postoji u result JSON-u",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Meta sekcije moraju biti dostupne za renderer."
+    },
+    {
+      "key": "meta_process_json_present",
+      "label": "_dry_verified_process postoji u result JSON-u",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Procesni meta mora biti dostupan."
+    },
+    {
+      "key": "dcv_renderer_marker",
+      "label": "DCV/Drycured renderer marker prisutan u renderu",
+      "status": "FAIL",
+      "severity": "INFO",
+      "note": "Ako ovo padne, clone je vjerojatno samo markdown/content snapshot, ne dokaz punog javnog renderera."
+    },
+    {
+      "key": "raw_markdown_detected",
+      "label": "Raw markdown nije dominantan",
+      "status": "FAIL",
+      "severity": "INFO",
+      "note": "Ako padne, sadržaj se možda ne renderira kroz konačni kartični prikaz."
+    },
+    {
+      "key": "content_title",
+      "label": "Sadržaj prisutan: title",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Obvezni sadržaj mora biti vidljiv u internom render snapshotu."
+    },
+    {
+      "key": "content_raw_materials",
+      "label": "Sadržaj prisutan: raw_materials",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Obvezni sadržaj mora biti vidljiv u internom render snapshotu."
+    },
+    {
+      "key": "content_spices",
+      "label": "Sadržaj prisutan: spices",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Obvezni sadržaj mora biti vidljiv u internom render snapshotu."
+    },
+    {
+      "key": "content_liquids_garlic",
+      "label": "Sadržaj prisutan: liquids_garlic",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Obvezni sadržaj mora biti vidljiv u internom render snapshotu."
+    },
+    {
+      "key": "content_grinding",
+      "label": "Sadržaj prisutan: grinding",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Obvezni sadržaj mora biti vidljiv u internom render snapshotu."
+    },
+    {
+      "key": "content_casing",
+      "label": "Sadržaj prisutan: casing",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Obvezni sadržaj mora biti vidljiv u internom render snapshotu."
+    },
+    {
+      "key": "content_done_when",
+      "label": "Sadržaj prisutan: done_when",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Obvezni sadržaj mora biti vidljiv u internom render snapshotu."
+    },
+    {
+      "key": "content_errors",
+      "label": "Sadržaj prisutan: errors",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Obvezni sadržaj mora biti vidljiv u internom render snapshotu."
+    },
+    {
+      "key": "content_blockers",
+      "label": "Sadržaj prisutan: blockers",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Obvezni sadržaj mora biti vidljiv u internom render snapshotu."
+    }
+  ],
+  "fail_total_major_or_blocker": 0,
+  "fail_total_info": 2,
+  "blocker_fail_total": 0
+}
