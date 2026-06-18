@@ -69,3 +69,26 @@ Status: **CANON_DRAFT_V1_NOT_PUBLIC**
 - [ ] Završni QA nije zatvoren.
 
 Report: `review/recipe_yml_draft_v1_2026-06-18_18-15-54/3042_RECIPE_YML_DRAFT_V1_REPORT.md`
+
+<!-- DC_3042_RECIPE_YML_QA_V1 -->
+
+## Recipe.yml internal QA v1
+
+Status: **BLOCKED_FOR_PUBLIC_UPDATE**
+
+- Ukupno provjera: 25
+- PASS: 25
+- FAIL: 0
+- Zbroj sirovina: 10.0 kg
+- Privatni preview/adapter tehnički dopušten: `true`
+- Javni update dopušten: `false`
+
+### Aktivne blokade
+
+- kanonski izvor za točne količine nije potvrđen
+- količina starter kulture zahtijeva tehničku provjeru
+- dimljenje je označeno kao needs_confirmation
+- javni tekst još sadrži interne tragove prema intake izvještaju
+- potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea
+
+Report: `review/recipe_yml_qa_v1_2026-06-18_18-25-03/3042_RECIPE_YML_QA_V1_REPORT.md`

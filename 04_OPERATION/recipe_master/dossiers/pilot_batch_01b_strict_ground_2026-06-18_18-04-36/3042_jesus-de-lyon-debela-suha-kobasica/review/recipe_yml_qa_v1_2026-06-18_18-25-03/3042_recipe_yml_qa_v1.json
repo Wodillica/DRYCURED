@@ -1,0 +1,197 @@
+{
+  "generated_at": "2026-06-18T18:25:03.719646+00:00",
+  "post_id": 3042,
+  "title": "Jésus de Lyon – debela suha kobasica",
+  "qa_status": "BLOCKED_FOR_PUBLIC_UPDATE",
+  "public_update_allowed": false,
+  "private_preview_allowed": true,
+  "raw_materials_sum_kg": 10.0,
+  "check_total": 25,
+  "pass_total": 25,
+  "fail_total": 0,
+  "blocker_fail_total": 0,
+  "active_known_blockers": [
+    "kanonski izvor za točne količine nije potvrđen",
+    "količina starter kulture zahtijeva tehničku provjeru",
+    "dimljenje je označeno kao needs_confirmation",
+    "javni tekst još sadrži interne tragove prema intake izvještaju",
+    "potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea"
+  ],
+  "checks": [
+    {
+      "key": "public_update_false",
+      "label": "Javni update zabranjen",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Mora ostati false do završnog QA-a."
+    },
+    {
+      "key": "draft_status",
+      "label": "Status radnog nacrta",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Recept mora ostati radni nacrt."
+    },
+    {
+      "key": "not_public_verified",
+      "label": "Nije označen kao public verified",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Ne smije biti public_verified dok izvor i QA nisu završeni."
+    },
+    {
+      "key": "recipe_type",
+      "label": "Tip recepta GROUND_MEAT_OR_CASING",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Za ovaj pilot koristi se samo model mljevenog/usitnjenog mesa u omotaču."
+    },
+    {
+      "key": "source_status",
+      "label": "Status izvora upisan",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Proizvod je potvrđen, recept još nije kanonski potvrđen."
+    },
+    {
+      "key": "protected_status_false",
+      "label": "Ne tvrdi zaštićeni status",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Ne smije se tvrditi aktualni IGP/ZOI status."
+    },
+    {
+      "key": "batch_10kg",
+      "label": "Šarža 10 kg",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Svi recepti u sustavu moraju biti standardizirani na 10 kg."
+    },
+    {
+      "key": "raw_materials_present",
+      "label": "Sirovine u kg postoje",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Meso i masnoća moraju biti u kg."
+    },
+    {
+      "key": "raw_materials_sum",
+      "label": "Zbroj sirovina približno 10 kg",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Zbroj pronađenih amount_kg vrijednosti je 10.0 kg."
+    },
+    {
+      "key": "spices_present",
+      "label": "Začini i dodaci u g postoje",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Začini moraju biti u g."
+    },
+    {
+      "key": "salt_200g",
+      "label": "Sol 200 g / 20 g/kg",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Sol je u razumnom osnovnom rasponu za suhi proizvod."
+    },
+    {
+      "key": "starter_blocker",
+      "label": "Starter kultura označena za provjeru",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Starter ne smije u javni recept bez provjere deklaracije proizvođača."
+    },
+    {
+      "key": "liquids_present",
+      "label": "Tekućine upisane",
+      "status": "PASS",
+      "severity": "MINOR",
+      "note": "Tekućine su vidljive, ali voda za starter ostaje vezana uz provjeru startera."
+    },
+    {
+      "key": "garlic_mode",
+      "label": "Češnjak jasno definiran",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "U ovom nacrtu nema procijeđene tekućine od češnjaka."
+    },
+    {
+      "key": "grinding",
+      "label": "Granulacija i hladna obrada",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Za mljeveni proizvod mora postojati rešetka u mm i kontrola temperature."
+    },
+    {
+      "key": "fat_handling",
+      "label": "Obrada masnoće opisana",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Masnoća mora ostati hladna i čvrsta."
+    },
+    {
+      "key": "casing",
+      "label": "Crijeva i namakanje",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Crijeva imaju tip, promjer, tekućinu, vrijeme i temperaturu namakanja."
+    },
+    {
+      "key": "process",
+      "label": "Procesni blok postoji",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Proces mora biti strukturiran po fazama."
+    },
+    {
+      "key": "smoking_blocker",
+      "label": "Dimljenje označeno kao needs_confirmation",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Dimljenje ne smije biti javno prikazano kao obvezno bez dodatnog izvora."
+    },
+    {
+      "key": "drying_params",
+      "label": "Sušenje/zrenje ima parametre",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Sušenje/zrenje ima radne parametre."
+    },
+    {
+      "key": "nitrite",
+      "label": "Nitritna sol nije navedena",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Ako se kasnije doda nitrit, obvezna je sigurnosna napomena."
+    },
+    {
+      "key": "done_when",
+      "label": "Gotovo je kad blok postoji",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Recept mora imati kriterije gotovosti."
+    },
+    {
+      "key": "errors_solutions",
+      "label": "Problemi imaju rješenja",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Svaki problem mora imati konkretno rješenje."
+    },
+    {
+      "key": "serving_storage",
+      "label": "Posluživanje i čuvanje postoje",
+      "status": "PASS",
+      "severity": "MINOR",
+      "note": "Treba biti vidljivo za javni prikaz."
+    },
+    {
+      "key": "qa_blockers",
+      "label": "Blokade prije javnog updatea postoje",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Javni update mora ostati blokiran."
+    }
+  ]
+}
