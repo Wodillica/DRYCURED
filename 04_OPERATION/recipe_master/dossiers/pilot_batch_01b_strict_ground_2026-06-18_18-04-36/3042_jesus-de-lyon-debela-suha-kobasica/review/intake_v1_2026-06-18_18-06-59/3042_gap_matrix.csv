@@ -1,0 +1,14 @@
+key,label,status,note
+source_validation,Izvor recepta potvrđen,GAP,Dosje je scaffold-only; izvor još nije potvrđen.
+batch_10kg,Standardizacija na 10 kg mesa,PASS,Tražiti ili normalizirati recept na 10 kg.
+raw_materials_kg,Sirovine u kg,PASS,Meso i masnoća moraju biti u kg.
+spices_g,Začini u g,PASS,Začine treba prikazati u gramima.
+grinding_mm,Granulacija/rešetka u mm,PASS,Za mljeveni proizvod mora postojati rešetka u mm.
+fat_handling,Obrada slanine/masnoće,PASS,Treba opisati rezanje/hladnu obradu masnoće.
+casing_details,Crijeva/omotač i namakanje,PASS,"Treba navesti tip, promjer i namakanje crijeva."
+garlic_mode,Češnjak ili procijeđena tekućina od češnjaka,PASS,"Ako se koristi češnjak, navesti direktno ili procijeđena tekućina s količinama."
+smoking_params,Dimljenje s parametrima,PASS,"Ako se dimi, trebaju trajanje, temperatura dima, ciklusi/pauze."
+drying_aging_params,Sušenje/zrenje s parametrima,PASS,"Treba trajanje, temperatura i RH gdje je dostupno."
+nitrite_note,Nitritna napomena ako se koristi nitritna sol,PASS,"Ako se koristi nitritna sol, treba sigurnosna napomena."
+errors_solutions,Problemi imaju konkretna rješenja,PASS,Svaki problem mora imati konkretno rješenje.
+no_internal_public_terms,Nema javnih internih oznaka,GAP,U javnom tekstu ne smije biti preview/fallback/source-lock/audit/adapter/debug.

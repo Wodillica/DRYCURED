@@ -1,0 +1,12 @@
+=== 3042 DOSSIER INTAKE COMPLETE ===
+POST_ID=3042
+TITLE=Jésus de Lyon – debela suha kobasica
+URL=https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/
+HTTP_STATUS=200
+DCV5_MARKER=true
+WPRM_MARKER=true
+INTERNAL_TERMS=true
+GAP_COUNTS:
+PASS=11
+GAP=2
+REPORT=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/intake_v1_2026-06-18_18-06-59/3042_INTAKE_REPORT.md
