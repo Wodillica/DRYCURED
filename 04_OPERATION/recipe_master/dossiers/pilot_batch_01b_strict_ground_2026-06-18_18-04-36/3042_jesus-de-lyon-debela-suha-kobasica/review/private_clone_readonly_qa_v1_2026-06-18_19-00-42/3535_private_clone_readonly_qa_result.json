@@ -1,0 +1,282 @@
+{
+    "qa_status": "PASS_READ_ONLY",
+    "generated_at": "2026-06-18T19:00:43+00:00",
+    "source_post_id": 3042,
+    "clone_id": 3535,
+    "clone_url": "https://drycured.com/?post_type=dry_recipe&p=3535",
+    "source_current": {
+        "ID": 3042,
+        "post_title": "Jésus de Lyon – debela suha kobasica",
+        "post_name": "jesus-de-lyon-debela-suha-kobasica",
+        "post_status": "publish",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-04 07:53:27"
+    },
+    "source_expected_from_clone_creation": {
+        "ID": 3042,
+        "post_title": "Jésus de Lyon – debela suha kobasica",
+        "post_name": "jesus-de-lyon-debela-suha-kobasica",
+        "post_status": "publish",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-04 07:53:27"
+    },
+    "source_unchanged_from_clone_creation": true,
+    "clone": {
+        "ID": 3535,
+        "post_title": "PRIVATE PREVIEW — Jésus de Lyon – debela suha kobasica",
+        "post_name": "private-preview-3042-jesus-de-lyon-dossier-only-20260618-184742",
+        "post_status": "private",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-18 18:47:42"
+    },
+    "public_fetch": {
+        "url": "https://drycured.com/?post_type=dry_recipe&p=3535",
+        "http_code": "404",
+        "error": "",
+        "title_exposed": false,
+        "publicly_exposed": false
+    },
+    "meta_values_preview": {
+        "_dry_recipe_preview_mode": "PRIVATE_CLONE_ONLY",
+        "_dry_recipe_preview_source_post_id": "3042",
+        "_dry_recipe_public_update_allowed": "0",
+        "_dry_recipe_dossier_status": "CANON_DRAFT_V1_NOT_PUBLIC",
+        "_dry_recipe_public_verified": "0",
+        "_dry_recipe_source_validation_status": "PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED",
+        "_dry_recipe_type_router": "GROUND_MEAT_OR_CASING",
+        "_dry_recipe_adapter_payload_version": "3042_private_preview_adapter_dryrun_v1",
+        "_dry_recipe_dossier_path": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica",
+        "_dry_recipe_active_blockers": "[\"kanonski izvor za točne količine nije potvrđen\", \"količina starter kulture zahtijeva tehničku provjeru\", \"dimljenje je označeno kao needs_confirmation\", \"javni tekst još sadrži interne tragove prema intake izvještaju\", \"potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea\"]",
+        "_dry_recipe_sections": "{\"hero\": {\"title\": \"Jésus de Lyon – debela suha kobasica\", \"region_country\": \"Lyon, Francuska\", \"product_family\": \"suhi saucisson / debela suha kobasica\", \"product_type\": \"mljeveno/usitnjeno meso u prirodnom ovitku\", \"status_note\": \"Proizvod je potvrđen kao lyonški suhi saucisson; aktualni zaštićeni status nije potvrđen za javno navođenje.\"}, \"quick_summary\": {\"batch\": \"10 kg\", \"type\": \"mljeveno/usitnjeno meso u prirodnom ovitku\", \"duration\": \"oko 45–60 dana\", \"public_status\": \"NOT_PUBLIC_DOSSIER_ONLY\"}, \"raw_materials_kg\": [{\"item\": \"svinjska lopatica\", \"amount_kg\": \"5.833\", \"percent\": \"58.33\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"svinjska potrbušina bez kože\", \"amount_kg\": \"2.500\", \"percent\": \"25.00\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\", \"note\": \"Kožu ukloniti prije mljevenja; u nadjev ulazi samo mesno-masni dio.\"}, {\"item\": \"tvrda leđna slanina / svinjska masnoća\", \"amount_kg\": \"1.667\", \"percent\": \"16.67\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\", \"note\": \"Masnoća mora ostati hladna i čvrsta kako se ne bi razmazala u presjeku.\"}], \"spices_and_additives_g\": [{\"item\": \"morska sol\", \"amount_g\": \"200\", \"percent\": \"2.00\", \"g_per_kg\": \"20.0\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"šećer\", \"amount_g\": \"42\", \"percent\": \"0.42\", \"g_per_kg\": \"4.2\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"mljeveni crni papar\", \"amount_g\": \"50\", \"percent\": \"0.50\", \"g_per_kg\": \"5.0\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"mljeveni bijeli papar\", \"amount_g\": \"25\", \"percent\": \"0.25\", \"g_per_kg\": \"2.5\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"sušeni češnjak u prahu\", \"amount_g\": \"42\", \"percent\": \"0.42\", \"g_per_kg\": \"4.2\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\", \"garlic_mode\": \"direct_powder\"}, {\"item\": \"mljeveni piment / allspice\", \"amount_g\": \"25\", \"percent\": \"0.25\", \"g_per_kg\": \"2.5\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"sjemenke gorušice, mljevene\", \"amount_g\": \"17\", \"percent\": \"0.17\", \"g_per_kg\": \"1.7\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"starter kultura T-SPX ili slična\", \"amount_g\": \"42\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD_REQUIRES_TECHNICAL_REVIEW\", \"warning\": \"Količina starter kulture je mehanički skalirana iz WP/MD nacrta i mora se provjeriti prema deklaraciji proizvođača starter kulture prije javne objave.\"}], \"liquids\": [{\"item\": \"konjak\", \"amount_l\": \"0.208\", \"amount_ml\": \"208\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD\"}, {\"item\": \"mlaka destilirana voda za razrjeđivanje startera\", \"amount_l\": \"0.083\", \"amount_ml\": \"83\", \"source_status\": \"WP_DRAFT_SCALED_FROM_MD_REQUIRES_TECHNICAL_REVIEW\"}], \"garlic\": {\"used\": \"false\", \"mode\": \"sušeni češnjak u prahu dodaje se izravno\", \"garlic_amount_g\": \"42\", \"note\": \"U ovom radnom nacrtu ne koristi se procijeđena tekućina od češnjaka. Ako se u kasnijem izvoru pojavi svježi češnjak, treba izraditi varijantu s procijeđenom tekućinom i svim detaljima.\"}, \"grinding\": {\"pre_cut\": \"meso narezati na kocke 2–3 cm\", \"meat_plate_mm\": \"6–8\", \"fat_handling\": \"meso, potrbušinu i leđnu slaninu držati vrlo hladnima; masnoća mora biti čvrsta prije mljevenja\", \"temperature_control\": \"temperatura smjese ne smije prijeći 8 °C\", \"qa_note\": \"Za javnu objavu dodatno odlučiti treba li tvrdu leđnu slaninu mljeti zajedno s mesom ili rezati na sitnije kockice; postojeći WP nacrt navodi mljevenje 6–8 mm.\"}, \"casing\": {\"type\": \"svinjska crijeva\", \"diameter_mm\": \"28–32\", \"soaking_liquid\": \"mlaka voda\", \"soaking_time\": \"30–45 minuta\", \"soaking_temperature_c\": \"25–30\", \"boiled_or_cold_liquid\": \"ne prokuhavati\"}, \"nitrite_salt\": {\"used\": \"false\", \"note\": \"U ovom radnom nacrtu navedena je morska sol, a nitritna sol nije navedena. Ako se doda varijanta s nitritnom soli, obavezno uključiti sigurnosnu napomenu o preciznom vaganju i zabrani prekoračenja.\"}, \"sensory_profile\": {\"texture\": \"čvrsta, reziva suha kobasica, bez vlažne jezgre\", \"cut_surface\": \"stabilan presjek; masnoća ne smije biti razmazana\", \"aroma\": \"čist suhomesnati miris, papar, blagi češnjak, začinski tonovi i eventualno blaga nota konjaka\"}, \"done_when\": [\"proizvod je izgubio približno 35–40 % početne mase\", \"presjek je stabilan, bez vlažne jezgre\", \"miris je čist, bez truležnog, sluzavog, užeglog ili neugodnog tona\", \"površina je suha, ali nije pretvrdo zapečena\", \"može se rezati tanko bez razmazivanja masnoće\"], \"common_errors_and_solutions\": [{\"problem\": \"mast se razmazuje u presjeku\", \"cause\": \"meso ili slanina nisu bili dovoljno hladni tijekom mljevenja i miješanja\", \"solution\": \"prekinuti obradu, ohladiti sirovinu, nož, pužnicu i posudu te nastaviti tek kada je masa ponovno čvrsta\", \"risk\": \"medium\"}, {\"problem\": \"zračni džepovi u ovitku\", \"cause\": \"neravnomjerno punjenje ili nedovoljno odzračivanje\", \"solution\": \"puniti čvrsto, ali bez pucanja ovitka; zračne džepove probosti sterilnom iglom\", \"risk\": \"medium\"}, {\"problem\": \"neugodan, truo, sluzav ili sumnjiv miris\", \"cause\": \"previsoka temperatura, kvarenje, loša higijena ili presporo sušenje\", \"solution\": \"proizvod ne koristiti; ne prikrivati začinima; pregledati higijenu, soljenje, temperaturu i uvjete zrenja prije nove izrade\", \"risk\": \"high\"}], \"serving_and_storage\": {\"serving\": \"rezati tanko čistim nožem nakon kratkog odmora na sobnoj temperaturi\", \"pairing\": \"poslužiti uz kruh, sir, ukiseljeno povrće ili jednostavnu zakusku\", \"storage\": \"čuvati na 8–12 °C u tamnom i prozračnom prostoru bez kondenzacije\", \"safety_discard\": \"ne konzumirati ako se pojavi neugodan miris, sluzava površina ili sumnjiva promjena boje\"}, \"active_blockers\": [\"kanonski izvor za točne količine nije potvrđen\", \"količina starter kulture zahtijeva tehničku provjeru\", \"dimljenje je označeno kao needs_confirmation\", \"javni tekst još sadrži interne tragove prema intake izvještaju\", \"potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea\"]}",
+        "_dry_verified_process": "{\"recipe_type\": \"GROUND_MEAT_OR_CASING\", \"status\": \"PRIVATE_PREVIEW_ONLY\", \"public_update_allowed\": false, \"source_post_id\": 3042, \"source_recipe_yml\": \"/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/recipe.yml\", \"phases\": [{\"key\": \"preparation\", \"title\": \"Priprema sirovine\", \"summary\": \"Meso narezati na kocke 2–3 cm i držati vrlo hladnim.\", \"status\": \"draft_from_recipe_yml\"}, {\"key\": \"grinding\", \"title\": \"Mljevenje\", \"summary\": \"Meso i masnoću obraditi kroz rešetku 6–8 mm; temperatura smjese ne smije prijeći 8 °C.\", \"status\": \"draft_from_recipe_yml\"}, {\"key\": \"stuffing\", \"title\": \"Punjenje\", \"summary\": \"Puniti u svinjska crijeva 28–32 mm, prethodno namočena 30–45 minuta u mlakoj vodi.\", \"status\": \"draft_from_recipe_yml\"}, {\"key\": \"drying_aging\", \"title\": \"Sušenje i zrenje\", \"summary\": \"Radna smjernica: 10–15 °C, 70–80 % RH, do gubitka 35–40 % mase.\", \"status\": \"draft_guideline\"}, {\"key\": \"smoking\", \"title\": \"Dimljenje\", \"summary\": \"Nije potvrđeno kao obvezna faza; ostaje needs_confirmation.\", \"status\": \"blocked_needs_confirmation\"}], \"blockers\": [\"kanonski izvor za točne količine nije potvrđen\", \"količina starter kulture zahtijeva tehničku provjeru\", \"dimljenje je označeno kao needs_confirmation\", \"javni tekst još sadrži interne tragove prema intake izvještaju\", \"potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea\"]}",
+        "_dry_recipe_full_markdown": "# Jésus de Lyon – debela suha kobasica\n\n> PRIVATNI PREVIEW — DOSJE. Ovo nije javni recept i ne smije se objaviti dok su blokade aktivne.\n\n## Brzi sažetak\n\n- Tip: mljeveno/usitnjeno meso u prirodnom ovitku\n- Šarža: 10 kg\n- Status: CANON_DRAFT_V1_NOT_PUBLIC\n- Javni update: zabranjen\n\n## Glavne sirovine\n\n- svinjska lopatica: 5.833 kg\n- svinjska potrbušina bez kože: 2.500 kg\n- tvrda leđna slanina / svinjska masnoća: 1.667 kg\n\n## Začini i dodaci\n\n- morska sol: 200 g (20.0 g/kg)\n- šećer: 42 g (4.2 g/kg)\n- mljeveni crni papar: 50 g (5.0 g/kg)\n- mljeveni bijeli papar: 25 g (2.5 g/kg)\n- sušeni češnjak u prahu: 42 g (4.2 g/kg)\n- mljeveni piment / allspice: 25 g (2.5 g/kg)\n- sjemenke gorušice, mljevene: 17 g (1.7 g/kg)\n- starter kultura T-SPX ili slična: 42 g ( g/kg)\n\n## Tekućine i češnjak\n\n- konjak: 208 ml\n- mlaka destilirana voda za razrjeđivanje startera: 83 ml\n- Češnjak: sušeni češnjak u prahu dodaje se izravno\n\n## Mljevenje i obrada masnoće\n\n- Rešetka: 6–8 mm\n- Obrada masnoće: meso, potrbušinu i leđnu slaninu držati vrlo hladnima; masnoća mora biti čvrsta prije mljevenja\n- Temperaturna kontrola: temperatura smjese ne smije prijeći 8 °C\n\n## Crijeva\n\n- Tip: svinjska crijeva\n- Promjer: 28–32 mm\n- Namakanje: 30–45 minuta, mlaka voda, 25–30 °C\n- Prokuhavanje: ne prokuhavati\n\n## Gotovo je kad\n\n- proizvod je izgubio približno 35–40 % početne mase\n- presjek je stabilan, bez vlažne jezgre\n- miris je čist, bez truležnog, sluzavog, užeglog ili neugodnog tona\n- površina je suha, ali nije pretvrdo zapečena\n- može se rezati tanko bez razmazivanja masnoće\n\n## Greške i rješenja\n\n- Problem: mast se razmazuje u presjeku\n  - Uzrok: meso ili slanina nisu bili dovoljno hladni tijekom mljevenja i miješanja\n  - Rješenje: prekinuti obradu, ohladiti sirovinu, nož, pužnicu i posudu te nastaviti tek kada je masa ponovno čvrsta\n- Problem: zračni džepovi u ovitku\n  - Uzrok: neravnomjerno punjenje ili nedovoljno odzračivanje\n  - Rješenje: puniti čvrsto, ali bez pucanja ovitka; zračne džepove probosti sterilnom iglom\n- Problem: neugodan, truo, sluzav ili sumnjiv miris\n  - Uzrok: previsoka temperatura, kvarenje, loša higijena ili presporo sušenje\n  - Rješenje: proizvod ne koristiti; ne prikrivati začinima; pregledati higijenu, soljenje, temperaturu i uvjete zrenja prije nove izrade\n\n## Aktivne blokade\n\n- kanonski izvor za točne količine nije potvrđen\n- količina starter kulture zahtijeva tehničku provjeru\n- dimljenje je označeno kao needs_confirmation\n- javni tekst još sadrži interne tragove prema intake izvještaju\n- potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea\n"
+    },
+    "checks": [
+        {
+            "key": "clone_exists",
+            "label": "Privatni clone postoji",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Clone ID mora postojati u WordPressu."
+        },
+        {
+            "key": "source_exists",
+            "label": "Javni source post postoji",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Source post 3042 mora postojati."
+        },
+        {
+            "key": "clone_private",
+            "label": "Clone je private",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Clone ne smije biti publish."
+        },
+        {
+            "key": "clone_type",
+            "label": "Clone je dry_recipe",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Clone mora biti dry_recipe."
+        },
+        {
+            "key": "source_publish",
+            "label": "Source 3042 je publish",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Source 3042 mora ostati javni publish recept."
+        },
+        {
+            "key": "source_type",
+            "label": "Source 3042 je dry_recipe",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Source 3042 mora ostati dry_recipe."
+        },
+        {
+            "key": "source_unchanged",
+            "label": "Source 3042 nije mijenjan od clone stvaranja",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Usporedba s result JSON-om iz trenutka clone stvaranja."
+        },
+        {
+            "key": "meta__dry_recipe_preview_mode",
+            "label": "Meta postoji: _dry_recipe_preview_mode",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_recipe_preview_source_post_id",
+            "label": "Meta postoji: _dry_recipe_preview_source_post_id",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_recipe_public_update_allowed",
+            "label": "Meta postoji: _dry_recipe_public_update_allowed",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_recipe_dossier_status",
+            "label": "Meta postoji: _dry_recipe_dossier_status",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_recipe_public_verified",
+            "label": "Meta postoji: _dry_recipe_public_verified",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_recipe_source_validation_status",
+            "label": "Meta postoji: _dry_recipe_source_validation_status",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_recipe_type_router",
+            "label": "Meta postoji: _dry_recipe_type_router",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_recipe_adapter_payload_version",
+            "label": "Meta postoji: _dry_recipe_adapter_payload_version",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_recipe_dossier_path",
+            "label": "Meta postoji: _dry_recipe_dossier_path",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_recipe_active_blockers",
+            "label": "Meta postoji: _dry_recipe_active_blockers",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_recipe_sections",
+            "label": "Meta postoji: _dry_recipe_sections",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_verified_process",
+            "label": "Meta postoji: _dry_verified_process",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta__dry_recipe_full_markdown",
+            "label": "Meta postoji: _dry_recipe_full_markdown",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Obvezni meta ključ za privatni preview clone."
+        },
+        {
+            "key": "meta_source_id",
+            "label": "Meta source ID je 3042",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Clone mora biti vezan na source post 3042."
+        },
+        {
+            "key": "meta_public_update_0",
+            "label": "Meta public update allowed je 0",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Privatni clone ne smije dopustiti javni update."
+        },
+        {
+            "key": "meta_public_verified_0",
+            "label": "Meta public verified je 0",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Privatni clone ne smije biti public verified."
+        },
+        {
+            "key": "meta_preview_mode",
+            "label": "Meta preview mode je PRIVATE_CLONE_ONLY",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Meta mora jasno označiti privatni clone."
+        },
+        {
+            "key": "meta_type_router",
+            "label": "Meta type router je GROUND_MEAT_OR_CASING",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Tipološka klasifikacija mora ostati kobasični model."
+        },
+        {
+            "key": "sections_json",
+            "label": "_dry_recipe_sections je valjan JSON",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Renderer/adapter očekuje čitljiv JSON."
+        },
+        {
+            "key": "verified_process_json",
+            "label": "_dry_verified_process je valjan JSON",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Proces mora biti čitljiv JSON."
+        },
+        {
+            "key": "active_blockers_json",
+            "label": "_dry_recipe_active_blockers je valjan JSON",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Blokade moraju biti čitljiv JSON."
+        },
+        {
+            "key": "full_markdown_length",
+            "label": "_dry_recipe_full_markdown ima sadržaj",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Markdown mora sadržavati radni prikaz recepta."
+        },
+        {
+            "key": "full_markdown_not_public",
+            "label": "Markdown označava privatni preview",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Privatni sadržaj mora biti jasno označen u dosjeu/cloneu."
+        },
+        {
+            "key": "private_not_publicly_exposed",
+            "label": "Privatni clone nije javno izložen kao recept",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Ako HTTP 200 javno prikazuje naslov recepta, private zaštita nije dobra."
+        },
+        {
+            "key": "render_snapshot_title",
+            "label": "Render snapshot sadrži naslov",
+            "status": "PASS",
+            "severity": "MINOR",
+            "note": "Interni render snapshot treba imati osnovni sadržaj."
+        }
+    ],
+    "fail_total": 0,
+    "blocker_fail_total": 0
+}
