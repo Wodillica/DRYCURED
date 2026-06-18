@@ -1,0 +1,16 @@
+# sources.yml
+dossier_status: "SCAFFOLD_ONLY"
+public_update_allowed: false
+post_id: 3042
+title: "Jésus de Lyon – debela suha kobasica"
+url: "https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/"
+wordpress_status: "publish"
+recipe_type: "GROUND_MEAT_OR_CASING"
+source_validation_status: "NEEDS_SOURCE_VALIDATION"
+notes:
+  - "Ovaj dosje je otvoren iz strict pilot batcha 01B."
+  - "Javni update nije dopušten dok recipe.yml i qa_report.md nisu završeni."
+  - "Potrebno je potvrditi izvor: službena objava, knjiga, stručni izvor ili drugi digitalni/tiskani trag."
+wp_snapshot: "raw_wp_snapshot.json"
+public_text_snapshot: "public_text_snapshot.txt"
+source_candidates: []

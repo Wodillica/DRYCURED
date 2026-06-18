@@ -1,0 +1,34 @@
+[
+    {
+        "post_id": 1982,
+        "title": "FINOCCHIONA TOSCANA",
+        "url": "https://drycured.com/recepti-baza/finocchiona-toscana/",
+        "dir": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1982_finocchiona-toscana",
+        "public_fetch_status": "200",
+        "public_fetch_error": ""
+    },
+    {
+        "post_id": 1984,
+        "title": "NDUJA CALABRESE",
+        "url": "https://drycured.com/recepti-baza/nduja-calabrese/",
+        "dir": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1984_nduja-calabrese",
+        "public_fetch_status": "200",
+        "public_fetch_error": ""
+    },
+    {
+        "post_id": 1990,
+        "title": "SALAME DI FELINO",
+        "url": "https://drycured.com/recepti-baza/salame-di-felino/",
+        "dir": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1990_salame-di-felino",
+        "public_fetch_status": "200",
+        "public_fetch_error": ""
+    },
+    {
+        "post_id": 3042,
+        "title": "Jésus de Lyon – debela suha kobasica",
+        "url": "https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/",
+        "dir": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica",
+        "public_fetch_status": "200",
+        "public_fetch_error": ""
+    }
+]

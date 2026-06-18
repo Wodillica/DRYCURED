@@ -1,0 +1,51 @@
+# recipe.yml
+dossier_status: "SCAFFOLD_ONLY"
+public_update_allowed: false
+post_id: 1982
+title: "FINOCCHIONA TOSCANA"
+url: "https://drycured.com/recepti-baza/finocchiona-toscana/"
+recipe_type: "GROUND_MEAT_OR_CASING"
+reference_model: "HR-SL-005 Slavonska domaća kobasica — samo dizajnerski/sadržajni model za mljevene proizvode u omotaču"
+batch_size_kg: 10
+language: "hr"
+canonical_recipe_ready: false
+fields:
+  product_identity: null
+  region_country: null
+  eu_status: null
+  product_type: "mljeveno/usitnjeno meso u omotaču"
+  raw_materials_kg: []
+  spices_g: []
+  liquids_l: []
+  garlic_mode: null
+  garlic_liquid_details:
+    garlic_amount_g: null
+    liquid_type: null
+    liquid_amount_l: null
+    steeping_time: null
+    boiled_or_cold: null
+    strained_amount_added_l: null
+  grinding:
+    meat_plate_mm: null
+    fat_cut_mm: null
+    fat_handling: null
+    temperature_control: null
+  casing:
+    type: null
+    diameter_mm: null
+    soaking_liquid: null
+    soaking_time: null
+    boiled_or_cold_liquid: null
+  process:
+    mixing: null
+    stuffing: null
+    fermentation: null
+    smoking: null
+    drying: null
+    aging: null
+  nitrite_salt:
+    used: null
+    safety_note_required: null
+  sensory_profile: null
+  common_errors_and_solutions: []
+  done_when: []
