@@ -1,0 +1,1482 @@
+{
+    "repo_120_180": [
+        {
+            "line": 114,
+            "text": ""
+        },
+        {
+            "line": 115,
+            "text": ""
+        },
+        {
+            "line": 116,
+            "text": "/* ============================================================"
+        },
+        {
+            "line": 117,
+            "text": " * SOURCE: wp-content/mu-plugins/drycured-canonical-recipe-view.php"
+        },
+        {
+            "line": 118,
+            "text": " * ============================================================ */"
+        },
+        {
+            "line": 119,
+            "text": ""
+        },
+        {
+            "line": 120,
+            "text": "/**"
+        },
+        {
+            "line": 121,
+            "text": " * Plugin Name: Drycured Canonical Recipe View"
+        },
+        {
+            "line": 122,
+            "text": " * Description: Sigurni override javnog prikaza kanonskih dry_recipe recepata bez diranja core plugina."
+        },
+        {
+            "line": 123,
+            "text": " * Version: 0.1.0"
+        },
+        {
+            "line": 124,
+            "text": " */"
+        },
+        {
+            "line": 125,
+            "text": ""
+        },
+        {
+            "line": 126,
+            "text": "if (!defined('ABSPATH')) {"
+        },
+        {
+            "line": 127,
+            "text": "    exit;"
+        },
+        {
+            "line": 128,
+            "text": "}"
+        },
+        {
+            "line": 129,
+            "text": ""
+        },
+        {
+            "line": 130,
+            "text": "add_filter('the_content', 'dc_canon_recipe_override_content', 999);"
+        },
+        {
+            "line": 131,
+            "text": ""
+        },
+        {
+            "line": 132,
+            "text": "function dc_canon_recipe_override_content($content) {"
+        },
+        {
+            "line": 133,
+            "text": "    if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+        },
+        {
+            "line": 134,
+            "text": "        return $content;"
+        },
+        {
+            "line": 135,
+            "text": "    }"
+        },
+        {
+            "line": 136,
+            "text": ""
+        },
+        {
+            "line": 137,
+            "text": "    $post_id = get_the_ID();"
+        },
+        {
+            "line": 138,
+            "text": "    if (!$post_id) {"
+        },
+        {
+            "line": 139,
+            "text": "        return $content;"
+        },
+        {
+            "line": 140,
+            "text": "    }"
+        },
+        {
+            "line": 141,
+            "text": ""
+        },
+        {
+            "line": 142,
+            "text": "    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);"
+        },
+        {
+            "line": 143,
+            "text": "    if (!$markdown) {"
+        },
+        {
+            "line": 144,
+            "text": "        return $content;"
+        },
+        {
+            "line": 145,
+            "text": "    }"
+        },
+        {
+            "line": 146,
+            "text": ""
+        },
+        {
+            "line": 147,
+            "text": "    $sections = dc_canon_recipe_parse_sections($markdown);"
+        },
+        {
+            "line": 148,
+            "text": ""
+        },
+        {
+            "line": 149,
+            "text": "    $code        = dc_canon_meta($post_id, '_dry_recipe_id');"
+        },
+        {
+            "line": 150,
+            "text": "    $country     = dc_canon_meta($post_id, '_dry_country', dc_canon_first_term($post_id, 'dry_country', 'Hrvatska'));"
+        },
+        {
+            "line": 151,
+            "text": "    $region      = dc_canon_meta($post_id, '_dry_region', dc_canon_first_term($post_id, 'dry_region', ''));"
+        },
+        {
+            "line": 152,
+            "text": "    $microregion = dc_canon_meta($post_id, '_dry_microregion', dc_canon_first_term($post_id, 'dry_microregion', ''));"
+        },
+        {
+            "line": 153,
+            "text": "    $type        = dc_canon_meta($post_id, '_dry_product_type', dc_canon_first_term($post_id, 'dry_product_type', ''));"
+        },
+        {
+            "line": 154,
+            "text": "    $category    = dc_canon_meta($post_id, '_dry_category', dc_canon_first_term($post_id, 'dry_product_category', ''));"
+        },
+        {
+            "line": 155,
+            "text": ""
+        },
+        {
+            "line": 156,
+            "text": "    $lead = '';"
+        },
+        {
+            "line": 157,
+            "text": "    if (isset($sections[2])) {"
+        },
+        {
+            "line": 158,
+            "text": "        $lead = wp_strip_all_tags(dc_canon_recipe_render_body($sections[2]['body']));"
+        },
+        {
+            "line": 159,
+            "text": "    }"
+        },
+        {
+            "line": 160,
+            "text": ""
+        },
+        {
+            "line": 161,
+            "text": "    ob_start();"
+        },
+        {
+            "line": 162,
+            "text": "    ?>"
+        },
+        {
+            "line": 163,
+            "text": "    <style>"
+        },
+        {
+            "line": 164,
+            "text": "        .single-dry_recipe .ast-container,"
+        },
+        {
+            "line": 165,
+            "text": "        .single-dry_recipe .site-content .ast-container,"
+        },
+        {
+            "line": 166,
+            "text": "        .single-dry_recipe .content-area,"
+        },
+        {
+            "line": 167,
+            "text": "        .single-dry_recipe main.site-main {"
+        },
+        {
+            "line": 168,
+            "text": "            max-width: 1280px !important;"
+        },
+        {
+            "line": 169,
+            "text": "            width: 100% !important;"
+        },
+        {
+            "line": 170,
+            "text": "            margin-left: auto !important;"
+        },
+        {
+            "line": 171,
+            "text": "            margin-right: auto !important;"
+        },
+        {
+            "line": 172,
+            "text": "        }"
+        },
+        {
+            "line": 173,
+            "text": ""
+        },
+        {
+            "line": 174,
+            "text": "        .single-dry_recipe .entry-header,"
+        },
+        {
+            "line": 175,
+            "text": "        .single-dry_recipe .entry-meta {"
+        },
+        {
+            "line": 176,
+            "text": "            display: none !important;"
+        },
+        {
+            "line": 177,
+            "text": "        }"
+        },
+        {
+            "line": 178,
+            "text": ""
+        },
+        {
+            "line": 179,
+            "text": "        .dc-canon-recipe {"
+        },
+        {
+            "line": 180,
+            "text": "            max-width: 1160px;"
+        },
+        {
+            "line": 181,
+            "text": "            margin: 0 auto;"
+        },
+        {
+            "line": 182,
+            "text": "            padding: 36px 18px 58px;"
+        },
+        {
+            "line": 183,
+            "text": "            color: #142039;"
+        },
+        {
+            "line": 184,
+            "text": "        }"
+        },
+        {
+            "line": 185,
+            "text": ""
+        },
+        {
+            "line": 186,
+            "text": "        .dc-canon-hero,"
+        }
+    ],
+    "repo_680_770": [
+        {
+            "line": 670,
+            "text": "        if ($note !== '') {"
+        },
+        {
+            "line": 671,
+            "text": "            $html .= '<div class=\"dc-canon-data-note\">';"
+        },
+        {
+            "line": 672,
+            "text": "            $html .= '<span class=\"dc-canon-data-kicker\">' . esc_html($headers[2] ?? 'Napomena') . '</span>';"
+        },
+        {
+            "line": 673,
+            "text": "            $html .= '<p>' . dc_canon_recipe_inline($note) . '</p>';"
+        },
+        {
+            "line": 674,
+            "text": "            $html .= '</div>';"
+        },
+        {
+            "line": 675,
+            "text": "        }"
+        },
+        {
+            "line": 676,
+            "text": ""
+        },
+        {
+            "line": 677,
+            "text": "        $html .= '</div>';"
+        },
+        {
+            "line": 678,
+            "text": "    }"
+        },
+        {
+            "line": 679,
+            "text": ""
+        },
+        {
+            "line": 680,
+            "text": "    $html .= '</div>';"
+        },
+        {
+            "line": 681,
+            "text": ""
+        },
+        {
+            "line": 682,
+            "text": "    return $html;"
+        },
+        {
+            "line": 683,
+            "text": "}"
+        },
+        {
+            "line": 684,
+            "text": ""
+        },
+        {
+            "line": 685,
+            "text": "function dc_canon_recipe_inline($text) {"
+        },
+        {
+            "line": 686,
+            "text": "    $safe = esc_html(trim((string) $text));"
+        },
+        {
+            "line": 687,
+            "text": "    $safe = preg_replace('/\\*\\*(.*?)\\*\\*/u', '<strong>$1</strong>', $safe);"
+        },
+        {
+            "line": 688,
+            "text": "    return $safe;"
+        },
+        {
+            "line": 689,
+            "text": "}"
+        },
+        {
+            "line": 690,
+            "text": ""
+        },
+        {
+            "line": 691,
+            "text": ""
+        },
+        {
+            "line": 692,
+            "text": "/* ============================================================"
+        },
+        {
+            "line": 693,
+            "text": " * SOURCE: wp-content/mu-plugins/drycured-recipe-view-v05-pilot.php"
+        },
+        {
+            "line": 694,
+            "text": " * ============================================================ */"
+        },
+        {
+            "line": 695,
+            "text": ""
+        },
+        {
+            "line": 696,
+            "text": "/**"
+        },
+        {
+            "line": 697,
+            "text": " * Plugin Name: Drycured Recipe View v0.5 Pilot"
+        },
+        {
+            "line": 698,
+            "text": " * Description: Pilot prikaz recepta kao proizvodni vodič za HR-SL-007."
+        },
+        {
+            "line": 699,
+            "text": " * Version: 0.5.0"
+        },
+        {
+            "line": 700,
+            "text": " */"
+        },
+        {
+            "line": 701,
+            "text": ""
+        },
+        {
+            "line": 702,
+            "text": "if (!defined('ABSPATH')) {"
+        },
+        {
+            "line": 703,
+            "text": "    exit;"
+        },
+        {
+            "line": 704,
+            "text": "}"
+        },
+        {
+            "line": 705,
+            "text": ""
+        },
+        {
+            "line": 706,
+            "text": "add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);"
+        },
+        {
+            "line": 707,
+            "text": ""
+        },
+        {
+            "line": 708,
+            "text": "function dcv5_recipe_view_pilot_content($content) {"
+        },
+        {
+            "line": 709,
+            "text": "    if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+        },
+        {
+            "line": 710,
+            "text": "        return $content;"
+        },
+        {
+            "line": 711,
+            "text": "    }"
+        },
+        {
+            "line": 712,
+            "text": ""
+        },
+        {
+            "line": 713,
+            "text": "    $post_id = get_the_ID();"
+        },
+        {
+            "line": 714,
+            "text": "    $code = get_post_meta($post_id, '_dry_recipe_id', true);"
+        },
+        {
+            "line": 715,
+            "text": ""
+        },
+        {
+            "line": 716,
+            "text": "    /*"
+        },
+        {
+            "line": 717,
+            "text": "     * DRYCURED_MD_V5_BRIDGE_PATCH_v010"
+        },
+        {
+            "line": 718,
+            "text": "     * Omogućuje pilot MD-import receptima da prođu kroz postojeći V5 renderer"
+        },
+        {
+            "line": 719,
+            "text": "     * bez promjene podataka recepta i bez paralelnog templatea."
+        },
+        {
+            "line": 720,
+            "text": "     */"
+        },
+        {
+            "line": 721,
+            "text": "    $dcv5_bridge_profile = null;"
+        },
+        {
+            "line": 722,
+            "text": "    if (function_exists('drycured_md_v5_bridge_profile')) {"
+        },
+        {
+            "line": 723,
+            "text": "        $dcv5_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);"
+        },
+        {
+            "line": 724,
+            "text": "    }"
+        },
+        {
+            "line": 725,
+            "text": ""
+        },
+        {
+            "line": 726,
+            "text": "    if (!in_array($code, dcv5_supported_recipe_codes(), true) && !$dcv5_bridge_profile) {"
+        },
+        {
+            "line": 727,
+            "text": "        return $content;"
+        },
+        {
+            "line": 728,
+            "text": "    }"
+        },
+        {
+            "line": 729,
+            "text": ""
+        },
+        {
+            "line": 730,
+            "text": "    $recipe = dcv5_get_recipe_profile($post_id, $code);"
+        },
+        {
+            "line": 731,
+            "text": "    if (!$recipe && $dcv5_bridge_profile) {"
+        },
+        {
+            "line": 732,
+            "text": "        $recipe = $dcv5_bridge_profile;"
+        },
+        {
+            "line": 733,
+            "text": "    }"
+        },
+        {
+            "line": 734,
+            "text": ""
+        },
+        {
+            "line": 735,
+            "text": "    if (!$recipe) {"
+        },
+        {
+            "line": 736,
+            "text": "        return $content;"
+        },
+        {
+            "line": 737,
+            "text": "    }"
+        },
+        {
+            "line": 738,
+            "text": ""
+        },
+        {
+            "line": 739,
+            "text": "    $image_url = get_the_post_thumbnail_url($post_id, 'large');"
+        },
+        {
+            "line": 740,
+            "text": "    if (!$image_url) {"
+        },
+        {
+            "line": 741,
+            "text": "        $image_url = get_post_meta($post_id, '_dry_recipe_image_url', true);"
+        },
+        {
+            "line": 742,
+            "text": "    }"
+        },
+        {
+            "line": 743,
+            "text": ""
+        },
+        {
+            "line": 744,
+            "text": "    $calculator_url = add_query_arg("
+        },
+        {
+            "line": 745,
+            "text": "        ['recipe' => $recipe['code']],"
+        },
+        {
+            "line": 746,
+            "text": "        home_url('/kalkulator/')"
+        },
+        {
+            "line": 747,
+            "text": "    );"
+        },
+        {
+            "line": 748,
+            "text": ""
+        },
+        {
+            "line": 749,
+            "text": "    ob_start();"
+        },
+        {
+            "line": 750,
+            "text": "    dcv5_render_recipe_schema($recipe);"
+        },
+        {
+            "line": 751,
+            "text": "    ?>"
+        },
+        {
+            "line": 752,
+            "text": "    <style>"
+        },
+        {
+            "line": 753,
+            "text": "        .single-dry_recipe .entry-header,"
+        },
+        {
+            "line": 754,
+            "text": "        .single-dry_recipe .entry-meta {"
+        },
+        {
+            "line": 755,
+            "text": "            display: none !important;"
+        },
+        {
+            "line": 756,
+            "text": "        }"
+        },
+        {
+            "line": 757,
+            "text": ""
+        },
+        {
+            "line": 758,
+            "text": "        .single-dry_recipe .ast-container,"
+        },
+        {
+            "line": 759,
+            "text": "        .single-dry_recipe .site-content .ast-container,"
+        },
+        {
+            "line": 760,
+            "text": "        .single-dry_recipe .content-area,"
+        },
+        {
+            "line": 761,
+            "text": "        .single-dry_recipe main.site-main {"
+        },
+        {
+            "line": 762,
+            "text": "            max-width: 1340px !important;"
+        },
+        {
+            "line": 763,
+            "text": "            width: 100% !important;"
+        },
+        {
+            "line": 764,
+            "text": "            margin-left: auto !important;"
+        },
+        {
+            "line": 765,
+            "text": "            margin-right: auto !important;"
+        },
+        {
+            "line": 766,
+            "text": "        }"
+        },
+        {
+            "line": 767,
+            "text": ""
+        },
+        {
+            "line": 768,
+            "text": "        .dcv5-recipe {"
+        },
+        {
+            "line": 769,
+            "text": "            max-width: 1220px;"
+        },
+        {
+            "line": 770,
+            "text": "            margin: 0 auto;"
+        },
+        {
+            "line": 771,
+            "text": "            padding: 34px 18px 64px;"
+        },
+        {
+            "line": 772,
+            "text": "            color: #111b33;"
+        },
+        {
+            "line": 773,
+            "text": "        }"
+        },
+        {
+            "line": 774,
+            "text": ""
+        },
+        {
+            "line": 775,
+            "text": "        .dcv5-hero,"
+        },
+        {
+            "line": 776,
+            "text": "        .dcv5-panel,"
+        },
+        {
+            "line": 777,
+            "text": "        .dcv5-side-panel {"
+        },
+        {
+            "line": 778,
+            "text": "            background: #fffaf0;"
+        },
+        {
+            "line": 779,
+            "text": "            border: 1px solid #e2c98e;"
+        },
+        {
+            "line": 780,
+            "text": "            border-radius: 22px;"
+        }
+    ],
+    "live_120_180": [
+        {
+            "line": 114,
+            "text": ""
+        },
+        {
+            "line": 115,
+            "text": ""
+        },
+        {
+            "line": 116,
+            "text": "/* ============================================================"
+        },
+        {
+            "line": 117,
+            "text": " * SOURCE: wp-content/mu-plugins/drycured-canonical-recipe-view.php"
+        },
+        {
+            "line": 118,
+            "text": " * ============================================================ */"
+        },
+        {
+            "line": 119,
+            "text": ""
+        },
+        {
+            "line": 120,
+            "text": "/**"
+        },
+        {
+            "line": 121,
+            "text": " * Plugin Name: Drycured Canonical Recipe View"
+        },
+        {
+            "line": 122,
+            "text": " * Description: Sigurni override javnog prikaza kanonskih dry_recipe recepata bez diranja core plugina."
+        },
+        {
+            "line": 123,
+            "text": " * Version: 0.1.0"
+        },
+        {
+            "line": 124,
+            "text": " */"
+        },
+        {
+            "line": 125,
+            "text": ""
+        },
+        {
+            "line": 126,
+            "text": "if (!defined('ABSPATH')) {"
+        },
+        {
+            "line": 127,
+            "text": "    exit;"
+        },
+        {
+            "line": 128,
+            "text": "}"
+        },
+        {
+            "line": 129,
+            "text": ""
+        },
+        {
+            "line": 130,
+            "text": "add_filter('the_content', 'dc_canon_recipe_override_content', 999);"
+        },
+        {
+            "line": 131,
+            "text": ""
+        },
+        {
+            "line": 132,
+            "text": "function dc_canon_recipe_override_content($content) {"
+        },
+        {
+            "line": 133,
+            "text": "    if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+        },
+        {
+            "line": 134,
+            "text": "        return $content;"
+        },
+        {
+            "line": 135,
+            "text": "    }"
+        },
+        {
+            "line": 136,
+            "text": ""
+        },
+        {
+            "line": 137,
+            "text": "    $post_id = get_the_ID();"
+        },
+        {
+            "line": 138,
+            "text": "    if (!$post_id) {"
+        },
+        {
+            "line": 139,
+            "text": "        return $content;"
+        },
+        {
+            "line": 140,
+            "text": "    }"
+        },
+        {
+            "line": 141,
+            "text": ""
+        },
+        {
+            "line": 142,
+            "text": "    $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);"
+        },
+        {
+            "line": 143,
+            "text": "    if (!$markdown) {"
+        },
+        {
+            "line": 144,
+            "text": "        return $content;"
+        },
+        {
+            "line": 145,
+            "text": "    }"
+        },
+        {
+            "line": 146,
+            "text": ""
+        },
+        {
+            "line": 147,
+            "text": "    $sections = dc_canon_recipe_parse_sections($markdown);"
+        },
+        {
+            "line": 148,
+            "text": ""
+        },
+        {
+            "line": 149,
+            "text": "    $code        = dc_canon_meta($post_id, '_dry_recipe_id');"
+        },
+        {
+            "line": 150,
+            "text": "    $country     = dc_canon_meta($post_id, '_dry_country', dc_canon_first_term($post_id, 'dry_country', 'Hrvatska'));"
+        },
+        {
+            "line": 151,
+            "text": "    $region      = dc_canon_meta($post_id, '_dry_region', dc_canon_first_term($post_id, 'dry_region', ''));"
+        },
+        {
+            "line": 152,
+            "text": "    $microregion = dc_canon_meta($post_id, '_dry_microregion', dc_canon_first_term($post_id, 'dry_microregion', ''));"
+        },
+        {
+            "line": 153,
+            "text": "    $type        = dc_canon_meta($post_id, '_dry_product_type', dc_canon_first_term($post_id, 'dry_product_type', ''));"
+        },
+        {
+            "line": 154,
+            "text": "    $category    = dc_canon_meta($post_id, '_dry_category', dc_canon_first_term($post_id, 'dry_product_category', ''));"
+        },
+        {
+            "line": 155,
+            "text": ""
+        },
+        {
+            "line": 156,
+            "text": "    $lead = '';"
+        },
+        {
+            "line": 157,
+            "text": "    if (isset($sections[2])) {"
+        },
+        {
+            "line": 158,
+            "text": "        $lead = wp_strip_all_tags(dc_canon_recipe_render_body($sections[2]['body']));"
+        },
+        {
+            "line": 159,
+            "text": "    }"
+        },
+        {
+            "line": 160,
+            "text": ""
+        },
+        {
+            "line": 161,
+            "text": "    ob_start();"
+        },
+        {
+            "line": 162,
+            "text": "    ?>"
+        },
+        {
+            "line": 163,
+            "text": "    <style>"
+        },
+        {
+            "line": 164,
+            "text": "        .single-dry_recipe .ast-container,"
+        },
+        {
+            "line": 165,
+            "text": "        .single-dry_recipe .site-content .ast-container,"
+        },
+        {
+            "line": 166,
+            "text": "        .single-dry_recipe .content-area,"
+        },
+        {
+            "line": 167,
+            "text": "        .single-dry_recipe main.site-main {"
+        },
+        {
+            "line": 168,
+            "text": "            max-width: 1280px !important;"
+        },
+        {
+            "line": 169,
+            "text": "            width: 100% !important;"
+        },
+        {
+            "line": 170,
+            "text": "            margin-left: auto !important;"
+        },
+        {
+            "line": 171,
+            "text": "            margin-right: auto !important;"
+        },
+        {
+            "line": 172,
+            "text": "        }"
+        },
+        {
+            "line": 173,
+            "text": ""
+        },
+        {
+            "line": 174,
+            "text": "        .single-dry_recipe .entry-header,"
+        },
+        {
+            "line": 175,
+            "text": "        .single-dry_recipe .entry-meta {"
+        },
+        {
+            "line": 176,
+            "text": "            display: none !important;"
+        },
+        {
+            "line": 177,
+            "text": "        }"
+        },
+        {
+            "line": 178,
+            "text": ""
+        },
+        {
+            "line": 179,
+            "text": "        .dc-canon-recipe {"
+        },
+        {
+            "line": 180,
+            "text": "            max-width: 1160px;"
+        },
+        {
+            "line": 181,
+            "text": "            margin: 0 auto;"
+        },
+        {
+            "line": 182,
+            "text": "            padding: 36px 18px 58px;"
+        },
+        {
+            "line": 183,
+            "text": "            color: #142039;"
+        },
+        {
+            "line": 184,
+            "text": "        }"
+        },
+        {
+            "line": 185,
+            "text": ""
+        },
+        {
+            "line": 186,
+            "text": "        .dc-canon-hero,"
+        }
+    ],
+    "live_680_770": [
+        {
+            "line": 670,
+            "text": "        if ($note !== '') {"
+        },
+        {
+            "line": 671,
+            "text": "            $html .= '<div class=\"dc-canon-data-note\">';"
+        },
+        {
+            "line": 672,
+            "text": "            $html .= '<span class=\"dc-canon-data-kicker\">' . esc_html($headers[2] ?? 'Napomena') . '</span>';"
+        },
+        {
+            "line": 673,
+            "text": "            $html .= '<p>' . dc_canon_recipe_inline($note) . '</p>';"
+        },
+        {
+            "line": 674,
+            "text": "            $html .= '</div>';"
+        },
+        {
+            "line": 675,
+            "text": "        }"
+        },
+        {
+            "line": 676,
+            "text": ""
+        },
+        {
+            "line": 677,
+            "text": "        $html .= '</div>';"
+        },
+        {
+            "line": 678,
+            "text": "    }"
+        },
+        {
+            "line": 679,
+            "text": ""
+        },
+        {
+            "line": 680,
+            "text": "    $html .= '</div>';"
+        },
+        {
+            "line": 681,
+            "text": ""
+        },
+        {
+            "line": 682,
+            "text": "    return $html;"
+        },
+        {
+            "line": 683,
+            "text": "}"
+        },
+        {
+            "line": 684,
+            "text": ""
+        },
+        {
+            "line": 685,
+            "text": "function dc_canon_recipe_inline($text) {"
+        },
+        {
+            "line": 686,
+            "text": "    $safe = esc_html(trim((string) $text));"
+        },
+        {
+            "line": 687,
+            "text": "    $safe = preg_replace('/\\*\\*(.*?)\\*\\*/u', '<strong>$1</strong>', $safe);"
+        },
+        {
+            "line": 688,
+            "text": "    return $safe;"
+        },
+        {
+            "line": 689,
+            "text": "}"
+        },
+        {
+            "line": 690,
+            "text": ""
+        },
+        {
+            "line": 691,
+            "text": ""
+        },
+        {
+            "line": 692,
+            "text": "/* ============================================================"
+        },
+        {
+            "line": 693,
+            "text": " * SOURCE: wp-content/mu-plugins/drycured-recipe-view-v05-pilot.php"
+        },
+        {
+            "line": 694,
+            "text": " * ============================================================ */"
+        },
+        {
+            "line": 695,
+            "text": ""
+        },
+        {
+            "line": 696,
+            "text": "/**"
+        },
+        {
+            "line": 697,
+            "text": " * Plugin Name: Drycured Recipe View v0.5 Pilot"
+        },
+        {
+            "line": 698,
+            "text": " * Description: Pilot prikaz recepta kao proizvodni vodič za HR-SL-007."
+        },
+        {
+            "line": 699,
+            "text": " * Version: 0.5.0"
+        },
+        {
+            "line": 700,
+            "text": " */"
+        },
+        {
+            "line": 701,
+            "text": ""
+        },
+        {
+            "line": 702,
+            "text": "if (!defined('ABSPATH')) {"
+        },
+        {
+            "line": 703,
+            "text": "    exit;"
+        },
+        {
+            "line": 704,
+            "text": "}"
+        },
+        {
+            "line": 705,
+            "text": ""
+        },
+        {
+            "line": 706,
+            "text": "add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);"
+        },
+        {
+            "line": 707,
+            "text": ""
+        },
+        {
+            "line": 708,
+            "text": "function dcv5_recipe_view_pilot_content($content) {"
+        },
+        {
+            "line": 709,
+            "text": "    if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+        },
+        {
+            "line": 710,
+            "text": "        return $content;"
+        },
+        {
+            "line": 711,
+            "text": "    }"
+        },
+        {
+            "line": 712,
+            "text": ""
+        },
+        {
+            "line": 713,
+            "text": "    $post_id = get_the_ID();"
+        },
+        {
+            "line": 714,
+            "text": "    $code = get_post_meta($post_id, '_dry_recipe_id', true);"
+        },
+        {
+            "line": 715,
+            "text": ""
+        },
+        {
+            "line": 716,
+            "text": "    /*"
+        },
+        {
+            "line": 717,
+            "text": "     * DRYCURED_MD_V5_BRIDGE_PATCH_v010"
+        },
+        {
+            "line": 718,
+            "text": "     * Omogućuje pilot MD-import receptima da prođu kroz postojeći V5 renderer"
+        },
+        {
+            "line": 719,
+            "text": "     * bez promjene podataka recepta i bez paralelnog templatea."
+        },
+        {
+            "line": 720,
+            "text": "     */"
+        },
+        {
+            "line": 721,
+            "text": "    $dcv5_bridge_profile = null;"
+        },
+        {
+            "line": 722,
+            "text": "    if (function_exists('drycured_md_v5_bridge_profile')) {"
+        },
+        {
+            "line": 723,
+            "text": "        $dcv5_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);"
+        },
+        {
+            "line": 724,
+            "text": "    }"
+        },
+        {
+            "line": 725,
+            "text": ""
+        },
+        {
+            "line": 726,
+            "text": "    if (!in_array($code, dcv5_supported_recipe_codes(), true) && !$dcv5_bridge_profile) {"
+        },
+        {
+            "line": 727,
+            "text": "        return $content;"
+        },
+        {
+            "line": 728,
+            "text": "    }"
+        },
+        {
+            "line": 729,
+            "text": ""
+        },
+        {
+            "line": 730,
+            "text": "    $recipe = dcv5_get_recipe_profile($post_id, $code);"
+        },
+        {
+            "line": 731,
+            "text": "    if (!$recipe && $dcv5_bridge_profile) {"
+        },
+        {
+            "line": 732,
+            "text": "        $recipe = $dcv5_bridge_profile;"
+        },
+        {
+            "line": 733,
+            "text": "    }"
+        },
+        {
+            "line": 734,
+            "text": ""
+        },
+        {
+            "line": 735,
+            "text": "    if (!$recipe) {"
+        },
+        {
+            "line": 736,
+            "text": "        return $content;"
+        },
+        {
+            "line": 737,
+            "text": "    }"
+        },
+        {
+            "line": 738,
+            "text": ""
+        },
+        {
+            "line": 739,
+            "text": "    $image_url = get_the_post_thumbnail_url($post_id, 'large');"
+        },
+        {
+            "line": 740,
+            "text": "    if (!$image_url) {"
+        },
+        {
+            "line": 741,
+            "text": "        $image_url = get_post_meta($post_id, '_dry_recipe_image_url', true);"
+        },
+        {
+            "line": 742,
+            "text": "    }"
+        },
+        {
+            "line": 743,
+            "text": ""
+        },
+        {
+            "line": 744,
+            "text": "    $calculator_url = add_query_arg("
+        },
+        {
+            "line": 745,
+            "text": "        ['recipe' => $recipe['code']],"
+        },
+        {
+            "line": 746,
+            "text": "        home_url('/kalkulator/')"
+        },
+        {
+            "line": 747,
+            "text": "    );"
+        },
+        {
+            "line": 748,
+            "text": ""
+        },
+        {
+            "line": 749,
+            "text": "    ob_start();"
+        },
+        {
+            "line": 750,
+            "text": "    dcv5_render_recipe_schema($recipe);"
+        },
+        {
+            "line": 751,
+            "text": "    ?>"
+        },
+        {
+            "line": 752,
+            "text": "    <style>"
+        },
+        {
+            "line": 753,
+            "text": "        .single-dry_recipe .entry-header,"
+        },
+        {
+            "line": 754,
+            "text": "        .single-dry_recipe .entry-meta {"
+        },
+        {
+            "line": 755,
+            "text": "            display: none !important;"
+        },
+        {
+            "line": 756,
+            "text": "        }"
+        },
+        {
+            "line": 757,
+            "text": ""
+        },
+        {
+            "line": 758,
+            "text": "        .single-dry_recipe .ast-container,"
+        },
+        {
+            "line": 759,
+            "text": "        .single-dry_recipe .site-content .ast-container,"
+        },
+        {
+            "line": 760,
+            "text": "        .single-dry_recipe .content-area,"
+        },
+        {
+            "line": 761,
+            "text": "        .single-dry_recipe main.site-main {"
+        },
+        {
+            "line": 762,
+            "text": "            max-width: 1340px !important;"
+        },
+        {
+            "line": 763,
+            "text": "            width: 100% !important;"
+        },
+        {
+            "line": 764,
+            "text": "            margin-left: auto !important;"
+        },
+        {
+            "line": 765,
+            "text": "            margin-right: auto !important;"
+        },
+        {
+            "line": 766,
+            "text": "        }"
+        },
+        {
+            "line": 767,
+            "text": ""
+        },
+        {
+            "line": 768,
+            "text": "        .dcv5-recipe {"
+        },
+        {
+            "line": 769,
+            "text": "            max-width: 1220px;"
+        },
+        {
+            "line": 770,
+            "text": "            margin: 0 auto;"
+        },
+        {
+            "line": 771,
+            "text": "            padding: 34px 18px 64px;"
+        },
+        {
+            "line": 772,
+            "text": "            color: #111b33;"
+        },
+        {
+            "line": 773,
+            "text": "        }"
+        },
+        {
+            "line": 774,
+            "text": ""
+        },
+        {
+            "line": 775,
+            "text": "        .dcv5-hero,"
+        },
+        {
+            "line": 776,
+            "text": "        .dcv5-panel,"
+        },
+        {
+            "line": 777,
+            "text": "        .dcv5-side-panel {"
+        },
+        {
+            "line": 778,
+            "text": "            background: #fffaf0;"
+        },
+        {
+            "line": 779,
+            "text": "            border: 1px solid #e2c98e;"
+        },
+        {
+            "line": 780,
+            "text": "            border-radius: 22px;"
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "exists": true,
+    "ID": 2976,
+    "title": "Slavonska domaća kobasica",
+    "name": "hr-sl-005-slavonska-domaca-kobasica",
+    "status": "publish",
+    "type": "dry_recipe",
+    "permalink": "https://drycured.com/recepti-baza/hr-sl-005-slavonska-domaca-kobasica/",
+    "content_length": 5856,
+    "filtered_length": 6689,
+    "filtered_has_raw_markdown": true,
+    "filtered_excerpt": "# HR-SL-005 — Slavonska domaća kobasica ## 1. Identitet recepta &#8211; Kanonski naziv: Slavonska domaća kobasica &#8211; Alternativni nazivi: nisu posebno zabilježeni u primarnom izvoru &#8211; Država: Hrvatska &#8211; Regija: Slavonija &#8211; Mikroregija: širi prostor Slavonije, Baranje i Srijema &#8211; Tip proizvoda: Kobasica &#8211; Kategorija: trajni suhomesnati proizvod &#8211; Status: kanonski recept Batch 01 — finalizirani tekst v0.3 &#8211; Izvor primarnog recepta: NEW_HR_V2, linija 823 &#8211; Povezani WP zapisi: 2187:HR-SLV-KOB-ZOZP-001 &#8211; Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak. ## 2. Kratki opis Slavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje. ## 3. Regionalni identitet Recept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo. ## 4. Standardna šarža &#8211; Osnovna šarža: 10,00 kg mesne sirovine / osnovne sirovine, osim kod cijelih komada gdje se masa vodi prema komadu &#8211; Napomena o preračunavanju: količine iz izvora pretvoriti i prikazati u kg gdje je primjenjivo ## 5. Mesni sastav i anatomski dijelovi | Dio / sirovina | Količina (kg) | Uloga | |&#8212;|&#8212;:|&#8212;| | Svinjska plećka + vrat | 7,00 kg | Mješavina, malo masnoće | | Tvrda ",
+    "meta": {
+        "_dry_archive_ready": {
+            "length": 3,
+            "is_json": false,
+            "preview": "yes"
+        },
+        "_dry_calculator_ready": {
+            "length": 1,
+            "is_json": true,
+            "preview": "0"
+        },
+        "_dry_canonical_batch": {
+            "length": 36,
+            "is_json": false,
+            "preview": "HR_BATCH_01_SLAVONIJA_BARANJA_SRIJEM"
+        },
+        "_dry_canonical_status": {
+            "length": 12,
+            "is_json": false,
+            "preview": "public_ready"
+        },
+        "_dry_category": {
+            "length": 27,
+            "is_json": false,
+            "preview": "trajni suhomesnati proizvod"
+        },
+        "_dry_country": {
+            "length": 8,
+            "is_json": false,
+            "preview": "Hrvatska"
+        },
+        "_dry_microregion": {
+            "length": 42,
+            "is_json": false,
+            "preview": "širi prostor Slavonije, Baranje i Srijema"
+        },
+        "_dry_product_type": {
+            "length": 8,
+            "is_json": false,
+            "preview": "Kobasica"
+        },
+        "_dry_public_ready": {
+            "length": 3,
+            "is_json": false,
+            "preview": "yes"
+        },
+        "_dry_recipe_full_markdown": {
+            "length": 5856,
+            "is_json": false,
+            "preview": "# HR-SL-005 — Slavonska domaća kobasica\n\n## 1. Identitet recepta\n- Kanonski naziv: Slavonska domaća kobasica\n- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvoru\n- Država: Hrvatska\n- Regija: Slavonija\n- Mikroregija: širi prostor Slavonije, Baranje i Srijema\n- Tip proizvoda: Kobasica\n- Kategorija: trajni suhomesnati proizvod\n- Status: kanonski recept Batch 01 — finalizirani tekst v0.3"
+        },
+        "_dry_recipe_id": {
+            "length": 9,
+            "is_json": false,
+            "preview": "HR-SL-005"
+        },
+        "_dry_recipe_import_version": {
+            "length": 31,
+            "is_json": false,
+            "preview": "batch01_web_import_v0_1_private"
+        },
+        "_dry_recipe_previous_public_status": {
+            "length": 7,
+            "is_json": false,
+            "preview": "publish"
+        },
+        "_dry_recipe_sections": {
+            "length": 6136,
+            "is_json": true,
+            "preview": "{\"identity\":\"## 1. Identitet receptan- Kanonski naziv: Slavonska domaća kobasican- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Slavonijan- Mikroregija: širi prostor Slavonije, Baranje i Srijeman- Tip proizvoda: Kobasican- Kategorija: trajni suhomesnati proizvodn- Status: kanonski recept Batch 01 — finalizirani tekst v0.3n- Izvor primarnog recepta: "
+        },
+        "_dry_recipe_source_audit_reason": {
+            "length": 82,
+            "is_json": false,
+            "preview": "Privremeno povučeno dok se sastojci i količine ne usklade s izvornim dokumentom."
+        },
+        "_dry_recipe_source_audit_status": {
+            "length": 25,
+            "is_json": false,
+            "preview": "hold_source_lock_required"
+        },
+        "_dry_recipe_view_status": {
+            "length": 17,
+            "is_json": false,
+            "preview": "published_ready27"
+        },
+        "_dry_region": {
+            "length": 9,
+            "is_json": false,
+            "preview": "Slavonija"
+        },
+        "_dry_source": {
+            "length": 21,
+            "is_json": false,
+            "preview": "NEW_HR_V2, linija 823"
+        },
+        "_dry_verified_process": {
+            "length": 1611,
+            "is_json": true,
+            "preview": "{\"post_id\":2976,\"is_master\":false,\"based_on_master\":2972,\"product_name\":\"Slavonska domaća kobasica\",\"regija\":\"Slavonija (široko)\",\"eu_status\":null,\"karakter\":\"Kućna, nestrogo regulirana varijanta Slavonske kobasice (ZOI). Tehnološki gotovo identična, ali bez EU certifikacijskih obveza glede porijekla sirovina.\",\"batch_size_kg\":10,\"raw_materials\":{\"krto_meso_kg_total\":7.5,\"krto_meso_napomena\":\"kućn"
+        },
+        "_dry_verified_process_cluster": {
+            "length": 24,
+            "is_json": false,
+            "preview": "01-A_slavonsko_baranjski"
+        },
+        "_dry_verified_process_date": {
+            "length": 10,
+            "is_json": false,
+            "preview": "2026-06-04"
+        },
+        "_dry_verified_process_master_id": {
+            "length": 4,
+            "is_json": true,
+            "preview": "2972"
+        },
+        "_dry_verified_process_version": {
+            "length": 3,
+            "is_json": true,
+            "preview": "1.1"
+        },
+        "dry_recipe_code": {
+            "length": 9,
+            "is_json": false,
+            "preview": "HR-SL-005"
+        }
+    },
+    "label": "REFERENCE_PUBLIC_SLAVONSKA_DOMACA_KOBASICA",
+    "http": {
+        "ok": true,
+        "http_code": "200",
+        "body_length": 357571,
+        "plain_length": 9842,
+        "markers": {
+            "body_has_dcv": true,
+            "body_has_drycured_recipe": true,
+            "body_has_dc_recipe_class": false,
+            "body_has_recipe_hero": true,
+            "body_has_wprm": true,
+            "body_has_raw_markdown": true,
+            "body_has_granulation": false,
+            "body_has_kronologija": true,
+            "body_has_sigurnosni_semafor": true,
+            "body_has_dnevnik_sarze": true,
+            "body_has_private_notice": false
+        },
+        "excerpt": "Slavonska domaća kobasica - drycured.com Skip to content drycured.com RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja drycured.com Main Menu RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja DIGITALNA PUŠNICA HR-SL-005 Slavonija (široko) Suhomesnati proizvod Slavonska domaća kobasica # HR-SL-005 — Slavonska domaća kobasica ## 1. Identitet recepta - Kanonski naziv: Slavonska domaća kobasica - Alternativni nazivi: nisu posebno zabilježeni u primarnom izvoru - Država: Hrvatska - Regija: Slavonija - Mikroregija: širi prostor Slavonije, Baranje... Otvori kalkulator za ovaj recept Dnevnik šarže Ispiši radnu verziju Šarža 10 kg mesne mase Trajanje 70–100 dana Dimljenje hladni dim u blagim ciklusima Crijeva svinjska tanka crijeva 32–40 mm Gubitak mase postupno sušenje i zrenje 1Omjer smjese Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje. 70 % meso 30 % slanina 2Glavne sirovine Meso i slanina prikazuju se u kilogramima jer čine osnovu smjese. plećka (rame) 3,00 kg 30 % but (gornji dio) 1,50 kg 15 % vratina 1,50 kg 15 % obresci od komadanja 1,50 kg 15 % tvrda leđna slanina 2,50 kg 25 % 3Začini i dodaci Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer. morska ili kamena sol 220 g 2,2 % 22 g/kg nit",
+        "needle_excerpts": {
+            "Slavonska domaća kobasica": "Slavonska domaća kobasica - drycured.com Skip to content drycured.com RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja drycured.com Main Menu RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja DIGITALNA PUŠNICA HR-SL-005 Slavonija (široko) Suhomesnat",
+            "Mljevenje": "zvod čuvati hladno, tamno i prozračno. 7Procesna kronologija Ovo je radni vodič od sirovine do stola. Svaka faza ima cilj i kritičnu točku kontrole. Dan 0 Priprema mesa Sirovinu dobro ohladiti, očistiti od neželjenog veziva i pripremiti za mljevenje ili rezanje. Kritično: Meso i slanina moraju ostati hladni tijekom cijele obrade. Dan 0 Mljevenje i obrada slanine Krto meso mljeti na rešetku 6 mm. Tvrdu leđnu slaninu obraditi: ručno na kockice 4–6 mm. Kritično: Slanina treba biti polusmrznuta; ako se masa počne lijepiti, obradu prekinuti i sirovinu vratiti na hlađenje. Dan 0 Miješanje Dodati sol, papriku, papar i procijeđenu aromatsku tekućinu od češnjaka te miješati dok se masa ne poveže i ra",
+            "Sigurnosni semafor": " užeglih nota. Površina je stabilna Nema sluzi, ljepljivosti ni mokrih mjesta. Tekstura odgovara tipu proizvoda Presjek ili komad djeluju povezano i stabilno. Gubitak vlage je postupan Nema znakova tvrde kore ili zaostale vlage u jezgri. 10Sigurnosni semafor Kod suhomesnatih proizvoda svaka sumnja mora imati praktičnu odluku. Bolje odbaciti rizičan proizvod nego spašavati nešto što se ne smije spašavati. Zeleno — normalno Čist miris, stabilna površina, ujednačena boja i očekivan tijek sušenja ili zrenja. Žuto — oprez Neujednačena boja, pretvrda površina, blaga ljepljivost ili presporo sušenje. Korigirati uvjete i pratiti. Crveno — odbaci Truležan, kiseo ili užegao miris, sluzava površina, ze",
+            "Dnevnik šarže": "ecepta - Kanonski naziv: Slavonska domaća kobasica - Alternativni nazivi: nisu posebno zabilježeni u primarnom izvoru - Država: Hrvatska - Regija: Slavonija - Mikroregija: širi prostor Slavonije, Baranje... Otvori kalkulator za ovaj recept Dnevnik šarže Ispiši radnu verziju Šarža 10 kg mesne mase Trajanje 70–100 dana Dimljenje hladni dim u blagim ciklusima Crijeva svinjska tanka crijeva 32–40 mm Gubitak mase postupno sušenje i zrenje 1Omjer smjese Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje. 70 % meso 30 % slanina 2Glavne sirovine Meso i slanina prikazuju se u kilogramima jer čine osnovu smjese. plećka (rame) 3,00 kg 30 % b"
+        }
+    }
+}

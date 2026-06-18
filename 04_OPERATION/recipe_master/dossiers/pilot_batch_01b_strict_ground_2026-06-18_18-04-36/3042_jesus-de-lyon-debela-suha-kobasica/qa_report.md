@@ -150,3 +150,14 @@ Status: **READ_ONLY_INSPECTION_COMPLETE**
 - JSON: `review/renderer_contract_inspection_v1_2026-06-18_19-08-09/3535_renderer_contract_inspection_v1.json`
 - Meta matrix: `review/renderer_contract_inspection_v1_2026-06-18_19-08-09/3535_renderer_meta_matrix.csv`
 
+<!-- DC_RENDERER_ACTIVATION_DEEP_INSPECTION_V1 -->
+
+## Renderer activation deep inspection v1
+
+Status: **READ_ONLY_DEEP_INSPECTION_COMPLETE**
+
+- Public update allowed: `false`
+- WordPress write allowed: `false`
+- Report: `review/renderer_activation_deep_inspection_v1_2026-06-18_19-10-16/RENDERER_ACTIVATION_DEEP_INSPECTION_REPORT.md`
+- JSON: `review/renderer_activation_deep_inspection_v1_2026-06-18_19-10-16/renderer_activation_deep_inspection_v1.json`
+

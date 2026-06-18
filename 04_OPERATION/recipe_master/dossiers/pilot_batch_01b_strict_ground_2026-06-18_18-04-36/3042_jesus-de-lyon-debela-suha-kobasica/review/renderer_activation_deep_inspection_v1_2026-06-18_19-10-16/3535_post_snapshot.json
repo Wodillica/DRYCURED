@@ -1,0 +1,112 @@
+{
+    "exists": true,
+    "ID": 3535,
+    "title": "PRIVATE PREVIEW — Jésus de Lyon – debela suha kobasica",
+    "name": "private-preview-3042-jesus-de-lyon-dossier-only-20260618-184742",
+    "status": "private",
+    "type": "dry_recipe",
+    "permalink": "https://drycured.com/?post_type=dry_recipe&p=3535",
+    "content_length": 2682,
+    "filtered_length": 3277,
+    "filtered_has_raw_markdown": true,
+    "filtered_excerpt": "# Jésus de Lyon – debela suha kobasica > PRIVATNI PREVIEW — DOSJE. Ovo nije javni recept i ne smije se objaviti dok su blokade aktivne. ## Brzi sažetak &#8211; Tip: mljeveno/usitnjeno meso u prirodnom ovitku &#8211; Šarža: 10 kg &#8211; Status: CANON_DRAFT_V1_NOT_PUBLIC &#8211; Javni update: zabranjen ## Glavne sirovine &#8211; svinjska lopatica: 5.833 kg &#8211; svinjska potrbušina bez kože: 2.500 kg &#8211; tvrda leđna slanina / svinjska masnoća: 1.667 kg ## Začini i dodaci &#8211; morska sol: 200 g (20.0 g/kg) &#8211; šećer: 42 g (4.2 g/kg) &#8211; mljeveni crni papar: 50 g (5.0 g/kg) &#8211; mljeveni bijeli papar: 25 g (2.5 g/kg) &#8211; sušeni češnjak u prahu: 42 g (4.2 g/kg) &#8211; mljeveni piment / allspice: 25 g (2.5 g/kg) &#8211; sjemenke gorušice, mljevene: 17 g (1.7 g/kg) &#8211; starter kultura T-SPX ili slična: 42 g ( g/kg) ## Tekućine i češnjak &#8211; konjak: 208 ml &#8211; mlaka destilirana voda za razrjeđivanje startera: 83 ml &#8211; Češnjak: sušeni češnjak u prahu dodaje se izravno ## Mljevenje i obrada masnoće &#8211; Rešetka: 6–8 mm &#8211; Obrada masnoće: meso, potrbušinu i leđnu slaninu držati vrlo hladnima; masnoća mora biti čvrsta prije mljevenja &#8211; Temperaturna kontrola: temperatura smjese ne smije prijeći 8 °C ## Crijeva &#8211; Tip: svinjska crijeva &#8211; Promjer: 28–32 mm &#8211; Namakanje: 30–45 minuta, mlaka voda, 25–30 °C &#8211; Prokuhavanje: ne prokuhavati ## Gotovo je kad &#8211; proizvod je izgubio približno 35–40 % početne mase &#8211; presjek je stabilan, bez vlažne jezgre &#8211; miris je čist, bez truležnog, sluzavog, užeglog ",
+    "meta": {
+        "_dry_recipe_active_blockers": {
+            "length": 303,
+            "is_json": true,
+            "preview": "[\"kanonski izvor za točne količine nije potvrđen\", \"količina starter kulture zahtijeva tehničku provjeru\", \"dimljenje je označeno kao needs_confirmation\", \"javni tekst još sadrži interne tragove prema intake izvještaju\", \"potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea\"]"
+        },
+        "_dry_recipe_adapter_payload_version": {
+            "length": 38,
+            "is_json": false,
+            "preview": "3042_private_preview_adapter_dryrun_v1"
+        },
+        "_dry_recipe_dossier_path": {
+            "length": 147,
+            "is_json": false,
+            "preview": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica"
+        },
+        "_dry_recipe_dossier_status": {
+            "length": 25,
+            "is_json": false,
+            "preview": "CANON_DRAFT_V1_NOT_PUBLIC"
+        },
+        "_dry_recipe_full_markdown": {
+            "length": 2682,
+            "is_json": false,
+            "preview": "# Jésus de Lyon – debela suha kobasica\n\n> PRIVATNI PREVIEW — DOSJE. Ovo nije javni recept i ne smije se objaviti dok su blokade aktivne.\n\n## Brzi sažetak\n\n- Tip: mljeveno/usitnjeno meso u prirodnom ovitku\n- Šarža: 10 kg\n- Status: CANON_DRAFT_V1_NOT_PUBLIC\n- Javni update: zabranjen\n\n## Glavne sirovine\n\n- svinjska lopatica: 5.833 kg\n- svinjska potrbušina bez kože: 2.500 kg\n- tvrda leđna slanina / sv"
+        },
+        "_dry_recipe_preview_mode": {
+            "length": 18,
+            "is_json": false,
+            "preview": "PRIVATE_CLONE_ONLY"
+        },
+        "_dry_recipe_preview_source_post_id": {
+            "length": 4,
+            "is_json": true,
+            "preview": "3042"
+        },
+        "_dry_recipe_private_clone_created_at_gmt": {
+            "length": 25,
+            "is_json": false,
+            "preview": "2026-06-18T18:47:42+00:00"
+        },
+        "_dry_recipe_private_clone_guard": {
+            "length": 24,
+            "is_json": false,
+            "preview": "SOURCE_3042_NOT_MODIFIED"
+        },
+        "_dry_recipe_public_update_allowed": {
+            "length": 1,
+            "is_json": true,
+            "preview": "0"
+        },
+        "_dry_recipe_public_verified": {
+            "length": 1,
+            "is_json": true,
+            "preview": "0"
+        },
+        "_dry_recipe_sections": {
+            "length": 5996,
+            "is_json": true,
+            "preview": "{\"hero\": {\"title\": \"Jésus de Lyon – debela suha kobasica\", \"region_country\": \"Lyon, Francuska\", \"product_family\": \"suhi saucisson / debela suha kobasica\", \"product_type\": \"mljeveno/usitnjeno meso u prirodnom ovitku\", \"status_note\": \"Proizvod je potvrđen kao lyonški suhi saucisson; aktualni zaštićeni status nije potvrđen za javno navođenje.\"}, \"quick_summary\": {\"batch\": \"10 kg\", \"type\": \"mljeveno/u"
+        },
+        "_dry_recipe_source_validation_status": {
+            "length": 44,
+            "is_json": false,
+            "preview": "PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED"
+        },
+        "_dry_recipe_type_router": {
+            "length": 21,
+            "is_json": false,
+            "preview": "GROUND_MEAT_OR_CASING"
+        },
+        "_dry_verified_process": {
+            "length": 1491,
+            "is_json": true,
+            "preview": "{\"recipe_type\": \"GROUND_MEAT_OR_CASING\", \"status\": \"PRIVATE_PREVIEW_ONLY\", \"public_update_allowed\": false, \"source_post_id\": 3042, \"source_recipe_yml\": \"/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/recipe.yml\", \"phases\": [{\"key\": \"preparation\", \"title\": \"Priprema sirovine\", \"summary\": \"Meso narez"
+        }
+    },
+    "label": "PRIVATE_CLONE_JESUS_DE_LYON",
+    "http": {
+        "ok": true,
+        "http_code": "404",
+        "body_length": 230844,
+        "plain_length": 2021,
+        "markers": {
+            "body_has_dcv": true,
+            "body_has_drycured_recipe": true,
+            "body_has_dc_recipe_class": false,
+            "body_has_recipe_hero": true,
+            "body_has_wprm": true,
+            "body_has_raw_markdown": false,
+            "body_has_granulation": false,
+            "body_has_kronologija": false,
+            "body_has_sigurnosni_semafor": false,
+            "body_has_dnevnik_sarze": false,
+            "body_has_private_notice": false
+        },
+        "excerpt": "Stranica nije pronađena. &#8211; drycured.com Skip to content drycured.com RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja drycured.com Main Menu RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja This page doesn&#039;t seem to exist. It looks like the link pointing here was faulty. Maybe try searching? Search for: Search Copyright &copy; 2026 drycured.com &times; Prijava Dobrodošli natrag u Digitalnu pušnicu. Korisničko ime ili email Lozinka Zapamti me Zaboravljena lozinka? Prijavi se nemate račun? Otvori novi račun Drycured Tražilica&times; Upišite pojam za pretragu receptura i tehnika. Esc zatvoriCtrl+K otvori ⏳ Scroll to Top Kolačići na drycured.com Koristimo nužne kolačiće za rad stranice. Funkcionalne kolačiće koristimo za dodatne mogućnosti, primjerice pamćenje odabranog jezika prijevoda. Analitičke i marketinške kolačiće trenutačno ne koristimo. Prihvati funkcionalne Samo nužni Postavke Politika kolačića · Politika privatnosti Postavke kolačića Postavke kolačića Nužni kolačići Uvijek aktivni. Potrebni su za sigurnost, prijavu korisnika i osnovni rad WordPress stranice. Funkcionalni prijevod Omogućuje dodatne funkcije poput pamćenja odabranog jezika prijevoda. Analitika Trenutno se ne koristi. Marketing Trenutno se ne koristi. Spremi postavke Samo nužni Zatvori Sadržaj Recepti Blog i vodiči Knjiga Kalkulator Podcast Dryc",
+        "needle_excerpts": []
+    }
+}

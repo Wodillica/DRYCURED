@@ -1,0 +1,112 @@
+{
+    "exists": true,
+    "ID": 3042,
+    "title": "Jésus de Lyon – debela suha kobasica",
+    "name": "jesus-de-lyon-debela-suha-kobasica",
+    "status": "publish",
+    "type": "dry_recipe",
+    "permalink": "https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/",
+    "content_length": 4123,
+    "filtered_length": 4677,
+    "filtered_has_raw_markdown": true,
+    "filtered_excerpt": "## Jésus de Lyon – debela suha kobasica Jésus de Lyon – debela suha kobasica pripada tradiciji područja Lyon, Francuska. Radi se kao suha kobasica od Svinjetina, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju. ### Radni sažetak &#8211; Šarža: 10 kg osnovne sirovine ili mesne smjese. &#8211; Tip proizvoda: suha kobasica. &#8211; Glavna sirovina: Svinjetina. &#8211; Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm. &#8211; Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova. &#8211; Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje. &#8211; Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine. ### Sastojci: &#8211; 10,000 kg Svinjetina &#8211; * 700 g svinjske lopatice &#8211; * 300 g svinjske potrbušine s kožom &#8211; * 200 g svinjske masnoće (leđne slanine) &#8211; * 24 g morske soli (2% od ukupne težine mesa) &#8211; * 5 g šećera &#8211; * 6 g mljevenog crnog papra &#8211; * 3 g mljevenog bijelog papra &#8211; * 5 g sušenog češnjaka u prahu &#8211; * 3 g mljevenog pimenta (allspice) &#8211; * 2 g sjemenki gorušice, mljevenih &#8211; * 25 ml konjaka &#8211; * 5 g starter kulture (T-SPX ili sličan) &#8211; * 10 ml mlake destilirane vode (za razrjeđivanje startera) ### Crijeva / omotač: Koristiti svinjska crijeva pr",
+    "meta": {
+        "_dry_archive_ready": {
+            "length": 3,
+            "is_json": false,
+            "preview": "yes"
+        },
+        "_dry_calculator_ready": {
+            "length": 2,
+            "is_json": false,
+            "preview": "no"
+        },
+        "_dry_canonical_status": {
+            "length": 12,
+            "is_json": false,
+            "preview": "public_ready"
+        },
+        "_dry_category": {
+            "length": 8,
+            "is_json": false,
+            "preview": "Kobasica"
+        },
+        "_dry_country": {
+            "length": 8,
+            "is_json": false,
+            "preview": "Hrvatska"
+        },
+        "_dry_microregion": {
+            "length": 23,
+            "is_json": false,
+            "preview": "not_specified_in_source"
+        },
+        "_dry_product_type": {
+            "length": 8,
+            "is_json": false,
+            "preview": "Kobasica"
+        },
+        "_dry_public_ready": {
+            "length": 3,
+            "is_json": false,
+            "preview": "yes"
+        },
+        "_dry_recipe_full_markdown": {
+            "length": 4123,
+            "is_json": false,
+            "preview": "## Jésus de Lyon – debela suha kobasica\n\nJésus de Lyon – debela suha kobasica pripada tradiciji područja Lyon, Francuska. Radi se kao suha kobasica od Svinjetina, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.\n\n### Radni sažetak\n\n- Šarža: 10 kg osnovne"
+        },
+        "_dry_recipe_id": {
+            "length": 37,
+            "is_json": false,
+            "preview": "MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA"
+        },
+        "_dry_recipe_sections": {
+            "length": 8517,
+            "is_json": true,
+            "preview": "{\"full_markdown\":\"## 3. Jésus de Lyon (Debela suha kobasica)nn### Sastojcin* 700 g svinjske lopaticen* 300 g svinjske potrbušine s kožomn* 200 g svinjske masnoće (leđne slanine)n* 24 g morske soli (2% od ukupne težine mesa)n* 5 g šećeran* 6 g mljevenog crnog papran* 3 g mljevenog bijelog papran* 5 g sušenog češnjaka u prahun* 3 g mljevenog pimenta (allspice)n* 2 g sjemenki gorušice, mljevenihn* 25"
+        },
+        "_dry_region": {
+            "length": 4,
+            "is_json": false,
+            "preview": "Lyon"
+        },
+        "_dry_source": {
+            "length": 40,
+            "is_json": false,
+            "preview": "francuski-suhomesnati-proizvodi-2 (1).md"
+        },
+        "dry_recipe_code": {
+            "length": 37,
+            "is_json": false,
+            "preview": "MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA"
+        }
+    },
+    "label": "SOURCE_PUBLIC_JESUS_DE_LYON",
+    "http": {
+        "ok": true,
+        "http_code": "200",
+        "body_length": 353800,
+        "plain_length": 11017,
+        "markers": {
+            "body_has_dcv": true,
+            "body_has_drycured_recipe": true,
+            "body_has_dc_recipe_class": false,
+            "body_has_recipe_hero": true,
+            "body_has_wprm": true,
+            "body_has_raw_markdown": true,
+            "body_has_granulation": false,
+            "body_has_kronologija": true,
+            "body_has_sigurnosni_semafor": true,
+            "body_has_dnevnik_sarze": true,
+            "body_has_private_notice": false
+        },
+        "excerpt": "Jésus de Lyon – debela suha kobasica - drycured.com Skip to content drycured.com RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja drycured.com Main Menu RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja DIGITALNA PUŠNICA MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA Lyon, Francuska Suha kobasica Jésus de Lyon – debela suha kobasica Jésus de Lyon – debela suha kobasica Jésus de Lyon – debela suha kobasica pripada tradiciji područja Lyon, Francuska. Radi se kao suha kobasica od Svinjetina, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu... Otvori kalkulator za ovaj recept Dnevnik šarže Ispiši radnu verziju Šarža 10 kg mesne sirovine Trajanje 1–2 dana Dimljenje hladni dim / prema receptu Crijeva Koristiti svinjska crijeva promjera 28–32 mm. Crijeva isprati od soli i namočiti Skaliranje MD izvor → 10 kg 1Omjer smjese Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje. 70 % meso 30 % slanina 2Glavne sirovine Meso i slanina prikazuju se u kilogramima jer čine osnovu smjese. Svinjske lopatice 5,833 kg 58,3 % Preračunato na 10 kg mesne sirovine iz izvornog MD omjera. Svinjska potrbušina bez kože 2,5 kg 25 % Za proizvodni prikaz koristi se potrbušina bez kože. Kožu obavezno ukloniti prije mljevenja; u nadjev ulazi samo mesno-masni",
+        "needle_excerpts": {
+            "Jésus de Lyon": "Jésus de Lyon – debela suha kobasica - drycured.com Skip to content drycured.com RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja drycured.com Main Menu RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja DIGITALNA PUŠNICA MD-JESUS_DE_LYON_DEBELA_SUHA",
+            "Mljevenje": "rema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C. Kritično: Ako se pojavi neugodan miris, sluzava površina ili sumnjiva boja, proizvod ne smatrati sigurnim. Dan 1 Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C. Kritično: Ako se pojavi neugodan miris, sluzava površina ili sumnjiva boja, proizvod ne smatrati sigurnim. Dan 1 Miješanje: dodati sol, začine i tekućinu ako se korist Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne pov",
+            "Sigurnosni semafor": "čist Nema truležnih, kiselih ni užeglih nota. Površina je stabilna Nema sluzi, ljepljivosti ni mokrih mjesta. Presjek je siguran Nema vlažne jezgre, sivih zona ni razmazane masnoće. Tekstura je zrela Kobasica je čvrsta, ali ne presušena. 10Sigurnosni semafor Kod suhomesnatih proizvoda svaka sumnja mora imati praktičnu odluku. Bolje odbaciti rizičan proizvod nego spašavati nešto što se ne smije spašavati. Zeleno — normalno Čist miris, stabilna površina i očekivan tijek sušenja. Žuto — oprez Blaga ljepljivost, presporo sušenje ili pretvrda površina. Korigirati uvjete i pratiti. Crveno — odbaci Truležan, kiseo ili užegao miris, sluzava površina ili sumnjive promjene u presjeku. 11Posluživanje i",
+            "Dnevnik šarže": "la suha kobasica pripada tradiciji područja Lyon, Francuska. Radi se kao suha kobasica od Svinjetina, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu... Otvori kalkulator za ovaj recept Dnevnik šarže Ispiši radnu verziju Šarža 10 kg mesne sirovine Trajanje 1–2 dana Dimljenje hladni dim / prema receptu Crijeva Koristiti svinjska crijeva promjera 28–32 mm. Crijeva isprati od soli i namočiti Skaliranje MD izvor → 10 kg 1Omjer smjese Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje. 70 % meso 30 % slanina 2Glavne sirovine Meso i slanina prikazuju se u kilogramima jer čine osnovu "
+        }
+    }
+}

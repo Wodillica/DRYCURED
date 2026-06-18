@@ -1,0 +1,1957 @@
+[
+    {
+        "pattern": "is_singular",
+        "line": 58,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 64,
+        "text": ".single-dry_recipe .dc-canon-table-wrap {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 68,
+        "text": ".single-dry_recipe .dc-canon-table {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 74,
+        "text": ".single-dry_recipe .dc-canon-table th,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 75,
+        "text": ".single-dry_recipe .dc-canon-table td {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 81,
+        "text": ".single-dry_recipe .dc-canon-table th:nth-child(1),"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 82,
+        "text": ".single-dry_recipe .dc-canon-table td:nth-child(1) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 86,
+        "text": ".single-dry_recipe .dc-canon-table th:nth-child(2),"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 87,
+        "text": ".single-dry_recipe .dc-canon-table td:nth-child(2) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 91,
+        "text": ".single-dry_recipe .dc-canon-table th:nth-child(3),"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 92,
+        "text": ".single-dry_recipe .dc-canon-table td:nth-child(3) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 97,
+        "text": ".single-dry_recipe .dc-canon-admin {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 101,
+        "text": ".single-dry_recipe .dc-canon-section p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 102,
+        "text": ".single-dry_recipe .dc-canon-list li,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 103,
+        "text": ".single-dry_recipe .dc-canon-table td {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 108,
+        "text": ".single-dry_recipe .dc-canon-section {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 122,
+        "text": "* Description: Sigurni override javnog prikaza kanonskih dry_recipe recepata bez diranja core plugina."
+    },
+    {
+        "pattern": "add_filter_the_content",
+        "line": 130,
+        "text": "add_filter('the_content', 'dc_canon_recipe_override_content', 999);"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 132,
+        "text": "function dc_canon_recipe_override_content($content) {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 133,
+        "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 142,
+        "text": "$markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);"
+    },
+    {
+        "pattern": "dry_recipe_id",
+        "line": 149,
+        "text": "$code        = dc_canon_meta($post_id, '_dry_recipe_id');"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 164,
+        "text": ".single-dry_recipe .ast-container,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 165,
+        "text": ".single-dry_recipe .site-content .ast-container,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 166,
+        "text": ".single-dry_recipe .content-area,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 167,
+        "text": ".single-dry_recipe main.site-main {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 174,
+        "text": ".single-dry_recipe .entry-header,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 175,
+        "text": ".single-dry_recipe .entry-meta {"
+    },
+    {
+        "pattern": "current_user_can",
+        "line": 472,
+        "text": "if (current_user_can('edit_posts')) {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 515,
+        "text": "function dc_canon_recipe_parse_sections($markdown) {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 546,
+        "text": "function dc_canon_recipe_section($sections, $num, $title = '') {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 560,
+        "text": "function dc_canon_recipe_render_body($body_lines) {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 620,
+        "text": "function dc_canon_recipe_render_table($lines) {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 685,
+        "text": "function dc_canon_recipe_inline($text) {"
+    },
+    {
+        "pattern": "add_filter_the_content",
+        "line": 706,
+        "text": "add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 708,
+        "text": "function dcv5_recipe_view_pilot_content($content) {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 709,
+        "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 714,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 741,
+        "text": "$image_url = get_post_meta($post_id, '_dry_recipe_image_url', true);"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 753,
+        "text": ".single-dry_recipe .entry-header,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 754,
+        "text": ".single-dry_recipe .entry-meta {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 758,
+        "text": ".single-dry_recipe .ast-container,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 759,
+        "text": ".single-dry_recipe .site-content .ast-container,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 760,
+        "text": ".single-dry_recipe .content-area,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 761,
+        "text": ".single-dry_recipe main.site-main {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 1596,
+        "text": "function dcv5_render_recipe_schema($recipe) {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 1628,
+        "text": "function dcv5_supported_recipe_codes() {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 1636,
+        "text": "function dcv5_get_recipe_profile($post_id, $code = '') {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 1657,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 1699,
+        "text": "function dcv5_recipe_js_profile($recipe) {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 2000,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2010,
+        "text": ".single-dry_recipe .dcv5-layout {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2015,
+        "text": ".single-dry_recipe #sirovine .dcv5-card-grid.two,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2016,
+        "text": ".single-dry_recipe #zacini .dcv5-card-grid.two,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2017,
+        "text": ".single-dry_recipe #tekucine .dcv5-card-grid.two {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2022,
+        "text": ".single-dry_recipe #sirovine .dcv5-ingredient-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2023,
+        "text": ".single-dry_recipe #zacini .dcv5-ingredient-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2024,
+        "text": ".single-dry_recipe #tekucine .dcv5-ingredient-card {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2032,
+        "text": ".single-dry_recipe #sirovine .dcv5-ingredient-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2033,
+        "text": ".single-dry_recipe #zacini .dcv5-ingredient-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2034,
+        "text": ".single-dry_recipe #tekucine .dcv5-ingredient-card h3 {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2040,
+        "text": ".single-dry_recipe #sirovine .dcv5-amount-line,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2041,
+        "text": ".single-dry_recipe #zacini .dcv5-amount-line,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2042,
+        "text": ".single-dry_recipe #tekucine .dcv5-amount-line {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2050,
+        "text": ".single-dry_recipe .dcv5-amount {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2064,
+        "text": ".single-dry_recipe .dcv5-percent,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2065,
+        "text": ".single-dry_recipe .dcv5-rate {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2076,
+        "text": ".single-dry_recipe .dcv5-percent::before {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2082,
+        "text": ".single-dry_recipe .dcv5-rate::before {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2088,
+        "text": ".single-dry_recipe #sirovine .dcv5-ingredient-card p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2089,
+        "text": ".single-dry_recipe #zacini .dcv5-ingredient-card p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2090,
+        "text": ".single-dry_recipe #tekucine .dcv5-ingredient-card p {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2097,
+        "text": ".single-dry_recipe .dcv5-side-panel {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2101,
+        "text": ".single-dry_recipe .dcv5-side-panel a {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2107,
+        "text": ".single-dry_recipe .dcv5-layout {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2111,
+        "text": ".single-dry_recipe #sirovine .dcv5-ingredient-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2112,
+        "text": ".single-dry_recipe #zacini .dcv5-ingredient-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2113,
+        "text": ".single-dry_recipe #tekucine .dcv5-ingredient-card {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 2138,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2148,
+        "text": "body.single-dry_recipe .site-content {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2152,
+        "text": "body.single-dry_recipe .ast-container,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2153,
+        "text": "body.single-dry_recipe .site-content .ast-container,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2154,
+        "text": "body.single-dry_recipe .content-area,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2155,
+        "text": "body.single-dry_recipe main.site-main,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2156,
+        "text": "body.single-dry_recipe article,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2157,
+        "text": "body.single-dry_recipe .entry-content {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2167,
+        "text": "body.single-dry_recipe .entry-content::before,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2168,
+        "text": "body.single-dry_recipe .entry-content::after,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2169,
+        "text": "body.single-dry_recipe article::before,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2170,
+        "text": "body.single-dry_recipe article::after {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2175,
+        "text": "body.single-dry_recipe .dcv5-recipe {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2184,
+        "text": "body.single-dry_recipe .dcv5-hero,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2185,
+        "text": "body.single-dry_recipe .dcv5-quick-strip,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2186,
+        "text": "body.single-dry_recipe .dcv5-layout {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2193,
+        "text": "body.single-dry_recipe .dcv5-layout {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2200,
+        "text": "body.single-dry_recipe .dcv5-layout > main {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2205,
+        "text": "body.single-dry_recipe .dcv5-side-panel {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2210,
+        "text": "body.single-dry_recipe .dcv5-hero-grid {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2215,
+        "text": "body.single-dry_recipe .dcv5-hero-media img {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2219,
+        "text": "body.single-dry_recipe .dcv5-panel {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2225,
+        "text": "body.single-dry_recipe #sirovine .dcv5-card-grid.two,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2226,
+        "text": "body.single-dry_recipe #zacini .dcv5-card-grid.two,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2227,
+        "text": "body.single-dry_recipe #tekucine .dcv5-card-grid.two {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2232,
+        "text": "body.single-dry_recipe #sirovine .dcv5-ingredient-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2233,
+        "text": "body.single-dry_recipe #zacini .dcv5-ingredient-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2234,
+        "text": "body.single-dry_recipe #tekucine .dcv5-ingredient-card {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2244,
+        "text": "body.single-dry_recipe #sirovine .dcv5-ingredient-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2245,
+        "text": "body.single-dry_recipe #zacini .dcv5-ingredient-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2246,
+        "text": "body.single-dry_recipe #tekucine .dcv5-ingredient-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2247,
+        "text": "body.single-dry_recipe #sirovine .dcv5-ingredient-card .dcv5-amount-line,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2248,
+        "text": "body.single-dry_recipe #zacini .dcv5-ingredient-card .dcv5-amount-line,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2249,
+        "text": "body.single-dry_recipe #tekucine .dcv5-ingredient-card .dcv5-amount-line,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2250,
+        "text": "body.single-dry_recipe #sirovine .dcv5-ingredient-card p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2251,
+        "text": "body.single-dry_recipe #zacini .dcv5-ingredient-card p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2252,
+        "text": "body.single-dry_recipe #tekucine .dcv5-ingredient-card p {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2257,
+        "text": "body.single-dry_recipe .dcv5-recipe {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2262,
+        "text": "body.single-dry_recipe .dcv5-layout {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2267,
+        "text": "body.single-dry_recipe .dcv5-side-panel {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2272,
+        "text": "body.single-dry_recipe .dcv5-hero-grid {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2276,
+        "text": "body.single-dry_recipe .dcv5-hero-media img {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2282,
+        "text": "body.single-dry_recipe .dcv5-recipe {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2287,
+        "text": "body.single-dry_recipe .dcv5-layout {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2291,
+        "text": "body.single-dry_recipe .dcv5-side-panel {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2296,
+        "text": "body.single-dry_recipe .dcv5-hero-grid {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2300,
+        "text": "body.single-dry_recipe #sirovine .dcv5-ingredient-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2301,
+        "text": "body.single-dry_recipe #zacini .dcv5-ingredient-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2302,
+        "text": "body.single-dry_recipe #tekucine .dcv5-ingredient-card {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 2326,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2335,
+        "text": "body.single-dry_recipe .dcv5-panel {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2339,
+        "text": "body.single-dry_recipe .dcv5-section-note {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2351,
+        "text": "body.single-dry_recipe .dcv5-quick-strip {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2358,
+        "text": "body.single-dry_recipe .dcv5-quick-card {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2370,
+        "text": "body.single-dry_recipe .dcv5-quick-card span {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2380,
+        "text": "body.single-dry_recipe .dcv5-quick-card strong {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2390,
+        "text": "body.single-dry_recipe #sirovine .dcv5-ingredient-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2391,
+        "text": "body.single-dry_recipe #zacini .dcv5-ingredient-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2392,
+        "text": "body.single-dry_recipe #tekucine .dcv5-ingredient-card {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2400,
+        "text": "body.single-dry_recipe #sirovine .dcv5-ingredient-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2401,
+        "text": "body.single-dry_recipe #zacini .dcv5-ingredient-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2402,
+        "text": "body.single-dry_recipe #tekucine .dcv5-ingredient-card h3 {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2409,
+        "text": "body.single-dry_recipe #sirovine .dcv5-ingredient-card p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2410,
+        "text": "body.single-dry_recipe #zacini .dcv5-ingredient-card p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2411,
+        "text": "body.single-dry_recipe #tekucine .dcv5-ingredient-card p {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2417,
+        "text": "body.single-dry_recipe .dcv5-amount {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2425,
+        "text": "body.single-dry_recipe .dcv5-percent,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2426,
+        "text": "body.single-dry_recipe .dcv5-rate {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2436,
+        "text": "body.single-dry_recipe #klima .dcv5-card-grid.two {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2440,
+        "text": "body.single-dry_recipe .dcv5-climate-card {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2448,
+        "text": "body.single-dry_recipe .dcv5-climate-card h3 {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2456,
+        "text": "body.single-dry_recipe .dcv5-climate-card p {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2465,
+        "text": "body.single-dry_recipe .dcv5-timeline {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2469,
+        "text": "body.single-dry_recipe .dcv5-timeline-item {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2477,
+        "text": "body.single-dry_recipe .dcv5-timeline-item h3 {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2485,
+        "text": "body.single-dry_recipe .dcv5-timeline-item p {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2491,
+        "text": "body.single-dry_recipe .dcv5-critical {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2503,
+        "text": "body.single-dry_recipe .dcv5-error-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2504,
+        "text": "body.single-dry_recipe .dcv5-check-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2505,
+        "text": "body.single-dry_recipe .dcv5-safety-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2506,
+        "text": "body.single-dry_recipe .dcv5-serving-card {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2513,
+        "text": "body.single-dry_recipe .dcv5-error-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2514,
+        "text": "body.single-dry_recipe .dcv5-check-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2515,
+        "text": "body.single-dry_recipe .dcv5-safety-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2516,
+        "text": "body.single-dry_recipe .dcv5-serving-card h3 {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2524,
+        "text": "body.single-dry_recipe .dcv5-error-card p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2525,
+        "text": "body.single-dry_recipe .dcv5-check-card p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2526,
+        "text": "body.single-dry_recipe .dcv5-safety-card p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2527,
+        "text": "body.single-dry_recipe .dcv5-serving-card p {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2533,
+        "text": "body.single-dry_recipe .dcv5-error-card p + p {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2537,
+        "text": "body.single-dry_recipe .dcv5-small-pill {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2548,
+        "text": "body.single-dry_recipe .dcv5-quick-strip {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2554,
+        "text": "body.single-dry_recipe .dcv5-quick-strip {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2558,
+        "text": "body.single-dry_recipe .dcv5-quick-card {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 2582,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2587,
+        "text": "body.single-dry_recipe #sigurnost .dcv5-safety-card {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2593,
+        "text": "body.single-dry_recipe #sigurnost .dcv5-safety-marker {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2604,
+        "text": "body.single-dry_recipe #sigurnost .dcv5-safety-dot-real {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2613,
+        "text": "body.single-dry_recipe #sigurnost .dcv5-safety-label-real {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2626,
+        "text": "body.single-dry_recipe #sigurnost .dcv5-safety-card.green .dcv5-safety-dot-real {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2630,
+        "text": "body.single-dry_recipe #sigurnost .dcv5-safety-card.yellow .dcv5-safety-dot-real {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2634,
+        "text": "body.single-dry_recipe #sigurnost .dcv5-safety-card.red .dcv5-safety-dot-real {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2638,
+        "text": "body.single-dry_recipe #sigurnost .dcv5-safety-card.green {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2642,
+        "text": "body.single-dry_recipe #sigurnost .dcv5-safety-card.yellow {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2646,
+        "text": "body.single-dry_recipe #sigurnost .dcv5-safety-card.red {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 2708,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2717,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-summary {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2728,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-summary strong {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2733,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-row-v2 {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2747,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-row-v2 > * {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2752,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-row-v2 > *:first-child {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2759,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-row-v2 .dcv5-sensory-meaning {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2767,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-meaning strong {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2776,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-meaning span {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2783,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-scale {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2797,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-scale span:nth-child(1) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2801,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-scale span:nth-child(2) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2805,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-scale span:nth-child(3) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2810,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-row-v2 {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2815,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-meaning {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 2820,
+        "text": "body.single-dry_recipe #profil .dcv5-sensory-scale {"
+    },
+    {
+        "pattern": "add_filter_the_content",
+        "line": 2925,
+        "text": "add_filter('the_content', 'dcv6_feature_pack_content', 1250);"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 2928,
+        "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 2933,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 3070,
+        "text": "function dcv6_render_related_recipes($current_post_id) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3085,
+        "text": "'post_type' => 'dry_recipe',"
+    },
+    {
+        "pattern": "dry_recipe_id",
+        "line": 3090,
+        "text": "'key' => '_dry_recipe_id',"
+    },
+    {
+        "pattern": "current_user_can",
+        "line": 3200,
+        "text": "if (!current_user_can('manage_options')) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 3204,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 3230,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3280,
+        "text": "body.single-dry_recipe .dcv6-summary-grid,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3281,
+        "text": "body.single-dry_recipe .dcv6-card-grid-three {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3287,
+        "text": "body.single-dry_recipe .dcv6-summary-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3288,
+        "text": "body.single-dry_recipe .dcv6-info-card,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3289,
+        "text": "body.single-dry_recipe .dcv6-compare-box,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3290,
+        "text": "body.single-dry_recipe .dcv6-digital-diary,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3291,
+        "text": "body.single-dry_recipe .dcv6-admin-block .dcv6-admin-grid > div {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3299,
+        "text": "body.single-dry_recipe .dcv6-summary-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3300,
+        "text": "body.single-dry_recipe .dcv6-info-card h3,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3301,
+        "text": "body.single-dry_recipe .dcv6-digital-diary h3 {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3309,
+        "text": "body.single-dry_recipe .dcv6-summary-card p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3310,
+        "text": "body.single-dry_recipe .dcv6-info-card p,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3311,
+        "text": "body.single-dry_recipe .dcv6-digital-diary p {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3318,
+        "text": "body.single-dry_recipe .dcv6-related-list {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3324,
+        "text": "body.single-dry_recipe .dcv6-related-link {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3337,
+        "text": "body.single-dry_recipe .dcv6-related-link span {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3349,
+        "text": "body.single-dry_recipe .dcv6-related-link strong {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3354,
+        "text": "body.single-dry_recipe .dcv6-compare-button,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3355,
+        "text": "body.single-dry_recipe .dcv6-diary-save,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3356,
+        "text": "body.single-dry_recipe .dcv6-diary-clear {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3366,
+        "text": "body.single-dry_recipe .dcv6-diary-clear {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3372,
+        "text": "body.single-dry_recipe .dcv6-compare-status {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3378,
+        "text": "body.single-dry_recipe .dcv6-diary-grid {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3385,
+        "text": "body.single-dry_recipe .dcv6-diary-grid label {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3392,
+        "text": "body.single-dry_recipe .dcv6-diary-input,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3393,
+        "text": "body.single-dry_recipe .dcv6-diary-notes {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3403,
+        "text": "body.single-dry_recipe .dcv6-diary-result {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3413,
+        "text": "body.single-dry_recipe .dcv6-diary-actions {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3420,
+        "text": "body.single-dry_recipe .dcv6-admin-grid {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3426,
+        "text": "body.single-dry_recipe .dcv6-admin-grid strong {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3435,
+        "text": "body.single-dry_recipe .dcv6-admin-grid span {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3441,
+        "text": "body.single-dry_recipe .site-header,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3442,
+        "text": "body.single-dry_recipe .site-footer,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3443,
+        "text": "body.single-dry_recipe .dcv5-side-panel,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3444,
+        "text": "body.single-dry_recipe .dcv5-hero-media,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3445,
+        "text": "body.single-dry_recipe .dcv5-actions,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3446,
+        "text": "body.single-dry_recipe #profil,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3447,
+        "text": "body.single-dry_recipe #varijacije,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3448,
+        "text": "body.single-dry_recipe #povezani,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3449,
+        "text": "body.single-dry_recipe #usporedba,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3450,
+        "text": "body.single-dry_recipe .dcv6-admin-block,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3451,
+        "text": "body.single-dry_recipe #wpadminbar,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3452,
+        "text": "body.single-dry_recipe .dc-floating-compare,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3453,
+        "text": "body.single-dry_recipe .dcv5-btn {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3457,
+        "text": "body.single-dry_recipe,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3458,
+        "text": "body.single-dry_recipe .site-content {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3462,
+        "text": "body.single-dry_recipe .dcv5-recipe {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3468,
+        "text": "body.single-dry_recipe .dcv5-panel,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3469,
+        "text": "body.single-dry_recipe .dcv5-hero,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3470,
+        "text": "body.single-dry_recipe .dcv5-quick-card {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3477,
+        "text": "body.single-dry_recipe .dcv6-summary-grid,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3478,
+        "text": "body.single-dry_recipe .dcv6-card-grid-three,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3479,
+        "text": "body.single-dry_recipe .dcv6-related-list,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3480,
+        "text": "body.single-dry_recipe .dcv6-diary-grid,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3481,
+        "text": "body.single-dry_recipe .dcv6-admin-grid {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 3491,
+        "text": "$dcv6_footer_code = get_post_meta($dcv6_footer_post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "add_filter_the_content",
+        "line": 3640,
+        "text": "add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 3642,
+        "text": "function dcv62_recipe_content_cleanup($content) {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 3643,
+        "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 3648,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 3688,
+        "text": "function dcv62_recipe_link_by_slug($slug, $fallback) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3689,
+        "text": "$post = get_page_by_path($slug, OBJECT, 'dry_recipe');"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 3698,
+        "text": "function dcv62_recipe_nav_registry() {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 3719,
+        "text": "function dcv62_prev_next_recipe_nav() {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 3721,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 3764,
+        "text": "function dcv62_recipe_content_cleanup_css_js() {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 3765,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3774,
+        "text": "body.single-dry_recipe #usporedba,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3775,
+        "text": "body.single-dry_recipe #povezani,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3776,
+        "text": "body.single-dry_recipe .dcv5-side-panel a[href=\"#usporedba\"],"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3777,
+        "text": "body.single-dry_recipe .dcv5-side-panel a[href=\"#povezani\"] {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3784,
+        "text": "body.single-dry_recipe #dnevnik > .dcv5-section-note,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3785,
+        "text": "body.single-dry_recipe #dnevnik > .dcv5-print-strip {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3789,
+        "text": "body.single-dry_recipe #dnevnik .dcv6-digital-diary {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3796,
+        "text": "body.single-dry_recipe #kronologija {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3801,
+        "text": "body.single-dry_recipe #kronologija .dcv5-timeline-item {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3809,
+        "text": "body.single-dry_recipe .dcv62-prevnext {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3816,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3830,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link:hover {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3836,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link span {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3844,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link strong {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3851,
+        "text": "body.single-dry_recipe .dcv62-next {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3856,
+        "text": "body.single-dry_recipe .dcv62-prev {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3862,
+        "text": "body.single-dry_recipe .dcv62-prevnext {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3866,
+        "text": "body.single-dry_recipe .dcv62-next {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3873,
+        "text": "body.single-dry_recipe .dcv62-prevnext {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3948,
+        "text": "* Description: Vraća standardni prikaz glavnog site zaglavlja na single dry_recipe stranicama."
+    },
+    {
+        "pattern": "is_singular",
+        "line": 3957,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3967,
+        "text": "body.single-dry_recipe .site-header .ast-container,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3968,
+        "text": "body.single-dry_recipe .main-header-bar .ast-container,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3969,
+        "text": "body.single-dry_recipe .ast-primary-header-bar .ast-container,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3970,
+        "text": "body.single-dry_recipe .ast-above-header-bar .ast-container,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3971,
+        "text": "body.single-dry_recipe .ast-below-header-bar .ast-container {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3981,
+        "text": "body.single-dry_recipe .site-header {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3985,
+        "text": "body.single-dry_recipe .site-header .site-branding,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3986,
+        "text": "body.single-dry_recipe .site-header .main-navigation {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3994,
+        "text": "body.single-dry_recipe .site-content .ast-container,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3995,
+        "text": "body.single-dry_recipe .content-area,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3996,
+        "text": "body.single-dry_recipe main.site-main,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3997,
+        "text": "body.single-dry_recipe article,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 3998,
+        "text": "body.single-dry_recipe .entry-content {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 4022,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4031,
+        "text": "body.single-dry_recipe .dcv5-recipe > .dcv62-prevnext {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4037,
+        "text": "body.single-dry_recipe .dcv62-prevnext {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4045,
+        "text": "body.single-dry_recipe .post-navigation,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4046,
+        "text": "body.single-dry_recipe nav.navigation.post-navigation,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4047,
+        "text": "body.single-dry_recipe .site-main > .navigation.post-navigation,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4048,
+        "text": "body.single-dry_recipe .ast-single-post-navigation,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4049,
+        "text": "body.single-dry_recipe .ast-post-navigation,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4050,
+        "text": "body.single-dry_recipe .single-navigation {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4054,
+        "text": "body.single-dry_recipe .dcv62-prevnext {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4060,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4066,
+        "text": "body.single-dry_recipe .dcv62-prevnext {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 4121,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4131,
+        "text": "body.single-dry_recipe .dcv62-prevnext {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4142,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4158,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link::before {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4167,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link:hover {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4175,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link span,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4176,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link strong {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4181,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link span {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4190,
+        "text": "body.single-dry_recipe .dcv62-prevnext-link strong {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4197,
+        "text": "body.single-dry_recipe .dcv62-prev {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4203,
+        "text": "body.single-dry_recipe .dcv62-next {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4209,
+        "text": "body.single-dry_recipe .dcv62-prev::after,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4210,
+        "text": "body.single-dry_recipe .dcv62-next::after {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4228,
+        "text": "body.single-dry_recipe .dcv62-prev::after {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4233,
+        "text": "body.single-dry_recipe .dcv62-next::after {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4242,
+        "text": "body.single-dry_recipe .dcv6-admin-block {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4251,
+        "text": "body.single-dry_recipe .dc-floating-compare,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4252,
+        "text": "body.single-dry_recipe .drycured-floating-compare,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4253,
+        "text": "body.single-dry_recipe .dc-compare-floating,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4254,
+        "text": "body.single-dry_recipe [class*=\"floating\"][class*=\"compare\"],"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4255,
+        "text": "body.single-dry_recipe [class*=\"compare\"][class*=\"floating\"] {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4263,
+        "text": "body.single-dry_recipe .dcv62-prevnext {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4268,
+        "text": "body.single-dry_recipe .dcv62-next {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4275,
+        "text": "body.single-dry_recipe .dcv62-next::after {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4280,
+        "text": "body.single-dry_recipe .dc-floating-compare,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4281,
+        "text": "body.single-dry_recipe .drycured-floating-compare,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4282,
+        "text": "body.single-dry_recipe .dc-compare-floating,"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4283,
+        "text": "body.single-dry_recipe [class*=\"floating\"][class*=\"compare\"],"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4284,
+        "text": "body.single-dry_recipe [class*=\"compare\"][class*=\"floating\"] {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 4329,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4334,
+        "text": "body.single-dry_recipe .dcv111-phase-specs {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4341,
+        "text": "body.single-dry_recipe .dcv111-phase-spec {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4349,
+        "text": "body.single-dry_recipe .dcv111-phase-spec b {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4359,
+        "text": "body.single-dry_recipe .dcv111-phase-spec span {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4367,
+        "text": "body.single-dry_recipe .dcv111-phase-goal {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4374,
+        "text": "body.single-dry_recipe .dcv111-phase-specs {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4380,
+        "text": "body.single-dry_recipe .dcv111-phase-specs {"
+    },
+    {
+        "pattern": "post_type_dry_recipe",
+        "line": 4385,
+        "text": "body.single-dry_recipe .dcv111-phase-spec {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 4659,
+        "text": "function dcv12_batch01_recipe_registry() {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 4901,
+        "text": "function dcv12_recipe_quantity_profile_from_content($post_id) {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 5106,
+        "text": "if (!is_singular('dry_recipe')) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 5111,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 5126,
+        "text": "function dcv16_recipe_family($code, $post_id = 0) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 5135,
+        "text": "$type = get_post_meta($post_id, '_dry_product_type', true);"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 5156,
+        "text": "function dcv16_is_whole_piece_recipe($code, $post_id = 0) {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 5164,
+        "text": "function dcv16_is_wet_cure_recipe($post_id) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 5165,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 5262,
+        "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 5267,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "add_filter_the_content",
+        "line": 5318,
+        "text": "add_filter('the_content', 'dcv16_whole_piece_cure_content_cleanup', 1510);"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 5398,
+        "text": "function dcv12_apply_recipe_quantity_overrides($code, $materials, $spices, $liquids) {"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 6057,
+        "text": "function dcv17_is_whole_piece_recipe($code, $post_id = 0) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 6069,
+        "text": "$type = $post_id ? get_post_meta($post_id, '_dry_product_type', true) : '';"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 6084,
+        "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 6089,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "add_filter_the_content",
+        "line": 6151,
+        "text": "add_filter('the_content', 'dcv17_whole_piece_late_content_cleanup', 9999);"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 6180,
+        "text": "$markdown = $post_id ? get_post_meta($post_id, '_dry_recipe_full_markdown', true) : '';"
+    },
+    {
+        "pattern": "function_recipe",
+        "line": 6225,
+        "text": "function dcv18_is_wet_cure_recipe($post_id, $code = '') {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 6227,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 6342,
+        "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 6347,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "add_filter_the_content",
+        "line": 6431,
+        "text": "add_filter('the_content', 'dcv21_hrsl001_late_source_render_cleanup', 30000);"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 6438,
+        "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 6443,
+        "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "add_filter_the_content",
+        "line": 6478,
+        "text": "add_filter('the_content', 'dcv22_hrsl001_process_omotac_fix', 40000);"
+    },
+    {
+        "pattern": "dry_recipe_id",
+        "line": 6495,
+        "text": "foreach (['_dry_recipe_id', 'dry_recipe_id', '_recipe_id'] as $key) {"
+    },
+    {
+        "pattern": "is_singular",
+        "line": 6666,
+        "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 6671,
+        "text": "$code = (string)get_post_meta($post_id, '_dry_recipe_id', true);"
+    },
+    {
+        "pattern": "add_filter_the_content",
+        "line": 6700,
+        "text": "add_filter('the_content', 'dcv31_hrsl001_final_public_cleanup', 50000);"
+    },
+    {
+        "pattern": "get_post_meta_dry",
+        "line": 6752,
+        "text": "$vp_raw = get_post_meta($post_id, '_dry_verified_process', true);"
+    }
+]
