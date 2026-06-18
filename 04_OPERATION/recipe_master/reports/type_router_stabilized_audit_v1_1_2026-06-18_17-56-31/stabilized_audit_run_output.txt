@@ -1,0 +1,21 @@
+=== STABILIZED AUDIT COMPLETE ===
+TOTAL=937
+CHANGED_FROM_V1=167
+PUBLIC_PASS=30
+PUBLIC_FAIL=382
+FINAL_TYPE_COUNTS:
+FISH_OR_SEAFOOD=24
+GROUND_MEAT_OR_CASING=446
+NEEDS_CLASSIFICATION=173
+THERMAL_PROCESSED=75
+WHOLE_CUT=219
+GATE_COUNTS:
+FAIL=840
+PASS=97
+TYPE_SOURCE_COUNTS:
+BLOCK=34
+KEEP=752
+RECLASSIFY=151
+CSV=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/type_router_stabilized_audit_v1_1_2026-06-18_17-56-31/recipe_type_stabilized_audit_v1_1.csv
+JSON=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/type_router_stabilized_audit_v1_1_2026-06-18_17-56-31/recipe_type_stabilized_audit_v1_1.json
+SUMMARY=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/type_router_stabilized_audit_v1_1_2026-06-18_17-56-31/recipe_type_stabilized_audit_v1_1_summary.md
