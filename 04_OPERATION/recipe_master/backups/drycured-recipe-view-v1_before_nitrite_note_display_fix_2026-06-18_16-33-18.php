@@ -6827,19 +6827,12 @@ if (!function_exists('dcv40_existing_display_data_adapter_profile')) {
                     $percent = rtrim(rtrim(number_format(($min / 1000 / $base) * 100, 3, ',', '.'), '0'), ',') . '–' . rtrim(rtrim(number_format(($max / 1000 / $base) * 100, 3, ',', '.'), '0'), ',') . ' %';
                 }
 
-                $note = $ing['napomena'] ?? '';
-                $name_lower_for_note = function_exists('mb_strtolower') ? mb_strtolower($name, 'UTF-8') : strtolower($name);
-
-                if (strpos($name_lower_for_note, 'nitrit') !== false) {
-                    $note = 'Oprez: nitritnu sol vagati precizno i ne prekoračiti navedenu količinu. Ne dodavati je od oka i ne kombinirati s drugim nitritnim mješavinama ako recept to izričito ne traži. Koristi se za stabilniju boju, prepoznatljiv suhomesnati profil i dodatnu sigurnost proizvoda. U kućnoj izradi može se izostaviti samo ako je recept vođen kao varijanta bez nitrita.';
-                }
-
                 $spices[] = [
                     'name' => $name,
                     'amount' => $amount,
                     'percent' => $percent,
                     'rate' => $rate,
-                    'note' => $note,
+                    'note' => $ing['napomena'] ?? '',
                 ];
             }
         }

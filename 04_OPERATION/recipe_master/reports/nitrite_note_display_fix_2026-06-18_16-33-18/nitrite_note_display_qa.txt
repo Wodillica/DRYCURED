@@ -1,0 +1,7 @@
+nitritna sol: PASS
+nitritnu sol vagati precizno: PASS
+ne prekoračiti navedenu količinu: PASS
+od oka: PASS
+stabilniju boju: PASS
+varijanta bez nitrita: PASS
+BAD=0
