@@ -6917,20 +6917,14 @@ if (!function_exists('dcv40_existing_display_data_adapter_profile')) {
             [
                 'day' => 'Nakon predsušenja',
                 'title' => 'Dimljenje',
-                'text' => 'Dimiti hladnim i blagim dimom u 3–6 ciklusa nakon predsušenja. Temperatura dima treba ostati u hladnom režimu, najviše oko 20–22 °C, uz obavezne pauze između ciklusa kako se površina ne bi preopteretila dimom.',
-                'critical' => 'Dim mora biti tanak, suh i hladan. Gust, topao ili vlažan dim daje gorčinu, tamni rub i površinske greške.',
-            ],
-            [
-                'day' => 'Nakon dimljenja',
-                'title' => 'Sušenje',
-                'text' => 'Sušenje voditi postupno oko 20–40 dana nakon dimljenja, okvirno na 10–15 °C i 70–80 % relativne vlage. Cilj je ravnomjeran gubitak vlage bez tvrde kore.',
-                'critical' => 'Ako se površina prebrzo stvrdne, a sredina ostane mekana, smanjiti propuh, stabilizirati vlagu i produljiti sušenje.',
+                'text' => 'Dimiti hladnim i blagim dimom u više ciklusa, uz pauze između dimljenja.',
+                'critical' => 'Dim mora biti tanak, suh i hladan; gust ili topao dim daje gorčinu i površinske greške.',
             ],
             [
                 'day' => 'Završna faza',
-                'title' => 'Zrenje',
-                'text' => 'Zrenje nastaviti do povezanog presjeka i čistog mirisa; ukupni ciklus za ovu kobasicu je približno 70–100 dana. Radna smjernica za zrenje je 10–15 °C i 65–75 % relativne vlage.',
-                'critical' => 'Ako se pojave neugodan miris, sluzava površina ili sumnjiv presjek, proizvod izdvojiti i ne koristiti dok se uzrok ne procijeni.',
+                'title' => 'Sušenje i zrenje',
+                'text' => 'Sušiti i zreti postupno, bez naglog isušivanja površine, do povezanog presjeka i čistog mirisa.',
+                'critical' => 'Ako se pojave neugodan miris, sluz ili pretvrda površina uz mekanu sredinu, uvjete treba korigirati ili proizvod izdvojiti.',
             ],
         ];
 
