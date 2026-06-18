@@ -1,0 +1,10 @@
+field,status,note
+"hero.title","PASS","Polje mapirano iz recipe.yml."
+"raw_materials_kg","PASS","Polje mapirano iz recipe.yml."
+"spices_and_additives_g","PASS","Polje mapirano iz recipe.yml."
+"garlic.mode","PASS","Polje mapirano iz recipe.yml."
+"grinding.meat_plate_mm","PASS","Polje mapirano iz recipe.yml."
+"casing.type","PASS","Polje mapirano iz recipe.yml."
+"done_when","PASS","Polje mapirano iz recipe.yml."
+"common_errors_and_solutions","PASS","Polje mapirano iz recipe.yml."
+"active_blockers","PASS","Polje mapirano iz recipe.yml."

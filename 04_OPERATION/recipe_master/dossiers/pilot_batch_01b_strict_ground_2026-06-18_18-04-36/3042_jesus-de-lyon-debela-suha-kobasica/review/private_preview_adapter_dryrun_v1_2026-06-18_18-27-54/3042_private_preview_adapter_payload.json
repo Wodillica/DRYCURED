@@ -1,0 +1,195 @@
+{
+  "adapter_mode": "DRY_RUN_OFFLINE_ONLY",
+  "generated_at": "2026-06-18T18:27:54.827886+00:00",
+  "public_update_allowed": false,
+  "wordpress_write_allowed": false,
+  "post_id": 3042,
+  "source_recipe_yml": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/recipe.yml",
+  "status": "CANON_DRAFT_V1_NOT_PUBLIC",
+  "recipe_type": "GROUND_MEAT_OR_CASING",
+  "title": "Jésus de Lyon – debela suha kobasica",
+  "url": "https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/",
+  "batch_size_kg": "10",
+  "hero": {
+    "title": "Jésus de Lyon – debela suha kobasica",
+    "region_country": "Lyon, Francuska",
+    "product_family": "suhi saucisson / debela suha kobasica",
+    "product_type": "mljeveno/usitnjeno meso u prirodnom ovitku",
+    "status_note": "Proizvod je potvrđen kao lyonški suhi saucisson; aktualni zaštićeni status nije potvrđen za javno navođenje."
+  },
+  "quick_summary": {
+    "batch": "10 kg",
+    "type": "mljeveno/usitnjeno meso u prirodnom ovitku",
+    "duration": "oko 45–60 dana",
+    "public_status": "NOT_PUBLIC_DOSSIER_ONLY"
+  },
+  "raw_materials_kg": [
+    {
+      "item": "svinjska lopatica",
+      "amount_kg": "5.833",
+      "percent": "58.33",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD"
+    },
+    {
+      "item": "svinjska potrbušina bez kože",
+      "amount_kg": "2.500",
+      "percent": "25.00",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD",
+      "note": "Kožu ukloniti prije mljevenja; u nadjev ulazi samo mesno-masni dio."
+    },
+    {
+      "item": "tvrda leđna slanina / svinjska masnoća",
+      "amount_kg": "1.667",
+      "percent": "16.67",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD",
+      "note": "Masnoća mora ostati hladna i čvrsta kako se ne bi razmazala u presjeku."
+    }
+  ],
+  "spices_and_additives_g": [
+    {
+      "item": "morska sol",
+      "amount_g": "200",
+      "percent": "2.00",
+      "g_per_kg": "20.0",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD"
+    },
+    {
+      "item": "šećer",
+      "amount_g": "42",
+      "percent": "0.42",
+      "g_per_kg": "4.2",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD"
+    },
+    {
+      "item": "mljeveni crni papar",
+      "amount_g": "50",
+      "percent": "0.50",
+      "g_per_kg": "5.0",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD"
+    },
+    {
+      "item": "mljeveni bijeli papar",
+      "amount_g": "25",
+      "percent": "0.25",
+      "g_per_kg": "2.5",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD"
+    },
+    {
+      "item": "sušeni češnjak u prahu",
+      "amount_g": "42",
+      "percent": "0.42",
+      "g_per_kg": "4.2",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD",
+      "garlic_mode": "direct_powder"
+    },
+    {
+      "item": "mljeveni piment / allspice",
+      "amount_g": "25",
+      "percent": "0.25",
+      "g_per_kg": "2.5",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD"
+    },
+    {
+      "item": "sjemenke gorušice, mljevene",
+      "amount_g": "17",
+      "percent": "0.17",
+      "g_per_kg": "1.7",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD"
+    },
+    {
+      "item": "starter kultura T-SPX ili slična",
+      "amount_g": "42",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD_REQUIRES_TECHNICAL_REVIEW",
+      "warning": "Količina starter kulture je mehanički skalirana iz WP/MD nacrta i mora se provjeriti prema deklaraciji proizvođača starter kulture prije javne objave."
+    }
+  ],
+  "liquids": [
+    {
+      "item": "konjak",
+      "amount_l": "0.208",
+      "amount_ml": "208",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD"
+    },
+    {
+      "item": "mlaka destilirana voda za razrjeđivanje startera",
+      "amount_l": "0.083",
+      "amount_ml": "83",
+      "source_status": "WP_DRAFT_SCALED_FROM_MD_REQUIRES_TECHNICAL_REVIEW"
+    }
+  ],
+  "garlic": {
+    "used": "false",
+    "mode": "sušeni češnjak u prahu dodaje se izravno",
+    "garlic_amount_g": "42",
+    "note": "U ovom radnom nacrtu ne koristi se procijeđena tekućina od češnjaka. Ako se u kasnijem izvoru pojavi svježi češnjak, treba izraditi varijantu s procijeđenom tekućinom i svim detaljima."
+  },
+  "grinding": {
+    "pre_cut": "meso narezati na kocke 2–3 cm",
+    "meat_plate_mm": "6–8",
+    "fat_handling": "meso, potrbušinu i leđnu slaninu držati vrlo hladnima; masnoća mora biti čvrsta prije mljevenja",
+    "temperature_control": "temperatura smjese ne smije prijeći 8 °C",
+    "qa_note": "Za javnu objavu dodatno odlučiti treba li tvrdu leđnu slaninu mljeti zajedno s mesom ili rezati na sitnije kockice; postojeći WP nacrt navodi mljevenje 6–8 mm."
+  },
+  "casing": {
+    "type": "svinjska crijeva",
+    "diameter_mm": "28–32",
+    "soaking_liquid": "mlaka voda",
+    "soaking_time": "30–45 minuta",
+    "soaking_temperature_c": "25–30",
+    "boiled_or_cold_liquid": "ne prokuhavati"
+  },
+  "nitrite_salt": {
+    "used": "false",
+    "note": "U ovom radnom nacrtu navedena je morska sol, a nitritna sol nije navedena. Ako se doda varijanta s nitritnom soli, obavezno uključiti sigurnosnu napomenu o preciznom vaganju i zabrani prekoračenja."
+  },
+  "sensory_profile": {
+    "texture": "čvrsta, reziva suha kobasica, bez vlažne jezgre",
+    "cut_surface": "stabilan presjek; masnoća ne smije biti razmazana",
+    "aroma": "čist suhomesnati miris, papar, blagi češnjak, začinski tonovi i eventualno blaga nota konjaka"
+  },
+  "done_when": [
+    "proizvod je izgubio približno 35–40 % početne mase",
+    "presjek je stabilan, bez vlažne jezgre",
+    "miris je čist, bez truležnog, sluzavog, užeglog ili neugodnog tona",
+    "površina je suha, ali nije pretvrdo zapečena",
+    "može se rezati tanko bez razmazivanja masnoće"
+  ],
+  "common_errors_and_solutions": [
+    {
+      "problem": "mast se razmazuje u presjeku",
+      "cause": "meso ili slanina nisu bili dovoljno hladni tijekom mljevenja i miješanja",
+      "solution": "prekinuti obradu, ohladiti sirovinu, nož, pužnicu i posudu te nastaviti tek kada je masa ponovno čvrsta",
+      "risk": "medium"
+    },
+    {
+      "problem": "zračni džepovi u ovitku",
+      "cause": "neravnomjerno punjenje ili nedovoljno odzračivanje",
+      "solution": "puniti čvrsto, ali bez pucanja ovitka; zračne džepove probosti sterilnom iglom",
+      "risk": "medium"
+    },
+    {
+      "problem": "neugodan, truo, sluzav ili sumnjiv miris",
+      "cause": "previsoka temperatura, kvarenje, loša higijena ili presporo sušenje",
+      "solution": "proizvod ne koristiti; ne prikrivati začinima; pregledati higijenu, soljenje, temperaturu i uvjete zrenja prije nove izrade",
+      "risk": "high"
+    }
+  ],
+  "serving_and_storage": {
+    "serving": "rezati tanko čistim nožem nakon kratkog odmora na sobnoj temperaturi",
+    "pairing": "poslužiti uz kruh, sir, ukiseljeno povrće ili jednostavnu zakusku",
+    "storage": "čuvati na 8–12 °C u tamnom i prozračnom prostoru bez kondenzacije",
+    "safety_discard": "ne konzumirati ako se pojavi neugodan miris, sluzava površina ili sumnjiva promjena boje"
+  },
+  "active_blockers": [
+    "kanonski izvor za točne količine nije potvrđen",
+    "količina starter kulture zahtijeva tehničku provjeru",
+    "dimljenje je označeno kao needs_confirmation",
+    "javni tekst još sadrži interne tragove prema intake izvještaju",
+    "potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea"
+  ],
+  "adapter_decision": {
+    "private_preview_payload_ready": true,
+    "public_update_allowed": false,
+    "reason": "Recipe.yml je QA PASS kao radni nacrt, ali javne blokade ostaju aktivne."
+  }
+}

@@ -1,0 +1,8 @@
+=== 3042 PRIVATE PREVIEW ADAPTER DRY-RUN COMPLETE ===
+CONTRACT_CHECKS=9
+CONTRACT_FAIL=0
+PRIVATE_PREVIEW_PAYLOAD_READY=true
+PUBLIC_UPDATE_ALLOWED=false
+PAYLOAD=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/private_preview_adapter_dryrun_v1_2026-06-18_18-27-54/3042_private_preview_adapter_payload.json
+HTML_PREVIEW=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/private_preview_adapter_dryrun_v1_2026-06-18_18-27-54/3042_PRIVATE_PREVIEW_ADAPTER_DRYRUN.html
+REPORT=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/private_preview_adapter_dryrun_v1_2026-06-18_18-27-54/3042_PRIVATE_PREVIEW_ADAPTER_DRYRUN_REPORT.md
