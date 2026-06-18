@@ -1,0 +1,24 @@
+=== CALIBRATION COMPLETE ===
+TOTAL=937
+CHANGED_TOTAL=162
+RECLASSIFY_TOTAL=146
+BLOCK_TOTAL=16
+CURRENT_TYPE_COUNTS:
+FISH_OR_SEAFOOD=5
+GROUND_MEAT_OR_CASING=565
+NEEDS_CLASSIFICATION=185
+THERMAL_PROCESSED=39
+WHOLE_CUT=143
+PROPOSED_TYPE_COUNTS:
+FISH_OR_SEAFOOD=24
+GROUND_MEAT_OR_CASING=437
+NEEDS_CLASSIFICATION=179
+THERMAL_PROCESSED=78
+WHOLE_CUT=219
+ISSUE_COUNTS:
+changed_proposal=162
+ground_probably_thermal=34
+ground_probably_whole_cut=64
+CSV=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/type_router_calibration_v1_1_2026-06-18_17-54-00/recipe_type_router_calibration_v1_1.csv
+JSON=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/type_router_calibration_v1_1_2026-06-18_17-54-00/recipe_type_router_calibration_v1_1.json
+SUMMARY=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/type_router_calibration_v1_1_2026-06-18_17-54-00/recipe_type_router_calibration_v1_1_summary.md
