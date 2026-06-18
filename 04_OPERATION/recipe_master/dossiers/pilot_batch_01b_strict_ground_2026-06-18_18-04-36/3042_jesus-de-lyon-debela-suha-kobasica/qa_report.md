@@ -137,3 +137,16 @@ Status: **PASS_CONTENT_READY_RENDERER_NOT_PROVEN**
 - Public update allowed: `false`
 
 Report: `review/render_quality_audit_v1_2026-06-18_19-05-10/3535_RENDER_QUALITY_AUDIT_REPORT.md`
+
+<!-- DC_3535_RENDERER_CONTRACT_INSPECTION_V1 -->
+
+## 3535 renderer contract inspection v1
+
+Status: **READ_ONLY_INSPECTION_COMPLETE**
+
+- Public update allowed: `false`
+- WordPress write allowed: `false`
+- Report: `review/renderer_contract_inspection_v1_2026-06-18_19-08-09/3535_RENDERER_CONTRACT_INSPECTION_REPORT.md`
+- JSON: `review/renderer_contract_inspection_v1_2026-06-18_19-08-09/3535_renderer_contract_inspection_v1.json`
+- Meta matrix: `review/renderer_contract_inspection_v1_2026-06-18_19-08-09/3535_renderer_meta_matrix.csv`
+

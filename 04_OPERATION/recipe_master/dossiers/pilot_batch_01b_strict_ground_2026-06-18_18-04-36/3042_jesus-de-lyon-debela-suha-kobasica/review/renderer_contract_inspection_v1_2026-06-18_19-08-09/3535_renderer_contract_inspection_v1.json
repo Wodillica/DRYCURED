@@ -1,0 +1,2582 @@
+{
+    "generated_at": "2026-06-18T19:08:10+00:00",
+    "mode": "READ_ONLY_RENDERER_CONTRACT_INSPECTION",
+    "public_update_allowed": false,
+    "wordpress_write_allowed": false,
+    "posts": {
+        "2976": {
+            "label": "REFERENCE_PUBLIC_SLAVONSKA_DOMACA_KOBASICA",
+            "exists": true,
+            "post": {
+                "ID": 2976,
+                "post_title": "Slavonska domaća kobasica",
+                "post_name": "hr-sl-005-slavonska-domaca-kobasica",
+                "post_status": "publish",
+                "post_type": "dry_recipe",
+                "post_modified_gmt": "2026-06-05 02:40:27",
+                "content_length": 5856
+            },
+            "meta": {
+                "_dry_archive_ready": {
+                    "length": 3,
+                    "json_valid": false,
+                    "preview": "yes"
+                },
+                "_dry_calculator_ready": {
+                    "length": 1,
+                    "json_valid": true,
+                    "preview": "0"
+                },
+                "_dry_canonical_batch": {
+                    "length": 36,
+                    "json_valid": false,
+                    "preview": "HR_BATCH_01_SLAVONIJA_BARANJA_SRIJEM"
+                },
+                "_dry_canonical_status": {
+                    "length": 12,
+                    "json_valid": false,
+                    "preview": "public_ready"
+                },
+                "_dry_category": {
+                    "length": 27,
+                    "json_valid": false,
+                    "preview": "trajni suhomesnati proizvod"
+                },
+                "_dry_country": {
+                    "length": 8,
+                    "json_valid": false,
+                    "preview": "Hrvatska"
+                },
+                "_dry_microregion": {
+                    "length": 42,
+                    "json_valid": false,
+                    "preview": "širi prostor Slavonije, Baranje i Srijema"
+                },
+                "_dry_product_type": {
+                    "length": 8,
+                    "json_valid": false,
+                    "preview": "Kobasica"
+                },
+                "_dry_public_ready": {
+                    "length": 3,
+                    "json_valid": false,
+                    "preview": "yes"
+                },
+                "_dry_recipe_full_markdown": {
+                    "length": 5856,
+                    "json_valid": false,
+                    "preview": "# HR-SL-005 — Slavonska domaća kobasica\n\n## 1. Identitet recepta\n- Kanonski naziv: Slavonska domaća kobasica\n- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvoru\n- Država: Hrvatska\n- Regija: Slavonija\n- Mikroregija: širi prostor Slavonije, Baranje i Srijema\n- Tip pr"
+                },
+                "_dry_recipe_id": {
+                    "length": 9,
+                    "json_valid": false,
+                    "preview": "HR-SL-005"
+                },
+                "_dry_recipe_import_version": {
+                    "length": 31,
+                    "json_valid": false,
+                    "preview": "batch01_web_import_v0_1_private"
+                },
+                "_dry_recipe_previous_public_status": {
+                    "length": 7,
+                    "json_valid": false,
+                    "preview": "publish"
+                },
+                "_dry_recipe_sections": {
+                    "length": 6136,
+                    "json_valid": true,
+                    "preview": "{\"identity\":\"## 1. Identitet receptan- Kanonski naziv: Slavonska domaća kobasican- Alternativni nazivi: nisu posebno zabilježeni u primarnom izvorun- Država: Hrvatskan- Regija: Slavonijan- Mikroregija: širi prostor Slavonije, Baranje i Srijeman- Tip proizvoda: Kobasican- Kategori"
+                },
+                "_dry_recipe_source_audit_reason": {
+                    "length": 82,
+                    "json_valid": false,
+                    "preview": "Privremeno povučeno dok se sastojci i količine ne usklade s izvornim dokumentom."
+                },
+                "_dry_recipe_source_audit_status": {
+                    "length": 25,
+                    "json_valid": false,
+                    "preview": "hold_source_lock_required"
+                },
+                "_dry_recipe_view_status": {
+                    "length": 17,
+                    "json_valid": false,
+                    "preview": "published_ready27"
+                },
+                "_dry_region": {
+                    "length": 9,
+                    "json_valid": false,
+                    "preview": "Slavonija"
+                },
+                "_dry_source": {
+                    "length": 21,
+                    "json_valid": false,
+                    "preview": "NEW_HR_V2, linija 823"
+                },
+                "_dry_verified_process": {
+                    "length": 1611,
+                    "json_valid": true,
+                    "preview": "{\"post_id\":2976,\"is_master\":false,\"based_on_master\":2972,\"product_name\":\"Slavonska domaća kobasica\",\"regija\":\"Slavonija (široko)\",\"eu_status\":null,\"karakter\":\"Kućna, nestrogo regulirana varijanta Slavonske kobasice (ZOI). Tehnološki gotovo identična, ali bez EU certifikacijskih o"
+                },
+                "_dry_verified_process_cluster": {
+                    "length": 24,
+                    "json_valid": false,
+                    "preview": "01-A_slavonsko_baranjski"
+                },
+                "_dry_verified_process_date": {
+                    "length": 10,
+                    "json_valid": false,
+                    "preview": "2026-06-04"
+                },
+                "_dry_verified_process_master_id": {
+                    "length": 4,
+                    "json_valid": true,
+                    "preview": "2972"
+                },
+                "_dry_verified_process_version": {
+                    "length": 3,
+                    "json_valid": true,
+                    "preview": "1.1"
+                },
+                "dry_recipe_code": {
+                    "length": 9,
+                    "json_valid": false,
+                    "preview": "HR-SL-005"
+                }
+            },
+            "render": {
+                "exists": true,
+                "post_status": "publish",
+                "post_type": "dry_recipe",
+                "post_title": "Slavonska domaća kobasica",
+                "post_name": "hr-sl-005-slavonska-domaca-kobasica",
+                "html_length": 6689,
+                "plain_length": 6122,
+                "markers": {
+                    "dcv5": false,
+                    "dcv": false,
+                    "drycured_recipe": false,
+                    "dc_recipe": false,
+                    "wprm": false,
+                    "raw_markdown_h1": true,
+                    "private_notice": false,
+                    "granulation": false,
+                    "timeline": false
+                },
+                "excerpt": "# HR-SL-005 — Slavonska domaća kobasica ## 1. Identitet recepta &#8211; Kanonski naziv: Slavonska domaća kobasica &#8211; Alternativni nazivi: nisu posebno zabilježeni u primarnom izvoru &#8211; Država: Hrvatska &#8211; Regija: Slavonija &#8211; Mikroregija: širi prostor Slavonije, Baranje i Srijema &#8211; Tip proizvoda: Kobasica &#8211; Kategorija: trajni suhomesnati proizvod &#8211; Status: kanonski recept Batch 01 — finalizirani tekst v0.3 &#8211; Izvor primarnog recepta: NEW_HR_V2, linija 823 &#8211; Povezani WP zapisi: 2187:HR-SLV-KOB-ZOZP-001 &#8211; Napomena o varijantama: varijante se vode kao zasebni recepti samo ako imaju drukčiji sastav, omotač ili tehnološki postupak. ## 2. Kratki opis Slavonska domaća kobasica pripada slavonsko-srijemskom krugu suhomesnatih proizvoda. Slavonska domaća kobasica je slavonska trajna kobasica s paprikastim začinskim profilom, oblikovana za hladno dimljenje i postupno sušenje. ## 3. Regionalni identitet Recept se oslanja na hladnu obradu mesa, odmjereno soljenje, slavonski začinski profil i kontrolirano sušenje ili zrenje. Regionalni identitet treba očuvati, ali tehnološke korake prikazati jasno i provjerljivo. ## 4. Standardna šarža &#8211; Osnovna šarža: 10,00 kg mesne sirovine / osnovne sirovine, osim kod cijelih komada gdje se masa vodi prema komadu &#8211; Napomena o preračunavanju: količine iz izvora pretvoriti i prikazati u kg g"
+            }
+        },
+        "3042": {
+            "label": "SOURCE_PUBLIC_JESUS_DE_LYON",
+            "exists": true,
+            "post": {
+                "ID": 3042,
+                "post_title": "Jésus de Lyon – debela suha kobasica",
+                "post_name": "jesus-de-lyon-debela-suha-kobasica",
+                "post_status": "publish",
+                "post_type": "dry_recipe",
+                "post_modified_gmt": "2026-06-04 07:53:27",
+                "content_length": 4123
+            },
+            "meta": {
+                "_dry_archive_ready": {
+                    "length": 3,
+                    "json_valid": false,
+                    "preview": "yes"
+                },
+                "_dry_calculator_ready": {
+                    "length": 2,
+                    "json_valid": false,
+                    "preview": "no"
+                },
+                "_dry_canonical_status": {
+                    "length": 12,
+                    "json_valid": false,
+                    "preview": "public_ready"
+                },
+                "_dry_category": {
+                    "length": 8,
+                    "json_valid": false,
+                    "preview": "Kobasica"
+                },
+                "_dry_country": {
+                    "length": 8,
+                    "json_valid": false,
+                    "preview": "Hrvatska"
+                },
+                "_dry_microregion": {
+                    "length": 23,
+                    "json_valid": false,
+                    "preview": "not_specified_in_source"
+                },
+                "_dry_product_type": {
+                    "length": 8,
+                    "json_valid": false,
+                    "preview": "Kobasica"
+                },
+                "_dry_public_ready": {
+                    "length": 3,
+                    "json_valid": false,
+                    "preview": "yes"
+                },
+                "_dry_recipe_full_markdown": {
+                    "length": 4123,
+                    "json_valid": false,
+                    "preview": "## Jésus de Lyon – debela suha kobasica\n\nJésus de Lyon – debela suha kobasica pripada tradiciji područja Lyon, Francuska. Radi se kao suha kobasica od Svinjetina, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Rece"
+                },
+                "_dry_recipe_id": {
+                    "length": 37,
+                    "json_valid": false,
+                    "preview": "MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA"
+                },
+                "_dry_recipe_sections": {
+                    "length": 8517,
+                    "json_valid": true,
+                    "preview": "{\"full_markdown\":\"## 3. Jésus de Lyon (Debela suha kobasica)nn### Sastojcin* 700 g svinjske lopaticen* 300 g svinjske potrbušine s kožomn* 200 g svinjske masnoće (leđne slanine)n* 24 g morske soli (2% od ukupne težine mesa)n* 5 g šećeran* 6 g mljevenog crnog papran* 3 g mljevenog"
+                },
+                "_dry_region": {
+                    "length": 4,
+                    "json_valid": false,
+                    "preview": "Lyon"
+                },
+                "_dry_source": {
+                    "length": 40,
+                    "json_valid": false,
+                    "preview": "francuski-suhomesnati-proizvodi-2 (1).md"
+                },
+                "dry_recipe_code": {
+                    "length": 37,
+                    "json_valid": false,
+                    "preview": "MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA"
+                }
+            },
+            "render": {
+                "exists": true,
+                "post_status": "publish",
+                "post_type": "dry_recipe",
+                "post_title": "Jésus de Lyon – debela suha kobasica",
+                "post_name": "jesus-de-lyon-debela-suha-kobasica",
+                "html_length": 4677,
+                "plain_length": 4328,
+                "markers": {
+                    "dcv5": false,
+                    "dcv": false,
+                    "drycured_recipe": false,
+                    "dc_recipe": false,
+                    "wprm": false,
+                    "raw_markdown_h1": true,
+                    "private_notice": false,
+                    "granulation": false,
+                    "timeline": false
+                },
+                "excerpt": "## Jésus de Lyon – debela suha kobasica Jésus de Lyon – debela suha kobasica pripada tradiciji područja Lyon, Francuska. Radi se kao suha kobasica od Svinjetina, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju. ### Radni sažetak &#8211; Šarža: 10 kg osnovne sirovine ili mesne smjese. &#8211; Tip proizvoda: suha kobasica. &#8211; Glavna sirovina: Svinjetina. &#8211; Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm. &#8211; Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova. &#8211; Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje. &#8211; Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine. ### Sastojci: &#8211; 10,000 kg Svinjetina &#8211; * 700 g svinjske lopatice &#8211; * 300 g svinjske potrbušine s kožom &#8211; * 200 g svinjske masnoće (leđne slanine) &#8211; * 24 g morske soli (2% od ukupne težine mesa) &#8211; * 5 g šećera &#8211; * 6 g mljevenog crnog papra &#8211; * 3 g mljevenog bijelog papra &#8211; * 5 g sušenog češnjaka u prahu &#8211; * 3 g mljevenog pimenta (allspice) &#8211; * 2 g sjemenki gorušice, m"
+            }
+        },
+        "3535": {
+            "label": "PRIVATE_CLONE_JESUS_DE_LYON",
+            "exists": true,
+            "post": {
+                "ID": 3535,
+                "post_title": "PRIVATE PREVIEW — Jésus de Lyon – debela suha kobasica",
+                "post_name": "private-preview-3042-jesus-de-lyon-dossier-only-20260618-184742",
+                "post_status": "private",
+                "post_type": "dry_recipe",
+                "post_modified_gmt": "2026-06-18 18:47:42",
+                "content_length": 2682
+            },
+            "meta": {
+                "_dry_recipe_active_blockers": {
+                    "length": 303,
+                    "json_valid": true,
+                    "preview": "[\"kanonski izvor za točne količine nije potvrđen\", \"količina starter kulture zahtijeva tehničku provjeru\", \"dimljenje je označeno kao needs_confirmation\", \"javni tekst još sadrži interne tragove prema intake izvještaju\", \"potrebno je završiti qa_report.md prije bilo kakvog WordPr"
+                },
+                "_dry_recipe_adapter_payload_version": {
+                    "length": 38,
+                    "json_valid": false,
+                    "preview": "3042_private_preview_adapter_dryrun_v1"
+                },
+                "_dry_recipe_dossier_path": {
+                    "length": 147,
+                    "json_valid": false,
+                    "preview": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica"
+                },
+                "_dry_recipe_dossier_status": {
+                    "length": 25,
+                    "json_valid": false,
+                    "preview": "CANON_DRAFT_V1_NOT_PUBLIC"
+                },
+                "_dry_recipe_full_markdown": {
+                    "length": 2682,
+                    "json_valid": false,
+                    "preview": "# Jésus de Lyon – debela suha kobasica\n\n> PRIVATNI PREVIEW — DOSJE. Ovo nije javni recept i ne smije se objaviti dok su blokade aktivne.\n\n## Brzi sažetak\n\n- Tip: mljeveno/usitnjeno meso u prirodnom ovitku\n- Šarža: 10 kg\n- Status: CANON_DRAFT_V1_NOT_PUBLIC\n- Javni update: zabranje"
+                },
+                "_dry_recipe_preview_mode": {
+                    "length": 18,
+                    "json_valid": false,
+                    "preview": "PRIVATE_CLONE_ONLY"
+                },
+                "_dry_recipe_preview_source_post_id": {
+                    "length": 4,
+                    "json_valid": true,
+                    "preview": "3042"
+                },
+                "_dry_recipe_private_clone_created_at_gmt": {
+                    "length": 25,
+                    "json_valid": false,
+                    "preview": "2026-06-18T18:47:42+00:00"
+                },
+                "_dry_recipe_private_clone_guard": {
+                    "length": 24,
+                    "json_valid": false,
+                    "preview": "SOURCE_3042_NOT_MODIFIED"
+                },
+                "_dry_recipe_public_update_allowed": {
+                    "length": 1,
+                    "json_valid": true,
+                    "preview": "0"
+                },
+                "_dry_recipe_public_verified": {
+                    "length": 1,
+                    "json_valid": true,
+                    "preview": "0"
+                },
+                "_dry_recipe_sections": {
+                    "length": 5996,
+                    "json_valid": true,
+                    "preview": "{\"hero\": {\"title\": \"Jésus de Lyon – debela suha kobasica\", \"region_country\": \"Lyon, Francuska\", \"product_family\": \"suhi saucisson / debela suha kobasica\", \"product_type\": \"mljeveno/usitnjeno meso u prirodnom ovitku\", \"status_note\": \"Proizvod je potvrđen kao lyonški suhi saucisson"
+                },
+                "_dry_recipe_source_validation_status": {
+                    "length": 44,
+                    "json_valid": false,
+                    "preview": "PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED"
+                },
+                "_dry_recipe_type_router": {
+                    "length": 21,
+                    "json_valid": false,
+                    "preview": "GROUND_MEAT_OR_CASING"
+                },
+                "_dry_verified_process": {
+                    "length": 1491,
+                    "json_valid": true,
+                    "preview": "{\"recipe_type\": \"GROUND_MEAT_OR_CASING\", \"status\": \"PRIVATE_PREVIEW_ONLY\", \"public_update_allowed\": false, \"source_post_id\": 3042, \"source_recipe_yml\": \"/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-"
+                }
+            },
+            "render": {
+                "exists": true,
+                "post_status": "private",
+                "post_type": "dry_recipe",
+                "post_title": "PRIVATE PREVIEW — Jésus de Lyon – debela suha kobasica",
+                "post_name": "private-preview-3042-jesus-de-lyon-dossier-only-20260618-184742",
+                "html_length": 3277,
+                "plain_length": 2914,
+                "markers": {
+                    "dcv5": false,
+                    "dcv": false,
+                    "drycured_recipe": false,
+                    "dc_recipe": false,
+                    "wprm": false,
+                    "raw_markdown_h1": true,
+                    "private_notice": true,
+                    "granulation": true,
+                    "timeline": false
+                },
+                "excerpt": "# Jésus de Lyon – debela suha kobasica > PRIVATNI PREVIEW — DOSJE. Ovo nije javni recept i ne smije se objaviti dok su blokade aktivne. ## Brzi sažetak &#8211; Tip: mljeveno/usitnjeno meso u prirodnom ovitku &#8211; Šarža: 10 kg &#8211; Status: CANON_DRAFT_V1_NOT_PUBLIC &#8211; Javni update: zabranjen ## Glavne sirovine &#8211; svinjska lopatica: 5.833 kg &#8211; svinjska potrbušina bez kože: 2.500 kg &#8211; tvrda leđna slanina / svinjska masnoća: 1.667 kg ## Začini i dodaci &#8211; morska sol: 200 g (20.0 g/kg) &#8211; šećer: 42 g (4.2 g/kg) &#8211; mljeveni crni papar: 50 g (5.0 g/kg) &#8211; mljeveni bijeli papar: 25 g (2.5 g/kg) &#8211; sušeni češnjak u prahu: 42 g (4.2 g/kg) &#8211; mljeveni piment / allspice: 25 g (2.5 g/kg) &#8211; sjemenke gorušice, mljevene: 17 g (1.7 g/kg) &#8211; starter kultura T-SPX ili slična: 42 g ( g/kg) ## Tekućine i češnjak &#8211; konjak: 208 ml &#8211; mlaka destilirana voda za razrjeđivanje startera: 83 ml &#8211; Češnjak: sušeni češnjak u prahu dodaje se izravno ## Mljevenje i obrada masnoće &#8211; Rešetka: 6–8 mm &#8211; Obrada masnoće: meso, potrbušinu i leđnu slaninu držati vrlo hladnima; masnoća mora biti čvrsta prije mljevenja &#8211; Temperaturna kontrola: temperatura smjese ne smije prijeći 8 °C ## Crijeva &#8211; Tip: svinjska crijeva &#8211; Promjer: 28–32 mm &#8211; Namakanje: 30–45 minuta, mlaka voda, 25–30 °C &#8211; Prokuhav"
+            }
+        }
+    },
+    "meta_matrix": [
+        {
+            "meta_key": "_dry_archive_ready",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_calculator_ready",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_canonical_batch",
+            "2976": "YES",
+            "3042": "NO",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_canonical_status",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_category",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_country",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_microregion",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_product_type",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_public_ready",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_recipe_active_blockers",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_adapter_payload_version",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_dossier_path",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_dossier_status",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_full_markdown",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_id",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_recipe_import_version",
+            "2976": "YES",
+            "3042": "NO",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_recipe_preview_mode",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_preview_source_post_id",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_previous_public_status",
+            "2976": "YES",
+            "3042": "NO",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_recipe_private_clone_created_at_gmt",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_private_clone_guard",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_public_update_allowed",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_public_verified",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_sections",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_source_audit_reason",
+            "2976": "YES",
+            "3042": "NO",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_recipe_source_audit_status",
+            "2976": "YES",
+            "3042": "NO",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_recipe_source_validation_status",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_type_router",
+            "2976": "NO",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_recipe_view_status",
+            "2976": "YES",
+            "3042": "NO",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_region",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_source",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_verified_process",
+            "2976": "YES",
+            "3042": "NO",
+            "3535": "YES"
+        },
+        {
+            "meta_key": "_dry_verified_process_cluster",
+            "2976": "YES",
+            "3042": "NO",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_verified_process_date",
+            "2976": "YES",
+            "3042": "NO",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_verified_process_master_id",
+            "2976": "YES",
+            "3042": "NO",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "_dry_verified_process_version",
+            "2976": "YES",
+            "3042": "NO",
+            "3535": "NO"
+        },
+        {
+            "meta_key": "dry_recipe_code",
+            "2976": "YES",
+            "3042": "YES",
+            "3535": "NO"
+        }
+    ],
+    "repo_plugin_scan": {
+        "path": "/root/DRYCURED_GITHUB/wp-content/mu-plugins/drycured-recipe-view-v1.php",
+        "exists": true,
+        "bytes": 282701,
+        "pattern_counts": {
+            "add_filter_the_content": 9,
+            "dry_recipe_full_markdown": 2,
+            "dry_recipe_sections": 0,
+            "dry_verified_process": 1,
+            "dry_recipe_data": 0,
+            "post_status_private": 3,
+            "is_singular": 21,
+            "dry_recipe_post_type": 353,
+            "dcv_marker": 913,
+            "shortcode": 0
+        },
+        "interesting_lines": [
+            {
+                "line": 4,
+                "text": "if (!function_exists('dcv12_batch01_quantity_profiles')) {"
+            },
+            {
+                "line": 5,
+                "text": "$dcv12_quantity_file = __DIR__ . '/drycured-batch01-quantity-profiles.php';"
+            },
+            {
+                "line": 6,
+                "text": "if (file_exists($dcv12_quantity_file)) {"
+            },
+            {
+                "line": 7,
+                "text": "require_once $dcv12_quantity_file;"
+            },
+            {
+                "line": 58,
+                "text": "if (!is_singular('dry_recipe')) {"
+            },
+            {
+                "line": 64,
+                "text": ".single-dry_recipe .dc-canon-table-wrap {"
+            },
+            {
+                "line": 68,
+                "text": ".single-dry_recipe .dc-canon-table {"
+            },
+            {
+                "line": 74,
+                "text": ".single-dry_recipe .dc-canon-table th,"
+            },
+            {
+                "line": 75,
+                "text": ".single-dry_recipe .dc-canon-table td {"
+            },
+            {
+                "line": 81,
+                "text": ".single-dry_recipe .dc-canon-table th:nth-child(1),"
+            },
+            {
+                "line": 82,
+                "text": ".single-dry_recipe .dc-canon-table td:nth-child(1) {"
+            },
+            {
+                "line": 86,
+                "text": ".single-dry_recipe .dc-canon-table th:nth-child(2),"
+            },
+            {
+                "line": 87,
+                "text": ".single-dry_recipe .dc-canon-table td:nth-child(2) {"
+            },
+            {
+                "line": 91,
+                "text": ".single-dry_recipe .dc-canon-table th:nth-child(3),"
+            },
+            {
+                "line": 92,
+                "text": ".single-dry_recipe .dc-canon-table td:nth-child(3) {"
+            },
+            {
+                "line": 97,
+                "text": ".single-dry_recipe .dc-canon-admin {"
+            },
+            {
+                "line": 101,
+                "text": ".single-dry_recipe .dc-canon-section p,"
+            },
+            {
+                "line": 102,
+                "text": ".single-dry_recipe .dc-canon-list li,"
+            },
+            {
+                "line": 103,
+                "text": ".single-dry_recipe .dc-canon-table td {"
+            },
+            {
+                "line": 108,
+                "text": ".single-dry_recipe .dc-canon-section {"
+            },
+            {
+                "line": 122,
+                "text": "* Description: Sigurni override javnog prikaza kanonskih dry_recipe recepata bez diranja core plugina."
+            },
+            {
+                "line": 130,
+                "text": "add_filter('the_content', 'dc_canon_recipe_override_content', 999);"
+            },
+            {
+                "line": 132,
+                "text": "function dc_canon_recipe_override_content($content) {"
+            },
+            {
+                "line": 133,
+                "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+            },
+            {
+                "line": 142,
+                "text": "$markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);"
+            },
+            {
+                "line": 149,
+                "text": "$code        = dc_canon_meta($post_id, '_dry_recipe_id');"
+            },
+            {
+                "line": 164,
+                "text": ".single-dry_recipe .ast-container,"
+            },
+            {
+                "line": 165,
+                "text": ".single-dry_recipe .site-content .ast-container,"
+            },
+            {
+                "line": 166,
+                "text": ".single-dry_recipe .content-area,"
+            },
+            {
+                "line": 167,
+                "text": ".single-dry_recipe main.site-main {"
+            },
+            {
+                "line": 174,
+                "text": ".single-dry_recipe .entry-header,"
+            },
+            {
+                "line": 175,
+                "text": ".single-dry_recipe .entry-meta {"
+            },
+            {
+                "line": 515,
+                "text": "function dc_canon_recipe_parse_sections($markdown) {"
+            },
+            {
+                "line": 546,
+                "text": "function dc_canon_recipe_section($sections, $num, $title = '') {"
+            },
+            {
+                "line": 560,
+                "text": "function dc_canon_recipe_render_body($body_lines) {"
+            },
+            {
+                "line": 620,
+                "text": "function dc_canon_recipe_render_table($lines) {"
+            },
+            {
+                "line": 685,
+                "text": "function dc_canon_recipe_inline($text) {"
+            },
+            {
+                "line": 706,
+                "text": "add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);"
+            },
+            {
+                "line": 708,
+                "text": "function dcv5_recipe_view_pilot_content($content) {"
+            },
+            {
+                "line": 709,
+                "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+            },
+            {
+                "line": 714,
+                "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+            },
+            {
+                "line": 721,
+                "text": "$dcv5_bridge_profile = null;"
+            },
+            {
+                "line": 723,
+                "text": "$dcv5_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);"
+            },
+            {
+                "line": 726,
+                "text": "if (!in_array($code, dcv5_supported_recipe_codes(), true) && !$dcv5_bridge_profile) {"
+            },
+            {
+                "line": 730,
+                "text": "$recipe = dcv5_get_recipe_profile($post_id, $code);"
+            },
+            {
+                "line": 731,
+                "text": "if (!$recipe && $dcv5_bridge_profile) {"
+            },
+            {
+                "line": 732,
+                "text": "$recipe = $dcv5_bridge_profile;"
+            },
+            {
+                "line": 741,
+                "text": "$image_url = get_post_meta($post_id, '_dry_recipe_image_url', true);"
+            },
+            {
+                "line": 750,
+                "text": "dcv5_render_recipe_schema($recipe);"
+            },
+            {
+                "line": 753,
+                "text": ".single-dry_recipe .entry-header,"
+            },
+            {
+                "line": 754,
+                "text": ".single-dry_recipe .entry-meta {"
+            },
+            {
+                "line": 758,
+                "text": ".single-dry_recipe .ast-container,"
+            },
+            {
+                "line": 759,
+                "text": ".single-dry_recipe .site-content .ast-container,"
+            },
+            {
+                "line": 760,
+                "text": ".single-dry_recipe .content-area,"
+            },
+            {
+                "line": 761,
+                "text": ".single-dry_recipe main.site-main {"
+            },
+            {
+                "line": 768,
+                "text": ".dcv5-recipe {"
+            },
+            {
+                "line": 775,
+                "text": ".dcv5-hero,"
+            },
+            {
+                "line": 776,
+                "text": ".dcv5-panel,"
+            },
+            {
+                "line": 777,
+                "text": ".dcv5-side-panel {"
+            },
+            {
+                "line": 784,
+                "text": ".dcv5-hero {"
+            },
+            {
+                "line": 791,
+                "text": ".dcv5-hero-grid {"
+            },
+            {
+                "line": 800,
+                "text": ".dcv5-hero-media {"
+            },
+            {
+                "line": 808,
+                "text": ".dcv5-hero-media img {"
+            },
+            {
+                "line": 815,
+                "text": ".dcv5-actions {"
+            },
+            {
+                "line": 822,
+                "text": ".dcv5-btn {"
+            },
+            {
+                "line": 836,
+                "text": ".dcv5-btn:hover {"
+            },
+            {
+                "line": 841,
+                "text": ".dcv5-btn-primary {"
+            },
+            {
+                "line": 847,
+                "text": ".dcv5-btn-secondary {"
+            },
+            {
+                "line": 852,
+                "text": ".dcv5-hero:before {"
+            },
+            {
+                "line": 860,
+                "text": ".dcv5-hero-inner {"
+            },
+            {
+                "line": 865,
+                "text": ".dcv5-kicker {"
+            },
+            {
+                "line": 872,
+                "text": ".dcv5-badge {"
+            },
+            {
+                "line": 885,
+                "text": ".dcv5-hero h1 {"
+            },
+            {
+                "line": 892,
+                "text": ".dcv5-lead {"
+            },
+            {
+                "line": 900,
+                "text": ".dcv5-quick-strip {"
+            },
+            {
+                "line": 907,
+                "text": ".dcv5-quick-card {"
+            },
+            {
+                "line": 914,
+                "text": ".dcv5-quick-card span,"
+            },
+            {
+                "line": 915,
+                "text": ".dcv5-field-label {"
+            },
+            {
+                "line": 925,
+                "text": ".dcv5-quick-card strong {"
+            },
+            {
+                "line": 932,
+                "text": ".dcv5-layout {"
+            },
+            {
+                "line": 939,
+                "text": ".dcv5-panel {"
+            },
+            {
+                "line": 944,
+                "text": ".dcv5-panel h2 {"
+            },
+            {
+                "line": 954,
+                "text": ".dcv5-panel h2 span {"
+            },
+            {
+                "line": 968,
+                "text": ".dcv5-section-note {"
+            },
+            {
+                "line": 975,
+                "text": ".dcv5-composition {"
+            },
+            {
+                "line": 982,
+                "text": ".dcv5-comp-bar {"
+            },
+            {
+                "line": 991,
+                "text": ".dcv5-comp-bar:nth-child(2) {"
+            },
+            {
+                "line": 995,
+                "text": ".dcv5-card-grid {"
+            },
+            {
+                "line": 1000,
+                "text": ".dcv5-card-grid.two {"
+            },
+            {
+                "line": 1004,
+                "text": ".dcv5-card-grid.three {"
+            },
+            {
+                "line": 1008,
+                "text": ".dcv5-ingredient-card,"
+            },
+            {
+                "line": 1009,
+                "text": ".dcv5-process-card,"
+            },
+            {
+                "line": 1010,
+                "text": ".dcv5-error-card,"
+            },
+            {
+                "line": 1011,
+                "text": ".dcv5-serving-card,"
+            },
+            {
+                "line": 1012,
+                "text": ".dcv5-profile-row,"
+            },
+            {
+                "line": 1013,
+                "text": ".dcv5-climate-card {"
+            },
+            {
+                "line": 1020,
+                "text": ".dcv5-ingredient-card h3,"
+            },
+            {
+                "line": 1021,
+                "text": ".dcv5-process-card h3,"
+            },
+            {
+                "line": 1022,
+                "text": ".dcv5-error-card h3,"
+            },
+            {
+                "line": 1023,
+                "text": ".dcv5-serving-card h3,"
+            },
+            {
+                "line": 1024,
+                "text": ".dcv5-climate-card h3 {"
+            },
+            {
+                "line": 1031,
+                "text": ".dcv5-amount-line {"
+            },
+            {
+                "line": 1039,
+                "text": ".dcv5-amount {"
+            },
+            {
+                "line": 1049,
+                "text": ".dcv5-percent,"
+            },
+            {
+                "line": 1050,
+                "text": ".dcv5-rate {"
+            },
+            {
+                "line": 1061,
+                "text": ".dcv5-ingredient-card p,"
+            },
+            {
+                "line": 1062,
+                "text": ".dcv5-process-card p,"
+            },
+            {
+                "line": 1063,
+                "text": ".dcv5-error-card p,"
+            },
+            {
+                "line": 1064,
+                "text": ".dcv5-serving-card p,"
+            },
+            {
+                "line": 1065,
+                "text": ".dcv5-climate-card p {"
+            },
+            {
+                "line": 1072,
+                "text": ".dcv5-profile-row {"
+            },
+            {
+                "line": 1080,
+                "text": ".dcv5-profile-name {"
+            },
+            {
+                "line": 1086,
+                "text": ".dcv5-profile-track {"
+            },
+            {
+                "line": 1093,
+                "text": ".dcv5-profile-fill {"
+            },
+            {
+                "line": 1099,
+                "text": ".dcv5-profile-score {"
+            },
+            {
+                "line": 1105,
+                "text": ".dcv5-timeline {"
+            },
+            {
+                "line": 1111,
+                "text": ".dcv5-timeline-item {"
+            },
+            {
+                "line": 1121,
+                "text": ".dcv5-day {"
+            },
+            {
+                "line": 1134,
+                "text": ".dcv5-critical {"
+            },
+            {
+                "line": 1145,
+                "text": ".dcv5-error-card {"
+            },
+            {
+                "line": 1149,
+                "text": ".dcv5-error-card.danger {"
+            },
+            {
+                "line": 1153,
+                "text": ".dcv5-error-card.warning {"
+            },
+            {
+                "line": 1157,
+                "text": ".dcv5-error-meta {"
+            },
+            {
+                "line": 1164,
+                "text": ".dcv5-small-pill {"
+            },
+            {
+                "line": 1175,
+                "text": ".dcv5-side-panel {"
+            },
+            {
+                "line": 1181,
+                "text": ".dcv5-side-panel h3 {"
+            },
+            {
+                "line": 1187,
+                "text": ".dcv5-side-panel a {"
+            },
+            {
+                "line": 1196,
+                "text": ".dcv5-side-panel a:hover {"
+            },
+            {
+                "line": 1200,
+                "text": ".dcv5-print-strip {"
+            },
+            {
+                "line": 1206,
+                "text": ".dcv5-check-grid,"
+            },
+            {
+                "line": 1207,
+                "text": ".dcv5-safety-grid {"
+            },
+            {
+                "line": 1213,
+                "text": ".dcv5-check-card,"
+            },
+            {
+                "line": 1214,
+                "text": ".dcv5-safety-card {"
+            },
+            {
+                "line": 1221,
+                "text": ".dcv5-check-card h3,"
+            },
+            {
+                "line": 1222,
+                "text": ".dcv5-safety-card h3 {"
+            },
+            {
+                "line": 1229,
+                "text": ".dcv5-check-card p,"
+            },
+            {
+                "line": 1230,
+                "text": ".dcv5-safety-card p {"
+            },
+            {
+                "line": 1237,
+                "text": ".dcv5-safety-card.green {"
+            },
+            {
+                "line": 1241,
+                "text": ".dcv5-safety-card.yellow {"
+            },
+            {
+                "line": 1245,
+                "text": ".dcv5-safety-card.red {"
+            },
+            {
+                "line": 1249,
+                "text": ".dcv5-print-button-row {"
+            },
+            {
+                "line": 1259,
+                "text": ".dcv5-side-panel,"
+            },
+            {
+                "line": 1260,
+                "text": ".dcv5-hero-media,"
+            },
+            {
+                "line": 1261,
+                "text": ".dcv5-actions,"
+            },
+            {
+                "line": 1267,
+                "text": ".dcv5-recipe {"
+            },
+            {
+                "line": 1272,
+                "text": ".dcv5-layout {"
+            },
+            {
+                "line": 1276,
+                "text": ".dcv5-panel,"
+            },
+            {
+                "line": 1277,
+                "text": ".dcv5-hero,"
+            },
+            {
+                "line": 1278,
+                "text": ".dcv5-quick-card {"
+            },
+            {
+                "line": 1288,
+                "text": ".dcv5-print-box {"
+            },
+            {
+                "line": 1297,
+                "text": ".dcv5-hero-grid {"
+            },
+            {
+                "line": 1301,
+                "text": ".dcv5-hero-media img {"
+            },
+            {
+                "line": 1305,
+                "text": ".dcv5-layout {"
+            },
+            {
+                "line": 1309,
+                "text": ".dcv5-side-panel {"
+            },
+            {
+                "line": 1313,
+                "text": ".dcv5-quick-strip,"
+            },
+            {
+                "line": 1314,
+                "text": ".dcv5-card-grid.three,"
+            },
+            {
+                "line": 1315,
+                "text": ".dcv5-card-grid.two,"
+            },
+            {
+                "line": 1316,
+                "text": ".dcv5-print-strip,"
+            },
+            {
+                "line": 1317,
+                "text": ".dcv5-check-grid,"
+            },
+            {
+                "line": 1318,
+                "text": ".dcv5-safety-grid {"
+            },
+            {
+                "line": 1324,
+                "text": ".dcv5-recipe {"
+            },
+            {
+                "line": 1328,
+                "text": ".dcv5-hero,"
+            },
+            {
+                "line": 1329,
+                "text": ".dcv5-panel {"
+            },
+            {
+                "line": 1334,
+                "text": ".dcv5-quick-strip,"
+            },
+            {
+                "line": 1335,
+                "text": ".dcv5-card-grid.three,"
+            },
+            {
+                "line": 1336,
+                "text": ".dcv5-card-grid.two,"
+            },
+            {
+                "line": 1337,
+                "text": ".dcv5-print-strip,"
+            },
+            {
+                "line": 1338,
+                "text": ".dcv5-check-grid,"
+            },
+            {
+                "line": 1339,
+                "text": ".dcv5-safety-grid {"
+            },
+            {
+                "line": 1343,
+                "text": ".dcv5-timeline-item {"
+            },
+            {
+                "line": 1347,
+                "text": ".dcv5-profile-row {"
+            },
+            {
+                "line": 1353,
+                "text": "<div class=\"dcv5-recipe\">"
+            },
+            {
+                "line": 1354,
+                "text": "<header class=\"dcv5-hero\" id=\"vrh\">"
+            },
+            {
+                "line": 1355,
+                "text": "<div class=\"dcv5-hero-grid\">"
+            },
+            {
+                "line": 1356,
+                "text": "<div class=\"dcv5-hero-inner\">"
+            },
+            {
+                "line": 1357,
+                "text": "<div class=\"dcv5-kicker\">"
+            },
+            {
+                "line": 1358,
+                "text": "<span class=\"dcv5-badge\">DIGITALNA PUŠNICA</span>"
+            },
+            {
+                "line": 1359,
+                "text": "<span class=\"dcv5-badge\"><?php echo esc_html($recipe['code']); ?></span>"
+            },
+            {
+                "line": 1360,
+                "text": "<span class=\"dcv5-badge\"><?php echo esc_html($recipe['region']); ?></span>"
+            },
+            {
+                "line": 1361,
+                "text": "<span class=\"dcv5-badge\"><?php echo esc_html($recipe['type']); ?></span>"
+            },
+            {
+                "line": 1365,
+                "text": "<p class=\"dcv5-lead\"><?php echo esc_html($recipe['lead']); ?></p>"
+            },
+            {
+                "line": 1367,
+                "text": "<div class=\"dcv5-actions\">"
+            },
+            {
+                "line": 1368,
+                "text": "<a class=\"dcv5-btn dcv5-btn-primary\" href=\"<?php echo esc_url($calculator_url); ?>\">"
+            },
+            {
+                "line": 1371,
+                "text": "<a class=\"dcv5-btn dcv5-btn-secondary\" href=\"#dnevnik\">"
+            },
+            {
+                "line": 1374,
+                "text": "<a class=\"dcv5-btn dcv5-btn-secondary\" href=\"javascript:window.print()\">"
+            },
+            {
+                "line": 1381,
+                "text": "<figure class=\"dcv5-hero-media\">"
+            },
+            {
+                "line": 1388,
+                "text": "<section class=\"dcv5-quick-strip\" aria-label=\"Brzi proizvodni sažetak\">"
+            },
+            {
+                "line": 1390,
+                "text": "<article class=\"dcv5-quick-card\">"
+            },
+            {
+                "line": 1397,
+                "text": "<div class=\"dcv5-layout\">"
+            },
+            {
+                "line": 1399,
+                "text": "<section class=\"dcv5-panel\" id=\"omjer\">"
+            },
+            {
+                "line": 1401,
+                "text": "<p class=\"dcv5-section-note\">Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje.</p>"
+            },
+            {
+                "line": 1403,
+                "text": "<div class=\"dcv5-composition\">"
+            },
+            {
+                "line": 1404,
+                "text": "<div class=\"dcv5-comp-bar\">70 % meso</div>"
+            },
+            {
+                "line": 1405,
+                "text": "<div class=\"dcv5-comp-bar\">30 % slanina</div>"
+            },
+            {
+                "line": 1409,
+                "text": "<section class=\"dcv5-panel\" id=\"sirovine\">"
+            },
+            {
+                "line": 1411,
+                "text": "<p class=\"dcv5-section-note\">Meso i slanina prikazuju se u kilogramima jer čine osnovu smjese.</p>"
+            },
+            {
+                "line": 1413,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1414,
+                "text": "<?php foreach ($recipe['materials'] as $item) : dcv5_card($item); endforeach; ?>"
+            },
+            {
+                "line": 1418,
+                "text": "<section class=\"dcv5-panel\" id=\"zacini\">"
+            },
+            {
+                "line": 1420,
+                "text": "<p class=\"dcv5-section-note\">Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer.</p>"
+            },
+            {
+                "line": 1422,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1423,
+                "text": "<?php foreach ($recipe['spices'] as $item) : dcv5_card($item); endforeach; ?>"
+            },
+            {
+                "line": 1427,
+                "text": "<section class=\"dcv5-panel\" id=\"tekucine\">"
+            },
+            {
+                "line": 1429,
+                "text": "<p class=\"dcv5-section-note\">Tekućine se prikazuju prema izvornom receptu. Češnjak se prikazuje kao izravni dodatak, macerat ili procijeđena tekućina samo kada je takav postupak jasno naveden.</p>"
+            },
+            {
+                "line": 1431,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1432,
+                "text": "<?php foreach ($recipe['liquids'] as $item) : dcv5_card($item); endforeach; ?>"
+            },
+            {
+                "line": 1436,
+                "text": "<section class=\"dcv5-panel\" id=\"profil\">"
+            },
+            {
+                "line": 1438,
+                "text": "<p class=\"dcv5-section-note\">Senzorni profil pomaže korisniku da odmah razumije karakter proizvoda prije nego krene u izradu.</p>"
+            },
+            {
+                "line": 1441,
+                "text": "<div class=\"dcv5-profile-row\">"
+            },
+            {
+                "line": 1442,
+                "text": "<div class=\"dcv5-profile-name\"><?php echo esc_html($item['name']); ?></div>"
+            },
+            {
+                "line": 1443,
+                "text": "<div class=\"dcv5-profile-track\"><div class=\"dcv5-profile-fill\" style=\"width: <?php echo esc_attr($item['score'] * 10); ?>%\"></div></div>"
+            },
+            {
+                "line": 1444,
+                "text": "<div class=\"dcv5-profile-score\"><?php echo esc_html($item['score']); ?>/10</div>"
+            },
+            {
+                "line": 1449,
+                "text": "<section class=\"dcv5-panel\" id=\"klima\">"
+            },
+            {
+                "line": 1451,
+                "text": "<p class=\"dcv5-section-note\">Uvjeti prostora važni su koliko i začini. Dobra kobasica nastaje iz ritma hladnoće, vlage, dima i vremena.</p>"
+            },
+            {
+                "line": 1453,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1455,
+                "text": "<article class=\"dcv5-climate-card\">"
+            },
+            {
+                "line": 1463,
+                "text": "<section class=\"dcv5-panel\" id=\"kronologija\">"
+            },
+            {
+                "line": 1465,
+                "text": "<p class=\"dcv5-section-note\">Ovo je radni vodič od sirovine do stola. Svaka faza ima cilj i kritičnu točku kontrole.</p>"
+            },
+            {
+                "line": 1467,
+                "text": "<div class=\"dcv5-timeline\">"
+            },
+            {
+                "line": 1469,
+                "text": "<article class=\"dcv5-timeline-item\">"
+            },
+            {
+                "line": 1470,
+                "text": "<div class=\"dcv5-day\"><?php echo esc_html($step['day']); ?></div>"
+            },
+            {
+                "line": 1474,
+                "text": "<div class=\"dcv5-critical\"><strong>Kritično:</strong> <?php echo esc_html($step['critical']); ?></div>"
+            },
+            {
+                "line": 1481,
+                "text": "<section class=\"dcv5-panel\" id=\"greske\">"
+            },
+            {
+                "line": 1483,
+                "text": "<p class=\"dcv5-section-note\">Svaki problem mora imati konkretno rješenje. Ovo je zaštitni dio recepta.</p>"
+            },
+            {
+                "line": 1485,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1487,
+                "text": "<article class=\"dcv5-error-card <?php echo esc_attr($error['level']); ?>\">"
+            },
+            {
+                "line": 1489,
+                "text": "<div class=\"dcv5-error-meta\">"
+            },
+            {
+                "line": 1490,
+                "text": "<span class=\"dcv5-small-pill\"><?php echo esc_html($error['phase']); ?></span>"
+            },
+            {
+                "line": 1491,
+                "text": "<span class=\"dcv5-small-pill\"><?php echo esc_html($error['severity']); ?></span>"
+            },
+            {
+                "line": 1500,
+                "text": "<section class=\"dcv5-panel\" id=\"gotovo\">"
+            },
+            {
+                "line": 1502,
+                "text": "<p class=\"dcv5-section-note\">Ovaj blok pomaže korisniku procijeniti je li proizvod tehnološki stabilan za rezanje, čuvanje i posluživanje.</p>"
+            },
+            {
+                "line": 1504,
+                "text": "<div class=\"dcv5-check-grid\">"
+            },
+            {
+                "line": 1506,
+                "text": "<article class=\"dcv5-check-card\">"
+            },
+            {
+                "line": 1514,
+                "text": "<section class=\"dcv5-panel\" id=\"sigurnost\">"
+            },
+            {
+                "line": 1516,
+                "text": "<p class=\"dcv5-section-note\">Kod suhomesnatih proizvoda svaka sumnja mora imati praktičnu odluku. Bolje odbaciti rizičan proizvod nego spašavati nešto što se ne smije spašavati.</p>"
+            },
+            {
+                "line": 1518,
+                "text": "<div class=\"dcv5-safety-grid\">"
+            },
+            {
+                "line": 1520,
+                "text": "<article class=\"dcv5-safety-card <?php echo esc_attr($item['level']); ?>\">"
+            },
+            {
+                "line": 1528,
+                "text": "<section class=\"dcv5-panel\" id=\"posluzivanje\">"
+            },
+            {
+                "line": 1531,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1533,
+                "text": "<article class=\"dcv5-serving-card\">"
+            }
+        ]
+    },
+    "live_plugin_scan": {
+        "path": "/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php",
+        "exists": true,
+        "bytes": 282701,
+        "pattern_counts": {
+            "add_filter_the_content": 9,
+            "dry_recipe_full_markdown": 2,
+            "dry_recipe_sections": 0,
+            "dry_verified_process": 1,
+            "dry_recipe_data": 0,
+            "post_status_private": 3,
+            "is_singular": 21,
+            "dry_recipe_post_type": 353,
+            "dcv_marker": 913,
+            "shortcode": 0
+        },
+        "interesting_lines": [
+            {
+                "line": 4,
+                "text": "if (!function_exists('dcv12_batch01_quantity_profiles')) {"
+            },
+            {
+                "line": 5,
+                "text": "$dcv12_quantity_file = __DIR__ . '/drycured-batch01-quantity-profiles.php';"
+            },
+            {
+                "line": 6,
+                "text": "if (file_exists($dcv12_quantity_file)) {"
+            },
+            {
+                "line": 7,
+                "text": "require_once $dcv12_quantity_file;"
+            },
+            {
+                "line": 58,
+                "text": "if (!is_singular('dry_recipe')) {"
+            },
+            {
+                "line": 64,
+                "text": ".single-dry_recipe .dc-canon-table-wrap {"
+            },
+            {
+                "line": 68,
+                "text": ".single-dry_recipe .dc-canon-table {"
+            },
+            {
+                "line": 74,
+                "text": ".single-dry_recipe .dc-canon-table th,"
+            },
+            {
+                "line": 75,
+                "text": ".single-dry_recipe .dc-canon-table td {"
+            },
+            {
+                "line": 81,
+                "text": ".single-dry_recipe .dc-canon-table th:nth-child(1),"
+            },
+            {
+                "line": 82,
+                "text": ".single-dry_recipe .dc-canon-table td:nth-child(1) {"
+            },
+            {
+                "line": 86,
+                "text": ".single-dry_recipe .dc-canon-table th:nth-child(2),"
+            },
+            {
+                "line": 87,
+                "text": ".single-dry_recipe .dc-canon-table td:nth-child(2) {"
+            },
+            {
+                "line": 91,
+                "text": ".single-dry_recipe .dc-canon-table th:nth-child(3),"
+            },
+            {
+                "line": 92,
+                "text": ".single-dry_recipe .dc-canon-table td:nth-child(3) {"
+            },
+            {
+                "line": 97,
+                "text": ".single-dry_recipe .dc-canon-admin {"
+            },
+            {
+                "line": 101,
+                "text": ".single-dry_recipe .dc-canon-section p,"
+            },
+            {
+                "line": 102,
+                "text": ".single-dry_recipe .dc-canon-list li,"
+            },
+            {
+                "line": 103,
+                "text": ".single-dry_recipe .dc-canon-table td {"
+            },
+            {
+                "line": 108,
+                "text": ".single-dry_recipe .dc-canon-section {"
+            },
+            {
+                "line": 122,
+                "text": "* Description: Sigurni override javnog prikaza kanonskih dry_recipe recepata bez diranja core plugina."
+            },
+            {
+                "line": 130,
+                "text": "add_filter('the_content', 'dc_canon_recipe_override_content', 999);"
+            },
+            {
+                "line": 132,
+                "text": "function dc_canon_recipe_override_content($content) {"
+            },
+            {
+                "line": 133,
+                "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+            },
+            {
+                "line": 142,
+                "text": "$markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);"
+            },
+            {
+                "line": 149,
+                "text": "$code        = dc_canon_meta($post_id, '_dry_recipe_id');"
+            },
+            {
+                "line": 164,
+                "text": ".single-dry_recipe .ast-container,"
+            },
+            {
+                "line": 165,
+                "text": ".single-dry_recipe .site-content .ast-container,"
+            },
+            {
+                "line": 166,
+                "text": ".single-dry_recipe .content-area,"
+            },
+            {
+                "line": 167,
+                "text": ".single-dry_recipe main.site-main {"
+            },
+            {
+                "line": 174,
+                "text": ".single-dry_recipe .entry-header,"
+            },
+            {
+                "line": 175,
+                "text": ".single-dry_recipe .entry-meta {"
+            },
+            {
+                "line": 515,
+                "text": "function dc_canon_recipe_parse_sections($markdown) {"
+            },
+            {
+                "line": 546,
+                "text": "function dc_canon_recipe_section($sections, $num, $title = '') {"
+            },
+            {
+                "line": 560,
+                "text": "function dc_canon_recipe_render_body($body_lines) {"
+            },
+            {
+                "line": 620,
+                "text": "function dc_canon_recipe_render_table($lines) {"
+            },
+            {
+                "line": 685,
+                "text": "function dc_canon_recipe_inline($text) {"
+            },
+            {
+                "line": 706,
+                "text": "add_filter('the_content', 'dcv5_recipe_view_pilot_content', 1200);"
+            },
+            {
+                "line": 708,
+                "text": "function dcv5_recipe_view_pilot_content($content) {"
+            },
+            {
+                "line": 709,
+                "text": "if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {"
+            },
+            {
+                "line": 714,
+                "text": "$code = get_post_meta($post_id, '_dry_recipe_id', true);"
+            },
+            {
+                "line": 721,
+                "text": "$dcv5_bridge_profile = null;"
+            },
+            {
+                "line": 723,
+                "text": "$dcv5_bridge_profile = drycured_md_v5_bridge_profile($post_id, $code);"
+            },
+            {
+                "line": 726,
+                "text": "if (!in_array($code, dcv5_supported_recipe_codes(), true) && !$dcv5_bridge_profile) {"
+            },
+            {
+                "line": 730,
+                "text": "$recipe = dcv5_get_recipe_profile($post_id, $code);"
+            },
+            {
+                "line": 731,
+                "text": "if (!$recipe && $dcv5_bridge_profile) {"
+            },
+            {
+                "line": 732,
+                "text": "$recipe = $dcv5_bridge_profile;"
+            },
+            {
+                "line": 741,
+                "text": "$image_url = get_post_meta($post_id, '_dry_recipe_image_url', true);"
+            },
+            {
+                "line": 750,
+                "text": "dcv5_render_recipe_schema($recipe);"
+            },
+            {
+                "line": 753,
+                "text": ".single-dry_recipe .entry-header,"
+            },
+            {
+                "line": 754,
+                "text": ".single-dry_recipe .entry-meta {"
+            },
+            {
+                "line": 758,
+                "text": ".single-dry_recipe .ast-container,"
+            },
+            {
+                "line": 759,
+                "text": ".single-dry_recipe .site-content .ast-container,"
+            },
+            {
+                "line": 760,
+                "text": ".single-dry_recipe .content-area,"
+            },
+            {
+                "line": 761,
+                "text": ".single-dry_recipe main.site-main {"
+            },
+            {
+                "line": 768,
+                "text": ".dcv5-recipe {"
+            },
+            {
+                "line": 775,
+                "text": ".dcv5-hero,"
+            },
+            {
+                "line": 776,
+                "text": ".dcv5-panel,"
+            },
+            {
+                "line": 777,
+                "text": ".dcv5-side-panel {"
+            },
+            {
+                "line": 784,
+                "text": ".dcv5-hero {"
+            },
+            {
+                "line": 791,
+                "text": ".dcv5-hero-grid {"
+            },
+            {
+                "line": 800,
+                "text": ".dcv5-hero-media {"
+            },
+            {
+                "line": 808,
+                "text": ".dcv5-hero-media img {"
+            },
+            {
+                "line": 815,
+                "text": ".dcv5-actions {"
+            },
+            {
+                "line": 822,
+                "text": ".dcv5-btn {"
+            },
+            {
+                "line": 836,
+                "text": ".dcv5-btn:hover {"
+            },
+            {
+                "line": 841,
+                "text": ".dcv5-btn-primary {"
+            },
+            {
+                "line": 847,
+                "text": ".dcv5-btn-secondary {"
+            },
+            {
+                "line": 852,
+                "text": ".dcv5-hero:before {"
+            },
+            {
+                "line": 860,
+                "text": ".dcv5-hero-inner {"
+            },
+            {
+                "line": 865,
+                "text": ".dcv5-kicker {"
+            },
+            {
+                "line": 872,
+                "text": ".dcv5-badge {"
+            },
+            {
+                "line": 885,
+                "text": ".dcv5-hero h1 {"
+            },
+            {
+                "line": 892,
+                "text": ".dcv5-lead {"
+            },
+            {
+                "line": 900,
+                "text": ".dcv5-quick-strip {"
+            },
+            {
+                "line": 907,
+                "text": ".dcv5-quick-card {"
+            },
+            {
+                "line": 914,
+                "text": ".dcv5-quick-card span,"
+            },
+            {
+                "line": 915,
+                "text": ".dcv5-field-label {"
+            },
+            {
+                "line": 925,
+                "text": ".dcv5-quick-card strong {"
+            },
+            {
+                "line": 932,
+                "text": ".dcv5-layout {"
+            },
+            {
+                "line": 939,
+                "text": ".dcv5-panel {"
+            },
+            {
+                "line": 944,
+                "text": ".dcv5-panel h2 {"
+            },
+            {
+                "line": 954,
+                "text": ".dcv5-panel h2 span {"
+            },
+            {
+                "line": 968,
+                "text": ".dcv5-section-note {"
+            },
+            {
+                "line": 975,
+                "text": ".dcv5-composition {"
+            },
+            {
+                "line": 982,
+                "text": ".dcv5-comp-bar {"
+            },
+            {
+                "line": 991,
+                "text": ".dcv5-comp-bar:nth-child(2) {"
+            },
+            {
+                "line": 995,
+                "text": ".dcv5-card-grid {"
+            },
+            {
+                "line": 1000,
+                "text": ".dcv5-card-grid.two {"
+            },
+            {
+                "line": 1004,
+                "text": ".dcv5-card-grid.three {"
+            },
+            {
+                "line": 1008,
+                "text": ".dcv5-ingredient-card,"
+            },
+            {
+                "line": 1009,
+                "text": ".dcv5-process-card,"
+            },
+            {
+                "line": 1010,
+                "text": ".dcv5-error-card,"
+            },
+            {
+                "line": 1011,
+                "text": ".dcv5-serving-card,"
+            },
+            {
+                "line": 1012,
+                "text": ".dcv5-profile-row,"
+            },
+            {
+                "line": 1013,
+                "text": ".dcv5-climate-card {"
+            },
+            {
+                "line": 1020,
+                "text": ".dcv5-ingredient-card h3,"
+            },
+            {
+                "line": 1021,
+                "text": ".dcv5-process-card h3,"
+            },
+            {
+                "line": 1022,
+                "text": ".dcv5-error-card h3,"
+            },
+            {
+                "line": 1023,
+                "text": ".dcv5-serving-card h3,"
+            },
+            {
+                "line": 1024,
+                "text": ".dcv5-climate-card h3 {"
+            },
+            {
+                "line": 1031,
+                "text": ".dcv5-amount-line {"
+            },
+            {
+                "line": 1039,
+                "text": ".dcv5-amount {"
+            },
+            {
+                "line": 1049,
+                "text": ".dcv5-percent,"
+            },
+            {
+                "line": 1050,
+                "text": ".dcv5-rate {"
+            },
+            {
+                "line": 1061,
+                "text": ".dcv5-ingredient-card p,"
+            },
+            {
+                "line": 1062,
+                "text": ".dcv5-process-card p,"
+            },
+            {
+                "line": 1063,
+                "text": ".dcv5-error-card p,"
+            },
+            {
+                "line": 1064,
+                "text": ".dcv5-serving-card p,"
+            },
+            {
+                "line": 1065,
+                "text": ".dcv5-climate-card p {"
+            },
+            {
+                "line": 1072,
+                "text": ".dcv5-profile-row {"
+            },
+            {
+                "line": 1080,
+                "text": ".dcv5-profile-name {"
+            },
+            {
+                "line": 1086,
+                "text": ".dcv5-profile-track {"
+            },
+            {
+                "line": 1093,
+                "text": ".dcv5-profile-fill {"
+            },
+            {
+                "line": 1099,
+                "text": ".dcv5-profile-score {"
+            },
+            {
+                "line": 1105,
+                "text": ".dcv5-timeline {"
+            },
+            {
+                "line": 1111,
+                "text": ".dcv5-timeline-item {"
+            },
+            {
+                "line": 1121,
+                "text": ".dcv5-day {"
+            },
+            {
+                "line": 1134,
+                "text": ".dcv5-critical {"
+            },
+            {
+                "line": 1145,
+                "text": ".dcv5-error-card {"
+            },
+            {
+                "line": 1149,
+                "text": ".dcv5-error-card.danger {"
+            },
+            {
+                "line": 1153,
+                "text": ".dcv5-error-card.warning {"
+            },
+            {
+                "line": 1157,
+                "text": ".dcv5-error-meta {"
+            },
+            {
+                "line": 1164,
+                "text": ".dcv5-small-pill {"
+            },
+            {
+                "line": 1175,
+                "text": ".dcv5-side-panel {"
+            },
+            {
+                "line": 1181,
+                "text": ".dcv5-side-panel h3 {"
+            },
+            {
+                "line": 1187,
+                "text": ".dcv5-side-panel a {"
+            },
+            {
+                "line": 1196,
+                "text": ".dcv5-side-panel a:hover {"
+            },
+            {
+                "line": 1200,
+                "text": ".dcv5-print-strip {"
+            },
+            {
+                "line": 1206,
+                "text": ".dcv5-check-grid,"
+            },
+            {
+                "line": 1207,
+                "text": ".dcv5-safety-grid {"
+            },
+            {
+                "line": 1213,
+                "text": ".dcv5-check-card,"
+            },
+            {
+                "line": 1214,
+                "text": ".dcv5-safety-card {"
+            },
+            {
+                "line": 1221,
+                "text": ".dcv5-check-card h3,"
+            },
+            {
+                "line": 1222,
+                "text": ".dcv5-safety-card h3 {"
+            },
+            {
+                "line": 1229,
+                "text": ".dcv5-check-card p,"
+            },
+            {
+                "line": 1230,
+                "text": ".dcv5-safety-card p {"
+            },
+            {
+                "line": 1237,
+                "text": ".dcv5-safety-card.green {"
+            },
+            {
+                "line": 1241,
+                "text": ".dcv5-safety-card.yellow {"
+            },
+            {
+                "line": 1245,
+                "text": ".dcv5-safety-card.red {"
+            },
+            {
+                "line": 1249,
+                "text": ".dcv5-print-button-row {"
+            },
+            {
+                "line": 1259,
+                "text": ".dcv5-side-panel,"
+            },
+            {
+                "line": 1260,
+                "text": ".dcv5-hero-media,"
+            },
+            {
+                "line": 1261,
+                "text": ".dcv5-actions,"
+            },
+            {
+                "line": 1267,
+                "text": ".dcv5-recipe {"
+            },
+            {
+                "line": 1272,
+                "text": ".dcv5-layout {"
+            },
+            {
+                "line": 1276,
+                "text": ".dcv5-panel,"
+            },
+            {
+                "line": 1277,
+                "text": ".dcv5-hero,"
+            },
+            {
+                "line": 1278,
+                "text": ".dcv5-quick-card {"
+            },
+            {
+                "line": 1288,
+                "text": ".dcv5-print-box {"
+            },
+            {
+                "line": 1297,
+                "text": ".dcv5-hero-grid {"
+            },
+            {
+                "line": 1301,
+                "text": ".dcv5-hero-media img {"
+            },
+            {
+                "line": 1305,
+                "text": ".dcv5-layout {"
+            },
+            {
+                "line": 1309,
+                "text": ".dcv5-side-panel {"
+            },
+            {
+                "line": 1313,
+                "text": ".dcv5-quick-strip,"
+            },
+            {
+                "line": 1314,
+                "text": ".dcv5-card-grid.three,"
+            },
+            {
+                "line": 1315,
+                "text": ".dcv5-card-grid.two,"
+            },
+            {
+                "line": 1316,
+                "text": ".dcv5-print-strip,"
+            },
+            {
+                "line": 1317,
+                "text": ".dcv5-check-grid,"
+            },
+            {
+                "line": 1318,
+                "text": ".dcv5-safety-grid {"
+            },
+            {
+                "line": 1324,
+                "text": ".dcv5-recipe {"
+            },
+            {
+                "line": 1328,
+                "text": ".dcv5-hero,"
+            },
+            {
+                "line": 1329,
+                "text": ".dcv5-panel {"
+            },
+            {
+                "line": 1334,
+                "text": ".dcv5-quick-strip,"
+            },
+            {
+                "line": 1335,
+                "text": ".dcv5-card-grid.three,"
+            },
+            {
+                "line": 1336,
+                "text": ".dcv5-card-grid.two,"
+            },
+            {
+                "line": 1337,
+                "text": ".dcv5-print-strip,"
+            },
+            {
+                "line": 1338,
+                "text": ".dcv5-check-grid,"
+            },
+            {
+                "line": 1339,
+                "text": ".dcv5-safety-grid {"
+            },
+            {
+                "line": 1343,
+                "text": ".dcv5-timeline-item {"
+            },
+            {
+                "line": 1347,
+                "text": ".dcv5-profile-row {"
+            },
+            {
+                "line": 1353,
+                "text": "<div class=\"dcv5-recipe\">"
+            },
+            {
+                "line": 1354,
+                "text": "<header class=\"dcv5-hero\" id=\"vrh\">"
+            },
+            {
+                "line": 1355,
+                "text": "<div class=\"dcv5-hero-grid\">"
+            },
+            {
+                "line": 1356,
+                "text": "<div class=\"dcv5-hero-inner\">"
+            },
+            {
+                "line": 1357,
+                "text": "<div class=\"dcv5-kicker\">"
+            },
+            {
+                "line": 1358,
+                "text": "<span class=\"dcv5-badge\">DIGITALNA PUŠNICA</span>"
+            },
+            {
+                "line": 1359,
+                "text": "<span class=\"dcv5-badge\"><?php echo esc_html($recipe['code']); ?></span>"
+            },
+            {
+                "line": 1360,
+                "text": "<span class=\"dcv5-badge\"><?php echo esc_html($recipe['region']); ?></span>"
+            },
+            {
+                "line": 1361,
+                "text": "<span class=\"dcv5-badge\"><?php echo esc_html($recipe['type']); ?></span>"
+            },
+            {
+                "line": 1365,
+                "text": "<p class=\"dcv5-lead\"><?php echo esc_html($recipe['lead']); ?></p>"
+            },
+            {
+                "line": 1367,
+                "text": "<div class=\"dcv5-actions\">"
+            },
+            {
+                "line": 1368,
+                "text": "<a class=\"dcv5-btn dcv5-btn-primary\" href=\"<?php echo esc_url($calculator_url); ?>\">"
+            },
+            {
+                "line": 1371,
+                "text": "<a class=\"dcv5-btn dcv5-btn-secondary\" href=\"#dnevnik\">"
+            },
+            {
+                "line": 1374,
+                "text": "<a class=\"dcv5-btn dcv5-btn-secondary\" href=\"javascript:window.print()\">"
+            },
+            {
+                "line": 1381,
+                "text": "<figure class=\"dcv5-hero-media\">"
+            },
+            {
+                "line": 1388,
+                "text": "<section class=\"dcv5-quick-strip\" aria-label=\"Brzi proizvodni sažetak\">"
+            },
+            {
+                "line": 1390,
+                "text": "<article class=\"dcv5-quick-card\">"
+            },
+            {
+                "line": 1397,
+                "text": "<div class=\"dcv5-layout\">"
+            },
+            {
+                "line": 1399,
+                "text": "<section class=\"dcv5-panel\" id=\"omjer\">"
+            },
+            {
+                "line": 1401,
+                "text": "<p class=\"dcv5-section-note\">Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje.</p>"
+            },
+            {
+                "line": 1403,
+                "text": "<div class=\"dcv5-composition\">"
+            },
+            {
+                "line": 1404,
+                "text": "<div class=\"dcv5-comp-bar\">70 % meso</div>"
+            },
+            {
+                "line": 1405,
+                "text": "<div class=\"dcv5-comp-bar\">30 % slanina</div>"
+            },
+            {
+                "line": 1409,
+                "text": "<section class=\"dcv5-panel\" id=\"sirovine\">"
+            },
+            {
+                "line": 1411,
+                "text": "<p class=\"dcv5-section-note\">Meso i slanina prikazuju se u kilogramima jer čine osnovu smjese.</p>"
+            },
+            {
+                "line": 1413,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1414,
+                "text": "<?php foreach ($recipe['materials'] as $item) : dcv5_card($item); endforeach; ?>"
+            },
+            {
+                "line": 1418,
+                "text": "<section class=\"dcv5-panel\" id=\"zacini\">"
+            },
+            {
+                "line": 1420,
+                "text": "<p class=\"dcv5-section-note\">Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer.</p>"
+            },
+            {
+                "line": 1422,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1423,
+                "text": "<?php foreach ($recipe['spices'] as $item) : dcv5_card($item); endforeach; ?>"
+            },
+            {
+                "line": 1427,
+                "text": "<section class=\"dcv5-panel\" id=\"tekucine\">"
+            },
+            {
+                "line": 1429,
+                "text": "<p class=\"dcv5-section-note\">Tekućine se prikazuju prema izvornom receptu. Češnjak se prikazuje kao izravni dodatak, macerat ili procijeđena tekućina samo kada je takav postupak jasno naveden.</p>"
+            },
+            {
+                "line": 1431,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1432,
+                "text": "<?php foreach ($recipe['liquids'] as $item) : dcv5_card($item); endforeach; ?>"
+            },
+            {
+                "line": 1436,
+                "text": "<section class=\"dcv5-panel\" id=\"profil\">"
+            },
+            {
+                "line": 1438,
+                "text": "<p class=\"dcv5-section-note\">Senzorni profil pomaže korisniku da odmah razumije karakter proizvoda prije nego krene u izradu.</p>"
+            },
+            {
+                "line": 1441,
+                "text": "<div class=\"dcv5-profile-row\">"
+            },
+            {
+                "line": 1442,
+                "text": "<div class=\"dcv5-profile-name\"><?php echo esc_html($item['name']); ?></div>"
+            },
+            {
+                "line": 1443,
+                "text": "<div class=\"dcv5-profile-track\"><div class=\"dcv5-profile-fill\" style=\"width: <?php echo esc_attr($item['score'] * 10); ?>%\"></div></div>"
+            },
+            {
+                "line": 1444,
+                "text": "<div class=\"dcv5-profile-score\"><?php echo esc_html($item['score']); ?>/10</div>"
+            },
+            {
+                "line": 1449,
+                "text": "<section class=\"dcv5-panel\" id=\"klima\">"
+            },
+            {
+                "line": 1451,
+                "text": "<p class=\"dcv5-section-note\">Uvjeti prostora važni su koliko i začini. Dobra kobasica nastaje iz ritma hladnoće, vlage, dima i vremena.</p>"
+            },
+            {
+                "line": 1453,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1455,
+                "text": "<article class=\"dcv5-climate-card\">"
+            },
+            {
+                "line": 1463,
+                "text": "<section class=\"dcv5-panel\" id=\"kronologija\">"
+            },
+            {
+                "line": 1465,
+                "text": "<p class=\"dcv5-section-note\">Ovo je radni vodič od sirovine do stola. Svaka faza ima cilj i kritičnu točku kontrole.</p>"
+            },
+            {
+                "line": 1467,
+                "text": "<div class=\"dcv5-timeline\">"
+            },
+            {
+                "line": 1469,
+                "text": "<article class=\"dcv5-timeline-item\">"
+            },
+            {
+                "line": 1470,
+                "text": "<div class=\"dcv5-day\"><?php echo esc_html($step['day']); ?></div>"
+            },
+            {
+                "line": 1474,
+                "text": "<div class=\"dcv5-critical\"><strong>Kritično:</strong> <?php echo esc_html($step['critical']); ?></div>"
+            },
+            {
+                "line": 1481,
+                "text": "<section class=\"dcv5-panel\" id=\"greske\">"
+            },
+            {
+                "line": 1483,
+                "text": "<p class=\"dcv5-section-note\">Svaki problem mora imati konkretno rješenje. Ovo je zaštitni dio recepta.</p>"
+            },
+            {
+                "line": 1485,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1487,
+                "text": "<article class=\"dcv5-error-card <?php echo esc_attr($error['level']); ?>\">"
+            },
+            {
+                "line": 1489,
+                "text": "<div class=\"dcv5-error-meta\">"
+            },
+            {
+                "line": 1490,
+                "text": "<span class=\"dcv5-small-pill\"><?php echo esc_html($error['phase']); ?></span>"
+            },
+            {
+                "line": 1491,
+                "text": "<span class=\"dcv5-small-pill\"><?php echo esc_html($error['severity']); ?></span>"
+            },
+            {
+                "line": 1500,
+                "text": "<section class=\"dcv5-panel\" id=\"gotovo\">"
+            },
+            {
+                "line": 1502,
+                "text": "<p class=\"dcv5-section-note\">Ovaj blok pomaže korisniku procijeniti je li proizvod tehnološki stabilan za rezanje, čuvanje i posluživanje.</p>"
+            },
+            {
+                "line": 1504,
+                "text": "<div class=\"dcv5-check-grid\">"
+            },
+            {
+                "line": 1506,
+                "text": "<article class=\"dcv5-check-card\">"
+            },
+            {
+                "line": 1514,
+                "text": "<section class=\"dcv5-panel\" id=\"sigurnost\">"
+            },
+            {
+                "line": 1516,
+                "text": "<p class=\"dcv5-section-note\">Kod suhomesnatih proizvoda svaka sumnja mora imati praktičnu odluku. Bolje odbaciti rizičan proizvod nego spašavati nešto što se ne smije spašavati.</p>"
+            },
+            {
+                "line": 1518,
+                "text": "<div class=\"dcv5-safety-grid\">"
+            },
+            {
+                "line": 1520,
+                "text": "<article class=\"dcv5-safety-card <?php echo esc_attr($item['level']); ?>\">"
+            },
+            {
+                "line": 1528,
+                "text": "<section class=\"dcv5-panel\" id=\"posluzivanje\">"
+            },
+            {
+                "line": 1531,
+                "text": "<div class=\"dcv5-card-grid two\">"
+            },
+            {
+                "line": 1533,
+                "text": "<article class=\"dcv5-serving-card\">"
+            }
+        ]
+    },
+    "renderer_likely_requires": [
+        "/root/DRYCURED_GITHUB/wp-content/mu-plugins/drycured-recipe-view-v1.php:142: $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);",
+        "/root/DRYCURED_GITHUB/wp-content/mu-plugins/drycured-recipe-view-v1.php:149: $code        = dc_canon_meta($post_id, '_dry_recipe_id');",
+        "/root/DRYCURED_GITHUB/wp-content/mu-plugins/drycured-recipe-view-v1.php:714: $code = get_post_meta($post_id, '_dry_recipe_id', true);",
+        "/root/DRYCURED_GITHUB/wp-content/mu-plugins/drycured-recipe-view-v1.php:741: $image_url = get_post_meta($post_id, '_dry_recipe_image_url', true);",
+        "/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:142: $markdown = get_post_meta($post_id, '_dry_recipe_full_markdown', true);",
+        "/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:149: $code        = dc_canon_meta($post_id, '_dry_recipe_id');",
+        "/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:714: $code = get_post_meta($post_id, '_dry_recipe_id', true);",
+        "/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php:741: $image_url = get_post_meta($post_id, '_dry_recipe_image_url', true);"
+    ],
+    "diagnosis": [
+        "Clone 3535 renderira raw markdown/post_content, ne dokazani kartični renderer.",
+        "Clone ima _dry_recipe_sections, ali renderer se ne aktivira; vjerojatno treba dodatni trigger, status, shortcode, template uvjet ili drugačiji meta format."
+    ]
+}
