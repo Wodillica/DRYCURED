@@ -1,4 +1,25 @@
-# recipe.yml
+#!/usr/bin/env python3
+from pathlib import Path
+import json
+import sys
+from datetime import datetime, timezone
+
+if len(sys.argv) != 5:
+    print("Usage: dc_recipe_3042_recipe_yml_draft_v1.py DOSSIER_DIR SOURCES_YML RECIPE_YML QA_REPORT", file=sys.stderr)
+    sys.exit(1)
+
+dossier_dir = Path(sys.argv[1])
+sources_path = Path(sys.argv[2])
+recipe_path = Path(sys.argv[3])
+qa_path = Path(sys.argv[4])
+
+review_dirs = sorted((dossier_dir / "review").glob("recipe_yml_draft_v1_*"))
+review_dir = review_dirs[-1] if review_dirs else dossier_dir / "review" / "recipe_yml_draft_v1_manual"
+review_dir.mkdir(parents=True, exist_ok=True)
+
+now = datetime.now(timezone.utc).isoformat()
+
+recipe_yml = r'''# recipe.yml
 dossier_status: "CANON_DRAFT_V1_NOT_PUBLIC"
 public_update_allowed: false
 post_id: 3042
@@ -11,8 +32,6 @@ canonical_recipe_ready: false
 public_verified: false
 source_validation_status: "PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED"
 protected_status_claim_allowed: false
-starter_culture_review_required: true
-smoking_confirmation_required: true
 reference_model: "HR-SL-005 Slavonska domaća kobasica — dizajnerski/sadržajni model za mljevene proizvode u omotaču; ne kopirati sastojke ni parametre."
 
 editorial_warning:
@@ -226,3 +245,97 @@ qa_blockers_before_public_update:
   - "dimljenje je označeno kao needs_confirmation"
   - "javni tekst još sadrži interne tragove prema intake izvještaju"
   - "potrebno je završiti qa_report.md prije bilo kakvog WordPress updatea"
+'''
+
+recipe_path.write_text(recipe_yml, encoding="utf-8")
+
+draft_payload = {
+    "generated_at": now,
+    "post_id": 3042,
+    "title": "Jésus de Lyon – debela suha kobasica",
+    "status": "CANON_DRAFT_V1_NOT_PUBLIC",
+    "public_update_allowed": False,
+    "source_validation_status": "PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED",
+    "important_blockers": [
+        "recipe quantities not fully source-confirmed",
+        "starter culture amount requires technical review",
+        "smoking requires confirmation",
+        "public internal terms detected in intake",
+        "qa_report not complete"
+    ],
+    "draft_recipe_yml": str(recipe_path)
+}
+(review_dir / "3042_recipe_yml_draft_v1.json").write_text(
+    json.dumps(draft_payload, ensure_ascii=False, indent=2),
+    encoding="utf-8"
+)
+
+md = []
+md.append("# 3042 Jésus de Lyon — recipe.yml draft v1")
+md.append("")
+md.append("Status: **CANON_DRAFT_V1_NOT_PUBLIC**")
+md.append("")
+md.append("Ovaj korak ne mijenja WordPress. Popunjen je samo radni `recipe.yml` u dosjeu.")
+md.append("")
+md.append("## Što je napravljeno")
+md.append("")
+md.append("- Recept je strukturiran kao `GROUND_MEAT_OR_CASING`.")
+md.append("- Šarža je postavljena na 10 kg.")
+md.append("- Sirovine su navedene u kg.")
+md.append("- Začini su navedeni u g, postotku i g/kg.")
+md.append("- Crijeva imaju tip, promjer, namakanje, tekućinu, temperaturu i napomenu da se ne prokuhavaju.")
+md.append("- Češnjak je označen kao izravni sušeni češnjak u prahu, bez procijeđene tekućine.")
+md.append("- Mljevenje je označeno kao 6–8 mm, uz obveznu hladnu obradu.")
+md.append("- Problemi imaju konkretna rješenja.")
+md.append("")
+md.append("## Blokade prije javnog updatea")
+md.append("")
+md.append("- Količine iz WP/MD nacrta nisu potpuno potvrđene vanjskim izvorom.")
+md.append("- Količina starter kulture je mehanički skalirana i mora se provjeriti prema deklaraciji proizvođača.")
+md.append("- Dimljenje je označeno kao `needs_confirmation`; ne smije se prikazati kao obvezna faza bez dodatnog izvora.")
+md.append("- Intake je detektirao javne interne tragove; to se mora očistiti prije javnog updatea.")
+md.append("- `qa_report.md` još nije završno zatvoren.")
+md.append("")
+md.append("## Zaključak")
+md.append("")
+md.append("Dosje je spreman za QA reviziju radnog nacrta. Javni update i dalje nije dopušten.")
+md.append("")
+md.append("Datoteka: `recipe.yml`")
+md.append("")
+
+(review_dir / "3042_RECIPE_YML_DRAFT_V1_REPORT.md").write_text("\n".join(md), encoding="utf-8")
+
+qa_text = qa_path.read_text(encoding="utf-8")
+marker = "<!-- DC_3042_RECIPE_YML_DRAFT_V1 -->"
+append = f"""
+{marker}
+
+## Recipe.yml draft v1
+
+Status: **CANON_DRAFT_V1_NOT_PUBLIC**
+
+- [x] `recipe.yml` je popunjen kao radni nacrt.
+- [x] Šarža je 10 kg.
+- [x] Sirovine su u kg.
+- [x] Začini su u g.
+- [x] Crijeva imaju namakanje.
+- [x] Češnjak je označen kao sušeni češnjak u prahu, bez procijeđene tekućine.
+- [x] Problemi imaju rješenja.
+- [ ] Količina starter kulture nije tehnički potvrđena.
+- [ ] Dimljenje nije potvrđeno kao obvezna faza.
+- [ ] Javni update nije dopušten.
+- [ ] Završni QA nije zatvoren.
+
+Report: `review/{review_dir.name}/3042_RECIPE_YML_DRAFT_V1_REPORT.md`
+"""
+if marker not in qa_text:
+    qa_path.write_text(qa_text.rstrip() + "\n\n" + append.strip() + "\n", encoding="utf-8")
+
+print("=== 3042 RECIPE.YML DRAFT COMPLETE ===")
+print("STATUS=CANON_DRAFT_V1_NOT_PUBLIC")
+print("PUBLIC_UPDATE_ALLOWED=false")
+print("RECIPE_YML_UPDATED=true")
+print("STARTER_CULTURE_REQUIRES_REVIEW=true")
+print("SMOKING_REQUIRES_CONFIRMATION=true")
+print(f"RECIPE={recipe_path}")
+print(f"REPORT={review_dir / '3042_RECIPE_YML_DRAFT_V1_REPORT.md'}")

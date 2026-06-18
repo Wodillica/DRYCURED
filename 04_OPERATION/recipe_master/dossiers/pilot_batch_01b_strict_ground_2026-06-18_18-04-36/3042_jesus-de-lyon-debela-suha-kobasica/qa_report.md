@@ -49,3 +49,23 @@ Vanjski izvori potvrđuju da je Jésus de Lyon stvaran lyonški suhomesnati proi
 - [ ] Ne tvrditi aktualni IGP/ZOI/zaštićeni status bez dodatne potvrde.
 
 Report: `review/source_validation_v1_2026-06-18_18-10-58/3042_SOURCE_VALIDATION_REPORT.md`
+
+<!-- DC_3042_RECIPE_YML_DRAFT_V1 -->
+
+## Recipe.yml draft v1
+
+Status: **CANON_DRAFT_V1_NOT_PUBLIC**
+
+- [x] `recipe.yml` je popunjen kao radni nacrt.
+- [x] Šarža je 10 kg.
+- [x] Sirovine su u kg.
+- [x] Začini su u g.
+- [x] Crijeva imaju namakanje.
+- [x] Češnjak je označen kao sušeni češnjak u prahu, bez procijeđene tekućine.
+- [x] Problemi imaju rješenja.
+- [ ] Količina starter kulture nije tehnički potvrđena.
+- [ ] Dimljenje nije potvrđeno kao obvezna faza.
+- [ ] Javni update nije dopušten.
+- [ ] Završni QA nije zatvoren.
+
+Report: `review/recipe_yml_draft_v1_2026-06-18_18-15-54/3042_RECIPE_YML_DRAFT_V1_REPORT.md`

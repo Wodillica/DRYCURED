@@ -1,0 +1,8 @@
+=== 3042 RECIPE.YML DRAFT COMPLETE ===
+STATUS=CANON_DRAFT_V1_NOT_PUBLIC
+PUBLIC_UPDATE_ALLOWED=false
+RECIPE_YML_UPDATED=true
+STARTER_CULTURE_REQUIRES_REVIEW=true
+SMOKING_REQUIRES_CONFIRMATION=true
+RECIPE=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/recipe.yml
+REPORT=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/recipe_yml_draft_v1_2026-06-18_18-15-54/3042_RECIPE_YML_DRAFT_V1_REPORT.md

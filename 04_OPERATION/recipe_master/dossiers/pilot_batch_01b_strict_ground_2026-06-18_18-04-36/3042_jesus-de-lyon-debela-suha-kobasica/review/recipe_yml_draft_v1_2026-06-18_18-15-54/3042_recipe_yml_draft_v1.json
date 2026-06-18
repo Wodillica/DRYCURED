@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-06-18T18:15:54.127237+00:00",
+  "post_id": 3042,
+  "title": "Jésus de Lyon – debela suha kobasica",
+  "status": "CANON_DRAFT_V1_NOT_PUBLIC",
+  "public_update_allowed": false,
+  "source_validation_status": "PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED",
+  "important_blockers": [
+    "recipe quantities not fully source-confirmed",
+    "starter culture amount requires technical review",
+    "smoking requires confirmation",
+    "public internal terms detected in intake",
+    "qa_report not complete"
+  ],
+  "draft_recipe_yml": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/recipe.yml"
+}
