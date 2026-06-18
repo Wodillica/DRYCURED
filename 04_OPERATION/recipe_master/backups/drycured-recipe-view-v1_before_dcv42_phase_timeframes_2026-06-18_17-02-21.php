@@ -6949,21 +6949,16 @@ if (!function_exists('dcv40_existing_display_data_adapter_profile')) {
                 'Cilj' => 'ravnomjerno i kompaktno punjenje bez zračnih džepova',
             ],
             'Dimljenje' => [
-                'Trajanje' => '3–6 blagih ciklusa nakon predsušenja',
-                'Temperatura dima' => 'hladni dim, najviše 20–22 °C',
-                'Pauze' => 'obavezne između ciklusa; površina se ne smije zadržavati mokra',
-                'Cilj' => 'blaga dimna aroma bez gorčine i površinska stabilizacija',
+                'Trajanje' => 'više blagih ciklusa',
+                'Temperatura dima' => 'hladni dim',
+                'Cilj' => 'blaga dimna aroma bez gorčine',
             ],
             'Sušenje' => [
-                'Trajanje' => '20–40 dana nakon dimljenja',
-                'Temperatura' => '10–15 °C',
-                'Relativna vlaga' => '70–80 %',
-                'Cilj' => 'postupan gubitak vlage bez tvrde kore',
+                'Trajanje' => 'postupno do stabilnog proizvoda',
+                'Cilj' => 'gubitak vlage bez tvrde kore',
             ],
             'Zrenje' => [
-                'Trajanje' => 'ukupno približno 70–100 dana, do povezanog presjeka',
-                'Temperatura' => '10–15 °C',
-                'Relativna vlaga' => '65–75 %',
+                'Trajanje' => 'do povezanog presjeka',
                 'Cilj' => 'čist miris, stabilan presjek i zaokružen okus',
             ],
         ];
