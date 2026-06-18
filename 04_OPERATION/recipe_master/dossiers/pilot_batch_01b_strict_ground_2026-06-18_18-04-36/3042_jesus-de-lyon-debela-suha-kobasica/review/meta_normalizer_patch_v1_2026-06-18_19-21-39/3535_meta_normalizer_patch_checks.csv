@@ -1,0 +1,12 @@
+key,label,status,severity,note
+source_unchanged,"Source 3042 nije mijenjan",PASS,BLOCKER,"Title, slug, status, type i modified_gmt moraju ostati isti."
+clone_private,"Clone 3535 ostaje private",PASS,BLOCKER,"Patch se smije primijeniti samo na private clone."
+clone_type,"Clone 3535 ostaje dry_recipe",PASS,BLOCKER,"Post type mora ostati dry_recipe."
+dry_recipe_id_written,"_dry_recipe_id upisan",PASS,BLOCKER,"Ovo je glavni cilj meta-normalizacije."
+public_update_0,"Public update ostaje 0",PASS,BLOCKER,"Privatni clone ne smije dopustiti javni update."
+public_verified_0,"Public verified ostaje 0",PASS,BLOCKER,"Recept nije public verified."
+preview_mode,"Preview mode ostaje PRIVATE_CLONE_ONLY",PASS,BLOCKER,"Clone mora ostati jasno privatni."
+source_link,"Clone ostaje vezan na source 3042",PASS,BLOCKER,"Veza na source mora ostati 3042."
+image_skipped,"Slika nije upisana jer nema dostupne vrijednosti",PASS,INFO,"Plan je preporučio SKIP_NO_VALUE."
+render_has_title,"Render nakon patcha sadrži naslov",PASS,MAJOR,"Interni render mora sadržavati naziv."
+render_has_private_notice,"Render zadržava privatnu napomenu",PASS,MAJOR,"Privatni clone mora ostati jasno označen."

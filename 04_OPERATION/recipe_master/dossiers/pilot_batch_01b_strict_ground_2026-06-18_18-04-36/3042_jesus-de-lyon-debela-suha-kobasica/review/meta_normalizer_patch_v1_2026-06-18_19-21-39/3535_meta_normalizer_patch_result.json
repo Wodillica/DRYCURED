@@ -1,0 +1,159 @@
+{
+    "generated_at": "2026-06-18T19:21:41+00:00",
+    "patch_status": "PATCH_APPLIED_PRIVATE_CLONE_ONLY",
+    "write_performed": true,
+    "public_update_allowed": false,
+    "source_post_write_allowed": false,
+    "target": "PRIVATE_CLONE_3535_ONLY",
+    "forbidden_target": "PUBLIC_SOURCE_3042",
+    "db_backup_path_outside_git": "/root/DRYCURED_SENSITIVE_BACKUPS/recipe_master/before_meta_normalizer_patch_3535_2026-06-18_19-21-39.sql",
+    "source_before": {
+        "ID": 3042,
+        "post_title": "Jésus de Lyon – debela suha kobasica",
+        "post_name": "jesus-de-lyon-debela-suha-kobasica",
+        "post_status": "publish",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-04 07:53:27",
+        "content_length": 4123
+    },
+    "source_after": {
+        "ID": 3042,
+        "post_title": "Jésus de Lyon – debela suha kobasica",
+        "post_name": "jesus-de-lyon-debela-suha-kobasica",
+        "post_status": "publish",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-04 07:53:27",
+        "content_length": 4123
+    },
+    "source_unchanged": true,
+    "clone_before": {
+        "ID": 3535,
+        "post_title": "PRIVATE PREVIEW — Jésus de Lyon – debela suha kobasica",
+        "post_name": "private-preview-3042-jesus-de-lyon-dossier-only-20260618-184742",
+        "post_status": "private",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-18 18:47:42",
+        "content_length": 2682
+    },
+    "clone_after": {
+        "ID": 3535,
+        "post_title": "PRIVATE PREVIEW — Jésus de Lyon – debela suha kobasica",
+        "post_name": "private-preview-3042-jesus-de-lyon-dossier-only-20260618-184742",
+        "post_status": "private",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-18 18:47:42",
+        "content_length": 2682
+    },
+    "clone_before_meta": {
+        "_dry_recipe_id": "",
+        "_dry_recipe_public_update_allowed": "0",
+        "_dry_recipe_public_verified": "0",
+        "_dry_recipe_preview_mode": "PRIVATE_CLONE_ONLY",
+        "_dry_recipe_preview_source_post_id": "3042"
+    },
+    "clone_after_meta": {
+        "_dry_recipe_id": "MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA",
+        "_dry_recipe_public_update_allowed": "0",
+        "_dry_recipe_public_verified": "0",
+        "_dry_recipe_preview_mode": "PRIVATE_CLONE_ONLY",
+        "_dry_recipe_preview_source_post_id": "3042",
+        "_dry_recipe_image_url": ""
+    },
+    "recommended_dry_recipe_id": "MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA",
+    "render_after": {
+        "html_length": 3277,
+        "plain_length": 2914,
+        "markers": {
+            "has_raw_markdown": true,
+            "has_drycured_recipe": false,
+            "has_dc_recipe": false,
+            "has_dcv": false,
+            "has_private_notice": true,
+            "has_title": true,
+            "has_grinding": true,
+            "has_casing": true
+        },
+        "plain_excerpt": "# Jésus de Lyon – debela suha kobasica > PRIVATNI PREVIEW — DOSJE. Ovo nije javni recept i ne smije se objaviti dok su blokade aktivne. ## Brzi sažetak &#8211; Tip: mljeveno/usitnjeno meso u prirodnom ovitku &#8211; Šarža: 10 kg &#8211; Status: CANON_DRAFT_V1_NOT_PUBLIC &#8211; Javni update: zabranjen ## Glavne sirovine &#8211; svinjska lopatica: 5.833 kg &#8211; svinjska potrbušina bez kože: 2.500 kg &#8211; tvrda leđna slanina / svinjska masnoća: 1.667 kg ## Začini i dodaci &#8211; morska sol: 200 g (20.0 g/kg) &#8211; šećer: 42 g (4.2 g/kg) &#8211; mljeveni crni papar: 50 g (5.0 g/kg) &#8211; mljeveni bijeli papar: 25 g (2.5 g/kg) &#8211; sušeni češnjak u prahu: 42 g (4.2 g/kg) &#8211; mljeveni piment / allspice: 25 g (2.5 g/kg) &#8211; sjemenke gorušice, mljevene: 17 g (1.7 g/kg) &#8211; starter kultura T-SPX ili slična: 42 g ( g/kg) ## Tekućine i češnjak &#8211; konjak: 208 ml &#8211; mlaka destilirana voda za razrjeđivanje startera: 83 ml &#8211; Češnjak: sušeni češnjak u prahu dodaje se izravno ## Mljevenje i obrada masnoće &#8211; Rešetka: 6–8 mm &#8211; Obrada masnoće: meso, potrbušinu i leđnu slaninu držati vrlo hladnima; masnoća mora biti čvrsta prije mljevenja &#8211; Temperaturna kontrola: temperatura smjese ne smije prijeći 8 °C ## Crijeva &#8211; Tip: svinjska crijeva &#8211; Promjer: 28–32 mm &#8211; Namakanje: 30–45 minuta, mlaka voda, 25–30 °C &#8211; Prokuhavanje: ne prokuhavati ## Gotovo je kad &#8211; proizvod je izgubio približno 35–40 % početne mase &#8211; presjek je stabilan, bez vlažne jezgre &#8211; miris je čist, bez truležnog, sluzavog, užeglog ili neugodnog tona &#8211; površina je suha, ali nije pretvrdo zapečena &#8211; može se rezati tanko bez razmazivanja masnoće ## Greške i rješenja &#8211; Problem: mast se razmazuje u presjeku &#8211;"
+    },
+    "checks": [
+        {
+            "key": "source_unchanged",
+            "label": "Source 3042 nije mijenjan",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Title, slug, status, type i modified_gmt moraju ostati isti."
+        },
+        {
+            "key": "clone_private",
+            "label": "Clone 3535 ostaje private",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Patch se smije primijeniti samo na private clone."
+        },
+        {
+            "key": "clone_type",
+            "label": "Clone 3535 ostaje dry_recipe",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Post type mora ostati dry_recipe."
+        },
+        {
+            "key": "dry_recipe_id_written",
+            "label": "_dry_recipe_id upisan",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Ovo je glavni cilj meta-normalizacije."
+        },
+        {
+            "key": "public_update_0",
+            "label": "Public update ostaje 0",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Privatni clone ne smije dopustiti javni update."
+        },
+        {
+            "key": "public_verified_0",
+            "label": "Public verified ostaje 0",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Recept nije public verified."
+        },
+        {
+            "key": "preview_mode",
+            "label": "Preview mode ostaje PRIVATE_CLONE_ONLY",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Clone mora ostati jasno privatni."
+        },
+        {
+            "key": "source_link",
+            "label": "Clone ostaje vezan na source 3042",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Veza na source mora ostati 3042."
+        },
+        {
+            "key": "image_skipped",
+            "label": "Slika nije upisana jer nema dostupne vrijednosti",
+            "status": "PASS",
+            "severity": "INFO",
+            "note": "Plan je preporučio SKIP_NO_VALUE."
+        },
+        {
+            "key": "render_has_title",
+            "label": "Render nakon patcha sadrži naslov",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Interni render mora sadržavati naziv."
+        },
+        {
+            "key": "render_has_private_notice",
+            "label": "Render zadržava privatnu napomenu",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Privatni clone mora ostati jasno označen."
+        }
+    ],
+    "fail_total_major_or_blocker": 0,
+    "blocker_fail_total": 0
+}

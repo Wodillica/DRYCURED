@@ -174,3 +174,17 @@ Status: **PLAN_READY_PRIVATE_CLONE_ONLY**
 - Report: `review/meta_normalizer_plan_v1_2026-06-18_19-15-09/3535_META_NORMALIZER_PLAN_REPORT.md`
 - Plan JSON: `review/meta_normalizer_plan_v1_2026-06-18_19-15-09/3535_meta_normalizer_plan_v1.json`
 
+<!-- DC_3535_META_NORMALIZER_PATCH_V1 -->
+
+## 3535 meta-normalizer patch v1
+
+Status: **PATCH_APPLIED_PRIVATE_CLONE_ONLY**
+
+- Target: `PRIVATE_CLONE_3535_ONLY`
+- Forbidden target: `PUBLIC_SOURCE_3042`
+- Source unchanged: `true`
+- Public update allowed: `false`
+- `_dry_recipe_id`: `MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA`
+- Report: `review/meta_normalizer_patch_v1_2026-06-18_19-21-39/3535_META_NORMALIZER_PATCH_REPORT.md`
+- Result JSON: `review/meta_normalizer_patch_v1_2026-06-18_19-21-39/3535_meta_normalizer_patch_result.json`
+
