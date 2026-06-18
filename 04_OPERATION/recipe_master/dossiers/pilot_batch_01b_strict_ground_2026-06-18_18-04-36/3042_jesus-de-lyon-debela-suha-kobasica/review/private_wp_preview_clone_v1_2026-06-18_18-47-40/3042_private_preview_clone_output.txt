@@ -1,0 +1,10 @@
+=== 3042 PRIVATE PREVIEW CLONE COMPLETE ===
+MODE=CREATED_NEW_PRIVATE_CLONE
+SOURCE_POST_UNCHANGED=true
+SOURCE_POST_WRITE_ALLOWED=false
+PUBLIC_UPDATE_ALLOWED=false
+CLONE_ID=3535
+CLONE_STATUS=private
+CLONE_URL=https://drycured.com/?post_type=dry_recipe&p=3535
+CLONE_EDIT_LINK=
+REPORT=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/private_wp_preview_clone_v1_2026-06-18_18-47-40/3042_PRIVATE_PREVIEW_CLONE_REPORT.md

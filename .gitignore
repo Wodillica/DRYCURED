@@ -39,3 +39,8 @@ wp-content/mu-plugins/drycured-batch01-quantity-profiles_before_*.php
 # Drycured source-lock generated outputs
 build/source_locked_json/
 build/source_lock_audit/
+
+# Drycured sensitive database backups — never commit
+04_OPERATION/recipe_master/backups/*.sql
+04_OPERATION/recipe_master/backups/*.sql.gz
+04_OPERATION/recipe_master/backups/*.dump
