@@ -1,16 +1,88 @@
 # sources.yml
-dossier_status: "SCAFFOLD_ONLY"
+dossier_status: "SOURCE_VALIDATION_V1"
 public_update_allowed: false
 post_id: 3042
 title: "Jésus de Lyon – debela suha kobasica"
 url: "https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/"
 wordpress_status: "publish"
 recipe_type: "GROUND_MEAT_OR_CASING"
-source_validation_status: "NEEDS_SOURCE_VALIDATION"
+source_validation_status: "PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED"
+product_confirmed: true
+canonical_recipe_confirmed: false
+protected_status_claim_allowed: false
 notes:
-  - "Ovaj dosje je otvoren iz strict pilot batcha 01B."
+  - "Službeni izvori potvrđuju proizvod i tehnološku obitelj, ali ne potvrđuju sve količine iz postojećeg WP recepta."
+  - "Ne tvrditi aktualni IGP/ZOI/zaštićeni status bez dodatne potvrde."
   - "Javni update nije dopušten dok recipe.yml i qa_report.md nisu završeni."
-  - "Potrebno je potvrditi izvor: službena objava, knjiga, stručni izvor ili drugi digitalni/tiskani trag."
+source_candidates:
+  - id: "SRC-3042-001"
+    title: "BOCCRF / DGCCRF — rosette et jésus de Lyon, cahier des charges label rouge"
+    url: "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/boccrf/99_19/a0190013.htm"
+    language: "fr"
+    source_type: "official_regulatory_archive"
+    reliability: "high"
+    decision: "PRODUCT_CONFIRMED_SOURCE"
+    supports:
+      - "Nazivi rosette de Lyon i jésus de Lyon postoje u službenom francuskom regulatornom kontekstu."
+      - "Dokument govori o zaštiti naziva i tradicije proizvoda od pojednostavljenih recepata."
+      - "Koristan je za potvrdu proizvoda i regionalnog identiteta, ali ne daje potpun kućni recept za naš prikaz."
+    limits:
+      - "Ne smije se doslovno prepisivati."
+      - "Ne potvrđuje automatski sve količine iz postojećeg WP recepta."
+      - "Ne smije se iz njega tvrditi aktualni IGP/ZOI status bez dodatne provjere."
+  - id: "SRC-3042-002"
+    title: "BOCCRF / DGCCRF — indication géographique, rosette et jésus de Lyon, opis proizvoda"
+    url: "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/boccrf/99_19/a0190012.htm"
+    language: "fr"
+    source_type: "official_regulatory_archive"
+    reliability: "high"
+    decision: "PRODUCT_AND_TECHNOLOGY_CONFIRMED_SOURCE"
+    supports:
+      - "Rosette i jésus de Lyon opisani su kao suhomesnati proizvodi iz obitelji velikih komada."
+      - "Smjesa se temelji na nemasnom svinjskom mesu ili mesu krmače i tvrdom svinjskom masnom tkivu."
+      - "Nadijevanje ide u prirodni ovitak/crijevo; kod jésusa se oblik crijeva razlikuje od rosette."
+    limits:
+      - "Daje tehnološki opis, ne cjelovit recept za 10 kg."
+      - "Ne potvrđuje začine iz našeg WP zapisa."
+  - id: "SRC-3042-003"
+    title: "INAO — IGP Rosette de Lyon ou Jésus de Lyon, povijesni status postupka"
+    url: "https://extranet.inao.gouv.fr/fichier/CNIGPLRSTG-2010-229-IGP-RosetteDeLyonOuJesusDeLyon.pdf"
+    language: "fr"
+    source_type: "official_institutional_pdf"
+    reliability: "high"
+    decision: "STATUS_CAUTION_SOURCE"
+    supports:
+      - "Potvrđuje da su za naziv Rosette de Lyon / Jésus de Lyon postojali regulatorni postupci."
+      - "Važan je za oprez oko statusa zaštite."
+    limits:
+      - "Dokument navodi poništenje ranijih statusa 2008.; zato se u javnom receptu ne smije tvrditi aktualni IGP/ZOI status bez nove potvrde."
+      - "Ne daje kućni recept."
+  - id: "SRC-3042-004"
+    title: "Maison Sibilia — Jésu de Lyon, lokalni proizvođački opis"
+    url: "https://www.charcuterie-sibilia.com/saucissons-secs/84-jesu-de-lyon.html"
+    language: "fr"
+    source_type: "producer_product_description"
+    reliability: "medium"
+    decision: "PRODUCT_MARKET_CONFIRMATION"
+    supports:
+      - "Potvrđuje da se Jésu/Jésus de Lyon prodaje kao suhi lyonški saucisson i lokalna specijalnost."
+      - "Koristan je za senzorski i identitetski opis proizvoda."
+    limits:
+      - "Proizvođački opis nije dovoljan za kanonski kućni recept."
+      - "Ne smije se prepisivati reklamni tekst."
+  - id: "SRC-3042-005"
+    title: "Le Blog Saucisson — Recette du Jésus"
+    url: "https://www.leblogsaucisson.fr/recette-jesus/"
+    language: "fr"
+    source_type: "public_recipe_blog"
+    reliability: "low_to_medium"
+    decision: "SUPPORTING_RECIPE_SIGNAL_ONLY"
+    supports:
+      - "Daje javni receptni obrazac za jésus kao suhi saucisson."
+      - "Može pomoći kao pomoćni receptni signal za sastav i postupak."
+    limits:
+      - "Blog nije visoko pouzdan izvor."
+      - "Ne koristiti samostalno za javni kanon."
+      - "Ne prepisivati doslovno."
 wp_snapshot: "raw_wp_snapshot.json"
 public_text_snapshot: "public_text_snapshot.txt"
-source_candidates: []

@@ -1,0 +1,8 @@
+=== 3042 SOURCE VALIDATION COMPLETE ===
+STATUS=PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED
+PRODUCT_CONFIRMED=true
+CANONICAL_RECIPE_CONFIRMED=false
+PUBLIC_UPDATE_ALLOWED=false
+SOURCES_UPDATED=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/sources.yml
+QA_UPDATED=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/qa_report.md
+REPORT=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/source_validation_v1_2026-06-18_18-10-58/3042_SOURCE_VALIDATION_REPORT.md

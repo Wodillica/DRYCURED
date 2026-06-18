@@ -31,3 +31,21 @@ URL: `https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/`
 ## Zaključak
 
 Javni update nije dopušten. Dosje je tek otvoren i treba ručnu/kanonsku obradu.
+
+<!-- DC_3042_SOURCE_VALIDATION_V1 -->
+
+## Source validation v1
+
+Status izvora: **PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED**
+
+Vanjski izvori potvrđuju da je Jésus de Lyon stvaran lyonški suhomesnati proizvod iz skupine suhih saucissona / suhih kobasica. Ne potvrđuju automatski sve količine i začine iz postojećeg WordPress recepta.
+
+### Odluka
+
+- [x] Proizvod postoji i ima vjerodostojan vanjski trag.
+- [x] Tehnološka obitelj potvrđena je kao mljeveno/usitnjeno meso u omotaču.
+- [ ] Kanonski recept još nije potvrđen.
+- [ ] Javni update nije dopušten.
+- [ ] Ne tvrditi aktualni IGP/ZOI/zaštićeni status bez dodatne potvrde.
+
+Report: `review/source_validation_v1_2026-06-18_18-10-58/3042_SOURCE_VALIDATION_REPORT.md`

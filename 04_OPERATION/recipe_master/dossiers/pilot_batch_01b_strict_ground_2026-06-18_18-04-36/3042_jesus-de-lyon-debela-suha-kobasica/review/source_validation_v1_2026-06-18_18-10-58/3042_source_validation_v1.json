@@ -1,0 +1,113 @@
+{
+  "post_id": 3042,
+  "title": "Jésus de Lyon – debela suha kobasica",
+  "validation_status": "PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED",
+  "public_update_allowed": false,
+  "generated_at": "2026-06-18T18:10:58.835467+00:00",
+  "summary": {
+    "product_exists": true,
+    "technology_family": "GROUND_MEAT_OR_CASING / dry saucisson",
+    "region_identity": "Lyon, Francuska",
+    "recipe_quantities_confirmed": false,
+    "protected_status_public_claim_allowed": false,
+    "reason": "Službeni izvori potvrđuju proizvod i tehnološku obitelj, ali ne potvrđuju sve količine i začine iz postojećeg WordPress recepta."
+  },
+  "sources": [
+    {
+      "id": "SRC-3042-001",
+      "title": "BOCCRF / DGCCRF — rosette et jésus de Lyon, cahier des charges label rouge",
+      "url": "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/boccrf/99_19/a0190013.htm",
+      "language": "fr",
+      "source_type": "official_regulatory_archive",
+      "reliability": "high",
+      "supports": [
+        "Nazivi rosette de Lyon i jésus de Lyon postoje u službenom francuskom regulatornom kontekstu.",
+        "Dokument govori o zaštiti naziva i tradicije proizvoda od pojednostavljenih recepata.",
+        "Koristan je za potvrdu proizvoda i regionalnog identiteta, ali ne daje potpun kućni recept za naš prikaz."
+      ],
+      "limits": [
+        "Ne smije se doslovno prepisivati.",
+        "Ne potvrđuje automatski sve količine iz postojećeg WP recepta.",
+        "Ne smije se iz njega tvrditi aktualni IGP/ZOI status bez dodatne provjere."
+      ],
+      "decision": "PRODUCT_CONFIRMED_SOURCE"
+    },
+    {
+      "id": "SRC-3042-002",
+      "title": "BOCCRF / DGCCRF — indication géographique, rosette et jésus de Lyon, opis proizvoda",
+      "url": "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/boccrf/99_19/a0190012.htm",
+      "language": "fr",
+      "source_type": "official_regulatory_archive",
+      "reliability": "high",
+      "supports": [
+        "Rosette i jésus de Lyon opisani su kao suhomesnati proizvodi iz obitelji velikih komada.",
+        "Smjesa se temelji na nemasnom svinjskom mesu ili mesu krmače i tvrdom svinjskom masnom tkivu.",
+        "Nadijevanje ide u prirodni ovitak/crijevo; kod jésusa se oblik crijeva razlikuje od rosette."
+      ],
+      "limits": [
+        "Daje tehnološki opis, ne cjelovit recept za 10 kg.",
+        "Ne potvrđuje začine iz našeg WP zapisa."
+      ],
+      "decision": "PRODUCT_AND_TECHNOLOGY_CONFIRMED_SOURCE"
+    },
+    {
+      "id": "SRC-3042-003",
+      "title": "INAO — IGP Rosette de Lyon ou Jésus de Lyon, povijesni status postupka",
+      "url": "https://extranet.inao.gouv.fr/fichier/CNIGPLRSTG-2010-229-IGP-RosetteDeLyonOuJesusDeLyon.pdf",
+      "language": "fr",
+      "source_type": "official_institutional_pdf",
+      "reliability": "high",
+      "supports": [
+        "Potvrđuje da su za naziv Rosette de Lyon / Jésus de Lyon postojali regulatorni postupci.",
+        "Važan je za oprez oko statusa zaštite."
+      ],
+      "limits": [
+        "Dokument navodi poništenje ranijih statusa 2008.; zato se u javnom receptu ne smije tvrditi aktualni IGP/ZOI status bez nove potvrde.",
+        "Ne daje kućni recept."
+      ],
+      "decision": "STATUS_CAUTION_SOURCE"
+    },
+    {
+      "id": "SRC-3042-004",
+      "title": "Maison Sibilia — Jésu de Lyon, lokalni proizvođački opis",
+      "url": "https://www.charcuterie-sibilia.com/saucissons-secs/84-jesu-de-lyon.html",
+      "language": "fr",
+      "source_type": "producer_product_description",
+      "reliability": "medium",
+      "supports": [
+        "Potvrđuje da se Jésu/Jésus de Lyon prodaje kao suhi lyonški saucisson i lokalna specijalnost.",
+        "Koristan je za senzorski i identitetski opis proizvoda."
+      ],
+      "limits": [
+        "Proizvođački opis nije dovoljan za kanonski kućni recept.",
+        "Ne smije se prepisivati reklamni tekst."
+      ],
+      "decision": "PRODUCT_MARKET_CONFIRMATION"
+    },
+    {
+      "id": "SRC-3042-005",
+      "title": "Le Blog Saucisson — Recette du Jésus",
+      "url": "https://www.leblogsaucisson.fr/recette-jesus/",
+      "language": "fr",
+      "source_type": "public_recipe_blog",
+      "reliability": "low_to_medium",
+      "supports": [
+        "Daje javni receptni obrazac za jésus kao suhi saucisson.",
+        "Može pomoći kao pomoćni receptni signal za sastav i postupak."
+      ],
+      "limits": [
+        "Blog nije visoko pouzdan izvor.",
+        "Ne koristiti samostalno za javni kanon.",
+        "Ne prepisivati doslovno."
+      ],
+      "decision": "SUPPORTING_RECIPE_SIGNAL_ONLY"
+    }
+  ],
+  "canonical_decisions": [
+    "U javnom receptu smije se navesti da je Jésus de Lyon lyonški tip suhog saucissona / suhe kobasice.",
+    "Ne smije se tvrditi aktualni IGP/ZOI/zaštićeni status bez dodatne potvrde.",
+    "Postojeći WP recept ne smije se označiti kao PUBLIC_VERIFIED dok se recipe.yml ne izradi iz potvrđenih izvora.",
+    "Količine začina iz WP sadržaja tretirati kao radni nacrt, ne kao potvrđeni kanon.",
+    "Javni update nije dopušten u ovom koraku."
+  ]
+}
