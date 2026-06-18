@@ -1,0 +1,6 @@
+PASS: HEAD je očekivani amended commit b6582e2.
+PASS: nema tracked SQL backup datoteka.
+PASS: HEAD commit ne sadrži SQL backup.
+PASS: nema sk-ant patterna u reachable tracked datotekama.
+PASS: b5c98e7 nije reachable iz Git refs.
+PASS: b5c98e7 object više nije dostupan lokalno.
