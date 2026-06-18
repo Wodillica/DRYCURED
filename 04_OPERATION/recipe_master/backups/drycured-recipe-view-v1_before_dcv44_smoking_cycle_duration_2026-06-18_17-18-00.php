@@ -6917,7 +6917,7 @@ if (!function_exists('dcv40_existing_display_data_adapter_profile')) {
             [
                 'day' => 'Nakon predsušenja',
                 'title' => 'Dimljenje',
-                'text' => 'Dimiti hladnim i blagim dimom u 3–6 ciklusa nakon predsušenja, kroz približno 6–12 dana. Radna smjernica za jedan ciklus je 2–3 sata blagog hladnog dima, zatim 24–48 sati pauze ili dovoljno dugo da se proizvod provjetri i površina ostane suha.',
+                'text' => 'Dimiti hladnim i blagim dimom u 3–6 ciklusa nakon predsušenja. Temperatura dima treba ostati u hladnom režimu, najviše oko 20–22 °C, uz obavezne pauze između ciklusa kako se površina ne bi preopteretila dimom.',
                 'critical' => 'Dim mora biti tanak, suh i hladan. Gust, topao ili vlažan dim daje gorčinu, tamni rub i površinske greške.',
             ],
             [
@@ -6955,10 +6955,9 @@ if (!function_exists('dcv40_existing_display_data_adapter_profile')) {
                 'Cilj' => 'ravnomjerno i kompaktno punjenje bez zračnih džepova',
             ],
             'Dimljenje' => [
-                'Trajanje' => '3–6 blagih ciklusa kroz približno 6–12 dana',
-                'Trajanje ciklusa' => 'radna smjernica: 2–3 h po ciklusu',
+                'Trajanje' => '3–6 blagih ciklusa nakon predsušenja',
                 'Temperatura dima' => 'hladni dim, najviše 20–22 °C',
-                'Pauze' => '24–48 h između ciklusa ili do potpunog provjetravanja',
+                'Pauze' => 'obavezne između ciklusa; površina se ne smije zadržavati mokra',
                 'Cilj' => 'blaga dimna aroma bez gorčine i površinska stabilizacija',
             ],
             'Sušenje' => [
