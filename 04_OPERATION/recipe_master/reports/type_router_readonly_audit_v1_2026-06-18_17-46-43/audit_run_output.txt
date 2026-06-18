@@ -1,0 +1,18 @@
+=== READ-ONLY AUDIT COMPLETE ===
+TOTAL=937
+PUBLISHED_TOTAL=412
+PUBLIC_BLOCKED=834
+PUBLISHED_BLOCKED=382
+FALLBACK_INTERNAL_HITS=408
+NITRITE_WITHOUT_NOTE=180
+PUBLIC_FETCH_ENABLED=yes
+PUBLIC_FETCH_ERRORS=0
+CSV=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/type_router_readonly_audit_v1_2026-06-18_17-46-43/recipe_type_readonly_audit_v1.csv
+JSON=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/type_router_readonly_audit_v1_2026-06-18_17-46-43/recipe_type_readonly_audit_v1.json
+SUMMARY=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/type_router_readonly_audit_v1_2026-06-18_17-46-43/recipe_type_readonly_audit_v1_summary.md
+TYPE_COUNTS:
+FISH_OR_SEAFOOD=5
+GROUND_MEAT_OR_CASING=565
+NEEDS_CLASSIFICATION=185
+THERMAL_PROCESSED=39
+WHOLE_CUT=143
