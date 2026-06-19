@@ -31,3 +31,17 @@ URL: `https://drycured.com/recepti-baza/finocchiona-toscana/`
 ## Zaključak
 
 Javni update nije dopušten. Dosje je tek otvoren i treba ručnu/kanonsku obradu.
+
+<!-- DC_1982_QUICK_INTAKE_V1 -->
+
+## 1982 Finocchiona Toscana quick intake v1
+
+Status: **INTAKE_COMPLETE**
+
+- Post ID: `1982`
+- WordPress write allowed: `false`
+- Public update allowed: `false`
+- HTTP code: `200`
+- Report: `review/quick_intake_v1_2026-06-19_17-02-34/1982_QUICK_INTAKE_REPORT.md`
+- JSON: `review/quick_intake_v1_2026-06-19_17-02-34/1982_quick_intake_v1.json`
+

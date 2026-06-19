@@ -1,0 +1,14 @@
+meta_key,length,json_valid,preview
+_dry_archive_ready,3,NO,yes
+_dry_calculator_ready,2,NO,no
+_dry_canonical_status,12,NO,public_ready
+_dry_public_ready,3,NO,yes
+_dry_recipe_data,6441,YES,"{""recipe_id"":""IT-FINOCCHIONA_TOSCANA-0002"",""title"":""FINOCCHIONA TOSCANA"",""country_hr"":""Italija"",""region"":""Toskana"",""microregion"":"""",""category"":""Ostalo"",""product_type"":""Ostalo"",""meat_types"":[""svinjetina""],""processes"":[""sušeno""],""batch_weight_kg"":4,""authenticity_status"":""approved"",""authenticity_note"":""Prepoznat tradicionalni ili široko dokumentirani tip proizvoda."",""source_file"":""talijanski-suhomesnati-proizvodi-2.md"","
+_dry_recipe_full_markdown,4378,NO,"## FINOCCHIONA TOSCANA
+
+FINOCCHIONA TOSCANA pripada tradiciji područja Toskana, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+
+### Radni sažetak
+
+- Šarža: 10 kg osnovne sirovine ili"
+_dry_recipe_id,22,NO,MD-FINOCCHIONA_TOSCANA

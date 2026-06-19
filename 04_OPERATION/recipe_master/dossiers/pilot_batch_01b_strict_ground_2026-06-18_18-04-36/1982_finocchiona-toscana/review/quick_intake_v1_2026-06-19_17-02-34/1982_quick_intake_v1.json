@@ -1,0 +1,197 @@
+{
+    "generated_at": "2026-06-19T17:02:34+00:00",
+    "post_id": 1982,
+    "intake_status": "INTAKE_COMPLETE",
+    "mode": "READ_ONLY_QUICK_INTAKE",
+    "wordpress_write_allowed": false,
+    "public_update_allowed": false,
+    "post": {
+        "ID": 1982,
+        "post_title": "FINOCCHIONA TOSCANA",
+        "post_name": "finocchiona-toscana",
+        "post_status": "publish",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-04 07:53:31",
+        "permalink": "https://drycured.com/recepti-baza/finocchiona-toscana/",
+        "content_length": 4378,
+        "content_excerpt": "## FINOCCHIONA TOSCANA FINOCCHIONA TOSCANA pripada tradiciji područja Toskana, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju. ### Radni sažetak - Šarža: 10 kg osnovne sirovine ili mesne smjese. - Tip proizvoda: suha salama. - Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi. - Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm. - Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova. - Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje. - Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine. ### Sastojci: - * 7,500 kg svinjskog mesa (70% but, 30% lopatica) - * 2,500 kg svinjske čvrste masnoće (potrbušina ili leđna mast) - * 200 g morske soli - * 45 g nitritne soli - * 75 g sjemenki komorača (finocchio) - * 38 g crnog papra, grubo mljevenog - * 20 g bijelog papra, mljevenog - * 12 g češnjaka, sitno sjeckanog - * 12 g sušenog čilija (opcija za pikantnu verziju) - * 100 ml crnog vina, najbolje Chianti - * 25 g šećera ### Crijeva / omotač: Koristiti goveđa ravna crijeva ili odgovarajući kolagenski omotač promjera 40–50 mm, a za kulen i veće salame prema potrebi 50–60 mm. Omotače isprati od soli i namočiti 45–60 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja isprati ih iznutra i izvana. Omotači se ne prokuhavaju. ### Češnjak i tekućine: Ako se koristi svježi češnjak, pripremiti ga kao procijeđenu češnjakovu tekućinu: zgnječiti navedenu količinu češnjaka, preliti s 250–500 ml hladne vode, vina ili njihove mješavine, ostaviti 2–4 sata u hladnjaku i procijediti kroz gusto sito ili gazu. U smjesu dodati samo procijeđenu tekućinu, a krupne komadiće češnjaka ne dodavati u nadjev. ### Postupak: - Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–"
+    },
+    "meta": {
+        "_dry_archive_ready": {
+            "length": 3,
+            "json_valid": false,
+            "preview": "yes"
+        },
+        "_dry_calculator_ready": {
+            "length": 2,
+            "json_valid": false,
+            "preview": "no"
+        },
+        "_dry_canonical_status": {
+            "length": 12,
+            "json_valid": false,
+            "preview": "public_ready"
+        },
+        "_dry_public_ready": {
+            "length": 3,
+            "json_valid": false,
+            "preview": "yes"
+        },
+        "_dry_recipe_data": {
+            "length": 6441,
+            "json_valid": true,
+            "preview": "{\"recipe_id\":\"IT-FINOCCHIONA_TOSCANA-0002\",\"title\":\"FINOCCHIONA TOSCANA\",\"country_hr\":\"Italija\",\"region\":\"Toskana\",\"microregion\":\"\",\"category\":\"Ostalo\",\"product_type\":\"Ostalo\",\"meat_types\":[\"svinjetina\"],\"processes\":[\"sušeno\"],\"batch_weight_kg\":4,\"authenticity_status\":\"approved\",\"authenticity_note\":\"Prepoznat tradicionalni ili široko dokumentirani tip proizvoda.\",\"source_file\":\"talijanski-suhomesnati-proizvodi-2.md\","
+        },
+        "_dry_recipe_full_markdown": {
+            "length": 4378,
+            "json_valid": false,
+            "preview": "## FINOCCHIONA TOSCANA\n\nFINOCCHIONA TOSCANA pripada tradiciji područja Toskana, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.\n\n### Radni sažetak\n\n- Šarža: 10 kg osnovne sirovine ili"
+        },
+        "_dry_recipe_id": {
+            "length": 22,
+            "json_valid": false,
+            "preview": "MD-FINOCCHIONA_TOSCANA"
+        }
+    },
+    "render": {
+        "html_length": 4896,
+        "plain_length": 4565,
+        "markers": {
+            "has_title_finocchiona": true,
+            "has_raw_markdown": true,
+            "has_drycured_recipe_trace": false,
+            "has_ingredients": true,
+            "has_grinding": true,
+            "has_casing": true,
+            "has_process": true
+        },
+        "plain_excerpt": "## FINOCCHIONA TOSCANA FINOCCHIONA TOSCANA pripada tradiciji područja Toskana, Italija. Radi se kao suha salama od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju. ### Radni sažetak &#8211; Šarža: 10 kg osnovne sirovine ili mesne smjese. &#8211; Tip proizvoda: suha salama. &#8211; Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi. &#8211; Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm. &#8211; Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova. &#8211; Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje. &#8211; Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine. ### Sastojci: &#8211; * 7,500 kg svinjskog mesa (70% but, 30% lopatica) &#8211; * 2,500 kg svinjske čvrste masnoće (potrbušina ili leđna mast) &#8211; * 200 g morske soli &#8211; * 45 g nitritne soli &#8211; * 75 g sjemenki komorača (finocchio) &#8211; * 38 g crnog papra, grubo mljevenog &#8211; * 20 g bijelog papra, mljevenog &#8211; * 12 g češnjaka, sitno sjeckanog &#8211; * 12 g sušenog čilija (opcija za pikantnu verziju) &#8211; * 100 ml crnog vina, najbolje Chianti &#8211; * 25 g šećera ### Crijeva / omotač: Koristiti goveđa ravna crijeva ili odgovarajući kolagenski omotač promjera 40–50 mm, a za kulen i veće salame prema potrebi 50–60 mm. Omotače isprati od soli i namočiti 45–60 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja isprati ih iznutra i izvana. Omotači se ne prokuhavaju. ### Češnjak i tekućine: Ako se koristi svježi češnjak, pripremiti ga kao procijeđenu češnjakovu tekućinu: zgnječiti navedenu količinu češnjaka, preliti s 250–500 ml hladne vode, vina ili njihove mješavine, ostaviti 2–4 sata u hladnjaku i procijediti kroz gusto sito ili gazu. U smjesu dodati samo procijeđenu tekućinu, a krupne komadiće češnjaka ne dodavati u nadjev. ### Postupak"
+    },
+    "http": {
+        "http_code": "200",
+        "ok": true,
+        "error": "",
+        "body_length": 348212,
+        "plain_length": 8905,
+        "markers": {
+            "has_title_finocchiona": true,
+            "has_toscana": true,
+            "has_raw_markdown": false,
+            "has_drycured_recipe_trace": true,
+            "has_internal_preview_trace": false,
+            "has_ingredients": true,
+            "has_grinding": true,
+            "has_casing": true,
+            "has_process": true
+        },
+        "plain_excerpt": "FINOCCHIONA TOSCANA - drycured.com Skip to content drycured.com RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja drycured.com Main Menu RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja DIGITALNA PUŠNICA MD-FINOCCHIONA_TOSCANA Italija · Toskana Kobasica / salama FINOCCHIONA TOSCANA FINOCCHIONA TOSCANA je suha kobasica ili salama područja Italija · Toskana, prikazana kao proizvodni vodič s omjerima sirovine, začinima, punjenjem, sušenjem i kontrolnim točkama. Otvori kalkulator za ovaj recept Dnevnik šarže Ispiši radnu verziju Šarža 10 kg Trajanje prema kalibru i zrenju Dimljenje hladni dim gdje je primjenjivo Omotač prirodni ili jestivi omotač Gubitak mase 30–40 % 1Omjer smjese Brzi pregled odnosa glavnih sirovina u šarži od 10 kg. Ovaj omjer čuva sočnost, ali i omogućuje stabilno sušenje. 70 % meso 30 % slanina 2Glavne sirovine Meso i slanina prikazuju se u kilogramima jer čine osnovu smjese. svinjskog mesa (70% but, 30% lopatica) 7,500 kg 75,0 % svinjske čvrste masnoće (potrbušina ili leđna mast) 2,500 kg 25,0 % 3Začini i dodaci Začini se prikazuju u gramima, uz postotak i g/kg gdje je korisno. Time korisnik dobiva i radnu vrijednost i tehnološki omjer. morske soli 200 g 2,00 % 20,0 g/kg nitritne soli 45 g 0,45 % 4,5 g/kg Oprez: nitritnu sol vagati precizno i ne prekoračiti navedenu količinu. Ne dodavati je od oka i ne kombinirati s drugim nitritnim mješavinama ako recept to izričito ne traži. Koristi se za stabilniju boju, prepoznatljiv suhomesnati profil i dodatnu sigurnost proizvoda. U kućnoj izradi može se izostaviti samo ako je recept vođen kao varijanta bez nitrita. sjemenki komorača (finocchio) 75 g 0,75 % 7,5 g/kg crnog papra, grubo mljevenog 38 g 0,38 % 3,8 g/kg bijelog papra, mljevenog 20 g 0,20 % 2,0 g/kg su"
+    },
+    "checks": [
+        {
+            "key": "post_exists",
+            "label": "Post 1982 postoji",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "WP zapis mora postojati."
+        },
+        {
+            "key": "post_type",
+            "label": "Post je dry_recipe",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Očekuje se dry_recipe."
+        },
+        {
+            "key": "post_publish_or_private",
+            "label": "Post je publish ili private",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Status mora biti poznat za daljnji workflow."
+        },
+        {
+            "key": "title_finocchiona",
+            "label": "Naziv sadrži Finocchiona",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Provjera identiteta recepta."
+        },
+        {
+            "key": "public_http_200_if_publish",
+            "label": "Javni HTTP je 200 ako je publish",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Ako je publish, stranica mora biti dohvatljiva."
+        },
+        {
+            "key": "render_has_title",
+            "label": "Render sadrži naziv",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Interni render mora imati naziv."
+        },
+        {
+            "key": "http_has_title",
+            "label": "HTTP sadrži naziv",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Javni prikaz mora imati naziv ako je publish."
+        },
+        {
+            "key": "likely_ground_or_casing",
+            "label": "Vjerojatno mljeveni/omotač tip",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Za 01B očekuje se GROUND_MEAT_OR_CASING, ali treba potvrditi."
+        },
+        {
+            "key": "no_private_preview_trace_public",
+            "label": "Javni prikaz nema privatne/QA tragove",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Javni recept ne smije imati interne oznake."
+        },
+        {
+            "key": "meta__dry_recipe_id",
+            "label": "Meta postoji: _dry_recipe_id",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Pregled postojećeg meta stanja; ne znači automatski da je javno spremno."
+        },
+        {
+            "key": "meta__dry_recipe_full_markdown",
+            "label": "Meta postoji: _dry_recipe_full_markdown",
+            "status": "PASS",
+            "severity": "INFO",
+            "note": "Pregled postojećeg meta stanja; ne znači automatski da je javno spremno."
+        },
+        {
+            "key": "meta__dry_recipe_image_url",
+            "label": "Meta postoji: _dry_recipe_image_url",
+            "status": "FAIL",
+            "severity": "INFO",
+            "note": "Pregled postojećeg meta stanja; ne znači automatski da je javno spremno."
+        },
+        {
+            "key": "meta__dry_recipe_sections",
+            "label": "Meta postoji: _dry_recipe_sections",
+            "status": "FAIL",
+            "severity": "INFO",
+            "note": "Pregled postojećeg meta stanja; ne znači automatski da je javno spremno."
+        },
+        {
+            "key": "meta__dry_verified_process",
+            "label": "Meta postoji: _dry_verified_process",
+            "status": "FAIL",
+            "severity": "INFO",
+            "note": "Pregled postojećeg meta stanja; ne znači automatski da je javno spremno."
+        }
+    ],
+    "fail_total_major_or_blocker": 0,
+    "blocker_fail_total": 0,
+    "recommended_next": [
+        "source_validation",
+        "recipe_yml_draft_or_recovery",
+        "internal_qa",
+        "private_clone_if_not_public_ready"
+    ]
+}
