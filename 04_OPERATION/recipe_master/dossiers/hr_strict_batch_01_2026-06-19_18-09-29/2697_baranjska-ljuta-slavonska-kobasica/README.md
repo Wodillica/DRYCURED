@@ -33,3 +33,11 @@ Recept je potvrđen kao stvarna Baranjska kobasica / ljuta varijanta, ali javni 
 Status: **CORRECTED_SOURCE_VALIDATION_ARTIFACTS**
 
 Ispravljeni su dokumentacijski artefakti source validation koraka za `2697 — Baranjska Ljuta Slavonska Kobasica`. Validacijski status ostaje `CONFIRMED_RECIPE_PUBLIC_SOURCES_AVAILABLE_PUBLIC_UPDATE_BLOCKED`, a javni update ostaje zabranjen dok se ne izradi i QA-provjeri `recipe.yml`.
+
+<!-- DC_2697_RECIPE_YML_DRAFT_V1 -->
+
+## 2697 recipe.yml draft v1
+
+Status: **RECIPE_YML_DRAFT_READY_INTERNAL_QA_REQUIRED**
+
+Izrađen je radni `recipe.yml` za `Baranjska kobasica – ljuta varijanta`, standardiziran na 10 kg ukupne mesne smjese. Javni update ostaje zabranjen.

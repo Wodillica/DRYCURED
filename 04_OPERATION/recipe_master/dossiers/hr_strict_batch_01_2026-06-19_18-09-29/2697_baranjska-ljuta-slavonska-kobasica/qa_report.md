@@ -38,3 +38,19 @@ Status: **CONFIRMED_RECIPE_PUBLIC_SOURCES_AVAILABLE_PUBLIC_UPDATE_BLOCKED**
 - Repair status: `CORRECTED_SOURCE_VALIDATION_ARTIFACTS`
 - Report: `review/source_validation_v1_2026-06-19_18-29-44/2697_SOURCE_VALIDATION_REPORT.md`
 - JSON: `review/source_validation_v1_2026-06-19_18-29-44/2697_source_validation_v1.json`
+
+<!-- DC_2697_RECIPE_YML_DRAFT_V1 -->
+
+## 2697 Baranjska kobasica – ljuta varijanta recipe.yml draft v1
+
+Status: **RECIPE_YML_DRAFT_READY_INTERNAL_QA_REQUIRED**
+
+- Recipe code: `HR-BR-2697-BARANJSKA-LJUTA-KOBASICA`
+- Batch: `10 kg ukupne mesne smjese`
+- Raw material total: `10.0 kg`
+- Public update allowed: `false`
+- Public publish allowed: `false`
+- Source post write allowed: `false`
+- Blocker fail total: `0`
+- Report: `review/recipe_yml_draft_v1_2026-06-19_18-40-58/2697_RECIPE_YML_DRAFT_REPORT.md`
+- JSON: `review/recipe_yml_draft_v1_2026-06-19_18-40-58/2697_recipe_yml_draft_v1.json`

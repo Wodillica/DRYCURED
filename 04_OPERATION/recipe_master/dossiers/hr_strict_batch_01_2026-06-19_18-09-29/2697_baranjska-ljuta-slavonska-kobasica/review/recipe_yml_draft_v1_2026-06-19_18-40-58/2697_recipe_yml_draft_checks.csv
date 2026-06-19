@@ -1,0 +1,14 @@
+key,status,severity,note
+raw_material_sum_10kg,PASS,BLOCKER,Ukupno sirovina: 10.0 kg.
+meat_fat_ratio_scaled,PASS,BLOCKER,Omjer mesa i tvrde slanine skaliran je s 11 kg na 10 kg.
+salt_range,PASS,BLOCKER,"Sol mora biti u radnom rasponu 1,8-2,0 %."
+paprika_range,PASS,MAJOR,Ukupna paprika u ovom radnom draftu drži se do 2 %.
+garlic_range,PASS,MAJOR,"Češnjak je u rasponu 0,2-0,3 %."
+grinding_6mm,PASS,BLOCKER,Mljevenje mora biti 6 mm prema javnom receptnom zapisu.
+casing_soaking_complete,PASS,MAJOR,"Crijeva imaju namakanje, temperaturu, vrijeme i neprokuhavanje."
+garlic_policy_complete,PASS,MAJOR,"Češnjak je jasno definiran kao pasta, bez tekućine od češnjaka."
+process_has_smoking,PASS,BLOCKER,Proces mora imati dimljenje.
+process_has_maturation,PASS,BLOCKER,Proces mora imati sušenje/zrenje.
+problem_solution_count,PASS,MAJOR,Problemi imaju konkretna rješenja.
+public_update_blocked,PASS,BLOCKER,Javni update ostaje blokiran.
+source_validation_confirmed,PASS,BLOCKER,Source validation mora biti CONFIRMED_RECIPE.
