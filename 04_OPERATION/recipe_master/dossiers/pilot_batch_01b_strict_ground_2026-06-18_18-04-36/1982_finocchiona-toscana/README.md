@@ -52,3 +52,12 @@ Status: **RECIPE_YML_QA_PASS_READY_FOR_SECTIONS**
 Status: **PREVIEW_PAYLOAD_READY_FOR_PRIVATE_CLONE**
 
 Generirane su strukturirane payload datoteke `_dry_recipe_sections`, `_dry_verified_process` i `_dry_recipe_full_markdown` za budući privatni clone. WordPress nije mijenjan.
+
+<!-- DC_1982_PRIVATE_CLONE_V1 -->
+
+## 1982 private clone v1
+
+Status: **PRIVATE_CLONE_CREATED_QA_PASS**
+
+Privatni clone `3536` stvoren je za administratorski pregled. Javni source post `1982` nije mijenjan i javni update ostaje blokiran.
+

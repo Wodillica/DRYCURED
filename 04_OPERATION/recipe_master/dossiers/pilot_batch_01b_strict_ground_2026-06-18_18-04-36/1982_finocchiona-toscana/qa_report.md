@@ -111,3 +111,21 @@ Status: **PREVIEW_PAYLOAD_READY_FOR_PRIVATE_CLONE**
 - Blocker fail total: `0`
 - Report: `review/preview_payload_v1_2026-06-19_17-27-15/1982_PREVIEW_PAYLOAD_REPORT.md`
 - Payload: `review/preview_payload_v1_2026-06-19_17-27-15/1982_private_preview_payload_v1.json`
+
+<!-- DC_1982_PRIVATE_CLONE_V1 -->
+
+## 1982 Finocchiona Toscana private clone v1
+
+Status: **PRIVATE_CLONE_CREATED_QA_PASS**
+
+- Source post ID: `1982`
+- Private clone ID: `3536`
+- Source unchanged: `true`
+- Public update allowed: `false`
+- Public publish allowed: `false`
+- Source post write allowed: `false`
+- Admin preview URL: `https://drycured.com/?post_type=dry_recipe&p=3536`
+- Admin edit URL: `https://drycured.com/wp-admin/post.php?post=3536&action=edit`
+- Report: `review/private_clone_v1_2026-06-19_17-29-57/1982_PRIVATE_CLONE_REPORT.md`
+- JSON: `review/private_clone_v1_2026-06-19_17-29-57/1982_private_clone_result.json`
+

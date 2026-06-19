@@ -1,0 +1,208 @@
+{
+    "generated_at": "2026-06-19T17:29:59+00:00",
+    "status": "PRIVATE_CLONE_CREATED_QA_PASS",
+    "source_post_id": 1982,
+    "clone_id": 3536,
+    "source_unchanged": true,
+    "public_update_allowed": false,
+    "public_publish_allowed": false,
+    "source_post_write_allowed": false,
+    "db_backup_path_outside_git": "/root/DRYCURED_SENSITIVE_BACKUPS/recipe_master/before_private_clone_1982_2026-06-19_17-29-57.sql",
+    "source_before": {
+        "ID": 1982,
+        "post_title": "FINOCCHIONA TOSCANA",
+        "post_name": "finocchiona-toscana",
+        "post_status": "publish",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-04 07:53:31",
+        "content_length": 4378,
+        "permalink": "https://drycured.com/recepti-baza/finocchiona-toscana/"
+    },
+    "source_after": {
+        "ID": 1982,
+        "post_title": "FINOCCHIONA TOSCANA",
+        "post_name": "finocchiona-toscana",
+        "post_status": "publish",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-04 07:53:31",
+        "content_length": 4378,
+        "permalink": "https://drycured.com/recepti-baza/finocchiona-toscana/"
+    },
+    "clone": {
+        "ID": 3536,
+        "post_title": "PREVIEW — Finocchiona Toscana IGP",
+        "post_name": "preview-finocchiona-toscana-src-1982",
+        "post_status": "private",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-19 17:29:59",
+        "content_length": 7243,
+        "permalink": "https://drycured.com/?post_type=dry_recipe&p=3536"
+    },
+    "clone_meta": {
+        "_dry_recipe_preview_mode": "PRIVATE_CLONE_ONLY",
+        "_dry_recipe_preview_source_post_id": "1982",
+        "_dry_recipe_public_update_allowed": "0",
+        "_dry_recipe_public_verified": "0",
+        "_dry_recipe_id": "IT-TOS-1982-FINOCCHIONA-TOSCANA",
+        "_dry_recipe_sections_length": 7937,
+        "_dry_verified_process_length": 4839,
+        "_dry_recipe_full_markdown_length": 7243
+    },
+    "http_public_check": {
+        "ok": true,
+        "http_code": "404",
+        "error": "",
+        "body_length": 230844,
+        "plain_length": 2021,
+        "title_exposed": false,
+        "publicly_exposed": false
+    },
+    "render_snapshot": {
+        "html_length": 8154,
+        "plain_length": 7507,
+        "markers": {
+            "has_title": true,
+            "has_raw_materials": true,
+            "has_grinding": true,
+            "has_casing": true,
+            "has_process": true,
+            "has_problems": true,
+            "has_private_notice": true,
+            "has_internal_blockers": true,
+            "has_drycured_trace": false
+        },
+        "plain_excerpt": "# Finocchiona Toscana IGP **Status:** privatni radni preview; javni update nije dopušten. ## Brzi proizvodni sažetak Finocchiona Toscana IGP je toskanska suha fermentirana kobasica u ovitku, standardizirana ovdje na 10 kg. Glavni aromatski potpis čine komorač, papar i blaga nota češnjaka. Bazni draft ne koristi nitrite/nitrate ni starter kulture. ## Glavne sirovine za 10 kg | Sirovina | kg | Status | |&#8212;|&#8212;|&#8212;| | svinjska lopatica, očišćena | 4.0 | allowed_cut_working_formula | | obresci pršuta / nemasni butni obresci | 2.0 | allowed_cut_working_formula | | nemasni dio pancete i podbradka | 1.5 | allowed_cut_working_formula | | meso coppe / svinjski vrat | 1.0 | allowed_cut_working_formula | | panceta / pancettone s čvršćom masnoćom | 1.5 | allowed_cut_working_formula | ## Obvezni začini | Sastojak | Količina | g/kg | Raspon | |&#8212;|&#8212;|&#8212;|&#8212;| | sol | 280 g | 28.0 | 250-350 g / 10 kg | | mljeveni crni papar | 8 g | 0.8 | 5-10 g / 10 kg | | lomljeni papar / papar u zrnu | 25 g | 2.5 | 15-40 g / 10 kg | | suhi češnjak | 8 g | 0.8 | 5-10 g / 10 kg | | sjeme komorača ili cvijet komorača | 35 g | 3.5 | 20-50 g / 10 kg | ## Opcionalni dodaci | Sastojak | Količina | Status | |&#8212;|&#8212;|&#8212;| | crno ili toskansko vino | 0,08 L | opcionalno, ispod maksimuma 0,1 L / 10 kg | | dekstroza ili saharoza | 30 g | opcionalno, ispod maksimuma 100 g / 10 kg | | starter kulture | ne koristi se u baznom draftu | dopušteno disciplinarom, ali traži tehnološku recenziju | | nitriti/nitrati | ne koristi se u baznom draftu | dopušteno disciplinarom, ali traži sigurnosnu recenziju ako se uključi | ## Češnjak i tekućine U ovoj radnoj verziji koristi se 8 g suhog češnjaka na 10 kg smjese. Ne koristi se svježi češnjak, ne koristi se macerat i ne dodaje se tekućina od češnjaka. Vino se dodaje odvojeno u količini 0,08 L na 10 kg, postupno u tankom mlazu tijekom miješanja. ## Mljevenje i obrada masnoće Sirovina se reže na komade 20–30 mm i melje na rešetku 6 mm. Službeni raspon mljevenja je 4,5–8 mm. Meso i čvršća masnoća moraju biti dobro ohlađeni; smjesa ne smije prijeći 8 °C. Mekana i maziva masnoća se uklanja. Ako se mast počne razmazivati, rad se prekida, sirovina i oprema se hlade, a mljevenje se nastavlja tek nakon stabilizacije. ## Crijeva i punjenje Koristi se prirodni ili collato ovitak. Za kućni radni preview koristi se veći prirodni ovita"
+    },
+    "checks": [
+        {
+            "key": "source_unchanged",
+            "label": "Source 1982 nije mijenjan",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Javni source mora ostati netaknut."
+        },
+        {
+            "key": "clone_private",
+            "label": "Clone je private",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Clone mora biti private."
+        },
+        {
+            "key": "clone_type",
+            "label": "Clone je dry_recipe",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Clone mora biti dry_recipe."
+        },
+        {
+            "key": "clone_source_link",
+            "label": "Clone je vezan na 1982",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Source link mora biti 1982."
+        },
+        {
+            "key": "preview_mode",
+            "label": "Preview mode je PRIVATE_CLONE_ONLY",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Clone mora ostati privatni preview."
+        },
+        {
+            "key": "public_update_0",
+            "label": "Public update je 0",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Ne smije dopuštati javni update."
+        },
+        {
+            "key": "public_verified_0",
+            "label": "Public verified je 0",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Ne smije biti public verified."
+        },
+        {
+            "key": "recipe_id",
+            "label": "Recipe ID je upisan",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Recipe ID mora biti stabilan."
+        },
+        {
+            "key": "sections_present",
+            "label": "Sections meta postoji",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Sections moraju biti upisane."
+        },
+        {
+            "key": "process_present",
+            "label": "Verified process meta postoji",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Verified process mora biti upisan."
+        },
+        {
+            "key": "full_markdown_present",
+            "label": "Full markdown postoji",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Full markdown mora biti upisan."
+        },
+        {
+            "key": "not_publicly_exposed",
+            "label": "Clone nije javno izložen",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Neprijavljeni javni fetch ne smije prikazati recept."
+        },
+        {
+            "key": "render_has_title",
+            "label": "Render ima naslov",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Interni render mora sadržavati naslov."
+        },
+        {
+            "key": "render_has_raw_materials",
+            "label": "Render ima sirovine",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Interni render mora sadržavati sirovine."
+        },
+        {
+            "key": "render_has_grinding",
+            "label": "Render ima mljevenje",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Interni render mora sadržavati mljevenje."
+        },
+        {
+            "key": "render_has_casing",
+            "label": "Render ima crijeva/ovitak",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Interni render mora sadržavati ovitak/crijeva."
+        },
+        {
+            "key": "render_has_process",
+            "label": "Render ima proces",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Interni render mora sadržavati proces."
+        },
+        {
+            "key": "render_has_problems",
+            "label": "Render ima probleme/rješenja",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Interni render mora sadržavati probleme i rješenja."
+        }
+    ],
+    "fail_total_major_or_blocker": 0,
+    "blocker_fail_total": 0,
+    "admin_preview_url": "https://drycured.com/?post_type=dry_recipe&p=3536",
+    "admin_edit_url": "https://drycured.com/wp-admin/post.php?post=3536&action=edit"
+}
