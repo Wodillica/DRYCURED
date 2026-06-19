@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-06-19T19:33:02.142429+00:00",
+  "mode": "READ_ONLY_FILE_INVENTORY",
+  "ui_protected": true,
+  "wordpress_write_allowed": false,
+  "repo": "/root/DRYCURED_GITHUB",
+  "webroot": "/var/www/html",
+  "master_dir": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master",
+  "file_total": 684,
+  "script_total": 121,
+  "category_counts": {
+    "RECIPE_SOURCE_CANDIDATE_MD": 16,
+    "RENDERER_UI_PROTECTED_SCRIPT": 39,
+    "RECIPE_SOURCE_CANDIDATE_DATA": 45,
+    "OTHER": 187,
+    "DOSSIER_MARKDOWN": 56,
+    "DOSSIER_DATA": 90,
+    "REPORT_MARKDOWN": 37,
+    "REPORT_DATA": 132,
+    "SCRIPT": 82
+  },
+  "script_category_counts": {
+    "RENDERER_UI_PROTECTED": 39,
+    "WP_WRITE_CAPABLE": 6,
+    "READ_ONLY_OR_AUDIT_LIKELY": 22,
+    "SCRIPT_UNKNOWN_REVIEW": 54
+  },
+  "protected_ui": [
+    {
+      "path": "/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php",
+      "exists": "yes",
+      "size_bytes": 282701,
+      "modified_utc": "2026-06-18T17:18:00.785931+00:00",
+      "sha256": "238b2f0bd79c77df5f0ecaa5482fea1e284009c2ff5a799440c75577d575e901",
+      "protection_status": "DO_NOT_MODIFY_IN_INVENTORY"
+    },
+    {
+      "path": "/var/www/html/wp-content/mu-plugins/drycured-granulation-display-core-safe-v11.php",
+      "exists": "no",
+      "size_bytes": "",
+      "modified_utc": "",
+      "sha256": "",
+      "protection_status": "EXPECTED_OR_OPTIONAL_FILE_NOT_FOUND"
+    }
+  ],
+  "outputs": {
+    "file_inventory_csv": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/recipe_system_inventory_v1_2026-06-19_19-33-01/file_inventory.csv",
+    "script_inventory_csv": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/recipe_system_inventory_v1_2026-06-19_19-33-01/script_inventory.csv",
+    "protected_ui_inventory_csv": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/recipe_system_inventory_v1_2026-06-19_19-33-01/protected_ui_inventory.csv"
+  }
+}

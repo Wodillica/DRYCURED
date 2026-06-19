@@ -1,0 +1,3 @@
+path,exists,size_bytes,modified_utc,sha256,protection_status
+/var/www/html/wp-content/mu-plugins/drycured-recipe-view-v1.php,yes,282701,2026-06-18T17:18:00.785931+00:00,238b2f0bd79c77df5f0ecaa5482fea1e284009c2ff5a799440c75577d575e901,DO_NOT_MODIFY_IN_INVENTORY
+/var/www/html/wp-content/mu-plugins/drycured-granulation-display-core-safe-v11.php,no,,,,EXPECTED_OR_OPTIONAL_FILE_NOT_FOUND

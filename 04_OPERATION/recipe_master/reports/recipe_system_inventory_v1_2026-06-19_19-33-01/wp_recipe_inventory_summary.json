@@ -1,0 +1,23 @@
+{
+    "generated_at": "2026-06-19T19:33:03+00:00",
+    "mode": "READ_ONLY_WP_RECIPE_INVENTORY",
+    "wordpress_write_allowed": false,
+    "public_recipe_update_allowed": false,
+    "total_dry_recipe_posts": 940,
+    "status_counts": {
+        "draft": 288,
+        "publish": 412,
+        "private": 148,
+        "pending": 92
+    },
+    "preview_clone_total": 12,
+    "missing_sections_total": 837,
+    "missing_verified_process_total": 913,
+    "missing_full_markdown_total": 393,
+    "missing_image_total": 940,
+    "outputs": {
+        "wp_recipe_posts_inventory_csv": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/recipe_system_inventory_v1_2026-06-19_19-33-01/wp_recipe_posts_inventory.csv",
+        "wp_recipe_meta_inventory_csv": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/recipe_system_inventory_v1_2026-06-19_19-33-01/wp_recipe_meta_inventory.csv",
+        "wp_recipe_inventory_summary_json": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/reports/recipe_system_inventory_v1_2026-06-19_19-33-01/wp_recipe_inventory_summary.json"
+    }
+}
