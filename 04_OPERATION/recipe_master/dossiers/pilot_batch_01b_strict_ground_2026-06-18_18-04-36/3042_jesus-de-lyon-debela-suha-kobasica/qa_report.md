@@ -201,3 +201,17 @@ Status: **PASS_CONTENT_ONLY_RENDERER_NOT_ACTIVATED**
 - Renderer improved: `false`
 - Report: `review/post_patch_render_qa_v1_2026-06-19_16-46-44/3535_POST_PATCH_RENDER_QA_REPORT.md`
 
+<!-- DC_3535_ADMIN_ONLY_PREVIEW_BRIDGE_PLAN_V1 -->
+
+## 3535 admin-only preview bridge plan v1
+
+Status: **PLAN_READY_ADMIN_ONLY_PREVIEW_BRIDGE**
+
+- WordPress write allowed now: `false`
+- Public update allowed: `false`
+- Source post write allowed: `false`
+- Renderer change allowed: `false`
+- Recommended next: `A_THEN_B_IF_NEEDED`
+- Report: `review/admin_only_preview_bridge_plan_v1_2026-06-19_16-50-05/3535_ADMIN_ONLY_PREVIEW_BRIDGE_PLAN_REPORT.md`
+- Plan JSON: `review/admin_only_preview_bridge_plan_v1_2026-06-19_16-50-05/3535_admin_only_preview_bridge_plan_v1.json`
+

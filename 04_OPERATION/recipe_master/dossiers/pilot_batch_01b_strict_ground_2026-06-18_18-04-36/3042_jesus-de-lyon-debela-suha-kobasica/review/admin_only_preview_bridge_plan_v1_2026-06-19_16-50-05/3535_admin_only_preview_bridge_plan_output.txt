@@ -1,0 +1,11 @@
+=== 3535 ADMIN-ONLY PREVIEW BRIDGE PLAN COMPLETE ===
+PLAN_STATUS=PLAN_READY_ADMIN_ONLY_PREVIEW_BRIDGE
+WORDPRESS_WRITE_ALLOWED_NOW=false
+PUBLIC_UPDATE_ALLOWED=false
+SOURCE_POST_WRITE_ALLOWED=false
+RENDERER_CHANGE_ALLOWED=false
+RECOMMENDED_NEXT=A_THEN_B_IF_NEEDED
+ADMIN_EDIT_URL=https://drycured.com/wp-admin/post.php?post=3535&action=edit
+LOGGED_IN_FRONT_PREVIEW_URL=https://drycured.com/?post_type=dry_recipe&p=3535&preview=true
+PUBLIC_UNAUTH_URL_EXPECTED_404=https://drycured.com/?post_type=dry_recipe&p=3535
+REPORT=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/admin_only_preview_bridge_plan_v1_2026-06-19_16-50-05/3535_ADMIN_ONLY_PREVIEW_BRIDGE_PLAN_REPORT.md

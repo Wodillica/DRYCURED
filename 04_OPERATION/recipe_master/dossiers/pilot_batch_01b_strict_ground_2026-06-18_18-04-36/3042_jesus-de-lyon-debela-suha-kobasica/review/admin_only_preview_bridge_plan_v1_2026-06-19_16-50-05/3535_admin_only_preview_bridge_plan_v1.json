@@ -1,0 +1,243 @@
+{
+    "generated_at": "2026-06-19T16:50:06+00:00",
+    "plan_status": "PLAN_READY_ADMIN_ONLY_PREVIEW_BRIDGE",
+    "mode": "READ_ONLY_ADMIN_ONLY_PREVIEW_BRIDGE_PLAN",
+    "wordpress_write_allowed_now": false,
+    "public_update_allowed": false,
+    "source_post_write_allowed": false,
+    "renderer_change_allowed": false,
+    "posts": {
+        "reference_2976": {
+            "ID": 2976,
+            "title": "Slavonska domaća kobasica",
+            "slug": "hr-sl-005-slavonska-domaca-kobasica",
+            "status": "publish",
+            "type": "dry_recipe",
+            "modified_gmt": "2026-06-05 02:40:27",
+            "permalink": "https://drycured.com/recepti-baza/hr-sl-005-slavonska-domaca-kobasica/",
+            "admin_edit_url": "https://drycured.com/wp-admin/post.php?post=2976&action=edit",
+            "logged_in_front_preview_url": "https://drycured.com/recepti-baza/hr-sl-005-slavonska-domaca-kobasica/?preview=true"
+        },
+        "source_3042": {
+            "ID": 3042,
+            "title": "Jésus de Lyon – debela suha kobasica",
+            "slug": "jesus-de-lyon-debela-suha-kobasica",
+            "status": "publish",
+            "type": "dry_recipe",
+            "modified_gmt": "2026-06-04 07:53:27",
+            "permalink": "https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/",
+            "admin_edit_url": "https://drycured.com/wp-admin/post.php?post=3042&action=edit",
+            "logged_in_front_preview_url": "https://drycured.com/recepti-baza/jesus-de-lyon-debela-suha-kobasica/?preview=true"
+        },
+        "clone_3535": {
+            "ID": 3535,
+            "title": "PRIVATE PREVIEW — Jésus de Lyon – debela suha kobasica",
+            "slug": "private-preview-3042-jesus-de-lyon-dossier-only-20260618-184742",
+            "status": "private",
+            "type": "dry_recipe",
+            "modified_gmt": "2026-06-18 18:47:42",
+            "permalink": "https://drycured.com/?post_type=dry_recipe&p=3535",
+            "admin_edit_url": "https://drycured.com/wp-admin/post.php?post=3535&action=edit",
+            "logged_in_front_preview_url": "https://drycured.com/?post_type=dry_recipe&p=3535&preview=true"
+        }
+    },
+    "clone_meta": {
+        "_dry_recipe_id": "MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA",
+        "_dry_recipe_preview_mode": "PRIVATE_CLONE_ONLY",
+        "_dry_recipe_preview_source_post_id": "3042",
+        "_dry_recipe_public_update_allowed": "0",
+        "_dry_recipe_public_verified": "0",
+        "_dry_recipe_source_validation_status": "PRODUCT_CONFIRMED_RECIPE_NOT_CANON_CONFIRMED",
+        "_dry_recipe_type_router": "GROUND_MEAT_OR_CASING",
+        "_dry_recipe_full_markdown_length": 2682,
+        "_dry_recipe_sections_length": 5996,
+        "_dry_verified_process_length": 1491
+    },
+    "post_patch_input": {
+        "path": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/3042_jesus-de-lyon-debela-suha-kobasica/review/post_patch_render_qa_v1_2026-06-19_16-46-44/3535_post_patch_render_qa_result.json",
+        "qa_status": "PASS_CONTENT_ONLY_RENDERER_NOT_ACTIVATED",
+        "renderer_improved": false,
+        "public_update_allowed": false
+    },
+    "manual_preview_urls": {
+        "admin_edit_url": "https://drycured.com/wp-admin/post.php?post=3535&action=edit",
+        "logged_in_front_preview_url": "https://drycured.com/?post_type=dry_recipe&p=3535&preview=true",
+        "public_unauth_url_expected_404": "https://drycured.com/?post_type=dry_recipe&p=3535"
+    },
+    "repo_plugin_scan_summary": {
+        "exists": true,
+        "bytes": 282701,
+        "pattern_counts": {
+            "the_content_filters": 9,
+            "is_singular": 21,
+            "is_admin": 0,
+            "current_user_can": 2,
+            "dry_recipe_id": 19,
+            "dry_recipe_full_markdown": 2,
+            "private_status": 0,
+            "get_post_status": 1,
+            "dry_recipe_post_type": 353
+        }
+    },
+    "live_plugin_scan_summary": {
+        "exists": true,
+        "bytes": 282701,
+        "pattern_counts": {
+            "the_content_filters": 9,
+            "is_singular": 21,
+            "is_admin": 0,
+            "current_user_can": 2,
+            "dry_recipe_id": 19,
+            "dry_recipe_full_markdown": 2,
+            "private_status": 0,
+            "get_post_status": 1,
+            "dry_recipe_post_type": 353
+        }
+    },
+    "recommended_bridge": {
+        "name": "drycured-private-preview-bridge",
+        "file": "wp-content/mu-plugins/drycured-private-preview-bridge.php",
+        "status": "PLAN_ONLY_NOT_CREATED",
+        "principle": "Admin-only preview bridge, not public renderer replacement.",
+        "activation_scope": {
+            "only_when_is_admin_or_logged_in_admin_preview": true,
+            "required_capability": "manage_options",
+            "required_post_id": 3535,
+            "required_post_type": "dry_recipe",
+            "required_post_status": "private",
+            "required_meta_preview_mode": "PRIVATE_CLONE_ONLY",
+            "required_meta_public_update_allowed": "0",
+            "required_meta_public_verified": "0",
+            "required_meta_source_post_id": "3042"
+        },
+        "forbidden_actions": [
+            "No public post 3042 writes",
+            "No public title/slug/status changes",
+            "No global renderer replacement",
+            "No public route without admin capability",
+            "No SEO indexable preview page",
+            "No use of source-lock/debug labels in public output"
+        ],
+        "implementation_options": [
+            {
+                "id": "A",
+                "name": "Use existing logged-in WP preview first",
+                "risk": "lowest",
+                "description": "Prvo ručno otvoriti logged-in front preview URL kao administrator. Ako se u stvarnom browser kontekstu aktivira prikaz, bridge nije potreban."
+            },
+            {
+                "id": "B",
+                "name": "Admin-only preview page in wp-admin",
+                "risk": "low",
+                "description": "Dodati wp-admin stranicu koja za post 3535 prikazuje strukturirani preview iz postojećih meta podataka. Nije javni renderer i nije indeksabilno."
+            },
+            {
+                "id": "C",
+                "name": "Temporary private preview front route with nonce",
+                "risk": "medium",
+                "description": "Front route dostupan samo logged-in adminu, s nonceom i noindex headerima. Koristiti samo ako admin page nije dovoljan."
+            }
+        ],
+        "recommended_next": "A_THEN_B_IF_NEEDED"
+    },
+    "checks": [
+        {
+            "key": "clone_private",
+            "label": "Clone 3535 je private",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Admin-only preview bridge smije raditi samo na privatnom cloneu."
+        },
+        {
+            "key": "clone_type",
+            "label": "Clone 3535 je dry_recipe",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Bridge ne smije raditi na drugim tipovima zapisa."
+        },
+        {
+            "key": "source_publish",
+            "label": "Source 3042 je publish",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Source se ne smije dirati."
+        },
+        {
+            "key": "clone_preview_mode",
+            "label": "Clone ima PRIVATE_CLONE_ONLY",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Bez ove oznake bridge ne smije raditi."
+        },
+        {
+            "key": "clone_source_link",
+            "label": "Clone je vezan na source 3042",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Mora biti jasno vezan na source."
+        },
+        {
+            "key": "public_update_false",
+            "label": "Public update je 0",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Bridge ne smije otvarati javni update tok."
+        },
+        {
+            "key": "public_verified_false",
+            "label": "Public verified je 0",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Recept nije verificiran za javnu objavu."
+        },
+        {
+            "key": "has_recipe_id",
+            "label": "Clone ima _dry_recipe_id",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Meta normalizer je uspješno odradio minimalni ID."
+        },
+        {
+            "key": "has_full_markdown",
+            "label": "Clone ima _dry_recipe_full_markdown",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Bridge mora imati izvor sadržaja."
+        },
+        {
+            "key": "has_sections_json",
+            "label": "Clone ima _dry_recipe_sections",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Bridge može koristiti strukturirane sekcije."
+        },
+        {
+            "key": "has_process_json",
+            "label": "Clone ima _dry_verified_process",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Bridge može koristiti procesne podatke."
+        },
+        {
+            "key": "renderer_not_activated",
+            "label": "Post-patch renderer nije aktiviran",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Potvrđuje potrebu za bridge planom."
+        },
+        {
+            "key": "repo_plugin_exists",
+            "label": "Repo renderer plugin postoji",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Ne smijemo raditi novi dizajn bez pregleda postojećeg plugin sloja."
+        },
+        {
+            "key": "live_plugin_exists",
+            "label": "Live renderer plugin postoji",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Live i repo renderer moraju biti dostupni."
+        }
+    ]
+}
