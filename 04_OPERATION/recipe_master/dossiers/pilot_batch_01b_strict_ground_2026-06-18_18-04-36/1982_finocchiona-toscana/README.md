@@ -61,3 +61,10 @@ Status: **PRIVATE_CLONE_CREATED_QA_PASS**
 
 Privatni clone `3536` stvoren je za administratorski pregled. Javni source post `1982` nije mijenjan i javni update ostaje blokiran.
 
+<!-- DC_1982_PILOT_CLOSURE_V1 -->
+
+## 1982 pilot closure v1
+
+Status: **PRIVATE_PREVIEW_READY_PUBLIC_UPDATE_BLOCKED**
+
+`1982 — Finocchiona Toscana IGP` tehnički je zatvoren kao privatni preview. Nakon ovog recepta operativni prioritet prelazi na hrvatske recepte.

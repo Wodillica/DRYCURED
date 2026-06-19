@@ -129,3 +129,20 @@ Status: **PRIVATE_CLONE_CREATED_QA_PASS**
 - Report: `review/private_clone_v1_2026-06-19_17-29-57/1982_PRIVATE_CLONE_REPORT.md`
 - JSON: `review/private_clone_v1_2026-06-19_17-29-57/1982_private_clone_result.json`
 
+<!-- DC_1982_PILOT_CLOSURE_V1 -->
+
+## 1982 Finocchiona Toscana pilot closure v1
+
+Status: **PRIVATE_PREVIEW_READY_PUBLIC_UPDATE_BLOCKED**
+
+- Source post ID: `1982`
+- Private clone ID: `3536`
+- Manual admin preview confirmed: `true`
+- Public update allowed: `false`
+- Public publish allowed: `false`
+- Source post write allowed: `false`
+- Major fail total: `0`
+- Blocker fail total: `0`
+- Next priority: `CROATIA_RECIPES_FIRST`
+- Report: `review/pilot_closure_v1_2026-06-19_17-35-20/1982_PILOT_CLOSURE_REPORT.md`
+- JSON: `review/pilot_closure_v1_2026-06-19_17-35-20/1982_pilot_closure_v1.json`

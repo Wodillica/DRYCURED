@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-06-19T17:35:20.074627+00:00",
+  "post_id": 1982,
+  "clone_id": 3536,
+  "recipe_code": "IT-TOS-1982-FINOCCHIONA-TOSCANA",
+  "closure_status": "PRIVATE_PREVIEW_READY_PUBLIC_UPDATE_BLOCKED",
+  "manual_admin_preview_confirmed": true,
+  "admin_preview_url": "https://drycured.com/?post_type=dry_recipe&p=3536",
+  "admin_edit_url": "https://drycured.com/wp-admin/post.php?post=3536&action=edit",
+  "source_unchanged": true,
+  "public_update_allowed": false,
+  "public_publish_allowed": false,
+  "source_post_write_allowed": false,
+  "next_project_priority": "CROATIA_RECIPES_FIRST",
+  "do_not_continue_next_italian_recipes_now": true,
+  "checks": [
+    {
+      "key": "private_clone_created",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Private clone mora imati QA pass."
+    },
+    {
+      "key": "clone_id_3536",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Očekivani clone ID je 3536."
+    },
+    {
+      "key": "source_unchanged",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Source post 1982 mora ostati netaknut."
+    },
+    {
+      "key": "public_update_false",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Javni update mora ostati false."
+    },
+    {
+      "key": "public_publish_false",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Javna objava mora ostati false."
+    },
+    {
+      "key": "not_publicly_exposed",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Privatni clone ne smije biti javno izložen."
+    },
+    {
+      "key": "manual_admin_preview_confirmed",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Korisnik je screenshotovima potvrdio strukturirani kartični admin preview."
+    },
+    {
+      "key": "admin_edit_markdown_expected",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Admin edit prikazuje markdown, što je očekivano za ovaj workflow."
+    },
+    {
+      "key": "internal_blocks_private_only",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Interni blokovi su prihvatljivi samo u privatnom previewu; ne smiju ići u javni prikaz."
+    }
+  ],
+  "major_fail_total": 0,
+  "blocker_fail_total": 0,
+  "final_decision": {
+    "technical_preview": "ready",
+    "public_update": "blocked",
+    "public_reason": "Private preview is technically ready, but no public update is allowed in this closure step.",
+    "next_step": "Start Croatian recipe queue after closing 1982."
+  }
+}
