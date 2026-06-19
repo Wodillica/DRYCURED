@@ -21,3 +21,10 @@ Status: **CONFIRMED_RECIPE_OFFICIAL_SPEC_AVAILABLE_PUBLIC_UPDATE_BLOCKED**
 
 Finocchiona Toscana ima službeni IGP/PGI disciplinar i može ići u izradu strukturiranog . Javni update ostaje blokiran dok se ne završi recipe.yml i QA.
 
+<!-- DC_1982_SOURCE_VALIDATION_REPAIR_V1 -->
+
+## 1982 source validation repair v1
+
+Status: **CORRECTED_SOURCE_VALIDATION_ARTIFACTS**
+
+Ispravljeni su dokumentacijski artefakti source validation koraka za `1982 — Finocchiona Toscana`. Validacijski status ostaje `CONFIRMED_RECIPE_OFFICIAL_SPEC_AVAILABLE_PUBLIC_UPDATE_BLOCKED`, a javni update ostaje zabranjen dok se ne izradi i QA-provjeri `recipe.yml`.

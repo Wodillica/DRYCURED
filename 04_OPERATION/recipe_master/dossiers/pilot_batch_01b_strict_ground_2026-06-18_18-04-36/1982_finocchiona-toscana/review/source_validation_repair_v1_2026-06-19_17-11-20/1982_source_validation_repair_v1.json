@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-06-19T17:11:20.189137+00:00",
+  "repair_status": "CORRECTED_SOURCE_VALIDATION_ARTIFACTS",
+  "wordpress_write_allowed": false,
+  "public_update_allowed": false,
+  "source_post_write_allowed": false,
+  "corrected_files": [
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1982_finocchiona-toscana/review/source_validation_v1_2026-06-19_17-08-56/1982_SOURCE_VALIDATION_REPORT.md",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1982_finocchiona-toscana/review/source_validation_v1_2026-06-19_17-08-56/1982_source_validation_v1.json",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1982_finocchiona-toscana/review/source_validation_v1_2026-06-19_17-08-56/1982_source_validation_checks.csv",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1982_finocchiona-toscana/review/source_validation_v1_2026-06-19_17-08-56/1982_sources_snapshot.yml",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1982_finocchiona-toscana/sources.yml",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1982_finocchiona-toscana/qa_report.md",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1982_finocchiona-toscana/README.md"
+  ],
+  "cause": "Previous script used an unquoted shell here-doc section, so Markdown backticks were interpreted by Bash.",
+  "next_step": "RECIPE_YML_DRAFT_FROM_OFFICIAL_SPEC_AND_EXISTING_WP_CONTENT"
+}

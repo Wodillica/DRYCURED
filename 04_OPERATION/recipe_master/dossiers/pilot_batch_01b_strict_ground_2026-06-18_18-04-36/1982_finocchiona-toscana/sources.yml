@@ -4,6 +4,7 @@ validation_status: CONFIRMED_RECIPE_OFFICIAL_SPEC_AVAILABLE_PUBLIC_UPDATE_BLOCKE
 canonical_project_status: CONFIRMED_RECIPE
 public_update_allowed: false
 public_publish_allowed: false
+source_post_write_allowed: false
 official_product_confirmed: true
 official_recipe_framework_confirmed: true
 exact_wp_recipe_quantities_confirmed: false
@@ -20,7 +21,7 @@ sources:
       - mandatory ingredients and ranges per 100 kg mixture
       - optional additives, wine and starter cultures
       - drying and ageing conditions
-      - minimum drying/ageing durations by stuffed weight
+      - minimum drying and ageing durations by stuffed weight
   - id: SRC-1982-002
     type: official_eu_registration
     authority: European Union / Commission Implementing Regulation (EU) 2015/629
@@ -51,3 +52,4 @@ remaining_blockers:
   - Potrebno je uskladiti recept na 10 kg prema službenim rasponima iz disciplinara.
   - Ako se koriste nitriti/nitrati ili starter kulture, moraju biti jasno označeni kao opcionalni/dopušteni i tehnološki objašnjeni.
   - Crijeva, granulacija i proces moraju biti popunjeni u Drycured standardu prije javnog updatea.
+next_step: RECIPE_YML_DRAFT_FROM_OFFICIAL_SPEC_AND_EXISTING_WP_CONTENT

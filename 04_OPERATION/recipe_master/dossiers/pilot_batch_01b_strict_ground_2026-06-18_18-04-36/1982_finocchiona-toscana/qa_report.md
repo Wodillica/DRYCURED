@@ -51,11 +51,12 @@ Status: **INTAKE_COMPLETE**
 
 Status: **CONFIRMED_RECIPE_OFFICIAL_SPEC_AVAILABLE_PUBLIC_UPDATE_BLOCKED**
 
-- Canonical project status: 
-- Public update allowed: 
-- Public publish allowed: 
-- Source post write allowed: 
-- Recipe.yml next allowed: 
-- Exact WP quantities confirmed: 
-- Report: 
-- JSON:
+- Canonical project status: `CONFIRMED_RECIPE`
+- Public update allowed: `false`
+- Public publish allowed: `false`
+- Source post write allowed: `false`
+- Recipe.yml next allowed: `true`
+- Exact WP quantities confirmed: `false`
+- Repair status: `CORRECTED_SOURCE_VALIDATION_ARTIFACTS`
+- Report: `review/source_validation_v1_2026-06-19_17-08-56/1982_SOURCE_VALIDATION_REPORT.md`
+- JSON: `review/source_validation_v1_2026-06-19_17-08-56/1982_source_validation_v1.json`

@@ -2,20 +2,20 @@
 
 Status: **CONFIRMED_RECIPE_OFFICIAL_SPEC_AVAILABLE_PUBLIC_UPDATE_BLOCKED**
 
-Ovaj korak ne mijenja WordPress. Potvrđuje izvorni status recepta i definira smjer za recipe.yml.
+Ovaj korak ne mijenja WordPress. Potvrđuje izvorni status recepta i definira smjer za `recipe.yml`.
 
 ## Zaključak
 
-Finocchiona Toscana je službeno potvrđen IGP/PGI proizvod s dostupnim službenim disciplinarom. Disciplinar daje dovoljno jak okvir za izradu Drycured radnog recipe.yml zapisa, ali postojeći WP recept se ne smije javno ažurirati dok se ne napravi i QA-provjeri strukturirani recipe.yml.
+Finocchiona Toscana je službeno potvrđen IGP/PGI proizvod s dostupnim službenim disciplinarom. Disciplinar daje dovoljno jak okvir za izradu Drycured radnog `recipe.yml` zapisa, ali postojeći WP recept se ne smije javno ažurirati dok se ne napravi i QA-provjeri strukturirani `recipe.yml`.
 
 ## Statusi
 
-- Canonical project status: 
-- Public update allowed: 
-- Public publish allowed: 
-- Source post write allowed: 
-- Recipe.yml next allowed: 
-- Exact WP quantities confirmed: 
+- Canonical project status: `CONFIRMED_RECIPE`
+- Public update allowed: `false`
+- Public publish allowed: `false`
+- Source post write allowed: `false`
+- Recipe.yml next allowed: `true`
+- Exact WP quantities confirmed: `false`
 
 ## Službeno zaključane činjenice za 10 kg
 
@@ -44,11 +44,15 @@ Finocchiona Toscana je službeno potvrđen IGP/PGI proizvod s dostupnim služben
 
 ## Izvori
 
--  — Ministero delle politiche agricole alimentari e forestali / Finocchiona IGP disciplinary specification — high
--  — European Union / Commission Implementing Regulation (EU) 2015/629 — high
--  — Consorzio di tutela della Finocchiona IGP — high
--  — Regione Toscana product information — medium_high
+- `SRC-1982-001` — Ministero delle politiche agricole alimentari e forestali / Finocchiona IGP disciplinary specification — high
+- `SRC-1982-002` — European Union / Commission Implementing Regulation (EU) 2015/629 — high
+- `SRC-1982-003` — Consorzio di tutela della Finocchiona IGP — high
+- `SRC-1982-004` — Regione Toscana product information — medium_high
 
 ## Sljedeći korak
 
-Izraditi  iz službenog disciplinara i postojećeg WP sadržaja. Javni update ostaje zabranjen.
+Izraditi `recipe.yml` iz službenog disciplinara i postojećeg WP sadržaja. Javni update ostaje zabranjen.
+
+## Repair napomena
+
+Ova verzija ispravlja dokumentacijski problem iz prethodnog generiranja izvještaja, gdje je shell pogrešno interpretirao Markdown backtickove. WordPress nije mijenjan.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T17:08:56.912446+00:00",
+  "generated_at": "2026-06-19T17:11:20.189137+00:00",
   "post_id": 1982,
   "title": "FINOCCHIONA TOSCANA",
   "validation_status": "CONFIRMED_RECIPE_OFFICIAL_SPEC_AVAILABLE_PUBLIC_UPDATE_BLOCKED",
@@ -33,7 +33,7 @@
         "mandatory ingredients and ranges per 100 kg mixture",
         "optional additives, wine and starter cultures",
         "drying and ageing conditions",
-        "minimum drying/ageing durations by stuffed weight"
+        "minimum drying and ageing durations by stuffed weight"
       ]
     },
     {
@@ -100,18 +100,8 @@
       ]
     }
   },
-  "quick_intake_input": {
-    "path": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1982_finocchiona-toscana/review/quick_intake_v1_2026-06-19_17-02-34/1982_quick_intake_v1.json",
-    "intake_status": "INTAKE_COMPLETE",
-    "post_status": "publish",
-    "http_code": "200",
-    "missing_structured_meta": [
-      "_dry_recipe_image_url",
-      "_dry_recipe_sections",
-      "_dry_verified_process"
-    ]
-  },
   "next_step": "RECIPE_YML_DRAFT_FROM_OFFICIAL_SPEC_AND_EXISTING_WP_CONTENT",
+  "repair_note": "Corrected Markdown/report artifacts after a shell here-doc quoting error in the previous validation script.",
   "guardrails": [
     "No WordPress write in source validation.",
     "No public update.",
