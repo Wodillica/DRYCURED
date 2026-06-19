@@ -1,0 +1,8 @@
+key,status,severity,note
+product_identity_confirmed,PASS,BLOCKER,Baranjska/slavonska kobasica identity is supported by public sources.
+recipe_framework_confirmed,PASS,BLOCKER,Public recipe source gives formula and process.
+type_ground_casing,PASS,BLOCKER,Recipe belongs to GROUND_MEAT_OR_CASING.
+public_update_allowed,PASS,BLOCKER,Public update remains false.
+title_review_required,PASS,MAJOR,Current title should be editorially normalized before public update.
+drycured_10kg_scaling_required,PASS,MAJOR,Source formula is 11 kg meat/fat and must be scaled to 10 kg total mixture.
+exact_wp_quantities_confirmed,FAIL,MAJOR,Existing WP quantities still need recipe.yml mapping and QA.

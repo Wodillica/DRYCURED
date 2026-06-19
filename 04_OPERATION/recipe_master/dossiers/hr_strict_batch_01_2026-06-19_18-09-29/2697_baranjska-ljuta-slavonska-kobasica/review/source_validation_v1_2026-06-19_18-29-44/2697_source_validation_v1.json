@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-06-19T18:29:44.579002+00:00",
+  "post_id": 2697,
+  "title": "Baranjska Ljuta Slavonska Kobasica",
+  "validation_status": "CONFIRMED_RECIPE_PUBLIC_SOURCES_AVAILABLE_PUBLIC_UPDATE_BLOCKED",
+  "canonical_project_status": "CONFIRMED_RECIPE",
+  "public_update_allowed": false,
+  "public_publish_allowed": false,
+  "source_post_write_allowed": false,
+  "recipe_yml_allowed_next": true,
+  "private_clone_allowed_if_needed": true,
+  "official_product_confirmed": true,
+  "public_recipe_framework_confirmed": true,
+  "exact_wp_recipe_quantities_confirmed": false,
+  "title_review_required": true,
+  "recommended_canonical_title_hr": "Baranjska kobasica – ljuta varijanta",
+  "recipe_type_router": "GROUND_MEAT_OR_CASING",
+  "why_not_public_ready_yet": [
+    "Naziv javnog posta `Baranjska Ljuta Slavonska Kobasica` treba urednički uskladiti; kanonski naziv vjerojatno treba biti `Baranjska ljuta kobasica` ili `Baranjska kobasica – ljuta varijanta`.",
+    "Izvori potvrđuju proizvod i radnu recepturu, ali ne daju službeni zaštićeni disciplinar kao kod IGP proizvoda.",
+    "Prije javnog updatea treba izraditi `recipe.yml` na 10 kg smjese prema Drycured standardu.",
+    "Treba jasno odlučiti računa li se šarža kao 10 kg ukupne mesne smjese ili izvornih 10 kg mesa + 1 kg slanine; Drycured standard mora prikazati 10 kg ukupne smjese.",
+    "Treba definirati češnjak: koristi li se pastozni češnjak, macerat ili procijeđena tekućina.",
+    "Treba definirati crijeva: tanka svinjska crijeva 35-40 cm, namakanje, voda, temperatura, vrijeme i neprokuhavanje.",
+    "Treba definirati faze dimljenja i zrenja s radnim parametrima."
+  ],
+  "sources": [
+    {
+      "id": "SRC-2697-001",
+      "type": "expert_article",
+      "authority": "Agroklub / stručni opis regionalnih kobasica, citiran Mastanjević",
+      "url": "https://www.agroklub.com/prehrambena-industrija/kobasica-gdje-je-glavna-paprika-a-gdje-cesnjak-i-biber/72662/",
+      "reliability": "high_for_technology_medium_for_exact_formula",
+      "supports": [
+        "Slavonija i Baranja imaju karakterističnu slavonsku odnosno baranjsku kobasicu",
+        "sirovine: nekoliko kategorija svinjskog mesa, plećka bez podlaktice, vrat, potrbušina i prsa",
+        "više masnog tkiva nego kod kulena i kulenove seke",
+        "začini: slatka i ljuta paprika, češnjak i sol",
+        "punjenje u svinjska tanka crijeva",
+        "paprika 1-2 % na masu mesa i slanine",
+        "sol 1,8-2 %",
+        "češnjak 0,2-0,3 %",
+        "dimljenje svaki drugi dan, pet do šest dimova",
+        "nakon dimljenja još oko 30 dana dozrijevanja, ovisno o klimi"
+      ]
+    },
+    {
+      "id": "SRC-2697-002",
+      "type": "public_broadcast_article",
+      "authority": "HRT / izjava predsjednika udruge proizvođača baranjskog kulena",
+      "url": "https://magazin.hrt.hr/price-iz-hrvatske/odrzano-deveto-izdanje-s-klobasicom-u-europu--10670309",
+      "reliability": "medium_high_for_identity",
+      "supports": [
+        "baranjska kobasica prepoznaje se po paprici, češnjaku i biberu",
+        "regionalna usporedba s istarskom i slavonskom kobasicom"
+      ]
+    },
+    {
+      "id": "SRC-2697-003",
+      "type": "public_recipe_archive",
+      "authority": "Recepisi / javno objavljen recept za Baranjsku kobasicu",
+      "url": "https://recepisi.wordpress.com/recepti-za-kobasice/",
+      "reliability": "medium_for_exact_formula_low_for_official_status",
+      "supports": [
+        "konkretan recept za Baranjsku kobasicu",
+        "10 kg svinjskog mesa + 1 kg tvrde slanine",
+        "200 g soli, 30 g šećera, 50 g bibera, 150 g slatke paprike, 100 g ljute paprike, 50 g pastoznog češnjaka",
+        "odležavanje mesa 24 sata",
+        "mljevenje kroz rešetku 6 mm",
+        "punjenje u tanka svinjska crijeva 35-40 cm",
+        "dimljenje tjedan dana s 3-4 dima po 6 sati",
+        "sazrijevanje 25-30 dana"
+      ]
+    }
+  ],
+  "source_locked_facts": {
+    "product_type": "suha/dimljena kobasica u tankom svinjskom crijevu",
+    "region": "Baranja / Slavonija, Hrvatska",
+    "protected_status": "no_confirmed_eu_protected_status_for_this_recipe",
+    "batch_basis_required_by_project": "10 kg ukupne mesne smjese",
+    "identity": [
+      "paprika je glavni regionalni aromatski i vizualni potpis",
+      "ljuta varijanta pojačava udio ljute paprike",
+      "češanj/češnjak i biber/papar su važni pomoćni začini",
+      "proizvod pripada skupini mljevenog mesa u omotaču"
+    ],
+    "source_formula_from_public_recipe_before_drycured_scaling": {
+      "svinjsko_meso_kg": 10,
+      "tvrda_slanina_kg": 1,
+      "sol_g": 200,
+      "secer_g": 30,
+      "biber_papar_g": 50,
+      "slatka_paprika_g": 150,
+      "ljuta_paprika_g": 100,
+      "pastozni_cesnjak_g": 50,
+      "total_meat_fat_kg": 11
+    },
+    "drycured_scaling_note": "Ako se zadrži omjer iz javnog recepta, za 10 kg ukupne smjese faktor je 10/11 = 0,90909.",
+    "source_process_facts": {
+      "meat_resting": "24 sata prije mljevenja",
+      "grinding_plate_mm": 6,
+      "casing": "tanka svinjska crijeva, dužina 35-40 cm",
+      "after_filling_rest": "24 sata",
+      "smoking": "tjedan dana, 3-4 dima po 6 sati",
+      "maturation": "25-30 dana",
+      "storage": "suhe promajne prostorije"
+    },
+    "expert_technology_ranges": {
+      "paprika_percent": "1-2 % na masu mesa i slanine",
+      "salt_percent": "1,8-2 %",
+      "garlic_percent": "0,2-0,3 %",
+      "smoking_pattern": "svaki drugi dan, pet do šest dimova",
+      "maturation_after_smoking": "oko 30 dana, ovisno o klimatskim uvjetima"
+    }
+  },
+  "quick_intake_input": {
+    "path": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/hr_strict_batch_01_2026-06-19_18-09-29/2697_baranjska-ljuta-slavonska-kobasica/review/quick_intake_v1_2026-06-19_18-09-29/2697_quick_intake_v1.json",
+    "intake_status": "INTAKE_COMPLETE",
+    "post_status": "publish",
+    "http_code": "200",
+    "missing_structured_meta": [
+      "_dry_recipe_image_url",
+      "_dry_recipe_sections",
+      "_dry_verified_process"
+    ]
+  },
+  "next_step": "RECIPE_YML_DRAFT_FROM_PUBLIC_SOURCES_AND_EXISTING_WP_CONTENT",
+  "guardrails": [
+    "No WordPress write in source validation.",
+    "No public update.",
+    "Do not overwrite source post 2697.",
+    "Use Baranja/Slavonia source facts, not foreign sausage templates.",
+    "Normalize to 10 kg total meat/fat mixture for Drycured.",
+    "Keep public status blocked until recipe.yml, internal QA and private preview pass."
+  ]
+}

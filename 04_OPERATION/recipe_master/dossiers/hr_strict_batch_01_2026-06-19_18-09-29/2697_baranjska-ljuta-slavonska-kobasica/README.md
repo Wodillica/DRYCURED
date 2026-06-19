@@ -17,3 +17,11 @@ Ovaj dosje otvoren je iz strict hrvatskog reda čekanja nakon zatvaranja recepta
 Status: **INTAKE_COMPLETE**
 
 Početni read-only intake za `2697 — Baranjska Ljuta Slavonska Kobasica` je izrađen. Javni update nije dopušten.
+
+<!-- DC_2697_SOURCE_VALIDATION_V1 -->
+
+## 2697 source validation v1
+
+Status: **CONFIRMED_RECIPE_PUBLIC_SOURCES_AVAILABLE_PUBLIC_UPDATE_BLOCKED**
+
+Recept je potvrđen kao stvarna Baranjska kobasica / ljuta varijanta, ali javni update ostaje blokiran dok se ne izradi , internal QA i privatni preview.
