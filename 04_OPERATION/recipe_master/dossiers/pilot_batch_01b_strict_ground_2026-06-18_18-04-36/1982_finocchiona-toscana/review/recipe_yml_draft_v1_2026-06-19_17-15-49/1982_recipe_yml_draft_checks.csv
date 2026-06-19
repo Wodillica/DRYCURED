@@ -1,0 +1,15 @@
+key,status,severity,note
+raw_material_sum_10kg,PASS,BLOCKER,Ukupno sirovina: 10.0 kg.
+salt_in_range,PASS,BLOCKER,Sol je unutar službenog raspona.
+ground_pepper_in_range,PASS,BLOCKER,Mljeveni papar je unutar službenog raspona.
+cracked_pepper_in_range,PASS,BLOCKER,Lomljeni papar je unutar službenog raspona.
+garlic_in_range,PASS,BLOCKER,Suhi češnjak je unutar službenog raspona.
+fennel_in_range,PASS,BLOCKER,Komorač je unutar službenog raspona.
+wine_under_max,PASS,MAJOR,Vino je ispod službenog maksimuma.
+sugar_under_max,PASS,MAJOR,Šećer je ispod službenog maksimuma.
+grinding_range_ok,PASS,BLOCKER,"Odabrana rešetka je unutar službenog raspona 4,5-8 mm."
+casing_soaking_complete,PASS,MAJOR,Crijeva imaju definirano namakanje.
+garlic_policy_complete,PASS,MAJOR,Češnjak je jasno definiran; nema tekućine od češnjaka.
+problem_solution_complete,PASS,MAJOR,Problemi imaju konkretna rješenja.
+public_update_blocked,PASS,BLOCKER,Javni update ostaje blokiran.
+source_2024_primary,PASS,MAJOR,Primarni izvor za draft je konsolidirani 2024. dokument.

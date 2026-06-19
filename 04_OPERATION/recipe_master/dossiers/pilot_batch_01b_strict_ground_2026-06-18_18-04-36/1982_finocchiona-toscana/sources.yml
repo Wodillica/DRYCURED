@@ -2,6 +2,7 @@ post_id: 1982
 title: FINOCCHIONA TOSCANA
 validation_status: CONFIRMED_RECIPE_OFFICIAL_SPEC_AVAILABLE_PUBLIC_UPDATE_BLOCKED
 canonical_project_status: CONFIRMED_RECIPE
+primary_source_for_recipe_yml: SRC-1982-005
 public_update_allowed: false
 public_publish_allowed: false
 source_post_write_allowed: false
@@ -9,47 +10,32 @@ official_product_confirmed: true
 official_recipe_framework_confirmed: true
 exact_wp_recipe_quantities_confirmed: false
 sources:
-  - id: SRC-1982-001
-    type: official_specification
-    authority: Ministero delle politiche agricole alimentari e forestali / Finocchiona IGP disciplinary specification
-    url: https://www.masaf.gov.it/flex/files/0/7/c/D.b4191a7a18c0f1afe6e9/Finocchiona___pubblicazione_GU.pdf
+  - id: SRC-1982-005
+    type: official_consolidated_specification_2024
+    authority: MASAF / consolidated Finocchiona IGP specification after ordinary modification
+    url: https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F7%252F2%252FD.372a511f04565ec8a7ed/P/BLOB%3AID%3D18907/E/pdf?mode=download
     reliability: high
+    primary_for_recipe_yml: true
     supports:
+      - current consolidated production specification
       - PGI product identity
-      - raw material categories
-      - allowed meat cuts
-      - mandatory ingredients and ranges per 100 kg mixture
+      - allowed cuts
+      - mandatory ingredient ranges
       - optional additives, wine and starter cultures
-      - drying and ageing conditions
-      - minimum drying and ageing durations by stuffed weight
-  - id: SRC-1982-002
-    type: official_eu_registration
-    authority: European Union / Commission Implementing Regulation (EU) 2015/629
-    url: https://www.legislation.gov.uk/eur/2015/629/data.xht?view=snippet&wrap=true
-    reliability: high
-    supports:
-      - Finocchiona name registered as PGI
-      - product class meat products
+      - grinding range 4.5-8 mm
+      - casing and tying requirements
+      - drying and ageing parameters
+      - minimum drying/ageing durations by stuffed weight
+      - updated aw maximum 0.945
   - id: SRC-1982-003
     type: consortium_specification_page
     authority: Consorzio di tutela della Finocchiona IGP
     url: https://www.finocchionaigp.it/en/specification/
     reliability: high
+    primary_for_recipe_yml: false
     supports:
-      - PGI specification governs raw material origin, production recipe, processing and ripening
-      - control body and consortium oversight
-  - id: SRC-1982-004
-    type: regional_product_sheet
-    authority: Regione Toscana product information
-    url: https://prodtrad.regione.toscana.it/LIB_DOPIGP/Prodotto.php?ID=38
-    reliability: medium_high
-    supports:
-      - traditional Tuscan identity
-      - historical and sensory description
-remaining_blockers:
-  - Postojeći WP recept nema još zaključan recipe.yml s provjerom svih obveznih polja.
-  - Nedostaju _dry_recipe_sections i _dry_verified_process za strukturirani radni prikaz.
-  - Potrebno je uskladiti recept na 10 kg prema službenim rasponima iz disciplinara.
-  - Ako se koriste nitriti/nitrati ili starter kulture, moraju biti jasno označeni kao opcionalni/dopušteni i tehnološki objašnjeni.
-  - Crijeva, granulacija i proces moraju biti popunjeni u Drycured standardu prije javnog updatea.
-next_step: RECIPE_YML_DRAFT_FROM_OFFICIAL_SPEC_AND_EXISTING_WP_CONTENT
+      - consortium confirms specification controls origin, recipe, processing and ripening
+recipe_yml_draft:
+  status: RECIPE_YML_DRAFT_READY_INTERNAL_QA_REQUIRED
+  file: recipe.yml
+  public_update_allowed: false

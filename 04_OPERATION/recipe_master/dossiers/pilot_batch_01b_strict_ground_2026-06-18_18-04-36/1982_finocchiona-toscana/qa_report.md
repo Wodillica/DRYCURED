@@ -60,3 +60,21 @@ Status: **CONFIRMED_RECIPE_OFFICIAL_SPEC_AVAILABLE_PUBLIC_UPDATE_BLOCKED**
 - Repair status: `CORRECTED_SOURCE_VALIDATION_ARTIFACTS`
 - Report: `review/source_validation_v1_2026-06-19_17-08-56/1982_SOURCE_VALIDATION_REPORT.md`
 - JSON: `review/source_validation_v1_2026-06-19_17-08-56/1982_source_validation_v1.json`
+
+<!-- DC_1982_RECIPE_YML_DRAFT_V1 -->
+
+## 1982 Finocchiona Toscana recipe.yml draft v1
+
+Status: **RECIPE_YML_DRAFT_READY_INTERNAL_QA_REQUIRED**
+
+- Recipe file: `recipe.yml`
+- Recipe code: `IT-TOS-1982-FINOCCHIONA-TOSCANA`
+- Batch: `10 kg`
+- Primary source: `SRC-1982-005`
+- Type router: `GROUND_MEAT_OR_CASING`
+- Public update allowed: `false`
+- Public publish allowed: `false`
+- Source post write allowed: `false`
+- Blocker fail total: `0`
+- Report: `review/recipe_yml_draft_v1_2026-06-19_17-15-49/1982_RECIPE_YML_DRAFT_REPORT.md`
+- JSON: `review/recipe_yml_draft_v1_2026-06-19_17-15-49/1982_recipe_yml_draft_v1.json`
