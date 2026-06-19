@@ -26,14 +26,15 @@ Status: **INTAKE_COMPLETE**
 
 Status: **CONFIRMED_RECIPE_PUBLIC_SOURCES_AVAILABLE_PUBLIC_UPDATE_BLOCKED**
 
-- Canonical project status: 
-- Recipe type router: 
-- Recommended title: 
-- Public update allowed: 
-- Public publish allowed: 
-- Source post write allowed: 
-- Recipe.yml next allowed: 
-- Title review required: 
-- Exact WP quantities confirmed: 
-- Report: 
-- JSON:
+- Canonical project status: `CONFIRMED_RECIPE`
+- Recipe type router: `GROUND_MEAT_OR_CASING`
+- Recommended title: `Baranjska kobasica – ljuta varijanta`
+- Public update allowed: `false`
+- Public publish allowed: `false`
+- Source post write allowed: `false`
+- Recipe.yml next allowed: `true`
+- Title review required: `true`
+- Exact WP quantities confirmed: `false`
+- Repair status: `CORRECTED_SOURCE_VALIDATION_ARTIFACTS`
+- Report: `review/source_validation_v1_2026-06-19_18-29-44/2697_SOURCE_VALIDATION_REPORT.md`
+- JSON: `review/source_validation_v1_2026-06-19_18-29-44/2697_source_validation_v1.json`

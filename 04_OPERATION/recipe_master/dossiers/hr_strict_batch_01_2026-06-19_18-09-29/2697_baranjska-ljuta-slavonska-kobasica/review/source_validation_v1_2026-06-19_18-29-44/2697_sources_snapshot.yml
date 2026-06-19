@@ -9,6 +9,7 @@ public_publish_allowed: false
 source_post_write_allowed: false
 recipe_yml_allowed_next: true
 title_review_required: true
+exact_wp_recipe_quantities_confirmed: false
 sources:
   - id: SRC-2697-001
     type: expert_article
@@ -17,15 +18,15 @@ sources:
     reliability: high_for_technology_medium_for_exact_formula
     supports:
       - Slavonija i Baranja imaju karakterističnu slavonsku odnosno baranjsku kobasicu
-      - sirovine: nekoliko kategorija svinjskog mesa, plećka bez podlaktice, vrat, potrbušina i prsa
-      - više masnog tkiva nego kod kulena i kulenove seke
-      - začini: slatka i ljuta paprika, češnjak i sol
-      - punjenje u svinjska tanka crijeva
+      - sirovine uključuju plećku, vrat, potrbušinu i prsa
+      - u kobasicama je više masnog tkiva nego kod kulena i kulenove seke
+      - začinski profil uključuje slatku i ljutu papriku, češnjak i sol
+      - punjenje se radi u svinjska tanka crijeva
       - paprika 1-2 % na masu mesa i slanine
       - sol 1,8-2 %
       - češnjak 0,2-0,3 %
       - dimljenje svaki drugi dan, pet do šest dimova
-      - nakon dimljenja još oko 30 dana dozrijevanja, ovisno o klimi
+      - nakon dimljenja još oko 30 dana dozrijevanja, ovisno o klimatskim uvjetima
   - id: SRC-2697-002
     type: public_broadcast_article
     authority: HRT / izjava predsjednika udruge proizvođača baranjskog kulena
@@ -49,11 +50,11 @@ sources:
       - dimljenje tjedan dana s 3-4 dima po 6 sati
       - sazrijevanje 25-30 dana
 remaining_blockers:
-  - Naziv javnog posta `Baranjska Ljuta Slavonska Kobasica` treba urednički uskladiti; kanonski naziv vjerojatno treba biti `Baranjska ljuta kobasica` ili `Baranjska kobasica – ljuta varijanta`.
+  - Naziv javnog posta `Baranjska Ljuta Slavonska Kobasica` treba urednički uskladiti; kanonski naziv za radni dosje je `Baranjska kobasica – ljuta varijanta`.
   - Izvori potvrđuju proizvod i radnu recepturu, ali ne daju službeni zaštićeni disciplinar kao kod IGP proizvoda.
-  - Prije javnog updatea treba izraditi `recipe.yml` na 10 kg smjese prema Drycured standardu.
-  - Treba jasno odlučiti računa li se šarža kao 10 kg ukupne mesne smjese ili izvornih 10 kg mesa + 1 kg slanine; Drycured standard mora prikazati 10 kg ukupne smjese.
-  - Treba definirati češnjak: koristi li se pastozni češnjak, macerat ili procijeđena tekućina.
+  - Prije javnog updatea treba izraditi `recipe.yml` na 10 kg ukupne smjese prema Drycured standardu.
+  - Treba jasno riješiti skaliranje jer javni recept daje 10 kg mesa + 1 kg tvrde slanine, dok Drycured standard traži 10 kg ukupne mesne smjese.
+  - Treba definirati češnjak: pastozni češnjak, macerat ili procijeđena tekućina.
   - Treba definirati crijeva: tanka svinjska crijeva 35-40 cm, namakanje, voda, temperatura, vrijeme i neprokuhavanje.
   - Treba definirati faze dimljenja i zrenja s radnim parametrima.
 next_step: RECIPE_YML_DRAFT_FROM_PUBLIC_SOURCES_AND_EXISTING_WP_CONTENT

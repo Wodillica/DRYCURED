@@ -25,3 +25,11 @@ Početni read-only intake za `2697 — Baranjska Ljuta Slavonska Kobasica` je iz
 Status: **CONFIRMED_RECIPE_PUBLIC_SOURCES_AVAILABLE_PUBLIC_UPDATE_BLOCKED**
 
 Recept je potvrđen kao stvarna Baranjska kobasica / ljuta varijanta, ali javni update ostaje blokiran dok se ne izradi , internal QA i privatni preview.
+
+<!-- DC_2697_SOURCE_VALIDATION_REPAIR_V1 -->
+
+## 2697 source validation repair v1
+
+Status: **CORRECTED_SOURCE_VALIDATION_ARTIFACTS**
+
+Ispravljeni su dokumentacijski artefakti source validation koraka za `2697 — Baranjska Ljuta Slavonska Kobasica`. Validacijski status ostaje `CONFIRMED_RECIPE_PUBLIC_SOURCES_AVAILABLE_PUBLIC_UPDATE_BLOCKED`, a javni update ostaje zabranjen dok se ne izradi i QA-provjeri `recipe.yml`.

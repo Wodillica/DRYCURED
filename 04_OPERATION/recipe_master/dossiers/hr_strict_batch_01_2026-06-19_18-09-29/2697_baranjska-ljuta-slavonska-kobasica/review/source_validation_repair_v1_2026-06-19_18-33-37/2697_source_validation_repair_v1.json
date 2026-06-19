@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-06-19T18:33:37.330427+00:00",
+  "repair_status": "CORRECTED_SOURCE_VALIDATION_ARTIFACTS",
+  "wordpress_write_allowed": false,
+  "public_update_allowed": false,
+  "source_post_write_allowed": false,
+  "corrected_files": [
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/hr_strict_batch_01_2026-06-19_18-09-29/2697_baranjska-ljuta-slavonska-kobasica/review/source_validation_v1_2026-06-19_18-29-44/2697_SOURCE_VALIDATION_REPORT.md",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/hr_strict_batch_01_2026-06-19_18-09-29/2697_baranjska-ljuta-slavonska-kobasica/review/source_validation_v1_2026-06-19_18-29-44/2697_source_validation_v1.json",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/hr_strict_batch_01_2026-06-19_18-09-29/2697_baranjska-ljuta-slavonska-kobasica/review/source_validation_v1_2026-06-19_18-29-44/2697_source_validation_checks.csv",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/hr_strict_batch_01_2026-06-19_18-09-29/2697_baranjska-ljuta-slavonska-kobasica/review/source_validation_v1_2026-06-19_18-29-44/2697_sources_snapshot.yml",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/hr_strict_batch_01_2026-06-19_18-09-29/2697_baranjska-ljuta-slavonska-kobasica/sources.yml",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/hr_strict_batch_01_2026-06-19_18-09-29/2697_baranjska-ljuta-slavonska-kobasica/qa_report.md",
+    "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/hr_strict_batch_01_2026-06-19_18-09-29/2697_baranjska-ljuta-slavonska-kobasica/README.md"
+  ],
+  "cause": "Previous script used an unquoted shell here-doc section, so Markdown backticks and braces were interpreted by Bash.",
+  "next_step": "RECIPE_YML_DRAFT_FROM_PUBLIC_SOURCES_AND_EXISTING_WP_CONTENT"
+}

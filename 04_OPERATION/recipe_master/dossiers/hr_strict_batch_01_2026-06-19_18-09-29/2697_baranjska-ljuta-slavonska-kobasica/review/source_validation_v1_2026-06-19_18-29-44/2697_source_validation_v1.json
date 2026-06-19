@@ -1,9 +1,11 @@
 {
-  "generated_at": "2026-06-19T18:29:44.579002+00:00",
+  "generated_at": "2026-06-19T18:33:37.330427+00:00",
   "post_id": 2697,
   "title": "Baranjska Ljuta Slavonska Kobasica",
   "validation_status": "CONFIRMED_RECIPE_PUBLIC_SOURCES_AVAILABLE_PUBLIC_UPDATE_BLOCKED",
   "canonical_project_status": "CONFIRMED_RECIPE",
+  "recipe_type_router": "GROUND_MEAT_OR_CASING",
+  "recommended_canonical_title_hr": "Baranjska kobasica – ljuta varijanta",
   "public_update_allowed": false,
   "public_publish_allowed": false,
   "source_post_write_allowed": false,
@@ -13,14 +15,12 @@
   "public_recipe_framework_confirmed": true,
   "exact_wp_recipe_quantities_confirmed": false,
   "title_review_required": true,
-  "recommended_canonical_title_hr": "Baranjska kobasica – ljuta varijanta",
-  "recipe_type_router": "GROUND_MEAT_OR_CASING",
   "why_not_public_ready_yet": [
-    "Naziv javnog posta `Baranjska Ljuta Slavonska Kobasica` treba urednički uskladiti; kanonski naziv vjerojatno treba biti `Baranjska ljuta kobasica` ili `Baranjska kobasica – ljuta varijanta`.",
+    "Naziv javnog posta `Baranjska Ljuta Slavonska Kobasica` treba urednički uskladiti; kanonski naziv za radni dosje je `Baranjska kobasica – ljuta varijanta`.",
     "Izvori potvrđuju proizvod i radnu recepturu, ali ne daju službeni zaštićeni disciplinar kao kod IGP proizvoda.",
-    "Prije javnog updatea treba izraditi `recipe.yml` na 10 kg smjese prema Drycured standardu.",
-    "Treba jasno odlučiti računa li se šarža kao 10 kg ukupne mesne smjese ili izvornih 10 kg mesa + 1 kg slanine; Drycured standard mora prikazati 10 kg ukupne smjese.",
-    "Treba definirati češnjak: koristi li se pastozni češnjak, macerat ili procijeđena tekućina.",
+    "Prije javnog updatea treba izraditi `recipe.yml` na 10 kg ukupne smjese prema Drycured standardu.",
+    "Treba jasno riješiti skaliranje jer javni recept daje 10 kg mesa + 1 kg tvrde slanine, dok Drycured standard traži 10 kg ukupne mesne smjese.",
+    "Treba definirati češnjak: pastozni češnjak, macerat ili procijeđena tekućina.",
     "Treba definirati crijeva: tanka svinjska crijeva 35-40 cm, namakanje, voda, temperatura, vrijeme i neprokuhavanje.",
     "Treba definirati faze dimljenja i zrenja s radnim parametrima."
   ],
@@ -33,15 +33,15 @@
       "reliability": "high_for_technology_medium_for_exact_formula",
       "supports": [
         "Slavonija i Baranja imaju karakterističnu slavonsku odnosno baranjsku kobasicu",
-        "sirovine: nekoliko kategorija svinjskog mesa, plećka bez podlaktice, vrat, potrbušina i prsa",
-        "više masnog tkiva nego kod kulena i kulenove seke",
-        "začini: slatka i ljuta paprika, češnjak i sol",
-        "punjenje u svinjska tanka crijeva",
+        "sirovine uključuju plećku, vrat, potrbušinu i prsa",
+        "u kobasicama je više masnog tkiva nego kod kulena i kulenove seke",
+        "začinski profil uključuje slatku i ljutu papriku, češnjak i sol",
+        "punjenje se radi u svinjska tanka crijeva",
         "paprika 1-2 % na masu mesa i slanine",
         "sol 1,8-2 %",
         "češnjak 0,2-0,3 %",
         "dimljenje svaki drugi dan, pet do šest dimova",
-        "nakon dimljenja još oko 30 dana dozrijevanja, ovisno o klimi"
+        "nakon dimljenja još oko 30 dana dozrijevanja, ovisno o klimatskim uvjetima"
       ]
     },
     {
@@ -81,7 +81,7 @@
     "identity": [
       "paprika je glavni regionalni aromatski i vizualni potpis",
       "ljuta varijanta pojačava udio ljute paprike",
-      "češanj/češnjak i biber/papar su važni pomoćni začini",
+      "češnjak i biber/papar su važni pomoćni začini",
       "proizvod pripada skupini mljevenog mesa u omotaču"
     ],
     "source_formula_from_public_recipe_before_drycured_scaling": {
@@ -113,18 +113,8 @@
       "maturation_after_smoking": "oko 30 dana, ovisno o klimatskim uvjetima"
     }
   },
-  "quick_intake_input": {
-    "path": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/hr_strict_batch_01_2026-06-19_18-09-29/2697_baranjska-ljuta-slavonska-kobasica/review/quick_intake_v1_2026-06-19_18-09-29/2697_quick_intake_v1.json",
-    "intake_status": "INTAKE_COMPLETE",
-    "post_status": "publish",
-    "http_code": "200",
-    "missing_structured_meta": [
-      "_dry_recipe_image_url",
-      "_dry_recipe_sections",
-      "_dry_verified_process"
-    ]
-  },
   "next_step": "RECIPE_YML_DRAFT_FROM_PUBLIC_SOURCES_AND_EXISTING_WP_CONTENT",
+  "repair_note": "Corrected Markdown/report artifacts after an unquoted shell here-doc allowed Bash to interpret Markdown backticks and braces.",
   "guardrails": [
     "No WordPress write in source validation.",
     "No public update.",
