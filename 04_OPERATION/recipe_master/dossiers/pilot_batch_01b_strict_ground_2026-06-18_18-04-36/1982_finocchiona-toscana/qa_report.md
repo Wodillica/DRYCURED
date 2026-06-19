@@ -45,3 +45,17 @@ Status: **INTAKE_COMPLETE**
 - Report: `review/quick_intake_v1_2026-06-19_17-02-34/1982_QUICK_INTAKE_REPORT.md`
 - JSON: `review/quick_intake_v1_2026-06-19_17-02-34/1982_quick_intake_v1.json`
 
+<!-- DC_1982_SOURCE_VALIDATION_V1 -->
+
+## 1982 Finocchiona Toscana source validation v1
+
+Status: **CONFIRMED_RECIPE_OFFICIAL_SPEC_AVAILABLE_PUBLIC_UPDATE_BLOCKED**
+
+- Canonical project status: 
+- Public update allowed: 
+- Public publish allowed: 
+- Source post write allowed: 
+- Recipe.yml next allowed: 
+- Exact WP quantities confirmed: 
+- Report: 
+- JSON:

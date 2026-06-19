@@ -1,0 +1,6 @@
+key,status,severity,note
+"official_product_confirmed","PASS","BLOCKER","Finocchiona is confirmed by official PGI/specification sources."
+"official_recipe_framework_confirmed","PASS","BLOCKER","Specification confirms ingredient and process framework."
+"exact_wp_quantities_confirmed","FAIL","MAJOR","Existing WP quantities still need canonical recipe.yml mapping."
+"public_update_allowed","PASS","BLOCKER","Public update remains false."
+"recipe_yml_next_allowed","PASS","MAJOR","Recipe.yml draft is the correct next step."

@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-06-19T17:08:56.912446+00:00",
+  "post_id": 1982,
+  "title": "FINOCCHIONA TOSCANA",
+  "validation_status": "CONFIRMED_RECIPE_OFFICIAL_SPEC_AVAILABLE_PUBLIC_UPDATE_BLOCKED",
+  "canonical_project_status": "CONFIRMED_RECIPE",
+  "public_update_allowed": false,
+  "public_publish_allowed": false,
+  "source_post_write_allowed": false,
+  "recipe_yml_allowed_next": true,
+  "private_clone_allowed_if_needed": true,
+  "official_product_confirmed": true,
+  "official_recipe_framework_confirmed": true,
+  "exact_wp_recipe_quantities_confirmed": false,
+  "why_not_public_ready_yet": [
+    "Postojeći WP recept nema još zaključan recipe.yml s provjerom svih obveznih polja.",
+    "Nedostaju _dry_recipe_sections i _dry_verified_process za strukturirani radni prikaz.",
+    "Potrebno je uskladiti recept na 10 kg prema službenim rasponima iz disciplinara.",
+    "Ako se koriste nitriti/nitrati ili starter kulture, moraju biti jasno označeni kao opcionalni/dopušteni i tehnološki objašnjeni.",
+    "Crijeva, granulacija i proces moraju biti popunjeni u Drycured standardu prije javnog updatea."
+  ],
+  "official_sources": [
+    {
+      "id": "SRC-1982-001",
+      "type": "official_specification",
+      "authority": "Ministero delle politiche agricole alimentari e forestali / Finocchiona IGP disciplinary specification",
+      "url": "https://www.masaf.gov.it/flex/files/0/7/c/D.b4191a7a18c0f1afe6e9/Finocchiona___pubblicazione_GU.pdf",
+      "reliability": "high",
+      "supports": [
+        "PGI product identity",
+        "raw material categories",
+        "allowed meat cuts",
+        "mandatory ingredients and ranges per 100 kg mixture",
+        "optional additives, wine and starter cultures",
+        "drying and ageing conditions",
+        "minimum drying/ageing durations by stuffed weight"
+      ]
+    },
+    {
+      "id": "SRC-1982-002",
+      "type": "official_eu_registration",
+      "authority": "European Union / Commission Implementing Regulation (EU) 2015/629",
+      "url": "https://www.legislation.gov.uk/eur/2015/629/data.xht?view=snippet&wrap=true",
+      "reliability": "high",
+      "supports": [
+        "Finocchiona name registered as PGI",
+        "product class meat products"
+      ]
+    },
+    {
+      "id": "SRC-1982-003",
+      "type": "consortium_specification_page",
+      "authority": "Consorzio di tutela della Finocchiona IGP",
+      "url": "https://www.finocchionaigp.it/en/specification/",
+      "reliability": "high",
+      "supports": [
+        "PGI specification governs raw material origin, production recipe, processing and ripening",
+        "control body and consortium oversight"
+      ]
+    },
+    {
+      "id": "SRC-1982-004",
+      "type": "regional_product_sheet",
+      "authority": "Regione Toscana product information",
+      "url": "https://prodtrad.regione.toscana.it/LIB_DOPIGP/Prodotto.php?ID=38",
+      "reliability": "medium_high",
+      "supports": [
+        "traditional Tuscan identity",
+        "historical and sensory description"
+      ]
+    }
+  ],
+  "source_locked_facts": {
+    "product_type": "suha fermentirana/sušena kobasica u omotaču",
+    "region": "Toskana / Italija",
+    "protected_status": "IGP/PGI",
+    "batch_basis": "10 kg",
+    "mandatory_ingredients_from_spec_scaled_to_10kg": {
+      "salt_g_range": "250-350 g",
+      "ground_pepper_g_range": "5-10 g",
+      "pepper_grain_or_broken_g_range": "15-40 g",
+      "garlic_or_equivalent_dehydrated_g_range": "5-10 g",
+      "fennel_seed_or_flower_g_range": "20-50 g"
+    },
+    "optional_from_spec_scaled_to_10kg": {
+      "wine_max_l": "0.1 L",
+      "sugars_max_g": "100 g",
+      "sodium_ascorbate_max_g": "15 g",
+      "starter_cultures": "allowed by specification",
+      "nitrites_nitrates": "allowed by specification, but Drycured public recipe requires explicit safety note if used"
+    },
+    "process_parameters_from_spec": {
+      "drying_temperature_c": "12-25 °C",
+      "ageing_temperature_c": "11-18 °C",
+      "ageing_relative_humidity": "65-90 %",
+      "minimum_total_drying_ageing": [
+        "0.5-1 kg stuffed weight: at least 15 days",
+        "1-6 kg stuffed weight: at least 21 days",
+        "6-25 kg stuffed weight: at least 45 days"
+      ]
+    }
+  },
+  "quick_intake_input": {
+    "path": "/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/pilot_batch_01b_strict_ground_2026-06-18_18-04-36/1982_finocchiona-toscana/review/quick_intake_v1_2026-06-19_17-02-34/1982_quick_intake_v1.json",
+    "intake_status": "INTAKE_COMPLETE",
+    "post_status": "publish",
+    "http_code": "200",
+    "missing_structured_meta": [
+      "_dry_recipe_image_url",
+      "_dry_recipe_sections",
+      "_dry_verified_process"
+    ]
+  },
+  "next_step": "RECIPE_YML_DRAFT_FROM_OFFICIAL_SPEC_AND_EXISTING_WP_CONTENT",
+  "guardrails": [
+    "No WordPress write in source validation.",
+    "No public update.",
+    "Do not overwrite source post 1982.",
+    "Use official specification ranges when drafting recipe.yml.",
+    "Keep public status blocked until recipe.yml and internal QA pass."
+  ]
+}

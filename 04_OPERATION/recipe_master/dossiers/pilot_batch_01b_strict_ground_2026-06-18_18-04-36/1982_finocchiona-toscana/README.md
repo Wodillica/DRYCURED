@@ -14,3 +14,10 @@
 - `wordpress_import_log.md` — potvrda da WordPress nije mijenjan.
 - `raw_wp_snapshot.json` — read-only WordPress snapshot.
 - `public_text_snapshot.txt` — javni tekstualni snapshot za pregled.
+
+## 1982 source validation v1
+
+Status: **CONFIRMED_RECIPE_OFFICIAL_SPEC_AVAILABLE_PUBLIC_UPDATE_BLOCKED**
+
+Finocchiona Toscana ima službeni IGP/PGI disciplinar i može ići u izradu strukturiranog . Javni update ostaje blokiran dok se ne završi recipe.yml i QA.
+
