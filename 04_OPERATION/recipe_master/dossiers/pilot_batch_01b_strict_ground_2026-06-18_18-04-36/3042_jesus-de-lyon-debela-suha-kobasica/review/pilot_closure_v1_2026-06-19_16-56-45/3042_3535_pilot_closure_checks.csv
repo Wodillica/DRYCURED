@@ -1,0 +1,8 @@
+check,status,severity,note
+private_clone_created,PASS,BLOCKER,Private clone 3535 exists and was manually reviewed.
+source_3042_unchanged,PASS,BLOCKER,Public source post 3042 was not changed.
+public_update_blocked,PASS,BLOCKER,Public update remains false.
+admin_direct_preview_works,PASS,MAJOR,Direct private URL works for logged-in administrator.
+preview_true_not_used,PASS,INFO,preview=true URL returns 404 and is not used.
+bridge_plugin_needed,NO,INFO,Admin-only bridge plugin is not needed at this stage.
+public_ready,NO,BLOCKER,Content blockers remain open.

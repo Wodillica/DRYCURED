@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-06-19_16-56-45",
+  "source_post_id": 3042,
+  "private_clone_id": 3535,
+  "pilot_status": "TECHNICAL_PREVIEW_READY_NOT_PUBLIC_READY",
+  "private_preview_ready": true,
+  "public_update_allowed": false,
+  "source_post_write_allowed": false,
+  "renderer_change_allowed": false,
+  "admin_bridge_needed": false,
+  "admin_preview_url": "https://drycured.com/?post_type=dry_recipe&p=3535",
+  "admin_edit_url": "https://drycured.com/wp-admin/post.php?post=3535&action=edit",
+  "preview_true_url_usable": false,
+  "public_publish_allowed": false,
+  "remaining_blockers": [
+    "recipe_quantities_not_canon_confirmed",
+    "starter_culture_requires_technical_review",
+    "smoking_phase_requires_confirmation",
+    "not_public_verified"
+  ],
+  "recommended_next": [
+    "close_content_blockers_for_3042",
+    "or_apply_same_private_preview_workflow_to_next_pilot_recipe"
+  ]
+}

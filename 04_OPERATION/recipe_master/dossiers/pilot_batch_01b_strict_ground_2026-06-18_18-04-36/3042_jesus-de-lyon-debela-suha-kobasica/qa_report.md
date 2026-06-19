@@ -231,3 +231,22 @@ Status: **PASS_ADMIN_PRIVATE_DIRECT_URL**
 - Source 3042 write allowed: `false`
 
 Report: `review/manual_admin_preview_qa_v1_2026-06-19_16-55-28/3535_MANUAL_ADMIN_PREVIEW_QA_REPORT.md`
+
+<!-- DC_3042_3535_PILOT_CLOSURE_V1 -->
+
+## 3042 / 3535 pilot closure v1
+
+Status: **TECHNICAL_PREVIEW_READY_NOT_PUBLIC_READY**
+
+- Source post: `3042`
+- Private clone: `3535`
+- Admin preview URL: `https://drycured.com/?post_type=dry_recipe&p=3535`
+- Public update allowed: `false`
+- Source post write allowed: `false`
+- Renderer change allowed: `false`
+- Admin-only bridge plugin needed: `false`
+- Public publish allowed: `false`
+
+Zaključak: tehnička privatna preview petlja je završena, ali recept ostaje blokiran za javnu objavu dok se ne zatvore izvori količina, starter kultura i dimljenje.
+
+Report: `review/pilot_closure_v1_2026-06-19_16-56-45/3042_3535_PILOT_CLOSURE_REPORT.md`
