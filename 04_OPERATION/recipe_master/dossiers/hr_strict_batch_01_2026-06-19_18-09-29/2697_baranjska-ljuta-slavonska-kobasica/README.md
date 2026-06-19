@@ -49,3 +49,11 @@ Izrađen je radni `recipe.yml` za `Baranjska kobasica – ljuta varijanta`, stan
 Status: **RECIPE_YML_QA_PASS_READY_FOR_SECTIONS**
 
 `recipe.yml` za Baranjsku kobasicu – ljutu varijantu provjeren je internim QA-om. Javni update ostaje blokiran.
+
+<!-- DC_2697_PREVIEW_PAYLOAD_V1 -->
+
+## 2697 preview payload v1
+
+Status: **PREVIEW_PAYLOAD_READY_FOR_PRIVATE_CLONE**
+
+Generirani su `_dry_recipe_sections`, `_dry_verified_process` i `_dry_recipe_full_markdown` za budući privatni clone. Javni update ostaje zabranjen.

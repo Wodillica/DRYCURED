@@ -1,0 +1,136 @@
+{
+  "schema_version": "drycured_verified_process_v1",
+  "generated_at": "2026-06-19T18:54:39.624999+00:00",
+  "post_id": 2697,
+  "recipe_code": "HR-BR-2697-BARANJSKA-LJUTA-KOBASICA",
+  "recipe_type_router": "GROUND_MEAT_OR_CASING",
+  "public_update_allowed": false,
+  "source_post_write_allowed": false,
+  "phases": [
+    {
+      "step": 1,
+      "name": "Odabir, čišćenje i hlađenje sirovine",
+      "parameters": "meso i slanina 0-4 °C",
+      "action": "Odstraniti žile, hrskavice, krvave dijelove, mekanu mast i kožice. Pripremiti 9,09 kg mesa i 0,91 kg tvrde slanine.",
+      "critical_control": "Sirovina mora biti hladna, svježa i bez neugodnog mirisa."
+    },
+    {
+      "step": 2,
+      "name": "Rezanje i kratko odležavanje",
+      "parameters": "komadi 20-30 mm; 12-24 h na 0-4 °C",
+      "action": "Meso i slaninu narezati, posoliti dijelom soli ili držati pripremljeno za mljevenje prema radnoj praksi.",
+      "critical_control": "Ne ostavljati sirovinu na sobnoj temperaturi; posude držati pokrivene i čiste."
+    },
+    {
+      "step": 3,
+      "name": "Mljevenje",
+      "parameters": "rešetka 6 mm; masa najviše 8 °C",
+      "action": "Meso i tvrdu slaninu samljeti kroz rešetku 6 mm.",
+      "critical_control": "Ako se mast razmazuje, zaustaviti mljevenje, ohladiti sirovinu i opremu pa nastaviti."
+    },
+    {
+      "step": 4,
+      "name": "Miješanje začina",
+      "parameters": "190 g soli, 25 g šećera, 45 g papra, 120 g slatke paprike, 70 g ljute paprike, 28 g pastoznog češnjaka",
+      "action": "Začine ravnomjerno rasporediti i miješati dok smjesa ne postane povezana, ali ne predugo da se mast ne razmaže.",
+      "critical_control": "Paprika mora ravnomjerno obojiti smjesu; masa mora ostati hladna."
+    },
+    {
+      "step": 5,
+      "name": "Priprema crijeva",
+      "parameters": "pitka voda 20-25 °C; 30-45 min; bez prokuhavanja",
+      "action": "Tanka svinjska crijeva namočiti, isprati izvana i iznutra i ocijediti prije punjenja.",
+      "critical_control": "Crijeva ne prokuhavati; odbaciti oštećene ili neugodno mirisne dijelove."
+    },
+    {
+      "step": 6,
+      "name": "Punjenje i vezanje",
+      "parameters": "komadi 35-40 cm",
+      "action": "Puniti u tanka svinjska crijeva, oblikovati kobasice, vezati i ukloniti zračne džepove.",
+      "critical_control": "Punjenje mora biti čvrsto bez velikih zračnih šupljina i bez pucanja crijeva."
+    },
+    {
+      "step": 7,
+      "name": "Odmor nakon punjenja",
+      "parameters": "oko 24 h; hladno i prozračno",
+      "action": "Kobasice objesiti da se površina osuši prije dimljenja.",
+      "critical_control": "Površina mora biti suha na dodir; ne dimiti mokru kobasicu."
+    },
+    {
+      "step": 8,
+      "name": "Hladno dimljenje",
+      "parameters": "3-4 dima po oko 6 h tijekom tjedan dana; alternativno 5-6 laganih dimova svaki drugi dan",
+      "action": "Dimiti hladnim dimom, s pauzama između dimova. Koristiti čist, tanak plavi dim.",
+      "critical_control": "Dim ne smije biti vruć, gust ni čađav. Ako se pojavi gorčina ili vlažna ljepljiva površina, produžiti provjetravanje i smanjiti intenzitet dima."
+    },
+    {
+      "step": 9,
+      "name": "Sušenje i zrenje",
+      "parameters": "25-30 dana; hladno, prozračno, bez izravnog propuha",
+      "action": "Nakon dimljenja kobasice dozrijevaju dok ne postanu stabilne, povezane i prikladne za rezanje.",
+      "critical_control": "Ako se rub prebrzo suši, smanjiti propuh i povisiti vlagu prostora. Ako je površina sluzava ili miris neugodan, proizvod ne kušati."
+    },
+    {
+      "step": 10,
+      "name": "Završna provjera i čuvanje",
+      "parameters": "nakon 25-30 dana ili kada je presjek stabilan",
+      "action": "Provjeriti miris, presjek, boju paprike, čvrstoću i odsutnost kvarenja.",
+      "critical_control": "Sumnjiv proizvod ne kušati i ne posluživati."
+    }
+  ],
+  "critical_controls": [
+    "Sirovina i smjesa moraju ostati hladne.",
+    "Mljevenje se radi na rešetku 6 mm.",
+    "Mast mora ostati nerazmazana.",
+    "Crijeva se namaču 30–45 min u pitkoj vodi 20–25 °C i ne prokuhavaju.",
+    "Dimljenje ide tankim hladnim dimom, bez čađavog ili vrućeg dima.",
+    "Zrenje traje 25–30 dana u hladnom i prozračnom prostoru.",
+    "Sumnjiv proizvod se ne kuša i ne poslužuje."
+  ],
+  "done_when": [
+    "kobasica je čvrsta, ali ne kameno tvrda",
+    "presjek je jednoliko crvenkast od paprike",
+    "mast je vidljiva i nerazmazana",
+    "miris je ugodan, dimljen, papričan i blago češnjakast",
+    "nema sluzi, ljepljive površine, napuhavanja ni truležnog mirisa",
+    "nakon rezanja kriška drži oblik i ne raspada se",
+    "zrenje je trajalo najmanje 25-30 dana u primjerenim uvjetima"
+  ],
+  "problems_and_solutions": [
+    {
+      "problem": "Razmazana mast u presjeku",
+      "likely_cause": "Slanina ili meso bili su pretopli tijekom mljevenja ili miješanja.",
+      "solution": "Zaustaviti rad, ohladiti sirovinu i dijelove mašine, nastaviti tek kada je masa ponovno hladna. Sljedeći put koristiti tvrđu slaninu."
+    },
+    {
+      "problem": "Gorka, čađava površina",
+      "likely_cause": "Dim je bio pregust, vruć ili je izgaralo vlažno/nečisto drvo.",
+      "solution": "Prekinuti dimljenje, provjetravati kobasice i nastaviti samo tankim hladnim dimom. Ne koristiti smolasto ili vlažno drvo."
+    },
+    {
+      "problem": "Presuh rub i mekana jezgra",
+      "likely_cause": "Prejak propuh ili preniska vlaga u prostoru.",
+      "solution": "Smanjiti propuh, stabilizirati vlagu i produžiti zrenje. Ne ubrzavati sušenje jakom ventilacijom."
+    },
+    {
+      "problem": "Preoštra ljutina bez zaokruženog okusa",
+      "likely_cause": "Previše ljute paprike ili prekratko zrenje.",
+      "solution": "Ostaviti dulje zrenje ako nema znakova kvarenja. Sljedeći put smanjiti ljutu papriku i dio zamijeniti slatkom paprikom."
+    },
+    {
+      "problem": "Kiseli miris ili neugodan okus",
+      "likely_cause": "Previše šećera, previsoka temperatura, loša higijena ili nepravilan tijek fermentacije.",
+      "solution": "Sumnjiv proizvod ne kušati i ne posluživati. Sljedeći put smanjiti temperaturu obrade i bolje kontrolirati higijenu."
+    },
+    {
+      "problem": "Sluzava površina ili neobične plijesni",
+      "likely_cause": "Previsoka vlaga, slab protok zraka ili kontaminacija prostora.",
+      "solution": "Ako je miris neugodan ili sluz prodire u ovitak, proizvod odbaciti. Prostor očistiti, osušiti i provjetriti prije nove šarže."
+    },
+    {
+      "problem": "Zračne šupljine",
+      "likely_cause": "Nedovoljno čvrsto punjenje ili zrak u punilici.",
+      "solution": "Manje džepove probosti sterilnom iglom odmah nakon punjenja. Kod velikih šupljina povećava se rizik kvarenja i proizvod treba pažljivo nadzirati."
+    }
+  ]
+}

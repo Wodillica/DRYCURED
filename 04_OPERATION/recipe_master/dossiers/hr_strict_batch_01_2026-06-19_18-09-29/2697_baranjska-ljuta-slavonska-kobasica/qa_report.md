@@ -71,3 +71,19 @@ Status: **RECIPE_YML_QA_PASS_READY_FOR_SECTIONS**
 - Ready for sections: `true`
 - Report: `review/recipe_yml_internal_qa_v1_2026-06-19_18-48-00/2697_RECIPE_YML_INTERNAL_QA_REPORT.md`
 - JSON: `review/recipe_yml_internal_qa_v1_2026-06-19_18-48-00/2697_recipe_yml_internal_qa_v1.json`
+
+<!-- DC_2697_PREVIEW_PAYLOAD_V1 -->
+
+## 2697 Baranjska kobasica – ljuta varijanta preview payload v1
+
+Status: **PREVIEW_PAYLOAD_READY_FOR_PRIVATE_CLONE**
+
+- Recipe code: `HR-BR-2697-BARANJSKA-LJUTA-KOBASICA`
+- Public update allowed: `false`
+- Source post write allowed: `false`
+- Sections count: `13`
+- Verified process phases: `10`
+- Full markdown length: `8015`
+- Blocker fail total: `0`
+- Report: `review/preview_payload_v1_2026-06-19_18-54-39/2697_PREVIEW_PAYLOAD_REPORT.md`
+- Payload: `review/preview_payload_v1_2026-06-19_18-54-39/2697_private_preview_payload_v1.json`

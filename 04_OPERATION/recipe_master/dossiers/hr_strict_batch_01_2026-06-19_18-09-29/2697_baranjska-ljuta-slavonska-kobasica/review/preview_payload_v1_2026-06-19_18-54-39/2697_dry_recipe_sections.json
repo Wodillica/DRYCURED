@@ -1,0 +1,336 @@
+[
+  {
+    "id": "hero",
+    "title": "Baranjska kobasica – ljuta varijanta",
+    "type": "hero",
+    "content": {
+      "recipe_code": "HR-BR-2697-BARANJSKA-LJUTA-KOBASICA",
+      "country": "Hrvatska",
+      "region": "Baranja / Slavonija",
+      "recipe_type": "GROUND_MEAT_OR_CASING",
+      "batch_size_kg": 10.0,
+      "public_update_allowed": false,
+      "private_preview_notice": "Privatni radni preview. Javni update nije dopušten."
+    }
+  },
+  {
+    "id": "production_summary",
+    "title": "Brzi proizvodni sažetak",
+    "type": "summary_cards",
+    "content": {
+      "batch": "10 kg ukupne mesne smjese",
+      "raw_materials": "9,09 kg svinjskog mesa + 0,91 kg tvrde slanine",
+      "grinding": "rešetka 6 mm; smjesa najviše 8 °C",
+      "casing": "tanka svinjska crijeva, komadi 35–40 cm",
+      "smoking": "3–4 dima po oko 6 h tijekom tjedan dana",
+      "maturation": "25–30 dana",
+      "nitrite": "bazni draft bez nitritne soli"
+    }
+  },
+  {
+    "id": "process_timeline",
+    "title": "Procesna kronologija",
+    "type": "process_timeline",
+    "content": [
+      {
+        "step": 1,
+        "name": "Odabir, čišćenje i hlađenje sirovine",
+        "parameters": "meso i slanina 0-4 °C",
+        "action": "Odstraniti žile, hrskavice, krvave dijelove, mekanu mast i kožice. Pripremiti 9,09 kg mesa i 0,91 kg tvrde slanine.",
+        "critical_control": "Sirovina mora biti hladna, svježa i bez neugodnog mirisa."
+      },
+      {
+        "step": 2,
+        "name": "Rezanje i kratko odležavanje",
+        "parameters": "komadi 20-30 mm; 12-24 h na 0-4 °C",
+        "action": "Meso i slaninu narezati, posoliti dijelom soli ili držati pripremljeno za mljevenje prema radnoj praksi.",
+        "critical_control": "Ne ostavljati sirovinu na sobnoj temperaturi; posude držati pokrivene i čiste."
+      },
+      {
+        "step": 3,
+        "name": "Mljevenje",
+        "parameters": "rešetka 6 mm; masa najviše 8 °C",
+        "action": "Meso i tvrdu slaninu samljeti kroz rešetku 6 mm.",
+        "critical_control": "Ako se mast razmazuje, zaustaviti mljevenje, ohladiti sirovinu i opremu pa nastaviti."
+      },
+      {
+        "step": 4,
+        "name": "Miješanje začina",
+        "parameters": "190 g soli, 25 g šećera, 45 g papra, 120 g slatke paprike, 70 g ljute paprike, 28 g pastoznog češnjaka",
+        "action": "Začine ravnomjerno rasporediti i miješati dok smjesa ne postane povezana, ali ne predugo da se mast ne razmaže.",
+        "critical_control": "Paprika mora ravnomjerno obojiti smjesu; masa mora ostati hladna."
+      },
+      {
+        "step": 5,
+        "name": "Priprema crijeva",
+        "parameters": "pitka voda 20-25 °C; 30-45 min; bez prokuhavanja",
+        "action": "Tanka svinjska crijeva namočiti, isprati izvana i iznutra i ocijediti prije punjenja.",
+        "critical_control": "Crijeva ne prokuhavati; odbaciti oštećene ili neugodno mirisne dijelove."
+      },
+      {
+        "step": 6,
+        "name": "Punjenje i vezanje",
+        "parameters": "komadi 35-40 cm",
+        "action": "Puniti u tanka svinjska crijeva, oblikovati kobasice, vezati i ukloniti zračne džepove.",
+        "critical_control": "Punjenje mora biti čvrsto bez velikih zračnih šupljina i bez pucanja crijeva."
+      },
+      {
+        "step": 7,
+        "name": "Odmor nakon punjenja",
+        "parameters": "oko 24 h; hladno i prozračno",
+        "action": "Kobasice objesiti da se površina osuši prije dimljenja.",
+        "critical_control": "Površina mora biti suha na dodir; ne dimiti mokru kobasicu."
+      },
+      {
+        "step": 8,
+        "name": "Hladno dimljenje",
+        "parameters": "3-4 dima po oko 6 h tijekom tjedan dana; alternativno 5-6 laganih dimova svaki drugi dan",
+        "action": "Dimiti hladnim dimom, s pauzama između dimova. Koristiti čist, tanak plavi dim.",
+        "critical_control": "Dim ne smije biti vruć, gust ni čađav. Ako se pojavi gorčina ili vlažna ljepljiva površina, produžiti provjetravanje i smanjiti intenzitet dima."
+      },
+      {
+        "step": 9,
+        "name": "Sušenje i zrenje",
+        "parameters": "25-30 dana; hladno, prozračno, bez izravnog propuha",
+        "action": "Nakon dimljenja kobasice dozrijevaju dok ne postanu stabilne, povezane i prikladne za rezanje.",
+        "critical_control": "Ako se rub prebrzo suši, smanjiti propuh i povisiti vlagu prostora. Ako je površina sluzava ili miris neugodan, proizvod ne kušati."
+      },
+      {
+        "step": 10,
+        "name": "Završna provjera i čuvanje",
+        "parameters": "nakon 25-30 dana ili kada je presjek stabilan",
+        "action": "Provjeriti miris, presjek, boju paprike, čvrstoću i odsutnost kvarenja.",
+        "critical_control": "Sumnjiv proizvod ne kušati i ne posluživati."
+      }
+    ]
+  },
+  {
+    "id": "raw_materials",
+    "title": "Sirovine za 10 kg",
+    "type": "ingredients_table",
+    "content": {
+      "batch_basis": "10 kg ukupne mesne smjese, uključujući meso i tvrdu slaninu",
+      "items": [
+        {
+          "name": "svinjsko meso za kobasice: plećka, vrat, potrbušina/prsa bez kožica i žilavih dijelova",
+          "kg": 9.09,
+          "source_status": "scaled_from_public_recipe_and_supported_by_expert_description"
+        },
+        {
+          "name": "tvrda leđna slanina ili čvrsta bijela slanina, dobro ohlađena",
+          "kg": 0.91,
+          "source_status": "scaled_from_public_recipe"
+        }
+      ],
+      "raw_material_total_kg": 10.0,
+      "fat_handling_summary": "Koristi se samo čvrsta, hladna slanina. Mekana, maziva ili topla masnoća se uklanja jer razmazuje presjek i zatvara teksturu kobasice."
+    }
+  },
+  {
+    "id": "spices",
+    "title": "Začini i dodatci za 10 kg",
+    "type": "spices_table",
+    "content": {
+      "items": [
+        {
+          "name": "sol",
+          "chosen_g": 190,
+          "g_per_kg": 19.0,
+          "source_relation": "unutar stručnog raspona 1,8-2 %"
+        },
+        {
+          "name": "šećer",
+          "chosen_g": 25,
+          "g_per_kg": 2.5,
+          "source_relation": "blisko skaliranom javnom receptu; pomaže početku fermentacije i zaokružuje ljutinu"
+        },
+        {
+          "name": "crni papar / biber, mljeven ili grublje lomljen",
+          "chosen_g": 45,
+          "g_per_kg": 4.5,
+          "source_relation": "blisko skaliranom javnom receptu"
+        },
+        {
+          "name": "slatka mljevena paprika",
+          "chosen_g": 120,
+          "g_per_kg": 12.0,
+          "source_relation": "radno uravnoteženje unutar ukupnog papričnog profila"
+        },
+        {
+          "name": "ljuta mljevena paprika",
+          "chosen_g": 70,
+          "g_per_kg": 7.0,
+          "source_relation": "ljuta varijanta; ukupna paprika 190 g / 10 kg"
+        },
+        {
+          "name": "pastozni češnjak",
+          "chosen_g": 28,
+          "g_per_kg": 2.8,
+          "source_relation": "usklađeno sa stručnim rasponom 0,2-0,3 % češnjaka"
+        }
+      ],
+      "total_paprika_g": 190,
+      "paprika_percent": 1.9,
+      "salt_percent": 1.9,
+      "garlic_percent": 0.28,
+      "nitrite_nitrate_policy": {
+        "used": false,
+        "note": "Nitritna sol, nitriti i nitrati nisu uključeni u ovaj bazni draft. Ako se kasnije uključe, recept mora dobiti zasebnu sigurnosnu napomenu i precizno doziranje."
+      }
+    }
+  },
+  {
+    "id": "grinding",
+    "title": "Mljevenje i obrada tvrde slanine",
+    "type": "technical_box",
+    "content": {
+      "pre_cut_size_mm": "20-30",
+      "chosen_plate_mm": 6,
+      "meat_temperature_c": "0-4",
+      "mix_temperature_max_c": 8,
+      "fat_handling": "Tvrdu slaninu držati vrlo hladnom, po potrebi kratko pothladiti. Ako se mast lijepi za nož ili puž mašine, rad se prekida i sirovina se ponovno hladi.",
+      "texture_goal": "srednje fina baranjska kobasičarska granulacija; paprika ravnomjerno boji masu, a mast ostaje vidljiva i nerazmazana"
+    }
+  },
+  {
+    "id": "garlic_liquids",
+    "title": "Češnjak i tekućine",
+    "type": "technical_box",
+    "content": {
+      "mode": "direct_garlic_paste",
+      "paste_garlic_used": true,
+      "garlic_liquid_used": false,
+      "chosen_g_per_10kg": 28,
+      "preparation": "Češnjak se koristi kao pasta ili vrlo fino zgnječeni češnjak. Dodaje se izravno u smjesu tijekom miješanja.",
+      "soaking_liquid": "none",
+      "soaking_time_minutes": 0,
+      "boiled": false,
+      "cooled": false,
+      "note": "Ne koristi se tekućina od češnjaka. Ako se u budućoj varijanti koristi procijeđena tekućina, mora se posebno navesti voda, količina, vrijeme, prokuhavanje/hlađenje i procjeđivanje."
+    }
+  },
+  {
+    "id": "casing",
+    "title": "Crijeva, namakanje i punjenje",
+    "type": "technical_box",
+    "content": {
+      "casing_type": "tanka svinjska crijeva",
+      "source_length_guidance_cm": "35-40",
+      "working_caliber_guidance": "tanka svinjska crijeva za domaću kobasicu; kalibar ovisi o dobavljaču, obično oko 28-34 mm",
+      "soaking": {
+        "required": true,
+        "liquid": "pitka voda",
+        "temperature_c": "20-25",
+        "time_minutes": "30-45",
+        "boiled": false,
+        "rinsing": "isprati izvana i iznutra prije punjenja",
+        "additives": "bez octa, soli ili drugih dodataka osim ako dobavljač crijeva izričito traži"
+      },
+      "filling": "Puniti čvrsto, ali ne pretvrdo. Oblikovati komade 35-40 cm, istisnuti zračne džepove i po potrebi probosti sterilnom iglom."
+    }
+  },
+  {
+    "id": "identity",
+    "title": "Regionalni identitet",
+    "type": "text",
+    "content": {
+      "short_description": "Baranjska ljuta kobasica je dimljena i sušena kobasica u tankom svinjskom crijevu, s naglašenom paprikom, češnjakom i paprom.",
+      "regional_signature": [
+        "paprika kao glavni aromatski i vizualni potpis",
+        "ljuta paprika kao obilježje ljute varijante",
+        "češnjak i papar/biber kao pomoćni začinski nositelji",
+        "dimljenje i zrenje u slavonsko-baranjskom stilu"
+      ],
+      "not_public_claims": [
+        "ne tvrditi EU zaštićeni status",
+        "ne tvrditi da je ovo jedina izvorna receptura",
+        "ne prikazivati kao službeni disciplinar"
+      ]
+    }
+  },
+  {
+    "id": "done_when",
+    "title": "Gotovo je kad…",
+    "type": "checklist",
+    "content": [
+      "kobasica je čvrsta, ali ne kameno tvrda",
+      "presjek je jednoliko crvenkast od paprike",
+      "mast je vidljiva i nerazmazana",
+      "miris je ugodan, dimljen, papričan i blago češnjakast",
+      "nema sluzi, ljepljive površine, napuhavanja ni truležnog mirisa",
+      "nakon rezanja kriška drži oblik i ne raspada se",
+      "zrenje je trajalo najmanje 25-30 dana u primjerenim uvjetima"
+    ]
+  },
+  {
+    "id": "problems_solutions",
+    "title": "Najčešće greške i konkretna rješenja",
+    "type": "problem_solution_table",
+    "content": [
+      {
+        "problem": "Razmazana mast u presjeku",
+        "likely_cause": "Slanina ili meso bili su pretopli tijekom mljevenja ili miješanja.",
+        "solution": "Zaustaviti rad, ohladiti sirovinu i dijelove mašine, nastaviti tek kada je masa ponovno hladna. Sljedeći put koristiti tvrđu slaninu."
+      },
+      {
+        "problem": "Gorka, čađava površina",
+        "likely_cause": "Dim je bio pregust, vruć ili je izgaralo vlažno/nečisto drvo.",
+        "solution": "Prekinuti dimljenje, provjetravati kobasice i nastaviti samo tankim hladnim dimom. Ne koristiti smolasto ili vlažno drvo."
+      },
+      {
+        "problem": "Presuh rub i mekana jezgra",
+        "likely_cause": "Prejak propuh ili preniska vlaga u prostoru.",
+        "solution": "Smanjiti propuh, stabilizirati vlagu i produžiti zrenje. Ne ubrzavati sušenje jakom ventilacijom."
+      },
+      {
+        "problem": "Preoštra ljutina bez zaokruženog okusa",
+        "likely_cause": "Previše ljute paprike ili prekratko zrenje.",
+        "solution": "Ostaviti dulje zrenje ako nema znakova kvarenja. Sljedeći put smanjiti ljutu papriku i dio zamijeniti slatkom paprikom."
+      },
+      {
+        "problem": "Kiseli miris ili neugodan okus",
+        "likely_cause": "Previše šećera, previsoka temperatura, loša higijena ili nepravilan tijek fermentacije.",
+        "solution": "Sumnjiv proizvod ne kušati i ne posluživati. Sljedeći put smanjiti temperaturu obrade i bolje kontrolirati higijenu."
+      },
+      {
+        "problem": "Sluzava površina ili neobične plijesni",
+        "likely_cause": "Previsoka vlaga, slab protok zraka ili kontaminacija prostora.",
+        "solution": "Ako je miris neugodan ili sluz prodire u ovitak, proizvod odbaciti. Prostor očistiti, osušiti i provjetriti prije nove šarže."
+      },
+      {
+        "problem": "Zračne šupljine",
+        "likely_cause": "Nedovoljno čvrsto punjenje ili zrak u punilici.",
+        "solution": "Manje džepove probosti sterilnom iglom odmah nakon punjenja. Kod velikih šupljina povećava se rizik kvarenja i proizvod treba pažljivo nadzirati."
+      }
+    ]
+  },
+  {
+    "id": "serving_storage",
+    "title": "Posluživanje i čuvanje",
+    "type": "text",
+    "content": {
+      "serving": "Rezati tanko i posluživati kao suhomesnatu kobasicu. Ne tretirati kao kobasicu za pečenje.",
+      "storage": "Čuvati na hladnom, suhom i prozračnom mjestu. Nakon narezivanja zaštititi presjek od isušivanja.",
+      "public_note": "Ako postoji sumnja u miris, boju, sluzavost ili napuhavanje, proizvod se ne kuša i ne poslužuje."
+    }
+  },
+  {
+    "id": "editorial_status",
+    "title": "Urednički status",
+    "type": "private_status",
+    "content": {
+      "recipe_status": "CANON_DRAFT_V1_PUBLIC_UPDATE_BLOCKED",
+      "public_update_allowed": false,
+      "public_publish_allowed": false,
+      "source_post_write_allowed": false,
+      "active_blockers": [
+        "internal QA recipe.yml još nije napravljen",
+        "javni WordPress update nije dopušten",
+        "treba generirati _dry_recipe_sections i _dry_verified_process",
+        "treba napraviti privatni preview clone prije bilo kakvog javnog updatea",
+        "naslov treba uredničku normalizaciju prije javne objave"
+      ],
+      "title_review_required": true
+    }
+  }
+]
