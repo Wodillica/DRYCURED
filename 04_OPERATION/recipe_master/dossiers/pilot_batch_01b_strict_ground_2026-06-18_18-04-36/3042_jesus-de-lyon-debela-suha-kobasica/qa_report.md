@@ -188,3 +188,16 @@ Status: **PATCH_APPLIED_PRIVATE_CLONE_ONLY**
 - Report: `review/meta_normalizer_patch_v1_2026-06-18_19-21-39/3535_META_NORMALIZER_PATCH_REPORT.md`
 - Result JSON: `review/meta_normalizer_patch_v1_2026-06-18_19-21-39/3535_meta_normalizer_patch_result.json`
 
+<!-- DC_3535_POST_PATCH_RENDER_QA_V1 -->
+
+## 3535 post-patch render QA v1
+
+Status: **PASS_CONTENT_ONLY_RENDERER_NOT_ACTIVATED**
+
+- Source unchanged from patch: `true`
+- Clone `_dry_recipe_id`: `MD-JESUS_DE_LYON_DEBELA_SUHA_KOBASICA`
+- Public update allowed: `false`
+- Publicly exposed: `false`
+- Renderer improved: `false`
+- Report: `review/post_patch_render_qa_v1_2026-06-19_16-46-44/3535_POST_PATCH_RENDER_QA_REPORT.md`
+
