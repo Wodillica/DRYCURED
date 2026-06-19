@@ -1,0 +1,13 @@
+=== 2697 PRIVATE CLONE COMPLETE ===
+CLONE_STATUS=PRIVATE_CLONE_CREATED_QA_PASS
+SOURCE_POST_ID=2697
+CLONE_ID=3537
+SOURCE_UNCHANGED=true
+PUBLIC_UPDATE_ALLOWED=false
+PUBLIC_PUBLISH_ALLOWED=false
+SOURCE_POST_WRITE_ALLOWED=false
+PUBLICLY_EXPOSED=false
+BLOCKER_FAIL_TOTAL=0
+ADMIN_PREVIEW_URL=https://drycured.com/?post_type=dry_recipe&p=3537
+ADMIN_EDIT_URL=https://drycured.com/wp-admin/post.php?post=3537&action=edit
+REPORT=/root/DRYCURED_GITHUB/04_OPERATION/recipe_master/dossiers/hr_strict_batch_01_2026-06-19_18-09-29/2697_baranjska-ljuta-slavonska-kobasica/review/private_clone_v1_2026-06-19_19-01-22/2697_PRIVATE_CLONE_REPORT.md

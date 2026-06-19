@@ -1,0 +1,116 @@
+{
+    "generated_at": "2026-06-19T19:01:24+00:00",
+    "status": "PRIVATE_CLONE_CREATED_QA_PASS",
+    "source_post_id": 2697,
+    "clone_id": 3537,
+    "clone_status": "private",
+    "clone_type": "dry_recipe",
+    "admin_preview_url": "https://drycured.com/?post_type=dry_recipe&p=3537",
+    "admin_edit_url": "https://drycured.com/wp-admin/post.php?post=3537&action=edit",
+    "source_unchanged": true,
+    "public_update_allowed": false,
+    "public_publish_allowed": false,
+    "source_post_write_allowed": false,
+    "public_fetch": {
+        "ok": true,
+        "http_code": 404,
+        "error": "",
+        "body_length": 230844,
+        "plain_excerpt": "Stranica nije pronađena. &#8211; drycured.com Skip to content drycured.com RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja drycured.com Main Menu RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja This page doesn&#039;t seem to exist. It looks like the link pointing here was faulty. Maybe try searching? Search for: Search Copyright &copy; 2026 drycured.com &times; Prijava Dobrodošli natrag u Digitalnu pušnicu. Korisničko ime ili email Lozinka Zapamti me Zaboravljena lozinka? Prijavi se nemate račun? Otvori novi račun Drycured Tražilica&times; Upišite pojam za pretragu receptura i tehnika. Esc zatvoriCtrl+K otvori ⏳ Scroll to Top Kolačići na drycured.com Koristimo nužne kolačiće za rad stranice. Funkcionalne kolačiće koristimo za dodatne mo",
+        "publicly_exposed": false
+    },
+    "clone_meta": {
+        "_dry_recipe_preview_mode": "PRIVATE_CLONE_ONLY",
+        "_dry_recipe_preview_source_post_id": "2697",
+        "_dry_recipe_public_update_allowed": "0",
+        "_dry_recipe_public_verified": "0",
+        "_dry_recipe_id": "HR-BR-2697-BARANJSKA-LJUTA-KOBASICA",
+        "_dry_recipe_sections_length": 14294,
+        "_dry_verified_process_length": 6866,
+        "_dry_recipe_full_markdown_length": 8217
+    },
+    "checks": [
+        {
+            "key": "clone_created",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Private clone mora biti kreiran."
+        },
+        {
+            "key": "clone_private",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Clone mora biti private."
+        },
+        {
+            "key": "clone_type",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Clone mora biti dry_recipe."
+        },
+        {
+            "key": "source_unchanged",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Source post 2697 ne smije biti promijenjen."
+        },
+        {
+            "key": "preview_mode",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Preview mode mora biti PRIVATE_CLONE_ONLY."
+        },
+        {
+            "key": "source_link",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Clone mora biti vezan na source 2697."
+        },
+        {
+            "key": "public_update_zero",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Public update mora biti 0."
+        },
+        {
+            "key": "public_verified_zero",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Public verified mora biti 0."
+        },
+        {
+            "key": "recipe_id_present",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Recipe ID mora biti upisan."
+        },
+        {
+            "key": "sections_present",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Sections meta mora biti prisutan."
+        },
+        {
+            "key": "verified_process_present",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Verified process meta mora biti prisutan."
+        },
+        {
+            "key": "full_markdown_present",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Full markdown meta mora biti prisutan."
+        },
+        {
+            "key": "not_publicly_exposed",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Privatni clone ne smije biti javno izložen neprijavljenom korisniku."
+        }
+    ],
+    "major_fail_total": 0,
+    "blocker_fail_total": 0,
+    "manual_preview_required": true,
+    "manual_preview_instruction": "Otvoriti admin_preview_url dok je korisnik prijavljen kao administrator."
+}

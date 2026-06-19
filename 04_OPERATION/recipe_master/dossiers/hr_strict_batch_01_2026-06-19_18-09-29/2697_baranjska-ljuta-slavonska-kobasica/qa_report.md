@@ -87,3 +87,22 @@ Status: **PREVIEW_PAYLOAD_READY_FOR_PRIVATE_CLONE**
 - Blocker fail total: `0`
 - Report: `review/preview_payload_v1_2026-06-19_18-54-39/2697_PREVIEW_PAYLOAD_REPORT.md`
 - Payload: `review/preview_payload_v1_2026-06-19_18-54-39/2697_private_preview_payload_v1.json`
+
+<!-- DC_2697_PRIVATE_CLONE_V1 -->
+
+## 2697 private clone v1
+
+Status: **PRIVATE_CLONE_CREATED_QA_PASS**
+
+- Source post ID: `2697`
+- Clone ID: `3537`
+- Admin preview URL: `https://drycured.com/?post_type=dry_recipe&p=3537`
+- Admin edit URL: `https://drycured.com/wp-admin/post.php?post=3537&action=edit`
+- Source unchanged: `true`
+- Public update allowed: `false`
+- Public publish allowed: `false`
+- Source post write allowed: `false`
+- Publicly exposed: `false`
+- Blocker fail total: `0`
+- Report: `review/private_clone_v1_2026-06-19_19-01-22/2697_PRIVATE_CLONE_REPORT.md`
+- JSON: `review/private_clone_v1_2026-06-19_19-01-22/2697_private_clone_result.json`

@@ -57,3 +57,15 @@ Status: **RECIPE_YML_QA_PASS_READY_FOR_SECTIONS**
 Status: **PREVIEW_PAYLOAD_READY_FOR_PRIVATE_CLONE**
 
 Generirani su `_dry_recipe_sections`, `_dry_verified_process` i `_dry_recipe_full_markdown` za budući privatni clone. Javni update ostaje zabranjen.
+
+<!-- DC_2697_PRIVATE_CLONE_V1 -->
+
+## 2697 private clone v1
+
+Status: **PRIVATE_CLONE_CREATED_QA_PASS**
+
+Privatni clone za pregled kartičnog prikaza je izrađen.
+
+Admin preview URL: `https://drycured.com/?post_type=dry_recipe&p=3537`
+
+Javni post `2697` nije mijenjan.
