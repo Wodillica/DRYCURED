@@ -54,3 +54,20 @@ Status: **RECIPE_YML_DRAFT_READY_INTERNAL_QA_REQUIRED**
 - Blocker fail total: `0`
 - Report: `review/recipe_yml_draft_v1_2026-06-19_18-40-58/2697_RECIPE_YML_DRAFT_REPORT.md`
 - JSON: `review/recipe_yml_draft_v1_2026-06-19_18-40-58/2697_recipe_yml_draft_v1.json`
+
+<!-- DC_2697_RECIPE_YML_INTERNAL_QA_V1 -->
+
+## 2697 Baranjska kobasica – ljuta varijanta recipe.yml internal QA v1
+
+Status: **RECIPE_YML_QA_PASS_READY_FOR_SECTIONS**
+
+- WordPress write allowed: `false`
+- Public update allowed: `false`
+- Public publish allowed: `false`
+- Source post write allowed: `false`
+- Raw material total: `10.0 kg`
+- Major fail total: `0`
+- Blocker fail total: `0`
+- Ready for sections: `true`
+- Report: `review/recipe_yml_internal_qa_v1_2026-06-19_18-48-00/2697_RECIPE_YML_INTERNAL_QA_REPORT.md`
+- JSON: `review/recipe_yml_internal_qa_v1_2026-06-19_18-48-00/2697_recipe_yml_internal_qa_v1.json`

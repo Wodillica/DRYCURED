@@ -41,3 +41,11 @@ Ispravljeni su dokumentacijski artefakti source validation koraka za `2697 — B
 Status: **RECIPE_YML_DRAFT_READY_INTERNAL_QA_REQUIRED**
 
 Izrađen je radni `recipe.yml` za `Baranjska kobasica – ljuta varijanta`, standardiziran na 10 kg ukupne mesne smjese. Javni update ostaje zabranjen.
+
+<!-- DC_2697_RECIPE_YML_INTERNAL_QA_V1 -->
+
+## 2697 recipe.yml internal QA v1
+
+Status: **RECIPE_YML_QA_PASS_READY_FOR_SECTIONS**
+
+`recipe.yml` za Baranjsku kobasicu – ljutu varijantu provjeren je internim QA-om. Javni update ostaje blokiran.

@@ -1,0 +1,493 @@
+{
+  "generated_at": "2026-06-19T18:48:00.399825+00:00",
+  "post_id": 2697,
+  "recipe_code": "HR-BR-2697-BARANJSKA-LJUTA-KOBASICA",
+  "qa_status": "RECIPE_YML_QA_PASS_READY_FOR_SECTIONS",
+  "wordpress_write_allowed": false,
+  "public_update_allowed": false,
+  "public_publish_allowed": false,
+  "source_post_write_allowed": false,
+  "ready_for_sections": true,
+  "ready_for_private_clone": false,
+  "raw_material_total_kg": 10.0,
+  "recipe_type_router": "GROUND_MEAT_OR_CASING",
+  "checks": [
+    {
+      "key": "schema_version",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Schema mora biti drycured_recipe_yml_v1."
+    },
+    {
+      "key": "post_id",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Post ID mora biti 2697."
+    },
+    {
+      "key": "recipe_code",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Recipe code mora biti stabilan."
+    },
+    {
+      "key": "title_hr",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Radni naslov mora biti urednički normaliziran."
+    },
+    {
+      "key": "title_review_required",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Mora ostati označeno da je prije javne objave potrebna recenzija naslova."
+    },
+    {
+      "key": "country_region",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Recept mora biti hrvatski, regija Baranja/Slavonija."
+    },
+    {
+      "key": "recipe_type",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Baranjska kobasica mora biti GROUND_MEAT_OR_CASING."
+    },
+    {
+      "key": "canonical_confirmed",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Source validation mora biti CONFIRMED_RECIPE."
+    },
+    {
+      "key": "draft_status",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Draft status mora biti spreman za internal QA."
+    },
+    {
+      "key": "public_update_false",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Javni update mora biti false."
+    },
+    {
+      "key": "public_publish_false",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Javna objava mora biti false."
+    },
+    {
+      "key": "source_post_write_false",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Source post se ne smije mijenjati."
+    },
+    {
+      "key": "sources_present",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Moraju biti prisutna sva tri zaključana izvora."
+    },
+    {
+      "key": "sources_yml_contains_sources",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "sources.yml mora sadržavati sve izvore."
+    },
+    {
+      "key": "no_protected_status_claim",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Ne smije se tvrditi EU zaštićeni status."
+    },
+    {
+      "key": "raw_material_sum_10kg",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Ukupno sirovina mora biti 10 kg; dobiveno 10.0."
+    },
+    {
+      "key": "raw_material_two_groups",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Radna formula treba jasno razlikovati meso i tvrdu slaninu."
+    },
+    {
+      "key": "meat_kg_scaled",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Meso mora biti skalirano na oko 9,09 kg."
+    },
+    {
+      "key": "fat_kg_scaled",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Tvrda slanina mora biti skalirana na oko 0,91 kg."
+    },
+    {
+      "key": "fat_handling_summary",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Mora biti opisana obrada tvrde slanine/masnoće."
+    },
+    {
+      "key": "salt_190g",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Sol mora biti 190 g / 10 kg u ovom draftu."
+    },
+    {
+      "key": "salt_percent",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Sol mora biti 1,9 %."
+    },
+    {
+      "key": "sugar_25g",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Šećer mora biti 25 g / 10 kg."
+    },
+    {
+      "key": "pepper_45g",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Papar/biber mora biti 45 g / 10 kg."
+    },
+    {
+      "key": "sweet_paprika_120g",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Slatka paprika mora biti 120 g / 10 kg."
+    },
+    {
+      "key": "hot_paprika_70g",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Ljuta paprika mora biti 70 g / 10 kg."
+    },
+    {
+      "key": "paprika_total_190g",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Ukupna paprika mora biti 190 g / 10 kg."
+    },
+    {
+      "key": "paprika_percent",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Ukupna paprika mora biti 1,9 %."
+    },
+    {
+      "key": "garlic_28g",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Pastozni češnjak mora biti 28 g / 10 kg."
+    },
+    {
+      "key": "garlic_percent",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Češnjak mora biti 0,28 %."
+    },
+    {
+      "key": "nitrite_not_used",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Nitritna sol nije uključena u bazni draft."
+    },
+    {
+      "key": "garlic_mode_paste",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Češnjak mora biti pasta / fino zgnječeni češnjak."
+    },
+    {
+      "key": "garlic_paste_used",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Mora biti označeno da se koristi pastozni češnjak."
+    },
+    {
+      "key": "garlic_liquid_false",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Ne koristi se tekućina od češnjaka."
+    },
+    {
+      "key": "garlic_no_soaking",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Ako nema tekućine od češnjaka, to mora biti eksplicitno navedeno."
+    },
+    {
+      "key": "pre_cut_present",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Dimenzija rezanja prije mljevenja mora biti 20-30 mm."
+    },
+    {
+      "key": "grinding_6mm",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Mljevenje mora biti 6 mm."
+    },
+    {
+      "key": "meat_temperature",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Temperatura mesa mora biti 0-4 °C."
+    },
+    {
+      "key": "mix_temp_max",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Maksimalna temperatura smjese mora biti 8 °C."
+    },
+    {
+      "key": "fat_handling_detail",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Mora biti detaljno opisana obrada tvrde slanine."
+    },
+    {
+      "key": "texture_goal",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Mora biti cilj nerazmazane masnoće."
+    },
+    {
+      "key": "casing_type",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Ovitak mora biti tanka svinjska crijeva."
+    },
+    {
+      "key": "casing_length",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Dužina komada mora biti 35-40 cm prema izvoru."
+    },
+    {
+      "key": "casing_caliber_guidance",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Mora postojati radna smjernica kalibra."
+    },
+    {
+      "key": "soaking_required",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Namakanje mora biti definirano."
+    },
+    {
+      "key": "soaking_liquid",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Tekućina za namakanje mora biti pitka voda."
+    },
+    {
+      "key": "soaking_temperature",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Temperatura namakanja mora biti 20-25 °C."
+    },
+    {
+      "key": "soaking_time",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Vrijeme namakanja mora biti 30-45 min."
+    },
+    {
+      "key": "casing_not_boiled",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Crijeva se ne prokuhavaju."
+    },
+    {
+      "key": "casing_rinsing",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Mora biti navedeno ispiranje."
+    },
+    {
+      "key": "process_step_count",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Proces mora imati najmanje 10 faza."
+    },
+    {
+      "key": "process_has_odabir",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Proces mora sadržavati fazu: odabir."
+    },
+    {
+      "key": "process_has_rezanje",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Proces mora sadržavati fazu: rezanje."
+    },
+    {
+      "key": "process_has_mljevenje",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Proces mora sadržavati fazu: mljevenje."
+    },
+    {
+      "key": "process_has_miješanje",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Proces mora sadržavati fazu: miješanje."
+    },
+    {
+      "key": "process_has_crijeva",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Proces mora sadržavati fazu: crijeva."
+    },
+    {
+      "key": "process_has_punjenje",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Proces mora sadržavati fazu: punjenje."
+    },
+    {
+      "key": "process_has_odmor",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Proces mora sadržavati fazu: odmor."
+    },
+    {
+      "key": "process_has_dimljenje",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Proces mora sadržavati fazu: dimljenje."
+    },
+    {
+      "key": "process_has_zrenje",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Proces mora sadržavati fazu: zrenje."
+    },
+    {
+      "key": "process_has_završna",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Proces mora sadržavati fazu: završna."
+    },
+    {
+      "key": "smoking_3_4_by_6h",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Dimljenje mora imati 3-4 dima po oko 6 h."
+    },
+    {
+      "key": "smoking_alt_5_6",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Treba biti zabilježena i stručna usporedba 5-6 dimova svaki drugi dan."
+    },
+    {
+      "key": "maturation_25_30",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "Zrenje mora imati 25-30 dana."
+    },
+    {
+      "key": "thin_blue_smoke",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Dimljenje mora spominjati tanak plavi dim."
+    },
+    {
+      "key": "done_when_count",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Mora biti dovoljno kriterija gotovosti."
+    },
+    {
+      "key": "problem_solution_count",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Mora biti najmanje 7 problema s rješenjima."
+    },
+    {
+      "key": "problem_solution_1",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Svaki problem mora imati problem, uzrok i konkretno rješenje."
+    },
+    {
+      "key": "problem_solution_2",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Svaki problem mora imati problem, uzrok i konkretno rješenje."
+    },
+    {
+      "key": "problem_solution_3",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Svaki problem mora imati problem, uzrok i konkretno rješenje."
+    },
+    {
+      "key": "problem_solution_4",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Svaki problem mora imati problem, uzrok i konkretno rješenje."
+    },
+    {
+      "key": "problem_solution_5",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Svaki problem mora imati problem, uzrok i konkretno rješenje."
+    },
+    {
+      "key": "problem_solution_6",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Svaki problem mora imati problem, uzrok i konkretno rješenje."
+    },
+    {
+      "key": "problem_solution_7",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Svaki problem mora imati problem, uzrok i konkretno rješenje."
+    },
+    {
+      "key": "not_for_frying",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Mora pisati da se ne tretira kao kobasica za pečenje."
+    },
+    {
+      "key": "discard_suspicious",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Sumnjiv proizvod se ne kuša i ne poslužuje."
+    },
+    {
+      "key": "active_blockers_present",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "Mora biti jasno što još blokira javni update."
+    },
+    {
+      "key": "recipe_yml_no_tabs",
+      "status": "PASS",
+      "severity": "MAJOR",
+      "note": "recipe.yml ne smije imati tab znakove."
+    },
+    {
+      "key": "recipe_yml_no_public_true",
+      "status": "PASS",
+      "severity": "BLOCKER",
+      "note": "recipe.yml ne smije imati public_update_allowed true."
+    }
+  ],
+  "major_fail_total": 0,
+  "blocker_fail_total": 0,
+  "next_step": "GENERATE_DRY_RECIPE_SECTIONS_AND_VERIFIED_PROCESS"
+}
