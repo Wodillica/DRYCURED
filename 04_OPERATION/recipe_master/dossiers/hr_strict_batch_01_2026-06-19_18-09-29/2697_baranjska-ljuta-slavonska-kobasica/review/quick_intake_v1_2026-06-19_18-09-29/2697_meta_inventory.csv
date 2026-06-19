@@ -1,0 +1,19 @@
+meta_key,length,json_valid,preview
+_dry_archive_ready,3,NO,yes
+_dry_calculator_ready,2,NO,no
+_dry_canonical_status,12,NO,public_ready
+_dry_legacy_hidden_before_batch01,1,YES,1
+_dry_legacy_hidden_date,19,NO,"2026-05-30 08:21:41"
+_dry_legacy_hidden_reason,86,NO,"Hidden before canonical Batch 01 import. Old recipe corpus is not production-approved."
+_dry_public_ready,3,NO,yes
+_dry_recipe_data,1133,YES,"{""recipe_id"":""HRV-BARANJSKA-LJUTA-SLAVONSKA-KOBA"",""title"":""Baranjska Ljuta Slavonska Kobasica"",""country_hr"":""Hrvatska"",""country"":""Hrvatska"",""region"":""Baranja"",""microregion"":""Baranja"",""category"":""Kobasica"",""product_type"":""suha kobasica"",""meat_types"":[""svinjetina""],""processes"":[""fermentirano"",""dimljeno"",""sušeno""],""batch_weight_kg"":10,""pdz_status"":""nema"",""review_status"":""pending_review"",""public_ready"":false,""calculator_ready"":false,""public_recipe"":{""intro"":""Baranjska Ljuta Slavonska Kobasica je tra"
+_dry_recipe_full_markdown,3937,NO,"## Baranjska Ljuta Slavonska Kobasica
+
+Baranjska Ljuta Slavonska Kobasica pripada tradiciji područja Hrvatska, Hrvatska. Radi se kao suha kobasica od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.
+
+### Radni sažetak
+
+- Šarža: 10 kg osnovne sirovine ili mesne smjese.
+- Tip proizvoda: suha kobasica."
+_dry_recipe_id,37,NO,MD-BARANJSKA_LJUTA_SLAVONSKA_KOBASICA
+_dry_recipe_params,155,YES,"{""sol_g_kg"":25,""zrenje_dani_min"":60,""zrenje_dani_max"":90,""zrenje_temp_min"":12,""zrenje_temp_max"":15,""vlaga_min"":60,""vlaga_max"":70,""dim"":true,""dim_vrsta"":""""}"

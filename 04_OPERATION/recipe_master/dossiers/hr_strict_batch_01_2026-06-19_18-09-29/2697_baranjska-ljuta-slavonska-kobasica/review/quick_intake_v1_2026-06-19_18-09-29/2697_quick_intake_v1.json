@@ -1,0 +1,213 @@
+{
+    "generated_at": "2026-06-19T18:09:30+00:00",
+    "mode": "READ_ONLY_QUICK_INTAKE",
+    "post_id": 2697,
+    "intake_status": "INTAKE_COMPLETE",
+    "wordpress_write_allowed": false,
+    "public_update_allowed": false,
+    "expected_type": "GROUND_MEAT_OR_CASING",
+    "post": {
+        "ID": 2697,
+        "post_title": "Baranjska Ljuta Slavonska Kobasica",
+        "post_name": "baranjska-ljuta-slavonska-kobasica",
+        "post_status": "publish",
+        "post_type": "dry_recipe",
+        "post_modified_gmt": "2026-06-04 07:53:30",
+        "permalink": "https://drycured.com/recepti-baza/baranjska-ljuta-slavonska-kobasica/",
+        "content_length": 3937,
+        "content_excerpt": "## Baranjska Ljuta Slavonska Kobasica Baranjska Ljuta Slavonska Kobasica pripada tradiciji područja Hrvatska, Hrvatska. Radi se kao suha kobasica od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju. ### Radni sažetak - Šarža: 10 kg osnovne sirovine ili mesne smjese. - Tip proizvoda: suha kobasica. - Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi. - Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm. - Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova. - Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje. - Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine. ### Sastojci: - 10,000 kg svinjskog mesa (70% mesa, 30% slanine) - 250 g morske soli - 80 g ljute crvene paprike - 60 g slatke paprike - 50 g bijelog luka - 40 g crnog papra - 35 g divljeg origana - 30 g mirođije ### Crijeva / omotač: Koristiti svinjska crijeva promjera 28–32 mm. Crijeva isprati od soli i namočiti 30–45 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja još jednom ih isprati iznutra i izvana. Crijeva se ne prokuhavaju. ### Češnjak i tekućine: Češnjak se u ovom receptu ne koristi kao zaseban dodatak. Ako se dodaje radi lokalne varijante, najbolje ga je koristiti kao procijeđenu aromatičnu tekućinu, a ne kao krupne komadiće u nadjevu. ### Postupak: - Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C. - Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C. - Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv. - Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili. - Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom. - Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru il"
+    },
+    "meta": {
+        "_dry_archive_ready": {
+            "length": 3,
+            "json_valid": false,
+            "preview": "yes"
+        },
+        "_dry_calculator_ready": {
+            "length": 2,
+            "json_valid": false,
+            "preview": "no"
+        },
+        "_dry_canonical_status": {
+            "length": 12,
+            "json_valid": false,
+            "preview": "public_ready"
+        },
+        "_dry_legacy_hidden_before_batch01": {
+            "length": 1,
+            "json_valid": true,
+            "preview": "1"
+        },
+        "_dry_legacy_hidden_date": {
+            "length": 19,
+            "json_valid": false,
+            "preview": "2026-05-30 08:21:41"
+        },
+        "_dry_legacy_hidden_reason": {
+            "length": 86,
+            "json_valid": false,
+            "preview": "Hidden before canonical Batch 01 import. Old recipe corpus is not production-approved."
+        },
+        "_dry_public_ready": {
+            "length": 3,
+            "json_valid": false,
+            "preview": "yes"
+        },
+        "_dry_recipe_data": {
+            "length": 1133,
+            "json_valid": true,
+            "preview": "{\"recipe_id\":\"HRV-BARANJSKA-LJUTA-SLAVONSKA-KOBA\",\"title\":\"Baranjska Ljuta Slavonska Kobasica\",\"country_hr\":\"Hrvatska\",\"country\":\"Hrvatska\",\"region\":\"Baranja\",\"microregion\":\"Baranja\",\"category\":\"Kobasica\",\"product_type\":\"suha kobasica\",\"meat_types\":[\"svinjetina\"],\"processes\":[\"fermentirano\",\"dimljeno\",\"sušeno\"],\"batch_weight_kg\":10,\"pdz_status\":\"nema\",\"review_status\":\"pending_review\",\"public_ready\":false,\"calculator_ready\":false,\"public_recipe\":{\"intro\":\"Baranjska Ljuta Slavonska Kobasica je tra"
+        },
+        "_dry_recipe_full_markdown": {
+            "length": 3937,
+            "json_valid": false,
+            "preview": "## Baranjska Ljuta Slavonska Kobasica\n\nBaranjska Ljuta Slavonska Kobasica pripada tradiciji područja Hrvatska, Hrvatska. Radi se kao suha kobasica od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju.\n\n### Radni sažetak\n\n- Šarža: 10 kg osnovne sirovine ili mesne smjese.\n- Tip proizvoda: suha kobasica."
+        },
+        "_dry_recipe_id": {
+            "length": 37,
+            "json_valid": false,
+            "preview": "MD-BARANJSKA_LJUTA_SLAVONSKA_KOBASICA"
+        },
+        "_dry_recipe_params": {
+            "length": 155,
+            "json_valid": true,
+            "preview": "{\"sol_g_kg\":25,\"zrenje_dani_min\":60,\"zrenje_dani_max\":90,\"zrenje_temp_min\":12,\"zrenje_temp_max\":15,\"vlaga_min\":60,\"vlaga_max\":70,\"dim\":true,\"dim_vrsta\":\"\"}"
+        }
+    },
+    "http": {
+        "http_code": "200",
+        "ok": true,
+        "error": "",
+        "body_length": 271140,
+        "plain_length": 6790,
+        "markers": {
+            "has_title": true,
+            "has_kobasica": true,
+            "has_slavonska_baranja": true,
+            "has_ingredients": true,
+            "has_grinding": true,
+            "has_casing": true,
+            "has_process": true,
+            "has_internal_terms": false
+        },
+        "plain_excerpt": "Baranjska Ljuta Slavonska Kobasica - drycured.com Skip to content drycured.com RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja drycured.com Main Menu RECEPTI BLOG KNJIGA FORUM Kalkulator Drycured podcast ALATI Menu Toggle Dijagnostika problema Praćenje gubitka težine Dnevnik serije Planer dimljenja Monitor sušionice HACCP kontrolna lista Inventar i sirovina Kalkulator soli Generator etiketa Pracenje pH Kalkulator sušenja DIGITALNA PUŠNICA Hrvatska Suha kobasica Baranjska Ljuta Slavonska Kobasica Baranjska Ljuta Slavonska Kobasica je prikazan kao radni recept za malu proizvodnju, s osnovnim omjerima, kontrolama i postupkom prilagođenim šarži od 10 kg. Otvori kalkulator za ovaj recept Sadržaj recepta Ispiši radnu verziju Šarža10 kg osnovne sirovine Tip proizvodasuha kobasica ili salama Procesdimljenje + sušenje Omotačprirodno / jestivo crijevo Statusjavni prikaz ✓Radni sažetak prije izrade Ovaj blok služi kao brza provjera prije rada i sažetak najvažnijih kontrolnih točaka. Za koga je recept Za malu proizvodnju i kućnu izradu, uz osnovne kontrole procesa i šaržu od 10 kg. Najvažnije kontrole Čista sirovina, hladna obrada, pravilno soljenje, miris proizvoda i kontrola površine tijekom sušenja ili zrenja. Ne preskači Ne preskakati hlađenje, bilježenje šarže, provjeru mirisa i završnu procjenu stabilnosti proizvoda. 1Sadržaj recepta Recept je prikazan u postojećem sadržajnom zapisu, ali u novom DCV5 vizualnom okviru. Baranjska Ljuta Slavonska Kobasica pripada tradiciji područja Hrvatska, Hrvatska. Radi se kao suha kobasica od svinjetina ili drugo meso prema receptu, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju. Radni sažetak Šarža: 10 kg osnovne sirovine ili mesne smjese. Tip proizvoda: suha kobasica ili salama. Glavna sirovina: svinjetina ili drugo meso prema receptu. Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm. Crijeva/omotač: koristiti prirodno ili odgovarajuće jestivo crijevo te puniti bez zračnih džepova. Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje. Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnji"
+    },
+    "render": {
+        "html_length": 4419,
+        "plain_length": 4106,
+        "markers": {
+            "has_title": true,
+            "has_kobasica": true,
+            "has_slavonska_baranja": true,
+            "has_ingredients": true,
+            "has_grinding": true,
+            "has_casing": true,
+            "has_process": true,
+            "has_internal_terms": false,
+            "has_drycured_trace": false
+        },
+        "plain_excerpt": "## Baranjska Ljuta Slavonska Kobasica Baranjska Ljuta Slavonska Kobasica pripada tradiciji područja Hrvatska, Hrvatska. Radi se kao suha kobasica od svinjetina/svinjski proizvodi, riba/morski proizvodi, uz soljenje, začinjavanje, punjenje u omotač te kontrolirano sušenje, dimljenje ili zrenje prema tipu proizvoda. Recept je prilagođen šarži od 10 kg osnovne sirovine za malu i kućnu proizvodnju. ### Radni sažetak &#8211; Šarža: 10 kg osnovne sirovine ili mesne smjese. &#8211; Tip proizvoda: suha kobasica. &#8211; Glavna sirovina: svinjetina/svinjski proizvodi, riba/morski proizvodi. &#8211; Rezanje/mljevenje: meso narezati na kocke 2–3 cm; mljeti prema strukturi proizvoda, najčešće kroz rešetku 6–8 mm. &#8211; Crijeva/omotač: pripremiti prema odjeljku o crijevima i puniti bez zračnih džepova. &#8211; Dimljenje/sušenje: koristiti hladni dim i kontrolirano zrenje, osim ako recept traži svježu kobasicu za pečenje. &#8211; Gotovo je kad proizvod ima čist miris, stabilnu teksturu i siguran presjek bez vlažne jezgre ili sumnjive površine. ### Sastojci: &#8211; 10,000 kg svinjskog mesa (70% mesa, 30% slanine) &#8211; 250 g morske soli &#8211; 80 g ljute crvene paprike &#8211; 60 g slatke paprike &#8211; 50 g bijelog luka &#8211; 40 g crnog papra &#8211; 35 g divljeg origana &#8211; 30 g mirođije ### Crijeva / omotač: Koristiti svinjska crijeva promjera 28–32 mm. Crijeva isprati od soli i namočiti 30–45 minuta u mlakoj vodi temperature 25–30 °C. Prije punjenja još jednom ih isprati iznutra i izvana. Crijeva se ne prokuhavaju. ### Češnjak i tekućine: Češnjak se u ovom receptu ne koristi kao zaseban dodatak. Ako se dodaje radi lokalne varijante, najbolje ga je koristiti kao procijeđenu aromatičnu tekućinu, a ne kao krupne komadiće u nadjevu. ### Postupak: &#8211; Priprema mesa: meso i masnoću očistiti od žila, krvnih podljeva i labavih dijelova. Narezati na kocke 2–3 cm i ohladiti na 0–2 °C. &#8211; Mljevenje: meso i masnoću samljeti kroz rešetku 6–8 mm, osim ako tradicija proizvoda traži krupnije rezanje. Temperatura smjese ne smije prijeći 8 °C. &#8211; Miješanje: dodati sol, začine i tekućinu ako se koristi. Miješati dok se nadjev ne poveže i ne postane blago ljepljiv. &#8211; Odležavanje nadjeva: pokrivenu smjesu držati 12–24 sata na 2–4 °C kako bi se sol i začini ravnomjerno rasporedili. &#8211; Punjenje: puniti u pripremljena crijeva ili omotače bez zračnih džepova. Zrak izbosti sterilnom iglom. &#8211; Predsušenje ili fermentacija: objesiti 12–48 sati u hladnom i prozračnom prostoru ili u kontroliranim uvjetima prema tipu proizvoda. &#8211; Dimljenje: dimiti"
+    },
+    "checks": [
+        {
+            "key": "post_exists",
+            "label": "Post 2697 postoji",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "WP zapis mora postojati."
+        },
+        {
+            "key": "post_type",
+            "label": "Post je dry_recipe",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Očekuje se dry_recipe."
+        },
+        {
+            "key": "post_publish",
+            "label": "Post je publish",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Strict queue ga je odabrao kao javni zapis."
+        },
+        {
+            "key": "title_identity",
+            "label": "Naziv odgovara Baranjskoj kobasici",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Provjera identiteta recepta."
+        },
+        {
+            "key": "http_200",
+            "label": "Javni HTTP je 200",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Javni zapis mora biti dohvatljiv."
+        },
+        {
+            "key": "type_ground_signal",
+            "label": "Signal mljevenog proizvoda u ovitku",
+            "status": "PASS",
+            "severity": "BLOCKER",
+            "note": "Kobasica ide u GROUND_MEAT_OR_CASING."
+        },
+        {
+            "key": "hr_region_signal",
+            "label": "Signal Baranja/Slavonija",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Mora imati hrvatski regionalni signal."
+        },
+        {
+            "key": "no_public_internal_terms",
+            "label": "Javni prikaz nema interne oznake",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Javni recept ne smije imati interne QA/preview oznake."
+        },
+        {
+            "key": "meta__dry_recipe_id",
+            "label": "Meta postoji: _dry_recipe_id",
+            "status": "PASS",
+            "severity": "MAJOR",
+            "note": "Pregled postojećeg meta stanja; ne znači da je javno spremno."
+        },
+        {
+            "key": "meta__dry_recipe_full_markdown",
+            "label": "Meta postoji: _dry_recipe_full_markdown",
+            "status": "PASS",
+            "severity": "INFO",
+            "note": "Pregled postojećeg meta stanja; ne znači da je javno spremno."
+        },
+        {
+            "key": "meta__dry_recipe_image_url",
+            "label": "Meta postoji: _dry_recipe_image_url",
+            "status": "FAIL",
+            "severity": "INFO",
+            "note": "Pregled postojećeg meta stanja; ne znači da je javno spremno."
+        },
+        {
+            "key": "meta__dry_recipe_sections",
+            "label": "Meta postoji: _dry_recipe_sections",
+            "status": "FAIL",
+            "severity": "INFO",
+            "note": "Pregled postojećeg meta stanja; ne znači da je javno spremno."
+        },
+        {
+            "key": "meta__dry_verified_process",
+            "label": "Meta postoji: _dry_verified_process",
+            "status": "FAIL",
+            "severity": "INFO",
+            "note": "Pregled postojećeg meta stanja; ne znači da je javno spremno."
+        }
+    ],
+    "fail_total_major_or_blocker": 0,
+    "blocker_fail_total": 0,
+    "recommended_next": [
+        "source_validation",
+        "recipe_yml_draft_or_reconstruction",
+        "internal_qa",
+        "preview_payload",
+        "private_clone"
+    ]
+}
