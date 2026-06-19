@@ -36,3 +36,11 @@ Ispravljeni su dokumentacijski artefakti source validation koraka za `1982 — F
 Status: **RECIPE_YML_DRAFT_READY_INTERNAL_QA_REQUIRED**
 
 Izrađen je radni `recipe.yml` za `Finocchiona Toscana IGP`, standardiziran na 10 kg, s obveznim rasponima začina prema službenom konsolidiranom disciplinaru iz 2024. Javni update ostaje blokiran do internal QA i privatnog preview koraka.
+
+<!-- DC_1982_RECIPE_YML_INTERNAL_QA_V1 -->
+
+## 1982 recipe.yml internal QA v1
+
+Status: **RECIPE_YML_QA_PASS_READY_FOR_SECTIONS**
+
+`recipe.yml` za Finocchiona Toscana provjeren je internim QA-om. Javni update ostaje blokiran. Sljedeći korak je generiranje strukturiranih sekcija i procesnog zapisa za privatni preview.
