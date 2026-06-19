@@ -215,3 +215,19 @@ Status: **PLAN_READY_ADMIN_ONLY_PREVIEW_BRIDGE**
 - Report: `review/admin_only_preview_bridge_plan_v1_2026-06-19_16-50-05/3535_ADMIN_ONLY_PREVIEW_BRIDGE_PLAN_REPORT.md`
 - Plan JSON: `review/admin_only_preview_bridge_plan_v1_2026-06-19_16-50-05/3535_admin_only_preview_bridge_plan_v1.json`
 
+
+<!-- DC_3535_MANUAL_ADMIN_PREVIEW_QA_V1 -->
+
+## 3535 manual admin preview QA v1
+
+Status: **PASS_ADMIN_PRIVATE_DIRECT_URL**
+
+- Ispravni admin pregled: `https://drycured.com/?post_type=dry_recipe&p=3535`
+- `preview=true` URL prikazuje 404 i ne koristi se.
+- Admin edit prikazuje markdown, očekivano.
+- Direktni privatni URL kao prijavljeni administrator prikazuje strukturirani kartični prikaz.
+- Bridge plugin se zasad ne izrađuje.
+- Public update allowed: `false`
+- Source 3042 write allowed: `false`
+
+Report: `review/manual_admin_preview_qa_v1_2026-06-19_16-55-28/3535_MANUAL_ADMIN_PREVIEW_QA_REPORT.md`
