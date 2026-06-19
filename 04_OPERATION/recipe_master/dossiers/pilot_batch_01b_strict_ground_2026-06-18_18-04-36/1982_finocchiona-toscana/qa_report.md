@@ -95,3 +95,19 @@ Status: **RECIPE_YML_QA_PASS_READY_FOR_SECTIONS**
 - Ready for sections: `true`
 - Report: `review/recipe_yml_internal_qa_v1_2026-06-19_17-23-10/1982_RECIPE_YML_INTERNAL_QA_REPORT.md`
 - JSON: `review/recipe_yml_internal_qa_v1_2026-06-19_17-23-10/1982_recipe_yml_internal_qa_v1.json`
+
+<!-- DC_1982_PREVIEW_PAYLOAD_V1 -->
+
+## 1982 Finocchiona Toscana preview payload v1
+
+Status: **PREVIEW_PAYLOAD_READY_FOR_PRIVATE_CLONE**
+
+- WordPress write allowed: `false`
+- Public update allowed: `false`
+- Source post write allowed: `false`
+- Sections count: `13`
+- Verified process phases: `8`
+- Full markdown length: `7046`
+- Blocker fail total: `0`
+- Report: `review/preview_payload_v1_2026-06-19_17-27-15/1982_PREVIEW_PAYLOAD_REPORT.md`
+- Payload: `review/preview_payload_v1_2026-06-19_17-27-15/1982_private_preview_payload_v1.json`

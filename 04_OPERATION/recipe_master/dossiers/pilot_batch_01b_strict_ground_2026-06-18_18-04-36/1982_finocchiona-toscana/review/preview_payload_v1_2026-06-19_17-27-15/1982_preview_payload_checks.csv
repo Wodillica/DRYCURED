@@ -1,0 +1,11 @@
+key,status,severity,note
+sections_count,PASS,BLOCKER,Broj sekcija: 13.
+has_process_section,PASS,BLOCKER,Mora postojati procesna sekcija.
+has_grinding_section,PASS,MAJOR,Mora postojati sekcija mljevenja.
+has_casing_section,PASS,MAJOR,Mora postojati sekcija crijeva.
+has_garlic_liquids_section,PASS,MAJOR,Mora postojati sekcija češnjaka i tekućina.
+has_problem_solutions,PASS,MAJOR,Problemi i rješenja moraju biti prisutni.
+verified_process_phases,PASS,BLOCKER,Verified process mora imati sve faze.
+full_markdown_length,PASS,MAJOR,Full markdown duljina: 7046.
+public_update_false,PASS,BLOCKER,Javni update mora ostati false.
+source_post_write_false,PASS,BLOCKER,Source post write mora ostati false.

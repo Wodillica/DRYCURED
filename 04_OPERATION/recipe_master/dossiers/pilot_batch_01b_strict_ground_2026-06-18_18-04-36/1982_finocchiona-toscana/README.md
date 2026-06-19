@@ -44,3 +44,11 @@ Izrađen je radni `recipe.yml` za `Finocchiona Toscana IGP`, standardiziran na 1
 Status: **RECIPE_YML_QA_PASS_READY_FOR_SECTIONS**
 
 `recipe.yml` za Finocchiona Toscana provjeren je internim QA-om. Javni update ostaje blokiran. Sljedeći korak je generiranje strukturiranih sekcija i procesnog zapisa za privatni preview.
+
+<!-- DC_1982_PREVIEW_PAYLOAD_V1 -->
+
+## 1982 preview payload v1
+
+Status: **PREVIEW_PAYLOAD_READY_FOR_PRIVATE_CLONE**
+
+Generirane su strukturirane payload datoteke `_dry_recipe_sections`, `_dry_verified_process` i `_dry_recipe_full_markdown` za budući privatni clone. WordPress nije mijenjan.

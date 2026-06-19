@@ -1,0 +1,401 @@
+{
+  "schema_version": "drycured_private_preview_payload_v1",
+  "generated_at": "2026-06-19T17:27:15.374277+00:00",
+  "post_id": 1982,
+  "recipe_code": "IT-TOS-1982-FINOCCHIONA-TOSCANA",
+  "title": "Finocchiona Toscana IGP",
+  "public_update_allowed": false,
+  "source_post_write_allowed": false,
+  "meta_to_apply_to_private_clone_only": {
+    "_dry_recipe_preview_mode": "PRIVATE_CLONE_ONLY",
+    "_dry_recipe_preview_source_post_id": "1982",
+    "_dry_recipe_public_update_allowed": "0",
+    "_dry_recipe_public_verified": "0",
+    "_dry_recipe_id": "IT-TOS-1982-FINOCCHIONA-TOSCANA",
+    "_dry_recipe_sections": [
+      {
+        "id": "hero",
+        "title": "Finocchiona Toscana IGP",
+        "type": "hero",
+        "content": {
+          "country": "Italija",
+          "region": "Toskana",
+          "protected_status": "IGP / PGI",
+          "batch_size_kg": 10.0,
+          "recipe_type": "GROUND_MEAT_OR_CASING",
+          "public_update_allowed": false
+        }
+      },
+      {
+        "id": "quick_summary",
+        "title": "Brzi proizvodni sažetak",
+        "type": "summary_cards",
+        "content": [
+          "Toskanska suha fermentirana kobasica s izraženom aromom komorača.",
+          "Šarža je standardizirana na 10 kg.",
+          "Mljevenje: 6 mm, unutar službenog raspona 4,5–8 mm.",
+          "Češnjak: suhi češnjak izravno, bez tekućine od češnjaka.",
+          "Sušenje: 12–25 °C.",
+          "Zrenje: 11–18 °C i 65–90 % RH."
+        ]
+      },
+      {
+        "id": "raw_materials",
+        "title": "Glavne sirovine za 10 kg",
+        "type": "table",
+        "content": [
+          {
+            "Sirovina": "svinjska lopatica, očišćena",
+            "kg": 4.0,
+            "Status": "allowed_cut_working_formula"
+          },
+          {
+            "Sirovina": "obresci pršuta / nemasni butni obresci",
+            "kg": 2.0,
+            "Status": "allowed_cut_working_formula"
+          },
+          {
+            "Sirovina": "nemasni dio pancete i podbradka",
+            "kg": 1.5,
+            "Status": "allowed_cut_working_formula"
+          },
+          {
+            "Sirovina": "meso coppe / svinjski vrat",
+            "kg": 1.0,
+            "Status": "allowed_cut_working_formula"
+          },
+          {
+            "Sirovina": "panceta / pancettone s čvršćom masnoćom",
+            "kg": 1.5,
+            "Status": "allowed_cut_working_formula"
+          }
+        ]
+      },
+      {
+        "id": "mandatory_ingredients",
+        "title": "Obvezni začini i službeni rasponi",
+        "type": "table",
+        "content": [
+          {
+            "Sastojak": "sol",
+            "Količina": "280 g",
+            "g/kg": 28.0,
+            "Raspon": "250-350 g / 10 kg"
+          },
+          {
+            "Sastojak": "mljeveni crni papar",
+            "Količina": "8 g",
+            "g/kg": 0.8,
+            "Raspon": "5-10 g / 10 kg"
+          },
+          {
+            "Sastojak": "lomljeni papar / papar u zrnu",
+            "Količina": "25 g",
+            "g/kg": 2.5,
+            "Raspon": "15-40 g / 10 kg"
+          },
+          {
+            "Sastojak": "suhi češnjak",
+            "Količina": "8 g",
+            "g/kg": 0.8,
+            "Raspon": "5-10 g / 10 kg"
+          },
+          {
+            "Sastojak": "sjeme komorača ili cvijet komorača",
+            "Količina": "35 g",
+            "g/kg": 3.5,
+            "Raspon": "20-50 g / 10 kg"
+          }
+        ]
+      },
+      {
+        "id": "optional_ingredients",
+        "title": "Opcionalni dodaci i sigurnosne odluke",
+        "type": "table",
+        "content": [
+          {
+            "Sastojak": "crno ili toskansko vino",
+            "Količina": "0,08 L",
+            "Status": "opcionalno, ispod maksimuma 0,1 L / 10 kg"
+          },
+          {
+            "Sastojak": "dekstroza ili saharoza",
+            "Količina": "30 g",
+            "Status": "opcionalno, ispod maksimuma 100 g / 10 kg"
+          },
+          {
+            "Sastojak": "starter kulture",
+            "Količina": "ne koristi se u baznom draftu",
+            "Status": "dopušteno disciplinarom, ali traži tehnološku recenziju"
+          },
+          {
+            "Sastojak": "nitriti/nitrati",
+            "Količina": "ne koristi se u baznom draftu",
+            "Status": "dopušteno disciplinarom, ali traži sigurnosnu recenziju ako se uključi"
+          }
+        ]
+      },
+      {
+        "id": "garlic_liquids",
+        "title": "Češnjak i tekućine",
+        "type": "text",
+        "content": "U ovoj radnoj verziji koristi se 8 g suhog češnjaka na 10 kg smjese. Ne koristi se svježi češnjak, ne koristi se macerat i ne dodaje se tekućina od češnjaka. Vino se dodaje odvojeno u količini 0,08 L na 10 kg, postupno u tankom mlazu tijekom miješanja."
+      },
+      {
+        "id": "grinding",
+        "title": "Mljevenje, rezanje i obrada masnoće",
+        "type": "text",
+        "content": "Sirovina se reže na komade 20–30 mm i melje na rešetku 6 mm. Službeni raspon mljevenja je 4,5–8 mm. Meso i čvršća masnoća moraju biti dobro ohlađeni; smjesa ne smije prijeći 8 °C. Mekana i maziva masnoća se uklanja. Ako se mast počne razmazivati, rad se prekida, sirovina i oprema se hlade, a mljevenje se nastavlja tek nakon stabilizacije."
+      },
+      {
+        "id": "casing",
+        "title": "Crijeva, namakanje i punjenje",
+        "type": "text",
+        "content": "Koristi se prirodni ili collato ovitak. Za kućni radni preview koristi se veći prirodni ovitak, ovisno o željenoj težini komada. Ovitak se namače 30–45 minuta u pitkoj vodi temperature 20–25 °C, ne prokuhava se i ispire se izvana i iznutra prije punjenja. Puniti čvrsto, ali bez pucanja ovitka; zračne džepove istisnuti i po potrebi probosti sterilnom iglom."
+      },
+      {
+        "id": "process",
+        "title": "Procesna kronologija",
+        "type": "process",
+        "content": [
+          {
+            "Korak": 1,
+            "Faza": "Odabir i hlađenje sirovine",
+            "Parametri": "0-4 °C",
+            "Kontrola": "Meso ne smije mirisati kiselo, ljepljivo ili ustajalo."
+          },
+          {
+            "Korak": 2,
+            "Faza": "Rezanje",
+            "Parametri": "20-30 mm komadi",
+            "Kontrola": "Ako se masnoća lijepi za nož, masa nije dovoljno hladna."
+          },
+          {
+            "Korak": 3,
+            "Faza": "Mljevenje",
+            "Parametri": "rešetka 6 mm; dopušteni službeni raspon 4,5-8 mm",
+            "Kontrola": "Presjek mora ostati srednje krupan, bez razmazane masnoće."
+          },
+          {
+            "Korak": 4,
+            "Faza": "Miješanje",
+            "Parametri": "masa najviše 8 °C",
+            "Kontrola": "Miješati do povezivanja, ali ne toliko dugo da se masa zagrije."
+          },
+          {
+            "Korak": 5,
+            "Faza": "Punjenje i vezanje",
+            "Parametri": "prirodni ili collato ovitak; komad najmanje 0,5 kg",
+            "Kontrola": "Masa mora ispuniti ovitak bez šupljina."
+          },
+          {
+            "Korak": 6,
+            "Faza": "Sušenje / asciugamento",
+            "Parametri": "12-25 °C prema disciplinaru",
+            "Kontrola": "Ne dopustiti prebrzo stvaranje suhe kore; po potrebi smanjiti propuh i povisiti vlagu."
+          },
+          {
+            "Korak": 7,
+            "Faza": "Zrenje / stagionatura",
+            "Parametri": "11-18 °C; 65-90 % RH",
+            "Kontrola": "Za komad 1-6 kg ukupno sušenje i zrenje ne smije biti kraće od 21 dan; za 0,5-1 kg najmanje 15 dana; za 6-25 kg najmanje 45 dana."
+          },
+          {
+            "Korak": 8,
+            "Faza": "Završna provjera",
+            "Parametri": "pH 5,0-6,0; aw ≤ 0,945; mast ≤ 35 %",
+            "Kontrola": "Ako je okus kiseo, miris neugodan, ovitak sluzav ili presjek nepravilan, proizvod ne ide u konzumaciju."
+          }
+        ]
+      },
+      {
+        "id": "done_when",
+        "title": "Gotovo je kad…",
+        "type": "checklist",
+        "content": [
+          "prošao je minimalni službeni rok prema težini pri punjenju",
+          "miris je ugodan, s jasnim komoračem i blagim češnjakom",
+          "okus je svjež i ugodan, nikad kiseo",
+          "presjek je srednje krupan, mekan do blago mrvičast, bez razmazane masti",
+          "nema sluzi, napuhavanja, truležnog mirisa ni neobičnih plijesni",
+          "ciljani laboratorijski kriteriji su pH 5,0-6,0 i aw ≤ 0,945"
+        ]
+      },
+      {
+        "id": "problems_solutions",
+        "title": "Najčešće greške i konkretna rješenja",
+        "type": "table",
+        "content": [
+          {
+            "Problem": "Razmazana mast u presjeku",
+            "Uzrok": "sirovina ili nož/rešetka su bili pretopli; korištena je mekana masnoća",
+            "Rješenje": "zaustaviti rad, ohladiti meso i opremu, ukloniti mekanu masnoću i nastaviti tek kada masa ponovno bude čvrsta"
+          },
+          {
+            "Problem": "Suha kora i mekana jezgra",
+            "Uzrok": "prejak propuh ili preniska vlaga u sušenju",
+            "Rješenje": "smanjiti strujanje zraka, povisiti relativnu vlagu unutar sigurnog raspona i produžiti zrenje"
+          },
+          {
+            "Problem": "Kiseo okus",
+            "Uzrok": "prebrza ili nekontrolirana fermentacija, previše šećera ili previsoka temperatura",
+            "Rješenje": "ne nuditi proizvod; za sljedeću šaržu smanjiti šećer, voditi temperaturu i koristiti provjereni starter samo uz točnu dozu"
+          },
+          {
+            "Problem": "Neobične plijesni ili sluzav ovitak",
+            "Uzrok": "loša higijena, previsoka vlaga ili slab protok zraka",
+            "Rješenje": "ako je miris neugodan ili sluzavost prodire u ovitak, proizvod odbaciti; prostor očistiti, osušiti i stabilizirati RH"
+          },
+          {
+            "Problem": "Napuhavanje ili šupljine",
+            "Uzrok": "zrak u punjenju ili mikrobiološki kvar",
+            "Rješenje": "male zračne džepove odmah probosti sterilnom iglom; ako se pojavi napuhavanje uz neugodan miris, proizvod odbaciti"
+          },
+          {
+            "Problem": "Žućenje masti i užegao miris",
+            "Uzrok": "oksidacija zbog loše masnoće, dugog kontakta s kisikom ili lošeg skladištenja",
+            "Rješenje": "ne koristiti za posluživanje; u sljedećoj šarži koristiti svježiju čvrstu masnoću i smanjiti izlaganje zraku"
+          }
+        ]
+      },
+      {
+        "id": "serving_storage",
+        "title": "Posluživanje i čuvanje",
+        "type": "text",
+        "content": "Rezati tanko kao suhu salamu. Ne tretirati kao kobasicu za pečenje. Čuvati u hladnom i prozračnom prostoru ili vakuumirati nakon završnog zrenja, uz kontrolu mirisa i površine. Ako postoji ikakva sumnja u zdravstvenu ispravnost, proizvod se ne kuša i ne poslužuje."
+      },
+      {
+        "id": "internal_status",
+        "title": "Interni status prije javnog updatea",
+        "type": "internal",
+        "content": {
+          "public_update_allowed": false,
+          "public_publish_allowed": false,
+          "active_blockers": [
+            "Internal QA recipe.yml još nije napravljen.",
+            "Javni WordPress update nije dopušten.",
+            "Potrebno je generirati _dry_recipe_sections i _dry_verified_process prije privatnog clone workflowa.",
+            "Ako se kasnije uključe nitriti/nitrati ili starter kulture, potrebna je zasebna tehnološka i sigurnosna recenzija."
+          ]
+        }
+      }
+    ],
+    "_dry_verified_process": {
+      "schema_version": "drycured_verified_process_v1",
+      "generated_at": "2026-06-19T17:27:15.374277+00:00",
+      "post_id": 1982,
+      "recipe_code": "IT-TOS-1982-FINOCCHIONA-TOSCANA",
+      "recipe_type_router": "GROUND_MEAT_OR_CASING",
+      "public_update_allowed": false,
+      "source_post_write_allowed": false,
+      "phases": [
+        {
+          "step": 1,
+          "name": "Odabir i hlađenje sirovine",
+          "parameters": "0-4 °C",
+          "action": "Koristiti svježe, nesmrznuto svinjsko meso dopuštenih rezova. Ukloniti veće opne, žlijezde i meku masnoću.",
+          "critical_control": "Meso ne smije mirisati kiselo, ljepljivo ili ustajalo."
+        },
+        {
+          "step": 2,
+          "name": "Rezanje",
+          "parameters": "20-30 mm komadi",
+          "action": "Rezati na komade prikladne za mljevenje i ponovno ohladiti.",
+          "critical_control": "Ako se masnoća lijepi za nož, masa nije dovoljno hladna."
+        },
+        {
+          "step": 3,
+          "name": "Mljevenje",
+          "parameters": "rešetka 6 mm; dopušteni službeni raspon 4,5-8 mm",
+          "action": "Meso i čvršću masnoću samljeti srednje krupno.",
+          "critical_control": "Presjek mora ostati srednje krupan, bez razmazane masnoće."
+        },
+        {
+          "step": 4,
+          "name": "Miješanje",
+          "parameters": "masa najviše 8 °C",
+          "action": "Sol, papar, suhi češnjak, komorač i šećer ravnomjerno umiješati; vino dodati postupno u tankom mlazu.",
+          "critical_control": "Miješati do povezivanja, ali ne toliko dugo da se masa zagrije."
+        },
+        {
+          "step": 5,
+          "name": "Punjenje i vezanje",
+          "parameters": "prirodni ili collato ovitak; komad najmanje 0,5 kg",
+          "action": "Napuniti pripremljeni ovitak, istisnuti zrak, vezati špagom.",
+          "critical_control": "Masa mora ispuniti ovitak bez šupljina."
+        },
+        {
+          "step": 6,
+          "name": "Sušenje / asciugamento",
+          "parameters": "12-25 °C prema disciplinaru",
+          "action": "Nakon punjenja proizvod držati u uvjetima koji omogućuju početnu dehidraciju.",
+          "critical_control": "Ne dopustiti prebrzo stvaranje suhe kore; po potrebi smanjiti propuh i povisiti vlagu."
+        },
+        {
+          "step": 7,
+          "name": "Zrenje / stagionatura",
+          "parameters": "11-18 °C; 65-90 % RH",
+          "action": "Zriti do stabilnog presjeka, izražene arome komorača i sigurnih analitičkih ciljeva.",
+          "critical_control": "Za komad 1-6 kg ukupno sušenje i zrenje ne smije biti kraće od 21 dan; za 0,5-1 kg najmanje 15 dana; za 6-25 kg najmanje 45 dana."
+        },
+        {
+          "step": 8,
+          "name": "Završna provjera",
+          "parameters": "pH 5,0-6,0; aw ≤ 0,945; mast ≤ 35 %",
+          "action": "Prije javne objave/konzumacije potvrditi sigurnosne i senzorske kriterije.",
+          "critical_control": "Ako je okus kiseo, miris neugodan, ovitak sluzav ili presjek nepravilan, proizvod ne ide u konzumaciju."
+        }
+      ],
+      "critical_controls": [
+        "Sirovina mora biti svježa i nesmrznuta.",
+        "Masa tijekom mljevenja i miješanja ne smije prijeći 8 °C.",
+        "Mljevenje mora ostati unutar 4,5–8 mm; radni izbor je 6 mm.",
+        "Ovitak se namače u pitkoj vodi 20–25 °C tijekom 30–45 minuta i ne prokuhava se.",
+        "Sušenje mora ostati u rasponu 12–25 °C.",
+        "Zrenje mora ostati u rasponu 11–18 °C i 65–90 % RH.",
+        "Ako se pojave neugodan miris, sluzavost, napuhavanje ili sumnjiva plijesan, proizvod se ne kuša i ne poslužuje."
+      ],
+      "done_when": [
+        "prošao je minimalni službeni rok prema težini pri punjenju",
+        "miris je ugodan, s jasnim komoračem i blagim češnjakom",
+        "okus je svjež i ugodan, nikad kiseo",
+        "presjek je srednje krupan, mekan do blago mrvičast, bez razmazane masti",
+        "nema sluzi, napuhavanja, truležnog mirisa ni neobičnih plijesni",
+        "ciljani laboratorijski kriteriji su pH 5,0-6,0 i aw ≤ 0,945"
+      ],
+      "problems_and_solutions": [
+        {
+          "problem": "Razmazana mast u presjeku",
+          "likely_cause": "sirovina ili nož/rešetka su bili pretopli; korištena je mekana masnoća",
+          "solution": "zaustaviti rad, ohladiti meso i opremu, ukloniti mekanu masnoću i nastaviti tek kada masa ponovno bude čvrsta"
+        },
+        {
+          "problem": "Suha kora i mekana jezgra",
+          "likely_cause": "prejak propuh ili preniska vlaga u sušenju",
+          "solution": "smanjiti strujanje zraka, povisiti relativnu vlagu unutar sigurnog raspona i produžiti zrenje"
+        },
+        {
+          "problem": "Kiseo okus",
+          "likely_cause": "prebrza ili nekontrolirana fermentacija, previše šećera ili previsoka temperatura",
+          "solution": "ne nuditi proizvod; za sljedeću šaržu smanjiti šećer, voditi temperaturu i koristiti provjereni starter samo uz točnu dozu"
+        },
+        {
+          "problem": "Neobične plijesni ili sluzav ovitak",
+          "likely_cause": "loša higijena, previsoka vlaga ili slab protok zraka",
+          "solution": "ako je miris neugodan ili sluzavost prodire u ovitak, proizvod odbaciti; prostor očistiti, osušiti i stabilizirati RH"
+        },
+        {
+          "problem": "Napuhavanje ili šupljine",
+          "likely_cause": "zrak u punjenju ili mikrobiološki kvar",
+          "solution": "male zračne džepove odmah probosti sterilnom iglom; ako se pojavi napuhavanje uz neugodan miris, proizvod odbaciti"
+        },
+        {
+          "problem": "Žućenje masti i užegao miris",
+          "likely_cause": "oksidacija zbog loše masnoće, dugog kontakta s kisikom ili lošeg skladištenja",
+          "solution": "ne koristiti za posluživanje; u sljedećoj šarži koristiti svježiju čvrstu masnoću i smanjiti izlaganje zraku"
+        }
+      ]
+    },
+    "_dry_recipe_full_markdown": "# Finocchiona Toscana IGP\n\n**Status:** privatni radni preview; javni update nije dopušten.\n\n## Brzi proizvodni sažetak\n\nFinocchiona Toscana IGP je toskanska suha fermentirana kobasica u ovitku, standardizirana ovdje na 10 kg. Glavni aromatski potpis čine komorač, papar i blaga nota češnjaka. Bazni draft ne koristi nitrite/nitrate ni starter kulture.\n\n## Glavne sirovine za 10 kg\n\n| Sirovina | kg | Status |\n|---|---|---|\n| svinjska lopatica, očišćena | 4.0 | allowed_cut_working_formula |\n| obresci pršuta / nemasni butni obresci | 2.0 | allowed_cut_working_formula |\n| nemasni dio pancete i podbradka | 1.5 | allowed_cut_working_formula |\n| meso coppe / svinjski vrat | 1.0 | allowed_cut_working_formula |\n| panceta / pancettone s čvršćom masnoćom | 1.5 | allowed_cut_working_formula |\n\n## Obvezni začini\n\n| Sastojak | Količina | g/kg | Raspon |\n|---|---|---|---|\n| sol | 280 g | 28.0 | 250-350 g / 10 kg |\n| mljeveni crni papar | 8 g | 0.8 | 5-10 g / 10 kg |\n| lomljeni papar / papar u zrnu | 25 g | 2.5 | 15-40 g / 10 kg |\n| suhi češnjak | 8 g | 0.8 | 5-10 g / 10 kg |\n| sjeme komorača ili cvijet komorača | 35 g | 3.5 | 20-50 g / 10 kg |\n\n## Opcionalni dodaci\n\n| Sastojak | Količina | Status |\n|---|---|---|\n| crno ili toskansko vino | 0,08 L | opcionalno, ispod maksimuma 0,1 L / 10 kg |\n| dekstroza ili saharoza | 30 g | opcionalno, ispod maksimuma 100 g / 10 kg |\n| starter kulture | ne koristi se u baznom draftu | dopušteno disciplinarom, ali traži tehnološku recenziju |\n| nitriti/nitrati | ne koristi se u baznom draftu | dopušteno disciplinarom, ali traži sigurnosnu recenziju ako se uključi |\n\n## Češnjak i tekućine\n\nU ovoj radnoj verziji koristi se 8 g suhog češnjaka na 10 kg smjese. Ne koristi se svježi češnjak, ne koristi se macerat i ne dodaje se tekućina od češnjaka. Vino se dodaje odvojeno u količini 0,08 L na 10 kg, postupno u tankom mlazu tijekom miješanja.\n\n## Mljevenje i obrada masnoće\n\nSirovina se reže na komade 20–30 mm i melje na rešetku 6 mm. Službeni raspon mljevenja je 4,5–8 mm. Meso i čvršća masnoća moraju biti dobro ohlađeni; smjesa ne smije prijeći 8 °C. Mekana i maziva masnoća se uklanja. Ako se mast počne razmazivati, rad se prekida, sirovina i oprema se hlade, a mljevenje se nastavlja tek nakon stabilizacije.\n\n## Crijeva i punjenje\n\nKoristi se prirodni ili collato ovitak. Za kućni radni preview koristi se veći prirodni ovitak, ovisno o željenoj težini komada. Ovitak se namače 30–45 minuta u pitkoj vodi temperature 20–25 °C, ne prokuhava se i ispire se izvana i iznutra prije punjenja. Puniti čvrsto, ali bez pucanja ovitka; zračne džepove istisnuti i po potrebi probosti sterilnom iglom.\n\n## Procesna kronologija\n\n### 1. Odabir i hlađenje sirovine\n\n- Parametri: 0-4 °C\n- Radnja: Koristiti svježe, nesmrznuto svinjsko meso dopuštenih rezova. Ukloniti veće opne, žlijezde i meku masnoću.\n- Kritična kontrola: Meso ne smije mirisati kiselo, ljepljivo ili ustajalo.\n\n### 2. Rezanje\n\n- Parametri: 20-30 mm komadi\n- Radnja: Rezati na komade prikladne za mljevenje i ponovno ohladiti.\n- Kritična kontrola: Ako se masnoća lijepi za nož, masa nije dovoljno hladna.\n\n### 3. Mljevenje\n\n- Parametri: rešetka 6 mm; dopušteni službeni raspon 4,5-8 mm\n- Radnja: Meso i čvršću masnoću samljeti srednje krupno.\n- Kritična kontrola: Presjek mora ostati srednje krupan, bez razmazane masnoće.\n\n### 4. Miješanje\n\n- Parametri: masa najviše 8 °C\n- Radnja: Sol, papar, suhi češnjak, komorač i šećer ravnomjerno umiješati; vino dodati postupno u tankom mlazu.\n- Kritična kontrola: Miješati do povezivanja, ali ne toliko dugo da se masa zagrije.\n\n### 5. Punjenje i vezanje\n\n- Parametri: prirodni ili collato ovitak; komad najmanje 0,5 kg\n- Radnja: Napuniti pripremljeni ovitak, istisnuti zrak, vezati špagom.\n- Kritična kontrola: Masa mora ispuniti ovitak bez šupljina.\n\n### 6. Sušenje / asciugamento\n\n- Parametri: 12-25 °C prema disciplinaru\n- Radnja: Nakon punjenja proizvod držati u uvjetima koji omogućuju početnu dehidraciju.\n- Kritična kontrola: Ne dopustiti prebrzo stvaranje suhe kore; po potrebi smanjiti propuh i povisiti vlagu.\n\n### 7. Zrenje / stagionatura\n\n- Parametri: 11-18 °C; 65-90 % RH\n- Radnja: Zriti do stabilnog presjeka, izražene arome komorača i sigurnih analitičkih ciljeva.\n- Kritična kontrola: Za komad 1-6 kg ukupno sušenje i zrenje ne smije biti kraće od 21 dan; za 0,5-1 kg najmanje 15 dana; za 6-25 kg najmanje 45 dana.\n\n### 8. Završna provjera\n\n- Parametri: pH 5,0-6,0; aw ≤ 0,945; mast ≤ 35 %\n- Radnja: Prije javne objave/konzumacije potvrditi sigurnosne i senzorske kriterije.\n- Kritična kontrola: Ako je okus kiseo, miris neugodan, ovitak sluzav ili presjek nepravilan, proizvod ne ide u konzumaciju.\n\n## Gotovo je kad…\n\n- prošao je minimalni službeni rok prema težini pri punjenju\n- miris je ugodan, s jasnim komoračem i blagim češnjakom\n- okus je svjež i ugodan, nikad kiseo\n- presjek je srednje krupan, mekan do blago mrvičast, bez razmazane masti\n- nema sluzi, napuhavanja, truležnog mirisa ni neobičnih plijesni\n- ciljani laboratorijski kriteriji su pH 5,0-6,0 i aw ≤ 0,945\n\n## Greške i rješenja\n\n### Razmazana mast u presjeku\n\n- Uzrok: sirovina ili nož/rešetka su bili pretopli; korištena je mekana masnoća\n- Rješenje: zaustaviti rad, ohladiti meso i opremu, ukloniti mekanu masnoću i nastaviti tek kada masa ponovno bude čvrsta\n\n### Suha kora i mekana jezgra\n\n- Uzrok: prejak propuh ili preniska vlaga u sušenju\n- Rješenje: smanjiti strujanje zraka, povisiti relativnu vlagu unutar sigurnog raspona i produžiti zrenje\n\n### Kiseo okus\n\n- Uzrok: prebrza ili nekontrolirana fermentacija, previše šećera ili previsoka temperatura\n- Rješenje: ne nuditi proizvod; za sljedeću šaržu smanjiti šećer, voditi temperaturu i koristiti provjereni starter samo uz točnu dozu\n\n### Neobične plijesni ili sluzav ovitak\n\n- Uzrok: loša higijena, previsoka vlaga ili slab protok zraka\n- Rješenje: ako je miris neugodan ili sluzavost prodire u ovitak, proizvod odbaciti; prostor očistiti, osušiti i stabilizirati RH\n\n### Napuhavanje ili šupljine\n\n- Uzrok: zrak u punjenju ili mikrobiološki kvar\n- Rješenje: male zračne džepove odmah probosti sterilnom iglom; ako se pojavi napuhavanje uz neugodan miris, proizvod odbaciti\n\n### Žućenje masti i užegao miris\n\n- Uzrok: oksidacija zbog loše masnoće, dugog kontakta s kisikom ili lošeg skladištenja\n- Rješenje: ne koristiti za posluživanje; u sljedećoj šarži koristiti svježiju čvrstu masnoću i smanjiti izlaganje zraku\n\n## Posluživanje i čuvanje\n\nRezati tanko kao suhu salamu. Ne tretirati kao kobasicu za pečenje. Čuvati u hladnom i prozračnom prostoru ili vakuumirati nakon završnog zrenja, uz kontrolu mirisa i površine. Ako postoji ikakva sumnja u zdravstvenu ispravnost, proizvod se ne kuša i ne poslužuje.\n\n## Interno prije javnog updatea\n\n- Internal QA recipe.yml još nije napravljen.\n- Javni WordPress update nije dopušten.\n- Potrebno je generirati _dry_recipe_sections i _dry_verified_process prije privatnog clone workflowa.\n- Ako se kasnije uključe nitriti/nitrati ili starter kulture, potrebna je zasebna tehnološka i sigurnosna recenzija.\n"
+  }
+}
