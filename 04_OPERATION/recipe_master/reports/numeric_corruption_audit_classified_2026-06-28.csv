@@ -1,0 +1,23 @@
+post_id,recipe_id,post_title,bad_value_example,category,action,note
+3217,MD-CULATELLO_DI_ZIBELLO_KULATELO,Culatello di Zibello (duplikat 2746),8‘89-11’111 kg,A_PDO,keep_published_web_search,Italian PDO — duplicate post of 2746; flagged for web search round
+3213,MD-CECINA_DE_LEON,Cecina de León,8‘89-11’111 kg,A_PDO,keep_published_web_search,Spanish PGI — official spec available
+3212,MD-LOMO_EMBUCHADO,Lomo Embuchado,8‘89-11’111 kg,A_documented,keep_published_web_search,Spanish traditional — well-documented
+3168,MD-RAKFISK,Rakfisk,6’667+2’222 kg,A_documented,keep_published_web_search,Norwegian PGI fermented fish
+3128,MD-KYLMASAVULOHI,Kylmasavulohi,6’667 kg,A_documented,keep_published_web_search,Finnish cold-smoked salmon — standard recipe
+2623,MD-PRESUNTO_PORTUGUES,Presunto Português,8‘89-11’111 kg,A_PDO,keep_published_web_search,Portuguese PGI — official spec available
+2621,MD-BOCZEK_WEDZONY,Boczek Wedzony,6’667 L,A_documented,keep_published_web_search,Polish smoked bacon — well-documented
+2598,MD-SPEKESKINKE,Spekeskinke,8‘89-11’111 kg,A_documented,keep_published_web_search,Norwegian traditional — well-documented
+2589,MD-SPEKELR,Spekelar,8’333-11’667 kg,A_documented,keep_published_web_search,Norwegian dried venison — documented
+2747,MD-LONZINO_LOMBO,Lonzino (Lombo),8‘89-11’111 kg,A_documented,keep_published_web_search,Italian traditional
+2746,MD-CULATELLO_DI_ZIBELLO,Culatello di Zibello,8‘89-11’111 kg,A_PDO,keep_published_web_search,Italian PDO — official spec available
+2715,MD-IDRIJSKO_KOSILO,Idrijsko kosilo,6’667+3’333 kg,A_documented,keep_published_web_search,Slovenian traditional — documented
+2530,MD-IRSKA_SUNKA_U_PIVU,Irska sunka u pivu,3’333 L,A_documented,keep_published_web_search,Irish beer-cured ham — documented
+2355,MD-PROSHUTA_SHQIPTARE,Proshuta Shqiptare,8‘89-11’111 kg,A_documented,keep_published_web_search,Albanian prosciutto — documented
+2064,MD-COPPA_CAPOCOLLO,Coppa (Capocollo),8‘89-11’111 kg,A_PDO,keep_published_web_search,Italian PDO (Coppa di Piacenza / Capocollo di Calabria)
+3227,MD-DIMLENYI_YAZYK,Dimlenyi Yazyk / Dimljeni govedjI jezik,6’667 L,B_regional,set_to_draft_NEMA_IZVORA,Ukrainian regional — no reliable source found
+3226,MD-MIASNYI_KHLIB,Miasnyi Khlib / Mesni kruh,6’667+3’333 kg,B_regional,set_to_draft_NEMA_IZVORA,Ukrainian regional — no reliable source found
+3146,MD-GELLUR,Gellur — suseni riblji jezici,6’667+3’333 kg,B_niche,set_to_draft_NEMA_IZVORA,Icelandic niche product — no source
+3143,MD-TORF_R_UR_LAMBAHRYGGUR,Torfaerdhur Lambahryggur,3’333 kg,B_niche,set_to_draft_NEMA_IZVORA,Icelandic niche product — no source
+3133,MD-PIHTI,Pihti — Greek meat jelly,6’667+3’333 kg,B_regional,set_to_draft_NEMA_IZVORA,Greek regional — no source
+3090,MD-MALESHEVSKA_BABICHKA,Maleshevska Babichka,13’333+31’113 kg,B_regional,set_to_draft_NEMA_IZVORA,Bulgarian regional — no source
+2540,MD-HRUTSPUNGAR,Hrutspungar,6’667 kg,B_niche,set_to_draft_NEMA_IZVORA,Icelandic niche product — no source
