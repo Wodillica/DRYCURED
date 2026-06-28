@@ -78,3 +78,50 @@ if (!function_exists('dcv12_batch01_recipe_registry')) {
         return array_merge($original, drycured_01B_registry_entries());
     }
 }
+
+
+/**
+ * Dynamic navigation registry: generates nav entries for ALL published dry_recipe posts
+ * that are NOT already in the static registry (dcv12_batch01_recipe_registry).
+ * Used exclusively by dcv62_recipe_nav_registry() — does NOT affect ingredient/profile
+ * rendering which relies on dcv12_batch01_recipe_registry() separately.
+ *
+ * Results cached in WP object cache for 5 minutes to avoid per-request DB queries.
+ */
+function drycured_dynamic_nav_entries() {
+    $cache_key = 'drycured_dynamic_nav_entries_v1';
+    $cached = wp_cache_get($cache_key, 'drycured_nav');
+    if ($cached !== false) {
+        return $cached;
+    }
+
+    global $wpdb;
+    $rows = $wpdb->get_results(
+        "SELECT p.ID, p.post_name, p.post_title, pm.meta_value AS code
+         FROM {$wpdb->posts} p
+         INNER JOIN {$wpdb->postmeta} pm
+             ON pm.post_id = p.ID AND pm.meta_key = '_dry_recipe_id'
+         WHERE p.post_status = 'publish'
+           AND p.post_type = 'dry_recipe'
+         ORDER BY p.ID ASC"
+    );
+
+    $entries = [];
+    $order   = 1000;
+    foreach ($rows as $row) {
+        if (empty($row->code)) {
+            continue;
+        }
+        $entries[ $row->code ] = [
+            'order'  => $order++,
+            'title'  => $row->post_title,
+            'slug'   => $row->post_name,
+            'family' => 'world',
+            'region' => '',
+        ];
+    }
+
+    wp_cache_set($cache_key, $entries, 'drycured_nav', 300);
+    return $entries;
+}
+

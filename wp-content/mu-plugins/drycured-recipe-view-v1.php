@@ -1636,6 +1636,19 @@ function dcv5_supported_recipe_codes() {
 function dcv5_get_recipe_profile($post_id, $code = '') {
 
     /*
+     * DRYCURED_FULL_JSON_PROFILE_TOP_PRIORITY_v1
+     * Ako post ima _dry_recipe_full_profile_json, to je AUTORITATIVNI izvor.
+     * Bypassa sve markdown parsere i family-default fallbackove.
+     */
+    $dcv_full_json_raw = get_post_meta($post_id, '_dry_recipe_full_profile_json', true);
+    if ($dcv_full_json_raw) {
+        $dcv_full_json = json_decode($dcv_full_json_raw, true);
+        if (is_array($dcv_full_json) && !empty($dcv_full_json['title'])) {
+            return $dcv_full_json;
+        }
+    }
+
+    /*
      * DRYCURED_MD_V5_PROFILE_EARLY_BRIDGE_v011
      * MD-import pilot profili moraju biti dostupni kroz samu dcv5_get_recipe_profile()
      * kako bi svi postojeći V5/V6 slojevi koristili isti izvor profila.
@@ -1734,7 +1747,7 @@ function dcv5_recipe_js_profile($recipe) {
 function dcv5_slavonski_kulen_profile($post_id) {
     return [
         'code' => 'HR-SL-001',
-        'title' => 'Slavonski kulen (PDO EU)',
+        'title' => 'Slavonski kulen',
         'region' => 'Slavonija, Baranja i Srijem',
         'type' => 'Kobasica',
         'lead' => 'Slavonski kulen je dugozreli slavonski proizvod snažnog paprikastog profila, izrađen od odabrane svinjske mišićine i tvrde slanine, punjen u širi prirodni omotač, hladno dimljen i sporo dozrijevan.',
@@ -3696,24 +3709,27 @@ function dcv62_recipe_link_by_slug($slug, $fallback) {
 }
 
 function dcv62_recipe_nav_registry() {
+    // Static registry (HR-SL-*, HR-IS-*, HR-LI-*, HR-DA-*, HR-MM-*)
     if (function_exists('dcv12_batch01_recipe_registry')) {
-        return dcv12_batch01_recipe_registry();
+        $static = dcv12_batch01_recipe_registry();
+    } else {
+        $static = [
+            'HR-SL-001' => ['title' => 'Slavonski kulen', 'slug' => 'hr-sl-001-slavonski-kulen-pdo-eu'],
+            'HR-SL-007' => ['title' => 'Ratarske kobasice', 'slug' => 'hr-sl-007-ratarske-kobasice'],
+            'HR-SL-020' => ['title' => 'Vinkovačka šunka — suho soljena varijanta', 'slug' => 'hr-sl-020-vinkovacka-sunka-suho-soljena-varijanta'],
+        ];
     }
 
-    return [
-        'HR-SL-001' => [
-            'title' => 'Slavonski kulen (PDO EU)',
-            'slug' => 'hr-sl-001-slavonski-kulen-pdo-eu',
-        ],
-        'HR-SL-007' => [
-            'title' => 'Ratarske kobasice',
-            'slug' => 'hr-sl-007-ratarske-kobasice',
-        ],
-        'HR-SL-020' => [
-            'title' => 'Vinkovačka šunka — suho soljena varijanta',
-            'slug' => 'hr-sl-020-vinkovacka-sunka-suho-soljena-varijanta',
-        ],
-    ];
+    // Dynamic nav entries for all other published dry_recipe posts (MD-* world recipes etc.)
+    if (function_exists('drycured_dynamic_nav_entries')) {
+        foreach (drycured_dynamic_nav_entries() as $code => $entry) {
+            if (!isset($static[$code])) {
+                $static[$code] = $entry;
+            }
+        }
+    }
+
+    return $static;
 }
 
 function dcv62_prev_next_recipe_nav() {
@@ -4658,16 +4674,16 @@ add_action('wp_footer', function () {
 if (!function_exists('dcv12_batch01_recipe_registry')) {
     function dcv12_batch01_recipe_registry() {
         return [
-            'HR-SL-001' => ['order' => 1, 'title' => 'Slavonski kulen (PDO EU)', 'family' => 'kulen', 'slug' => 'hr-sl-001-slavonski-kulen-pdo-eu', 'region' => 'Slavonija, Baranja i Srijem'],
+            'HR-SL-001' => ['order' => 1, 'title' => 'Slavonski kulen', 'family' => 'kulen', 'slug' => 'hr-sl-001-slavonski-kulen-pdo-eu', 'region' => 'Slavonija, Baranja i Srijem'],
             'HR-SL-002' => ['order' => 2, 'title' => 'Kulenova seka', 'family' => 'kulen', 'slug' => 'hr-sl-002-kulenova-seka', 'region' => 'Slavonija, Baranja i Srijem'],
-            'HR-SL-003' => ['order' => 3, 'title' => 'Baranjski kulen (ZOZP EU)', 'family' => 'kulen', 'slug' => 'hr-sl-003-baranjski-kulen-zozp-eu', 'region' => 'Baranja'],
+            'HR-SL-003' => ['order' => 3, 'title' => 'Baranjski kulen', 'family' => 'kulen', 'slug' => 'hr-sl-003-baranjski-kulen-zozp-eu', 'region' => 'Baranja'],
             'HR-SL-004' => ['order' => 4, 'title' => 'Đakovački kulen', 'family' => 'kulen', 'slug' => 'hr-sl-004-dakovacki-kulen', 'region' => 'Đakovština'],
             'HR-SL-005' => ['order' => 5, 'title' => 'Slavonska domaća kobasica', 'family' => 'kobasica', 'slug' => 'hr-sl-005-slavonska-domaca-kobasica', 'region' => 'Slavonija, Baranja i Srijem'],
-            'HR-SL-006' => ['order' => 6, 'title' => 'Srijemska kobasica (OGP)', 'family' => 'kobasica', 'slug' => 'hr-sl-006-srijemska-kobasica-ogp', 'region' => 'Srijem'],
+            'HR-SL-006' => ['order' => 6, 'title' => 'Srijemska kobasica', 'family' => 'kobasica', 'slug' => 'hr-sl-006-srijemska-kobasica-ogp', 'region' => 'Srijem'],
             'HR-SL-007' => ['order' => 7, 'title' => 'Ratarske kobasice', 'family' => 'kobasica', 'slug' => 'hr-sl-007-ratarske-kobasice', 'region' => 'Slavonija, Baranja i Srijem'],
             'HR-SL-008' => ['order' => 8, 'title' => 'Baranjska kobasica', 'family' => 'kobasica', 'slug' => 'hr-sl-008-baranjska-kobasica', 'region' => 'Baranja'],
             'HR-SL-009' => ['order' => 9, 'title' => 'Baranjska salama', 'family' => 'salama', 'slug' => 'hr-sl-009-baranjska-salama', 'region' => 'Baranja'],
-            'HR-SL-010' => ['order' => 10, 'title' => 'Slavonska kobasica (ZOI EU 2023)', 'family' => 'kobasica', 'slug' => 'hr-sl-010-slavonska-kobasica-zoi-eu-2023', 'region' => 'Slavonija, Baranja i Srijem'],
+            'HR-SL-010' => ['order' => 10, 'title' => 'Slavonska kobasica', 'family' => 'kobasica', 'slug' => 'hr-sl-010-slavonska-kobasica-zoi-eu-2023', 'region' => 'Slavonija, Baranja i Srijem'],
             'HR-SL-012' => ['order' => 11, 'title' => 'Slavonska dimljena slanina', 'family' => 'slanina_panceta', 'slug' => 'hr-sl-012-slavonska-dimljena-slanina', 'region' => 'Slavonija, Baranja i Srijem'],
             'HR-SL-014' => ['order' => 12, 'title' => 'Slavonska dimljena šunka', 'family' => 'sunka', 'slug' => 'hr-sl-014-slavonska-dimljena-sunka', 'region' => 'Slavonija, Baranja i Srijem'],
             'HR-SL-015' => ['order' => 13, 'title' => 'Suha plećka slavonska', 'family' => 'cijeli_komad', 'slug' => 'hr-sl-015-suha-plecka-slavonska', 'region' => 'Slavonija, Baranja i Srijem'],
@@ -5447,6 +5463,9 @@ if (!function_exists('dcv12_apply_final_profile_overrides')) {
     function dcv12_apply_final_profile_overrides($profile, $code) {
     if (!is_array($profile)) {
         return $profile;
+    }
+    if (function_exists('drycured_apply_data_overrides')) {
+        $profile = drycured_apply_data_overrides($profile, $code);
     }
 
     $spices = array_values($profile['spices'] ?? []);
