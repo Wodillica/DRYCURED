@@ -83,3 +83,51 @@ function drycured_merge_recipe_overrides($profile, $ov) {
     }
     return $profile;
 }
+
+/*
+ * Override dcv6 micro-variations section after it's injected at priority 1250.
+ * Reads 'variations' key from _dry_recipe_overrides:
+ *   [{"title":"...", "text":"..."}, ...]
+ * Replaces the hardcoded Slavonska/Baranjska/Srijemska cards with recipe-specific content.
+ */
+add_filter('the_content', 'drycured_override_micro_variations', 1260);
+
+function drycured_override_micro_variations($content) {
+    if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {
+        return $content;
+    }
+    if (strpos($content, 'dcv6-variations') === false) {
+        return $content;
+    }
+
+    $post_id = get_the_ID();
+    $raw = get_post_meta($post_id, '_dry_recipe_overrides', true);
+    if (!$raw) return $content;
+    $ov = json_decode($raw, true);
+    if (!is_array($ov) || empty($ov['variations']) || !is_array($ov['variations'])) {
+        return $content;
+    }
+
+    $cards_html = '';
+    foreach ($ov['variations'] as $v) {
+        $cards_html .= '<article class="dcv6-info-card">' .
+            '<h3>' . esc_html($v['title'] ?? '') . '</h3>' .
+            '<p>' . esc_html($v['text'] ?? '') . '</p>' .
+            '</article>';
+    }
+
+    $new_section = '<section class="dcv5-panel dcv6-variations" id="varijacije">' .
+        '<h2><span>V</span>Mikroregionalne varijacije</h2>' .
+        '<p class="dcv5-section-note">Varijacije ne mijenjaju osnovnu sigurnosnu logiku recepta. One služe za razumijevanje lokalnog stila, začinskog naglaska i ritma pripreme.</p>' .
+        '<div class="dcv6-card-grid-three">' . $cards_html . '</div>' .
+        '</section>';
+
+    $content = preg_replace(
+        '/<section[^>]+dcv6-variations[^>]*>.*?<\/section>/su',
+        $new_section,
+        $content,
+        1
+    );
+
+    return $content;
+}
