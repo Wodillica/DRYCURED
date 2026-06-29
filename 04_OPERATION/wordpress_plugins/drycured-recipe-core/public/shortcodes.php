@@ -176,6 +176,45 @@ function drycured_view_link($target_view, $label, $current_view) {
     return '<a class="' . esc_attr($class) . '" href="' . $url . '">' . esc_html($label) . '</a>';
 }
 
+
+/**
+ * TRAJNA, STATIČKA lista kanonskih regija po državi.
+ *
+ * NE MIJENJATI ad-hoc — svaka izmjena zahtijeva eksplicitnu potvrdu Davora.
+ * Ova lista određuje što se prikazuje u Atlas prikazu (/recepti/?dry_view=atlas),
+ * neovisno o tome koje taxonomy terme trenutno imaju postovi u bazi.
+ *
+ * Kanonske HR regije prema HNK/tradicionalnoj regionalnoj podjeli (14 regija).
+ * Ostale države: navedene su najprepoznatljivije administrativne/kulinarsko-tradicijske
+ * regije. Proširiti samo na Davorov zahtjev.
+ *
+ * @return array  Associative: country_name => [region_name, ...]
+ */
+function drycured_canonical_regions_by_country() {
+    return [
+        // --- HRVATSKA (14 kanonskih regija) ---
+        'Hrvatska' => [
+            'Slavonija',
+            'Baranja',
+            'Srijem',
+            'Posavina',
+            'Podravina',
+            'Lika',
+            'Kvarner',
+            'Istra',
+            'Dalmacija',
+            'Banija',
+            'Gorski kotar',
+            'Zagorje',
+            'Međimurje',
+            'Središnja Hrvatska',
+        ],
+        // --- Ostale države: prikazati samo ako imaju ≥1 recept ---
+        // (kanonske regije za strane države nisu definirane ovdje;
+        //  njihove regije dolaze dinamički iz taxonomy terma)
+    ];
+}
+
 function drycured_render_atlas_view($posts) {
     $atlas = [];
 
@@ -196,6 +235,19 @@ function drycured_render_atlas_view($posts) {
         $atlas[$country]['count']++;
         $atlas[$country]['regions'][$region]['count']++;
         $atlas[$country]['regions'][$region]['categories'][$category]++;
+    }
+
+    // Dopuni Hrvatsku svim kanonskim regijama (prikazati i one s 0 recepata)
+    $canonical = drycured_canonical_regions_by_country();
+    foreach ($canonical as $can_country => $can_regions) {
+        if (!isset($atlas[$can_country])) {
+            $atlas[$can_country] = ['count' => 0, 'regions' => []];
+        }
+        foreach ($can_regions as $can_region) {
+            if (!isset($atlas[$can_country]['regions'][$can_region])) {
+                $atlas[$can_country]['regions'][$can_region] = ['count' => 0, 'categories' => []];
+            }
+        }
     }
 
     // Sortiraj po broju recepata
@@ -230,7 +282,19 @@ function drycured_render_atlas_view($posts) {
         // Regije — skrivene dok zemlja nije otvorena
         echo '<div class="drycured-atlas-regions">';
 
-        uasort($country_data['regions'], fn($a,$b) => $b['count'] - $a['count']);
+        // Sort: non-zero count regions first (by count DESC), then zero-count regions in canonical order
+        $canonical_order = $canonical[$country] ?? [];
+        uksort($country_data['regions'], function($a, $b) use ($country_data, $canonical_order) {
+            $ca = $country_data['regions'][$a]['count'] ?? 0;
+            $cb = $country_data['regions'][$b]['count'] ?? 0;
+            if ($ca !== $cb) return $cb - $ca;
+            // same count: preserve canonical order for 0-count regions
+            $ia = array_search($a, $canonical_order);
+            $ib = array_search($b, $canonical_order);
+            if ($ia === false) $ia = 999;
+            if ($ib === false) $ib = 999;
+            return $ia - $ib;
+        });
 
         foreach ($country_data['regions'] as $region => $region_data) {
             // Preskoči besmislene regije

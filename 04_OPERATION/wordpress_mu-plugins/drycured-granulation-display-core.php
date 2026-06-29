@@ -102,7 +102,7 @@ function dcg11_insert_box($html, $box) {
     $count = 0;
 
     $html2 = preg_replace(
-        '/(<h[1-5][^>]*>\s*Mljevenje\s*<\/h[1-5]>)/iu',
+        '/(<h[1-5][^>]*>\s*Mljevenje[^<]*<\/h[1-5]>)/iu',
         '$1' . $box,
         $html,
         1,
@@ -113,36 +113,34 @@ function dcg11_insert_box($html, $box) {
         return $html2;
     }
 
-    // Find 'Mljevenje' outside JSON-LD <script> blocks to avoid false matches in
-    // schema.org markup (application/ld+json) that appears before the visible heading.
-    // PREG_OFFSET_CAPTURE gives byte offsets; we stay in bytes throughout this block.
-    $search_after = 0;
-    if (preg_match_all(
-        '/<script[^>]+application\/ld\+json[^>]*>.*?<\/script>/su',
-        $html, $ld_blocks, PREG_OFFSET_CAPTURE
-    )) {
-        foreach ($ld_blocks[0] as $block) {
-            $block_end = (int) $block[1] + strlen($block[0]);
-            if ($block_end > $search_after) {
-                $search_after = $block_end;
+    // Fallback: strip ALL <script> blocks before searching for 'Mljevenje'.
+    // Skipping only JSON-LD was insufficient: regular <script> blocks containing
+    // JS data (phaseSpecs objects) also contain 'Mljevenje i rezanje' as a key,
+    // and injecting the box into JS string literals breaks the entire page.
+    // Split HTML into alternating non-script / script chunks; search only non-script.
+    $parts = preg_split('/(<script[^>]*>.*?<\/script>)/su', $html, -1, PREG_SPLIT_DELIM_CAPTURE);
+    $prefix_len = 0;
+    for ($pi = 0; $pi < count($parts); $pi++) {
+        $part = $parts[$pi];
+        if ($pi % 2 === 1) {
+            // script block — skip entirely
+            $prefix_len += strlen($part);
+            continue;
+        }
+        // non-script chunk — safe to search
+        $pos = mb_stripos($part, 'Mljevenje', 0, 'UTF-8');
+        if ($pos !== false) {
+            $local_byte = strlen(mb_substr($part, 0, $pos, 'UTF-8'));
+            $abs = $prefix_len + $local_byte;
+            $insert_pos = strpos($html, '</', $abs);
+            if ($insert_pos !== false) {
+                $close_pos = strpos($html, '>', $insert_pos);
+                if ($close_pos !== false) {
+                    return substr($html, 0, $close_pos + 1) . $box . substr($html, $close_pos + 1);
+                }
             }
         }
-    }
-
-    $search_area = $search_after > 0 ? substr($html, $search_after) : $html;
-    $pos = mb_stripos($search_area, 'Mljevenje', 0, 'UTF-8');
-    if ($pos !== false) {
-        // Convert character position within $search_area to absolute byte offset in $html
-        $byte_pos = strlen(mb_substr($search_area, 0, $pos, 'UTF-8'));
-        $abs = $search_after + $byte_pos;
-
-        $insert_pos = strpos($html, '</', $abs);
-        if ($insert_pos !== false) {
-            $close_pos = strpos($html, '>', $insert_pos);
-            if ($close_pos !== false) {
-                return substr($html, 0, $close_pos + 1) . $box . substr($html, $close_pos + 1);
-            }
-        }
+        $prefix_len += strlen($part);
     }
 
     return str_replace('</body>', $box . '</body>', $html);
