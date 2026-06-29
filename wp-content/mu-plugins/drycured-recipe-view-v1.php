@@ -3651,6 +3651,110 @@ if (!defined('ABSPATH')) {
 }
 
 add_filter('the_content', 'dcv62_recipe_content_cleanup', 1400);
+// dcv62_start_html_inject_buffer is registered at priority 0 via aaa-drycured-registry-01B.php
+
+function dcv62_start_html_inject_buffer() {
+    if (!is_singular('dry_recipe')) { return; }
+    ob_start('dcv62_html_inject_filter');
+}
+
+function dcv62_html_inject_filter($html) {
+    if (strpos($html, 'dcv5-recipe') === false) { return $html; }
+    if (strpos($html, '<nav class="dcv62-prevnext"') !== false) { return $html; }
+
+    // 1) Ukloni karticu usporedbe i povezane recepte.
+    $html = preg_replace('/\s*<section class="dcv5-panel dcv6-compare" id="usporedba">.*?<\/section>/s', '', $html);
+    $html = preg_replace('/\s*<section class="dcv5-panel dcv6-related" id="povezani">.*?<\/section>/s', '', $html);
+
+    // 2) Premjesti procesnu kronologiju gore, prije omjera smjese.
+    if (preg_match('/(<section class="dcv5-panel" id="kronologija">.*?<\/section>)/s', $html, $match)) {
+        $kronologija = $match[1];
+        $html = str_replace($kronologija, '', $html);
+        $html = str_replace(
+            '<section class="dcv5-panel" id="omjer">',
+            $kronologija . "
+" . '<section class="dcv5-panel" id="omjer">',
+            $html
+        );
+    }
+
+    // 3) Ukloni linkove iz bočne navigacije.
+    $html = str_replace('<a href="#povezani">Povezani recepti<\/a>', '', $html);
+    $html = str_replace('<a href="#usporedba">Usporedba<\/a>', '', $html);
+
+    // 4) Dodaj prethodni/sljedeći recept.
+    // Koristi dcv62_build_nav_html jer ob_start unutar ob callback-a (nakon exit) ne radi.
+    if (function_exists('dcv62_build_nav_html')) {
+        $prevnext = dcv62_build_nav_html();
+        if ($prevnext) {
+            if (strpos($html, 'id="dnevnik"') !== false) {
+                // dcv5 layout (HR-* recepti): inject nakon dnevnik sekcije
+                $html = preg_replace(
+                    '/(<section class="dcv5-panel" id="dnevnik">.*?<\/section>)/s',
+                    '$1' . "
+" . $prevnext,
+                    $html,
+                    1
+                );
+            } elseif (strpos($html, '<main class="dcv5-main">') !== false) {
+                // dc-canon / md-fallback layout (MD-* recepti): inject nakon </main>
+                $html = str_replace('</main>', '</main>' . "
+" . $prevnext, $html);
+            }
+        }
+    }
+
+    return $html;
+}
+
+function dcv62_build_nav_html() {
+    $post_id = get_the_ID();
+    if (!$post_id) {
+        $post_id = get_queried_object_id();
+    }
+    $code = get_post_meta($post_id, '_dry_recipe_id', true);
+    if (!$code) { return ''; }
+
+    $registry = dcv62_recipe_nav_registry();
+    $codes = array_keys($registry);
+    $index = array_search($code, $codes, true);
+    if ($index === false) { return ''; }
+
+    $prev = $index > 0 ? $registry[$codes[$index - 1]] : null;
+    $next = $index < count($codes) - 1 ? $registry[$codes[$index + 1]] : null;
+    if (!$prev && !$next) { return ''; }
+
+    $html = '<nav class="dcv62-prevnext" aria-label="Navigacija između recepata">' . "
+";
+
+    if ($prev) {
+        $url = esc_url(dcv62_recipe_link_by_slug($prev['slug'], $prev['slug']));
+        $html .= '<a class="dcv62-prevnext-link dcv62-prev" href="' . $url . '">';
+        $html .= '<span>&#8592; Prethodni recept</span>';
+        $html .= '<strong>' . esc_html($prev['title']) . '</strong>';
+        $html .= '</a>' . "
+";
+    } else {
+        $html .= '<span class="dcv62-prevnext-spacer" aria-hidden="true"></span>' . "
+";
+    }
+
+    if ($next) {
+        $url = esc_url(dcv62_recipe_link_by_slug($next['slug'], $next['slug']));
+        $html .= '<a class="dcv62-prevnext-link dcv62-next" href="' . $url . '">';
+        $html .= '<span>Sljedeći recept &#8594;</span>';
+        $html .= '<strong>' . esc_html($next['title']) . '</strong>';
+        $html .= '</a>' . "
+";
+    } else {
+        $html .= '<span class="dcv62-prevnext-spacer" aria-hidden="true"></span>' . "
+";
+    }
+
+    $html .= '</nav>' . "
+";
+    return $html;
+}
 
 function dcv62_recipe_content_cleanup($content) {
     if (!is_singular('dry_recipe') || !in_the_loop() || !is_main_query()) {
@@ -3685,8 +3789,7 @@ function dcv62_recipe_content_cleanup($content) {
 
     // 4) Dodaj prethodni/sljedeći recept nakon dnevnika šarže.
     $prevnext = dcv62_prev_next_recipe_nav();
-
-    if ($prevnext && strpos($content, 'dcv62-prevnext') === false) {
+    if ($prevnext && strpos($content, '<nav class="dcv62-prevnext"') === false) {
         $content = preg_replace(
             '/(<section class="dcv5-panel" id="dnevnik">.*?<\/section>)/s',
             '$1' . "\n" . $prevnext,

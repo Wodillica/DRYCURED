@@ -125,3 +125,6 @@ function drycured_dynamic_nav_entries() {
     return $entries;
 }
 
+// dcv62 nav inject buffer — must be registered early (before product-gate priority-0 exit)
+add_action('template_redirect', 'dcv62_start_html_inject_buffer', 0);
+
