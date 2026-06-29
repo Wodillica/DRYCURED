@@ -237,8 +237,8 @@ function drycured_canonical_regions_by_country() {
         ],
         // --- FRANCUSKA ---
         'Francuska' => [
-            'Bourgogne-Franche-Comté', 'Nouvelle-Aquitaine', 'Normandie',
-            'Bretagne', 'Alsace', 'Auvergne-Rhône-Alpes', 'Provence', 'Francuska',
+            'Bourgogne-Franche-Comté', 'Nouvelle-Aquitaine', 'Pays Basque', 'Bayonne',
+            'Normandie', 'Bretagne', 'Alsace', 'Auvergne-Rhône-Alpes', 'Provence', 'Francuska',
         ],
         // --- UJEDINJENO KRALJEVSTVO ---
         'Ujedinjeno Kraljevstvo' => [
@@ -250,7 +250,7 @@ function drycured_canonical_regions_by_country() {
         ],
         // --- BELGIJA ---
         'Belgija' => [
-            'Flandrija', 'Valonija', 'Ardeni', 'Belgija',
+            'Flandrija', 'Valonija', 'Ardeni', 'Antwerpen', 'Belgija',
         ],
         // --- ŠPANJOLSKA ---
         'Španjolska' => [
