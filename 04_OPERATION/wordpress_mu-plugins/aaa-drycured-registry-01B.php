@@ -20,7 +20,6 @@ function drycured_01B_registry_entries() {
         'HR-LI-001' => ['order' => 110, 'title' => 'Lička kobasica', 'family' => 'kobasica', 'slug' => 'hr-li-001-licka-kobasica', 'region' => 'Lika'],
         'HR-DA-001' => ['order' => 120, 'title' => 'Sinjska kobasica', 'family' => 'kobasica', 'slug' => 'hr-da-001-sinjska-kobasica', 'region' => 'Dalmacija (Cetinska krajina)'],
         'HR-DA-002' => ['order' => 121, 'title' => 'Korčulanska kobasica', 'family' => 'kobasica', 'slug' => 'hr-da-002-korculanska-kobasica', 'region' => 'Dalmacija (otok Korčula)'],
-        'HR-DA-003' => ['order' => 122, 'title' => 'Hvarska prstena kobasica', 'family' => 'kobasica', 'slug' => 'hr-da-003-hvarska-prstena-kobasica', 'region' => 'Dalmacija (otok Hvar)'],
         'HR-DA-004' => ['order' => 123, 'title' => 'Vrgorački kulen', 'family' => 'kulen', 'slug' => 'hr-da-004-vrgoracki-kulen', 'region' => 'Dalmacija (Vrgorac, Zagora)'],
     ];
 }
@@ -74,6 +73,13 @@ if (!function_exists('dcv12_batch01_recipe_registry')) {
             'HR-SL-036' => ['order' => 30, 'title' => 'Slavonska čvarkovača (kobasica od čvaraka)', 'family' => 'kobasica', 'slug' => 'hr-sl-036-slavonska-cvarkovaca-kobasica-od-cvaraka', 'region' => 'Slavonija, Baranja i Srijem'],
             'HR-SL-037' => ['order' => 31, 'title' => 'Vinkovačka kobasica', 'family' => 'kobasica', 'slug' => 'hr-sl-037-vinkovacka-kobasica', 'region' => 'Vinkovci i Srijem'],
             'HR-SL-038' => ['order' => 32, 'title' => 'Slavonska lovačka kobasica (divljač + svinjetina)', 'family' => 'kobasica', 'slug' => 'hr-sl-038-slavonska-lovacka-kobasica-divljac-svinjetina', 'region' => 'Slavonija, Baranja i Srijem'],
+            'HR-SL-039' => ['order' => 33, 'title' => 'Ilocka domaca kobasica', 'family' => 'kobasica', 'slug' => 'hr-sl-039-ilocka-domaca-kobasica', 'region' => 'Srijem (Ilok)'],
+            'HR-SL-040' => ['order' => 34, 'title' => 'Pakracko-lipicka cesnjovka', 'family' => 'kobasica', 'slug' => 'hr-sl-040-pakracko-lipicka-cesnjovka', 'region' => 'Zapadna Slavonija'],
+            'HR-SL-041' => ['order' => 35, 'title' => 'Daruvarski domaci spek', 'family' => 'slanina', 'slug' => 'hr-sl-041-daruvarski-domaci-spek', 'region' => 'Zapadna Slavonija'],
+            'HR-IS-005' => ['order' => 105, 'title' => 'Istarska kosnica', 'family' => 'salama', 'slug' => 'hr-is-005-istarska-kosnica', 'region' => 'Istra'],
+            'HR-LI-002' => ['order' => 111, 'title' => 'Licka kastradina', 'family' => 'kastradina', 'slug' => 'hr-li-002-licka-kastradina', 'region' => 'Lika'],
+            'HR-PR-001' => ['order' => 300, 'title' => 'Primorska domaca kobasica', 'family' => 'kobasica', 'slug' => 'hr-pr-001-primorska-domaca-kobasica', 'region' => 'Hrvatsko primorje'],
+            'HR-CE-001' => ['order' => 400, 'title' => 'Samoborska cesnjovka', 'family' => 'kobasica', 'slug' => 'hr-ce-001-samoborska-cesnjovka', 'region' => 'Samobor / Sredisnja Hrvatska'],
         ];
         return array_merge($original, drycured_01B_registry_entries());
     }
