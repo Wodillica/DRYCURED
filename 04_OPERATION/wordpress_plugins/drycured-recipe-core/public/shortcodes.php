@@ -30,7 +30,13 @@ function drycured_recipes_shortcode($atts = []) {
         $query_args['s'] = $search;
     }
 
-    $tax_query = ['relation' => 'AND'];
+    // Special case: 'neodredena-regija' filters posts with NO dry_region taxonomy term
+    if ($region === 'neodredena-regija') {
+        $tax_query = [['taxonomy' => 'dry_region', 'operator' => 'NOT EXISTS']];
+        $region = '';
+    } else {
+        $tax_query = ['relation' => 'AND'];
+    }
 
     $tax_map = [
         'dry_country'          => $country,
@@ -50,7 +56,9 @@ function drycured_recipes_shortcode($atts = []) {
         }
     }
 
-    if (count($tax_query) > 1) {
+    // Apply tax_query if any filters active (including NOT EXISTS for neodredena-regija)
+    $has_tax_filter = count($tax_query) > 1 || (count($tax_query) === 1 && isset($tax_query[0]['operator']));
+    if ($has_tax_filter) {
         $query_args['tax_query'] = $tax_query;
     }
 
@@ -177,123 +185,233 @@ function drycured_render_atlas_view($posts) {
         $category = drycured_first_term_or_default($post->ID, 'dry_product_category', 'Ostalo');
 
         if (!isset($atlas[$country])) {
-            $atlas[$country] = [
-                'count' => 0,
-                'regions' => [],
-            ];
+            $atlas[$country] = ['count' => 0, 'regions' => []];
         }
-
         if (!isset($atlas[$country]['regions'][$region])) {
-            $atlas[$country]['regions'][$region] = [
-                'count' => 0,
-                'categories' => [],
-            ];
+            $atlas[$country]['regions'][$region] = ['count' => 0, 'categories' => []];
         }
-
         if (!isset($atlas[$country]['regions'][$region]['categories'][$category])) {
             $atlas[$country]['regions'][$region]['categories'][$category] = 0;
         }
-
         $atlas[$country]['count']++;
         $atlas[$country]['regions'][$region]['count']++;
         $atlas[$country]['regions'][$region]['categories'][$category]++;
     }
 
+    // Sortiraj po broju recepata
+    uasort($atlas, fn($a,$b) => $b['count'] - $a['count']);
+
+    $current_country = sanitize_text_field($_GET['dry_country'] ?? '');
+    $current_region  = sanitize_text_field($_GET['dry_region']  ?? '');
+
     echo '<div class="drycured-atlas">';
 
     foreach ($atlas as $country => $country_data) {
-        echo '<section class="drycured-atlas-country">';
-        echo '<div class="drycured-atlas-title"><span>' . esc_html($country) . '</span><strong>' . intval($country_data['count']) . '</strong></div>';
+        $country_slug = sanitize_title(remove_accents($country));
+        // Otvori zemlju SAMO ako je eksplicitno odabrana
+        $is_open = ($current_country === $country_slug);
+        // Ako je filter aktivan, prikaži samo odabranu zemlju
+        if ($current_country !== '' && $current_country !== $country_slug) continue;
+
+        echo '<section class="drycured-atlas-country' . ($is_open ? ' is-open' : '') . '" data-country="' . esc_attr($country_slug) . '">';
+
+        // Naslov zemlje — klikabilni toggle
+        $country_url = add_query_arg([
+            'dry_country' => $country_slug,
+            'dry_view'    => 'atlas',
+        ], get_permalink());
+
+        echo '<div class="drycured-atlas-title drycured-country-toggle" role="button" tabindex="0">';
+        echo '<span>' . esc_html($country) . '</span>';
+        echo '<strong>' . intval($country_data['count']) . '</strong>';
+        echo '<span class="drycured-toggle-icon">›</span>';
+        echo '</div>';
+
+        // Regije — skrivene dok zemlja nije otvorena
+        echo '<div class="drycured-atlas-regions">';
+
+        uasort($country_data['regions'], fn($a,$b) => $b['count'] - $a['count']);
 
         foreach ($country_data['regions'] as $region => $region_data) {
-            echo '<div class="drycured-atlas-region">';
-            echo '<div class="drycured-atlas-region-title">' . esc_html($region) . ' <span>' . intval($region_data['count']) . '</span></div>';
+            // Preskoči besmislene regije
+            if (strlen($region) > 60 || strpos($region, '*') !== false) continue;
+
+            $region_slug = sanitize_title(remove_accents($region));
+            $reg_is_open = ($current_region === $region_slug);
+
+            echo '<div class="drycured-atlas-region' . ($reg_is_open ? ' is-open' : '') . '" data-region="' . esc_attr($region_slug) . '">';
+
+            // Naslov regije — klikabilni toggle
+            echo '<div class="drycured-atlas-region-title drycured-region-toggle" role="button" tabindex="0">';
+            echo '<span>' . esc_html($region) . '</span>';
+            echo '<em>' . intval($region_data['count']) . '</em>';
+            echo '<span class="drycured-toggle-icon">›</span>';
+            echo '</div>';
+
+            // Kategorije — skrivene dok regija nije otvorena
             echo '<div class="drycured-atlas-cats">';
 
+            arsort($region_data['categories']);
             foreach ($region_data['categories'] as $category => $count) {
                 $url = add_query_arg([
-                    'dry_region'   => sanitize_title(remove_accents($region)),
+                    'dry_country'  => $country_slug,
+                    'dry_region'   => $region_slug,
                     'dry_category' => sanitize_title(remove_accents($category)),
                     'dry_view'     => 'list',
                 ], get_permalink());
 
-                echo '<a href="' . esc_url($url) . '">' . esc_html($category . ' (' . $count . ')') . '</a>';
+                echo '<a href="' . esc_url($url) . '" class="drycured-cat-link">';
+                echo esc_html($category) . ' <span>(' . $count . ')</span>';
+                echo '</a>';
             }
 
-            echo '</div>';
-            echo '</div>';
+            // Link "Prikaži sve recepte iz regije"
+            $all_url = add_query_arg([
+                'dry_country' => $country_slug,
+                'dry_region'  => $region_slug,
+                'dry_view'    => 'list',
+            ], get_permalink());
+            echo '<a href="' . esc_url($all_url) . '" class="drycured-cat-link drycured-cat-all">';
+            echo 'Svi recepti <span>(' . intval($region_data['count']) . ')</span>';
+            echo '</a>';
+
+            echo '</div>'; // .drycured-atlas-cats
+            echo '</div>'; // .drycured-atlas-region
         }
 
-        echo '</section>';
+        echo '</div>'; // .drycured-atlas-regions
+        echo '</section>'; // .drycured-atlas-country
     }
 
-    echo '</div>';
+    echo '</div>'; // .drycured-atlas
+
+    // Inline JS za toggle
+    echo '<script>
+    document.querySelectorAll(".drycured-country-toggle").forEach(function(btn){
+        btn.addEventListener("click", function(){
+            var section = btn.closest(".drycured-atlas-country");
+            section.classList.toggle("is-open");
+        });
+    });
+    document.querySelectorAll(".drycured-region-toggle").forEach(function(btn){
+        btn.addEventListener("click", function(e){
+            e.stopPropagation();
+            var region = btn.closest(".drycured-atlas-region");
+            region.classList.toggle("is-open");
+        });
+    });
+    </script>';
 }
 
 function drycured_render_list_view($posts) {
+    $per_page = 30;
+    $current_page = max(1, intval($_GET['dry_page'] ?? 1));
+    $total = count($posts);
+    $total_pages = ceil($total / $per_page);
+    $offset = ($current_page - 1) * $per_page;
+    $paged = array_slice($posts, $offset, $per_page);
+
     echo '<div class="drycured-list-wrap">';
+
+    // Paginacija gore
+    if ($total_pages > 1) {
+        drycured_render_pagination($current_page, $total_pages, $total);
+    }
+
     echo '<table class="drycured-list-table">';
     echo '<thead><tr>';
-    echo '<th>Naziv</th>';
-    echo '<th>Zemlja</th>';
-    echo '<th>Regija</th>';
-    echo '<th>Vrsta</th>';
-    echo '<th>Meso</th>';
-    echo '<th>Postupak</th>';
-    echo '<th></th>';
+    echo '<th>Naziv</th><th>Zemlja</th><th>Regija</th><th>Vrsta</th><th></th>';
     echo '</tr></thead><tbody>';
 
-    foreach ($posts as $post) {
-        $country  = drycured_first_term_or_default($post->ID, 'dry_country', '');
-        $region   = drycured_first_term_or_default($post->ID, 'dry_region', '');
-        $category = drycured_first_term_or_default($post->ID, 'dry_product_category', '');
-        $meat     = drycured_terms_join($post->ID, 'dry_meat_type');
-        $process  = drycured_terms_join($post->ID, 'dry_process_type');
+    foreach ($paged as $post) {
+        $country  = drycured_first_term_or_default($post->ID, 'dry_country', '—');
+        $region   = drycured_first_term_or_default($post->ID, 'dry_region', '—');
+        $category = drycured_first_term_or_default($post->ID, 'dry_product_category', '—');
 
         echo '<tr>';
         echo '<td><a href="' . esc_url(get_permalink($post->ID)) . '">' . esc_html(get_the_title($post->ID)) . '</a></td>';
         echo '<td>' . esc_html($country) . '</td>';
         echo '<td>' . esc_html($region) . '</td>';
-        echo '<td>' . esc_html($category) . '</td>';
-        echo '<td>' . esc_html($meat) . '</td>';
-        echo '<td>' . esc_html($process) . '</td>';
-        echo '<td>';
-
-        if (get_post_meta($post->ID, '_dry_calculator_ready', true)) {
-            echo '<a class="drycured-mini-action" href="' . esc_url(home_url('/kalkulator/?recipe_id=' . rawurlencode(get_post_meta($post->ID, '_dry_recipe_id', true)))) . '">Izračunaj</a>';
-        }
-
-        echo '</td>';
+        echo '<td><span class="drycured-cat-badge">' . esc_html($category) . '</span></td>';
+        echo '<td><a class="drycured-btn-sm" href="' . esc_url(get_permalink($post->ID)) . '">Otvori →</a></td>';
         echo '</tr>';
     }
 
     echo '</tbody></table>';
+
+    // Paginacija dolje
+    if ($total_pages > 1) {
+        drycured_render_pagination($current_page, $total_pages, $total);
+    }
+
     echo '</div>';
 }
 
 function drycured_render_cards_view($posts) {
+    $per_page = 24;
+    $current_page = max(1, intval($_GET['dry_page'] ?? 1));
+    $total = count($posts);
+    $total_pages = ceil($total / $per_page);
+    $offset = ($current_page - 1) * $per_page;
+    $paged = array_slice($posts, $offset, $per_page);
+
+    if ($total_pages > 1) {
+        drycured_render_pagination($current_page, $total_pages, $total);
+    }
+
     echo '<div class="drycured-card-grid">';
 
-    foreach ($posts as $post) {
+    foreach ($paged as $post) {
+        $country  = drycured_first_term_or_default($post->ID, 'dry_country', '');
         $region   = drycured_first_term_or_default($post->ID, 'dry_region', '');
         $category = drycured_first_term_or_default($post->ID, 'dry_product_category', '');
-        $meat     = drycured_terms_join($post->ID, 'dry_meat_type');
+        $thumb    = get_the_post_thumbnail_url($post->ID, 'medium');
 
         echo '<article class="drycured-modern-card">';
-        echo '<h3><a href="' . esc_url(get_permalink($post->ID)) . '">' . esc_html(get_the_title($post->ID)) . '</a></h3>';
-        echo '<div class="drycured-card-meta">' . esc_html(implode(' · ', array_filter([$region, $category, $meat]))) . '</div>';
-        echo '<p>' . esc_html(get_the_excerpt($post->ID)) . '</p>';
-        echo '<div class="drycured-card-actions">';
-        echo '<a href="' . esc_url(get_permalink($post->ID)) . '">Otvori</a>';
 
-        if (get_post_meta($post->ID, '_dry_calculator_ready', true)) {
-            echo '<a href="' . esc_url(home_url('/kalkulator/?recipe_id=' . rawurlencode(get_post_meta($post->ID, '_dry_recipe_id', true)))) . '">Izračunaj</a>';
+        if ($thumb) {
+            echo '<div class="drycured-card-thumb"><img src="' . esc_url($thumb) . '" alt="" loading="lazy"></div>';
+        } else {
+            echo '<div class="drycured-card-thumb drycured-card-thumb--empty"><span>🥩</span></div>';
         }
 
+        echo '<div class="drycured-card-body">';
+        echo '<div class="drycured-card-meta">';
+        if ($country) echo '<span>' . esc_html($country) . '</span>';
+        if ($region && $region !== $country) echo '<span>' . esc_html($region) . '</span>';
+        echo '</div>';
+        echo '<h3><a href="' . esc_url(get_permalink($post->ID)) . '">' . esc_html(get_the_title($post->ID)) . '</a></h3>';
+        if ($category) echo '<span class="drycured-cat-badge">' . esc_html($category) . '</span>';
+        echo '<div class="drycured-card-actions">';
+        echo '<a class="drycured-btn-sm" href="' . esc_url(get_permalink($post->ID)) . '">Otvori recept</a>';
+        echo '</div>';
         echo '</div>';
         echo '</article>';
     }
 
+    echo '</div>';
+
+    if ($total_pages > 1) {
+        drycured_render_pagination($current_page, $total_pages, $total);
+    }
+}
+
+
+function drycured_render_pagination($current, $total_pages, $total_items) {
+    $args = $_GET;
+    echo '<div class="drycured-pagination">';
+    echo '<span class="drycured-pagination__info">' . intval($total_items) . ' recepata</span>';
+    for ($i = 1; $i <= $total_pages; $i++) {
+        $args['dry_page'] = $i;
+        $url = esc_url(add_query_arg($args, get_permalink()));
+        $cls = $i === $current ? 'drycured-page-btn is-active' : 'drycured-page-btn';
+        // Prikaži samo +/- 2 stranice oko trenutne
+        if ($i === 1 || $i === $total_pages || abs($i - $current) <= 2) {
+            echo '<a class="' . $cls . '" href="' . $url . '">' . $i . '</a>';
+        } elseif (abs($i - $current) === 3) {
+            echo '<span class="drycured-page-ellipsis">…</span>';
+        }
+    }
     echo '</div>';
 }
 
