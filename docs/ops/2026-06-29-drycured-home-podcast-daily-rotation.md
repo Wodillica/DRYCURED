@@ -44,3 +44,7 @@ Ako se sljedeći dan epizoda ne promijeni, potrebno je provjeriti Cloudflare cac
 ## Napomena
 
 U repozitorij se ne spremaju privatni tokeni, API ključevi, IP logovi, Cloudflare podaci, backup arhive ni drugi osjetljivi podaci.
+
+## Sigurnosna napomena
+
+U repozitorij se ne spremaju privatni tokeni, API ključevi, IP logovi, Cloudflare podaci, backup arhive ni drugi osjetljivi podaci.
