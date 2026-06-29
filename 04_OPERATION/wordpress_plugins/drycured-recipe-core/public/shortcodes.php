@@ -194,24 +194,125 @@ function drycured_canonical_regions_by_country() {
     return [
         // --- HRVATSKA (14 kanonskih regija) ---
         'Hrvatska' => [
-            'Slavonija',
-            'Baranja',
-            'Srijem',
-            'Posavina',
-            'Podravina',
-            'Lika',
-            'Kvarner',
-            'Istra',
-            'Dalmacija',
-            'Banija',
-            'Gorski kotar',
-            'Zagorje',
-            'Međimurje',
-            'Središnja Hrvatska',
+            'Slavonija', 'Baranja', 'Srijem', 'Posavina', 'Podravina',
+            'Lika', 'Kvarner', 'Istra', 'Dalmacija', 'Banija',
+            'Gorski kotar', 'Zagorje', 'Međimurje', 'Središnja Hrvatska',
         ],
-        // --- Ostale države: prikazati samo ako imaju ≥1 recept ---
-        // (kanonske regije za strane države nisu definirane ovdje;
-        //  njihove regije dolaze dinamički iz taxonomy terma)
+        // --- ITALIJA ---
+        'Italija' => [
+            'Emilia-Romagna', 'Alto Adige', 'Toscana', 'Calabria', 'Piemonte',
+            'Lombardia', 'Veneto', 'Sardegna', 'Sicilia', 'Lazio',
+            'Trentino', 'Friuli', 'Campania', 'Puglia', 'Italija',
+        ],
+        // --- GRČKA ---
+        'Grčka' => [
+            'Makedonia', 'Peloponez', 'Kreta', 'Epir', 'Egejski otoci',
+            'Jonski otoci', 'Trakija', 'Tesalija', 'Atika', 'Grčka',
+        ],
+        // --- GRČKA/CIPAR ---
+        'Grčka/Cipar' => [
+            'Cipar', 'Peloponez', 'Jonski otoci', 'Makedonia', 'Kreta', 'Grčka',
+        ],
+        // --- NORVEŠKA ---
+        'Norveška' => [
+            'Vestlandet', 'Østlandet', 'Sørlandet', 'Trøndelag', 'Nord-Norge', 'Norveška',
+        ],
+        // --- BUGARSKA ---
+        'Bugarska' => [
+            'Stara Planina', 'Trakija', 'Rodopi', 'Strandža', 'Bugarska',
+        ],
+        // --- NJEMAČKA ---
+        'Njemačka' => [
+            'Bavarska', 'Turingija', 'Vestfalija', 'Schleswig-Holstein',
+            'Baden-Württemberg', 'Porajnje', 'Saksonija', 'Njemačka',
+        ],
+        // --- AUSTRIJA ---
+        'Austrija' => [
+            'Tirol', 'Vorarlberg', 'Štajerska', 'Koruška', 'Salzburg',
+            'Donja Austrija', 'Gornja Austrija', 'Burgenland', 'Austrija',
+        ],
+        // --- ŠVICARSKA ---
+        'Švicarska' => [
+            'Graubünden', 'Valais', 'Appenzell', 'Bern', 'Zürich', 'Ticino', 'Švicarska',
+        ],
+        // --- FRANCUSKA ---
+        'Francuska' => [
+            'Bourgogne-Franche-Comté', 'Nouvelle-Aquitaine', 'Normandie',
+            'Bretagne', 'Alsace', 'Auvergne-Rhône-Alpes', 'Provence', 'Francuska',
+        ],
+        // --- UJEDINJENO KRALJEVSTVO ---
+        'Ujedinjeno Kraljevstvo' => [
+            'Engleska', 'Škotska', 'Wales', 'Sjeverna Irska',
+        ],
+        // --- ŠKOTSKA (zasebni unos) ---
+        'Škotska' => [
+            'Arbroath', 'Ayrshire', 'Škotska',
+        ],
+        // --- BELGIJA ---
+        'Belgija' => [
+            'Flandrija', 'Valonija', 'Ardeni', 'Belgija',
+        ],
+        // --- ŠPANJOLSKA ---
+        'Španjolska' => [
+            'Extremadura', 'Castilla y León', 'Katalonija', 'Baskija',
+            'Navarra', 'Andaluzija', 'Aragonija', 'Španjolska',
+        ],
+        // --- LITVA ---
+        'Litva' => [
+            'Suvalkija', 'Žemaitija', 'Aukštaitija', 'Dzūkija', 'Litva',
+        ],
+        // --- SLOVENIJA ---
+        'Slovenija' => [
+            'Gornja Savinjska dolina', 'Gorenjska', 'Primorska', 'Dolenjska', 'Slovenija',
+        ],
+        // --- RUMUNJSKA ---
+        'Rumunjska' => [
+            'Transilvanija', 'Muntenija', 'Oltenija', 'Moldavija (RO)', 'Rumunjska',
+        ],
+        // --- IRSKA ---
+        'Irska' => [
+            'Munster', 'Leinster', 'Connacht', 'Ulster', 'Irska',
+        ],
+        // --- FINSKA ---
+        'Finska' => [
+            'Lapland', 'Karelija', 'Savonia', 'Häme', 'Finska',
+        ],
+        // --- PORTUGAL ---
+        'Portugal' => [
+            'Alentejo', 'Minho', 'Trás-os-Montes', 'Algarve', 'Portugal',
+        ],
+        // --- ŠVEDSKA ---
+        'Švedska' => [
+            'Götaland', 'Svealand', 'Norrland', 'Smöland', 'Švedska',
+        ],
+        // --- BOSNA I HERCEGOVINA ---
+        'Bosna i Hercegovina' => [
+            'Hercegovina', 'Bosna', 'Bosna i Hercegovina',
+        ],
+        // --- CRNA GORA ---
+        'Crna Gora' => [
+            'Primorska Crna Gora', 'Sjeverna Crna Gora', 'Crna Gora',
+        ],
+        // --- POLSKA ---
+        'Poljska' => [
+            'Maloposka', 'Šleska', 'Mazovija', 'Pomerania', 'Poljska',
+        ],
+        // --- Jednočlane države (manji broj recepata) ---
+        'Albanija'    => ['Albanija'],
+        'Cipar'       => ['Cipar'],
+        'Danska'      => ['Danska'],
+        'Estonija'    => ['Estonija'],
+        'Island'      => ['Island'],
+        'Kosovo'      => ['Kosovo'],
+        'Mađarska'    => ['Mađarska'],
+        'Malta'       => ['Malta'],
+        'Moldavija'   => ['Moldavija'],
+        'Nizozemska'  => ['Nizozemska'],
+        'Rusija'      => ['Rusija'],
+        'Slovačka'    => ['Slovačka'],
+        'Turska'      => ['Turska'],
+        'Ukrajna'     => ['Ukrajna'],
+        'Engleska'    => ['Engleska'],
     ];
 }
 
