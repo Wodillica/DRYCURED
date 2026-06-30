@@ -1,0 +1,76 @@
+recipe_id: IT-PR-001
+wp_post_id: 2061
+title: "Prosciutto di Parma / Parmska šunka"
+country: "Italija"
+region: "Emilia-Romagna, područje Parme"
+product_family: "cijeli komad mesa"
+batch_size_kg: 10
+status: CANON_DRAFT
+
+identity:
+  short_description: "Prosciutto di Parma je talijanski sušeni svinjski but zaštićen oznakom PDO/DOP. U autentičnoj proizvodnji koriste se samo svinjski but i sol."
+  protected_status: "PDO / DOP"
+  source_confidence: high
+  public_warning: "Kućna ili edukativna izrada izvan propisanog područja i sustava kontrole ne smije se predstavljati kao službeni Prosciutto di Parma PDO."
+
+raw_materials:
+  - name: "svinjski but u komadu, s kožom i masnim pokrovom"
+    quantity_kg: 10.000
+    percent: 100
+    cut_dimensions_mm: "cijeli komad; ne rezati na manje komade"
+    note: "Za edukativnu Drycured šaržu koristi se 10 kg kao standard. Službeni PDO butovi imaju propisane uvjete i kontrolirani lanac."
+
+spices_and_additives:
+  - name: "morska sol"
+    quantity_g: "prema površinskom soljenju i masi buta; ne prikazivati kao univerzalnu fiksnu količinu"
+    note: "Službeni proizvod koristi sol; nitriti, nitrati, bojila i konzervansi se ne dodaju."
+
+forbidden_blocks:
+  grinding: true
+  casing: true
+  garlic_liquid: true
+  smoking: true
+
+process:
+  - phase: "Odabir i priprema buta"
+    text: "Koristi se svinjski but u komadu. Površina mora biti čista, bez oštećenja i bez znakova kvarenja. Komad se oblikuje tako da masni pokrov štiti meso tijekom dugog sušenja."
+    critical_control: "But ne smije imati neugodan miris, sluzavu površinu ni duboka oštećenja."
+  - phase: "Soljenje"
+    text: "Sol se nanosi na površinu buta. Kod autentične proizvodnje soljenje je kontrolirana faza u kojoj se ravnoteža soli prilagođava veličini i stanju buta."
+    critical_control: "Ne koristiti nitritnu sol ako se proizvod prikazuje kao Prosciutto di Parma stil."
+  - phase: "Hladno odležavanje nakon soljenja"
+    text: "Nakon soljenja but miruje u hladnim uvjetima kako bi se sol rasporedila kroz površinske slojeve i započela stabilizacija mesa."
+    critical_control: "Temperatura mora ostati niska i stabilna; površina ne smije razviti ljepljivost ili neugodan miris."
+  - phase: "Pranje i sušenje površine"
+    text: "Nakon faze soljenja i odmora površina se čisti od viška soli i nečistoća te se but suši u kontroliranom prostoru."
+    critical_control: "Sušenje mora biti postupno; prebrzo sušenje zatvara površinu i ostavlja vlažnu jezgru."
+  - phase: "Zaštita izloženog mišića"
+    text: "Izloženi dijelovi mišića u tradicionalnoj proizvodnji štite se smjesom svinjske masti i pomoćnih sastojaka kako bi se usporilo površinsko isušivanje."
+    critical_control: "Cilj je spriječiti tvrdu koru i omogućiti ravnomjerno zrenje."
+  - phase: "Dugo zrenje"
+    text: "Zrenje traje dugo i odvija se u prostoru s kontroliranom temperaturom, vlagom i strujanjem zraka. Kod službenog Prosciutto di Parma minimalno razdoblje zrenja je najmanje 14 mjeseci od prvog soljenja."
+    critical_control: "Gotovost se ne određuje samo kalendarom, nego mirisom, teksturom, gubitkom mase i kontrolom unutarnjeg stanja."
+
+done_when:
+  - "miris je čist, blag i zreo, bez kiselih, trulih ili amonijačnih nota"
+  - "površina je suha i stabilna, bez sluzi"
+  - "presjek je ujednačen, bez vlažne jezgre"
+  - "tekstura je čvrsta, ali ne staklasta ni pretvrda"
+
+common_errors_and_solutions:
+  - problem: "Tvrda kora, mekana jezgra"
+    cause: "Prebrzo sušenje, preniska relativna vlaga ili prejako strujanje zraka."
+    solution: "Usporiti sušenje, stabilizirati vlagu i smanjiti izravno strujanje zraka."
+  - problem: "Preslan proizvod"
+    cause: "Predugo ili preagresivno soljenje za masu buta."
+    solution: "Kod sljedeće šarže prilagoditi soljenje masi i debljini komada; ne dodavati sol bez evidencije."
+  - problem: "Neugodan miris uz kost"
+    cause: "Neispravna sirovina, loša higijena ili previsoka temperatura u ranoj fazi."
+    solution: "Proizvod ne koristiti; provjeriti higijenu, početnu temperaturu i kvalitetu sirovine."
+  - problem: "Užegla mast"
+    cause: "Predugo čuvanje na toplom, loša masnoća ili izloženost zraku i svjetlu."
+    solution: "Koristiti kvalitetan masni pokrov, držati stabilne uvjete i zaštititi proizvod od topline i svjetla."
+
+seo:
+  title: "Prosciutto di Parma — parmska šunka i proces zrenja"
+  description: "Prosciutto di Parma je talijanska PDO parmska šunka od svinjskog buta i soli, s dugim soljenjem, sušenjem i zrenjem bez dimljenja."

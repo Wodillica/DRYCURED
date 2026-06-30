@@ -1,0 +1,39 @@
+recipe_id: IT-PR-001
+wp_post_id: 2061
+current_title: "PROSCIUTTO DI PARMA - PARMSKA ŠUNKA"
+canonical_title: "Prosciutto di Parma / Parmska šunka"
+country: "Italija"
+region: "Emilia-Romagna, područje Parme"
+product_type: "sušeni svinjski but u komadu"
+status: SOURCE_CONFIRMED
+
+sources:
+  - type: "službena stranica / konzorcij"
+    title: "Consorzio del Prosciutto di Parma — Preparation of Parma Ham"
+    reliability: high
+    confirms:
+      - "Sastojci su svinjski but i sol."
+      - "Ne koriste se nitriti, nitrati, bojila ni konzervansi."
+  - type: "EU / oznaka izvornosti"
+    title: "Prosciutto di Parma PDO"
+    reliability: high
+    confirms:
+      - "Proizvod je zaštićen oznakom PDO/DOP."
+      - "Proces uključuje soljenje, odležavanje, pranje, sušenje i zrenje."
+  - type: "službeni opis procesa"
+    title: "Consorzio del Prosciutto di Parma — Making Parma Ham"
+    reliability: high
+    confirms:
+      - "Zrenje traje najmanje 14 mjeseci od prvog soljenja."
+      - "Završna kontrola uključuje provjeru mirisa iglom od konjske kosti i žig Ducal Crown."
+
+confirmed_facts:
+  - "Naziv Prosciutto di Parma je stvaran i službeno zaštićen."
+  - "Riječ je o cijelom svinjskom butu, ne o mljevenom proizvodu."
+  - "U javnom receptu ne smiju se prikazivati mljevenje, crijeva, češnjak ili tekućina od češnjaka."
+  - "Ne smije se sugerirati da kućna izrada izvan područja Parme daje službeni PDO proizvod."
+
+editorial_decisions:
+  - "Javni prikaz mora jasno odvojiti autentični Prosciutto di Parma PDO od edukativne tehnološke matrice za sušenje svinjskog buta."
+  - "Recept se standardizira na 10 kg radi Drycured sustava, ali uz napomenu da to nije službena PDO proizvodnja."
+  - "SEO se smije dodati tek nakon dorade javnog prikaza."
