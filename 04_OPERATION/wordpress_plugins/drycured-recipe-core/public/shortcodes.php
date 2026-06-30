@@ -200,8 +200,8 @@ function drycured_canonical_regions_by_country() {
         ],
         // --- ITALIJA ---
         'Italija' => [
-            'Emilia-Romagna', 'Alto Adige', 'Toscana', 'Calabria', 'Piemonte',
-            'Lombardia', 'Veneto', 'Sardegna', 'Sicilia', 'Lazio',
+            'Emilia-Romagna', 'Alto Adige', 'Toscana', 'Calabria', 'Marche', 'Piemonte',
+            'Lombardia', 'Veneto', 'Sardegna', 'Sicilia', 'Lazio', 'Umbria',
             'Trentino', 'Friuli', 'Campania', 'Puglia', 'Italija',
         ],
         // --- GRČKA ---
@@ -238,7 +238,7 @@ function drycured_canonical_regions_by_country() {
         // --- FRANCUSKA ---
         'Francuska' => [
             'Bourgogne-Franche-Comté', 'Nouvelle-Aquitaine', 'Pays Basque', 'Bayonne',
-            'Normandie', 'Bretagne', 'Alsace', 'Auvergne-Rhône-Alpes', 'Provence', 'Francuska',
+            'Normandie', 'Bretagne', 'Alsace', 'Auvergne-Rhône-Alpes', 'Provence', 'Korzika', 'Francuska',
         ],
         // --- UJEDINJENO KRALJEVSTVO ---
         'Ujedinjeno Kraljevstvo' => [
@@ -263,7 +263,7 @@ function drycured_canonical_regions_by_country() {
         ],
         // --- SLOVENIJA ---
         'Slovenija' => [
-            'Gornja Savinjska dolina', 'Gorenjska', 'Primorska', 'Dolenjska', 'Slovenija',
+            'Gornja Savinjska dolina', 'Prekmurje', 'Prlekija', 'Gorenjska', 'Primorska', 'Dolenjska', 'Slovenija',
         ],
         // --- RUMUNJSKA ---
         'Rumunjska' => [

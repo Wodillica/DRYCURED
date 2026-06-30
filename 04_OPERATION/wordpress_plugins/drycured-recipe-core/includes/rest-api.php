@@ -9,6 +9,7 @@ function drycured_register_recipe_rest_routes(){
     register_rest_route('drycured/v1','/filters',['methods'=>'GET','callback'=>'drycured_rest_get_filters','permission_callback'=>'__return_true']);
 }
 function drycured_rest_get_recipes(WP_REST_Request $req){
+    nocache_headers();
     $taxq=['relation'=>'AND']; $map=['country'=>'dry_country','region'=>'dry_region','microregion'=>'dry_microregion','category'=>'dry_product_category','type'=>'dry_product_type','meat'=>'dry_meat_type','process'=>'dry_process_type','method'=>'dry_preparation_method'];
     foreach($map as $p=>$tax){ $v=sanitize_text_field($req->get_param($p)); if($v) $taxq[]=['taxonomy'=>$tax,'field'=>'slug','terms'=>sanitize_title(remove_accents($v))]; }
     $args=['post_type'=>'dry_recipe','post_status'=>'publish','posts_per_page'=>min(1200,max(1,intval($req->get_param('per_page')?:1000))),'paged'=>max(1,intval($req->get_param('page')?:1)),'s'=>sanitize_text_field($req->get_param('search')?:''),'orderby'=>'title','order'=>'ASC'];
@@ -31,7 +32,28 @@ function drycured_item($pid,$full=false){
 }
 function drycured_all_terms($pid){ $tax=['dry_country','dry_region','dry_microregion','dry_product_category','dry_product_type','dry_process_type','dry_meat_type','dry_preparation_method','dry_difficulty','dry_recipe_status']; $out=[]; foreach($tax as $t) $out[$t]=drycured_terms($pid,$t); return $out; }
 function drycured_rest_get_filters(){ $tax=['dry_country','dry_region','dry_microregion','dry_product_category','dry_product_type','dry_process_type','dry_meat_type','dry_preparation_method','dry_difficulty','dry_recipe_status']; $out=[]; foreach($tax as $t){ $terms=get_terms(['taxonomy'=>$t,'hide_empty'=>false]); $out[$t]=is_wp_error($terms)?[]:array_map(fn($x)=>['name'=>$x->name,'slug'=>$x->slug,'count'=>$x->count],$terms); } return rest_ensure_response($out); }
-function drycured_atlas($items){ $a=[]; foreach($items as $it){ $c=$it['country']?:'Neodređena zemlja'; $r=$it['region']?:'Neodređena regija'; $cat=$it['category']?:'Ostalo'; $a[$c]['count']=($a[$c]['count']??0)+1; $a[$c]['regions'][$r]['count']=($a[$c]['regions'][$r]['count']??0)+1; $a[$c]['regions'][$r]['categories'][$cat]=($a[$c]['regions'][$r]['categories'][$cat]??0)+1; } return $a; }
+function drycured_atlas($items){
+    $a=[];
+    foreach($items as $it){
+        $c=$it['country']?:'Neodređena zemlja';
+        $r=$it['region']?:'Neodređena regija';
+        $cat=$it['category']?:'Ostalo';
+        $a[$c]['count']=($a[$c]['count']??0)+1;
+        $a[$c]['regions'][$r]['count']=($a[$c]['regions'][$r]['count']??0)+1;
+        $a[$c]['regions'][$r]['categories'][$cat]=($a[$c]['regions'][$r]['categories'][$cat]??0)+1;
+    }
+    // Seed canonical 0-count regions (drycured_canonical_regions_by_country defined in shortcodes.php,
+    // available at REST callback time since all plugin files are loaded before hooks fire)
+    if (function_exists('drycured_canonical_regions_by_country')) {
+        foreach (drycured_canonical_regions_by_country() as $cc => $regs) {
+            if (!isset($a[$cc])) $a[$cc] = ['count' => 0, 'regions' => []];
+            foreach ($regs as $cr) {
+                if (!isset($a[$cc]['regions'][$cr])) $a[$cc]['regions'][$cr] = ['count' => 0, 'categories' => []];
+            }
+        }
+    }
+    return $a;
+}
 
 function drycured_rest_get_regions_by_country($req){
     $country_slug = sanitize_text_field($req->get_param('country') ?? '');
