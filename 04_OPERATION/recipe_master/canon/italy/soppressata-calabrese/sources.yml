@@ -1,0 +1,6 @@
+recipe_id: IT-CA-001
+status: SOURCE_REVIEW_REQUIRED
+notes:
+  - Vizualni model je potvrđen.
+  - Sadržaj nije finalno verificiran.
+  - Prije PUBLIC_VERIFIED treba dopuniti izvorni dosje za crijevo, sastav, dimljenje i proces.

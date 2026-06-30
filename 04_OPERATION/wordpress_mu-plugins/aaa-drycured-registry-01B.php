@@ -12,6 +12,7 @@ if (!defined('ABSPATH')) { exit; }
 // Naša registracija recepata klastera 01-B
 function drycured_01B_registry_entries() {
     return [
+        'IT-CA-001' => ['order' => 2060, 'title' => 'Soppressata Calabrese / Kalabrijska soppressata', 'family' => 'kobasica', 'slug' => 'soppressata-calabrese-kalabrijska-soppressata', 'region' => 'Kalabrija'],
         'HR-IS-001' => ['order' => 101, 'title' => 'Istarska kobasica', 'family' => 'kobasica', 'slug' => 'hr-is-001-istarska-kobasica', 'region' => 'Istra'],
         'HR-IS-002' => ['order' => 102, 'title' => 'Rovinjska kobasica', 'family' => 'kobasica', 'slug' => 'hr-is-002-rovinjska-kobasica', 'region' => 'Istra'],
         'HR-IS-003' => ['order' => 103, 'title' => 'Pazinska kobasica', 'family' => 'kobasica', 'slug' => 'hr-is-003-pazinska-kobasica', 'region' => 'Istra'],

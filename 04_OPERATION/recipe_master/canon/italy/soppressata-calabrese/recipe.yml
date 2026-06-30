@@ -1,0 +1,17 @@
+recipe_id: IT-CA-001
+wp_post_id: 2060
+title: Soppressata Calabrese / Kalabrijska soppressata
+country: Italija
+region: Kalabrija
+product_family: mljeveni trajni proizvod u omotaču
+batch_size_kg: 10
+public_url: https://drycured.com/recepti-baza/soppressata-calabrese-kalabrijska-soppressata/
+status: IN_REVIEW_VISUAL_CHECK
+public_publish_allowed: false
+visual_model: DCV5_Istarska_kobasica_style
+open_issues:
+  - dopuniti javne sekcije sirovina
+  - dopuniti javne sekcije začina
+  - potvrditi promjer i duljinu crijeva
+  - potvrditi dimljenje i trajanje zrenja iz izvora
+  - zadržati noindex do završnog QA
