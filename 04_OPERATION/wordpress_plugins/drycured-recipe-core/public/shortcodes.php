@@ -312,7 +312,6 @@ function drycured_canonical_regions_by_country() {
         'Slovačka'    => ['Slovačka'],
         'Turska'      => ['Turska'],
         'Ukrajna'     => ['Ukrajna'],
-        'Engleska'    => ['Engleska'],
     ];
 }
 
