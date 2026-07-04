@@ -282,6 +282,14 @@ function drycured_canonical_regions_by_country() {
             'Götaland', 'Svealand', 'Norrland', 'Smöland', 'Švedska',
         ],
         // --- BOSNA I HERCEGOVINA ---
+        'Srbija' => [
+            'Vojvodina', 'Šumadija', 'Zapadna Srbija', 'Istočna Srbija',
+            'Južna i Istočna Srbija', 'Kosovo i Metohija', 'Beograd',
+        ],
+        'Sjeverna Makedonija' => [
+            'Vardar', 'Istočna Makedonija', 'Jugozapadna Makedonija',
+            'Pelagonia', 'Polog', 'Skoplje', 'Jugoistočna Makedonija', 'Severoistočna Makedonija',
+        ],
         'Bosna i Hercegovina' => [
             'Hercegovina', 'Bosna', 'Bosna i Hercegovina',
         ],
