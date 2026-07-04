@@ -244,10 +244,6 @@ function drycured_canonical_regions_by_country() {
         'Ujedinjeno Kraljevstvo' => [
             'Engleska', 'Škotska', 'Wales', 'Sjeverna Irska',
         ],
-        // --- ŠKOTSKA (zasebni unos) ---
-        'Škotska' => [
-            'Arbroath', 'Ayrshire', 'Škotska',
-        ],
         // --- BELGIJA ---
         'Belgija' => [
             'Flandrija', 'Valonija', 'Ardeni', 'Antwerpen', 'Belgija',
