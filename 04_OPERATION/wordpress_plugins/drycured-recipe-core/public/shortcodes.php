@@ -207,11 +207,7 @@ function drycured_canonical_regions_by_country() {
         // --- GRČKA ---
         'Grčka' => [
             'Makedonia', 'Peloponez', 'Kreta', 'Epir', 'Egejski otoci',
-            'Jonski otoci', 'Trakija', 'Tesalija', 'Atika', 'Grčka',
-        ],
-        // --- GRČKA/CIPAR ---
-        'Grčka/Cipar' => [
-            'Cipar', 'Peloponez', 'Jonski otoci', 'Makedonia', 'Kreta', 'Grčka',
+            'Jonski otoci', 'Trakija', 'Tesalija', 'Atika', 'Cipar', 'Grčka',
         ],
         // --- NORVEŠKA ---
         'Norveška' => [
@@ -282,6 +278,9 @@ function drycured_canonical_regions_by_country() {
             'Götaland', 'Svealand', 'Norrland', 'Smöland', 'Švedska',
         ],
         // --- BOSNA I HERCEGOVINA ---
+        'Češka' => ['Bohemija', 'Moravija', 'Šlezija'],
+        'Latvija' => ['Vidzeme', 'Kurzeme', 'Zemgale', 'Latgale'],
+        'Bjelorusija' => ['Minsk', 'Grodno', 'Brest', 'Vitebsk'],
         'Srbija' => [
             'Vojvodina', 'Šumadija', 'Zapadna Srbija', 'Istočna Srbija',
             'Južna i Istočna Srbija', 'Kosovo i Metohija', 'Beograd',
@@ -303,7 +302,6 @@ function drycured_canonical_regions_by_country() {
         ],
         // --- Jednočlane države (manji broj recepata) ---
         'Albanija'    => ['Albanija'],
-        'Cipar'       => ['Cipar'],
         'Danska'      => ['Danska'],
         'Estonija'    => ['Estonija'],
         'Island'      => ['Island'],
@@ -314,7 +312,7 @@ function drycured_canonical_regions_by_country() {
         'Nizozemska'  => ['Nizozemska'],
         'Rusija'      => ['Rusija'],
         'Slovačka'    => ['Slovačka'],
-        'Turska'      => ['Turska'],
+        'Turska'      => ['Sjeverni Cipar', 'Turska'],
         'Ukrajna'     => ['Ukrajna'],
     ];
 }
