@@ -26,6 +26,7 @@ function drycured_01B_registry_entries() {
         'HR-ZA-001' => ['order' => 161, 'title' => 'Zagorske kobasice', 'family' => 'kobasica', 'slug' => 'hr-za-001-zagorske-kobasice', 'region' => 'Zagorje'],
         'HR-ZA-002' => ['order' => 162, 'title' => 'Zagorske krvavice', 'family' => 'krvavica', 'slug' => 'hr-za-002-zagorske-krvavice', 'region' => 'Zagorje'],
         'HR-MM-001' => ['order' => 201, 'title' => "Meso 'z tiblice", 'family' => 'cijeli_komad', 'slug' => 'hr-mm-001-meso-z-tiblice', 'region' => 'Međimurje'],
+        'HR-MM-002' => ['order' => 202, 'title' => 'Međimurske crne čurke', 'family' => 'krvavica', 'slug' => 'hr-mm-002-medimurske-crne-curke', 'region' => 'Međimurje'],
         'HR-DA-001' => ['order' => 120, 'title' => 'Sinjska kobasica', 'family' => 'kobasica', 'slug' => 'hr-da-001-sinjska-kobasica', 'region' => 'Dalmacija (Cetinska krajina)'],
         'HR-DA-002' => ['order' => 121, 'title' => 'Korčulanska kobasica', 'family' => 'kobasica', 'slug' => 'hr-da-002-korculanska-kobasica', 'region' => 'Dalmacija (otok Korčula)'],
     ];
@@ -82,6 +83,7 @@ if (!function_exists('dcv12_batch01_recipe_registry')) {
         'HR-SL-039' => ['order' => 33, 'title' => 'Iločka domaća kobasica', 'family' => 'kobasica', 'slug' => 'hr-sl-039-ilocka-domaca-kobasica', 'region' => 'Srijem (Ilok)'],
             'HR-SL-040' => ['order' => 34, 'title' => 'Pakračko-lipička češnjovka', 'family' => 'kobasica', 'slug' => 'hr-sl-040-pakracko-lipicka-cesnjovka', 'region' => 'Zapadna Slavonija'],
             'HR-SL-046' => ['order' => 40, 'title' => 'Salaške kobasice', 'family' => 'kobasica', 'slug' => 'hr-sl-046-salaske-kobasice', 'region' => 'Slavonija, Baranja i Srijem'],
+            'HR-SL-047' => ['order' => 41, 'title' => 'Đakovačke kobasice', 'family' => 'kobasica', 'slug' => 'hr-sl-047-dakovacke-kobasice', 'region' => 'Đakovština'],
         'HR-SL-041' => ['order' => 35, 'title' => 'Daruvarski domaći špek', 'family' => 'slanina', 'slug' => 'hr-sl-041-daruvarski-domaci-spek', 'region' => 'Zapadna Slavonija'],
             'HR-IS-005' => ['order' => 105, 'title' => 'Istarska kosnica', 'family' => 'salama', 'slug' => 'hr-is-005-istarska-kosnica', 'region' => 'Istra'],
             'HR-LI-003' => ['order' => 112, 'title' => 'Velebitske kobasice', 'family' => 'kobasica', 'slug' => 'hr-li-003-velebitske-kobasice', 'region' => 'Lika'],
@@ -93,7 +95,12 @@ if (!function_exists('dcv12_batch01_recipe_registry')) {
         'HR-CE-004' => ['order' => 403, 'title' => 'Zagrebačke krvavice', 'family' => 'krvavica', 'slug' => 'hr-ce-004-zagrebacke-krvavice', 'region' => 'Zagreb i okolica'],
         'HR-CE-005' => ['order' => 404, 'title' => 'Domaće tlačenice', 'family' => 'tlacenica_svargl', 'slug' => 'hr-ce-005-domace-tlacenice', 'region' => 'Središnja Hrvatska'],
         'HR-CE-006' => ['order' => 405, 'title' => 'Domaće jetrenjače', 'family' => 'iznutrice', 'slug' => 'hr-ce-006-domace-jetrenjace', 'region' => 'Središnja Hrvatska'],
-        'HR-CE-001' => ['order' => 400, 'title' => 'Samoborska češnjovka', 'family' => 'kobasica', 'slug' => 'hr-ce-001-samoborska-cesnjovka', 'region' => 'Samobor / Sredisnja Hrvatska'],
+        'HR-CE-007' => ['order' => 406, 'title' => 'Domaće bijele krvavice', 'family' => 'krvavica', 'slug' => 'hr-ce-007-domace-bijele-krvavice', 'region' => 'Središnja Hrvatska'],
+        'HR-CE-008' => ['order' => 407, 'title' => 'Pikantne krvavice', 'family' => 'krvavica', 'slug' => 'hr-ce-008-pikantne-krvavice', 'region' => 'Središnja Hrvatska'],
+        'HR-CE-009' => ['order' => 408, 'title' => 'Dijetne krvavice', 'family' => 'krvavica', 'slug' => 'hr-ce-009-dijetne-krvavice', 'region' => 'Središnja Hrvatska'],
+        'HR-CE-010' => ['order' => 409, 'title' => 'Domaći pršut', 'family' => 'cijeli_komad', 'slug' => 'hr-ce-010-domaci-prsut', 'region' => 'Središnja Hrvatska'],
+        'HR-CE-011' => ['order' => 410, 'title' => 'Svinjska rolanka', 'family' => 'cijeli_komad', 'slug' => 'hr-ce-011-svinjska-rolanka', 'region' => 'Središnja Hrvatska'],
+        'HR-CE-001' => ['order' => 400, 'title' => 'Samoborska češnjovka', 'family' => 'kobasica', 'slug' => 'hr-ce-001-samoborska-cesnjovka', 'region' => 'Samobor / Središnja Hrvatska'],
         ];
         return array_merge($original, drycured_01B_registry_entries());
     }
