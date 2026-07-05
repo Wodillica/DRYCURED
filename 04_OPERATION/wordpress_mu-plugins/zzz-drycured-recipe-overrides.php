@@ -73,13 +73,21 @@ function drycured_merge_recipe_overrides($profile, $ov) {
     // quick_overrides: ['Dimljenje' => 'bez dimljenja', 'Trajanje' => '60–90 dana', ...]
     if (!empty($ov['quick_overrides']) && is_array($ov['quick_overrides'])) {
         $profile['quick'] = $profile['quick'] ?? [];
+        $__updated = [];
         foreach ($profile['quick'] as &$q) {
             $label = $q['label'] ?? '';
             if (isset($ov['quick_overrides'][$label])) {
                 $q['value'] = $ov['quick_overrides'][$label];
+                $__updated[] = $label;
             }
         }
         unset($q);
+        // Append labels not in family defaults (e.g. Dimljenje on tlacenica_svargl)
+        foreach ($ov['quick_overrides'] as $__lbl => $__val) {
+            if (!in_array($__lbl, $__updated, true)) {
+                $profile['quick'][] = ['label' => $__lbl, 'value' => $__val];
+            }
+        }
     }
     return $profile;
 }
