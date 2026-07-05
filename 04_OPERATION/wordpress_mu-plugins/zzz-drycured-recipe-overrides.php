@@ -89,6 +89,26 @@ function drycured_merge_recipe_overrides($profile, $ov) {
             }
         }
     }
+    // is_smoked=false: forsiraj Dim score na 0 i Dimljenje karticu na "bez dimljenja"
+    // Ovo se čita NAKON quick_overrides kako bi imalo prednost
+    if (array_key_exists('is_smoked', $ov) && $ov['is_smoked'] === false) {
+        if (!empty($profile['profile']) && is_array($profile['profile'])) {
+            foreach ($profile['profile'] as &$__sp) {
+                if (($__sp['name'] ?? '') === 'Dim') {
+                    $__sp['score'] = 0;
+                }
+            }
+            unset($__sp);
+        }
+        if (!empty($profile['quick']) && is_array($profile['quick'])) {
+            foreach ($profile['quick'] as &$__sq) {
+                if (($__sq['label'] ?? '') === 'Dimljenje') {
+                    $__sq['value'] = 'bez dimljenja';
+                }
+            }
+            unset($__sq);
+        }
+    }
     return $profile;
 }
 
