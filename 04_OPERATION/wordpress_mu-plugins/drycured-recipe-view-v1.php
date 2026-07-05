@@ -1414,7 +1414,7 @@ function dcv5_recipe_view_pilot_content($content) {
                             }
                         }
                     }
-                    if ($__total > 0 && $__fat > 0) {
+                    if ($__total > 0 && $__fat > 0 && ($recipe['family'] ?? '') === 'kobasica') {
                         $__fp = round($__fat / $__total * 100);
                         $__mp = 100 - $__fp;
                         echo '<div class="dcv5-composition">';
@@ -6185,6 +6185,16 @@ if (!function_exists('dcv14_final_ingredient_sanity_profile')) {
 
         $profile['materials'] = dcv14_dedupe_items($materials);
         $profile['spices'] = dcv14_dedupe_items($spices);
+
+        // Ako postoje stvarni elementi u liquids, ukloni fallback "ne dodaje" redove
+        $__real_liq = array_filter($liquids, function($__it) {
+            $__n = mb_strtolower(trim($__it['name'] ?? ''), 'UTF-8');
+            return strpos($__n, 'ne dodaje') === false && strpos($__n, 'nije naveden') === false;
+        });
+        if (!empty($__real_liq)) {
+            $liquids = array_values($__real_liq);
+        }
+
         $profile['liquids'] = dcv14_dedupe_items($liquids);
 
         return $profile;
