@@ -17,11 +17,17 @@ function drycured_01B_registry_entries() {
         'HR-IS-002' => ['order' => 102, 'title' => 'Rovinjska kobasica', 'family' => 'kobasica', 'slug' => 'hr-is-002-rovinjska-kobasica', 'region' => 'Istra'],
         'HR-IS-003' => ['order' => 103, 'title' => 'Pazinska kobasica', 'family' => 'kobasica', 'slug' => 'hr-is-003-pazinska-kobasica', 'region' => 'Istra'],
         'HR-IS-004' => ['order' => 104, 'title' => 'Žlomprt (istarski ombolo)', 'family' => 'cijeli_komad', 'slug' => 'hr-is-004-zlomprt-istarski-ombolo', 'region' => 'Istra'],
+        'HR-TU-002' => ['order' => 131, 'title' => 'Turopoljske kobasice', 'family' => 'kobasica', 'slug' => 'hr-tu-002-turopoljske-kobasice', 'region' => 'Turopolje'],
+        'HR-TU-003' => ['order' => 132, 'title' => 'Velikogoricke kobasice', 'family' => 'kobasica', 'slug' => 'hr-tu-003-velikogoricke-kobasice', 'region' => 'Turopolje'],
+        'HR-TU-004' => ['order' => 133, 'title' => 'Turopoljske devenice', 'family' => 'kobasica', 'slug' => 'hr-tu-004-turopoljske-devenice', 'region' => 'Turopolje'],
+        'HR-PO-002' => ['order' => 141, 'title' => 'Podravske kobasice', 'family' => 'kobasica', 'slug' => 'hr-po-002-podravske-kobasice', 'region' => 'Podravina'],
+        'HR-PO-003' => ['order' => 142, 'title' => 'Slatinske kobasice', 'family' => 'kobasica', 'slug' => 'hr-po-003-slatinske-kobasice', 'region' => 'Podravina (Slatina)'],
+        'HR-KU-001' => ['order' => 151, 'title' => 'Pokupske kobasice', 'family' => 'kobasica', 'slug' => 'hr-ku-001-pokupske-kobasice', 'region' => 'Pokuplje'],
+        'HR-ZA-001' => ['order' => 161, 'title' => 'Zagorske kobasice', 'family' => 'kobasica', 'slug' => 'hr-za-001-zagorske-kobasice', 'region' => 'Zagorje'],
+        'HR-ZA-002' => ['order' => 162, 'title' => 'Zagorske krvavice', 'family' => 'krvavica', 'slug' => 'hr-za-002-zagorske-krvavice', 'region' => 'Zagorje'],
         'HR-MM-001' => ['order' => 201, 'title' => "Meso 'z tiblice", 'family' => 'cijeli_komad', 'slug' => 'hr-mm-001-meso-z-tiblice', 'region' => 'Međimurje'],
-        'HR-LI-001' => ['order' => 110, 'title' => 'Lička kobasica', 'family' => 'kobasica', 'slug' => 'hr-li-001-licka-kobasica', 'region' => 'Lika'],
         'HR-DA-001' => ['order' => 120, 'title' => 'Sinjska kobasica', 'family' => 'kobasica', 'slug' => 'hr-da-001-sinjska-kobasica', 'region' => 'Dalmacija (Cetinska krajina)'],
         'HR-DA-002' => ['order' => 121, 'title' => 'Korčulanska kobasica', 'family' => 'kobasica', 'slug' => 'hr-da-002-korculanska-kobasica', 'region' => 'Dalmacija (otok Korčula)'],
-        'HR-DA-004' => ['order' => 123, 'title' => 'Vrgorački kulen', 'family' => 'kulen', 'slug' => 'hr-da-004-vrgoracki-kulen', 'region' => 'Dalmacija (Vrgorac, Zagora)'],
     ];
 }
 
@@ -59,7 +65,6 @@ if (!function_exists('dcv12_batch01_recipe_registry')) {
             'HR-SL-017' => ['order' => 15, 'title' => 'Slavonska jetrena kobasica', 'family' => 'iznutrice', 'slug' => 'hr-sl-017-slavonska-jetrena-kobasica', 'region' => 'Slavonija, Baranja i Srijem'],
             'HR-SL-018' => ['order' => 16, 'title' => 'Krvavica slavonska', 'family' => 'krvavica', 'slug' => 'hr-sl-018-krvavica-slavonska', 'region' => 'Slavonija, Baranja i Srijem'],
             'HR-SL-019' => ['order' => 17, 'title' => 'Tlačenica slavonska (švargl)', 'family' => 'tlacenica_svargl', 'slug' => 'hr-sl-019-tlacenica-slavonska-svargl', 'region' => 'Slavonija, Baranja i Srijem'],
-            'HR-SL-020' => ['order' => 18, 'title' => 'Vinkovačka šunka — suho soljena varijanta', 'family' => 'sunka', 'slug' => 'hr-sl-020-vinkovacka-sunka-suho-soljena-varijanta', 'region' => 'Vinkovci i Srijem'],
             'HR-SL-021' => ['order' => 19, 'title' => 'Slavonski lovački kulen (divljač + svinjetina)', 'family' => 'kulen', 'slug' => 'hr-sl-021-slavonski-lovacki-kulen-divljac-svinjetina', 'region' => 'Slavonija, Baranja i Srijem'],
             'HR-SL-022' => ['order' => 20, 'title' => 'Konjska salama Ploštine (talijanska manjina, Pakrac)', 'family' => 'salama', 'slug' => 'hr-sl-022-konjska-salama-plostine-talijanska-manjina-pakrac', 'region' => 'Pakrac i Ploštine'],
             'HR-SL-024' => ['order' => 21, 'title' => 'Slavonski dimljeni svinjski vrat', 'family' => 'cijeli_komad', 'slug' => 'hr-sl-024-slavonski-dimljeni-svinjski-vrat', 'region' => 'Slavonija, Baranja i Srijem'],
