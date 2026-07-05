@@ -196,7 +196,7 @@ function drycured_canonical_regions_by_country() {
         'Hrvatska' => [
             'Slavonija', 'Baranja', 'Srijem', 'Posavina', 'Podravina',
             'Lika', 'Kvarner', 'Istra', 'Dalmacija', 'Banija',
-            'Gorski kotar', 'Zagorje', 'Međimurje', 'Središnja Hrvatska',
+            'Gorski kotar', 'Zagorje', 'Međimurje', 'Središnja Hrvatska', 'Turopolje', 'Pokuplje',
         ],
         // --- ITALIJA ---
         'Italija' => [
